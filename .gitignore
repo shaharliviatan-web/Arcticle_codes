@@ -1,0 +1,64 @@
+# Large sequencing data files
+*.vcf
+*.vcf.gz
+*.bcf
+*.bam
+*.bai
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.cram
+
+# Reference genomes
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+
+# Index files
+*.csi
+*.tbi
+*.idx
+*.fai
+*.0123
+*.amb
+*.ann
+*.bwt
+*.bwt.2bit.64
+*.pac
+
+# PLINK files
+*.bim
+*.bed
+*.fam
+
+# GCTA / EMMAX binary outputs
+*.grm.bin
+*.grm.id
+*.grm.N.bin
+
+# Large result/intermediate files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# PDF files
+*.pdf
+
+# R binary cache files
+*.rds
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# MACOSX metadata
+__MACOSX/
+
+# Log files (optional - remove this line if you want to keep logs)
+# *.log

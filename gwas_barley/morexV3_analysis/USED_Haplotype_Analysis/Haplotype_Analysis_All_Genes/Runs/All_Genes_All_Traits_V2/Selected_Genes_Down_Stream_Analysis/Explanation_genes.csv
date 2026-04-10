@@ -1,0 +1,53 @@
+
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,HORVU.MOREX.r3.2HG0112910.vcf.gz,3,2,2,0.8,206,4,12|22|64|108,0.00110928185795767,0.00221856371591534,0.00769701779915563,0.177485097273227,TRUE,FALSE
+pectinesterase-like
+Gene role: likely a cell wall remodeling enzyme (pectin methylesterase/pectinesterase-like) involved in modifying pectin structure and cell wall properties.
+Relevance to β-glucan: moderate to indirect
+
+## gemini says no , gpt yes:
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,HORVU.MOREX.r3.3HG0299450.vcf.gz,9,6,2,0.4,196,3,11|48|137,0.000454651880236726,0.00272791128142036,0.00872931610054515,0.218232902513629,TRUE,FALSE
+protein LIKE COV 2-like
+Gene role: likely a COV1/COV-like developmental or cell-wall-associated protein, probably involved in tissue organization and cell wall-related development.
+Relevance to β-glucan: moderate to indirect
+
+
+### maybe, gemini recomand:
+betaglucan,HORVU.MOREX.r3.3HG0322580.vcf.gz,HORVU.MOREX.r3.3HG0322580,HORVU.MOREX.r3.3HG0322580.vcf.gz,14,4,2,0.5,170,4,26|35|50|59,0.0173179672336554,0.0692718689346217,0.110834990295395,1,FALSE,FALSE
+ xylan glycosyltransferase MUCI21-like - stonger connection! 
+
+------------------------------
+
+
+fiber,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,HORVU.MOREX.r3.7HG0729010.vcf.gz,4,1,2,0.5,234,2,17|217,8.97243157487409e-07,8.97243157487409e-07,3.45171118142991e-06,1.43558905197985e-05,TRUE,TRUE
+peroxidase 45-like
+Gene role: Cell wall-associated peroxidase likely involved in oxidative remodeling, cross-linking, or strengthening of cell wall components.
+Relevance to fiber: Moderate/indirect
+
+
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,HORVU.MOREX.r3.7HG0642350.vcf.gz,10,2,2,0.2,186,5,25|28|34|43|56,0.00401178992583345,0.00802357985166691,0.0128377277626671,0.128377277626671,TRUE,FALSE
+Putative BAHD Acyltransferase
+Gene role: Putative BAHD acyltransferase likely involved in acylation of cell wall-associated or secondary-metabolism compounds.
+Relevance to fiber: Moderate/indirect
+
+
+------------------------------------
+
+
+starch,HORVU.MOREX.r3.3HG0301750.vcf.gz,HORVU.MOREX.r3.3HG0301750,HORVU.MOREX.r3.3HG0301750.vcf.gz,5,1,2,0.4,196,3,14|89|93,6.8153995117069e-09,6.8153995117069e-09,1.81743986978851e-08,1.0904639218731e-07,TRUE,TRUE
+alpha-glucan phosphorylase
+Gene role: Alpha-glucan phosphorylase catalyzes reversible phosphorolysis of alpha-glucans, linking starch breakdown and glucan metabolism to glucose-1-phosphate production.
+Relevance to starch: Strong
+
+
+starch,HORVU.MOREX.r3.3HG0301770.vcf.gz,HORVU.MOREX.r3.3HG0301770,HORVU.MOREX.r3.3HG0301770.vcf.gz,13,10,2,0.6,137,6,13|15|17|18|20|54,2.80475949630414e-11,2.80475949630414e-10,1.49587173136221e-09,4.48761519408662e-09,TRUE,TRUE
+Alpha-glucan phosphorylase alpha 1-4
+ene role: Alpha-glucan phosphorylase catalyzes reversible phosphorolysis of alpha-1,4 glucans, linking starch turnover to glucose-1-phosphate metabolism.
+Relevance to starch: Strong
+
+
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,HORVU.MOREX.r3.3HG0301710.vcf.gz,7,5,2,0.85,205,4,21|25|31|128,1.71828152728313e-10,8.59140763641565e-10,3.43656305456626e-09,1.3746252218265e-08,TRUE,TRUE
+Phosphate transporter 43 PHT / Anion transporter
+Gene role: Phosphate/anion transporter involved in phosphate movement and general cellular nutrient homeostasis.
+Relevance to starch: moderate
+
+

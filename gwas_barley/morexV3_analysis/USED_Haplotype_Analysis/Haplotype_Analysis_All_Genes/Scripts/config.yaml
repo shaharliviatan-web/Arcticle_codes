@@ -1,0 +1,40 @@
+run_id: "All_Genes_All_Traits_V2"
+
+output_root: "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_Haplotype_Analysis/Haplotype_Analysis_All_Genes"
+
+traits:
+  - "betaglucan"
+  - "fiber"
+  - "starch"
+
+mgmin_values:
+  - 2
+  - 3
+
+epsilon_vector:
+  - 0.05
+  - 0.2
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.8
+  - 0.85
+
+minHap: 9
+hetmiss_as: "allele"
+keep_outliers: false
+
+continue_on_error: true
+overwrite_cache: false
+fail_fast: false
+
+vcf_root: "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_haplotype_vcfs_per_gene"
+pheno_root: "/mnt/data/shahar/gwas_barley/data/inputs"
+
+plink_bin: "plink"
+
+stats:
+  alpha: 0.05
+  within_gene_method: "holm"
+  across_gene_fdr_method: "BH"
+  across_gene_bonferroni: true

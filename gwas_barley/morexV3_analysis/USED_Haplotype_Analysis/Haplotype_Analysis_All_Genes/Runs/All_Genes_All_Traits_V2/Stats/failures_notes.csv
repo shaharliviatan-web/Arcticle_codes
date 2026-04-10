@@ -1,0 +1,685 @@
+trait,gene_file,gene_name,MGmin,epsilon,stage,status,message
+betaglucan,HORVU.MOREX.r3.1HG0011900.vcf.gz,HORVU.MOREX.r3.1HG0011900,2,,crosshap,crosshap_failed,"CrossHap failed: Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 9 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 9 to size 1."
+betaglucan,HORVU.MOREX.r3.1HG0011900.vcf.gz,HORVU.MOREX.r3.1HG0011900,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011910.vcf.gz,HORVU.MOREX.r3.1HG0011910,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011910.vcf.gz,HORVU.MOREX.r3.1HG0011910,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011910.vcf.gz,HORVU.MOREX.r3.1HG0011910,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011910.vcf.gz,HORVU.MOREX.r3.1HG0011910,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011910.vcf.gz,HORVU.MOREX.r3.1HG0011910,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011960.vcf.gz,HORVU.MOREX.r3.1HG0011960,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011960.vcf.gz,HORVU.MOREX.r3.1HG0011960,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011970.vcf.gz,HORVU.MOREX.r3.1HG0011970,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0011970.vcf.gz,HORVU.MOREX.r3.1HG0011970,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0012020.vcf.gz,HORVU.MOREX.r3.1HG0012020,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0012030.vcf.gz,HORVU.MOREX.r3.1HG0012030,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.1HG0012030.vcf.gz,HORVU.MOREX.r3.1HG0012030,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0012030.vcf.gz,HORVU.MOREX.r3.1HG0012030,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0012040.vcf.gz,HORVU.MOREX.r3.1HG0012040,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.1HG0012040.vcf.gz,HORVU.MOREX.r3.1HG0012040,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0012040.vcf.gz,HORVU.MOREX.r3.1HG0012040,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0012100.vcf.gz,HORVU.MOREX.r3.1HG0012100,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0012100.vcf.gz,HORVU.MOREX.r3.1HG0012100,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0012100.vcf.gz,HORVU.MOREX.r3.1HG0012100,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0012100.vcf.gz,HORVU.MOREX.r3.1HG0012100,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0012110.vcf.gz,HORVU.MOREX.r3.1HG0012110,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077680.vcf.gz,HORVU.MOREX.r3.1HG0077680,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.1HG0077680.vcf.gz,HORVU.MOREX.r3.1HG0077680,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0077680.vcf.gz,HORVU.MOREX.r3.1HG0077680,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077720.vcf.gz,HORVU.MOREX.r3.1HG0077720,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077730.vcf.gz,HORVU.MOREX.r3.1HG0077730,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.1HG0077730.vcf.gz,HORVU.MOREX.r3.1HG0077730,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0077730.vcf.gz,HORVU.MOREX.r3.1HG0077730,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.1HG0077770.vcf.gz,HORVU.MOREX.r3.1HG0077770,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077770.vcf.gz,HORVU.MOREX.r3.1HG0077770,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077770.vcf.gz,HORVU.MOREX.r3.1HG0077770,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077790.vcf.gz,HORVU.MOREX.r3.1HG0077790,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077790.vcf.gz,HORVU.MOREX.r3.1HG0077790,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077830.vcf.gz,HORVU.MOREX.r3.1HG0077830,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077830.vcf.gz,HORVU.MOREX.r3.1HG0077830,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0077840.vcf.gz,HORVU.MOREX.r3.1HG0077840,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.1HG0077840.vcf.gz,HORVU.MOREX.r3.1HG0077840,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0077840.vcf.gz,HORVU.MOREX.r3.1HG0077840,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0077860.vcf.gz,HORVU.MOREX.r3.1HG0077860,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077860.vcf.gz,HORVU.MOREX.r3.1HG0077860,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077870.vcf.gz,HORVU.MOREX.r3.1HG0077870,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.1HG0077870.vcf.gz,HORVU.MOREX.r3.1HG0077870,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112770.vcf.gz,HORVU.MOREX.r3.2HG0112770,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112770.vcf.gz,HORVU.MOREX.r3.2HG0112770,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112830.vcf.gz,HORVU.MOREX.r3.2HG0112830,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112840.vcf.gz,HORVU.MOREX.r3.2HG0112840,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112880.vcf.gz,HORVU.MOREX.r3.2HG0112880,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.2HG0112880.vcf.gz,HORVU.MOREX.r3.2HG0112880,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0112880.vcf.gz,HORVU.MOREX.r3.2HG0112880,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0112900.vcf.gz,HORVU.MOREX.r3.2HG0112900,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112900.vcf.gz,HORVU.MOREX.r3.2HG0112900,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0112920.vcf.gz,HORVU.MOREX.r3.2HG0112920,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191420.vcf.gz,HORVU.MOREX.r3.2HG0191420,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191440.vcf.gz,HORVU.MOREX.r3.2HG0191440,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.2HG0191440.vcf.gz,HORVU.MOREX.r3.2HG0191440,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191440.vcf.gz,HORVU.MOREX.r3.2HG0191440,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191450.vcf.gz,HORVU.MOREX.r3.2HG0191450,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191450.vcf.gz,HORVU.MOREX.r3.2HG0191450,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191450.vcf.gz,HORVU.MOREX.r3.2HG0191450,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191460.vcf.gz,HORVU.MOREX.r3.2HG0191460,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.2HG0191460.vcf.gz,HORVU.MOREX.r3.2HG0191460,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191460.vcf.gz,HORVU.MOREX.r3.2HG0191460,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191490.vcf.gz,HORVU.MOREX.r3.2HG0191490,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191510.vcf.gz,HORVU.MOREX.r3.2HG0191510,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191530.vcf.gz,HORVU.MOREX.r3.2HG0191530,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191540.vcf.gz,HORVU.MOREX.r3.2HG0191540,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191540.vcf.gz,HORVU.MOREX.r3.2HG0191540,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191540.vcf.gz,HORVU.MOREX.r3.2HG0191540,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191550.vcf.gz,HORVU.MOREX.r3.2HG0191550,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.2HG0191550.vcf.gz,HORVU.MOREX.r3.2HG0191550,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191550.vcf.gz,HORVU.MOREX.r3.2HG0191550,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191570.vcf.gz,HORVU.MOREX.r3.2HG0191570,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.2HG0191570.vcf.gz,HORVU.MOREX.r3.2HG0191570,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191570.vcf.gz,HORVU.MOREX.r3.2HG0191570,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.2HG0191580.vcf.gz,HORVU.MOREX.r3.2HG0191580,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191580.vcf.gz,HORVU.MOREX.r3.2HG0191580,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191580.vcf.gz,HORVU.MOREX.r3.2HG0191580,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191580.vcf.gz,HORVU.MOREX.r3.2HG0191580,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191580.vcf.gz,HORVU.MOREX.r3.2HG0191580,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.2HG0191580.vcf.gz,HORVU.MOREX.r3.2HG0191580,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225270.vcf.gz,HORVU.MOREX.r3.3HG0225270,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225270.vcf.gz,HORVU.MOREX.r3.3HG0225270,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225290.vcf.gz,HORVU.MOREX.r3.3HG0225290,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225290.vcf.gz,HORVU.MOREX.r3.3HG0225290,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225290.vcf.gz,HORVU.MOREX.r3.3HG0225290,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225300.vcf.gz,HORVU.MOREX.r3.3HG0225300,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225300.vcf.gz,HORVU.MOREX.r3.3HG0225300,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225300.vcf.gz,HORVU.MOREX.r3.3HG0225300,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225300.vcf.gz,HORVU.MOREX.r3.3HG0225300,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225300.vcf.gz,HORVU.MOREX.r3.3HG0225300,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225300.vcf.gz,HORVU.MOREX.r3.3HG0225300,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225310.vcf.gz,HORVU.MOREX.r3.3HG0225310,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225320.vcf.gz,HORVU.MOREX.r3.3HG0225320,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225320.vcf.gz,HORVU.MOREX.r3.3HG0225320,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225320.vcf.gz,HORVU.MOREX.r3.3HG0225320,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225330.vcf.gz,HORVU.MOREX.r3.3HG0225330,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225330.vcf.gz,HORVU.MOREX.r3.3HG0225330,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225330.vcf.gz,HORVU.MOREX.r3.3HG0225330,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225340.vcf.gz,HORVU.MOREX.r3.3HG0225340,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225340.vcf.gz,HORVU.MOREX.r3.3HG0225340,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225340.vcf.gz,HORVU.MOREX.r3.3HG0225340,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225360.vcf.gz,HORVU.MOREX.r3.3HG0225360,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225360.vcf.gz,HORVU.MOREX.r3.3HG0225360,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225370.vcf.gz,HORVU.MOREX.r3.3HG0225370,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225370.vcf.gz,HORVU.MOREX.r3.3HG0225370,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225380.vcf.gz,HORVU.MOREX.r3.3HG0225380,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225380.vcf.gz,HORVU.MOREX.r3.3HG0225380,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225380.vcf.gz,HORVU.MOREX.r3.3HG0225380,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225390.vcf.gz,HORVU.MOREX.r3.3HG0225390,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225390.vcf.gz,HORVU.MOREX.r3.3HG0225390,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225390.vcf.gz,HORVU.MOREX.r3.3HG0225390,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225410.vcf.gz,HORVU.MOREX.r3.3HG0225410,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225410.vcf.gz,HORVU.MOREX.r3.3HG0225410,2,,crosshap,crosshap_failed,"CrossHap failed: Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 3 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 3 to size 1."
+betaglucan,HORVU.MOREX.r3.3HG0225410.vcf.gz,HORVU.MOREX.r3.3HG0225410,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225420.vcf.gz,HORVU.MOREX.r3.3HG0225420,2,,crosshap,crosshap_failed,"CrossHap failed: Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 9 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 9 to size 1."
+betaglucan,HORVU.MOREX.r3.3HG0225420.vcf.gz,HORVU.MOREX.r3.3HG0225420,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225430.vcf.gz,HORVU.MOREX.r3.3HG0225430,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225430.vcf.gz,HORVU.MOREX.r3.3HG0225430,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225430.vcf.gz,HORVU.MOREX.r3.3HG0225430,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225440.vcf.gz,HORVU.MOREX.r3.3HG0225440,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225440.vcf.gz,HORVU.MOREX.r3.3HG0225440,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225440.vcf.gz,HORVU.MOREX.r3.3HG0225440,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225450.vcf.gz,HORVU.MOREX.r3.3HG0225450,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225490.vcf.gz,HORVU.MOREX.r3.3HG0225490,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225490.vcf.gz,HORVU.MOREX.r3.3HG0225490,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225490.vcf.gz,HORVU.MOREX.r3.3HG0225490,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0225500.vcf.gz,HORVU.MOREX.r3.3HG0225500,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0225500.vcf.gz,HORVU.MOREX.r3.3HG0225500,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225500.vcf.gz,HORVU.MOREX.r3.3HG0225500,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0225510.vcf.gz,HORVU.MOREX.r3.3HG0225510,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233920.vcf.gz,HORVU.MOREX.r3.3HG0233920,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233920.vcf.gz,HORVU.MOREX.r3.3HG0233920,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233920.vcf.gz,HORVU.MOREX.r3.3HG0233920,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233920.vcf.gz,HORVU.MOREX.r3.3HG0233920,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233920.vcf.gz,HORVU.MOREX.r3.3HG0233920,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233920.vcf.gz,HORVU.MOREX.r3.3HG0233920,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233920.vcf.gz,HORVU.MOREX.r3.3HG0233920,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0233930.vcf.gz,HORVU.MOREX.r3.3HG0233930,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0233930.vcf.gz,HORVU.MOREX.r3.3HG0233930,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0233930.vcf.gz,HORVU.MOREX.r3.3HG0233930,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,HORVU.MOREX.r3.3HG0287240,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,HORVU.MOREX.r3.3HG0287240,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,HORVU.MOREX.r3.3HG0287240,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,HORVU.MOREX.r3.3HG0287240,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,HORVU.MOREX.r3.3HG0287240,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287270.vcf.gz,HORVU.MOREX.r3.3HG0287270,2,,crosshap,crosshap_failed,CrossHap failed: 'x' must be an array of at least two dimensions
+betaglucan,HORVU.MOREX.r3.3HG0287270.vcf.gz,HORVU.MOREX.r3.3HG0287270,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287270.vcf.gz,HORVU.MOREX.r3.3HG0287270,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287290.vcf.gz,HORVU.MOREX.r3.3HG0287290,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287290.vcf.gz,HORVU.MOREX.r3.3HG0287290,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0287290.vcf.gz,HORVU.MOREX.r3.3HG0287290,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299460.vcf.gz,HORVU.MOREX.r3.3HG0299460,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0299460.vcf.gz,HORVU.MOREX.r3.3HG0299460,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0322600.vcf.gz,HORVU.MOREX.r3.3HG0322600,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.3HG0322610.vcf.gz,HORVU.MOREX.r3.3HG0322610,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0322610.vcf.gz,HORVU.MOREX.r3.3HG0322610,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0322610.vcf.gz,HORVU.MOREX.r3.3HG0322610,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0322650.vcf.gz,HORVU.MOREX.r3.3HG0322650,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0322650.vcf.gz,HORVU.MOREX.r3.3HG0322650,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0322650.vcf.gz,HORVU.MOREX.r3.3HG0322650,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322660.vcf.gz,HORVU.MOREX.r3.3HG0322660,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322680.vcf.gz,HORVU.MOREX.r3.3HG0322680,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.3HG0322680.vcf.gz,HORVU.MOREX.r3.3HG0322680,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0322680.vcf.gz,HORVU.MOREX.r3.3HG0322680,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.3HG0322690.vcf.gz,HORVU.MOREX.r3.3HG0322690,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322690.vcf.gz,HORVU.MOREX.r3.3HG0322690,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322690.vcf.gz,HORVU.MOREX.r3.3HG0322690,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.3HG0322690.vcf.gz,HORVU.MOREX.r3.3HG0322690,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.4HG0341540.vcf.gz,HORVU.MOREX.r3.4HG0341540,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.4HG0341540.vcf.gz,HORVU.MOREX.r3.4HG0341540,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.4HG0341540.vcf.gz,HORVU.MOREX.r3.4HG0341540,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.5HG0423910.vcf.gz,HORVU.MOREX.r3.5HG0423910,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.5HG0423910.vcf.gz,HORVU.MOREX.r3.5HG0423910,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.5HG0423980.vcf.gz,HORVU.MOREX.r3.5HG0423980,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.5HG0423980.vcf.gz,HORVU.MOREX.r3.5HG0423980,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.5HG0423990.vcf.gz,HORVU.MOREX.r3.5HG0423990,2,,crosshap,crosshap_failed,"CrossHap failed: Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 7 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 7 to size 1."
+betaglucan,HORVU.MOREX.r3.5HG0423990.vcf.gz,HORVU.MOREX.r3.5HG0423990,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.5HG0423990.vcf.gz,HORVU.MOREX.r3.5HG0423990,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.5HG0424010.vcf.gz,HORVU.MOREX.r3.5HG0424010,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.5HG0424010.vcf.gz,HORVU.MOREX.r3.5HG0424010,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.5HG0424010.vcf.gz,HORVU.MOREX.r3.5HG0424010,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0609520.vcf.gz,HORVU.MOREX.r3.6HG0609520,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0609520.vcf.gz,HORVU.MOREX.r3.6HG0609520,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0609520.vcf.gz,HORVU.MOREX.r3.6HG0609520,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627000.vcf.gz,HORVU.MOREX.r3.6HG0627000,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.6HG0627000.vcf.gz,HORVU.MOREX.r3.6HG0627000,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.6HG0627000.vcf.gz,HORVU.MOREX.r3.6HG0627000,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627020.vcf.gz,HORVU.MOREX.r3.6HG0627020,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627020.vcf.gz,HORVU.MOREX.r3.6HG0627020,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627040.vcf.gz,HORVU.MOREX.r3.6HG0627040,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627040.vcf.gz,HORVU.MOREX.r3.6HG0627040,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627070.vcf.gz,HORVU.MOREX.r3.6HG0627070,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.6HG0627070.vcf.gz,HORVU.MOREX.r3.6HG0627070,2,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627070.vcf.gz,HORVU.MOREX.r3.6HG0627070,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627080.vcf.gz,HORVU.MOREX.r3.6HG0627080,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627080.vcf.gz,HORVU.MOREX.r3.6HG0627080,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627090.vcf.gz,HORVU.MOREX.r3.6HG0627090,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627090.vcf.gz,HORVU.MOREX.r3.6HG0627090,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627100.vcf.gz,HORVU.MOREX.r3.6HG0627100,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.6HG0627100.vcf.gz,HORVU.MOREX.r3.6HG0627100,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.6HG0627100.vcf.gz,HORVU.MOREX.r3.6HG0627100,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.6HG0627110.vcf.gz,HORVU.MOREX.r3.6HG0627110,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627110.vcf.gz,HORVU.MOREX.r3.6HG0627110,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627110.vcf.gz,HORVU.MOREX.r3.6HG0627110,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627120.vcf.gz,HORVU.MOREX.r3.6HG0627120,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627120.vcf.gz,HORVU.MOREX.r3.6HG0627120,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627200.vcf.gz,HORVU.MOREX.r3.6HG0627200,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627200.vcf.gz,HORVU.MOREX.r3.6HG0627200,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.6HG0627200.vcf.gz,HORVU.MOREX.r3.6HG0627200,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675560.vcf.gz,HORVU.MOREX.r3.7HG0675560,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675560.vcf.gz,HORVU.MOREX.r3.7HG0675560,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675580.vcf.gz,HORVU.MOREX.r3.7HG0675580,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675580.vcf.gz,HORVU.MOREX.r3.7HG0675580,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675580.vcf.gz,HORVU.MOREX.r3.7HG0675580,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675630.vcf.gz,HORVU.MOREX.r3.7HG0675630,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675630.vcf.gz,HORVU.MOREX.r3.7HG0675630,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675630.vcf.gz,HORVU.MOREX.r3.7HG0675630,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0675630.vcf.gz,HORVU.MOREX.r3.7HG0675630,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0728470.vcf.gz,HORVU.MOREX.r3.7HG0728470,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.7HG0728470.vcf.gz,HORVU.MOREX.r3.7HG0728470,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0728470.vcf.gz,HORVU.MOREX.r3.7HG0728470,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0728480.vcf.gz,HORVU.MOREX.r3.7HG0728480,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0728480.vcf.gz,HORVU.MOREX.r3.7HG0728480,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.7HG0728500.vcf.gz,HORVU.MOREX.r3.7HG0728500,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.7HG0728500.vcf.gz,HORVU.MOREX.r3.7HG0728500,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0728500.vcf.gz,HORVU.MOREX.r3.7HG0728500,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0738080.vcf.gz,HORVU.MOREX.r3.7HG0738080,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738080.vcf.gz,HORVU.MOREX.r3.7HG0738080,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738080.vcf.gz,HORVU.MOREX.r3.7HG0738080,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738080.vcf.gz,HORVU.MOREX.r3.7HG0738080,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738110.vcf.gz,HORVU.MOREX.r3.7HG0738110,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.7HG0738110.vcf.gz,HORVU.MOREX.r3.7HG0738110,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0738110.vcf.gz,HORVU.MOREX.r3.7HG0738110,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0738120.vcf.gz,HORVU.MOREX.r3.7HG0738120,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738140.vcf.gz,HORVU.MOREX.r3.7HG0738140,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738140.vcf.gz,HORVU.MOREX.r3.7HG0738140,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738140.vcf.gz,HORVU.MOREX.r3.7HG0738140,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.7HG0738150.vcf.gz,HORVU.MOREX.r3.7HG0738150,2,,crosshap,crosshap_failed,"CrossHap failed: Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 18 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 18 to size 1."
+betaglucan,HORVU.MOREX.r3.7HG0738150.vcf.gz,HORVU.MOREX.r3.7HG0738150,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738150.vcf.gz,HORVU.MOREX.r3.7HG0738150,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+betaglucan,HORVU.MOREX.r3.7HG0738190.vcf.gz,HORVU.MOREX.r3.7HG0738190,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.7HG0738190.vcf.gz,HORVU.MOREX.r3.7HG0738190,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0738190.vcf.gz,HORVU.MOREX.r3.7HG0738190,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0738210.vcf.gz,HORVU.MOREX.r3.7HG0738210,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+betaglucan,HORVU.MOREX.r3.7HG0738210.vcf.gz,HORVU.MOREX.r3.7HG0738210,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+betaglucan,HORVU.MOREX.r3.7HG0738210.vcf.gz,HORVU.MOREX.r3.7HG0738210,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.1HG0051650.vcf.gz,HORVU.MOREX.r3.1HG0051650,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051650.vcf.gz,HORVU.MOREX.r3.1HG0051650,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051650.vcf.gz,HORVU.MOREX.r3.1HG0051650,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051650.vcf.gz,HORVU.MOREX.r3.1HG0051650,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051650.vcf.gz,HORVU.MOREX.r3.1HG0051650,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051650.vcf.gz,HORVU.MOREX.r3.1HG0051650,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051650.vcf.gz,HORVU.MOREX.r3.1HG0051650,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051660.vcf.gz,HORVU.MOREX.r3.1HG0051660,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+fiber,HORVU.MOREX.r3.1HG0051660.vcf.gz,HORVU.MOREX.r3.1HG0051660,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.1HG0051660.vcf.gz,HORVU.MOREX.r3.1HG0051660,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,HORVU.MOREX.r3.3HG0301080,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,HORVU.MOREX.r3.3HG0301080,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,HORVU.MOREX.r3.3HG0301080,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,HORVU.MOREX.r3.3HG0301080,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,HORVU.MOREX.r3.3HG0301080,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,HORVU.MOREX.r3.3HG0301080,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,HORVU.MOREX.r3.4HG0339140,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,HORVU.MOREX.r3.4HG0339140,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,HORVU.MOREX.r3.4HG0339140,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642320.vcf.gz,HORVU.MOREX.r3.7HG0642320,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642320.vcf.gz,HORVU.MOREX.r3.7HG0642320,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642360.vcf.gz,HORVU.MOREX.r3.7HG0642360,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642360.vcf.gz,HORVU.MOREX.r3.7HG0642360,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642360.vcf.gz,HORVU.MOREX.r3.7HG0642360,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0642370.vcf.gz,HORVU.MOREX.r3.7HG0642370,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+fiber,HORVU.MOREX.r3.7HG0642370.vcf.gz,HORVU.MOREX.r3.7HG0642370,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.7HG0642370.vcf.gz,HORVU.MOREX.r3.7HG0642370,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.7HG0642420.vcf.gz,HORVU.MOREX.r3.7HG0642420,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+fiber,HORVU.MOREX.r3.7HG0642420.vcf.gz,HORVU.MOREX.r3.7HG0642420,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.7HG0642420.vcf.gz,HORVU.MOREX.r3.7HG0642420,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.7HG0642460.vcf.gz,HORVU.MOREX.r3.7HG0642460,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642460.vcf.gz,HORVU.MOREX.r3.7HG0642460,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642460.vcf.gz,HORVU.MOREX.r3.7HG0642460,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,2,,crosshap,crosshap_failed,"CrossHap failed: Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 9 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 9 to size 1."
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729050.vcf.gz,HORVU.MOREX.r3.7HG0729050,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+fiber,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+fiber,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.2HG0179650.vcf.gz,HORVU.MOREX.r3.2HG0179650,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179660.vcf.gz,HORVU.MOREX.r3.2HG0179660,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+starch,HORVU.MOREX.r3.2HG0179660.vcf.gz,HORVU.MOREX.r3.2HG0179660,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.2HG0179660.vcf.gz,HORVU.MOREX.r3.2HG0179660,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.2HG0179670.vcf.gz,HORVU.MOREX.r3.2HG0179670,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179670.vcf.gz,HORVU.MOREX.r3.2HG0179670,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179670.vcf.gz,HORVU.MOREX.r3.2HG0179670,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179670.vcf.gz,HORVU.MOREX.r3.2HG0179670,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179670.vcf.gz,HORVU.MOREX.r3.2HG0179670,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179670.vcf.gz,HORVU.MOREX.r3.2HG0179670,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179680.vcf.gz,HORVU.MOREX.r3.2HG0179680,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179680.vcf.gz,HORVU.MOREX.r3.2HG0179680,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179680.vcf.gz,HORVU.MOREX.r3.2HG0179680,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+starch,HORVU.MOREX.r3.2HG0179690.vcf.gz,HORVU.MOREX.r3.2HG0179690,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179690.vcf.gz,HORVU.MOREX.r3.2HG0179690,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179690.vcf.gz,HORVU.MOREX.r3.2HG0179690,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179690.vcf.gz,HORVU.MOREX.r3.2HG0179690,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179690.vcf.gz,HORVU.MOREX.r3.2HG0179690,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.2HG0179700.vcf.gz,HORVU.MOREX.r3.2HG0179700,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+starch,HORVU.MOREX.r3.2HG0179700.vcf.gz,HORVU.MOREX.r3.2HG0179700,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.2HG0179700.vcf.gz,HORVU.MOREX.r3.2HG0179700,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.2HG0179740.vcf.gz,HORVU.MOREX.r3.2HG0179740,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+starch,HORVU.MOREX.r3.2HG0179740.vcf.gz,HORVU.MOREX.r3.2HG0179740,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.2HG0179740.vcf.gz,HORVU.MOREX.r3.2HG0179740,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.3HG0268130.vcf.gz,HORVU.MOREX.r3.3HG0268130,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,HORVU.MOREX.r3.3HG0301650,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,HORVU.MOREX.r3.3HG0301650,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,HORVU.MOREX.r3.3HG0301650,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301720.vcf.gz,HORVU.MOREX.r3.3HG0301720,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301750.vcf.gz,HORVU.MOREX.r3.3HG0301750,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301750.vcf.gz,HORVU.MOREX.r3.3HG0301750,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.3HG0301750.vcf.gz,HORVU.MOREX.r3.3HG0301750,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+starch,HORVU.MOREX.r3.3HG0301770.vcf.gz,HORVU.MOREX.r3.3HG0301770,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0676500.vcf.gz,HORVU.MOREX.r3.7HG0676500,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+starch,HORVU.MOREX.r3.7HG0676500.vcf.gz,HORVU.MOREX.r3.7HG0676500,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.7HG0676500.vcf.gz,HORVU.MOREX.r3.7HG0676500,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729010.vcf.gz,HORVU.MOREX.r3.7HG0729010,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729050.vcf.gz,HORVU.MOREX.r3.7HG0729050,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,3,,crosshap,crosshap_failed,CrossHap failed: object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon; excluded from stats.
+starch,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+starch,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,,,gene_stats,no_valid_tests_for_gene,Gene produced zero valid omnibus tests across all MGmin and epsilon values.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,,crosshap,crosshap_failed,"CrossHap failed: ℹ In argument: `POS = as.numeric(.data$POS)`.
+Caused by error in `.data$POS`:
+! Column `POS` not found in `.data`."
