@@ -1,0 +1,64 @@
+targets:
+  - trait: "betaglucan"
+    gene_file: "HORVU.MOREX.r3.2HG0112910.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.2HG0112910_Merged_Intersection.vcf.gz"
+    title: "HORVU.MOREX.r3.2HG0112910"
+    epsilon: 0.8
+    MGmin: 2
+    force_ref: null
+
+  - trait: "betaglucan"
+    gene_file: "HORVU.MOREX.r3.3HG0299450.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.3HG0299450_Merged_Intersection.vcf.gz"
+    title: "HORVU.MOREX.r3.3HG0299450"
+    epsilon: 0.8
+    MGmin: 2
+    force_ref: null
+
+  - trait: "betaglucan"
+    gene_file: "HORVU.MOREX.r3.3HG0322580.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.3HG0322580_Merged_Intersection.vcf.gz"
+    title: "Xylan glycosyltransferase MUCI21-like"
+    epsilon: 0.5
+    MGmin: 2
+    force_ref: null
+
+  - trait: "fiber"
+    gene_file: "HORVU.MOREX.r3.7HG0729010.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.7HG0729010_Merged_Intersection.vcf.gz"
+    title: "HORVU.MOREX.r3.7HG0729010"
+    epsilon: 0.5
+    MGmin: 2
+    force_ref: null
+
+  - trait: "fiber"
+    gene_file: "HORVU.MOREX.r3.7HG0642350.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.7HG0642350_Merged_Intersection.vcf.gz"
+    title: "Putative BAHD Acyltransferase"
+    epsilon: 0.2
+    MGmin: 2
+    force_ref: null
+
+  - trait: "starch"
+    gene_file: "HORVU.MOREX.r3.3HG0301750.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.3HG0301750_Merged_Intersection.vcf.gz"
+    title: "HORVU.MOREX.r3.3HG0301750"
+    epsilon: 0.4
+    MGmin: 2
+    force_ref: null
+
+  - trait: "starch"
+    gene_file: "HORVU.MOREX.r3.3HG0301770.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.3HG0301770_Merged_Intersection.vcf.gz"
+    title: "Alpha-glucan phosphorylase, H isozyme"
+    epsilon: 0.8
+    MGmin: 3
+    force_ref: null
+
+  - trait: "starch"
+    gene_file: "HORVU.MOREX.r3.3HG0301710.vcf.gz"
+    merged_vcf_file: "HORVU.MOREX.r3.3HG0301710_Merged_Intersection.vcf.gz"
+    title: "Phosphate transporter 43 PHT / Anion transporter"
+    epsilon: 0.85
+    MGmin: 2
+    force_ref: null

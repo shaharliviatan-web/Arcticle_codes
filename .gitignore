@@ -51,6 +51,9 @@
 # R binary cache files
 *.rds
 
+# Image files
+*.png
+
 # Python cache
 __pycache__/
 *.pyc
