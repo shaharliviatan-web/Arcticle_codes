@@ -1,0 +1,5 @@
+Trait	Heritability_h2	SE	P_value
+Betaglucans	0.0989	0.0492	8.5972e-06
+Fiber	0.1425	0.0529	3.0358e-12
+Protein	0.1417	0.0594	2.3617e-06
+Starch	0.2442	0.0652	0.0000e+00
