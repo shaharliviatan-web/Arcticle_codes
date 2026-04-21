@@ -1,4 +1,4 @@
-run_id: "All_Genes_All_Traits_V2"
+run_id: "All_Genes_All_Traits_With_Protein_V1"
 
 output_root: "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_Haplotype_Analysis/Haplotype_Analysis_All_Genes"
 
@@ -6,6 +6,7 @@ traits:
   - "betaglucan"
   - "fiber"
   - "starch"
+  - "protein"
 
 mgmin_values:
   - 2

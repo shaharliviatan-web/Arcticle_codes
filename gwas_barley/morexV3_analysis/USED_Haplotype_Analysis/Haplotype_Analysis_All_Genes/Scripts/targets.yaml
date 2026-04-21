@@ -539,6 +539,18 @@ targets:
     gene_file: "HORVU.MOREX.r3.7HG0729130.vcf.gz"
     title: "HORVU.MOREX.r3.7HG0729130.vcf.gz"
 
+  - trait: "protein"
+    gene_file: "HORVU.MOREX.r3.3HG0251990.vcf.gz"
+    title: "HORVU.MOREX.r3.3HG0251990.vcf.gz"
+
+  - trait: "protein"
+    gene_file: "HORVU.MOREX.r3.3HG0252000.vcf.gz"
+    title: "HORVU.MOREX.r3.3HG0252000.vcf.gz"
+
+  - trait: "protein"
+    gene_file: "HORVU.MOREX.r3.3HG0322650.vcf.gz"
+    title: "HORVU.MOREX.r3.3HG0322650.vcf.gz"
+
   - trait: "starch"
     gene_file: "HORVU.MOREX.r3.2HG0179650.vcf.gz"
     title: "HORVU.MOREX.r3.2HG0179650.vcf.gz"
