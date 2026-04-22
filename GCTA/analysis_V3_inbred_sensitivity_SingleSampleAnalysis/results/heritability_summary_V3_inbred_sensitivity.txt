@@ -1,0 +1,13 @@
+Trait	Model	Heritability_h2	SE	P_value
+Protein	inbred_noPC	0.248269	0.091094	2.3617e-06
+Starch	inbred_noPC	0.392611	0.084288	0.0000e+00
+Betaglucans	inbred_noPC	0.180015	0.081434	8.5973e-06
+Fiber	inbred_noPC	0.249411	0.081102	3.0358e-12
+Protein	inbred_2PC	0.248396	0.096955	9.3460e-05
+Starch	inbred_2PC	0.319052	0.091973	2.9712e-09
+Betaglucans	inbred_2PC	0.146336	0.087205	7.5415e-03
+Fiber	inbred_2PC	0.169153	0.085472	1.1146e-03
+Protein	inbred_5PC	0.267040	0.104296	1.0076e-04
+Starch	inbred_5PC	0.205343	0.104250	6.3608e-03
+Betaglucans	inbred_5PC	0.031086	0.085695	3.4736e-01
+Fiber	inbred_5PC	0.108616	0.096007	9.0427e-02
