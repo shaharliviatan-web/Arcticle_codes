@@ -1,0 +1,26 @@
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549376234	549380034	.	-	.	ID=gene:HORVU.MOREX.r3.2HG0179660;biotype=protein_coding;description=Dol-P-Glc:Glc(2)Man(9)GlcNAc(2)-PP-Dol	alpha-1%2C2-glucosyltransferase	[Source:Projected
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549380183	549384029	.	+	.	ID=gene:HORVU.MOREX.r3.2HG0179670;biotype=protein_coding;gene_id=HORVU.MOREX.r3.2HG0179670;logic_name=ipk_genes_hc		
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549408948	549409756	.	-	.	ID=gene:HORVU.MOREX.r3.2HG0179680;biotype=protein_coding;gene_id=HORVU.MOREX.r3.2HG0179680;logic_name=ipk_genes_hc		
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549509355	549513382	.	+	.	ID=gene:HORVU.MOREX.r3.2HG0179690;biotype=protein_coding;description=Adenine	phosphoribosyltransferase	5
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549514147	549514778	.	-	.	ID=gene:HORVU.MOREX.r3.2HG0179700;biotype=protein_coding;gene_id=HORVU.MOREX.r3.2HG0179700;logic_name=ipk_genes_hc		
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549566409	549566990	.	+	.	ID=gene:HORVU.MOREX.r3.2HG0179740;biotype=protein_coding;gene_id=HORVU.MOREX.r3.2HG0179740;logic_name=ipk_genes_hc		
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549583086	549584247	.	+	.	ID=gene:HORVU.MOREX.r3.2HG0179780;biotype=protein_coding;gene_id=HORVU.MOREX.r3.2HG0179780;logic_name=ipk_genes_hc		
+2H:549383850	2H:549163850-549603850	2H	IPK	gene	549370425	549375756	.	+	.	ID=gene:HORVU.MOREX.r3.2HG0179650;biotype=protein_coding;gene_id=HORVU.MOREX.r3.2HG0179650;logic_name=ipk_genes_hc		
+3H:546433616	3H:546213616-546653616	3H	IPK	gene	546327317	546327709	.	-	.	ID=gene:HORVU.MOREX.r3.3HG0301650;biotype=protein_coding;gene_id=HORVU.MOREX.r3.3HG0301650;logic_name=ipk_genes_hc		
+3H:546433616	3H:546213616-546653616	3H	IPK	gene	546468087	546468890	.	-	.	ID=gene:HORVU.MOREX.r3.3HG0301700;biotype=protein_coding;gene_id=HORVU.MOREX.r3.3HG0301700;logic_name=ipk_genes_hc		
+3H:546433616	3H:546213616-546653616	3H	IPK	gene	546473709	546477564	.	+	.	ID=gene:HORVU.MOREX.r3.3HG0301710;biotype=protein_coding;description=Phosphate	transporter	43
+3H:546433616	3H:546213616-546653616	3H	IPK	gene	546479164	546483019	.	+	.	ID=gene:HORVU.MOREX.r3.3HG0301720;biotype=protein_coding;gene_id=HORVU.MOREX.r3.3HG0301720;logic_name=ipk_genes_hc		
+3H:546433616	3H:546213616-546653616	3H	IPK	gene	546582184	546587549	.	+	.	ID=gene:HORVU.MOREX.r3.3HG0301750;biotype=protein_coding;gene_id=HORVU.MOREX.r3.3HG0301750;logic_name=ipk_genes_hc		
+3H:546433616	3H:546213616-546653616	3H	IPK	gene	546647501	546653321	.	+	.	ID=gene:HORVU.MOREX.r3.3HG0301770;biotype=protein_coding;gene_id=HORVU.MOREX.r3.3HG0301770;logic_name=ipk_genes_hc		
+3H:333768129	3H:333548129-333988129	3H	IPK	gene	333798228	333799721	.	-	.	ID=gene:HORVU.MOREX.r3.3HG0268130;biotype=protein_coding;gene_id=HORVU.MOREX.r3.3HG0268130;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573446798	573449876	.	+	.	ID=gene:HORVU.MOREX.r3.7HG0729020;biotype=protein_coding;description=High-affinity	nitrate	transporter%2C
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573604051	573605728	.	-	.	ID=gene:HORVU.MOREX.r3.7HG0729030;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729030;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573726587	573727907	.	+	.	ID=gene:HORVU.MOREX.r3.7HG0729050;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729050;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573791554	573793005	.	+	.	ID=gene:HORVU.MOREX.r3.7HG0729090;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729090;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573793434	573794861	.	-	.	ID=gene:HORVU.MOREX.r3.7HG0729100;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729100;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573797500	573799871	.	+	.	ID=gene:HORVU.MOREX.r3.7HG0729110;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729110;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573805532	573806294	.	-	.	ID=gene:HORVU.MOREX.r3.7HG0729130;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729130;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573389776	573391262	.	-	.	ID=gene:HORVU.MOREX.r3.7HG0729010;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729010;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573718137	573718745	.	-	.	ID=gene:HORVU.MOREX.r3.7HG0729040;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0729040;logic_name=ipk_genes_hc		
+7H:573606460	7H:573386460-573826460	7H	IPK	gene	573800157	573802112	.	-	.	ID=gene:HORVU.MOREX.r3.7HG0729120;biotype=protein_coding;description=Pentatricopeptide	repeat-containing	protein
+7H:151110354	7H:150890354-151330354	7H	IPK	gene	151239588	151240081	.	+	.	ID=gene:HORVU.MOREX.r3.7HG0676500;biotype=protein_coding;gene_id=HORVU.MOREX.r3.7HG0676500;logic_name=ipk_genes_hc		

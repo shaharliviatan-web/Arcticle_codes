@@ -44,7 +44,7 @@ LOGS="${ANALYSIS_DIR}/logs"
 mkdir -p "$INTERMEDIATES" "$RESULTS" "$LOGS"
 
 # -- Phenotypes --
-PHENOTYPES=( "Protein" "Starch" "Betaglucans" "Fiber" )
+PHENOTYPES=( "protein" "starch" "betaglucan" "fiber" )
 
 # -- Model definitions: label and number of PCs (0 = no qcovar) --
 declare -A MODEL_PC
@@ -161,7 +161,7 @@ for MODEL in "${MODEL_ORDER[@]}"; do
     fi
 
     for TRAIT in "${PHENOTYPES[@]}"; do
-        PHENOTYPE_FILE="${GCTA_INPUTS_DIR}/${TRAIT}_for_gcta.txt"
+        PHENOTYPE_FILE="${GCTA_INPUTS_DIR}/${TRAIT}_BLUP_for_GCTA.txt"
         RESULT_PREFIX="${RESULTS}/result_${TRAIT}_h2_inbred_${MODEL}"
         LOG_FILE="${LOGS}/stage3_reml_${TRAIT}_${MODEL}.log"
 
