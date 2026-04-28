@@ -16,7 +16,7 @@ suppressPackageStartupMessages({
 # CONFIG
 # ==============================================================================
 
-RUN_DIR <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_Haplotype_Analysis/Wild_And_Elite/Target_Genes_analysis_Crosshap_Heatmap_Violin_Graphs/Runs/8_Genes_Analysis_Upgraded_Heatmaps_V2"
+RUN_DIR <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_Haplotype_Analysis/Wild_And_Elite/Target_Genes_analysis_Crosshap_Heatmap_Violin_Graphs/Runs/Genes_Analysis_fixed_ref_violin_group_V1"
 
 TRAIT <- "starch"
 GENE_FILE <- "HORVU.MOREX.r3.3HG0301710.vcf.gz"

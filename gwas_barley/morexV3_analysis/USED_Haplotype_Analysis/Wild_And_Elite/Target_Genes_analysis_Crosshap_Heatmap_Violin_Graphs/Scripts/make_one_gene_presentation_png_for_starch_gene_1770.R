@@ -16,7 +16,7 @@ suppressPackageStartupMessages({
 # CONFIG
 # ==============================================================================
 
-RUN_DIR <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_Haplotype_Analysis/Wild_And_Elite/Target_Genes_analysis_Crosshap_Heatmap_Violin_Graphs/Runs/8_Genes_Analysis_Upgraded_Heatmaps_V2"
+RUN_DIR <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_Haplotype_Analysis/Wild_And_Elite/Target_Genes_analysis_Crosshap_Heatmap_Violin_Graphs/Runs/Genes_Analysis_fixed_ref_violin_group_V1"
 
 TRAIT <- "starch"
 GENE_FILE <- "HORVU.MOREX.r3.3HG0301770.vcf.gz"
@@ -25,7 +25,7 @@ GENE_TITLE <- "Alpha-glucan phosphorylase alpha 1-4"
 EPSILON <- 0.8
 MGMIN <- 3
 
-REFERENCE_HAP_ID <- "C"
+REFERENCE_HAP_ID <- "A"
 
 # Violin stays like the current tool: hap 0 excluded.
 EXCLUDE_HAP0_FROM_VIOLIN <- TRUE

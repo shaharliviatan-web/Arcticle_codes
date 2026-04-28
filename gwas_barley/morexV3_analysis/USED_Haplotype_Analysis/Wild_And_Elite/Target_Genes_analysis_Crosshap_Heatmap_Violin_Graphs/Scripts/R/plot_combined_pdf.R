@@ -52,12 +52,12 @@ build_violin_components <- function(HapObject, target, pheno, pairwise_method = 
   }
 
   if (is.null(ref_group_label)) {
-    group_means <- wild_data %>%
-      group_by(hap_label) %>%
-      summarize(m = mean(Pheno, na.rm = TRUE), .groups = "drop")
-    global_mean <- mean(wild_data$Pheno, na.rm = TRUE)
-    group_means$diff <- abs(group_means$m - global_mean)
-    ref_group_label <- group_means$hap_label[which.max(group_means$diff)]
+    match_idx <- grep("^A\n", wild_groups)
+    if (length(match_idx) > 0) {
+      ref_group_label <- wild_groups[match_idx[1]]
+    } else {
+      ref_group_label <- wild_groups[1]
+    }
   }
 
   other_groups <- wild_groups[wild_groups != ref_group_label]
