@@ -1,0 +1,374 @@
+LMM environmental drivers of nutritional BLUPs (Script C2 v2 streamlined)
+================================================================
+
+BLUP file:        BLUP_10_traits.csv
+Env  file:        merged_Evgeny_env_fitness_environmental_30_sites.csv
+Random structure: (1 | site_id), held fixed throughout step()
+Selection:        lmerTest::step(reduce.fixed=TRUE, reduce.random=FALSE)
+Collinearity:     iterative |r| > 0.8 filter (2 removed)
+
+10 input predictors:  pH, Electrical_Cond, Clay_pct, Silt_pct, Sand_pct, March_Temp, Precipitation, Organic_Carbon, Total_N, Elevation 
+
+Removed by filter (2): Sand_pct, March_Temp
+
+Retained for LMM (8): pH, Electrical_Cond, Clay_pct, Silt_pct, Precipitation, Organic_Carbon, Total_N, Elevation
+
+
+================================================================
+Trait: Protein  (ProteinCenterd)
+Final predictors: intercept only
+
+--- Standardized model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: ProteinCenterd ~ (1 | site_id)
+   Data: data_std
+
+REML criterion at convergence: 751.3
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.53725 -0.58404 -0.03022  0.56063  2.60063 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept) 0.3328   0.5769  
+ Residual             0.6482   0.8051  
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+            Estimate Std. Error       df t value Pr(>|t|)
+(Intercept) -0.08123    0.11710 27.99998  -0.694    0.494
+
+--- Raw-unit model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: fml_raw
+   Data: data_raw
+
+REML criterion at convergence: 751.3
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.53725 -0.58404 -0.03022  0.56063  2.60063 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept) 0.3328   0.5769  
+ Residual             0.6482   0.8051  
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+            Estimate Std. Error       df t value Pr(>|t|)
+(Intercept) -0.08123    0.11710 27.99998  -0.694    0.494
+
+--- step() decision log ---
+Backward reduced random-effect table:
+
+              Eliminated npar  logLik    AIC    LRT Df Pr(>Chisq)    
+<none>                     11 -381.72 785.45                         
+(1 | site_id)          0   10 -413.57 847.14 63.695  1  1.453e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Backward reduced fixed-effect table:
+Degrees of freedom method: Satterthwaite 
+
+                Eliminated  Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+Silt_pct                 1 0.02333 0.02333     1    20  0.0360 0.8514
+Clay_pct                 2 0.13474 0.13474     1    21  0.2079 0.6531
+Organic_Carbon           3 0.30361 0.30361     1    22  0.4684 0.5009
+pH                       4 0.21291 0.21291     1    23  0.3285 0.5721
+Precipitation            5 0.23277 0.23277     1    24  0.3591 0.5546
+Electrical_Cond          6 0.23546 0.23546     1    25  0.3633 0.5521
+Total_N                  7 0.80627 0.80627     1    26  1.2439 0.2749
+Elevation                8 0.85499 0.85499     1    27  1.3191 0.2608
+
+Model found:
+ProteinCenterd ~ (1 | site_id)
+
+================================================================
+Trait: Starch  (StarchCenterd)
+Final predictors: Silt_pct, Precipitation, Elevation
+
+--- Standardized model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: StarchCenterd ~ Silt_pct + Precipitation + Elevation + (1 | site_id)
+   Data: data_std
+
+REML criterion at convergence: 1558.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.2518 -0.6214  0.0565  0.6686  3.3223 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept)  6.778   2.603   
+ Residual             10.568   3.251   
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+              Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)    0.03739    0.51977 24.99995   0.072 0.943233    
+Silt_pct       2.42977    0.56238 24.99995   4.321 0.000217 ***
+Precipitation  3.08037    0.62092 24.99995   4.961 4.12e-05 ***
+Elevation     -2.04379    0.58155 24.99995  -3.514 0.001703 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Slt_pc Prcptt
+Silt_pct     0.000              
+Precipitatn  0.000 -0.351       
+Elevation    0.000  0.022 -0.424
+
+--- Raw-unit model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: fml_raw
+   Data: data_raw
+
+REML criterion at convergence: 1586.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.2518 -0.6214  0.0565  0.6686  3.3223 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept)  6.778   2.603   
+ Residual             10.568   3.251   
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+                Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)   -18.032906   3.051579  24.999953  -5.909 3.63e-06 ***
+Silt_pct        0.223171   0.051654  24.999953   4.321 0.000217 ***
+Precipitation   0.011912   0.002401  24.999953   4.961 4.12e-05 ***
+Elevation      -0.004779   0.001360  24.999953  -3.514 0.001703 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Slt_pc Prcptt
+Silt_pct    -0.937              
+Precipitatn  0.066 -0.351       
+Elevation   -0.002  0.022 -0.424
+
+--- step() decision log ---
+Backward reduced random-effect table:
+
+              Eliminated npar  logLik    AIC    LRT Df Pr(>Chisq)    
+<none>                     11 -775.96 1573.9                         
+(1 | site_id)          0   10 -816.67 1653.3 81.426  1  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Backward reduced fixed-effect table:
+Degrees of freedom method: Satterthwaite 
+
+                Eliminated  Sum Sq Mean Sq NumDF DenDF F value    Pr(>F)    
+pH                       1   0.036   0.036     1    20  0.0034 0.9543108    
+Total_N                  2   0.131   0.131     1    21  0.0124 0.9123982    
+Electrical_Cond          3   2.539   2.539     1    22  0.2403 0.6288700    
+Organic_Carbon           4   2.607   2.607     1    23  0.2467 0.6241435    
+Clay_pct                 5   5.238   5.238     1    24  0.4957 0.4881876    
+Silt_pct                 0 197.275 197.275     1    25 18.6667 0.0002168 ***
+Precipitation            0 260.096 260.096     1    25 24.6110 4.123e-05 ***
+Elevation                0 130.526 130.526     1    25 12.3508 0.0017030 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Model found:
+StarchCenterd ~ Silt_pct + Precipitation + Elevation + (1 | site_id)
+
+================================================================
+Trait: beta-glucan  (BetaglucansCenterd)
+Final predictors: Electrical_Cond, Silt_pct, Organic_Carbon
+
+--- Standardized model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: BetaglucansCenterd ~ Electrical_Cond + Silt_pct + Organic_Carbon +  
+    (1 | site_id)
+   Data: data_std
+
+REML criterion at convergence: 228.2
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6298 -0.6227  0.0160  0.5638  3.4566 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept) 0.03446  0.1856  
+ Residual             0.10588  0.3254  
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+                 Estimate Std. Error        df t value Pr(>|t|)   
+(Intercept)     -0.009067   0.039414 24.999996  -0.230  0.81994   
+Electrical_Cond  0.117785   0.039513 24.999996   2.981  0.00632 **
+Silt_pct        -0.117613   0.041169 24.999996  -2.857  0.00849 **
+Organic_Carbon  -0.112982   0.041137 24.999996  -2.746  0.01100 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Elct_C Slt_pc
+Elctrcl_Cnd  0.000              
+Silt_pct     0.000  0.040       
+Organc_Crbn  0.000 -0.006 -0.281
+
+--- Raw-unit model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: fml_raw
+   Data: data_raw
+
+REML criterion at convergence: 257.5
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6298 -0.6227  0.0160  0.5638  3.4566 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept) 0.03446  0.1856  
+ Residual             0.10588  0.3254  
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+                  Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)      9.349e-01  2.391e-01  2.500e+01   3.910 0.000624 ***
+Electrical_Cond  9.762e-05  3.275e-05  2.500e+01   2.981 0.006322 ** 
+Silt_pct        -1.080e-02  3.781e-03  2.500e+01  -2.857 0.008493 ** 
+Organic_Carbon  -6.372e-04  2.320e-04  2.500e+01  -2.746 0.011004 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Elct_C Slt_pc
+Elctrcl_Cnd -0.128              
+Silt_pct    -0.853  0.040       
+Organc_Crbn -0.227 -0.006 -0.281
+fit warnings:
+Some predictor variables are on very different scales: consider rescaling
+
+--- step() decision log ---
+Backward reduced random-effect table:
+
+              Eliminated npar  logLik    AIC    LRT Df Pr(>Chisq)    
+<none>                     11 -122.78 267.56                         
+(1 | site_id)          0   10 -139.99 299.99 34.425  1   4.43e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Backward reduced fixed-effect table:
+Degrees of freedom method: Satterthwaite 
+
+                Eliminated  Sum Sq Mean Sq NumDF DenDF F value   Pr(>F)   
+pH                       1 0.00466 0.00466     1    20  0.0440 0.835928   
+Elevation                2 0.00594 0.00594     1    21  0.0561 0.815123   
+Total_N                  3 0.03114 0.03114     1    22  0.2941 0.593050   
+Precipitation            4 0.02088 0.02088     1    23  0.1972 0.661112   
+Clay_pct                 5 0.27476 0.27476     1    24  2.5950 0.120275   
+Electrical_Cond          0 0.94082 0.94082     1    25  8.8856 0.006322 **
+Silt_pct                 0 0.86416 0.86416     1    25  8.1616 0.008493 **
+Organic_Carbon           0 0.79867 0.79867     1    25  7.5431 0.011004 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Model found:
+BetaglucansCenterd ~ Electrical_Cond + Silt_pct + Organic_Carbon + (1 | site_id)
+
+================================================================
+Trait: Fiber  (FiberCenterd)
+Final predictors: Silt_pct, Precipitation, Elevation
+
+--- Standardized model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: FiberCenterd ~ Silt_pct + Precipitation + Elevation + (1 | site_id)
+   Data: data_std
+
+REML criterion at convergence: -99.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6422 -0.6326 -0.0740  0.5546  4.7067 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept) 0.01842  0.1357  
+ Residual             0.03241  0.1800  
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+              Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)   -0.02219    0.02733 25.00000  -0.812 0.424577    
+Silt_pct      -0.09033    0.02957 25.00000  -3.055 0.005294 ** 
+Precipitation -0.13730    0.03265 25.00000  -4.205 0.000292 ***
+Elevation      0.07976    0.03058 25.00000   2.608 0.015137 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Slt_pc Prcptt
+Silt_pct     0.000              
+Precipitatn  0.000 -0.351       
+Elevation    0.000  0.022 -0.424
+
+--- Raw-unit model summary ---
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: fml_raw
+   Data: data_raw
+
+REML criterion at convergence: -71.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6422 -0.6326 -0.0740  0.5546  4.7067 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ site_id  (Intercept) 0.01842  0.1357  
+ Residual             0.03241  0.1800  
+Number of obs: 290, groups:  site_id, 29
+
+Fixed effects:
+                Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    0.6876064  0.1604629 24.9999990   4.285 0.000238 ***
+Silt_pct      -0.0082967  0.0027162 24.9999990  -3.055 0.005294 ** 
+Precipitation -0.0005309  0.0001263 24.9999989  -4.205 0.000292 ***
+Elevation      0.0001865  0.0000715 24.9999989   2.608 0.015137 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Slt_pc Prcptt
+Silt_pct    -0.937              
+Precipitatn  0.066 -0.351       
+Elevation   -0.002  0.022 -0.424
+
+--- step() decision log ---
+Backward reduced random-effect table:
+
+              Eliminated npar logLik     AIC    LRT Df Pr(>Chisq)    
+<none>                     11 39.138 -56.276                         
+(1 | site_id)          0   10  7.180   5.639 63.915  1  1.299e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Backward reduced fixed-effect table:
+Degrees of freedom method: Satterthwaite 
+
+                Eliminated  Sum Sq Mean Sq NumDF DenDF F value    Pr(>F)    
+Total_N                  1 0.00005 0.00005     1    20  0.0015 0.9694255    
+pH                       2 0.00391 0.00391     1    21  0.1206 0.7318280    
+Organic_Carbon           3 0.00299 0.00299     1    22  0.0921 0.7643709    
+Electrical_Cond          4 0.04088 0.04088     1    23  1.2611 0.2730206    
+Clay_pct                 5 0.06218 0.06218     1    24  1.9183 0.1787817    
+Silt_pct                 0 0.30241 0.30241     1    25  9.3305 0.0052940 ** 
+Precipitation            0 0.57315 0.57315     1    25 17.6837 0.0002921 ***
+Elevation                0 0.22050 0.22050     1    25  6.8031 0.0151370 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Model found:
+FiberCenterd ~ Silt_pct + Precipitation + Elevation + (1 | site_id)
