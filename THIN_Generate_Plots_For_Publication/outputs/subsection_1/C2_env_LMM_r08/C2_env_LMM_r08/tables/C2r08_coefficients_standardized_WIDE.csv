@@ -2,7 +2,7 @@
 "pH","pH",NA,NA,NA,NA
 "Electrical_Cond","Electrical conductivity (mS/cm)",NA,NA,"0.118 [0.036, 0.199]**",NA
 "Clay_pct","Clay (%)",NA,NA,NA,NA
-"Silt_pct","Silt (%)",NA,"2.430 [1.272, 3.588]***","-0.118 [-0.202, -0.033]**","-0.090 [-0.151, -0.029]**"
+"Silt_pct","Silt (%)",NA,"2.430 [1.272, 3.588]***","-0.118 [-0.202, -0.033]*","-0.090 [-0.151, -0.029]**"
 "Precipitation","Precipitation (mm)",NA,"3.080 [1.802, 4.359]***",NA,"-0.137 [-0.205, -0.070]***"
 "Organic_Carbon","Organic carbon (mg/kg)",NA,NA,"-0.113 [-0.198, -0.028]*",NA
 "Total_N","Total N (mg/kg)",NA,NA,NA,NA

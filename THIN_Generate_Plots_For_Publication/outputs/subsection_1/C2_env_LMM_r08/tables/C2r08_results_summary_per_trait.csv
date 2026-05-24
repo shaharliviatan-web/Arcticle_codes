@@ -1,5 +1,0 @@
-"Trait","n_predictors_final","R2_marginal","R2_conditional","top_positive_predictor","top_positive_beta","top_positive_p","top_positive_stars","top_negative_predictor","top_negative_beta","top_negative_p","top_negative_stars","mean_abs_beta"
-"Protein",0,0,0.339,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Starch",3,0.511,0.702,"Precipitation (mm)",3.08,4.12e-05,"***","Elevation (m)",-2.044,0.0017,"**",2.518
-"beta-glucan",3,0.259,0.441,"Electrical conductivity (mS/cm)",0.118,0.00632,"**","Silt (%)",-0.118,0.00849,"**",0.116
-"Fiber",3,0.378,0.603,"Elevation (m)",0.08,0.0151,"*","Precipitation (mm)",-0.137,0.000292,"***",0.102
