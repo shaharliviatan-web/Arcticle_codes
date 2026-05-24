@@ -1,0 +1,2 @@
+"trait_name","min_raw_p","min_bh_q","n_q_le_0_05","n_q_le_0_10","n_bonferroni_0_05","n_bonferroni_0_10","observed_bh_q_0_05_cutoff_raw_p","observed_bh_q_0_05_cutoff_minus_log10_p","observed_bh_q_0_10_cutoff_raw_p","observed_bh_q_0_10_cutoff_minus_log10_p","automatic_interpretation"
+"fiber_corrected_V3",1.208844672e-08,0.0758975182216282,0,3,0,1,NA,NA,3.201978382e-08,7.49458160452471,"This trait has SNPs passing BH-FDR q<=0.10 but not Bonferroni."

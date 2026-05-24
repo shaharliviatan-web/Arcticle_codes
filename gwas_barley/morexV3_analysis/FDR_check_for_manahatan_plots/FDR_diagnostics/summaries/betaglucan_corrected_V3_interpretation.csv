@@ -1,0 +1,2 @@
+"trait_name","min_raw_p","min_bh_q","n_q_le_0_05","n_q_le_0_10","n_bonferroni_0_05","n_bonferroni_0_10","observed_bh_q_0_05_cutoff_raw_p","observed_bh_q_0_05_cutoff_minus_log10_p","observed_bh_q_0_10_cutoff_raw_p","observed_bh_q_0_10_cutoff_minus_log10_p","automatic_interpretation"
+"betaglucan_corrected_V3",1.396478014e-10,0.000993034957164195,77,277,5,7,4.854788319e-07,6.31382970167656,3.887807524e-06,5.41029524408884,"This trait has SNPs passing BH-FDR q<=0.05 and Bonferroni 0.05."
