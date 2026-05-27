@@ -65,3 +65,6 @@ __MACOSX/
 
 # Log files (optional - remove this line if you want to keep logs)
 # *.log
+*.ps
+*.tped
+*.tfam

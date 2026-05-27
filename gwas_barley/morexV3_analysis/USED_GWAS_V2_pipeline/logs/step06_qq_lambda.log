@@ -1,0 +1,36 @@
+[06] Processing 24 cells with 8 cores in parallel...
+
+[06] lambda_table.tsv:
+         trait pheno_type n_PCs lambda_GC n_valid_pvals
+        <char>     <char> <int>     <num>         <int>
+ 1: betaglucan       BLUE     3 0.9734567       7110996
+ 2:      fiber       BLUE     3 0.9685603       7110996
+ 3:    protein       BLUE     3 0.9778263       7110996
+ 4:     starch       BLUE     3 0.9847255       7110996
+ 5: betaglucan       BLUE     5 0.9770617       7110996
+ 6:      fiber       BLUE     5 0.9712345       7110996
+ 7:    protein       BLUE     5 0.9732440       7110996
+ 8:     starch       BLUE     5 0.9868777       7110996
+ 9: betaglucan       BLUE    10 0.9763138       7110996
+10:      fiber       BLUE    10 0.9744879       7110996
+11:    protein       BLUE    10 0.9820212       7110996
+12:     starch       BLUE    10 0.9811393       7110996
+13: betaglucan       BLUP     3 0.9734558       7110996
+14:      fiber       BLUP     3 0.9695827       7110996
+15:    protein       BLUP     3 0.9774904       7110996
+16:     starch       BLUP     3 0.9846392       7110996
+17: betaglucan       BLUP     5 0.9774156       7110996
+18:      fiber       BLUP     5 0.9725223       7110996
+19:    protein       BLUP     5 0.9723775       7110996
+20:     starch       BLUP     5 0.9869914       7110996
+21: betaglucan       BLUP    10 0.9766233       7110996
+22:      fiber       BLUP    10 0.9754633       7110996
+23:    protein       BLUP    10 0.9813220       7110996
+24:     starch       BLUP    10 0.9814063       7110996
+         trait pheno_type n_PCs lambda_GC n_valid_pvals
+
+---------------------------------
+[06] CHECKPOINT: 24 rows in lambda_table.tsv (expected 24)
+[06] CHECKPOINT: 48 QQ files in results/qq/ (expected 48)
+[06] CHECKPOINT: lambda range = [0.9686, 0.9870]
+[06] OK: 24 QQ figures (PDF + PNG) + lambda_table.tsv ready

@@ -1,0 +1,12 @@
+[09] QQ panels: 24   Manhattan panels: 24 (expect 24 each)
+[09] Building QQ grid...
+[09] qq_grid_6configs  -> 15.6 x 10.8 in  (PNG 0.2 MB, PDF 1.5 MB)
+[09] Building Manhattan grid (FDR q=0.05 variant)...
+[09] manhattan_grid_6configs  -> 24.0 x 10.0 in  (PNG 0.2 MB, PDF 8.8 MB)
+
+---------------------------------
+[09] OK  qq_grid_6configs.png  (0.2 MB)
+[09] OK  qq_grid_6configs.pdf  (1.5 MB)
+[09] OK  manhattan_grid_6configs.png  (0.2 MB)
+[09] OK  manhattan_grid_6configs.pdf  (8.8 MB)
+[09] OK: comparison contact sheets ready in results/comparison/
