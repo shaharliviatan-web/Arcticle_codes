@@ -96,14 +96,36 @@ for N in 3 5 10; do
 done
 
 # ---- (e) Scree data TSV from eigenvalues ----
-if [[ -f "$SCREE_TSV" ]]; then
-    echo "[03e] Scree TSV already exists -- skipping." | tee -a "$LOG_FILE"
+# IMPORTANT: PLINK's `--pca 10` only returns the top 10 eigenvalues, but the FULL spectrum has
+# n-1 = 289 non-zero eigenvalues. To compute % variance correctly we need the total trace
+# (= sum of ALL eigenvalues), so we run a second one-off PLINK PCA at full rank (--pca 289)
+# whose .eigenval gives us the true denominator. The PCA used downstream (covariates, scatter)
+# remains the top-10 from PCA_PREFIX above; this full-rank run is only for the scree denominator.
+FULL_EIGVAL="$INTER_DIR/morexV3_pca_full.eigenval"
+if [[ -f "$SCREE_TSV" && -f "$FULL_EIGVAL" ]]; then
+    echo "[03e] Scree TSV + full eigenvalue file already exist -- skipping." | tee -a "$LOG_FILE"
 else
-    awk 'BEGIN{print "PC\teigenval\tpct_variance\tcum_pct"}
-         {v[NR]=$1; s+=$1}
-         END{c=0; for(i=1;i<=NR;i++){p=100*v[i]/s; c+=p; printf "%d\t%.6f\t%.4f\t%.4f\n", i, v[i], p, c}}' \
-        "${PCA_PREFIX}.eigenval" > "$SCREE_TSV"
-    echo "[03e] Wrote $SCREE_TSV" | tee -a "$LOG_FILE"
+    # n_samples - 1 = 289 non-zero eigenvalues
+    FULL_PCA_PREFIX="$INTER_DIR/morexV3_pca_full"
+    if [[ ! -f "${FULL_PCA_PREFIX}.eigenval" ]]; then
+        echo "[03e] Running PLINK --pca 289 (full spectrum, for scree denominator) ..." | tee -a "$LOG_FILE"
+        "$PLINK" \
+            --tfile "$PRUNED_PREFIX" \
+            --pca 289 \
+            --allow-extra-chr \
+            --threads "$THREADS" \
+            --out "$FULL_PCA_PREFIX" \
+            2>&1 | tee -a "$LOG_FILE" >/dev/null
+        # Keep only the .eigenval (full eigenvec is huge and unused downstream)
+        rm -f "${FULL_PCA_PREFIX}.eigenvec" "${FULL_PCA_PREFIX}.log" "${FULL_PCA_PREFIX}.nosex"
+    fi
+    # Build scree: TOTAL = sum of all 289 eigenvalues; per-PC % = eigenval / TOTAL * 100.
+    # Output PC1..PC20 (publication scree convention; downstream EMMAX covariates still use only top 10).
+    awk 'NR==FNR {total += $1; next}
+         FNR==1 {print "PC\teigenval\tpct_variance\tcum_pct"; c=0}
+         FNR<=20 {p = 100*$1/total; c += p; printf "%d\t%.6f\t%.4f\t%.4f\n", FNR, $1, p, c}
+        ' "${FULL_PCA_PREFIX}.eigenval" "${FULL_PCA_PREFIX}.eigenval" > "$SCREE_TSV"
+    echo "[03e] Wrote $SCREE_TSV (PC1..PC20, denominator = sum of all 289 eigenvalues)" | tee -a "$LOG_FILE"
 fi
 
 # ====================================================================

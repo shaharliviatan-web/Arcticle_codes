@@ -1,14 +1,15 @@
 #!/usr/bin/env Rscript
-# 07_manhattan.R
-# For each of the 24 EMMAX runs, generate 2 Manhattan plots (FDR q=0.05 and q=0.10),
-# each with BOTH Bonferroni reference lines (all-7.1M and LD-pruned-590K) drawn,
-# in BOTH vector PDF and PNG. Total: 24 x 2 x 2 = 96 files.
+# 07_manhattan.R  (v2: Bonferroni alpha=0.10, no FDR; one threshold line per plot)
+# For each of the 24 EMMAX runs, generate 2 Manhattan plots, each with ONE
+# Bonferroni reference line (no FDR line, no second Bonferroni line):
+#   - "BonfAll010":    line at -log10(0.10 / 7,110,996) = 7.852  (all SNPs)
+#   - "BonfPruned010": line at -log10(0.10 /   590,462) = 6.771  (LD-pruned set)
+# Both formats per variant: PDF + PNG. Total: 24 x 2 x 2 = 96 files.
 #
 # Rendering: the full 7.1M-point cloud is drawn ONCE per cell to a high-res (900 dpi)
 # transparent raster layer (dense + continuous, no thinning artifacts), then composited
-# under TRUE-VECTOR axes / labels / threshold lines / legend in the PDF. This keeps files
-# small (~0.3 MB PDF) while looking like a published Manhattan. The same raster is reused
-# across both FDR variants and both output formats.
+# under TRUE-VECTOR axes / labels / threshold line / legend in the PDF. The point-cloud
+# raster is reused across both variants and both output formats per cell.
 
 Sys.setenv(TMPDIR = "/mnt/data/shahar/.tmp")
 
@@ -50,12 +51,14 @@ cat(sprintf("[07] snp_map: %s SNPs, chr %s\n",
             format(nrow(snp_map), big.mark = ","),
             paste(sort(unique(snp_map$CHR)), collapse = ",")))
 
-# --- Bonferroni thresholds ---
+# --- Bonferroni thresholds (alpha = 0.10; no FDR in v2) ---
+ALPHA <- 0.10
 n_all    <- nrow(snp_map)
 n_pruned <- length(readLines(PRUNE_IN))
-bonf_all    <- -log10(0.05 / n_all)
-bonf_pruned <- -log10(0.05 / n_pruned)
-cat(sprintf("[07] Bonf_all=%.3f  Bonf_pruned=%.3f\n", bonf_all, bonf_pruned))
+bonf_all    <- -log10(ALPHA / n_all)
+bonf_pruned <- -log10(ALPHA / n_pruned)
+cat(sprintf("[07] alpha=%.2f  BonfAll010=%.3f  BonfPruned010=%.3f\n",
+            ALPHA, bonf_all, bonf_pruned))
 
 # --- Discover + parse .ps files ---
 ps_files <- list.files(PS_DIR, pattern = "^morexV3__.+__.+__pc\\d+\\.ps$", full.names = TRUE)
@@ -78,14 +81,9 @@ process_one <- function(i) {
   d <- d[!is.na(P) & P > 0 & P <= 1]
   d[, nlp := -log10(P)]
 
-  # FDR via Benjamini-Hochberg (on FULL data)
-  q_vals <- p.adjust(d$P, method = "BH")
-  fdr_info <- lapply(c(0.05, 0.10), function(qv) {
-    sig <- which(q_vals <= qv)
-    if (length(sig) > 0) list(q = qv, thr = -log10(max(d$P[sig], na.rm = TRUE)),
-                              n_sig = length(sig), valid = TRUE)
-    else list(q = qv, thr = NA_real_, n_sig = 0L, valid = FALSE)
-  })
+  # v2: count SNPs above each Bonferroni alpha=0.10 threshold (for the per-cell log)
+  n_above_all    <- sum(d$nlp >= bonf_all)
+  n_above_pruned <- sum(d$nlp >= bonf_pruned)
 
   # Manhattan layout: cumulative x positions, chromosome centres, alternating colours
   setorder(d, CHR, BP)
@@ -111,9 +109,10 @@ process_one <- function(i) {
   dev.off()
   img <- readPNG(tmp_png)
 
-  # --- Composite drawing: vector axes + raster points + vector lines/legend ---
-  draw_man <- function(fi) {
-    title <- sprintf("Manhattan: %s   (FDR q=%.2f)", pheno_disp, fi$q)
+  # --- Composite drawing: vector axes + raster points + ONE Bonferroni line ---
+  # Each variant draws only ONE threshold line (per v2: never both Bonf lines together).
+  draw_man <- function(thr, thr_label, n_above) {
+    title <- sprintf("Manhattan: %s   (%s)", pheno_disp, thr_label)
     par(mar = c(4.5, 4.8, 3, 1.2), las = 1, cex.axis = 0.95, cex.lab = 1.0)
     plot(NA, xlim = xlim, ylim = ylim, xaxs = "i", yaxs = "i", axes = FALSE,
          xlab = "Chromosome", ylab = expression(-log[10](italic(p))), main = title)
@@ -121,36 +120,35 @@ process_one <- function(i) {
     axis(2)
     axis(1, at = chr_cent$c, labels = paste0(chr_cent$CHR, "H"), tick = FALSE)
     box()
-    abline(h = bonf_all,    lty = 1, lwd = 1.4, col = "black")
-    abline(h = bonf_pruned, lty = 2, lwd = 1.2, col = "black")
-    leg  <- c(sprintf("Bonf_all = %.2f", bonf_all),
-              sprintf("Bonf_pruned = %.2f", bonf_pruned))
-    cols <- c("black", "black"); ltys <- c(1, 2)
-    if (fi$valid) {
-      abline(h = fi$thr, col = "blue2", lty = 1, lwd = 1.2)
-      leg  <- c(leg, sprintf("FDR %.2f = %.2f (n=%d)", fi$q, fi$thr, fi$n_sig))
-      cols <- c(cols, "blue2"); ltys <- c(ltys, 1)
-    } else {
-      leg  <- c(leg, sprintf("FDR %.2f: no SNPs passed", fi$q))
-      cols <- c(cols, "blue2"); ltys <- c(ltys, NA)
-    }
-    legend("topright", legend = leg, col = cols, lty = ltys, lwd = 1.2,
+    abline(h = thr, lty = 1, lwd = 1.4, col = "black")
+    legend("topright",
+           legend = c(sprintf("%s = %.2f", thr_label, thr),
+                      sprintf("n above = %d", n_above)),
+           col = c("black", NA), lty = c(1, NA), lwd = c(1.4, NA),
            cex = 0.8, bty = "n", inset = c(0.01, 0.02))
   }
 
-  # Two FDR variants x two formats, reusing the same raster
-  for (fi in fdr_info) {
-    tag <- sprintf("FDR%s", sub("\\.", "", sprintf("%.2f", fi$q)))
-    pdf_f <- file.path(MAN_DIR, sprintf("%s__%s.pdf", base, tag))
-    png_f <- file.path(MAN_DIR, sprintf("%s__%s.png", base, tag))
-    cairo_pdf(pdf_f, width = PLOT_W_IN, height = PLOT_H_IN); draw_man(fi); dev.off()
+  # Two Bonferroni variants x two formats, reusing the same point-cloud raster
+  variants <- list(
+    list(tag = "BonfAll010",    label = "Bonf (alpha=0.10, all SNPs)",
+         thr = bonf_all,    n = n_above_all),
+    list(tag = "BonfPruned010", label = "Bonf (alpha=0.10, LD-pruned)",
+         thr = bonf_pruned, n = n_above_pruned)
+  )
+  for (v in variants) {
+    pdf_f <- file.path(MAN_DIR, sprintf("%s__%s.pdf", base, v$tag))
+    png_f <- file.path(MAN_DIR, sprintf("%s__%s.png", base, v$tag))
+    cairo_pdf(pdf_f, width = PLOT_W_IN, height = PLOT_H_IN)
+    draw_man(v$thr, v$label, v$n); dev.off()
     png(png_f, width = PLOT_W_IN, height = PLOT_H_IN, units = "in",
-        res = PNG_OUT_DPI, type = "cairo-png"); draw_man(fi); dev.off()
+        res = PNG_OUT_DPI, type = "cairo-png")
+    draw_man(v$thr, v$label, v$n); dev.off()
   }
 
   unlink(tmp_png)
   list(cell = sprintf("%s_%s_pc%d", row$trait, row$pheno_type, row$pcs),
-       n_sig_fdr05 = fdr_info[[1]]$n_sig, n_sig_fdr10 = fdr_info[[2]]$n_sig)
+       n_above_BonfAll010 = n_above_all,
+       n_above_BonfPruned010 = n_above_pruned)
 }
 
 # --- Run in parallel ---
@@ -166,14 +164,14 @@ if (length(err_idx) > 0) {
   stop(sprintf("[07] FAIL: %d cells errored out", length(err_idx)))
 }
 
-# --- Checkpoints ---
+# --- Checkpoints (v2 file pattern) ---
 cat("\n---------------------------------\n")
-n_pdf <- length(list.files(MAN_DIR, pattern = "^manhattan__.+__FDR\\d+\\.pdf$"))
-n_png <- length(list.files(MAN_DIR, pattern = "^manhattan__.+__FDR\\d+\\.png$"))
+n_pdf <- length(list.files(MAN_DIR, pattern = "^manhattan__.+__Bonf(All|Pruned)010\\.pdf$"))
+n_png <- length(list.files(MAN_DIR, pattern = "^manhattan__.+__Bonf(All|Pruned)010\\.png$"))
 cat(sprintf("[07] CHECKPOINT: %d Manhattan PDFs (expected 48)\n", n_pdf))
 cat(sprintf("[07] CHECKPOINT: %d Manhattan PNGs (expected 48)\n", n_png))
 stopifnot(n_pdf == 48, n_png == 48)
 
-cat("\n[07] Per-cell FDR hit counts:\n")
+cat("\n[07] Per-cell SNP counts above each Bonferroni alpha=0.10 threshold:\n")
 print(rbindlist(res))
 cat("\n[07] OK: 96 Manhattan files generated (48 PDF + 48 PNG)\n")

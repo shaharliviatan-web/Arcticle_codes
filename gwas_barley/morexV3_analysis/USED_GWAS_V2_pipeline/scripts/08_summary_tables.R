@@ -1,9 +1,8 @@
 #!/usr/bin/env Rscript
-# 08_summary_tables.R
+# 08_summary_tables.R  (v2: Bonferroni alpha=0.10, no FDR)
 # Build the master 24-row summary table from the 24 EMMAX runs:
 #   trait | pheno_type | n_PCs | lambda_GC | n_valid_pvals
-#   n_SNPs_ge_Bonf_all | n_SNPs_ge_Bonf_pruned | n_SNPs_ge_FDR05 | n_SNPs_ge_FDR10
-#   FDR05_threshold_neglog10p | FDR10_threshold_neglog10p
+#   n_SNPs_ge_BonfAll010 | n_SNPs_ge_BonfPruned010
 #   top_SNP_1H .. top_SNP_7H   (each: "SNPID:neglog10p")
 # Plus a compact per-config rollup printed to stdout/log for the manual pick.
 
@@ -33,12 +32,13 @@ snp_map[, CHR := as.integer(sub("H$", "", sub("^chr", "", as.character(CHR_raw))
 snp_map[is.na(CHR), CHR := as.integer(CHR_raw) - 30L]
 stopifnot(all(snp_map$CHR %in% 1:7))
 
+ALPHA <- 0.10
 N_ALL    <- nrow(snp_map)
 N_PRUNED <- length(readLines(PRUNE_IN))
-BONF_ALL    <- -log10(0.05 / N_ALL)
-BONF_PRUNED <- -log10(0.05 / N_PRUNED)
-cat(sprintf("[08] N_all=%s  N_pruned=%s  Bonf_all=%.3f  Bonf_pruned=%.3f\n",
-            format(N_ALL, big.mark = ","), format(N_PRUNED, big.mark = ","),
+BONF_ALL    <- -log10(ALPHA / N_ALL)
+BONF_PRUNED <- -log10(ALPHA / N_PRUNED)
+cat(sprintf("[08] alpha=%.2f  N_all=%s  N_pruned=%s  BonfAll010=%.3f  BonfPruned010=%.3f\n",
+            ALPHA, format(N_ALL, big.mark = ","), format(N_PRUNED, big.mark = ","),
             BONF_ALL, BONF_PRUNED))
 
 # --- lambda_table.tsv anchor (24 rows from step 06) ---
@@ -66,11 +66,6 @@ summarize_one <- function(i) {
   n_bonf_all    <- d[nlp >= BONF_ALL,    .N]
   n_bonf_pruned <- d[nlp >= BONF_PRUNED, .N]
 
-  q <- p.adjust(d$P, method = "BH")
-  i05 <- which(q <= 0.05); i10 <- which(q <= 0.10)
-  fdr05_thr <- if (length(i05) > 0) -log10(max(d$P[i05], na.rm = TRUE)) else NA_real_
-  fdr10_thr <- if (length(i10) > 0) -log10(max(d$P[i10], na.rm = TRUE)) else NA_real_
-
   # Top SNP per chromosome (min P)
   top <- d[, .SD[which.min(P)], by = CHR][order(CHR)]
   top[, label := sprintf("%s:%.2f", SNP, nlp)]
@@ -78,10 +73,8 @@ summarize_one <- function(i) {
   for (k in seq_len(nrow(top))) top_v[paste0("top_SNP_", top$CHR[k], "H")] <- top$label[k]
 
   c(list(trait = row$trait, pheno_type = row$pheno_type, n_PCs = row$n_PCs,
-         n_SNPs_ge_Bonf_all = n_bonf_all, n_SNPs_ge_Bonf_pruned = n_bonf_pruned,
-         n_SNPs_ge_FDR05 = length(i05), n_SNPs_ge_FDR10 = length(i10),
-         FDR05_threshold_neglog10p = round(fdr05_thr, 4),
-         FDR10_threshold_neglog10p = round(fdr10_thr, 4)),
+         n_SNPs_ge_BonfAll010 = n_bonf_all,
+         n_SNPs_ge_BonfPruned010 = n_bonf_pruned),
     as.list(top_v))
 }
 
@@ -99,10 +92,17 @@ summary_dt <- merge(summary_dt,
                     lambda_dt[, .(trait, pheno_type, n_PCs, lambda_GC, n_valid_pvals)],
                     by = c("trait", "pheno_type", "n_PCs"), all.x = TRUE)
 
+# v2: stamp the two Bonferroni thresholds (constants for this run) into every row,
+# both as -log10(p) and as raw p-value. Makes each row self-documenting.
+summary_dt[, BonfAll010_neglog10p    := round(BONF_ALL, 4)]
+summary_dt[, BonfAll010_pvalue       := signif(ALPHA / N_ALL,    4)]
+summary_dt[, BonfPruned010_neglog10p := round(BONF_PRUNED, 4)]
+summary_dt[, BonfPruned010_pvalue    := signif(ALPHA / N_PRUNED, 4)]
+
 col_order <- c("trait", "pheno_type", "n_PCs", "lambda_GC", "n_valid_pvals",
-               "n_SNPs_ge_Bonf_all", "n_SNPs_ge_Bonf_pruned",
-               "n_SNPs_ge_FDR05", "n_SNPs_ge_FDR10",
-               "FDR05_threshold_neglog10p", "FDR10_threshold_neglog10p",
+               "n_SNPs_ge_BonfAll010", "n_SNPs_ge_BonfPruned010",
+               "BonfAll010_neglog10p", "BonfAll010_pvalue",
+               "BonfPruned010_neglog10p", "BonfPruned010_pvalue",
                paste0("top_SNP_", 1:7, "H"))
 setcolorder(summary_dt, col_order)
 setorder(summary_dt, pheno_type, n_PCs, trait)
@@ -116,10 +116,8 @@ cfg <- summary_dt[, .(
   mean_abs_lambda_minus_1 = round(mean(abs(lambda_GC - 1)), 4),
   min_lambda = round(min(lambda_GC), 4),
   max_lambda = round(max(lambda_GC), 4),
-  hits_Bonf_all    = sum(n_SNPs_ge_Bonf_all),
-  hits_Bonf_pruned = sum(n_SNPs_ge_Bonf_pruned),
-  hits_FDR05       = sum(n_SNPs_ge_FDR05),
-  hits_FDR10       = sum(n_SNPs_ge_FDR10)
+  hits_BonfAll010    = sum(n_SNPs_ge_BonfAll010),
+  hits_BonfPruned010 = sum(n_SNPs_ge_BonfPruned010)
 ), by = .(pheno_type, n_PCs)]
 setorder(cfg, mean_abs_lambda_minus_1)
 print(cfg)

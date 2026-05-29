@@ -1,0 +1,42 @@
+Loading per-chromosome pre-aggregated tables ...
+  [1H] dropped 1 malformed row(s) of 2370
+  [3H] dropped 1 malformed row(s) of 2364
+  [4H] dropped 1 malformed row(s) of 2364
+  [5H] dropped 1 malformed row(s) of 2365
+  [6H] dropped 1 malformed row(s) of 2364
+  [7H] dropped 1 malformed row(s) of 2365
+Loaded 16551 total bin rows across 7 chromosomes.
+Aggregating genome-wide profile ...
+Fitting LOESS smoother (span = 0.10) on genome-wide bins ...
+Writing outputs to /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/results ...
+
+===========================================================
+  LD decay summary  (wild barley, morexV3, all 7 chromosomes)
+===========================================================
+  Samples used                          : 290
+  Chromosomes                           : 1H, 2H, 3H, 4H, 5H, 6H, 7H
+  Total binned SNP pairs                : 33,427,223,626
+  Physical window analysed              : 2500 kb
+  Smoothing                             : LOESS, span = 0.10, pair-weighted
+  Smoothed r^2 at 1 kb (~r^2_max)       : 0.270
+  Empirical r^2 asymptote (last 100 kb) : 0.100
+  Half-decay distance (r^2_max / 2)     : 811.0 kb
+  ----- Crossings of the LOESS curve -----
+  r^2 = 0.30  ->    1.0 kb  (window +/- =    2.0 kb)
+  r^2 = 0.20  ->  188.0 kb  (window +/- =  376.0 kb)  <- recommended GWAS window
+  r^2 = 0.10  -> 2469.0 kb  (window +/- = 4938.0 kb)
+===========================================================
+
+Paste-ready paragraph for the Results chapter:
+-----------------------------------------------
+  Genome-wide linkage disequilibrium (LD) decay was estimated from
+  pairwise r^2 values computed in PLINK for all SNP pairs within
+  2.5 Mb across the seven barley chromosomes in the 290 wild barley
+  accessions. Mean r^2 within 1-kb distance bins was smoothed using
+  a pair-count-weighted LOESS curve (span = 0.10). The smoothed
+  genome-wide r^2 decayed from ~0.27 at short distances toward an
+  asymptote of ~0.10 at 2.5 Mb, crossing r^2 = 0.2 at ~188 kb.
+  This distance was adopted as the half-width of the +/- 188 kb
+  candidate-gene search window around lead SNPs from the GWAS.
+
+--- Done. Outputs in: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/results ---

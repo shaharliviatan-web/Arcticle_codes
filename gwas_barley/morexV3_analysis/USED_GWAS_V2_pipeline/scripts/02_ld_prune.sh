@@ -67,8 +67,11 @@ if [[ "$PRUNE_IN_ROWS" -lt 580000 || "$PRUNE_IN_ROWS" -gt 600000 ]]; then
 fi
 
 # Recompute exact Bonferroni-pruned threshold for downstream Manhattan scripts
-PRUNED_BONF=$(awk -v n="$PRUNE_IN_ROWS" 'BEGIN { printf "%.4f\n", -log(0.05 / n) / log(10) }')
-echo "[02] Bonferroni_pruned = -log10(0.05 / $PRUNE_IN_ROWS) = $PRUNED_BONF"
+# v2: report both alpha=0.10 thresholds (the values actually used downstream in step 07/08).
+PRUNED_BONF010=$(awk -v n="$PRUNE_IN_ROWS" 'BEGIN { printf "%.4f\n", -log(0.10 / n) / log(10) }')
+ALL_BONF010=$(  awk          'BEGIN { printf "%.4f\n", -log(0.10 / 7110996) / log(10) }')
+echo "[02] BonfAll010    = -log10(0.10 / 7,110,996)     = $ALL_BONF010 (expect ~7.85)"
+echo "[02] BonfPruned010 = -log10(0.10 / $PRUNE_IN_ROWS) = $PRUNED_BONF010 (expect ~6.77)"
 echo "[02] (expected ~7.07)"
 
 echo "[02] OK: ${OUT_PREFIX}.prune.in ready ($PRUNE_IN_ROWS independent SNPs)"

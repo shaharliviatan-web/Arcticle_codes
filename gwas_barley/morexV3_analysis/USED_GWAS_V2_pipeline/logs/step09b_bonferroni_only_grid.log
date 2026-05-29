@@ -1,0 +1,13 @@
+[09b] Bonf_all=8.153  Bonf_pruned=7.072
+[09b] Rendering 24 per-cell tiles at step-07 quality (12x7 in, 900 dpi raster)...
+[09b] tile render elapsed: 520.1 sec
+[09b] Composing grid (this embeds 24 full-res rasters; ~3-5 min)...
+null device 
+          1 
+null device 
+          1 
+[09b] grid compose elapsed: 514.1 sec
+
+[09b] Wrote manhattan_grid_6configs_BonfOnly.png  (0.2 MB)
+[09b] Wrote manhattan_grid_6configs_BonfOnly.pdf  (8.5 MB)
+[09b] OK: BonfOnly grid ready (matched step-09 quality); per-cell temp tiles cleaned

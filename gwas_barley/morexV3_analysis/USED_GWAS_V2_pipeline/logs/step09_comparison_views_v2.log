@@ -1,0 +1,16 @@
+[09] QQ panels: 24   Manhattan BonfAll010: 24   Manhattan BonfPruned010: 24 (expect 24 each)
+[09] Building QQ grid...
+[09] qq_grid_6configs  -> 15.6 x 10.8 in  (PNG 0.2 MB, PDF 1.5 MB)
+[09] Building Manhattan grid (Bonferroni alpha=0.10, all SNPs)...
+[09] manhattan_grid_6configs_BonfAll010  -> 24.0 x 10.0 in  (PNG 0.3 MB, PDF 9.0 MB)
+[09] Building Manhattan grid (Bonferroni alpha=0.10, LD-pruned 590K)...
+[09] manhattan_grid_6configs_BonfPruned010  -> 24.0 x 10.0 in  (PNG 0.3 MB, PDF 9.0 MB)
+
+---------------------------------
+[09] OK  qq_grid_6configs.png  (0.2 MB)
+[09] OK  qq_grid_6configs.pdf  (1.5 MB)
+[09] OK  manhattan_grid_6configs_BonfAll010.png  (0.3 MB)
+[09] OK  manhattan_grid_6configs_BonfAll010.pdf  (9.0 MB)
+[09] OK  manhattan_grid_6configs_BonfPruned010.png  (0.3 MB)
+[09] OK  manhattan_grid_6configs_BonfPruned010.pdf  (9.0 MB)
+[09] OK: comparison contact sheets ready in results/comparison/

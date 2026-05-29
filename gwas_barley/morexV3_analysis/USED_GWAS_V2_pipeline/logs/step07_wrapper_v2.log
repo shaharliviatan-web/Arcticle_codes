@@ -1,0 +1,40 @@
+[07] Loading snp_map.bim ...
+[07] snp_map: 7,110,996 SNPs, chr 1,2,3,4,5,6,7
+[07] alpha=0.10  BonfAll010=7.852  BonfPruned010=6.771
+[07] Generating Manhattan plots for 24 cells (8 cores)...
+[07] mclapply elapsed: 935.2 sec
+
+---------------------------------
+[07] CHECKPOINT: 48 Manhattan PDFs (expected 48)
+[07] CHECKPOINT: 48 Manhattan PNGs (expected 48)
+
+[07] Per-cell SNP counts above each Bonferroni alpha=0.10 threshold:
+                    cell n_above_BonfAll010 n_above_BonfPruned010
+                  <char>              <int>                 <int>
+ 1: betaglucan_BLUE_pc10                  2                    15
+ 2:  betaglucan_BLUE_pc3                  3                    13
+ 3:  betaglucan_BLUE_pc5                  3                    12
+ 4: betaglucan_BLUP_pc10                  2                    14
+ 5:  betaglucan_BLUP_pc3                  3                    12
+ 6:  betaglucan_BLUP_pc5                  3                    11
+ 7:      fiber_BLUE_pc10                  1                     3
+ 8:       fiber_BLUE_pc3                  0                     3
+ 9:       fiber_BLUE_pc5                  0                     3
+10:      fiber_BLUP_pc10                  0                     2
+11:       fiber_BLUP_pc3                  0                     2
+12:       fiber_BLUP_pc5                  0                     3
+13:    protein_BLUE_pc10                  0                     1
+14:     protein_BLUE_pc3                  0                     1
+15:     protein_BLUE_pc5                  0                     1
+16:    protein_BLUP_pc10                  0                     1
+17:     protein_BLUP_pc3                  0                     1
+18:     protein_BLUP_pc5                  0                     1
+19:     starch_BLUE_pc10                  0                     2
+20:      starch_BLUE_pc3                  0                     0
+21:      starch_BLUE_pc5                  0                     0
+22:     starch_BLUP_pc10                  0                     2
+23:      starch_BLUP_pc3                  0                     0
+24:      starch_BLUP_pc5                  0                     0
+                    cell n_above_BonfAll010 n_above_BonfPruned010
+
+[07] OK: 96 Manhattan files generated (48 PDF + 48 PNG)

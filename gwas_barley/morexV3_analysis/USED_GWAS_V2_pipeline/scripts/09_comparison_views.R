@@ -1,10 +1,15 @@
 #!/usr/bin/env Rscript
-# 09_comparison_views.R
+# 09_comparison_views.R  (v2: Bonferroni alpha=0.10, no FDR)
 # Compose the per-cell QQ and Manhattan PNGs into at-a-glance comparison contact sheets.
 # Pure visual aid for the manual configuration pick -- NO logic, NO recommendation.
 # Layout: 4 traits (rows) x 6 configs (cols: BLUP pc3/5/10, then BLUE pc3/5/10).
-# Each source panel is already self-titled, so the grid is self-labeling.
+# Each source panel is already self-titled.
 # Uses R (png + grid + gridExtra) to avoid ImageMagick's policy.xml resource ceilings.
+#
+# v2 outputs in results/comparison/:
+#   qq_grid_6configs.{pdf,png}
+#   manhattan_grid_6configs_BonfAll010.{pdf,png}      (one Bonf line each, alpha=0.10, all SNPs)
+#   manhattan_grid_6configs_BonfPruned010.{pdf,png}   (one Bonf line each, alpha=0.10, LD-pruned)
 
 Sys.setenv(TMPDIR = "/mnt/data/shahar/.tmp")
 
@@ -26,15 +31,19 @@ CONFIGS <- list(c("BLUP","pc3"), c("BLUP","pc5"), c("BLUP","pc10"),
                 c("BLUE","pc3"), c("BLUE","pc5"), c("BLUE","pc10"))
 
 # Build ordered file vectors (trait-major, config-minor = row-major)
-qq_files  <- character(0)
-man_files <- character(0)
+qq_files          <- character(0)
+man_files_all010  <- character(0)
+man_files_prn010  <- character(0)
 for (tr in TRAITS) for (cf in CONFIGS) {
-  qq_files  <- c(qq_files,  file.path(QQ_DIR,  sprintf("qq__%s__%s__%s.png", tr, cf[1], cf[2])))
-  man_files <- c(man_files, file.path(MAN_DIR, sprintf("manhattan__%s__%s__%s__FDR005.png", tr, cf[1], cf[2])))
+  qq_files         <- c(qq_files,         file.path(QQ_DIR,  sprintf("qq__%s__%s__%s.png", tr, cf[1], cf[2])))
+  man_files_all010 <- c(man_files_all010, file.path(MAN_DIR, sprintf("manhattan__%s__%s__%s__BonfAll010.png",    tr, cf[1], cf[2])))
+  man_files_prn010 <- c(man_files_prn010, file.path(MAN_DIR, sprintf("manhattan__%s__%s__%s__BonfPruned010.png", tr, cf[1], cf[2])))
 }
-stopifnot(all(file.exists(qq_files)), all(file.exists(man_files)))
-cat(sprintf("[09] QQ panels: %d   Manhattan panels: %d (expect 24 each)\n",
-            length(qq_files), length(man_files)))
+stopifnot(all(file.exists(qq_files)),
+          all(file.exists(man_files_all010)),
+          all(file.exists(man_files_prn010)))
+cat(sprintf("[09] QQ panels: %d   Manhattan BonfAll010: %d   Manhattan BonfPruned010: %d (expect 24 each)\n",
+            length(qq_files), length(man_files_all010), length(man_files_prn010)))
 
 make_grid <- function(files, out_base, title, tile_w_in, tile_h_in, res = 150) {
   grobs <- lapply(files, function(f) rasterGrob(readPNG(f), interpolate = TRUE))
@@ -58,15 +67,21 @@ make_grid(qq_files, "qq_grid_6configs",
           "QQ plots  |  rows: betaglucan / fiber / protein / starch  |  cols: BLUP pc3,5,10  then BLUE pc3,5,10",
           tile_w_in = 2.6, tile_h_in = 2.6, res = 150)
 
-cat("[09] Building Manhattan grid (FDR q=0.05 variant)...\n")
-make_grid(man_files, "manhattan_grid_6configs",
-          "Manhattan (FDR q=0.05)  |  rows: betaglucan / fiber / protein / starch  |  cols: BLUP pc3,5,10  then BLUE pc3,5,10",
+cat("[09] Building Manhattan grid (Bonferroni alpha=0.10, all SNPs)...\n")
+make_grid(man_files_all010, "manhattan_grid_6configs_BonfAll010",
+          "Manhattan (Bonf alpha=0.10, all 7.1M SNPs)  |  rows: betaglucan / fiber / protein / starch  |  cols: BLUP pc3,5,10  then BLUE pc3,5,10",
+          tile_w_in = 4.0, tile_h_in = 2.4, res = 150)
+
+cat("[09] Building Manhattan grid (Bonferroni alpha=0.10, LD-pruned 590K)...\n")
+make_grid(man_files_prn010, "manhattan_grid_6configs_BonfPruned010",
+          "Manhattan (Bonf alpha=0.10, LD-pruned 590K)  |  rows: betaglucan / fiber / protein / starch  |  cols: BLUP pc3,5,10  then BLUE pc3,5,10",
           tile_w_in = 4.0, tile_h_in = 2.4, res = 150)
 
 # Checkpoints
 cat("\n---------------------------------\n")
 expected <- c("qq_grid_6configs.png", "qq_grid_6configs.pdf",
-              "manhattan_grid_6configs.png", "manhattan_grid_6configs.pdf")
+              "manhattan_grid_6configs_BonfAll010.png",    "manhattan_grid_6configs_BonfAll010.pdf",
+              "manhattan_grid_6configs_BonfPruned010.png", "manhattan_grid_6configs_BonfPruned010.pdf")
 ok <- TRUE
 for (f in expected) {
   p <- file.path(OUT_DIR, f)
