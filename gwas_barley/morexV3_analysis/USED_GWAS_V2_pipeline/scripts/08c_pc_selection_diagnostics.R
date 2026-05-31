@@ -64,11 +64,7 @@ draw_scree <- function() {
                 ylab = "% variance explained per PC",
                 col = "steelblue3", border = "white",
                 ylim = c(0, max(scree$pct_variance) * 1.15),
-                main = "Scree: variance captured per PC (LD-pruned ~590K SNPs, top 20 of 289 PCs)")
-  # mark the PC counts under consideration as covariates (k = 3, 5, 10)
-  for (k in c(3, 5, 10)) abline(v = bp[k], col = "grey60", lty = 3)
-  text(x = bp[c(3, 5, 10)], y = max(scree$pct_variance) * 1.10,
-       labels = paste0("k=", c(3, 5, 10)), col = "grey30", cex = 0.85)
+                main = "")
   # secondary axis: cumulative % variance (line, capped at the max we display)
   par(new = TRUE)
   plot(bp, scree$cum_pct, type = "o", pch = 16, col = "firebrick3", lwd = 1.6,
