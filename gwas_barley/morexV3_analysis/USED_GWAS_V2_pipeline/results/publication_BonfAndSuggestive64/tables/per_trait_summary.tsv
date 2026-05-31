@@ -1,0 +1,5 @@
+trait	n_SNPs_tested	lambda_GC	n_SNPs_above_Bonf	top_SNP	top_chr	top_pos	top_neg_log10_p	top_p_value	n_SNPs_above_suggestive
+betaglucan	7110996	0.9763	15	2H:41996626	2H	41996626	8.2261	5.942e-09	27
+fiber	7110996	0.9745	3	4H:24707376	4H	24707376	7.8956	1.272e-08	4
+protein	7110996	0.982	1	3H:106623911	3H	106623911	6.8993	1.261e-07	1
+starch	7110996	0.9811	2	7H:573606460	7H	573606460	6.9992	1.002e-07	3
