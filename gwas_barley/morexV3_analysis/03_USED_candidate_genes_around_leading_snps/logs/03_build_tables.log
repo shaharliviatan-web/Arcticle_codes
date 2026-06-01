@@ -1,0 +1,14 @@
+candidate_genes.tsv: 87 rows
+lead_loci.tsv: 18 loci
+per_trait_summary.tsv:
+      trait n_loci n_loci_significant n_loci_marginal n_genes n_protein_coding
+ betaglucan     10                  8               2      60               60
+      fiber      4                  2               2      18               18
+    protein      1                  1               0       1                1
+     starch      3                  0               3       8                8
+ n_with_description
+                  4
+                  2
+                  0
+                  2
+Wrote 4 tables to results/tables/

@@ -1,0 +1,31 @@
+[08c] Building scree plot (PC1..PC20) ...
+null device 
+          1 
+[08c] Building lambda_vs_npcs plot ...
+null device 
+          1 
+[08c] Building PC scatter plots ...
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+
+---------------------------------
+[08c] OK  scree_plot.pdf                   (23.8 KB)
+[08c] OK  lambda_vs_npcs.pdf               (30.2 KB)
+[08c] OK  pca_scatter_PC1_PC2.pdf          (30.3 KB)
+[08c] OK  pca_scatter_PC1_PC3.pdf          (30.2 KB)
+[08c] OK  pca_scatter_PC2_PC3.pdf          (30.2 KB)
+[08c] OK  scree_plot.png                   (166.2 KB)
+[08c] OK  lambda_vs_npcs.png               (122.8 KB)
+[08c] OK  pca_scatter_PC1_PC2.png          (82.1 KB)
+[08c] OK  pca_scatter_PC1_PC3.png          (80.5 KB)
+[08c] OK  pca_scatter_PC2_PC3.png          (81.7 KB)
+[08c] OK  pc_variance_table.tsv            (541 B)
+[08c] OK  lambda_vs_npcs_long.tsv          (831 B)
+[08c] OK  lambda_vs_npcs_wide.tsv          (585 B)
+
+[08c] OK: PC-selection diagnostics ready in results/pc_selection/
+[08c] Cite in methods: Price et al. 2006 (PCA + GWAS); Patterson, Price, Reich 2006 (PCA + Tracy-Widom).

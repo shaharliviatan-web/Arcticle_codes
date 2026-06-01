@@ -1,0 +1,26 @@
+	Command being timed: "bash -c 
+        set -o pipefail
+        pigz -dc -p 4 '/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr6H.ld.gz'           | tail -n +2           | parallel --pipe --block 100M -j 8                 mawk -v MAXD=2500000 -v BSZ=1000 -f '/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/scripts/bin_pairs.awk'           | mawk -f '/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/scripts/aggregate_partials.awk'           | (head -1; sort -k1,1n)           > '/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr6H.tsv'
+    "
+	User time (seconds): 9694.00
+	System time (seconds): 2656.78
+	Percent of CPU this job got: 1150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:53.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 220548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 198166781
+	Voluntary context switches: 151846759
+	Involuntary context switches: 38731
+	Swaps: 0
+	File system inputs: 76978576
+	File system outputs: 2702520
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,47 @@
+PLINK v1.90b6.4 64-bit (7 Aug 2018)
+Options in effect:
+  --allow-extra-chr
+  --geno 1
+  --maf 0.000001
+  --make-bed
+  --out /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290
+  --remove /mnt/data/shahar/gwas_barley/data/inputs/samples_to_remove_V3.txt
+  --threads 32
+  --vcf /mnt/data/shahar/gwas_barley/data/inputs/morexV3_with_ids.vcf.gz
+
+Hostname: fidel
+Working directory: /mnt/data/shahar
+Start time: Wed May 27 15:05:29 2026
+
+Random number seed: 1779883529
+1031921 MB RAM detected; reserving 515960 MB for main workspace.
+--vcf:
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290-temporary.bed
++
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290-temporary.bim
++
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290-temporary.fam
+written.
+7110996 variants loaded from .bim file.
+300 people (0 males, 0 females, 300 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290.nosex
+.
+--remove: 290 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 290 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.817853.
+0 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+7110996 variants and 290 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290.bed
++
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290.bim
++
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290.fam
+... done.
+
+End time: Wed May 27 15:09:29 2026

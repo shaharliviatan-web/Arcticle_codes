@@ -1,0 +1,88 @@
+trait	locus_id	lead_SNP	class	gene_id	biotype	chr	gene_start	gene_end	strand	dist_to_lead_bp	in_cluster_span	description
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077680	protein_coding	1H	479332581	479336933	+	-156934	FALSE	NA
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077700	protein_coding	1H	479339892	479341891	-	-151976	FALSE	NA
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077710	protein_coding	1H	479414499	479417111	+	-76756	FALSE	NA
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077720	protein_coding	1H	479457239	479461181	-	-32686	FALSE	NA
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077730	protein_coding	1H	479461831	479465763	-	-28104	FALSE	Hydroxyproline-rich glycoprotein family protein [Source:Projected from Arabidopsis thaliana (AT1G73840) UniProtKB/TrEMBL;Acc:Q8VYM7]
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077770	protein_coding	1H	479481464	479493245	-	-622	FALSE	NA
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077790	protein_coding	1H	479501918	479505184	-	8051	FALSE	NA
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077830	protein_coding	1H	479576955	479579301	-	83088	FALSE	NA
+betaglucan	betaglucan_1H_1	1H:479493867	significant	HORVU.MOREX.r3.1HG0077840	protein_coding	1H	479616076	479618391	+	122209	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079180	protein_coding	1H	483209536	483210591	+	-168527	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079200	protein_coding	1H	483281192	483282133	+	-96985	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079210	protein_coding	1H	483368858	483369844	+	-9274	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079220	protein_coding	1H	483374226	483375249	-	-3869	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079230	protein_coding	1H	483375220	483378067	+	-1051	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079250	protein_coding	1H	483379149	483379969	-	31	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079280	protein_coding	1H	483496196	483502520	-	117078	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079290	protein_coding	1H	483513680	483514258	-	134562	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079320	protein_coding	1H	483532549	483533037	-	153431	FALSE	NA
+betaglucan	betaglucan_1H_2	1H:483379118	significant	HORVU.MOREX.r3.1HG0079340	protein_coding	1H	483567227	483567676	-	188109	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112820	protein_coding	2H	42028291	42030928	+	31665	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112830	protein_coding	2H	42034602	42035177	+	37976	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112840	protein_coding	2H	42035580	42036551	-	38954	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112870	protein_coding	2H	42083114	42084259	-	86488	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112880	protein_coding	2H	42088976	42090440	+	92350	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112890	protein_coding	2H	42173620	42173856	-	176994	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112900	protein_coding	2H	42174233	42177357	-	177607	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112910	protein_coding	2H	42192269	42196145	+	195643	FALSE	NA
+betaglucan	betaglucan_2H_1	2H:41996626	significant	HORVU.MOREX.r3.2HG0112920	protein_coding	2H	42195982	42203574	-	199356	FALSE	Probable acyl-CoA dehydrogenase IBR3 [Source:Projected from Arabidopsis thaliana (AT3G06810) UniProtKB/Swiss-Prot;Acc:Q8RWZ3]
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191420	protein_coding	2H	602048259	602052701	-	-194201	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191430	protein_coding	2H	602056608	602062165	+	-184737	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191440	protein_coding	2H	602061960	602065234	-	-181668	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191450	protein_coding	2H	602068722	602070283	-	-176619	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191460	protein_coding	2H	602073052	602075282	-	-171620	FALSE	Cationic amino acid transporter 8, vacuolar [Source:Projected from Arabidopsis thaliana (AT1G17120) UniProtKB/Swiss-Prot;Acc:Q9SHH0]
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191470	protein_coding	2H	602098425	602101953	-	-144949	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191480	protein_coding	2H	602115545	602118244	+	-128658	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191490	protein_coding	2H	602118745	602125713	-	-121189	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191510	protein_coding	2H	602174554	602176050	+	-70852	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191520	protein_coding	2H	602320039	602321575	+	73137	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191530	protein_coding	2H	602348071	602349788	+	101169	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191540	protein_coding	2H	602353227	602355236	-	106325	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191550	protein_coding	2H	602363492	602365012	-	116590	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191560	protein_coding	2H	602426208	602426417	-	179306	FALSE	NA
+betaglucan	betaglucan_2H_2	2H:602246902	significant	HORVU.MOREX.r3.2HG0191570	protein_coding	2H	602446085	602446294	-	199183	FALSE	NA
+betaglucan	betaglucan_3H_1	3H:537247620	significant	HORVU.MOREX.r3.3HG0299440	protein_coding	3H	537098183	537101239	+	-146381	FALSE	NA
+betaglucan	betaglucan_3H_1	3H:537247620	significant	HORVU.MOREX.r3.3HG0299450	protein_coding	3H	537111608	537116152	+	-131468	FALSE	NA
+betaglucan	betaglucan_3H_1	3H:537247620	significant	HORVU.MOREX.r3.3HG0299460	protein_coding	3H	537117077	537121315	-	-126305	FALSE	NA
+betaglucan	betaglucan_4H_1	4H:34858354	significant	HORVU.MOREX.r3.4HG0341530	protein_coding	4H	34755668	34756045	+	-102309	FALSE	NA
+betaglucan	betaglucan_4H_1	4H:34858354	significant	HORVU.MOREX.r3.4HG0341540	protein_coding	4H	34759499	34761914	-	-96440	FALSE	NA
+betaglucan	betaglucan_4H_1	4H:34858354	significant	HORVU.MOREX.r3.4HG0341560	protein_coding	4H	34974960	34976804	+	116606	FALSE	NA
+betaglucan	betaglucan_4H_1	4H:34858354	significant	HORVU.MOREX.r3.4HG0341630	protein_coding	4H	35081977	35091672	-	223623	FALSE	NA
+betaglucan	betaglucan_4H_1	4H:34858354	significant	HORVU.MOREX.r3.4HG0341640	protein_coding	4H	35091817	35097562	+	233463	FALSE	HINT3 [Source:Projected from Arabidopsis thaliana (AT5G48545) UniProtKB/TrEMBL;Acc:A0A178UAY8]
+betaglucan	betaglucan_4H_1	4H:34858354	significant	HORVU.MOREX.r3.4HG0341660	protein_coding	4H	35152874	35153578	+	294520	FALSE	NA
+betaglucan	betaglucan_4H_2	4H:528254769	significant	HORVU.MOREX.r3.4HG0395760	protein_coding	4H	528266382	528267071	+	11613	FALSE	NA
+betaglucan	betaglucan_4H_2	4H:528254769	significant	HORVU.MOREX.r3.4HG0395770	protein_coding	4H	528384420	528390071	+	129651	FALSE	NA
+betaglucan	betaglucan_4H_2	4H:528254769	significant	HORVU.MOREX.r3.4HG0395810	protein_coding	4H	528409135	528411651	+	154366	FALSE	NA
+betaglucan	betaglucan_4H_2	4H:528254769	significant	HORVU.MOREX.r3.4HG0395820	protein_coding	4H	528418603	528421112	-	163834	FALSE	NA
+betaglucan	betaglucan_6H_1	6H:475144663	significant	HORVU.MOREX.r3.6HG0609520	protein_coding	6H	475282568	475286989	+	137905	FALSE	NA
+betaglucan	betaglucan_7H_1	7H:144534576	marginal	HORVU.MOREX.r3.7HG0675560	protein_coding	7H	144564197	144566988	+	29621	FALSE	NA
+betaglucan	betaglucan_7H_1	7H:144534576	marginal	HORVU.MOREX.r3.7HG0675570	protein_coding	7H	144702710	144703492	+	168134	FALSE	NA
+betaglucan	betaglucan_7H_1	7H:144534576	marginal	HORVU.MOREX.r3.7HG0675580	protein_coding	7H	144703832	144705436	+	169256	FALSE	NA
+fiber	fiber_1H_1	1H:344520079	marginal	HORVU.MOREX.r3.1HG0051660	protein_coding	1H	344376698	344378853	+	-141226	FALSE	NA
+fiber	fiber_1H_1	1H:344520079	marginal	HORVU.MOREX.r3.1HG0051670	protein_coding	1H	344378983	344385900	-	-134179	FALSE	NA
+fiber	fiber_4H_1	4H:24707376	significant	HORVU.MOREX.r3.4HG0339140	protein_coding	4H	24791689	24793640	+	84313	FALSE	NA
+fiber	fiber_7H_1	7H:14817657	marginal	HORVU.MOREX.r3.7HG0642350	protein_coding	7H	14780718	14782145	+	-35512	FALSE	NA
+fiber	fiber_7H_1	7H:14817657	marginal	HORVU.MOREX.r3.7HG0642360	protein_coding	7H	14813488	14815418	-	-2239	FALSE	NA
+fiber	fiber_7H_1	7H:14817657	marginal	HORVU.MOREX.r3.7HG0642370	protein_coding	7H	14831792	14832100	+	14135	FALSE	NA
+fiber	fiber_7H_1	7H:14817657	marginal	HORVU.MOREX.r3.7HG0642420	protein_coding	7H	14914961	14916016	+	97304	FALSE	NA
+fiber	fiber_7H_1	7H:14817657	marginal	HORVU.MOREX.r3.7HG0642460	protein_coding	7H	14922844	14926256	-	105187	FALSE	NA
+fiber	fiber_7H_1	7H:14817657	marginal	HORVU.MOREX.r3.7HG0642480	protein_coding	7H	15004937	15006822	-	187280	FALSE	NA
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729020	protein_coding	7H	573446798	573449876	+	-156430	FALSE	High-affinity nitrate transporter, Nitrate transport, Auxin signalin [Source: Projected from Oryza sativa (Os01g0547600)]
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729030	protein_coding	7H	573604051	573605728	-	-578	FALSE	NA
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729040	protein_coding	7H	573718137	573718745	-	111831	FALSE	NA
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729050	protein_coding	7H	573726587	573727907	+	120281	FALSE	NA
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729090	protein_coding	7H	573791554	573793005	+	185248	FALSE	NA
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729100	protein_coding	7H	573793434	573794861	-	187128	FALSE	NA
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729110	protein_coding	7H	573797500	573799871	+	191194	FALSE	NA
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729120	protein_coding	7H	573800157	573802112	-	193851	FALSE	Pentatricopeptide repeat-containing protein At5g44230 [Source:Projected from Arabidopsis thaliana (AT5G44230) UniProtKB/Swiss-Prot;Acc:Q9FFG8]
+fiber	fiber_7H_2	7H:573606306	significant	HORVU.MOREX.r3.7HG0729130	protein_coding	7H	573805532	573806294	-	199226	FALSE	NA
+protein	protein_3H_1	3H:106623911	significant	HORVU.MOREX.r3.3HG0245560	protein_coding	3H	106441309	106443936	+	-179975	FALSE	NA
+starch	starch_3H_1	3H:546433616	marginal	HORVU.MOREX.r3.3HG0301650	protein_coding	3H	546327317	546327709	-	-105907	FALSE	NA
+starch	starch_3H_1	3H:546433616	marginal	HORVU.MOREX.r3.3HG0301700	protein_coding	3H	546468087	546468890	-	34471	FALSE	NA
+starch	starch_3H_1	3H:546433616	marginal	HORVU.MOREX.r3.3HG0301710	protein_coding	3H	546473709	546477564	+	40093	FALSE	Phosphate transporter 43 [Source:Projected from Arabidopsis thaliana (AT3G46980) UniProtKB/TrEMBL;Acc:A0A1I9LP04]
+starch	starch_3H_1	3H:546433616	marginal	HORVU.MOREX.r3.3HG0301720	protein_coding	3H	546479164	546483019	+	45548	FALSE	NA
+starch	starch_3H_1	3H:546433616	marginal	HORVU.MOREX.r3.3HG0301750	protein_coding	3H	546582184	546587549	+	148568	FALSE	NA
+starch	starch_6H_1	6H:525776080	marginal	HORVU.MOREX.r3.6HG0619820	protein_coding	6H	525613893	525627862	+	-148218	FALSE	NA
+starch	starch_6H_1	6H:525776080	marginal	HORVU.MOREX.r3.6HG0619890	protein_coding	6H	525913405	525914470	-	137325	FALSE	Allene oxide cyclase, Biosynthesis of jasmonic acid, Defence respons [Source: Projected from Oryza sativa (Os03g0438100)]
+starch	starch_7H_1	7H:151110354	marginal	HORVU.MOREX.r3.7HG0676500	protein_coding	7H	151239588	151240081	+	129234	FALSE	NA

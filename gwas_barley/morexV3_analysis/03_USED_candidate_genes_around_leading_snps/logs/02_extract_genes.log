@@ -1,0 +1,3 @@
+Filtered genes (1H-7H): 35106
+Intersect rows (gene x locus): 87
+Wrote /mnt/data/shahar/gwas_barley/morexV3_analysis/03_USED_candidate_genes_around_leading_snps/intermediates/genes_1to7H.gff and /mnt/data/shahar/gwas_barley/morexV3_analysis/03_USED_candidate_genes_around_leading_snps/intermediates/intersect_raw.tsv

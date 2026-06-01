@@ -1,0 +1,40 @@
+PLINK v1.90b6.4 64-bit (7 Aug 2018)
+Options in effect:
+  --allow-extra-chr
+  --bfile /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_290
+  --indep-pairwise 50 5 0.2
+  --out /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_pruned_for_covs
+  --threads 32
+
+Hostname: fidel
+Working directory: /mnt/data/shahar
+Start time: Wed May 27 15:15:54 2026
+
+Random number seed: 1779884154
+1031921 MB RAM detected; reserving 515960 MB for main workspace.
+7110996 variants loaded from .bim file.
+290 people (0 males, 0 females, 290 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_pruned_for_covs.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 290 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.817853.
+7110996 variants and 290 people pass filters and QC.
+Note: No phenotypes present.
+Pruned 704609 variants from chromosome 27, leaving 67425.
+Pruned 1044165 variants from chromosome 28, leaving 95926.
+Pruned 1054473 variants from chromosome 29, leaving 97758.
+Pruned 1033963 variants from chromosome 30, leaving 85065.
+Pruned 840275 variants from chromosome 31, leaving 78880.
+Pruned 828979 variants from chromosome 32, leaving 68571.
+Pruned 1014070 variants from chromosome 33, leaving 96837.
+Pruning complete.  6520534 of 7110996 variants removed.
+Marker lists written to
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_pruned_for_covs.prune.in
+and
+/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/intermediates/morexV3_pruned_for_covs.prune.out
+.
+
+End time: Wed May 27 15:16:08 2026

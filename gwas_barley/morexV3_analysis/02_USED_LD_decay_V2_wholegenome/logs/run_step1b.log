@@ -1,0 +1,33 @@
+============================================================
+Pre-aggregating LD pairs into 1000-bp bins, up to 2500000 bp.
+Mode:           parallel
+pigz threads:   4
+mawk workers:   8
+parallel block: 100M
+Started:        2026-05-26T18:15:41+03:00
+============================================================
+[1H] 2026-05-26T18:15:41+03:00 - aggregating (parallel) /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr1H.ld.gz
+[1H] 2026-05-26T18:28:29+03:00 - done. Output: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr1H.tsv (72K, 2371 rows)
+[2H] 2026-05-26T18:28:29+03:00 - aggregating (parallel) /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr2H.ld.gz
+[2H] 2026-05-26T18:49:30+03:00 - done. Output: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr2H.tsv (72K, 2367 rows)
+[3H] 2026-05-26T18:49:30+03:00 - aggregating (parallel) /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr3H.ld.gz
+[3H] 2026-05-26T19:12:30+03:00 - done. Output: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr3H.tsv (72K, 2365 rows)
+[4H] 2026-05-26T19:12:30+03:00 - aggregating (parallel) /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr4H.ld.gz
+[4H] 2026-05-26T19:34:28+03:00 - done. Output: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr4H.tsv (72K, 2365 rows)
+[5H] 2026-05-26T19:34:28+03:00 - aggregating (parallel) /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr5H.ld.gz
+[5H] 2026-05-26T19:50:33+03:00 - done. Output: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr5H.tsv (72K, 2366 rows)
+[6H] 2026-05-26T19:50:33+03:00 - aggregating (parallel) /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr6H.ld.gz
+[6H] 2026-05-26T20:08:26+03:00 - done. Output: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr6H.tsv (72K, 2365 rows)
+[7H] 2026-05-26T20:08:26+03:00 - aggregating (parallel) /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/ld_pairs_chr7H.ld.gz
+[7H] 2026-05-26T20:30:06+03:00 - done. Output: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr7H.tsv (72K, 2366 rows)
+
+============================================================
+All chromosomes pre-aggregated (parallel).
+-rw-rw-r-- 1 shaharliv shaharliv 72K May 26 18:28 /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr1H.tsv
+-rw-rw-r-- 1 shaharliv shaharliv 70K May 26 18:49 /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr2H.tsv
+-rw-rw-r-- 1 shaharliv shaharliv 69K May 26 19:12 /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr3H.tsv
+-rw-rw-r-- 1 shaharliv shaharliv 69K May 26 19:34 /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr4H.tsv
+-rw-rw-r-- 1 shaharliv shaharliv 69K May 26 19:50 /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr5H.tsv
+-rw-rw-r-- 1 shaharliv shaharliv 69K May 26 20:08 /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr6H.tsv
+-rw-rw-r-- 1 shaharliv shaharliv 69K May 26 20:30 /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_LD_decay_V2_wholegenome/intermediates/pre_aggregated_chr7H.tsv
+============================================================

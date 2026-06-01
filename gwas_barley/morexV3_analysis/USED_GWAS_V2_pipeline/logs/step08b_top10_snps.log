@@ -1,5 +1,0 @@
-[08b] Extracting top-15 SNPs per chromosome for 24 runs...
-[08b] Per-cell file count: 24 (expected 24)
-[08b] Per-cell files in: /mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/results/tables/top_snps_per_chr/  (each has 15 x 7 = 105 rows)
-
-[08b] OK

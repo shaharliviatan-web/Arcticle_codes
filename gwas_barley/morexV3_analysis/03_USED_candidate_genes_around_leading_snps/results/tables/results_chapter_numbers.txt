@@ -1,0 +1,27 @@
+Candidate genes around lead SNPs (Morex V3, gene window = lead/cluster span +/- 200 kb).
+Loci defined by single-linkage clustering at 200 kb per trait per chromosome.
+
+Across all traits: 18 loci (11 significant, 7 marginal) span 87 candidate genes (87 protein-coding, 8 with a functional description).
+
+betaglucan: 10 loci (8 significant, 2 marginal), 60 candidate genes (4 with description).
+  betaglucan_1H_1 (significant lead 1H:479493867, -log10p=6.904): 1 SNP(s), 9 genes.
+  betaglucan_1H_2 (significant lead 1H:483379118, -log10p=6.886): 1 SNP(s), 10 genes.
+  betaglucan_2H_1 (significant lead 2H:41996626, -log10p=8.906): 1 SNP(s), 9 genes.
+  betaglucan_2H_2 (significant lead 2H:602246902, -log10p=7.057): 1 SNP(s), 15 genes.
+  betaglucan_3H_1 (significant lead 3H:537247620, -log10p=7.975): 2 SNP(s), 3 genes.
+  betaglucan_4H_1 (significant lead 4H:34858354, -log10p=7.978): 4 SNP(s), 6 genes.
+  betaglucan_4H_2 (significant lead 4H:528254769, -log10p=6.896): 1 SNP(s), 4 genes.
+  betaglucan_5H_1 (marginal lead 5H:224439424, -log10p=6.681): 1 SNP(s), 0 genes.
+  betaglucan_6H_1 (significant lead 6H:475144663, -log10p=7.168): 1 SNP(s), 1 genes.
+  betaglucan_7H_1 (marginal lead 7H:144534576, -log10p=6.769): 1 SNP(s), 3 genes.
+fiber: 4 loci (2 significant, 2 marginal), 18 candidate genes (2 with description).
+  fiber_1H_1 (marginal lead 1H:344520079, -log10p=6.548): 1 SNP(s), 2 genes.
+  fiber_4H_1 (significant lead 4H:24707376, -log10p=6.973): 1 SNP(s), 1 genes.
+  fiber_7H_1 (marginal lead 7H:14817657, -log10p=6.731): 1 SNP(s), 6 genes.
+  fiber_7H_2 (significant lead 7H:573606306, -log10p=7.146): 1 SNP(s), 9 genes.
+protein: 1 loci (1 significant, 0 marginal), 1 candidate genes (0 with description).
+  protein_3H_1 (significant lead 3H:106623911, -log10p=6.840): 1 SNP(s), 1 genes.
+starch: 3 loci (0 significant, 3 marginal), 8 candidate genes (2 with description).
+  starch_3H_1 (marginal lead 3H:546433616, -log10p=6.282): 1 SNP(s), 5 genes.
+  starch_6H_1 (marginal lead 6H:525776080, -log10p=6.444): 1 SNP(s), 2 genes.
+  starch_7H_1 (marginal lead 7H:151110354, -log10p=6.362): 1 SNP(s), 1 genes.
