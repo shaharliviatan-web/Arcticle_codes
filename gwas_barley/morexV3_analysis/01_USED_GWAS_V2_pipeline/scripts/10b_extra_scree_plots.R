@@ -23,7 +23,7 @@ suppressPackageStartupMessages({
   library(data.table)
 })
 
-PIPE      <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline"
+PIPE      <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline"
 SCREE_TSV <- file.path(PIPE, "intermediates", "morexV3_pca_scree_data.tsv")
 DEST_DIRS <- c(
   file.path(PIPE, "results", "publication_BonfOnly_BLUP_3PC", "pc_selection")

@@ -30,8 +30,8 @@ SNPs extended by 200 kb on each side; the most significant SNP was the lead."*
 - **Significant SNPs (15):** all `above_Bonf=TRUE` rows from
   `USED_GWAS_V2_pipeline/results/publication_BonfOnly_BLUP_3PC/tables/lead_snps.tsv`
   (beta-glucan 12, fiber 2, protein 1, starch 0). Pulled by `01_build_loci.R`.
-- **Marginal SNPs (7, curated):** `inputs/marginal_snps.tsv` (BLUP x 3PC -log10p values, below
-  6.7712 but near it). beta-glucan 2, fiber 2, protein 0, starch 3.
+- **Marginal SNPs (9, curated):** `inputs/marginal_snps.tsv` (BLUP x 3PC -log10p values, below
+  6.7712 but near it). beta-glucan 3, fiber 2, protein 0, starch 4.
 - **GFF3:** `../Hordeum_vulgare.MorexV3_pseudomolecules_assembly.62.gff3.gz`. Genes = col3 ==
   `gene`. SNP/GFF chromosome names both use `1H..7H` (no `chr` prefix). Unplaced `CAJHDD*`
   scaffolds are excluded. All 35,106 genes on 1H-7H are `biotype=protein_coding`; ~6.8% carry a
@@ -79,19 +79,21 @@ gene; <0 = gene upstream (lower coordinate); >0 = gene downstream.
 
 ## Result summary (this run)
 
-22 input SNPs (15 significant + 7 marginal) -> **18 loci** (11 significant, 7 marginal)
--> **87 candidate genes** (all protein-coding; 8 with a functional description).
+24 input SNPs (15 significant + 9 marginal) -> **20 loci** (11 significant, 9 marginal)
+-> **108 candidate genes** (all protein-coding; 12 with a functional description).
 
 | trait      | loci (sig/marg) | genes | with description |
 |------------|-----------------|-------|------------------|
-| beta-glucan| 10 (8/2)        | 60    | 4                |
+| beta-glucan| 11 (8/3)        | 72    | 6                |
 | fiber      | 4 (2/2)         | 18    | 2                |
 | protein    | 1 (1/0)         | 1     | 0                |
-| starch     | 3 (0/3)         | 8     | 2                |
+| starch     | 4 (0/4)         | 17    | 4                |
 
 Notable clustered loci: `betaglucan_4H_1` = 4 significant SNPs spanning 146.5 kb;
 `betaglucan_3H_1` = 2 SNPs spanning 53.7 kb. The two 1H beta-glucan SNPs (~3.9 Mb apart) form two
-separate loci. `betaglucan_5H_1` (marginal) sits in a gene desert (0 genes in window).
+separate loci. `betaglucan_5H_1` (marginal) sits in a gene desert (0 genes in window). Two marginal
+SNPs added later each form a new singleton locus: `betaglucan_6H_2` (lead 6H:545947347, 12 genes)
+and `starch_7H_2` (lead 7H:573606460, 9 genes).
 
 ## What is NOT here
 

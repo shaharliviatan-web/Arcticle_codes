@@ -1,0 +1,26 @@
+gene_shortlist.csv: 108 genes
+Per-trait status counts:
+         trait                   status     N
+        <char>                   <char> <int>
+ 1: betaglucan SIGNIFICANT_FDR_and_BONF    11
+ 2: betaglucan     SIGNIFICANT_FDR_only    19
+ 3: betaglucan            no_valid_test    20
+ 4: betaglucan                tested_ns    22
+ 5:      fiber SIGNIFICANT_FDR_and_BONF     7
+ 6:      fiber     SIGNIFICANT_FDR_only     2
+ 7:      fiber            no_valid_test     5
+ 8:      fiber                tested_ns     4
+ 9:    protein            no_valid_test     1
+10:     starch SIGNIFICANT_FDR_and_BONF     7
+11:     starch     SIGNIFICANT_FDR_only     2
+12:     starch            no_valid_test     6
+13:     starch                tested_ns     2
+
+Significant (FDR) genes per trait:
+        trait     N
+       <char> <int>
+1: betaglucan    30
+2:      fiber     9
+3:     starch     9
+
+Wrote /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/04_runs/candidate_genes_1000bp_V1/Stats/gene_shortlist.csv

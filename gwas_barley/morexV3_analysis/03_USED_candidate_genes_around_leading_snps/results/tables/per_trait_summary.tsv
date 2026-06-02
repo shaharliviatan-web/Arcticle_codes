@@ -1,5 +1,5 @@
 trait	n_loci	n_loci_significant	n_loci_marginal	n_genes	n_protein_coding	n_with_description
-betaglucan	10	8	2	60	60	4
+betaglucan	11	8	3	72	72	6
 fiber	4	2	2	18	18	2
 protein	1	1	0	1	1	0
-starch	3	0	3	8	8	2
+starch	4	0	4	17	17	4

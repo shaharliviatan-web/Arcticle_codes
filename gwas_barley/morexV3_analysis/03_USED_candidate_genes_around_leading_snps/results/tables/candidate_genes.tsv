@@ -56,6 +56,18 @@ betaglucan	betaglucan_4H_2	4H:528254769	significant	HORVU.MOREX.r3.4HG0395770	pr
 betaglucan	betaglucan_4H_2	4H:528254769	significant	HORVU.MOREX.r3.4HG0395810	protein_coding	4H	528409135	528411651	+	154366	FALSE	NA
 betaglucan	betaglucan_4H_2	4H:528254769	significant	HORVU.MOREX.r3.4HG0395820	protein_coding	4H	528418603	528421112	-	163834	FALSE	NA
 betaglucan	betaglucan_6H_1	6H:475144663	significant	HORVU.MOREX.r3.6HG0609520	protein_coding	6H	475282568	475286989	+	137905	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627000	protein_coding	6H	545855095	545855993	+	-91354	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627010	protein_coding	6H	545865221	545867012	+	-80335	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627020	protein_coding	6H	545868742	545872814	-	-74533	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627040	protein_coding	6H	545876149	545878408	-	-68939	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627060	protein_coding	6H	545882309	545883905	+	-63442	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627070	protein_coding	6H	545883976	545886745	-	-60602	FALSE	PAP-specific phosphatase HAL2-like [Source:Projected from Arabidopsis thaliana (AT5G54390) UniProtKB/Swiss-Prot;Acc:Q38945]
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627080	protein_coding	6H	545889223	545891389	+	-55958	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627090	protein_coding	6H	545891735	545895434	+	-51913	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627100	protein_coding	6H	545895924	545897592	-	-49755	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627110	protein_coding	6H	545897775	545902031	+	-45316	FALSE	NA
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627120	protein_coding	6H	545902046	545908078	-	-39269	FALSE	Protein kinase superfamily protein [Source:Projected from Arabidopsis thaliana (AT2G39190) UniProtKB/TrEMBL;Acc:O80962]
+betaglucan	betaglucan_6H_2	6H:545947347	marginal	HORVU.MOREX.r3.6HG0627150	protein_coding	6H	546116420	546118763	+	169073	FALSE	NA
 betaglucan	betaglucan_7H_1	7H:144534576	marginal	HORVU.MOREX.r3.7HG0675560	protein_coding	7H	144564197	144566988	+	29621	FALSE	NA
 betaglucan	betaglucan_7H_1	7H:144534576	marginal	HORVU.MOREX.r3.7HG0675570	protein_coding	7H	144702710	144703492	+	168134	FALSE	NA
 betaglucan	betaglucan_7H_1	7H:144534576	marginal	HORVU.MOREX.r3.7HG0675580	protein_coding	7H	144703832	144705436	+	169256	FALSE	NA
@@ -86,3 +98,12 @@ starch	starch_3H_1	3H:546433616	marginal	HORVU.MOREX.r3.3HG0301750	protein_codin
 starch	starch_6H_1	6H:525776080	marginal	HORVU.MOREX.r3.6HG0619820	protein_coding	6H	525613893	525627862	+	-148218	FALSE	NA
 starch	starch_6H_1	6H:525776080	marginal	HORVU.MOREX.r3.6HG0619890	protein_coding	6H	525913405	525914470	-	137325	FALSE	Allene oxide cyclase, Biosynthesis of jasmonic acid, Defence respons [Source: Projected from Oryza sativa (Os03g0438100)]
 starch	starch_7H_1	7H:151110354	marginal	HORVU.MOREX.r3.7HG0676500	protein_coding	7H	151239588	151240081	+	129234	FALSE	NA
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729020	protein_coding	7H	573446798	573449876	+	-156584	FALSE	High-affinity nitrate transporter, Nitrate transport, Auxin signalin [Source: Projected from Oryza sativa (Os01g0547600)]
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729030	protein_coding	7H	573604051	573605728	-	-732	FALSE	NA
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729040	protein_coding	7H	573718137	573718745	-	111677	FALSE	NA
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729050	protein_coding	7H	573726587	573727907	+	120127	FALSE	NA
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729090	protein_coding	7H	573791554	573793005	+	185094	FALSE	NA
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729100	protein_coding	7H	573793434	573794861	-	186974	FALSE	NA
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729110	protein_coding	7H	573797500	573799871	+	191040	FALSE	NA
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729120	protein_coding	7H	573800157	573802112	-	193697	FALSE	Pentatricopeptide repeat-containing protein At5g44230 [Source:Projected from Arabidopsis thaliana (AT5G44230) UniProtKB/Swiss-Prot;Acc:Q9FFG8]
+starch	starch_7H_2	7H:573606460	marginal	HORVU.MOREX.r3.7HG0729130	protein_coding	7H	573805532	573806294	-	199072	FALSE	NA

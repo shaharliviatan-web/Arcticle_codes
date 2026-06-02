@@ -16,7 +16,7 @@ suppressPackageStartupMessages({
   library(data.table)
 })
 
-PIPE       <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline"
+PIPE       <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline"
 PS_DIR     <- file.path(PIPE, "results", "emmax_ps")
 TABLES_DIR <- file.path(PIPE, "results", "tables")
 TOP_DIR    <- file.path(TABLES_DIR, "top_snps_per_chr")

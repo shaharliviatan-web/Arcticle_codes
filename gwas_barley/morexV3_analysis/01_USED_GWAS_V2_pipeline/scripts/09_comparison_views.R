@@ -19,7 +19,7 @@ suppressPackageStartupMessages({
   library(gridExtra)
 })
 
-PIPE    <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline"
+PIPE    <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline"
 QQ_DIR  <- file.path(PIPE, "results", "qq")
 MAN_DIR <- file.path(PIPE, "results", "manhattan")
 OUT_DIR <- file.path(PIPE, "results", "comparison")

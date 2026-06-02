@@ -1,0 +1,114 @@
+[stage] using existing /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/staging/morexV3_final_imputed.vcf.gz
+[stage] reheader map: 290 samples
+[  1] betaglucan   HORVU.MOREX.r3.1HG0077680    1H:479331581-479337933     snps=5     samples=290
+[  2] betaglucan   HORVU.MOREX.r3.1HG0077700    1H:479338892-479342891     snps=17    samples=290
+[  3] betaglucan   HORVU.MOREX.r3.1HG0077710    1H:479413499-479418111     snps=30    samples=290
+[  4] betaglucan   HORVU.MOREX.r3.1HG0077720    1H:479456239-479462181     snps=28    samples=290
+[  5] betaglucan   HORVU.MOREX.r3.1HG0077730    1H:479460831-479466763     snps=2     samples=290
+[  6] betaglucan   HORVU.MOREX.r3.1HG0077770    1H:479480464-479494245     snps=26    samples=290
+[  7] betaglucan   HORVU.MOREX.r3.1HG0077790    1H:479500918-479506184     snps=32    samples=290
+[  8] betaglucan   HORVU.MOREX.r3.1HG0077830    1H:479575955-479580301     snps=10    samples=290
+[  9] betaglucan   HORVU.MOREX.r3.1HG0077840    1H:479615076-479619391     snps=15    samples=290
+[ 10] betaglucan   HORVU.MOREX.r3.1HG0079180    1H:483208536-483211591     snps=61    samples=290
+[ 11] betaglucan   HORVU.MOREX.r3.1HG0079200    1H:483280192-483283133     snps=3     samples=290
+[ 12] betaglucan   HORVU.MOREX.r3.1HG0079210    1H:483367858-483370844     snps=11    samples=290
+[ 13] betaglucan   HORVU.MOREX.r3.1HG0079220    1H:483373226-483376249     snps=6     samples=290
+[ 14] betaglucan   HORVU.MOREX.r3.1HG0079230    1H:483374220-483379067     snps=18    samples=290
+[ 15] betaglucan   HORVU.MOREX.r3.1HG0079250    1H:483378149-483380969     snps=15    samples=290
+[ 16] betaglucan   HORVU.MOREX.r3.1HG0079280    1H:483495196-483503520     snps=74    samples=290
+[ 17] betaglucan   HORVU.MOREX.r3.1HG0079290    1H:483512680-483515258     snps=23    samples=290
+[ 18] betaglucan   HORVU.MOREX.r3.1HG0079320    1H:483531549-483534037     snps=0     samples=290
+[ 19] betaglucan   HORVU.MOREX.r3.1HG0079340    1H:483566227-483568676     snps=0     samples=290
+[ 20] betaglucan   HORVU.MOREX.r3.2HG0112820    2H:42027291-42031928       snps=35    samples=290
+[ 21] betaglucan   HORVU.MOREX.r3.2HG0112830    2H:42033602-42036177       snps=19    samples=290
+[ 22] betaglucan   HORVU.MOREX.r3.2HG0112840    2H:42034580-42037551       snps=12    samples=290
+[ 23] betaglucan   HORVU.MOREX.r3.2HG0112870    2H:42082114-42085259       snps=0     samples=290
+[ 24] betaglucan   HORVU.MOREX.r3.2HG0112880    2H:42087976-42091440       snps=3     samples=290
+[ 25] betaglucan   HORVU.MOREX.r3.2HG0112890    2H:42172620-42174856       snps=5     samples=290
+[ 26] betaglucan   HORVU.MOREX.r3.2HG0112900    2H:42173233-42178357       snps=9     samples=290
+[ 27] betaglucan   HORVU.MOREX.r3.2HG0112910    2H:42191269-42197145       snps=6     samples=290
+[ 28] betaglucan   HORVU.MOREX.r3.2HG0112920    2H:42194982-42204574       snps=33    samples=290
+[ 29] betaglucan   HORVU.MOREX.r3.2HG0191420    2H:602047259-602053701     snps=27    samples=290
+[ 30] betaglucan   HORVU.MOREX.r3.2HG0191430    2H:602055608-602063165     snps=5     samples=290
+[ 31] betaglucan   HORVU.MOREX.r3.2HG0191440    2H:602060960-602066234     snps=4     samples=290
+[ 32] betaglucan   HORVU.MOREX.r3.2HG0191450    2H:602067722-602071283     snps=6     samples=290
+[ 33] betaglucan   HORVU.MOREX.r3.2HG0191460    2H:602072052-602076282     snps=8     samples=290
+[ 34] betaglucan   HORVU.MOREX.r3.2HG0191470    2H:602097425-602102953     snps=26    samples=290
+[ 35] betaglucan   HORVU.MOREX.r3.2HG0191480    2H:602114545-602119244     snps=14    samples=290
+[ 36] betaglucan   HORVU.MOREX.r3.2HG0191490    2H:602117745-602126713     snps=18    samples=290
+[ 37] betaglucan   HORVU.MOREX.r3.2HG0191510    2H:602173554-602177050     snps=43    samples=290
+[ 38] betaglucan   HORVU.MOREX.r3.2HG0191520    2H:602319039-602322575     snps=11    samples=290
+[ 39] betaglucan   HORVU.MOREX.r3.2HG0191530    2H:602347071-602350788     snps=40    samples=290
+[ 40] betaglucan   HORVU.MOREX.r3.2HG0191540    2H:602352227-602356236     snps=24    samples=290
+[ 41] betaglucan   HORVU.MOREX.r3.2HG0191550    2H:602362492-602366012     snps=1     samples=290
+[ 42] betaglucan   HORVU.MOREX.r3.2HG0191560    2H:602425208-602427417     snps=0     samples=290
+[ 43] betaglucan   HORVU.MOREX.r3.2HG0191570    2H:602445085-602447294     snps=1     samples=290
+[ 44] betaglucan   HORVU.MOREX.r3.3HG0299440    3H:537097183-537102239     snps=16    samples=290
+[ 45] betaglucan   HORVU.MOREX.r3.3HG0299450    3H:537110608-537117152     snps=14    samples=290
+[ 46] betaglucan   HORVU.MOREX.r3.3HG0299460    3H:537116077-537122315     snps=8     samples=290
+[ 47] betaglucan   HORVU.MOREX.r3.4HG0341530    4H:34754668-34757045       snps=0     samples=290
+[ 48] betaglucan   HORVU.MOREX.r3.4HG0341540    4H:34758499-34762914       snps=6     samples=290
+[ 49] betaglucan   HORVU.MOREX.r3.4HG0341560    4H:34973960-34977804       snps=13    samples=290
+[ 50] betaglucan   HORVU.MOREX.r3.4HG0341630    4H:35080977-35092672       snps=199   samples=290
+[ 51] betaglucan   HORVU.MOREX.r3.4HG0341640    4H:35090817-35098562       snps=41    samples=290
+[ 52] betaglucan   HORVU.MOREX.r3.4HG0341660    4H:35151874-35154578       snps=0     samples=290
+[ 53] betaglucan   HORVU.MOREX.r3.4HG0395760    4H:528265382-528268071     snps=0     samples=290
+[ 54] betaglucan   HORVU.MOREX.r3.4HG0395770    4H:528383420-528391071     snps=6     samples=290
+[ 55] betaglucan   HORVU.MOREX.r3.4HG0395810    4H:528408135-528412651     snps=13    samples=290
+[ 56] betaglucan   HORVU.MOREX.r3.4HG0395820    4H:528417603-528422112     snps=7     samples=290
+[ 57] betaglucan   HORVU.MOREX.r3.6HG0609520    6H:475281568-475287989     snps=23    samples=290
+[ 58] betaglucan   HORVU.MOREX.r3.6HG0627000    6H:545854095-545856993     snps=3     samples=290
+[ 59] betaglucan   HORVU.MOREX.r3.6HG0627010    6H:545864221-545868012     snps=22    samples=290
+[ 60] betaglucan   HORVU.MOREX.r3.6HG0627020    6H:545867742-545873814     snps=20    samples=290
+[ 61] betaglucan   HORVU.MOREX.r3.6HG0627040    6H:545875149-545879408     snps=30    samples=290
+[ 62] betaglucan   HORVU.MOREX.r3.6HG0627060    6H:545881309-545884905     snps=12    samples=290
+[ 63] betaglucan   HORVU.MOREX.r3.6HG0627070    6H:545882976-545887745     snps=7     samples=290
+[ 64] betaglucan   HORVU.MOREX.r3.6HG0627080    6H:545888223-545892389     snps=26    samples=290
+[ 65] betaglucan   HORVU.MOREX.r3.6HG0627090    6H:545890735-545896434     snps=12    samples=290
+[ 66] betaglucan   HORVU.MOREX.r3.6HG0627100    6H:545894924-545898592     snps=4     samples=290
+[ 67] betaglucan   HORVU.MOREX.r3.6HG0627110    6H:545896775-545903031     snps=15    samples=290
+[ 68] betaglucan   HORVU.MOREX.r3.6HG0627120    6H:545901046-545909078     snps=40    samples=290
+[ 69] betaglucan   HORVU.MOREX.r3.6HG0627150    6H:546115420-546119763     snps=0     samples=290
+[ 70] betaglucan   HORVU.MOREX.r3.7HG0675560    7H:144563197-144567988     snps=38    samples=290
+[ 71] betaglucan   HORVU.MOREX.r3.7HG0675570    7H:144701710-144704492     snps=10    samples=290
+[ 72] betaglucan   HORVU.MOREX.r3.7HG0675580    7H:144702832-144706436     snps=15    samples=290
+[ 73] fiber        HORVU.MOREX.r3.1HG0051660    1H:344375698-344379853     snps=5     samples=290
+[ 74] fiber        HORVU.MOREX.r3.1HG0051670    1H:344377983-344386900     snps=16    samples=290
+[ 75] fiber        HORVU.MOREX.r3.4HG0339140    4H:24790689-24794640       snps=24    samples=290
+[ 76] fiber        HORVU.MOREX.r3.7HG0642350    7H:14779718-14783145       snps=14    samples=290
+[ 77] fiber        HORVU.MOREX.r3.7HG0642360    7H:14812488-14816418       snps=10    samples=290
+[ 78] fiber        HORVU.MOREX.r3.7HG0642370    7H:14830792-14833100       snps=3     samples=290
+[ 79] fiber        HORVU.MOREX.r3.7HG0642420    7H:14913961-14917016       snps=1     samples=290
+[ 80] fiber        HORVU.MOREX.r3.7HG0642460    7H:14921844-14927256       snps=6     samples=290
+[ 81] fiber        HORVU.MOREX.r3.7HG0642480    7H:15003937-15007822       snps=30    samples=290
+[ 82] fiber        HORVU.MOREX.r3.7HG0729020    7H:573445798-573450876     snps=27    samples=290
+[ 83] fiber        HORVU.MOREX.r3.7HG0729030    7H:573603051-573606728     snps=27    samples=290
+[ 84] fiber        HORVU.MOREX.r3.7HG0729040    7H:573717137-573719745     snps=0     samples=290
+[ 85] fiber        HORVU.MOREX.r3.7HG0729050    7H:573725587-573728907     snps=19    samples=290
+[ 86] fiber        HORVU.MOREX.r3.7HG0729090    7H:573790554-573794005     snps=13    samples=290
+[ 87] fiber        HORVU.MOREX.r3.7HG0729100    7H:573792434-573795861     snps=19    samples=290
+[ 88] fiber        HORVU.MOREX.r3.7HG0729110    7H:573796500-573800871     snps=12    samples=290
+[ 89] fiber        HORVU.MOREX.r3.7HG0729120    7H:573799157-573803112     snps=3     samples=290
+[ 90] fiber        HORVU.MOREX.r3.7HG0729130    7H:573804532-573807294     snps=5     samples=290
+[ 91] protein      HORVU.MOREX.r3.3HG0245560    3H:106440309-106444936     snps=0     samples=290
+[ 92] starch       HORVU.MOREX.r3.3HG0301650    3H:546326317-546328709     snps=2     samples=290
+[ 93] starch       HORVU.MOREX.r3.3HG0301700    3H:546467087-546469890     snps=0     samples=290
+[ 94] starch       HORVU.MOREX.r3.3HG0301710    3H:546472709-546478564     snps=16    samples=290
+[ 95] starch       HORVU.MOREX.r3.3HG0301720    3H:546478164-546484019     snps=26    samples=290
+[ 96] starch       HORVU.MOREX.r3.3HG0301750    3H:546581184-546588549     snps=7     samples=290
+[ 97] starch       HORVU.MOREX.r3.6HG0619820    6H:525612893-525628862     snps=24    samples=290
+[ 98] starch       HORVU.MOREX.r3.6HG0619890    6H:525912405-525915470     snps=3     samples=290
+[ 99] starch       HORVU.MOREX.r3.7HG0676500    7H:151238588-151241081     snps=1     samples=290
+[100] starch       HORVU.MOREX.r3.7HG0729020    7H:573445798-573450876     snps=27    samples=290
+[101] starch       HORVU.MOREX.r3.7HG0729030    7H:573603051-573606728     snps=27    samples=290
+[102] starch       HORVU.MOREX.r3.7HG0729040    7H:573717137-573719745     snps=0     samples=290
+[103] starch       HORVU.MOREX.r3.7HG0729050    7H:573725587-573728907     snps=19    samples=290
+[104] starch       HORVU.MOREX.r3.7HG0729090    7H:573790554-573794005     snps=13    samples=290
+[105] starch       HORVU.MOREX.r3.7HG0729100    7H:573792434-573795861     snps=19    samples=290
+[106] starch       HORVU.MOREX.r3.7HG0729110    7H:573796500-573800871     snps=12    samples=290
+[107] starch       HORVU.MOREX.r3.7HG0729120    7H:573799157-573803112     snps=3     samples=290
+[108] starch       HORVU.MOREX.r3.7HG0729130    7H:573804532-573807294     snps=5     samples=290
+----
+Wrote imputed per-gene VCFs to: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/imputed_1000bp
+Manifest: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/imputed_1000bp_manifest.tsv
+Total genes: 108

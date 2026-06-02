@@ -10,7 +10,7 @@ export TMPDIR=/mnt/data/shahar/.tmp
 mkdir -p "$TMPDIR"
 
 # ---- Paths ----
-PIPE_ROOT=/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline
+PIPE_ROOT=/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline
 INTER_DIR="$PIPE_ROOT/intermediates"
 LOG_DIR="$PIPE_ROOT/logs"
 

@@ -1,0 +1,63 @@
+# 04_USED_haplotype_analysis_crosshap -- central configuration
+# All paths absolute. Temp pinned to /mnt/data/shahar/.tmp. No emojis in files.
+
+run_id: "candidate_genes_1000bp_V1"
+
+output_root: "/mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap"
+
+# ---- Traits (per-trait phenotype + per-trait multiple-testing family) ----
+traits:
+  - "betaglucan"
+  - "fiber"
+  - "protein"
+  - "starch"
+
+# ---- Per-gene VCF window: gene_start - window_bp .. gene_end + window_bp ----
+window_bp: 1000
+
+# ---- crosshap haplotyping parameters (kept identical to the proven tool) ----
+mgmin_values:
+  - 2
+  - 3
+epsilon_vector:
+  - 0.05
+  - 0.2
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.8
+  - 0.85
+minHap: 9
+hetmiss_as: "allele"
+keep_outliers: false
+
+# ---- Run behaviour ----
+continue_on_error: true
+overwrite_cache: false
+fail_fast: false
+
+# ---- Inputs ----
+candidate_genes_tsv: "/mnt/data/shahar/gwas_barley/morexV3_analysis/03_USED_candidate_genes_around_leading_snps/results/tables/candidate_genes.tsv"
+source_vcf: "/mnt/data/shahar/gwas_barley/data/inputs/morexV3_with_ids.vcf.gz"
+imputed_vcf: "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_imputation/morexV3_final_imputed.vcf"
+samples_remove: "/mnt/data/shahar/gwas_barley/data/inputs/samples_to_remove_V3.txt"
+pheno_root: "/mnt/data/shahar/gwas_barley/data/inputs"
+pheno_suffix: "_corrected_V3.pheno"   # phenotype = {trait}{pheno_suffix} (BLUP, 290 samples)
+
+# ---- Derived per-gene VCF directories (filled by 01/02 scripts) ----
+raw_vcf_dir: "/mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp"
+imputed_vcf_dir: "/mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/imputed_1000bp"
+
+# ---- Tools (absolute paths; bare 'plink' resolves to broken v0.76 on this host) ----
+plink_bin: "/usr/local/bin/plink"
+bcftools_bin: "/usr/bin/bcftools"
+
+# ---- Statistics ----
+stats:
+  alpha: 0.05
+  within_gene_method: "holm"
+  across_gene_fdr_method: "BH"
+  across_gene_bonferroni: true
+
+# ---- Temp ----
+tmpdir: "/mnt/data/shahar/.tmp"

@@ -26,7 +26,7 @@ suppressPackageStartupMessages({
   library(gridExtra)
 })
 
-PIPE       <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline"
+PIPE       <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline"
 INTER_DIR  <- file.path(PIPE, "intermediates")
 PS_DIR     <- file.path(PIPE, "results", "emmax_ps")
 PC_SEL_DIR <- file.path(PIPE, "results", "pc_selection")

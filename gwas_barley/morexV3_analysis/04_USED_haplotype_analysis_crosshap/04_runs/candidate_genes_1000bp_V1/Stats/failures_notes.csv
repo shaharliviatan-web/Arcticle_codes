@@ -1,0 +1,386 @@
+trait,gene_file,gene_name,MGmin,epsilon,stage,status,message
+betaglucan,HORVU.MOREX.r3.1HG0077680.vcf.gz,HORVU.MOREX.r3.1HG0077680,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077680.vcf.gz,HORVU.MOREX.r3.1HG0077680,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077680.vcf.gz,HORVU.MOREX.r3.1HG0077680,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077700.vcf.gz,HORVU.MOREX.r3.1HG0077700,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077710.vcf.gz,HORVU.MOREX.r3.1HG0077710,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077720.vcf.gz,HORVU.MOREX.r3.1HG0077720,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077730.vcf.gz,HORVU.MOREX.r3.1HG0077730,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077730.vcf.gz,HORVU.MOREX.r3.1HG0077730,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0077730.vcf.gz,HORVU.MOREX.r3.1HG0077730,3,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 2
+betaglucan,HORVU.MOREX.r3.1HG0077770.vcf.gz,HORVU.MOREX.r3.1HG0077770,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077770.vcf.gz,HORVU.MOREX.r3.1HG0077770,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077770.vcf.gz,HORVU.MOREX.r3.1HG0077770,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077790.vcf.gz,HORVU.MOREX.r3.1HG0077790,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077790.vcf.gz,HORVU.MOREX.r3.1HG0077790,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077830.vcf.gz,HORVU.MOREX.r3.1HG0077830,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077830.vcf.gz,HORVU.MOREX.r3.1HG0077830,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0077840.vcf.gz,HORVU.MOREX.r3.1HG0077840,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0077840.vcf.gz,HORVU.MOREX.r3.1HG0077840,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0077840.vcf.gz,HORVU.MOREX.r3.1HG0077840,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0079180.vcf.gz,HORVU.MOREX.r3.1HG0079180,2,,crosshap,crosshap_failed,"Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 13 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 13 to size 1."
+betaglucan,HORVU.MOREX.r3.1HG0079180.vcf.gz,HORVU.MOREX.r3.1HG0079180,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079200.vcf.gz,HORVU.MOREX.r3.1HG0079200,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079200.vcf.gz,HORVU.MOREX.r3.1HG0079200,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0079200.vcf.gz,HORVU.MOREX.r3.1HG0079200,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0079210.vcf.gz,HORVU.MOREX.r3.1HG0079210,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079210.vcf.gz,HORVU.MOREX.r3.1HG0079210,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079220.vcf.gz,HORVU.MOREX.r3.1HG0079220,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079230.vcf.gz,HORVU.MOREX.r3.1HG0079230,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079230.vcf.gz,HORVU.MOREX.r3.1HG0079230,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079230.vcf.gz,HORVU.MOREX.r3.1HG0079230,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079230.vcf.gz,HORVU.MOREX.r3.1HG0079230,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079230.vcf.gz,HORVU.MOREX.r3.1HG0079230,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079250.vcf.gz,HORVU.MOREX.r3.1HG0079250,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079250.vcf.gz,HORVU.MOREX.r3.1HG0079250,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.1HG0079280.vcf.gz,HORVU.MOREX.r3.1HG0079280,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079290.vcf.gz,HORVU.MOREX.r3.1HG0079290,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079290.vcf.gz,HORVU.MOREX.r3.1HG0079290,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079290.vcf.gz,HORVU.MOREX.r3.1HG0079290,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079320.vcf.gz,HORVU.MOREX.r3.1HG0079320,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079320.vcf.gz,HORVU.MOREX.r3.1HG0079320,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.1HG0079320.vcf.gz
+betaglucan,HORVU.MOREX.r3.1HG0079320.vcf.gz,HORVU.MOREX.r3.1HG0079320,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.1HG0079320.vcf.gz
+betaglucan,HORVU.MOREX.r3.1HG0079340.vcf.gz,HORVU.MOREX.r3.1HG0079340,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.1HG0079340.vcf.gz,HORVU.MOREX.r3.1HG0079340,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.1HG0079340.vcf.gz
+betaglucan,HORVU.MOREX.r3.1HG0079340.vcf.gz,HORVU.MOREX.r3.1HG0079340,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.1HG0079340.vcf.gz
+betaglucan,HORVU.MOREX.r3.2HG0112830.vcf.gz,HORVU.MOREX.r3.2HG0112830,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112840.vcf.gz,HORVU.MOREX.r3.2HG0112840,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112870.vcf.gz,HORVU.MOREX.r3.2HG0112870,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112870.vcf.gz,HORVU.MOREX.r3.2HG0112870,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.2HG0112870.vcf.gz
+betaglucan,HORVU.MOREX.r3.2HG0112870.vcf.gz,HORVU.MOREX.r3.2HG0112870,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.2HG0112870.vcf.gz
+betaglucan,HORVU.MOREX.r3.2HG0112880.vcf.gz,HORVU.MOREX.r3.2HG0112880,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112880.vcf.gz,HORVU.MOREX.r3.2HG0112880,2,,crosshap,crosshap_failed,'x' must be an array of at least two dimensions
+betaglucan,HORVU.MOREX.r3.2HG0112880.vcf.gz,HORVU.MOREX.r3.2HG0112880,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112890.vcf.gz,HORVU.MOREX.r3.2HG0112890,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0112900.vcf.gz,HORVU.MOREX.r3.2HG0112900,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112900.vcf.gz,HORVU.MOREX.r3.2HG0112900,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0112910.vcf.gz,HORVU.MOREX.r3.2HG0112910,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0112920.vcf.gz,HORVU.MOREX.r3.2HG0112920,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191420.vcf.gz,HORVU.MOREX.r3.2HG0191420,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191430.vcf.gz,HORVU.MOREX.r3.2HG0191430,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191440.vcf.gz,HORVU.MOREX.r3.2HG0191440,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191440.vcf.gz,HORVU.MOREX.r3.2HG0191440,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191440.vcf.gz,HORVU.MOREX.r3.2HG0191440,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191450.vcf.gz,HORVU.MOREX.r3.2HG0191450,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191450.vcf.gz,HORVU.MOREX.r3.2HG0191450,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191450.vcf.gz,HORVU.MOREX.r3.2HG0191450,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191460.vcf.gz,HORVU.MOREX.r3.2HG0191460,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191460.vcf.gz,HORVU.MOREX.r3.2HG0191460,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191460.vcf.gz,HORVU.MOREX.r3.2HG0191460,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191470.vcf.gz,HORVU.MOREX.r3.2HG0191470,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191480.vcf.gz,HORVU.MOREX.r3.2HG0191480,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.2HG0191490.vcf.gz,HORVU.MOREX.r3.2HG0191490,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191510.vcf.gz,HORVU.MOREX.r3.2HG0191510,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191520.vcf.gz,HORVU.MOREX.r3.2HG0191520,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191530.vcf.gz,HORVU.MOREX.r3.2HG0191530,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191540.vcf.gz,HORVU.MOREX.r3.2HG0191540,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191540.vcf.gz,HORVU.MOREX.r3.2HG0191540,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191540.vcf.gz,HORVU.MOREX.r3.2HG0191540,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191550.vcf.gz,HORVU.MOREX.r3.2HG0191550,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191550.vcf.gz,HORVU.MOREX.r3.2HG0191550,2,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+betaglucan,HORVU.MOREX.r3.2HG0191550.vcf.gz,HORVU.MOREX.r3.2HG0191550,3,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+betaglucan,HORVU.MOREX.r3.2HG0191560.vcf.gz,HORVU.MOREX.r3.2HG0191560,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191560.vcf.gz,HORVU.MOREX.r3.2HG0191560,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.2HG0191560.vcf.gz
+betaglucan,HORVU.MOREX.r3.2HG0191560.vcf.gz,HORVU.MOREX.r3.2HG0191560,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.2HG0191560.vcf.gz
+betaglucan,HORVU.MOREX.r3.2HG0191570.vcf.gz,HORVU.MOREX.r3.2HG0191570,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.2HG0191570.vcf.gz,HORVU.MOREX.r3.2HG0191570,2,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+betaglucan,HORVU.MOREX.r3.2HG0191570.vcf.gz,HORVU.MOREX.r3.2HG0191570,3,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299440.vcf.gz,HORVU.MOREX.r3.3HG0299440,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299450.vcf.gz,HORVU.MOREX.r3.3HG0299450,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299460.vcf.gz,HORVU.MOREX.r3.3HG0299460,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.3HG0299460.vcf.gz,HORVU.MOREX.r3.3HG0299460,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.4HG0341530.vcf.gz,HORVU.MOREX.r3.4HG0341530,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341530.vcf.gz,HORVU.MOREX.r3.4HG0341530,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0341530.vcf.gz
+betaglucan,HORVU.MOREX.r3.4HG0341530.vcf.gz,HORVU.MOREX.r3.4HG0341530,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0341530.vcf.gz
+betaglucan,HORVU.MOREX.r3.4HG0341540.vcf.gz,HORVU.MOREX.r3.4HG0341540,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341540.vcf.gz,HORVU.MOREX.r3.4HG0341540,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.4HG0341540.vcf.gz,HORVU.MOREX.r3.4HG0341540,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,HORVU.MOREX.r3.4HG0341560,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341630.vcf.gz,HORVU.MOREX.r3.4HG0341630,2,,crosshap,crosshap_failed,"Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 42 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 42 to size 1."
+betaglucan,HORVU.MOREX.r3.4HG0341660.vcf.gz,HORVU.MOREX.r3.4HG0341660,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0341660.vcf.gz,HORVU.MOREX.r3.4HG0341660,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0341660.vcf.gz
+betaglucan,HORVU.MOREX.r3.4HG0341660.vcf.gz,HORVU.MOREX.r3.4HG0341660,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0341660.vcf.gz
+betaglucan,HORVU.MOREX.r3.4HG0395760.vcf.gz,HORVU.MOREX.r3.4HG0395760,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395760.vcf.gz,HORVU.MOREX.r3.4HG0395760,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0395760.vcf.gz
+betaglucan,HORVU.MOREX.r3.4HG0395760.vcf.gz,HORVU.MOREX.r3.4HG0395760,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0395760.vcf.gz
+betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,HORVU.MOREX.r3.4HG0395770,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,HORVU.MOREX.r3.4HG0395770,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,HORVU.MOREX.r3.4HG0395770,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,HORVU.MOREX.r3.4HG0395770,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,HORVU.MOREX.r3.4HG0395770,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.4HG0395810.vcf.gz,HORVU.MOREX.r3.4HG0395810,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395810.vcf.gz,HORVU.MOREX.r3.4HG0395810,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395820.vcf.gz,HORVU.MOREX.r3.4HG0395820,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395820.vcf.gz,HORVU.MOREX.r3.4HG0395820,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.4HG0395820.vcf.gz,HORVU.MOREX.r3.4HG0395820,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0609520.vcf.gz,HORVU.MOREX.r3.6HG0609520,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0609520.vcf.gz,HORVU.MOREX.r3.6HG0609520,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0609520.vcf.gz,HORVU.MOREX.r3.6HG0609520,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627000.vcf.gz,HORVU.MOREX.r3.6HG0627000,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627000.vcf.gz,HORVU.MOREX.r3.6HG0627000,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627000.vcf.gz,HORVU.MOREX.r3.6HG0627000,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627010.vcf.gz,HORVU.MOREX.r3.6HG0627010,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627020.vcf.gz,HORVU.MOREX.r3.6HG0627020,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627020.vcf.gz,HORVU.MOREX.r3.6HG0627020,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627040.vcf.gz,HORVU.MOREX.r3.6HG0627040,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627040.vcf.gz,HORVU.MOREX.r3.6HG0627040,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627060.vcf.gz,HORVU.MOREX.r3.6HG0627060,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627070.vcf.gz,HORVU.MOREX.r3.6HG0627070,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627070.vcf.gz,HORVU.MOREX.r3.6HG0627070,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627070.vcf.gz,HORVU.MOREX.r3.6HG0627070,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627080.vcf.gz,HORVU.MOREX.r3.6HG0627080,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627080.vcf.gz,HORVU.MOREX.r3.6HG0627080,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627090.vcf.gz,HORVU.MOREX.r3.6HG0627090,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627090.vcf.gz,HORVU.MOREX.r3.6HG0627090,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627100.vcf.gz,HORVU.MOREX.r3.6HG0627100,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627100.vcf.gz,HORVU.MOREX.r3.6HG0627100,2,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627100.vcf.gz,HORVU.MOREX.r3.6HG0627100,3,,crosshap,crosshap_failed,object 'Varfile' not found
+betaglucan,HORVU.MOREX.r3.6HG0627110.vcf.gz,HORVU.MOREX.r3.6HG0627110,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627110.vcf.gz,HORVU.MOREX.r3.6HG0627110,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627110.vcf.gz,HORVU.MOREX.r3.6HG0627110,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627120.vcf.gz,HORVU.MOREX.r3.6HG0627120,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627120.vcf.gz,HORVU.MOREX.r3.6HG0627120,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627150.vcf.gz,HORVU.MOREX.r3.6HG0627150,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+betaglucan,HORVU.MOREX.r3.6HG0627150.vcf.gz,HORVU.MOREX.r3.6HG0627150,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.6HG0627150.vcf.gz
+betaglucan,HORVU.MOREX.r3.6HG0627150.vcf.gz,HORVU.MOREX.r3.6HG0627150,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.6HG0627150.vcf.gz
+betaglucan,HORVU.MOREX.r3.7HG0675560.vcf.gz,HORVU.MOREX.r3.7HG0675560,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675560.vcf.gz,HORVU.MOREX.r3.7HG0675560,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675570.vcf.gz,HORVU.MOREX.r3.7HG0675570,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675580.vcf.gz,HORVU.MOREX.r3.7HG0675580,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675580.vcf.gz,HORVU.MOREX.r3.7HG0675580,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+betaglucan,HORVU.MOREX.r3.7HG0675580.vcf.gz,HORVU.MOREX.r3.7HG0675580,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.1HG0051660.vcf.gz,HORVU.MOREX.r3.1HG0051660,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+fiber,HORVU.MOREX.r3.1HG0051660.vcf.gz,HORVU.MOREX.r3.1HG0051660,2,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.1HG0051660.vcf.gz,HORVU.MOREX.r3.1HG0051660,3,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.1HG0051670.vcf.gz,HORVU.MOREX.r3.1HG0051670,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,HORVU.MOREX.r3.4HG0339140,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,HORVU.MOREX.r3.4HG0339140,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,HORVU.MOREX.r3.4HG0339140,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642350.vcf.gz,HORVU.MOREX.r3.7HG0642350,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642360.vcf.gz,HORVU.MOREX.r3.7HG0642360,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642360.vcf.gz,HORVU.MOREX.r3.7HG0642360,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642360.vcf.gz,HORVU.MOREX.r3.7HG0642360,3,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0642370.vcf.gz,HORVU.MOREX.r3.7HG0642370,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+fiber,HORVU.MOREX.r3.7HG0642370.vcf.gz,HORVU.MOREX.r3.7HG0642370,2,,crosshap,crosshap_failed,'x' must be an array of at least two dimensions
+fiber,HORVU.MOREX.r3.7HG0642370.vcf.gz,HORVU.MOREX.r3.7HG0642370,3,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0642420.vcf.gz,HORVU.MOREX.r3.7HG0642420,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+fiber,HORVU.MOREX.r3.7HG0642420.vcf.gz,HORVU.MOREX.r3.7HG0642420,2,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+fiber,HORVU.MOREX.r3.7HG0642420.vcf.gz,HORVU.MOREX.r3.7HG0642420,3,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+fiber,HORVU.MOREX.r3.7HG0642460.vcf.gz,HORVU.MOREX.r3.7HG0642460,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642460.vcf.gz,HORVU.MOREX.r3.7HG0642460,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642460.vcf.gz,HORVU.MOREX.r3.7HG0642460,3,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,2,,crosshap,crosshap_failed,"Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 9 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 9 to size 1."
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0642480.vcf.gz,HORVU.MOREX.r3.7HG0642480,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729040.vcf.gz,HORVU.MOREX.r3.7HG0729040,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+fiber,HORVU.MOREX.r3.7HG0729040.vcf.gz,HORVU.MOREX.r3.7HG0729040,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/fiber/HORVU.MOREX.r3.7HG0729040.vcf.gz
+fiber,HORVU.MOREX.r3.7HG0729040.vcf.gz,HORVU.MOREX.r3.7HG0729040,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/fiber/HORVU.MOREX.r3.7HG0729040.vcf.gz
+fiber,HORVU.MOREX.r3.7HG0729050.vcf.gz,HORVU.MOREX.r3.7HG0729050,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,3,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,3,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+fiber,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,2,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,3,,crosshap,crosshap_failed,object 'Varfile' not found
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+fiber,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+protein,HORVU.MOREX.r3.3HG0245560.vcf.gz,HORVU.MOREX.r3.3HG0245560,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+protein,HORVU.MOREX.r3.3HG0245560.vcf.gz,HORVU.MOREX.r3.3HG0245560,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0245560.vcf.gz
+protein,HORVU.MOREX.r3.3HG0245560.vcf.gz,HORVU.MOREX.r3.3HG0245560,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0245560.vcf.gz
+starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,HORVU.MOREX.r3.3HG0301650,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,HORVU.MOREX.r3.3HG0301650,2,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,HORVU.MOREX.r3.3HG0301650,3,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 2
+starch,HORVU.MOREX.r3.3HG0301700.vcf.gz,HORVU.MOREX.r3.3HG0301700,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+starch,HORVU.MOREX.r3.3HG0301700.vcf.gz,HORVU.MOREX.r3.3HG0301700,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/starch/HORVU.MOREX.r3.3HG0301700.vcf.gz
+starch,HORVU.MOREX.r3.3HG0301700.vcf.gz,HORVU.MOREX.r3.3HG0301700,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/starch/HORVU.MOREX.r3.3HG0301700.vcf.gz
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,HORVU.MOREX.r3.3HG0301710,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301720.vcf.gz,HORVU.MOREX.r3.3HG0301720,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301750.vcf.gz,HORVU.MOREX.r3.3HG0301750,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301750.vcf.gz,HORVU.MOREX.r3.3HG0301750,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.3HG0301750.vcf.gz,HORVU.MOREX.r3.3HG0301750,3,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.6HG0619820.vcf.gz,HORVU.MOREX.r3.6HG0619820,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.6HG0619820.vcf.gz,HORVU.MOREX.r3.6HG0619820,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.6HG0619820.vcf.gz,HORVU.MOREX.r3.6HG0619820,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.6HG0619890.vcf.gz,HORVU.MOREX.r3.6HG0619890,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+starch,HORVU.MOREX.r3.6HG0619890.vcf.gz,HORVU.MOREX.r3.6HG0619890,2,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.6HG0619890.vcf.gz,HORVU.MOREX.r3.6HG0619890,3,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0676500.vcf.gz,HORVU.MOREX.r3.7HG0676500,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+starch,HORVU.MOREX.r3.7HG0676500.vcf.gz,HORVU.MOREX.r3.7HG0676500,2,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+starch,HORVU.MOREX.r3.7HG0676500.vcf.gz,HORVU.MOREX.r3.7HG0676500,3,,crosshap,crosshap_failed,Too few common variants after raw/imputed intersection: 1
+starch,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729020.vcf.gz,HORVU.MOREX.r3.7HG0729020,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729030.vcf.gz,HORVU.MOREX.r3.7HG0729030,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729040.vcf.gz,HORVU.MOREX.r3.7HG0729040,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+starch,HORVU.MOREX.r3.7HG0729040.vcf.gz,HORVU.MOREX.r3.7HG0729040,2,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/starch/HORVU.MOREX.r3.7HG0729040.vcf.gz
+starch,HORVU.MOREX.r3.7HG0729040.vcf.gz,HORVU.MOREX.r3.7HG0729040,3,,crosshap,crosshap_failed,vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/starch/HORVU.MOREX.r3.7HG0729040.vcf.gz
+starch,HORVU.MOREX.r3.7HG0729050.vcf.gz,HORVU.MOREX.r3.7HG0729050,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729090.vcf.gz,HORVU.MOREX.r3.7HG0729090,3,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,2,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729100.vcf.gz,HORVU.MOREX.r3.7HG0729100,3,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729110.vcf.gz,HORVU.MOREX.r3.7HG0729110,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,,,gene_stats,no_valid_tests_for_gene,Zero valid omnibus tests across MGmin/epsilon.
+starch,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,2,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0729120.vcf.gz,HORVU.MOREX.r3.7HG0729120,3,,crosshap,crosshap_failed,object 'Varfile' not found
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,2,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.05,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.2,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.4,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.5,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.6,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.
+starch,HORVU.MOREX.r3.7HG0729130.vcf.gz,HORVU.MOREX.r3.7HG0729130,3,0.8,epsilon_validation,no_valid_haplotype_grouping,No HapObject entry for this epsilon.

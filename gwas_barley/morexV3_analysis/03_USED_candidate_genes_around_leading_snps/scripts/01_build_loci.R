@@ -21,7 +21,7 @@ WINDOW   <- 200000L  # bp each side
 LINK_GAP <- 200000L  # single-linkage join distance (bp)
 
 base_dir <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/03_USED_candidate_genes_around_leading_snps"
-lead_tsv <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline/results/publication_BonfOnly_BLUP_3PC/tables/lead_snps.tsv"
+lead_tsv <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline/results/publication_BonfOnly_BLUP_3PC/tables/lead_snps.tsv"
 marg_tsv <- file.path(base_dir, "inputs", "marginal_snps.tsv")
 
 dir.create(file.path(base_dir, "intermediates"), showWarnings = FALSE, recursive = TRUE)

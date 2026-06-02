@@ -20,7 +20,7 @@ export VECLIB_MAXIMUM_THREADS=4
 export NUMEXPR_NUM_THREADS=4
 
 # ---- Paths ----
-PIPE_ROOT=/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline
+PIPE_ROOT=/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline
 INTER_DIR="$PIPE_ROOT/intermediates"
 COV_DIR="$INTER_DIR/covariates"
 LOG_DIR="$PIPE_ROOT/logs"

@@ -1,11 +1,11 @@
 NULL
-Curated SNPs: 22 total (15 significant, 7 marginal)
-Loci: 18 total (11 significant, 7 marginal)
+Curated SNPs: 24 total (15 significant, 9 marginal)
+Loci: 20 total (11 significant, 9 marginal)
 Per trait:
             
              marginal significant
-  betaglucan        2           8
+  betaglucan        3           8
   fiber             2           2
   protein           0           1
-  starch            3           0
+  starch            4           0
 Wrote inputs/curated_snps.tsv, intermediates/loci.tsv, intermediates/loci_intervals.bed

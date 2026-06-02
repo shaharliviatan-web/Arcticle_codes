@@ -1,0 +1,8 @@
+Wrote gene_annotation_review.csv (108 genes)
+Per trait: passed / need-annotation:
+        trait genes passed_fdr passed_bonferroni need_annotation
+       <char> <int>      <int>             <int>           <int>
+1: betaglucan    72         30                11              47
+2:      fiber    18          9                 7               8
+3:    protein     1          0                 0               1
+4:     starch    17          9                 7               8

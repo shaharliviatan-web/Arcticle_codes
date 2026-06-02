@@ -12,7 +12,7 @@ mkdir -p "$TMPDIR"
 
 # ---- Paths ----
 PROJECT_ROOT=/mnt/data/shahar/gwas_barley
-PIPE_ROOT="$PROJECT_ROOT/morexV3_analysis/USED_GWAS_V2_pipeline"
+PIPE_ROOT="$PROJECT_ROOT/morexV3_analysis/01_USED_GWAS_V2_pipeline"
 INTER_DIR="$PIPE_ROOT/intermediates"
 LOG_DIR="$PIPE_ROOT/logs"
 

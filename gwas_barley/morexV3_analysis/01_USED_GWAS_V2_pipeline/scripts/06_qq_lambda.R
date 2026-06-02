@@ -14,7 +14,7 @@ suppressPackageStartupMessages({
 })
 
 # --- Paths ---
-PIPE       <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_GWAS_V2_pipeline"
+PIPE       <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/01_USED_GWAS_V2_pipeline"
 PS_DIR     <- file.path(PIPE, "results", "emmax_ps")
 QQ_DIR     <- file.path(PIPE, "results", "qq")
 TABLES_DIR <- file.path(PIPE, "results", "tables")
