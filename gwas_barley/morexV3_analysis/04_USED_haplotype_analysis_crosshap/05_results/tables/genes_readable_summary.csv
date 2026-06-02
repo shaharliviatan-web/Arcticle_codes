@@ -1,0 +1,109 @@
+trait,gene,passed_FDR,passed_Bonferroni,KW_p_raw,FDR_p,Bonferroni_p,tested,annotation
+betaglucan,HORVU.MOREX.r3.1HG0079280,YES,YES,1.07e-10,7.23e-08,7.23e-08,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079290,YES,YES,3.54e-09,5.53e-07,1.11e-06,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0112900,YES,YES,2.75e-07,9.53e-06,2.86e-05,tested,Predicted protein -  uncharacterized
+betaglucan,HORVU.MOREX.r3.1HG0079230,YES,YES,6e-07,3.12e-05,0.000156,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079250,YES,YES,9.64e-07,3.12e-05,0.00015,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.3HG0299460,YES,YES,4.65e-06,4.03e-05,0.000242,tested,polypyrimidine tract-binding protein homolog 3-like | Gene role: likely an RNA-binding protein involved in pre-mRNA processing and alternative splicing.
+betaglucan,HORVU.MOREX.r3.2HG0112920,YES,YES,1.36e-06,0.000111,0.000779,tested,probable acyl-CoA dehydrogenase IBR3 / probable acyl-CoA dehydrogenase IBR3 | Gene role: likely a metabolic enzyme involved in fatty acid/peroxisomal metabolism.
+betaglucan,HORVU.MOREX.r3.4HG0395810,YES,YES,1.05e-05,0.000274,0.00219,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191420,YES,YES,2.04e-05,0.00106,0.00953,tested,"cyclic sesquiterpene synthase-like | Gene role: likely a NAC family transcription factor, i.e. a broad transcriptional regulator involved in development and stress-related gene expression."
+betaglucan,HORVU.MOREX.r3.2HG0191470,YES,YES,4.82e-05,0.00176,0.0176,tested,protein ECERIFERUM 26-like | Gene role: likely a wax/VLCFA elongation-related protein involved in cuticular lipid metabolism.
+betaglucan,HORVU.MOREX.r3.2HG0191530,YES,YES,7.2e-05,0.00408,0.0449,tested,cytosolic sulfotransferase 8-like | Gene role: likely a cytosolic sulfotransferase enzyme involved in sulfate conjugation of small molecules in sulfur/secondary metabolism.
+betaglucan,HORVU.MOREX.r3.6HG0627010,YES,NO,0.000433,0.00563,0.0675,tested,"proliferating cell nuclear antigen | Gene role: a DNA replication and cell-cycle factor (PCNA) involved in DNA synthesis, replication fork function, and DNA repair."
+betaglucan,HORVU.MOREX.r3.2HG0191510,YES,NO,0.000141,0.00577,0.0808,tested,UPF0481 protein At3g47200-like - Uncharacterized protein
+betaglucan,HORVU.MOREX.r3.6HG0627090,YES,NO,0.000369,0.00577,0.0768,tested,Gene role: likely a quinone oxidoreductase / redox enzyme involved in quinone detoxification and oxidative stress-related metabolism.
+betaglucan,HORVU.MOREX.r3.2HG0112910,YES,NO,0.00111,0.0075,0.115,tested,pectinesterase-like | Gene role: likely a cell wall remodeling enzyme (pectin methylesterase/pectinesterase-like) involved in modifying pectin structure and cell wall properties.
+betaglucan,HORVU.MOREX.r3.6HG0627060,YES,NO,0.000462,0.0075,0.12,tested,actin-binding protein IPP-like | Gene role: likely an actin-associated cytoskeletal protein involved in cell structure and intracellular organization.
+betaglucan,HORVU.MOREX.r3.2HG0112890,YES,NO,0.00288,0.00831,0.15,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.3HG0299450,YES,NO,0.000455,0.00831,0.142,tested,"protein LIKE COV 2-like | Gene role: likely a COV1/COV-like developmental or cell-wall-associated protein, probably involved in tissue organization and cell wall-related development."
+betaglucan,HORVU.MOREX.r3.1HG0077700,YES,NO,0.000431,0.00897,0.179,tested,"rac-like GTP-binding protein 2 | Gene role: likely a ROP/RAC small GTPase, i.e. a general signaling regulator involved in cytoskeleton organization, vesicle trafficking, and cell polarity."
+betaglucan,HORVU.MOREX.r3.7HG0675580,YES,NO,0.00084,0.00897,0.175,tested,"putative late blight resistance protein-R1B-14-like | disease resistance protein RGA5 / RGA5-like | Gene role: likely an NLR-type disease resistance protein with an NB-ARC domain, involved in pathogen recognition and immune signaling."
+betaglucan,HORVU.MOREX.r3.2HG0112840,YES,NO,0.000939,0.0093,0.195,tested,Predicted protein
+betaglucan,HORVU.MOREX.r3.2HG0191520,YES,NO,0.000987,0.00933,0.205,tested,"UPF0481 protein At3g47200 [Aegilops tauschii subsp. strangulata] | Gene role: likely an uncharacterized DUF247/UPF0481 family protein, with a possible cell wall–associated role based on related family members."
+betaglucan,HORVU.MOREX.r3.2HG0112820,YES,NO,0.000442,0.011,0.276,tested,60S ribosomal protein L19-1-like | Gene role: likely a ribosomal protein involved in general protein translation and ribosome function.
+betaglucan,HORVU.MOREX.r3.2HG0191430,YES,NO,0.00256,0.011,0.267,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0077720,YES,NO,0.000548,0.011,0.256,tested,probable magnesium transporter NIPA6 | Gene role: likely a magnesium transporter involved in ion homeostasis and membrane transport.
+betaglucan,HORVU.MOREX.r3.6HG0627120,YES,NO,0.000711,0.0156,0.407,tested,"protein ACTIVITY OF BC1 COMPLEX KINASE 3, chloroplastic | Gene role: Chloroplast-associated kinase involved in regulation of photosynthetic or energy-related processes."
+betaglucan,HORVU.MOREX.r3.2HG0191540,YES,NO,0.00153,0.0206,0.556,tested,Uncharacterized protein
+betaglucan,HORVU.MOREX.r3.3HG0299440,YES,NO,0.00782,0.029,0.813,tested,APETALA2-like protein 5 | Gene role: AP2/ERF-family transcription factor involved in developmental and regulatory gene-expression programs.
+betaglucan,HORVU.MOREX.r3.4HG0395770,YES,NO,0.0195,0.035,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079220,YES,NO,0.0132,0.0458,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0395820,NO,NO,0.0167,0.056,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.7HG0675560,NO,NO,0.00499,0.0568,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0077770,NO,NO,0.00469,0.0591,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0341560,NO,NO,0.0113,0.0693,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079180,NO,NO,0.0104,0.093,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191480,NO,NO,0.0767,0.111,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0077790,NO,NO,0.0118,0.116,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.6HG0627040,NO,NO,0.0174,0.214,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.6HG0627080,NO,NO,0.0186,0.248,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.6HG0627020,NO,NO,0.0503,0.392,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079210,NO,NO,0.155,0.393,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0077710,NO,NO,0.0424,0.42,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0077680,NO,NO,0.397,0.48,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0341630,NO,NO,0.0644,0.533,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0077830,NO,NO,0.317,0.732,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191450,NO,NO,0.699,0.791,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191490,NO,NO,0.24,0.796,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0112830,NO,NO,0.875,   1,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0341640,NO,NO,0.139,   1,   1,tested,HINT3 [Source:Projected from Arabidopsis thaliana (AT5G48545) UniProtKB/TrEMBL;Acc:A0A178UAY8]
+betaglucan,HORVU.MOREX.r3.6HG0609520,NO,NO,0.22,   1,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.7HG0675570,NO,NO,0.639,   1,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.6HG0627110,NO,NO,0.539,   1,   1,tested,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0112870,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0112880,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0341530,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0341540,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0341660,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191440,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191460,NO,NO,"","","",no_valid_test,"Cationic amino acid transporter 8, vacuolar [Source:Projected from Arabidopsis thaliana (AT1G17120) UniProtKB/Swiss-Prot;Acc:Q9SHH0]"
+betaglucan,HORVU.MOREX.r3.2HG0191550,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191560,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.2HG0191570,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0077730,NO,NO,"","","",no_valid_test,Hydroxyproline-rich glycoprotein family protein [Source:Projected from Arabidopsis thaliana (AT1G73840) UniProtKB/TrEMBL;Acc:Q8VYM7]
+betaglucan,HORVU.MOREX.r3.1HG0077840,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.4HG0395760,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079200,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079320,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.1HG0079340,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.6HG0627000,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.6HG0627070,NO,NO,"","","",no_valid_test,PAP-specific phosphatase HAL2-like [Source:Projected from Arabidopsis thaliana (AT5G54390) UniProtKB/Swiss-Prot;Acc:Q38945]
+betaglucan,HORVU.MOREX.r3.6HG0627100,NO,NO,"","","",no_valid_test,NO ANNOTATION
+betaglucan,HORVU.MOREX.r3.6HG0627150,NO,NO,"","","",no_valid_test,NO ANNOTATION
+fiber,HORVU.MOREX.r3.7HG0729020,YES,YES,1e-09,9.1e-08,9.1e-08,tested,probable high-affinity nitrate transporter 2.4 | Gene role: High-affinity nitrate transporter involved in nitrate uptake and nitrogen nutrition.
+fiber,HORVU.MOREX.r3.7HG0642460,YES,YES,2.15e-08,2.8e-07,5.59e-07,tested,codeine O-demethylase-like | Gene role: Putative O-demethylase-like enzyme likely involved in secondary metabolite modification rather than core structural carbohydrate synthesis.
+fiber,HORVU.MOREX.r3.4HG0339140,YES,YES,1.76e-08,7.61e-07,2.28e-06,tested,Uncharacterized protein
+fiber,HORVU.MOREX.r3.7HG0729090,YES,YES,1.08e-06,3.51e-06,1.4e-05,tested,"Gene role: PPR/PRORP-domain protein likely involved in organellar RNA processing, including tRNA or other RNA maturation functions."
+fiber,HORVU.MOREX.r3.7HG0642360,YES,YES,8.74e-07,6.82e-06,3.41e-05,tested,"BAG family molecular chaperone regulator 1-like | Gene role: BAG-family co-chaperone regulator involved in protein folding, stress responses, and general cellular homeostasis."
+fiber,HORVU.MOREX.r3.7HG0729100,YES,YES,0.000112,0.00022,0.00146,tested,"nifU-like protein 3, chloroplastic [view all locations] | Gene role: Chloroplast-associated NifU-like protein likely involved in Fe-S cluster assembly and organellar metabolic maintenance."
+fiber,HORVU.MOREX.r3.1HG0051670,YES,YES,2.97e-05,0.00022,0.00154,tested,phospholipase D gamma 1-like | Gene role: Phospholipase D family enzyme involved in membrane lipid turnover and signaling.
+fiber,HORVU.MOREX.r3.7HG0642350,YES,NO,0.00401,0.013,0.104,tested,Putative BAHD Acyltransferase | Gene role: Putative BAHD acyltransferase likely involved in acylation of cell wall-associated or secondary-metabolism compounds.
+fiber,HORVU.MOREX.r3.7HG0729130,YES,NO,0.0151,0.0435,0.392,tested,NO ANNOTATION
+fiber,HORVU.MOREX.r3.7HG0729030,NO,NO,0.0139,0.0906,0.906,tested,"GDSL esterase / acetylajmalan esterase-like | Gene role: GDSL esterase/lipase-family enzyme likely involved in deacylation or remodeling of extracellular, lipid-associated, or cell wall-related substrates."
+fiber,HORVU.MOREX.r3.7HG0642480,NO,NO,0.158,0.187,   1,tested,NO ANNOTATION
+fiber,HORVU.MOREX.r3.7HG0729110,NO,NO,0.111,0.483,   1,tested,Predicted protein
+fiber,HORVU.MOREX.r3.7HG0729050,NO,NO,0.194,   1,   1,tested,NO ANNOTATION
+fiber,HORVU.MOREX.r3.7HG0729040,NO,NO,"","","",no_valid_test,NO ANNOTATION
+fiber,HORVU.MOREX.r3.7HG0729120,NO,NO,"","","",no_valid_test,Pentatricopeptide repeat-containing protein At5g44230 [Source:Projected from Arabidopsis thaliana (AT5G44230) UniProtKB/Swiss-Prot;Acc:Q9FFG8]
+fiber,HORVU.MOREX.r3.7HG0642370,NO,NO,"","","",no_valid_test,NO ANNOTATION
+fiber,HORVU.MOREX.r3.7HG0642420,NO,NO,"","","",no_valid_test,NO ANNOTATION
+fiber,HORVU.MOREX.r3.1HG0051660,NO,NO,"","","",no_valid_test,NO ANNOTATION
+protein,HORVU.MOREX.r3.3HG0245560,NO,NO,"","","",no_valid_test,NO ANNOTATION
+starch,HORVU.MOREX.r3.7HG0729090,YES,YES,1.82e-10,2e-09,2e-09,tested,"Gene role: PPR/PRORP-domain protein likely involved in organellar RNA processing, including tRNA or other RNA maturation functions."
+starch,HORVU.MOREX.r3.6HG0619820,YES,YES,7.1e-11,2.73e-09,5.46e-09,tested,NO ANNOTATION
+starch,HORVU.MOREX.r3.3HG0301710,YES,YES,1.72e-10,3.15e-09,9.45e-09,tested,Phosphate transporter 43 PHT / Anion transporter | Gene role: Phosphate/anion transporter involved in phosphate movement and general cellular nutrient homeostasis.
+starch,HORVU.MOREX.r3.3HG0301720,YES,YES,2.05e-10,5.65e-09,2.26e-08,tested,Gene role: Calmodulin-binding cytoplasmic kinase involved in calcium-dependent signaling and signal transduction.
+starch,HORVU.MOREX.r3.3HG0301750,YES,YES,6.82e-09,1.5e-08,7.5e-08,tested,"alpha-glucan phosphorylase | Gene role: Alpha-glucan phosphorylase catalyzes reversible phosphorolysis of alpha-glucans, linking starch breakdown and glucan metabolism to glucose-1-phosphate production."
+starch,HORVU.MOREX.r3.7HG0729020,YES,YES,1.68e-09,2.15e-08,1.29e-07,tested,probable high-affinity nitrate transporter 2.4 | Gene role: High-affinity nitrate transporter involved in nitrate uptake and nitrogen nutrition.
+starch,HORVU.MOREX.r3.7HG0729100,YES,YES,7.01e-08,1.1e-07,7.71e-07,tested,"nifU-like protein 3, chloroplastic [view all locations] | Gene role: Chloroplast-associated NifU-like protein likely involved in Fe-S cluster assembly and organellar metabolic maintenance."
+starch,HORVU.MOREX.r3.7HG0729110,YES,NO,0.00649,0.0357,0.286,tested,Predicted protein
+starch,HORVU.MOREX.r3.7HG0729030,YES,NO,0.00695,0.0425,0.382,tested,"GDSL esterase / acetylajmalan esterase-like | Gene role: GDSL esterase/lipase-family enzyme likely involved in deacylation or remodeling of extracellular, lipid-associated, or cell wall-related substrates."
+starch,HORVU.MOREX.r3.7HG0729130,NO,NO,0.0511,0.112,   1,tested,NO ANNOTATION
+starch,HORVU.MOREX.r3.7HG0729050,NO,NO,0.116,0.93,   1,tested,NO ANNOTATION
+starch,HORVU.MOREX.r3.6HG0619890,NO,NO,"","","",no_valid_test,"Allene oxide cyclase, Biosynthesis of jasmonic acid, Defence respons [Source: Projected from Oryza sativa (Os03g0438100)]"
+starch,HORVU.MOREX.r3.7HG0676500,NO,NO,"","","",no_valid_test,NO ANNOTATION
+starch,HORVU.MOREX.r3.3HG0301650,NO,NO,"","","",no_valid_test,NO ANNOTATION
+starch,HORVU.MOREX.r3.3HG0301700,NO,NO,"","","",no_valid_test,NO ANNOTATION
+starch,HORVU.MOREX.r3.7HG0729040,NO,NO,"","","",no_valid_test,NO ANNOTATION
+starch,HORVU.MOREX.r3.7HG0729120,NO,NO,"","","",no_valid_test,Pentatricopeptide repeat-containing protein At5g44230 [Source:Projected from Arabidopsis thaliana (AT5G44230) UniProtKB/Swiss-Prot;Acc:Q9FFG8]
