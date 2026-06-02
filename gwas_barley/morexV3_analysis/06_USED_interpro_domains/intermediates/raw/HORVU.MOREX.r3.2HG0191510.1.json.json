@@ -1,0 +1,183 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MQMQVAYDYDYELAVADYWEGRPTMEPNVWVPALPLQMTVAAPASNTDLVVSSTGQQQLVQESTDDQHAVEVELVCKEVTRSLKHTVDKMAMKMHLFPPNMEDLASYAAPKLVSIGPYHYGEGALQQMESVKHAAAVHFIDNTGLSMQEVYGAVCAVADEARGHYEEDKMRTPSDDDFKHMLLFDGCFLLQYMVFWCTRSKDDGGATARVDPSLRSIFSSNDSRIFCDVVLLENQLPWVVVDTLKRLMRPPPRMEVFFGRVRITKLHTRQELSFVPDTLAAYTPPHLLGLLRYNIVGNAQVPNPGDLSDKLMEVSWSVGVTELAEIGIEVTPNDIRDDLKKMYIHRGCCTGELRLASVSLDDATATFLVNMAVFEMCTTPDFRRDDHEKSTVCSYLWLLGMVTDSVNDVEALRNKHILEGGAGLTNEDVLKLFTGVEKHLRAGKRYYKTIVGIANYRYDRRWWIMFYRFGYRNRATIITVVTAIVGAVGLLATLKSFL",
+  "md5" : "6f84082fc3cd1778e7d6d2128321de90",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PF03140",
+      "name" : "DUF247",
+      "description" : "Plant protein of unknown function",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.1"
+      },
+      "entry" : {
+        "accession" : "IPR004158",
+        "name" : "DUF247_pln",
+        "description" : "Protein of unknown function DUF247, plant",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 103,
+      "end" : 486,
+      "representative" : false,
+      "hmmStart" : 12,
+      "hmmEnd" : 398,
+      "hmmLength" : 401,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 3.6E-67,
+      "score" : 239.1,
+      "envelopeStart" : 94,
+      "envelopeEnd" : 489,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 103,
+        "end" : 486,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.8E-67,
+    "score" : 239.4,
+    "model-ac" : "PF03140"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 474,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 474,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PTHR31549",
+      "name" : "PROTEIN, PUTATIVE (DUF247)-RELATED-RELATED",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 89,
+      "end" : 485,
+      "representative" : true,
+      "hmmStart" : 18,
+      "hmmEnd" : 294,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 53,
+      "envelopeEnd" : 497,
+      "location-fragments" : [ {
+        "start" : 89,
+        "end" : 485,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR31549:SF290",
+    "name" : "",
+    "evalue" : 9.8E-50,
+    "score" : 181.3,
+    "proteinClass" : null,
+    "graftPoint" : "PTN009122183",
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR31549:SF290"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 495,
+      "end" : 498,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 495,
+        "end" : 498,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 475,
+      "end" : 494,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 475,
+        "end" : 494,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 475,
+      "end" : 494,
+      "representative" : false,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 475,
+        "end" : 494,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  } ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.2HG0191510.1",
+    "id" : "HORVU.MOREX.r3.2HG0191510.1"
+  } ]
+} ]
+}

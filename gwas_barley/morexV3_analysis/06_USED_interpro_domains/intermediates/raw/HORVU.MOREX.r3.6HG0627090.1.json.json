@@ -1,0 +1,3955 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MRAVAIASPGGPEVLEEREVEDLPAPGDGEVLLRVAAAGVNRTDTVQRQGGYPLPPGASPYPGVECSGTILALGANVHPRWVVGDQVCALLPGGGYAEKVVVPAALLLPVPEEVSLTDAAGLPEVACTVWSTVFMTSHLSPGESFLIHGGSSGIGTFAIQMAKHLGIKVIVTAGSEEKLAACAGLGADVCINYKTEDFVARIKEETNGNGVDVILDNVGGPYLQRNLESLAVDGRLFIIGFMGGTVTELNLQAMLARRLTIQVAGLRSRSLANKAQIVSAVEKNVWPAVASGKVRPVVYKTLSLSEAAEAHKLMESSSHIGKILLIP",
+  "md5" : "5814bf6b7c1f5c70e49d18375ad3e481",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "G3DSA:3.90.180.10",
+      "name" : "",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 12,
+      "end" : 325,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 313,
+      "hmmLength" : 190,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.6E-108,
+      "score" : 364.6,
+      "envelopeStart" : 12,
+      "envelopeEnd" : 325,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 12,
+        "end" : 121,
+        "dc-status" : "C_TERMINAL_DISC"
+      }, {
+        "start" : 265,
+        "end" : 325,
+        "dc-status" : "N_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 1.4E-108,
+    "score" : 364.7,
+    "model-ac" : "2j8zA01"
+  }, {
+    "signature" : {
+      "accession" : "SM00829",
+      "name" : "PKS_ER_names_mod",
+      "description" : null,
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "9.0"
+      },
+      "entry" : {
+        "accession" : "IPR020843",
+        "name" : "ER",
+        "description" : "Enoylreductase domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "oxidoreductase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0016491"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77346"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-75105"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-199220"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77346"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5661270"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-75105"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5365859"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71384"
+        }, {
+          "name" : "ChREBP activates metabolic gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-163765"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71384"
+        }, {
+          "name" : "Activation of gene expression by SREBF (SREBP)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2426168"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5661270"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5661270"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5652227"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71384"
+        }, {
+          "name" : "Synthesis of Leukotrienes (LT) and Eoxins (EX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142691"
+        }, {
+          "name" : "Biosynthesis of Lipoxins (LX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142700"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5652227"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-75105"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5661270"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2161541"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71384"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5652227"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2161541"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-6798695"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5652227"
+        }, {
+          "name" : "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803205"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5652227"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71384"
+        }, {
+          "name" : "NR1H2 & NR1H3 regulate gene expression linked to lipogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9029558"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-199220"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-75105"
+        }, {
+          "name" : "Dimycocersyl phthiocerol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MTU-9635470"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5365859"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5661270"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-199220"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-77346"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-2161541"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-199220"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5652227"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5661270"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5652227"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5661270"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 325,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 348,
+      "hmmLength" : 348,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.1E-50,
+      "score" : 182.5,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 325,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.1E-50,
+    "score" : 182.5,
+    "model-ac" : "SM00829"
+  }, {
+    "signature" : {
+      "accession" : "PIRSR611284-2",
+      "name" : "PIRSR611284-2",
+      "description" : null,
+      "type" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PIRSR",
+        "version" : "2025_05"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 144,
+      "end" : 217,
+      "representative" : false,
+      "sites" : [ {
+        "description" : "BINDING: NADP; via carbonyl oxygen.",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 217,
+          "end" : 217,
+          "residue" : "N"
+        } ],
+        "label" : null,
+        "group" : 0,
+        "hmmStart" : 0,
+        "hmmEnd" : 0
+      } ],
+      "hmmStart" : 8,
+      "hmmEnd" : 90,
+      "hmmLength" : 247,
+      "evalue" : 0.0084,
+      "score" : 13.4,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 2,
+      "location-fragments" : [ {
+        "start" : 144,
+        "end" : 217,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0084,
+    "score" : 13.4,
+    "scope" : null,
+    "model-ac" : "PIRSR611284-2"
+  }, {
+    "signature" : {
+      "accession" : "PF08240",
+      "name" : "ADH_N",
+      "description" : "Alcohol dehydrogenase GroES-like domain",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.1"
+      },
+      "entry" : {
+        "accession" : "IPR013154",
+        "name" : "ADH-like_N",
+        "description" : "Alcohol dehydrogenase-like, N-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77346"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-77346"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-71384"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77346"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-71384"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5661270"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5365859"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71384"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71384"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71384"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5661270"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5661270"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5652227"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71384"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71384"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5652227"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-75105"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5661270"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2161541"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71384"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5652227"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-2161541"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2161541"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5365859"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-6798695"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5652227"
+        }, {
+          "name" : "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803205"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5652227"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71384"
+        }, {
+          "name" : "Dimycocersyl phthiocerol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MTU-9635470"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5365859"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5661270"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-77346"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-2161541"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-199220"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5652227"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2161541"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5661270"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5652227"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5661270"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 27,
+      "end" : 112,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 104,
+      "hmmLength" : 104,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.7E-11,
+      "score" : 54.2,
+      "envelopeStart" : 27,
+      "envelopeEnd" : 112,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 27,
+        "end" : 112,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-11,
+    "score" : 55.4,
+    "model-ac" : "PF08240"
+  }, {
+    "signature" : {
+      "accession" : "TIGR02824",
+      "name" : "quinone_pig3",
+      "description" : "putative NAD(P)H quinone oxidoreductase, PIG3 family",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "NCBIFAM",
+        "version" : "18.0"
+      },
+      "entry" : {
+        "accession" : "IPR014189",
+        "name" : "Quinone_OxRdtase_PIG3",
+        "description" : "Quinone oxidoreductase PIG3",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803205"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 325,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 323,
+      "hmmLength" : 325,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 0.0,
+      "score" : 449.2,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 326,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 325,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 449.5,
+    "model-ac" : "TIGR02824"
+  }, {
+    "signature" : {
+      "accession" : "SSF50129",
+      "name" : "GroES-like",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR011032",
+        "name" : "GroES-like_sf",
+        "description" : "GroES-like superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77346"
+        }, {
+          "name" : "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2162123"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-75105"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-199220"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-77346"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-71384"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77346"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-71384"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5661270"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-75105"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5365859"
+        }, {
+          "name" : "RHOG GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013408"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71384"
+        }, {
+          "name" : "ChREBP activates metabolic gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-163765"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71384"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71384"
+        }, {
+          "name" : "Activation of gene expression by SREBF (SREBP)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2426168"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5661270"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5661270"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5652227"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71384"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71384"
+        }, {
+          "name" : "Synthesis of Leukotrienes (LT) and Eoxins (EX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142691"
+        }, {
+          "name" : "Biosynthesis of Lipoxins (LX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142700"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5652227"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-75105"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5661270"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2161541"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71384"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5652227"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-2161541"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2161541"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5365859"
+        }, {
+          "name" : "RHOG GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9013408"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-6798695"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5652227"
+        }, {
+          "name" : "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803205"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2161541"
+        }, {
+          "name" : "RHOG GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013408"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5652227"
+        }, {
+          "name" : "Mitochondrial unfolded protein response (UPRmt)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9841251"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71384"
+        }, {
+          "name" : "NR1H2 & NR1H3 regulate gene expression linked to lipogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9029558"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-199220"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-75105"
+        }, {
+          "name" : "Dimycocersyl phthiocerol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MTU-9635470"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5365859"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5661270"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5365859"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-199220"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-77346"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-2161541"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-199220"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5652227"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2161541"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5661270"
+        }, {
+          "name" : "RHOG GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013408"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5652227"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5661270"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 142,
+      "representative" : false,
+      "hmmLength" : 147,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 142,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.43E-35,
+    "model-ac" : "0041738"
+  }, {
+    "signature" : {
+      "accession" : "cd05276",
+      "name" : "p53_inducible_oxidoreductase",
+      "description" : "p53_inducible_oxidoreductase",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.21"
+      },
+      "entry" : {
+        "accession" : "IPR014189",
+        "name" : "Quinone_OxRdtase_PIG3",
+        "description" : "Quinone oxidoreductase PIG3",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803205"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 325,
+      "representative" : true,
+      "sites" : [ {
+        "description" : "NAD(P) binding site",
+        "numLocations" : 23,
+        "siteLocations" : [ {
+          "start" : 131,
+          "end" : 131,
+          "residue" : "S"
+        }, {
+          "start" : 266,
+          "end" : 266,
+          "residue" : "L"
+        }, {
+          "start" : 178,
+          "end" : 178,
+          "residue" : "K"
+        }, {
+          "start" : 242,
+          "end" : 242,
+          "residue" : "M"
+        }, {
+          "start" : 319,
+          "end" : 319,
+          "residue" : "H"
+        }, {
+          "start" : 124,
+          "end" : 124,
+          "residue" : "E"
+        }, {
+          "start" : 41,
+          "end" : 41,
+          "residue" : "N"
+        }, {
+          "start" : 240,
+          "end" : 240,
+          "residue" : "G"
+        }, {
+          "start" : 218,
+          "end" : 218,
+          "residue" : "V"
+        }, {
+          "start" : 149,
+          "end" : 149,
+          "residue" : "G"
+        }, {
+          "start" : 217,
+          "end" : 217,
+          "residue" : "N"
+        }, {
+          "start" : 42,
+          "end" : 42,
+          "residue" : "R"
+        }, {
+          "start" : 152,
+          "end" : 152,
+          "residue" : "S"
+        }, {
+          "start" : 128,
+          "end" : 128,
+          "residue" : "T"
+        }, {
+          "start" : 314,
+          "end" : 314,
+          "residue" : "M"
+        }, {
+          "start" : 239,
+          "end" : 239,
+          "residue" : "I"
+        }, {
+          "start" : 265,
+          "end" : 265,
+          "residue" : "G"
+        }, {
+          "start" : 153,
+          "end" : 153,
+          "residue" : "G"
+        }, {
+          "start" : 264,
+          "end" : 264,
+          "residue" : "A"
+        }, {
+          "start" : 154,
+          "end" : 154,
+          "residue" : "I"
+        }, {
+          "start" : 173,
+          "end" : 173,
+          "residue" : "A"
+        }, {
+          "start" : 174,
+          "end" : 174,
+          "residue" : "G"
+        }, {
+          "start" : 193,
+          "end" : 193,
+          "residue" : "Y"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 521.617,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 325,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd05276"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.720",
+      "name" : "",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 122,
+      "end" : 264,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 313,
+      "hmmLength" : 144,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.6E-108,
+      "score" : 364.6,
+      "envelopeStart" : 12,
+      "envelopeEnd" : 325,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 122,
+        "end" : 264,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.4E-108,
+    "score" : 364.7,
+    "model-ac" : "2j8zA02"
+  }, {
+    "signature" : {
+      "accession" : "SSF51735",
+      "name" : "NAD(P)-binding Rossmann-fold domains",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036291",
+        "name" : "NAD(P)-bd_dom_sf",
+        "description" : "NAD(P)-binding domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-373920"
+        }, {
+          "name" : "Beta oxidation of myristoyl-CoA to lauroyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77285"
+        }, {
+          "name" : "Prednisone ADME",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9757110"
+        }, {
+          "name" : "Glycosaminoglycan-protein linkage region biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-1971475"
+        }, {
+          "name" : "Glycosaminoglycan-protein linkage region biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-1971475"
+        }, {
+          "name" : "eNOS activation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-203615"
+        }, {
+          "name" : "Glucocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-194002"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8964539"
+        }, {
+          "name" : "Defective AHCY causes HMAHCHD",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5578997"
+        }, {
+          "name" : "Peroxisomal protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-9033241"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71384"
+        }, {
+          "name" : "Lysine catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71064"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-70268"
+        }, {
+          "name" : "Phase I - Functionalization of compounds",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-211945"
+        }, {
+          "name" : "Urea cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-70635"
+        }, {
+          "name" : "Transferrin endocytosis and recycling",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-917977"
+        }, {
+          "name" : "Phenylalanine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-8964208"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5661270"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2151201"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71336"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3899300"
+        }, {
+          "name" : "Beta oxidation of hexanoyl-CoA to butanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77350"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-70268"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-70263"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71384"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-193048"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 24-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-193775"
+        }, {
+          "name" : "Glucocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-194002"
+        }, {
+          "name" : "Phase I - Functionalization of compounds",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-211945"
+        }, {
+          "name" : "RHOD GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013405"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5628897"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1483166"
+        }, {
+          "name" : "Beta oxidation of octanoyl-CoA to hexanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77348"
+        }, {
+          "name" : "Phenylalanine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-8964208"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-2161541"
+        }, {
+          "name" : "Sphingolipid de novo biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1660661"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5365859"
+        }, {
+          "name" : "Lysine catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71064"
+        }, {
+          "name" : "Beta-oxidation of pristanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-389887"
+        }, {
+          "name" : "mitochondrial fatty acid beta-oxidation of unsaturated fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77288"
+        }, {
+          "name" : "Respiratory electron transport",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-611105"
+        }, {
+          "name" : "Negative regulation of activity of TFAP2 (AP-2) family transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8866904"
+        }, {
+          "name" : "Glucocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-194002"
+        }, {
+          "name" : "Lysine catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71064"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-70370"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-193368"
+        }, {
+          "name" : "rRNA processing in the mitochondrion",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8868766"
+        }, {
+          "name" : "Cholesterol biosynthesis via lathosterol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6807062"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-173599"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-70268"
+        }, {
+          "name" : "alpha-linolenic acid (ALA) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2046106"
+        }, {
+          "name" : "Association of TriC/CCT with target proteins during biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390471"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5652227"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1855183"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-70171"
+        }, {
+          "name" : "Glucocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-194002"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 24-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-193775"
+        }, {
+          "name" : "Respiratory electron transport",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-611105"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1483166"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-156581"
+        }, {
+          "name" : "Regulation of pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9861718"
+        }, {
+          "name" : "Glycosaminoglycan-protein linkage region biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1971475"
+        }, {
+          "name" : "Ion homeostasis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5578775"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-70268"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-8964539"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-75105"
+        }, {
+          "name" : "Regulation of insulin secretion",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-422356"
+        }, {
+          "name" : "Wax biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9640463"
+        }, {
+          "name" : "Lysine catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-71064"
+        }, {
+          "name" : "Biosynthesis of D-series resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9018676"
+        }, {
+          "name" : "Ion homeostasis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5578775"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-173599"
+        }, {
+          "name" : "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1474151"
+        }, {
+          "name" : "Phenylalanine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8964208"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-70370"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5365859"
+        }, {
+          "name" : "Repression of WNT target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-4641265"
+        }, {
+          "name" : "Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-77310"
+        }, {
+          "name" : "Serine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-977347"
+        }, {
+          "name" : "Phenylalanine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8964208"
+        }, {
+          "name" : "Heme degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-189483"
+        }, {
+          "name" : "Bicarbonate transporters",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-425381"
+        }, {
+          "name" : "Acyl chain remodeling of CL",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1482798"
+        }, {
+          "name" : "Beta oxidation of myristoyl-CoA to lauroyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77285"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-75105"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-156581"
+        }, {
+          "name" : "Cholesterol biosynthesis via lathosterol",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6807062"
+        }, {
+          "name" : "Cholesterol biosynthesis via lathosterol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6807062"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CFA-193048"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1855183"
+        }, {
+          "name" : "Complex I biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6799198"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-77346"
+        }, {
+          "name" : "Mineralocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-193993"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6798695"
+        }, {
+          "name" : "Beta-oxidation of pristanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389887"
+        }, {
+          "name" : "Wax biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-9640463"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-70268"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 27-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-193807"
+        }, {
+          "name" : "Deactivation of the beta-catenin transactivating complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-3769402"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5652227"
+        }, {
+          "name" : "Cholesterol biosynthesis via lathosterol",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-6807062"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-173599"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-71336"
+        }, {
+          "name" : "Mineralocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-193993"
+        }, {
+          "name" : "Heme degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-189483"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5661270"
+        }, {
+          "name" : "Estrogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-193144"
+        }, {
+          "name" : "Peroxisomal protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9033241"
+        }, {
+          "name" : "eNOS activation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-203615"
+        }, {
+          "name" : "mitochondrial fatty acid beta-oxidation of unsaturated fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77288"
+        }, {
+          "name" : "Estrogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-193144"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-70268"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2151201"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-70370"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3899300"
+        }, {
+          "name" : "Interconversion of nucleotide di- and triphosphates",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-499943"
+        }, {
+          "name" : "Plasmalogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-75896"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-9837999"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6798695"
+        }, {
+          "name" : "Plasmalogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-75896"
+        }, {
+          "name" : "RHOD GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013405"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5689880"
+        }, {
+          "name" : "Negative Regulation of CDH1 Gene Transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9764725"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71403"
+        }, {
+          "name" : "Beta oxidation of hexanoyl-CoA to butanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-77350"
+        }, {
+          "name" : "Synthesis of very long-chain fatty acyl-CoAs",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-75876"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5661270"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-70171"
+        }, {
+          "name" : "mitochondrial fatty acid beta-oxidation of unsaturated fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77288"
+        }, {
+          "name" : "Complex I biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6799198"
+        }, {
+          "name" : "Beta-oxidation of pristanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-389887"
+        }, {
+          "name" : "Prednisone ADME",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9757110"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-156581"
+        }, {
+          "name" : "Cytoprotection by HMOX1",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9707564"
+        }, {
+          "name" : "Synthesis of dolichyl-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-446199"
+        }, {
+          "name" : "Metabolism of folate and pterines",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-196757"
+        }, {
+          "name" : "Wax biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9640463"
+        }, {
+          "name" : "Biosynthesis of E-series 18(S)-resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9018896"
+        }, {
+          "name" : "Biosynthesis of D-series resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9018676"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-199220"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5365859"
+        }, {
+          "name" : "Wax biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9640463"
+        }, {
+          "name" : "Repression of WNT target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-4641265"
+        }, {
+          "name" : "Beta oxidation of palmitoyl-CoA to myristoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77305"
+        }, {
+          "name" : "Biosynthesis of E-series 18(S)-resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018896"
+        }, {
+          "name" : "Mineralocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CFA-193993"
+        }, {
+          "name" : "Beta-oxidation of very long chain fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-390247"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-193368"
+        }, {
+          "name" : "Regulation of pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9861718"
+        }, {
+          "name" : "Negative Regulation of CDH1 Gene Transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9764725"
+        }, {
+          "name" : "Complex I biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6799198"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-70171"
+        }, {
+          "name" : "Activation of the TFAP2 (AP-2) family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8866907"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71336"
+        }, {
+          "name" : "PLC beta mediated events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-112043"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77346"
+        }, {
+          "name" : "Cholesterol biosynthesis via lathosterol",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6807062"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-70171"
+        }, {
+          "name" : "Estrogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-193144"
+        }, {
+          "name" : "Synthesis of Leukotrienes (LT) and Eoxins (EX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142691"
+        }, {
+          "name" : "Branched-chain amino acid catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-70895"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-70370"
+        }, {
+          "name" : "CDC42 GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013148"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-70268"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71403"
+        }, {
+          "name" : "Glycosaminoglycan-protein linkage region biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1971475"
+        }, {
+          "name" : "Beta oxidation of hexanoyl-CoA to butanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77350"
+        }, {
+          "name" : "Urea cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-70635"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71384"
+        }, {
+          "name" : "The canonical retinoid cycle in rods (twilight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-2453902"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5652227"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-193048"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-5365859"
+        }, {
+          "name" : "Utilization of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-77108"
+        }, {
+          "name" : "Serine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-977347"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-1614635"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2161541"
+        }, {
+          "name" : "Wax biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9640463"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-70370"
+        }, {
+          "name" : "TYSND1 cleaves peroxisomal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9033500"
+        }, {
+          "name" : "Branched-chain amino acid catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-70895"
+        }, {
+          "name" : "Branched-chain amino acid catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-70895"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2161541"
+        }, {
+          "name" : "Beta oxidation of myristoyl-CoA to lauroyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77285"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-70263"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5652227"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9837999"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1483166"
+        }, {
+          "name" : "NR1H2 & NR1H3 regulate gene expression linked to lipogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9029558"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-199220"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5689880"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-5365859"
+        }, {
+          "name" : "Mineralocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-193993"
+        }, {
+          "name" : "Negative Regulation of CDH1 Gene Transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9764725"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5628897"
+        }, {
+          "name" : "Acyl chain remodeling of CL",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-1482798"
+        }, {
+          "name" : "Synthesis of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77111"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5365859"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-5689880"
+        }, {
+          "name" : "alpha-linolenic acid (ALA) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2046106"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-70171"
+        }, {
+          "name" : "Defective visual phototransduction due to RDH12 loss of function",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9918440"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-77346"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-193048"
+        }, {
+          "name" : "Regulation of pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9861718"
+        }, {
+          "name" : "Metabolism of folate and pterines",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-196757"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9837999"
+        }, {
+          "name" : "Urea cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-70635"
+        }, {
+          "name" : "Cholesterol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-191273"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-1483166"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-70263"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1251985"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-156581"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-70263"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77346"
+        }, {
+          "name" : "Sperm Motility And Taxes",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1300642"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CFA-75105"
+        }, {
+          "name" : "Sensory processing of sound by inner hair cells of the cochlea",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9662360"
+        }, {
+          "name" : "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2162123"
+        }, {
+          "name" : "Ca2+ activated K+ channels",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1296052"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-1614635"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77346"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-71384"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9837999"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-70263"
+        }, {
+          "name" : "Sperm Motility And Taxes",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1300642"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-173599"
+        }, {
+          "name" : "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2162123"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-70268"
+        }, {
+          "name" : "Urea cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-70635"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71336"
+        }, {
+          "name" : "Negative Regulation of CDH1 Gene Transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9764725"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-70171"
+        }, {
+          "name" : "RHOJ GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013409"
+        }, {
+          "name" : "Alpha-oxidation of phytanate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389599"
+        }, {
+          "name" : "alpha-linolenic acid (ALA) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2046106"
+        }, {
+          "name" : "The canonical retinoid cycle in rods (twilight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2453902"
+        }, {
+          "name" : "RHOF GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9035034"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-114608"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-193368"
+        }, {
+          "name" : "Synthesis of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77111"
+        }, {
+          "name" : "Respiratory electron transport",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-611105"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-2151201"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-8964539"
+        }, {
+          "name" : "Branched-chain amino acid catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-70895"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2161541"
+        }, {
+          "name" : "Biosynthesis of E-series 18(S)-resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9018896"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-173599"
+        }, {
+          "name" : "Heme degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-189483"
+        }, {
+          "name" : "Serine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-977347"
+        }, {
+          "name" : "Synthesis of dolichyl-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-446199"
+        }, {
+          "name" : "The canonical retinoid cycle in rods (twilight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2453902"
+        }, {
+          "name" : "Beta oxidation of hexanoyl-CoA to butanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77350"
+        }, {
+          "name" : "Bicarbonate transporters",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-425381"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-70370"
+        }, {
+          "name" : "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2162123"
+        }, {
+          "name" : "Beta oxidation of myristoyl-CoA to lauroyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-77285"
+        }, {
+          "name" : "Ca2+ activated K+ channels",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1296052"
+        }, {
+          "name" : "Beta oxidation of palmitoyl-CoA to myristoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77305"
+        }, {
+          "name" : "Negative regulation of activity of TFAP2 (AP-2) family transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-8866904"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-71336"
+        }, {
+          "name" : "Mycothiol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MTU-879299"
+        }, {
+          "name" : "Synthesis of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77111"
+        }, {
+          "name" : "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803205"
+        }, {
+          "name" : "Ca2+ activated K+ channels",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1296052"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77346"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-9856872"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-77346"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71336"
+        }, {
+          "name" : "Regulation of pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9861718"
+        }, {
+          "name" : "GDP-fucose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-6787639"
+        }, {
+          "name" : "VEGFR2 mediated cell proliferation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5218921"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71384"
+        }, {
+          "name" : "FCERI mediated Ca+2 mobilization",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2871809"
+        }, {
+          "name" : "RHOQ GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013406"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9837999"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5365859"
+        }, {
+          "name" : "Beta oxidation of palmitoyl-CoA to myristoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77305"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-8964539"
+        }, {
+          "name" : "alpha-linolenic acid (ALA) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2046106"
+        }, {
+          "name" : "RHOF GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9035034"
+        }, {
+          "name" : "Beta-oxidation of very long chain fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-390247"
+        }, {
+          "name" : "Plasmalogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-75896"
+        }, {
+          "name" : "Cytoprotection by HMOX1",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9707564"
+        }, {
+          "name" : "Biosynthesis of Lipoxins (LX)",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2142700"
+        }, {
+          "name" : "DAG and IP3 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1489509"
+        }, {
+          "name" : "Beta oxidation of hexanoyl-CoA to butanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77350"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71336"
+        }, {
+          "name" : "Glucocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-194002"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-70370"
+        }, {
+          "name" : "Beta-oxidation of very long chain fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-390247"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-77346"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9856872"
+        }, {
+          "name" : "Cholesterol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-191273"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-75105"
+        }, {
+          "name" : "Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77310"
+        }, {
+          "name" : "RHOQ GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9013406"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9856872"
+        }, {
+          "name" : "Negative regulation of activity of TFAP2 (AP-2) family transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8866904"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-173599"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1614635"
+        }, {
+          "name" : "Negative regulation of activity of TFAP2 (AP-2) family transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8866904"
+        }, {
+          "name" : "RHOQ GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9013406"
+        }, {
+          "name" : "NFE2L2 regulates pentose phosphate pathway genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9818028"
+        }, {
+          "name" : "Beta-oxidation of very long chain fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-390247"
+        }, {
+          "name" : "Acyl chain remodeling of CL",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1482798"
+        }, {
+          "name" : "Antigen activates B Cell Receptor (BCR) leading to generation of second messengers",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983695"
+        }, {
+          "name" : "Sphingolipid de novo biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-1660661"
+        }, {
+          "name" : "Metabolism of folate and pterines",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-196757"
+        }, {
+          "name" : "Pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-70268"
+        }, {
+          "name" : "Glyoxylate metabolism and glycine degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-389661"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-352882"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-156581"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 27-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-193807"
+        }, {
+          "name" : "Cholesterol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-191273"
+        }, {
+          "name" : "Phenylalanine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-8964208"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71384"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1614635"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2151201"
+        }, {
+          "name" : "Acyl chain remodeling of CL",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1482798"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1483166"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-114608"
+        }, {
+          "name" : "Essential pentosuria",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5662853"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5628897"
+        }, {
+          "name" : "Beta-oxidation of very long chain fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-390247"
+        }, {
+          "name" : "The retinoid cycle in cones (daylight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2187335"
+        }, {
+          "name" : "Glucocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-194002"
+        }, {
+          "name" : "RHOF GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9035034"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1855183"
+        }, {
+          "name" : "Peroxisomal protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9033241"
+        }, {
+          "name" : "Branched-chain amino acid catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-70895"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-75105"
+        }, {
+          "name" : "Beta oxidation of butanoyl-CoA to acetyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77352"
+        }, {
+          "name" : "Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77310"
+        }, {
+          "name" : "Estrogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-193144"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-77346"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-70171"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1614635"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-156581"
+        }, {
+          "name" : "Metabolism of ingested SeMet, Sec, MeSec into H2Se",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2408508"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-70263"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-114608"
+        }, {
+          "name" : "tRNA processing in the mitochondrion",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6785470"
+        }, {
+          "name" : "Negative Regulation of CDH1 Gene Transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9764725"
+        }, {
+          "name" : "Cholesterol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-191273"
+        }, {
+          "name" : "Plasmalogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-75896"
+        }, {
+          "name" : "Ion homeostasis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5578775"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-75105"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5689880"
+        }, {
+          "name" : "Glyoxylate metabolism and glycine degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-389661"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5661270"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 27-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-193807"
+        }, {
+          "name" : "Utilization of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77108"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9837999"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-2161541"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-199220"
+        }, {
+          "name" : "Synthesis of very long-chain fatty acyl-CoAs",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-75876"
+        }, {
+          "name" : "The retinoid cycle in cones (daylight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2187335"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-70171"
+        }, {
+          "name" : "Metabolism of folate and pterines",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-196757"
+        }, {
+          "name" : "The canonical retinoid cycle in rods (twilight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2453902"
+        }, {
+          "name" : "Galactose catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-70370"
+        }, {
+          "name" : "Glucocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CFA-194002"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5628897"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-70263"
+        }, {
+          "name" : "Utilization of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77108"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-70171"
+        }, {
+          "name" : "Serine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-977347"
+        }, {
+          "name" : "Ca2+ activated K+ channels",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-1296052"
+        }, {
+          "name" : "Signaling by TCF7L2 mutants",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5339700"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-70171"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-70171"
+        }, {
+          "name" : "Beta-oxidation of very long chain fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390247"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-70263"
+        }, {
+          "name" : "Urea cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-70635"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2161541"
+        }, {
+          "name" : "Peroxisomal protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9033241"
+        }, {
+          "name" : "Deactivation of the beta-catenin transactivating complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3769402"
+        }, {
+          "name" : "mitochondrial fatty acid beta-oxidation of unsaturated fatty acids",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77288"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2151201"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5661270"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71384"
+        }, {
+          "name" : "Beta oxidation of butanoyl-CoA to acetyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77352"
+        }, {
+          "name" : "Sphingolipid de novo biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1660661"
+        }, {
+          "name" : "Synthesis of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-77111"
+        }, {
+          "name" : "Synthesis of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-77111"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-71403"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71384"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-3899300"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9856872"
+        }, {
+          "name" : "Cholesterol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-191273"
+        }, {
+          "name" : "Branched-chain amino acid catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-70895"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1251985"
+        }, {
+          "name" : "GDP-fucose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6787639"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-9856872"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-71403"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5652227"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-5628897"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-77346"
+        }, {
+          "name" : "RHOD GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9013405"
+        }, {
+          "name" : "Repression of WNT target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-4641265"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-193048"
+        }, {
+          "name" : "Ca2+ activated K+ channels",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-1296052"
+        }, {
+          "name" : "Metabolism of folate and pterines",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-196757"
+        }, {
+          "name" : "Complex I biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6799198"
+        }, {
+          "name" : "Glycosaminoglycan-protein linkage region biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1971475"
+        }, {
+          "name" : "PPARA activates gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1989781"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9837999"
+        }, {
+          "name" : "Transferrin endocytosis and recycling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-917977"
+        }, {
+          "name" : "Prednisone ADME",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9757110"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8964539"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1855183"
+        }, {
+          "name" : "Negative Regulation of CDH1 Gene Transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9764725"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-77346"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5689880"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8964539"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1855183"
+        }, {
+          "name" : "Beta oxidation of butanoyl-CoA to acetyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77352"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-3899300"
+        }, {
+          "name" : "Alpha-oxidation of phytanate",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-389599"
+        }, {
+          "name" : "Sphingolipid de novo biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1660661"
+        }, {
+          "name" : "Estrogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-193144"
+        }, {
+          "name" : "Defective GALE causes EDG",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5609977"
+        }, {
+          "name" : "GDP-fucose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6787639"
+        }, {
+          "name" : "Metabolism of folate and pterines",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-196757"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9837999"
+        }, {
+          "name" : "Sperm Motility And Taxes",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1300642"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2161541"
+        }, {
+          "name" : "Activation of the TFAP2 (AP-2) family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-8866907"
+        }, {
+          "name" : "cGMP effects",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-418457"
+        }, {
+          "name" : "Regulation of pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-9861718"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-173599"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-1483166"
+        }, {
+          "name" : "eNOS activation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-203615"
+        }, {
+          "name" : "Cholesterol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-191273"
+        }, {
+          "name" : "Beta oxidation of palmitoyl-CoA to myristoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-77305"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5652227"
+        }, {
+          "name" : "tRNA modification in the mitochondrion",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6787450"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5628897"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-1251985"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2161541"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-193048"
+        }, {
+          "name" : "Lysine catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71064"
+        }, {
+          "name" : "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1474151"
+        }, {
+          "name" : "Complex I biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6799198"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1614635"
+        }, {
+          "name" : "Plasmalogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-75896"
+        }, {
+          "name" : "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2162123"
+        }, {
+          "name" : "Utilization of Ketone Bodies",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77108"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-156581"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-9856872"
+        }, {
+          "name" : "TP53 Regulates Transcription of Genes Involved in Cytochrome C Release",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6803204"
+        }, {
+          "name" : "Sperm Motility And Taxes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-1300642"
+        }, {
+          "name" : "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1474151"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1614635"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9837999"
+        }, {
+          "name" : "Plasmalogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-75896"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-8964539"
+        }, {
+          "name" : "Branched-chain amino acid catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-70895"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5365859"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-5689880"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-75105"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-1855183"
+        }, {
+          "name" : "Peroxisomal protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9033241"
+        }, {
+          "name" : "Bicarbonate transporters",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-425381"
+        }, {
+          "name" : "ChREBP activates metabolic gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-163765"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-114608"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-8964539"
+        }, {
+          "name" : "Transferrin endocytosis and recycling",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-917977"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975634"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-156581"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-193048"
+        }, {
+          "name" : "Phase I - Functionalization of compounds",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-211945"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975634"
+        }, {
+          "name" : "Activation of the TFAP2 (AP-2) family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8866907"
+        }, {
+          "name" : "Biosynthesis of Lipoxins (LX)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2142700"
+        }, {
+          "name" : "Beta oxidation of octanoyl-CoA to hexanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77348"
+        }, {
+          "name" : "Lipid particle organization",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-8964572"
+        }, {
+          "name" : "Cytoprotection by HMOX1",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9707564"
+        }, {
+          "name" : "Biosynthesis of Lipoxins (LX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142700"
+        }, {
+          "name" : "Ion homeostasis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5578775"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5661270"
+        }, {
+          "name" : "FCGR3A-mediated IL10 synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9664323"
+        }, {
+          "name" : "Respiratory electron transport",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-611105"
+        }, {
+          "name" : "Acetylcholine inhibits contraction of outer hair cells",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9667769"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-75105"
+        }, {
+          "name" : "Biosynthesis of E-series 18(S)-resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9018896"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5628897"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9856872"
+        }, {
+          "name" : "Beta oxidation of octanoyl-CoA to hexanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77348"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-75105"
+        }, {
+          "name" : "Estrogen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-193144"
+        }, {
+          "name" : "Biosynthesis of D-series resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018676"
+        }, {
+          "name" : "Regulation of pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-9861718"
+        }, {
+          "name" : "Cholesterol biosynthesis via lathosterol",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-6807062"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-70263"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-9856872"
+        }, {
+          "name" : "TP53 Regulates Transcription of Genes Involved in Cytochrome C Release",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6803204"
+        }, {
+          "name" : "Deactivation of the beta-catenin transactivating complex",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-3769402"
+        }, {
+          "name" : "Peroxisomal protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9033241"
+        }, {
+          "name" : "Synthesis of very long-chain fatty acyl-CoAs",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-75876"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-71403"
+        }, {
+          "name" : "Cytoprotection by HMOX1",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9707564"
+        }, {
+          "name" : "Prednisone ADME",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9757110"
+        }, {
+          "name" : "Synthesis of very long-chain fatty acyl-CoAs",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-75876"
+        }, {
+          "name" : "Metabolism of folate and pterines",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-196757"
+        }, {
+          "name" : "Biosynthesis of D-series resolvins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9018676"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1614635"
+        }, {
+          "name" : "Cholesterol biosynthesis via lathosterol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6807062"
+        }, {
+          "name" : "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1474151"
+        }, {
+          "name" : "The canonical retinoid cycle in rods (twilight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2453902"
+        }, {
+          "name" : "Beta oxidation of octanoyl-CoA to hexanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-77348"
+        }, {
+          "name" : "Activation of the TFAP2 (AP-2) family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8866907"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-173599"
+        }, {
+          "name" : "GDP-fucose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6787639"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-9856872"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-70263"
+        }, {
+          "name" : "Mineralocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-193993"
+        }, {
+          "name" : "GDP-fucose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6787639"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-156581"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-8964539"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71403"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "The canonical retinoid cycle in rods (twilight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-2453902"
+        }, {
+          "name" : "Androgen biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-193048"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71336"
+        }, {
+          "name" : "Biosynthesis of Lipoxins (LX)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2142700"
+        }, {
+          "name" : "NFE2L2 regulating TCA cycle genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9818025"
+        }, {
+          "name" : "Lipid particle organization",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-8964572"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-70263"
+        }, {
+          "name" : "Wax biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9640463"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5661270"
+        }, {
+          "name" : "Heme degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-189483"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-156581"
+        }, {
+          "name" : "Deactivation of the beta-catenin transactivating complex",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3769402"
+        }, {
+          "name" : "Repression of WNT target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-4641265"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-1855183"
+        }, {
+          "name" : "Pentose phosphate pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-PFA-71336"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-71384"
+        }, {
+          "name" : "Cholesterol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-191273"
+        }, {
+          "name" : "Sulfur amino acid metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-1614635"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-2151201"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5628897"
+        }, {
+          "name" : "Beta oxidation of butanoyl-CoA to acetyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SSC-77352"
+        }, {
+          "name" : "Synthesis of very long-chain fatty acyl-CoAs",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-75876"
+        }, {
+          "name" : "TP53 Regulates Metabolic Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5628897"
+        }, {
+          "name" : "Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77310"
+        }, {
+          "name" : "Lipid particle organization",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8964572"
+        }, {
+          "name" : "Lipid particle organization",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8964572"
+        }, {
+          "name" : "Synthesis of very long-chain fatty acyl-CoAs",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-75876"
+        }, {
+          "name" : "Peroxisomal protein import",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9033241"
+        }, {
+          "name" : "Activation of gene expression by SREBF (SREBP)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2426168"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5661270"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-1483166"
+        }, {
+          "name" : "Beta-oxidation of pristanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-389887"
+        }, {
+          "name" : "Defective visual phototransduction due to RDH5 loss of function",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9918438"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Interconversion of nucleotide di- and triphosphates",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-499943"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-6798695"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-8964539"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5652227"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-1251985"
+        }, {
+          "name" : "CLEC7A (Dectin-1) induces NFAT activation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5607763"
+        }, {
+          "name" : "Beta oxidation of octanoyl-CoA to hexanoyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77348"
+        }, {
+          "name" : "Lysine catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71064"
+        }, {
+          "name" : "Alpha-oxidation of phytanate",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-389599"
+        }, {
+          "name" : "Sphingolipid de novo biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-1660661"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-75105"
+        }, {
+          "name" : "Urea cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-70635"
+        }, {
+          "name" : "Role of phospholipids in phagocytosis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2029485"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71403"
+        }, {
+          "name" : "Repression of WNT target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4641265"
+        }, {
+          "name" : "Deactivation of the beta-catenin transactivating complex",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-3769402"
+        }, {
+          "name" : "Glutamate and glutamine metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-8964539"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-5365859"
+        }, {
+          "name" : "Methylation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-156581"
+        }, {
+          "name" : "Repression of WNT target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-4641265"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-6798695"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71403"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-193368"
+        }, {
+          "name" : "Beta oxidation of butanoyl-CoA to acetyl-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77352"
+        }, {
+          "name" : "The retinoid cycle in cones (daylight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2187335"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-352875"
+        }, {
+          "name" : "Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77310"
+        }, {
+          "name" : "Mineralocorticoid biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-193993"
+        }, {
+          "name" : "Glycolysis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-70171"
+        }, {
+          "name" : "Malate-aspartate shuttle",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9856872"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-1483166"
+        }, {
+          "name" : "TP53 Regulates Transcription of Genes Involved in Cytochrome C Release",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803204"
+        }, {
+          "name" : "Gluconeogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-70263"
+        }, {
+          "name" : "RHOQ GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-9013406"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-75105"
+        }, {
+          "name" : "Dimycocersyl phthiocerol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MTU-9635470"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-199220"
+        }, {
+          "name" : "Synthesis of IP2, IP, and Ins in the cytosol",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-1855183"
+        }, {
+          "name" : "Bicarbonate transporters",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-425381"
+        }, {
+          "name" : "Lysine catabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71064"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71403"
+        }, {
+          "name" : "Synthesis of bile acids and bile salts via 24-hydroxycholesterol",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-193775"
+        }, {
+          "name" : "Regulation of pyruvate metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9861718"
+        }, {
+          "name" : "Formation of the active cofactor, UDP-glucuronate",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-173599"
+        }, {
+          "name" : "Citric acid cycle (TCA cycle)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71403"
+        }, {
+          "name" : "The retinoid cycle in cones (daylight vision)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2187335"
+        }, {
+          "name" : "Mitochondrial protein degradation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9837999"
+        }, {
+          "name" : "eNOS activation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-203615"
+        }, {
+          "name" : "Synthesis of PA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-1483166"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 114,
+      "end" : 288,
+      "representative" : false,
+      "hmmLength" : 182,
+      "location-fragments" : [ {
+        "start" : 114,
+        "end" : 288,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.87E-51,
+    "model-ac" : "0050040"
+  }, {
+    "signature" : {
+      "accession" : "PTHR48106",
+      "name" : "QUINONE OXIDOREDUCTASE PIG3-RELATED",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 327,
+      "representative" : true,
+      "hmmStart" : 1,
+      "hmmEnd" : 326,
+      "hmmLength" : 0,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 327,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 327,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR48106:SF10",
+    "name" : "ENOYL REDUCTASE (ER) DOMAIN-CONTAINING PROTEIN",
+    "evalue" : 0.0,
+    "score" : 473.2,
+    "proteinClass" : null,
+    "graftPoint" : "PTN005140006",
+    "goXRefs" : [ {
+      "name" : "oxidoreductase activity, acting on NAD(P)H",
+      "databaseName" : "GO",
+      "category" : "MOLECULAR_FUNCTION",
+      "id" : "GO:0016651"
+    }, {
+      "name" : "NADPH binding",
+      "databaseName" : "GO",
+      "category" : "MOLECULAR_FUNCTION",
+      "id" : "GO:0070402"
+    } ],
+    "model-ac" : "PTHR48106:SF10"
+  }, {
+    "signature" : {
+      "accession" : "PF00107",
+      "name" : "ADH_zinc_N",
+      "description" : "Zinc-binding dehydrogenase",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.1"
+      },
+      "entry" : {
+        "accession" : "IPR013149",
+        "name" : "ADH-like_C",
+        "description" : "Alcohol dehydrogenase-like, C-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-77346"
+        }, {
+          "name" : "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2162123"
+        }, {
+          "name" : "Vitamin B5 (pantothenate) metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-199220"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-77346"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-71384"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-77346"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-71384"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5661270"
+        }, {
+          "name" : "Fatty acyl-CoA biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-75105"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5365859"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71384"
+        }, {
+          "name" : "ChREBP activates metabolic gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-163765"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-71384"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71384"
+        }, {
+          "name" : "Activation of gene expression by SREBF (SREBP)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2426168"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5661270"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5661270"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5652227"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71384"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71384"
+        }, {
+          "name" : "Synthesis of Leukotrienes (LT) and Eoxins (EX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142691"
+        }, {
+          "name" : "Biosynthesis of Lipoxins (LX)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2142700"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5652227"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5661270"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2161541"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71384"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-XTR-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5652227"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-2161541"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5365859"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2161541"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5365859"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5652227"
+        }, {
+          "name" : "TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6803205"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2161541"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-77346"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-77346"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5652227"
+        }, {
+          "name" : "Ethanol oxidation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71384"
+        }, {
+          "name" : "NR1H2 & NR1H3 regulate gene expression linked to lipogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9029558"
+        }, {
+          "name" : "Dimycocersyl phthiocerol biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MTU-9635470"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5365859"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-5661270"
+        }, {
+          "name" : "RA biosynthesis pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5365859"
+        }, {
+          "name" : "Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-77346"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-2161541"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-5652227"
+        }, {
+          "name" : "Abacavir metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2161541"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-5661270"
+        }, {
+          "name" : "Fructose biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5652227"
+        }, {
+          "name" : "Formation of xylulose-5-phosphate",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-5661270"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 153,
+      "end" : 268,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 116,
+      "hmmLength" : 129,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.6E-28,
+      "score" : 110.6,
+      "envelopeStart" : 153,
+      "envelopeEnd" : 282,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 153,
+        "end" : 268,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.1E-28,
+    "score" : 111.2,
+    "model-ac" : "PF00107"
+  } ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.6HG0627090.1",
+    "id" : "HORVU.MOREX.r3.6HG0627090.1"
+  } ]
+} ]
+}

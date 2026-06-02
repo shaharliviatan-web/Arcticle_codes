@@ -1,0 +1,209 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MENGDETFASPTAAAAEFDLGFGPALTNGGGHAKAYDPEEMDALRAAKHGLEEKLAEVRHENGFLSAEAARLEALVAGAREDIAAADRAAAKAEGEAAGLRAEVKRLQGLLAAFDSSDRAADGPRGAGGDLATAHQEKLALEEEIKALKAAAAAAASDKEGKEEEAAPSAKEGLVAPHGTVAAAAAAGAAATAAIAVVLLNLKR",
+  "md5" : "fe6f4e9feca320950ae49470a633d5e7",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 131,
+      "end" : 165,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 131,
+        "end" : 165,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 181,
+      "end" : 202,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 181,
+        "end" : 202,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 203,
+      "end" : 204,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 203,
+        "end" : 204,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.287.1490",
+      "name" : "",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 38,
+      "end" : 194,
+      "representative" : true,
+      "hmmStart" : 16,
+      "hmmEnd" : 135,
+      "hmmLength" : 237,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.3E-6,
+      "score" : 28.9,
+      "envelopeStart" : 38,
+      "envelopeEnd" : 194,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 38,
+        "end" : 194,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-6,
+    "score" : 29.5,
+    "model-ac" : "3na7A00"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 180,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 180,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 69,
+      "end" : 110,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 69,
+        "end" : 110,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 41,
+      "end" : 61,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 41,
+        "end" : 61,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 180,
+      "end" : 202,
+      "representative" : false,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 180,
+        "end" : 202,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  } ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.1HG0079220.1",
+    "id" : "HORVU.MOREX.r3.1HG0079220.1"
+  } ]
+} ]
+}

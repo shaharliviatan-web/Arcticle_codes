@@ -1,0 +1,776 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MCFEFELADQRGPHGSGRAAKGGDGAAPEGMTTMASPADLMSGYYQAQEMSTMVSALSRVVAEDDPWAAASGSGSGAEGWGWEEQAMHAGAGGGYVHELGSFPSSEFAGSDQSSDTQGQSAATMEEHRSRSPAASNAAAEAEAPRRRYRGVRQRPWGKWAAEIRDPHKAARVWLGTFETAEAAARAYDDAALRFRGSRAKLNFPEDARLHPPTVAPAAAPIAAGSASPAVYAAGASQASDYLRYQMLLQGRGAAANQGNLLSFYGGAGGGGMSSSYGGGGMSSSYGGGGDGGAMSGFLGSYYSFPSSAVSVATVPSSSSASSAPGHYYSSSHDSQQQQQQQGDAAAEWSWESALAPYPGTAAAASWSGSSQQQYHPPHTQ",
+  "md5" : "86c264beddacb2171f47738f6780ce0e",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PF00847",
+      "name" : "AP2",
+      "description" : "AP2 domain",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.1"
+      },
+      "entry" : {
+        "accession" : "IPR001471",
+        "name" : "AP2/ERF_dom",
+        "description" : "AP2/ERF domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "regulation of DNA-templated transcription",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 147,
+      "end" : 196,
+      "representative" : false,
+      "hmmStart" : 2,
+      "hmmEnd" : 53,
+      "hmmLength" : 54,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 5.2E-10,
+      "score" : 50.8,
+      "envelopeStart" : 146,
+      "envelopeEnd" : 197,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 147,
+        "end" : 196,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.8E-10,
+    "score" : 51.6,
+    "model-ac" : "PF00847"
+  }, {
+    "signature" : {
+      "accession" : "cd00018",
+      "name" : "AP2",
+      "description" : "AP2",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.21"
+      },
+      "entry" : {
+        "accession" : "IPR001471",
+        "name" : "AP2/ERF_dom",
+        "description" : "AP2/ERF domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "regulation of DNA-templated transcription",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 155,
+      "end" : 206,
+      "representative" : false,
+      "sites" : null,
+      "evalue" : 2.01891E-14,
+      "score" : 65.7559,
+      "location-fragments" : [ {
+        "start" : 155,
+        "end" : 206,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00018"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 28,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 28,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 322,
+      "end" : 373,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 322,
+        "end" : 373,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Low complexity"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS51032",
+      "name" : "AP2_ERF",
+      "description" : "AP2/ERF domain profile.",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2025_01"
+      },
+      "entry" : {
+        "accession" : "IPR001471",
+        "name" : "AP2/ERF_dom",
+        "description" : "AP2/ERF domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "regulation of DNA-templated transcription",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 147,
+      "end" : 204,
+      "representative" : false,
+      "score" : 25.672636,
+      "alignment" : "RYRGVRQRPWGKWAAEIRDP-HKAARVWLGTFETAEAAARAYDDAALRFRGSRAKLNFP",
+      "location-fragments" : [ {
+        "start" : 147,
+        "end" : 204,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51032"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 322,
+      "end" : 380,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 322,
+        "end" : 380,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SM00380",
+      "name" : "rav1_2",
+      "description" : null,
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "9.0"
+      },
+      "entry" : {
+        "accession" : "IPR001471",
+        "name" : "AP2/ERF_dom",
+        "description" : "AP2/ERF domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "regulation of DNA-templated transcription",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 147,
+      "end" : 210,
+      "representative" : true,
+      "hmmStart" : 1,
+      "hmmEnd" : 66,
+      "hmmLength" : 66,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.2E-36,
+      "score" : 136.8,
+      "location-fragments" : [ {
+        "start" : 147,
+        "end" : 210,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.2E-36,
+    "score" : 136.8,
+    "model-ac" : "SM00380"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.730.10",
+      "name" : "AP2/ERF domain",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR036955",
+        "name" : "AP2/ERF_dom_sf",
+        "description" : "AP2/ERF domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "regulation of DNA-templated transcription",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 146,
+      "end" : 205,
+      "representative" : false,
+      "hmmStart" : 2,
+      "hmmEnd" : 60,
+      "hmmLength" : 63,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.4E-28,
+      "score" : 99.2,
+      "envelopeStart" : 146,
+      "envelopeEnd" : 205,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 146,
+        "end" : 205,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.4E-28,
+    "score" : 99.2,
+    "model-ac" : "1gccA00"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 100,
+      "end" : 146,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 100,
+        "end" : 146,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF54171",
+      "name" : "DNA-binding domain",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR016177",
+        "name" : "DNA-bd_dom_sf",
+        "description" : "DNA-binding domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003677"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Cleavage of the damaged pyrimidine",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-110329"
+        }, {
+          "name" : "Nuclear events stimulated by ALK signaling in cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9725371"
+        }, {
+          "name" : "Regulation of TP53 Activity through Association with Co-factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6804759"
+        }, {
+          "name" : "PKMTs methylate histone lysines",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-3214841"
+        }, {
+          "name" : "Loss of phosphorylation of MECP2 at T308",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022535"
+        }, {
+          "name" : "Regulation of endogenous retroelements by KRAB-ZFP proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9843940"
+        }, {
+          "name" : "PKMTs methylate histone lysines",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-3214841"
+        }, {
+          "name" : "RNA Polymerase I Transcription Initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73762"
+        }, {
+          "name" : "Transcriptional Regulation by MECP2",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8986944"
+        }, {
+          "name" : "UCH proteinases",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5689603"
+        }, {
+          "name" : "Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9843970"
+        }, {
+          "name" : "MECP2 regulates neuronal receptors and channels",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022699"
+        }, {
+          "name" : "Regulation of MECP2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022692"
+        }, {
+          "name" : "HDACs deacetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3214815"
+        }, {
+          "name" : "Regulation of endogenous retroelements by KRAB-ZFP proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9843940"
+        }, {
+          "name" : "Regulation of TP53 Activity through Acetylation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6804758"
+        }, {
+          "name" : "PKMTs methylate histone lysines",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3214841"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3899300"
+        }, {
+          "name" : "Potential therapeutics for SARS",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9679191"
+        }, {
+          "name" : "NoRC negatively regulates rRNA expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-427413"
+        }, {
+          "name" : "Regulation of MECP2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9022692"
+        }, {
+          "name" : "Cleavage of the damaged pyrimidine",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-110329"
+        }, {
+          "name" : "Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9845323"
+        }, {
+          "name" : "Recognition and association of DNA glycosylase with site containing an affected pyrimidine",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-110328"
+        }, {
+          "name" : "MECP2 regulates transcription of neuronal ligands",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022702"
+        }, {
+          "name" : "Loss of MECP2 binding ability to the NCoR/SMRT complex",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022537"
+        }, {
+          "name" : "Formation of WDR5-containing histone-modifying complexes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9772755"
+        }, {
+          "name" : "Regulation of PTEN gene transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8943724"
+        }, {
+          "name" : "Regulation of endogenous retroelements by KRAB-ZFP proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9843940"
+        }, {
+          "name" : "Loss of MECP2 binding ability to 5hmC-DNA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022534"
+        }, {
+          "name" : "Regulation of endogenous retroelements by KRAB-ZFP proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9843940"
+        }, {
+          "name" : "Regulation of PTEN gene transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8943724"
+        }, {
+          "name" : "RNA Polymerase I Promoter Opening",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73728"
+        }, {
+          "name" : "Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9843970"
+        }, {
+          "name" : "ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-427389"
+        }, {
+          "name" : "RNA Polymerase I Transcription Initiation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-73762"
+        }, {
+          "name" : "Transcriptional regulation of brown and beige adipocyte differentiation by EBF2",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9844594"
+        }, {
+          "name" : "MECP2 regulates transcription of genes involved in GABA signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022927"
+        }, {
+          "name" : "Displacement of DNA glycosylase by APEX1",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-110357"
+        }, {
+          "name" : "Loss of MECP2 binding ability to 5mC-DNA",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022538"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3899300"
+        }, {
+          "name" : "MECP2 regulates transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022707"
+        }, {
+          "name" : "UCH proteinases",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5689603"
+        }, {
+          "name" : "HDACs deacetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3214815"
+        }, {
+          "name" : "Displacement of DNA glycosylase by APEX1",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-110357"
+        }, {
+          "name" : "Regulation of MECP2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9022692"
+        }, {
+          "name" : "PKMTs methylate histone lysines",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3214841"
+        }, {
+          "name" : "Regulation of TP53 Activity through Acetylation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6804758"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-3214847"
+        }, {
+          "name" : "PKMTs methylate histone lysines",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-3214841"
+        }, {
+          "name" : "UCH proteinases",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5689603"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 147,
+      "end" : 205,
+      "representative" : false,
+      "hmmLength" : 63,
+      "location-fragments" : [ {
+        "start" : 147,
+        "end" : 205,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.6E-22,
+    "model-ac" : "0038039"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.730.10:FF:000001",
+      "name" : null,
+      "description" : "Ethylene-responsive transcription factor 2",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "FUNFAM",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 146,
+      "end" : 205,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 59,
+      "hmmLength" : 59,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.4E-31,
+      "score" : 108.5,
+      "envelopeStart" : 146,
+      "envelopeEnd" : 205,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 146,
+        "end" : 205,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.4E-31,
+    "score" : 110.1,
+    "model-ac" : "3.30.730.10-FF-000001"
+  }, {
+    "signature" : {
+      "accession" : "PTHR31190",
+      "name" : "DNA-BINDING DOMAIN",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : {
+        "accession" : "IPR044808",
+        "name" : "ERF_plant",
+        "description" : "Ethylene-responsive transcription factor",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "ethylene-activated signaling pathway",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009873"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 123,
+      "end" : 312,
+      "representative" : true,
+      "hmmStart" : 13,
+      "hmmEnd" : 99,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 53,
+      "envelopeEnd" : 372,
+      "location-fragments" : [ {
+        "start" : 123,
+        "end" : 312,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR31190:SF473",
+    "name" : "OS05G0437100 PROTEIN",
+    "evalue" : 1.2E-37,
+    "score" : 140.5,
+    "proteinClass" : null,
+    "graftPoint" : "PTN008414866",
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR31190:SF473"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 108,
+      "end" : 123,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 108,
+        "end" : 123,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Low complexity"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 131,
+      "end" : 141,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 131,
+        "end" : 141,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Low complexity"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PR00367",
+      "name" : "ETHRSPELEMNT",
+      "description" : "Ethylene responsive element binding protein signature",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001471",
+        "name" : "AP2/ERF_dom",
+        "description" : "AP2/ERF domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "regulation of DNA-templated transcription",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 148,
+      "end" : 159,
+      "representative" : false,
+      "pvalue" : 7.97E-9,
+      "score" : 76.67,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 148,
+        "end" : 159,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 170,
+      "end" : 186,
+      "representative" : false,
+      "pvalue" : 5.54E-10,
+      "score" : 71.76,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 170,
+        "end" : 186,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-11,
+    "graphscan" : "II.",
+    "model-ac" : "PR00367"
+  } ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.3HG0299440.1",
+    "id" : "HORVU.MOREX.r3.3HG0299440.1"
+  } ]
+} ]
+}
