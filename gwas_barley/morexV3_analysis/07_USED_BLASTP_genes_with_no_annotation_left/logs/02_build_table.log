@@ -1,0 +1,28 @@
+=== Step 02: build nr residual table ===
+rows: 5  (expect 5)
+
+                    gene_id                             nr_title pident qcovs
+1 HORVU.MOREX.r3.1HG0079220         antifreeze protein Maxi-like    100   100
+2 HORVU.MOREX.r3.1HG0079290 uncharacterized protein LOC123416960    100   100
+3 HORVU.MOREX.r3.2HG0112840 uncharacterized protein LOC123424732    100   100
+5 HORVU.MOREX.r3.2HG0112890                                 <NA>     NA    NA
+4 HORVU.MOREX.r3.4HG0339140 uncharacterized protein LOC123451082    100   100
+     evalue characterized_flag                         status
+1 1.97e-132               TRUE               CONFIDENT_NR_HIT
+2  5.02e-90              FALSE WEAK_OR_UNCHARACTERIZED_NR_HIT
+3 9.68e-174              FALSE WEAK_OR_UNCHARACTERIZED_NR_HIT
+5        NA                 NA                      NO_NR_HIT
+4 3.19e-153              FALSE WEAK_OR_UNCHARACTERIZED_NR_HIT
+
+status counts:
+
+              CONFIDENT_NR_HIT                      NO_NR_HIT 
+                             1                              1 
+WEAK_OR_UNCHARACTERIZED_NR_HIT 
+                             3 
+
+NOTE: nr Viridiplantae rescue of 5 residual genes: 1 got a named plant homolog (1HG0079220); 3 uncharacterized/weak (1HG0079290,2HG0112840,4HG0339140); 1 no hit (2HG0112890).
+
+Wrote:
+   /mnt/data/shahar/gwas_barley/morexV3_analysis/07_USED_BLASTP_genes_with_no_annotation_left/results/tables/fdr_residual_nr.tsv 
+   /mnt/data/shahar/gwas_barley/morexV3_analysis/07_USED_BLASTP_genes_with_no_annotation_left/results/tables/residual_nr_note.txt 

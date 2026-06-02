@@ -1,0 +1,11 @@
+=== Step 00: extract residual proteins ===
+source: /mnt/data/shahar/gwas_barley/morexV3_analysis/05_USED_gene_annotation/inputs/fdr_proteins.faa
+requested genes: 5
+sequences written: 5
+  >HORVU.MOREX.r3.1HG0079220.1
+  >HORVU.MOREX.r3.1HG0079290.1
+  >HORVU.MOREX.r3.2HG0112840.1
+  >HORVU.MOREX.r3.4HG0339140.1
+  >HORVU.MOREX.r3.2HG0112890.1
+any stray '*' (stop codon) in seqs: 0
+Wrote: /mnt/data/shahar/gwas_barley/morexV3_analysis/07_USED_BLASTP_genes_with_no_annotation_left/inputs/residual_5.faa
