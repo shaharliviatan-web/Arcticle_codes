@@ -1,0 +1,49 @@
+trait	gene_id	lead_SNP	trait_fdr_p	significant_bonferroni	legacy_annotation
+betaglucan	HORVU.MOREX.r3.1HG0077700	1H:479493867	0.0089693297722421	FALSE	rac-like GTP-binding protein 2 | Gene role: likely a ROP/RAC small GTPase, i.e. a general signaling regulator involved in cytoskeleton organization, vesicle trafficking, and cell polarity.
+betaglucan	HORVU.MOREX.r3.1HG0077720	1H:479493867	0.0110349466905844	FALSE	probable magnesium transporter NIPA6 | Gene role: likely a magnesium transporter involved in ion homeostasis and membrane transport.
+betaglucan	HORVU.MOREX.r3.1HG0079220	1H:483379118	0.0457603433581249	FALSE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.1HG0079230	1H:483379118	3.12201583043277e-05	TRUE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.1HG0079250	1H:483379118	3.12201583043277e-05	TRUE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.1HG0079280	1H:483379118	7.22673223196403e-08	TRUE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.1HG0079290	1H:483379118	5.52751434526172e-07	TRUE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.2HG0112820	2H:41996626	0.0110349466905844	FALSE	60S ribosomal protein L19-1-like | Gene role: likely a ribosomal protein involved in general protein translation and ribosome function.
+betaglucan	HORVU.MOREX.r3.2HG0112840	2H:41996626	0.00930244196334451	FALSE	Predicted protein
+betaglucan	HORVU.MOREX.r3.2HG0112890	2H:41996626	0.00831173561074023	FALSE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.2HG0112900	2H:41996626	9.5319313368721e-06	TRUE	Predicted protein -  uncharacterized
+betaglucan	HORVU.MOREX.r3.2HG0112910	2H:41996626	0.00750459235417674	FALSE	pectinesterase-like | Gene role: likely a cell wall remodeling enzyme (pectin methylesterase/pectinesterase-like) involved in modifying pectin structure and cell wall properties.
+betaglucan	HORVU.MOREX.r3.2HG0112920	2H:41996626	0.000111352973202316	TRUE	probable acyl-CoA dehydrogenase IBR3 / probable acyl-CoA dehydrogenase IBR3 | Gene role: likely a metabolic enzyme involved in fatty acid/peroxisomal metabolism.
+betaglucan	HORVU.MOREX.r3.2HG0191420	2H:602246902	0.00105842782331403	TRUE	cyclic sesquiterpene synthase-like | Gene role: likely a NAC family transcription factor, i.e. a broad transcriptional regulator involved in development and stress-related gene expression.
+betaglucan	HORVU.MOREX.r3.2HG0191430	2H:602246902	0.0110349466905844	FALSE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.2HG0191470	2H:602246902	0.00175517278690881	TRUE	protein ECERIFERUM 26-like | Gene role: likely a wax/VLCFA elongation-related protein involved in cuticular lipid metabolism.
+betaglucan	HORVU.MOREX.r3.2HG0191510	2H:602246902	0.00577474180559028	FALSE	UPF0481 protein At3g47200-like - Uncharacterized protein
+betaglucan	HORVU.MOREX.r3.2HG0191520	2H:602246902	0.00932751273919994	FALSE	UPF0481 protein At3g47200 [Aegilops tauschii subsp. strangulata] | Gene role: likely an uncharacterized DUF247/UPF0481 family protein, with a possible cell wall-associated role based on related family members.
+betaglucan	HORVU.MOREX.r3.2HG0191530	2H:602246902	0.00408429744469913	TRUE	cytosolic sulfotransferase 8-like | Gene role: likely a cytosolic sulfotransferase enzyme involved in sulfate conjugation of small molecules in sulfur/secondary metabolism.
+betaglucan	HORVU.MOREX.r3.2HG0191540	2H:602246902	0.0205909049759576	FALSE	Uncharacterized protein
+betaglucan	HORVU.MOREX.r3.3HG0299440	3H:537247620	0.029031626887473	FALSE	APETALA2-like protein 5 | Gene role: AP2/ERF-family transcription factor involved in developmental and regulatory gene-expression programs.
+betaglucan	HORVU.MOREX.r3.3HG0299450	3H:537247620	0.00831173561074023	FALSE	protein LIKE COV 2-like | Gene role: likely a COV1/COV-like developmental or cell-wall-associated protein, probably involved in tissue organization and cell wall-related development.
+betaglucan	HORVU.MOREX.r3.3HG0299460	3H:537247620	4.02969473456956e-05	TRUE	polypyrimidine tract-binding protein homolog 3-like | Gene role: likely an RNA-binding protein involved in pre-mRNA processing and alternative splicing.
+betaglucan	HORVU.MOREX.r3.4HG0395770	4H:528254769	0.0350045032686809	FALSE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.4HG0395810	4H:528254769	0.000273811230057924	TRUE	NEED TO ADD ANNOTATION
+betaglucan	HORVU.MOREX.r3.6HG0627010	6H:545947347	0.0056258566501961	FALSE	proliferating cell nuclear antigen | Gene role: a DNA replication and cell-cycle factor (PCNA) involved in DNA synthesis, replication fork function, and DNA repair.
+betaglucan	HORVU.MOREX.r3.6HG0627060	6H:545947347	0.00750459235417674	FALSE	actin-binding protein IPP-like | Gene role: likely an actin-associated cytoskeletal protein involved in cell structure and intracellular organization.
+betaglucan	HORVU.MOREX.r3.6HG0627090	6H:545947347	0.00577474180559028	FALSE	Gene role: likely a quinone oxidoreductase / redox enzyme involved in quinone detoxification and oxidative stress-related metabolism.
+betaglucan	HORVU.MOREX.r3.6HG0627120	6H:545947347	0.0156430248943891	FALSE	protein ACTIVITY OF BC1 COMPLEX KINASE 3, chloroplastic | Gene role: Chloroplast-associated kinase involved in regulation of photosynthetic or energy-related processes.
+betaglucan	HORVU.MOREX.r3.7HG0675580	7H:144534576	0.0089693297722421	FALSE	putative late blight resistance protein-R1B-14-like | disease resistance protein RGA5 / RGA5-like | Gene role: likely an NLR-type disease resistance protein with an NB-ARC domain, involved in pathogen recognition and immune signaling.
+fiber	HORVU.MOREX.r3.1HG0051670	1H:344520079	0.000220310974257103	TRUE	phospholipase D gamma 1-like | Gene role: Phospholipase D family enzyme involved in membrane lipid turnover and signaling.
+fiber	HORVU.MOREX.r3.4HG0339140	4H:24707376	7.61179333120489e-07	TRUE	Uncharacterized protein
+fiber	HORVU.MOREX.r3.7HG0642350	7H:14817657	0.0130383172589587	FALSE	Putative BAHD Acyltransferase | Gene role: Putative BAHD acyltransferase likely involved in acylation of cell wall-associated or secondary-metabolism compounds.
+fiber	HORVU.MOREX.r3.7HG0642360	7H:14817657	6.8202326514784e-06	TRUE	BAG family molecular chaperone regulator 1-like | Gene role: BAG-family co-chaperone regulator involved in protein folding, stress responses, and general cellular homeostasis.
+fiber	HORVU.MOREX.r3.7HG0642460	7H:14817657	2.79638386044345e-07	TRUE	codeine O-demethylase-like | Gene role: Putative O-demethylase-like enzyme likely involved in secondary metabolite modification rather than core structural carbohydrate synthesis.
+fiber	HORVU.MOREX.r3.7HG0729020	7H:573606306	9.10390508053348e-08	TRUE	probable high-affinity nitrate transporter 2.4 | Gene role: High-affinity nitrate transporter involved in nitrate uptake and nitrogen nutrition.
+fiber	HORVU.MOREX.r3.7HG0729090	7H:573606306	3.50564416863976e-06	TRUE	Gene role: PPR/PRORP-domain protein likely involved in organellar RNA processing, including tRNA or other RNA maturation functions.
+fiber	HORVU.MOREX.r3.7HG0729100	7H:573606306	0.000220310974257103	TRUE	nifU-like protein 3, chloroplastic [view all locations] | Gene role: Chloroplast-associated NifU-like protein likely involved in Fe-S cluster assembly and organellar metabolic maintenance.
+fiber	HORVU.MOREX.r3.7HG0729130	7H:573606306	0.0435040789545835	FALSE	NEED TO ADD ANNOTATION
+starch	HORVU.MOREX.r3.3HG0301710	3H:546433616	3.15018280001907e-09	TRUE	Phosphate transporter 43 PHT / Anion transporter | Gene role: Phosphate/anion transporter involved in phosphate movement and general cellular nutrient homeostasis.
+starch	HORVU.MOREX.r3.3HG0301720	3H:546433616	5.64568609337165e-09	TRUE	Gene role: Calmodulin-binding cytoplasmic kinase involved in calcium-dependent signaling and signal transduction.
+starch	HORVU.MOREX.r3.3HG0301750	3H:546433616	1.49938789257552e-08	TRUE	alpha-glucan phosphorylase | Gene role: Alpha-glucan phosphorylase catalyzes reversible phosphorolysis of alpha-glucans, linking starch breakdown and glucan metabolism to glucose-1-phosphate production.
+starch	HORVU.MOREX.r3.6HG0619820	6H:525776080	2.73223201306217e-09	TRUE	NEED TO ADD ANNOTATION
+starch	HORVU.MOREX.r3.7HG0729020	7H:573606460	2.15233157716025e-08	TRUE	probable high-affinity nitrate transporter 2.4 | Gene role: High-affinity nitrate transporter involved in nitrate uptake and nitrogen nutrition.
+starch	HORVU.MOREX.r3.7HG0729030	7H:573606460	0.0424518929898027	FALSE	GDSL esterase / acetylajmalan esterase-like | Gene role: GDSL esterase/lipase-family enzyme likely involved in deacylation or remodeling of extracellular, lipid-associated, or cell wall-related substrates.
+starch	HORVU.MOREX.r3.7HG0729090	7H:573606460	2.0023397208297e-09	TRUE	Gene role: PPR/PRORP-domain protein likely involved in organellar RNA processing, including tRNA or other RNA maturation functions.
+starch	HORVU.MOREX.r3.7HG0729100	7H:573606460	1.1019107904169e-07	TRUE	nifU-like protein 3, chloroplastic [view all locations] | Gene role: Chloroplast-associated NifU-like protein likely involved in Fe-S cluster assembly and organellar metabolic maintenance.
+starch	HORVU.MOREX.r3.7HG0729110	7H:573606460	0.0357110840281141	FALSE	Predicted protein
