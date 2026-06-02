@@ -1,0 +1,31 @@
+=== Step 08: annotation master table ===
+rows: 48  (expect 48)   unique genes: 45 
+
+call_source:
+
+ interpro      none        nr swissprot 
+       11         4         1        32 
+
+evidence_tier:
+
+  HIGH    LOW MEDIUM 
+    24      4     20 
+
+sp_vs_interpro_agreement:
+
+   concordant    discordant          none single_source 
+           31             6             5             6 
+
+lead_SNP_class:
+
+   marginal significant 
+         18          30 
+
+tier x call_source:
+        
+         interpro none nr swissprot
+  HIGH          0    0  0        24
+  LOW           0    4  0         0
+  MEDIUM       11    0  1         8
+
+Wrote: /mnt/data/shahar/gwas_barley/morexV3_analysis/08_USED_annotation_master/results/tables/fdr_annotation_master.tsv 
