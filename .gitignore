@@ -70,3 +70,11 @@ __MACOSX/
 *.tfam
 *.frq
 *.dmnd
+
+**/blastdb/
+*.nsq
+*.nin
+*.nhr
+*.nsi
+*.nsd
+*.ndb

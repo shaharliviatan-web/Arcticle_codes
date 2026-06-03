@@ -1,0 +1,11 @@
+
+
+Building a new DB, current time: 06/03/2026 11:49:08
+New DB name:   /mnt/data/shahar/gwas_barley/morexV3_analysis/09_USED_canonical_betaglucan_gene_check/intermediates/blastdb/refs
+New DB title:  canonical_refs
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 10 sequences in 0.00134897 seconds.
+
+
