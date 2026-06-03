@@ -5,7 +5,9 @@
 # (alpha = 0.10 on the LD-pruned 590,462-SNP set). No suggestive line, no FDR.
 #
 # Output: results/publication_BonfOnly_BLUP_3PC/
-#   main_figure/        4 traits x (Manhattan + QQ), TAG full-page, no titles
+#   main_figure/        4 traits x (Manhattan + QQ), TAG full-page, no titles.
+#                       Two variants: highlighted (green=significant, red=marginal SNPs)
+#                       and "_plain" (no highlights). Both from the same rasters.
 #   individual_panels/  4 standalone Manhattan + 4 standalone QQ (clean, no burned-in labels)
 #   pc_selection/        PCA structure-selection kit (copied + renamed)
 #   tables/             lead_snps.tsv, per_trait_summary.tsv, top15_per_chr__*.tsv
@@ -53,6 +55,19 @@ TRAIT_LABELS  <- c(betaglucan = "β-glucan", fiber = "Fiber",
                    protein = "Protein", starch = "Starch")
 PANEL_LABELS  <- c("a", "b", "c", "d")
 CHR_COLS      <- c("blue4", "orange3")
+SIG_COL  <- "#1B9E77"   # significant SNPs  (Bonferroni-passing): green filled circle
+MARG_COL <- "#E41A1C"   # marginal SNPs (manually curated, see note below): red filled circle
+
+# Marginal SNPs: manually selected near-Bonferroni candidates.
+# These fell just below the BLUP x 3 PCs Bonferroni threshold (6.7712) but were
+# Bonferroni-significant under BLUE x 3 PCs, or are otherwise biologically noteworthy.
+# The list was curated by visual inspection of the GWAS results and cross-config comparison.
+MARGINAL <- list(
+  betaglucan = c("7H:144534576", "5H:224439424", "6H:545947347"),
+  fiber      = c("7H:14817657",  "1H:344520079"),
+  protein    = character(0),
+  starch     = c("6H:525776080", "7H:151110354", "3H:546433616", "7H:573606460")
+)
 
 # Standalone panel sizes (inches)
 STAND_MAN_W <- 10; STAND_MAN_H <- 5
@@ -147,6 +162,16 @@ cat(sprintf("[10] Preparing per-trait data (%s x %d PCs)...\n", PHENO, N_PCS))
 trait_data <- lapply(TRAITS, prepare_trait)
 names(trait_data) <- TRAITS
 
+# Build per-trait highlight lookup:
+#   sig  = Bonferroni-passing SNPs (from prepare_trait$lead)
+#   marg = manually curated marginal SNPs (MARGINAL list above)
+hl_data <- lapply(TRAITS, function(tr) {
+  td <- trait_data[[tr]]
+  list(sig  = td$d[SNP %in% td$lead$SNP],
+       marg = td$d[SNP %in% MARGINAL[[tr]]])
+})
+names(hl_data) <- TRAITS
+
 # ============================================================
 # Pre-render point-cloud rasters (heavy, do once per size)
 # ============================================================
@@ -169,7 +194,7 @@ rasters_grid       <- lapply(trait_data, render_point_cloud, w_in = GRID_MAN_W, 
 # Drawing helpers
 # ============================================================
 draw_manhattan <- function(td, raster_img, panel_label = NULL, trait_label = NULL,
-                           cex_scale = 1.0) {
+                           cex_scale = 1.0, sig_dt = NULL, marg_dt = NULL) {
   par(mar = c(4.2, 4.5, 1.4, 0.8), las = 1,
       cex.axis = 0.9 * cex_scale, cex.lab = 1.0 * cex_scale,
       mgp = c(2.6, 0.6, 0))
@@ -182,6 +207,14 @@ draw_manhattan <- function(td, raster_img, panel_label = NULL, trait_label = NUL
   box()
   # Single Bonferroni threshold line (solid black)
   abline(h = BONF, col = "black", lty = 1, lwd = 1.6 * cex_scale)
+  # Highlighted SNPs: marginal (red) drawn first so significant (green) overlays on top.
+  # sig_dt / marg_dt come from hl_data and are NULL for standalone panels (no highlights there).
+  if (!is.null(marg_dt) && nrow(marg_dt) > 0)
+    points(marg_dt$x, marg_dt$nlp, pch = 21, bg = MARG_COL, col = "black",
+           cex = 1.3 * cex_scale, lwd = 0.9)
+  if (!is.null(sig_dt)  && nrow(sig_dt)  > 0)
+    points(sig_dt$x,  sig_dt$nlp,  pch = 21, bg = SIG_COL,  col = "black",
+           cex = 1.3 * cex_scale, lwd = 0.9)
   # Minimal panel label (composite only); standalone passes NULL for both -> clean plot
   ann <- if (!is.null(panel_label) && !is.null(trait_label)) {
     sprintf("(%s) %s", panel_label, trait_label)
@@ -252,45 +285,63 @@ for (i in seq_along(TRAITS)) {
 }
 
 # ---- Main figure: 4 rows x (Manhattan + QQ) cols ----
-cat("[10] Composing main figure (4x2 grid, opened up vertically)...\n")
+# Two variants are written from the SAME (expensive) point-cloud rasters:
+#   - "Figure_main_manhattan_qq"       : SNPs highlighted (green = significant, red = marginal)
+#   - "Figure_main_manhattan_qq_plain" : no highlights (original/clean composite)
+# The QQ panels are identical between variants, so they are drawn once and reused;
+# only the 4 Manhattan panels are redrawn per variant (cheap vector overlay).
+cat("[10] Composing main figure (4x2 grid; highlighted + plain variants)...\n")
 tmp_panel_dir <- tempfile(pattern = "panels_", tmpdir = Sys.getenv("TMPDIR"))
 dir.create(tmp_panel_dir)
+
+# QQ panels (variant-independent) -- draw once
 for (i in seq_along(TRAITS)) {
-  td  <- trait_data[[i]]
-  img <- rasters_grid[[i]]
-  plabel <- PANEL_LABELS[i]
-  tlabel <- TRAIT_LABELS[[td$trait]]
-
-  png(file.path(tmp_panel_dir, sprintf("man_%d.png", i)),
-      width = GRID_MAN_W, height = GRID_MAN_H, units = "in",
-      res = 600, pointsize = 9, type = "cairo-png")
-  draw_manhattan(td, img, panel_label = plabel, trait_label = tlabel, cex_scale = 0.95)
-  dev.off()
-
   png(file.path(tmp_panel_dir, sprintf("qq_%d.png", i)),
       width = GRID_QQ_W, height = GRID_QQ_H, units = "in",
       res = 600, pointsize = 9, type = "cairo-png")
-  draw_qq(td, cex_scale = 0.9)
+  draw_qq(trait_data[[i]], cex_scale = 0.9)
   dev.off()
 }
-grobs <- vector("list", 8L)
-for (i in seq_along(TRAITS)) {
-  grobs[[2 * i - 1]] <- rasterGrob(
-    readPNG(file.path(tmp_panel_dir, sprintf("man_%d.png", i))), interpolate = TRUE)
-  grobs[[2 * i]] <- rasterGrob(
-    readPNG(file.path(tmp_panel_dir, sprintf("qq_%d.png", i))), interpolate = TRUE)
-}
-arr <- arrangeGrob(grobs = grobs, ncol = 2L, nrow = 4L,
-                   widths  = unit(c(GRID_MAN_W, GRID_QQ_W), "in"),
-                   heights = unit(rep(GRID_MAN_H, 4L), "in"))
+
 W <- GRID_MAN_W + GRID_QQ_W + 0.15
 H <- 4 * GRID_MAN_H + 0.15
-png(file.path(main_dir, "Figure_main_manhattan_qq.png"),
-    width = W, height = H, units = "in", res = 300, type = "cairo-png")
-grid.draw(arr); dev.off()
-cairo_pdf(file.path(main_dir, "Figure_main_manhattan_qq.pdf"),
-          width = W, height = H)
-grid.draw(arr); dev.off()
+
+compose_variant <- function(out_base, highlight) {
+  # Manhattan panels for this variant (highlight on/off)
+  for (i in seq_along(TRAITS)) {
+    td  <- trait_data[[i]]
+    img <- rasters_grid[[i]]
+    hl  <- hl_data[[td$trait]]
+    png(file.path(tmp_panel_dir, sprintf("man_%d.png", i)),
+        width = GRID_MAN_W, height = GRID_MAN_H, units = "in",
+        res = 600, pointsize = 9, type = "cairo-png")
+    draw_manhattan(td, img, panel_label = PANEL_LABELS[i],
+                   trait_label = TRAIT_LABELS[[td$trait]], cex_scale = 0.95,
+                   sig_dt  = if (highlight) hl$sig  else NULL,
+                   marg_dt = if (highlight) hl$marg else NULL)
+    dev.off()
+  }
+  grobs <- vector("list", 8L)
+  for (i in seq_along(TRAITS)) {
+    grobs[[2 * i - 1]] <- rasterGrob(
+      readPNG(file.path(tmp_panel_dir, sprintf("man_%d.png", i))), interpolate = TRUE)
+    grobs[[2 * i]] <- rasterGrob(
+      readPNG(file.path(tmp_panel_dir, sprintf("qq_%d.png", i))), interpolate = TRUE)
+  }
+  arr <- arrangeGrob(grobs = grobs, ncol = 2L, nrow = 4L,
+                     widths  = unit(c(GRID_MAN_W, GRID_QQ_W), "in"),
+                     heights = unit(rep(GRID_MAN_H, 4L), "in"))
+  png(file.path(main_dir, paste0(out_base, ".png")),
+      width = W, height = H, units = "in", res = 300, type = "cairo-png")
+  grid.draw(arr); dev.off()
+  cairo_pdf(file.path(main_dir, paste0(out_base, ".pdf")),
+            width = W, height = H)
+  grid.draw(arr); dev.off()
+  cat(sprintf("[10]   wrote %s.{pdf,png}\n", out_base))
+}
+
+compose_variant("Figure_main_manhattan_qq",       highlight = TRUE)
+compose_variant("Figure_main_manhattan_qq_plain", highlight = FALSE)
 unlink(tmp_panel_dir, recursive = TRUE)
 cat(sprintf("[10]   main figure: %.2f x %.2f in (%.1f x %.1f mm)\n",
             W, H, W * 25.4, H * 25.4))
@@ -430,7 +481,8 @@ readme <- c(
   "```",
   paste0(SET_NAME, "/"),
   "├── main_figure/",
-  "│   └── Figure_main_manhattan_qq.{pdf,png}   — 4 traits × (Manhattan + QQ), TAG full page, no titles",
+  "│   ├── Figure_main_manhattan_qq.{pdf,png}        — 4 traits × (Manhattan + QQ), SNPs highlighted (green=significant, red=marginal)",
+  "│   └── Figure_main_manhattan_qq_plain.{pdf,png}  — same composite, no SNP highlights",
   "├── individual_panels/",
   sprintf("│   ├── manhattan_%s_%s__{trait}.{pdf,png}  (clean, no burned-in labels)", PHENO, PC_TAG),
   sprintf("│   └── qq_%s_%s__{trait}.{pdf,png}", PHENO, PC_TAG),

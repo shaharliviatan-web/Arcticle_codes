@@ -25,7 +25,8 @@
 ```
 publication_BonfOnly_BLUP_3PC/
 ├── main_figure/
-│   └── Figure_main_manhattan_qq.{pdf,png}   — 4 traits × (Manhattan + QQ), TAG full page, no titles
+│   ├── Figure_main_manhattan_qq.{pdf,png}        — 4 traits × (Manhattan + QQ), SNPs highlighted (green=significant, red=marginal)
+│   └── Figure_main_manhattan_qq_plain.{pdf,png}  — same composite, no SNP highlights
 ├── individual_panels/
 │   ├── manhattan_BLUP_pc3__{trait}.{pdf,png}  (clean, no burned-in labels)
 │   └── qq_BLUP_pc3__{trait}.{pdf,png}
