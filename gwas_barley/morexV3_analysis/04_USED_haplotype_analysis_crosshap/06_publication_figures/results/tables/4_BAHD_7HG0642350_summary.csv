@@ -1,0 +1,2 @@
+serial_no,panel_tag,gene_symbol,trait,gene_id,display_name,chr,gene_start,gene_end,n_snps_window,MGmin,epsilon,n_total,n_groups,reference_group,kw_statistic,kw_df,kw_p_raw,epsilon_squared,lead_SNP,class,dist_to_lead_bp,within_gene_holm_p,trait_fdr_p,significant_fdr,trait_bonferroni_p,significant_bonferroni
+4,d,BAHD,fiber,HORVU.MOREX.r3.7HG0642350,BAHD acyltransferase,7H,14780718,14782145,14,2,0.2,186,5,A,15.35895862284,4,0.00401178992583345,0.0627566774742539,7H:14817657,marginal,-35512,0.00802357985166691,0.0130383172589587,TRUE,0.10430653807167,FALSE

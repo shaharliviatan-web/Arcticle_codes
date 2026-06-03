@@ -1,0 +1,730 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MASSAAFFLLVAALHVCCCHGQGGGDGAVAAIYSLGDSITDTGNLAKEAPPGAFETIKHLPYGVTFGRPTGRCSDGLLMIDFLAQDMGLPFLNPYLAKNRSFDHGVNFAVAGATAMDTDDQLNRTFSLKLQLRWFKDFMKSTFNTDQEIRKRLQSSLVLVGEIGGNDYNYALFGNQSVSEVEKLIPAVVQTIIDATKEVLDMGASRVIVPGNFPIGCFPSYLTAMASPEQSAYDSAGCLKDLNLFAAKHNAQLQRAVAGLRASYPDAAIAYADYFNSFLSLLKGAPALGFDADSTHKACCGAGGKYNYDERQMCGVEGTVACADPSTYVSWDGIHMTQAAYKAMFRLIYHGRYLQPQILNFPEKTRQT",
+  "md5" : "a693a4a3290ae2ab531b116ed0eb3910",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "SSF52266",
+      "name" : "SGNH hydrolase",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 349,
+      "representative" : false,
+      "hmmLength" : 207,
+      "location-fragments" : [ {
+        "start" : 324,
+        "end" : 349,
+        "dc-status" : "N_TERMINAL_DISC"
+      }, {
+        "start" : 32,
+        "end" : 48,
+        "dc-status" : "C_TERMINAL_DISC"
+      }, {
+        "start" : 107,
+        "end" : 285,
+        "dc-status" : "NC_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 5.66E-11,
+    "model-ac" : "0054927"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 4,
+      "end" : 14,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 4,
+        "end" : 14,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PF00657",
+      "name" : "Lipase_GDSL",
+      "description" : "GDSL-like Lipase/Acylhydrolase",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.1"
+      },
+      "entry" : {
+        "accession" : "IPR001087",
+        "name" : "GDSL",
+        "description" : "GDSL lipase/esterase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "hydrolase activity, acting on ester bonds",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0016788"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Acyl chain remodelling of PC",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1482788"
+        }, {
+          "name" : "daunorubicin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7352"
+        }, {
+          "name" : "Acyl chain remodelling of PC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1482788"
+        }, {
+          "name" : "indole-3-acetate activation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-1921"
+        }, {
+          "name" : "anditomin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7599"
+        }, {
+          "name" : "syringate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6339"
+        }, {
+          "name" : "2-deoxy-D-ribose degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8058"
+        }, {
+          "name" : "T-2 toxin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7730"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975634"
+        }, {
+          "name" : "Acyl chain remodelling of PC",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1482788"
+        }, {
+          "name" : "4-hydroxyacetophenone degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7002"
+        }, {
+          "name" : "(Kdo)2-lipid A biosynthesis (P. gingivalis)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8247"
+        }, {
+          "name" : "D-galacturonate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8391"
+        }, {
+          "name" : "L-ascorbate biosynthesis V (euglena, D-galacturonate pathway)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6415"
+        }, {
+          "name" : "pinoresinol degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7982"
+        }, {
+          "name" : "rutin degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6848"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975634"
+        }, {
+          "name" : "phosalacine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7769"
+        }, {
+          "name" : "D-glucuronate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8390"
+        }, {
+          "name" : "geranyl acetate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5835"
+        }, {
+          "name" : "deoxynivalenol biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7712"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975634"
+        }, {
+          "name" : "2,4-dichlorotoluene degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6190"
+        }, {
+          "name" : "3-(4-sulfophenyl)butanoate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7521"
+        }, {
+          "name" : "nivalenol biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7713"
+        }, {
+          "name" : "phosphatidylcholine resynthesis via glycerophosphocholine",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7367"
+        }, {
+          "name" : "tryptoquialanine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7660"
+        }, {
+          "name" : "L-ascorbate biosynthesis VII (plants, D-galacturonate pathway)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8143"
+        }, {
+          "name" : "phosphinothricin tripeptide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6322"
+        }, {
+          "name" : "heparan sulfate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6558"
+        }, {
+          "name" : "misacylated tRNA editing",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8455"
+        }, {
+          "name" : "vitamin B6 degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8384"
+        }, {
+          "name" : "L-cysteine biosynthesis II (tRNA-dependent)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6308"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 348,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 208,
+      "hmmLength" : 208,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.0E-31,
+      "score" : 119.3,
+      "envelopeStart" : 32,
+      "envelopeEnd" : 348,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 32,
+        "end" : 348,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.8E-31,
+    "score" : 119.6,
+    "model-ac" : "PF00657"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "representative" : false,
+      "score" : 0.848,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "cd01837",
+      "name" : "SGNH_plant_lipase_like",
+      "description" : "SGNH_plant_lipase_like",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.21"
+      },
+      "entry" : {
+        "accession" : "IPR035669",
+        "name" : "SGNH_plant_lipase-like",
+        "description" : "GDSL lipase/esterase-like, plant",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "daunorubicin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7352"
+        }, {
+          "name" : "indole-3-acetate activation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-1921"
+        }, {
+          "name" : "anditomin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7599"
+        }, {
+          "name" : "syringate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6339"
+        }, {
+          "name" : "2-deoxy-D-ribose degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8058"
+        }, {
+          "name" : "T-2 toxin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7730"
+        }, {
+          "name" : "4-hydroxyacetophenone degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7002"
+        }, {
+          "name" : "(Kdo)2-lipid A biosynthesis (P. gingivalis)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8247"
+        }, {
+          "name" : "D-galacturonate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8391"
+        }, {
+          "name" : "L-ascorbate biosynthesis V (euglena, D-galacturonate pathway)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6415"
+        }, {
+          "name" : "pinoresinol degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7982"
+        }, {
+          "name" : "rutin degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6848"
+        }, {
+          "name" : "phosalacine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7769"
+        }, {
+          "name" : "D-glucuronate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8390"
+        }, {
+          "name" : "geranyl acetate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5835"
+        }, {
+          "name" : "deoxynivalenol biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7712"
+        }, {
+          "name" : "2,4-dichlorotoluene degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6190"
+        }, {
+          "name" : "3-(4-sulfophenyl)butanoate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7521"
+        }, {
+          "name" : "nivalenol biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7713"
+        }, {
+          "name" : "phosphatidylcholine resynthesis via glycerophosphocholine",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7367"
+        }, {
+          "name" : "tryptoquialanine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7660"
+        }, {
+          "name" : "L-ascorbate biosynthesis VII (plants, D-galacturonate pathway)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8143"
+        }, {
+          "name" : "phosphinothricin tripeptide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6322"
+        }, {
+          "name" : "heparan sulfate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6558"
+        }, {
+          "name" : "misacylated tRNA editing",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8455"
+        }, {
+          "name" : "vitamin B6 degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8384"
+        }, {
+          "name" : "L-cysteine biosynthesis II (tRNA-dependent)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6308"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 31,
+      "end" : 352,
+      "representative" : false,
+      "sites" : [ {
+        "description" : "active site",
+        "numLocations" : 5,
+        "siteLocations" : [ {
+          "start" : 38,
+          "end" : 38,
+          "residue" : "S"
+        }, {
+          "start" : 332,
+          "end" : 332,
+          "residue" : "D"
+        }, {
+          "start" : 335,
+          "end" : 335,
+          "residue" : "H"
+        }, {
+          "start" : 112,
+          "end" : 112,
+          "residue" : "G"
+        }, {
+          "start" : 166,
+          "end" : 166,
+          "residue" : "N"
+        } ]
+      }, {
+        "description" : "oxyanion hole",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 38,
+          "end" : 38,
+          "residue" : "S"
+        }, {
+          "start" : 112,
+          "end" : 112,
+          "residue" : "G"
+        }, {
+          "start" : 166,
+          "end" : 166,
+          "residue" : "N"
+        } ]
+      }, {
+        "description" : "catalytic triad",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 38,
+          "end" : 38,
+          "residue" : "S"
+        }, {
+          "start" : 332,
+          "end" : 332,
+          "residue" : "D"
+        }, {
+          "start" : 335,
+          "end" : 335,
+          "residue" : "H"
+        } ]
+      } ],
+      "evalue" : 2.62897E-120,
+      "score" : 348.836,
+      "location-fragments" : [ {
+        "start" : 31,
+        "end" : 352,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd01837"
+  }, {
+    "signature" : {
+      "accession" : "PTHR22835",
+      "name" : "ZINC FINGER FYVE DOMAIN CONTAINING PROTEIN",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 9,
+      "end" : 353,
+      "representative" : true,
+      "hmmStart" : 7,
+      "hmmEnd" : 327,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 362,
+      "location-fragments" : [ {
+        "start" : 9,
+        "end" : 353,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR22835:SF317",
+    "name" : "OS06G0694200 PROTEIN",
+    "evalue" : 3.3E-118,
+    "score" : 406.6,
+    "proteinClass" : null,
+    "graftPoint" : "PTN009053968",
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR22835:SF317"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "representative" : false,
+      "score" : 0.46,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 22,
+      "end" : 368,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 22,
+        "end" : 368,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 3,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 3,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.1110",
+      "name" : "SGNH hydrolase",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR036514",
+        "name" : "SGNH_hydro_sf",
+        "description" : "SGNH hydrolase superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "COPI-independent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6811436"
+        }, {
+          "name" : "Acyl chain remodelling of PC",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-1482788"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6798695"
+        }, {
+          "name" : "Acyl chain remodelling of PC",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1482788"
+        }, {
+          "name" : "COPI-independent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-6811436"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-975634"
+        }, {
+          "name" : "COPI-independent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6811436"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-975634"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Acyl chain remodelling of PC",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-1482788"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-6798695"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6798695"
+        }, {
+          "name" : "COPI-independent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-6811436"
+        }, {
+          "name" : "RNA polymerase II transcribes snRNA genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-6807505"
+        }, {
+          "name" : "Retinoid metabolism and transport",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-975634"
+        }, {
+          "name" : "COPI-independent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811436"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 25,
+      "end" : 351,
+      "representative" : true,
+      "hmmStart" : 15,
+      "hmmEnd" : 313,
+      "hmmLength" : 324,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.9E-71,
+      "score" : 243.1,
+      "envelopeStart" : 25,
+      "envelopeEnd" : 351,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 25,
+        "end" : 351,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.4E-71,
+    "score" : 243.6,
+    "model-ac" : "3kvnA01"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 15,
+      "end" : 21,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  } ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.7HG0729030.1",
+    "id" : "HORVU.MOREX.r3.7HG0729030.1"
+  } ]
+} ]
+}

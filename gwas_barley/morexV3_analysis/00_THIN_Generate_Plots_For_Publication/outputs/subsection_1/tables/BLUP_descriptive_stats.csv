@@ -1,0 +1,11 @@
+"Trait","TraitClass","n_accessions","mean_blup","sd_blup","median_blup","min_blup","max_blup","range_blup"
+"Protein","Nutritional",290,-0.0812,0.9852,-0.0522,-2.4558,2.9356,5.3914
+"Starch","Nutritional",290,0.0374,5.8696,1.0862,-15.9781,12.941,28.9191
+"β-glucan","Nutritional",290,-0.0091,0.4287,-0.0331,-0.9801,1.7308,2.711
+"Fiber","Nutritional",290,-0.0222,0.2808,-0.0649,-0.6024,1.1468,1.7492
+"Flowering time","Agromorphological",290,0.0454,8.8665,0.4159,-21.3327,26.4131,47.7458
+"Plant height","Agromorphological",290,-0.0978,7.0605,0.8069,-17.9706,16.4237,34.3942
+"Grain weight","Agromorphological",290,-0.0037,0.2893,0.0039,-0.6886,0.695,1.3836
+"Grain number","Agromorphological",290,0.0925,5.1589,-0.4204,-13.8074,15.8499,29.6572
+"Tillers","Agromorphological",290,-0.6776,0.6647,-0.738,-2.5182,1.6174,4.1355
+"Spike length","Agromorphological",290,-0.0261,0.9448,0.0541,-2.2811,2.3026,4.5837

@@ -1,0 +1,24 @@
+=== Step 01: fetch canonical reference proteins ===
+date_run:    2026-06-03 08:46:00 UTC
+UniProt REST: https://rest.uniprot.org/uniprotkb/<ACC>.fasta
+NCBI efetch:  https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi (db=protein,rettype=fasta)
+
+gene	accession	source	seq_length	header
+HvCslF6	B1P2T4	uniprot	947	tr|B1P2T4|B1P2T4_HORVU CslF6 OS=Hordeum vulgare OX=4513 GN=CslF6 PE=2 SV=1
+HvCslH1	ACN67534.1	ncbi	751	ACN67534.1 cellulose synthase-like protein H1 [Hordeum vulgare subsp. vulgare]
+HvCslF9	B1P2T7	uniprot	857	tr|B1P2T7|B1P2T7_HORVU Cellulose synthase-like CslF9 OS=Hordeum vulgare OX=4513 GN=CslF9 P
+HvCslF7	B1P2T5	uniprot	810	tr|B1P2T5|B1P2T5_HORVV Cellulose synthase-like CslF7 OS=Hordeum vulgare subsp. vulgare OX=
+HvCslF3	B1P2T2	uniprot	851	tr|B1P2T2|B1P2T2_HORVU Cellulose synthase-like CslF3 OS=Hordeum vulgare OX=4513 GN=CslF3 P
+HvCslF4	B1P2T3	uniprot	872	tr|B1P2T3|B1P2T3_HORVU Cellulose synthase-like CslF4 OS=Hordeum vulgare OX=4513 GN=CslF4 P
+HvCslF8	B1P2T6	uniprot	897	tr|B1P2T6|B1P2T6_HORVU Cellulose synthase-like CslF8 OS=Hordeum vulgare OX=4513 GN=CslF8 P
+HvCslF10	B1P2T8	uniprot	879	tr|B1P2T8|B1P2T8_HORVU Cellulose synthase-like CslF10 OS=Hordeum vulgare OX=4513 GN=CslF10
+HvGlb1_EI	Q02345	uniprot	334	tr|Q02345|Q02345_HORVU (1-3,1-4)-beta-D-glucanase OS=Hordeum vulgare OX=4513 PE=3 SV=1
+HvGlb2_EII	P12257	uniprot	312	sp|P12257|GUB2_HORVU Lichenase-2 (Fragment) OS=Hordeum vulgare OX=4513 PE=1 SV=1
+
+=== tool versions ===
+tblastn: 2.12.0+
+blastp: 2.12.0+
+makeblastdb: 2.12.0+
+v7.490 (2021/Oct/30)
+genome: /mnt/data/Barley_2021/morexV3/Barley_MorexV3_pseudomolecules.fasta (chr1H..chrUn)
+HC proteome+GFF3: Hv_Morex.pgsb.Jul2020.HC.{aa.fa,gff3}

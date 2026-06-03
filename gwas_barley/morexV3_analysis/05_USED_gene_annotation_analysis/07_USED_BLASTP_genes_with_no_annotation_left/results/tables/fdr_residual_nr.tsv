@@ -1,0 +1,6 @@
+gene_id	nr_title	nr_accession	nr_organism	pident	qcovs	evalue	bitscore	characterized_flag	status
+HORVU.MOREX.r3.1HG0079220	antifreeze protein Maxi-like	XP_044980484.1	Hordeum vulgare subsp. vulgare	100	100	1.97e-132	377	TRUE	CONFIDENT_NR_HIT
+HORVU.MOREX.r3.1HG0079290	uncharacterized protein LOC123416960	XP_044962762.1	Hordeum vulgare subsp. vulgare	100	100	5.02e-90	264	FALSE	WEAK_OR_UNCHARACTERIZED_NR_HIT
+HORVU.MOREX.r3.2HG0112840	uncharacterized protein LOC123424732	XP_044964341.1	Hordeum vulgare subsp. vulgare	100	100	9.68e-174	485	FALSE	WEAK_OR_UNCHARACTERIZED_NR_HIT
+HORVU.MOREX.r3.2HG0112890	NA	NA	NA	NA	NA	NA	NA	NA	NO_NR_HIT
+HORVU.MOREX.r3.4HG0339140	uncharacterized protein LOC123451082	XP_044984029.1	Hordeum vulgare subsp. vulgare	100	100	3.19e-153	430	FALSE	WEAK_OR_UNCHARACTERIZED_NR_HIT

@@ -1,0 +1,206 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MEAPCEYQLAVAADYWDGRPAMEPTAWVPGLPLQMTVAAPSNSDLVVSSSVRQQLKLVDEYDHYAVQVFEQAAESLKERVDEMEMKMHLFPPSMGDLADHYAAPKVVSIGPYHHGRTPALQEMESVKHAAACHFVKATGRPIQEVYWAVCTVAEEARGHYHGGRLRGLGDDDFKPMMFLDGCFLLQYMQFWCRESGGDEDPDMDPSLYNAFSSVDRPILSDVVLLENQLPWVVIKALLSFLPGPGLDMETLIGRVKQTLQTRQVRYFDAPTLDYTPPHLLGLLRHHIVGSNNTKKSEPELSERAKELSISVSAMELAEIGIEITATKPTPEGAELRKMGIDRKKSWLTGELFLAPLSLNDANATFLVNMAALEQCTTPDFFAQDEEKSAVCSYLCLLGMVTDSEEDVQQLRKKHILQGGAGLSNKDALDLLNKLENRLRPGTHYLSTMILIENYKTDRWKRIEFHKFHYNYRKAILLTISGIAGLASFLGTLKSLK",
+  "md5" : "f9e7134d4e175928f6e2b553e1a1fb54",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 66,
+      "end" : 86,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 66,
+        "end" : 86,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "PF03140",
+      "name" : "DUF247",
+      "description" : "Plant protein of unknown function",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.1"
+      },
+      "entry" : {
+        "accession" : "IPR004158",
+        "name" : "DUF247_pln",
+        "description" : "Protein of unknown function DUF247, plant",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 98,
+      "end" : 485,
+      "representative" : false,
+      "hmmStart" : 13,
+      "hmmEnd" : 396,
+      "hmmLength" : 401,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.5E-70,
+      "score" : 250.2,
+      "envelopeStart" : 88,
+      "envelopeEnd" : 489,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 98,
+        "end" : 485,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.1E-70,
+    "score" : 250.6,
+    "model-ac" : "PF03140"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 474,
+      "end" : 492,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 474,
+        "end" : 492,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 474,
+      "end" : 492,
+      "representative" : false,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 474,
+        "end" : 492,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "PTHR31549",
+      "name" : "PROTEIN, PUTATIVE (DUF247)-RELATED-RELATED",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 83,
+      "end" : 474,
+      "representative" : true,
+      "hmmStart" : 18,
+      "hmmEnd" : 285,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 57,
+      "envelopeEnd" : 494,
+      "location-fragments" : [ {
+        "start" : 83,
+        "end" : 474,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR31549:SF196",
+    "name" : "",
+    "evalue" : 1.1E-52,
+    "score" : 191.0,
+    "proteinClass" : null,
+    "graftPoint" : "PTN004837654",
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR31549:SF196"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 473,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 473,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 493,
+      "end" : 496,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 493,
+        "end" : 496,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  } ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.2HG0191540.1",
+    "id" : "HORVU.MOREX.r3.2HG0191540.1"
+  } ]
+} ]
+}

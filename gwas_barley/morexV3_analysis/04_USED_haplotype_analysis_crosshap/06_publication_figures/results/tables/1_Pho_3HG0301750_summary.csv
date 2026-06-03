@@ -1,0 +1,2 @@
+serial_no,panel_tag,gene_symbol,trait,gene_id,display_name,chr,gene_start,gene_end,n_snps_window,MGmin,epsilon,n_total,n_groups,reference_group,kw_statistic,kw_df,kw_p_raw,epsilon_squared,lead_SNP,class,dist_to_lead_bp,within_gene_holm_p,trait_fdr_p,significant_fdr,trait_bonferroni_p,significant_bonferroni
+1,a,Pho,starch,HORVU.MOREX.r3.3HG0301750,Pho - alpha-glucan phosphorylase,3H,546582184,546587549,7,2,0.4,196,3,A,37.6081623022173,2,6.8153995117069e-09,0.184498250270556,3H:546433616,marginal,148568,6.8153995117069e-09,1.49938789257552e-08,TRUE,7.49693946287759e-08,TRUE

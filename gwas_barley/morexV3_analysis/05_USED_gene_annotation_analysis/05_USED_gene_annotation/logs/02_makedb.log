@@ -1,0 +1,21 @@
+diamond v2.0.14.152 (C) Max Planck Society for the Advancement of Science
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 32
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Database input file: /mnt/data/shahar/gwas_barley/morexV3_analysis/05_USED_gene_annotation/intermediates/uniprot_sprot.fasta.gz
+Opening the database file...  [0s]
+Loading sequences...  [2.918s]
+Masking sequences...  [0.525s]
+Writing sequences...  [0.271s]
+Hashing sequences...  [0.111s]
+Loading sequences...  [0s]
+Writing trailer...  [0.014s]
+Closing the input file...  [0s]
+Closing the database file...  [0.002s]
+
+Database sequences  574627
+  Database letters  208482574
+     Database hash  86f767f7dea6487cfe371cd177d78fd7
+        Total time  3.844000s

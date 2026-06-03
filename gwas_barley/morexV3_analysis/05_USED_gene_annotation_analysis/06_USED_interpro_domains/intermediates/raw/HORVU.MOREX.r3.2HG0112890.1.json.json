@@ -1,0 +1,12 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MRGLIRTAVINIHMEIVRTVDISVLQTYEDHHAIAIWLVADKLTSIQTESINIRRSVLVQSCNEINTATWRSNSRIDG",
+  "md5" : "7dd3914f517a37bdcbefd315e7af6749",
+  "matches" : [ ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.2HG0112890.1",
+    "id" : "HORVU.MOREX.r3.2HG0112890.1"
+  } ]
+} ]
+}

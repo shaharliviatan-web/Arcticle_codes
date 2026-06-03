@@ -1,0 +1,5 @@
+serial_no	trait	gene_id	gene_symbol	final_annotation	MGmin	epsilon
+1	starch	HORVU.MOREX.r3.3HG0301750	Pho	alpha-glucan phosphorylase	2	0.4
+2	starch	HORVU.MOREX.r3.3HG0301710	PHT	Phosphate transporter (PHT/anion)	2	0.85
+3	betaglucan	HORVU.MOREX.r3.3HG0299440	PME	Pectin methylesterase	2	0.5
+4	fiber	HORVU.MOREX.r3.7HG0642350	BAHD	BAHD acyltransferase	2	0.2

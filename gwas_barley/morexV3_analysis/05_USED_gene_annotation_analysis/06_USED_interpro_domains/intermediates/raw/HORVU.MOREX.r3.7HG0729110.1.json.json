@@ -1,0 +1,137 @@
+{
+ "interproscan-version": "5.77-108.0",
+"results": [ {
+  "sequence" : "MSRRCSGMATDLFRTHRILFALLEKGGINIIRELESRGSVQKLAKILLKASGGGLLNDILADIMDRYSKHDSKESLRRTIMEHDEVFRQQVHELHRLYRVQKALMAELRGEKHSFQLRTEDTREMVQGHRPNLKNSSCTSETSQSACLGNAQYSDTRQVPEQSFLQECKPVSCLNLFDEETSRSQERRPESSKSVEGESWSVSMEGDLDLKLSIAPSSNATKAPHWLFSDSRERNPSGQHR",
+  "md5" : "c8d09a2dd9c5d85227f21b7d517811d5",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 179,
+      "end" : 241,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 179,
+        "end" : 241,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "type" : "REGION",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "4.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 180,
+      "end" : 196,
+      "representative" : false,
+      "location-fragments" : [ {
+        "start" : 180,
+        "end" : 196,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PTHR33167",
+      "name" : "TRANSCRIPTION FACTOR, PUTATIVE (DUF863)-RELATED",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 51,
+      "end" : 189,
+      "representative" : true,
+      "hmmStart" : 27,
+      "hmmEnd" : 191,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 31,
+      "envelopeEnd" : 239,
+      "location-fragments" : [ {
+        "start" : 51,
+        "end" : 189,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR33167:SF61",
+    "name" : "OS06G0694400 PROTEIN",
+    "evalue" : 4.4E-18,
+    "score" : 77.6,
+    "proteinClass" : null,
+    "graftPoint" : "PTN007984521",
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR33167:SF61"
+  }, {
+    "signature" : {
+      "accession" : "PF27565",
+      "name" : "ELF3_helical",
+      "description" : "ELF3 helical domain",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.1"
+      },
+      "entry" : {
+        "accession" : "IPR060412",
+        "name" : "ELF3-like_helical",
+        "description" : "ELF3-like, helical domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 74,
+      "end" : 102,
+      "representative" : true,
+      "hmmStart" : 1,
+      "hmmEnd" : 29,
+      "hmmLength" : 30,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 2.1E-11,
+      "score" : 54.7,
+      "envelopeStart" : 74,
+      "envelopeEnd" : 103,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 74,
+        "end" : 102,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.0E-11,
+    "score" : 55.7,
+    "model-ac" : "PF27565"
+  } ],
+  "xref" : [ {
+    "name" : "HORVU.MOREX.r3.7HG0729110.1",
+    "id" : "HORVU.MOREX.r3.7HG0729110.1"
+  } ]
+} ]
+}

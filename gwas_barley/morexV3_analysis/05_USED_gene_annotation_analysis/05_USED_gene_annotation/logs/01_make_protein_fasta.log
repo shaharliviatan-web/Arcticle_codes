@@ -1,0 +1,12 @@
+=== Step 01: build FDR-gene protein FASTA ===
+Source proteome: /mnt/data/Barley_2021/morexV3/gene_annotation/Hv_Morex.pgsb.Jul2020.HC.aa.fa 
+Local copy:      /mnt/data/shahar/gwas_barley/morexV3_analysis/05_USED_gene_annotation/inputs/Hv_Morex.pgsb.Jul2020.HC.aa.fa 
+FDR genes requested: 45 
+Representative sequences written: 45 
+Multi-isoform genes: 1 
+   HORVU.MOREX.r3.3HG0299460 -> chosen HORVU.MOREX.r3.3HG0299460.2 ( 2 isoforms; lengths 440/331 )
+
+Check HORVU.MOREX.r3.1HG0079280 length: 206 aa (expected 206)
+
+Wrote: /mnt/data/shahar/gwas_barley/morexV3_analysis/05_USED_gene_annotation/inputs/fdr_proteins.faa 
+All checks passed.
