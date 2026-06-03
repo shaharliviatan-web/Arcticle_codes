@@ -1,7 +1,0 @@
-HORVU.MOREX.r3.2HG0191520.1	40c0682a1b7c7e52a3fcb36141e5ae65	483	Coils	Coil	Coil	76	96	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.2HG0191520.1	40c0682a1b7c7e52a3fcb36141e5ae65	483	Pfam	PF03140	Plant protein of unknown function	100	471	1.1E-59	T	02-06-2026	IPR004158	Protein of unknown function DUF247, plant	-	-
-HORVU.MOREX.r3.2HG0191520.1	40c0682a1b7c7e52a3fcb36141e5ae65	483	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	480	483	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.2HG0191520.1	40c0682a1b7c7e52a3fcb36141e5ae65	483	PANTHER	PTHR31549	PROTEIN, PUTATIVE (DUF247)-RELATED-RELATED	93	468	5.0E-45	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.2HG0191520.1	40c0682a1b7c7e52a3fcb36141e5ae65	483	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	460	479	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.2HG0191520.1	40c0682a1b7c7e52a3fcb36141e5ae65	483	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	461	479	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.2HG0191520.1	40c0682a1b7c7e52a3fcb36141e5ae65	483	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	1	460	-	T	02-06-2026	-	-	-	-

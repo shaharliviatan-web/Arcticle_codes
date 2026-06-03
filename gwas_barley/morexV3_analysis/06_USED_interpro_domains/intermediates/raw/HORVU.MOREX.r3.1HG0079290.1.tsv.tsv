@@ -1,8 +1,0 @@
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	28	132	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	SignalP_EUK	SignalP-noTM	SignalP-noTM	1	27	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	22	27	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	MobiDBLite	mobidb-lite	consensus disorder prediction	68	80	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	9	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	10	21	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	MobiDBLite	mobidb-lite	consensus disorder prediction	61	112	-	T	02-06-2026	-	-	-	-
-HORVU.MOREX.r3.1HG0079290.1	0c0fe7347faae98aa20581427b652797	132	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	27	-	T	02-06-2026	-	-	-	-

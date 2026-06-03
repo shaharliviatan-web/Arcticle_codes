@@ -1,6 +1,0 @@
-tool:        blastp: 2.12.0+
-database:    NCBI nr (remote)
-entrez_query: Viridiplantae[ORGN]
-evalue:      1e-5    max_target_seqs: 5
-accessed:    2026-06-02 19:42:41 UTC
-queries:     5 proteins

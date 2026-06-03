@@ -1,7 +1,0 @@
-DIAMOND version:
-diamond version 2.0.14
-
-Swiss-Prot release (UniProt reldate.txt):
-UniProt Knowledgebase Release 2026_01 consists of:
-UniProtKB/Swiss-Prot Release 2026_01 of 28-Jan-2026
-UniProtKB/TrEMBL Release 2026_01 of 28-Jan-2026

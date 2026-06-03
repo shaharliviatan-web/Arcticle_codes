@@ -1,9 +1,0 @@
-06_USED_interpro_domains - tool/service versions
-date_run:               2026-06-02 14:55:18 UTC
-EBI iprscan5 client URL: https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/python/iprscan5.py
-EBI iprscan5 client rev: 2024-07-11 07:51
-EBI REST baseUrl:        https://www.ebi.ac.uk/Tools/services/rest/iprscan5
-python3:                 Python 3.11.10
-requests:                2.25.1
-xmltramp2:               3.1.1
-interproscan-version:    5.77-108.0
