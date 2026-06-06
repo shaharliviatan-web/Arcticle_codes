@@ -38,15 +38,17 @@ user-selected grouping (still FDR & Bonferroni significant).
 |-------|--------|------|-------|-------|---------|
 | a | Pho  | 3HG0301750 | starch     | 2 | 0.40 |
 | b | PHT  | 3HG0301710 | starch     | 2 | 0.85 |
-| c | PME  | 3HG0299440 | betaglucan | 2 | 0.50 |
+| c | AP2/ERF | 3HG0299440 | betaglucan | 2 | 0.50 |
 | d | BAHD | 7HG0642350 | fiber      | 2 | 0.20 |
 
-> NOTE on panel c (PME, 3HG0299440): the display name "pectin methylesterase" is
-> taken verbatim from the curated final list. The step-05 (Swiss-Prot) and
-> step-06 (InterProScan) evidence for this gene is **AP2/ERF ethylene-responsive
-> transcription factor**, not a pectin methylesterase. The title is a one-line
-> edit in `config/figure_genes.tsv` if this annotation is revised before
-> submission.
+> NOTE on panel c (AP2/ERF, 3HG0299440): an earlier draft of the curated final
+> list labelled this gene "PME / pectin methylesterase". That was a mistake and
+> has been corrected. The Morex V3 projected annotation ("APETALA2-like protein
+> 5"), the step-05 Swiss-Prot best hit (Ethylene-responsive transcription factor
+> ERF110) and the step-06 InterProScan evidence (Pfam PF00847 AP2 domain;
+> InterPro AP2/ERF domain; GO transcription factor / ethylene signalling) all
+> agree this is an **AP2/ERF ethylene-responsive transcription factor**, NOT a
+> pectin methylesterase. The title is driven by `config/figure_genes.tsv`.
 
 ## Outputs
 

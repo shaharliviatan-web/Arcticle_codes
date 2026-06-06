@@ -1,5 +1,5 @@
 serial_no	panel_tag	trait	gene_id	gene_symbol	display_name	y_label	MGmin	epsilon
 1	a	starch	HORVU.MOREX.r3.3HG0301750	Pho	Pho - alpha-glucan phosphorylase	Starch (BLUP)	2	0.4
 2	b	starch	HORVU.MOREX.r3.3HG0301710	PHT	PHT - phosphate/anion transporter	Starch (BLUP)	2	0.85
-3	c	betaglucan	HORVU.MOREX.r3.3HG0299440	PME	PME - pectin methylesterase	beta-glucan (BLUP)	2	0.5
+3	c	betaglucan	HORVU.MOREX.r3.3HG0299440	AP2/ERF	AP2/ERF transcription factor	beta-glucan (BLUP)	2	0.5
 4	d	fiber	HORVU.MOREX.r3.7HG0642350	BAHD	BAHD acyltransferase	Fiber (BLUP)	2	0.2

@@ -60,7 +60,8 @@ for (i in seq_len(nrow(cfg))) {
   combined <- vio$plot / het$plot + plot_layout(heights = c(3.0, 2.0))
   combined_plots[[i]] <- combined
 
-  stub <- sprintf("%d_%s_%s", g$serial_no, g$gene_symbol, sub("HORVU.MOREX.r3.", "", g$gene_id))
+  sym_safe <- gsub("[^A-Za-z0-9]+", "", g$gene_symbol)   # filesystem-safe (e.g. AP2/ERF -> AP2ERF)
+  stub <- sprintf("%d_%s_%s", g$serial_no, sym_safe, sub("HORVU.MOREX.r3.", "", g$gene_id))
   ggplot2::ggsave(file.path(FIG_DIR, paste0(stub, ".png")), combined,
                   width = PNG_W, height = PNG_H, dpi = PNG_DPI, bg = "white", type = "cairo")
   ggplot2::ggsave(file.path(FIG_DIR, paste0(stub, ".pdf")), combined,
