@@ -31,7 +31,8 @@ ensure_dir(FIG_DIR); ensure_dir(TAB_DIR)
 cfg <- fread(file.path(HERE, "config", "figure_genes.tsv"))
 sl  <- if (file.exists(SHORTLIST)) fread(SHORTLIST) else data.table()
 
-PNG_W <- 13; PNG_H <- 12; PNG_DPI <- 600   # inches / dpi for standalone figures
+PNG_W <- 13; PNG_H <- 10; PNG_DPI <- 600   # inches / dpi for standalone figures
+HEATMAP_REL_H <- 1.0                        # heatmap height relative to violin = 3 (compact strip)
 
 combined_plots <- list()
 all_summary <- list(); all_groups <- list()
@@ -57,7 +58,7 @@ for (i in seq_len(nrow(cfg))) {
   het <- build_heatmap(m01, hap_map, vio$hap_levels)
 
   # ---- Stacked figure ----
-  combined <- vio$plot / het$plot + plot_layout(heights = c(3.0, 2.0))
+  combined <- vio$plot / het$plot + plot_layout(heights = c(3.0, HEATMAP_REL_H))
   combined_plots[[i]] <- combined
 
   sym_safe <- gsub("[^A-Za-z0-9]+", "", g$gene_symbol)   # filesystem-safe (e.g. AP2/ERF -> AP2ERF)

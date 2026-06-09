@@ -156,43 +156,57 @@ def build_figure_2():
 
 def build_figure_3():
     """
-    Figure 3 — Genome-wide GWAS Manhattan + QQ
-    Single R-generated composite (4 trait rows a–d already labelled).
-    Layout: resize to A4 text width, no re-assembly.
+    Figure 3 — GWAS + population/LD diagnostics
+      A  Figure_main_manhattan_qq_plain   (left, full height)
+      B  Figure_S1b_PC_scree_withoutPC1   (right top)
+      C  figure_ld_decay_genomewide       (right bottom)
+    Layout: A occupies the full left column; B stacked above C on the right.
+    Column widths are solved so both sides reach the same total height.
     """
     print("Building Figure 3...")
-    img = pdf_to_img(GWAS / "main_figure/Figure_main_manhattan_qq_plain.pdf")
-    img = resize_to_width(img, A4_TEXT_W)
-    save(img, OUT / "Figure_3", "Figure_3")
+    imgA = add_label(pdf_to_img(GWAS / "main_figure/Figure_main_manhattan_qq_plain.pdf"),       "A")
+    imgB = add_label(pdf_to_img(GWAS / "pc_selection/Figure_S1b_PC_scree_withoutPC1.pdf"),      "B")
+    imgC = add_label(pdf_to_img(LD   / "figure_ld_decay_genomewide.pdf"),                       "C")
+
+    # Aspect ratios (height/width) after label strips are added
+    ar_a = imgA.height / imgA.width
+    ar_b = imgB.height / imgB.width
+    ar_c = imgC.height / imgC.width
+
+    # Solve for right-column width so that:
+    #   left_height  == right_height
+    #   pw_a * ar_a  == pw_bc * (ar_b + ar_c) + ROW_GAP
+    #   pw_a + PANEL_GAP + pw_bc == A4_TEXT_W
+    # => pw_bc = ((A4_TEXT_W - PANEL_GAP) * ar_a - ROW_GAP) / (ar_a + ar_b + ar_c)
+    pw_bc = int(((A4_TEXT_W - PANEL_GAP) * ar_a - ROW_GAP) / (ar_a + ar_b + ar_c))
+    pw_bc = max(200, min(pw_bc, A4_TEXT_W - PANEL_GAP - 200))   # sanity clamp
+    pw_a  = A4_TEXT_W - PANEL_GAP - pw_bc
+
+    imgA = resize_to_width(imgA, pw_a)
+    imgB = resize_to_width(imgB, pw_bc)
+    imgC = resize_to_width(imgC, pw_bc)
+
+    total_h = max(imgA.height, imgB.height + ROW_GAP + imgC.height)
+    canvas  = Image.new("RGB", (A4_TEXT_W, total_h), "white")
+    canvas.paste(imgA, (0, 0))
+    canvas.paste(imgB, (pw_a + PANEL_GAP, 0))
+    canvas.paste(imgC, (pw_a + PANEL_GAP, imgB.height + ROW_GAP))
+
+    save(canvas, OUT / "Figure_3", "Figure_3")
     print("Figure 3 done.\n")
 
 
 def build_figure_4():
     """
-    Figure 4 — Population structure + LD diagnostics
-      A  Figure_S1b_PC_scree_withoutPC1
-      B  figure_ld_decay_genomewide
-    Layout: A | B  (side by side)
-    """
-    print("Building Figure 4...")
-    imgA = add_label(pdf_to_img(GWAS / "pc_selection/Figure_S1b_PC_scree_withoutPC1.pdf"), "A")
-    imgB = add_label(pdf_to_img(LD   / "figure_ld_decay_genomewide.pdf"),                  "B")
-    fig  = hrow([imgA, imgB])
-    save(fig, OUT / "Figure_4", "Figure_4")
-    print("Figure 4 done.\n")
-
-
-def build_figure_5():
-    """
-    Figure 5 — Haplotype structure of four candidate genes
+    Figure 4 — Haplotype structure of four candidate genes  (was Figure 5)
     Single R-generated 2×2 composite (panels a–d already labelled).
     Layout: resize to A4 text width, no re-assembly.
     """
-    print("Building Figure 5...")
+    print("Building Figure 4...")
     img = pdf_to_img(HAP / "composite_4panel.pdf")
     img = resize_to_width(img, A4_TEXT_W)
-    save(img, OUT / "Figure_5", "Figure_5")
-    print("Figure 5 done.\n")
+    save(img, OUT / "Figure_4", "Figure_4")
+    print("Figure 4 done.\n")
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
@@ -202,7 +216,6 @@ BUILDERS = {
     "2": build_figure_2,
     "3": build_figure_3,
     "4": build_figure_4,
-    "5": build_figure_5,
 }
 
 if __name__ == "__main__":

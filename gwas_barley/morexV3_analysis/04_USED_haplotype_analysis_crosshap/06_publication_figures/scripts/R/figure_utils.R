@@ -105,7 +105,7 @@ pick_representative <- function(m_group) {
 # brackets vs the LARGEST group, drawn as significance stars. Returns the plot
 # plus all numbers needed for the results-chapter CSV.
 # ---------------------------------------------------------------------------
-build_violin <- function(indfile, title, y_label, base_size = 18) {
+build_violin <- function(indfile, title, y_label, base_size = 20) {
   d <- as.data.frame(indfile, stringsAsFactors = FALSE)
   d$hap   <- as.character(d$hap)
   d$Pheno <- suppressWarnings(as.numeric(d$Pheno))
@@ -161,16 +161,16 @@ build_violin <- function(indfile, title, y_label, base_size = 18) {
          x = "Haplotype group", y = y_label) +
     theme_bw(base_size = base_size) +
     theme(legend.position = "none",
-          plot.title = element_text(size = 22, face = "bold", hjust = 0.5),
-          plot.subtitle = element_text(size = 15, face = "bold", hjust = 0),
-          axis.title = element_text(size = 18, face = "bold"),
-          axis.text  = element_text(size = 15, face = "bold"),
+          plot.title = element_text(size = 27, face = "bold", hjust = 0.5),
+          plot.subtitle = element_text(size = 19, face = "bold", hjust = 0),
+          axis.title = element_text(size = 23, face = "bold"),
+          axis.text  = element_text(size = 20, face = "bold"),
           panel.grid.major.x = element_blank())
 
   if (nrow(pw) > 0) {
     p <- p + stat_pvalue_manual(pw, label = "p.signif", xmin = "group1", xmax = "group2",
                                 y.position = "y.position", tip.length = 0.01,
-                                bracket.size = 0.45, size = 7, fontface = "bold")
+                                bracket.size = 0.5, size = 9, fontface = "bold")
   }
 
   list(plot = p, ref_hap = ref_hap, hap_levels = hap_levels,
@@ -183,7 +183,7 @@ build_violin <- function(indfile, title, y_label, base_size = 18) {
 # Heatmap panel: one representative-genotype row per haplotype group (wild-only;
 # no cultivar rows). REF=tan, ALT=slate, Missing=grey. SNP positions not labeled.
 # ---------------------------------------------------------------------------
-build_heatmap <- function(m01, hap_map, hap_levels, base_size = 16, tile_border = 0.9) {
+build_heatmap <- function(m01, hap_map, hap_levels, base_size = 18, tile_border = 0.9) {
   rep_info <- list(); rows <- list()
   for (h in hap_levels) {
     ids <- intersect(hap_map$Ind[hap_map$hap == h], rownames(m01))
@@ -215,10 +215,11 @@ build_heatmap <- function(m01, hap_map, hap_levels, base_size = 16, tile_border 
                       labels = c("REF","ALT","Missing"), drop = FALSE, name = NULL) +
     labs(x = NULL, y = NULL) +
     theme_minimal(base_size = base_size) +
-    theme(axis.text.y = element_text(size = 17, face = "bold"),
+    theme(axis.text.y = element_text(size = 22, face = "bold"),
           axis.text.x = element_blank(), axis.ticks.x = element_blank(),
           panel.grid = element_blank(),
-          legend.text = element_text(size = 13, face = "bold"),
+          legend.text = element_text(size = 18, face = "bold"),
+          legend.key.size = grid::unit(1.1, "lines"),
           legend.position = "right")
 
   list(plot = p, rep_info = rep_info)
