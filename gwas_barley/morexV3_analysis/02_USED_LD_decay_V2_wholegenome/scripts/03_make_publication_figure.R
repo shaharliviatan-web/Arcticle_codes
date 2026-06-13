@@ -56,15 +56,15 @@ annot_label <- sprintf("r^2 = %.1f at ~%.0f kb", THRESHOLD, cross02_kb)
 cat(sprintf("Annotating cross-point at %.1f kb (r^2 = %.2f)\n", cross02_kb, THRESHOLD))
 
 # --- 3. Common theme ----------------------------------------------------------
-publication_theme <- theme_classic(base_size = 10) +
+publication_theme <- theme_classic(base_size = 15) +
     theme(
-        axis.title       = element_text(size = 10),
-        axis.text        = element_text(size = 9),
-        plot.title       = element_text(size = 11, hjust = 0.5),
+        axis.title       = element_text(size = 15),
+        axis.text        = element_text(size = 13),
+        plot.title       = element_text(size = 16, hjust = 0.5),
         panel.grid.major = element_line(color = "grey92", linewidth = 0.3),
         panel.grid.minor = element_blank(),
         strip.background = element_rect(fill = "grey95", color = NA),
-        strip.text       = element_text(size = 9, face = "bold"),
+        strip.text       = element_text(size = 13, face = "bold"),
         plot.margin      = margin(5, 8, 5, 5, "mm")
     )
 
@@ -80,14 +80,6 @@ main_fig <- ggplot() +
                linetype = "dashed", color = "steelblue", linewidth = 0.6) +
     geom_vline(xintercept = cross02_kb,
                linetype = "dotted", color = "steelblue", linewidth = 0.5) +
-    annotate("segment",
-             x = cross02_kb + max_kb * 0.10, xend = cross02_kb + max_kb * 0.01,
-             y = THRESHOLD + 0.05,            yend = THRESHOLD + 0.005,
-             arrow = arrow(length = unit(0.15, "cm"), type = "closed"),
-             color = "steelblue", linewidth = 0.5) +
-    annotate("text",
-             x = cross02_kb + max_kb * 0.11, y = THRESHOLD + 0.055,
-             label = annot_label, hjust = 0, size = 3.0, color = "steelblue") +
     scale_x_continuous(
         name   = "Physical distance (kb)",
         limits = c(0, max_kb), expand = c(0, 0)
@@ -96,7 +88,6 @@ main_fig <- ggplot() +
         name   = expression(Average ~ italic(r)^2),
         limits = c(0, NA), expand = expansion(mult = c(0.01, 0.05))
     ) +
-    labs(title = "Genome-wide LD decay — wild barley (n = 290)") +
     publication_theme
 
 ggsave(file.path(RES_DIR, "figure_ld_decay_genomewide.pdf"),
@@ -116,7 +107,7 @@ per_chrom_fig <- ggplot(per_chrom, aes(x = Distance_kb, y = Avg_R2)) +
     scale_x_continuous(
         name   = "Physical distance (kb)",
         limits = c(0, max_kb), expand = c(0, 0),
-        breaks = pretty(c(0, max_kb), n = 4)
+        breaks = c(0, 1000, 2000)
     ) +
     scale_y_continuous(
         name   = expression(Average ~ italic(r)^2),
@@ -127,9 +118,9 @@ per_chrom_fig <- ggplot(per_chrom, aes(x = Distance_kb, y = Avg_R2)) +
 
 ggsave(file.path(RES_DIR, "figure_ld_decay_perchromosome.pdf"),
        plot = per_chrom_fig, device = cairo_pdf,
-       width = 220, height = 130, units = "mm")
+       width = 260, height = 150, units = "mm")
 ggsave(file.path(RES_DIR, "figure_ld_decay_perchromosome.png"),
-       plot = per_chrom_fig, width = 220, height = 130, units = "mm", dpi = 300)
+       plot = per_chrom_fig, width = 260, height = 150, units = "mm", dpi = 300)
 
 cat(sprintf("Saved figures to: %s\n", RES_DIR))
 

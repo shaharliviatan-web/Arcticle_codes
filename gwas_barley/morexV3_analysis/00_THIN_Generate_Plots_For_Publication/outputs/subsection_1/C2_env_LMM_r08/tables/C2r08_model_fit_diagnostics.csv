@@ -1,0 +1,5 @@
+"Trait","n_genotypes","n_sites","n_predictors_entered","n_predictors_final","R2_marginal","R2_conditional"
+"Protein",290,29,8,0,0,0.339
+"Starch",290,29,8,3,0.511,0.702
+"beta-glucan",290,29,8,3,0.259,0.441
+"Fiber",290,29,8,3,0.378,0.603

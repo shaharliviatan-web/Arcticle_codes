@@ -1,0 +1,5 @@
+"Trait","Final_Formula","n_predictors_final"
+"Protein","ProteinCenterd ~ 1 + (1 | site_id)",0
+"Starch","StarchCenterd ~ Silt_pct + Precipitation + Elevation + (1 | site_id)",3
+"beta-glucan","BetaglucansCenterd ~ Electrical_Cond + Silt_pct + Organic_Carbon + (1 | site_id)",3
+"Fiber","FiberCenterd ~ Silt_pct + Precipitation + Elevation + (1 | site_id)",3

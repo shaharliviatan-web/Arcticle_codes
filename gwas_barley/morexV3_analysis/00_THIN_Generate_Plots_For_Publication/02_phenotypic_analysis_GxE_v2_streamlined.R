@@ -119,7 +119,7 @@ PAL_HIGHLIGHT <- c(
 )
 
 # ---- Publication theme ----------------------------------------------------
-theme_pub <- function(base_size = 11) {
+theme_pub <- function(base_size = 16) {
   theme_bw(base_size = base_size, base_family = "sans") +
     theme(
       plot.title       = element_blank(),
@@ -489,10 +489,17 @@ p_reaction_pertrait <- ggplot() +
   geom_point(data = plot_data_pertrait %>% filter(Group == "Highlight"),
              aes(x = season, y = Mean_Value, colour = Pattern),
              size = 2.1) +
-  scale_colour_manual(values = PAL_HIGHLIGHT, name = "Representative pattern") +
+  scale_colour_manual(values = PAL_HIGHLIGHT, name = "Representative pattern",
+                      labels = c("Most stable"         = "stable",
+                                 "Strongest increase"  = "increase",
+                                 "Strongest decrease"  = "decrease",
+                                 "Strongest crossover" = "crossover")) +
   facet_wrap(~ Trait, scales = "free_y", ncol = 2) +
   labs(x = "Growing season", y = "Centered phenotypic value") +
-  theme_pub()
+  theme_pub() +
+  guides(colour = guide_legend(nrow = 1, title.position = "top",
+                               title.hjust = 0.5)) +
+  theme(legend.title = element_text(hjust = 0.5))
 
 save_plot(p_reaction_pertrait, "B2_reaction_norm_per_trait_highlights",
           w = 8, h = 6.5)

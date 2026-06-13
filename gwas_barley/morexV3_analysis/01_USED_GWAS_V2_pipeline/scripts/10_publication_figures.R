@@ -298,7 +298,7 @@ dir.create(tmp_panel_dir)
 for (i in seq_along(TRAITS)) {
   png(file.path(tmp_panel_dir, sprintf("qq_%d.png", i)),
       width = GRID_QQ_W, height = GRID_QQ_H, units = "in",
-      res = 600, pointsize = 9, type = "cairo-png")
+      res = 600, pointsize = 13, type = "cairo-png")
   draw_qq(trait_data[[i]], cex_scale = 0.9)
   dev.off()
 }
@@ -314,7 +314,7 @@ compose_variant <- function(out_base, highlight) {
     hl  <- hl_data[[td$trait]]
     png(file.path(tmp_panel_dir, sprintf("man_%d.png", i)),
         width = GRID_MAN_W, height = GRID_MAN_H, units = "in",
-        res = 600, pointsize = 9, type = "cairo-png")
+        res = 600, pointsize = 12, type = "cairo-png")
     draw_manhattan(td, img, panel_label = PANEL_LABELS[i],
                    trait_label = TRAIT_LABELS[[td$trait]], cex_scale = 0.95,
                    sig_dt  = if (highlight) hl$sig  else NULL,

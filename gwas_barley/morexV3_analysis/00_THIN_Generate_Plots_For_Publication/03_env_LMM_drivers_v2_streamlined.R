@@ -96,7 +96,7 @@ dir.create(file.path(OUT_ROOT, "models"),  recursive = TRUE, showWarnings = FALS
 
 # ---- Publication theme + save helper ----------------------------------------
 
-theme_pub <- function(base_size = 11) {
+theme_pub <- function(base_size = 16) {
   theme_bw(base_size = base_size) +
     theme(panel.grid.minor = element_blank(),
           strip.background = element_rect(fill = "grey92", colour = NA),
@@ -721,30 +721,33 @@ build_effect_plot <- function(coef_df, x_axis_label) {
     geom_vline(xintercept = 0, linetype = "dashed",
                linewidth = 0.4, colour = "grey45") +
     geom_errorbarh(aes(xmin = ci_low, xmax = ci_high),
-                   height = 0.18, linewidth = 0.45,
+                   height = 0.26, linewidth = 0.85,
                    colour = EFFECT_PLOT_COLOUR) +
-    geom_point(size = 2.4, colour = EFFECT_PLOT_COLOUR) +
+    geom_point(size = 3.4, colour = EFFECT_PLOT_COLOUR) +
     geom_text(aes(label = p_stars,
                   hjust = ifelse(estimate >= 0, -0.4, 1.4)),
-              size = 3.8, vjust = 0.35, colour = "black") +
-    facet_wrap(~ TraitLabel, scales = "free", ncol = 2) +
-    labs(x = x_axis_label, y = NULL,
-         caption = paste0(". p<0.1   * p<0.05   ** p<0.01   *** p<0.001",
-                          "   (Satterthwaite df, unadjusted)\n",
-                          "Backward elimination via lmerTest::step(); ",
-                          "|r|>0.8 collinearity filter applied before model fitting")) +
-    theme_pub(base_size = 11) +
+              size = 7.5, vjust = 0.35, colour = "black") +
+    facet_wrap(~ TraitLabel, scales = "free", ncol = 1) +
+    scale_x_continuous(expand = expansion(mult = 0.13)) +  # room so * stars don't clip the panel edge
+    # Shorten y-axis labels: drop trailing units in parentheses (e.g. "Silt (%)" -> "Silt")
+    scale_y_discrete(labels = function(x) sub("\\s*\\(.*\\)\\s*$", "", x)) +
+    labs(x = x_axis_label, y = NULL) +
+    theme_pub(base_size = 19) +
     theme(panel.grid.major.y = element_blank(),
           legend.position    = "none",
-          plot.caption       = element_text(hjust = 0.5, size = 7.5,
-                                            face = "italic"))
+          strip.text         = element_text(face = "bold", size = 22),
+          axis.title.x       = element_text(size = 22),
+          axis.text.y        = element_text(size = 20, face = "bold"),
+          axis.text.x        = element_text(size = 22))
 }
 
-p_std <- build_effect_plot(coef_std, "Standardized effect (beta)")
+# Use a plotmath expression for β so it renders as the Greek symbol in both the
+# cairo PDF and PNG (a literal "β" string can drop to ".." after PDF conversion).
+p_std <- build_effect_plot(coef_std, expression("Standardized effect (" * beta * ")"))
 p_raw <- build_effect_plot(coef_raw, "Estimated effect (raw units)")
 
-if (!is.null(p_std)) save_plot(p_std, "C2r08_effects_standardized", w = 9.0, h = 6.5)
-if (!is.null(p_raw)) save_plot(p_raw, "C2r08_effects_raw_units",    w = 9.0, h = 6.5)
+if (!is.null(p_std)) save_plot(p_std, "C2r08_effects_standardized", w = 7.5, h = 9)
+if (!is.null(p_raw)) save_plot(p_raw, "C2r08_effects_raw_units",    w = 7.5, h = 9)
 
 
 # -----------------------------------------------------------------------------
@@ -829,7 +832,7 @@ ax_order_lab <- ifelse(rownames(cm_mat) %in% names(PREDICTOR_LABELS),
 
 p_cor <- ggplot(cm_long, aes(x = Var2_lab, y = Var1_lab, fill = r)) +
   geom_tile(colour = "white", linewidth = 0.3) +
-  geom_text(aes(label = sprintf("%.2f", r)), size = 2.5, colour = "black") +
+  geom_text(aes(label = sprintf("%.2f", r)), size = 4.0, colour = "black") +
   scale_fill_gradient2(low = "#2166AC", mid = "white", high = "#B2182B",
                        midpoint = 0, limits = c(-1, 1), name = "Pearson r") +
   scale_x_discrete(limits = ax_order_lab) +
@@ -837,11 +840,11 @@ p_cor <- ggplot(cm_long, aes(x = Var2_lab, y = Var1_lab, fill = r)) +
   coord_equal() +
   labs(x = NULL, y = NULL,
        caption = "Green labels = retained after |r|>0.8 filter; grey = removed.") +
-  theme_pub(base_size = 9) +
+  theme_pub(base_size = 12) +
   theme(panel.grid   = element_blank(),
         axis.text.x  = element_text(angle = 55, hjust = 1, colour = ax_cols),
         axis.text.y  = element_text(colour = rev(ax_cols)),
-        plot.caption = element_text(hjust = 0.5, size = 8, face = "italic"))
+        plot.caption = element_text(hjust = 0.5, size = 12, face = "italic"))
 
 save_plot(p_cor, "C2r08_predictor_correlation_heatmap",
           w = max(7, 0.32 * ncol(cm_mat) + 2.5),

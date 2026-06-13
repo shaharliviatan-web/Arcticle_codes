@@ -48,7 +48,7 @@
 
 # ---- Auto-install any missing packages (helpful on a fresh Posit Cloud) ---
 .required <- c("ggplot2", "lme4", "insight", "dplyr", "tidyr", "stringr",
-               "scales", "gt", "flextable", "officer", "ggpubr", "tibble")
+               "scales", "gt", "ggpubr", "tibble")
 .missing  <- .required[!vapply(.required, requireNamespace,
                                logical(1), quietly = TRUE)]
 if (length(.missing)) {
@@ -65,10 +65,17 @@ suppressPackageStartupMessages({
   library(stringr)
   library(scales)
   library(gt)
-  library(flextable)
-  library(officer)
   library(ggpubr)
   library(tibble)
+})
+
+# flextable is OPTIONAL: it only renders the H2 summary table to .docx / .png.
+# If unavailable (toolchain conflicts on some R installs), the H2 PNG is still
+# produced via the ggpubr fallback below, and all H2 values are saved to CSV.
+have_flextable <- requireNamespace("flextable", quietly = TRUE) &&
+                  requireNamespace("officer",   quietly = TRUE)
+if (have_flextable) suppressPackageStartupMessages({
+  library(flextable); library(officer)
 })
 
 # ---- Configuration --------------------------------------------------------
@@ -179,7 +186,7 @@ PAL_REGION <- c(
 )
 
 # ---- Publication theme (used by every plot in this script) ---------------
-theme_pub <- function(base_size = 11) {
+theme_pub <- function(base_size = 16) {
   theme_bw(base_size = base_size, base_family = "sans") +
     theme(
       plot.title       = element_blank(),         # titles added at figure assembly
@@ -280,8 +287,11 @@ herit_calc <- function(df, traits) {
     tr <- traits[i]
     d  <- clean_trait_local(df, tr)
     fit <- lmer(d[[tr]] ~ (1 | short_Tag) + (1 | season_Bl), data = d)
-    vc  <- get_variance(fit)
-    out[i] <- vc$var.intercept[1] / (vc$var.random + vc$var.residual)
+    # Variance components straight from VarCorr (version-stable; replaces
+    # insight::get_variance, which returns NULL under insight >= 1.5).
+    # H2 = V(genotype) / V(total) = short_Tag / (short_Tag + season_Bl + residual).
+    vc  <- as.data.frame(VarCorr(fit))
+    out[i] <- vc$vcov[vc$grp == "short_Tag"] / sum(vc$vcov)
     message(sprintf("    H2 (%s) = %.3f", tr, out[i]))
   }
   data.frame(pheno = traits, heritability = round(out, 3))
@@ -427,43 +437,48 @@ gt_table <- h2_table %>%
 
 gtsave(gt_table, file.path(OUT_ROOT, "tables", "Table1_H2.html"))
 
-# ---- .docx + PNG via flextable ---------------------------------------------
-ft <- flextable(h2_table) %>%
-  set_header_labels(
-    Trait      = "Trait",
-    TraitClass = "Trait class",
-    H2         = "H\u00B2"
-  ) %>%
-  merge_v(j = "TraitClass") %>%
-  align(j = "H2", align = "center", part = "all") %>%
-  align(j = c("Trait", "TraitClass"), align = "left", part = "all") %>%
-  bold(part = "header") %>%
-  flextable::font(fontname = "Arial", part = "all") %>%
-  flextable::fontsize(size = 10, part = "all") %>%
-  border_remove() %>%
-  hline_top(border = officer::fp_border(color = "black", width = 1.5),
-            part = "header") %>%
-  hline_bottom(border = officer::fp_border(color = "black", width = 1.5),
-               part = "header") %>%
-  hline_bottom(border = officer::fp_border(color = "black", width = 1.5),
-               part = "body") %>%
-  add_footer_lines(values = "H\u00B2 estimated from an LMM fit per trait with genotype and season-by-block as crossed random effects (lme4 v1.1.37). Per-trait local QC: NA exclusion + +/- 3 SD outlier removal. H\u00B2 = sigma2_G / (sigma2_G + sigma2_E + sigma2_R).") %>%
-  italic(part = "footer") %>%
-  flextable::fontsize(size = 8, part = "footer") %>%
-  autofit()
-
-save_as_docx(ft,
-             path = file.path(OUT_ROOT, "tables", "Table1_H2.docx"))
-
+# ---- .docx + PNG via flextable (optional) ----------------------------------
 png_path <- file.path(OUT_ROOT, "tables", "Table1_H2.png")
-png_ok <- tryCatch({
-  save_as_image(ft, path = png_path, webshot = "webshot2")
-  TRUE
-}, error = function(e) {
-  message("    flextable PNG export failed (", conditionMessage(e),
-          "); falling back to ggpubr.")
-  FALSE
-})
+png_ok <- FALSE
+if (have_flextable) {
+  ft <- flextable(h2_table) %>%
+    set_header_labels(
+      Trait      = "Trait",
+      TraitClass = "Trait class",
+      H2         = "H\u00B2"
+    ) %>%
+    merge_v(j = "TraitClass") %>%
+    align(j = "H2", align = "center", part = "all") %>%
+    align(j = c("Trait", "TraitClass"), align = "left", part = "all") %>%
+    bold(part = "header") %>%
+    flextable::font(fontname = "Arial", part = "all") %>%
+    flextable::fontsize(size = 10, part = "all") %>%
+    border_remove() %>%
+    hline_top(border = officer::fp_border(color = "black", width = 1.5),
+              part = "header") %>%
+    hline_bottom(border = officer::fp_border(color = "black", width = 1.5),
+                 part = "header") %>%
+    hline_bottom(border = officer::fp_border(color = "black", width = 1.5),
+                 part = "body") %>%
+    add_footer_lines(values = "H\u00B2 estimated from an LMM fit per trait with genotype and season-by-block as crossed random effects (lme4 v1.1.37). Per-trait local QC: NA exclusion + +/- 3 SD outlier removal. H\u00B2 = sigma2_G / (sigma2_G + sigma2_E + sigma2_R).") %>%
+    italic(part = "footer") %>%
+    flextable::fontsize(size = 8, part = "footer") %>%
+    autofit()
+
+  save_as_docx(ft,
+               path = file.path(OUT_ROOT, "tables", "Table1_H2.docx"))
+
+  png_ok <- tryCatch({
+    save_as_image(ft, path = png_path, webshot = "webshot2")
+    TRUE
+  }, error = function(e) {
+    message("    flextable PNG export failed (", conditionMessage(e),
+            "); falling back to ggpubr.")
+    FALSE
+  })
+} else {
+  message("    flextable unavailable; H2 table via ggpubr (.docx skipped).")
+}
 
 if (!png_ok) {
   h2_display <- h2_table
@@ -557,13 +572,25 @@ p_site_centered <- ggplot(site_long_centered,
   facet_wrap(~ Trait, scales = "free_y", ncol = 2) +
   scale_fill_manual(values = PAL_REGION, name = "Ecological region",
                     drop = FALSE) +
+  # Label only every 5th site (5, 10, 15, 20, 25, 30) to avoid x-axis crowding.
+  # Sites are ordered by region, so these labels fall at their region positions.
+  scale_x_discrete(labels = function(x)
+                     ifelse(!is.na(suppressWarnings(as.integer(x))) &
+                              suppressWarnings(as.integer(x)) %% 5 == 0,
+                            suppressWarnings(as.integer(x)), "")) +
   labs(x = "Sampling site", y = "BLUP (centered)") +
   theme_pub() +
-  theme(axis.text.x     = element_text(angle = 45, hjust = 1, size = 8),
-        legend.position = "bottom") +
-  guides(fill = guide_legend(nrow = 2, byrow = TRUE))
+  theme(axis.text.x     = element_text(size = 17),
+        axis.text.y     = element_text(size = 16),
+        axis.title      = element_text(size = 21),
+        strip.text      = element_text(face = "bold", size = 19),
+        legend.position = "bottom",
+        legend.title    = element_text(face = "bold", size = 19, hjust = 0.5),
+        legend.text     = element_text(size = 19)) +
+  guides(fill = guide_legend(nrow = 2, byrow = TRUE,
+                             title.position = "top", title.hjust = 0.5))
 
-save_plot(p_site_centered, "A4_site_boxplots_centered", w = 11, h = 7.5)
+save_plot(p_site_centered, "A4_site_boxplots_centered", w = 12, h = 7.8)
 
 # ---- A4 SUPPLEMENT : Per-region summary statistics (for manuscript text) ---
 # Computes mean +/- SD and accession count for every (trait x region)
@@ -754,7 +781,7 @@ p_panel_A_rawP <- ggplot(heat_nutri_rawP,
   geom_tile(colour = "white", linewidth = 0.6) +
   geom_text(aes(label  = label,
                 colour = ifelse(abs(r) > 0.45, "white", "black")),
-            size = 4.0, fontface = "bold") +
+            size = 4.8, fontface = "bold") +
   scale_fill_gradient2(low = "#2166AC", mid = "white", high = "#B2182B",
                        midpoint = 0, limits = c(-1, 1),
                        breaks = c(-1, -0.5, 0, 0.5, 1),
@@ -763,16 +790,19 @@ p_panel_A_rawP <- ggplot(heat_nutri_rawP,
   scale_y_discrete(limits = rev(y_levels), drop = FALSE) +
   scale_x_discrete(limits = x_levels,      drop = FALSE,
                    position = "top") +
-  labs(x = NULL, y = NULL,
-       caption = "* p < 0.05   ** p < 0.01   *** p < 0.001 (uncorrected)") +
+  labs(x = NULL, y = NULL) +
   coord_equal() +
+  guides(fill = guide_colourbar(barwidth  = unit(0.30, "cm"),
+                                barheight = unit(2.4, "cm"))) +
   theme_pub() +
-  theme(panel.grid   = element_blank(),
-        axis.text.x  = element_text(angle = 0, hjust = 0.5),
-        plot.caption = element_text(hjust = 0.5, size = 8, face = "italic"))
+  theme(panel.grid      = element_blank(),
+        legend.position = "right",
+        legend.title    = element_text(size = 9, face = "bold"),
+        legend.text     = element_text(size = 8),
+        axis.text.x     = element_text(angle = 0, hjust = 0.5))
 
 save_plot(p_panel_A_rawP,
-          "A12_panelA_nutri_heatmap_rawP", w = 4.2, h = 4.0)
+          "A12_panelA_nutri_heatmap_rawP", w = 6.0, h = 5.6)
 
 # ---- (ii) local-FDR variant (BH-FDR over the 6 nutri-nutri pairs) ---------
 nutri_localFDR <- edge_long %>%
@@ -795,7 +825,7 @@ p_panel_A_localFDR <- ggplot(heat_nutri_localFDR,
   geom_tile(colour = "white", linewidth = 0.6) +
   geom_text(aes(label  = label,
                 colour = ifelse(abs(r) > 0.45, "white", "black")),
-            size = 4.0, fontface = "bold") +
+            size = 4.8, fontface = "bold") +
   scale_fill_gradient2(low = "#2166AC", mid = "white", high = "#B2182B",
                        midpoint = 0, limits = c(-1, 1),
                        breaks = c(-1, -0.5, 0, 0.5, 1),
@@ -804,17 +834,19 @@ p_panel_A_localFDR <- ggplot(heat_nutri_localFDR,
   scale_y_discrete(limits = rev(y_levels), drop = FALSE) +
   scale_x_discrete(limits = x_levels,      drop = FALSE,
                    position = "top") +
-  labs(x = NULL, y = NULL,
-       caption = paste0("BH-FDR over the 6 nutri-nutri pairs.  ",
-                        "* q < 0.05   ** q < 0.01   *** q < 0.001")) +
+  labs(x = NULL, y = NULL) +
   coord_equal() +
+  guides(fill = guide_colourbar(barwidth  = unit(0.30, "cm"),
+                                barheight = unit(2.4, "cm"))) +
   theme_pub() +
-  theme(panel.grid   = element_blank(),
-        axis.text.x  = element_text(angle = 0, hjust = 0.5),
-        plot.caption = element_text(hjust = 0.5, size = 8, face = "italic"))
+  theme(panel.grid      = element_blank(),
+        legend.position = "right",
+        legend.title    = element_text(size = 9, face = "bold"),
+        legend.text     = element_text(size = 8),
+        axis.text.x     = element_text(angle = 0, hjust = 0.5))
 
 save_plot(p_panel_A_localFDR,
-          "A12_panelA_nutri_heatmap_localFDR", w = 4.2, h = 4.0)
+          "A12_panelA_nutri_heatmap_localFDR", w = 6.0, h = 5.6)
 
 
 # -----------------------------------------------------------------------------
@@ -855,24 +887,20 @@ p_panel_B <- ggplot(d_ord, aes(x = morpho_lab, y = r)) +
              colour = "grey70", linewidth = 0.4) +
   geom_point(size = 4, colour = "grey45") +
   geom_text(aes(label = sig_local, y = r),
-            vjust = -0.9, size = 4.2, fontface = "bold",
+            vjust = -0.9, size = 6.0, fontface = "bold",
             colour = "grey25") +
   facet_wrap(~ nutri, scales = "free", ncol = 2) +
   scale_x_discrete(labels = function(x) sub("___.*", "", x)) +
-  scale_y_continuous(expand = expansion(mult = c(0.05, 0.20))) +
-  labs(x = NULL, y = "Pearson's r",
-       caption = paste0("BH-FDR over the 16 displayed pairs.  ",
-                        "* q < 0.05    ** q < 0.01    *** q < 0.001")) +
+  scale_y_continuous(expand = expansion(mult = c(0.14, 0.30))) +
+  labs(x = NULL, y = "Pearson's r") +
   theme_pub() +
-  theme(axis.text.x      = element_text(angle = 45, hjust = 1, size = 9),
-        axis.title.y     = element_text(size = 11),
+  theme(axis.text.x      = element_text(angle = 45, hjust = 1, size = 15),
+        axis.title.y     = element_text(size = 16),
         panel.grid.minor = element_blank(),
-        strip.text       = element_text(face = "bold", size = 12),
-        plot.caption     = element_text(size = 8, hjust = 0.5,
-                                        face = "italic"))
+        strip.text       = element_text(face = "bold", size = 16))
 
 save_plot(p_panel_B,
-          "A12_panelB_nutri_morpho_dotplot_localFDR", w = 8, h = 6.5)
+          "A12_panelB_nutri_morpho_dotplot_localFDR", w = 8, h = 7.6)
 
 
 # -----------------------------------------------------------------------------

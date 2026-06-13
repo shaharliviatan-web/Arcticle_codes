@@ -65,7 +65,7 @@ draw_elbow <- function(include_pc1 = TRUE) {
 draw_bar_noPC1 <- function() {
   d <- scree[PC >= 2 & PC <= 20]
   op <- par(no.readonly = TRUE); on.exit(par(op))
-  par(mar = c(4.2, 4.6, 2.8, 4.6), las = 1, cex.axis = 0.95, cex.lab = 1.05, bg = "white")
+  par(mar = c(4.6, 5.2, 2.8, 5.2), las = 1, cex.axis = 1.30, cex.lab = 1.45, bg = "white")
   bp <- barplot(d$pct_variance, names.arg = d$PC,
                 col = "#4C9AC4", border = "#2E6A8E",
                 ylim = c(0, max(d$pct_variance) * 1.15),
@@ -76,8 +76,8 @@ draw_bar_noPC1 <- function() {
   plot(bp, d$cum_pct, type = "o", pch = 19, col = "#B22222",
        axes = FALSE, xlab = "", ylab = "", ylim = c(0, 100), xlim = range(bp))
   axis(4, col.axis = "#B22222", col = "#B22222")
-  mtext("Cumulative % variance", side = 4, line = 3, col = "#B22222", cex = 1.05, las = 0)
-  legend("topright", bty = "n", cex = 0.85,
+  mtext("Cumulative % variance", side = 4, line = 3.3, col = "#B22222", cex = 1.45, las = 0)
+  legend("topright", bty = "n", cex = 1.20,
          legend = c("% per PC", "cumulative %"),
          col = c("#4C9AC4", "#B22222"),
          pch = c(15, 19), lty = c(NA, 1), lwd = c(NA, 1.5))
