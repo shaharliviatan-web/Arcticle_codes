@@ -1,0 +1,4 @@
+Overall phenotypic correlation, fiber vs starch BLUP (290 accessions)
+n            = 290
+Pearson r    = -0.780
+Spearman rho = -0.718

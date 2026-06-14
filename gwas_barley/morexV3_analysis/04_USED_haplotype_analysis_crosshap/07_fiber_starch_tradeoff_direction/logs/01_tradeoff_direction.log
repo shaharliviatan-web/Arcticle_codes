@@ -1,0 +1,75 @@
+
+==== shared_genes.tsv ====
+                   gene_id                best_key MGmin epsilon
+ HORVU.MOREX.r3.7HG0729020  Haplotypes_MGmin2_E0.8     2    0.80
+ HORVU.MOREX.r3.7HG0729090 Haplotypes_MGmin2_E0.85     2    0.85
+ HORVU.MOREX.r3.7HG0729100 Haplotypes_MGmin2_E0.85     2    0.85
+                                            annotation evidence_tier
+        Probable high-affinity nitrate transporter 2.4          HIGH
+ Pentatricopeptide repeat-containing protein At3g61360        MEDIUM
+                    NifU-like protein 3, chloroplastic          HIGH
+ fiber_leadSNP fiber_class starch_leadSNP starch_class
+  7H:573606306 significant   7H:573606460     marginal
+  7H:573606306 significant   7H:573606460     marginal
+  7H:573606306 significant   7H:573606460     marginal
+
+==== haplotype_group_means.tsv ====
+                   gene_id
+ HORVU.MOREX.r3.7HG0729020
+ HORVU.MOREX.r3.7HG0729020
+ HORVU.MOREX.r3.7HG0729020
+ HORVU.MOREX.r3.7HG0729020
+ HORVU.MOREX.r3.7HG0729090
+ HORVU.MOREX.r3.7HG0729090
+ HORVU.MOREX.r3.7HG0729100
+ HORVU.MOREX.r3.7HG0729100
+ HORVU.MOREX.r3.7HG0729100
+ HORVU.MOREX.r3.7HG0729100
+                                            annotation        setting hap   n
+        Probable high-affinity nitrate transporter 2.4 MGmin2_eps0.80   C  42
+        Probable high-affinity nitrate transporter 2.4 MGmin2_eps0.80   B  49
+        Probable high-affinity nitrate transporter 2.4 MGmin2_eps0.80   A 111
+        Probable high-affinity nitrate transporter 2.4 MGmin2_eps0.80   D  17
+ Pentatricopeptide repeat-containing protein At3g61360 MGmin2_eps0.85   A 120
+ Pentatricopeptide repeat-containing protein At3g61360 MGmin2_eps0.85   B 116
+                    NifU-like protein 3, chloroplastic MGmin2_eps0.85   A  93
+                    NifU-like protein 3, chloroplastic MGmin2_eps0.85   D  10
+                    NifU-like protein 3, chloroplastic MGmin2_eps0.85   B  88
+                    NifU-like protein 3, chloroplastic MGmin2_eps0.85   C  15
+ mean_fiber sd_fiber median_fiber mean_starch sd_starch median_starch
+      0.304    0.323        0.403      -6.767     6.466        -8.585
+     -0.073    0.173       -0.088       2.059     4.016         2.196
+     -0.076    0.268       -0.098       0.889     5.443         2.188
+     -0.156    0.225       -0.129       1.510     3.767         2.125
+      0.094    0.329        0.059      -2.994     6.453        -2.367
+     -0.115    0.204       -0.103       2.390     4.185         2.444
+      0.107    0.353        0.083      -3.090     6.600        -2.359
+      0.011    0.142       -0.037      -0.976     3.805        -3.015
+     -0.112    0.200       -0.126       1.962     4.291         2.116
+     -0.123    0.245       -0.046       4.228     3.419         4.385
+
+==== tradeoff_summary.tsv ====
+                   gene_id
+ HORVU.MOREX.r3.7HG0729020
+ HORVU.MOREX.r3.7HG0729090
+ HORVU.MOREX.r3.7HG0729100
+                                            annotation        setting
+        Probable high-affinity nitrate transporter 2.4 MGmin2_eps0.80
+ Pentatricopeptide repeat-containing protein At3g61360 MGmin2_eps0.85
+                    NifU-like protein 3, chloroplastic MGmin2_eps0.85
+ n_individuals n_assigned n_groups grouping_identical n_mismatch kw_p_fiber
+           290        219        4               TRUE          0   1.00e-09
+           290        236        2               TRUE          0   1.08e-06
+           290        206        4               TRUE          0   1.12e-04
+ kw_p_starch top_fiber_hap top_fiber_starch_rank direction_inverse
+    1.68e-09             C                     1              TRUE
+    1.82e-10             A                     1              TRUE
+    7.01e-08             A                     1              TRUE
+ pearson_groupmeans spearman_groupmeans
+             -0.976                -0.4
+             -1.000                -1.0
+             -0.965                -1.0
+
+==== overall phenotypic corr: Pearson -0.780 / Spearman -0.718 (n=290) ====
+
+Done. Tables in /mnt/data/shahar/gwas_barley/morexV3_analysis/04_USED_haplotype_analysis_crosshap/07_fiber_starch_tradeoff_direction/results/tables 

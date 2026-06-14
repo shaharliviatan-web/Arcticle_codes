@@ -1,0 +1,11 @@
+gene_id	annotation	setting	hap	n	mean_fiber	sd_fiber	median_fiber	mean_starch	sd_starch	median_starch
+HORVU.MOREX.r3.7HG0729020	Probable high-affinity nitrate transporter 2.4	MGmin2_eps0.80	C	42	0.304	0.323	0.403	-6.767	6.466	-8.585
+HORVU.MOREX.r3.7HG0729020	Probable high-affinity nitrate transporter 2.4	MGmin2_eps0.80	B	49	-0.073	0.173	-0.088	2.059	4.016	2.196
+HORVU.MOREX.r3.7HG0729020	Probable high-affinity nitrate transporter 2.4	MGmin2_eps0.80	A	111	-0.076	0.268	-0.098	0.889	5.443	2.188
+HORVU.MOREX.r3.7HG0729020	Probable high-affinity nitrate transporter 2.4	MGmin2_eps0.80	D	17	-0.156	0.225	-0.129	1.51	3.767	2.125
+HORVU.MOREX.r3.7HG0729090	Pentatricopeptide repeat-containing protein At3g61360	MGmin2_eps0.85	A	120	0.094	0.329	0.059	-2.994	6.453	-2.367
+HORVU.MOREX.r3.7HG0729090	Pentatricopeptide repeat-containing protein At3g61360	MGmin2_eps0.85	B	116	-0.115	0.204	-0.103	2.39	4.185	2.444
+HORVU.MOREX.r3.7HG0729100	NifU-like protein 3, chloroplastic	MGmin2_eps0.85	A	93	0.107	0.353	0.083	-3.09	6.6	-2.359
+HORVU.MOREX.r3.7HG0729100	NifU-like protein 3, chloroplastic	MGmin2_eps0.85	D	10	0.011	0.142	-0.037	-0.976	3.805	-3.015
+HORVU.MOREX.r3.7HG0729100	NifU-like protein 3, chloroplastic	MGmin2_eps0.85	B	88	-0.112	0.2	-0.126	1.962	4.291	2.116
+HORVU.MOREX.r3.7HG0729100	NifU-like protein 3, chloroplastic	MGmin2_eps0.85	C	15	-0.123	0.245	-0.046	4.228	3.419	4.385

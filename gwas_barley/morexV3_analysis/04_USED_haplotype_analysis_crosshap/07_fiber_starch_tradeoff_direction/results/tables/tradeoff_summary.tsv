@@ -1,0 +1,4 @@
+gene_id	annotation	setting	n_individuals	n_assigned	n_groups	grouping_identical	n_mismatch	kw_p_fiber	kw_p_starch	top_fiber_hap	top_fiber_starch_rank	direction_inverse	pearson_groupmeans	spearman_groupmeans
+HORVU.MOREX.r3.7HG0729020	Probable high-affinity nitrate transporter 2.4	MGmin2_eps0.80	290	219	4	TRUE	0	1e-09	1.68e-09	C	1	TRUE	-0.976	-0.4
+HORVU.MOREX.r3.7HG0729090	Pentatricopeptide repeat-containing protein At3g61360	MGmin2_eps0.85	290	236	2	TRUE	0	1.08e-06	1.82e-10	A	1	TRUE	-1	-1
+HORVU.MOREX.r3.7HG0729100	NifU-like protein 3, chloroplastic	MGmin2_eps0.85	290	206	4	TRUE	0	0.000112	7.01e-08	A	1	TRUE	-0.965	-1

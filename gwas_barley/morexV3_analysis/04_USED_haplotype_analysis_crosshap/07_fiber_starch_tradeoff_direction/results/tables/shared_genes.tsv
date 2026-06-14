@@ -1,0 +1,4 @@
+gene_id	annotation	evidence_tier	fiber_leadSNP	fiber_class	starch_leadSNP	starch_class	MGmin	epsilon
+HORVU.MOREX.r3.7HG0729020	Probable high-affinity nitrate transporter 2.4	HIGH	7H:573606306	significant	7H:573606460	marginal	2	0.8
+HORVU.MOREX.r3.7HG0729090	Pentatricopeptide repeat-containing protein At3g61360	MEDIUM	7H:573606306	significant	7H:573606460	marginal	2	0.85
+HORVU.MOREX.r3.7HG0729100	NifU-like protein 3, chloroplastic	HIGH	7H:573606306	significant	7H:573606460	marginal	2	0.85
