@@ -1,0 +1,27 @@
+Environmental-predictor collinearity (STAGE 1)
+================================================================
+Input file:          merged_Evgeny_env_fitness_environmental_30_sites.csv
+Sites in file:       30
+Excluded site(s):    HS04  (site 04 = Hachola/Hula: no phenotype data, excluded from all analyses)
+Sites used:          29
+Each site once:      YES
+Predictors:          10
+
+Missingness per predictor (predictor: non-missing / total):
+  pH               29 / 29 (missing 0)
+  Electrical_Cond  29 / 29 (missing 0)
+  Clay_pct         29 / 29 (missing 0)
+  Silt_pct         29 / 29 (missing 0)
+  Sand_pct         29 / 29 (missing 0)
+  March_Temp       29 / 29 (missing 0)
+  Precipitation    29 / 29 (missing 0)
+  Organic_Carbon   29 / 29 (missing 0)
+  Total_N          29 / 29 (missing 0)
+  Elevation        29 / 29 (missing 0)
+
+Pairs with |r| > 0.8 (highest |r| first):
+  March_Temp       ~ Elevation         r = -0.951 (negative)  | n = 29 complete sites
+  Silt_pct         ~ Sand_pct          r = -0.934 (negative)  | n = 29 complete sites
+
+NOTE: No nutritional-trait/BLUP data were used. No FDR, no regression,
+no predictor selection, and no automatic variable removal were performed.

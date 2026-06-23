@@ -30,7 +30,7 @@ REPO = Path("/mnt/data/shahar/gwas_barley/morexV3_analysis")
 OUT  = REPO / "06_USED_figures"
 
 S1   = REPO / "00_THIN_Generate_Plots_For_Publication/outputs/subsection_1"
-C2   = S1   / "C2_env_LMM_r08/figures"
+C2CORR = S1 / "C2_trait_environment_correlations/figures"   # revised site-level trait×env correlations
 GWAS = REPO / "01_USED_GWAS_V2_pipeline/results/publication_BonfOnly_BLUP_3PC"
 LD   = REPO / "02_USED_LD_decay_V2_wholegenome/results"
 HAP  = REPO / "04_USED_haplotype_analysis_crosshap/06_publication_figures/results/figures"
@@ -182,18 +182,20 @@ def build_figure_2():
       A  A4_site_boxplots_centered          (wide, landscape)
       B  A12_panelA_nutri_heatmap_rawP      (square)
       C  A12_panelB_nutri_morpho_dotplot    (square)
-      D  C2r08_effects_standardized         (tall, portrait)
+      D  C2corr_all32_heatmap               (trait×environment, landscape)
     Layout: 2 x 2 grid
-            A (boxplots) | D (forest)     -- top row
-            B (heatmap)  | C (dotplot)    -- bottom row
+            A (boxplots) | D (trait×env heatmap) -- top row
+            B (heatmap)  | C (dotplot)           -- bottom row
             Each row uses common-height sizing so the differently-shaped
-            panels (wide A, tall D) sit flush with no whitespace.
+            panels sit flush with no whitespace. Panel D was the old env-LMM
+            forest plot; it is now the revised site-level trait×environment
+            correlation heatmap (Silt + Elevation dropped by collinearity).
     """
     print("Building Figure 2...")
     imgA = pdf_to_img(S1 / "pdf/A4_site_boxplots_centered.pdf")
     imgB = pdf_to_img(S1 / "pdf/A12_panelA_nutri_heatmap_rawP.pdf")
-    imgC = pdf_to_img(S1 / "pdf/A12_panelB_nutri_morpho_dotplot_localFDR.pdf")
-    imgD = pdf_to_img(C2  / "C2r08_effects_standardized.pdf")
+    imgC = pdf_to_img(S1 / "pdf/A12_panelB_nutri_morpho_dotplot_rawP.pdf")
+    imgD = pdf_to_img(C2CORR / "C2corr_all32_heatmap.pdf")
 
     def fit_row(panels):
         """Resize panels to a common height so widths fill A4_TEXT_W; return
@@ -209,13 +211,21 @@ def build_figure_2():
 
     (a, d), x1, h1 = fit_row([imgA, imgD])     # top:    A | D
     (b, c), x2, h2 = fit_row([imgB, imgC])     # bottom: B | C
-    fig = Image.new("RGB", (A4_TEXT_W, h1 + ROW_GAP + h2), "white")
-    fig.paste(a, (x1[0], 0));            fig.paste(d, (x1[1], 0))
-    fig.paste(b, (x2[0], h1 + ROW_GAP)); fig.paste(c, (x2[1], h1 + ROW_GAP))
-    stamp_label(fig, x1[0], 0,            "A")
-    stamp_label(fig, x1[1], 0,            "D")
-    stamp_label(fig, x2[0], h1 + ROW_GAP, "B")
-    stamp_label(fig, x2[1], h1 + ROW_GAP, "C")
+    # The right-column panels (D heatmap, C dot plot) have content right at the
+    # top-left corner, so the stamped letter overlaps the plot. Push only those
+    # two panels down by a small strip so their letters sit in clear space above
+    # the plot. A and B keep top-left whitespace, so they stay put.
+    DROP = int(PANEL_LABEL_PX * 1.2)
+    row1_h = h1 + DROP
+    row2_h = h2 + DROP
+    y2 = row1_h + ROW_GAP
+    fig = Image.new("RGB", (A4_TEXT_W, row1_h + ROW_GAP + row2_h), "white")
+    fig.paste(a, (x1[0], 0));  fig.paste(d, (x1[1], DROP))
+    fig.paste(b, (x2[0], y2)); fig.paste(c, (x2[1], y2 + DROP))
+    stamp_label(fig, x1[0], 0,  "A")
+    stamp_label(fig, x1[1], 0,  "D")
+    stamp_label(fig, x2[0], y2, "B")
+    stamp_label(fig, x2[1], y2, "C")
     save(fig, OUT / "Figure_2", "Figure_2")
     print("Figure 2 done.\n")
 

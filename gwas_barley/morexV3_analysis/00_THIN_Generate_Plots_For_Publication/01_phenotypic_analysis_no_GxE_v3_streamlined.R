@@ -435,7 +435,12 @@ gt_table <- h2_table %>%
     table.background.color       = "white"
   )
 
-gtsave(gt_table, file.path(OUT_ROOT, "tables", "Table1_H2.html"))
+# gtsave can fail on systems with an outdated xfun/webshot toolchain; guard it
+# so the rest of the script (BLUPs, figures) still runs.
+tryCatch(
+  gtsave(gt_table, file.path(OUT_ROOT, "tables", "Table1_H2.html")),
+  error = function(e)
+    message("    gtsave(Table1_H2.html) skipped: ", conditionMessage(e)))
 
 # ---- .docx + PNG via flextable (optional) ----------------------------------
 png_path <- file.path(OUT_ROOT, "tables", "Table1_H2.png")
@@ -580,13 +585,15 @@ p_site_centered <- ggplot(site_long_centered,
                             suppressWarnings(as.integer(x)), "")) +
   labs(x = "Sampling site", y = "BLUP (centered)") +
   theme_pub() +
-  theme(axis.text.x     = element_text(size = 17),
-        axis.text.y     = element_text(size = 16),
-        axis.title      = element_text(size = 21),
-        strip.text      = element_text(face = "bold", size = 19),
+  # Enlarged + bold fonts so the panel stays legible after heavy down-scaling
+  # in the Figure-2 composite (saved at 12in, shown at ~3.5in).
+  theme(axis.text.x     = element_text(size = 24),
+        axis.text.y     = element_text(size = 24),
+        axis.title      = element_text(size = 30),
+        strip.text      = element_text(face = "bold", size = 30),
         legend.position = "bottom",
-        legend.title    = element_text(face = "bold", size = 19, hjust = 0.5),
-        legend.text     = element_text(size = 19)) +
+        legend.title    = element_text(face = "bold", size = 28, hjust = 0.5),
+        legend.text     = element_text(size = 26)) +
   guides(fill = guide_legend(nrow = 2, byrow = TRUE,
                              title.position = "top", title.hjust = 0.5))
 
@@ -899,8 +906,16 @@ p_panel_B <- ggplot(d_ord, aes(x = morpho_lab, y = r)) +
         panel.grid.minor = element_blank(),
         strip.text       = element_text(face = "bold", size = 16))
 
-save_plot(p_panel_B,
-          "A12_panelB_nutri_morpho_dotplot_localFDR", w = 8, h = 7.6)
+# Panel C of Figure 2 uses the RAW-P variant (no multiple-comparison
+# correction) so all correlation panels share the same significance basis.
+# The asterisks use the raw-p stars (`sig`) instead of the local-FDR q
+# (`sig_local`). The local-FDR dot-plot variant is no longer emitted.
+p_panel_B_rawP <- p_panel_B
+p_panel_B_rawP$layers[[3]] <- geom_text(
+  data = d_ord, aes(label = sig, y = r),
+  vjust = -0.9, size = 6.0, fontface = "bold", colour = "grey25")
+save_plot(p_panel_B_rawP,
+          "A12_panelB_nutri_morpho_dotplot_rawP", w = 8, h = 7.6)
 
 
 # -----------------------------------------------------------------------------
