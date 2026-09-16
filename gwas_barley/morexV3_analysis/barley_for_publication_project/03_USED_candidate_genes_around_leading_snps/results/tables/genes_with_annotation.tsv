@@ -1,0 +1,4 @@
+trait	locus_id	class	lead_SNP	gene_id	chr	gene_start	gene_end	strand	dist_to_lead_bp	lead_inside_gene	description
+fiber	fiber_L08	significant_locus	3H:544084309	HORVU.MOREX.r3.3HG0301400	3H	545421099	545423396	-	1336790	FALSE	Pentatricopeptide repeat-containing protein At2g41080 [Source:Projected from Arabidopsis thaliana (AT2G41080) UniProtKB/Swiss-Prot;Acc:Q8S9M4]
+starch	starch_L03	significant_locus	3H:546433616	HORVU.MOREX.r3.3HG0301710	3H	546473709	546477564	+	40093	FALSE	Phosphate transporter 43 [Source:Projected from Arabidopsis thaliana (AT3G46980) UniProtKB/TrEMBL;Acc:A0A1I9LP04]
+starch	starch_L04	significant_locus	6H:525776080	HORVU.MOREX.r3.6HG0619890	6H	525913405	525914470	-	137325	FALSE	Allene oxide cyclase, Biosynthesis of jasmonic acid, Defence respons [Source: Projected from Oryza sativa (Os03g0438100)]

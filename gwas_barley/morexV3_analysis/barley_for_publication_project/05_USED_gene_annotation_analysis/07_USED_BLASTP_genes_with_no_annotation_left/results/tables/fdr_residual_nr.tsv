@@ -1,0 +1,3 @@
+gene_id	nr_title	nr_accession	nr_organism	pident	qcovs	evalue	bitscore	characterized_flag	status
+HORVU.MOREX.r3.4HG0339140	uncharacterized protein LOC123451082	XP_044984029.1	Hordeum vulgare subsp. vulgare	100	100	3.36e-153	430	FALSE	WEAK_OR_UNCHARACTERIZED_NR_HIT
+HORVU.MOREX.r3.6HG0619810	hypothetical protein ZWY2020_045447	KAI5020559.1	Hordeum vulgare	85.366	95	8.28e-98	290	FALSE	WEAK_OR_UNCHARACTERIZED_NR_HIT

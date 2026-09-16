@@ -1,0 +1,22 @@
+parameter	value
+phenotype_value	BLUP
+n_PCs_covariates	3
+kinship	EMMAX aIBS 290x290
+GWAS_software	EMMAX
+n_samples	290
+n_SNPs_tested	7,110,996
+n_SNPs_LD_pruned	111,017
+LD_pruning_call	--indep-pairwise 1000kb 1 0.2
+alpha	0.1
+Bonferroni_neg_log10_p	6.0454
+Bonferroni_p_value	9.008e-07
+clump_p1_lead_threshold	9.008e-07
+clump_p2_member_threshold	1 (no p-value condition on members)
+clump_r2	0.5
+clump_kb	2000
+max_span_kb	4000
+gap_rule_kb	50
+n_loci	36
+n_lead_only_loci	4
+median_span_kb	93.5
+n_extra_subthreshold_peaks	0

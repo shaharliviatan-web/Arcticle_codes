@@ -1,0 +1,31 @@
+trait	gene_file	gene_name	MGmin	epsilon	stage	status	message
+"betaglucan"	"HORVU.MOREX.r3.4HG0395760.vcf.gz"	"HORVU.MOREX.r3.4HG0395760"	2	"0.6"	"crosshap"	"crosshap_failed"	"vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0395760.vcf.gz"
+"fiber"	"HORVU.MOREX.r3.3HG0301080.vcf.gz"	"HORVU.MOREX.r3.3HG0301080"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"fiber"	"HORVU.MOREX.r3.3HG0301090.vcf.gz"	"HORVU.MOREX.r3.3HG0301090"	2	"0.6"	"crosshap"	"crosshap_failed"	"vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/fiber/HORVU.MOREX.r3.3HG0301090.vcf.gz"
+"fiber"	"HORVU.MOREX.r3.3HG0301250.vcf.gz"	"HORVU.MOREX.r3.3HG0301250"	2	"0.6"	"crosshap"	"crosshap_failed"	"Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 11 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 11 to size 1."
+"fiber"	"HORVU.MOREX.r3.3HG0301270.vcf.gz"	"HORVU.MOREX.r3.3HG0301270"	2	"0.6"	"crosshap"	"crosshap_failed"	"Too few common variants after raw/imputed intersection: 1"
+"fiber"	"HORVU.MOREX.r3.3HG0301370.vcf.gz"	"HORVU.MOREX.r3.3HG0301370"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"fiber"	"HORVU.MOREX.r3.5HG0471430.vcf.gz"	"HORVU.MOREX.r3.5HG0471430"	2	"0.6"	"crosshap"	"crosshap_failed"	"vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/fiber/HORVU.MOREX.r3.5HG0471430.vcf.gz"
+"fiber"	"HORVU.MOREX.r3.5HG0487000.vcf.gz"	"HORVU.MOREX.r3.5HG0487000"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"fiber"	"HORVU.MOREX.r3.5HG0487010.vcf.gz"	"HORVU.MOREX.r3.5HG0487010"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"fiber"	"HORVU.MOREX.r3.5HG0487070.vcf.gz"	"HORVU.MOREX.r3.5HG0487070"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"fiber"	"HORVU.MOREX.r3.7HG0703650.vcf.gz"	"HORVU.MOREX.r3.7HG0703650"	2	"0.6"	"crosshap"	"crosshap_failed"	"Too few common variants after raw/imputed intersection: 1"
+"fiber"	"HORVU.MOREX.r3.7HG0703660.vcf.gz"	"HORVU.MOREX.r3.7HG0703660"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"fiber"	"HORVU.MOREX.r3.7HG0703680.vcf.gz"	"HORVU.MOREX.r3.7HG0703680"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"fiber"	"HORVU.MOREX.r3.7HG0703720.vcf.gz"	"HORVU.MOREX.r3.7HG0703720"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"protein"	"HORVU.MOREX.r3.3HG0245470.vcf.gz"	"HORVU.MOREX.r3.3HG0245470"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"protein"	"HORVU.MOREX.r3.3HG0245480.vcf.gz"	"HORVU.MOREX.r3.3HG0245480"	2	"0.6"	"crosshap"	"crosshap_failed"	"Too few common variants after raw/imputed intersection: 1"
+"protein"	"HORVU.MOREX.r3.3HG0245510.vcf.gz"	"HORVU.MOREX.r3.3HG0245510"	2	"0.6"	"crosshap"	"crosshap_failed"	"vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0245510.vcf.gz"
+"protein"	"HORVU.MOREX.r3.3HG0245560.vcf.gz"	"HORVU.MOREX.r3.3HG0245560"	2	"0.6"	"crosshap"	"crosshap_failed"	"vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0245560.vcf.gz"
+"protein"	"HORVU.MOREX.r3.3HG0245570.vcf.gz"	"HORVU.MOREX.r3.3HG0245570"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"protein"	"HORVU.MOREX.r3.3HG0252010.vcf.gz"	"HORVU.MOREX.r3.3HG0252010"	2	"0.6"	"crosshap"	"crosshap_failed"	"vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0252010.vcf.gz"
+"starch"	"HORVU.MOREX.r3.1HG0049620.vcf.gz"	"HORVU.MOREX.r3.1HG0049620"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"starch"	"HORVU.MOREX.r3.3HG0301650.vcf.gz"	"HORVU.MOREX.r3.3HG0301650"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"starch"	"HORVU.MOREX.r3.3HG0301700.vcf.gz"	"HORVU.MOREX.r3.3HG0301700"	2	"0.6"	"crosshap"	"crosshap_failed"	"vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/starch/HORVU.MOREX.r3.3HG0301700.vcf.gz"
+"starch"	"HORVU.MOREX.r3.6HG0619800.vcf.gz"	"HORVU.MOREX.r3.6HG0619800"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"
+"starch"	"HORVU.MOREX.r3.6HG0619890.vcf.gz"	"HORVU.MOREX.r3.6HG0619890"	2	"0.6"	"crosshap"	"crosshap_failed"	"object 'Varfile' not found"

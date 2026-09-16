@@ -1,0 +1,4 @@
+trait	n_genes_tested	n_significant_fdr	n_loci_tested	n_loci_with_significant	median_eta_squared	min_fdr_q	n_genes_not_tested
+"betaglucan"	6	6	4	4	0.0511	0.00219386955103461	1
+"fiber"	19	12	6	5	0.0346	1.14507474344456e-09	13
+"starch"	5	5	3	3	0.1679	5.4832249207928e-11	5

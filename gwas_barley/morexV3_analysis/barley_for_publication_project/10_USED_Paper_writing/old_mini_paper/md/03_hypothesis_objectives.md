@@ -1,0 +1,3 @@
+## Hypothesis and objectives
+
+The nutritional value of wild barley grain is attributed to ecological constraints, thus heritable genetic variation is expected. Screening wild-barley populations that represent contrasting ecological niches can highlight the genetic factors underlying these traits. To test this hypothesis, I will address the following objectives: (i) characterize the variation in nutritional traits among wild-barley populations representing different ecotypes in Israel; (ii) examine the correlation between grain nutritional value traits, environmental gradients, and plant-fitness traits; and (iii) identify QTLs and candidate genes associated with nutritional traits.

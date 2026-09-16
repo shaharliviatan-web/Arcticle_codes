@@ -1,0 +1,17 @@
+parameter	value
+phenotype_value	BLUP
+n_PCs_covariates	3
+alpha	0.1
+n_SNPs_tested	7,110,996
+n_SNPs_LD_pruned	111,017
+Bonferroni_neglog10p	6.0454
+Bonferroni_pvalue	9.008e-07
+LD_pruning_call	--indep-pairwise 1000kb 1 0.2
+n_samples	290
+kinship	EMMAX aIBS (290x290)
+GWAS_software	EMMAX
+PC1_pct_var	3.80%
+PC1_3_cum_pct_var	9.48%
+lambda_GC_min	0.9752
+lambda_GC_max	1.0125
+n_significant_SNPs_total	52

@@ -1,0 +1,90 @@
+# 04_USED_haplotype_analysis_crosshap -- central configuration
+# All paths absolute. Temp pinned to /mnt/data/shahar/.tmp. No emojis in files.
+
+run_id: "loci_LDspan_eps06_V4"
+
+output_root: "/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap"
+
+# ---- Traits (per-trait phenotype + per-trait multiple-testing family) ----
+traits:
+  - "betaglucan"
+  - "fiber"
+  - "protein"
+  - "starch"
+
+# ---- Per-gene VCF window: gene_start - window_bp .. gene_end + window_bp ----
+window_bp: 1000
+
+# ---- crosshap haplotyping parameters ----
+# FIXED, pre-declared, chosen 2026-09-08 on GENOTYPE-ONLY criteria (the phenotype is
+# never used to build haplotype groups, so this selection is not a forking path).
+#
+# epsilon = 0.6  -- DBSCAN radius passed to dbscan::dbscan(LD, eps, minPts=MGmin).
+#   NOTE: LD is a plain PLINK --r2 square MATRIX, not a distance object, so each SNP is
+#   a point whose coordinates are its r2 against every other SNP and epsilon is a
+#   EUCLIDEAN RADIUS in that profile space -- it is NOT an r2 cutoff. Its effective
+#   stringency depends on SNP density in the window (Spearman rho = -0.61 between
+#   n_snps and the epsilon at which a window collapses to one marker group), so a fixed
+#   epsilon is stricter on sparse windows and looser on dense ones. Stated in methods.
+#
+#   0.6 was chosen because, across the 66 genes of the v1 run: 92% of genes yield a
+#   usable grouping (>=2 haplotype groups), the accession assignment rate has plateaued
+#   (65%, flat from 0.5 onward), the median is 3 haplotype groups, and it is NOT at the
+#   boundary of the tested range -- unlike 0.85, which maximised significance for PHT
+#   off its stable plateau. See _ARCHIVE_v1_epsilon_sweep_2026-09-08/README.md.
+#
+# MGmin = 2 -- DBSCAN minPts (minimum SNPs to form a marker group). All four v1
+#   publication genes used MGmin 2.
+#
+# The v1 sweep over 7 epsilon x 2 MGmin, its duplicate collapse and its within-gene Holm
+# correction are all REMOVED: one grouping per gene, one test per gene.
+mgmin_values:
+  - 2
+epsilon_vector:
+  - 0.6
+minHap: 9
+hetmiss_as: "allele"
+keep_outliers: false
+
+# ---- Run behaviour ----
+continue_on_error: true
+overwrite_cache: false
+fail_fast: false
+
+# ---- Inputs ----
+candidate_genes_tsv: "/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/03_USED_candidate_genes_around_leading_snps/results/tables/candidate_genes.tsv"
+source_vcf: "/mnt/data/shahar/gwas_barley/data/inputs/morexV3_with_ids.vcf.gz"
+imputed_vcf: "/mnt/data/shahar/gwas_barley/morexV3_analysis/USED_imputation/morexV3_final_imputed.vcf"
+samples_remove: "/mnt/data/shahar/gwas_barley/data/inputs/samples_to_remove_V3.txt"
+pheno_root: "/mnt/data/shahar/gwas_barley/data/inputs"
+pheno_suffix: "_corrected_V3.pheno"   # phenotype = {trait}{pheno_suffix} (BLUP, 290 samples)
+
+# ---- Derived per-gene VCF directories (filled by 01/02 scripts) ----
+raw_vcf_dir: "/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp"
+imputed_vcf_dir: "/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/imputed_1000bp"
+
+# ---- Tools (absolute paths; bare 'plink' resolves to broken v0.76 on this host) ----
+plink_bin: "/usr/local/bin/plink"
+bcftools_bin: "/usr/bin/bcftools"
+
+# ---- Statistics ----
+# ONE Kruskal-Wallis test per gene (phenotype ~ haplotype group, dropping hap 0 and
+# missing phenotypes, requiring >=2 groups), then Benjamini-Hochberg FDR on the RAW
+# p-values WITHIN EACH TRAIT.
+#
+# Why BH is valid here: genes inside one locus are in LD and therefore correlated, but
+# BH controls FDR under positive regression dependence (Benjamini & Yekutieli 2001),
+# which LD-induced correlation satisfies. Reporting caveat: significant genes cluster in
+# loci, so report loci alongside genes -- see locus_summary.tsv.
+#
+# Genes that yield no valid haplotype grouping are EXCLUDED from the BH denominator (no
+# test was performed) but are reported with a reason in genes_not_tested.tsv.
+#
+# v1's within-gene Holm and the parallel Bonferroni track are both REMOVED. v1 fed
+# Holm-ADJUSTED p-values into BH, which does not control FDR at any interpretable rate.
+stats:
+  alpha: 0.05
+  across_gene_fdr_method: "BH"
+
+# ---- Temp ----
+tmpdir: "/mnt/data/shahar/.tmp"

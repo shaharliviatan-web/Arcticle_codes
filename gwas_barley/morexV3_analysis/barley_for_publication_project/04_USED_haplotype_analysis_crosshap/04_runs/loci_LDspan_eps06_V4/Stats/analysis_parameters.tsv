@@ -1,0 +1,26 @@
+parameter	value
+run_id	loci_LDspan_eps06_V4
+candidate_genes_source	candidate_genes.tsv
+n_genes_in	55
+per_gene_window_bp	1000
+haplotyping_tool	crosshap (DBSCAN on a PLINK --r2 square matrix)
+LD_input	imputed per-gene VCF (complete r2 matrix)
+haplotyping_input	raw per-gene VCF (observed genotypes)
+MGmin_dbscan_minPts	2
+epsilon_dbscan_eps	0.6
+epsilon_selection_basis	genotype-only (gene coverage + accession assignment rate); the phenotype is never used to build haplotype groups
+minHap	9
+hetmiss_as	allele
+keep_outliers	FALSE
+test	Kruskal-Wallis, phenotype (BLUP) ~ haplotype group, one test per gene
+test_filtering	drop hap 0 (unassigned) and missing phenotypes; require >= 2 groups
+effect_size	eta-squared = (H - k + 1)/(n - k); plus top-vs-bottom group difference in phenotype SD
+multiple_testing	Benjamini-Hochberg on RAW p-values
+family	per trait
+alpha	0.05
+not_tested_handling	genes with no valid grouping are excluded from the BH denominator and listed in genes_not_tested.tsv
+n_genes_tested	30
+n_genes_not_tested	25
+n_significant_genes	23
+n_loci_with_significant_gene	12
+date_run	2026-09-10

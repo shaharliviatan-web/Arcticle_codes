@@ -1,0 +1,78 @@
+================================================================
+  Haplotype analysis at the candidate genes -- numbers for the manuscript
+  run_id: loci_LDspan_eps06_V4
+  generated 2026-09-10 16:04 by 04_results_summary.R
+================================================================
+
+METHOD
+  crosshap haplotyping per gene (gene +/- 1000 bp), MGmin = 2, epsilon = 0.6, both FIXED.
+  LD comes from the imputed per-gene VCF; haplotypes are called on the raw (observed)
+  genotypes; the two variant sets are intersected on CHROM:POS.
+  One Kruskal-Wallis test per gene: BLUP phenotype ~ haplotype group, dropping
+  unassigned accessions (hap 0) and missing phenotypes, requiring >= 2 groups.
+  Benjamini-Hochberg FDR on the RAW p-values, within each trait, alpha = 0.05.
+
+HEADLINE NUMBERS
+  Candidate genes in       : 55
+  Genes tested             : 30
+  Genes not testable       : 25
+  Significant (BH q <= 0.05) : 23 genes, in 12 loci
+  Median haplotype groups  : 3
+  Median eta-squared       : 0.061 (significant genes: 0.078)
+
+  NOTE ON COUNTING: significant genes cluster inside loci -- genes in one locus are
+  in LD and are not independent discoveries. Report loci alongside genes.
+
+WHY GENES WERE NOT TESTABLE
+  no_marker_groups_at_epsilon_0.6                            14
+  no_variants_in_window                                      7
+  fewer_than_MGmin_variants_after_raw_imputed_intersection   3
+  crosshap_error: Assigned data `base::sapply(...)` must be  1
+
+PER TRAIT
+  betaglucan   6 tested /  1 not testable |  6 significant in 4 of 4 loci | median eta2 0.051
+  fiber       19 tested / 13 not testable | 12 significant in 5 of 6 loci | median eta2 0.035
+  starch       5 tested /  5 not testable |  5 significant in 3 of 3 loci | median eta2 0.168
+
+SIGNIFICANT GENES (BH q <= 0.05), strongest first
+  starch      HORVU.MOREX.r3.6HG0619810    starch_L04     q=5.5e-11   eta2=0.261  3 groups  top-vs-bottom +1.90 SD  (A n=103 vs C n=24)
+  fiber       HORVU.MOREX.r3.3HG0301210    fiber_L08      q=1.1e-09   eta2=0.260  4 groups  top-vs-bottom +1.80 SD  (C n=30 vs B n=46)
+  starch      HORVU.MOREX.r3.6HG0619820    starch_L04     q=1.3e-09   eta2=0.279  5 groups  top-vs-bottom +2.36 SD  (B n=42 vs E n=11)
+  fiber       HORVU.MOREX.r3.3HG0301330    fiber_L08      q=7.7e-09   eta2=0.211  4 groups  top-vs-bottom +1.75 SD  (D n=15 vs A n=144)
+  fiber       HORVU.MOREX.r3.3HG0301170    fiber_L08      q=4.9e-07   eta2=0.167  4 groups  top-vs-bottom +1.34 SD  (C n=35 vs B n=61)
+  fiber       HORVU.MOREX.r3.3HG0301110    fiber_L07      q=5.3e-06   eta2=0.189  4 groups  top-vs-bottom +1.10 SD  (A n=65 vs D n=15)
+  fiber       HORVU.MOREX.r3.3HG0301300    fiber_L08      q=5.3e-06   eta2=0.208  3 groups  top-vs-bottom +1.51 SD  (C n=18 vs A n=85)
+  starch      HORVU.MOREX.r3.3HG0301720    starch_L03     q=9e-06     eta2=0.168  4 groups  top-vs-bottom +1.34 SD  (A n=86 vs B n=29)
+  fiber       HORVU.MOREX.r3.5HG0487060    fiber_L14      q=7.5e-05   eta2=0.222  5 groups  top-vs-bottom +1.41 SD  (E n=10 vs A n=36)
+  fiber       HORVU.MOREX.r3.4HG0339140    fiber_L09      q=0.00014   eta2=0.155  5 groups  top-vs-bottom +1.85 SD  (D n=10 vs A n=75)
+  fiber       HORVU.MOREX.r3.3HG0301260    fiber_L08      q=0.00042   eta2=0.084  4 groups  top-vs-bottom +1.43 SD  (C n=12 vs B n=37)
+  starch      HORVU.MOREX.r3.3HG0301710    starch_L03     q=0.00038   eta2=0.078  4 groups  top-vs-bottom +1.31 SD  (A n=137 vs C n=17)
+  betaglucan  HORVU.MOREX.r3.3HG0287270    betaglucan_L03 q=0.0022    eta2=0.043  2 groups  top-vs-bottom +0.52 SD  (B n=72 vs A n=182)
+  betaglucan  HORVU.MOREX.r3.3HG0287240    betaglucan_L03 q=0.0022    eta2=0.078  5 groups  top-vs-bottom +1.05 SD  (B n=35 vs C n=34)
+  fiber       HORVU.MOREX.r3.5HG0487090    fiber_L14      q=0.0021    eta2=0.067  3 groups  top-vs-bottom +0.78 SD  (C n=11 vs B n=68)
+  betaglucan  HORVU.MOREX.r3.4HG0395810    betaglucan_L07 q=0.0059    eta2=0.060  4 groups  top-vs-bottom +1.07 SD  (C n=27 vs B n=43)
+  betaglucan  HORVU.MOREX.r3.1HG0077790    betaglucan_L01 q=0.018     eta2=0.063  5 groups  top-vs-bottom +0.79 SD  (C n=37 vs E n=14)
+  fiber       HORVU.MOREX.r3.7HG0703630    fiber_L16      q=0.026     eta2=0.035  2 groups  top-vs-bottom +0.56 SD  (A n=129 vs B n=20)
+  betaglucan  HORVU.MOREX.r3.4HG0341560    betaglucan_L06 q=0.019     eta2=0.021  2 groups  top-vs-bottom +0.58 SD  (B n=17 vs A n=215)
+  betaglucan  HORVU.MOREX.r3.4HG0395770    betaglucan_L07 q=0.02      eta2=0.019  2 groups  top-vs-bottom +0.38 SD  (B n=45 vs A n=197)
+  fiber       HORVU.MOREX.r3.3HG0301390    fiber_L08      q=0.036     eta2=0.029  3 groups  top-vs-bottom +0.49 SD  (A n=107 vs B n=83)
+  starch      HORVU.MOREX.r3.1HG0049610    starch_L01     q=0.026     eta2=0.026  3 groups  top-vs-bottom +0.58 SD  (A n=108 vs C n=25)
+  fiber       HORVU.MOREX.r3.3HG0301400    fiber_L08      q=0.045     eta2=0.031  2 groups  top-vs-bottom +0.57 SD  (A n=104 vs B n=20)
+
+PER LOCUS
+  --- betaglucan ---
+  betaglucan_L01 1H lead 1H:479493867    1/1 genes significant  best 1HG0077790 (q=0.018, eta2=0.063)
+  betaglucan_L03 3H lead 3H:475967335    2/2 genes significant  best 3HG0287270 (q=0.0022, eta2=0.078)
+  betaglucan_L06 4H lead 4H:34971609     1/1 genes significant  best 4HG0341560 (q=0.019, eta2=0.021)
+  betaglucan_L07 4H lead 4H:528254769    2/2 genes significant  best 4HG0395810 (q=0.0059, eta2=0.060)
+  --- fiber ---
+  fiber_L07      3H lead 3H:543690146    1/1 genes significant  best 3HG0301110 (q=5.3e-06, eta2=0.189)
+  fiber_L08      3H lead 3H:544084309    7/9 genes significant  best 3HG0301210 (q=1.1e-09, eta2=0.260)
+  fiber_L09      4H lead 4H:24707376     1/1 genes significant  best 4HG0339140 (q=0.00014, eta2=0.155)
+  fiber_L12      5H lead 5H:377309369    0/2 genes significant  best 5HG0471420 (q=0.18, eta2=0.005)
+  fiber_L14      5H lead 5H:462564771    2/5 genes significant  best 5HG0487060 (q=7.5e-05, eta2=0.222)
+  fiber_L16      7H lead 7H:415651802    1/1 genes significant  best 7HG0703630 (q=0.026, eta2=0.035)
+  --- starch ---
+  starch_L01     1H lead 1H:330432546    1/1 genes significant  best 1HG0049610 (q=0.026, eta2=0.026)
+  starch_L03     3H lead 3H:546433616    2/2 genes significant  best 3HG0301720 (q=9e-06, eta2=0.168)
+  starch_L04     6H lead 6H:525776080    2/2 genes significant  best 6HG0619810 (q=5.5e-11, eta2=0.279)

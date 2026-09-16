@@ -78,3 +78,87 @@ __MACOSX/
 *.nsi
 *.nsd
 *.ndb
+
+# Large untracked top-level directories (slow git status)
+/GCTA/
+/PanGenome/
+/Rlibs/
+/Trifolium/
+/CSVs
+/GWANN/
+/System_Biology/
+/check/
+/.tmp/
+/.vscode/
+/.claude-code-home/
+/.claude-code-home.json
+/Lital/
+/.claude-code-tmp/
+/.claude/
+/Haplotype_Analysis_All_Genes/
+
+# Loose generated/handoff files at repo root
+/candidate_genes_03_handoff_prompt.md
+/check_ref_summary.txt
+/directory_tree.txt
+/elite_20_check_summary.txt
+/elite_alleles_only.txt
+/elite_gene_check_summary.txt
+/gene_annotation_05_handoff_prompt.md
+
+# Large data dirs inside gwas_barley
+/gwas_barley/data/
+/gwas_barley/morexV2_analysis/
+
+# morexV3_analysis — ignore everything outside the 00-06 tracked dirs
+/gwas_barley/morexV3_analysis/FDR_check_for_manahatan_plots/
+/gwas_barley/morexV3_analysis/GWAS_V2_rebuild_prompt_for_new_session.md
+/gwas_barley/morexV3_analysis/NotUsed_i_Think_haplotype_vcfs_per_gene_imputed/
+/gwas_barley/morexV3_analysis/USED_GWAS_Plots/
+/gwas_barley/morexV3_analysis/USED_GWAS_Plots_BLUE/
+/gwas_barley/morexV3_analysis/USED_GWAS_Plots_Imputed/
+/gwas_barley/morexV3_analysis/USED_GWAS_Plots_Imputed_with_FDR/
+/gwas_barley/morexV3_analysis/USED_Haplotype_Analysis/
+/gwas_barley/morexV3_analysis/USED_LD_decay/
+/gwas_barley/morexV3_analysis/USED_data/
+/gwas_barley/morexV3_analysis/USED_evgeny_script_inputs/
+/gwas_barley/morexV3_analysis/USED_evgeny_script_inputs_imputed/
+/gwas_barley/morexV3_analysis/USED_fixed_window_search_results/
+/gwas_barley/morexV3_analysis/USED_fixed_window_search_results_imputed/
+/gwas_barley/morexV3_analysis/USED_haplotype_vcfs_per_gene/
+/gwas_barley/morexV3_analysis/USED_imputation/
+/gwas_barley/morexV3_analysis/USED_top_snp_lists_maf0.000001_geno1_thin0_pc5/
+/gwas_barley/morexV3_analysis/USED_top_snps_imputed_per_chr/
+/gwas_barley/morexV3_analysis/gene_regions_for_haplotypes/
+/gwas_barley/morexV3_analysis/gene_regions_for_haplotypes_imputed/
+/gwas_barley/morexV3_analysis/genes_to_explore/
+/gwas_barley/morexV3_analysis/protein_candidate_genes_with_desc.tsv
+/gwas_barley/morexV3_analysis/protein_gene_ids.txt
+/gwas_barley/morexV3_analysis/scripts/
+
+# gwas_barley misc
+/gwas_barley/tools/
+
+# Top-level loose files and unrelated project dirs
+/installations/
+/structural_biology_lab/
+/metadata_rarefied_with_alpha_diversities.csv
+/rename_chr.txt
+/output.log
+/vcf_compare_small_report.txt
+
+# barley_for_publication_project — keep code, scripts, docs and small tables only
+*.assoc
+*.reml
+*.nosex
+*.clumped
+/gwas_barley/morexV3_analysis/barley_for_publication_project/**/intermediates/
+/gwas_barley/morexV3_analysis/barley_for_publication_project/**/logs/
+/gwas_barley/morexV3_analysis/barley_for_publication_project/**/Cache/
+/gwas_barley/morexV3_analysis/barley_for_publication_project/**/tmp/
+# third-party copyrighted material: papers, thesis, journal guideline pages
+/gwas_barley/morexV3_analysis/barley_for_publication_project/10_USED_Paper_writing/reference_sources/
+/gwas_barley/morexV3_analysis/barley_for_publication_project/10_USED_Paper_writing/journal_TAG/
+
+# Word drafts (kept locally, not needed in the repo)
+*.docx

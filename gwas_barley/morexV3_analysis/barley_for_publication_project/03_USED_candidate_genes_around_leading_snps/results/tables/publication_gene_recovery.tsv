@@ -1,0 +1,5 @@
+trait	gene_id	gene_symbol	chr	gene_start	gene_end	recovered	matched_locus	gap_to_nearest_locus_bp	min_flank_to_recover_bp	note
+starch	HORVU.MOREX.r3.3HG0301750	Pho	3H	546582184	546587549	FALSE	starch_L03	102704	102704	outside; needs FLANK_BP >= 102,704
+starch	HORVU.MOREX.r3.3HG0301710	PHT	3H	546473709	546477564	TRUE	starch_L03	0	0	inside the current search interval
+betaglucan	HORVU.MOREX.r3.3HG0299440	AP2/ERF	3H	537098183	537101239	FALSE	betaglucan_L04	69298	69298	outside; needs FLANK_BP >= 69,298
+fiber	HORVU.MOREX.r3.7HG0642350	BAHD	7H	14780718	14782145	FALSE	fiber_L15	34865	34865	outside; needs FLANK_BP >= 34,865

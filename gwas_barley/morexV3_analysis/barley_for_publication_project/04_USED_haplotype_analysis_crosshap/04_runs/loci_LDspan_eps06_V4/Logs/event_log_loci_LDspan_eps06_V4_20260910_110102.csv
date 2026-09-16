@@ -1,0 +1,153 @@
+timestamp,level,trait,gene_file,MGmin,epsilon,stage,event,message
+2026-09-10 11:01:02,INFO,,,,,run,run_start,Run started.
+2026-09-10 11:01:02,INFO,,,,,run,run_config,run_id=loci_LDspan_eps06_V4 window_bp=1000 MGmin=2 epsilon=0.6 alpha=0.05
+2026-09-10 11:01:02,INFO,,,,,discovery,targets_loaded,Targets: 55 genes from /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/00_config/gene_windows.tsv
+2026-09-10 11:01:03,INFO,betaglucan,HORVU.MOREX.r3.1HG0077790.vcf.gz,,,gene,gene_start,Processing gene 1/55
+2026-09-10 11:01:03,INFO,betaglucan,HORVU.MOREX.r3.1HG0077790.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:11,INFO,betaglucan,HORVU.MOREX.r3.1HG0077790.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0118 groups=5 eta2=0.063
+2026-09-10 11:01:11,INFO,betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,,,gene,gene_start,Processing gene 2/55
+2026-09-10 11:01:11,INFO,betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:19,INFO,betaglucan,HORVU.MOREX.r3.3HG0287240.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0007 groups=5 eta2=0.078
+2026-09-10 11:01:19,INFO,betaglucan,HORVU.MOREX.r3.3HG0287270.vcf.gz,,,gene,gene_start,Processing gene 3/55
+2026-09-10 11:01:19,INFO,betaglucan,HORVU.MOREX.r3.3HG0287270.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:24,INFO,betaglucan,HORVU.MOREX.r3.3HG0287270.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0006 groups=2 eta2=0.043
+2026-09-10 11:01:24,INFO,betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,,,gene,gene_start,Processing gene 4/55
+2026-09-10 11:01:24,INFO,betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:30,INFO,betaglucan,HORVU.MOREX.r3.4HG0341560.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0159 groups=2 eta2=0.021
+2026-09-10 11:01:30,INFO,betaglucan,HORVU.MOREX.r3.4HG0395760.vcf.gz,,,gene,gene_start,Processing gene 5/55
+2026-09-10 11:01:30,ERROR,betaglucan,HORVU.MOREX.r3.4HG0395760.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/betaglucan/HORVU.MOREX.r3.4HG0395760.vcf.gz
+2026-09-10 11:01:30,INFO,betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,,,gene,gene_start,Processing gene 6/55
+2026-09-10 11:01:30,INFO,betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:34,INFO,betaglucan,HORVU.MOREX.r3.4HG0395770.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0195 groups=2 eta2=0.019
+2026-09-10 11:01:34,INFO,betaglucan,HORVU.MOREX.r3.4HG0395810.vcf.gz,,,gene,gene_start,Processing gene 7/55
+2026-09-10 11:01:34,INFO,betaglucan,HORVU.MOREX.r3.4HG0395810.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:39,INFO,betaglucan,HORVU.MOREX.r3.4HG0395810.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0029 groups=4 eta2=0.060
+2026-09-10 11:01:39,INFO,fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,,,gene,gene_start,Processing gene 8/55
+2026-09-10 11:01:40,ERROR,fiber,HORVU.MOREX.r3.3HG0301080.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:01:40,INFO,fiber,HORVU.MOREX.r3.3HG0301090.vcf.gz,,,gene,gene_start,Processing gene 9/55
+2026-09-10 11:01:40,ERROR,fiber,HORVU.MOREX.r3.3HG0301090.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/fiber/HORVU.MOREX.r3.3HG0301090.vcf.gz
+2026-09-10 11:01:40,INFO,fiber,HORVU.MOREX.r3.3HG0301110.vcf.gz,,,gene,gene_start,Processing gene 10/55
+2026-09-10 11:01:40,INFO,fiber,HORVU.MOREX.r3.3HG0301110.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:44,INFO,fiber,HORVU.MOREX.r3.3HG0301110.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=4 eta2=0.189
+2026-09-10 11:01:44,INFO,fiber,HORVU.MOREX.r3.3HG0301130.vcf.gz,,,gene,gene_start,Processing gene 11/55
+2026-09-10 11:01:44,INFO,fiber,HORVU.MOREX.r3.3HG0301130.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:48,INFO,fiber,HORVU.MOREX.r3.3HG0301130.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.2569 groups=3 eta2=0.004
+2026-09-10 11:01:48,INFO,fiber,HORVU.MOREX.r3.3HG0301170.vcf.gz,,,gene,gene_start,Processing gene 12/55
+2026-09-10 11:01:48,INFO,fiber,HORVU.MOREX.r3.3HG0301170.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:01:53,INFO,fiber,HORVU.MOREX.r3.3HG0301170.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=4 eta2=0.167
+2026-09-10 11:01:53,INFO,fiber,HORVU.MOREX.r3.3HG0301210.vcf.gz,,,gene,gene_start,Processing gene 13/55
+2026-09-10 11:01:53,INFO,fiber,HORVU.MOREX.r3.3HG0301210.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:00,INFO,fiber,HORVU.MOREX.r3.3HG0301210.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=4 eta2=0.260
+2026-09-10 11:02:00,INFO,fiber,HORVU.MOREX.r3.3HG0301250.vcf.gz,,,gene,gene_start,Processing gene 14/55
+2026-09-10 11:02:01,ERROR,fiber,HORVU.MOREX.r3.3HG0301250.vcf.gz,2,,crosshap,failure_encountered,"CrossHap failed: Assigned data `base::sapply(...)` must be compatible with existing data.
+✖ Existing data has 1 row.
+✖ Assigned data has 11 rows.
+ℹ Row updates require a list value. Do you need `list()` or `as.list()`?
+Caused by error in `vectbl_recycle_rhs_rows()`:
+! Can't recycle input of size 11 to size 1."
+2026-09-10 11:02:01,INFO,fiber,HORVU.MOREX.r3.3HG0301260.vcf.gz,,,gene,gene_start,Processing gene 15/55
+2026-09-10 11:02:01,INFO,fiber,HORVU.MOREX.r3.3HG0301260.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:07,INFO,fiber,HORVU.MOREX.r3.3HG0301260.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0002 groups=4 eta2=0.084
+2026-09-10 11:02:07,INFO,fiber,HORVU.MOREX.r3.3HG0301270.vcf.gz,,,gene,gene_start,Processing gene 16/55
+2026-09-10 11:02:08,ERROR,fiber,HORVU.MOREX.r3.3HG0301270.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: Too few common variants after raw/imputed intersection: 1
+2026-09-10 11:02:08,INFO,fiber,HORVU.MOREX.r3.3HG0301300.vcf.gz,,,gene,gene_start,Processing gene 17/55
+2026-09-10 11:02:08,INFO,fiber,HORVU.MOREX.r3.3HG0301300.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:14,INFO,fiber,HORVU.MOREX.r3.3HG0301300.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=3 eta2=0.208
+2026-09-10 11:02:14,INFO,fiber,HORVU.MOREX.r3.3HG0301330.vcf.gz,,,gene,gene_start,Processing gene 18/55
+2026-09-10 11:02:14,INFO,fiber,HORVU.MOREX.r3.3HG0301330.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:20,INFO,fiber,HORVU.MOREX.r3.3HG0301330.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=4 eta2=0.211
+2026-09-10 11:02:20,INFO,fiber,HORVU.MOREX.r3.3HG0301370.vcf.gz,,,gene,gene_start,Processing gene 19/55
+2026-09-10 11:02:21,ERROR,fiber,HORVU.MOREX.r3.3HG0301370.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:02:21,INFO,fiber,HORVU.MOREX.r3.3HG0301390.vcf.gz,,,gene,gene_start,Processing gene 20/55
+2026-09-10 11:02:21,INFO,fiber,HORVU.MOREX.r3.3HG0301390.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:26,INFO,fiber,HORVU.MOREX.r3.3HG0301390.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0207 groups=3 eta2=0.029
+2026-09-10 11:02:26,INFO,fiber,HORVU.MOREX.r3.3HG0301400.vcf.gz,,,gene,gene_start,Processing gene 21/55
+2026-09-10 11:02:26,INFO,fiber,HORVU.MOREX.r3.3HG0301400.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:33,INFO,fiber,HORVU.MOREX.r3.3HG0301400.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0287 groups=2 eta2=0.031
+2026-09-10 11:02:33,INFO,fiber,HORVU.MOREX.r3.3HG0301430.vcf.gz,,,gene,gene_start,Processing gene 22/55
+2026-09-10 11:02:33,INFO,fiber,HORVU.MOREX.r3.3HG0301430.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:39,INFO,fiber,HORVU.MOREX.r3.3HG0301430.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.8704 groups=2 eta2=0.000
+2026-09-10 11:02:39,INFO,fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,,,gene,gene_start,Processing gene 23/55
+2026-09-10 11:02:39,INFO,fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:46,INFO,fiber,HORVU.MOREX.r3.4HG0339140.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=5 eta2=0.155
+2026-09-10 11:02:46,INFO,fiber,HORVU.MOREX.r3.5HG0471420.vcf.gz,,,gene,gene_start,Processing gene 24/55
+2026-09-10 11:02:46,INFO,fiber,HORVU.MOREX.r3.5HG0471420.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:52,INFO,fiber,HORVU.MOREX.r3.5HG0471420.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.1383 groups=2 eta2=0.005
+2026-09-10 11:02:52,INFO,fiber,HORVU.MOREX.r3.5HG0471430.vcf.gz,,,gene,gene_start,Processing gene 25/55
+2026-09-10 11:02:52,ERROR,fiber,HORVU.MOREX.r3.5HG0471430.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/fiber/HORVU.MOREX.r3.5HG0471430.vcf.gz
+2026-09-10 11:02:52,INFO,fiber,HORVU.MOREX.r3.5HG0471460.vcf.gz,,,gene,gene_start,Processing gene 26/55
+2026-09-10 11:02:52,INFO,fiber,HORVU.MOREX.r3.5HG0471460.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:02:58,INFO,fiber,HORVU.MOREX.r3.5HG0471460.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.8362 groups=2 eta2=0.000
+2026-09-10 11:02:58,INFO,fiber,HORVU.MOREX.r3.5HG0487000.vcf.gz,,,gene,gene_start,Processing gene 27/55
+2026-09-10 11:02:58,ERROR,fiber,HORVU.MOREX.r3.5HG0487000.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:02:58,INFO,fiber,HORVU.MOREX.r3.5HG0487010.vcf.gz,,,gene,gene_start,Processing gene 28/55
+2026-09-10 11:02:59,ERROR,fiber,HORVU.MOREX.r3.5HG0487010.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:02:59,INFO,fiber,HORVU.MOREX.r3.5HG0487030.vcf.gz,,,gene,gene_start,Processing gene 29/55
+2026-09-10 11:02:59,INFO,fiber,HORVU.MOREX.r3.5HG0487030.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:05,INFO,fiber,HORVU.MOREX.r3.5HG0487030.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.1417 groups=5 eta2=0.017
+2026-09-10 11:03:05,INFO,fiber,HORVU.MOREX.r3.5HG0487040.vcf.gz,,,gene,gene_start,Processing gene 30/55
+2026-09-10 11:03:05,INFO,fiber,HORVU.MOREX.r3.5HG0487040.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:10,INFO,fiber,HORVU.MOREX.r3.5HG0487040.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.8068 groups=2 eta2=0.000
+2026-09-10 11:03:10,INFO,fiber,HORVU.MOREX.r3.5HG0487060.vcf.gz,,,gene,gene_start,Processing gene 31/55
+2026-09-10 11:03:10,INFO,fiber,HORVU.MOREX.r3.5HG0487060.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:17,INFO,fiber,HORVU.MOREX.r3.5HG0487060.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=5 eta2=0.222
+2026-09-10 11:03:17,INFO,fiber,HORVU.MOREX.r3.5HG0487070.vcf.gz,,,gene,gene_start,Processing gene 32/55
+2026-09-10 11:03:18,ERROR,fiber,HORVU.MOREX.r3.5HG0487070.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:18,INFO,fiber,HORVU.MOREX.r3.5HG0487080.vcf.gz,,,gene,gene_start,Processing gene 33/55
+2026-09-10 11:03:18,INFO,fiber,HORVU.MOREX.r3.5HG0487080.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:23,INFO,fiber,HORVU.MOREX.r3.5HG0487080.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0705 groups=3 eta2=0.020
+2026-09-10 11:03:23,INFO,fiber,HORVU.MOREX.r3.5HG0487090.vcf.gz,,,gene,gene_start,Processing gene 34/55
+2026-09-10 11:03:23,INFO,fiber,HORVU.MOREX.r3.5HG0487090.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:29,INFO,fiber,HORVU.MOREX.r3.5HG0487090.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0010 groups=3 eta2=0.067
+2026-09-10 11:03:29,INFO,fiber,HORVU.MOREX.r3.7HG0703630.vcf.gz,,,gene,gene_start,Processing gene 35/55
+2026-09-10 11:03:29,INFO,fiber,HORVU.MOREX.r3.7HG0703630.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:34,INFO,fiber,HORVU.MOREX.r3.7HG0703630.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0136 groups=2 eta2=0.035
+2026-09-10 11:03:34,INFO,fiber,HORVU.MOREX.r3.7HG0703650.vcf.gz,,,gene,gene_start,Processing gene 36/55
+2026-09-10 11:03:35,ERROR,fiber,HORVU.MOREX.r3.7HG0703650.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: Too few common variants after raw/imputed intersection: 1
+2026-09-10 11:03:35,INFO,fiber,HORVU.MOREX.r3.7HG0703660.vcf.gz,,,gene,gene_start,Processing gene 37/55
+2026-09-10 11:03:35,ERROR,fiber,HORVU.MOREX.r3.7HG0703660.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:35,INFO,fiber,HORVU.MOREX.r3.7HG0703680.vcf.gz,,,gene,gene_start,Processing gene 38/55
+2026-09-10 11:03:36,ERROR,fiber,HORVU.MOREX.r3.7HG0703680.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:36,INFO,fiber,HORVU.MOREX.r3.7HG0703720.vcf.gz,,,gene,gene_start,Processing gene 39/55
+2026-09-10 11:03:36,ERROR,fiber,HORVU.MOREX.r3.7HG0703720.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:36,INFO,protein,HORVU.MOREX.r3.3HG0245470.vcf.gz,,,gene,gene_start,Processing gene 40/55
+2026-09-10 11:03:36,ERROR,protein,HORVU.MOREX.r3.3HG0245470.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:36,INFO,protein,HORVU.MOREX.r3.3HG0245480.vcf.gz,,,gene,gene_start,Processing gene 41/55
+2026-09-10 11:03:37,ERROR,protein,HORVU.MOREX.r3.3HG0245480.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: Too few common variants after raw/imputed intersection: 1
+2026-09-10 11:03:37,INFO,protein,HORVU.MOREX.r3.3HG0245510.vcf.gz,,,gene,gene_start,Processing gene 42/55
+2026-09-10 11:03:37,ERROR,protein,HORVU.MOREX.r3.3HG0245510.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0245510.vcf.gz
+2026-09-10 11:03:37,INFO,protein,HORVU.MOREX.r3.3HG0245560.vcf.gz,,,gene,gene_start,Processing gene 43/55
+2026-09-10 11:03:37,ERROR,protein,HORVU.MOREX.r3.3HG0245560.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0245560.vcf.gz
+2026-09-10 11:03:37,INFO,protein,HORVU.MOREX.r3.3HG0245570.vcf.gz,,,gene,gene_start,Processing gene 44/55
+2026-09-10 11:03:38,ERROR,protein,HORVU.MOREX.r3.3HG0245570.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:38,INFO,protein,HORVU.MOREX.r3.3HG0252010.vcf.gz,,,gene,gene_start,Processing gene 45/55
+2026-09-10 11:03:38,ERROR,protein,HORVU.MOREX.r3.3HG0252010.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/protein/HORVU.MOREX.r3.3HG0252010.vcf.gz
+2026-09-10 11:03:38,INFO,starch,HORVU.MOREX.r3.1HG0049610.vcf.gz,,,gene,gene_start,Processing gene 46/55
+2026-09-10 11:03:38,INFO,starch,HORVU.MOREX.r3.1HG0049610.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:43,INFO,starch,HORVU.MOREX.r3.1HG0049610.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0257 groups=3 eta2=0.026
+2026-09-10 11:03:43,INFO,starch,HORVU.MOREX.r3.1HG0049620.vcf.gz,,,gene,gene_start,Processing gene 47/55
+2026-09-10 11:03:44,ERROR,starch,HORVU.MOREX.r3.1HG0049620.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:44,INFO,starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,,,gene,gene_start,Processing gene 48/55
+2026-09-10 11:03:44,ERROR,starch,HORVU.MOREX.r3.3HG0301650.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:44,INFO,starch,HORVU.MOREX.r3.3HG0301700.vcf.gz,,,gene,gene_start,Processing gene 49/55
+2026-09-10 11:03:45,ERROR,starch,HORVU.MOREX.r3.3HG0301700.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: vcf_raw has 0 variants: /mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/04_USED_haplotype_analysis_crosshap/03_per_gene_vcfs/raw_1000bp/starch/HORVU.MOREX.r3.3HG0301700.vcf.gz
+2026-09-10 11:03:45,INFO,starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,,,gene,gene_start,Processing gene 50/55
+2026-09-10 11:03:45,INFO,starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:50,INFO,starch,HORVU.MOREX.r3.3HG0301710.vcf.gz,2,0.6,kw,kw_test_done,KW p=0.0003 groups=4 eta2=0.078
+2026-09-10 11:03:50,INFO,starch,HORVU.MOREX.r3.3HG0301720.vcf.gz,,,gene,gene_start,Processing gene 51/55
+2026-09-10 11:03:50,INFO,starch,HORVU.MOREX.r3.3HG0301720.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:03:57,INFO,starch,HORVU.MOREX.r3.3HG0301720.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=4 eta2=0.168
+2026-09-10 11:03:57,INFO,starch,HORVU.MOREX.r3.6HG0619800.vcf.gz,,,gene,gene_start,Processing gene 52/55
+2026-09-10 11:03:57,ERROR,starch,HORVU.MOREX.r3.6HG0619800.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:03:57,INFO,starch,HORVU.MOREX.r3.6HG0619810.vcf.gz,,,gene,gene_start,Processing gene 53/55
+2026-09-10 11:03:57,INFO,starch,HORVU.MOREX.r3.6HG0619810.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:04:03,INFO,starch,HORVU.MOREX.r3.6HG0619810.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=3 eta2=0.261
+2026-09-10 11:04:03,INFO,starch,HORVU.MOREX.r3.6HG0619820.vcf.gz,,,gene,gene_start,Processing gene 54/55
+2026-09-10 11:04:03,INFO,starch,HORVU.MOREX.r3.6HG0619820.vcf.gz,2,,cache,cache_used,Using cached HapObject.
+2026-09-10 11:04:11,INFO,starch,HORVU.MOREX.r3.6HG0619820.vcf.gz,2,0.6,kw,kw_test_done,KW p=<0.0001 groups=5 eta2=0.279
+2026-09-10 11:04:11,INFO,starch,HORVU.MOREX.r3.6HG0619890.vcf.gz,,,gene,gene_start,Processing gene 55/55
+2026-09-10 11:04:11,ERROR,starch,HORVU.MOREX.r3.6HG0619890.vcf.gz,2,,crosshap,failure_encountered,CrossHap failed: object 'Varfile' not found
+2026-09-10 11:04:11,INFO,betaglucan,,,,trait_correction,trait_level_correction_complete,"BH done: 6 tests, 6 significant at alpha=0.05"
+2026-09-10 11:04:11,INFO,fiber,,,,trait_correction,trait_level_correction_complete,"BH done: 19 tests, 12 significant at alpha=0.05"
+2026-09-10 11:04:11,INFO,starch,,,,trait_correction,trait_level_correction_complete,"BH done: 5 tests, 5 significant at alpha=0.05"
+2026-09-10 11:04:11,INFO,,,,,run,run_end,Run finished.

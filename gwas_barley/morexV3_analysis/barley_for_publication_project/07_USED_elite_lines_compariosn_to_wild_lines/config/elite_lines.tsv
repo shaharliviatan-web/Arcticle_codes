@@ -1,0 +1,50 @@
+#	The five elite lines carried into the comparison. First chosen 2026-09-10;
+#	two lines replaced 2026-09-14 after the call-rate screen. Rows are in order of
+#	release year, which is also the order of the elite rows in the figures.
+#
+#	SELECTION RULE, stated so it can be audited:
+#	  1. All five come from the DivBrowse panel's `accession type = elite lines`
+#	     subset (315 of 1315), the only subset where cultivar name, breeder and
+#	     year of release are all present in the EBI BioSamples record. Every label
+#	     in the figures is therefore machine-verifiable, not a manual lookup.
+#	  2. All five are SPRING MALTING types, deliberately. Winter and spring barley
+#	     are strongly genetically differentiated; a mixed set would put a
+#	     population-structure axis into the elite block, so a barcode difference
+#	     could reflect winter-vs-spring rather than anything about the gene.
+#	  3. Every line is called at >= 85% of the shared sites, pooled over the three
+#	     genes (results/tables/Table_elite_line_screen.tsv, all 136 spring elite
+#	     lines scored; asserted by 02_screen_elite_lines.R). The panel is unimputed
+#	     low-coverage sequencing, so no-calls are a per-line property. This is a
+#	     genotype-QUALITY criterion only -- it never looks at which haplotype a line
+#	     carries, so it cannot steer the comparison. 91 of 136 lines pass.
+#	  4. Among passing lines: widely grown, well-known malting cultivars. The two
+#	     replacements were additionally required to reach >= 80% at EVERY gene, so
+#	     no gene is drawn with many grey tiles.
+#
+#	HISTORY
+#	  2026-09-10  RGT Planet, Laureate, LG Diablo, KWS Irina, Propino (chosen on fame)
+#	  2026-09-14  RGT Planet (53.4% called; 41.7% at PHT4;3) and Propino (62.5%;
+#	              25.0% at PHT4;3) failed the screen and were replaced by Avalon
+#	              (96.6%) and Odyssey (94.3%). Explorer, arguably as well known,
+#	              passes overall (88.6%) but is called at only 66.7% of PHT4;3
+#	              sites, so it was not taken.
+#
+#	NOT used: the six lines of the earlier (pre-publication) analysis in
+#	USED_Haplotype_Analysis/Wild_And_Elite. Four of those six (Corvette, Triumph,
+#	Iris, Gunnar) are samples that carry ONLY an IPK genebank number (HOR 11013,
+#	HOR 2970, HOR 12070, HOR 10702) and no cultivar name in any public record, so
+#	their names could not be verified; "Triumph" additionally collides with a
+#	differently-named sample in the same panel (SAMEA110189957 = "LG Triumph").
+#	The other two (Manchuria HOR 10695, Rapid HOR 8662) are correctly named but
+#	belong to the `precision collection` (genebank landraces), not to elite
+#	breeding material.
+#
+#	Columns: display name | SAMEA accession | year | growth habit | breeder |
+#	         country of first registration | one-line justification
+#
+line_name	sample_id	year_of_release	annuality	breeder	country_first_registration	rationale
+Avalon	SAMEA110189742	2012	spring type	J.Breun	Germany	Widely grown German spring malting variety. Replaced RGT Planet 2026-09-14.
+KWS Irina	SAMEA110189768	2012	spring type	KWS Lochow GmbH	Germany	One of the dominant Continental European malting varieties.
+Odyssey	SAMEA110189789	2012	spring type	Limagrain	not applicable	Widely grown UK and European spring malting variety. Replaced Propino 2026-09-14.
+Laureate	SAMEA110189847	2016	spring type	Syngenta	Germany	The leading current UK and EU spring malting variety.
+LG Diablo	SAMEA110189781	2018	spring type	Limagrain	Netherlands	Major current spring malting variety in Europe and Canada.

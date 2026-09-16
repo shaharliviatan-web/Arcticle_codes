@@ -1,0 +1,5 @@
+trait	n_loci	n_lead_only	total_member_SNPs	span_min_kb	span_median_kb	span_max_kb	largest_internal_gap_kb	total_severed
+betaglucan	11	2	1107	0	57.6	537.4	49	252
+fiber	18	2	1529	0	74.1	1727.8	49.5	2535
+protein	2	0	306	45.3	667.8	1290.4	46	360
+starch	5	0	481	1.6	169	745.2	40	634

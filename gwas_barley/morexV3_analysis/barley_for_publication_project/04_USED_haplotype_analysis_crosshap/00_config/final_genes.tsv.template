@@ -1,0 +1,8 @@
+trait	gene_id	MGmin	epsilon	title_override
+# Curated list of FINAL genes for publication plots (after biological filtering).
+# Copy the chosen rows from gene_shortlist.csv: pick trait, gene_id, and the
+# best_MGmin / best_epsilon you want plotted (or any MGmin/epsilon present in the run).
+# title_override is optional (leave blank to use the auto title with lead SNP + class).
+# Remove these comment lines and rename to final_genes.tsv before running 05.
+# Example:
+# starch	HORVU.MOREX.r3.3HG0301720	2	0.2	Starch locus 3H | SUS-like

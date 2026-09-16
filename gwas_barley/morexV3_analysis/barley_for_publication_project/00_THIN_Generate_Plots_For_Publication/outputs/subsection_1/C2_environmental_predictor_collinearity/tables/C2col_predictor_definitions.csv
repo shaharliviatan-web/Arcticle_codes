@@ -1,0 +1,11 @@
+"internal_name","source_csv_column","display_label","units","non_missing_sites"
+"pH","pH","pH","pH units (unitless)",29
+"Electrical_Cond","Electrical.Conductivity..mS.cm.","Electrical conductivity (mS/cm)","mS/cm",29
+"Clay_pct","Clay....","Clay (%)","%",29
+"Silt_pct","Silt....","Silt (%)","%",29
+"Sand_pct","Sand....","Sand (%)","%",29
+"March_Temp","March..temp","March temperature (°C)","°C",29
+"Precipitation","Precipitation","Precipitation (mm)","mm",29
+"Organic_Carbon","Organic.Carbon..mg.Kg.","Organic carbon (mg/kg)","mg/kg",29
+"Total_N","Total.N..mg.Kg.","Total N (mg/kg)","mg/kg",29
+"Elevation","Elevation","Elevation (m)","m",29

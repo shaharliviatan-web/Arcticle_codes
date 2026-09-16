@@ -1,0 +1,5 @@
+trait	n_loci	n_loci_significant	n_loci_subthreshold	n_loci_with_genes	n_loci_without_genes	total_search_kb	n_genes	n_unique_genes	n_protein_coding	n_with_annotation	n_genes_containing_lead
+betaglucan	11	11	0	4	7	1403.4	7	7	7	0	0
+fiber	18	18	0	6	12	3945.4	32	32	32	1	0
+protein	2	2	0	2	0	1335.7	6	6	6	0	0
+starch	5	5	0	3	2	1229.5	10	10	10	2	0

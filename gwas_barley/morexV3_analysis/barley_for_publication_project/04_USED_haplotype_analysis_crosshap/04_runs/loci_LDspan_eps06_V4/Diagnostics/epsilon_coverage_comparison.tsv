@@ -1,0 +1,11 @@
+# Genotype-only comparison of fixed epsilon values, MGmin = 2.
+# Measured 2026-09-08 on the 64-gene V2 candidate set by running the real pipeline once
+# per epsilon (a vector sweep under-counts: crosshap aborts a whole gene if any epsilon
+# in the vector fails). That run directory has since been deleted; this table was
+# preserved here because it is the evidence for the epsilon = 0.6 choice.
+# Criteria are genotype-only -- no p-values -- so the choice is not a forking path.
+epsilon	genes_tested	genes_not_tested	median_n_groups	median_assignment_pct	is_chosen
+0.60	30	34	3	70	TRUE
+0.80	34	30	3	61	FALSE
+0.85	33	31	3	62	FALSE
+1.00	33	31	3	65	FALSE

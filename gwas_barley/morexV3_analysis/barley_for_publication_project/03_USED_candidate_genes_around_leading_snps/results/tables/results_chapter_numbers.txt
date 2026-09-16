@@ -1,0 +1,151 @@
+================================================================
+  Candidate genes at the GWAS loci -- numbers for the manuscript
+  generated 2026-09-10 16:00 by 03_build_tables.R
+================================================================
+
+METHOD
+  Search interval = the step-01 LD locus span, with no flanking window added.
+  Loci were defined in step 01 by PLINK --clump (lead p < 9.008e-07, members by
+  LD only at r2 >= 0.5 within +/-2 Mb), each locus severed at the first internal
+  gap > 50 kb. Genes = GFF3 'gene' features on 1H-7H of Morex V3 (Ensembl Plants r62).
+
+HEADLINE NUMBERS
+  Loci searched          : 36 (36 significant, 0 sub-threshold protein peaks)
+  Total search space     : 7.91 Mb
+  Loci containing genes  : 15
+  Loci with no gene      : 21
+  Candidate genes        : 55 (55 unique gene IDs)
+  Protein-coding         : 55
+  With a functional description : 3 (5.5%)
+  Lead SNP inside a gene body   : 0 locus/gene pair(s)
+
+PASTE-READY SENTENCE
+  The 36 loci were searched for annotated genes across 7.91 Mb of the Morex V3
+  assembly, yielding 55 candidate genes at 15 loci; the remaining 21 loci contained
+  no annotated gene. 3 of the candidates carry a functional description.
+
+PER TRAIT
+  betaglucan  11 loci (4 with genes, 7 empty),   7 genes,  0 annotated
+  fiber       18 loci (6 with genes, 12 empty),  32 genes,  1 annotated
+  protein      2 loci (2 with genes, 0 empty),   6 genes,  0 annotated
+  starch       5 loci (3 with genes, 2 empty),  10 genes,  2 annotated
+
+PER LOCUS
+  --- betaglucan ---
+  betaglucan_L01 1H  lead 1H:479493867   -log10p=6.2281  span=    57.6 kb  10 SNPs   1 gene(s)
+                   HORVU.MOREX.r3.1HG0077790     +8051 bp  (no annotation)
+  betaglucan_L02 2H  lead 2H:41996626    -log10p=7.6023  span=    41.2 kb   4 SNPs   0 gene(s)
+  betaglucan_L03 3H  lead 3H:475967335   -log10p=6.0576  span=   537.4 kb  943 SNPs   2 gene(s)
+                   HORVU.MOREX.r3.3HG0287240   -100883 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0287270     +9407 bp  (no annotation)
+  betaglucan_L04 3H  lead 3H:537247620   -log10p=7.1876  span=   280.3 kb  59 SNPs   0 gene(s)
+  betaglucan_L05 4H  lead 4H:34858354    -log10p=7.3349  span=    39.7 kb  12 SNPs   0 gene(s)
+  betaglucan_L06 4H  lead 4H:34971609    -log10p=7.0864  span=   140.1 kb  11 SNPs   1 gene(s)
+                   HORVU.MOREX.r3.4HG0341560     +3351 bp  (no annotation)
+  betaglucan_L07 4H  lead 4H:528254769   -log10p=6.5307  span=   196.0 kb  33 SNPs   3 gene(s)
+                   HORVU.MOREX.r3.4HG0395760    +11613 bp  (no annotation)
+                   HORVU.MOREX.r3.4HG0395770   +129651 bp  (no annotation)
+                   HORVU.MOREX.r3.4HG0395810   +154366 bp  (no annotation)
+  betaglucan_L08 5H  lead 5H:224439424   -log10p=6.3553  span=     0.0 kb   1 SNPs   0 gene(s)
+  betaglucan_L09 6H  lead 6H:475144663   -log10p=6.2708  span=    83.5 kb  24 SNPs   0 gene(s)
+  betaglucan_L10 6H  lead 6H:477651616   -log10p=6.1919  span=    27.4 kb   9 SNPs   0 gene(s)
+  betaglucan_L11 6H  lead 6H:545947347   -log10p=6.1146  span=     0.0 kb   1 SNPs   0 gene(s)
+  --- fiber ---
+  fiber_L01      1H  lead 1H:329707484   -log10p=6.1816  span=     0.0 kb   1 SNPs   0 gene(s)
+  fiber_L02      1H  lead 1H:330239605   -log10p=6.4843  span=     2.3 kb   2 SNPs   0 gene(s)
+  fiber_L03      1H  lead 1H:330625182   -log10p=6.3071  span=   105.2 kb  29 SNPs   0 gene(s)
+  fiber_L04      1H  lead 1H:344520079   -log10p=6.8521  span=    44.7 kb   3 SNPs   0 gene(s)
+  fiber_L05      1H  lead 1H:440022799   -log10p=6.1584  span=   110.4 kb  17 SNPs   0 gene(s)
+  fiber_L06      1H  lead 1H:440573355   -log10p=6.2189  span=   103.5 kb  12 SNPs   0 gene(s)
+  fiber_L07      3H  lead 3H:543690146   -log10p=6.3664  span=   479.0 kb  200 SNPs   3 gene(s)
+                   HORVU.MOREX.r3.3HG0301080    +16952 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301090    +75775 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301110   +230883 bp  (no annotation)
+  fiber_L08      3H  lead 3H:544084309   -log10p=6.2422  span=  1727.8 kb  899 SNPs  12 gene(s)
+                   HORVU.MOREX.r3.3HG0301130    +20861 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301170   +123791 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301210   +316355 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301250   +769789 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301260   +871294 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301270   +875033 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301300   +916110 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301330   +975338 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301370  +1161791 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301390  +1321668 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301400  +1336790 bp  Pentatricopeptide repeat-containing protein At2g41080 [Source:Projected from Arabidopsis t
+                   HORVU.MOREX.r3.3HG0301430  +1502922 bp  (no annotation)
+  fiber_L09      4H  lead 4H:24707376    -log10p=7.0209  span=   207.2 kb  133 SNPs   1 gene(s)
+                   HORVU.MOREX.r3.4HG0339140    +84313 bp  (no annotation)
+  fiber_L10      4H  lead 4H:470989624   -log10p=6.0644  span=    16.0 kb   2 SNPs   0 gene(s)
+  fiber_L11      5H  lead 5H:208944021   -log10p=6.0799  span=    13.6 kb   2 SNPs   0 gene(s)
+  fiber_L12      5H  lead 5H:377309369   -log10p=6.3720  span=   197.9 kb  15 SNPs   3 gene(s)
+                   HORVU.MOREX.r3.5HG0471420    -11289 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0471430    +37716 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0471460    +92762 bp  (no annotation)
+  fiber_L13      5H  lead 5H:437005013   -log10p=6.4594  span=     0.2 kb   2 SNPs   0 gene(s)
+  fiber_L14      5H  lead 5H:462564771   -log10p=6.0506  span=   292.9 kb  49 SNPs   8 gene(s)
+                   HORVU.MOREX.r3.5HG0487000    +40732 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0487010    +43642 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0487030   +123106 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0487040   +124231 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0487060   +162022 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0487070   +192444 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0487080   +219574 bp  (no annotation)
+                   HORVU.MOREX.r3.5HG0487090   +269030 bp  (no annotation)
+  fiber_L15      7H  lead 7H:14817657    -log10p=6.7984  span=     3.9 kb   3 SNPs   0 gene(s)
+  fiber_L16      7H  lead 7H:415651802   -log10p=6.4915  span=   640.4 kb  156 SNPs   5 gene(s)
+                   HORVU.MOREX.r3.7HG0703630   -203108 bp  (no annotation)
+                   HORVU.MOREX.r3.7HG0703650   -200083 bp  (no annotation)
+                   HORVU.MOREX.r3.7HG0703660   -177091 bp  (no annotation)
+                   HORVU.MOREX.r3.7HG0703680   -160008 bp  (no annotation)
+                   HORVU.MOREX.r3.7HG0703720   +421117 bp  (no annotation)
+  fiber_L17      7H  lead 7H:573606306   -log10p=7.2451  span=     0.2 kb   3 SNPs   0 gene(s)
+  fiber_L18      7H  lead 7H:586569512   -log10p=6.6754  span=     0.0 kb   1 SNPs   0 gene(s)
+  --- protein ---
+  protein_L01    3H  lead 3H:106623911   -log10p=6.4330  span=  1290.4 kb  304 SNPs   5 gene(s)
+                   HORVU.MOREX.r3.3HG0245470   -945798 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0245480   -773904 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0245510   -630842 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0245560   -179975 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0245570   +241410 bp  (no annotation)
+  protein_L02    3H  lead 3H:159799839   -log10p=6.0456  span=    45.3 kb   2 SNPs   1 gene(s)
+                   HORVU.MOREX.r3.3HG0252010    +28632 bp  (no annotation)
+  --- starch ---
+  starch_L01     1H  lead 1H:330432546   -log10p=6.1296  span=   199.6 kb  31 SNPs   2 gene(s)
+                   HORVU.MOREX.r3.1HG0049610    -40712 bp  (no annotation)
+                   HORVU.MOREX.r3.1HG0049620    -35428 bp  (no annotation)
+  starch_L02     3H  lead 3H:530660057   -log10p=6.2104  span=   114.2 kb  140 SNPs   0 gene(s)
+  starch_L03     3H  lead 3H:546433616   -log10p=6.3441  span=   169.0 kb  39 SNPs   4 gene(s)
+                   HORVU.MOREX.r3.3HG0301650   -105907 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301700    +34471 bp  (no annotation)
+                   HORVU.MOREX.r3.3HG0301710    +40093 bp  Phosphate transporter 43 [Source:Projected from Arabidopsis thaliana (AT3G46980) UniProtKB
+                   HORVU.MOREX.r3.3HG0301720    +45548 bp  (no annotation)
+  starch_L04     6H  lead 6H:525776080   -log10p=6.1175  span=   745.2 kb  265 SNPs   4 gene(s)
+                   HORVU.MOREX.r3.6HG0619800   -347819 bp  (no annotation)
+                   HORVU.MOREX.r3.6HG0619810   -325908 bp  (no annotation)
+                   HORVU.MOREX.r3.6HG0619820   -148218 bp  (no annotation)
+                   HORVU.MOREX.r3.6HG0619890   +137325 bp  Allene oxide cyclase, Biosynthesis of jasmonic acid, Defence respons [Source: Projected fr
+  starch_L05     7H  lead 7H:573606460   -log10p=6.4367  span=     1.6 kb   6 SNPs   0 gene(s)
+
+LOCI WITH NO ANNOTATED GENE
+  betaglucan_L02 2H  lead 2H:41996626    -log10p=7.6023  span=41.2 kb
+  betaglucan_L04 3H  lead 3H:537247620   -log10p=7.1876  span=280.3 kb
+  betaglucan_L05 4H  lead 4H:34858354    -log10p=7.3349  span=39.7 kb
+  betaglucan_L08 5H  lead 5H:224439424   -log10p=6.3553  span=0.0 kb
+  betaglucan_L09 6H  lead 6H:475144663   -log10p=6.2708  span=83.5 kb
+  betaglucan_L10 6H  lead 6H:477651616   -log10p=6.1919  span=27.4 kb
+  betaglucan_L11 6H  lead 6H:545947347   -log10p=6.1146  span=0.0 kb
+  fiber_L01      1H  lead 1H:329707484   -log10p=6.1816  span=0.0 kb
+  fiber_L02      1H  lead 1H:330239605   -log10p=6.4843  span=2.3 kb
+  fiber_L03      1H  lead 1H:330625182   -log10p=6.3071  span=105.2 kb
+  fiber_L04      1H  lead 1H:344520079   -log10p=6.8521  span=44.7 kb
+  fiber_L05      1H  lead 1H:440022799   -log10p=6.1584  span=110.4 kb
+  fiber_L06      1H  lead 1H:440573355   -log10p=6.2189  span=103.5 kb
+  fiber_L10      4H  lead 4H:470989624   -log10p=6.0644  span=16.0 kb
+  fiber_L11      5H  lead 5H:208944021   -log10p=6.0799  span=13.6 kb
+  fiber_L13      5H  lead 5H:437005013   -log10p=6.4594  span=0.2 kb
+  fiber_L15      7H  lead 7H:14817657    -log10p=6.7984  span=3.9 kb
+  fiber_L17      7H  lead 7H:573606306   -log10p=7.2451  span=0.2 kb
+  fiber_L18      7H  lead 7H:586569512   -log10p=6.6754  span=0.0 kb
+  starch_L02     3H  lead 3H:530660057   -log10p=6.2104  span=114.2 kb
+  starch_L05     7H  lead 7H:573606460   -log10p=6.4367  span=1.6 kb

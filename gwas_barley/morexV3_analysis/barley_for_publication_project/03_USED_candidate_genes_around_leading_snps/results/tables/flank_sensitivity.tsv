@@ -1,0 +1,6 @@
+flank_bp	flank_kb	total_search_Mb	n_loci	n_loci_with_genes	n_loci_without_genes	n_gene_locus_rows	n_unique_genes	n_with_annotation	genes_per_Mb	is_chosen
+0	0	7.91	36	15	21	55	55	3	6.9	TRUE
+25000	25	9.71	36	22	14	78	77	3	8	FALSE
+50000	50	11.51	36	26	10	93	92	6	8.1	FALSE
+100000	100	15.11	36	29	7	122	120	7	8.1	FALSE
+200000	200	22.31	36	33	3	198	182	17	8.9	FALSE

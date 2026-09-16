@@ -1,0 +1,7 @@
+"Trait1","Trait2","Class1","Class2","EdgeType","r","p","n","sig","sig_raw"
+"Protein","Starch","Nutritional","Nutritional","nutri-nutri",-0.116553616536537,0.0473643259591656,290,"*","*"
+"Protein","β-glucan","Nutritional","Nutritional","nutri-nutri",-0.0851694166566737,0.147967301401983,290,"",""
+"Starch","β-glucan","Nutritional","Nutritional","nutri-nutri",-0.52552637206466,5.42513669681234e-22,290,"***","***"
+"Protein","Fiber","Nutritional","Nutritional","nutri-nutri",0.0853959955600763,0.146888015346709,290,"",""
+"Starch","Fiber","Nutritional","Nutritional","nutri-nutri",-0.779970111661957,1.43094164353306e-60,290,"***","***"
+"β-glucan","Fiber","Nutritional","Nutritional","nutri-nutri",0.351153878258015,7.69489612248202e-10,290,"***","***"

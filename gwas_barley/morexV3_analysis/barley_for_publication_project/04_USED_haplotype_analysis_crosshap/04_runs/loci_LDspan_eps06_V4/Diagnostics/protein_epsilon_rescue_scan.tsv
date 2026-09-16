@@ -1,0 +1,7 @@
+gene_id	n_snps	configs_with_grouping	best_kw_p	best_eta2	verdict
+"HORVU.MOREX.r3.3HG0245470"	5	4	0.667286142351467	0	"clusters, but no phenotype signal"
+"HORVU.MOREX.r3.3HG0245570"	2	0	NA	NA	"never clusters at any tested config"
+"HORVU.MOREX.r3.3HG0245480"	1	0	NA	NA	"never clusters at any tested config"
+"HORVU.MOREX.r3.3HG0245510"	0	0	NA	NA	"no variants in window"
+"HORVU.MOREX.r3.3HG0245560"	0	0	NA	NA	"no variants in window"
+"HORVU.MOREX.r3.3HG0252010"	0	0	NA	NA	"no variants in window"

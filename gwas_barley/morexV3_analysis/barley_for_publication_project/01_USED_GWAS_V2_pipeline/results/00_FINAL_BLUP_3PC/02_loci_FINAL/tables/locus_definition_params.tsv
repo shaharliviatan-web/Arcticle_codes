@@ -1,0 +1,10 @@
+parameter	value
+clump_p1	9.008e-07
+clump_p2	1
+clump_r2	0.5
+clump_kb	2000
+max_span_kb	4000
+gap_rule_kb	50
+n_passes	3
+n_loci	36
+n_significant_snps_covered	52

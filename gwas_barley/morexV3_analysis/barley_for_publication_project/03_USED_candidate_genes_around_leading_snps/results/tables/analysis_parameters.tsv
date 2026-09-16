@@ -1,0 +1,39 @@
+stage	parameter	value
+01_GWAS_and_loci	phenotype_value	BLUP
+01_GWAS_and_loci	n_PCs_covariates	3
+01_GWAS_and_loci	kinship	EMMAX aIBS 290x290
+01_GWAS_and_loci	GWAS_software	EMMAX
+01_GWAS_and_loci	n_samples	290
+01_GWAS_and_loci	n_SNPs_tested	7,110,996
+01_GWAS_and_loci	n_SNPs_LD_pruned	111,017
+01_GWAS_and_loci	LD_pruning_call	--indep-pairwise 1000kb 1 0.2
+01_GWAS_and_loci	alpha	0.1
+01_GWAS_and_loci	Bonferroni_neg_log10_p	6.0454
+01_GWAS_and_loci	Bonferroni_p_value	9.008e-07
+01_GWAS_and_loci	clump_p1_lead_threshold	9.008e-07
+01_GWAS_and_loci	clump_p2_member_threshold	1 (no p-value condition on members)
+01_GWAS_and_loci	clump_r2	0.5
+01_GWAS_and_loci	clump_kb	2000
+01_GWAS_and_loci	max_span_kb	4000
+01_GWAS_and_loci	gap_rule_kb	50
+01_GWAS_and_loci	n_loci	36
+01_GWAS_and_loci	n_lead_only_loci	4
+01_GWAS_and_loci	median_span_kb	93.5
+01_GWAS_and_loci	n_extra_subthreshold_peaks	0
+03_candidate_genes	loci_handoff_table	Table_loci_for_gene_search.tsv
+03_candidate_genes	n_loci_received	36
+03_candidate_genes	n_loci_searched	36
+03_candidate_genes	subthreshold_peaks_in_handoff	0
+03_candidate_genes	subthreshold_peaks_searched	0
+03_candidate_genes	flank_bp_each_side	0
+03_candidate_genes	search_interval_rule	search interval = step-01 LD locus span, no flank added
+03_candidate_genes	total_search_space_Mb	7.91
+03_candidate_genes	annotation_source	Hordeum_vulgare.MorexV3_pseudomolecules_assembly.62.gff3.gz (Ensembl Plants r62)
+03_candidate_genes	gene_feature_used	GFF3 col3 == gene
+03_candidate_genes	chromosomes_searched	1H-7H (unplaced CAJHDD* scaffolds excluded)
+03_candidate_genes	n_genes_in_annotation	35,106
+03_candidate_genes	bedtools_version	v2.30.0
+03_candidate_genes	n_gene_locus_rows	55
+03_candidate_genes	n_unique_genes	55
+03_candidate_genes	n_loci_without_genes	21
+03_candidate_genes	date_run	2026-09-10
