@@ -1,0 +1,3 @@
+trait	eps	test	g1	g2	p	p.adj	sym	y
+fiber	0.9	Wilcoxon vs largest group, Holm	A	B	0.00210379137544606	0.00210379137544606	**	1.46166471048318
+starch	0.9	Wilcoxon vs largest group, Holm	A	B	0.00107589424545766	0.00107589424545766	**	18.1464658994932

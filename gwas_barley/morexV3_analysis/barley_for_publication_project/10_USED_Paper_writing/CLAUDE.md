@@ -101,6 +101,38 @@ change) > section materials (after checking) > published papers > thesis.
 - **Do not invent a new style.** Keep the mini paper's structure and depth. The change is that this is a full
   paper built on the new analyses, not a condensed one: expand and add where the condensed version had to cut,
   without drifting from its voice or its level of detail.
+- **Write for the reader, never against the previous analysis.** (Rule added 2026-09-23 after a Ch. 3 draft.)
+  The reader has never seen the earlier runs, the retired parameters or the v1 pipeline, so a sentence that
+  exists only to answer a criticism of them is meaningless to them and must not be written. The test: strike
+  the clause and ask whether the reader loses anything. Clauses like *"so that neither the grouping nor the
+  test was tuned per gene"*, *"one fixed set of parameters for every gene"*, *"used exactly as defined"*,
+  *"the correction is applied only once"* are defences of a method choice — they belong in **Materials and
+  methods**, or nowhere. Exception: a guarantee the reader needs in order to trust the result (for example
+  that the elite cultivars took no part in defining the haplotype groups, which rules out circularity) is a
+  fact about the analysis, not a defence, and stays.
+- **Report; do not declare what you report.** (Added 2026-09-23.) Sentences of the form *"loci are reported
+  alongside genes throughout"*, *"effect sizes are given for every gene"*, *"this is stated for each locus"*
+  describe the write-up rather than the study. Drop them and let the text do the thing: if loci belong
+  beside genes, put them there. The reader never needs to be told what they are about to be told.
+- **Method detail belongs in Materials and methods.** Results names the test only as far as its statistics
+  need (e.g. "Kruskal-Wallis, Benjamini-Hochberg within trait, q <= 0.05"); windows, parameter values and
+  their justification go to M&M.
+- **Materials and methods: E. Potapenko's voice** (user decision 2026-09-30, M&M voice review MM1–MM11; log in
+  `new_publishing_paper/build/REVIEW_2026-09-27_Results_Discussion.md`). Model: the M&M of Potapenko et al. 2026
+  *Mol Ecol* and *Mol Biol Evol* (`reference_sources/`). Applies to any later change to the M&M:
+  - **Aim first, then the tool:** "To define loci, we grouped…", "To test whether…, we…". Use **"we"** at paragraph
+    openings (user-approved); passive is fine elsewhere.
+  - **Cite, do not repeat, what is already published:** "as described in detail by Potapenko et al. (2026a).
+    Briefly, …". **Every detail kept next to such a citation must be verified in the cited paper** (user rule).
+  - **Name standard procedures, do not explain them** (tool, version, key setting; no formulas for λGC, BLUP
+    arithmetic, imputation internals).
+  - **No figure-construction details in the M&M:** display rules go to the figure caption (e.g. the four
+    highlighted reaction norms are named in the Fig. 1b caption).
+  - **No results in the M&M** (values go to the Results or the Online Resource caption), and a method choice is
+    justified in one clause at most.
+  - **Plain sentences:** one action per sentence; no lists set off by commas mid-sentence (use a colon or
+    parentheses); define a term before using it; the trait set is "nutritional traits" ("grain composition" only
+    for the concept).
 
 ## Marking missing information (becomes a Word comment)
 
@@ -112,7 +144,12 @@ When a detail is missing and writing should go on, insert:
 
 - In the docx this becomes a **Word comment** holding the TODO note, anchored to the placeholder text **highlighted in yellow** (tested with pandoc 3.11).
 - **IDs must be numeric** (Word requires it) **and unique across the whole manuscript**: section number × 100 + n. Title/abstract 1–99; Introduction 101, 102…; Methods 201…; Results 301…; Discussion 401…; Declarations 601….
-- List open items: `grep -rn 'TODO:' new_publishing_paper/*.md`.
+- List open items: `grep -n 'TODO:' new_publishing_paper/Methods_Results_Discussion_Conclusions.md` (plus any `new_publishing_paper/0*.md` section file once it exists; see Manuscript layout). The M&M uses 201–237.
+- **The user's own Word comments** (converted from the Word file on 2026-09-28) keep their author and follow the same
+  numbering: 311–319 in the Results, 414–416 in the Discussion (412 and 413 removed 2026-09-30, review item 11). The next
+  free IDs are **320** and **421**. Retired, never reuse: 403, 404, 405, 417, 418 (418 drafted, never applied). The
+  dir-11 carrier-origin Online Resource is cited under TODOs 419 and 420. Pandoc cannot write Word reply threads, so a reply carries `parent="<id>"` in the md and
+  appears in Word as a separate comment on the same text.
 - `<!-- src: … -->` comments are invisible in Word; TODO comments are visible. Use each for its own purpose.
 
 ---
@@ -134,7 +171,7 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | Fiber/starch 7H trade-off direction | `04_.../07_fiber_starch_tradeoff_direction` (on V1) | none | **OLD-ONLY**, not re-run |
 | Elite lines vs wild haplotypes | none | `07_USED_elite_lines_compariosn_to_wild_lines` | **NEW** |
 | v2 ↔ v3 pruning comparison | none | `01_.../scripts/05_comparison_v2_v3` | **NEW** (methods justification) |
-| Assembled figures | `06_USED_figures` | `08_USED_figures**NOT_UPDATED**` | byte-identical to old: **not a source**; old Fig 3–4 content is obsolete |
+| Assembled figures | `06_USED_figures` | `08_USED_creating_figures` (renamed from `08_USED_figures**NOT_UPDATED**` 2026-09-22) | Figure_1/2 outputs byte-identical to old; **Fig. 3 rebuilt** by `make_figure_3.R` and **Fig. 4 rebuilt** by `make_figure_4.R` (TAG spec, approved 2026-09-22 / 2026-09-23). Old Fig 3–4 content is obsolete and their outputs were deleted |
 
 ## What changed: key differences to carry into Methods, Results and Discussion
 
@@ -150,7 +187,7 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | Haplotype result | 76 tested / 48 significant | **30 tested / 23 significant** (12 loci) |
 | Protein | 1 locus, 1 gene | 2 loci, 6 genes, **0 testable → no protein gene** |
 | Final genes | Pho `3HG0301750`, PHT `3HG0301710` (starch); AP2/ERF (β-glucan); BAHD (fiber) | **GPAT6 `3HG0301300`, GH17 `5HG0487060` (fiber); PHT4;3 `3HG0301710` (starch)**. Only PHT carries over, and β-glucan has no presented gene |
-| Gene selection logic | biological plausibility after the stats | protein function + literature only; stats not used for selection (`TRAIT_CANDIDACY.md`) |
+| Gene selection logic | biological plausibility after the stats | **still two-stage**: significance is the gate (only the 23 haplotype-significant genes are considered), then protein function + literature choose among them; rank by q / effect size is **not** used to choose among the 23 (`TRAIT_CANDIDACY.md`) |
 | 7H shared fiber/starch locus | 3 dual-trait genes (`7HG0729020/090/100`), inverse haplotype direction; central to the Discussion "carbon-allocation" argument | both loci still exist (`fiber_L17` 7H:573606306; `starch_L05` 7H:573606460, now significant) **but those genes are not in the new step-03 candidates or V4 significant genes**. Do not reuse that evidence; the trade-off argument must stand on the 00_THIN phenotype/ecology results or be re-analysed |
 | LD decay | set the ±200 kb gene window | descriptive context only; gene window no longer depends on it |
 | Elite lines | not in the paper | new Results subsection (step 07) |
@@ -167,6 +204,7 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | Haplotypes | `04_.../04_runs/loci_LDspan_eps06_V4/Stats/results_chapter_numbers.txt`, `Significant_genes/significant_genes.tsv` |
 | Annotation | `05_.../08_USED_annotation_master/results/tables/Table_significant_genes_paper.tsv` |
 | Final 3 genes | `06_USED_genes_selected_to_present/README.md`, `TRAIT_CANDIDACY.md` |
+| **Table 2** (the 3 genes; added 2026-09-27) | `06_USED_genes_selected_to_present/results/tables/Table_2_genes_carried_forward.md`, written by `06_.../scripts/01_make_table2_paper.R`; pasted verbatim into the manuscript. **The user transposed Table 2 in Word on 2026-09-28** (genes as columns); the working file keeps that layout and the script still writes the original one (user: leave it) |
 | Elite lines | `07_.../results/tables/results_chapter_numbers.txt` + README |
 
 ## Figure sources (new)
@@ -174,14 +212,14 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | content | files |
 |---|---|
 | Phenotype / ecology | `00_THIN_.../outputs/subsection_1/png/`, `C2_*/figures/` |
-| Manhattan (loci painted), QQ | `01_.../results/00_FINAL_BLUP_3PC/02_loci_FINAL/figures/manhattan_*__loci_r05.png`, `04_diagnostics/qq/` |
+| **Fig. 3** Manhattan (loci painted) + QQ, **approved 2026-09-22** | `08_USED_creating_figures/Figure_3/Fig3.png` (docx) / `Fig3.tif` (submission), `make_figure_3.R`. Step-01 working versions: `01_.../02_loci_FINAL/figures/manhattan_*__loci_r05.png`, `04_diagnostics/qq/` |
 | LD decay | `02_.../results/figure_ld_decay_{genomewide,perchromosome}.png` |
-| Haplotypes | `04_.../04_runs/loci_LDspan_eps06_V4/Significant_genes/{by_trait,CombinedPDF,Heatmaps}`; `06_.../{fiber,starch}/*.pdf` |
+| **Fig. 4** Haplotype violins + elite barcodes, **approved 2026-09-23** | `08_USED_creating_figures/Figure_4/Fig4.png` (docx) / `Fig4.tif` (submission), `make_figure_4.R`. Working versions: `07_.../results/figures/shared_sites/`, `04_.../04_runs/loci_LDspan_eps06_V4/Significant_genes/{by_trait,CombinedPDF,Heatmaps}`, `06_.../{fiber,starch}/*.pdf` |
 | Elite vs wild | `07_.../results/figures/{shared_sites,filled_marked,filled_silent}/` |
 
 ## Statements the READMEs require in the manuscript
 
-- **ε is not an r² cutoff.** It is a Euclidean radius in r²-profile space; its stringency depends on the SNP count (04 README: "State this in the methods").
+- ~~**ε is not an r² cutoff** — state in the methods~~ **Withdrawn 2026-09-23 (user decision):** not written in the manuscript. Methods give ε = 0.6 and MGmin = 2 as fixed, with the genotype-only grounds for the choice (`04_.../README.md` § The two fixed parameters), and no parameter-space explanation. The point stays recorded in the step-04 README for future runs.
 - BH remains valid under LD (positive regression dependence), and genes that could not be tested are excluded from the BH denominator but reported.
 - **Elite lines:** Morex (the reference genome) is itself an elite cultivar. For GH17 and PHT4;3 the elite "match" is reference identity only; **only GPAT6 supports a shared-haplotype claim.** The figure shows which haplotypes elite lines carry, not that breeding selected them.
 
@@ -190,10 +228,51 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 ## Manuscript layout (`new_publishing_paper/`)
 
 ```
-00_title_abstract_keymessage.md  01_introduction.md  02_materials_methods.md
-03_results.md  04_discussion.md  05_references.md  06_statements_declarations.md
+Methods_Results_Discussion_Conclusions.md               <- THE working file (M&M + Results + Discussion + Conclusions)
+Methods_Results_Discussion_Conclusions_reading_copy.md  <- same text without comments / hidden notes (generated)
+00_title_abstract_keymessage.md  01_introduction.md  05_references.md  06_statements_declarations.md   (not written yet)
 figures/  tables/  supplementary/  build/
 ```
+**Materials and methods, Results, Discussion and Conclusions are one file since 2026-09-30 (user decision):
+`Methods_Results_Discussion_Conclusions.md` is the working file. Edit only that file.** It was built by concatenating the
+approved M&M (`02_materials_methods.md`, written 2026-09-29/30 from `build/MM_BLUEPRINT.md`) and the R+D+C working file
+`build/UPDATED_Results_Discussion_Conclusions.md` (itself converted 2026-09-28 from the user's Word-edited
+`build/Results_Discussion_Conclusions.docx`, all Word comments kept, hidden notes restored). Bodies unchanged; only the
+figure paths were re-rooted from `build/` to `new_publishing_paper/` (verified). Its first-line comment records this.
+- **Reading copy:** `Methods_Results_Discussion_Conclusions_reading_copy.md` has every Word comment and hidden `<!-- -->`
+  note removed, for reading. **Never edit it; regenerate it after every change** to the working file:
+  `python3 build/make_reading_copy.py Methods_Results_Discussion_Conclusions.md Methods_Results_Discussion_Conclusions_reading_copy.md`
+  (run from `new_publishing_paper/`).
+- **Removed 2026-09-30 (user):** `02_materials_methods.md` (now inside the working file), the frozen copies
+  `03_results.md`, `04_discussion.md`, `Results_Discussion.md`, `Results_Discussion_Conclusions.md`, and the M&M-only
+  reading copy `build/MM_reading_copy.md`. Also removed the same day (user): the frozen pre-review copies
+  `Methods_Results_Discussion_Conclusions_BEFORE_REVIEWING_AND_SHORTENING.md` (+ its reading copy), after the M&M voice
+  review was approved.
+- **M&M voice review, 2026-09-30 (done):** items MM1–MM11 (`build/proposed/MM*_edits.json`, previews `MM*_PROPOSED.md`)
+  rewrote the M&M in E. Potapenko's voice (rules under "Writing style"), about 3,530 → 3,190 visible words. Structure
+  changes: the 7H subsection is now the last paragraph of "Functional annotation and choice of candidate genes"; the
+  M&M ends with two new subsections, **Data and material availability** (ENA accession, material-sharing placeholder,
+  TODOs 234–235) and **Use of generative artificial intelligence** (TODO 236). All M&M TODOs 201–237 are still open.
+- **`build/DECLARATIONS_HANDOVER.md`:** text moved out of the M&M for the Declarations session (the Zenodo VCF /
+  BLUP Online Resource / GitHub code sentence of the Data availability statement), word for word.
+- **Superseded, kept for the record:** `build/UPDATED_Results_Discussion_Conclusions.md` (top note says so; never edit
+  it). Historical notes in `build/` (`BLUEPRINT.md`, `MM_BLUEPRINT.md`, `DISCUSSION_CANDIDATES.md`, `CHANGED.md`,
+  `MM_HANDOVER_from_review.md`, the review log) may name the old file names inside their records; their headers point
+  to the working file.
+
+**Changing the working file: propose first, apply after approval (since 2026-09-27).** `build/proposed/review_tool.py`
+targets `Methods_Results_Discussion_Conclusions.md` since 2026-09-30 (`WORK` in the script) and regenerates the reading
+copy after every `apply`. It matches the exact old text, not line numbers, so the merge does not affect it.
+- Each change is an item with an edit file, `build/proposed/<ID>_edits.json`, holding exact old text and new
+  text marked `{-deleted-}{+inserted+}`.
+- `python3 build/proposed/review_tool.py preview <ID>` writes `<ID>_PROPOSED.md`. The user reads it in the VS
+  Code markdown preview: red strikethrough for deletions, green for insertions, each paragraph in full.
+- `review_tool.py apply <ID>` writes the change only after approval, and refuses if anything else in the file
+  would change.
+- **The user reads only the proposal file, not the chat.** Put every question in the file's "Questions for
+  you" block (`{"questions": [...], "edits": [...]}`).
+- Decisions are logged at the end of `build/REVIEW_2026-09-27_Results_Discussion.md`.
+
 File order follows TAG (declarations after references); formatting rules are in `TAG_requirements.md`.
 - **Figures:** in the md, link the source output directly (relative path). TAG wants figures embedded in the text, so the docx build embeds them. For submission, export `figures/Fig1.eps|tif` (Arial 8–12 pt, 84 or 174 mm wide, panels a/b/c).
 - **Tables:** the script TSV/CSV is the source. Small tables go in as pipe tables (they become real Word tables); large ones go to `supplementary/ESM_N.xlsx`, cited as "Online Resource N".
@@ -204,12 +283,19 @@ File order follows TAG (declarations after references); formatting rules are in 
 Pandoc 3.11 (not on PATH): `/mnt/data/shahar/gwas_barley/tools/pandoc-3.11/bin/pandoc`
 ```bash
 P=/mnt/data/shahar/gwas_barley/tools/pandoc-3.11/bin/pandoc
-# md → docx (all sections, in order; styles from a Word template if present)
-$P new_publishing_paper/0*.md -o new_publishing_paper/build/manuscript.docx --resource-path=.:.. [--reference-doc=template.docx]
+# md → docx (all sections, in order; styles from a Word template if present). Run from new_publishing_paper/,
+# because the figure paths in the md are relative to it. M&M + Results + Discussion + Conclusions =
+# Methods_Results_Discussion_Conclusions.md. List only the section files that exist (00/01/05/06 are not written yet).
+cd new_publishing_paper
+$P 00_*.md 01_*.md Methods_Results_Discussion_Conclusions.md 05_*.md 06_*.md -o build/manuscript.docx --resource-path=. [--reference-doc=template.docx]
+# M&M + Results + Discussion + Conclusions only (tested 2026-09-30: 66 Word comments, 5 figures embedded)
+$P Methods_Results_Discussion_Conclusions.md -o build/Methods_Results_Discussion_Conclusions.docx --resource-path=.
+# reading copy (after every change to the working file)
+python3 build/make_reading_copy.py Methods_Results_Discussion_Conclusions.md Methods_Results_Discussion_Conclusions_reading_copy.md
 # docx → md (e.g. supervisor's edited version); --track-changes=all keeps Word comments and tracked changes
 $P in.docx -t markdown --wrap=none --track-changes=all --extract-media=media_in -o in.md
-# open TODO items
-grep -rn 'TODO:' new_publishing_paper/*.md
+# open TODO items (the working file only; the reading copy has none)
+grep -n 'TODO:' new_publishing_paper/Methods_Results_Discussion_Conclusions.md
 ```
 Word conversions leave `[..]{dir="rtl"}` spans (Hebrew keyboard artefacts). Strip them.
 

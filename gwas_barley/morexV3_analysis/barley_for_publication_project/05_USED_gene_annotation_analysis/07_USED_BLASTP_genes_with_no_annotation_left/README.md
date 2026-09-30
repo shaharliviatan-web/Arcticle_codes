@@ -55,7 +55,10 @@ tool paths (`/usr/bin/blastp`); no `/tmp` or `$HOME` writes.
 ## Versions
 
 See `logs/versions.txt`. This run: `blastp 2.12.0+`, NCBI nr (remote),
-`Viridiplantae[ORGN]`, e-value <= 1e-5, top 5 hits, accessed 2026-06-02 (UTC).
+`Viridiplantae[ORGN]`, e-value <= 1e-5, top 5 hits, accessed 2026-09-09 15:48 UTC for the
+2 residual genes of the current run (corrected 2026-09-30 from 2026-06-02, the earlier
+45-gene run, per `logs/versions.txt`; user-approved). Neither residual gene received a
+confident nr call.
 The remote search uses NCBI's then-current nr; record the access date for Methods.
 
 ## Classification

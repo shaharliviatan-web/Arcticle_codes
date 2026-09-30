@@ -27,11 +27,41 @@ window_bp: 1000
 #   n_snps and the epsilon at which a window collapses to one marker group), so a fixed
 #   epsilon is stricter on sparse windows and looser on dense ones. Stated in methods.
 #
-#   0.6 was chosen because, across the 66 genes of the v1 run: 92% of genes yield a
-#   usable grouping (>=2 haplotype groups), the accession assignment rate has plateaued
-#   (65%, flat from 0.5 onward), the median is 3 haplotype groups, and it is NOT at the
-#   boundary of the tested range -- unlike 0.85, which maximised significance for PHT
-#   off its stable plateau. See _ARCHIVE_v1_epsilon_sweep_2026-09-08/README.md.
+#   0.6 was fixed in advance, applied to every gene, and chosen on GENOTYPE-ONLY
+#   grounds: crosshap builds haplotype groups from genotypes alone, the phenotype is
+#   never used, and no p-value entered the choice.
+#
+#   THE TRADE-OFF (re-measured 2026-09-30 on the actual 55-gene V4 set; supplementary
+#   table at 04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_choice_supplementary.tsv):
+#
+#     eps   genes testable   accessions assigned   median groups
+#     0.2      23 / 55            70.0 %                2
+#     0.4      27 / 55            69.3 %                3
+#     0.6      30 / 55            65.0 %                3   <- used
+#     0.8      34 / 55            60.9 %                4
+#     1.0      33 / 55            60.3 %                4
+#
+#   Assignment rate and gene coverage move monotonically AGAINST each other. A low
+#   epsilon assigns a high proportion of accessions but only in the minority of genes
+#   whose variants cluster tightly (23 of 55 at 0.2, and only 2 groups on average). A
+#   high epsilon makes more genes testable but leaves more accessions unassigned in
+#   each. Neither extreme is preferable: an unassigned accession contributes nothing to
+#   a gene's test, and an untestable gene contributes nothing at all.
+#
+#   0.6 sits at the midpoint of that trade-off -- 65% of accessions assigned while 55%
+#   of candidate genes become testable, at a median of 3 haplotype groups. It is NOT the
+#   maximum of either metric and is not claimed to be; the point is that it is balanced,
+#   pre-declared, and uniform across genes.
+#
+#   Superseded claim, recorded so it is not reintroduced: an earlier note here said 0.6
+#   had "the highest assignment rate (~70%)". That was measured on a retired 64-gene set
+#   and on a grid that omitted eps < 0.6. On the real gene set 0.2 leads on assignment
+#   and 0.8 on coverage. The trade-off argument above replaces it.
+#
+#   0.85 was rejected because it maximised significance for PHT off its stable plateau.
+#   Re-checked 2026-09-30 against three genotype-only criteria (coverage/assignment,
+#   group evenness, smallest-group size): none selects 0.85, and it is worse than 0.6 on
+#   evenness. Choosing it would be selection on the outcome.
 #
 # MGmin = 2 -- DBSCAN minPts (minimum SNPs to form a marker group). All four v1
 #   publication genes used MGmin 2.

@@ -21,7 +21,12 @@
 # effects model are IDENTICAL to v2:
 #
 #   Model used :  trait ~ (1 | short_Tag) + (1 | season_Bl)
-#   Package    :  lme4 v1.1.37
+#   Package    :  lme4 v1.1.35.3, R 4.1.2 (on fidel)
+#   (Version corrected 2026-09-29, user-approved: this header said lme4 v1.1.37,
+#    from an earlier Posit Cloud setup; the outputs were produced on fidel with
+#    R 4.1.2 and lme4 1.1.35.3. The two H2 table footnotes below were corrected
+#    the same day. Nothing was re-run, so the existing Table1_H2.* files still
+#    print the old version string; the manuscript does not use them.)
 #
 # Filters applied ONCE, globally, before anything else runs:
 #   1. Starch + 8.85 correction for season 2021    (post-NIR adjustment)
@@ -418,7 +423,7 @@ gt_table <- h2_table %>%
   ) %>%
   cols_hide(columns = TraitClass) %>%
   tab_source_note(
-    source_note = md("*H*\u00B2 was estimated from a linear mixed model fit per trait with genotype and season-by-block as crossed random effects (lme4 v1.1.37). Per-trait local quality control was applied: missing values were excluded and observations exceeding +/- 3 SD from the trait mean were removed prior to model fitting. *H*\u00B2 = \u03C3\u00B2_G / (\u03C3\u00B2_G + \u03C3\u00B2_E + \u03C3\u00B2_R).")
+    source_note = md("*H*\u00B2 was estimated from a linear mixed model fit per trait with genotype and season-by-block as crossed random effects (lme4 v1.1.35.3). Per-trait local quality control was applied: missing values were excluded and observations exceeding +/- 3 SD from the trait mean were removed prior to model fitting. *H*\u00B2 = \u03C3\u00B2_G / (\u03C3\u00B2_G + \u03C3\u00B2_E + \u03C3\u00B2_R).")
   ) %>%
   tab_options(
     heading.title.font.size      = 14,
@@ -465,7 +470,7 @@ if (have_flextable) {
                  part = "header") %>%
     hline_bottom(border = officer::fp_border(color = "black", width = 1.5),
                  part = "body") %>%
-    add_footer_lines(values = "H\u00B2 estimated from an LMM fit per trait with genotype and season-by-block as crossed random effects (lme4 v1.1.37). Per-trait local QC: NA exclusion + +/- 3 SD outlier removal. H\u00B2 = sigma2_G / (sigma2_G + sigma2_E + sigma2_R).") %>%
+    add_footer_lines(values = "H\u00B2 estimated from an LMM fit per trait with genotype and season-by-block as crossed random effects (lme4 v1.1.35.3). Per-trait local QC: NA exclusion + +/- 3 SD outlier removal. H\u00B2 = sigma2_G / (sigma2_G + sigma2_E + sigma2_R).") %>%
     italic(part = "footer") %>%
     flextable::fontsize(size = 8, part = "footer") %>%
     autofit()

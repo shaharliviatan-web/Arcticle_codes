@@ -10,7 +10,9 @@
 
 # ---- Roots ------------------------------------------------------------------
 PROJECT_ROOT="/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project"
-STEP_ROOT="${PROJECT_ROOT}/07_elite_lines_compariosn_to_wild_lines"
+# The directory was renamed to 07_USED_... on 2026-09-17 (project convention:
+# "USED_" marks a step that is live). Path updated 2026-09-18.
+STEP_ROOT="${PROJECT_ROOT}/07_USED_elite_lines_compariosn_to_wild_lines"
 
 DIR_CONFIG="${STEP_ROOT}/config"
 DIR_SCRIPTS="${STEP_ROOT}/scripts"

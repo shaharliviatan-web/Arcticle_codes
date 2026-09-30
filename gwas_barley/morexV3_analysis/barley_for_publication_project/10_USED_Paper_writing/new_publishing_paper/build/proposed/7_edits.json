@@ -1,0 +1,40 @@
+{
+  "notes": [
+    "**Section 7: sentences over 45 words** outside Sariel's own text (Ch. 1, Discussion §1, and §2 ¶1 and ¶3). Each is split at its natural joint, and nothing is reworded beyond the joint.",
+    "**Left as they are, on purpose:**\n> - the GWAS model sentence in Results Ch. 2 ¶1 (59 words), which is Sariel's form and was kept in 2.1;\n> - Sariel's own haplotype sentence in Ch. 3 ¶1 (42 words);\n> - sentences of 41–43 words, which read fine and each carry one idea.",
+    "After this, **no sentence of ours is over 45 words** except the GWAS model sentence."
+  ],
+  "questions": [],
+  "edits": [
+    {
+      "where": "Results Ch. 2 ¶3 (\"Most lead SNPs…\"), two sentences (45 and 51 words)",
+      "why": "Each long sentence becomes two at its natural joint (\", and…\"). The words are unchanged.",
+      "old": "(median MAF = 0.068), and only two lead SNPs, both associated with starch, carried a common minor allele (MAF = 0.42 at 3H:530,660,057 and 6H:525,776,080). The direction of the allelic effects was consistent within traits. At every β-glucan and fiber locus the minor allele was associated with higher trait values (allelic effects of 0.15–0.36% and 0.12–0.25%, respectively), whereas at every starch locus it was associated with lower starch (−1.31 to −2.69%), and the two protein loci showed opposite effects",
+      "new": "(median MAF = 0.068){-, and only-}{+. Only+} two lead SNPs, both associated with starch, carried a common minor allele (MAF = 0.42 at 3H:530,660,057 and 6H:525,776,080). The direction of the allelic effects was consistent within traits. At every β-glucan and fiber locus the minor allele was associated with higher trait values (allelic effects of 0.15–0.36% and 0.12–0.25%, respectively), whereas at every starch locus it was associated with lower starch (−1.31 to −2.69%){-, and the-}{+. The+} two protein loci showed opposite effects"
+    },
+    {
+      "where": "Results Ch. 3 ¶6 (elite, \"To ask which of these haplotypes…\"), first sentence (46 words)",
+      "why": "Split in two: what was genotyped, then where it is shown.",
+      "old": "from an independent MorexV3 call set and drawn beneath the wild haplotype groups (Fig. 4d–f; ",
+      "new": "from an independent MorexV3 call set{- and-}{+. Their genotypes were+} drawn beneath the wild haplotype groups (Fig. 4d–f; "
+    },
+    {
+      "where": "Results Ch. 4 ¶1 (\"To search for a candidate gene…\"), last sentence (48 words)",
+      "why": "Split in two: the family's general activity, then the two examples with their citations.",
+      "old": "Members of this family act on ester bonds in the plant cell wall and cuticle: in rice, the GDSL esterase DARX1",
+      "new": "Members of this family act on ester bonds in the plant cell wall and cuticle{-: in-}{+. In+} rice, the GDSL esterase DARX1"
+    },
+    {
+      "where": "Results Ch. 4 ¶3 (\"In the haplotype analysis…\"), the haplotype-B sentence (56 words)",
+      "why": "Split in two: who haplotype B is, then its effects on the two traits.",
+      "old": "The minority haplotype B comprised exactly the 34 accessions carrying the minor allele at both lead SNPs, and had higher fiber",
+      "new": "The minority haplotype B comprised exactly the 34 accessions carrying the minor allele at both lead SNPs{-, and had-}{+. It had+} higher fiber"
+    },
+    {
+      "where": "Discussion §3 ¶3 (β-glucan, \"β-glucan produced…\"), two sentences (45 and 46 words)",
+      "why": "Each long sentence becomes two. The citations stay where they are, and the TODO 408 comment on \"(Shu and Rasmussen 2014)\" is untouched.",
+      "old": "none of them associated with grain β-glucan content, which the authors attributed to the indispensable role of the gene in β-glucan synthesis (Garcia-Gimenez et al. 2019). A gene can thus be essential for a trait and still show no association, because association requires segregating functional variation. This outcome is common rather than exceptional, as other association studies also failed to detect *HvCslF6* (Houston et al. 2014; Geng et al. 2021), whereas a panel of European spring barley detected its region",
+      "new": "none of them associated with grain β-glucan content{-, which the authors attributed-}{+. The authors attributed this conservation+} to the indispensable role of the gene in β-glucan synthesis (Garcia-Gimenez et al. 2019). A gene can thus be essential for a trait and still show no association, because association requires segregating functional variation. This outcome is common rather than exceptional{-, as-}{+:+} other association studies also failed to detect *HvCslF6* (Houston et al. 2014; Geng et al. 2021){-, whereas a-}{+. A+} panel of European spring barley {-detected-}{+did detect+} its region"
+    }
+  ]
+}

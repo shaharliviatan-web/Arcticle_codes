@@ -1,0 +1,15 @@
+gene	gene_id	trait	group	n	n_assigned_gene	n_groups_gene	mean_BLUP_fiber	mean_BLUP_starch	North	Coast	Desert	HZ1	HZ2	HZ3	n_regions	n_sites	n_desert_sites	top_site	top_site_n	desert_pct_group	desert_pct_other_groups	desert_OR	desert_direction	p_desert	q_desert	p_regions_group	q_regions_group	p_regions_gene	q_regions_gene
+GPAT6	HORVU.MOREX.r3.3HG0301300	fiber	A	85	123	3	-0.12	NA	12	17	6	17	19	14	6	23	1	Afek	7	7.1	34.2	0.15	depleted	0.048	0.072	0.272	0.38	0.0323	0.0972
+GPAT6	HORVU.MOREX.r3.3HG0301300	fiber	B	20	123	3	-0.081	NA	5	5	1	7	1	1	6	11	1	Mount Hermon	4	5	17.5	0.25	depleted	0.407	0.407	0.38	0.38	0.0323	0.0972
+GPAT6	HORVU.MOREX.r3.3HG0301300	fiber	C	18	123	3	0.281	NA	0	0	12	0	0	6	2	5	3	Masada	6	66.7	6.7	26.44	enriched	0.0114	0.0342	0.0198	0.0594	0.0323	0.0972
+GH17	HORVU.MOREX.r3.5HG0487060	fiber	A	36	107	5	-0.169	NA	12	1	3	4	9	7	6	15	1	Mount Hermon	5	8.3	31	0.21	depleted	0.036	0.045	0.159	0.265	0.0486	0.0972
+GH17	HORVU.MOREX.r3.5HG0487060	fiber	B	31	107	5	0.007	NA	8	3	2	4	6	8	6	15	1	Cabri	4	6.5	30.3	0.16	depleted	0.0226	0.045	0.454	0.568	0.0486	0.0972
+GH17	HORVU.MOREX.r3.5HG0487060	fiber	C	16	107	5	0.195	NA	0	0	15	1	0	0	2	4	3	Maale Akrabim	7	93.8	11	112.04	enriched	0.0086	0.043	0.0543	0.136	0.0486	0.0972
+GH17	HORVU.MOREX.r3.5HG0487060	fiber	D	14	107	5	-0.094	NA	0	2	0	9	1	2	4	7	0	Alon Hagalil	3	0	26.9	0	depleted	0.031	0.045	0.0535	0.136	0.0486	0.0972
+GH17	HORVU.MOREX.r3.5HG0487060	fiber	E	10	107	5	0.229	NA	1	2	5	1	0	1	5	5	1	Mount Ramon	5	50	20.6	3.79	enriched	0.338	0.338	0.92	0.92	0.0486	0.0972
+PHT4;3	HORVU.MOREX.r3.3HG0301710	starch	A	137	205	4	NA	1.632	26	33	7	29	27	15	6	25	2	Mount Tayasim	9	5.1	39.7	0.08	depleted	6e-04	0.0024	0.0063	0.0252	0.293	0.321
+PHT4;3	HORVU.MOREX.r3.3HG0301710	starch	B	41	205	4	NA	-1.601	4	6	14	6	5	6	6	16	4	Maale Akrabim	6	34.1	12.2	3.7	enriched	0.0744	0.107	0.573	0.764	0.293	0.321
+PHT4;3	HORVU.MOREX.r3.3HG0301710	starch	C	17	205	4	NA	-5.545	2	0	7	3	0	5	4	6	1	Mount Ramon	7	41.2	14.4	4.13	enriched	0.289	0.289	0.803	0.803	0.293	0.321
+PHT4;3	HORVU.MOREX.r3.3HG0301710	starch	D	10	205	4	NA	-0.174	0	0	6	0	0	4	2	4	2	Arad	5	60	14.4	8.79	enriched	0.0806	0.107	0.165	0.33	0.293	0.321
+GDSL	HORVU.MOREX.r3.7HG0729030	fiber; starch	A	212	246	2	-0.053	0.811	34	41	32	36	27	42	6	28	5	Zichron Yaakov	10	15.1	20.6	0.69	depleted	0.673	0.673	0.321	0.321	0.321	0.321
+GDSL	HORVU.MOREX.r3.7HG0729030	fiber; starch	B	34	246	2	0.098	-2.386	0	5	7	7	14	1	5	10	2	Tirat Zvi	8	20.6	15.1	1.46	enriched	0.673	0.673	0.321	0.321	0.321	0.321

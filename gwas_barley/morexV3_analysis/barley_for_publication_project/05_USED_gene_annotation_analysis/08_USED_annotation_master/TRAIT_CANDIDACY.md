@@ -20,8 +20,10 @@ independent questions, and the pipeline only answers the first.
 
 Three deliberate constraints on what follows:
 
-1. **Judged on protein function alone.** The crosshap q-values, η² and effect sizes
-   played no part. A gene is not more believable here because it ranked first.
+1. **Significance is the gate; function decides among the survivors.** Only the 23
+   haplotype-significant genes (BH q ≤ 0.05) were eligible at all. *Among those 23*, genes
+   were judged on protein function alone — the crosshap q-values, η² and effect sizes played
+   no part in choosing between them. A gene is not more believable here because it ranked first.
 2. **Believability, not proof.** The bar is "a reader can accept this connection from
    the gene's function without a supporting experiment" — not causality.
 3. **No trait is favoured.** Protein contributes no genes (nothing testable in V4), so
@@ -191,4 +193,4 @@ rank-vs-plausibility divergence as in `fiber_L08`.
 | source table | `results/tables/Table_significant_genes_paper.tsv` (built 2026-09-10) |
 | step-04 run | `loci_LDspan_eps06_V4` |
 | tiers | strong 3 · plausible 5 · unlikely 13 · no_annotation 2 |
-| basis | protein function and published literature only — **step-04 statistics not used** |
+| basis | only the 23 haplotype-significant genes eligible (**significance is the gate**); among them, protein function and published literature only — **q-rank and effect sizes not used to choose between them** |

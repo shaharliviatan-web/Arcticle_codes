@@ -1,0 +1,25 @@
+{
+  "questions": [
+    "Change 3 **moves** the protein-genomics sentence in Discussion §2 ¶3 to the end of its paragraph (it keeps TODO 402). If you would rather **drop** it (the general point that an untested gene is not a gene without effect is in §4 ¶1), write **\"1.10 drop the §2 sentence\"**. TODO 402, the check of how protein was quantified, would then need a new place."
+  ],
+  "edits": [
+    {
+      "where": "Results Ch. 3 ¶1 (\"To resolve the candidate genes…\"), last sentence",
+      "why": "The protein result moves here from Ch. 3 ¶2 as one clause, next to the per-trait counts of tested and significant genes. That none of its genes could be tested already says that protein contributes no gene.",
+      "old": "against 12 of 19 for fiber.",
+      "new": "against 12 of 19 for fiber{+, whereas none of the six protein genes could be tested+}."
+    },
+    {
+      "where": "Results Ch. 3 ¶2 (\"Protein was the only trait…\"), whole paragraph",
+      "why": "Merged into ¶1 (change 1). The per-gene SNP counts (0, 0, 0, 1, 2 and 5 SNPs) are dropped: Ch. 3 ¶1 already says that the untestable genes lacked the variation to define haplotypes. The hidden source note stays. Like ¶7 in item 1.7, this removes a short paragraph that stood on its own; Ch. 3 now has 6 paragraphs.",
+      "old": "Protein was the only trait for which no gene could be tested at all. Its two loci contained six candidate genes, but three of them contained no SNP in the window, a fourth contained a single SNP, and the remaining two, with two and five SNPs, yielded no haplotype group. Protein therefore contributes no candidate gene to this study.",
+      "new": "{-Protein was the only trait for which no gene could be tested at all. Its two loci contained six candidate genes, but three of them contained no SNP in the window, a fourth contained a single SNP, and the remaining two, with two and five SNPs, yielded no haplotype group. Protein therefore contributes no candidate gene to this study.-}{+<!-- 2026-09-27, review item 1.10: this paragraph was merged into Ch. 3 para 1 (\"whereas none of the six protein genes could be tested\"); the per-gene SNP counts were dropped from the text. The source note below is kept. -->+}"
+    },
+    {
+      "where": "Discussion §2 ¶3 (\"In contrast, protein…\"), last two sentences",
+      "why": "Item 2.4 (the broken link): the genomic sentence sat between Sariel's argument and \"This separation has a practical implication\", so \"this separation\" pointed to the untested genes. Moved to the end, the paragraph follows Sariel's original order (argument → practical implication) and closes on the genomic gap. TODO 402 moves with it.",
+      "old": "At the genomic level, none of the protein candidate genes could be tested, so the genetic control of protein remains [TODO: Check how grain protein was quantified (NIR calibration against Kjeldahl; Pintel MSc thesis) - it may help discuss the protein GWAS and gene-search results (two loci, no testable gene). Decided 2026-09-25: no measurement detail in the text for now]{.comment-start id=\"402\" author=\"TODO\"}[[unresolved in this panel]]{.mark}[]{.comment-end id=\"402\"}. This separation has a practical implication, as the strong starch–fiber trade-off may not impose the same constraint on protein, and increasing fiber or β-glucan need not cause a reduction in protein.",
+      "new": "{-At the genomic level, none of the protein candidate genes could be tested, so the genetic control of protein remains [TODO: Check how grain protein was quantified (NIR calibration against Kjeldahl; Pintel MSc thesis) - it may help discuss the protein GWAS and gene-search results (two loci, no testable gene). Decided 2026-09-25: no measurement detail in the text for now]{.comment-start id=\"402\" author=\"TODO\"}[[unresolved in this panel]]{.mark}[]{.comment-end id=\"402\"}.-}This separation has a practical implication, as the strong starch–fiber trade-off may not impose the same constraint on protein, and increasing fiber or β-glucan need not cause a reduction in protein.{+ At the genomic level, none of the protein candidate genes could be tested, so the genetic control of protein remains [TODO: Check how grain protein was quantified (NIR calibration against Kjeldahl; Pintel MSc thesis) - it may help discuss the protein GWAS and gene-search results (two loci, no testable gene). Decided 2026-09-25: no measurement detail in the text for now]{.comment-start id=\"402\" author=\"TODO\"}[[unresolved in this panel]]{.mark}[]{.comment-end id=\"402\"}.+}"
+    }
+  ]
+}

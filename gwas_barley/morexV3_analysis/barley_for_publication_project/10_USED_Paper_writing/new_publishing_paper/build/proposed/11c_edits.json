@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "User choice 2026-09-30 (option 1): 'environments' could be read as the growing seasons (G×E); the paper's own term for the sites is 'the environmental gradient of the collection'."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Discussion §2 ¶2 (7H), sentence 5",
+   "why": "Avoids 'environments' (= seasons in G×E); matches Results Ch. 1 ('the environmental gradient of the collection sites').",
+   "old": "and of the haplotype carrying both effects, came from all environments, so this shared signal",
+   "new": "and of the haplotype carrying both effects, came from {-all environments-}{+sites across the environmental gradient of the collection+}, so this shared signal"
+  }
+ ]
+}

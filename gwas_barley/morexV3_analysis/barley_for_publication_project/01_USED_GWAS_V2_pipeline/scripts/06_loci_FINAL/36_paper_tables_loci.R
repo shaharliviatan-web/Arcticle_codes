@@ -27,6 +27,14 @@
 #                                flag so the two sub-threshold peaks can be
 #                                switched off without editing the file.
 # Created 2026-09-08.
+#
+# BETA SIGN CONVENTION (fixed 2026-09-22): lead_beta is the effect of lead_A1, the minor
+# allele (PLINK A1 in morexV3_290.bim), so the columns lead_A1 / lead_beta read together.
+# EMMAX's .ps beta is the effect of the allele coded "2" in the --recode12 tped, i.e. PLINK A2
+# (the major allele), so it is sign-flipped here. Verified 2026-09-22 on all 36 leads: an EMMAX
+# re-run on the lead SNPs reproduces the .ps betas exactly, swapping the 1/2 codes flips every
+# sign, and OLS of the BLUP on the A2 count (+3 PCs) has the EMMAX sign at 36/36. Before this fix
+# lead_beta carried the A2 sign while sitting next to lead_A1. SE and p are unaffected.
 Sys.setenv(TMPDIR="/mnt/data/shahar/.tmp")
 suppressPackageStartupMessages(library(data.table))
 PIPE <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project/01_USED_GWAS_V2_pipeline"
@@ -65,7 +73,7 @@ add_lead <- function(D) {
            lead_A1    = bim[lead_SNP, A1],
            lead_A2    = bim[lead_SNP, A2])]
   st <- ps[.(D$trait, D$lead_SNP), .(beta, SE, P)]
-  D[, `:=`(lead_beta = round(st$beta,6), lead_SE = round(st$SE,6),
+  D[, `:=`(lead_beta = round(-st$beta,6), lead_SE = round(st$SE,6),   # -beta: EMMAX A2 effect -> A1 effect
            lead_p = signif(st$P,4), lead_neg_log10_p = round(-log10(st$P),4))]
   D[]
 }

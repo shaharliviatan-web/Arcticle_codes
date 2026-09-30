@@ -1,7 +1,7 @@
 Elite vs wild haplotype comparison -- every number in this step
 ========================================================================
 
-Generated: 2026-09-14 16:07:46
+Generated: 2026-09-27 12:06:28
 Wild haplotypes: step 04 run loci_LDspan_eps06_V4 (crosshap epsilon 0.6, MGmin 2), consumed unchanged; crosshap was NOT re-run and never saw the elite lines.
 
 [A] SOURCE OF THE ELITE GENOTYPES
@@ -41,6 +41,18 @@ Wild haplotypes: step 04 run loci_LDspan_eps06_V4 (crosshap epsilon 0.6, MGmin 2
   wild-only / elite-only = no record at that position in the other file.
   Elite-only sites are never drawn: the wild haplotype groups have no data there.
 
+  MONOMORPHIC SITES (added 2026-09-23). A site counts as monomorphic only over the
+  rows that enter this comparison: for the WILD file the accessions crosshap assigned
+  to a haplotype group for that gene (unassigned accessions are dropped from the test
+  and from the figure, so they cannot make a site informative), and for the ELITE file
+  the 5 configured lines, not the 136-line pool. all = kept + removed.
+    GPAT6    wild  (123 assigned accessions):  10 of  54 monomorphic --   9 of  43 kept,   1 of  11 removed
+    GH17     wild  (107 assigned accessions):   8 of  41 monomorphic --   8 of  33 kept,   0 of   8 removed
+    PHT4-3   wild  (205 assigned accessions):   0 of  16 monomorphic --   0 of  12 kept,   0 of   4 removed
+    GPAT6    elite (  5 lines shown)        : 235 of 244 monomorphic --  42 of  43 kept, 193 of 201 removed
+    GH17     elite (  5 lines shown)        : 286 of 306 monomorphic --  33 of  33 kept, 253 of 273 removed
+    PHT4-3   elite (  5 lines shown)        : 155 of 158 monomorphic --  12 of  12 kept, 143 of 146 removed
+
 [E] ALLELE CONCORDANCE (REF/ALT must be identical, never flipped)
   Both call sets are called against Morex V3 and the wild set carries no PLINK
   allele flip, so at a shared position REF and ALT must agree exactly. If they
@@ -76,9 +88,23 @@ Wild haplotypes: step 04 run loci_LDspan_eps06_V4 (crosshap epsilon 0.6, MGmin 2
     PHT4-3   group C  n= 17  mean=  -5.545  median=  -8.562  sd=  6.522
     PHT4-3   group D  n= 10  mean=  -0.174  median=  -1.098  sd=  4.298
 
+  Pairwise follow-up drawn as brackets on the violins, method taken from step 04
+  (04_.../01_scripts/R/plot_combined_pdf.R): Wilcoxon rank-sum of every group
+  against the LARGEST group, Holm-corrected across those k-1 tests within a gene.
+    GPAT6    A vs B  n= 85 vs  20  p=    0.258  Holm p=    0.258  ns
+    GPAT6    A vs C  n= 85 vs  18  p=  5.3e-07  Holm p= 1.06e-06  ****
+    GH17     A vs B  n= 36 vs  31  p=  0.00782  Holm p=   0.0235  *
+    GH17     A vs C  n= 36 vs  16  p= 1.86e-06  Holm p= 7.43e-06  ****
+    GH17     A vs D  n= 36 vs  14  p=     0.17  Holm p=     0.17  ns
+    GH17     A vs E  n= 36 vs  10  p=   0.0244  Holm p=   0.0489  *
+    PHT4-3   A vs B  n=137 vs  41  p=   0.0397  Holm p=   0.0793  ns
+    PHT4-3   A vs C  n=137 vs  17  p= 5.18e-05  Holm p= 0.000155  ***
+    PHT4-3   A vs D  n=137 vs  10  p=    0.165  Holm p=    0.165  ns
+
 [G] HOW THE FIGURES ARE BUILT
   Group rows are a PER-SNP MAJORITY CONSENSUS over the group's members,
-  ignoring missing calls; exact 50/50 ties are drawn as missing. A consensus is
+  ignoring missing calls; an exact 50/50 tie resolves to the REFERENCE allele
+  when REF is one of the tied states (otherwise missing). A consensus is
   used rather than one representative accession because wild missingness is
   high, so a single plant's row would show grey tiles that are artefacts of its
   sequencing rather than features of the haplotype.

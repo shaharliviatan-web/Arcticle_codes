@@ -1,0 +1,23 @@
+chr	pos	site_key	is_gwas_signal_snp	Avalon	KWS Irina	Odyssey	Laureate	LG Diablo
+7H	573603084	7H:573603084:G:T	FALSE	Reference	Reference	Reference	Reference	Reference
+7H	573603115	7H:573603115:C:T	FALSE	Reference	Reference	Reference	Reference	Reference
+7H	573603161	7H:573603161:G:T	FALSE	Reference	Missing	Reference	Reference	Reference
+7H	573603182	7H:573603182:C:T	FALSE	Reference	Reference	Reference	Reference	Missing
+7H	573603678	7H:573603678:T:C	FALSE	Reference	Reference	Reference	Reference	Reference
+7H	573603729	7H:573603729:C:T	FALSE	Alternate	Reference	Alternate	Alternate	Alternate
+7H	573603735	7H:573603735:A:G	FALSE	Alternate	Reference	Alternate	Alternate	Alternate
+7H	573604387	7H:573604387:A:G	FALSE	Reference	Reference	Reference	Reference	Reference
+7H	573604690	7H:573604690:T:C	FALSE	Missing	Reference	Reference	Reference	Reference
+7H	573605544	7H:573605544:T:C	FALSE	Alternate	Alternate	Alternate	Missing	Alternate
+7H	573605596	7H:573605596:C:T	FALSE	Alternate	Alternate	Alternate	Missing	Alternate
+7H	573605619	7H:573605619:A:G	FALSE	Alternate	Alternate	Alternate	Missing	Alternate
+7H	573605636	7H:573605636:G:C	FALSE	Alternate	Alternate	Alternate	Missing	Alternate
+7H	573606059	7H:573606059:G:A	FALSE	Reference	Alternate	Reference	Missing	Missing
+7H	573606117	7H:573606117:A:G	FALSE	Alternate	Reference	Alternate	Alternate	Missing
+7H	573606273	7H:573606273:T:C	FALSE	Alternate	Reference	Alternate	Missing	Alternate
+7H	573606282	7H:573606282:G:T	TRUE	Reference	Reference	Missing	Missing	Reference
+7H	573606285	7H:573606285:G:A	FALSE	Reference	Reference	Missing	Missing	Reference
+7H	573606290	7H:573606290:T:C	FALSE	Alternate	Alternate	Missing	Missing	Alternate
+7H	573606306	7H:573606306:C:T	TRUE	Reference	Reference	Missing	Missing	Reference
+7H	573606460	7H:573606460:G:A	TRUE	Reference	Reference	Reference	Reference	Missing
+7H	573606491	7H:573606491:G:A	TRUE	Reference	Reference	Reference	Reference	Missing

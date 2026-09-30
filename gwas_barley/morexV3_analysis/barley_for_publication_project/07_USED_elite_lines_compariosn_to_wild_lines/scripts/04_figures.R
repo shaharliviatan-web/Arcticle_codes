@@ -13,6 +13,20 @@
 #           Row labels name the group or the cultivar. Columns are SNPs in
 #           GENOMIC ORDER, shared between panels so the two read as one figure.
 #
+# Pairwise significance brackets were added on 2026-09-18, on request, so these
+# figures carry the same test as step 04's combined PDFs. The method is ported
+# verbatim from 04_.../01_scripts/R/plot_combined_pdf.R so the two agree:
+#   * Wilcoxon rank-sum of EVERY group against the LARGEST group (deterministic
+#     reference; not all pairs, which would multiply the comparisons)
+#   * Holm correction across those k-1 comparisons, within the gene
+#   * symbols  **** <= 1e-4, *** <= 1e-3, ** <= 0.01, * <= 0.05, else ns
+#   * ns is shown, not hidden, as in step 04
+# The brackets are drawn with plain geom_segment/geom_text rather than
+# ggpubr::stat_pvalue_manual: ggpubr 0.6.3 errors against ggplot2 4.0.1 here
+# (invalid NULL fontsize passed to grid::gpar). The statistics are unchanged.
+# The Kruskal-Wallis p in the subtitle is the overall test; the brackets are the
+# follow-up. Values are also written to Table_pairwise_group_tests.tsv.
+#
 # Deliberately NOT drawn (decided 2026-09-10): gene-model strip, crosshap marker
 # group annotation bar, group means, per-elite "% identity to group" column.
 #
@@ -56,6 +70,7 @@ Sys.setenv(TMPDIR = P$TMPDIR)
 genes <- target_genes_df(P)
 elite <- read_elite_lines(P)
 msg <- function(...) cat(sprintf("[%s] %s\n", format(Sys.time(), "%H:%M:%S"), paste0(...)))
+pw_tbl <- list()
 
 # functional names for the titles, from step 05's paper table
 gene_titles <- local({
@@ -83,6 +98,38 @@ code_to_state <- function(x) {
   s[!is.na(x) & x == 3] <- "No elite record"
   s[!is.na(x) & x == 4] <- "Triallelic (elite-only allele)"
   factor(s, levels = STATE_LEVELS)
+}
+
+# --- pairwise test, ported from step 04's plot_combined_pdf.R -----------------
+p_to_signif_symbol <- function(p) {
+  if (is.na(p)) return("ns")
+  if (p <= 0.0001) return("****")
+  if (p <= 0.001)  return("***")
+  if (p <= 0.01)   return("**")
+  if (p <= 0.05)   return("*")
+  "ns"
+}
+
+# Wilcoxon of every group vs the LARGEST group, Holm-corrected across k-1 tests.
+pairwise_vs_largest <- function(d) {
+  groups <- sort(unique(d$hap))
+  if (length(groups) <= 1) return(NULL)
+  sizes <- table(d$hap)
+  ref <- names(sizes)[which.max(sizes)]          # largest group, deterministic
+  others <- setdiff(groups, ref)
+  if (!length(others)) return(NULL)
+  raw_p <- vapply(others, function(g)
+    tryCatch(wilcox.test(d$Pheno[d$hap == ref], d$Pheno[d$hap == g],
+                         exact = FALSE)$p.value, error = function(e) NA_real_),
+    numeric(1))
+  p_adj <- p.adjust(raw_p, method = "holm")
+  y_max <- max(d$Pheno, na.rm = TRUE); y_min <- min(d$Pheno, na.rm = TRUE)
+  y_span <- max(1e-8, y_max - y_min)
+  data.frame(group1 = ref, group2 = others, n_ref = as.integer(sizes[[ref]]),
+             n_other = as.integer(sizes[others]), p = raw_p, p.adj = p_adj,
+             p.adj.signif = vapply(p_adj, p_to_signif_symbol, character(1)),
+             y.position = y_max + y_span * (0.10 + seq_along(others) * 0.08),
+             stringsAsFactors = FALSE)
 }
 
 theme_pub <- function(base = 11) {
@@ -125,6 +172,27 @@ for (ver in P$VERSIONS) {
       scale_x_discrete(labels = xlabs) +
       labs(x = "Wild haplotype group", y = paste0(D$trait, " BLUP")) +
       theme_pub()
+
+    # pairwise brackets (same test as step 04; identical across the three versions)
+    pw <- pairwise_vs_largest(pheno)
+    if (!is.null(pw) && nrow(pw)) {
+      tip <- diff(range(pheno$Pheno, na.rm = TRUE)) * 0.012
+      br <- data.frame(x = match(pw$group1, grp_lvls), xend = match(pw$group2, grp_lvls),
+                       y = pw$y.position, lab = pw$p.adj.signif, stringsAsFactors = FALSE)
+      p_violin <- p_violin +
+        geom_segment(data = br, aes(x = x, xend = xend, y = y, yend = y),
+                     inherit.aes = FALSE, linewidth = 0.3) +
+        geom_segment(data = br, aes(x = x, xend = x, y = y - tip, yend = y),
+                     inherit.aes = FALSE, linewidth = 0.3) +
+        geom_segment(data = br, aes(x = xend, xend = xend, y = y - tip, yend = y),
+                     inherit.aes = FALSE, linewidth = 0.3) +
+        geom_text(data = br, aes(x = (x + xend) / 2, y = y + tip * 0.6, label = lab),
+                  inherit.aes = FALSE, size = 3.2, vjust = 0) +
+        expand_limits(y = max(pw$y.position) + tip * 4)
+      if (identical(ver, P$VERSIONS[1]))
+        pw_tbl[[gid]] <- cbind(gene_id = gid, short_name = short, trait = D$trait,
+                               test = "Wilcoxon vs largest group, Holm", pw)
+    }
 
     # ---------------- BOTTOM: aligned barcodes ------------------------------
     cons_df <- as.data.frame(as.table(D$consensus), stringsAsFactors = FALSE)
@@ -195,6 +263,13 @@ for (ver in P$VERSIONS) {
            dpi = as.numeric(P$FIG_DPI))
     msg("[", ver, "] ", short, " -> ", basename(base), ".{pdf,png}")
   }
+}
+
+if (length(pw_tbl)) {
+  write.table(do.call(rbind, pw_tbl),
+              file.path(P$DIR_TABLES, "Table_pairwise_group_tests.tsv"),
+              sep = "\t", quote = FALSE, row.names = FALSE, na = "NA")
+  msg("pairwise tests -> ", file.path(P$DIR_TABLES, "Table_pairwise_group_tests.tsv"))
 }
 
 msg("DONE -> ", P$DIR_FIGURES)

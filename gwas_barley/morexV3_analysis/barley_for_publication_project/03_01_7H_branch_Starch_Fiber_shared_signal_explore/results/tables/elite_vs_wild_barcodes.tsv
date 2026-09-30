@@ -1,0 +1,309 @@
+pos	row	call	block	signal	x	trait	eps
+573603084	wild hap A (n=212)	REF	wild	FALSE	1	fiber	0.9
+573603115	wild hap A (n=212)	REF	wild	FALSE	2	fiber	0.9
+573603161	wild hap A (n=212)	REF	wild	FALSE	3	fiber	0.9
+573603182	wild hap A (n=212)	REF	wild	FALSE	4	fiber	0.9
+573603678	wild hap A (n=212)	REF	wild	FALSE	5	fiber	0.9
+573603729	wild hap A (n=212)	REF	wild	FALSE	6	fiber	0.9
+573603735	wild hap A (n=212)	REF	wild	FALSE	7	fiber	0.9
+573604387	wild hap A (n=212)	ALT	wild	FALSE	8	fiber	0.9
+573604690	wild hap A (n=212)	ALT	wild	FALSE	9	fiber	0.9
+573605544	wild hap A (n=212)	ALT	wild	FALSE	10	fiber	0.9
+573605596	wild hap A (n=212)	ALT	wild	FALSE	11	fiber	0.9
+573605619	wild hap A (n=212)	ALT	wild	FALSE	12	fiber	0.9
+573605636	wild hap A (n=212)	ALT	wild	FALSE	13	fiber	0.9
+573606059	wild hap A (n=212)	ALT	wild	FALSE	14	fiber	0.9
+573606117	wild hap A (n=212)	REF	wild	FALSE	15	fiber	0.9
+573606273	wild hap A (n=212)	REF	wild	FALSE	16	fiber	0.9
+573606282	wild hap A (n=212)	REF	wild	TRUE	17	fiber	0.9
+573606285	wild hap A (n=212)	REF	wild	FALSE	18	fiber	0.9
+573606290	wild hap A (n=212)	ALT	wild	FALSE	19	fiber	0.9
+573606306	wild hap A (n=212)	REF	wild	TRUE	20	fiber	0.9
+573606460	wild hap A (n=212)	REF	wild	TRUE	21	fiber	0.9
+573606491	wild hap A (n=212)	REF	wild	TRUE	22	fiber	0.9
+573603084	wild hap B (n=34)	REF	wild	FALSE	1	fiber	0.9
+573603115	wild hap B (n=34)	REF	wild	FALSE	2	fiber	0.9
+573603161	wild hap B (n=34)	REF	wild	FALSE	3	fiber	0.9
+573603182	wild hap B (n=34)	REF	wild	FALSE	4	fiber	0.9
+573603678	wild hap B (n=34)	REF	wild	FALSE	5	fiber	0.9
+573603729	wild hap B (n=34)	REF	wild	FALSE	6	fiber	0.9
+573603735	wild hap B (n=34)	ALT	wild	FALSE	7	fiber	0.9
+573604387	wild hap B (n=34)	ALT	wild	FALSE	8	fiber	0.9
+573604690	wild hap B (n=34)	ALT	wild	FALSE	9	fiber	0.9
+573605544	wild hap B (n=34)	ALT	wild	FALSE	10	fiber	0.9
+573605596	wild hap B (n=34)	ALT	wild	FALSE	11	fiber	0.9
+573605619	wild hap B (n=34)	ALT	wild	FALSE	12	fiber	0.9
+573605636	wild hap B (n=34)	ALT	wild	FALSE	13	fiber	0.9
+573606059	wild hap B (n=34)	ALT	wild	FALSE	14	fiber	0.9
+573606117	wild hap B (n=34)	REF	wild	FALSE	15	fiber	0.9
+573606273	wild hap B (n=34)	REF	wild	FALSE	16	fiber	0.9
+573606282	wild hap B (n=34)	ALT	wild	TRUE	17	fiber	0.9
+573606285	wild hap B (n=34)	REF	wild	FALSE	18	fiber	0.9
+573606290	wild hap B (n=34)	ALT	wild	FALSE	19	fiber	0.9
+573606306	wild hap B (n=34)	ALT	wild	TRUE	20	fiber	0.9
+573606460	wild hap B (n=34)	ALT	wild	TRUE	21	fiber	0.9
+573606491	wild hap B (n=34)	ALT	wild	TRUE	22	fiber	0.9
+573603084	Avalon	REF	elite	FALSE	1	fiber	0.9
+573603115	Avalon	REF	elite	FALSE	2	fiber	0.9
+573603161	Avalon	REF	elite	FALSE	3	fiber	0.9
+573603182	Avalon	REF	elite	FALSE	4	fiber	0.9
+573603678	Avalon	REF	elite	FALSE	5	fiber	0.9
+573603729	Avalon	ALT	elite	FALSE	6	fiber	0.9
+573603735	Avalon	ALT	elite	FALSE	7	fiber	0.9
+573604387	Avalon	REF	elite	FALSE	8	fiber	0.9
+573604690	Avalon	MISS	elite	FALSE	9	fiber	0.9
+573605544	Avalon	ALT	elite	FALSE	10	fiber	0.9
+573605596	Avalon	ALT	elite	FALSE	11	fiber	0.9
+573605619	Avalon	ALT	elite	FALSE	12	fiber	0.9
+573605636	Avalon	ALT	elite	FALSE	13	fiber	0.9
+573606059	Avalon	REF	elite	FALSE	14	fiber	0.9
+573606117	Avalon	ALT	elite	FALSE	15	fiber	0.9
+573606273	Avalon	ALT	elite	FALSE	16	fiber	0.9
+573606282	Avalon	REF	elite	TRUE	17	fiber	0.9
+573606285	Avalon	REF	elite	FALSE	18	fiber	0.9
+573606290	Avalon	ALT	elite	FALSE	19	fiber	0.9
+573606306	Avalon	REF	elite	TRUE	20	fiber	0.9
+573606460	Avalon	REF	elite	TRUE	21	fiber	0.9
+573606491	Avalon	REF	elite	TRUE	22	fiber	0.9
+573603084	LG Diablo	REF	elite	FALSE	1	fiber	0.9
+573603115	LG Diablo	REF	elite	FALSE	2	fiber	0.9
+573603161	LG Diablo	REF	elite	FALSE	3	fiber	0.9
+573603182	LG Diablo	MISS	elite	FALSE	4	fiber	0.9
+573603678	LG Diablo	REF	elite	FALSE	5	fiber	0.9
+573603729	LG Diablo	ALT	elite	FALSE	6	fiber	0.9
+573603735	LG Diablo	ALT	elite	FALSE	7	fiber	0.9
+573604387	LG Diablo	REF	elite	FALSE	8	fiber	0.9
+573604690	LG Diablo	REF	elite	FALSE	9	fiber	0.9
+573605544	LG Diablo	ALT	elite	FALSE	10	fiber	0.9
+573605596	LG Diablo	ALT	elite	FALSE	11	fiber	0.9
+573605619	LG Diablo	ALT	elite	FALSE	12	fiber	0.9
+573605636	LG Diablo	ALT	elite	FALSE	13	fiber	0.9
+573606059	LG Diablo	MISS	elite	FALSE	14	fiber	0.9
+573606117	LG Diablo	MISS	elite	FALSE	15	fiber	0.9
+573606273	LG Diablo	ALT	elite	FALSE	16	fiber	0.9
+573606282	LG Diablo	REF	elite	TRUE	17	fiber	0.9
+573606285	LG Diablo	REF	elite	FALSE	18	fiber	0.9
+573606290	LG Diablo	ALT	elite	FALSE	19	fiber	0.9
+573606306	LG Diablo	REF	elite	TRUE	20	fiber	0.9
+573606460	LG Diablo	MISS	elite	TRUE	21	fiber	0.9
+573606491	LG Diablo	MISS	elite	TRUE	22	fiber	0.9
+573603084	KWS Irina	REF	elite	FALSE	1	fiber	0.9
+573603115	KWS Irina	REF	elite	FALSE	2	fiber	0.9
+573603161	KWS Irina	MISS	elite	FALSE	3	fiber	0.9
+573603182	KWS Irina	REF	elite	FALSE	4	fiber	0.9
+573603678	KWS Irina	REF	elite	FALSE	5	fiber	0.9
+573603729	KWS Irina	REF	elite	FALSE	6	fiber	0.9
+573603735	KWS Irina	REF	elite	FALSE	7	fiber	0.9
+573604387	KWS Irina	REF	elite	FALSE	8	fiber	0.9
+573604690	KWS Irina	REF	elite	FALSE	9	fiber	0.9
+573605544	KWS Irina	ALT	elite	FALSE	10	fiber	0.9
+573605596	KWS Irina	ALT	elite	FALSE	11	fiber	0.9
+573605619	KWS Irina	ALT	elite	FALSE	12	fiber	0.9
+573605636	KWS Irina	ALT	elite	FALSE	13	fiber	0.9
+573606059	KWS Irina	ALT	elite	FALSE	14	fiber	0.9
+573606117	KWS Irina	REF	elite	FALSE	15	fiber	0.9
+573606273	KWS Irina	REF	elite	FALSE	16	fiber	0.9
+573606282	KWS Irina	REF	elite	TRUE	17	fiber	0.9
+573606285	KWS Irina	REF	elite	FALSE	18	fiber	0.9
+573606290	KWS Irina	ALT	elite	FALSE	19	fiber	0.9
+573606306	KWS Irina	REF	elite	TRUE	20	fiber	0.9
+573606460	KWS Irina	REF	elite	TRUE	21	fiber	0.9
+573606491	KWS Irina	REF	elite	TRUE	22	fiber	0.9
+573603084	Laureate	REF	elite	FALSE	1	fiber	0.9
+573603115	Laureate	REF	elite	FALSE	2	fiber	0.9
+573603161	Laureate	REF	elite	FALSE	3	fiber	0.9
+573603182	Laureate	REF	elite	FALSE	4	fiber	0.9
+573603678	Laureate	REF	elite	FALSE	5	fiber	0.9
+573603729	Laureate	ALT	elite	FALSE	6	fiber	0.9
+573603735	Laureate	ALT	elite	FALSE	7	fiber	0.9
+573604387	Laureate	REF	elite	FALSE	8	fiber	0.9
+573604690	Laureate	REF	elite	FALSE	9	fiber	0.9
+573605544	Laureate	MISS	elite	FALSE	10	fiber	0.9
+573605596	Laureate	MISS	elite	FALSE	11	fiber	0.9
+573605619	Laureate	MISS	elite	FALSE	12	fiber	0.9
+573605636	Laureate	MISS	elite	FALSE	13	fiber	0.9
+573606059	Laureate	MISS	elite	FALSE	14	fiber	0.9
+573606117	Laureate	ALT	elite	FALSE	15	fiber	0.9
+573606273	Laureate	MISS	elite	FALSE	16	fiber	0.9
+573606282	Laureate	MISS	elite	TRUE	17	fiber	0.9
+573606285	Laureate	MISS	elite	FALSE	18	fiber	0.9
+573606290	Laureate	MISS	elite	FALSE	19	fiber	0.9
+573606306	Laureate	MISS	elite	TRUE	20	fiber	0.9
+573606460	Laureate	REF	elite	TRUE	21	fiber	0.9
+573606491	Laureate	REF	elite	TRUE	22	fiber	0.9
+573603084	Odyssey	REF	elite	FALSE	1	fiber	0.9
+573603115	Odyssey	REF	elite	FALSE	2	fiber	0.9
+573603161	Odyssey	REF	elite	FALSE	3	fiber	0.9
+573603182	Odyssey	REF	elite	FALSE	4	fiber	0.9
+573603678	Odyssey	REF	elite	FALSE	5	fiber	0.9
+573603729	Odyssey	ALT	elite	FALSE	6	fiber	0.9
+573603735	Odyssey	ALT	elite	FALSE	7	fiber	0.9
+573604387	Odyssey	REF	elite	FALSE	8	fiber	0.9
+573604690	Odyssey	REF	elite	FALSE	9	fiber	0.9
+573605544	Odyssey	ALT	elite	FALSE	10	fiber	0.9
+573605596	Odyssey	ALT	elite	FALSE	11	fiber	0.9
+573605619	Odyssey	ALT	elite	FALSE	12	fiber	0.9
+573605636	Odyssey	ALT	elite	FALSE	13	fiber	0.9
+573606059	Odyssey	REF	elite	FALSE	14	fiber	0.9
+573606117	Odyssey	ALT	elite	FALSE	15	fiber	0.9
+573606273	Odyssey	ALT	elite	FALSE	16	fiber	0.9
+573606282	Odyssey	MISS	elite	TRUE	17	fiber	0.9
+573606285	Odyssey	MISS	elite	FALSE	18	fiber	0.9
+573606290	Odyssey	MISS	elite	FALSE	19	fiber	0.9
+573606306	Odyssey	MISS	elite	TRUE	20	fiber	0.9
+573606460	Odyssey	REF	elite	TRUE	21	fiber	0.9
+573606491	Odyssey	REF	elite	TRUE	22	fiber	0.9
+573603084	wild hap A (n=212)	REF	wild	FALSE	1	starch	0.9
+573603115	wild hap A (n=212)	REF	wild	FALSE	2	starch	0.9
+573603161	wild hap A (n=212)	REF	wild	FALSE	3	starch	0.9
+573603182	wild hap A (n=212)	REF	wild	FALSE	4	starch	0.9
+573603678	wild hap A (n=212)	REF	wild	FALSE	5	starch	0.9
+573603729	wild hap A (n=212)	REF	wild	FALSE	6	starch	0.9
+573603735	wild hap A (n=212)	REF	wild	FALSE	7	starch	0.9
+573604387	wild hap A (n=212)	ALT	wild	FALSE	8	starch	0.9
+573604690	wild hap A (n=212)	ALT	wild	FALSE	9	starch	0.9
+573605544	wild hap A (n=212)	ALT	wild	FALSE	10	starch	0.9
+573605596	wild hap A (n=212)	ALT	wild	FALSE	11	starch	0.9
+573605619	wild hap A (n=212)	ALT	wild	FALSE	12	starch	0.9
+573605636	wild hap A (n=212)	ALT	wild	FALSE	13	starch	0.9
+573606059	wild hap A (n=212)	ALT	wild	FALSE	14	starch	0.9
+573606117	wild hap A (n=212)	REF	wild	FALSE	15	starch	0.9
+573606273	wild hap A (n=212)	REF	wild	FALSE	16	starch	0.9
+573606282	wild hap A (n=212)	REF	wild	TRUE	17	starch	0.9
+573606285	wild hap A (n=212)	REF	wild	FALSE	18	starch	0.9
+573606290	wild hap A (n=212)	ALT	wild	FALSE	19	starch	0.9
+573606306	wild hap A (n=212)	REF	wild	TRUE	20	starch	0.9
+573606460	wild hap A (n=212)	REF	wild	TRUE	21	starch	0.9
+573606491	wild hap A (n=212)	REF	wild	TRUE	22	starch	0.9
+573603084	wild hap B (n=34)	REF	wild	FALSE	1	starch	0.9
+573603115	wild hap B (n=34)	REF	wild	FALSE	2	starch	0.9
+573603161	wild hap B (n=34)	REF	wild	FALSE	3	starch	0.9
+573603182	wild hap B (n=34)	REF	wild	FALSE	4	starch	0.9
+573603678	wild hap B (n=34)	REF	wild	FALSE	5	starch	0.9
+573603729	wild hap B (n=34)	REF	wild	FALSE	6	starch	0.9
+573603735	wild hap B (n=34)	ALT	wild	FALSE	7	starch	0.9
+573604387	wild hap B (n=34)	ALT	wild	FALSE	8	starch	0.9
+573604690	wild hap B (n=34)	ALT	wild	FALSE	9	starch	0.9
+573605544	wild hap B (n=34)	ALT	wild	FALSE	10	starch	0.9
+573605596	wild hap B (n=34)	ALT	wild	FALSE	11	starch	0.9
+573605619	wild hap B (n=34)	ALT	wild	FALSE	12	starch	0.9
+573605636	wild hap B (n=34)	ALT	wild	FALSE	13	starch	0.9
+573606059	wild hap B (n=34)	ALT	wild	FALSE	14	starch	0.9
+573606117	wild hap B (n=34)	REF	wild	FALSE	15	starch	0.9
+573606273	wild hap B (n=34)	REF	wild	FALSE	16	starch	0.9
+573606282	wild hap B (n=34)	ALT	wild	TRUE	17	starch	0.9
+573606285	wild hap B (n=34)	REF	wild	FALSE	18	starch	0.9
+573606290	wild hap B (n=34)	ALT	wild	FALSE	19	starch	0.9
+573606306	wild hap B (n=34)	ALT	wild	TRUE	20	starch	0.9
+573606460	wild hap B (n=34)	ALT	wild	TRUE	21	starch	0.9
+573606491	wild hap B (n=34)	ALT	wild	TRUE	22	starch	0.9
+573603084	Avalon	REF	elite	FALSE	1	starch	0.9
+573603115	Avalon	REF	elite	FALSE	2	starch	0.9
+573603161	Avalon	REF	elite	FALSE	3	starch	0.9
+573603182	Avalon	REF	elite	FALSE	4	starch	0.9
+573603678	Avalon	REF	elite	FALSE	5	starch	0.9
+573603729	Avalon	ALT	elite	FALSE	6	starch	0.9
+573603735	Avalon	ALT	elite	FALSE	7	starch	0.9
+573604387	Avalon	REF	elite	FALSE	8	starch	0.9
+573604690	Avalon	MISS	elite	FALSE	9	starch	0.9
+573605544	Avalon	ALT	elite	FALSE	10	starch	0.9
+573605596	Avalon	ALT	elite	FALSE	11	starch	0.9
+573605619	Avalon	ALT	elite	FALSE	12	starch	0.9
+573605636	Avalon	ALT	elite	FALSE	13	starch	0.9
+573606059	Avalon	REF	elite	FALSE	14	starch	0.9
+573606117	Avalon	ALT	elite	FALSE	15	starch	0.9
+573606273	Avalon	ALT	elite	FALSE	16	starch	0.9
+573606282	Avalon	REF	elite	TRUE	17	starch	0.9
+573606285	Avalon	REF	elite	FALSE	18	starch	0.9
+573606290	Avalon	ALT	elite	FALSE	19	starch	0.9
+573606306	Avalon	REF	elite	TRUE	20	starch	0.9
+573606460	Avalon	REF	elite	TRUE	21	starch	0.9
+573606491	Avalon	REF	elite	TRUE	22	starch	0.9
+573603084	LG Diablo	REF	elite	FALSE	1	starch	0.9
+573603115	LG Diablo	REF	elite	FALSE	2	starch	0.9
+573603161	LG Diablo	REF	elite	FALSE	3	starch	0.9
+573603182	LG Diablo	MISS	elite	FALSE	4	starch	0.9
+573603678	LG Diablo	REF	elite	FALSE	5	starch	0.9
+573603729	LG Diablo	ALT	elite	FALSE	6	starch	0.9
+573603735	LG Diablo	ALT	elite	FALSE	7	starch	0.9
+573604387	LG Diablo	REF	elite	FALSE	8	starch	0.9
+573604690	LG Diablo	REF	elite	FALSE	9	starch	0.9
+573605544	LG Diablo	ALT	elite	FALSE	10	starch	0.9
+573605596	LG Diablo	ALT	elite	FALSE	11	starch	0.9
+573605619	LG Diablo	ALT	elite	FALSE	12	starch	0.9
+573605636	LG Diablo	ALT	elite	FALSE	13	starch	0.9
+573606059	LG Diablo	MISS	elite	FALSE	14	starch	0.9
+573606117	LG Diablo	MISS	elite	FALSE	15	starch	0.9
+573606273	LG Diablo	ALT	elite	FALSE	16	starch	0.9
+573606282	LG Diablo	REF	elite	TRUE	17	starch	0.9
+573606285	LG Diablo	REF	elite	FALSE	18	starch	0.9
+573606290	LG Diablo	ALT	elite	FALSE	19	starch	0.9
+573606306	LG Diablo	REF	elite	TRUE	20	starch	0.9
+573606460	LG Diablo	MISS	elite	TRUE	21	starch	0.9
+573606491	LG Diablo	MISS	elite	TRUE	22	starch	0.9
+573603084	KWS Irina	REF	elite	FALSE	1	starch	0.9
+573603115	KWS Irina	REF	elite	FALSE	2	starch	0.9
+573603161	KWS Irina	MISS	elite	FALSE	3	starch	0.9
+573603182	KWS Irina	REF	elite	FALSE	4	starch	0.9
+573603678	KWS Irina	REF	elite	FALSE	5	starch	0.9
+573603729	KWS Irina	REF	elite	FALSE	6	starch	0.9
+573603735	KWS Irina	REF	elite	FALSE	7	starch	0.9
+573604387	KWS Irina	REF	elite	FALSE	8	starch	0.9
+573604690	KWS Irina	REF	elite	FALSE	9	starch	0.9
+573605544	KWS Irina	ALT	elite	FALSE	10	starch	0.9
+573605596	KWS Irina	ALT	elite	FALSE	11	starch	0.9
+573605619	KWS Irina	ALT	elite	FALSE	12	starch	0.9
+573605636	KWS Irina	ALT	elite	FALSE	13	starch	0.9
+573606059	KWS Irina	ALT	elite	FALSE	14	starch	0.9
+573606117	KWS Irina	REF	elite	FALSE	15	starch	0.9
+573606273	KWS Irina	REF	elite	FALSE	16	starch	0.9
+573606282	KWS Irina	REF	elite	TRUE	17	starch	0.9
+573606285	KWS Irina	REF	elite	FALSE	18	starch	0.9
+573606290	KWS Irina	ALT	elite	FALSE	19	starch	0.9
+573606306	KWS Irina	REF	elite	TRUE	20	starch	0.9
+573606460	KWS Irina	REF	elite	TRUE	21	starch	0.9
+573606491	KWS Irina	REF	elite	TRUE	22	starch	0.9
+573603084	Laureate	REF	elite	FALSE	1	starch	0.9
+573603115	Laureate	REF	elite	FALSE	2	starch	0.9
+573603161	Laureate	REF	elite	FALSE	3	starch	0.9
+573603182	Laureate	REF	elite	FALSE	4	starch	0.9
+573603678	Laureate	REF	elite	FALSE	5	starch	0.9
+573603729	Laureate	ALT	elite	FALSE	6	starch	0.9
+573603735	Laureate	ALT	elite	FALSE	7	starch	0.9
+573604387	Laureate	REF	elite	FALSE	8	starch	0.9
+573604690	Laureate	REF	elite	FALSE	9	starch	0.9
+573605544	Laureate	MISS	elite	FALSE	10	starch	0.9
+573605596	Laureate	MISS	elite	FALSE	11	starch	0.9
+573605619	Laureate	MISS	elite	FALSE	12	starch	0.9
+573605636	Laureate	MISS	elite	FALSE	13	starch	0.9
+573606059	Laureate	MISS	elite	FALSE	14	starch	0.9
+573606117	Laureate	ALT	elite	FALSE	15	starch	0.9
+573606273	Laureate	MISS	elite	FALSE	16	starch	0.9
+573606282	Laureate	MISS	elite	TRUE	17	starch	0.9
+573606285	Laureate	MISS	elite	FALSE	18	starch	0.9
+573606290	Laureate	MISS	elite	FALSE	19	starch	0.9
+573606306	Laureate	MISS	elite	TRUE	20	starch	0.9
+573606460	Laureate	REF	elite	TRUE	21	starch	0.9
+573606491	Laureate	REF	elite	TRUE	22	starch	0.9
+573603084	Odyssey	REF	elite	FALSE	1	starch	0.9
+573603115	Odyssey	REF	elite	FALSE	2	starch	0.9
+573603161	Odyssey	REF	elite	FALSE	3	starch	0.9
+573603182	Odyssey	REF	elite	FALSE	4	starch	0.9
+573603678	Odyssey	REF	elite	FALSE	5	starch	0.9
+573603729	Odyssey	ALT	elite	FALSE	6	starch	0.9
+573603735	Odyssey	ALT	elite	FALSE	7	starch	0.9
+573604387	Odyssey	REF	elite	FALSE	8	starch	0.9
+573604690	Odyssey	REF	elite	FALSE	9	starch	0.9
+573605544	Odyssey	ALT	elite	FALSE	10	starch	0.9
+573605596	Odyssey	ALT	elite	FALSE	11	starch	0.9
+573605619	Odyssey	ALT	elite	FALSE	12	starch	0.9
+573605636	Odyssey	ALT	elite	FALSE	13	starch	0.9
+573606059	Odyssey	REF	elite	FALSE	14	starch	0.9
+573606117	Odyssey	ALT	elite	FALSE	15	starch	0.9
+573606273	Odyssey	ALT	elite	FALSE	16	starch	0.9
+573606282	Odyssey	MISS	elite	TRUE	17	starch	0.9
+573606285	Odyssey	MISS	elite	FALSE	18	starch	0.9
+573606290	Odyssey	MISS	elite	FALSE	19	starch	0.9
+573606306	Odyssey	MISS	elite	TRUE	20	starch	0.9
+573606460	Odyssey	REF	elite	TRUE	21	starch	0.9
+573606491	Odyssey	REF	elite	TRUE	22	starch	0.9

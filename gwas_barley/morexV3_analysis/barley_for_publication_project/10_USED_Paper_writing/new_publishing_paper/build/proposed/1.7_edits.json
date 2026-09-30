@@ -1,0 +1,20 @@
+[
+  {
+    "where": "Results Ch. 2 ¶5 (\"To search for potential candidate genes…\"), the \"Notably…\" sentence",
+    "why": "\"β-glucan contributed only seven genes from its 11 loci\" repeats the per-trait counts in the sentence just before it (\"β-glucan (seven genes at four loci)\"). What is new is that its three strongest loci were gene-empty, so only that is kept.",
+    "old": "Notably, β-glucan contributed only seven genes from its 11 loci, as its three most significant loci, on chromosomes 2H, 4H and 3H, contained no annotated gene.",
+    "new": "Notably, {-β-glucan contributed only seven genes from its 11 loci, as its-}{+the+} three most significant {+β-glucan +}loci, on chromosomes 2H, 4H and 3H, contained no annotated gene."
+  },
+  {
+    "where": "Results Ch. 3 ¶3 (\"The 23 significant genes…\"), last sentence",
+    "why": "\"β-glucan contributed no gene\" (Ch. 3 ¶7, change 4) is stated where the three presented genes are chosen. Protein is covered in Ch. 3 ¶2.",
+    "old": "The three genes with the clearest such role, two for fiber and one for starch, are presented here",
+    "new": "The three genes with the clearest such role, two for fiber and one for starch{+, and none for β-glucan+}, are presented here"
+  },
+  {
+    "where": "Results Ch. 3 ¶7 (\"β-glucan contributed no gene…\"), the whole paragraph",
+    "why": "Deleted (user: too small to stand alone). \"No β-glucan gene\" is now in Ch. 3 ¶3; the small-effect report is dropped.",
+    "old": "β-glucan contributed no gene to this set. All six of its testable genes were significant, but every effect was small (η² = 0.019–0.078, against 0.208 and 0.222 for the two fiber genes).",
+    "new": "{-β-glucan contributed no gene to this set. All six of its testable genes were significant, but every effect was small (η² = 0.019–0.078, against 0.208 and 0.222 for the two fiber genes).-}{+<!-- 2026-09-27, review item 1.7 (user decision): this paragraph was deleted as too small to stand alone. \"No beta-glucan gene\" moved to Ch. 3 para 3 (\"and none for beta-glucan\"). The small-effect sentence (eta2 0.019-0.078) was dropped: no other passage summarises haplotype effect sizes per trait, so there was nowhere relevant to place it; the values remain in Online Resource 2. The hidden notes below are kept for their sources. -->+}"
+  }
+]

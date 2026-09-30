@@ -14,7 +14,12 @@
 #   members, ignoring NA. Rationale: wild missingness is high (19% of calls at
 #   PHT4;3), so a single representative accession would carry grey tiles that are
 #   artefacts of that one plant's sequencing rather than features of the
-#   haplotype. Ties (exactly 50/50) resolve to NA and are drawn as missing.
+#   haplotype. Ties (exactly 50/50) resolve to REFERENCE when REF is one of the
+#   tied states (changed 2026-09-24, user decision; until then ties resolved to NA
+#   and were drawn as missing). In the current data this affects exactly two GH17
+#   cells: group A at 5H:462728332 (18 REF / 18 ALT) and group E at 5H:462729123
+#   (5 / 5). A tie that does not involve REF (ALT vs HET only) still resolves to NA;
+#   it does not occur in the current data.
 #   The closest real accession to each consensus is still reported, in
 #   results/tables/consensus_representatives.tsv, for verification only.
 #
@@ -54,6 +59,11 @@
 # Output -> intermediates/matrices/<gene>__<version>.rds   (matrix + metadata)
 #           results/tables/allele_concordance.tsv
 #           results/tables/site_overlap_summary.tsv
+#             (2026-09-23: + monomorphic-site counts per file. "Monomorphic" is judged
+#              only over the rows that enter the comparison -- for the wild file the
+#              crosshap-ASSIGNED accessions of that gene, for the elite file the 5
+#              configured lines -- and is reported over all sites, the sites kept in
+#              shared_sites, and the sites removed from it.)
 #           results/tables/consensus_representatives.tsv
 #           results/tables/elite_genotypes_long.tsv
 #           results/tables/triallelic_sites_elite_genotypes.tsv
@@ -108,14 +118,15 @@ read_gt <- function(path) {
   list(mat = t(m), fix = fix, key = key)   # rows = samples, cols = sites
 }
 
-# Per-SNP majority over rows, ignoring NA; exact ties -> NA.
+# Per-SNP majority over rows, ignoring NA; exact ties -> REF if REF is among the
+# tied states, otherwise NA (tie rule changed 2026-09-24, user decision; was: all ties -> NA).
 consensus_row <- function(m) {
   apply(m, 2, function(x) {
     x <- x[!is.na(x)]
     if (!length(x)) return(NA_real_)
     tb <- table(x)
     top <- names(tb)[tb == max(tb)]
-    if (length(top) > 1) return(NA_real_)
+    if (length(top) > 1) return(if (as.character(CODE_REF) %in% top) CODE_REF else NA_real_)
     as.numeric(top)
   })
 }
@@ -259,6 +270,32 @@ for (i in seq_len(nrow(genes))) {
   e_is_indel <- nchar(ef$REF) > 1 |
     vapply(strsplit(ef$ALT, ","), function(a) any(nchar(a) > 1), logical(1))
 
+  # ---- monomorphic-site counts (added 2026-09-23, requested for the paper) --
+  # A site is MONOMORPHIC here if, among the rows that actually enter this
+  # comparison, it has at least one call and every call is the same genotype.
+  # The reference set differs per file, deliberately:
+  #   wild  -- only the accessions crosshap ASSIGNED to a haplotype group for this
+  #            gene (`ind$Ind`), because unassigned accessions are dropped from the
+  #            test and from the figure, so a site that varies only among them
+  #            carries nothing. The set therefore differs from gene to gene.
+  #   elite -- only the 5 CONFIGURED lines, not the 136-line pool, because those
+  #            five are the only rows drawn.
+  # Counted over all sites of each file, over the sites kept in `shared_sites`,
+  # and over the sites removed from it, so the three always add up.
+  mono_frac <- function(mat, keys) {
+    if (!length(keys)) return(0L)
+    sub <- mat[, intersect(keys, colnames(mat)), drop = FALSE]
+    sum(apply(sub, 2, function(x) { x <- x[!is.na(x)]
+                                    length(x) > 0L && length(unique(x)) == 1L }))
+  }
+  W_assigned <- W$mat[intersect(ind$Ind, rownames(W$mat)), , drop = FALSE]
+  wild_removed  <- setdiff(colnames(W$mat), shared_keys)   # wild-only + triallelic
+  elite_removed <- setdiff(colnames(E$mat), shared_keys)   # elite-only + triallelic
+  msg("  monomorphic | wild (", nrow(W_assigned), " assigned accessions): ",
+      mono_frac(W_assigned, colnames(W$mat)), " of ", ncol(W$mat),
+      " | elite (", nrow(E$mat), " lines): ", mono_frac(E$mat, colnames(E$mat)),
+      " of ", ncol(E$mat))
+
   overlap_tbl[[gid]] <- data.frame(
     gene_id = gid, short_name = short, trait = trait, chr = gwr$chr,
     win_start = gwr$win_start, win_end = gwr$win_end,
@@ -269,6 +306,15 @@ for (i in seq_len(nrow(genes))) {
     n_shared_positions = nrow(ac), n_alleles_identical = n_ident,
     n_alleles_swapped = n_swap, n_alleles_triallelic = n_altd,
     n_alleles_ref_differs = n_refd,
+    # monomorphic counts -- see mono_frac() above for the two reference sets
+    n_wild_assigned_accessions       = nrow(W_assigned),
+    n_wild_mono_all                  = mono_frac(W_assigned, colnames(W$mat)),
+    n_wild_mono_kept                 = mono_frac(W_assigned, shared_keys),
+    n_wild_mono_removed              = mono_frac(W_assigned, wild_removed),
+    n_elite_lines_shown              = nrow(E$mat),
+    n_elite_mono_all                 = mono_frac(E$mat, colnames(E$mat)),
+    n_elite_mono_kept                = mono_frac(E$mat, shared_keys),
+    n_elite_mono_removed             = mono_frac(E$mat, elite_removed),
     stringsAsFactors = FALSE)
   msg("  wild ", ncol(W$mat), " SNPs | elite ", ncol(E$mat), " records | shared ",
       length(shared_keys), " | wild-only ", length(wild_only), " | elite-only ",

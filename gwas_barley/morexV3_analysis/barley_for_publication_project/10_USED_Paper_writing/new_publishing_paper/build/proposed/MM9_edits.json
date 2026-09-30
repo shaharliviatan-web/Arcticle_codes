@@ -1,0 +1,32 @@
+{
+ "notes": [
+  "**Item MM9 of the M&M voice review** (item 6, voice and clarity, part 2 of 3): Phenotypic data analysis ¶1 and ¶4, and Loci and candidate genes ¶1–2. No facts change.",
+  "**Phenotypic ¶1 (B15):** the outlier sentence (\"for each trait\" twice; \"the mean of the centered values\", which is about 0) is split, and it now says what matters: the mean and SD are pooled over the three seasons, as the code does. \"Against\" becomes \"compared with\".",
+  "**Phenotypic ¶4:** opens with its aim and uses \"we\"; \"with two-sided tests\" is no longer tacked on at the end.",
+  "**Loci ¶1 (A8):** \"limited to the contiguous run of member SNPs…\" now describes the walk: moving outward from the lead, the locus ends at the first gap of more than 50 kb between consecutive member SNPs. \"Lead a locus\" becomes \"serve as lead SNPs\". The repeat rule is stated positively (assigned SNPs may join but not lead). The paragraph opens with its aim and uses \"we\".",
+  "**Loci ¶2:** opens with its aim and uses \"we\"; \"annotation … of Ensembl Plants\" becomes \"from Ensembl Plants\".",
+  "Length: 283 → 291 words (a clarity pass).",
+  "**Applied 2026-09-30 with changes 1, 2 and 4 only.** Change 3 (Loci ¶1) was corrected after the user's check and moved to item MM9b."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "M&M · Phenotypic data analysis ¶1",
+   "why": "Outlier sentence split and made exact; 'against' → 'compared with'.",
+   "old": "Block 4 of the 2019–20 season was excluded, because its β-glucan values were poorly correlated with those of the other blocks (Pearson r = 0.27–0.34, against 0.61–0.64 among blocks 1–3; [TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md). Source: 12_USED_adittional_checks/01_block4_2019_interblock_correlations/results/tables/Table_OnlineResource_2019_block_correlations.tsv (2019-20, raw values, 4 traits x 6 block pairs, r and n)]{.comment-start id=\"215\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"215\"}). The grain-composition data thus comprised 3,164 plants of the 290 accessions. Each trait was mean-centered within season by subtracting the season mean, and for each trait, missing values were excluded and values deviating by more than three standard deviations from the mean of the centered values were removed as outliers.",
+   "new": "Block 4 of the 2019–20 season was excluded{-,-} because its β-glucan values {-were poorly correlated-}{+correlated poorly+} with those of the other blocks (Pearson r = 0.27–0.34, {-against-}{+compared with+} 0.61–0.64 among blocks 1–3; [TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md). Source: 12_USED_adittional_checks/01_block4_2019_interblock_correlations/results/tables/Table_OnlineResource_2019_block_correlations.tsv (2019-20, raw values, 4 traits x 6 block pairs, r and n)]{.comment-start id=\"215\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"215\"}). The grain-composition data thus comprised 3,164 plants of the 290 accessions. Each trait was {-mean-centered-}{+centered+} within season by subtracting the season mean{-, and for each trait, missing-}{+. Missing+} values were {+then +}excluded{+,+} and values {-deviating by -}more than three standard deviations from the mean of the centered values{+, pooled over the three seasons,+} were removed as outliers.{+ <!-- MM9 (M&M voice review, 2026-09-30): outlier rule unchanged, only stated plainly: clean_trait_local() in 00_THIN 01/02 (per trait: NA removed, then mean +/- 3 SD of the centered values of all seasons together). -->+}"
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶4 (trait correlations)",
+   "why": "Aim first + 'we'.",
+   "old": "Pairwise Pearson correlations between accession BLUPs (n = 290) were calculated among the four nutritional traits (Fig. 2b) and between the nutritional traits and flowering time, plant height, grain weight and grain number (Fig. 2c), with two-sided tests.",
+   "new": "{-Pairwise Pearson correlations-}{+To examine the relationships among traits, we calculated two-sided Pearson correlations+} between accession BLUPs (n = 290) {-were calculated -}among the four nutritional traits (Fig. 2b) and between the nutritional traits and flowering time, plant height, grain weight and grain number (Fig. 2c){-, with two-sided tests-}."
+  },
+  {
+   "where": "M&M · Loci and candidate genes ¶2",
+   "why": "Aim first + 'we'; 'of Ensembl' → 'from Ensembl'.",
+   "old": "The interval of each locus, from its first to its last member SNP, was intersected with the MorexV3 high-confidence gene annotation (Mascher et al. 2021) of [TODO: verify the citation. Ensembl Plants asks users to cite its latest overview article together with the release used (https://plants.ensembl.org/info/about/publications.html, checked 2026-09-29): Yates AD, Austine-Orimoloye O, Azov AG, Barba M et al (2025) Ensembl 2026. Nucleic Acids Res, https://doi.org/10.1093/nar/gkaf1239 (check year, volume and pages). The old M&M drafts cited Yates et al. 2022 (Ensembl Genomes 2022, Nucleic Acids Res 50:D996-D1003)]{.comment-start id=\"221\" author=\"TODO\"}[Ensembl Plants release 62 (Yates et al. 2025)]{.mark}[]{.comment-end id=\"221\"} with bedtools intersect v2.30.0 (Quinlan and Hall 2010).",
+   "new": "{-The interval of each locus, from its first to its last member SNP, was intersected-}{+To identify candidate genes, we intersected the interval of each locus, from its first to its last member SNP,+} with the MorexV3 high-confidence gene annotation (Mascher et al. 2021) {-of-}{+from+} [TODO: verify the citation. Ensembl Plants asks users to cite its latest overview article together with the release used (https://plants.ensembl.org/info/about/publications.html, checked 2026-09-29): Yates AD, Austine-Orimoloye O, Azov AG, Barba M et al (2025) Ensembl 2026. Nucleic Acids Res, https://doi.org/10.1093/nar/gkaf1239 (check year, volume and pages). The old M&M drafts cited Yates et al. 2022 (Ensembl Genomes 2022, Nucleic Acids Res 50:D996-D1003)]{.comment-start id=\"221\" author=\"TODO\"}[Ensembl Plants release 62 (Yates et al. 2025)]{.mark}[]{.comment-end id=\"221\"} {-with-}{+using+} bedtools intersect v2.30.0 (Quinlan and Hall 2010)."
+  }
+ ]
+}

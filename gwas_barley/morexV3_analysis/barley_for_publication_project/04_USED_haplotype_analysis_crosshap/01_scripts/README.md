@@ -46,9 +46,17 @@ Functional annotation is now the separate top-level step
 
 ## `diagnostics/`
 
-`eps_coverage_scan.R` — **not part of the pipeline.** Sweeps epsilon and reports how
-many genes yield a usable grouping, using genotype-only criteria. Kept as the evidence
-behind the ε = 0.6 choice.
+`parameter_choice_tables.R` — **not part of the pipeline; the current evidence behind the
+ε = 0.6 choice** (added 2026-09-30). Re-runs crosshap once per gene per ε (0.2, 0.4, 0.6,
+0.8, 1.0) at MGmin 2 on the 55 candidate genes, genotype-only (no p-value is computed), and
+writes `04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_choice_supplementary.tsv` (one row
+per ε; an Online Resource of the manuscript) and `epsilon_choice_per_gene.tsv` (gene × ε).
+~5 min; run under screen. Re-run only when the candidate-gene set changes.
+
+`eps_coverage_scan.R` — **not part of the pipeline; superseded by
+`parameter_choice_tables.R`.** Sweeps epsilon and reports how many genes yield a usable
+grouping, using genotype-only criteria. It was the evidence behind the ε = 0.6 choice until
+2026-09-30, measured on a retired 64-gene set.
 
 > Caveat found while writing it: passing crosshap a *vector* of epsilons makes a failure
 > at any one value abort the whole gene, which under-counts coverage. Measure a fixed

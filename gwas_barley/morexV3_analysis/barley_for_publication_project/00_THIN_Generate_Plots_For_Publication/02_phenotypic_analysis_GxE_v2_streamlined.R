@@ -12,7 +12,10 @@
 #      picked independently in each panel)
 #
 # Model used   :  trait ~ (1 | short_Tag) + (1 | season_Bl) + (1 | short_Tag:season)
-# Implemented  :  lme4 v1.1.37
+# Implemented  :  lme4 v1.1.35.3, R 4.1.2 (on fidel)
+#   (Version corrected 2026-09-29, user-approved: this header said lme4 v1.1.37,
+#    from an earlier Posit Cloud setup; the outputs were produced on fidel with
+#    R 4.1.2 and lme4 1.1.35.3. Nothing was re-run.)
 #
 # Filters applied ONCE, globally, before anything else runs:
 #   1. Starch + 8.85 correction for season 2021    (post-NIR adjustment)

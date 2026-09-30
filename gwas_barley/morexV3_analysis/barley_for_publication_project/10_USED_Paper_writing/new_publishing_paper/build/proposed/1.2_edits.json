@@ -1,0 +1,8 @@
+[
+  {
+    "where": "Results Ch. 4 ¶1 (\"To search for a candidate gene…\"), first sentence",
+    "why": "The 154 bp distance and \"the strongest fiber and starch peaks\" are already reported in Results Ch. 2 (¶2 and ¶4). Here the sentence only needs to point back to the region. The 154 bp stays in Ch. 2, and in Discussion §2 ¶2, where it carries the \"one causal variant rather than two linked genes\" argument, so the Discussion is not changed.",
+    "old": "To search for a candidate gene at the tightest of the three fiber–starch co-localizations, where the strongest fiber and starch peaks of the study lie 154 bp apart (Fig. 3b, d), the region around the two 7H loci was examined.",
+    "new": "To search for a candidate gene at the tightest of the three fiber–starch co-localizations, {-where the strongest fiber and starch peaks of the study lie 154 bp apart (Fig. 3b, d), -}the region around the two 7H loci was examined{+ (Fig. 3b, d)+}."
+  }
+]

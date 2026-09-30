@@ -92,28 +92,38 @@ tuned per gene.
 > where `LD` is a plain PLINK `--r2 square` **matrix**, not a distance object. So each
 > SNP is a point whose coordinates are its r² against every other SNP, and epsilon is a
 > **Euclidean radius in that profile space**. Its effective stringency therefore depends
-> on how many SNPs are in the window. State this in the methods.
+> on how many SNPs are in the window.
+>
+> **Not stated in the manuscript** (user decision, 2026-09-23). This README previously said
+> "State this in the methods"; that instruction is withdrawn. The Methods report ε = 0.6 and
+> MGmin = 2 as fixed parameters and the genotype-only grounds for choosing them, without the
+> parameter-space explanation. The point remains recorded here because it governs how any
+> future run must interpret ε.
 
 It was chosen on **genotype-only** criteria — crosshap never uses the phenotype to build
 haplotype groups, so this selection is not a forking path. Evidence in
-[`04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_coverage_comparison.tsv`](04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_coverage_comparison.tsv)
-(measured on the 64-gene V2 set; that run has since been deleted but the table was moved
-here — the trade-off is unchanged on later sets):
+[`04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_choice_supplementary.tsv`](04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_choice_supplementary.tsv),
+measured on **this run's own 55 candidate genes**:
 
-| epsilon | genes tested | median groups | median assignment rate |
+| ε | genes testable | accessions assigned | median groups |
 |---|---|---|---|
-| **0.60 (chosen)** | 30 | 3 | **70%** |
-| 0.80 | 34 | 3 | 61% |
-| 0.85 | 33 | 3 | 62% |
-| 1.00 | 33 | 3 | 65% |
+| 0.2 | 23 / 55 | 70.0% | 2 |
+| 0.4 | 27 / 55 | 69.3% | 3 |
+| **0.6 (used)** | **30 / 55** | **65.0%** | **3** |
+| 0.8 | 34 / 55 | 60.9% | 4 |
+| 1.0 | 33 / 55 | 60.3% | 4 |
 
-*(measured on the 64-gene V2 set; the trade-off is the same on later sets.)*
+*(measured on this run's own 55 candidate genes — see
+`04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_choice_supplementary.tsv`, with the per-gene
+data in `epsilon_choice_per_gene.tsv` (55 genes × 5 ε); both are written by
+`01_scripts/diagnostics/parameter_choice_tables.R` (2026-09-30), which re-runs crosshap per gene
+and ε and computes no p-value. The ε = 0.6 rows reproduce the published run exactly. This table
+is an Online Resource of the manuscript (M&M, Haplotype analysis).)*
 
-There is a real trade-off and no dominant value: 0.8 tests 4 more genes, 0.6 places 9
-percentage points more accessions into a defined haplotype. 0.6 was kept because an
-unassigned accession contributes nothing to the test, so assignment rate is a direct
-measure of test quality — and because 0.8 also yields *more significant genes*, which
-makes switching to it look like selecting toward significance.
+Assignment rate and gene coverage trade off monotonically against each other: a low ε
+assigns more accessions but in fewer genes (and with only ~2 groups), a high ε makes more
+genes testable but leaves more accessions unassigned. **0.6 is the midpoint**, not the
+maximum of either — that is the claim, and it is the one to use in the methods text.
 
 A wider MGmin × epsilon grid scan (`01_scripts/diagnostics/param_grid_scan.R`) exists to
 re-examine this on genotype-only criteria. It reports coverage and assignment only, never
@@ -179,7 +189,7 @@ annotations change.
 |---|---|
 | `00_config/` | `config.yaml` (**all parameters**), `gene_windows.tsv`, sample keep-list |
 | `01_scripts/` | the 5 pipeline scripts + `R/` helpers — see `01_scripts/README.md` |
-| `01_scripts/diagnostics/` | not part of the pipeline; epsilon-coverage scan |
+| `01_scripts/diagnostics/` | not part of the pipeline: `parameter_choice_tables.R` (the ε-choice table of the manuscript, 2026-09-30); older scans `eps_coverage_scan.R`, `param_grid_scan.R`, `protein_epsilon_rescue_scan.R` |
 | `02_imputation/` | imputation provenance (untouched) |
 | `03_per_gene_vcfs/` | per-gene raw + imputed VCFs, with manifests |
 | `04_runs/loci_LDspan_eps06_V4/` | **the live run** — `Stats/`, `Significant_genes/`, `CombinedPDF/`, `Heatmaps/`, `Cache/`, `Logs/` |

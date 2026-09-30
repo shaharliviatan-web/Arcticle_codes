@@ -51,6 +51,10 @@ total search space (7.9 Mb here), so state it explicitly in the methods.
 
 ---
 
+**Beta sign convention (fixed 2026-09-22).** In the tables of this directory `beta` / `lead_beta` / `top_beta` is the effect of **A1, the minor allele** (PLINK A1), so it reads together with the A1 column. EMMAX's raw `.ps` beta is the effect of the allele coded "2" in the `--recode12` tped (PLINK A2, the major allele); scripts 11 and 36 flip its sign. Verified on all 36 leads (EMMAX re-run reproduces the `.ps` betas; swapping the 1/2 codes flips every sign; OLS on the A2 count + 3 PCs has the EMMAX sign at 36/36). Before the fix the tables carried the A2 sign next to A1. SE and p were never affected; only the beta columns changed. **Still A2-coded (raw EMMAX sign):** `results/emmax_ps/*.ps`, `01_assoc/`, `results/tables/top_snps_per_chr/` and the `00_snp_level/top15_per_chr__*.tsv` copies.
+
+---
+
 ## Directory map
 
 | directory | contents |

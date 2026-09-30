@@ -44,6 +44,8 @@ step "04 figures (violin + aligned barcodes)" \
      "$RSCRIPT_BIN" "${DIR_SCRIPTS}/04_figures.R"
 step "05 paper tables" \
      "$RSCRIPT_BIN" "${DIR_SCRIPTS}/05_paper_tables.R"
+step "06 removed-sites table (which sites shared_sites drops, and what they cost)" \
+     "$RSCRIPT_BIN" "${DIR_SCRIPTS}/06_removed_sites_table.R"
 
 echo
 echo "DONE. Figures  -> ${DIR_FIGURES}/<version>/"

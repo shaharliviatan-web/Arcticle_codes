@@ -55,7 +55,9 @@ change otherwise.
 
 ## Versions
 
-See `logs/versions.txt`. This run: InterProScan **5.77-108.0** (EBI),
+See `logs/versions.txt`. This run: InterProScan **5.78-109.0** (EBI; run 2026-09-09; all 23
+significant genes' JSON results carry this version, checked 2026-09-30 - corrected the same
+day from 5.77-108.0, the earlier 45-gene run, user-approved),
 iprscan5 client rev **2024-07-11**, EBI REST
 `https://www.ebi.ac.uk/Tools/services/rest/iprscan5`. `--goterms` and `--pathways`
 enabled; default member-database set (Pfam, PANTHER, Gene3D, SUPERFAMILY, CDD,

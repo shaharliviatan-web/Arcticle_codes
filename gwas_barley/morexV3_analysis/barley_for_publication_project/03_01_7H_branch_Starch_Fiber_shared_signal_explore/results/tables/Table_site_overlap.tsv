@@ -1,0 +1,2 @@
+gene_id	short_name	trait	chr	win_start	win_end	n_wild_snps	n_elite_records	n_shared	n_wild_only	n_elite_only	n_elite_only_indel	n_shared_positions	n_alleles_identical	n_alleles_swapped	n_alleles_triallelic	n_alleles_ref_differs	n_wild_assigned_accessions	n_wild_mono_all	n_wild_mono_kept	n_wild_mono_removed	n_elite_lines_shown	n_elite_mono_all	n_elite_mono_kept	n_elite_mono_removed
+HORVU.MOREX.r3.7HG0729030	GDSL	fiber+starch	7H	573603051	573606728	27	131	22	5	109	0	22	22	0	0	0	246	0	0	0	5	93	17	76

@@ -1,0 +1,37 @@
+{
+ "notes": [
+  "**Item MM11, the minor round** (the last item of the M&M voice review).",
+  "**One name for the trait set:** the Results, the Discussion and most of the M&M say \"nutritional traits\", but three places in the M&M still said \"grain-composition\". \"Grain composition\" stays where it names the concept, including the heading \"Grain composition by near-infrared spectroscopy\".",
+  "**\"Ten traits\"** is spelled out once, so the reader does not have to count 4 + 6.",
+  "**One stray double space**, left over from an earlier cut, is removed. Pandoc would collapse it anyway.",
+  "**Checked, no change needed:** every abbreviation is defined at its first use (SNP, MAF, CTAB, NIR, BLUP, H², GWAS, LD, MGmin, minHap). The SD wording now matches Table 2, since MM10b. The \"we\" count is 20, close to Evgeny's 17 in his Mol Biol Evol M&M.",
+  "**Left as is (outside the M&M):** the Results call flowering time a \"morphological\" trait, while the M&M says \"morphological and phenological\". That is S. Hübner's Results wording; tell me if you want it aligned."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "M&M · Common garden ¶2 (last sentence)",
+   "why": "Trait-set name as in the rest of the paper.",
+   "old": "Four grain-composition traits (protein, starch, β-glucan and fiber) were measured",
+   "new": "Four {-grain-composition-}{+nutritional+} traits (protein, starch, β-glucan and fiber) were measured"
+  },
+  {
+   "where": "M&M · Common garden ¶3 (post-harvest)",
+   "why": "Same.",
+   "old": "and stored for grain-composition analysis.",
+   "new": "and stored for {-grain-composition-}{+nutritional+} analysis."
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶1",
+   "why": "Same.",
+   "old": "The grain-composition data thus comprised 3,164 plants of the 290 accessions.",
+   "new": "The {-grain-composition-}{+nutritional-trait+} data thus comprised 3,164 plants of the 290 accessions."
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶2 (BLUP model)",
+   "why": "'Ten traits' spelled out once; a stray double space removed.",
+   "old": "for each of the ten traits  in lme4 v1.1.35.3",
+   "new": "for each of the ten traits {+(the four nutritional and six morphological and phenological traits) +}{- -}in lme4 v1.1.35.3"
+  }
+ ]
+}

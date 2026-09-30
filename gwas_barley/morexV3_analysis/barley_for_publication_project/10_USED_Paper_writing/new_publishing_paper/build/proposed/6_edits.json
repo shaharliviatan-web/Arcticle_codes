@@ -1,0 +1,42 @@
+{
+  "notes": [
+    "**Section 6: the remaining Discussion cuts, re-checked after the reorganisation (item 3).** Five changes: 6.1, 6.2, 6.3, and the gene short names in the Discussion (left open in section 4, Q3).",
+    "**6.3, re-checked:** the GDSL gene now appears in three places in the Discussion, §2 ¶2 (its link to starch is compositional), §4 ¶1 (the two steps that miss genes) and §4 ¶2 (its function). Each makes a different point, so all three stay. The only real repetition is the double naming inside §4 ¶1 (change 4)."
+  ],
+  "questions": [
+    "**Q1 (change 1).** The 1H sentence is kept as a neutral fact. The alternative is to drop it too and change the opening *\"these resolved at three different levels\"* to *\"two of them resolved to genes\"*. Write **\"6 drop 1H\"** for that; default is to keep it.",
+    "**Q2 (change 4).** Change 4 edits the sentence you approved in 3b, only to avoid naming the GDSL gene twice. OK?"
+  ],
+  "edits": [
+    {
+      "where": "Discussion §2 ¶2 (\"The trade-off also had…\"), last three sentences (6.1 + names)",
+      "why": "6.1: *\"where a region could not be resolved, nothing contradicted it\"* uses the absence of evidence as support, so it goes. The 1H sentence stays as a neutral fact, because the paragraph opens with \"three regions… resolved at three different levels\" and 1H is the third (see Q1). The two 3H genes also get their short names, so the reader connects them with Results Ch. 3 and Table 2.",
+      "old": "a cutin-biosynthetic acyltransferase for fiber and a plastid phosphate transporter for starch. On chromosome 1H, the region contained no gene with a known role in either trait. Thus, the carbon-allocation axis was visible at every level the data could resolve, and where a region could not be resolved, nothing contradicted it.",
+      "new": "a cutin-biosynthetic acyltransferase{+ (*GPAT6*)+} for fiber and a plastid phosphate transporter{+ (*PHT4;3*)+} for starch. On chromosome 1H, the region contained no gene with a known role in either trait. Thus, the carbon-allocation axis was visible at every level the data could resolve{-, and where a region could not be resolved, nothing contradicted it-}."
+    },
+    {
+      "where": "Discussion §3 ¶1 (\"Trait heritability…\"), last sentence (names)",
+      "why": "Short name, as in the Results and Table 2.",
+      "old": "once the markers across the glucanase gene were analyzed together.",
+      "new": "once the markers across {-the glucanase gene-}{+*GH17*+} were analyzed together."
+    },
+    {
+      "where": "Discussion §3 ¶2 (\"Most associations rested…\"), sentences 2–3 (6.2)",
+      "why": "6.2: *\"This consistent direction requires closer attention\"* only announces what follows. It now says what the attention is about (where the carriers came from) and runs straight into the evidence. The TODO 405 comment on \"desert and coast–desert sites\" is untouched.",
+      "old": "This consistent direction requires closer attention. At most fiber and β-glucan loci, the minor-allele carriers originated mainly from ",
+      "new": "{-This consistent direction requires closer attention. At most fiber and β-glucan loci, the minor-allele carriers originated mainly from-}{+This consistency may partly reflect where the carriers came from: at most fiber and β-glucan loci, they originated mainly from+} "
+    },
+    {
+      "where": "Discussion §4 ¶1 (\"Statistical rank…\"), the sentence added in 3b (6.3)",
+      "why": "6.3: the GDSL gene is now named twice in this paragraph, two sentences apart, once \"at 7H\" and once \"on 7H\". The second mention becomes \"the same gene\", and \"also\" shows that the one gene illustrates both steps. The rest of your 3b sentence is unchanged (see Q2).",
+      "old": "This was the case at the GDSL esterase/lipase on 7H, whose associated SNPs were grouped only at a different setting.",
+      "new": "{-This was the case at the GDSL esterase/lipase on 7H-}{+This was also the case at the same gene+}, whose associated SNPs were grouped only at a different setting."
+    },
+    {
+      "where": "Discussion §5 ¶1 (\"The five elite cultivars…\") (names)",
+      "why": "Short names, as in the Results, Table 2 and Fig. 4.",
+      "old": "At the glucanase and the phosphate transporter, the cultivars carried the reference allele at every site, and since the reference genome, Morex, is itself an elite cultivar, these two genes are not informative for this comparison. By contrast, at two independent loci, the acyltransferase and the GDSL esterase/lipase, the high-fiber wild haplotype was absent from the elite lines examined",
+      "new": "At {-the glucanase and the phosphate transporter-}{+*GH17* and *PHT4;3*+}, the cultivars carried the reference allele at every site, and since the reference genome, Morex, is itself an elite cultivar, these two genes are not informative for this comparison. By contrast, at two independent loci, {-the acyltransferase-}{+*GPAT6*+} and the GDSL esterase/lipase, the high-fiber wild haplotype was absent from the elite lines examined"
+    }
+  ]
+}

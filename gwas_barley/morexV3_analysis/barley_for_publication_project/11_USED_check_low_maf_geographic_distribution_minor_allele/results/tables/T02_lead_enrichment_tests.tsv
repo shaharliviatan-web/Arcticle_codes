@@ -1,0 +1,37 @@
+trait	locus_id	lead_SNP	gene	lead_neg_log10_p	MAF	minor_effect	n_minor	n_major	n_missing	minor_North	minor_Coast	minor_Desert	minor_HZ1	minor_HZ2	minor_HZ3	n_regions_minor	n_sites_minor	n_desert_sites_minor	top_site	top_site_n	desert_pct_minor	desert_pct_major	desert_OR	desert_direction	p_desert	q_desert	p_regions	q_regions
+betaglucan	betaglucan_L01	1H:479493867		6.2281	0.0642	raises	14	204	72	1	0	8	0	0	5	3	7	4	Hagosh Junction	4	57.1	11.8	9.82	enriched	0.018	0.0495	0.0297	0.0653
+betaglucan	betaglucan_L02	2H:41996626		7.6023	0.0739	raises	17	213	60	0	0	16	0	0	1	2	4	3	Arad	8	94.1	11.3	121.48	enriched	0.003	0.0165	0.0085	0.0396
+betaglucan	betaglucan_L03	3H:475967335		6.0576	0.2625	raises	63	177	50	14	3	22	1	11	12	6	17	5	Revivim	9	34.9	7.9	6.19	enriched	0.04	0.0629	0.0588	0.0929
+betaglucan	betaglucan_L04	3H:537247620		7.1876	0.0779	raises	18	213	59	0	0	8	0	0	10	2	4	3	Revivim	10	44.4	15	4.48	enriched	0.353	0.388	0.256	0.296
+betaglucan	betaglucan_L05	4H:34858354		7.3349	0.0531	raises	13	232	45	0	0	7	1	3	2	4	8	4	Arad	3	53.8	15.9	6.08	enriched	0.0228	0.0502	0.0896	0.123
+betaglucan	betaglucan_L06	4H:34971609		7.0864	0.0591	raises	14	223	53	0	0	7	1	4	2	4	9	4	Arad	3	50	16.1	5.14	enriched	0.0288	0.0528	0.0591	0.0929
+betaglucan	betaglucan_L07	4H:528254769		6.5307	0.0588	raises	15	240	35	0	0	11	0	0	4	2	6	4	Maale Akrabim	6	73.3	12.1	19.58	enriched	0.006	0.022	0.0108	0.0396
+betaglucan	betaglucan_L08	5H:224439424		6.3553	0.0625	raises	15	225	50	0	0	6	0	0	9	2	5	4	Revivim	9	40	16.9	3.26	enriched	0.352	0.388	0.269	0.296
+betaglucan	betaglucan_L09	6H:475144663		6.2708	0.0675	raises	17	235	38	0	4	10	0	1	2	4	5	2	Arad	6	58.8	14.9	8.06	enriched	0.0662	0.091	0.306	0.306
+betaglucan	betaglucan_L10	6H:477651616		6.1919	0.1174	raises	27	203	60	0	2	7	0	3	15	4	11	3	Orim	9	25.9	16.3	1.8	enriched	0.459	0.459	0.0202	0.0556
+betaglucan	betaglucan_L11	6H:545947347		6.1146	0.0672	raises	16	222	52	1	1	13	0	0	1	4	6	3	Arad	6	81.2	11.7	31.81	enriched	0.0022	0.0165	0.0076	0.0396
+fiber	fiber_L01	1H:329707484		6.1816	0.0551	raises	13	223	54	0	3	9	0	0	1	3	5	3	Masada	4	69.2	13	14.75	enriched	0.0078	0.0231	0.028	0.0751
+fiber	fiber_L02	1H:330239605		6.4843	0.0591	raises	15	239	36	0	3	11	0	0	1	3	6	4	Masada	4	73.3	12.6	18.76	enriched	0.0026	0.0204	0.0055	0.0495
+fiber	fiber_L03	1H:330625182		6.3071	0.0636	raises	15	221	54	0	2	9	3	0	1	4	6	3	Masada	4	60	15.4	8.14	enriched	0.0256	0.0504	0.136	0.163
+fiber	fiber_L04	1H:344520079		6.8521	0.0529	raises	12	215	63	0	0	9	3	0	0	2	3	2	Masada	5	75	15.8	15.67	enriched	0.0442	0.0612	0.197	0.209
+fiber	fiber_L05	1H:440022799		6.1584	0.0717	raises	17	220	53	0	0	16	0	0	1	2	4	3	Arad	9	94.1	11.8	115.41	enriched	0.0034	0.0204	0.0229	0.0751
+fiber	fiber_L06	1H:440573355		6.2189	0.0688	raises	17	230	43	0	0	16	0	0	1	2	4	3	Arad	9	94.1	13	103.56	enriched	0.007	0.0231	0.0392	0.0784
+fiber	fiber_L07	3H:543690146		6.3664	0.1239	raises	29	205	56	0	0	20	0	0	9	2	7	5	Mount Ramon	8	69	11.2	17.21	enriched	0.0052	0.0231	0.016	0.0751
+fiber	fiber_L08	3H:544084309	GPAT6	6.2422	0.1602	raises	37	194	59	0	1	20	0	0	16	3	8	5	Mount Ramon	9	54.1	12.4	8.22	enriched	0.028	0.0504	0.035	0.0784
+fiber	fiber_L09	4H:24707376		7.0209	0.0581	raises	14	227	49	0	0	3	0	0	11	2	4	2	Orim	10	21.4	16.7	1.35	enriched	0.411	0.493	0.175	0.197
+fiber	fiber_L10	4H:470989624		6.0644	0.0558	raises	13	220	57	0	9	2	0	0	2	3	4	1	Zikim	9	15.4	17.3	0.87	depleted	0.539	0.606	0.877	0.877
+fiber	fiber_L11	5H:208944021		6.0799	0.083	raises	19	210	61	0	1	9	0	9	0	3	6	3	Givat Hamoreh	6	47.4	14.8	5.14	enriched	0.109	0.14	0.105	0.145
+fiber	fiber_L12	5H:377309369		6.372	0.0833	raises	19	209	62	0	1	4	0	11	3	4	10	3	Givat Hamoreh	6	21.1	18.2	1.2	enriched	0.697	0.738	0.0265	0.0751
+fiber	fiber_L13	5H:437005013		6.4594	0.0496	raises	12	230	48	0	0	11	0	1	0	2	3	2	Masada	8	91.7	14.8	61.83	enriched	0.0316	0.0517	0.0863	0.129
+fiber	fiber_L14	5H:462564771	GH17	6.0506	0.0687	raises	16	217	57	0	2	13	0	0	1	3	5	3	Arad	9	81.2	12.4	29.72	enriched	0.009	0.0231	0.0292	0.0751
+fiber	fiber_L15	7H:14817657		6.7984	0.0533	raises	13	231	46	0	0	12	0	0	1	2	3	2	Mount Ramon	10	92.3	14.7	67.78	enriched	0.0412	0.0612	0.133	0.163
+fiber	fiber_L16	7H:415651802		6.4915	0.1807	raises	43	195	52	5	1	31	0	3	3	5	11	5	Mount Ramon	10	72.1	7.2	32.41	enriched	8e-04	0.0144	0.0031	0.0495
+fiber	fiber_L17	7H:573606306	GDSL	7.2451	0.1701	raises	41	200	49	0	5	7	7	21	1	5	11	2	Tirat Zvi	8	17.1	15	1.17	enriched	0.808	0.808	0.062	0.112
+fiber	fiber_L18	7H:586569512		6.6754	0.0502	raises	12	227	51	0	0	8	0	2	2	3	6	3	Arad	4	66.7	15.9	10.45	enriched	0.02	0.045	0.0709	0.116
+starch	starch_L01	1H:330432546		6.1296	0.0517	lowers	12	220	58	0	3	8	0	0	1	3	5	3	Masada	4	66.7	14.1	11.98	enriched	0.0096	0.024	0.0353	0.0882
+starch	starch_L02	3H:530660057		6.2104	0.4196	lowers	94	130	66	9	11	17	18	15	24	6	25	4	Mount Ramon	8	18.1	13.8	1.37	enriched	0.684	0.816	0.77	0.77
+starch	starch_L03	3H:546433616	PHT4;3	6.3441	0.1336	lowers	31	201	58	0	2	19	0	0	10	3	8	5	Maale Akrabim	10	61.3	12.9	10.49	enriched	0.049	0.0817	0.0659	0.11
+starch	starch_L04	6H:525776080		6.1175	0.4239	lowers	103	140	47	5	44	0	29	13	12	5	19	0	Mount Tayasim	10	0	27.1	0	depleted	0.0086	0.024	1e-04	5e-04
+starch	starch_L05	7H:573606460	GDSL	6.4367	0.1471	lowers	35	203	52	0	5	7	7	14	2	5	10	2	Tirat Zvi	8	20	18.2	1.12	enriched	0.816	0.816	0.326	0.408
+protein	protein_L01	3H:106623911		6.433	0.1799	lowers	43	196	51	6	12	0	12	9	4	5	16	0	Rohama	7	0	23	0	depleted	0.0066	0.0132	0.201	0.201
+protein	protein_L02	3H:159799839		6.0456	0.0601	raises	14	219	57	0	0	0	1	11	2	3	6	0	Givat Hamoreh	5	0	19.2	0	depleted	0.143	0.143	0.0102	0.0204

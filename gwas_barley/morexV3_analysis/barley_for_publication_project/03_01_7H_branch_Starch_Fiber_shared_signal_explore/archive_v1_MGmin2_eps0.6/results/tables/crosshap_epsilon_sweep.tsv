@@ -1,0 +1,15 @@
+trait	epsilon	marker_groups	gwas_signal_snps_kept	haplotype_groups	n_assigned	n_unassigned	kw_p	eta_squared	status
+fiber	0.4	3	3	4	151	139	0.105975513268933	0.0212156997782364	ok
+fiber	0.6	1	0	2	109	181	0.159715409313161	0.00913007977578885	ok
+fiber	0.8	2	0	3	96	194	0.0692199036536417	0.0359240179067106	ok
+fiber	1	3	0	4	76	214	0.10668890180569	0.0431020733652308	ok
+fiber	1.2								crosshap_error: Assigned data `base::sapply(...)` must be compatible with ex
+fiber	1.5	2	4	3	147	143	0.0512506837024957	0.0273753655627236	ok
+fiber	2								crosshap_error: object 'Varfile' not found
+starch	0.4	3	3	4	151	139	0.0575836676181319	0.0306055703165006	ok
+starch	0.6	1	0	2	109	181	0.360556416287521	0	ok
+starch	0.8	2	0	3	96	194	0.66033672340354	0	ok
+starch	1	3	0	4	76	214	0.685037028051375	0	ok
+starch	1.2								crosshap_error: Assigned data `base::sapply(...)` must be compatible with ex
+starch	1.5	2	4	3	147	143	0.045843016137998	0.0289240612731034	ok
+starch	2								crosshap_error: object 'Varfile' not found

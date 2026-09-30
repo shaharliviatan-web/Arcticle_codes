@@ -1,4 +1,4 @@
-gene_id	short_name	trait	chr	win_start	win_end	n_wild_snps	n_elite_records	n_shared	n_wild_only	n_elite_only	n_elite_only_indel	n_shared_positions	n_alleles_identical	n_alleles_swapped	n_alleles_triallelic	n_alleles_ref_differs
-HORVU.MOREX.r3.3HG0301300	GPAT6	fiber	3H	544999419	545005865	54	244	43	10	200	20	44	43	0	1	0
-HORVU.MOREX.r3.5HG0487060	GH17	fiber	5H	462725793	462732160	41	306	33	7	272	49	34	33	0	1	0
-HORVU.MOREX.r3.3HG0301710	PHT4-3	starch	3H	546472709	546478564	16	158	12	4	146	15	12	12	0	0	0
+gene_id	short_name	trait	chr	win_start	win_end	n_wild_snps	n_elite_records	n_shared	n_wild_only	n_elite_only	n_elite_only_indel	n_shared_positions	n_alleles_identical	n_alleles_swapped	n_alleles_triallelic	n_alleles_ref_differs	n_wild_assigned_accessions	n_wild_mono_all	n_wild_mono_kept	n_wild_mono_removed	n_elite_lines_shown	n_elite_mono_all	n_elite_mono_kept	n_elite_mono_removed
+HORVU.MOREX.r3.3HG0301300	GPAT6	fiber	3H	544999419	545005865	54	244	43	10	200	20	44	43	0	1	0	123	10	9	1	5	235	42	193
+HORVU.MOREX.r3.5HG0487060	GH17	fiber	5H	462725793	462732160	41	306	33	7	272	49	34	33	0	1	0	107	8	8	0	5	286	33	253
+HORVU.MOREX.r3.3HG0301710	PHT4-3	starch	3H	546472709	546478564	16	158	12	4	146	15	12	12	0	0	0	205	0	0	0	5	155	12	143

@@ -1,0 +1,3 @@
+trait	MGmin	epsilon	marker_groups	gwas_signal_snps_kept	n_snps_window	haplotype_groups	n_assigned	n_unassigned	group_sizes	kw_H	kw_df	kw_p_raw	eta_squared	delta_top_bottom_sd
+fiber	3	0.9	1	4	27	2	246	44	212|34	9.4646861112484	1	0.00209465273269725	0.0346913365215098	0.535111356660559
+starch	3	0.9	1	4	27	2	246	44	212|34	10.7006696096661	1	0.00107096765578461	0.0397568426625661	0.559479860465276

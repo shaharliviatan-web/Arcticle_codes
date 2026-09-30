@@ -1,0 +1,217 @@
+trait	locus_id	lead_SNP	region	n_minor	n_major	n_missing	pct_minor_within_region	pct_of_minor_carriers	pct_of_major_carriers
+betaglucan	betaglucan_L01	1H:479493867	North	1	31	8	3.1	7.1	15.2
+betaglucan	betaglucan_L01	1H:479493867	Coast	0	42	8	0	0	20.6
+betaglucan	betaglucan_L01	1H:479493867	Desert	8	24	18	25	57.1	11.8
+betaglucan	betaglucan_L01	1H:479493867	HZ1 (North-Coast)	0	44	6	0	0	21.6
+betaglucan	betaglucan_L01	1H:479493867	HZ2 (North-Desert)	0	30	20	0	0	14.7
+betaglucan	betaglucan_L01	1H:479493867	HZ3 (Coast-Desert)	5	33	12	13.2	35.7	16.2
+betaglucan	betaglucan_L02	2H:41996626	North	0	28	12	0	0	13.1
+betaglucan	betaglucan_L02	2H:41996626	Coast	0	39	11	0	0	18.3
+betaglucan	betaglucan_L02	2H:41996626	Desert	16	24	10	40	94.1	11.3
+betaglucan	betaglucan_L02	2H:41996626	HZ1 (North-Coast)	0	44	6	0	0	20.7
+betaglucan	betaglucan_L02	2H:41996626	HZ2 (North-Desert)	0	41	9	0	0	19.2
+betaglucan	betaglucan_L02	2H:41996626	HZ3 (Coast-Desert)	1	37	12	2.6	5.9	17.4
+betaglucan	betaglucan_L03	3H:475967335	North	14	20	6	41.2	22.2	11.3
+betaglucan	betaglucan_L03	3H:475967335	Coast	3	36	11	7.7	4.8	20.3
+betaglucan	betaglucan_L03	3H:475967335	Desert	22	14	14	61.1	34.9	7.9
+betaglucan	betaglucan_L03	3H:475967335	HZ1 (North-Coast)	1	45	4	2.2	1.6	25.4
+betaglucan	betaglucan_L03	3H:475967335	HZ2 (North-Desert)	11	29	10	27.5	17.5	16.4
+betaglucan	betaglucan_L03	3H:475967335	HZ3 (Coast-Desert)	12	33	5	26.7	19	18.6
+betaglucan	betaglucan_L04	3H:537247620	North	0	31	9	0	0	14.6
+betaglucan	betaglucan_L04	3H:537247620	Coast	0	42	8	0	0	19.7
+betaglucan	betaglucan_L04	3H:537247620	Desert	8	32	10	20	44.4	15
+betaglucan	betaglucan_L04	3H:537247620	HZ1 (North-Coast)	0	38	12	0	0	17.8
+betaglucan	betaglucan_L04	3H:537247620	HZ2 (North-Desert)	0	40	10	0	0	18.8
+betaglucan	betaglucan_L04	3H:537247620	HZ3 (Coast-Desert)	10	30	10	25	55.6	14.1
+betaglucan	betaglucan_L05	4H:34858354	North	0	31	9	0	0	13.4
+betaglucan	betaglucan_L05	4H:34858354	Coast	0	43	7	0	0	18.5
+betaglucan	betaglucan_L05	4H:34858354	Desert	7	37	6	15.9	53.8	15.9
+betaglucan	betaglucan_L05	4H:34858354	HZ1 (North-Coast)	1	38	11	2.6	7.7	16.4
+betaglucan	betaglucan_L05	4H:34858354	HZ2 (North-Desert)	3	43	4	6.5	23.1	18.5
+betaglucan	betaglucan_L05	4H:34858354	HZ3 (Coast-Desert)	2	40	8	4.8	15.4	17.2
+betaglucan	betaglucan_L06	4H:34971609	North	0	34	6	0	0	15.2
+betaglucan	betaglucan_L06	4H:34971609	Coast	0	42	8	0	0	18.8
+betaglucan	betaglucan_L06	4H:34971609	Desert	7	36	7	16.3	50	16.1
+betaglucan	betaglucan_L06	4H:34971609	HZ1 (North-Coast)	1	34	15	2.9	7.1	15.2
+betaglucan	betaglucan_L06	4H:34971609	HZ2 (North-Desert)	4	36	10	10	28.6	16.1
+betaglucan	betaglucan_L06	4H:34971609	HZ3 (Coast-Desert)	2	41	7	4.7	14.3	18.4
+betaglucan	betaglucan_L07	4H:528254769	North	0	40	0	0	0	16.7
+betaglucan	betaglucan_L07	4H:528254769	Coast	0	41	9	0	0	17.1
+betaglucan	betaglucan_L07	4H:528254769	Desert	11	29	10	27.5	73.3	12.1
+betaglucan	betaglucan_L07	4H:528254769	HZ1 (North-Coast)	0	46	4	0	0	19.2
+betaglucan	betaglucan_L07	4H:528254769	HZ2 (North-Desert)	0	45	5	0	0	18.8
+betaglucan	betaglucan_L07	4H:528254769	HZ3 (Coast-Desert)	4	39	7	9.3	26.7	16.2
+betaglucan	betaglucan_L08	5H:224439424	North	0	32	8	0	0	14.2
+betaglucan	betaglucan_L08	5H:224439424	Coast	0	42	8	0	0	18.7
+betaglucan	betaglucan_L08	5H:224439424	Desert	6	38	6	13.6	40	16.9
+betaglucan	betaglucan_L08	5H:224439424	HZ1 (North-Coast)	0	43	7	0	0	19.1
+betaglucan	betaglucan_L08	5H:224439424	HZ2 (North-Desert)	0	41	9	0	0	18.2
+betaglucan	betaglucan_L08	5H:224439424	HZ3 (Coast-Desert)	9	29	12	23.7	60	12.9
+betaglucan	betaglucan_L09	6H:475144663	North	0	33	7	0	0	14
+betaglucan	betaglucan_L09	6H:475144663	Coast	4	44	2	8.3	23.5	18.7
+betaglucan	betaglucan_L09	6H:475144663	Desert	10	35	5	22.2	58.8	14.9
+betaglucan	betaglucan_L09	6H:475144663	HZ1 (North-Coast)	0	44	6	0	0	18.7
+betaglucan	betaglucan_L09	6H:475144663	HZ2 (North-Desert)	1	41	8	2.4	5.9	17.4
+betaglucan	betaglucan_L09	6H:475144663	HZ3 (Coast-Desert)	2	38	10	5	11.8	16.2
+betaglucan	betaglucan_L10	6H:477651616	North	0	32	8	0	0	15.8
+betaglucan	betaglucan_L10	6H:477651616	Coast	2	36	12	5.3	7.4	17.7
+betaglucan	betaglucan_L10	6H:477651616	Desert	7	33	10	17.5	25.9	16.3
+betaglucan	betaglucan_L10	6H:477651616	HZ1 (North-Coast)	0	41	9	0	0	20.2
+betaglucan	betaglucan_L10	6H:477651616	HZ2 (North-Desert)	3	40	7	7	11.1	19.7
+betaglucan	betaglucan_L10	6H:477651616	HZ3 (Coast-Desert)	15	21	14	41.7	55.6	10.3
+betaglucan	betaglucan_L11	6H:545947347	North	1	33	6	2.9	6.2	14.9
+betaglucan	betaglucan_L11	6H:545947347	Coast	1	44	5	2.2	6.2	19.8
+betaglucan	betaglucan_L11	6H:545947347	Desert	13	26	11	33.3	81.2	11.7
+betaglucan	betaglucan_L11	6H:545947347	HZ1 (North-Coast)	0	37	13	0	0	16.7
+betaglucan	betaglucan_L11	6H:545947347	HZ2 (North-Desert)	0	39	11	0	0	17.6
+betaglucan	betaglucan_L11	6H:545947347	HZ3 (Coast-Desert)	1	43	6	2.3	6.2	19.4
+fiber	fiber_L01	1H:329707484	North	0	35	5	0	0	15.7
+fiber	fiber_L01	1H:329707484	Coast	3	37	10	7.5	23.1	16.6
+fiber	fiber_L01	1H:329707484	Desert	9	29	12	23.7	69.2	13
+fiber	fiber_L01	1H:329707484	HZ1 (North-Coast)	0	40	10	0	0	17.9
+fiber	fiber_L01	1H:329707484	HZ2 (North-Desert)	0	39	11	0	0	17.5
+fiber	fiber_L01	1H:329707484	HZ3 (Coast-Desert)	1	43	6	2.3	7.7	19.3
+fiber	fiber_L02	1H:330239605	North	0	33	7	0	0	13.8
+fiber	fiber_L02	1H:330239605	Coast	3	44	3	6.4	20	18.4
+fiber	fiber_L02	1H:330239605	Desert	11	30	9	26.8	73.3	12.6
+fiber	fiber_L02	1H:330239605	HZ1 (North-Coast)	0	44	6	0	0	18.4
+fiber	fiber_L02	1H:330239605	HZ2 (North-Desert)	0	47	3	0	0	19.7
+fiber	fiber_L02	1H:330239605	HZ3 (Coast-Desert)	1	41	8	2.4	6.7	17.2
+fiber	fiber_L03	1H:330625182	North	0	31	9	0	0	14
+fiber	fiber_L03	1H:330625182	Coast	2	40	8	4.8	13.3	18.1
+fiber	fiber_L03	1H:330625182	Desert	9	34	7	20.9	60	15.4
+fiber	fiber_L03	1H:330625182	HZ1 (North-Coast)	3	40	7	7	20	18.1
+fiber	fiber_L03	1H:330625182	HZ2 (North-Desert)	0	40	10	0	0	18.1
+fiber	fiber_L03	1H:330625182	HZ3 (Coast-Desert)	1	36	13	2.7	6.7	16.3
+fiber	fiber_L04	1H:344520079	North	0	29	11	0	0	13.5
+fiber	fiber_L04	1H:344520079	Coast	0	37	13	0	0	17.2
+fiber	fiber_L04	1H:344520079	Desert	9	34	7	20.9	75	15.8
+fiber	fiber_L04	1H:344520079	HZ1 (North-Coast)	3	39	8	7.1	25	18.1
+fiber	fiber_L04	1H:344520079	HZ2 (North-Desert)	0	39	11	0	0	18.1
+fiber	fiber_L04	1H:344520079	HZ3 (Coast-Desert)	0	37	13	0	0	17.2
+fiber	fiber_L05	1H:440022799	North	0	29	11	0	0	13.2
+fiber	fiber_L05	1H:440022799	Coast	0	40	10	0	0	18.2
+fiber	fiber_L05	1H:440022799	Desert	16	26	8	38.1	94.1	11.8
+fiber	fiber_L05	1H:440022799	HZ1 (North-Coast)	0	43	7	0	0	19.5
+fiber	fiber_L05	1H:440022799	HZ2 (North-Desert)	0	46	4	0	0	20.9
+fiber	fiber_L05	1H:440022799	HZ3 (Coast-Desert)	1	36	13	2.7	5.9	16.4
+fiber	fiber_L06	1H:440573355	North	0	38	2	0	0	16.5
+fiber	fiber_L06	1H:440573355	Coast	0	42	8	0	0	18.3
+fiber	fiber_L06	1H:440573355	Desert	16	30	4	34.8	94.1	13
+fiber	fiber_L06	1H:440573355	HZ1 (North-Coast)	0	40	10	0	0	17.4
+fiber	fiber_L06	1H:440573355	HZ2 (North-Desert)	0	39	11	0	0	17
+fiber	fiber_L06	1H:440573355	HZ3 (Coast-Desert)	1	41	8	2.4	5.9	17.8
+fiber	fiber_L07	3H:543690146	North	0	31	9	0	0	15.1
+fiber	fiber_L07	3H:543690146	Coast	0	38	12	0	0	18.5
+fiber	fiber_L07	3H:543690146	Desert	20	23	7	46.5	69	11.2
+fiber	fiber_L07	3H:543690146	HZ1 (North-Coast)	0	44	6	0	0	21.5
+fiber	fiber_L07	3H:543690146	HZ2 (North-Desert)	0	37	13	0	0	18
+fiber	fiber_L07	3H:543690146	HZ3 (Coast-Desert)	9	32	9	22	31	15.6
+fiber	fiber_L08	3H:544084309	North	0	31	9	0	0	16
+fiber	fiber_L08	3H:544084309	Coast	1	35	14	2.8	2.7	18
+fiber	fiber_L08	3H:544084309	Desert	20	24	6	45.5	54.1	12.4
+fiber	fiber_L08	3H:544084309	HZ1 (North-Coast)	0	44	6	0	0	22.7
+fiber	fiber_L08	3H:544084309	HZ2 (North-Desert)	0	37	13	0	0	19.1
+fiber	fiber_L08	3H:544084309	HZ3 (Coast-Desert)	16	23	11	41	43.2	11.9
+fiber	fiber_L09	4H:24707376	North	0	29	11	0	0	12.8
+fiber	fiber_L09	4H:24707376	Coast	0	46	4	0	0	20.3
+fiber	fiber_L09	4H:24707376	Desert	3	38	9	7.3	21.4	16.7
+fiber	fiber_L09	4H:24707376	HZ1 (North-Coast)	0	41	9	0	0	18.1
+fiber	fiber_L09	4H:24707376	HZ2 (North-Desert)	0	45	5	0	0	19.8
+fiber	fiber_L09	4H:24707376	HZ3 (Coast-Desert)	11	28	11	28.2	78.6	12.3
+fiber	fiber_L10	4H:470989624	North	0	29	11	0	0	13.2
+fiber	fiber_L10	4H:470989624	Coast	9	34	7	20.9	69.2	15.5
+fiber	fiber_L10	4H:470989624	Desert	2	38	10	5	15.4	17.3
+fiber	fiber_L10	4H:470989624	HZ1 (North-Coast)	0	38	12	0	0	17.3
+fiber	fiber_L10	4H:470989624	HZ2 (North-Desert)	0	45	5	0	0	20.5
+fiber	fiber_L10	4H:470989624	HZ3 (Coast-Desert)	2	36	12	5.3	15.4	16.4
+fiber	fiber_L11	5H:208944021	North	0	27	13	0	0	12.9
+fiber	fiber_L11	5H:208944021	Coast	1	33	16	2.9	5.3	15.7
+fiber	fiber_L11	5H:208944021	Desert	9	31	10	22.5	47.4	14.8
+fiber	fiber_L11	5H:208944021	HZ1 (North-Coast)	0	42	8	0	0	20
+fiber	fiber_L11	5H:208944021	HZ2 (North-Desert)	9	36	5	20	47.4	17.1
+fiber	fiber_L11	5H:208944021	HZ3 (Coast-Desert)	0	41	9	0	0	19.5
+fiber	fiber_L12	5H:377309369	North	0	32	8	0	0	15.3
+fiber	fiber_L12	5H:377309369	Coast	1	39	10	2.5	5.3	18.7
+fiber	fiber_L12	5H:377309369	Desert	4	38	8	9.5	21.1	18.2
+fiber	fiber_L12	5H:377309369	HZ1 (North-Coast)	0	35	15	0	0	16.7
+fiber	fiber_L12	5H:377309369	HZ2 (North-Desert)	11	26	13	29.7	57.9	12.4
+fiber	fiber_L12	5H:377309369	HZ3 (Coast-Desert)	3	39	8	7.1	15.8	18.7
+fiber	fiber_L13	5H:437005013	North	0	32	8	0	0	13.9
+fiber	fiber_L13	5H:437005013	Coast	0	46	4	0	0	20
+fiber	fiber_L13	5H:437005013	Desert	11	34	5	24.4	91.7	14.8
+fiber	fiber_L13	5H:437005013	HZ1 (North-Coast)	0	39	11	0	0	17
+fiber	fiber_L13	5H:437005013	HZ2 (North-Desert)	1	37	12	2.6	8.3	16.1
+fiber	fiber_L13	5H:437005013	HZ3 (Coast-Desert)	0	42	8	0	0	18.3
+fiber	fiber_L14	5H:462564771	North	0	29	11	0	0	13.4
+fiber	fiber_L14	5H:462564771	Coast	2	38	10	5	12.5	17.5
+fiber	fiber_L14	5H:462564771	Desert	13	27	10	32.5	81.2	12.4
+fiber	fiber_L14	5H:462564771	HZ1 (North-Coast)	0	39	11	0	0	18
+fiber	fiber_L14	5H:462564771	HZ2 (North-Desert)	0	42	8	0	0	19.4
+fiber	fiber_L14	5H:462564771	HZ3 (Coast-Desert)	1	42	7	2.3	6.2	19.4
+fiber	fiber_L15	7H:14817657	North	0	36	4	0	0	15.6
+fiber	fiber_L15	7H:14817657	Coast	0	39	11	0	0	16.9
+fiber	fiber_L15	7H:14817657	Desert	12	34	4	26.1	92.3	14.7
+fiber	fiber_L15	7H:14817657	HZ1 (North-Coast)	0	43	7	0	0	18.6
+fiber	fiber_L15	7H:14817657	HZ2 (North-Desert)	0	43	7	0	0	18.6
+fiber	fiber_L15	7H:14817657	HZ3 (Coast-Desert)	1	36	13	2.7	7.7	15.6
+fiber	fiber_L16	7H:415651802	North	5	26	9	16.1	11.6	13.3
+fiber	fiber_L16	7H:415651802	Coast	1	41	8	2.4	2.3	21
+fiber	fiber_L16	7H:415651802	Desert	31	14	5	68.9	72.1	7.2
+fiber	fiber_L16	7H:415651802	HZ1 (North-Coast)	0	42	8	0	0	21.5
+fiber	fiber_L16	7H:415651802	HZ2 (North-Desert)	3	33	14	8.3	7	16.9
+fiber	fiber_L16	7H:415651802	HZ3 (Coast-Desert)	3	39	8	7.1	7	20
+fiber	fiber_L17	7H:573606306	North	0	32	8	0	0	16
+fiber	fiber_L17	7H:573606306	Coast	5	39	6	11.4	12.2	19.5
+fiber	fiber_L17	7H:573606306	Desert	7	30	13	18.9	17.1	15
+fiber	fiber_L17	7H:573606306	HZ1 (North-Coast)	7	35	8	16.7	17.1	17.5
+fiber	fiber_L17	7H:573606306	HZ2 (North-Desert)	21	24	5	46.7	51.2	12
+fiber	fiber_L17	7H:573606306	HZ3 (Coast-Desert)	1	40	9	2.4	2.4	20
+fiber	fiber_L18	7H:586569512	North	0	31	9	0	0	13.7
+fiber	fiber_L18	7H:586569512	Coast	0	35	15	0	0	15.4
+fiber	fiber_L18	7H:586569512	Desert	8	36	6	18.2	66.7	15.9
+fiber	fiber_L18	7H:586569512	HZ1 (North-Coast)	0	46	4	0	0	20.3
+fiber	fiber_L18	7H:586569512	HZ2 (North-Desert)	2	41	7	4.7	16.7	18.1
+fiber	fiber_L18	7H:586569512	HZ3 (Coast-Desert)	2	38	10	5	16.7	16.7
+starch	starch_L01	1H:330432546	North	0	35	5	0	0	15.9
+starch	starch_L01	1H:330432546	Coast	3	36	11	7.7	25	16.4
+starch	starch_L01	1H:330432546	Desert	8	31	11	20.5	66.7	14.1
+starch	starch_L01	1H:330432546	HZ1 (North-Coast)	0	37	13	0	0	16.8
+starch	starch_L01	1H:330432546	HZ2 (North-Desert)	0	41	9	0	0	18.6
+starch	starch_L01	1H:330432546	HZ3 (Coast-Desert)	1	40	9	2.4	8.3	18.2
+starch	starch_L02	3H:530660057	North	9	20	11	31	9.6	15.4
+starch	starch_L02	3H:530660057	Coast	11	28	11	28.2	11.7	21.5
+starch	starch_L02	3H:530660057	Desert	17	18	15	48.6	18.1	13.8
+starch	starch_L02	3H:530660057	HZ1 (North-Coast)	18	23	9	43.9	19.1	17.7
+starch	starch_L02	3H:530660057	HZ2 (North-Desert)	15	24	11	38.5	16	18.5
+starch	starch_L02	3H:530660057	HZ3 (Coast-Desert)	24	17	9	58.5	25.5	13.1
+starch	starch_L03	3H:546433616	North	0	36	4	0	0	17.9
+starch	starch_L03	3H:546433616	Coast	2	37	11	5.1	6.5	18.4
+starch	starch_L03	3H:546433616	Desert	19	26	5	42.2	61.3	12.9
+starch	starch_L03	3H:546433616	HZ1 (North-Coast)	0	37	13	0	0	18.4
+starch	starch_L03	3H:546433616	HZ2 (North-Desert)	0	38	12	0	0	18.9
+starch	starch_L03	3H:546433616	HZ3 (Coast-Desert)	10	27	13	27	32.3	13.4
+starch	starch_L04	6H:525776080	North	5	31	4	13.9	4.9	22.1
+starch	starch_L04	6H:525776080	Coast	44	2	4	95.7	42.7	1.4
+starch	starch_L04	6H:525776080	Desert	0	38	12	0	0	27.1
+starch	starch_L04	6H:525776080	HZ1 (North-Coast)	29	11	10	72.5	28.2	7.9
+starch	starch_L04	6H:525776080	HZ2 (North-Desert)	13	26	11	33.3	12.6	18.6
+starch	starch_L04	6H:525776080	HZ3 (Coast-Desert)	12	32	6	27.3	11.7	22.9
+starch	starch_L05	7H:573606460	North	0	32	8	0	0	15.8
+starch	starch_L05	7H:573606460	Coast	5	41	4	10.9	14.3	20.2
+starch	starch_L05	7H:573606460	Desert	7	37	6	15.9	20	18.2
+starch	starch_L05	7H:573606460	HZ1 (North-Coast)	7	35	8	16.7	20	17.2
+starch	starch_L05	7H:573606460	HZ2 (North-Desert)	14	23	13	37.8	40	11.3
+starch	starch_L05	7H:573606460	HZ3 (Coast-Desert)	2	35	13	5.4	5.7	17.2
+protein	protein_L01	3H:106623911	North	6	30	4	16.7	14	15.3
+protein	protein_L01	3H:106623911	Coast	12	30	8	28.6	27.9	15.3
+protein	protein_L01	3H:106623911	Desert	0	45	5	0	0	23
+protein	protein_L01	3H:106623911	HZ1 (North-Coast)	12	23	15	34.3	27.9	11.7
+protein	protein_L01	3H:106623911	HZ2 (North-Desert)	9	27	14	25	20.9	13.8
+protein	protein_L01	3H:106623911	HZ3 (Coast-Desert)	4	41	5	8.9	9.3	20.9
+protein	protein_L02	3H:159799839	North	0	26	14	0	0	11.9
+protein	protein_L02	3H:159799839	Coast	0	40	10	0	0	18.3
+protein	protein_L02	3H:159799839	Desert	0	42	8	0	0	19.2
+protein	protein_L02	3H:159799839	HZ1 (North-Coast)	1	45	4	2.2	7.1	20.5
+protein	protein_L02	3H:159799839	HZ2 (North-Desert)	11	28	11	28.2	78.6	12.8
+protein	protein_L02	3H:159799839	HZ3 (Coast-Desert)	2	38	10	5	14.3	17.4

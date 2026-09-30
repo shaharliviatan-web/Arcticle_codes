@@ -1,0 +1,6 @@
+query	subject	pident	length	qcovhsp	scovhsp	evalue	bitscore	subject_title
+HORVU.MOREX.r3.7HG0729030.1	sp|Q3MKY2|AAE_RAUSE	45.3	329	87.0	84.8	7.62e-95	291	sp|Q3MKY2|AAE_RAUSE Acetylajmalan esterase OS=Rauvolfia serpentina OX=4060 GN=AAE PE=1 SV=1
+HORVU.MOREX.r3.7HG0729030.1	sp|P0DXJ4|AAE1_RAUSE	43.3	337	89.2	86.3	1.91e-93	287	sp|P0DXJ4|AAE1_RAUSE Acetylajmalan esterase 1 OS=Rauvolfia serpentina OX=4060 GN=AAE1 PE=1 SV=1
+HORVU.MOREX.r3.7HG0729030.1	sp|P0DXJ5|AAE2_RAUSE	42.9	338	89.2	90.1	7.40e-89	275	sp|P0DXJ5|AAE2_RAUSE Acetylajmalan esterase 2 OS=Rauvolfia serpentina OX=4060 GN=AAE2 PE=1 SV=1
+HORVU.MOREX.r3.7HG0729030.1	sp|Q94F40|GDL9_ARATH	43.6	335	88.3	85.0	3.04e-84	264	sp|Q94F40|GDL9_ARATH GDSL esterase/lipase At1g28600 OS=Arabidopsis thaliana OX=3702 GN=At1g28600 PE=2 SV=1
+HORVU.MOREX.r3.7HG0729030.1	sp|Q8RXT9|GDL8_ARATH	44.6	336	88.3	83.1	4.57e-83	261	sp|Q8RXT9|GDL8_ARATH GDSL esterase/lipase At1g28590 OS=Arabidopsis thaliana OX=3702 GN=At1g28590 PE=2 SV=2

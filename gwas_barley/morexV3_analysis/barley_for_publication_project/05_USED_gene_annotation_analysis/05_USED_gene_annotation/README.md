@@ -41,10 +41,13 @@ Genes that passed BH-FDR in step 04, locked by `scripts/00_lock_fdr_genes.R` fro
   - One representative peptide per gene: the LONGEST isoform, ties broken by lowest
     isoform index (= canonical `.1` for single-isoform genes). One gene in the current
     23 is multi-isoform: `5HG0487060` -> `.1` chosen (equal lengths, lowest index).
-- Swiss-Prot: UniProtKB/Swiss-Prot Release **2026_01** of 28-Jan-2026,
+- Swiss-Prot: UniProtKB/Swiss-Prot Release **2026_03** of 02-Sep-2026,
   `uniprot_sprot.fasta.gz` from
   `https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/`
-  (574,627 sequences). See `intermediates/versions.txt`.
+  (575,748 sequences), downloaded 2026-09-09 for the 23-gene run. See `intermediates/versions.txt`.
+  (Corrected 2026-09-30, user-approved: this line said Release 2026_01 of 28-Jan-2026 with
+  574,627 sequences, from the earlier 45-gene run; `intermediates/versions.txt` and the file
+  itself show 2026_03.)
 - DIAMOND **2.0.14** (`/usr/bin/diamond`). makeblastdb/blastp also present at
   `/usr/bin` but unused here.
 - Ensembl Plants FTP is unreachable from this server, so the peptide file was NOT

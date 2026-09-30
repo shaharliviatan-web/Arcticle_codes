@@ -58,7 +58,7 @@ earlier outputs and scripts are kept under
 
 | file | contents |
 |---|---|
-| `tables/Table_loci_master.tsv` | **the main table** — one row per locus: coordinates, span, members, lead A1/A2/MAF/beta/SE/p, severing diagnostics |
+| `tables/Table_loci_master.tsv` | **the main table** — one row per locus: coordinates, span, members, lead A1/A2/MAF/beta/SE/p, severing diagnostics. **`lead_beta` = effect of `lead_A1` (minor allele)**; sign flipped from EMMAX on 2026-09-22 (see `../README.md`) |
 | **`tables/Table_loci_for_gene_search.tsv`** | **the output contract** — 36 rows with `chr`, `start`, `end`, `span_kb`, `lead_SNP`, `class`, and an `include_in_gene_search` flag |
 | `tables/Table_loci_members_full.tsv` | every member SNP: position, MAF, p-value, lead flag |
 | `tables/Table_loci_per_trait.tsv` | per-trait counts and span distribution |

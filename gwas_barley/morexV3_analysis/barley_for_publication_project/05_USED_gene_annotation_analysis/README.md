@@ -18,7 +18,7 @@ Three independent evidence sources, checked in a fixed order, then merged. The o
 
 | # | directory | method | local/remote | runtime |
 |---|---|---|---|---|
-| **1** | `05_USED_gene_annotation/` | DIAMOND BLASTP vs **UniProt Swiss-Prot** 2026_01 | local (280 MB DB built) | ~25 s |
+| **1** | `05_USED_gene_annotation/` | DIAMOND BLASTP vs **UniProt Swiss-Prot** 2026_03 (corrected 2026-09-30 from 2026_01) | local (280 MB DB built) | ~25 s |
 | **2** | `06_USED_interpro_domains/` | **EBI InterProScan 5** — Pfam/InterPro domains + **GO** | remote, 1 job per protein | ~15 min |
 | **3** | `07_USED_BLASTP_genes_with_no_annotation_left/` | **NCBI nr** BLASTP, Viridiplantae — rescue only | remote | minutes to hours |
 | — | `08_USED_annotation_master/` | merge → one auditable table per gene | local | s |

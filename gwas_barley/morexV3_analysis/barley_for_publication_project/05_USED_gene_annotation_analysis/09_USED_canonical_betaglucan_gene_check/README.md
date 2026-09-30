@@ -1,4 +1,17 @@
-> # ⚠ STALE — kept deliberately, do not re-run as written
+> # ⚠ PARTLY STALE — the distances were recomputed 2026-09-23; the mapping stands
+>
+> **Use [`results/tables/canonical_gene_distances_current_loci.tsv`](results/tables/canonical_gene_distances_current_loci.tsv),
+> built by [`scripts/07_distances_current_loci.R`](scripts/07_distances_current_loci.R) (2026-09-23).**
+> It measures each canonical gene against the **current 36-locus set**, same chromosome only, and is the
+> table Results ch. 3 quotes. The old `canonical_betaglucan_gene_distances.tsv` keeps the **gene→Morex V3
+> mapping**, which is assembly-independent and still valid, but its *distances* are against the retired
+> ±200 kb / 20-locus pipeline and **must not be quoted** — some of its lead SNPs are no longer significant.
+>
+> Result (β-glucan, current loci): the nearest canonical gene to any β-glucan lead is **HvGlb1 at 83.5 Mb**
+> (`betaglucan_L01`, 1H:479,493,867); *HvCslH1* is 433.7 Mb away; and **HvCslF6 and HvGlb2 are both on 7H,
+> which carries no β-glucan locus at all**.
+>
+> # ⚠ The rest of this file is STALE — kept deliberately, do not re-run as written
 >
 > Last run June 2026, against a candidate-gene pipeline that **no longer exists**. Its
 > text and its `scripts/06_build_table.R` are written around the retired **±200 kb**

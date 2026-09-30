@@ -1,0 +1,8 @@
+[
+  {
+    "where": "Results Ch. 2 ¶5 (\"To search for potential candidate genes…\"), second-to-last sentence",
+    "why": "The 1.73 Mb fiber locus is described three times in the Results. The count that matters is in Results Ch. 3 ¶3 (\"contained seven of the 12 significant fiber genes\"), so this earlier gene count is removed. Results Ch. 2 ¶2 keeps 1.73 Mb only as the top of the locus-size range, and Ch. 3 ¶3 is not changed.",
+    "old": "The widest locus, the 1.73 Mb fiber locus on chromosome 3H, contained 12 genes, more than a third of all fiber candidates. None of the lead SNPs",
+    "new": "{-The widest locus, the 1.73 Mb fiber locus on chromosome 3H, contained 12 genes, more than a third of all fiber candidates. -}None of the lead SNPs"
+  }
+]

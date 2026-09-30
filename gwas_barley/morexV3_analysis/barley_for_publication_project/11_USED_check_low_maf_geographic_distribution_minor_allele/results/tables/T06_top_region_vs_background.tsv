@@ -1,0 +1,37 @@
+leads	n_leads	top_region	observed	expected	p_more	p_fewer
+betaglucan	11	North	0	1.64	1	0.169
+betaglucan	11	Coast	0	1.97	1	0.114
+betaglucan	11	Desert	8	2.54	0.00066	1
+betaglucan	11	HZ1 (North-Coast)	0	1.77	1	0.144
+betaglucan	11	HZ2 (North-Desert)	0	1.69	1	0.158
+betaglucan	11	HZ3 (Coast-Desert)	3	1.39	0.152	0.961
+fiber	18	North	0	2.82	1	0.0463
+fiber	18	Coast	1	3.31	0.974	0.129
+fiber	18	Desert	14	3.92	1e-05	1
+fiber	18	HZ1 (North-Coast)	0	3	1	0.0372
+fiber	18	HZ2 (North-Desert)	2	2.76	0.788	0.463
+fiber	18	HZ3 (Coast-Desert)	1	2.19	0.905	0.335
+starch	5	North	0	0.62	1	0.516
+starch	5	Coast	1	1.17	0.737	0.666
+starch	5	Desert	2	1.18	0.334	0.915
+starch	5	HZ1 (North-Coast)	0	0.87	1	0.38
+starch	5	HZ2 (North-Desert)	1	0.65	0.505	0.871
+starch	5	HZ3 (Coast-Desert)	1	0.51	0.418	0.916
+protein	2	North	0	0.27	1	0.748
+protein	2	Coast	1	0.44	0.397	0.952
+protein	2	Desert	0	0.44	1	0.603
+protein	2	HZ1 (North-Coast)	0	0.31	1	0.716
+protein	2	HZ2 (North-Desert)	1	0.29	0.273	0.98
+protein	2	HZ3 (Coast-Desert)	0	0.24	1	0.775
+fiber+betaglucan	29	North	0	4.46	1	0.0081
+fiber+betaglucan	29	Coast	1	5.28	0.997	0.0214
+fiber+betaglucan	29	Desert	22	6.46	1e-05	1
+fiber+betaglucan	29	HZ1 (North-Coast)	0	4.77	1	0.00544
+fiber+betaglucan	29	HZ2 (North-Desert)	2	4.45	0.95	0.158
+fiber+betaglucan	29	HZ3 (Coast-Desert)	4	3.58	0.489	0.718
+all_but_protein	34	North	0	5.08	1	0.00382
+all_but_protein	34	Coast	2	6.44	0.993	0.0318
+all_but_protein	34	Desert	24	7.64	1e-05	1
+all_but_protein	34	HZ1 (North-Coast)	0	5.65	1	0.00197
+all_but_protein	34	HZ2 (North-Desert)	3	5.1	0.903	0.226
+all_but_protein	34	HZ3 (Coast-Desert)	5	4.09	0.389	0.781

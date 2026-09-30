@@ -1,0 +1,26 @@
+parameter	value
+gene_id	HORVU.MOREX.r3.7HG0729030
+short_name	GDSL
+chr	7H
+gene_start	573604051
+gene_end	573605728
+strand	-
+TSS	573605728
+window_bp	1000
+win_start	573603051
+win_end	573606728
+MGmin	3  (pipeline uses 2)
+epsilon	0.9  (pipeline uses 0.6)
+minHap	9
+hetmiss_as	allele
+keep_outliers	FALSE
+n_accessions	290
+phenotype	BLUP, *_corrected_V3.pheno
+test	Kruskal-Wallis on BLUP ~ haplotype group (hap 0 dropped)
+effect_sizes	eta2 = (H-k+1)/(n-k); delta_top_bottom_sd = (mean_top-mean_bottom)/SD
+multiple_testing	none applied - single pre-specified gene (step 04 corrects BH within trait across genes)
+elite_panel	DivBrowse barley_pangenome_v2, 136 spring elite lines
+elite_lines	5 configured in step 07 config/elite_lines.tsv
+snp_matching	shared sites keyed on CHROM:POS:REF:ALT
+wild_vcf	raw morexV3_with_ids.vcf.gz
+imputed_vcf	morexV3_final_imputed.vcf (staged)

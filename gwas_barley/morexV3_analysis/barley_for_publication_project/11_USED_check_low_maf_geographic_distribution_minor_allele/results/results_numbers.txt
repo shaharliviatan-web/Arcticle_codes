@@ -1,0 +1,66 @@
+11_USED_check_low_maf_geographic_distribution_minor_allele - results numbers
+Generated 2026-09-30 14:03 by scripts/10_results_numbers.R from results/tables/T01-T11.
+Site-permutation tests: 10000 permutations of the region labels among the 29 sites, seed 20260925.
+
+== 1. Lead SNPs (36): origin of minor- vs major-allele carriers (T01, T02) ==
+β-glucan: 11 loci. Desert test q <= 0.05 at 4 (enriched 4, depleted 0); six-region test q <= 0.05 at 3. Top region of the minor-allele carriers = Desert at 8.
+Fiber: 18 loci. Desert test q <= 0.05 at 8 (enriched 8, depleted 0); six-region test q <= 0.05 at 2. Top region of the minor-allele carriers = Desert at 14.
+Starch: 5 loci. Desert test q <= 0.05 at 2 (enriched 1, depleted 1); six-region test q <= 0.05 at 1. Top region of the minor-allele carriers = Desert at 2.
+Protein: 2 loci. Desert test q <= 0.05 at 1 (enriched 0, depleted 1); six-region test q <= 0.05 at 1. Top region of the minor-allele carriers = Desert at 0.
+β-glucan: 229 minor-allele instances; 50% from the Desert, 78% from the Desert + HZ3 (panel: 17% and 34%).
+Fiber: 357 minor-allele instances; 59% from the Desert, 74% from the Desert + HZ3 (panel: 17% and 34%).
+Protein: 57 minor-allele instances; 0% from the Desert, 11% from the Desert + HZ3 (panel: 17% and 34%).
+Starch: 275 minor-allele instances; 19% from the Desert, 36% from the Desert + HZ3 (panel: 17% and 34%).
+Fiber + beta-glucan leads whose minor-allele carriers are more often from the Desert than the major-allele carriers (any q): 28 of 29; of these, desert carriers from >= 2 Desert sites at 28.
+Desert test q <= 0.05, enriched: betaglucan_L01, betaglucan_L02, betaglucan_L07, betaglucan_L11, fiber_L01, fiber_L02, fiber_L05, fiber_L06, fiber_L07, fiber_L14, fiber_L16, fiber_L18, starch_L01
+Desert test q <= 0.05, depleted: starch_L04, protein_L01
+7H fiber_L17 (7H:573606306): 41 carriers from 11 sites in 5 regions (N/C/D/HZ1/HZ2/HZ3 = 0/5/7/7/21/1); Desert 17.1% of minor vs 15.0% of major carriers, q Desert = 0.808, q regions = 0.112.
+7H starch_L05 (7H:573606460): 35 carriers from 10 sites in 5 regions (N/C/D/HZ1/HZ2/HZ3 = 0/5/7/7/14/2); Desert 20.0% of minor vs 18.2% of major carriers, q Desert = 0.816, q regions = 0.408.
+
+== 2. Matched genome-wide background (T05-T07) ==
+fiber (18 leads): top region Desert 14 vs 3.92 expected (p = 1e-05); North 0 vs 2.82 expected (p fewer = 0.0463).
+betaglucan (11 leads): top region Desert 8 vs 2.54 expected (p = 0.00066); North 0 vs 1.64 expected (p fewer = 0.169).
+fiber+betaglucan (29 leads): top region Desert 22 vs 6.46 expected (p = 1e-05); North 0 vs 4.46 expected (p fewer = 0.0081).
+starch (5 leads): top region Desert 2 vs 1.18 expected (p = 0.334); North 0 vs 0.62 expected (p fewer = 0.516).
+all_but_protein (34 leads): top region Desert 24 vs 7.64 expected (p = 1e-05); North 0 vs 5.08 expected (p fewer = 0.00382).
+Background SNPs with MAF < 0.10, top region: North 15.3%, Coast 17.1%, Desert 22.1%, HZ1 16.2%, HZ2 16.5%, HZ3 12.8%.
+
+== 3. Carriers vs their own site-mates (T08) ==
+β-glucan: median share of the raw carrier difference predicted by the carriers' sites 17%; median carriers beyond their site-mates 94%; median raw difference kept without the 2 most extreme accessions 84%.
+Fiber: median share of the raw carrier difference predicted by the carriers' sites 33%; median carriers beyond their site-mates 81%; median raw difference kept without the 2 most extreme accessions 79%.
+Starch: median share of the raw carrier difference predicted by the carriers' sites 29%; median carriers beyond their site-mates 83%; median raw difference kept without the 2 most extreme accessions 93%.
+Protein: median share of the raw carrier difference predicted by the carriers' sites 15%; median carriers beyond their site-mates 91%; median raw difference kept without the 2 most extreme accessions 98%.
+Loci where < 60% of carriers have a non-carrier site-mate (9): betaglucan_L04 8/18; betaglucan_L08 6/15; fiber_L09 4/14; fiber_L10 4/13; fiber_L14 [GH17] 7/16; fiber_L15 3/13; fiber_L16 24/43; starch_L03 [PHT4;3] 12/31; starch_L04 56/103.
+Raw carrier difference opposite in sign to the GWAS beta: starch_L04.
+
+== 4. Shared carriers across loci (T09, T10) ==
+Pairs of loci on different chromosomes sharing more carriers than chance (hypergeometric p < 0.001): betaglucan 20/48, fiber 41/124, starch 3/9.
+HS1518 (Arad, Desert): minor allele at 18/18 fiber, 10/11 beta-glucan, 4/5 starch loci; fiber rank 1 (high), beta-glucan rank 5, starch rank 8 (low); genome-wide rare-allele load rank 88 of 290.
+HS1509 (Arad, Desert): minor allele at 17/18 fiber, 11/11 beta-glucan, 3/5 starch loci; fiber rank 2 (high), beta-glucan rank 1, starch rank 1 (low); genome-wide rare-allele load rank 19 of 290.
+HS2715 (Revivim, HZ3 (Coast-Desert)): minor allele at 12/18 fiber, 6/11 beta-glucan, 3/5 starch loci; fiber rank 4 (high), beta-glucan rank 6, starch rank 3 (low); genome-wide rare-allele load rank 13 of 290.
+Accessions carrying fiber minor alleles at >= 3 loci: 31 of 50 Desert, 9 of 240 others.
+
+== 5. Haplotype groups of the four presented genes (T03, T04) ==
+GPAT6 (fiber): 3 groups over 123 assigned accessions; groups x regions q = 0.0972.
+   A n = 85, mean BLUP fiber -0.12: N/C/D/HZ1/HZ2/HZ3 = 12/17/6/17/19/14, 23 sites; Desert 7.1% vs 34.2% of the other groups (depleted, q = 0.072).
+   B n = 20, mean BLUP fiber -0.081: N/C/D/HZ1/HZ2/HZ3 = 5/5/1/7/1/1, 11 sites; Desert 5.0% vs 17.5% of the other groups (depleted, q = 0.407).
+   C n = 18, mean BLUP fiber 0.281: N/C/D/HZ1/HZ2/HZ3 = 0/0/12/0/0/6, 5 sites; Desert 66.7% vs 6.7% of the other groups (enriched, q = 0.0342).
+GH17 (fiber): 5 groups over 107 assigned accessions; groups x regions q = 0.0972.
+   A n = 36, mean BLUP fiber -0.169: N/C/D/HZ1/HZ2/HZ3 = 12/1/3/4/9/7, 15 sites; Desert 8.3% vs 31.0% of the other groups (depleted, q = 0.045).
+   B n = 31, mean BLUP fiber 0.007: N/C/D/HZ1/HZ2/HZ3 = 8/3/2/4/6/8, 15 sites; Desert 6.5% vs 30.3% of the other groups (depleted, q = 0.045).
+   C n = 16, mean BLUP fiber 0.195: N/C/D/HZ1/HZ2/HZ3 = 0/0/15/1/0/0, 4 sites; Desert 93.8% vs 11.0% of the other groups (enriched, q = 0.043).
+   D n = 14, mean BLUP fiber -0.094: N/C/D/HZ1/HZ2/HZ3 = 0/2/0/9/1/2, 7 sites; Desert 0.0% vs 26.9% of the other groups (depleted, q = 0.045).
+   E n = 10, mean BLUP fiber 0.229: N/C/D/HZ1/HZ2/HZ3 = 1/2/5/1/0/1, 5 sites; Desert 50.0% vs 20.6% of the other groups (enriched, q = 0.338).
+PHT4;3 (starch): 4 groups over 205 assigned accessions; groups x regions q = 0.321.
+   A n = 137, mean BLUP starch 1.632: N/C/D/HZ1/HZ2/HZ3 = 26/33/7/29/27/15, 25 sites; Desert 5.1% vs 39.7% of the other groups (depleted, q = 0.0024).
+   B n = 41, mean BLUP starch -1.601: N/C/D/HZ1/HZ2/HZ3 = 4/6/14/6/5/6, 16 sites; Desert 34.1% vs 12.2% of the other groups (enriched, q = 0.107).
+   C n = 17, mean BLUP starch -5.545: N/C/D/HZ1/HZ2/HZ3 = 2/0/7/3/0/5, 6 sites; Desert 41.2% vs 14.4% of the other groups (enriched, q = 0.289).
+   D n = 10, mean BLUP starch -0.174: N/C/D/HZ1/HZ2/HZ3 = 0/0/6/0/0/4, 4 sites; Desert 60.0% vs 14.4% of the other groups (enriched, q = 0.107).
+GDSL (fiber; starch): 2 groups over 246 assigned accessions; groups x regions q = 0.321.
+   A n = 212, mean BLUP fiber -0.053, starch 0.811: N/C/D/HZ1/HZ2/HZ3 = 34/41/32/36/27/42, 28 sites; Desert 15.1% vs 20.6% of the other groups (depleted, q = 0.673).
+   B n = 34, mean BLUP fiber 0.098, starch -2.386: N/C/D/HZ1/HZ2/HZ3 = 0/5/7/7/14/1, 10 sites; Desert 20.6% vs 15.1% of the other groups (enriched, q = 0.673).
+
+== 6. Relatedness within and between regions, aIBS (T11) ==
+Mean kinship between accessions of different sites of the same region: North 0.6642, Coast 0.6938, Desert 0.6882, HZ1 0.6829, HZ2 0.6603, HZ3 0.6771.
+Mean kinship within sites: North 0.7254, Coast 0.771, Desert 0.7817, HZ1 0.7222, HZ2 0.7076, HZ3 0.7626.
+All pairs: 0.6712.

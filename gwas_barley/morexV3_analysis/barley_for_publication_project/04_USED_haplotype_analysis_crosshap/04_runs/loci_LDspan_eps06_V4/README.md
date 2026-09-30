@@ -19,6 +19,46 @@ crosshap haplotype analysis, **MGmin = 2, epsilon = 0.6**, both fixed. Created 2
 | protein | 6 | **0** | **0** |
 | starch | 10 | 5 | 5 |
 
+## Why epsilon = 0.6
+
+Fixed in advance, applied to every gene, chosen on **genotype-only** grounds — crosshap
+builds haplotype groups from genotypes alone, so no p-value entered the choice.
+
+Assignment rate and gene coverage trade off **monotonically against each other**
+(measured on this run's 55 candidate genes,
+[`Diagnostics/epsilon_choice_supplementary.tsv`](Diagnostics/epsilon_choice_supplementary.tsv);
+per-gene data in `Diagnostics/epsilon_choice_per_gene.tsv`; both written by
+`01_scripts/diagnostics/parameter_choice_tables.R`, 2026-09-30):
+
+| ε | genes testable | accessions assigned | median groups |
+|---|---|---|---|
+| 0.2 | 23 / 55 | 70.0% | 2 |
+| 0.4 | 27 / 55 | 69.3% | 3 |
+| **0.6** | **30 / 55** | **65.0%** | **3** |
+| 0.8 | 34 / 55 | 60.9% | 4 |
+| 1.0 | 33 / 55 | 60.3% | 4 |
+
+A low ε assigns a high proportion of accessions, but only in the minority of genes whose
+variants cluster tightly — 23 of 55 at ε=0.2, and with a median of just 2 groups. A high
+ε makes more genes testable but leaves more accessions unassigned in each. Neither
+extreme is preferable: an unassigned accession contributes nothing to a gene's test, and
+an untestable gene contributes nothing at all.
+
+**0.6 sits at the midpoint** — 65% of accessions assigned while 55% of candidate genes
+become testable, at a median of 3 haplotype groups. It is **not the maximum of either
+metric**, and the methods text should not claim it is; the argument is balance, uniform
+application, and pre-declaration.
+
+> Superseded, recorded so it is not reintroduced: an earlier version claimed 0.6 had the
+> highest assignment rate (~70%). That was measured on a retired 64-gene set and on a
+> grid omitting ε < 0.6. On the real gene set, 0.2 leads on assignment and 0.8 on
+> coverage.
+
+**ε = 0.85 was rejected** because it maximised significance for PHT4;3 off its stable
+plateau. Re-checked 2026-09-30 against three genotype-only criteria — coverage/assignment,
+group evenness, smallest-group size — **none selects 0.85**, and it is worse than 0.6 on
+evenness. Choosing it would be selection on the outcome.
+
 ## What this run is
 
 Step 01's final locus definition: `--clump-kb 2000` (±2 Mb), r² ≥ 0.5, members on LD

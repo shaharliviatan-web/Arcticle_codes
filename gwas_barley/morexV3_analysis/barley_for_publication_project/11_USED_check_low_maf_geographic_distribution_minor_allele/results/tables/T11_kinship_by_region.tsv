@@ -1,0 +1,29 @@
+region_1	region_2	pair_type	n_pairs	mean_kinship	median_kinship
+North	North	different sites, same region	600	0.6642	0.6646
+North	North	same site	180	0.7254	0.7209
+North	Coast	different regions	2000	0.6644	0.6637
+North	Desert	different regions	2000	0.6578	0.6563
+North	HZ1 (North-Coast)	different regions	2000	0.6671	0.6666
+North	HZ2 (North-Desert)	different regions	2000	0.6581	0.6569
+North	HZ3 (Coast-Desert)	different regions	2000	0.6616	0.6623
+Coast	Coast	different sites, same region	1000	0.6938	0.6938
+Coast	Coast	same site	225	0.771	0.7244
+Coast	Desert	different regions	2500	0.6719	0.6701
+Coast	HZ1 (North-Coast)	different regions	2500	0.6772	0.6752
+Coast	HZ2 (North-Desert)	different regions	2500	0.6644	0.663
+Coast	HZ3 (Coast-Desert)	different regions	2500	0.6809	0.6797
+Desert	Desert	different sites, same region	1000	0.6882	0.6872
+Desert	Desert	same site	225	0.7817	0.7372
+Desert	HZ1 (North-Coast)	different regions	2500	0.6626	0.6611
+Desert	HZ2 (North-Desert)	different regions	2500	0.6633	0.6631
+Desert	HZ3 (Coast-Desert)	different regions	2500	0.6773	0.6743
+HZ1 (North-Coast)	HZ1 (North-Coast)	different sites, same region	1000	0.6829	0.68
+HZ1 (North-Coast)	HZ1 (North-Coast)	same site	225	0.7222	0.7175
+HZ1 (North-Coast)	HZ2 (North-Desert)	different regions	2500	0.6624	0.6603
+HZ1 (North-Coast)	HZ3 (Coast-Desert)	different regions	2500	0.6709	0.6715
+HZ2 (North-Desert)	HZ2 (North-Desert)	different sites, same region	1000	0.6603	0.6601
+HZ2 (North-Desert)	HZ2 (North-Desert)	same site	225	0.7076	0.7049
+HZ2 (North-Desert)	HZ3 (Coast-Desert)	different regions	2500	0.6631	0.6631
+HZ3 (Coast-Desert)	HZ3 (Coast-Desert)	different sites, same region	1000	0.6771	0.6749
+HZ3 (Coast-Desert)	HZ3 (Coast-Desert)	same site	225	0.7626	0.7223
+all	all	all pairs	41905	0.6712	0.6672

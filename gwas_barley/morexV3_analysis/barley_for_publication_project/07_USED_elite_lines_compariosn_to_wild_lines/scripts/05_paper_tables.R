@@ -11,11 +11,14 @@
 #   Table_panel_composition.tsv        what the 1315-genotype DivBrowse panel is
 #   Table_gene_windows.tsv             the 3 genes: coords, window, trait, locus,
 #                                      lead SNP, q, eta^2 (carried from step 04)
-#   Table_site_overlap.tsv             wild/elite SNP counts and overlap per gene
+#   Table_site_overlap.tsv             wild/elite SNP counts, overlap and
+#                                      monomorphic-site counts per gene
 #   Table_allele_concordance.tsv       per shared site: REF/ALT in both files
 #   Table_haplotype_groups.tsv         per group: n, mean/median/sd phenotype
 #   Table_elite_genotypes_wide.tsv     per gene: elite lines x shared sites
 #   Table_triallelic_sites.tsv         per triallelic site x line: what the line carries
+#   (Table_pairwise_group_tests.tsv is written by 04_figures.R -- the bracket
+#    statistics drawn on the violins -- and is summarised here)
 #   (Table_elite_line_screen.tsv is written by 02_screen_elite_lines.R and
 #    summarised here; Table_elite_lines.tsv now carries each line's call rate)
 #   results_chapter_numbers.txt        all of the above as prose
@@ -208,6 +211,24 @@ for (i in seq_len(nrow(overlap)))
 w("  wild-only / elite-only = no record at that position in the other file.")
 w("  Elite-only sites are never drawn: the wild haplotype groups have no data there.")
 w("")
+w("  MONOMORPHIC SITES (added 2026-09-23). A site counts as monomorphic only over the")
+w("  rows that enter this comparison: for the WILD file the accessions crosshap assigned")
+w("  to a haplotype group for that gene (unassigned accessions are dropped from the test")
+w("  and from the figure, so they cannot make a site informative), and for the ELITE file")
+w("  the 5 configured lines, not the 136-line pool. all = kept + removed.")
+for (i in seq_len(nrow(overlap)))
+  w(sprintf("    %-8s wild  (%3d assigned accessions): %3d of %3d monomorphic -- %3d of %3d kept, %3d of %3d removed",
+            overlap$short_name[i], overlap$n_wild_assigned_accessions[i],
+            overlap$n_wild_mono_all[i], overlap$n_wild_snps[i],
+            overlap$n_wild_mono_kept[i], overlap$n_shared[i],
+            overlap$n_wild_mono_removed[i], overlap$n_wild_snps[i] - overlap$n_shared[i]))
+for (i in seq_len(nrow(overlap)))
+  w(sprintf("    %-8s elite (%3d lines shown)        : %3d of %3d monomorphic -- %3d of %3d kept, %3d of %3d removed",
+            overlap$short_name[i], overlap$n_elite_lines_shown[i],
+            overlap$n_elite_mono_all[i], overlap$n_elite_records[i],
+            overlap$n_elite_mono_kept[i], overlap$n_shared[i],
+            overlap$n_elite_mono_removed[i], overlap$n_elite_records[i] - overlap$n_shared[i]))
+w("")
 w("[E] ALLELE CONCORDANCE (REF/ALT must be identical, never flipped)")
 w("  Both call sets are called against Morex V3 and the wild set carries no PLINK")
 w("  allele flip, so at a shared position REF and ALT must agree exactly. If they")
@@ -255,10 +276,26 @@ for (i in seq_len(nrow(hgt)))
   w(sprintf("    %-8s group %-2s n=%3d  mean=%8.3f  median=%8.3f  sd=%7.3f",
             hgt$short_name[i], hgt$hap[i], hgt$n[i], hgt$mean_pheno[i],
             hgt$median_pheno[i], hgt$sd_pheno[i]))
+pw_file <- file.path(TB, "Table_pairwise_group_tests.tsv")
+if (file.exists(pw_file)) {
+  pw <- read.delim(pw_file, stringsAsFactors = FALSE)
+  w("")
+  w("  Pairwise follow-up drawn as brackets on the violins, method taken from step 04")
+  w("  (04_.../01_scripts/R/plot_combined_pdf.R): Wilcoxon rank-sum of every group")
+  w("  against the LARGEST group, Holm-corrected across those k-1 tests within a gene.")
+  for (i in seq_len(nrow(pw)))
+    w(sprintf("    %-8s %s vs %s  n=%3d vs %3d  p=%9.3g  Holm p=%9.3g  %s",
+              pw$short_name[i], pw$group1[i], pw$group2[i], pw$n_ref[i], pw$n_other[i],
+              pw$p[i], pw$p.adj[i], pw$p.adj.signif[i]))
+}
 w("")
 w("[G] HOW THE FIGURES ARE BUILT")
 w("  Group rows are a PER-SNP MAJORITY CONSENSUS over the group's members,")
-w("  ignoring missing calls; exact 50/50 ties are drawn as missing. A consensus is")
+# Tie-rule text corrected 2026-09-27 (user approval): it still read "exact 50/50 ties are
+# drawn as missing", the rule before 2026-09-24. consensus_row() in 03_build_matrices.R has
+# resolved ties to REF since 2026-09-24; this line now states that rule.
+w("  ignoring missing calls; an exact 50/50 tie resolves to the REFERENCE allele")
+w("  when REF is one of the tied states (otherwise missing). A consensus is")
 w("  used rather than one representative accession because wild missingness is")
 w("  high, so a single plant's row would show grey tiles that are artefacts of its")
 w("  sequencing rather than features of the haplotype.")

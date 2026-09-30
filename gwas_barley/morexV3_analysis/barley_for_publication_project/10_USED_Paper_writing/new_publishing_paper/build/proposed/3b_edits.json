@@ -1,0 +1,16 @@
+{
+  "notes": [
+    "**Status: APPROVED by the user 2026-09-27, with the 7H example sentence (\"3b add 7H\"). Applied.** This file is kept as the record.",
+    "**Revised (version 2).** The first wording (\"Moreover, the haplotype groups were defined with a single setting for all genes, which suits genes rich in SNPs but…\") is replaced by the one you liked, turned into a sentence.",
+    "**Why it is accurate:** at the standard setting the 7H GDSL gene *was* tested, but its significant SNPs were not grouped, so the test came out null (*P* = 0.16 / 0.36). That is exactly \"missed even in a gene that was tested\". The sentence gives no DBSCAN, ε or MGmin; that detail and the 7H case go to M&M (already in the M&M hand-over)."
+  ],
+  "questions": [],
+  "edits": [
+    {
+      "where": "Discussion §4 ¶1 (new section \"From associated loci to candidate genes\"), after the sentence on untestable genes",
+      "why": "Your Q2, reworded as you asked: the limitation and its consequence in one plain sentence, close to the wording you liked (\"One fixed setting for all genes can leave the associated SNPs of a sparse gene ungrouped, so a real association can be missed even in a gene that was tested\"). \"Likewise\" links it to the sentence before, which is about the same step. The method detail stays in M&M.",
+      "old": "so a gene that could not be tested is not a gene without effect. The three genes carried forward are therefore",
+      "new": "so a gene that could not be tested is not a gene without effect. {+Likewise, one fixed grouping setting for all genes can leave the associated SNPs of a sparse gene ungrouped, so a real association can be missed even in a gene that was tested. This was the case at the GDSL esterase/lipase on 7H, whose associated SNPs were grouped only at a different setting. <!-- 2026-09-27, review item 3b (user approved, with the 7H example): M&M MUST state the settings behind this: at the Ch. 3 settings (MGmin 2, epsilon 0.6) the three significant SNPs of 7HG0729030 were not grouped and the test was null (P = 0.16 fiber / 0.36 starch); the Ch. 4 result uses MGmin 3, epsilon 0.9 (03_01_7H_branch_Starch_Fiber_shared_signal_explore/README.md section 2; archive_v1_MGmin2_eps0.6/results/tables/crosshap_epsilon_sweep.tsv). --> +}The three genes carried forward are therefore"
+    }
+  ]
+}

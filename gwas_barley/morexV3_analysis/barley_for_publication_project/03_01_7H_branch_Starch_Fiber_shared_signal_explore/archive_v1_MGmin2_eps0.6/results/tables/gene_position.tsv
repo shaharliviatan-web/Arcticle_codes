@@ -1,0 +1,2 @@
+gene_id	chr	gene_start	gene_end	strand	length_bp	TSS	tss_note
+HORVU.MOREX.r3.7HG0729030	7H	573604051	573605728	-	1678	573605728	minus strand: TSS is the HIGH coordinate; promoter lies above it

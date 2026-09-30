@@ -24,6 +24,15 @@
 #   README.md                         all numbers in prose, for the manuscript
 #
 # Created 2026-08-17.
+#
+# BETA SIGN CONVENTION (fixed 2026-09-22): `beta` in significant_snps.tsv and `top_beta` in
+# per_trait_summary.tsv are the effect of A1, the minor allele (PLINK A1). EMMAX's .ps beta is
+# the effect of the allele coded "2" in the --recode12 tped (PLINK A2, the major allele), so it
+# is sign-flipped below. Verification: see 36_paper_tables_loci.R. The top15_per_chr__* files
+# are copied unchanged from results/tables/top_snps_per_chr/ and keep the raw EMMAX (A2) sign.
+# CAUTION: this script also rewrites results/00_FINAL_BLUP_3PC/README.md with an old
+# auto-generated text; that README has since been curated by hand. On 2026-09-22 the script was
+# re-run with that one write suppressed (writeLines masked for that path).
 
 Sys.setenv(TMPDIR = "/mnt/data/shahar/.tmp")
 suppressPackageStartupMessages(library(data.table))
@@ -62,7 +71,8 @@ for (tr in TRAITS) {
   stopifnot(nrow(gw) == N_ALL)
   d <- data.table(CHR = snp_map$CHR, SNP = snp_map$SNP, BP = snp_map$BP,
                   A1 = snp_map$A1, A2 = snp_map$A2,
-                  beta = as.numeric(gw$beta), SE = as.numeric(gw$SE), P = as.numeric(gw$P))
+                  beta = -as.numeric(gw$beta),   # -beta: EMMAX A2 effect -> A1 effect
+                  SE = as.numeric(gw$SE), P = as.numeric(gw$P))
   d <- d[!is.na(P) & P > 0 & P <= 1][, nlp := -log10(P)]
   d <- merge(d, maf, by = "SNP", all.x = TRUE)
 

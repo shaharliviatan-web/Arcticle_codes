@@ -1,0 +1,11 @@
+short_name	trait	file	removed_from	n_sites	n_polymorphic	n_monomorphic	n_undetermined	n_indel
+GH17	fiber	elite	elite_only	272	2	252	18	49
+GH17	fiber	elite	triallelic	1	0	1	0	0
+GH17	fiber	wild	triallelic	1	1	0	0	0
+GH17	fiber	wild	wild_only	7	7	0	0	0
+GPAT6	fiber	elite	elite_only	200	4	192	4	20
+GPAT6	fiber	elite	triallelic	1	0	1	0	0
+GPAT6	fiber	wild	triallelic	1	1	0	0	0
+GPAT6	fiber	wild	wild_only	10	9	1	0	0
+PHT4-3	starch	elite	elite_only	146	3	143	0	15
+PHT4-3	starch	wild	wild_only	4	4	0	0	0

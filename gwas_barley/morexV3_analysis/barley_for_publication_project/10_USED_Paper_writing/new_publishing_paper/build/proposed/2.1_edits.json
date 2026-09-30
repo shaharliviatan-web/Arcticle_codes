@@ -1,0 +1,21 @@
+{
+  "notes": [
+    "**2.1d is already done.** Item 1.8 rewrote the gene-selection method in Sariel's one-sentence form (Results Ch. 3 ¶3: *\"The 23 genes were functionally annotated, and a biological-relevance screen kept only those with…\"*). Nothing more to change.",
+    "**Where \"→ M&M\" text goes:** M&M is not written yet. On approval, every passage marked **(→ M&M…)** is saved word for word to `build/MM_HANDOVER_from_review.md`, for the Methods session to write in its own words. Nothing is lost.",
+    "**Kept on purpose:** the GWAS model sentence (BLUPs, three PCs, kinship) in Results Ch. 2 ¶1. Sariel's Results keep exactly this sentence (mini paper: *\"we used the calculated BLUPs as the phenotypic input…, the first three principal components as fixed covariates…, and a kinship matrix as random effect…\"*)."
+  ],
+  "edits": [
+    {
+      "where": "Results Ch. 2 ¶1 (\"To identify the genomic regions…\"), sentences 2–3 (2.1a)",
+      "why": "The four λGC values are printed on the QQ plots of Fig. 3, so the text gives the range, as Sariel did (\"λGC > 0.9; Figure 3A\"). How the significance threshold was set (Bonferroni, α = 0.10, 111,017 LD-pruned SNPs) is method, so it moves to M&M. The threshold value is in the Fig. 3 caption.",
+      "old": "(λ~GC~ = 0.985 for β-glucan, 0.975 for fiber, 1.013 for protein and 0.985 for starch; Fig. 3), indicating adequate control of population structure and of genome-wide false-positive inflation. Genome-wide significance was set by a Bonferroni correction at α = 0.10 over the 111,017 LD-pruned SNPs (−log~10~(*P*) = 6.0454).",
+      "new": "(λ~GC~ = {-0.985 for β-glucan, 0.975 for fiber, 1.013 for protein and 0.985 for starch-}{@per-trait values stay in Fig. 3@}{+0.975–1.013+}; Fig. 3), indicating adequate control of population structure and of genome-wide false-positive inflation.{- Genome-wide significance was set by a Bonferroni correction at α = 0.10 over the 111,017 LD-pruned SNPs (−log~10~(*P*) = 6.0454).-}{@→ M&M; the threshold value also stays in the Fig. 3 caption@}"
+    },
+    {
+      "where": "Results Ch. 3, elite paragraph (\"To ask which of these haplotypes…\"; ¶8 in the review's numbering), sentences 1–2 (2.1c)",
+      "why": "How the two call sets were matched (only sites with identical REF/ALT in both) is method, so it moves to M&M, and the per-gene site counts (43/54, 33/41, 12/16) are in Online Resource 3. The Online Resource 3 citation (TODO 306) moves up to the first sentence, so it stays in the text.",
+      "old": "drawn beneath the wild haplotype groups (Fig. 4d–f). Because the two call sets were produced independently, only positions carrying a record with identical reference and alternate alleles in both were compared, leaving 43 of 54, 33 of 41 and 12 of 16 wild SNPs at the three genes ([TODO: ESM number. The per-gene site accounting (07_.../results/tables/Table_site_overlap.tsv, with Table_removed_sites.tsv as the site-by-site detail) becomes an Online Resource once the ESM numbering is fixed]{.comment-start id=\"306\" author=\"TODO\"}[[Online Resource 3]]{.mark}[]{.comment-end id=\"306\"}).",
+      "new": "drawn beneath the wild haplotype groups (Fig. 4d–f{+; [TODO: ESM number. The per-gene site accounting (07_.../results/tables/Table_site_overlap.tsv, with Table_removed_sites.tsv as the site-by-site detail) becomes an Online Resource once the ESM numbering is fixed]{.comment-start id=\"306\" author=\"TODO\"}[[Online Resource 3]]{.mark}[]{.comment-end id=\"306\"}+}).{- Because the two call sets were produced independently, only positions carrying a record with identical reference and alternate alleles in both were compared, leaving 43 of 54, 33 of 41 and 12 of 16 wild SNPs at the three genes ([TODO: ESM number. The per-gene site accounting (07_.../results/tables/Table_site_overlap.tsv, with Table_removed_sites.tsv as the site-by-site detail) becomes an Online Resource once the ESM numbering is fixed]{.comment-start id=\"306\" author=\"TODO\"}[[Online Resource 3]]{.mark}[]{.comment-end id=\"306\"}).-}{@→ M&M: the shared-site rule; the per-gene site counts stay in Online Resource 3, now cited in the sentence above@}"
+    }
+  ]
+}

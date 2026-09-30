@@ -1,0 +1,32 @@
+# Supplementary table: choice of the DBSCAN epsilon for crosshap haplotyping.
+# Measured 2026-09-30 on the 55 candidate genes of run loci_LDspan_eps06_V4, MGmin = 2 fixed.
+#
+# THE TRADE-OFF. Assignment rate and gene coverage move monotonically against each
+# other. A low epsilon assigns a high proportion of accessions but only in the minority
+# of genes whose variants cluster tightly, and with fewer haplotype groups. A high
+# epsilon makes more genes testable but leaves more accessions unassigned in each.
+# Neither extreme is preferable: an unassigned accession contributes nothing to a
+# gene's test, and an untestable gene contributes nothing at all.
+# eps = 0.60 was fixed in advance, applied to every gene, and sits at the midpoint of
+# that trade-off. It is NOT the maximum of either metric and is not claimed to be.
+#
+# Superseded claim, recorded so it is not reintroduced: an earlier table measured on a
+# retired 64-gene set reported eps 0.6 as having the highest assignment rate. On the
+# real gene set that is not so -- an artefact of the wrong gene set and of a grid that
+# omitted eps < 0.6.
+#
+# GENOTYPE-ONLY: crosshap builds haplotype groups from genotypes alone -- the phenotype
+# is never used -- and no p-values enter this table. The parameter choice therefore
+# cannot be, and was not, tuned toward significance.
+#
+# total_accessions_assigned sums over ALL candidate genes (a gene with no grouping
+# counts 0), so unlike the per-gene percentages it is not conditioned on which genes
+# happened to cluster at that setting.
+#
+# Regenerate: Rscript 01_scripts/diagnostics/parameter_choice_tables.R
+epsilon	genes_testable	pct_of_candidates	total_accessions_assigned	median_assignment_pct	mean_assignment_pct	median_n_haplotype_groups	setting_used
+0.2	23	42	4744	70	71.1	2	FALSE
+0.4	27	49	5246	69.3	67	3	FALSE
+0.6	30	55	5633	65	64.7	3	TRUE
+0.8	34	62	6027	60.9	61.1	4	FALSE
+1	33	60	5895	60.3	61.6	4	FALSE

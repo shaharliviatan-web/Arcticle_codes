@@ -1,0 +1,14 @@
+{
+  "notes": [
+    "Item 2.2 listed three pieces of interpretation in the Results. **Two are already settled:** Results Ch. 2 ¶3, last sentence, was removed in **1.1**, and in Results Ch. 4 ¶3 \"…matching the negative phenotypic correlation…\" **stays**, since you discarded 1.3. Only the third is left, below.",
+    "**Kept on purpose:** the closing *\"so the high-fiber wild haplotype is essentially absent from these lines\"*. It sums up what the three percentages show, in the same way as Sariel's closing sentences, and the Discussion (§6) builds on it."
+  ],
+  "edits": [
+    {
+      "where": "Results Ch. 3, elite paragraph (\"To ask which of these haplotypes…\"; ¶8 in the review's numbering), second sentence",
+      "why": "\"Which carries the entire signal at this gene\" is a reading of the violin plot: the other two groups are flat and only group C differs. That is interpretation, and a reader sees it in Fig. 4a. The percentages stay.",
+      "old": "and the high-fiber group, which carries the entire signal at this gene, at only 39–45%",
+      "new": "and the high-fiber group{-, which carries the entire signal at this gene,-} at only 39–45%"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+line_name	sample_id	n_shared_sites	n_called	call_rate_pct	passes_85
+Avalon	SAMEA110189742	22	21	95.5	TRUE
+KWS Irina	SAMEA110189768	22	21	95.5	TRUE
+Odyssey	SAMEA110189789	22	18	81.8	FALSE
+Laureate	SAMEA110189847	22	12	54.5	FALSE
+LG Diablo	SAMEA110189781	22	17	77.3	FALSE

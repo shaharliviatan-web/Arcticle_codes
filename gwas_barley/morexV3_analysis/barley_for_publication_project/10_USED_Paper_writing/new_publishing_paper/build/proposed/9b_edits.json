@@ -1,0 +1,16 @@
+{
+  "notes": [
+    "**Revised (version 2), as you asked:** Sariel's contrast sentence now carries the heritability claim, in the way his Discussion did with β-glucan (*\"Despite exhibiting the highest broad-sense heritability, starch produced a sparse mapping profile, whereas β-glucan… yielded a robust, distributed signal…\"*). Starch, the most heritable trait, has few loci; fiber has the most.",
+    "**The two old ideas are kept, in the next sentence:** most associations rested on rare alleles, and β-glucan had the strongest associations but no gene. No numbers, as in Sariel's Conclusions (the counts, 5 vs 18, are in the Results and Discussion §3).",
+    "The first version's sentence (fiber vs β-glucan) and the old \"Mapping success did not follow heritability…\" are both replaced by these two sentences."
+  ],
+  "questions": [],
+  "edits": [
+    {
+      "where": "Discussion, Conclusions ¶1, third sentence",
+      "why": "Sariel's \"Trait associations varied significantly; X…, whereas Y…\" form, now carrying the heritability contrast (starch vs fiber); rare alleles and β-glucan follow in one sentence.",
+      "old": "specific genetic architectures for these traits. Mapping success did not follow heritability, and most associations rested on rare alleles.",
+      "new": "specific genetic architectures for these traits. {-Mapping success did not follow heritability, and most associations rested on rare alleles.-}{+Trait associations varied significantly and did not follow heritability; starch, the most heritable trait, mapped to few loci, whereas fiber was distributed across the most. Most associations rested on rare alleles, and β-glucan produced the strongest of them yet contributed no candidate gene.+}"
+    }
+  ]
+}

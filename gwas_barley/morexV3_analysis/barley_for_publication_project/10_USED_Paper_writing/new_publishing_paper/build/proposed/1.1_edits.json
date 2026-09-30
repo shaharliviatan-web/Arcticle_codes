@@ -1,0 +1,20 @@
+[
+  {
+    "where": "Results Ch. 2 ¶3 (\"Most lead SNPs…\"), last sentence",
+    "why": "Interpretation removed from the Results. The direction is already reported in the sentences before it, and it is interpreted once, in Discussion §3 ¶2 (change 3).",
+    "old": " Thus, the minor alleles detected in the collection shifted grain composition toward higher fiber and β-glucan and lower starch, in the same direction as the negative phenotypic correlations of starch with fiber and β-glucan (Fig. 2b).",
+    "new": "{- Thus, the minor alleles detected in the collection shifted grain composition toward higher fiber and β-glucan and lower starch, in the same direction as the negative phenotypic correlations of starch with fiber and β-glucan (Fig. 2b).-}"
+  },
+  {
+    "where": "Discussion §2 ¶2 (\"The trade-off also had…\"), sentences 2–3",
+    "why": "The direction of allelic effects moves to §3 ¶2, next to its caveat. The genomic counterpart now rests on the co-localization and the 7H haplotype. \"Moreover\" is dropped because it no longer follows a first point.",
+    "old": "Consistent with a shared axis, at every locus the minor allele shifted grain composition in the direction of the phenotypic correlations, toward higher fiber and β-glucan and lower starch. Moreover, fiber and starch loci co-localized",
+    "new": "{-Consistent with a shared axis, at every locus the minor allele shifted grain composition in the direction of the phenotypic correlations, toward higher fiber and β-glucan and lower starch. Moreover, fiber-}{+Fiber+} and starch loci co-localized"
+  },
+  {
+    "where": "Discussion §3 ¶2 (\"Most associations rested…\"), first sentence",
+    "why": "The direction is stated here once, right before its caveat. \"Every fiber, β-glucan and starch locus\" replaces the old \"every locus\", because the two protein loci have opposite effects (Results Ch. 2 ¶3).",
+    "old": "Most associations rested on rare alleles, and their consistent direction requires closer attention.",
+    "new": "Most associations rested on rare alleles, and {+at every fiber, β-glucan and starch locus the minor allele shifted grain composition in the direction of the phenotypic correlations, toward higher fiber and β-glucan and lower starch. This+}{-their-} consistent direction requires closer attention."
+  }
+]

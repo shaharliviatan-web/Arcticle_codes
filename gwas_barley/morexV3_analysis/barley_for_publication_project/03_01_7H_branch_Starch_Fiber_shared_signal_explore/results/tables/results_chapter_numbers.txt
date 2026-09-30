@@ -1,0 +1,78 @@
+==============================================================================
+  7HG0729030 (GDSL esterase) at MGmin = 3, epsilon = 0.9
+  REPLACEMENT analysis for the 7H shared fiber/starch signal
+  generated 2026-09-24 19:08 by 05_results_chapter_numbers.R
+==============================================================================
+
+PARAMETERS
+  MGmin = 3, epsilon = 0.9, window = gene +/- 1000 bp, minHap = 9.
+  The pipeline elsewhere uses MGmin = 2, epsilon = 0.6. Under those values this gene
+  has NO usable grouping: DBSCAN assigns all four GWAS signal SNPs to marker group 0
+  (noise) and builds haplotypes from two null SNPs (fiber p = 0.16, starch p = 0.36).
+
+PARAMETER SELECTION (see README section 2)
+  A single procedure in two steps, neither using the haplotype test's p-values:
+    Step 1  MGmin = the smallest value at which the four GWAS signal SNPs form a
+            marker group                                        -> MGmin = 3
+    Step 2  epsilon = the value maximising the assignment rate  -> epsilon = 0.9
+            (246/290, tied with eps 1.0; the smaller eps is taken)
+
+  WHY STEP 1 IS NEEDED. Ranked purely by assignment, the grid's best combination is
+  MGmin 2 / eps 0.10 with 253/290 (87.2%) assigned -- but it carries 0 of the 4 GWAS
+  signal SNPs and returns KW p = 0.92. Assignment rate measures how much of the panel
+  the test uses, not whether it is aimed at the right variants. Within MGmin = 2 the
+  only setting carrying all four signal SNPs is eps = 1.5, assigning just 147/290.
+
+  Grid ranked by assignment (top rows):
+     1. MGmin 2, eps 0.10 : 0/4 signal SNPs, 253/290 assigned (87.2%)   <- max assignment, but unusable
+     2. MGmin 3, eps 0.90 : 4/4 signal SNPs, 246/290 assigned (84.8%)   <- chosen
+     3. MGmin 3, eps 1.00 : 4/4 signal SNPs, 246/290 assigned (84.8%)
+     4. MGmin 3, eps 0.40 : 3/4 signal SNPs, 239/290 assigned (82.4%)
+     5. MGmin 3, eps 0.50 : 3/4 signal SNPs, 239/290 assigned (82.4%)
+     6. MGmin 3, eps 0.60 : 3/4 signal SNPs, 239/290 assigned (82.4%)
+     7. MGmin 3, eps 0.70 : 3/4 signal SNPs, 239/290 assigned (82.4%)
+     8. MGmin 3, eps 0.80 : 3/4 signal SNPs, 239/290 assigned (82.4%)
+
+HAPLOTYPE RESULT
+  fiber   27 SNPs in window | 246 of 290 accessions assigned (85%) | 2 groups [212|34]
+          KW H = 9.46, df = 1, p = 0.00209 | eta2 = 0.035 | delta top-bottom = 0.54 SD
+          hap B: n =  34, mean +0.0981, median +0.0810, SD 0.304
+          hap A: n = 212, mean -0.0528, median -0.0946, SD 0.273
+  starch  27 SNPs in window | 246 of 290 accessions assigned (85%) | 2 groups [212|34]
+          KW H = 10.70, df = 1, p = 0.00107 | eta2 = 0.040 | delta top-bottom = 0.56 SD
+          hap A: n = 212, mean +0.8109, median +2.1436, SD 5.636
+          hap B: n =  34, mean -2.3861, median -1.9350, SD 5.500
+
+  All four GWAS signal SNPs are retained in marker group MG1 (mean r2 = 0.74).
+  The minority haplotype (n = 34) is EXACTLY the 34 accessions that carry the minor
+  allele at both lead SNPs in the direct genotype split -- 34 shared, 0 discordant.
+
+ELITE COMPARISON
+  wild 27 SNPs, elite 131 records in window; shared 22, triallelic 0, wild-only 5, elite-only 109
+  allele concordance over 22 shared positions: 22 identical, 0 swapped, 0 triallelic
+  removed from elite (elite_only): 109 sites, 33 polymorphic, 76 monomorphic
+  removed from wild  (wild_only):   5 sites, 5 polymorphic, 0 monomorphic
+  wild monomorphic over the 246 assigned accessions: 0 of 27 SNPs (0 kept, 0 removed)
+
+  Genotype of each elite cultivar at the 4 GWAS signal SNPs:
+    Avalon      Reference, Reference, Reference, Reference
+    KWS Irina   Reference, Reference, Reference, Reference
+    Odyssey     Missing, Missing, Reference, Reference
+    Laureate    Missing, Missing, Reference, Reference
+    LG Diablo   Reference, Reference, Missing, Missing
+    => 14 Reference, 0 Alternate, 6 no-call across 5 lines x 4 SNPs
+    No elite cultivar carries the minority (high-fibre / low-starch) haplotype.
+
+  Call rate over the 22 shared sites (step 07 requires >= 85%):
+    Avalon      21/22 = 95.5%  pass
+    KWS Irina   21/22 = 95.5%  pass
+    Odyssey     18/22 = 81.8%  BELOW 85%
+    Laureate    12/22 = 54.5%  BELOW 85%
+    LG Diablo   17/22 = 77.3%  BELOW 85%
+
+PASTE-READY SENTENCE
+  At the shared 7H fiber/starch signal, haplotyping of the adjacent GDSL esterase
+  7HG0729030 (gene +/- 1 kb, MGmin = 3, epsilon = 0.9) resolved two haplotypes over
+  246 of 290 accessions. The minority haplotype (n = 34) carried higher fibre
+  (KW p = 0.00209) and lower starch (p = 0.00107) BLUPs, and is absent from five modern
+  European spring malting cultivars, all of which carry the major haplotype.

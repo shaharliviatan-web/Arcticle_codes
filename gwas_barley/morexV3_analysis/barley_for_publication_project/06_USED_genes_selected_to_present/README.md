@@ -40,8 +40,10 @@ followed by the LD/haplotype heatmaps.
 
 ## Why these three, and not the other twenty
 
-The 23 genes were judged on **protein function and published literature alone** — the
-crosshap statistics played no part in the selection. That separation matters, because
+Selection is two-stage. **Significance is the gate**: only the 23 genes that passed the
+haplotype analysis (BH q ≤ 0.05) were considered at all. **Among those 23**, the genes were
+judged on **protein function and published literature alone** — their rank by q and their effect
+sizes played no part in choosing between them. That separation matters, because
 the two rankings disagree: the top gene by q (`6HG0619810`, starch) has **no functional
 call from Swiss-Prot, InterPro or NCBI nr**, and the second (`3HG0301210`, fiber) carries
 a **domesticated-transposase** domain. Neither can be argued for from function.
@@ -297,6 +299,28 @@ change in a known enzyme.
 
 ---
 
+## Table 2 of the manuscript (script, added 2026-09-27)
+
+`scripts/01_make_table2_paper.R` writes **Table 2 of the TAG manuscript**: the three genes carried forward,
+one row each, with chromosome, gene position, lead SNP, distance to it, accessions grouped (groups), BH *q*,
+η², the difference in SD between the highest and lowest haplotype group, and the Swiss-Prot identity/coverage.
+
+```bash
+Rscript 06_USED_genes_selected_to_present/scripts/01_make_table2_paper.R     # seconds
+```
+
+| output (`results/tables/`) | contents |
+|---|---|
+| `Table_2_genes_carried_forward.md` | the pipe table, caption and footnotes, **pasted verbatim** into `10_USED_Paper_writing/new_publishing_paper/Results_Discussion_Conclusions.md` |
+| `Table_2_genes_carried_forward.tsv` | raw values beside each formatted cell, for checking |
+
+Inputs, read-only: step 04 `Stats/gene_results.tsv`, and step 05 `Table_significant_genes_annotated.tsv`
+(`sp_pident`, `sp_qcovhsp`; these two columns are **not** in `Table_significant_genes_paper.tsv`, the Online
+Resource 2 source). If step 04 or 05 is re-run, re-run the script and re-paste the `.md`. The GDSL esterase at
+7H (Results Ch. 4) is **not** in the table; the user decided on 2026-09-27 that its numbers stay in the text.
+
+---
+
 ## Filename convention
 
 ```
@@ -328,6 +352,8 @@ than editing anything here. The selection is recorded machine-readably in
 |---|---|
 | 2026-09-10 | created with 8 genes — 3 tier-1 (strong) + 5 tier-2 (plausible) |
 | 2026-09-10 | **reduced to the 3 tier-1 genes**; the 5 tier-2 copies removed, originals intact in step 04. Empty `betaglucan/` directory removed |
+| 2026-09-22 | **Wording fix, no change to the selection.** "The crosshap statistics played no part in the selection" read as if significance did not matter. Corrected here, in `TRAIT_CANDIDACY.md` and in `10_USED_Paper_writing/CLAUDE.md` to state the actual logic: significance is the gate, and function/literature choose among the 23 significant genes |
+| 2026-09-27 | **`scripts/01_make_table2_paper.R` added** (user approval, manuscript review item 4): it writes Table 2 of the manuscript to `results/tables/Table_2_genes_carried_forward.{md,tsv}`. It only reads steps 04 and 05. The selection is unchanged |
 
 ## Sources
 

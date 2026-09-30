@@ -1,0 +1,13 @@
+member_db	signature_acc	signature_desc	start	end	evalue	interpro_acc	interpro_desc	go_terms
+SignalP_EUK	SignalP-noTM	SignalP-noTM	1	21	-	-	-	-
+Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	21	-	-	-	-
+Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	4	14	-	-	-	-
+Pfam	PF00657	GDSL-like Lipase/Acylhydrolase	32	348	8.0E-31	IPR001087	GDSL lipase/esterase	GO:0016788(InterPro)
+CDD	cd01837	SGNH_plant_lipase_like	31	352	2.62897E-120	IPR035669	GDSL lipase/esterase-like, plant	-
+SignalP_GRAM_POSITIVE	SignalP-TM	SignalP-TM	1	21	-	-	-	-
+PANTHER	PTHR22835	ZINC FINGER FYVE DOMAIN CONTAINING PROTEIN	9	353	3.3E-118	-	-	-
+Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	22	368	-	-	-	-
+Gene3D	G3DSA:3.40.50.1110	SGNH hydrolase	25	351	1.9E-71	IPR036514	SGNH hydrolase superfamily	-
+Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	3	-	-	-	-
+Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	15	21	-	-	-	-
+SUPERFAMILY	SSF52266	SGNH hydrolase	32	349	5.66E-11	-	-	-

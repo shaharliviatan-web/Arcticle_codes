@@ -1,0 +1,13 @@
+maf_class	top_region	n	pct
+MAF < 0.10	North	1910	15.3
+MAF < 0.10	Coast	2125	17.1
+MAF < 0.10	Desert	2758	22.1
+MAF < 0.10	HZ1 (North-Coast)	2015	16.2
+MAF < 0.10	HZ2 (North-Desert)	2061	16.5
+MAF < 0.10	HZ3 (Coast-Desert)	1591	12.8
+MAF >= 0.10	North	757	13.8
+MAF >= 0.10	Coast	1310	23.8
+MAF >= 0.10	Desert	1270	23.1
+MAF >= 0.10	HZ1 (North-Coast)	958	17.4
+MAF >= 0.10	HZ2 (North-Desert)	633	11.5
+MAF >= 0.10	HZ3 (Coast-Desert)	568	10.3
