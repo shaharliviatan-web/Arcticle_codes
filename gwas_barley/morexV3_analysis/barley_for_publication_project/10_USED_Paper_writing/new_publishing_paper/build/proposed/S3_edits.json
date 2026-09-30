@@ -1,0 +1,159 @@
+{
+ "notes": [
+  "**Item S3 — renumbering Figs. 3, 4, 5 → 2, 3, 4** (old Fig. 2 is dissolved). References and captions only; applied together with S4 and S5 so the file never has two \"Fig. 2\" captions.",
+  "Your Word comment 311 (\"See figure 3 start of chrom 4\") also names the Manhattan figure, so its number changes; nothing else in it."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "M&M · Genome-wide association ¶2",
+   "why": "Renumbering: old Fig. 3 is now Fig. 2.",
+   "old": "inflation factor (λ~GC~) (Fig. 3).",
+   "new": "inflation factor (λ~GC~) (Fig. {-3-}{+2+})."
+  },
+  {
+   "where": "M&M · Haplotype analysis ¶3",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "(Holm 1979; Fig. 4).",
+   "new": "(Holm 1979; Fig. {-4-}{+3+})."
+  },
+  {
+   "where": "M&M · Functional annotation ¶3 (7H gene)",
+   "why": "Renumbering: old Fig. 5 is now Fig. 4.",
+   "old": "Wilcoxon rank-sum test (Fig. 5).",
+   "new": "Wilcoxon rank-sum test (Fig. {-5-}{+4+})."
+  },
+  {
+   "where": "M&M · Comparison with elite cultivars ¶2",
+   "why": "Renumbering: old Fig. 4 and 5 is now Fig. 3 and 4.",
+   "old": "resolved to the reference allele (Fig. 4d–f).",
+   "new": "resolved to the reference allele (Fig. {-4d–f-}{+3d–f+})."
+  },
+  {
+   "where": "M&M · Comparison with elite cultivars ¶2 (7H)",
+   "why": "Renumbering: old Fig. 5 is now Fig. 4.",
+   "old": "For the 7H gene (Fig. 5c),",
+   "new": "For the 7H gene (Fig. {-5c-}{+4c+}),"
+  },
+  {
+   "where": "M&M · Geographic origin",
+   "why": "Renumbering: old Fig. 4, 5 is now Fig. 3, 4.",
+   "old": "the four presented genes (Figs. 4, 5)",
+   "new": "the four presented genes (Figs. {-4, 5-}{+3, 4+})"
+  },
+  {
+   "where": "Results Ch. 2 ¶1 (1/2)",
+   "why": "Renumbering: old Fig. 3 is now Fig. 2.",
+   "old": "testing 7,110,996 SNPs (Fig. 3).",
+   "new": "testing 7,110,996 SNPs (Fig. {-3-}{+2+})."
+  },
+  {
+   "where": "Results Ch. 2 ¶1 (2/2)",
+   "why": "Renumbering: old Fig. 3 is now Fig. 2.",
+   "old": "(λ~GC~ = 0.975–1.013; Fig. 3)",
+   "new": "(λ~GC~ = 0.975–1.013; Fig. {-3-}{+2+})"
+  },
+  {
+   "where": "Results Ch. 2 ¶2",
+   "why": "Renumbering: old Fig. 3 is now Fig. 2.",
+   "old": "in linkage disequilibrium with it (Fig. 3; [TODO",
+   "new": "in linkage disequilibrium with it (Fig. {-3-}{+2+}; [TODO"
+  },
+  {
+   "where": "Results Ch. 2 ¶2 (your comment 311)",
+   "why": "Your comment names the Manhattan figure; renumbered only.",
+   "old": "See figure 3 start of chrom 4.",
+   "new": "See figure {-3-}{+2+} start of chrom 4."
+  },
+  {
+   "where": "Results Ch. 2, Manhattan caption",
+   "why": "Renumbering: old Fig. 3 is now Fig. 2.",
+   "old": "**Fig. 3** Genome-wide association mapping",
+   "new": "**Fig. {-3-}{+2+}** Genome-wide association mapping"
+  },
+  {
+   "where": "Results Ch. 3 ¶3 (GPAT6)",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "; Fig. 4a).",
+   "new": "; Fig. {-4a-}{+3a+})."
+  },
+  {
+   "where": "Results Ch. 3 ¶4 (GH17)",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "; Fig. 4b).",
+   "new": "; Fig. {-4b-}{+3b+})."
+  },
+  {
+   "where": "Results Ch. 3 ¶5 (PHT4;3)",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "; Fig. 4c).",
+   "new": "; Fig. {-4c-}{+3c+})."
+  },
+  {
+   "where": "Results Ch. 3 ¶6 (elite)",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "beneath the wild haplotype groups (Fig. 4d–f;",
+   "new": "beneath the wild haplotype groups (Fig. {-4d–f-}{+3d–f+};"
+  },
+  {
+   "where": "Results Ch. 3, haplotype caption",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "**Fig. 4** Haplotype structure of the three candidate genes",
+   "new": "**Fig. {-4-}{+3+}** Haplotype structure of the three candidate genes"
+  },
+  {
+   "where": "Results Ch. 4 ¶1",
+   "why": "Renumbering: old Fig. 3 is now Fig. 2.",
+   "old": "the two 7H loci was examined (Fig. 3b, d).",
+   "new": "the two 7H loci was examined (Fig. {-3b, d-}{+2b, d+})."
+  },
+  {
+   "where": "Results Ch. 4 ¶3 (1/4)",
+   "why": "Renumbering: old Fig. 5 is now Fig. 4.",
+   "old": "with the same grouping for both traits (Fig. 5).",
+   "new": "with the same grouping for both traits (Fig. {-5-}{+4+})."
+  },
+  {
+   "where": "Results Ch. 4 ¶3 (2/4)",
+   "why": "Renumbering: old Fig. 5 is now Fig. 4.",
+   "old": "0.54 SD; Fig. 5a)",
+   "new": "0.54 SD; Fig. {-5a-}{+4a+})"
+  },
+  {
+   "where": "Results Ch. 4 ¶3 (3/4)",
+   "why": "Renumbering: old Fig. 5 is now Fig. 4.",
+   "old": "0.56 SD; Fig. 5b)",
+   "new": "0.56 SD; Fig. {-5b-}{+4b+})"
+  },
+  {
+   "where": "Results Ch. 4 ¶3 (4/4)",
+   "why": "Renumbering: old Fig. 5 is now Fig. 4.",
+   "old": "low-starch haplotype B (Fig. 5c).",
+   "new": "low-starch haplotype B (Fig. {-5c-}{+4c+})."
+  },
+  {
+   "where": "Results Ch. 4, GDSL caption",
+   "why": "Renumbering: old Fig. 5 is now Fig. 4.",
+   "old": "**Fig. 5** Haplotype structure of the GDSL",
+   "new": "**Fig. {-5-}{+4+}** Haplotype structure of the GDSL"
+  },
+  {
+   "where": "Discussion §3 ¶3 (β-glucan)",
+   "why": "Renumbering: old Fig. 3 is now Fig. 2.",
+   "old": "significantly associated with β-glucan (Fig. 3a).",
+   "new": "significantly associated with β-glucan (Fig. {-3a-}{+2a+})."
+  },
+  {
+   "where": "Discussion §5 (1/2)",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "at the shared sites (Fig. 4f),",
+   "new": "at the shared sites (Fig. {-4f-}{+3f+}),"
+  },
+  {
+   "where": "Discussion §5 (2/2)",
+   "why": "Renumbering: old Fig. 4 is now Fig. 3.",
+   "old": "matched none of the wild groups (Fig. 4e).",
+   "new": "matched none of the wild groups (Fig. {-4e-}{+3e+})."
+  }
+ ]
+}

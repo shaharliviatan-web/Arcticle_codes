@@ -1,0 +1,19 @@
+{
+ "notes": [
+  "**Item C1, the last item of the Discussion voice review: the Conclusions.** The two paragraphs keep Sariel's structure and wording. One sentence changes.",
+  "**Point 6 (\"varied significantly\"):** no test compares the number of loci between traits, so \"significantly\" reads as a statistical claim the paper does not make. The suggestion is \"varied **widely among traits**\". You approved the current wording on 28.9 (item 9b), so this is only a suggestion; see Q1.",
+  "**A factual slip in the same sentence:** \"starch, the most heritable trait\" is wrong for flowering time (H² 0.747 > 0.474). It becomes \"the most heritable **nutritional** trait\", the same fix as in Results Ch. 1 (R1).",
+  "**Still open, not in this item:** the β-amylase citation, TODO 411 (\"[(citation)]\"). It belongs to the References session; a possible source (Xu et al. 2018, Mol Breed) is already in the comment."
+ ],
+ "questions": [
+  "**\"varied significantly\":** change to \"varied widely among traits\" (suggested), or keep your wording? The \"nutritional\" fix applies either way."
+ ],
+ "edits": [
+  {
+   "where": "Conclusions ¶1",
+   "why": "'significantly' used loosely; 'most heritable' true only among the nutritional traits.",
+   "old": "Trait associations varied significantly and did not follow heritability; starch, the most heritable trait, mapped to few loci",
+   "new": "Trait associations varied {-significantly-}{+widely among traits+} and did not follow heritability; starch, the most heritable {+nutritional +}trait, mapped to few loci{+ <!-- C1 (Conclusions, 2026-10-01): 'varied significantly' used a statistical word loosely (no test compares loci counts); 'the most heritable trait' was wrong for flowering time (H2 0.747 > starch 0.474), same fix as Results Ch. 1 (R1). -->+}"
+  }
+ ]
+}

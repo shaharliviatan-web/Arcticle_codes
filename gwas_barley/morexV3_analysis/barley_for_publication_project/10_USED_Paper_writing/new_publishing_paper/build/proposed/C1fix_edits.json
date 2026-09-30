@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**C1-fix** (Claude's error, applied without a proposal): the C1 hidden note sat between 'few loci' and the comma, which gave 'few loci , whereas' in Word. The note is moved to the end of the sentence. No text changes."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Conclusions ¶1",
+   "why": "Stray space before a comma in Word.",
+   "old": "mapped to few loci <!-- C1 (Conclusions, 2026-10-01): 'varied significantly' used a statistical word loosely (no test compares loci counts); 'the most heritable trait' was wrong for flowering time (H2 0.747 > starch 0.474), same fix as Results Ch. 1 (R1). -->, whereas fiber was distributed across the most.",
+   "new": "mapped to few loci{- <!-- C1 (Conclusions, 2026-10-01): 'varied significantly' used a statistical word loosely (no test compares loci counts); 'the most heritable trait' was wrong for flowering time (H2 0.747 > starch 0.474), same fix as Results Ch. 1 (R1). -->-}, whereas fiber was distributed across the most.{+ <!-- C1 (Conclusions, 2026-10-01): 'varied significantly' used a statistical word loosely (no test compares loci counts); 'the most heritable trait' was wrong for flowering time (H2 0.747 > starch 0.474), same fix as Results Ch. 1 (R1). -->+}"
+  }
+ ]
+}

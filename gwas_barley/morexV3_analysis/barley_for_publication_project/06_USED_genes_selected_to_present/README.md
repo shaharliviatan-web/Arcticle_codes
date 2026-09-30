@@ -301,6 +301,13 @@ change in a known enzyme.
 
 ## Table 2 of the manuscript (script, added 2026-09-27)
 
+> **2026-09-30: Table 2 left the main text** (S. Hübner: "put all genes in one supmat"; user decision: no tables in the
+> main text). Its three rows are now part of the all-candidate-genes Online Resource,
+> `10_USED_Paper_writing/new_publishing_paper/supplementary/tables/ESM_candidate_genes.xlsx`, built by
+> `…/supplementary/scripts/make_ESM_candidate_genes.py`, which reads `results/tables/Table_2_genes_carried_forward.tsv`
+> for the "carried forward" column and checks the three rows against it cell by cell. The script below and its
+> outputs are kept unchanged as that source; its `.md` is no longer pasted into the manuscript.
+
 `scripts/01_make_table2_paper.R` writes **Table 2 of the TAG manuscript**: the three genes carried forward,
 one row each, with chromosome, gene position, lead SNP, distance to it, accessions grouped (groups), BH *q*,
 η², the difference in SD between the highest and lowest haplotype group, and the Swiss-Prot identity/coverage.
@@ -354,6 +361,7 @@ than editing anything here. The selection is recorded machine-readably in
 | 2026-09-10 | **reduced to the 3 tier-1 genes**; the 5 tier-2 copies removed, originals intact in step 04. Empty `betaglucan/` directory removed |
 | 2026-09-22 | **Wording fix, no change to the selection.** "The crosshap statistics played no part in the selection" read as if significance did not matter. Corrected here, in `TRAIT_CANDIDACY.md` and in `10_USED_Paper_writing/CLAUDE.md` to state the actual logic: significance is the gate, and function/literature choose among the 23 significant genes |
 | 2026-09-27 | **`scripts/01_make_table2_paper.R` added** (user approval, manuscript review item 4): it writes Table 2 of the manuscript to `results/tables/Table_2_genes_carried_forward.{md,tsv}`. It only reads steps 04 and 05. The selection is unchanged |
+| 2026-09-30 | **Table 2 removed from the manuscript** (S. Hübner's comments, item S2 of the manuscript review): its rows moved to the all-candidate-genes Online Resource (`10_USED_Paper_writing/new_publishing_paper/supplementary/`), which reads `Table_2_genes_carried_forward.tsv`. Nothing in this folder changed. The selection is unchanged |
 
 ## Sources
 

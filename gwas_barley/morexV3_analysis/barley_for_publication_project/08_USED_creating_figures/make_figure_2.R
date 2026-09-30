@@ -1,194 +1,191 @@
 #!/usr/bin/env Rscript
-# make_figure_2.R — Fig. 2 of the TAG manuscript (Results ch. 1): ecological architecture of the
-# grain nutritional traits.
+# make_figure_2.R — Fig. 2 of the TAG manuscript (Results ch. 2): GWAS Manhattan + QQ plots.
 #
-#   a  centered trait BLUPs across the 29 sampling sites, ordered and coloured by ecological region
-#   b  Pearson correlations among the four nutritional traits
-#   c  Pearson correlations between nutritional and agro-morphological traits
-#   d  Pearson correlations between site-mean nutritional BLUPs and eight environmental variables
+# Layout, as in the mini paper: one row per trait (a β-glucan, b fiber, c protein, d starch),
+# Manhattan on the left, QQ on the right.
 #
-# Layout (changed 2026-09-27 on the user's request: panel a was too dense to read at half width):
-# a spans the full width on top, b | c share the middle row, d spans the full width at the bottom.
-# The mini paper packed the four panels into a 2 x 2 block with a and d on top, which left a with
-# 87 mm for 29 sites x 4 traits. Each letter still carries exactly the content the Ch. 1 caption
-# gives it, and the letters now also run in reading order.
+# Manhattan
+#   * every SNP is one dot, and ALL dots are the same size (no enlarged lead SNPs);
+#   * the members of each LD-clumped locus (02_loci_FINAL, 50 kb gap rule) are painted in one
+#     colour per locus over an alternating-grey chromosome background, so the physical extent of
+#     each association is visible. A locus reduced to its lead SNP by the gap rule is drawn like
+#     any other locus (no open circle);
+#   * no title, no legend, no locus labels (L01, L02 …): locus identities go to the Online
+#     Resource table. Colours only separate neighbouring loci; they carry no identity, so the
+#     8-colour palette is reused along the genome (neighbouring loci always differ);
+#   * one horizontal line: the Bonferroni threshold (alpha 0.10 over the LD-pruned SNP count).
+# QQ
+#   * observed vs expected −log10(p) with the y = x line and λGC only (no title, no legend,
+#     no threshold lines).
 #
-# WHY THIS SCRIPT EXISTS, and what is NOT changing: see the header of make_figure_1.R. Same rule
-# here (user instruction 2026-09-27) — the panels are redrawn from the step-00 output tables with
-# the same data, geoms, palettes, factor orders, labels and significance symbols as
-# `00_THIN_.../01_phenotypic_analysis_no_GxE_v3_streamlined.R` (A4, A12 panels A and B) and
-# `00_THIN_.../03b_trait_environment_correlations.R` (C2 all-32 heatmap). Step 00 is neither
-# re-run nor modified. Only the rendering differs: 174 mm instead of 160 mm, a true 9 pt for all
-# lettering instead of per-panel rescales of a base_size-16 theme, panel letters a-d instead of
-# A-D, 600 dpi, and TIFF alongside PNG.
+# TAG figure spec (10_USED_Paper_writing/TAG_requirements.md): 174 mm wide (full page width),
+# height ≤ 234 mm, Arial-metric sans (Liberation Sans) at a TRUE 9 pt at final size (TAG range 8–12),
+# lines ≥ 0.3 pt, RGB, 600 dpi (combination art). The point layer holds 4 × 7.1 M SNPs, so the
+# figure is raster: drawn once to PNG (docx build), converted to TIFF (submission).
 #
-# The step-00 panels carry hand-enlarged fonts (axis text 24-30 pt, in-tile labels 4.8-5.6 mm)
-# because each was drawn large and then shrunk by `assemble_figures.py`. Drawing at final size
-# makes that unnecessary: every size here is the size on the page.
+# Inputs (read-only, 01_USED_GWAS_V2_pipeline):
+#   results/00_FINAL_BLUP_3PC/01_assoc/<trait>.assoc               SNP, P (7,110,996 rows)
+#   results/00_FINAL_BLUP_3PC/02_loci_FINAL/tables/loci_summary.tsv  one row per locus
+#   results/00_FINAL_BLUP_3PC/02_loci_FINAL/tables/loci_members.tsv  one row per member SNP
+#   intermediates/morexV3_pruned_for_covs.prune.in                  LD-pruned SNPs (threshold)
+#   results/tables/lambda_table.tsv                                 λGC cross-check
+# Outputs: Figure_2/Fig2.tif (LZW), Figure_2/Fig2.png
 #
-# Inputs (read-only, 00_THIN_Generate_Plots_For_Publication/outputs/subsection_1/):
-#   tables/A4_site_boxplot_data.csv                            a
-#   tables/A12_nutri_pairs_uncorrectedP.csv                    b
-#   tables/A12_nutri_morpho_pairs_localFDR.csv                 c (raw-p stars, column `sig`)
-#   C2_trait_environment_correlations/tables/C2corr_trait_environment_all32.csv   d
-# Outputs: Figure_2/Fig2.png (docx build), Figure_2/Fig2.tif (submission, LZW)
+# Created and approved 2026-09-22 (see README.md). Run: Rscript make_figure_2.R   (~4 min, ~10 GB RAM)
 #
-# Created 2026-09-27. Run: Rscript make_figure_2.R   (seconds)
+# RENUMBERED 2026-09-30 (S. Hübner's comments on the figures; user decision): old Fig. 2 was dissolved,
+# so this figure is now Fig. 2 (it was Fig. 3) and this script was make_figure_3.R, writing
+# Figure_3/Fig3.*. Only the output folder, file names, log tags and this header changed; the
+# re-rendered image is pixel-identical to the approved Fig3 (checked 2026-09-30). Hand-over:
+# 10_USED_Paper_writing/new_publishing_paper/build/STRUCTURE_CHANGES_2026-10.md
+#
+# Fixed 2026-09-27 (user decision) — TRUE TEXT SIZE, the same bug found in make_figure_4.R (now
+# make_figure_3.R) on 2026-09-24: layout() with three or more rows silently sets par(cex = 0.66) and nothing reset it,
+# so the version approved 2026-09-22 as "12 pt" measured ~7.9 pt on the page, below TAG's 8 pt
+# minimum, and the margin arithmetic (LINE_IN, in lines of PT) was wrong for the same reason.
+# par(cex = 1) is now set after layout() and PT = 9 — a true 9 pt, matching Fig. 4 (now Fig. 3), ~14% larger
+# than the approved look. PT_CEX was rescaled (0.40 -> 0.35) so the SNP dots keep the approved
+# size on the page. Nothing else changed: same data, same colours, same layout.
 
 Sys.setenv(TMPDIR = "/mnt/data/shahar/.tmp")
-suppressPackageStartupMessages({ library(ggplot2); library(dplyr); library(patchwork) })
+suppressPackageStartupMessages(library(data.table))
+set.seed(1)                                   # QQ bulk subsample only
 
 ROOT <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project"
-S1   <- file.path(ROOT, "00_THIN_Generate_Plots_For_Publication/outputs/subsection_1")
-TAB  <- file.path(S1, "tables")
-C2   <- file.path(S1, "C2_trait_environment_correlations/tables")
+PIPE <- file.path(ROOT, "01_USED_GWAS_V2_pipeline")
+SET  <- file.path(PIPE, "results", "00_FINAL_BLUP_3PC")
+LOC  <- file.path(SET, "02_loci_FINAL", "tables")
 OUT  <- file.path(ROOT, "08_USED_creating_figures", "Figure_2")
 dir.create(OUT, showWarnings = FALSE, recursive = TRUE)
 
-# ── TAG style ─────────────────────────────────────────────────────────────────
-FONT <- "Liberation Sans"
-PT   <- 9                        # TRUE size on the page (TAG 8-12)
-DPI  <- 600
-W_MM <- 174
-H_MM <- 230
-mm_text <- function(pt) pt / .pt  # geom_text size is in mm
+TRAITS    <- c("betaglucan", "fiber", "protein", "starch")
+TRAIT_LAB <- c(betaglucan = "β-glucan", fiber = "Fiber", protein = "Protein", starch = "Starch")
+N_SNP     <- 7110996L
+N_PRUNED  <- length(readLines(file.path(PIPE, "intermediates", "morexV3_pruned_for_covs.prune.in")))
+BONF      <- -log10(0.10 / N_PRUNED)          # 6.0454 for 111,017 pruned SNPs
 
-theme_tag <- function(base_size = PT) {          # theme_pub() of step 00 at base_size = PT
-  theme_bw(base_size = base_size, base_family = FONT) +
-    theme(
-      plot.title       = element_blank(),
-      plot.subtitle    = element_blank(),
-      strip.background = element_rect(fill = "grey95", colour = "grey40", linewidth = 0.4),
-      strip.text       = element_text(face = "bold", size = base_size),
-      axis.title       = element_text(size = base_size),
-      axis.text        = element_text(size = base_size - 1, colour = "black"),
-      panel.grid.minor = element_blank(),
-      panel.grid.major = element_line(colour = "grey92", linewidth = 0.3),
-      panel.border     = element_rect(colour = "grey40", fill = NA, linewidth = 0.4),
-      legend.position  = "bottom",
-      legend.title     = element_text(face = "bold", size = base_size - 1),
-      legend.text      = element_text(size = base_size - 1),
-      legend.key.size  = unit(3.2, "mm"),
-      legend.margin    = margin(t = 0, b = 0),
-      plot.margin      = margin(2, 3, 1, 2)
-    )
+# ── Style ─────────────────────────────────────────────────────────────────────
+FONT     <- "Liberation Sans"                 # metric-compatible with Arial
+PT       <- 9                                 # all lettering, TRUE size on the page (TAG 8-12); needs par(cex = 1) after layout()
+DPI      <- 600
+W_MM     <- 174                               # TAG full width
+W_MAN_MM <- 128; W_QQ_MM <- W_MM - W_MAN_MM   # Manhattan 128 mm + QQ 46 mm
+PLOT_IN  <- 1.30                              # plot-region height per row (in)
+MAR_TOP  <- 1.5                               # lines: panel letter + trait
+MAR_BOT  <- 1.5                               # lines: chromosome / tick labels
+MAR_BOTX <- 2.9                               # bottom row: + axis title
+LINE_IN  <- 1.2 * PT / 72                     # one margin line in inches
+PT_CEX   <- 0.35                              # one dot size for every SNP, both plot types (0.40 x 12/9 x 0.66: keeps the approved dot size)
+LWD      <- 0.75                              # ≥ 0.3 pt
+BG_COLS  <- c("grey74", "grey56")             # odd / even chromosomes
+# Validated categorical order (dataviz skill reference palette, light mode):
+# adjacent-pair CVD ΔE ≥ 9.1, normal-vision ΔE ≥ 19.6.
+PALETTE  <- c("#2a78d6", "#eb6834", "#1baf7a", "#eda100",
+              "#e87ba4", "#008300", "#4a3aa7", "#e34948")
+COL_QQ   <- "grey20"; COL_NULL <- "#e34948"
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+S <- fread(file.path(LOC, "loci_summary.tsv"))
+M <- fread(file.path(LOC, "loci_members.tsv"))
+LAM_REF <- fread(file.path(PIPE, "results", "tables", "lambda_table.tsv"))[pheno_type == "BLUP" & n_PCs == 3]
+calc_lambda <- function(p) median(qchisq(1 - p, df = 1)) / qchisq(0.5, df = 1)
+
+snp <- NULL; G <- list()
+for (tr in TRAITS) {
+  a <- fread(file.path(SET, "01_assoc", paste0(tr, ".assoc")), showProgress = FALSE)
+  stopifnot(nrow(a) == N_SNP, !anyNA(a$P), all(a$P > 0 & a$P <= 1))
+  if (is.null(snp)) {
+    snp <- a[, .(SNP)]
+    snp[, c("chr", "bp") := tstrsplit(SNP, ":", fixed = TRUE)]
+    snp[, `:=`(chr = as.integer(sub("H$", "", chr)), bp = as.numeric(bp))]
+    stopifnot(!is.unsorted(snp$chr))
+    cm <- snp[, .(len = max(bp)), by = chr][order(chr)]
+    cm[, off := cumsum(shift(len, fill = 0))]
+    snp[cm, x := bp + i.off, on = "chr"]
+    BG_IDX <- list(which(snp$chr %% 2L == 1L), which(snp$chr %% 2L == 0L))   # odd / even
+    CHR_MID <- snp[, .(mid = (min(x) + max(x)) / 2), by = chr]
+    XLIM    <- c(0, sum(cm$len))
+  } else stopifnot(identical(a$SNP, snp$SNP))  # same SNP order in every file
+
+  nlp <- -log10(a$P)
+  lam <- calc_lambda(a$P)
+  stopifnot(abs(lam - LAM_REF[trait == tr, lambda_GC]) < 1e-9)
+
+  # loci: colour in genome order; members painted, looked up by SNP id (same run as S)
+  K <- S[trait == tr][order(chr, lead_bp)]
+  K[, colour := PALETTE[(seq_len(.N) - 1L) %% length(PALETTE) + 1L]]
+  MM <- M[trait == tr][K[, .(locus_id, colour)], on = "locus_id"]
+  idx <- match(MM$SNP, snp$SNP); stopifnot(!anyNA(idx))
+  MM[, `:=`(x = snp$x[idx], nlp = nlp[idx])]
+  sig <- snp$SNP[nlp > BONF]
+  stopifnot(all(sig %in% MM$SNP))              # every significant SNP sits in a painted locus
+
+  # QQ: all points in the tail, a random 150k of the bulk (visually identical)
+  o <- order(a$P); n <- length(o)
+  q_idx <- c(seq_len(50000L), sort(sample(50001L:n, 150000L)))
+  G[[tr]] <- list(nlp = nlp, MM = MM, lam = lam, n_loci = nrow(K), n_sig = length(sig),
+                  qq_exp = -log10(ppoints(n))[q_idx], qq_obs = nlp[o][q_idx])
+  cat(sprintf("[fig2] %-10s lambda %.4f | %2d loci | %4d painted SNPs | %2d significant | max -log10p %.2f\n",
+              tr, lam, nrow(K), nrow(MM), length(sig), max(nlp)))
+  rm(a, o); gc(verbose = FALSE)
 }
 
-TRAIT_ORDER <- c("Protein", "Starch", "β-glucan", "Fiber")
-REGION_ORDER <- c("North", "Coast", "Desert", "HZ1 (North-Coast)",
-                  "HZ2 (North-Desert)", "HZ3 (Coast-Desert)")
-PAL_REGION <- c("North" = "#2166AC", "Coast" = "#1B7837", "Desert" = "#B2182B",
-                "HZ1 (North-Coast)" = "#67A9CF", "HZ2 (North-Desert)" = "#762A83",
-                "HZ3 (Coast-Desert)" = "#E08214")
-FILL_R <- function(...) scale_fill_gradient2(low = "#2166AC", mid = "white", high = "#B2182B",
-                                             midpoint = 0, limits = c(-1, 1),
-                                             breaks = c(-1, -0.5, 0, 0.5, 1),
-                                             name = "Pearson r", ...)
+# ── Drawing ───────────────────────────────────────────────────────────────────
+mm2in <- function(mm) mm / 25.4
+ROW_IN  <- PLOT_IN + (MAR_TOP + MAR_BOT) * LINE_IN
+LAST_IN <- PLOT_IN + (MAR_TOP + MAR_BOTX) * LINE_IN
+W_IN <- mm2in(W_MM); H_IN <- 3 * ROW_IN + LAST_IN
+stopifnot(H_IN * 25.4 <= 234)
 
-# ── a: site boxplots ──────────────────────────────────────────────────────────
-site <- read.csv(file.path(TAB, "A4_site_boxplot_data.csv"), fileEncoding = "UTF-8",
-                 colClasses = c(site = "character")) %>%
-  mutate(Trait  = factor(Trait, levels = TRAIT_ORDER),
-         region = factor(region, levels = REGION_ORDER))
-site$site <- factor(site$site, levels = site %>% distinct(region, site) %>%
-                      arrange(region, site) %>% pull(site))
-stopifnot(!anyNA(site$Trait), !anyNA(site$region), nlevels(site$site) == 29)
+draw <- function() {
+  layout(matrix(1:8, ncol = 2, byrow = TRUE),
+         widths = c(W_MAN_MM, W_QQ_MM), heights = c(rep(ROW_IN, 3), LAST_IN))
+  par(cex = 1)                                # undo layout()'s automatic 0.66 shrink
+  par(family = FONT, las = 1, mgp = c(1.9, 0.45, 0), tcl = -0.25,
+      cex.axis = 1, cex.lab = 1, lwd = LWD, xpd = FALSE)
+  for (i in seq_along(TRAITS)) {
+    tr <- TRAITS[i]; g <- G[[tr]]; last <- i == length(TRAITS)
+    bot <- if (last) MAR_BOTX else MAR_BOT
 
-p_a <- ggplot(site, aes(x = site, y = value_centered, fill = region)) +
-  geom_boxplot(colour = "grey30", outlier.shape = NA, linewidth = 0.25, alpha = 0.75) +
-  geom_jitter(width = 0.18, height = 0, size = 0.25, alpha = 0.55, colour = "grey20") +
-  facet_wrap(~ Trait, scales = "free_y", ncol = 2) +
-  scale_fill_manual(values = PAL_REGION, name = "Ecological region", drop = FALSE) +
-  scale_x_discrete(labels = function(x)                       # label every 5th site
-    ifelse(!is.na(suppressWarnings(as.integer(x))) & suppressWarnings(as.integer(x)) %% 5 == 0,
-           suppressWarnings(as.integer(x)), "")) +
-  labs(x = "Sampling site", y = "BLUP (centered)") +
-  theme_tag() +
-  guides(fill = guide_legend(nrow = 2, byrow = TRUE, title.position = "top", title.hjust = 0.5)) +
-  theme(legend.title = element_text(hjust = 0.5))
+    # Manhattan
+    ymax <- ceiling(max(g$nlp, BONF)) + 0.5
+    par(mar = c(bot, 3.0, MAR_TOP, 0.4))
+    plot(NA, xlim = XLIM, ylim = c(0, ymax), xaxs = "i", yaxs = "i", axes = FALSE,
+         xlab = "", ylab = expression(-log[10](italic(p))))
+    for (k in 1:2) {                          # one call per grey: no per-point colour parsing
+      j <- BG_IDX[[k]]; points(snp$x[j], g$nlp[j], pch = 16, cex = PT_CEX, col = BG_COLS[k])
+    }
+    abline(h = BONF, lwd = LWD, col = "black")
+    points(g$MM$x, g$MM$nlp, pch = 16, cex = PT_CEX, col = g$MM$colour)
+    axis(2, at = seq(0, ymax, 2), lwd = LWD)
+    axis(1, at = CHR_MID$mid, labels = paste0(CHR_MID$chr, "H"), tick = FALSE, line = -0.2)
+    box(bty = "l", lwd = LWD)
+    if (last) title(xlab = "Chromosome", line = 1.7)
+    # panel letter + trait: bottom-left of the label 0.06 in above the plot box, at the row's left edge
+    text(grconvertX(0, "nfc", "user"),
+         grconvertY(grconvertY(1, "npc", "inches") + 0.06, "inches", "user"),
+         bquote(bold(.(letters[i])) ~~ .(TRAIT_LAB[[tr]])), adj = c(0, 0), xpd = NA)
 
-# ── b: nutritional trait correlations ─────────────────────────────────────────
-x_levels <- c("Starch", "β-glucan", "Fiber")     # no Protein column
-y_levels <- c("Protein", "Starch", "β-glucan")   # no Fiber row
-heat_nutri <- read.csv(file.path(TAB, "A12_nutri_pairs_uncorrectedP.csv"), fileEncoding = "UTF-8") %>%
-  mutate(Trait1 = factor(Trait1, levels = y_levels),
-         Trait2 = factor(Trait2, levels = x_levels),
-         label  = sprintf("%.2f%s", r, ifelse(is.na(sig_raw), "", sig_raw)))
-stopifnot(nrow(heat_nutri) == 6)
+    # QQ
+    lim <- max(g$qq_exp, g$qq_obs) * 1.04
+    par(mar = c(bot, 3.0, MAR_TOP, 0.5))
+    plot(g$qq_exp, g$qq_obs, pch = 16, cex = PT_CEX, col = COL_QQ,
+         xlim = c(0, lim), ylim = c(0, lim), xaxs = "i", yaxs = "i", axes = FALSE,
+         xlab = "", ylab = expression(Observed ~ -log[10](italic(p))))
+    abline(0, 1, col = COL_NULL, lwd = LWD)
+    axis(1, at = seq(0, lim, 2), lwd = LWD); axis(2, at = seq(0, lim, 2), lwd = LWD)
+    box(bty = "l", lwd = LWD)
+    if (last) title(xlab = expression(Expected ~ -log[10](italic(p))), line = 1.7)
+    text(0.04 * lim, 0.96 * lim, bquote(lambda[GC] == .(sprintf("%.3f", g$lam))), adj = c(0, 1))
+  }
+}
 
-p_b <- ggplot(heat_nutri, aes(x = Trait2, y = Trait1, fill = r)) +
-  geom_tile(colour = "white", linewidth = 0.6) +
-  geom_text(aes(label = label, colour = ifelse(abs(r) > 0.45, "white", "black")),
-            size = mm_text(7), fontface = "bold") +
-  FILL_R() + scale_colour_identity() +
-  scale_y_discrete(limits = rev(y_levels), drop = FALSE) +
-  scale_x_discrete(limits = x_levels, drop = FALSE, position = "top") +
-  labs(x = NULL, y = NULL) +
-  coord_equal() +
-  guides(fill = guide_colourbar(barwidth = unit(0.25, "cm"), barheight = unit(2.0, "cm"))) +
-  theme_tag() +
-  theme(panel.grid = element_blank(), legend.position = "right",
-        axis.text.x = element_text(angle = 0, hjust = 0.5))
-
-# ── c: nutritional x agro-morphological correlations ──────────────────────────
-NUTRI <- TRAIT_ORDER
-d_ord <- read.csv(file.path(TAB, "A12_nutri_morpho_pairs_localFDR.csv"), fileEncoding = "UTF-8") %>%
-  mutate(nutri = factor(nutri, levels = NUTRI),
-         sig   = ifelse(is.na(sig), "", sig),
-         morpho_lab = paste(morpho, as.integer(nutri), sep = "___"))
-stopifnot(nrow(d_ord) == 16, !anyNA(d_ord$nutri))
-d_ord$morpho_lab <- factor(d_ord$morpho_lab,
-                           levels = d_ord %>% arrange(nutri, r) %>% pull(morpho_lab))
-
-p_c <- ggplot(d_ord, aes(x = morpho_lab, y = r)) +
-  geom_hline(yintercept = 0, linetype = "dashed", colour = "grey70", linewidth = 0.3) +
-  geom_point(size = 1.4, colour = "grey45") +
-  geom_text(aes(label = sig, y = r), vjust = -0.7, size = mm_text(8),
-            fontface = "bold", colour = "grey25") +
-  facet_wrap(~ nutri, scales = "free", ncol = 2) +
-  scale_x_discrete(labels = function(x) sub("___.*", "", x)) +
-  scale_y_continuous(expand = expansion(mult = c(0.14, 0.50)), n.breaks = 3) +   # fewer ticks + headroom for the stars at 9 pt
-  labs(x = NULL, y = "Pearson's r") +
-  theme_tag() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), panel.grid.minor = element_blank())
-
-# ── d: trait x environment correlations ───────────────────────────────────────
-PRED_LEVELS <- c("pH", "Electrical conductivity (mS/cm)", "Clay (%)", "Sand (%)",
-                 "March temperature (°C)", "Precipitation (mm)",
-                 "Organic carbon (mg/kg)", "Total N (mg/kg)")
-heat_env <- read.csv(file.path(C2, "C2corr_trait_environment_all32.csv"), fileEncoding = "UTF-8") %>%
-  mutate(TraitLabel = factor(Trait, levels = rev(TRAIT_ORDER)),
-         PredLabel  = factor(PredLabel, levels = PRED_LEVELS),
-         sig_symbol = ifelse(is.na(sig_symbol), "", sig_symbol))
-stopifnot(nrow(heat_env) == 32, !anyNA(heat_env$TraitLabel), !anyNA(heat_env$PredLabel))
-
-p_d <- ggplot(heat_env, aes(x = PredLabel, y = TraitLabel, fill = pearson_r)) +
-  geom_tile(colour = "white", linewidth = 0.5) +
-  geom_tile(data = subset(heat_env, pearson_p < 0.05), fill = NA, colour = "black",
-            linewidth = 0.7) +
-  geom_text(aes(label = ifelse(sig_symbol == "", sprintf("%.2f", pearson_r),
-                               sprintf("%.2f\n%s", pearson_r, sig_symbol))),
-            size = mm_text(6.5), lineheight = 0.78, colour = "black") +
-  FILL_R() +
-  scale_x_discrete(labels = function(x) sub("\\s*\\(.*\\)\\s*$", "", x)) +
-  labs(x = NULL, y = NULL) +
-  guides(fill = guide_colourbar(barwidth = unit(38, "mm"), barheight = unit(2.6, "mm"),
-                                title.position = "left", title.vjust = 1)) +
-  theme_tag() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, face = "bold"),
-        axis.text.y = element_text(face = "bold"),
-        panel.grid = element_blank(), legend.position = "bottom")
-
-# ── assemble: a | d over b | c ────────────────────────────────────────────────
-fig <- p_a / (p_b + p_c + plot_layout(widths = c(0.8, 1.2))) / p_d +
-  plot_layout(heights = c(1.12, 1.40, 0.80)) +
-  plot_annotation(tag_levels = "a") &
-  theme(plot.tag = element_text(family = FONT, face = "bold", size = PT, hjust = 0, vjust = 1))
-
-png(file.path(OUT, "Fig2.png"), width = W_MM, height = H_MM, units = "mm", res = DPI,
-    type = "cairo", family = FONT, bg = "white")
-print(fig); invisible(dev.off())
+png(file.path(OUT, "Fig2.png"), width = W_IN, height = H_IN, units = "in", res = DPI,
+    pointsize = PT, type = "cairo", family = FONT, bg = "white")
+draw(); invisible(dev.off())
+# TIFF for submission: same pixels as the PNG, RGB 8 bit/channel, LZW (TAG: RGB, ≥ 600 dpi)
 stopifnot(system2("python3", c("-c", shQuote(sprintf(
   "from PIL import Image; Image.open('%s').convert('RGB').save('%s', compression='tiff_lzw', dpi=(%d,%d))",
   file.path(OUT, "Fig2.png"), file.path(OUT, "Fig2.tif"), DPI, DPI)))) == 0)
-cat(sprintf("[fig2] OK -> %s  (%d x %d mm, %d dpi, %d pt)\n", OUT, W_MM, H_MM, DPI, PT))
+cat(sprintf("[fig2] OK -> %s  (%.0f x %.0f mm, %d dpi; threshold -log10p %.4f)\n",
+            OUT, W_MM, H_IN * 25.4, DPI, BONF))

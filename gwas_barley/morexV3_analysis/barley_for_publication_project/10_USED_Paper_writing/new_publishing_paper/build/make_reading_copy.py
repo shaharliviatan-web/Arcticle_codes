@@ -2,7 +2,7 @@
 # make_reading_copy.py - writes a reading copy of a manuscript md: Word-comment markup (TODO comments)
 # and hidden <!-- --> notes removed; highlighted anchor text kept as plain text. Added 2026-09-30
 # (M&M session). Never edit a reading copy; regenerate it. Run from new_publishing_paper/:
-#   python3 build/make_reading_copy.py Methods_Results_Discussion_Conclusions.md Methods_Results_Discussion_Conclusions_reading_copy.md
+#   python3 build/make_reading_copy.py Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley_reading_copy.md
 import re, sys
 
 src, dst = sys.argv[1], sys.argv[2]

@@ -5,13 +5,23 @@ manuscript. Figure specs: `10_USED_Paper_writing/TAG_requirements.md`.
 
 | figure | status | built by | output |
 |---|---|---|---|
-| **Fig. 1 — variance partition, reaction norms** | **rebuilt to TAG spec and adopted 2026-09-27** | `make_figure_1.R` | `Figure_1/Fig1.png` (docx build), `Figure_1/Fig1.tif` (submission) |
-| **Fig. 2 — ecology, trait correlations** | **rebuilt to TAG spec and adopted 2026-09-27** | `make_figure_2.R` | `Figure_2/Fig2.png` (docx build), `Figure_2/Fig2.tif` (submission) |
-| **Fig. 3 — GWAS Manhattan + QQ** | **rebuilt and approved 2026-09-22; re-rendered 2026-09-27** (true 9 pt) | `make_figure_3.R` | `Figure_3/Fig3.png` (docx build), `Figure_3/Fig3.tif` (submission) |
-| **Fig. 4 — haplotype structure + elite cultivars** | **rebuilt and approved 2026-09-23; re-rendered 2026-09-24** (true 9 pt, ties → REF) | `make_figure_4.R` | `Figure_4/Fig4.png` (docx build), `Figure_4/Fig4.tif` (submission) |
-| **Fig. 5 — GDSL esterase at the shared 7H signal** (Results ch. 4) | **built and approved 2026-09-24** (status corrected here 2026-09-27; Ch. 4 approved to stay in the paper 2026-09-25) | `make_figure_5.R` | `Figure_5/Fig5.png` (docx build), `Figure_5/Fig5.tif` (submission) |
+| **Fig. 1 — variance partition, reaction norms, trait correlations, environment** | **rebuilt 2026-09-30** (old Fig. 1a, b + old 2b/2c merged as c + old 2d as d); layout and caption approved by the user | `make_figure_1.R` | `Figure_1/Fig1.png` (docx build), `Figure_1/Fig1.tif` (submission) |
+| **Fig. 2 — GWAS Manhattan + QQ** (was Fig. 3) | approved 2026-09-22; re-rendered 2026-09-27 (true 9 pt); renumbered 2026-09-30 (pixel-identical) | `make_figure_2.R` | `Figure_2/Fig2.png`, `Figure_2/Fig2.tif` |
+| **Fig. 3 — haplotype structure + elite cultivars** (was Fig. 4) | approved 2026-09-23; re-rendered 2026-09-24 (true 9 pt, ties → REF); renumbered 2026-09-30 (pixel-identical) | `make_figure_3.R` | `Figure_3/Fig3.png`, `Figure_3/Fig3.tif` |
+| **Fig. 4 — GDSL esterase at the shared 7H signal** (Results ch. 4; was Fig. 5) | approved 2026-09-24; renumbered 2026-09-30 (pixel-identical) | `make_figure_4.R` | `Figure_4/Fig4.png`, `Figure_4/Fig4.tif` |
+| **Online Resource (ESM number open) — site BLUPs by region** (old Fig. 2a) | built 2026-09-30 | `make_figure_ESM_site_BLUPs.R` | `Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf` (the ESM file) + `.png` (preview) |
 
-**One script per figure.** Each `make_figure_N.R` draws its figure at final size — the only way to
+**Renumbered 2026-09-30** (S. Hübner's comments on the figures; user decisions; hand-over
+`10_USED_Paper_writing/new_publishing_paper/build/STRUCTURE_CHANGES_2026-10.md`). Old Fig. 2 was dissolved:
+2a → an Online Resource (PDF), 2b + 2c → one heatmap (new Fig. 1c), 2d → new Fig. 1d. So old Figs. 3, 4, 5 are
+now Figs. 2, 3, 4. Done with plain `mv` (nothing staged in git): `make_figure_3.R` → `make_figure_2.R`,
+`Figure_3/Fig3.*` → `Figure_2/Fig2.*`, and likewise 4 → 3 and 5 → 4; in each renamed script only the output
+folder, file names, log tags and header changed, and the re-rendered PNG and TIFF are **pixel-identical** to the
+approved files they replace (checked 2026-09-30). The previous `make_figure_1.R` and `make_figure_2.R` and their
+outputs (old Fig. 1, old Fig. 2) were removed with the user's approval; both scripts and the TIFFs are in git.
+Before 2026-09-30, the numbers in this README's history notes and in hidden notes elsewhere are the OLD numbers.
+
+**One script per figure.** Each `make_figure_N.R` (and `make_figure_ESM_*.R`) draws its figure at final size — the only way to
 hold TAG's 8–12 pt lettering and 600 dpi — and writes `FigN.png` (docx build) + `FigN.tif` (LZW,
 submission), 174 mm wide, true 9 pt, RGB.
 
@@ -23,7 +33,61 @@ candidate set; its outputs were deleted 2026-09-23), and target 3 only called `m
 
 ---
 
-## Figs. 1 and 2 — `make_figure_1.R`, `make_figure_2.R` (rebuilt 2026-09-27, awaiting approval)
+## Fig. 1 — `make_figure_1.R` (rebuilt 2026-09-30)
+
+```bash
+Rscript make_figure_1.R        # seconds
+```
+
+**Why.** S. Hübner (2026-09-30): "2a can go to the supmat. 2b and 2c can be in the same plot (like in b or d)
+and combined with fig 1. Also 2d." User decisions: new Fig. 1 = **a** variance partitioning, **b** reaction
+norms (old 1a, 1b, unchanged), **c** the merged trait-correlation heatmap, **d** site means × environment
+(old 2d); old 2a → `make_figure_ESM_site_BLUPs.R`. Layout and caption approved 2026-09-30
+(`10_USED_Paper_writing/new_publishing_paper/build/proposed/S0_QUESTIONS.md`: Q1 "triangle", drawn as a
+**lower** triangle; Q2 caption A).
+
+**Layout** (174 × 205 mm; TAG limit 234): a | b on top (as the former Fig. 1, 74 mm), c, then d, full width;
+one colour bar for c and d at the bottom.
+
+**Panel c.** One heatmap in the style of old 2b/2d: the four nutritional traits as rows; first their
+correlations with one another as a **lower triangle** (each pair once; columns Protein, Starch, β-glucan — the
+Fiber column would be empty and is not drawn), then, after a dark separator line, their correlations with
+flowering time, plant height, grain weight and grain number. 7 columns (d has 8, so the columns of c and d are
+not aligned). Values: `A12_nutri_pairs_uncorrectedP.csv` (old 2b; stars `sig_raw`) and
+`A12_nutri_morpho_pairs_localFDR.csv` (old 2c; stars from its raw-P column `sig`, never `sig_local`).
+**Same significance basis in both blocks, and in d** — checked by the script (it stops otherwise): every star
+is `star_fn()` of step-00 script 01 on the raw two-sided `cor.test` P (n = 290 accessions in c, 29 sites in d),
+thresholds 0.05 / 0.01 / 0.001, no multiple-testing correction. The caption says so.
+
+**Rendering changes to the approved panels (no value changed):** in-tile numbers of c and d at 8 pt (old
+2b/2d had 6.5–7 pt, below TAG's 8 pt minimum); black text on every tile (white fails TAG's 4.5:1 contrast on
+the darkest tiles, black passes); one shared colour bar. Panels a and b are drawn exactly as before.
+
+**Built-in checks:** 8 traits, variance components sum to 100 %, 16 highlighted accessions over 3 seasons,
+290 genotypes; 6 + 16 correlation cells, no duplicates, every nutritional cell below the diagonal; star columns
+equal `star_fn(p)` in all three sources; 32 trait × environment tests.
+
+**Output:** `Figure_1/Fig1.png` + `Fig1.tif` (LZW, converted from the PNG), 600 dpi, RGB, true 9 pt.
+
+## Online Resource — `make_figure_ESM_site_BLUPs.R` (old Fig. 2a, built 2026-09-30)
+
+```bash
+Rscript make_figure_ESM_site_BLUPs.R   # seconds
+```
+
+Centered trait BLUPs of the four nutritional traits across the 29 sampling sites, ordered and coloured by
+ecological region — panel a of the former `make_figure_2.R`, drawn identically on its own page
+(174 × 120 mm). TAG wants supplementary figures as **PDF**: `Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf`
+(cairo_pdf, fonts embedded) + `ESM_site_BLUPs.png` (preview only; no TIFF needed). Jittered points now use
+`set.seed(1)` (the former script had no seed). The ESM number and the TAG title block are added when the
+Online Resources are numbered. Input: `00_THIN_…/outputs/subsection_1/tables/A4_site_boxplot_data.csv`.
+
+---
+
+## History: the former Figs. 1 and 2 — `make_figure_1.R`, `make_figure_2.R` (2026-09-27/28; replaced 2026-09-30)
+
+*Kept for the record. The rules below (rendering-only rebuild from the step-00 tables; true 9 pt) carry over to
+the current Fig. 1 and the ESM site figure. Panel letters here are those of the former Fig. 2.*
 
 ```bash
 Rscript make_figure_1.R        # seconds
@@ -97,10 +161,10 @@ gives it, and the letters now run in reading order.
 
 ---
 
-## Fig. 3 — `make_figure_3.R` (approved 2026-09-22)
+## Fig. 2 — `make_figure_2.R` (approved 2026-09-22 as Fig. 3; renumbered 2026-09-30)
 
 ```bash
-Rscript make_figure_3.R        # ~4 min, ~10 GB RAM
+Rscript make_figure_2.R        # ~4 min, ~10 GB RAM
 ```
 
 **Layout.** One row per trait, as in the mini paper: **a** β-glucan, **b** fiber, **c** protein,
@@ -120,7 +184,7 @@ p-values plus a random 150,000 of the rest (seed 1). "Expected" axis title on th
 **TAG spec.** 174 × 183 mm; Liberation Sans (Arial-metric; Arial is not installed) at a **true 9 pt** for all
 lettering (re-rendered 2026-09-27: `layout()` had silently set `par(cex = 0.66)`, so the version approved
 2026-09-22 as "12 pt" measured ~7.9 pt on the page, below TAG's 8 pt minimum; `par(cex = 1)` is now set
-after `layout()`, `PT = 9` matches Fig. 4, and `PT_CEX` was rescaled 0.40 → 0.35 so the SNP dots keep the
+after `layout()`, `PT = 9` matches the haplotype figure (then Fig. 4, now Fig. 3), and `PT_CEX` was rescaled 0.40 → 0.35 so the SNP dots keep the
 approved size. Same data, same colours, same layout); lines 0.75 pt; RGB; 600 dpi. Raster only: 4 × 7.1 M points make a vector file impractical.
 The TIFF (LZW) is converted from the PNG, so the two are pixel-identical.
 
@@ -139,10 +203,10 @@ enlarged/open-circle leads, and a palette including a grey that blended into the
 
 ---
 
-## Fig. 4 — `make_figure_4.R` (approved 2026-09-23)
+## Fig. 3 — `make_figure_3.R` (approved 2026-09-23 as Fig. 4; renumbered 2026-09-30)
 
 ```bash
-Rscript make_figure_4.R        # seconds
+Rscript make_figure_3.R        # seconds
 ```
 
 **Layout.** One row per gene, violins left (70 mm) and the aligned genotype barcodes right (104 mm):
@@ -191,7 +255,7 @@ shared SNPs / q 5.26e-06 / η² 0.208, GH17 5 / 33 / 7.47e-05 / 0.222, PHT4;3 4 
   item the widest label's width and no longer fitted), centred on the whole barcode column.
 - **Consensus ties → REF** (step 07's `consensus_row()`, see its README): turns the two grey GH17 wild
   cells in panel e (group A `5H:462,728,332`, group E `5H:462,729,123`) into REF.
-- **Applied to Fig. 3 on 2026-09-27** (user decision: match Fig. 4 at a true 9 pt). See the Fig. 3 section.
+- **Applied to the Manhattan figure (then Fig. 3, now Fig. 2) on 2026-09-27** (user decision: match at a true 9 pt). See the Fig. 2 section.
 
 **Inputs** (read-only): `07_USED_elite_lines_compariosn_to_wild_lines/intermediates/matrices/<gene>__shared_sites.rds`,
 `07_.../results/tables/{Table_pairwise_group_tests,Table_allele_concordance}.tsv`,
@@ -209,20 +273,20 @@ regenerated, but it is no longer rendered.
 
 ---
 
-## Fig. 5 — `make_figure_5.R` (approved 2026-09-24)
+## Fig. 4 — `make_figure_4.R` (approved 2026-09-24 as Fig. 5; renumbered 2026-09-30)
 
 ```bash
-Rscript make_figure_5.R        # seconds
+Rscript make_figure_4.R        # seconds
 ```
 
 Results ch. 4: the GDSL esterase/lipase `HORVU.MOREX.r3.7HG0729030` at the shared 7H
 fiber/starch signal. Source analysis:
 `03_01_7H_branch_Starch_Fiber_shared_signal_explore/` (the branch root since 2026-09-24; it was the subfolder `REPLACEMENT_ANALYSIS_MGmin3_eps0.9`)
-(crosshap MGmin = 3, ε = 0.9, gene ± 1 kb). Built on `make_figure_4.R`: same drawing code, palette,
+(crosshap MGmin = 3, ε = 0.9, gene ± 1 kb). Built on `make_figure_3.R` (then `make_figure_4.R`): same drawing code, palette,
 true 9 pt lettering, line widths, row height, 70 | 104 mm columns, shared-sites barcodes, step 07's
 consensus rule (ties → REF; this gene has none).
 
-**Differences from Fig. 4 (user decisions 2026-09-24).**
+**Differences from Fig. 3 (then Fig. 4; user decisions 2026-09-24).**
 - **Layout:** violins **a** fiber and **b** starch stacked on the left, **one** barcode **c** spanning
   both rows on the right. The two traits give identical groups (the same 212 | 34 accessions; the
   script stops if not), so their barcodes would be identical.

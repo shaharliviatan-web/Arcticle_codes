@@ -1,0 +1,38 @@
+{
+ "notes": [
+  "**Item R4 of the Results voice review: Ch. 4 + the Fig. 4 caption** (the shared fiber and starch signal on 7H). This chapter is not in the mini paper, so it is written in Evgeny's voice already; it opens with its aim. Only clarity fixes.",
+  "**¶1:** the 38-word sentence about the gene's position is split. \"Identified at the level of the family rather than as a characterized ortholog\" becomes \"annotated at the family level, without a characterized ortholog\".",
+  "**¶2 (logic):** \"Because the gene lies on the minus strand, all three were located in its putative promoter region\" implied that the strand put the SNPs in the promoter. The strand only explains why \"upstream of the transcription start site\" means higher coordinates. The sentence now states the location and puts the strand in parentheses.",
+  "**¶3:** \"a single group of four SNPs\" becomes \"a single **marker** group of four SNPs:\", the term the M&M defines.",
+  "**Fig. 4 caption** (checked against `Figure_4/Fig4.png`, which matches):\n> - Title: \"haplotypes of five elite malting cultivars\" becomes \"genotypes … at this gene\", as in Fig. 3.\n> - Added \"red triangles, the three genome-wide significant SNPs\": panel c shows them, but the caption did not say so (TAG: identify every element).",
+  "**Unchanged:** all numbers; ¶3's statistics and the cultivar sentence; \"matching the negative phenotypic correlation\" (you kept it on 27.9, item 1.3).",
+  "Length: 199 → 206 words (clarity)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Results Ch. 4 ¶1",
+   "why": "Long sentence split; plainer wording for the family-level annotation.",
+   "old": "A single gene, *HORVU.MOREX.r3.7HG0729030*, lay immediately beside them, within 732 bp of both lead SNPs and 554 bp beyond the edge of the starch locus, and the nearest other annotated gene was 112 kb away. The gene encodes a GDSL esterase/lipase predicted to be secreted, identified at the level of the family rather than as a characterized ortholog.",
+   "new": "A single gene, *HORVU.MOREX.r3.7HG0729030*, lay immediately beside them, within 732 bp of both lead SNPs and 554 bp beyond the edge of the starch locus{-, and the-}{+. The+} nearest other annotated gene was 112 kb away. The gene encodes a GDSL esterase/lipase predicted to be secreted, {-identified at the level of the family rather than as a characterized ortholog-}{+annotated at the family level, without a characterized ortholog+}."
+  },
+  {
+   "where": "Results Ch. 4 ¶2",
+   "why": "The strand does not cause the promoter location.",
+   "old": "Because the gene lies on the minus strand, all three were located in its putative promoter region, 578–763 bp upstream of the annotated transcription start site, and they were in linkage disequilibrium with one another (r² = 0.73–0.94).",
+   "new": "{-Because the gene lies on the minus strand, all three were located in its putative promoter region, 578–763 bp upstream of the annotated transcription start site, and they-}{+All three lay in the putative promoter region of the gene, 578–763 bp upstream of its annotated transcription start site (the gene is on the minus strand), and they+} were in linkage disequilibrium with one another (r² = 0.73–0.94).{+ <!-- R4 (Results voice review, 2026-10-01): same facts; 'Because the gene lies on the minus strand, all three were located in its putative promoter' implied that the strand caused the location; the strand only explains why upstream of the TSS means higher coordinates (TSS 573,605,728; SNPs 573,606,306-573,606,491). -->+}"
+  },
+  {
+   "where": "Results Ch. 4 ¶3",
+   "why": "'marker group', the M&M term.",
+   "old": "The haplotypes were defined by a single group of four SNPs, the three significant SNPs and a fourth",
+   "new": "The haplotypes were defined by a single {+marker +}group of four SNPs{-,-}{+:+} the three significant SNPs and a fourth"
+  },
+  {
+   "where": "Results · Fig. 4 caption",
+   "why": "Cultivars shown as genotypes; red triangles identified.",
+   "old": "**Fig. 4** Haplotype structure of the GDSL esterase/lipase *HORVU.MOREX.r3.7HG0729030*, and the haplotypes of five elite malting cultivars. **a**, **b** Grain-trait BLUPs by wild haplotype group for **a** fiber and **b** starch; violins with boxplots, group size below each. Above each panel, the Kruskal–Wallis *P* and η²; brackets, Wilcoxon comparison of the two groups (\\*\\**P* ≤ 0.01). **c** Genotypes at the same gene: one row per haplotype-group consensus, then one row per cultivar; columns are the SNPs shared by the two call sets, in genomic order",
+   "new": "**Fig. 4** Haplotype structure of the GDSL esterase/lipase *HORVU.MOREX.r3.7HG0729030*, and the {-haplotypes-}{+genotypes+} of five elite malting cultivars{+ at this gene+}. **a**, **b** Grain-trait BLUPs by wild haplotype group for **a** fiber and **b** starch; violins with boxplots, group size below each. Above each panel, the Kruskal–Wallis *P* and η²; brackets, Wilcoxon comparison of the two groups (\\*\\**P* ≤ 0.01). **c** Genotypes at the same gene: one row per haplotype-group consensus, then one row per cultivar; columns are the SNPs shared by the two call sets, in genomic order{+; red triangles, the three genome-wide significant SNPs+}"
+  }
+ ]
+}

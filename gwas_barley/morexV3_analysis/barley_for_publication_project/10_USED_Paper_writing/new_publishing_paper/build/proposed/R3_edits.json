@@ -1,0 +1,39 @@
+{
+ "notes": [
+  "**Item R3 of the Results voice review: Ch. 3** (Haplotype analysis and candidate gene resolution). The gene paragraphs follow Sariel's mini-paper pattern (statistics, then function and literature), and you asked to keep that. So the changes are small.",
+  "**¶1 not touched:** its first two sentences are Sariel's, word for word, as you approved on 27.9 (item 2.1b).",
+  "**¶2:** \"… are presented here\" describes the write-up, not the study (rules file: \"Report; do not declare what you report\"). The sentence now states the result: \"The three genes with the clearest such role were two for fiber and one for starch, and none for β-glucan.\"",
+  "**GPAT6:** the 45-word second sentence is split at its semicolon.",
+  "**PHT4;3:** an enzyme is not a step, so \"ADP-glucose pyrophosphorylase, the committed step of starch synthesis\" becomes \"…, which catalyzes the committed step…\". \"Constrains starch accumulation\" becomes \"can constrain\": in the Results it is background biology, not our finding.",
+  "**Elite paragraph (Evgeny's voice; not in the mini paper):**\n> - The method and figure-drawing clauses are removed (\"genotyped … from an independent MorexV3 call set\", \"Their genotypes were drawn beneath the wild haplotype groups\"). The M&M describes both. The paragraph now opens \"…, we compared five … cultivars … with the wild haplotype groups at the same three genes\".\n> - The hard sentence \"Like the two low-fiber groups, the cultivars carried the reference allele…\" now reads \"The cultivars, like the two low-fiber groups, carried the reference (Morex) allele at only 12–14% of these sites…\". The genes are named (*GPAT6*, *GH17*, *PHT4;3*) instead of \"the acyltransferase / glucanase / phosphate transporter\".\n> - All numbers unchanged.",
+  "**Unchanged:** ¶1, GH17, and all statistics. Your comments 317–319 stay attached.",
+  "Length: 202 → 187 words."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Results Ch. 3 ¶2",
+   "why": "'are presented here' → the result itself.",
+   "old": "The three genes with the clearest such role, two for fiber and one for starch, and none for β-glucan, are presented here (",
+   "new": "The three genes with the clearest such role{-, two-}{+ were two+} for fiber and one for starch, and none for β-glucan{-, are presented here-} ("
+  },
+  {
+   "where": "Results Ch. 3 ¶3 (GPAT6)",
+   "why": "45-word sentence split.",
+   "old": "producing *sn*-2 monoacylglycerol, the committed precursor of cutin; cutin and suberin of the pericarp and testa are recovered",
+   "new": "{-producing-}{+that produce+} *sn*-2 monoacylglycerol, the committed precursor of cutin{-; cutin-}{+. Cutin+} and suberin of the pericarp and testa are recovered"
+  },
+  {
+   "where": "Results Ch. 3 ¶5 (PHT4;3)",
+   "why": "'the committed step' is catalyzed by the enzyme; 'can constrain' (background, not our finding).",
+   "old": "Phosphate is the allosteric inhibitor of ADP-glucose pyrophosphorylase, the committed step of starch synthesis, so the rate at which phosphate crosses the plastid envelope constrains starch accumulation.",
+   "new": "Phosphate is the allosteric inhibitor of ADP-glucose pyrophosphorylase, {+which catalyzes +}the committed step of starch synthesis, so the rate at which phosphate crosses the plastid envelope {+can +}{-constrains-}{+constrain+} starch accumulation."
+  },
+  {
+   "where": "Results Ch. 3 ¶6 (elite cultivars)",
+   "why": "Method and figure-drawing clauses removed; the reference-allele sentence clarified; gene names used.",
+   "old": "To ask which of these haplotypes are present in cultivated barley, five European spring malting cultivars released between 2012 and 2018 were genotyped across the same three windows from an independent MorexV3 call set. Their genotypes were drawn beneath the wild haplotype groups (Fig. 3d–f; [TODO: ESM number. The per-gene site accounting (07_.../results/tables/Table_site_overlap.tsv, with Table_removed_sites.tsv as the site-by-site detail) becomes an Online Resource once the ESM numbering is fixed]{.comment-start id=\"306\" author=\"TODO\"}[Add a supplemtery table (?) that shows the snps that got in to the analysis - and which one removed from the elite/wild datas. Because only shared sites in two datas/VCFs were analysed.]{.comment-start id=\"319\" author=\"שחר לויתן\" date=\"2026-09-28T11:36:00Z\" parent=\"306\"}[[Online Resource 3]]{.mark}[]{.comment-end id=\"319\"}[]{.comment-end id=\"306\"}). At the acyltransferase (*GPAT6*) the five cultivars matched the two low-fiber haplotype groups closely, at 95–98% and 88–91% of called sites, and the high-fiber group at only 39–45%, so the high-fiber wild haplotype is essentially absent from these lines. Like the two low-fiber groups, the cultivars carried the reference allele at only 12–14% of these sites, against 65% in the high-fiber group. At the glucanase (*GH17*) and the phosphate transporter (*PHT4;3*), by contrast, all five cultivars carried the reference allele at every called site.",
+   "new": "To ask which of these haplotypes are present in cultivated barley, {+we compared +}five European spring malting cultivars released between 2012 and 2018 {-were genotyped across-}{+with the wild haplotype groups at+} the same three {-windows from an independent MorexV3 call set. Their genotypes were drawn beneath the wild haplotype groups-}{+genes+} (Fig. 3d–f; [TODO: ESM number. The per-gene site accounting (07_.../results/tables/Table_site_overlap.tsv, with Table_removed_sites.tsv as the site-by-site detail) becomes an Online Resource once the ESM numbering is fixed]{.comment-start id=\"306\" author=\"TODO\"}[Add a supplemtery table (?) that shows the snps that got in to the analysis - and which one removed from the elite/wild datas. Because only shared sites in two datas/VCFs were analysed.]{.comment-start id=\"319\" author=\"שחר לויתן\" date=\"2026-09-28T11:36:00Z\" parent=\"306\"}[[Online Resource 3]]{.mark}[]{.comment-end id=\"319\"}[]{.comment-end id=\"306\"}). At {-the acyltransferase (*GPAT6*)-}{+*GPAT6*,+} the five cultivars matched the two low-fiber haplotype groups{- closely, at-}{+ at+} 95–98% and 88–91% of called sites{-, and-}{+ but+} the high-fiber group at only 39–45%, so the high-fiber wild haplotype is essentially absent from these lines. {-Like the two low-fiber groups, the cultivars carried the reference allele-}{+The cultivars, like the two low-fiber groups, carried the reference (Morex) allele+} at only 12–14% of these sites, against 65% in the high-fiber group. At {-the glucanase (*GH17*) and the phosphate transporter (*PHT4;3*)-}{+*GH17* and *PHT4;3*+}, by contrast, all five cultivars carried the reference allele at every called site.{+ <!-- R3 (Results voice review, 2026-10-01): same numbers; method and figure-drawing clauses removed ('genotyped … from an independent MorexV3 call set', 'drawn beneath'; the M&M describes both); gene names instead of 'the acyltransferase / glucanase / phosphate transporter' (the short names are introduced in the three paragraphs above). -->+}"
+  }
+ ]
+}

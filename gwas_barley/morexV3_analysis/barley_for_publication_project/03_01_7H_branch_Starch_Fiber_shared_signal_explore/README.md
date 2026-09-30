@@ -5,7 +5,8 @@ Haplotype analysis of **`HORVU.MOREX.r3.7HG0729030`** — the GDSL esterase at t
 comparison and paper table set.
 
 **This is the analysis Results Chapter 4 is built on** (adopted and approved by the user
-2026-09-24), and it draws **Fig. 5** (`08_USED_creating_figures/make_figure_5.R`). It replaced
+2026-09-24), and it draws **Fig. 4** (`08_USED_creating_figures/make_figure_4.R`; Fig. 5 / `make_figure_5.R` until
+2026-09-30, when old Fig. 2 was dissolved and Figs. 3–5 became 2–4). It replaced
 the first version of this branch (MGmin = 2, ε = 0.6), under which the gene is **null**.
 
 **Folder history (2026-09-24, user decision).**
@@ -17,7 +18,7 @@ the first version of this branch (MGmin = 2, ε = 0.6), under which the gene is 
   **`archive_v1_MGmin2_eps0.6/`**. Its steps 00–04 do not depend on MGmin and **remain valid
   and cited by Ch. 4**: gene position and distances, InterPro/Swiss-Prot annotation, the local
   association profile (promoter vs gene body), signal-SNP LD, and the direct genotype split.
-  Fig. 5 reads its `signal_snps.tsv`. Only its steps 05–06 (MGmin 2 crosshap, ε sweep, figures)
+  Fig. 4 (then Fig. 5) reads its `signal_snps.tsv`. Only its steps 05–06 (MGmin 2 crosshap, ε sweep, figures)
   are superseded by this analysis.
 - **ε 0.6 outputs were removed** from this folder the same day (user): its caches, figures and
   table rows. Only the chosen ε = 0.9 is run. The comparison that chose 0.9 over 0.6 is kept in
@@ -218,8 +219,8 @@ Holm-corrected** (one comparison here, A vs B; `**` for both traits). Values in
 crosshap marker group **MG1** — the GWAS signal SNPs. Step 07 draws no marker-group
 annotation; these were added on request and are explained in the figure caption.
 
-Figures exist for **ε 0.9 only** (ε 0.6 removed 2026-09-24). The manuscript figure is **Fig. 5**,
-built from this folder by `08_USED_creating_figures/make_figure_5.R` (TAG layout; triangles
+Figures exist for **ε 0.9 only** (ε 0.6 removed 2026-09-24). The manuscript figure is **Fig. 4**
+(Fig. 5 until 2026-09-30), built from this folder by `08_USED_creating_figures/make_figure_4.R` (TAG layout; triangles
 under the three genome-wide significant SNPs only).
 
 ## 5. Layout
@@ -285,7 +286,7 @@ Everything is the project's existing method, run unmodified, **except the two pa
    corrects within trait *across genes*). The in-context BH q values are given in §3.
 **Consensus tie rule aligned with step 07 (2026-09-27, user approval).** `02_elite_comparison.R`
 and `03_violin_plus_barcode.R` still resolved every exact tie to missing, step 07's rule before
-2026-09-24. They now use step 07's current rule, as `make_figure_5.R` already did: a tie resolves to
+2026-09-24. They now use step 07's current rule, as `make_figure_5.R` (now `make_figure_4.R`) already did: a tie resolves to
 REF when REF is one of the tied states, otherwise missing. This gene has no tie (wild consensus
 cells: 46 REF, 42 ALT, 0 missing), so both scripts were re-run and all 19 tables are byte-identical.
 The method is therefore the same for Ch. 3 and Ch. 4, with nothing to separate in M&M.

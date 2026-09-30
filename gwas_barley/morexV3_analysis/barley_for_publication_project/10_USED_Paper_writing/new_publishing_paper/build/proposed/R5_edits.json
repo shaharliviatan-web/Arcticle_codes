@@ -1,0 +1,17 @@
+{
+ "notes": [
+  "**Item R5, the last item of the Results voice review: consistency.** I scanned the whole Results. Dash styles (Kruskal–Wallis, Benjamini–Hochberg), \"nutritional traits\", the G×E terms and the captions are consistent after R1–R4 and F1–F2. The Online Resource numbers (\"1\", \"3\", \"N\") are left for the supplementary session.",
+  "**One term left:** the Ch. 2 heading says \"QTLs\", its only use in the whole paper; the Results, M&M and Discussion all say \"loci\". The heading is Sariel's, from the mini paper, where the text also said \"QTLs\"."
+ ],
+ "questions": [
+  "**Ch. 2 heading:** change to \"Identification of nutritional-trait loci and candidate genes\" (proposed), or keep Sariel's \"QTLs\"? QTL is a standard term for TAG readers, so keeping it is also fine."
+ ],
+ "edits": [
+  {
+   "where": "Results Ch. 2 heading",
+   "why": "'QTLs' appears only here; the text says 'loci' throughout.",
+   "old": "## Identification of nutritional QTLs and candidate genes",
+   "new": "## Identification of {-nutritional QTLs-}{+nutritional-trait loci+} and candidate genes"
+  }
+ ]
+}

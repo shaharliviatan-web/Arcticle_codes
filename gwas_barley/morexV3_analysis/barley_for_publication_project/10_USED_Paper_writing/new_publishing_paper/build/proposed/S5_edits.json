@@ -1,0 +1,76 @@
+{
+ "notes": [
+  "**Item S5 — the new Fig. 1 and the renamed figure files** (Q1 triangle → lower triangle; Q2 A; Q3 approved). Applied together with S3 and S4.",
+  "Fig. 1 caption: a and b word for word; c reworded for the lower triangle; d and the significance line from the old Fig. 2 caption, stating that one test (raw two-sided P, no multiple-testing correction) gives all stars in c and d.",
+  "Image links and src notes follow the renamed files (Figs. 2–4 re-rendered pixel-identical). A hidden note at the top of the file records the old → new numbers."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "File top (hidden note)",
+   "why": "Record the old → new numbering once, for the hidden notes that keep the old numbers.",
+   "old": "never edit it). -->",
+   "new": "never edit it). -->{+\n\n<!-- FIGURE AND TABLE NUMBERS since 2026-09-30 (S. Hübner's structural comments; items S1-S5, log in build/REVIEW_2026-09-27_Results_Discussion.md; hand-over build/STRUCTURE_CHANGES_2026-10.md): old Fig. 1a, 1b = Fig. 1a, 1b; old Fig. 2b + 2c = Fig. 1c (one heatmap); old Fig. 2d = Fig. 1d; old Fig. 2a = the site-figure Online Resource (TODO 321); old Figs. 3, 4, 5 = Figs. 2, 3, 4; Table 1 = the variance-components Online Resource (TODO 238); Table 2 = the all-candidate-genes Online Resource (TODO 303). No tables remain in the main text. Hidden notes written before 2026-09-30 keep the OLD numbers. -->+}"
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶1 (hidden src note)",
+   "why": "Scripts renumbered.",
+   "old": "08_USED_creating_figures/make_figure_{1..5}.R (Figs 1-2: ggplot2 + patchwork; Figs 3-5: base R graphics, data.table, vcfR for Fig. 5)",
+   "new": "08_USED_creating_figures/make_figure_{1..{-5-}{+4+}}.R {+and make_figure_ESM_site_BLUPs.R +}(Fig{-s 1-2-}{+. 1 and the site-figure Online Resource+}: ggplot2 + patchwork; Figs {-3-5-}{+2-4+}: base R graphics, data.table, vcfR for Fig. {-5-}{+4; renumbered 2026-09-30, item S5+})"
+  },
+  {
+   "where": "Results Ch. 1, Fig. 1 caption",
+   "why": "New Fig. 1 (Q1, Q2 approved): title merges the two old figure titles; a, b unchanged; c reworded for the lower triangle; d and the significance line from the old Fig. 2 caption, stating one test for all stars.",
+   "old": "**Fig. 1** Genetic architecture of grain nutritional and reference traits. **a** Variance partitioning for four nutritional and four morphological traits into genetic, season + block, genotype × environment, and residual components. **b** Per-genotype reaction norms across the three seasons for the four nutritional traits; gray lines, all accessions; colored lines, four highlighted accessions per trait with values in all three seasons: the most stable, the strongest increase and the strongest decrease from 2019–20 to 2021–22, and the strongest crossover between seasons",
+   "new": "**Fig. 1** Genetic {+and ecological +}architecture of grain nutritional {-and reference -}traits. **a** Variance partitioning for four nutritional and four morphological traits into genetic, season + block, genotype × environment, and residual components. **b** Per-genotype reaction norms across the three seasons for the four nutritional traits; gray lines, all accessions; colored lines, four highlighted accessions per trait with values in all three seasons: the most stable, the strongest increase and the strongest decrease from 2019–20 to 2021–22, and the strongest crossover between seasons{+. **c** Pearson correlations of the nutritional-trait BLUPs (rows) with one another (lower triangle) and with four morphological-trait BLUPs. **d** Pearson correlations between site-mean nutritional-trait BLUPs and eight environmental variables; cells outlined in black are significant at *P* \\< 0.05. Significance (**c**, **d**), from the two-sided test of each correlation, without correction for multiple testing: \\**P* \\< 0.05, \\*\\**P* \\< 0.01, \\*\\*\\**P* \\< 0.001\n<!-- src: 08_USED_creating_figures/make_figure_1.R, rebuilt 2026-09-30 (items S0-S5, S. Hübner's comments): a, b = the former Fig. 1 unchanged; c = the former Figs. 2b + 2c as one heatmap (lower triangle, 7 columns); d = the former Fig. 2d. Layout (Q1 triangle, made a lower triangle) and caption (Q2 A) approved by the user 2026-09-30 (build/proposed/S0_QUESTIONS.md); submission file Figure_1/Fig1.tif. Stars in c and d: raw two-sided P of cor.test, thresholds 0.05 / 0.01 / 0.001, same in both blocks of c (A12_nutri_pairs_uncorrectedP.csv sig_raw; A12_nutri_morpho_pairs_localFDR.csv sig, not sig_local; n = 290) and in d (C2corr_trait_environment_all32.csv, 29 sites); checked by the script. The a and b text is the approved caption of 2026-09-27/30 word for word; c and d merge the former Fig. 2 captions -->+}"
+  },
+  {
+   "where": "Results Ch. 1, old Fig. 2 image",
+   "why": "Old Fig. 2 dissolved (a → Online Resource, b + c → Fig. 1c, d → Fig. 1d).",
+   "old": "![](../../08_USED_creating_figures/Figure_2/Fig2.png){width=\"6.85in\"}",
+   "new": "{-![](../../08_USED_creating_figures/Figure_2/Fig2.png){width=\"6.85in\"}-}"
+  },
+  {
+   "where": "Results Ch. 1, old Fig. 2 caption",
+   "why": "Removed with the figure; the former caption is kept in a hidden note.",
+   "old": "**Fig. 2** Ecological architecture of grain nutritional traits. **a** Centered trait BLUPs of the four nutritional traits across 29 sampling sites, ordered and colored by ecological region. **b** Pearson correlations among nutritional-trait BLUPs. **c** Pearson correlations between nutritional- and morphological-trait BLUPs. **d** Pearson correlations between site-mean nutritional-trait BLUPs and eight environmental variables; cells outlined in black are significant at *P* \\< 0.05. Significance (**b**–**d**): \\**P* \\< 0.05, \\*\\**P* \\< 0.01, \\*\\*\\**P* \\< 0.001",
+   "new": "{-**Fig. 2** Ecological architecture of grain nutritional traits. **a** Centered trait BLUPs of the four nutritional traits across 29 sampling sites, ordered and colored by ecological region. **b** Pearson correlations among nutritional-trait BLUPs. **c** Pearson correlations between nutritional- and morphological-trait BLUPs. **d** Pearson correlations between site-mean nutritional-trait BLUPs and eight environmental variables; cells outlined in black are significant at *P* \\< 0.05. Significance (**b**–**d**): \\**P* \\< 0.05, \\*\\**P* \\< 0.01, \\*\\*\\**P* \\< 0.001-}{+<!-- Old Fig. 2 REMOVED 2026-09-30, item S5 (S. Hübner's comments): a -> the site-figure Online Resource (08_USED_creating_figures/make_figure_ESM_site_BLUPs.R; TODO 321), b + c -> Fig. 1c, d -> Fig. 1d. Former caption: Fig. 2 Ecological architecture of grain nutritional traits. a Centered trait BLUPs of the four nutritional traits across 29 sampling sites, ordered and colored by ecological region. b Pearson correlations among nutritional-trait BLUPs. c Pearson correlations between nutritional- and morphological-trait BLUPs. d Pearson correlations between site-mean nutritional-trait BLUPs and eight environmental variables; cells outlined in black are significant at *P* \\< 0.05. Significance (b–d): \\P* \\< 0.05, \\*\\P* \\< 0.01, \\*\\*\\P* \\< 0.001 -->+}"
+  },
+  {
+   "where": "Results, image link of the old Fig. 3",
+   "why": "Renamed output: Figure_3/Fig3.png is now Figure_2/Fig2.png (pixel-identical).",
+   "old": "![](../../08_USED_creating_figures/Figure_3/Fig3.png)",
+   "new": "![](../../08_USED_creating_figures/Figure_{-3-}{+2+}/Fig{-3-}{+2+}.png)"
+  },
+  {
+   "where": "Results, image link of the old Fig. 4",
+   "why": "Renamed output: Figure_4/Fig4.png is now Figure_3/Fig3.png (pixel-identical).",
+   "old": "![](../../08_USED_creating_figures/Figure_4/Fig4.png)",
+   "new": "![](../../08_USED_creating_figures/Figure_{-4-}{+3+}/Fig{-4-}{+3+}.png)"
+  },
+  {
+   "where": "Results, image link of the old Fig. 5",
+   "why": "Renamed output: Figure_5/Fig5.png is now Figure_4/Fig4.png (pixel-identical).",
+   "old": "![](../../08_USED_creating_figures/Figure_5/Fig5.png)",
+   "new": "![](../../08_USED_creating_figures/Figure_{-5-}{+4+}/Fig{-5-}{+4+}.png)"
+  },
+  {
+   "where": "Results, hidden src note under Fig. 2",
+   "why": "Script and file renamed.",
+   "old": "08_USED_creating_figures/make_figure_3.R (approved 2026-09-22); submission file Figure_3/Fig3.tif",
+   "new": "08_USED_creating_figures/make_figure_{-3-}{+2+}.R ({+was make_figure_3.R until 2026-09-30; +}approved 2026-09-22); submission file Figure_{-3-}{+2+}/Fig{-3-}{+2+}.tif"
+  },
+  {
+   "where": "Results, hidden src note under Fig. 3",
+   "why": "Script and file renamed.",
+   "old": "08_USED_creating_figures/make_figure_4.R (approved 2026-09-23); submission file Figure_4/Fig4.tif",
+   "new": "08_USED_creating_figures/make_figure_{-4-}{+3+}.R ({+was make_figure_4.R until 2026-09-30; +}approved 2026-09-23); submission file Figure_{-4-}{+3+}/Fig{-4-}{+3+}.tif"
+  },
+  {
+   "where": "Results, hidden src note under Fig. 4",
+   "why": "Script and file renamed.",
+   "old": "08_USED_creating_figures/make_figure_5.R (approved 2026-09-24); submission file Figure_5/Fig5.tif",
+   "new": "08_USED_creating_figures/make_figure_{-5-}{+4+}.R ({+was make_figure_5.R until 2026-09-30; +}approved 2026-09-24); submission file Figure_{-5-}{+4+}/Fig{-5-}{+4+}.tif"
+  }
+ ]
+}

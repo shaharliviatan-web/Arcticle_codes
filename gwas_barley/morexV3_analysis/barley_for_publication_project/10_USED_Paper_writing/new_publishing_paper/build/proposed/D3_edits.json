@@ -1,0 +1,23 @@
+{
+ "notes": [
+  "**Item D3 of the Discussion voice review: the GDSL naming you asked for, and §5.** §4 (From associated loci to candidate genes) reads clearly and keeps Sariel's gene-by-gene pattern, so it is left as is.",
+  "**§3 ¶2, last sentence (your question):** the 7H gene is named, so the contrast with *GPAT6*, *GH17* and *PHT4;3* in the sentence before is direct. The verb becomes \"provide\", because the subject is now two things.",
+  "**§5 (point 2 of my list):** \"The five elite cultivars shared a single haplotype\" becomes \"…carried nearly identical genotypes\". The cultivars were not assigned haplotypes (M&M); this is the same fix as in the Fig. 3 and Fig. 4 captions. They are monomorphic at 42 of 43, 33 of 33 and 12 of 12 sites, hence \"nearly identical\". \"At every site\" becomes \"at every **called** site\", as in the Results.",
+  "**Checked, no change:** the double space in §4 ¶2 (\"Its associated SNPs  were\") is only where a hidden note sits; it does not appear in Word."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Discussion §3 ¶2 (last sentence)",
+   "why": "Name the 7H gene (user's question).",
+   "old": "The 7H locus, <!-- D2 (Discussion voice review, 2026-10-01): same facts; the 'although …' clause was the caveat that leads to 'therefore provides the clearest case', now stated as such. --> whose carriers and haplotypes were not concentrated in the desert, therefore provides the clearest case.",
+   "new": "The 7H locus{+ and its GDSL esterase/lipase+}, {-<!-- D2 (Discussion voice review, 2026-10-01): same facts; the 'although …' clause was the caveat that leads to 'therefore provides the clearest case', now stated as such. --> -}whose carriers and haplotypes were not concentrated in the desert, therefore {-provides-}{+provide+} the clearest case.{+ <!-- D2 (Discussion voice review, 2026-10-01): same facts; the 'although …' clause was the caveat that leads to 'therefore provides the clearest case', now stated as such. -->+}"
+  },
+  {
+   "where": "Discussion §5 (first sentences)",
+   "why": "Cultivars were not assigned haplotypes; 'called' site as in the Results.",
+   "old": "The five elite cultivars shared a single haplotype at *GPAT6*, *GH17* and *PHT4;3*, as expected in modern germplasm. At *GH17* and *PHT4;3*, the cultivars carried the reference allele at every site.",
+   "new": "The five elite cultivars {-shared a single haplotype-}{+carried nearly identical genotypes+} at *GPAT6*, *GH17* and *PHT4;3*, as expected in modern germplasm. At *GH17* and *PHT4;3*, the cultivars carried the reference allele at every {+called +}site.{+ <!-- D3 (Discussion voice review, 2026-10-01): 'shared a single haplotype' -> 'carried nearly identical genotypes': the cultivars were not assigned haplotypes (M&M, Comparison with elite cultivars; same fix as the Fig. 3 and Fig. 4 captions, items F2, R4); monomorphic at 42 of 43, 33 of 33 and 12 of 12 drawn sites (src note below). 'every called site' as in Results Ch. 3. -->+}"
+  }
+ ]
+}

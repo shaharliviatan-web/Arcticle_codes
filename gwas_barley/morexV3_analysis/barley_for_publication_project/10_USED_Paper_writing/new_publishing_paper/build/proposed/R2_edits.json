@@ -1,0 +1,53 @@
+{
+ "notes": [
+  "**Item R2 of the Results voice review: Ch. 2** (Identification of nutritional QTLs and candidate genes). ¶1, the GWAS model, is kept as is (your decision). This chapter is mostly facts in good order, so the changes are small: one paragraph split, one logic fix, and three sentences made unambiguous. Two of the changes also answer your open Word comments 312 and 313.",
+  "**¶2 split in two:** (counts per trait + the heritability contrast) | (strongest peaks, distribution on the chromosomes, locus size). It was one 220-word paragraph.",
+  "**4H cluster (your comment 312, \"how to report this signal? As 1? Or 2?\"):** report it as the locus definition produced it, two loci. That matches the count of 11 β-glucan loci, Fig. 2 and Online Resource 1. The text says in eight words why one cluster became two: \"which the 50-kb gap rule split into two adjacent loci\" (the gap between the two loci is 60.5 kb).",
+  "**1H fiber loci (your comment 313, \"seems in the GWAS like 2 signals and reported as 6\"):** likewise keep 6, and add where they sit: \"five of them in two clusters (329.7–330.7 Mb and 440.0–440.6 Mb)\". The reader then sees the two signals without the count changing.",
+  "**¶3 logic:** \"The direction of the allelic effects was consistent within traits\" was followed by the two protein loci having opposite effects. It now says it for β-glucan, fiber and starch.",
+  "**¶4:** the 1H sentence (\"a third fiber locus 532 kb upstream of the nearer one\") and the β-glucan sentence (\"the nearest one was located 6.0 Mb away\") now name what they refer to. Same numbers.",
+  "**Unchanged:** ¶1 and ¶5, all numbers, and your comments (309, 311–316 stay attached; resolve them in Word when you like).",
+  "Length: +16 words (clarity, not length)."
+ ],
+ "questions": [
+  "**Comments 312 and 313:** are the two proposed wordings (\"which the 50-kb gap rule split into two adjacent loci\"; \"five of them in two clusters …\") the way you want to report these signals? If yes, I suggest you resolve comments 309, 311–313 in Word afterwards."
+ ],
+ "edits": [
+  {
+   "where": "Results Ch. 2 ¶2 (split)",
+   "why": "One 220-word paragraph → counts/heritability | peaks, distribution and size.",
+   "old": "yielded more than three times as many. The strongest association in the study was a β-glucan peak on chromosome 2H",
+   "new": "yielded more than three times as many.{- -}{+ <!-- R2 (Results voice review, 2026-10-01): paragraph split here (counts and heritability | peaks, distribution and size). -->\n\n+}The strongest association in the study was a β-glucan peak on chromosome 2H"
+  },
+  {
+   "where": "Results Ch. 2 ¶2 (4H cluster; comment 312)",
+   "why": "The placeholder becomes the answer: reported as two loci, with the reason in eight words.",
+   "old": "[[which resolved into two adjacent loci]]{.mark}[]{.comment-end id=\"312\"}",
+   "new": "[{-[which resolved into two adjacent loci]-}{+which the 50-kb gap rule split into two adjacent loci+}]{.mark}[]{.comment-end id=\"312\"}"
+  },
+  {
+   "where": "Results Ch. 2 ¶2 (1H fiber loci; comment 313)",
+   "why": "Six loci kept; where they cluster added.",
+   "old": "Fiber loci were concentrated on chromosome 1H, which carried six of the 18 fiber loci.",
+   "new": "Fiber loci were concentrated on chromosome 1H, which carried six of the 18 fiber loci{+, five of them in two clusters (329.7–330.7 Mb and 440.0–440.6 Mb)+}.{+ <!-- R2 (2026-10-01): answers comments 312/313 (user: 'how to report it?'): the loci are reported as the locus definition produced them (two at 4H, six fiber loci on 1H; same counts as Online Resource 1 and Fig. 2), and the text says where adjacent loci form one cluster. 4H: betaglucan_L05 34,821,945-34,861,659 and betaglucan_L06 34,922,173-35,062,236, gap 60.5 kb > 50 kb. 1H fiber: L01 329,707,484 (lead only), L02 330,239,605-330,241,897, L03 330,621,329-330,726,559 (329.7-330.7 Mb, with starch_L01 between L02 and L03); L04 344,504,256-344,548,982 alone; L05 439,922,568-440,032,977 and L06 440,470,102-440,573,586 (440.0-440.6 Mb). Table_loci_master.tsv. -->+}"
+  },
+  {
+   "where": "Results Ch. 2 ¶3 (allelic direction)",
+   "why": "'Consistent within traits' contradicted the protein sentence that follows.",
+   "old": "The direction of the allelic effects was consistent within traits. At every β-glucan and fiber locus",
+   "new": "{-The direction of the allelic effects was consistent within traits.-}{+For β-glucan, fiber and starch, the direction of the allelic effects was consistent across loci.+} At every β-glucan and fiber locus"
+  },
+  {
+   "where": "Results Ch. 2 ¶4 (1H region)",
+   "why": "'upstream of the nearer one' was ambiguous.",
+   "old": "On chromosome 1H, four loci fell within 1.02 Mb (329.7–330.7 Mb): a starch locus nested between two fiber loci 121 kb and 58 kb away on either side, with a third fiber locus 532 kb upstream of the nearer one.",
+   "new": "On chromosome 1H, four loci fell within 1.02 Mb (329.7–330.7 Mb): a starch locus {-nested between-}{+flanked by+} two fiber loci{+,+} 121 kb and 58 kb away{- on either side, with-}{+, and+} a third fiber locus {-532 kb upstream of the nearer one-}{+a further 532 kb beyond the first of them+}.{+ <!-- R2 (2026-10-01): same facts; 'upstream of the nearer one' was ambiguous: fiber_L01 (329,707,484) lies 532 kb before fiber_L02 (starts 330,239,605), the fiber locus 121 kb from the starch locus. -->+}"
+  },
+  {
+   "where": "Results Ch. 2 ¶4 (β-glucan)",
+   "why": "'the nearest one' named.",
+   "old": "In contrast, none of the β-glucan loci overlapped or neighbored a locus of another trait, and the nearest one was located 6.0 Mb away, on chromosome 3H, although β-glucan was phenotypically correlated with both starch and fiber (Fig. 1c).",
+   "new": "In contrast, none of the β-glucan loci overlapped or neighbored a locus of another trait{-, and the nearest one was located 6.0 Mb away, on chromosome 3H,-}{+ (the closest, on chromosome 3H, lay 6.0 Mb away),+} although β-glucan was phenotypically correlated with both starch and fiber (Fig. 1c)."
+  }
+ ]
+}

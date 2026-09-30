@@ -1,0 +1,88 @@
+{
+ "notes": [
+  "**Item S1 — Table 1 leaves the main text** (S. Hübner: \"make this a full table with all variation components and put it in the supplementaries\"; decided with you).",
+  "The new Online Resource `supplementary/tables/ESM_variance_components.xlsx` gives, for the 8 traits, the variance and % of the total for V_G, V_E, V_G×E and V_R, the total variance and H². Its script checks every % against Fig. 1a and every H² against Table 1 (all equal; tillers \"< 0.001\").",
+  "The text keeps its H² values; only \"Table 1\" becomes \"Online Resource N\", with a TODO each (238, 320, 322). No Discussion passage cites Table 1."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "M&M · Phenotypic data analysis ¶3",
+   "why": "Cite the Online Resource instead of Table 1 (reference only; figure first, as elsewhere in the file).",
+   "old": "spike length (Table 1, Fig. 1a).",
+   "new": "spike length ({-Table 1, -}Fig. 1a{+; [TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md): the variance components and H² of the eight traits (variance and % of the total for V_G, V_E, V_GxE and V_R, total variance, H²), which replaces Table 1 of the main text (S. Hübner's comment, 2026-09-30). Built by supplementary/scripts/make_ESM_variance_components.py -> supplementary/tables/ESM_variance_components.xlsx, from 00_THIN_Generate_Plots_For_Publication/outputs/subsection_1/tables/Variance_components_GxE.csv and H2_GxE.csv. Also cited in the Results (TODOs 320, 322)]{.comment-start id=\"238\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"238\"}+})."
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶3 (hidden src note)",
+   "why": "Keep the source note true.",
+   "old": "outputs H2_GxE.csv (Table 1) and Variance_components_GxE.csv (Fig. 1a).",
+   "new": "outputs H2_GxE.csv ({-Table 1-}{+former Table 1; both now in the variance-components Online Resource, TODO 238 (item S1, 2026-09-30)+}) and Variance_components_GxE.csv (Fig. 1a)."
+  },
+  {
+   "where": "Results Ch. 1 ¶1",
+   "why": "Table 1 → Online Resource.",
+   "old": "starch had the highest broad-sense heritability (H² = 0.474; Table 1)",
+   "new": "starch had the highest broad-sense heritability (H² = 0.474; {-Table 1-}{+[TODO: ESM number: the variance-components Online Resource (same as M&M TODO 238 and Results TODO 322), which replaces Table 1 (S. Hübner's comment, 2026-09-30). Source: supplementary/tables/ESM_variance_components.xlsx]{.comment-start id=\"320\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"320\"}+})"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 1 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  -----------------------------------------------\n  **Trait**                    **H²**\n  ---------------------------- ------------------\n  *Starch*                     0.474",
+   "new": "{-  -----------------------------------------------\n  **Trait**                    **H²**\n  ---------------------------- ------------------\n  *Starch*                     0.474-}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 2 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  *Fiber*                      0.248",
+   "new": "{-  *Fiber*                      0.248-}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 3 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  *Protein*                    0.242",
+   "new": "{-  *Protein*                    0.242-}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 4 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  *β-glucan*                   0.234",
+   "new": "{-  *β-glucan*                   0.234-}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 5 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  *Flowering time*             0.747",
+   "new": "{-  *Flowering time*             0.747-}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 6 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  *Spike length*               0.344",
+   "new": "{-  *Spike length*               0.344-}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 7 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  *Grain weight*               0.223",
+   "new": "{-  *Grain weight*               0.223-}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 body (block 8 of 8)",
+   "why": "Table 1 removed from the main text.",
+   "old": "  *Tillers*                    \\< 0.001\n  -----------------------------------------------",
+   "new": "{-  *Tillers*                    \\< 0.001\n  ------------------------------------------------}"
+  },
+  {
+   "where": "Results Ch. 1, Table 1 caption",
+   "why": "Caption removed with the table; the hidden note stays, with the removal and the former caption recorded.",
+   "old": "**Table 1** Broad-sense heritability (H²) of grain nutritional and morphological traits, estimated from the genotype × environment model as the genetic fraction of total phenotypic variance, for the four nutritional and four morphological traits, ordered by decreasing H².\n<!-- Tillers H² corrected 2026-09-28",
+   "new": "{-**Table 1** Broad-sense heritability (H²) of grain nutritional and morphological traits, estimated from the genotype × environment model as the genetic fraction of total phenotypic variance, for the four nutritional and four morphological traits, ordered by decreasing H².\n-}<!-- {+Table 1 (H² of the eight traits) REMOVED from the main text 2026-09-30, item S1 (S. Hübner: 'make this a full table with all variation components and put it in the supplementaries'; user decision: no tables in the main text). Its values are in the variance-components Online Resource (TODO 238; supplementary/scripts/make_ESM_variance_components.py checks every H² against the former Table 1, tillers written '< 0.001'). Former caption: 'Table 1 Broad-sense heritability (H²) of grain nutritional and morphological traits, estimated from the genotype × environment model as the genetic fraction of total phenotypic variance, for the four nutritional and four morphological traits, ordered by decreasing H²'. Note kept for the record: +}Tillers H² corrected 2026-09-28"
+  },
+  {
+   "where": "Results Ch. 2 ¶2",
+   "why": "Table 1 → Online Resource.",
+   "old": "starch, the most heritable nutritional trait (H² = 0.474; Table 1), yielded",
+   "new": "starch, the most heritable nutritional trait (H² = 0.474; {-Table 1-}{+[TODO: ESM number: the variance-components Online Resource (same as TODOs 238 and 320), which replaces Table 1]{.comment-start id=\"322\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"322\"}+}), yielded"
+  }
+ ]
+}

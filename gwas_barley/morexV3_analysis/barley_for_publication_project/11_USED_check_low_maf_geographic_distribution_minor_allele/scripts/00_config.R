@@ -50,9 +50,9 @@ GENES <- tibble::tribble(
 GENE_TAG <- c("3H:544084309" = "GPAT6", "5H:462564771" = "GH17", "3H:546433616" = "PHT4;3",
               "7H:573606306" = "GDSL", "7H:573606460" = "GDSL")
 
-# ---- Figure style (as 08_USED_creating_figures/make_figure_4.R and _5.R) -------------------
+# ---- Figure style (as 08_USED_creating_figures/make_figure_3.R and _4.R; they were make_figure_4.R and _5.R, Figs. 4-5, until 2026-09-30) ----
 FONT <- "Liberation Sans"                       # Arial-metric; Arial is not installed
-PT   <- 9                                       # lettering size on the page (TAG: 8–12 pt); 9 pt as Figs. 4–5 (2026-09-30, was 8)
+PT   <- 9                                       # lettering size on the page (TAG: 8–12 pt); 9 pt as Figs. 3–4, then numbered 4–5 (2026-09-30, was 8)
 DPI  <- 600; W_MM <- 174; H_MAX <- 234
 PAL_REGION <- c("#2166AC", "#1B7837", "#B2182B", "#67A9CF", "#762A83", "#E08214")  # Ch. 1 palette
 REGION_TXT <- c("white", "white", "white", "#1A1A1A", "white", "#1A1A1A")

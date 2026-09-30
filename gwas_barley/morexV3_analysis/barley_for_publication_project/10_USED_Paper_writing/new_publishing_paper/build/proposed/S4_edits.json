@@ -1,0 +1,93 @@
+{
+ "notes": [
+  "**Item S4 — references to the old Fig. 2** (S. Hübner: 2a to the supplement; 2b + 2c one heatmap; 2d joins Fig. 1). References only; applied together with S3 and S5.",
+  "Two Discussion passages cited the whole old \"Fig. 2\". Each now cites the panels that carry what the sentence says, plus the site-figure Online Resource where the sentence rests on the regional pattern (new TODOs 421, 422)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "M&M · Phenotypic data analysis ¶4 (trait correlations)",
+   "why": "Old 2b and 2c are one panel now, so one reference at the end of the sentence (references only; M&M wording otherwise unchanged).",
+   "old": "among the four nutritional traits (Fig. 2b) and between the nutritional traits and flowering time, plant height, grain weight and grain number (Fig. 2c).",
+   "new": "among the four nutritional traits{- (Fig. 2b)-} and between the nutritional traits and flowering time, plant height, grain weight and grain number (Fig. {-2c-}{+1c+})."
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶4 (hidden src note)",
+   "why": "Keep the source note true.",
+   "old": "Fig. 2b from A12_nutri_pairs_uncorrectedP.csv, Fig. 2c from A12_nutri_morpho_pairs_localFDR.csv using its raw-P column `sig` (08_USED_creating_figures/make_figure_2.R, header). Stars are raw P;",
+   "new": "{-Fig. 2b-}{+Fig. 1c (the former Figs. 2b and 2c, merged 2026-09-30, item S4): nutritional block+} from A12_nutri_pairs_uncorrectedP.csv, {-Fig. 2c-}{+morphological block+} from A12_nutri_morpho_pairs_localFDR.csv using its raw-P column `sig` (08_USED_creating_figures/make_figure_{-2-}{+1+}.R, header{+; both star columns = raw two-sided P, same thresholds, checked by the script+}). Stars are raw P;"
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶5",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "by two-sided Pearson correlation (Fig. 2d),",
+   "new": "by two-sided Pearson correlation (Fig. {-2d-}{+1d+}),"
+  },
+  {
+   "where": "M&M · Phenotypic data analysis ¶5 (hidden src note)",
+   "why": "Keep the source note true.",
+   "old": "Fig. 2d from C2corr_trait_environment_all32.csv",
+   "new": "Fig. {-2d-}{+1d (former Fig. 2d)+} from C2corr_trait_environment_all32.csv"
+  },
+  {
+   "where": "Results Ch. 1 ¶2 (1/4)",
+   "why": "Old Fig. 2a is now an Online Resource (new TODO 321).",
+   "old": "ordered by ecological region (Fig. 2a).",
+   "new": "ordered by ecological region ({-Fig. 2a-}{+[TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md): the site figure, former Fig. 2a (centered trait BLUPs of the four nutritional traits across the 29 sampling sites, ordered and colored by ecological region), moved to the Online Resources on S. Hübner's comment (2026-09-30). PDF: 08_USED_creating_figures/Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf (make_figure_ESM_site_BLUPs.R); caption draft in supplementary/supplementary.md. Also cited in the Discussion (TODOs 421, 422). Could be merged with the sampling-site Online Resource (TODO 218)]{.comment-start id=\"321\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"321\"}+})."
+  },
+  {
+   "where": "Results Ch. 1 ¶2 (2/4)",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "(r = −0.78; Fig. 2b)",
+   "new": "(r = −0.78; Fig. {-2b-}{+1c+})"
+  },
+  {
+   "where": "Results Ch. 1 ¶2 (3/4)",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "resource allocation and phenology (Fig. 2c).",
+   "new": "resource allocation and phenology (Fig. {-2c-}{+1c+})."
+  },
+  {
+   "where": "Results Ch. 1 ¶2 (4/4)",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "correlated with eight environmental variables (Fig. 2d).",
+   "new": "correlated with eight environmental variables (Fig. {-2d-}{+1d+})."
+  },
+  {
+   "where": "Results Ch. 2 ¶4",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "correlated with both starch and fiber (Fig. 2b).",
+   "new": "correlated with both starch and fiber (Fig. {-2b-}{+1c+})."
+  },
+  {
+   "where": "Results Ch. 4 ¶3",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "correlation between fiber and starch (Fig. 2b).",
+   "new": "correlation between fiber and starch (Fig. {-2b-}{+1c+})."
+  },
+  {
+   "where": "Discussion §1 ¶1",
+   "why": "\"(Fig. 2)\" named the whole old figure: the regional contrast was old 2a (now an Online Resource, new TODO 421), soil texture and precipitation old 2d (now Fig. 1d).",
+   "old": "precipitation at the sites of origin (Fig. 2),",
+   "new": "precipitation at the sites of origin (Fig. {-2-}{+1d; [TODO: ESM number: the site figure, former Fig. 2a (same as Results TODO 321), cited here for the regional contrast; Fig. 1d shows the soil and precipitation correlations]{.comment-start id=\"421\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"421\"}+}),"
+  },
+  {
+   "where": "Discussion §2 ¶1",
+   "why": "\"(Fig. 2)\" named the whole old figure: the trade-off across genotypes was old 2b (now Fig. 1c), the gradient old 2a and 2d (now an Online Resource, new TODO 422, and Fig. 1d).",
+   "old": "along the north-to-desert gradient (Fig. 2),",
+   "new": "along the north-to-desert gradient (Fig. {-2-}{+1c, d; [TODO: ESM number: the site figure, former Fig. 2a (same as Results TODO 321), cited here for the north-to-desert gradient; Fig. 1c shows the trade-off across genotypes]{.comment-start id=\"422\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"422\"}+}),"
+  },
+  {
+   "where": "Discussion §2 ¶3 (1/2)",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "negatively with grain weight (Fig. 2c, d).",
+   "new": "negatively with grain weight (Fig. {-2c, d-}{+1c, d+})."
+  },
+  {
+   "where": "Discussion §2 ¶3 (2/2)",
+   "why": "Old Fig. 2 is dissolved: 2b and 2c are now the one heatmap Fig. 1c, 2d is Fig. 1d, 2a is an Online Resource.",
+   "old": "not correlated with grain protein (Fig. 2d).",
+   "new": "not correlated with grain protein (Fig. {-2d-}{+1d+})."
+  }
+ ]
+}

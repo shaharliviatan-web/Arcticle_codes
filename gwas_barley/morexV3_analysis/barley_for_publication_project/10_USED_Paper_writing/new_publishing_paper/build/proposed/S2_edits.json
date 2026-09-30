@@ -1,0 +1,70 @@
+{
+ "notes": [
+  "**Item S2 — Table 2 leaves the main text** (S. Hübner: \"put all genes in one supmat\"; decided with you: no tables in the main text).",
+  "One Online Resource, `supplementary/tables/ESM_candidate_genes.xlsx`, now holds all 55 genes (one row each, nothing filtered). It replaces Table 2, the 23-gene annotation table (\"Online Resource 2\") and the planned 55-gene table. Its script checks that the three carried-forward genes reproduce Table 2 cell by cell (they do; also checked against the transposed block in this file).",
+  "Text unchanged except \"Table 2\" → \"Online Resource N\" (four places in Ch. 3, new TODOs 323-325; TODO 303 rewritten) and the M&M TODOs 222, 224, 227. No M&M or Discussion passage cited Table 2. \"Fig. 4a-c\" stays for now; it becomes \"Fig. 3a-c\" in the renumbering item."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Results Ch. 3 ¶2",
+   "why": "Table 2 and the 23-gene Online Resource are now one Online Resource; TODO 303 says so. Your comment 318 stays.",
+   "old": "are presented here (Table 2; [TODO: ESM number. The 23 significant genes with their haplotype statistics and their three-source annotation (05_.../08_USED_annotation_master/results/tables/Table_significant_genes_paper.tsv) become an Online Resource once the ESM numbering is fixed]{.comment-start id=\"303\" author=\"TODO\"}[Add supplementary table]{.comment-start id=\"318\" author=\"שחר לויתן\" date=\"2026-09-28T11:29:00Z\" parent=\"303\"}[[Online Resource 2]]{.mark}",
+   "new": "are presented here ({-Table 2; -}[TODO: ESM number{-. The 23 significant genes with their haplotype statistics and their three-source annotation (05_.../08_USED_annotation_master/results/tables/Table_significant_genes_paper.tsv) become an Online Resource once the ESM numbering is fixed-}{+, fixed when the Online Resources are numbered (supplementary/supplementary.md): the all-candidate-genes Online Resource (supplementary/tables/ESM_candidate_genes.xlsx, built by supplementary/scripts/make_ESM_candidate_genes.py): all 55 candidate genes, one row per gene - trait, locus, lead SNP, gene position, distance to the lead SNP, SNPs in the window, testable or not and why, accessions grouped, haplotype groups, Kruskal-Wallis P, BH q, eta-squared, SD difference, significant, the annotation call of each source with the best Swiss-Prot hit (identity / coverage), and carried forward. Since 2026-09-30 (S. Hübner: \"put all genes in one supmat\"; no tables in the main text) this one Online Resource replaces Table 2, the table of the 23 annotated significant genes (formerly \"Online Resource 2\") and the 55-gene table; its script checks the three carried-forward genes against the former Table 2 cell by cell. Also cited in the M&M (TODOs 222, 224, 227) and in Results Ch. 3 (TODOs 323-325)+}]{.comment-start id=\"303\" author=\"TODO\"}[Add supplementary table]{.comment-start id=\"318\" author=\"שחר לויתן\" date=\"2026-09-28T11:29:00Z\" parent=\"303\"}[[Online Resource {-2-}{+N+}]]{.mark}"
+  },
+  {
+   "where": "Results Ch. 3, Table 2 (caption)",
+   "why": "Table 2 removed from the main text.",
+   "old": "**Table 2** The three candidate genes carried forward from the haplotype analysis: the association signal they lie in and the result of their haplotype analysis",
+   "new": "{-**Table 2** The three candidate genes carried forward from the haplotype analysis: the association signal they lie in and the result of their haplotype analysis-}"
+  },
+  {
+   "where": "Results Ch. 3, Table 2 (table)",
+   "why": "Table 2 removed from the main text.",
+   "old": "| **Gene**                    | ***GPAT6***     | ***GH17***      | ***PHT4;3***    |\n|---------------------------|---------------|---------------|---------------|\n| Gene ID^a^                  | *3HG0301300*    | *5HG0487060*    | *3HG0301710*    |\n| Trait                       | Fiber           | Fiber           | Starch          |\n| Chromosome                  | 3H              | 5H              | 3H              |\n| Gene position (Mb)          | 545.000–545.005 | 462.727–462.731 | 546.474–546.478 |\n| Lead SNP (Mb)               | 544.084         | 462.565         | 546.434         |\n| Distance to lead SNP        | 916 kb          | 162 kb          | 40 kb           |\n| Accessions grouped (groups) | 123 (3)         | 107 (5)         | 205 (4)         |\n| *q*                         | 5.3 × 10⁻⁶      | 7.5 × 10⁻⁵      | 3.8 × 10⁻⁴      |\n| η²                          | 0.208           | 0.222           | 0.078           |\n| Difference (SD)^b^          | 1.51            | 1.41            | 1.31            |\n| Identity / coverage (%)^c^  | 69.3 / 97.8     | 62.7 / 90.9     | 84.2 / 99.8     |",
+   "new": "{-| **Gene**                    | ***GPAT6***     | ***GH17***      | ***PHT4;3***    |\n|---------------------------|---------------|---------------|---------------|\n| Gene ID^a^                  | *3HG0301300*    | *5HG0487060*    | *3HG0301710*    |\n| Trait                       | Fiber           | Fiber           | Starch          |\n| Chromosome                  | 3H              | 5H              | 3H              |\n| Gene position (Mb)          | 545.000–545.005 | 462.727–462.731 | 546.474–546.478 |\n| Lead SNP (Mb)               | 544.084         | 462.565         | 546.434         |\n| Distance to lead SNP        | 916 kb          | 162 kb          | 40 kb           |\n| Accessions grouped (groups) | 123 (3)         | 107 (5)         | 205 (4)         |\n| *q*                         | 5.3 × 10⁻⁶      | 7.5 × 10⁻⁵      | 3.8 × 10⁻⁴      |\n| η²                          | 0.208           | 0.222           | 0.078           |\n| Difference (SD)^b^          | 1.51            | 1.41            | 1.31            |\n| Identity / coverage (%)^c^  | 69.3 / 97.8     | 62.7 / 90.9     | 84.2 / 99.8     |-}"
+  },
+  {
+   "where": "Results Ch. 3, Table 2 footnotes",
+   "why": "Footnotes removed with the table; the hidden source note stays, with the removal recorded.",
+   "old": "^a^ MorexV3 gene IDs, prefix HORVU.MOREX.r3. ^b^ Difference between the highest and the lowest haplotype group, in phenotypic standard deviations. ^c^ Best UniProt Swiss-Prot match\n<!-- src Table 2: generated by",
+   "new": "{-^a^ MorexV3 gene IDs, prefix HORVU.MOREX.r3. ^b^ Difference between the highest and the lowest haplotype group, in phenotypic standard deviations. ^c^ Best UniProt Swiss-Prot match\n-}<!-- {+Table 2 REMOVED from the main text 2026-09-30, item S2 (S. Hübner: 'put all genes in one supmat'; user decision: no tables in the main text). Its rows are in the all-candidate-genes Online Resource (TODO 303; supplementary/scripts/make_ESM_candidate_genes.py checks every cell of the three genes against 06_.../Table_2_genes_carried_forward.tsv, and they also matched the transposed manuscript block cell by cell, checked 2026-09-30). Former footnotes: a MorexV3 gene IDs, prefix HORVU.MOREX.r3.; b difference between the highest and the lowest haplotype group, in phenotypic standard deviations; c best UniProt Swiss-Prot match. Note kept for the record: +}src Table 2: generated by"
+  },
+  {
+   "where": "Results Ch. 3 ¶3 (GPAT6)",
+   "why": "Table 2 → Online Resource (the figure number changes later, with the renumbering item).",
+   "old": "(*q* = 5.3 × 10⁻⁶, η² = 0.208; Table 2; Fig. 4a)",
+   "new": "(*q* = 5.3 × 10⁻⁶, η² = 0.208; {-Table 2-}{+[TODO: ESM number: the all-candidate-genes Online Resource (same as TODO 303), which replaces Table 2]{.comment-start id=\"323\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"323\"}+}; Fig. 4a)"
+  },
+  {
+   "where": "Results Ch. 3 ¶4 (GH17)",
+   "why": "Table 2 → Online Resource (the figure number changes later, with the renumbering item).",
+   "old": "(*q* = 7.5 × 10⁻⁵, η² = 0.222; Table 2; Fig. 4b)",
+   "new": "(*q* = 7.5 × 10⁻⁵, η² = 0.222; {-Table 2-}{+[TODO: ESM number: the all-candidate-genes Online Resource (same as TODO 303), which replaces Table 2]{.comment-start id=\"324\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"324\"}+}; Fig. 4b)"
+  },
+  {
+   "where": "Results Ch. 3 ¶5 (PHT4;3)",
+   "why": "Table 2 → Online Resource (the figure number changes later, with the renumbering item).",
+   "old": "(*q* = 3.8 × 10⁻⁴, η² = 0.078; Table 2; Fig. 4c)",
+   "new": "(*q* = 3.8 × 10⁻⁴, η² = 0.078; {-Table 2-}{+[TODO: ESM number: the all-candidate-genes Online Resource (same as TODO 303), which replaces Table 2]{.comment-start id=\"325\" author=\"TODO\"}[[Online Resource N]]{.mark}[]{.comment-end id=\"325\"}+}; Fig. 4c)"
+  },
+  {
+   "where": "M&M · Loci and candidate genes ¶2 (TODO 222)",
+   "why": "Same Online Resource, now the all-genes table.",
+   "old": "[TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md): the 55 candidate genes with their locus, whether they could be tested, the reason if not, the number of SNPs, and the Kruskal-Wallis, q and eta-squared values. Sources: 03_USED_candidate_genes_around_leading_snps/results/tables/candidate_genes.tsv + 04_USED_haplotype_analysis_crosshap/04_runs/loci_LDspan_eps06_V4/Stats/gene_results.tsv and genes_not_tested.tsv]",
+   "new": "[TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md): {-the 55 candidate genes with their locus, whether they could be tested, the reason if not, the number of SNPs, and the Kruskal-Wallis, q and eta-squared values-}{+the all-candidate-genes Online Resource (supplementary/tables/ESM_candidate_genes.xlsx, built by supplementary/scripts/make_ESM_candidate_genes.py): all 55 candidate genes, one row per gene - trait, locus, lead SNP, gene position, distance to the lead SNP, SNPs in the window, testable or not and why, accessions grouped, haplotype groups, Kruskal-Wallis P, BH q, eta-squared, SD difference, significant, the annotation call of each source with the best Swiss-Prot hit (identity / coverage), and carried forward. One Online Resource since 2026-09-30 (S. Hübner): it also replaces Table 2 and the 23-gene annotation table (TODO 227; Results TODOs 303, 323-325)+}. Sources: 03_USED_candidate_genes_around_leading_snps/results/tables/candidate_genes.tsv + 04_USED_haplotype_analysis_crosshap/04_runs/loci_LDspan_eps06_V4/Stats/gene_results.tsv and genes_not_tested.tsv{+ + the step-05 annotation tables and 06_.../Table_2_genes_carried_forward.tsv+}]"
+  },
+  {
+   "where": "M&M · Haplotype analysis ¶3 (TODO 224)",
+   "why": "Name of the merged Online Resource.",
+   "old": "[TODO: ESM number: the 55-gene table, the same Online Resource as TODO 222 (section 6)]",
+   "new": "[TODO: ESM number: the {-55-gene table-}{+all-candidate-genes table (all 55 genes, with the reason each untestable gene could not be tested)+}, the same Online Resource as TODO 222 (section 6)]"
+  },
+  {
+   "where": "M&M · Functional annotation ¶1 (TODO 227)",
+   "why": "The 23-gene table is merged into the all-genes Online Resource.",
+   "old": "[TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md): the 23 significant genes with their haplotype statistics and the call of each annotation source, the same Online Resource the Results cite as Online Resource 2 (TODO 303). Source: 05_USED_gene_annotation_analysis/08_USED_annotation_master/results/tables/Table_significant_genes_paper.tsv]",
+   "new": "[TODO: ESM number, fixed when the Online Resources are numbered (supplementary/supplementary.md): {-the 23 significant genes with their haplotype statistics and the call of each annotation source, the same Online Resource the Results cite as Online Resource 2 (TODO 303)-}{+the all-candidate-genes Online Resource, the same as TODOs 222 and 224 and Results TODO 303 (formerly \"Online Resource 2\"): its annotation columns give, for the 23 significant genes, the call of each source and the best Swiss-Prot hit+}. Source{+s+}: 05_USED_gene_annotation_analysis/08_USED_annotation_master/results/tables/Table_significant_genes_paper.tsv{+ and Table_significant_genes_annotated.tsv; built by supplementary/scripts/make_ESM_candidate_genes.py+}]"
+  }
+ ]
+}

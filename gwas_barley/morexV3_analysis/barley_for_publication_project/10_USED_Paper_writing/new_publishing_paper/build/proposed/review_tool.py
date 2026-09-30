@@ -20,12 +20,14 @@ readable() now parses every comment span instead of assuming one TODO comment pe
 2026-09-30 (user decision): the working file is new_publishing_paper/Methods_Results_Discussion_Conclusions.md, the
 Materials and methods merged with the Results, Discussion and Conclusions; build/UPDATED_Results_Discussion_Conclusions.md
 is superseded. `apply` also regenerates the reading copy (Methods_Results_Discussion_Conclusions_reading_copy.md).
+2026-10-01 (user decision): the title, Key message, Abstract, Keywords and Introduction were added to the working file (item AB1),
+and the file was renamed after the title (WORK / READING_COPY below).
 """
 import json, re, sys, pathlib
 
 HERE = pathlib.Path(__file__).resolve().parent
-WORK = HERE.parent.parent / "Methods_Results_Discussion_Conclusions.md"   # since 2026-09-30 (M&M + R + D + C); was build/UPDATED_Results_Discussion_Conclusions.md (2026-09-28 to 2026-09-30), now superseded
-READING_COPY = HERE.parent.parent / "Methods_Results_Discussion_Conclusions_reading_copy.md"
+WORK = HERE.parent.parent / "Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md"  # renamed 2026-10-01 (user: the file is named after the title); was "Methods_Results_Discussion_Conclusions.md"   # since 2026-09-30 (M&M + R + D + C); was build/UPDATED_Results_Discussion_Conclusions.md (2026-09-28 to 2026-09-30), now superseded
+READING_COPY = HERE.parent.parent / "Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley_reading_copy.md"
 MAKE_COPY = HERE.parent / "make_reading_copy.py"
 DEL = '<del style="color:#c0392b;background:#fdecea">{}</del>'
 INS = '<ins style="color:#1e8449;background:#e9f7ef;text-decoration:none">{}</ins>'
@@ -112,6 +114,13 @@ def preview(item):
         par = next(p for p in paras if e["old"] in p)
         shown = readable(par.replace(e["old"], render(e["new"])))
         after = readable(par.replace(e["old"], clean(e["new"]))) or "*(paragraph removed; nothing is left of it in Word)*"
+        # a change that only adds new text (no deletions) is shown once: the marked and the clean
+        # version would be identical apart from the green colour (user, 2026-10-01, item AB1)
+        pure_insert = "{-" not in e["new"] and e["new"].startswith("{+") and e["new"].endswith(e["old"])
+        if pure_insert:
+            out += [f"## Change {i} of {len(edits)} · {e['where']}", "", f"*Why:* {e['why']}", "",
+                    "**New text (all of it is added; shown once):**", "", "> " + after, "", "---", ""]
+            continue
         out += [f"## Change {i} of {len(edits)} · {e['where']}", "", f"*Why:* {e['why']}", "",
                 "**With the changes marked:**", "", shown, "",
                 "**Reads after approval:**", "", "> " + after, "", "---", ""]
