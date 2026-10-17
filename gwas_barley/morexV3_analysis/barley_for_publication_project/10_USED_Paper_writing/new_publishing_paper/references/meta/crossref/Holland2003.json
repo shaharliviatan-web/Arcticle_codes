@@ -1,0 +1,2744 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T18:00:45Z",
+   "timestamp": 1790791245690,
+   "version": "4.1.0"
+  },
+  "edition-number": "1",
+  "reference-count": 74,
+  "publisher": "Wiley",
+  "isbn-type": [
+   {
+    "value": "9780471215417",
+    "type": "print"
+   },
+   {
+    "value": "9780470650202",
+    "type": "electronic"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2002,
+     10,
+     30
+    ]
+   ]
+  },
+  "DOI": "10.1002/9780470650202.ch2",
+  "type": "other",
+  "created": {
+   "date-parts": [
+    [
+     2011,
+     1,
+     14
+    ]
+   ],
+   "date-time": "2011-01-14T08:46:55Z",
+   "timestamp": 1294994815000
+  },
+  "page": "9-112",
+  "source": "Crossref",
+  "is-referenced-by-count": 291,
+  "title": [
+   "Estimating and Interpreting Heritability for Plant Breeding: An Update"
+  ],
+  "prefix": "10.1002",
+  "author": [
+   {
+    "given": "James B.",
+    "family": "Holland",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Wyman E.",
+    "family": "Nyquist",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Cuauhtemoc T.",
+    "family": "Cervantes\u2010Mart\u00ednez",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     22
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_1_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2000.4017"
+   },
+   {
+    "key": "e_1_2_1_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1997.0011183X003700040013x"
+   },
+   {
+    "key": "e_1_2_1_4_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3168/jds.S0022-0302(91)78629-3"
+   },
+   {
+    "key": "e_1_2_1_5_1",
+    "volume-title": "A manual for use of MTDFREML",
+    "author": "Boldman K.",
+    "year": "1993"
+   },
+   {
+    "key": "e_1_2_1_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2528802"
+   },
+   {
+    "key": "e_1_2_1_7_1",
+    "volume-title": "The mathematical theory of quantitative genetics",
+    "author": "Bulmer M. G.",
+    "year": "1985"
+   },
+   {
+    "key": "e_1_2_1_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1993.0011183X003300010002x"
+   },
+   {
+    "key": "e_1_2_1_9_1",
+    "volume-title": "Statistical inference",
+    "author": "Casella G.",
+    "year": "1990"
+   },
+   {
+    "key": "e_1_2_1_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1982.0011183X002200030024x"
+   },
+   {
+    "key": "e_1_2_1_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2001.4141085x"
+   },
+   {
+    "key": "e_1_2_1_12_1",
+    "first-page": "53",
+    "volume-title": "Statistical genetics and plant breeding",
+    "author": "Cockerham C. C.",
+    "year": "1963"
+   },
+   {
+    "key": "e_1_2_1_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/genetics/69.2.235"
+   },
+   {
+    "key": "e_1_2_1_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1983.0011183X002300060035x"
+   },
+   {
+    "key": "e_1_2_1_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1985.0011183X002500030012x"
+   },
+   {
+    "key": "e_1_2_1_16_1",
+    "first-page": "161",
+    "volume-title": "Statistical genetics and plant breeding",
+    "author": "Comstock R. E.",
+    "year": "1963"
+   },
+   {
+    "key": "e_1_2_1_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1976.0011183X001600030005x"
+   },
+   {
+    "key": "e_1_2_1_18_1",
+    "first-page": "36",
+    "volume-title": "Techniques and procedures in animal science research",
+    "author": "Dickerson G. E.",
+    "year": "1969"
+   },
+   {
+    "key": "e_1_2_1_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00220853"
+   },
+   {
+    "key": "e_1_2_1_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1995.0011183X003500010017x"
+   },
+   {
+    "key": "e_1_2_1_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1969.0011183X000900030001x"
+   },
+   {
+    "key": "e_1_2_1_22_1",
+    "volume-title": "Introduction to quantitative genetics",
+    "author": "Falconer D. S.",
+    "year": "1996"
+   },
+   {
+    "key": "e_1_2_1_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1997.0011183X003700020002x"
+   },
+   {
+    "key": "e_1_2_1_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1996.0011183X003600030012x"
+   },
+   {
+    "key": "e_1_2_1_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1965.0011183X000500010025x"
+   },
+   {
+    "key": "e_1_2_1_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2556156"
+   },
+   {
+    "key": "e_1_2_1_27_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2527/jas1987.6451362x"
+   },
+   {
+    "key": "e_1_2_1_28_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/3001754"
+   },
+   {
+    "key": "e_1_2_1_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1994.0011183X003400040013x"
+   },
+   {
+    "key": "e_1_2_1_30_1",
+    "first-page": "125",
+    "volume-title": "Statistical genetics and plant breeding",
+    "author": "Hanson W. D.",
+    "year": "1963"
+   },
+   {
+    "key": "e_1_2_1_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2528761"
+   },
+   {
+    "key": "e_1_2_1_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/hdy.1996.174"
+   },
+   {
+    "key": "e_1_2_1_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1999.0011183X003900040016x"
+   },
+   {
+    "key": "e_1_2_1_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1999.0011183X003900040016x"
+   },
+   {
+    "key": "e_1_2_1_35_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "27",
+    "DOI": "10.1002/9780470650196.ch2",
+    "article-title": "Epistasis and plant breeding",
+    "volume": "21",
+    "author": "Holland J. B.",
+    "year": "2001",
+    "journal-title": "Plant Breed. Rev."
+   },
+   {
+    "key": "e_1_2_1_36_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s001220050732"
+   },
+   {
+    "key": "e_1_2_1_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1003933421378"
+   },
+   {
+    "key": "e_1_2_1_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1996.0011183X003600030006x"
+   },
+   {
+    "key": "e_1_2_1_39_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00288995"
+   },
+   {
+    "key": "e_1_2_1_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00260787"
+   },
+   {
+    "key": "e_1_2_1_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00265338"
+   },
+   {
+    "key": "e_1_2_1_42_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1985.0011183X002500010046x"
+   },
+   {
+    "key": "e_1_2_1_43_1",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1093/oso/9780198523598.001.0001",
+    "volume-title": "Parametric statistical inference",
+    "author": "Lindsey J. K.",
+    "year": "1996"
+   },
+   {
+    "key": "e_1_2_1_44_1",
+    "first-page": "1014",
+    "article-title": "Newton\u2010Raphson and EM algorithms for linear mixed\u2010effects models for repeated\u2010measures data",
+    "volume": "83",
+    "author": "Lindstrom M. J.",
+    "year": "1989",
+    "journal-title": "J. Am. Stat. Assoc."
+   },
+   {
+    "key": "e_1_2_1_45_1",
+    "volume-title": "SAS system for mixed models",
+    "author": "Littell R. C.",
+    "year": "1996"
+   },
+   {
+    "key": "e_1_2_1_46_1",
+    "volume-title": "Statistical analysis with missing data",
+    "author": "Little R. J. A.",
+    "year": "1987"
+   },
+   {
+    "key": "e_1_2_1_47_1",
+    "volume-title": "Genetics and analysis of quantitative traits",
+    "author": "Lynch M.",
+    "year": "1998"
+   },
+   {
+    "key": "e_1_2_1_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2685241"
+   },
+   {
+    "key": "e_1_2_1_49_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/hdy.1987.101"
+   },
+   {
+    "key": "e_1_2_1_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0022-0302(88)79977-4"
+   },
+   {
+    "key": "e_1_2_1_51_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/1297-9686-21-3-317"
+   },
+   {
+    "key": "e_1_2_1_52_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/1297-9686-29-2-97"
+   },
+   {
+    "key": "e_1_2_1_53_1",
+    "first-page": "1",
+    "article-title": "The jacknife\u2014a review",
+    "volume": "61",
+    "author": "Miller R. G.",
+    "year": "1974",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "e_1_2_1_54_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1990.0011183X003000020020x"
+   },
+   {
+    "key": "e_1_2_1_55_1",
+    "volume-title": "Analysis of messy data, Volume I: Designed experiments",
+    "author": "Milliken G. A.",
+    "year": "1992"
+   },
+   {
+    "key": "e_1_2_1_56_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2527650"
+   },
+   {
+    "key": "e_1_2_1_57_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/07352689109382313"
+   },
+   {
+    "key": "e_1_2_1_58_1",
+    "volume-title": "GenStat Release 4.1 Procedure Library Manual PL11",
+    "author": "Payne R. W.",
+    "year": "1998"
+   },
+   {
+    "key": "e_1_2_1_59_1",
+    "volume-title": "Applied regression analysis: a research tool",
+    "author": "Rawlings J. O.",
+    "year": "1988"
+   },
+   {
+    "key": "e_1_2_1_60_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2002.7390"
+   },
+   {
+    "key": "e_1_2_1_61_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1046/j.1365-294x.2000.00971.x"
+   },
+   {
+    "key": "e_1_2_1_62_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1214/ss/1177011926"
+   },
+   {
+    "key": "e_1_2_1_63_1",
+    "volume-title": "SAS OnlineDoc",
+    "author": "SAS Institute Inc",
+    "year": "1999"
+   },
+   {
+    "key": "e_1_2_1_64_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/9780470316856"
+   },
+   {
+    "key": "e_1_2_1_65_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01621459.1987.10478472"
+   },
+   {
+    "key": "e_1_2_1_66_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1558-5646.1987.tb05855.x"
+   },
+   {
+    "key": "e_1_2_1_67_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00221008"
+   },
+   {
+    "key": "e_1_2_1_68_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00838558"
+   },
+   {
+    "key": "e_1_2_1_69_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1965.0011183X000500060035x"
+   },
+   {
+    "key": "e_1_2_1_70_1",
+    "volume-title": "Principles and procedures of statistics: a biometric approach",
+    "author": "Steel R. G. D.",
+    "year": "1980"
+   },
+   {
+    "key": "e_1_2_1_71_1",
+    "volume-title": "Principles and procedures of statistics: a biometric approach",
+    "author": "Steel R. G. D.",
+    "year": "1997"
+   },
+   {
+    "key": "e_1_2_1_72_1",
+    "unstructured": "Walsh B. andM.Lynch.1999. Selection and evolution of quantitative traits.http://nitro.biosci.arizona.edu/zbook/volume_2/vol2.html."
+   },
+   {
+    "key": "e_1_2_1_73_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-94-015-7833-2"
+   },
+   {
+    "key": "e_1_2_1_74_1",
+    "article-title": "Advanced statistics in plant breeding",
+    "volume": "22",
+    "author": "Xu S.",
+    "year": "2003",
+    "journal-title": "Plant Breed. Rev."
+   },
+   {
+    "key": "e_1_2_1_75_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/S0016672300034200"
+   }
+  ],
+  "container-title": [
+   "Plant Breeding Reviews"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9780470650202.ch2",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470650202.ch2",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     4,
+     2
+    ]
+   ],
+   "date-time": "2024-04-02T23:47:56Z",
+   "timestamp": 1712101676000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9780470650202.ch2"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2002,
+     10,
+     30
+    ]
+   ]
+  },
+  "ISBN": [
+   "9780471215417",
+   "9780470650202"
+  ],
+  "references-count": 74,
+  "alternative-id": [
+   "10.1002/9780470650202.ch2",
+   "10.1002/9780470650202"
+  ],
+  "URL": "https://doi.org/10.1002/9780470650202.ch2",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2002,
+     10,
+     30
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2026-09-30T18:00:45Z",
+    "timestamp": 1790791245690,
+    "version": "4.1.0"
+   },
+   "edition-number": "1",
+   "reference-count": 74,
+   "publisher": "Wiley",
+   "isbn-type": [
+    {
+     "value": "9780471215417",
+     "type": "print"
+    },
+    {
+     "value": "9780470650202",
+     "type": "electronic"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2002,
+      10,
+      30
+     ]
+    ]
+   },
+   "DOI": "10.1002/9780470650202.ch2",
+   "type": "other",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      1,
+      14
+     ]
+    ],
+    "date-time": "2011-01-14T08:46:55Z",
+    "timestamp": 1294994815000
+   },
+   "page": "9-112",
+   "source": "Crossref",
+   "is-referenced-by-count": 291,
+   "title": [
+    "Estimating and Interpreting Heritability for Plant Breeding: An Update"
+   ],
+   "prefix": "10.1002",
+   "author": [
+    {
+     "given": "James B.",
+     "family": "Holland",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Wyman E.",
+     "family": "Nyquist",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Cuauhtemoc T.",
+     "family": "Cervantes\u2010Mart\u00ednez",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      22
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_1_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci2000.4017"
+    },
+    {
+     "key": "e_1_2_1_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1997.0011183X003700040013x"
+    },
+    {
+     "key": "e_1_2_1_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3168/jds.S0022-0302(91)78629-3"
+    },
+    {
+     "key": "e_1_2_1_5_1",
+     "volume-title": "A manual for use of MTDFREML",
+     "author": "Boldman K.",
+     "year": "1993"
+    },
+    {
+     "key": "e_1_2_1_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2528802"
+    },
+    {
+     "key": "e_1_2_1_7_1",
+     "volume-title": "The mathematical theory of quantitative genetics",
+     "author": "Bulmer M. G.",
+     "year": "1985"
+    },
+    {
+     "key": "e_1_2_1_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1993.0011183X003300010002x"
+    },
+    {
+     "key": "e_1_2_1_9_1",
+     "volume-title": "Statistical inference",
+     "author": "Casella G.",
+     "year": "1990"
+    },
+    {
+     "key": "e_1_2_1_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1982.0011183X002200030024x"
+    },
+    {
+     "key": "e_1_2_1_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci2001.4141085x"
+    },
+    {
+     "key": "e_1_2_1_12_1",
+     "first-page": "53",
+     "volume-title": "Statistical genetics and plant breeding",
+     "author": "Cockerham C. C.",
+     "year": "1963"
+    },
+    {
+     "key": "e_1_2_1_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/69.2.235"
+    },
+    {
+     "key": "e_1_2_1_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1983.0011183X002300060035x"
+    },
+    {
+     "key": "e_1_2_1_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1985.0011183X002500030012x"
+    },
+    {
+     "key": "e_1_2_1_16_1",
+     "first-page": "161",
+     "volume-title": "Statistical genetics and plant breeding",
+     "author": "Comstock R. E.",
+     "year": "1963"
+    },
+    {
+     "key": "e_1_2_1_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1976.0011183X001600030005x"
+    },
+    {
+     "key": "e_1_2_1_18_1",
+     "first-page": "36",
+     "volume-title": "Techniques and procedures in animal science research",
+     "author": "Dickerson G. E.",
+     "year": "1969"
+    },
+    {
+     "key": "e_1_2_1_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00220853"
+    },
+    {
+     "key": "e_1_2_1_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1995.0011183X003500010017x"
+    },
+    {
+     "key": "e_1_2_1_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1969.0011183X000900030001x"
+    },
+    {
+     "key": "e_1_2_1_22_1",
+     "volume-title": "Introduction to quantitative genetics",
+     "author": "Falconer D. S.",
+     "year": "1996"
+    },
+    {
+     "key": "e_1_2_1_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1997.0011183X003700020002x"
+    },
+    {
+     "key": "e_1_2_1_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1996.0011183X003600030012x"
+    },
+    {
+     "key": "e_1_2_1_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1965.0011183X000500010025x"
+    },
+    {
+     "key": "e_1_2_1_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2556156"
+    },
+    {
+     "key": "e_1_2_1_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2527/jas1987.6451362x"
+    },
+    {
+     "key": "e_1_2_1_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/3001754"
+    },
+    {
+     "key": "e_1_2_1_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1994.0011183X003400040013x"
+    },
+    {
+     "key": "e_1_2_1_30_1",
+     "first-page": "125",
+     "volume-title": "Statistical genetics and plant breeding",
+     "author": "Hanson W. D.",
+     "year": "1963"
+    },
+    {
+     "key": "e_1_2_1_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2528761"
+    },
+    {
+     "key": "e_1_2_1_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/hdy.1996.174"
+    },
+    {
+     "key": "e_1_2_1_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1999.0011183X003900040016x"
+    },
+    {
+     "key": "e_1_2_1_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1999.0011183X003900040016x"
+    },
+    {
+     "key": "e_1_2_1_35_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "27",
+     "DOI": "10.1002/9780470650196.ch2",
+     "article-title": "Epistasis and plant breeding",
+     "volume": "21",
+     "author": "Holland J. B.",
+     "year": "2001",
+     "journal-title": "Plant Breed. Rev."
+    },
+    {
+     "key": "e_1_2_1_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220050732"
+    },
+    {
+     "key": "e_1_2_1_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1003933421378"
+    },
+    {
+     "key": "e_1_2_1_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1996.0011183X003600030006x"
+    },
+    {
+     "key": "e_1_2_1_39_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00288995"
+    },
+    {
+     "key": "e_1_2_1_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00260787"
+    },
+    {
+     "key": "e_1_2_1_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00265338"
+    },
+    {
+     "key": "e_1_2_1_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1985.0011183X002500010046x"
+    },
+    {
+     "key": "e_1_2_1_43_1",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1093/oso/9780198523598.001.0001",
+     "volume-title": "Parametric statistical inference",
+     "author": "Lindsey J. K.",
+     "year": "1996"
+    },
+    {
+     "key": "e_1_2_1_44_1",
+     "first-page": "1014",
+     "article-title": "Newton\u2010Raphson and EM algorithms for linear mixed\u2010effects models for repeated\u2010measures data",
+     "volume": "83",
+     "author": "Lindstrom M. J.",
+     "year": "1989",
+     "journal-title": "J. Am. Stat. Assoc."
+    },
+    {
+     "key": "e_1_2_1_45_1",
+     "volume-title": "SAS system for mixed models",
+     "author": "Littell R. C.",
+     "year": "1996"
+    },
+    {
+     "key": "e_1_2_1_46_1",
+     "volume-title": "Statistical analysis with missing data",
+     "author": "Little R. J. A.",
+     "year": "1987"
+    },
+    {
+     "key": "e_1_2_1_47_1",
+     "volume-title": "Genetics and analysis of quantitative traits",
+     "author": "Lynch M.",
+     "year": "1998"
+    },
+    {
+     "key": "e_1_2_1_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2685241"
+    },
+    {
+     "key": "e_1_2_1_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/hdy.1987.101"
+    },
+    {
+     "key": "e_1_2_1_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0022-0302(88)79977-4"
+    },
+    {
+     "key": "e_1_2_1_51_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1297-9686-21-3-317"
+    },
+    {
+     "key": "e_1_2_1_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1297-9686-29-2-97"
+    },
+    {
+     "key": "e_1_2_1_53_1",
+     "first-page": "1",
+     "article-title": "The jacknife\u2014a review",
+     "volume": "61",
+     "author": "Miller R. G.",
+     "year": "1974",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "e_1_2_1_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1990.0011183X003000020020x"
+    },
+    {
+     "key": "e_1_2_1_55_1",
+     "volume-title": "Analysis of messy data, Volume I: Designed experiments",
+     "author": "Milliken G. A.",
+     "year": "1992"
+    },
+    {
+     "key": "e_1_2_1_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2527650"
+    },
+    {
+     "key": "e_1_2_1_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07352689109382313"
+    },
+    {
+     "key": "e_1_2_1_58_1",
+     "volume-title": "GenStat Release 4.1 Procedure Library Manual PL11",
+     "author": "Payne R. W.",
+     "year": "1998"
+    },
+    {
+     "key": "e_1_2_1_59_1",
+     "volume-title": "Applied regression analysis: a research tool",
+     "author": "Rawlings J. O.",
+     "year": "1988"
+    },
+    {
+     "key": "e_1_2_1_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci2002.7390"
+    },
+    {
+     "key": "e_1_2_1_61_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-294x.2000.00971.x"
+    },
+    {
+     "key": "e_1_2_1_62_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1214/ss/1177011926"
+    },
+    {
+     "key": "e_1_2_1_63_1",
+     "volume-title": "SAS OnlineDoc",
+     "author": "SAS Institute Inc",
+     "year": "1999"
+    },
+    {
+     "key": "e_1_2_1_64_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/9780470316856"
+    },
+    {
+     "key": "e_1_2_1_65_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/01621459.1987.10478472"
+    },
+    {
+     "key": "e_1_2_1_66_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1987.tb05855.x"
+    },
+    {
+     "key": "e_1_2_1_67_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00221008"
+    },
+    {
+     "key": "e_1_2_1_68_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00838558"
+    },
+    {
+     "key": "e_1_2_1_69_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1965.0011183X000500060035x"
+    },
+    {
+     "key": "e_1_2_1_70_1",
+     "volume-title": "Principles and procedures of statistics: a biometric approach",
+     "author": "Steel R. G. D.",
+     "year": "1980"
+    },
+    {
+     "key": "e_1_2_1_71_1",
+     "volume-title": "Principles and procedures of statistics: a biometric approach",
+     "author": "Steel R. G. D.",
+     "year": "1997"
+    },
+    {
+     "key": "e_1_2_1_72_1",
+     "unstructured": "Walsh B. andM.Lynch.1999. Selection and evolution of quantitative traits.http://nitro.biosci.arizona.edu/zbook/volume_2/vol2.html."
+    },
+    {
+     "key": "e_1_2_1_73_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-94-015-7833-2"
+    },
+    {
+     "key": "e_1_2_1_74_1",
+     "article-title": "Advanced statistics in plant breeding",
+     "volume": "22",
+     "author": "Xu S.",
+     "year": "2003",
+     "journal-title": "Plant Breed. Rev."
+    },
+    {
+     "key": "e_1_2_1_75_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0016672300034200"
+    }
+   ],
+   "container-title": [
+    "Plant Breeding Reviews"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9780470650202.ch2",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470650202.ch2",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      4,
+      2
+     ]
+    ],
+    "date-time": "2024-04-02T23:47:56Z",
+    "timestamp": 1712101676000
+   },
+   "score": 80.307724,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9780470650202.ch2"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2002,
+      10,
+      30
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780471215417",
+    "9780470650202"
+   ],
+   "references-count": 74,
+   "alternative-id": [
+    "10.1002/9780470650202.ch2",
+    "10.1002/9780470650202"
+   ],
+   "URL": "https://doi.org/10.1002/9780470650202.ch2",
+   "archive": [
+    "Portico"
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2002,
+      10,
+      30
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      20
+     ]
+    ],
+    "date-time": "2026-09-20T08:28:26Z",
+    "timestamp": 1789892906672,
+    "version": "4.0.1"
+   },
+   "edition-number": "1",
+   "reference-count": 188,
+   "publisher": "Wiley",
+   "isbn-type": [
+    {
+     "value": "9780471418474",
+     "type": "print"
+    },
+    {
+     "value": "9780470650196",
+     "type": "electronic"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2001,
+      9,
+      20
+     ]
+    ]
+   },
+   "DOI": "10.1002/9780470650196.ch2",
+   "type": "other",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      1,
+      14
+     ]
+    ],
+    "date-time": "2011-01-14T13:45:21Z",
+    "timestamp": 1295012721000
+   },
+   "page": "27-92",
+   "source": "Crossref",
+   "is-referenced-by-count": 114,
+   "title": [
+    "Epistasis and Plant Breeding"
+   ],
+   "prefix": "10.1002",
+   "author": [
+    {
+     "given": "James B.",
+     "family": "Holland",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      22
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_1_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S1097-2765(00)80094-5"
+    },
+    {
+     "key": "e_1_2_1_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/oxfordjournals.jhered.a110503"
+    },
+    {
+     "key": "e_1_2_1_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00022822"
+    },
+    {
+     "key": "e_1_2_1_5_1",
+     "volume-title": "Principles of plant breeding",
+     "author": "Allard R. W.",
+     "year": "1999"
+    },
+    {
+     "key": "e_1_2_1_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.6.5.613"
+    },
+    {
+     "key": "e_1_2_1_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00221893"
+    },
+    {
+     "key": "e_1_2_1_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0168-9525(92)90263-4"
+    },
+    {
+     "key": "e_1_2_1_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-1-4613-2429-4_7"
+    },
+    {
+     "key": "e_1_2_1_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.5962/bhl.title.44575"
+    },
+    {
+     "key": "e_1_2_1_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj1959.00021962005100090007x"
+    },
+    {
+     "key": "e_1_2_1_12_1",
+     "first-page": "252",
+     "volume-title": "Proc. 49th Ann. Corn and Sorghum Res. Conf.",
+     "author": "Beavis W. D.",
+     "year": "1994"
+    },
+    {
+     "key": "e_1_2_1_13_1",
+     "first-page": "471",
+     "volume-title": "Proc. International Conference on Polyploidy: Biological Relevance, Washington University, St. Louis, MO. 24\u201027 May 1979",
+     "author": "Bingham E. T.",
+     "year": "1979"
+    },
+    {
+     "key": "e_1_2_1_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1982.0011183X002200060010x"
+    },
+    {
+     "key": "e_1_2_1_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1961.0011183X000100030009x"
+    },
+    {
+     "key": "e_1_2_1_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1999.0011183X003900040001x"
+    },
+    {
+     "key": "e_1_2_1_17_1",
+     "volume-title": "The mathematical theory of quantitative genetics",
+     "author": "Bulmer M. G.",
+     "year": "1985"
+    },
+    {
+     "key": "e_1_2_1_18_1",
+     "series-title": "Agronomy Monograph",
+     "first-page": "283",
+     "volume-title": "Alfalfa science and technology",
+     "author": "Busbice T. H.",
+     "year": "1972"
+    },
+    {
+     "key": "e_1_2_1_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1974.0011183X001400010014x"
+    },
+    {
+     "key": "e_1_2_1_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.93.17.8820"
+    },
+    {
+     "key": "e_1_2_1_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1998.0011183X003800020032x"
+    },
+    {
+     "key": "e_1_2_1_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00224565"
+    },
+    {
+     "key": "e_1_2_1_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1562/0031-8655(2000)0710001PCPPII2.0.CO2"
+    },
+    {
+     "key": "e_1_2_1_24_1",
+     "series-title": "Agrononmy Monograph",
+     "first-page": "413",
+     "volume-title": "Cool\u2010season forage grasses",
+     "author": "Casler M. D.",
+     "year": "1996"
+    },
+    {
+     "key": "e_1_2_1_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220051318"
+    },
+    {
+     "key": "e_1_2_1_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1996.tb02345.x"
+    },
+    {
+     "key": "e_1_2_1_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/139.3.1455"
+    },
+    {
+     "key": "e_1_2_1_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1999.tb04516.x"
+    },
+    {
+     "key": "e_1_2_1_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.108.059808"
+    },
+    {
+     "key": "e_1_2_1_30_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "157",
+     "DOI": "10.1093/genetics/147.1.157",
+     "article-title": "Epistasis in measured genotypes: Drosophila P\u2010element insertions",
+     "volume": "147",
+     "author": "Clark A. G.",
+     "year": "1997",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/gad.10.5.566"
+    },
+    {
+     "key": "e_1_2_1_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/39.6.859"
+    },
+    {
+     "key": "e_1_2_1_33_1",
+     "first-page": "53",
+     "volume-title": "Statistical genetics and plant breeding",
+     "author": "Cockerham C. C.",
+     "year": "1963"
+    },
+    {
+     "key": "e_1_2_1_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.85.5.1563"
+    },
+    {
+     "key": "e_1_2_1_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/143.3.1437"
+    },
+    {
+     "key": "e_1_2_1_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-1-4612-2694-9_34"
+    },
+    {
+     "key": "e_1_2_1_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-1-4612-2694-9_35"
+    },
+    {
+     "key": "e_1_2_1_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1997.tb03650.x"
+    },
+    {
+     "key": "e_1_2_1_39_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.0014-3820.2000.tb00033.x"
+    },
+    {
+     "key": "e_1_2_1_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1978.0011183X001800020013x"
+    },
+    {
+     "key": "e_1_2_1_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/tpbi.1995.1025"
+    },
+    {
+     "key": "e_1_2_1_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-3059.1998.00232.x"
+    },
+    {
+     "key": "e_1_2_1_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/137.1.289"
+    },
+    {
+     "key": "e_1_2_1_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/134.2.585"
+    },
+    {
+     "key": "e_1_2_1_45_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1997.tb01473.x"
+    },
+    {
+     "key": "e_1_2_1_46_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "333",
+     "DOI": "10.1093/genetics/141.1.333",
+     "article-title": "tesosinte branched and the origin of maize: Evidence for epistasis and the evolution of dominance",
+     "volume": "141",
+     "author": "Doebley J.",
+     "year": "1995",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1969.0011183X000900020036x"
+    },
+    {
+     "key": "e_1_2_1_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/116.1.113"
+    },
+    {
+     "key": "e_1_2_1_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/g88-012"
+    },
+    {
+     "key": "e_1_2_1_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/37108"
+    },
+    {
+     "key": "e_1_2_1_51_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/35002125"
+    },
+    {
+     "key": "e_1_2_1_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/143.4.1807"
+    },
+    {
+     "key": "e_1_2_1_53_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "346",
+     "DOI": "10.2135/cropsci1999.0011183X003900020007xa",
+     "article-title": "Epistasis for grain yield in two F2 populations of maize",
+     "volume": "39",
+     "author": "Eta\u2010Ndu J. T.",
+     "year": "1999",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "e_1_2_1_54_1",
+     "volume-title": "Introduction to quantitative genetics",
+     "author": "Falconer D. S.",
+     "year": "1996"
+    },
+    {
+     "key": "e_1_2_1_55_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "899",
+     "DOI": "10.1093/genetics/47.7.899",
+     "article-title": "Nonallelic gene interactions in the inheritance of quantitative characters in barley",
+     "volume": "47",
+     "author": "Fasoulas A c.",
+     "year": "1962",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_56_1",
+     "volume-title": "Principles of cultivar development. Volume 1: Theory and technique",
+     "author": "Fehr W. R.",
+     "year": "1987"
+    },
+    {
+     "key": "e_1_2_1_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0080456800012163"
+    },
+    {
+     "key": "e_1_2_1_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0065-2660(08)60498-8"
+    },
+    {
+     "key": "e_1_2_1_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jtbi.1998.0872"
+    },
+    {
+     "key": "e_1_2_1_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.289.5476.85"
+    },
+    {
+     "key": "e_1_2_1_61_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220050472"
+    },
+    {
+     "key": "e_1_2_1_62_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "339",
+     "DOI": "10.1093/genetics/144.1.339",
+     "article-title": "Marker\u2010based inferences about epistasis for genes influencing inbreeding depression",
+     "volume": "144",
+     "author": "Fu Y. B.",
+     "year": "1996",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_63_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/35002131"
+    },
+    {
+     "key": "e_1_2_1_64_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/tpbi.1996.0003"
+    },
+    {
+     "key": "e_1_2_1_65_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/gad.6.5.864"
+    },
+    {
+     "key": "e_1_2_1_66_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.86.9.3242"
+    },
+    {
+     "key": "e_1_2_1_67_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1988.tb04151.x"
+    },
+    {
+     "key": "e_1_2_1_68_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.0014-3820.2000.tb00034.x"
+    },
+    {
+     "key": "e_1_2_1_69_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/144.3.1205"
+    },
+    {
+     "key": "e_1_2_1_70_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1994.0011183X003400010007x"
+    },
+    {
+     "key": "e_1_2_1_71_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/BI9600307"
+    },
+    {
+     "key": "e_1_2_1_72_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/142.4.1349"
+    },
+    {
+     "key": "e_1_2_1_73_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1994.0011183X003400040013x"
+    },
+    {
+     "key": "e_1_2_1_74_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1967.0011183X000700020003x"
+    },
+    {
+     "key": "e_1_2_1_75_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1425",
+     "DOI": "10.1093/genetics/46.11.1425",
+     "article-title": "Resolution of genetic variability in self\u2010pollinated species with an application to the soybean",
+     "volume": "46",
+     "author": "Hanson W. D.",
+     "year": "1961",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_76_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1974.0011183X001400040029x"
+    },
+    {
+     "key": "e_1_2_1_77_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1439-0388.1982.tb00375.x"
+    },
+    {
+     "key": "e_1_2_1_78_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jhered/89.4.374"
+    },
+    {
+     "key": "e_1_2_1_79_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1997.0011183X003700040047x"
+    },
+    {
+     "key": "e_1_2_1_80_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1969.0011183X000900040033x"
+    },
+    {
+     "key": "e_1_2_1_81_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.97.3.1143"
+    },
+    {
+     "key": "e_1_2_1_82_1",
+     "first-page": "91",
+     "article-title": "Anthocyanin pigmentation and transposable elements in maize aleurone",
+     "volume": "8",
+     "author": "Jayaram C.",
+     "year": "1990",
+     "journal-title": "Plant Breed. Rev."
+    },
+    {
+     "key": "e_1_2_1_83_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.0014-3820.2000.tb00081.x"
+    },
+    {
+     "key": "e_1_2_1_84_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.268.5211.686"
+    },
+    {
+     "key": "e_1_2_1_85_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "639",
+     "DOI": "10.1093/genetics/97.3-4.639",
+     "article-title": "The molecular basis of dominance",
+     "volume": "97",
+     "author": "Kaeser H.",
+     "year": "1981",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_86_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/152.3.1203"
+    },
+    {
+     "key": "e_1_2_1_87_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0022-5193(87)80029-2"
+    },
+    {
+     "key": "e_1_2_1_88_1",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1093/oso/9780195079517.001.0001",
+     "volume-title": "The origins of order",
+     "author": "Kauffman S. A.",
+     "year": "1993"
+    },
+    {
+     "key": "e_1_2_1_89_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-2540.1998.00500.x"
+    },
+    {
+     "key": "e_1_2_1_90_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/hdy.1968.52"
+    },
+    {
+     "key": "e_1_2_1_91_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/121.4.869"
+    },
+    {
+     "key": "e_1_2_1_92_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/143.2.621"
+    },
+    {
+     "key": "e_1_2_1_93_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jtbi.1996.0169"
+    },
+    {
+     "key": "e_1_2_1_94_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "153",
+     "DOI": "10.1093/genetics/40.2.153",
+     "article-title": "The theoretical values of correlations between relatives in random mating populations",
+     "volume": "40",
+     "author": "Kempthorne O.",
+     "year": "1954",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_95_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/40.2.168"
+    },
+    {
+     "key": "e_1_2_1_96_1",
+     "volume-title": "An introduction to genetic statistics",
+     "author": "Kempthorne O.",
+     "year": "1957"
+    },
+    {
+     "key": "e_1_2_1_97_1",
+     "first-page": "47",
+     "volume-title": "Proc. Second International Conference on Quantitative Genetics",
+     "author": "Kempthorne O.",
+     "year": "1988"
+    },
+    {
+     "key": "e_1_2_1_98_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/g97-052"
+    },
+    {
+     "key": "e_1_2_1_99_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/52.5.875"
+    },
+    {
+     "key": "e_1_2_1_100_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.92.20.9047"
+    },
+    {
+     "key": "e_1_2_1_101_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jhered/90.1.249"
+    },
+    {
+     "key": "e_1_2_1_102_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1995.0011183X003500050004x"
+    },
+    {
+     "key": "e_1_2_1_103_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.92.10.4656"
+    },
+    {
+     "key": "e_1_2_1_104_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00223665"
+    },
+    {
+     "key": "e_1_2_1_105_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/23245"
+    },
+    {
+     "key": "e_1_2_1_106_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1963.0011183X000300060023x"
+    },
+    {
+     "key": "e_1_2_1_107_1",
+     "first-page": "119",
+     "volume-title": "Molecular dissection of complex traits",
+     "author": "Li Z.",
+     "year": "1998"
+    },
+    {
+     "key": "e_1_2_1_108_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/145.2.453"
+    },
+    {
+     "key": "e_1_2_1_109_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "365",
+     "DOI": "10.1093/genetics/138.2.365",
+     "article-title": "Suppressor Ul snRNAs in Drosophila",
+     "volume": "138",
+     "author": "Lo P. C. H.",
+     "year": "1994",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_110_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0016672398003619"
+    },
+    {
+     "key": "e_1_2_1_111_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1997.0011183X003700030037x"
+    },
+    {
+     "key": "e_1_2_1_112_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/120.3.791"
+    },
+    {
+     "key": "e_1_2_1_113_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1991.tb04333.x"
+    },
+    {
+     "key": "e_1_2_1_114_1",
+     "volume-title": "Genetics and analysis of quantitative traits",
+     "author": "Lynch M.",
+     "year": "1997"
+    },
+    {
+     "key": "e_1_2_1_115_1",
+     "first-page": "165",
+     "article-title": "Significance of mating systems for chromosomes and gametes in polyploids",
+     "volume": "66",
+     "author": "Mac Key J.",
+     "year": "1970",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "e_1_2_1_116_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.ge.28.120194.000245"
+    },
+    {
+     "key": "e_1_2_1_117_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0168-9525(99)01833-8"
+    },
+    {
+     "key": "e_1_2_1_118_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-94-009-5787-9"
+    },
+    {
+     "key": "e_1_2_1_119_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.107.3.679"
+    },
+    {
+     "key": "e_1_2_1_120_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00277137"
+    },
+    {
+     "key": "e_1_2_1_121_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.95.5.1996"
+    },
+    {
+     "key": "e_1_2_1_122_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00266997"
+    },
+    {
+     "key": "e_1_2_1_123_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00223643"
+    },
+    {
+     "key": "e_1_2_1_124_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.1093/genetics/149.1.383",
+     "article-title": "Quantitative trait locus (QTL) mapping using different testers and independent population samples in maize reveal low power of QTL detection and large bias in estimates of QTL effects",
+     "volume": "149",
+     "author": "Melchinger A. E.",
+     "year": "1998",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_125_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.ge.28.120194.001545"
+    },
+    {
+     "key": "e_1_2_1_126_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/52.1.139"
+    },
+    {
+     "key": "e_1_2_1_127_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.es.25.110194.000335"
+    },
+    {
+     "key": "e_1_2_1_128_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1981.0011183X002100050002x"
+    },
+    {
+     "key": "e_1_2_1_129_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "315",
+     "DOI": "10.1093/genetics/147.1.315",
+     "article-title": "Dissection of a synthesized quantitative trait to characterize transgene interactions",
+     "volume": "147",
+     "author": "Nap J. P.",
+     "year": "1997",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_130_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00285450"
+    },
+    {
+     "key": "e_1_2_1_131_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1042/bj2870473"
+    },
+    {
+     "key": "e_1_2_1_132_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/07352689109382313"
+    },
+    {
+     "key": "e_1_2_1_133_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "969",
+     "DOI": "10.1093/genetics/155.2.969",
+     "article-title": "Gene regulatory networks generating the phenomena of additivity, dominance, and epistasis",
+     "volume": "155",
+     "author": "Omholt S. W.",
+     "year": "2000",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_134_1",
+     "first-page": "44",
+     "volume-title": "Proc. 52nd Ann. Corn and Sorghum Res. Conf.",
+     "author": "Openshaw S.",
+     "year": "1997"
+    },
+    {
+     "key": "e_1_2_1_135_1",
+     "unstructured": "Openshaw S. andE.Frascaroli.1998. QTL detection in large and small samples using real data. p. 127. Proc. Plant and Animal Genome VI San Diego CA.http:// www.intlpag.org/pag/6/abstracts/141.html."
+    },
+    {
+     "key": "e_1_2_1_136_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1999.3961652x"
+    },
+    {
+     "key": "e_1_2_1_137_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/26903"
+    },
+    {
+     "key": "e_1_2_1_138_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1167",
+     "DOI": "10.1093/genetics/149.3.1167",
+     "article-title": "The language of gene interactions",
+     "volume": "149",
+     "author": "Phillips P. C.",
+     "year": "1998",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_139_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.7.9.1347"
+    },
+    {
+     "key": "e_1_2_1_140_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1991.0011183X003100060010x"
+    },
+    {
+     "key": "e_1_2_1_141_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/14.7.632"
+    },
+    {
+     "key": "e_1_2_1_142_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220051004"
+    },
+    {
+     "key": "e_1_2_1_143_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1997.0011183X003700020001x"
+    },
+    {
+     "key": "e_1_2_1_144_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1109",
+     "DOI": "10.1242/dev.126.6.1109",
+     "article-title": "Separation of root and floral identity in Arabidopsis.",
+     "volume": "26",
+     "author": "Ratcliffe O. J.",
+     "year": "1999",
+     "journal-title": "Development"
+    },
+    {
+     "key": "e_1_2_1_145_1",
+     "volume-title": "Applied regression analysis: a research tool",
+     "author": "Rawlings J. O.",
+     "year": "1988"
+    },
+    {
+     "key": "e_1_2_1_146_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/155.1.337"
+    },
+    {
+     "key": "e_1_2_1_147_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.96.2490.280"
+    },
+    {
+     "key": "e_1_2_1_148_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.272.5262.741"
+    },
+    {
+     "key": "e_1_2_1_149_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "189",
+     "DOI": "10.1093/genetics/37.2.189",
+     "article-title": "The effect of inbreeding on the variation due to recessive genes",
+     "volume": "37",
+     "author": "Robertson A.",
+     "year": "1951",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_150_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1999.0011183X0039000200016x"
+    },
+    {
+     "key": "e_1_2_1_151_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "69",
+     "DOI": "10.1007/BF00252315",
+     "article-title": "Effect of gametic disequilibrium on means and on genetic variances of autotetraploid synthetic varieties",
+     "volume": "68",
+     "author": "Rowe D. D.",
+     "year": "1984",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "e_1_2_1_152_1",
+     "series-title": "Agronomy Monograph",
+     "first-page": "777",
+     "volume-title": "Alfalfa and alfalfa improvement",
+     "author": "Rumbaugh M. D.",
+     "year": "1988"
+    },
+    {
+     "key": "e_1_2_1_153_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1970.0011183X001000020015x"
+    },
+    {
+     "key": "e_1_2_1_154_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/24550"
+    },
+    {
+     "key": "e_1_2_1_155_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "461",
+     "DOI": "10.1093/genetics/131.2.461",
+     "article-title": "Multiplicative vs. arbitrary gene action in heterosis",
+     "volume": "131",
+     "author": "Schnell F. W.",
+     "year": "1992",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_156_1",
+     "volume-title": "Biochemistry",
+     "author": "Stryer L.",
+     "year": "1988"
+    },
+    {
+     "key": "e_1_2_1_157_1",
+     "first-page": "232",
+     "volume-title": "Proc. 49th Ann. Corn and Sorghum Res. Conf.",
+     "author": "Stuber C. W.",
+     "year": "1994"
+    },
+    {
+     "key": "e_1_2_1_158_1",
+     "first-page": "197",
+     "volume-title": "Molecular Dissection of Complex Traits",
+     "author": "Stuber C. W.",
+     "year": "1998"
+    },
+    {
+     "key": "e_1_2_1_159_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1279",
+     "DOI": "10.1093/genetics/54.6.1279",
+     "article-title": "Gene effects and variances in hybrid populations",
+     "volume": "54",
+     "author": "Stuber C. W.",
+     "year": "1966",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_160_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1601-5223.2003.01667.x"
+    },
+    {
+     "key": "e_1_2_1_161_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "137",
+     "DOI": "10.1093/genetics/67.1.137",
+     "article-title": "Epistasis in maize (Zea mays L.). II. Comparison of selected with unselected populations",
+     "volume": "67",
+     "author": "Stuber C. W.",
+     "year": "1971",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_162_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1973.0011183X001300020014x"
+    },
+    {
+     "key": "e_1_2_1_163_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1975.0011183X001500060018x"
+    },
+    {
+     "key": "e_1_2_1_164_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/gad.9.7.843"
+    },
+    {
+     "key": "e_1_2_1_165_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "127",
+     "DOI": "10.1093/genetics/133.1.127",
+     "article-title": "Do deleterious mutations act synergistically? Metabolic control theory provides a partial answer",
+     "volume": "133",
+     "author": "Szathmary E.",
+     "year": "1993",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_166_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.ge.27.120193.001225"
+    },
+    {
+     "key": "e_1_2_1_167_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00265610"
+    },
+    {
+     "key": "e_1_2_1_168_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00223917"
+    },
+    {
+     "key": "e_1_2_1_169_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jhered/91.4.304"
+    },
+    {
+     "key": "e_1_2_1_170_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1998.0011183X003800010008x"
+    },
+    {
+     "key": "e_1_2_1_171_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/154.4.1839"
+    },
+    {
+     "key": "e_1_2_1_172_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10681-006-9312-3"
+    },
+    {
+     "key": "e_1_2_1_173_1",
+     "first-page": "251",
+     "article-title": "Breeding systems for cross\u2010pollinated perennial grasses",
+     "volume": "11",
+     "author": "Vogel K. P.",
+     "year": "1993",
+     "journal-title": "Plant Breed. Rev."
+    },
+    {
+     "key": "e_1_2_1_174_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1998.tb02235.x"
+    },
+    {
+     "key": "e_1_2_1_175_1",
+     "unstructured": "Walsh B. andM.Lynch.2000. Selection and evolution of quantitative traits.http://nitro.biosci.arizona.edu/zbook/volume_2/voI2.html."
+    },
+    {
+     "key": "e_1_2_1_176_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220051331"
+    },
+    {
+     "key": "e_1_2_1_177_1",
+     "first-page": "247",
+     "volume-title": "Proc. First International Conference on Quantitative Genetics, Ames, IA. August 16\u201021",
+     "author": "Weir B. S.",
+     "year": "1977"
+    },
+    {
+     "key": "e_1_2_1_178_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.284.5411.92"
+    },
+    {
+     "key": "e_1_2_1_179_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "345",
+     "DOI": "10.1093/genetics/152.1.345",
+     "article-title": "The changes in genetic and environmental variance with inbreeding in Drosophila melanogaster.",
+     "volume": "152",
+     "author": "Whitlock M. C.",
+     "year": "1999",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "e_1_2_1_180_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1993.tb01267.x"
+    },
+    {
+     "key": "e_1_2_1_181_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3168/jds.S0022-0302(85)81117-6"
+    },
+    {
+     "key": "e_1_2_1_182_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1997.0011183X003700030012x"
+    },
+    {
+     "key": "e_1_2_1_183_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1515/9783110837520"
+    },
+    {
+     "key": "e_1_2_1_184_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.1982.tb05065.x"
+    },
+    {
+     "key": "e_1_2_1_185_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00223380"
+    },
+    {
+     "key": "e_1_2_1_186_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/140.2.745"
+    },
+    {
+     "key": "e_1_2_1_187_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220050658"
+    },
+    {
+     "key": "e_1_2_1_188_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.94.17.9226"
+    },
+    {
+     "key": "e_1_2_1_189_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.279.5358.1896"
+    }
+   ],
+   "container-title": [
+    "Plant Breeding Reviews"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9780470650196.ch2",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470650196.ch2",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      4,
+      3
+     ]
+    ],
+    "date-time": "2024-04-03T03:48:02Z",
+    "timestamp": 1712116082000
+   },
+   "score": 29.352262,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9780470650196.ch2"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2001,
+      9,
+      20
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780471418474",
+    "9780470650196"
+   ],
+   "references-count": 188,
+   "alternative-id": [
+    "10.1002/9780470650196.ch2",
+    "10.1002/9780470650196"
+   ],
+   "URL": "https://doi.org/10.1002/9780470650196.ch2",
+   "archive": [
+    "Portico"
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2001,
+      9,
+      20
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      5,
+      16
+     ]
+    ],
+    "date-time": "2026-05-16T23:25:48Z",
+    "timestamp": 1778973948646,
+    "version": "3.51.4"
+   },
+   "reference-count": 11,
+   "publisher": "Wiley",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        6,
+        28
+       ]
+      ],
+      "date-time": "2008-06-28T00:00:00Z",
+      "timestamp": 1214611200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 1974,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Plant Breeding"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2003,
+      2
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>Hexaploid tritordeum, the amphiploid <jats:italic>Hordeum chilense</jats:italic>\u00d7<jats:italic>Triticum turgidum</jats:italic>, has potential for bread making. In order to estimate the potential of bread wheat chromosome 1D for improving the bread\u2010making quality of tritordeum, and the processing properties and agronomic performance of euploid tritordeum, (1H<jats:sup>ch</jats:sup>)1D and (1A)1D substitution lines have been evaluated in field trials. No significant differences for agronomical traits were observed between the two substitution lines and the sister euploid tritordeum, except for the kernel weight of the (1H<jats:sup>ch</jats:sup>)1D tritordeum substitution, which was lower than that of euploid tritordeum. Gluten strength, estimated by alveograph deformation energy (W), and loaf volume were substantially higher in both substitution lines than in the euploid tritordeum.</jats:p>",
+   "DOI": "10.1046/j.1439-0523.2003.00806.x",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2003,
+      3,
+      12
+     ]
+    ],
+    "date-time": "2003-03-12T16:18:35Z",
+    "timestamp": 1047485915000
+   },
+   "page": "89-91",
+   "source": "Crossref",
+   "is-referenced-by-count": 11,
+   "title": [
+    "Bread\u2010making quality in hexaploid tritordeum with substitutions involving chromosome 1D"
+   ],
+   "prefix": "10.1111",
+   "volume": "122",
+   "author": [
+    {
+     "given": "J.",
+     "family": "Ballesteros",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "M. C.",
+     "family": "Ramirez",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "C.",
+     "family": "Martinez",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "F.",
+     "family": "Barro",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "A.",
+     "family": "Martin",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2008,
+      6,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_1_2_1",
+     "volume-title": "Approved Methods",
+     "author": "AACC",
+     "year": "1994"
+    },
+    {
+     "key": "e_1_2_1_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jcrs.1995.0032"
+    },
+    {
+     "key": "e_1_2_1_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1003574213125"
+    },
+    {
+     "key": "e_1_2_1_5_1",
+     "unstructured": "Ballesteros J. J. B.Alvarez M. J.Gim\u00e9nez M. C.Ramirez A.Cabrera andA.MartinIntrogression of 1Dx5+1Dy10 into tritordeum. Theor. Appl. Genet DOI 10.1007."
+    },
+    {
+     "key": "e_1_2_1_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220200009"
+    },
+    {
+     "key": "e_1_2_1_7_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "141",
+     "DOI": "10.1146/annurev.pp.38.060187.001041",
+     "article-title": "Genetics of wheat storage proteins and the effect of allelic variation on bread\u2010making quality",
+     "volume": "38",
+     "author": "Payne P. I.",
+     "year": "1987",
+     "journal-title": "Ann. Rev. Plant Physiol."
+    },
+    {
+     "key": "e_1_2_1_8_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Payne P. I. L. M.Holt S. M.Reader andT. E.Miller 1987a:Chromosomal location of genes coding for endosperm proteins ofHordeum chilense determined by two\u2010dimensional electroforesis of wheat\u2010H.chilensechromosome addition lines.Biochem. Genet. 1\u20132 53\u201365.",
+     "DOI": "10.1007/BF00498951"
+    },
+    {
+     "key": "e_1_2_1_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.2740400108"
+    },
+    {
+     "key": "e_1_2_1_10_1",
+     "first-page": "17",
+     "article-title": "The high\u2010molecular\u2010weight glutenin subunits of common wheat cultivars grown in Italy",
+     "volume": "43",
+     "author": "Pogna N. E.",
+     "year": "1989",
+     "journal-title": "J. Genet. Breed."
+    },
+    {
+     "key": "e_1_2_1_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1439-0523.1989.tb00356.x"
+    },
+    {
+     "key": "e_1_2_1_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1439-0523.2001.00651.x"
+    }
+   ],
+   "container-title": [
+    "Plant Breeding"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1046%2Fj.1439-0523.2003.00806.x",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1046/j.1439-0523.2003.00806.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      11,
+      18
+     ]
+    ],
+    "date-time": "2023-11-18T03:14:07Z",
+    "timestamp": 1700277247000
+   },
+   "score": 28.694746,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1046/j.1439-0523.2003.00806.x"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2003,
+      2
+     ]
+    ]
+   },
+   "references-count": 11,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2003,
+       2
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1046/j.1439-0523.2003.00806.x"
+   ],
+   "URL": "https://doi.org/10.1046/j.1439-0523.2003.00806.x",
+   "archive": [
+    "Portico"
+   ],
+   "ISSN": [
+    "0179-9541",
+    "1439-0523"
+   ],
+   "issn-type": [
+    {
+     "value": "0179-9541",
+     "type": "print"
+    },
+    {
+     "value": "1439-0523",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2003,
+      2
+     ]
+    ]
+   }
+  }
+ ]
+}

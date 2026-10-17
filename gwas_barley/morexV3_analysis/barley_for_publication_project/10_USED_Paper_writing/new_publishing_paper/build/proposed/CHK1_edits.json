@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item CHK1 — ESM title blocks as an open task** (your answer to ESM0 Q8): TAG wants the article title, journal, author names and the corresponding author's affiliation and e-mail inside every Online Resource file. They are placeholders until the title page is settled."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Checklist at the top, item 1",
+   "why": "User (ESM0 Q8): add the ESM title blocks to the open tasks.",
+   "old": "**Acknowledgments** on the title page, with funding organizations written in full (including Equinom Ltd., which lent the NIR instrument).",
+   "new": "**Acknowledgments** on the title page, with funding organizations written in full (including Equinom Ltd., which lent the NIR instrument).{+ The same author names, and the corresponding author's affiliation and e-mail, go into the **title block of every Online Resource file** (placeholders `[AUTHOR NAMES]`, `[AFFILIATION]`, `[E-MAIL]`; set them in `supplementary/scripts/esm_common.py` and rebuild the files).+}"
+  }
+ ]
+}

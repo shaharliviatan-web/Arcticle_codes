@@ -1,0 +1,379 @@
+{
+ "by_doi": null,
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      16
+     ]
+    ],
+    "date-time": "2024-01-16T18:21:10Z",
+    "timestamp": 1705429270137
+   },
+   "reference-count": 0,
+   "publisher": "JSTOR",
+   "issue": "3",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Biometrics"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      1987,
+      9
+     ]
+    ]
+   },
+   "DOI": "10.2307/2532027",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2006,
+      7,
+      5
+     ]
+    ],
+    "date-time": "2006-07-05T15:04:12Z",
+    "timestamp": 1152111852000
+   },
+   "page": "737",
+   "source": "Crossref",
+   "is-referenced-by-count": 2,
+   "title": [
+    "Correction: An Improved Sequentially Rejective Bonferroni Test Procedure"
+   ],
+   "prefix": "10.2307",
+   "volume": "43",
+   "member": "1121",
+   "container-title": [
+    "Biometrics"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      5,
+      9
+     ]
+    ],
+    "date-time": "2018-05-09T12:11:03Z",
+    "timestamp": 1525867863000
+   },
+   "score": 46.36841,
+   "resource": {
+    "primary": {
+     "URL": "https://www.jstor.org/stable/2532027?origin=crossref"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1987,
+      9
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       1987,
+       9
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.2307/2532027",
+   "ISSN": [
+    "0006-341X"
+   ],
+   "issn-type": [
+    {
+     "value": "0006-341X",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1987,
+      9
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      23
+     ]
+    ],
+    "date-time": "2026-09-23T18:42:29Z",
+    "timestamp": 1790188949215,
+    "version": "4.1.0"
+   },
+   "reference-count": 0,
+   "publisher": "JSTOR",
+   "issue": "2",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Biometrics"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      1987,
+      6
+     ]
+    ]
+   },
+   "DOI": "10.2307/2531823",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2006,
+      7,
+      5
+     ]
+    ],
+    "date-time": "2006-07-05T11:03:49Z",
+    "timestamp": 1152097429000
+   },
+   "page": "417",
+   "source": "Crossref",
+   "is-referenced-by-count": 300,
+   "title": [
+    "An Improved Sequentially Rejective Bonferroni Test Procedure"
+   ],
+   "prefix": "10.2307",
+   "volume": "43",
+   "author": [
+    {
+     "given": "Burt S.",
+     "family": "Holland",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Margaret DiPonzio",
+     "family": "Copenhaver",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1121",
+   "container-title": [
+    "Biometrics"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      4,
+      18
+     ]
+    ],
+    "date-time": "2018-04-18T18:17:31Z",
+    "timestamp": 1524075451000
+   },
+   "score": 43.477272,
+   "resource": {
+    "primary": {
+     "URL": "https://www.jstor.org/stable/2531823?origin=crossref"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1987,
+      6
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "2",
+    "published-print": {
+     "date-parts": [
+      [
+       1987,
+       6
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.2307/2531823",
+   "ISSN": [
+    "0006-341X"
+   ],
+   "issn-type": [
+    {
+     "value": "0006-341X",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1987,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      4
+     ]
+    ],
+    "date-time": "2025-11-04T22:57:15Z",
+    "timestamp": 1762297035389
+   },
+   "reference-count": 0,
+   "publisher": "JSTOR",
+   "issue": "3",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Biometrika"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      1990,
+      9
+     ]
+    ]
+   },
+   "DOI": "10.2307/2337008",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2006,
+      4,
+      23
+     ]
+    ],
+    "date-time": "2006-04-23T10:24:21Z",
+    "timestamp": 1145787861000
+   },
+   "page": "663",
+   "source": "Crossref",
+   "is-referenced-by-count": 5,
+   "title": [
+    "A Sequentially Rejective Test Procedure Based on a Modified Bonferroni Inequality"
+   ],
+   "prefix": "10.2307",
+   "volume": "77",
+   "author": [
+    {
+     "given": "Dror M.",
+     "family": "Rom",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "1121",
+   "container-title": [
+    "Biometrika"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      5,
+      9
+     ]
+    ],
+    "date-time": "2018-05-09T12:13:22Z",
+    "timestamp": 1525868002000
+   },
+   "score": 42.562397,
+   "resource": {
+    "primary": {
+     "URL": "https://www.jstor.org/stable/2337008?origin=crossref"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1990,
+      9
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       1990,
+       9
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.2307/2337008",
+   "ISSN": [
+    "0006-3444"
+   ],
+   "issn-type": [
+    {
+     "value": "0006-3444",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1990,
+      9
+     ]
+    ]
+   }
+  }
+ ]
+}

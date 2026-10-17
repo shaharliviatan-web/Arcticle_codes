@@ -1,0 +1,2971 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     25
+    ]
+   ],
+   "date-time": "2026-09-25T03:12:54Z",
+   "timestamp": 1790305974387,
+   "version": "4.1.0"
+  },
+  "reference-count": 45,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "D1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       11,
+       26
+      ]
+     ],
+     "date-time": "2025-11-26T00:00:00Z",
+     "timestamp": 1764115200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/100010269",
+    "name": "Wellcome Trust",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "212925/Z/18/Z"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "212925/Z/18/Z"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100010269",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100010269",
+    "name": "Wellcome Trust",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "226458/Z/22/Z"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "226458/Z/22/Z"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100010269",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100010269",
+    "name": "Wellcome Trust",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "226083/Z/22/Z"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "226083/Z/22/Z"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100010269",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100010269",
+    "name": "Wellcome Trust",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "222155/Z/20/Z"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "222155/Z/20/Z"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100010269",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000002",
+    "name": "National Institutes of Health",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "2U24HG007234-09"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2U24HG007234-09"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000002",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000002",
+    "name": "National Institutes of Health",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "U41HG010972"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "U41HG010972"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000002",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000002",
+    "name": "National Institutes of Health",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "R01 HG010485"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "R01 HG010485"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000002",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000002",
+    "name": "National Institutes of Health",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "U24HG011451"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "U24HG011451"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000002",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000002",
+    "name": "National Institutes of Health",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "2U24HG007497-05"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2U24HG007497-05"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000002",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000936",
+    "name": "Gordon and Betty Moore Foundation",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "CBMF8897"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "CBMF8897"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000936",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     6
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The Ensembl project (https://www.ensembl.org) is a public and open resource providing access to genomes, annotations, high-quality tools, and methods applicable to species from across the tree of life. This year has witnessed nearly a doubling in our rate of annotation and genome release, with 1927 new genomes released, with the total number of genomes now standing at 37\u2009546. This includes expanded support for the human and barley pangenomes. We also present two new interfaces providing improved mechanisms to explore and interrogate genome regulation annotations. As our focus remains on sustainable scaling, we have archived Ensembl Rapid Release and accelerated the move to the new Ensembl platform. Ensembl release 116 (Q1-2026) will be the last release on the current platform.</jats:p>",
+  "DOI": "10.1093/nar/gkaf1239",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     26
+    ]
+   ],
+   "date-time": "2025-11-26T17:19:29Z",
+   "timestamp": 1764177569000
+  },
+  "page": "D1053-D1060",
+  "source": "Crossref",
+  "is-referenced-by-count": 32,
+  "title": [
+   "Ensembl 2026"
+  ],
+  "prefix": "10.1093",
+  "volume": "54",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-8886-4772",
+    "authenticated-orcid": false,
+    "given": "Andrew D",
+    "family": "Yates",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Olanrewaju",
+    "family": "Austine-Orimoloye",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andrey G",
+    "family": "Azov",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7882-8356",
+    "authenticated-orcid": false,
+    "given": "Matthieu",
+    "family": "Barba",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "If",
+    "family": "Barnes",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vianey Paola",
+    "family": "Barrera-Enriquez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Arne",
+    "family": "Becker",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ruth",
+    "family": "Bennett",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andrew",
+    "family": "Berry",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jyothish",
+    "family": "Bhai",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Simarpreet Kaur",
+    "family": "Bhurji",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Paulo R",
+    "family": "Branco\u00a0Lins",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lucy",
+    "family": "Brooks",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shashank",
+    "family": "Budhanuru\u00a0Ramaraju",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lahcen I",
+    "family": "Campbell",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Manuel",
+    "family": "Carbajo\u00a0Martinez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jack",
+    "family": "Carpenter",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     },
+     {
+      "name": "School of Biosciences, Cardiff University , Cardiff CF10 3AX ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mehrnaz",
+    "family": "Charkhchi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lucas A",
+    "family": "Cortes",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     },
+     {
+      "name": "Faculty of Medical Sciences, Newcastle University , Newcastle upon Tyne NE1 7RU,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Claire",
+    "family": "Davidson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Suzanna",
+    "family": "Dickson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     },
+     {
+      "name": "School of Life Sciences, University of Warwick , Coventry CV4 7AL ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kamalkumar",
+    "family": "Dodiya",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sarah",
+    "family": "Donaldson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bilal",
+    "family": "El\u00a0Houdaigui",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tamara",
+    "family": "El\u00a0Naboulsi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aine",
+    "family": "Fairbrother-Browne",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Oluwadamilare",
+    "family": "Falola",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Reham",
+    "family": "Fatima",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jose",
+    "family": "Gonzalez\u00a0Martinez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7537-8871",
+    "authenticated-orcid": false,
+    "given": "Tatiana",
+    "family": "Gurbich",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Holly",
+    "family": "Hall",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Matthew",
+    "family": "Hardy",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zoe",
+    "family": "Hollis",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Toby",
+    "family": "Hunt",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mike",
+    "family": "Kay",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vinay",
+    "family": "Kaikala",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Anna",
+    "family": "Lazar",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Diana",
+    "family": "Lemos",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1592-9395",
+    "authenticated-orcid": false,
+    "given": "Disha",
+    "family": "Lodha",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nourhen",
+    "family": "Mathlouthi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gabriela A",
+    "family": "Merino",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ryan",
+    "family": "Merritt",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Louisse Paola",
+    "family": "Mirabueno",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aleena",
+    "family": "Mushtaq",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Syed",
+    "family": "Nakib\u00a0Hossain",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jos\u00e9 G",
+    "family": "P\u00e9rez-Silva",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ivana",
+    "family": "Pili\u017eota",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Daniel",
+    "family": "Poppleton",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Irina",
+    "family": "Prosovetskaia",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1973-6347",
+    "authenticated-orcid": false,
+    "given": "Shriya",
+    "family": "Raj",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ahamed Imran Abdul",
+    "family": "Salam",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6433-8356",
+    "authenticated-orcid": false,
+    "given": "Shradha",
+    "family": "Saraf",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Swati",
+    "family": "Sinha",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Botond",
+    "family": "Sipos",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vasily",
+    "family": "Sitnik",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0380-7171",
+    "authenticated-orcid": false,
+    "given": "Marie-Marthe",
+    "family": "Suner",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Likhitha",
+    "family": "Surapaneni",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jack A S",
+    "family": "Tierney",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "Urbina-G\u00f3mez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andres",
+    "family": "Veidenberg",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas A",
+    "family": "Walsh",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jamie M",
+    "family": "Allen",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jorge",
+    "family": "Alvarez-Jarreta",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jitender",
+    "family": "Cheema",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jorge",
+    "family": "Batista\u00a0da\u00a0Rocha",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4802-2375",
+    "authenticated-orcid": false,
+    "given": "Nishadi H",
+    "family": "De\u00a0Silva",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Francesca Floriana",
+    "family": "Tricomi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stefano",
+    "family": "Giorgetti",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Garth R",
+    "family": "Ilsley",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jon",
+    "family": "Keatley",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7669-2934",
+    "authenticated-orcid": false,
+    "given": "Jane E",
+    "family": "Loveland",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4789-7495",
+    "authenticated-orcid": false,
+    "given": "Jonathan M",
+    "family": "Mudge",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Guy",
+    "family": "Naamati",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John",
+    "family": "Tate",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Natalie L",
+    "family": "Willhoft",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andrea",
+    "family": "Winterbottom",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bethany R",
+    "family": "Flint",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4333-628X",
+    "authenticated-orcid": false,
+    "given": "Adam",
+    "family": "Frankish",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8843-3596",
+    "authenticated-orcid": false,
+    "given": "Leanne",
+    "family": "Haggerty",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8350-1235",
+    "authenticated-orcid": false,
+    "given": "Sarah E",
+    "family": "Hunt",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Emily L",
+    "family": "Clark",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5690-9633",
+    "authenticated-orcid": false,
+    "given": "Sarah C",
+    "family": "Dyer",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2949-3921",
+    "authenticated-orcid": false,
+    "given": "Mallory A",
+    "family": "Freeberg",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1672-050X",
+    "authenticated-orcid": false,
+    "given": "Fergal J",
+    "family": "Martin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8626-2148",
+    "authenticated-orcid": false,
+    "given": "Robert D",
+    "family": "Finn",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus , Hinxton , Cambridge CB10 1SD ,",
+      "place": [
+       "United Kingdom"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     26
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2026011523471989300_B1",
+    "doi-asserted-by": "crossref",
+    "first-page": "D243",
+    "DOI": "10.1093/nar/gkae1038",
+    "article-title": "NCBI RefSeq: reference sequence standards through 25 years of curation and annotation",
+    "volume": "53",
+    "author": "Goldfarb",
+    "year": "2025",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B2",
+    "doi-asserted-by": "publisher",
+    "first-page": "D808",
+    "DOI": "10.1093/nar/gkad1003",
+    "article-title": "VEuPathDB: the eukaryotic pathogen, vector and host bioinformatics resource center in 2023",
+    "volume": "52",
+    "author": "Alvarez-Jarreta",
+    "year": "2024",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B3",
+    "doi-asserted-by": "publisher",
+    "first-page": "D62",
+    "DOI": "10.1093/nar/gkae1058",
+    "article-title": "The international nucleotide sequence database collaboration (INSDC): enhancing global participation",
+    "volume": "53",
+    "author": "Karsch-Mizrachi",
+    "year": "2024",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B4",
+    "doi-asserted-by": "publisher",
+    "first-page": "D20",
+    "DOI": "10.1093/nar/gkae979",
+    "article-title": "Database resources of the National Center for Biotechnology Information in 2025",
+    "volume": "53",
+    "author": "Sayers",
+    "year": "2025",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B5",
+    "doi-asserted-by": "publisher",
+    "first-page": "D1243",
+    "DOI": "10.1093/nar/gkae974",
+    "article-title": "The UCSC Genome Browser database: 2025 update",
+    "volume": "53",
+    "author": "Perez",
+    "year": "2025",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B6",
+    "doi-asserted-by": "crossref",
+    "first-page": "bar030",
+    "DOI": "10.1093/database/bar030",
+    "article-title": "Ensembl BioMarts: a hub for data retrieval across taxonomic space",
+    "volume": "2011",
+    "author": "Kinsella",
+    "year": "2011",
+    "journal-title": "Database"
+   },
+   {
+    "key": "2026011523471989300_B7",
+    "doi-asserted-by": "publisher",
+    "first-page": "143",
+    "DOI": "10.1093/bioinformatics/btu613",
+    "article-title": "The Ensembl REST API: ensembl data for any language",
+    "volume": "31",
+    "author": "Yates",
+    "year": "2015",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2026011523471989300_B8",
+    "doi-asserted-by": "publisher",
+    "first-page": "122",
+    "DOI": "10.1186/s13059-016-0974-4",
+    "article-title": "The Ensembl Variant Effect Predictor",
+    "volume": "17",
+    "author": "McLaren",
+    "year": "2016",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2026011523471989300_B9",
+    "doi-asserted-by": "crossref",
+    "first-page": "e2115642118",
+    "DOI": "10.1073/pnas.2115642118",
+    "article-title": "Sequence locally, think globally: the Darwin Tree of Life Project",
+    "volume": "119",
+    "author": "The Darwin Tree of Life Project Consortium",
+    "year": "2022",
+    "journal-title": "Proc Natl Acad Sci USA"
+   },
+   {
+    "key": "2026011523471989300_B10",
+    "doi-asserted-by": "publisher",
+    "first-page": "252",
+    "DOI": "10.1038/d41586-023-02229-w",
+    "article-title": "Biodiversity: an atlas of European reference genomes",
+    "volume": "619",
+    "author": "Mazzoni",
+    "year": "2023",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2026011523471989300_B11",
+    "doi-asserted-by": "publisher",
+    "first-page": "254",
+    "DOI": "10.12688/wellcomeopenres.17222.2",
+    "article-title": "The Aquatic Symbiosis Genomics Project: probing the evolution of symbiosis across the Tree of Life",
+    "volume": "6",
+    "author": "McKenna",
+    "year": "2024",
+    "journal-title": "Wellcome Open Res"
+   },
+   {
+    "key": "2026011523471989300_B12",
+    "doi-asserted-by": "publisher",
+    "first-page": "4325",
+    "DOI": "10.1073/pnas.1720115115",
+    "article-title": "Earth BioGenome Project: sequencing life for the future of life",
+    "volume": "115",
+    "author": "Lewin",
+    "year": "2018",
+    "journal-title": "Proc Natl Acad Sci USA"
+   },
+   {
+    "key": "2026011523471989300_B13",
+    "doi-asserted-by": "publisher",
+    "first-page": "429",
+    "DOI": "10.1038/s41586-025-09270-x",
+    "article-title": "A haplotype-resolved pangenome of the barley wild relative Hordeum bulbosum",
+    "volume": "645",
+    "author": "Feng",
+    "year": "2025",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2026011523471989300_B14",
+    "doi-asserted-by": "publisher",
+    "first-page": "43",
+    "DOI": "10.1038/s41586-018-0063-9",
+    "article-title": "Genomic variation in 3,010 diverse accessions of Asian cultivated rice",
+    "volume": "557",
+    "author": "Wang",
+    "year": "2018",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2026011523471989300_B15",
+    "doi-asserted-by": "crossref",
+    "unstructured": "3,000 rice genomes project . The 3,000 rice genomes project. Gigascience. 2014;3:7.",
+    "DOI": "10.1186/2047-217X-3-7"
+   },
+   {
+    "key": "2026011523471989300_B16",
+    "doi-asserted-by": "publisher",
+    "first-page": "823",
+    "DOI": "10.1038/s41586-024-07682-9",
+    "article-title": "Harnessing landrace diversity empowers wheat breeding",
+    "volume": "632",
+    "author": "Cheng",
+    "year": "2024",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2026011523471989300_B17",
+    "doi-asserted-by": "publisher",
+    "first-page": "2235",
+    "DOI": "10.1111/pbi.14341",
+    "article-title": "Development of a next generation snp genotyping array for wheat",
+    "volume": "22",
+    "author": "Burridge",
+    "year": "2024",
+    "journal-title": "Plant Biotechnol J"
+   },
+   {
+    "key": "2026011523471989300_B18",
+    "doi-asserted-by": "publisher",
+    "first-page": "uhad061",
+    "DOI": "10.1093/hr/uhad061",
+    "article-title": "The complete reference genome for grapevine (Vitis vinifera L.) genetics and breeding",
+    "volume": "10",
+    "author": "Shi",
+    "year": "2023",
+    "journal-title": "Hortic Res"
+   },
+   {
+    "key": "2026011523471989300_B19",
+    "doi-asserted-by": "publisher",
+    "first-page": "285",
+    "DOI": "10.1186/s13059-020-02197-8",
+    "article-title": "From FAANG to fork: application of highly annotated genomes to improve farmed animal production",
+    "volume": "21",
+    "author": "Clark",
+    "year": "2020",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2026011523471989300_B20",
+    "doi-asserted-by": "publisher",
+    "first-page": "698",
+    "DOI": "10.1186/s12864-020-07078-9",
+    "article-title": "A comparative analysis of chromatin accessibility in cattle, pig, and mouse tissues",
+    "volume": "21",
+    "author": "Halstead",
+    "year": "2020",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "key": "2026011523471989300_B21",
+    "doi-asserted-by": "publisher",
+    "first-page": "1821",
+    "DOI": "10.1038/s41467-021-22100-8",
+    "article-title": "Functional annotations of three domestic animal genomes provide vital resources for comparative and agricultural research",
+    "volume": "12",
+    "author": "Kern",
+    "year": "2021",
+    "journal-title": "Nat Commun"
+   },
+   {
+    "key": "2026011523471989300_B22",
+    "doi-asserted-by": "crossref",
+    "first-page": "421",
+    "DOI": "10.1186/1471-2105-10-421",
+    "article-title": "BLAST+: architecture and applications",
+    "volume": "10",
+    "author": "Camacho",
+    "year": "2009",
+    "journal-title": "BMC Bioinformatics"
+   },
+   {
+    "key": "2026011523471989300_B23",
+    "doi-asserted-by": "publisher",
+    "first-page": "btae685",
+    "DOI": "10.1093/bioinformatics/btae685",
+    "article-title": "Tiberius: end-to-end deep learning with an HMM for gene prediction",
+    "volume": "40",
+    "author": "Gabriel",
+    "year": "2024",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2026011523471989300_B24",
+    "doi-asserted-by": "publisher",
+    "article-title": "Helixer\u2014de novo prediction of primary eukaryotic gene models combining deep learning and a hidden Markov model",
+    "author": "Holst",
+    "DOI": "10.1101/2023.02.06.527280,"
+   },
+   {
+    "key": "2026011523471989300_B25",
+    "doi-asserted-by": "publisher",
+    "first-page": "lqaa108",
+    "DOI": "10.1093/nargab/lqaa108",
+    "article-title": "BRAKER2: automatic eukaryotic genome annotation with GeneMark-EP+ and AUGUSTUS supported by a protein database",
+    "volume": "3",
+    "author": "Br\u016fna",
+    "year": "2021",
+    "journal-title": "NAR Genomics Bioinforma"
+   },
+   {
+    "key": "2026011523471989300_B26",
+    "doi-asserted-by": "publisher",
+    "first-page": "D966",
+    "DOI": "10.1093/nar/gkae1078",
+    "article-title": "GENCODE 2025: reference gene annotation for human and mouse",
+    "volume": "53",
+    "author": "Mudge",
+    "year": "2025",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B27",
+    "doi-asserted-by": "publisher",
+    "article-title": "GENCODE: massively expanding the lncRNA catalog through capture long-read RNA sequencing",
+    "author": "Kaur",
+    "DOI": "10.1101/2024.10.29.620654,"
+   },
+   {
+    "key": "2026011523471989300_B28",
+    "doi-asserted-by": "publisher",
+    "first-page": "D948",
+    "DOI": "10.1093/nar/gkae1071",
+    "article-title": "Ensembl 2025",
+    "volume": "53",
+    "author": "Dyer",
+    "year": "2025",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B29",
+    "doi-asserted-by": "publisher",
+    "first-page": "310",
+    "DOI": "10.1038/s41586-022-04558-8",
+    "article-title": "A joint NCBI and EMBL-EBI transcript set for clinical genomics and research",
+    "volume": "604",
+    "author": "Morales",
+    "year": "2022",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2026011523471989300_B30",
+    "article-title": "RNU4atac-opathy",
+    "volume-title": "GeneReviews\u00ae",
+    "author": "Duker",
+    "year": "1993"
+   },
+   {
+    "key": "2026011523471989300_B31",
+    "doi-asserted-by": "publisher",
+    "first-page": "312",
+    "DOI": "10.1038/s41586-023-05896-x",
+    "article-title": "A draft human pangenome reference",
+    "volume": "617",
+    "author": "Liao",
+    "year": "2023",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2026011523471989300_B32",
+    "doi-asserted-by": "publisher",
+    "first-page": "D8",
+    "DOI": "10.1093/nar/gkx1095",
+    "article-title": "Database resources of the National Center for Biotechnology Information",
+    "volume": "46",
+    "author": "Resource\u00a0Coordinators",
+    "year": "2018",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B33",
+    "doi-asserted-by": "publisher",
+    "first-page": "92",
+    "DOI": "10.1038/s41586-023-06045-0",
+    "article-title": "A genomic mutational constraint map using variation in 76,156 human genomes",
+    "volume-title": "Nature",
+    "author": "Chen",
+    "year": "2024"
+   },
+   {
+    "key": "2026011523471989300_B34",
+    "doi-asserted-by": "publisher",
+    "first-page": "D977",
+    "DOI": "10.1093/nar/gkac1010",
+    "article-title": "The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource",
+    "volume": "51",
+    "author": "Sollis",
+    "year": "2023",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B35",
+    "doi-asserted-by": "publisher",
+    "first-page": "D1210",
+    "DOI": "10.1093/nar/gkad986",
+    "article-title": "COSMIC: a curated database of somatic variants and clinical data for cancer",
+    "volume": "52",
+    "author": "Sondka",
+    "year": "2024",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B36",
+    "doi-asserted-by": "publisher",
+    "first-page": "D1500",
+    "DOI": "10.1093/nar/g1046",
+    "article-title": "BioSamples database: fAIRer samples metadata to accelerate research data management",
+    "volume": "50",
+    "author": "Courtot",
+    "year": "2022",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B37",
+    "doi-asserted-by": "publisher",
+    "first-page": "D882",
+    "DOI": "10.1093/nar/gkz1062",
+    "article-title": "New developments on the Encyclopedia of DNA Elements (ENCODE) data portal",
+    "volume": "48",
+    "author": "Luo",
+    "year": "2020",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B38",
+    "doi-asserted-by": "publisher",
+    "first-page": "668",
+    "DOI": "10.1056/NEJMsr1809937",
+    "article-title": "The \u201cAll of Us\u201d Research Program",
+    "volume": "381",
+    "author": "The All of Us Research Program Investigators",
+    "year": "2019",
+    "journal-title": "N Engl J Med"
+   },
+   {
+    "key": "2026011523471989300_B39",
+    "doi-asserted-by": "publisher",
+    "first-page": "D1062",
+    "DOI": "10.1093/narx1153",
+    "article-title": "ClinVar: improving access to variant interpretations and supporting evidence",
+    "volume": "46",
+    "author": "Landrum",
+    "year": "2018",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B40",
+    "doi-asserted-by": "publisher",
+    "first-page": "13",
+    "DOI": "10.1186/s13059-025-03476-y",
+    "article-title": "MaveDB 2024: a curated community database with over seven million variant effects from multiplexed functional assays",
+    "volume": "26",
+    "author": "Rubin",
+    "year": "2025",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2026011523471989300_B41",
+    "doi-asserted-by": "publisher",
+    "first-page": "179",
+    "DOI": "10.1186/s13059-025-03647-x",
+    "article-title": "Mapping MAVE data for use in human genomics applications",
+    "volume": "26",
+    "author": "Arbesfeld",
+    "year": "2025",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2026011523471989300_B42",
+    "doi-asserted-by": "publisher",
+    "first-page": "e0307312",
+    "DOI": "10.1371/journal.pone.0307312",
+    "article-title": "Proteome-scale prediction of molecular mechanisms underlying dominant genetic diseases",
+    "volume": "19",
+    "author": "Badonyi",
+    "year": "2024",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "2026011523471989300_B43",
+    "doi-asserted-by": "publisher",
+    "first-page": "D1216",
+    "DOI": "10.1093/nar/gkab960",
+    "article-title": "The European Variation Archive: a FAIR resource of genomic variation for all species",
+    "volume": "50",
+    "author": "Cezard",
+    "year": "2022",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2026011523471989300_B44",
+    "doi-asserted-by": "publisher",
+    "first-page": "1514835",
+    "DOI": "10.3389/fsci.2025.1514835",
+    "article-title": "The Earth BioGenome Project Phase II: illuminating the eukaryotic tree of life",
+    "volume": "3",
+    "author": "Blaxter",
+    "year": "2025",
+    "journal-title": "Front Sci"
+   },
+   {
+    "key": "2026011523471989300_B45",
+    "doi-asserted-by": "publisher",
+    "first-page": "262D",
+    "DOI": "10.1093/nar/gkh021",
+    "article-title": "The Gene Ontology Annotation (GOA) Database: sharing knowledge in Uniprot with Gene Ontology",
+    "volume": "32",
+    "author": "Camon",
+    "year": "2004",
+    "journal-title": "Nucleic Acids Res"
+   }
+  ],
+  "container-title": [
+   "Nucleic Acids Research"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://academic.oup.com/nar/article-pdf/54/D1/D1053/65551620/gkaf1239.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/nar/article-pdf/54/D1/D1053/65551620/gkaf1239.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     16
+    ]
+   ],
+   "date-time": "2026-01-16T04:47:34Z",
+   "timestamp": 1768538854000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/nar/article/54/D1/D1053/8343504"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     26
+    ]
+   ]
+  },
+  "references-count": 45,
+  "journal-issue": {
+   "issue": "D1",
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      6
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/nar/gkaf1239",
+  "relation": {},
+  "ISSN": [
+   "0305-1048",
+   "1362-4962"
+  ],
+  "issn-type": [
+   {
+    "value": "0305-1048",
+    "type": "print"
+   },
+   {
+    "value": "1362-4962",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     6
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     26
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      27
+     ]
+    ],
+    "date-time": "2025-10-27T15:49:32Z",
+    "timestamp": 1761580172959
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "90001",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Nucleic Acids Research"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2004,
+      1,
+      1
+     ]
+    ]
+   },
+   "DOI": "10.1093/nar/gkh038",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2003,
+      12,
+      17
+     ]
+    ],
+    "date-time": "2003-12-17T20:53:08Z",
+    "timestamp": 1071694388000
+   },
+   "page": "468D-470",
+   "source": "Crossref",
+   "is-referenced-by-count": 109,
+   "title": [
+    "Ensembl 2004"
+   ],
+   "prefix": "10.1093",
+   "volume": "32",
+   "author": [
+    {
+     "given": "E.",
+     "family": "Birney",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "container-title": [
+    "Nucleic Acids Research"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/nar/article-pdf/32/suppl_1/D468/7621376/gkh038.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2017,
+      8,
+      24
+     ]
+    ],
+    "date-time": "2017-08-24T08:39:28Z",
+    "timestamp": 1503563968000
+   },
+   "score": 41.54766,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkh038"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2004,
+      1,
+      1
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "90001",
+    "published-print": {
+     "date-parts": [
+      [
+       2004,
+       1,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/nar/gkh038",
+   "ISSN": [
+    "1362-4962"
+   ],
+   "issn-type": [
+    {
+     "value": "1362-4962",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2004,
+      1,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      5,
+      20
+     ]
+    ],
+    "date-time": "2026-05-20T16:10:19Z",
+    "timestamp": 1779293419161,
+    "version": "3.51.4"
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "Database issue",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Nucleic Acids Research"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2004,
+      12,
+      17
+     ]
+    ]
+   },
+   "DOI": "10.1093/nar/gki138",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2004,
+      12,
+      17
+     ]
+    ],
+    "date-time": "2004-12-17T20:47:57Z",
+    "timestamp": 1103316477000
+   },
+   "page": "D447-D453",
+   "source": "Crossref",
+   "is-referenced-by-count": 265,
+   "title": [
+    "Ensembl 2005"
+   ],
+   "prefix": "10.1093",
+   "volume": "33",
+   "author": [
+    {
+     "given": "T.",
+     "family": "Hubbard",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "container-title": [
+    "Nucleic Acids Research"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/nar/article-pdf/33/suppl_1/D447/7622565/gki138.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2017,
+      8,
+      24
+     ]
+    ],
+    "date-time": "2017-08-24T08:41:10Z",
+    "timestamp": 1503564070000
+   },
+   "score": 41.23753,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gki138"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2004,
+      12,
+      17
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "Database issue",
+    "published-print": {
+     "date-parts": [
+      [
+       2004,
+       12,
+       17
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/nar/gki138",
+   "ISSN": [
+    "1362-4962"
+   ],
+   "issn-type": [
+    {
+     "value": "1362-4962",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2004,
+      12,
+      17
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2026-08-23T15:41:43Z",
+    "timestamp": 1787499703065,
+    "version": "build-2736575974"
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "90001",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Nucleic Acids Research"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2006,
+      1,
+      1
+     ]
+    ]
+   },
+   "DOI": "10.1093/nar/gkj133",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2005,
+      12,
+      28
+     ]
+    ],
+    "date-time": "2005-12-28T13:27:47Z",
+    "timestamp": 1135776467000
+   },
+   "page": "D556-D561",
+   "source": "Crossref",
+   "is-referenced-by-count": 272,
+   "title": [
+    "Ensembl 2006"
+   ],
+   "prefix": "10.1093",
+   "volume": "34",
+   "author": [
+    {
+     "given": "E.",
+     "family": "Birney",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "container-title": [
+    "Nucleic Acids Research"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/nar/article-pdf/34/suppl_1/D556/3926091/gkj133.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2017,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2017-08-23T16:13:27Z",
+    "timestamp": 1503504807000
+   },
+   "score": 40.788853,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkj133"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2006,
+      1,
+      1
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "90001",
+    "published-print": {
+     "date-parts": [
+      [
+       2006,
+       1,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/nar/gkj133",
+   "ISSN": [
+    "0305-1048",
+    "1362-4962"
+   ],
+   "issn-type": [
+    {
+     "value": "0305-1048",
+     "type": "print"
+    },
+    {
+     "value": "1362-4962",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2006,
+      1,
+      1
+     ]
+    ]
+   }
+  }
+ ]
+}

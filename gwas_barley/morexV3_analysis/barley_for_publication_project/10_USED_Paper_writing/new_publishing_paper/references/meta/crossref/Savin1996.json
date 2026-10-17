@@ -1,0 +1,758 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     16
+    ]
+   ],
+   "date-time": "2026-09-16T08:09:40Z",
+   "timestamp": 1789546180147,
+   "version": "build-2803163510"
+  },
+  "reference-count": 0,
+  "publisher": "CSIRO Publishing",
+  "issue": "2",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       4,
+       22
+      ]
+     ],
+     "date-time": "2025-04-22T00:00:00Z",
+     "timestamp": 1745280000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 10613,
+    "URL": "https://doi.org/10.1071/journalslicense"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     1996,
+     4,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:p>Short periods (3-5 days) of high maximum temperature (&amp;gt;35\u00baC), often accompanied by drought, commonly occur during grain filling of cereals. Short periods of high temperature have been shown to reduce grain weight and baking quality in wheat, but little is known about their effects on barley. Consequently, we examined the effects of high temperature and drought, alone or combined, on grain growth for two barley cultivars, Schooner and Franklin. Treatments started 15 days after anthesis and consisted of the factorial combination of three temperatures and three water regimes. The high temperature (maximum 40\u00baC for 6 h day-1) and drought treatments were maintained for 5 or 10 days. Drought reduced individual grain weight much more (ca 20%) than high temperature (ca 5%) for both cultivars. Franklin appeared to be more sensitive to heat stress than Schooner. The reduction in individual grain weight was greatest when both stresses were combimed (ca 30%). The reduction in mature grain weight under high temperature was due to a reduction in duration of grain growth for Schooner and to a reduction in both rate and duration of grain growth for Franklin (8-12%). The reduction in duration of grain growth was the most important cause of reduced grain weight at maturity under drought alone (12-25%) or combined with high temperature (25-33%). Nitrogen content per grain was quite high and similar for all treatments, and nitrogen percentage increased when stress was severe enough to reduce starch accumulation, confirming that starch accumulation is more sensitive to post- anthesis stress than nitrogen accumulation. We conclude that drought, particularly when combined with high temperature, is more likely than heat stress to cause large reductions in grain weight of barley under field conditions.</jats:p>",
+  "DOI": "10.1071/pp9960201",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     1,
+     3
+    ]
+   ],
+   "date-time": "2006-01-03T20:23:40Z",
+   "timestamp": 1136319820000
+  },
+  "page": "201-210",
+  "source": "Crossref",
+  "is-referenced-by-count": 166,
+  "title": [
+   "Effects of Short Periods of Drought and High Temperature on Grain Growth and Starch Accumulation of Two Malting Barley Cultivars"
+  ],
+  "prefix": "10.1071",
+  "volume": "23",
+  "author": [
+   {
+    "given": "R",
+    "family": "Savin",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "ME",
+    "family": "Nicolas",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "67",
+  "container-title": [
+   "Australian Journal of Plant Physiology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://connectsci.au/fp/article-pdf/23/2/201/109497/pp9960201.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://connectsci.au/fp/article-pdf/23/2/201/109497/pp9960201.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     18
+    ]
+   ],
+   "date-time": "2025-11-18T08:42:28Z",
+   "timestamp": 1763455348000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://connectsci.au/fp/article/23/2/201/14354/Effects-of-Short-Periods-of-Drought-and-High"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1996,
+     4,
+     1
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "2",
+   "published-print": {
+    "date-parts": [
+     [
+      1996,
+      4,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1071/pp9960201",
+  "relation": {},
+  "ISSN": [
+   "0310-7841",
+   "1446-5655"
+  ],
+  "issn-type": [
+   {
+    "value": "0310-7841",
+    "type": "print"
+   },
+   {
+    "value": "1446-5655",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1996,
+     4,
+     1
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      16
+     ]
+    ],
+    "date-time": "2026-09-16T08:09:40Z",
+    "timestamp": 1789546180147,
+    "version": "build-2803163510"
+   },
+   "reference-count": 0,
+   "publisher": "CSIRO Publishing",
+   "issue": "2",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        4,
+        22
+       ]
+      ],
+      "date-time": "2025-04-22T00:00:00Z",
+      "timestamp": 1745280000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 10613,
+     "URL": "https://doi.org/10.1071/journalslicense"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1996,
+      4,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:p>Short periods (3-5 days) of high maximum temperature (&amp;gt;35\u00baC), often accompanied by drought, commonly occur during grain filling of cereals. Short periods of high temperature have been shown to reduce grain weight and baking quality in wheat, but little is known about their effects on barley. Consequently, we examined the effects of high temperature and drought, alone or combined, on grain growth for two barley cultivars, Schooner and Franklin. Treatments started 15 days after anthesis and consisted of the factorial combination of three temperatures and three water regimes. The high temperature (maximum 40\u00baC for 6 h day-1) and drought treatments were maintained for 5 or 10 days. Drought reduced individual grain weight much more (ca 20%) than high temperature (ca 5%) for both cultivars. Franklin appeared to be more sensitive to heat stress than Schooner. The reduction in individual grain weight was greatest when both stresses were combimed (ca 30%). The reduction in mature grain weight under high temperature was due to a reduction in duration of grain growth for Schooner and to a reduction in both rate and duration of grain growth for Franklin (8-12%). The reduction in duration of grain growth was the most important cause of reduced grain weight at maturity under drought alone (12-25%) or combined with high temperature (25-33%). Nitrogen content per grain was quite high and similar for all treatments, and nitrogen percentage increased when stress was severe enough to reduce starch accumulation, confirming that starch accumulation is more sensitive to post- anthesis stress than nitrogen accumulation. We conclude that drought, particularly when combined with high temperature, is more likely than heat stress to cause large reductions in grain weight of barley under field conditions.</jats:p>",
+   "DOI": "10.1071/pp9960201",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2006,
+      1,
+      3
+     ]
+    ],
+    "date-time": "2006-01-03T20:23:40Z",
+    "timestamp": 1136319820000
+   },
+   "page": "201-210",
+   "source": "Crossref",
+   "is-referenced-by-count": 166,
+   "title": [
+    "Effects of Short Periods of Drought and High Temperature on Grain Growth and Starch Accumulation of Two Malting Barley Cultivars"
+   ],
+   "prefix": "10.1071",
+   "volume": "23",
+   "author": [
+    {
+     "given": "R",
+     "family": "Savin",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "ME",
+     "family": "Nicolas",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "67",
+   "container-title": [
+    "Australian Journal of Plant Physiology"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://connectsci.au/fp/article-pdf/23/2/201/109497/pp9960201.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://connectsci.au/fp/article-pdf/23/2/201/109497/pp9960201.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      18
+     ]
+    ],
+    "date-time": "2025-11-18T08:42:28Z",
+    "timestamp": 1763455348000
+   },
+   "score": 110.439354,
+   "resource": {
+    "primary": {
+     "URL": "https://connectsci.au/fp/article/23/2/201/14354/Effects-of-Short-Periods-of-Drought-and-High"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1996,
+      4,
+      1
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "2",
+    "published-print": {
+     "date-parts": [
+      [
+       1996,
+       4,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1071/pp9960201",
+   "ISSN": [
+    "0310-7841",
+    "1446-5655"
+   ],
+   "issn-type": [
+    {
+     "value": "0310-7841",
+     "type": "print"
+    },
+    {
+     "value": "1446-5655",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1996,
+      4,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T09:21:19Z",
+    "timestamp": 1768468879046,
+    "version": "3.49.0"
+   },
+   "reference-count": 0,
+   "publisher": "CSIRO Publishing",
+   "issue": "3",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        5,
+        21
+       ]
+      ],
+      "date-time": "2025-05-21T00:00:00Z",
+      "timestamp": 1747785600000
+     },
+     "content-version": "vor",
+     "delay-in-days": 10612,
+     "URL": "https://doi.org/10.1071/journalslicense"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1996,
+      5,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:p>Although environmental conditions during grain filling are often cited as the reason for decreases in malting quality of barley, little is actually known about the specific effects of different environmental conditions on grain yield and quality of barley. In the present study, an attempt was made to assess in the field the effects of short periods of high temperature (&amp;gt;35\u00a6C), using portable chambers with thermostatically controlled electric heaters, on grain yield and quality of barley. Two experiments were carried out in 2 consecutive years, involving the malting barley cultivars Schooner (first year) and Parwan (second year). The treatments were (i) control (no chamber, no heating) during the whole grain-filling period, (ii) plots with chambers heated to ca. 40\u00a6C for 6 h per day over 5 days starting 17 days after anthesis, and (iii) plots with non-heated chambers for 5 days from 17 days after anthesis. High temperature treatments reduced individual grain weight by 14% in Schooner and 25% in Parwan. There was a reduction in starch content and an increase in nitrogen content in the heat treatments compared to the control, but the G-glucan content was similar to the control. The resulting malt extract was reduced from 79 to 73% in Schooner and from 68.4 to 66.2% in Parwan in ,the heat stress treatment. The starch granule size distribution was also measured. Results indicate that decreases in grain dry matter were due to reductions in number rather than size of starch granules. It is concluded that high temperature reduced the amount of 'maltable' grain by reducing grain size and increasing the screening percentage, and also reduced malt extract by 3-7%, which represents a large decrease for the malting industry.</jats:p>",
+   "DOI": "10.1071/ar9960465",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2004,
+      11,
+      16
+     ]
+    ],
+    "date-time": "2004-11-16T23:59:23Z",
+    "timestamp": 1100649563000
+   },
+   "page": "465-477",
+   "source": "Crossref",
+   "is-referenced-by-count": 51,
+   "title": [
+    "Responses of grain growth and malting quality of barley to short periods of high temperature in field studies using portable chambers"
+   ],
+   "prefix": "10.1071",
+   "volume": "47",
+   "author": [
+    {
+     "given": "R",
+     "family": "Savin",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "PJ",
+     "family": "Stone",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "ME",
+     "family": "Nicolas",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "67",
+   "container-title": [
+    "Australian Journal of Agricultural Research"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://connectsci.au/cp/article-pdf/47/3/465/216904/ar9960465.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://connectsci.au/cp/article-pdf/47/3/465/216904/ar9960465.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      25
+     ]
+    ],
+    "date-time": "2025-10-25T03:55:15Z",
+    "timestamp": 1761364515000
+   },
+   "score": 71.89399,
+   "resource": {
+    "primary": {
+     "URL": "https://connectsci.au/cp/article/47/3/465/33179/Responses-of-grain-growth-and-malting-quality-of"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1996,
+      5,
+      1
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       1996,
+       5,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1071/ar9960465",
+   "ISSN": [
+    "0004-9409",
+    "1444-9838"
+   ],
+   "issn-type": [
+    {
+     "value": "0004-9409",
+     "type": "print"
+    },
+    {
+     "value": "1444-9838",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1996,
+      5,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      3
+     ]
+    ],
+    "date-time": "2026-06-03T15:15:19Z",
+    "timestamp": 1780499719082,
+    "version": "3.54.1"
+   },
+   "reference-count": 0,
+   "publisher": "CSIRO Publishing",
+   "issue": "5",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        5,
+        21
+       ]
+      ],
+      "date-time": "2025-05-21T00:00:00Z",
+      "timestamp": 1747785600000
+     },
+     "content-version": "vor",
+     "delay-in-days": 10213,
+     "URL": "https://doi.org/10.1071/journalslicense"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1997,
+      6,
+      4
+     ]
+    ]
+   },
+   "abstract": "<jats:p>In this study, controlled-environment conditions were used to compare the effects of moderately high and very high temperatures during grain filling on grain growth and malting quality of barley.</jats:p>\n                  <jats:p>Heat stress applied from 15 to 20 days after anthesis (DAA) reduced grain weight by about 35%, whereas longer periods (15\u201320 days) of moderately high temperature applied from 20 DAA to maturity reduced grain weight by about 6%. Both heat stress and moderately high temperature resulted in reduced grain weight through a reduction in the duration of grain filling.</jats:p>\n                  <jats:p>Grain composition was altered by both moderately high and very high temperatures, although the changes were larger under very high temperatures. In general, there was a decrease in starch content, resulting from the reduction in both volume and number of A- and B-type starch granules. Nitrogen concentration was significantly increased only in the 30/25\u00b0C treatments, and changes in diastatic power were only minor. There was a reduction in \u00df-glucan content, together with an increase in \u00df-glucan degradation. However, malt extract was not significantly affected by these stresses.</jats:p>",
+   "DOI": "10.1071/a96064",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2004,
+      8,
+      5
+     ]
+    ],
+    "date-time": "2004-08-05T18:46:02Z",
+    "timestamp": 1091731562000
+   },
+   "page": "615-624",
+   "source": "Crossref",
+   "is-referenced-by-count": 67,
+   "title": [
+    "Grain growth and malting quality of barley. 1. Effects of heat stress and moderately high temperature"
+   ],
+   "prefix": "10.1071",
+   "volume": "48",
+   "author": [
+    {
+     "given": "Roxana",
+     "family": "Savin",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Peter J.",
+     "family": "Stone",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Marc E.",
+     "family": "Nicolas",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ian F.",
+     "family": "Wardlaw",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "67",
+   "container-title": [
+    "Australian Journal of Agricultural Research"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://connectsci.au/cp/article-pdf/48/5/615/216121/a96064.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://connectsci.au/cp/article-pdf/48/5/615/216121/a96064.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      25
+     ]
+    ],
+    "date-time": "2025-10-25T03:43:17Z",
+    "timestamp": 1761363797000
+   },
+   "score": 56.54716,
+   "resource": {
+    "primary": {
+     "URL": "https://connectsci.au/cp/article/48/5/615/32918/Grain-growth-and-malting-quality-of-barley-1"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1997,
+      6,
+      4
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "5",
+    "published-print": {
+     "date-parts": [
+      [
+       1997,
+       6,
+       4
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1071/a96064",
+   "ISSN": [
+    "0004-9409",
+    "1444-9838"
+   ],
+   "issn-type": [
+    {
+     "value": "0004-9409",
+     "type": "print"
+    },
+    {
+     "value": "1444-9838",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1997,
+      6,
+      4
+     ]
+    ]
+   }
+  }
+ ]
+}

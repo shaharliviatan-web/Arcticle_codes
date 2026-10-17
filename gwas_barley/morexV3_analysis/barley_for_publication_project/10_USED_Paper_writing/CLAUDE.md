@@ -48,6 +48,10 @@ Wild-barley grain-quality GWAS paper for **Theoretical and Applied Genetics (TAG
 | **Reference sources** | `reference_sources/<source>/`: original (pdf/docx) and readable `.md` side by side | read only |
 | **Journal (TAG)** | `TAG_requirements.md` (the rules); `journal_TAG/` (saved guideline pages, 2026-09-15) | read |
 | **New manuscript** | `new_publishing_paper/` | write |
+| **Supplementary material (Online Resources, TAG ESM)** | `new_publishing_paper/supplementary/`: **map in `supplementary/README.md`**; the 13 files `ESM_1.xlsx` … `ESM_13.pdf`; **download / upload copies in `supplementary/for_submission/`** (zip + `CAPTIONS.md`); not cited in the text: `supplementary/unreferenced/`; rebuild: `bash supplementary/scripts/build_all.sh` | write |
+| **Checks written for the supplement** | `../12_USED_adittional_checks_for_supplementary/` (README there: 01 block-4 correlations, 02 raw-phenotype checks) | write on request |
+| **NIR calibration files** (N. Pintel, uploaded by the user 2026-10-01) | `section_materials/02_materials_methods/NIR_calibration_files/NIR.zip` (README there); the files used are copied to `new_publishing_paper/supplementary/sources/NIR_calibration/` | read |
+| **References workspace** | `new_publishing_paper/references/` (README there; References session) | References session |
 
 ## Input texts and how far to trust them
 
@@ -76,6 +80,9 @@ Rules for these sources:
 - **Cite published versions only.** Never cite the preprint, the thesis or other unpublished work; TAG's reference list takes published or accepted works only.
 - **Paraphrase; do not copy wording.** The journal screens for plagiarism and requires transparency on text recycling.
 - **Numbers, settings, versions and counts** taken from them must match the current project files, or be clearly marked as belonging to the earlier dataset.
+- **Citation letters (TAG: same first author, more than two authors → chronological; swapped 2026-10-01, item REF1):**
+  **Potapenko et al. 2026a = *Mol Biol Evol*** (10 March 2026), **2026b = *Mol Ecol*** (September 2026). Notes, logs and
+  proposal files written before 2026-10-01 use the opposite letters.
 
 **Precedence when sources disagree:** project files and logs > **old mini paper** (for topics the analyses did not
 change) > section materials (after checking) > published papers > thesis.
@@ -92,6 +99,11 @@ change) > section materials (after checking) > published papers > thesis.
 4. Next to each number, add a source comment in the md: `<!-- src: 04_.../results_chapter_numbers.txt -->`.
    Pandoc drops HTML comments on export, so they never reach Word.
 5. **Missing details: mark them, never guess.** Use the TODO convention below.
+6. **Every citation must be supported by the cited work** (References session, 2026-10-01). Check it against a full text
+   (or, for background, the abstract) held in `new_publishing_paper/references/` (`pdfs/`, `abstracts/`), never against a web
+   page, and record the claim, verdict, quote and page there (`meta/claims.tsv`, `meta/verdicts.tsv`). One citation per
+   claim; where sources disagree, a Word comment names each source. A citation that cannot be checked keeps a Word
+   comment until it is. New or changed references go through `references/scripts/05_build_reference_list.py` (below).
 
 ## Writing style
 
@@ -122,7 +134,7 @@ change) > section materials (after checking) > published papers > thesis.
   *Mol Ecol* and *Mol Biol Evol* (`reference_sources/`). Applies to any later change to the M&M:
   - **Aim first, then the tool:** "To define loci, we grouped…", "To test whether…, we…". Use **"we"** at paragraph
     openings (user-approved); passive is fine elsewhere.
-  - **Cite, do not repeat, what is already published:** "as described in detail by Potapenko et al. (2026a).
+  - **Cite, do not repeat, what is already published:** "as described in detail by Potapenko et al. (2026b).
     Briefly, …". **Every detail kept next to such a citation must be verified in the cited paper** (user rule).
   - **Name standard procedures, do not explain them** (tool, version, key setting; no formulas for λGC, BLUP
     arithmetic, imputation internals).
@@ -151,15 +163,36 @@ When a detail is missing and writing should go on, insert:
 ```
 
 - In the docx this becomes a **Word comment** holding the TODO note, anchored to the placeholder text **highlighted in yellow** (tested with pandoc 3.11).
-- **IDs must be numeric** (Word requires it) **and unique across the whole manuscript**: section number × 100 + n. Title/abstract 1–99; Introduction 101, 102…; Methods 201…; Results 301…; Discussion 401…; Declarations 601….
+- **IDs must be numeric** (Word requires it) **and unique across the whole manuscript**: section number × 100 + n. Title/abstract 1–99; Introduction 101, 102…; Methods 201…; Results 301…; Discussion 401…; References 501…; Declarations 601….
 - List open items: `grep -n 'TODO:' new_publishing_paper/Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md` (the working file, renamed 2026-10-01; see Manuscript layout). The Introduction uses 101–103 (item AB1). The M&M uses 201–238 (238 added 2026-09-30, structure item S1).
 - **The user's own Word comments** (converted from the Word file on 2026-09-28) keep their author and follow the same
   numbering: 311–319 in the Results, 414–416 in the Discussion (412 and 413 removed 2026-09-30, review item 11). The
-  structure items of 2026-09-30 (S. Hübner's figure/table comments) added TODOs 238, 320–325, 421–422. The next free IDs
-  are **239** (M&M), **326** (Results) and **423** (Discussion). Retired, never reuse: 403, 404, 405, 417, 418 (418 drafted, never applied). The
-  dir-11 carrier-origin Online Resource is cited under TODOs 419 and 420. Pandoc cannot write Word reply threads, so a reply carries `parent="<id>"` in the md and
+  structure items of 2026-09-30 (S. Hübner's figure/table comments) added TODOs 238, 320–325, 421–422. The supplementary
+  session (2026-10-01, item SUPMAT1) added the **"supmat" status comments** 239–256, 326–338, 423–427 (below). The References
+  session (2026-10-01) added TODOs 104, 257 and 428 (REF2) and 501–502 in the reference list (REF3), and closed 15 TODOs
+  (REF2). The next free IDs are **105** (Introduction), **258** (M&M), **340** (Results; 339 = supmat, item E2), **431**
+  (Discussion; 429–430 = the user's replies, item CMT2) and **503** (References). Retired, never reuse: 403, 404, 405, 417, 418 (418 drafted, never applied), and every
+  ID deleted on 2026-10-01 (item CHK6): the supmat comments 239–256, 326–339, 423–427, the user's comments 311–319 and 414–416,
+  and TODO 203; and, on the user's request (item CMT1, 2026-10-01), TODOs 201, 202, 205–211, which were removed from the
+  manuscript **unresolved** and are kept word for word in **`new_publishing_paper/build/UNRESOLVED_COMMENTS_OUTSIDE_MANUSCRIPT.md`**
+  (they still need answers before submission; mark each resolved there when its text is fixed). Open comments in the
+  manuscript after CMT1: 14 TODOs (102, 104, 204, 213, 216, 234, 235, 236, 257, 401, 402, 428, 501, 502). **Item CMT2
+  (2026-10-17, user request):** the user's two Word replies from the review copy sent to S. Hübner (to TODO 401, Friedman
+  access; to TODO 402, how protein was measured) were added word for word as comments 429 and 430 (author "שחר לויתן",
+  `parent="401"` / `parent="402"`): 16 comments in the Word build, identical to the copy sent. The dir-11 carrier-origin Online Resource is cited under TODOs 419 and 420 (both resolved and removed, item E1). Pandoc cannot write Word reply threads, so a reply carries `parent="<id>"` in the md and
   appears in Word as a separate comment on the same text.
 - `<!-- src: … -->` comments are invisible in Word; TODO comments are visible. Use each for its own purpose.
+- **"supmat" status comments (user rule, 2026-10-01):** while the supplement is being built, every Online Resource citation,
+  and every place that still needs one, carries a Word comment with author `supmat`: `supmat: not resolved ❌ — <what is
+  missing>` or `supmat: resolved ✅ — Online Resource N`. **All 37 were resolved and deleted on 2026-10-01 (user, item CHK6).**
+  If a supplementary citation is added or becomes unresolved later, mark it again with a supmat comment, and delete the
+  comment once it is resolved.
+- **How a TODO comment is written (user rule, 2026-10-01, item CHK6):** it must be readable by someone who has not followed the
+  project: say what the text says now, what the problem is, what each source says, and what is needed to resolve it. Do **not**
+  name who should answer it, and do not use project paths or file names in it. Resolved comments are deleted, not left in place.
+- **The open-items list at the top of the manuscript (user rule, 2026-10-01):** plain status lines, one per item, with **no paths
+  or folder names** (the map of locations is kept in this file); item 6 is only a pointer to the open Word comments; item 4
+  (references) is written by the References session.
 
 ---
 
@@ -180,6 +213,7 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | Fiber/starch 7H trade-off direction | `04_.../07_fiber_starch_tradeoff_direction` (on V1) | none | **OLD-ONLY**, not re-run |
 | Elite lines vs wild haplotypes | none | `07_USED_elite_lines_compariosn_to_wild_lines` | **NEW** |
 | v2 ↔ v3 pruning comparison | none | `01_.../scripts/05_comparison_v2_v3` | **NEW** (methods justification) |
+| Checks for the supplementary material | none | `12_USED_adittional_checks_for_supplementary` (**renamed 2026-10-01** from `12_USED_adittional_checks`; README there) | **NEW**: 01 block-4 inter-block correlations of 2019–20 (backs M&M §4 ¶1, Online Resource 2); 02 raw-phenotype checks (boxplots, correlations, distributions; supplement only, not cited) |
 | Assembled figures | `06_USED_figures` | `08_USED_creating_figures` (renamed from `08_USED_figures**NOT_UPDATED**` 2026-09-22) | all rebuilt to TAG spec. **Renumbered 2026-09-30** (S. Hübner's comments): Fig. 1 = old Fig. 1 + old 2b/2c (one heatmap) + old 2d (`make_figure_1.R`); Figs. 2–4 = old Figs. 3–5 (`make_figure_2.R`–`make_figure_4.R`, pixel-identical); old 2a → Online Resource (`make_figure_ESM_site_BLUPs.R`, PDF). See `08_USED_creating_figures/README.md` |
 
 ## What changed: key differences to carry into Methods, Results and Discussion
@@ -214,7 +248,7 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | Haplotypes | `04_.../04_runs/loci_LDspan_eps06_V4/Stats/results_chapter_numbers.txt`, `Significant_genes/significant_genes.tsv` |
 | Annotation | `05_.../08_USED_annotation_master/results/tables/Table_significant_genes_paper.tsv` |
 | Final 3 genes | `06_USED_genes_selected_to_present/README.md`, `TRAIT_CANDIDACY.md` |
-| **Supplementary tables (Online Resources) built 2026-09-30** (they replace Tables 1 and 2; no tables in the main text) | `new_publishing_paper/supplementary/tables/ESM_variance_components.xlsx` (8 traits: V~G~, V~E~, V~G×E~, V~R~ with %, total, H²; from 00_THIN `Variance_components_GxE.csv`, `H2_GxE.csv`) and `ESM_candidate_genes.xlsx` (all 55 genes, one row each, testability, haplotype test, annotation, carried forward), built by `new_publishing_paper/supplementary/scripts/` (README there). The former **Table 2** source, `06_USED_genes_selected_to_present/results/tables/Table_2_genes_carried_forward.tsv` (`06_.../scripts/01_make_table2_paper.R`), is kept: the gene ESM reads it for "carried forward" and checks its three rows cell by cell. **The relevance-screen categories (strong / plausible / unlikely / no annotation) must not appear in any supplementary file** (user, 2026-09-30) |
+| **Online Resources (supplementary), numbered and built 2026-10-01**: `new_publishing_paper/supplementary/ESM_1.xlsx` … `ESM_13.pdf`, rebuilt by `supplementary/scripts/build_all.sh` (README there: content, sources, checks; final list also in `supplementary/supplementary.md`). 1 sites + accessions (ENA, BLUPs) + environment; 2 block correlations 2019–20 (NIR calibration sheet pending); 3 variance components; 4 LD decay; 5 loci + significant SNPs; 6 candidate genes; 7 ε choice; 8 canonical β-glucan genes; 9 crosshap plots of the 4 presented genes; 10 elite cultivars; 11–12 carrier origin (tables, figures); 13 site figure. Each file carries the TAG title block (author names, affiliation, e-mail = placeholders in `esm_common.py`). Not cited in the text: `supplementary/unreferenced/`. **History, 2026-09-30** (they replace Tables 1 and 2; no tables in the main text) | `new_publishing_paper/supplementary/tables/ESM_variance_components.xlsx` (8 traits: V~G~, V~E~, V~G×E~, V~R~ with %, total, H²; from 00_THIN `Variance_components_GxE.csv`, `H2_GxE.csv`) and `ESM_candidate_genes.xlsx` (all 55 genes, one row each, testability, haplotype test, annotation, carried forward), built by `new_publishing_paper/supplementary/scripts/` (README there). The former **Table 2** source, `06_USED_genes_selected_to_present/results/tables/Table_2_genes_carried_forward.tsv` (`06_.../scripts/01_make_table2_paper.R`), is kept: the gene ESM reads it for "carried forward" and checks its three rows cell by cell. **The relevance-screen categories (strong / plausible / unlikely / no annotation) must not appear in any supplementary file** (user, 2026-09-30) |
 | Elite lines | `07_.../results/tables/results_chapter_numbers.txt` + README |
 
 ## Figure sources (new)
@@ -225,7 +259,7 @@ old Fig. 2 was dissolved and old Figs. 3–5 are now Figs. 2–4. Hidden notes w
 | content | files |
 |---|---|
 | **Fig. 1** variance partitioning, reaction norms, trait-correlation heatmap (lower triangle + morphological traits), site means × environment; **rebuilt 2026-09-30**, layout and caption approved | `08_USED_creating_figures/Figure_1/Fig1.png` (docx) / `Fig1.tif` (submission), `make_figure_1.R`. Inputs: `00_THIN_.../outputs/subsection_1/tables/` (+ `C2_trait_environment_correlations/tables/`) |
-| **Online Resource: site BLUPs by region** (old Fig. 2a) | `08_USED_creating_figures/Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf`, `make_figure_ESM_site_BLUPs.R` |
+| **Online Resource 13: site BLUPs by region** (old Fig. 2a) | `08_USED_creating_figures/Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf`, `make_figure_ESM_site_BLUPs.R`; assembled with its title page into `supplementary/ESM_13.pdf` |
 | Phenotype / ecology, step-00 working versions | `00_THIN_.../outputs/subsection_1/png/`, `C2_*/figures/` |
 | **Fig. 2** Manhattan (loci painted) + QQ, **approved 2026-09-22** (as Fig. 3) | `08_USED_creating_figures/Figure_2/Fig2.png` (docx) / `Fig2.tif` (submission), `make_figure_2.R`. Step-01 working versions: `01_.../02_loci_FINAL/figures/manhattan_*__loci_r05.png`, `04_diagnostics/qq/` |
 | LD decay | `02_.../results/figure_ld_decay_{genomewide,perchromosome}.png` |
@@ -244,10 +278,13 @@ old Fig. 2 was dissolved and old Figs. 3–5 are now Figs. 2–4. Hidden notes w
 ## Manuscript layout (`new_publishing_paper/`)
 
 ```
-Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md               <- THE working file (title … Conclusions)
+Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md               <- THE working file (title … Conclusions, References, Supplementary Information)
 Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley_reading_copy.md  <- same text without comments / hidden notes (generated)
-05_references.md  06_statements_declarations.md   (not written yet; title page/declarations may go into the working file too)
-figures/  tables/  supplementary/  build/
+05_references.md  06_statements_declarations.md   (05 built 2026-10-01 and copied into the working file, item REF3; 06 not written yet)
+build/           review cycle (proposed/<ID>_edits.json + review_tool.py), review log, hand-overs, blueprints
+supplementary/   the 13 Online Resources ESM_1 … ESM_13, for_submission/ (download/upload), scripts/; map: supplementary/README.md
+references/      citation audit and bibliography (References session; README there)
+figures/ tables/ empty: the figures are built in ../../08_USED_creating_figures/, the tables are Online Resources
 ```
 **The whole manuscript text is one file (user decisions 2026-09-30 and 2026-10-01): `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md` is the working file. Edit only that file.** Since 2026-10-01 (item AB1) it opens with the title, Key message, Abstract, Keywords and Introduction, and it was **renamed after the title** (it was `Methods_Results_Discussion_Conclusions.md`; older notes and logs use that name). The M&M + R + D + C part It was built by concatenating the
 approved M&M (`02_materials_methods.md`, written 2026-09-29/30 from `build/MM_BLUEPRINT.md`) and the R+D+C working file
@@ -275,7 +312,37 @@ figure paths were re-rooted from `build/` to `new_publishing_paper/` (verified).
 - **Structure changes, 2026-09-30 (done; S. Hübner's comments on the figures and tables):** items S1–S5 (`build/proposed/S*_edits.json`;
   questions and answers `build/proposed/S0_QUESTIONS.md`; hand-over **`build/STRUCTURE_CHANGES_2026-10.md`**). Tables 1 and 2 left
   the main text (→ Online Resources); new Fig. 1 (old 1 + old 2b/2c/2d); old Fig. 2a → Online Resource; Figs. 3–5 → 2–4. No reply to
-  Sariel's Online Resource comment (user). Online Resource numbering is still open (placeholders "Online Resource N", each with a TODO).
+  Sariel's Online Resource comment (user). Online Resource numbering was then still open (placeholders "Online Resource N", each with a TODO).
+- **Supplementary material, 2026-10-01 (done; hand-over `build/SUPPLEMENTARY_DONE_2026-10.md`):** 13 Online Resources numbered by
+  first citation and built (`supplementary/`, see "Where the numbers come from"); questions and answers
+  `build/proposed/ESM0_QUESTIONS.md`; items SUPMAT1 ("supmat" status comments; all resolved and deleted 2026-10-01, CHK6), CHK1–CHK6, E1 (numbers in place, 31 TODOs resolved
+  and removed, citations of the BLUPs and of Online Resource 8 added), E2 (citations of Online Resources 5, 6, 9 in the Results), E3 (NIR facts from N. Pintel's files: five scans, four kit subsamples, Kjeldahl N × 6.25; TODO 214 resolved), CAP1 (captions, applied; last section "Supplementary Information"); log at the end of the review
+  file. `12_USED_adittional_checks` renamed `12_USED_adittional_checks_for_supplementary`.
+- **References session, 2026-10-01 (done: audit, fixes REF1–REF2, reference list REF3; checklist item 4):** workspace `new_publishing_paper/references/` (README
+  there: workflow, layout, scripts). Claim–citation audit (`citation_audit.md`: 66 claims, 66 works, tiers A/B/C; verdicts
+  only from full texts or abstracts held in `references/pdfs/` and `abstracts/`, never from a web page), bibliographic
+  check against Crossref (`bibliography_check.md`), papers that could not be obtained (`to_download.md`). The reference
+  list is `new_publishing_paper/05_references.md`, also copied into the working file (REF3, user request). Item REF1 (applied): Hrmova et al. 2024, Yates et al. 2026, Potapenko letters swapped
+  (see "Rules for these sources"), Girard/Zhang order.
+  **Audit done 2026-10-01** (lead: this References session; a parallel session's identical findings checked): 36 full
+  texts (15 fetched, 20 from the user's Zotero export, AACC 2001), 6 not obtainable (abstracts only): 63 claim–work
+  pairs, 45 ✅ 13 ⚠️ 1 ❌ 4 ❓. **Item REF2 (applied 2026-10-01)** carries the user's decisions
+  on findings 1–13 (Nevo and Chen kept as written): Corke, Burton, Guo, Beljkaš and FAO leave; Houston 2014, Irigoyen 2011, AACC 2001, Keeling 1993,
+  Farag 2022 and Xu 2018 (TODO 411) take their places; Dempewolf (comment 104) and Anker-Nilssen (comment 428) kept
+  with Word comments; unverifiable Friedman (comments 102, 401) and Holland (new comment 257); TODO 216 updated with
+  *MBE* Table S1 (soil variables); 15 TODOs closed. Summary table: `references/citation_audit.md` ("Findings").
+  **Reference list (REF3):** `05_references.md` (64 works) built by `references/scripts/05_build_reference_list.py` and copied
+  into the working file as section "References" after the Conclusions, before "Supplementary Information". To change a
+  reference: edit the script's REFS table, rebuild, and update the working-file section in the same review item.
+- **Unresolved points outside the manuscript:** `build/UNRESOLVED_COMMENTS_OUTSIDE_MANUSCRIPT.md` holds open TODO comments that
+  were removed from the manuscript at the user's request (2026-10-01: TODOs 201, 202, 205–211, methods details to confirm), each
+  with the sentence it concerned. They are still open; check this file before submission.
+- **Review copy for S. Hübner, 2026-10-01:** `build/manuscript_for_review_2026-10-01_v2.docx` (after item CMT1: 14 open TODO
+  comments), built with pandoc from the working file (pandoc's default styles; 4 figures; the open-items list at the top). The
+  first build, `build/manuscript_for_review_2026-10-01.docx` (23 comments, before CMT1), is kept. Sent by the user with the
+  supplement (`supplementary/for_submission/ESM_all_Online_Resources.zip`). **When it comes back with his comments:** convert it
+  with `--track-changes=all` (Tools, "docx → md") into `build/`, never over the working file; then carry his comments and
+  edits into the working file through `build/proposed/` items, keeping his comments with their author until resolved.
 - **`build/DECLARATIONS_HANDOVER.md`:** text moved out of the M&M for the Declarations session (the Zenodo VCF /
   BLUP Online Resource / GitHub code sentence of the Data availability statement), word for word.
 - **Superseded, kept for the record:** `build/UPDATED_Results_Discussion_Conclusions.md` (top note says so; never edit
@@ -298,8 +365,16 @@ copy after every `apply`. It matches the exact old text, not line numbers, so th
 
 File order follows TAG (declarations after references); formatting rules are in `TAG_requirements.md`.
 - **Figures:** in the md, link the source output directly (relative path). TAG wants figures embedded in the text, so the docx build embeds them. For submission, export `figures/Fig1.eps|tif` (Arial 8–12 pt, 84 or 174 mm wide, panels a/b/c).
-- **Tables:** **none in the main text since 2026-09-30** (S. Hübner; user decision). Tables go to the Online Resources as `.xlsx`, built by `supplementary/scripts/` into `supplementary/tables/` (named `ESM_N.xlsx` when numbered), cited as "Online Resource N". In TAG an Online Resource is a supplementary file (ESM); nothing is uploaded elsewhere.
-- **References:** TAG author-year style, `(Godfray et al. 2010)` with no comma. The old paper's citations and reference list do **not** follow TAG (commas, `&`, full journal names, no DOIs). Reuse its content, not its format.
+- **Tables:** **none in the main text since 2026-09-30** (S. Hübner; user decision). Tables go to the Online Resources as `.xlsx`; since 2026-10-01 the numbered files are `supplementary/ESM_1.xlsx` … `ESM_13.pdf` (built by `supplementary/scripts/build_all.sh`; `supplementary/tables/` holds intermediate checked tables), cited as "Online Resource N" and captioned in the last section of the working file, "Supplementary Information" (item CAP1). In TAG an Online Resource is a supplementary file (ESM); nothing is uploaded elsewhere.
+- **References:** TAG author-year style, `(Godfray et al. 2010)` with no comma; multiple citations in chronological order;
+  Potapenko et al. **2026a = *Mol Biol Evol***, **2026b = *Mol Ecol***. The old paper's citations and reference list do **not** follow
+  TAG (commas, `&`, full journal names, no DOIs). Reuse its content, not its format. **The list** (64 works, 2026-10-01) is
+  built by `references/scripts/05_build_reference_list.py` into `05_references.md` and copied into the working file's
+  "References" section (after the Conclusions, before "Supplementary Information"). TAG format: alphabetical; one-author,
+  then two-author, then multi-author works, each chronologically; all authors up to 15, else three + "et al"; sentence-case
+  titles; ISSN LTWA journal abbreviations; full DOI links. To add or change a reference: verify it (hard rule 6), edit the
+  script's REFS table, rebuild (the script checks the list against the in-text citations one to one), and update the
+  working-file section in the same review item.
 
 ## Tools
 
@@ -320,6 +395,10 @@ $P in.docx -t markdown --wrap=none --track-changes=all --extract-media=media_in 
 grep -n 'TODO:' new_publishing_paper/Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md
 ```
 Word conversions leave `[..]{dir="rtl"}` spans (Hebrew keyboard artefacts). Strip them.
+
+Supplement (Online Resources): `bash new_publishing_paper/supplementary/scripts/build_all.sh` rebuilds all 13 files, the
+unnumbered supplement and `supplementary/for_submission/` (about 15 s; every builder checks the numbers the manuscript cites).
+Raw-phenotype checks: `bash ../12_USED_adittional_checks_for_supplementary/02_raw_phenotype_checks/scripts/run_all.sh`.
 
 ## TAG journal requirements
 

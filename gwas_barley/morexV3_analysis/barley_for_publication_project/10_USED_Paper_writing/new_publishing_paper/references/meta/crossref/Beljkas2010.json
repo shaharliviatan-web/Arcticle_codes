@@ -1,0 +1,891 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     19
+    ]
+   ],
+   "date-time": "2026-08-19T18:34:38Z",
+   "timestamp": 1787164478685,
+   "version": "build-2736575974"
+  },
+  "reference-count": 14,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "10",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2010,
+       6,
+       16
+      ]
+     ],
+     "date-time": "2010-06-16T00:00:00Z",
+     "timestamp": 1276646400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://www.springer.com/tdm"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Accred Qual Assur"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     10
+    ]
+   ]
+  },
+  "DOI": "10.1007/s00769-010-0677-6",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     15
+    ]
+   ],
+   "date-time": "2010-06-15T02:16:53Z",
+   "timestamp": 1276568213000
+  },
+  "page": "555-561",
+  "source": "Crossref",
+  "is-referenced-by-count": 106,
+  "title": [
+   "Rapid method for determination of protein content in cereals and oilseeds: validation, measurement uncertainty and comparison with the Kjeldahl method"
+  ],
+  "prefix": "10.1007",
+  "volume": "15",
+  "author": [
+   {
+    "given": "Bojana",
+    "family": "Beljka\u0161",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jovana",
+    "family": "Mati\u0107",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ivan",
+    "family": "Milovanovi\u0107",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pavle",
+    "family": "Jovanov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aleksandra",
+    "family": "Mi\u0161an",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ljubi\u0161a",
+    "family": "\u0160ari\u0107",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     16
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "677_CR1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1169",
+    "DOI": "10.1007/s11746-003-0837-3",
+    "volume": "80",
+    "author": "S Jung",
+    "year": "2003",
+    "unstructured": "Jung S, Rickert DA, Deak NA, Recknor J, Johnson LA, Murphy PA (2003) J Am Oil Chem Soc 80:1169\u20131173",
+    "journal-title": "J Am Oil Chem Soc"
+   },
+   {
+    "key": "677_CR2",
+    "doi-asserted-by": "crossref",
+    "first-page": "631",
+    "DOI": "10.1016/j.meatsci.2004.05.016",
+    "volume": "68",
+    "author": "M Thompson",
+    "year": "2004",
+    "unstructured": "Thompson M, Owen L, Wilkinson K, Wood R (2004) Meet Sci 68:631\u2013634",
+    "journal-title": "Meet Sci"
+   },
+   {
+    "key": "677_CR3",
+    "doi-asserted-by": "crossref",
+    "first-page": "620",
+    "DOI": "10.1093/jaoac/81.3.620",
+    "volume": "81",
+    "author": "PG Wiles",
+    "year": "1998",
+    "unstructured": "Wiles PG, Gray IK, Kissling RC (1998) J AOAC Int 81:620\u2013632",
+    "journal-title": "J AOAC Int"
+   },
+   {
+    "key": "677_CR4",
+    "doi-asserted-by": "crossref",
+    "first-page": "39",
+    "DOI": "10.1002/(SICI)1097-0010(199701)73:1<39::AID-JSFA717>3.0.CO;2-4",
+    "volume": "73",
+    "author": "AH Simonne",
+    "year": "1997",
+    "unstructured": "Simonne AH, Simonne EH, Eitenmiller RR, Mills HA, Cresman CP (1997) J Sci Food Agric 73:39\u201345",
+    "journal-title": "J Sci Food Agric"
+   },
+   {
+    "key": "677_CR5",
+    "first-page": "535",
+    "volume": "23",
+    "author": "I Taverniers",
+    "year": "2004",
+    "unstructured": "Taverniers I, De Loose M, Van Bockstaele E (2004) TrAC 23:535\u2013552",
+    "journal-title": "TrAC"
+   },
+   {
+    "key": "677_CR6",
+    "volume-title": "Guide to the expression of uncertainty in measurement",
+    "author": "ISO",
+    "year": "1993",
+    "unstructured": "ISO (1993) Guide to the expression of uncertainty in measurement. ISO, Geneva"
+   },
+   {
+    "key": "677_CR7",
+    "unstructured": "EURACHEM (1995) Quantifying uncertainty in analytical measurement. Laboratory of the Government Chemist (LGC), London"
+   },
+   {
+    "key": "677_CR8",
+    "unstructured": "AOAC (2000) Official methods of analysis of association of official analytical chemists, 17th edn. Gaithersburg, MD Method 992.23"
+   },
+   {
+    "key": "677_CR9",
+    "unstructured": "EURACHEM/CITAC (2000) Quantifying uncertainty in analytical measurement, EURACHEM/CITAC Guide CG4, http://www.eurachem.org"
+   },
+   {
+    "key": "677_CR10",
+    "doi-asserted-by": "crossref",
+    "first-page": "178",
+    "DOI": "10.1007/s002160100828",
+    "volume": "370",
+    "author": "L Jorhem",
+    "year": "2001",
+    "unstructured": "Jorhem L, Engman J, Schr\u00f6der T (2001) Fresenius J Anal Chem 370:178\u2013182",
+    "journal-title": "Fresenius J Anal Chem"
+   },
+   {
+    "key": "677_CR11",
+    "unstructured": "Linsinger T (2010) Comparison of a measurement result with the certified value, European Commission, Retieseweg, Belgium, ERM\u00ae www.erm-crm.org"
+   },
+   {
+    "key": "677_CR12",
+    "unstructured": "CITAC/EURACHEM guide (2002) Guide to quality in analytical chemistry\u2014an aid to accreditation, http://www.eurachem.org"
+   },
+   {
+    "key": "677_CR13",
+    "doi-asserted-by": "crossref",
+    "first-page": "835",
+    "DOI": "10.1351/pac200274050835",
+    "volume": "74",
+    "author": "M Thompson",
+    "year": "2002",
+    "unstructured": "Thompson M, Ellison S, Wood R (2002) Pure Appl Chem 74:835\u2013855",
+    "journal-title": "Pure Appl Chem"
+   },
+   {
+    "key": "677_CR14",
+    "doi-asserted-by": "crossref",
+    "first-page": "848",
+    "DOI": "10.1016/j.foodchem.2008.01.011",
+    "volume": "109",
+    "author": "A Krej\u010dov\u00e1",
+    "year": "2008",
+    "unstructured": "Krej\u010dov\u00e1 A, Pouzar M, \u010cernohorsk\u00fd T, Pe\u0161kov\u00e1 K (2008) Food Chem 109:848\u2013854",
+    "journal-title": "Food Chem"
+   }
+  ],
+  "container-title": [
+   "Accreditation and Quality Assurance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s00769-010-0677-6.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/article/10.1007/s00769-010-0677-6/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "http://link.springer.com/content/pdf/10.1007/s00769-010-0677-6",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2020,
+     6,
+     5
+    ]
+   ],
+   "date-time": "2020-06-05T15:17:53Z",
+   "timestamp": 1591370273000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://link.springer.com/10.1007/s00769-010-0677-6"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     16
+    ]
+   ]
+  },
+  "references-count": 14,
+  "journal-issue": {
+   "issue": "10",
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      10
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "677"
+  ],
+  "URL": "https://doi.org/10.1007/s00769-010-0677-6",
+  "relation": {},
+  "ISSN": [
+   "0949-1775",
+   "1432-0517"
+  ],
+  "issn-type": [
+   {
+    "value": "0949-1775",
+    "type": "print"
+   },
+   {
+    "value": "1432-0517",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     16
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      19
+     ]
+    ],
+    "date-time": "2026-08-19T18:34:38Z",
+    "timestamp": 1787164478685,
+    "version": "build-2736575974"
+   },
+   "reference-count": 14,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "10",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2010,
+        6,
+        16
+       ]
+      ],
+      "date-time": "2010-06-16T00:00:00Z",
+      "timestamp": 1276646400000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "http://www.springer.com/tdm"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Accred Qual Assur"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      10
+     ]
+    ]
+   },
+   "DOI": "10.1007/s00769-010-0677-6",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      15
+     ]
+    ],
+    "date-time": "2010-06-15T02:16:53Z",
+    "timestamp": 1276568213000
+   },
+   "page": "555-561",
+   "source": "Crossref",
+   "is-referenced-by-count": 106,
+   "title": [
+    "Rapid method for determination of protein content in cereals and oilseeds: validation, measurement uncertainty and comparison with the Kjeldahl method"
+   ],
+   "prefix": "10.1007",
+   "volume": "15",
+   "author": [
+    {
+     "given": "Bojana",
+     "family": "Beljka\u0161",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jovana",
+     "family": "Mati\u0107",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ivan",
+     "family": "Milovanovi\u0107",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Pavle",
+     "family": "Jovanov",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Aleksandra",
+     "family": "Mi\u0161an",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ljubi\u0161a",
+     "family": "\u0160ari\u0107",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      16
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "677_CR1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1169",
+     "DOI": "10.1007/s11746-003-0837-3",
+     "volume": "80",
+     "author": "S Jung",
+     "year": "2003",
+     "unstructured": "Jung S, Rickert DA, Deak NA, Recknor J, Johnson LA, Murphy PA (2003) J Am Oil Chem Soc 80:1169\u20131173",
+     "journal-title": "J Am Oil Chem Soc"
+    },
+    {
+     "key": "677_CR2",
+     "doi-asserted-by": "crossref",
+     "first-page": "631",
+     "DOI": "10.1016/j.meatsci.2004.05.016",
+     "volume": "68",
+     "author": "M Thompson",
+     "year": "2004",
+     "unstructured": "Thompson M, Owen L, Wilkinson K, Wood R (2004) Meet Sci 68:631\u2013634",
+     "journal-title": "Meet Sci"
+    },
+    {
+     "key": "677_CR3",
+     "doi-asserted-by": "crossref",
+     "first-page": "620",
+     "DOI": "10.1093/jaoac/81.3.620",
+     "volume": "81",
+     "author": "PG Wiles",
+     "year": "1998",
+     "unstructured": "Wiles PG, Gray IK, Kissling RC (1998) J AOAC Int 81:620\u2013632",
+     "journal-title": "J AOAC Int"
+    },
+    {
+     "key": "677_CR4",
+     "doi-asserted-by": "crossref",
+     "first-page": "39",
+     "DOI": "10.1002/(SICI)1097-0010(199701)73:1<39::AID-JSFA717>3.0.CO;2-4",
+     "volume": "73",
+     "author": "AH Simonne",
+     "year": "1997",
+     "unstructured": "Simonne AH, Simonne EH, Eitenmiller RR, Mills HA, Cresman CP (1997) J Sci Food Agric 73:39\u201345",
+     "journal-title": "J Sci Food Agric"
+    },
+    {
+     "key": "677_CR5",
+     "first-page": "535",
+     "volume": "23",
+     "author": "I Taverniers",
+     "year": "2004",
+     "unstructured": "Taverniers I, De Loose M, Van Bockstaele E (2004) TrAC 23:535\u2013552",
+     "journal-title": "TrAC"
+    },
+    {
+     "key": "677_CR6",
+     "volume-title": "Guide to the expression of uncertainty in measurement",
+     "author": "ISO",
+     "year": "1993",
+     "unstructured": "ISO (1993) Guide to the expression of uncertainty in measurement. ISO, Geneva"
+    },
+    {
+     "key": "677_CR7",
+     "unstructured": "EURACHEM (1995) Quantifying uncertainty in analytical measurement. Laboratory of the Government Chemist (LGC), London"
+    },
+    {
+     "key": "677_CR8",
+     "unstructured": "AOAC (2000) Official methods of analysis of association of official analytical chemists, 17th edn. Gaithersburg, MD Method 992.23"
+    },
+    {
+     "key": "677_CR9",
+     "unstructured": "EURACHEM/CITAC (2000) Quantifying uncertainty in analytical measurement, EURACHEM/CITAC Guide CG4, http://www.eurachem.org"
+    },
+    {
+     "key": "677_CR10",
+     "doi-asserted-by": "crossref",
+     "first-page": "178",
+     "DOI": "10.1007/s002160100828",
+     "volume": "370",
+     "author": "L Jorhem",
+     "year": "2001",
+     "unstructured": "Jorhem L, Engman J, Schr\u00f6der T (2001) Fresenius J Anal Chem 370:178\u2013182",
+     "journal-title": "Fresenius J Anal Chem"
+    },
+    {
+     "key": "677_CR11",
+     "unstructured": "Linsinger T (2010) Comparison of a measurement result with the certified value, European Commission, Retieseweg, Belgium, ERM\u00ae www.erm-crm.org"
+    },
+    {
+     "key": "677_CR12",
+     "unstructured": "CITAC/EURACHEM guide (2002) Guide to quality in analytical chemistry\u2014an aid to accreditation, http://www.eurachem.org"
+    },
+    {
+     "key": "677_CR13",
+     "doi-asserted-by": "crossref",
+     "first-page": "835",
+     "DOI": "10.1351/pac200274050835",
+     "volume": "74",
+     "author": "M Thompson",
+     "year": "2002",
+     "unstructured": "Thompson M, Ellison S, Wood R (2002) Pure Appl Chem 74:835\u2013855",
+     "journal-title": "Pure Appl Chem"
+    },
+    {
+     "key": "677_CR14",
+     "doi-asserted-by": "crossref",
+     "first-page": "848",
+     "DOI": "10.1016/j.foodchem.2008.01.011",
+     "volume": "109",
+     "author": "A Krej\u010dov\u00e1",
+     "year": "2008",
+     "unstructured": "Krej\u010dov\u00e1 A, Pouzar M, \u010cernohorsk\u00fd T, Pe\u0161kov\u00e1 K (2008) Food Chem 109:848\u2013854",
+     "journal-title": "Food Chem"
+    }
+   ],
+   "container-title": [
+    "Accreditation and Quality Assurance"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s00769-010-0677-6.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/article/10.1007/s00769-010-0677-6/fulltext.html",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s00769-010-0677-6",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      6,
+      5
+     ]
+    ],
+    "date-time": "2020-06-05T15:17:53Z",
+    "timestamp": 1591370273000
+   },
+   "score": 57.22525,
+   "resource": {
+    "primary": {
+     "URL": "http://link.springer.com/10.1007/s00769-010-0677-6"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      16
+     ]
+    ]
+   },
+   "references-count": 14,
+   "journal-issue": {
+    "issue": "10",
+    "published-print": {
+     "date-parts": [
+      [
+       2010,
+       10
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "677"
+   ],
+   "URL": "https://doi.org/10.1007/s00769-010-0677-6",
+   "ISSN": [
+    "0949-1775",
+    "1432-0517"
+   ],
+   "issn-type": [
+    {
+     "value": "0949-1775",
+     "type": "print"
+    },
+    {
+     "value": "1432-0517",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      6,
+      16
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      12
+     ]
+    ],
+    "date-time": "2024-10-12T22:40:13Z",
+    "timestamp": 1728772813967
+   },
+   "publisher-location": "London",
+   "standards-body": {
+    "name": "BSI British Standards",
+    "acronym": "BSI"
+   },
+   "reference-count": 0,
+   "publisher": "BSI British Standards",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.3403/30251276",
+   "type": "standard",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      13
+     ]
+    ],
+    "date-time": "2014-05-13T18:36:18Z",
+    "timestamp": 1400006178000
+   },
+   "approved": {
+    "date-parts": [
+     [
+      2013,
+      12,
+      31
+     ]
+    ]
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Cereals and pulses. Determination of the nitrogen content and calculation of the crude protein content. Kjeldahl method"
+   ],
+   "prefix": "10.3403",
+   "member": "1988",
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      12
+     ]
+    ],
+    "date-time": "2024-10-12T22:25:20Z",
+    "timestamp": 1728771920000
+   },
+   "score": 55.3937,
+   "resource": {
+    "primary": {
+     "URL": "https://linkresolver.bsigroup.com/junction/resolve/000000000030251276?restype=standard"
+    }
+   },
+   "subtitle": [
+    ""
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      null
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.3403/30251276"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      12
+     ]
+    ],
+    "date-time": "2024-10-12T22:40:13Z",
+    "timestamp": 1728772813138
+   },
+   "publisher-location": "London",
+   "standards-body": {
+    "name": "BSI British Standards",
+    "acronym": "BSI"
+   },
+   "reference-count": 0,
+   "publisher": "BSI British Standards",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.3403/30131418u",
+   "type": "standard",
+   "created": {
+    "date-parts": [
+     [
+      2015,
+      6,
+      10
+     ]
+    ],
+    "date-time": "2015-06-10T00:02:51Z",
+    "timestamp": 1433894571000
+   },
+   "approved": {
+    "date-parts": [
+     [
+      2013,
+      12,
+      31
+     ]
+    ]
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Cereals and pulses. Determination of the nitrogen content and calculation of the crude protein content. Kjeldahl method"
+   ],
+   "prefix": "10.3403",
+   "member": "1988",
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      12
+     ]
+    ],
+    "date-time": "2024-10-12T22:25:21Z",
+    "timestamp": 1728771921000
+   },
+   "score": 55.33235,
+   "resource": {
+    "primary": {
+     "URL": "https://linkresolver.bsigroup.com/junction/resolve/000000000030251276?restype=undated"
+    }
+   },
+   "subtitle": [
+    ""
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      null
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.3403/30131418u"
+  }
+ ]
+}

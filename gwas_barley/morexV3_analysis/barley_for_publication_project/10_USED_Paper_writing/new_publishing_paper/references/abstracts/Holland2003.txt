@@ -1,0 +1,3 @@
+Holland2003  doi:10.1002/9780470650202.ch2  (abstract only, from OpenAlex; not the full text)
+
+This chapter contains sections titled: The Meaning of Heritability Response to Selection Covariances of Relatives Variance Among Selection Units Estimating Heritability as a Function of Variance Components Estimating Heritability from Parent-Offspring Regression Estimating Realized Heritability Examples of Heritability Estimates Appendices Literature Cited

@@ -1,0 +1,1746 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T12:11:53Z",
+   "timestamp": 1790770313332,
+   "version": "4.1.0"
+  },
+  "reference-count": 60,
+  "publisher": "Wiley",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2007,
+       12,
+       13
+      ]
+     ],
+     "date-time": "2007-12-13T00:00:00Z",
+     "timestamp": 1197504000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "New Phytologist"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2008,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1111/j.1469-8137.2007.02331.x",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2008,
+     2,
+     6
+    ]
+   ],
+   "date-time": "2008-02-06T03:28:46Z",
+   "timestamp": 1202268526000
+  },
+  "page": "889-898",
+  "source": "Crossref",
+  "is-referenced-by-count": 227,
+  "title": [
+   "Functional analysis of the Arabidopsis PHT4 family of intracellular phosphate transporters"
+  ],
+  "prefix": "10.1111",
+  "volume": "177",
+  "author": [
+   {
+    "given": "B.",
+    "family": "Guo",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Y.",
+    "family": "Jin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C.",
+    "family": "Wussler",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "E. B.",
+    "family": "Blancaflor",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C. M.",
+    "family": "Motes",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "W. K.",
+    "family": "Versaw",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     13
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_6_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1046/j.1471-4159.2000.0742622.x"
+   },
+   {
+    "key": "e_1_2_6_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/nar/gkh380"
+   },
+   {
+    "key": "e_1_2_6_4_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.289.5481.957"
+   },
+   {
+    "key": "e_1_2_6_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0021-9258(17)34031-0"
+   },
+   {
+    "key": "e_1_2_6_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s002329900394"
+   },
+   {
+    "key": "e_1_2_6_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/1522-2624(200104)164:2<209::AID-JPLN209>3.0.CO;2-F"
+   },
+   {
+    "key": "e_1_2_6_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.93.11.5347"
+   },
+   {
+    "key": "e_1_2_6_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0960-9822(02)00483-9"
+   },
+   {
+    "key": "e_1_2_6_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s004250050394"
+   },
+   {
+    "key": "e_1_2_6_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0021-9258(19)38659-4"
+   },
+   {
+    "key": "e_1_2_6_12_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0005-2728(84)90041-0"
+   },
+   {
+    "key": "e_1_2_6_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1046/j.0960-7412.2001.01202.x"
+   },
+   {
+    "key": "e_1_2_6_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.plantsci.2005.08.018"
+   },
+   {
+    "key": "e_1_2_6_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1105/tpc.106.047407"
+   },
+   {
+    "key": "e_1_2_6_16_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1006/jmbi.2000.3903"
+   },
+   {
+    "key": "e_1_2_6_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1110/ps.8.5.978"
+   },
+   {
+    "key": "e_1_2_6_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1074/mcp.M300030-MCP200"
+   },
+   {
+    "key": "e_1_2_6_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1146/annurev.arplant.50.1.27"
+   },
+   {
+    "key": "e_1_2_6_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.103.020941"
+   },
+   {
+    "key": "e_1_2_6_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0005-2728(73)90137-0"
+   },
+   {
+    "key": "e_1_2_6_22_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1159/000071070"
+   },
+   {
+    "key": "e_1_2_6_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1074/jbc.M607670200"
+   },
+   {
+    "key": "e_1_2_6_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.016519"
+   },
+   {
+    "key": "e_1_2_6_25_1",
+    "first-page": "381",
+    "article-title": "Two cDNAs from potato are able to complement a phosphate uptake\u2010deficient yeast mutant: identification of phosphate transporters from higher plants",
+    "volume": "9",
+    "author": "Leggewie G",
+    "year": "1997",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "e_1_2_6_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.95.12.6803"
+   },
+   {
+    "key": "e_1_2_6_27_1",
+    "volume-title": "Mineral nutrition of higher plants",
+    "author": "Marschner H.",
+    "year": "1995"
+   },
+   {
+    "key": "e_1_2_6_28_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s004380050776"
+   },
+   {
+    "key": "e_1_2_6_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s004250000297"
+   },
+   {
+    "key": "e_1_2_6_30_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0074-7696(08)60159-X"
+   },
+   {
+    "key": "e_1_2_6_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.94.13.7098"
+   },
+   {
+    "key": "e_1_2_6_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1042/bj3050081"
+   },
+   {
+    "key": "e_1_2_6_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/sj.emboj.7600464"
+   },
+   {
+    "key": "e_1_2_6_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1046/j.1365-313X.2002.01356.x"
+   },
+   {
+    "key": "e_1_2_6_35_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1399-3054.1962.tb08052.x"
+   },
+   {
+    "key": "e_1_2_6_36_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.117.3.1007"
+   },
+   {
+    "key": "e_1_2_6_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00262640"
+   },
+   {
+    "key": "e_1_2_6_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.91.12.5607"
+   },
+   {
+    "key": "e_1_2_6_39_1",
+    "first-page": "350",
+    "volume-title": "Plant responses to environmental stresses: from phytohormones to genome reorganization",
+    "author": "Plaxton WC",
+    "year": "1999"
+   },
+   {
+    "key": "e_1_2_6_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1199/tab.0024"
+   },
+   {
+    "key": "e_1_2_6_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00373848"
+   },
+   {
+    "key": "e_1_2_6_42_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1146/annurev.arplant.50.1.665"
+   },
+   {
+    "key": "e_1_2_6_43_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00425-002-0921-3"
+   },
+   {
+    "key": "e_1_2_6_44_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00424-003-1087-y"
+   },
+   {
+    "key": "e_1_2_6_45_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00425-003-1121-5"
+   },
+   {
+    "key": "e_1_2_6_46_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.011577"
+   },
+   {
+    "key": "e_1_2_6_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1074/jbc.M508333200"
+   },
+   {
+    "key": "e_1_2_6_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.91.2.679"
+   },
+   {
+    "key": "e_1_2_6_49_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.010858"
+   },
+   {
+    "key": "e_1_2_6_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/35025070"
+   },
+   {
+    "key": "e_1_2_6_51_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1128/JB.164.2.964-968.1985"
+   },
+   {
+    "key": "e_1_2_6_52_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/1471-2229-3-2"
+   },
+   {
+    "key": "e_1_2_6_53_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1006/bbrc.2000.2407"
+   },
+   {
+    "key": "e_1_2_6_54_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/70585"
+   },
+   {
+    "key": "e_1_2_6_55_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1105/tpc.002220"
+   },
+   {
+    "key": "e_1_2_6_56_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bioinformatics/17.6.560"
+   },
+   {
+    "key": "e_1_2_6_57_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.88.21.9608"
+   },
+   {
+    "key": "e_1_2_6_58_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/genetics/159.4.1491"
+   },
+   {
+    "key": "e_1_2_6_59_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1391",
+    "DOI": "10.1016/S0022-3565(24)37735-3",
+    "article-title": "Hepatic sinusoidal membrane transport of anionic drugs mediated by anion transporter Npt1",
+    "volume": "286",
+    "author": "Yabuuchi H",
+    "year": "1998",
+    "journal-title": "Journal of Pharmacology and Experimental Therapeutics"
+   },
+   {
+    "key": "e_1_2_6_60_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1046/j.1469-8137.2003.00677.x"
+   },
+   {
+    "key": "e_1_2_6_61_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.tplants.2005.07.003"
+   }
+  ],
+  "container-title": [
+   "New Phytologist"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1469-8137.2007.02331.x",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-8137.2007.02331.x",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/j.1469-8137.2007.02331.x",
+    "content-type": "application/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-8137.2007.02331.x",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     26
+    ]
+   ],
+   "date-time": "2025-01-26T14:30:41Z",
+   "timestamp": 1737901841000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://nph.onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02331.x"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     13
+    ]
+   ]
+  },
+  "references-count": 60,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1111/j.1469-8137.2007.02331.x"
+  ],
+  "URL": "https://doi.org/10.1111/j.1469-8137.2007.02331.x",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0028-646X",
+   "1469-8137"
+  ],
+  "issn-type": [
+   {
+    "value": "0028-646X",
+    "type": "print"
+   },
+   {
+    "value": "1469-8137",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2007,
+     12,
+     13
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2026-09-30T12:11:53Z",
+    "timestamp": 1790770313332,
+    "version": "4.1.0"
+   },
+   "reference-count": 60,
+   "publisher": "Wiley",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2007,
+        12,
+        13
+       ]
+      ],
+      "date-time": "2007-12-13T00:00:00Z",
+      "timestamp": 1197504000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "New Phytologist"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      3
+     ]
+    ]
+   },
+   "DOI": "10.1111/j.1469-8137.2007.02331.x",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2008,
+      2,
+      6
+     ]
+    ],
+    "date-time": "2008-02-06T03:28:46Z",
+    "timestamp": 1202268526000
+   },
+   "page": "889-898",
+   "source": "Crossref",
+   "is-referenced-by-count": 227,
+   "title": [
+    "Functional analysis of the Arabidopsis PHT4 family of intracellular phosphate transporters"
+   ],
+   "prefix": "10.1111",
+   "volume": "177",
+   "author": [
+    {
+     "given": "B.",
+     "family": "Guo",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Y.",
+     "family": "Jin",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "C.",
+     "family": "Wussler",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "E. B.",
+     "family": "Blancaflor",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "C. M.",
+     "family": "Motes",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "W. K.",
+     "family": "Versaw",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2007,
+      12,
+      13
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_6_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1471-4159.2000.0742622.x"
+    },
+    {
+     "key": "e_1_2_6_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/gkh380"
+    },
+    {
+     "key": "e_1_2_6_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.289.5481.957"
+    },
+    {
+     "key": "e_1_2_6_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0021-9258(17)34031-0"
+    },
+    {
+     "key": "e_1_2_6_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s002329900394"
+    },
+    {
+     "key": "e_1_2_6_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/1522-2624(200104)164:2<209::AID-JPLN209>3.0.CO;2-F"
+    },
+    {
+     "key": "e_1_2_6_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.93.11.5347"
+    },
+    {
+     "key": "e_1_2_6_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0960-9822(02)00483-9"
+    },
+    {
+     "key": "e_1_2_6_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s004250050394"
+    },
+    {
+     "key": "e_1_2_6_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0021-9258(19)38659-4"
+    },
+    {
+     "key": "e_1_2_6_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0005-2728(84)90041-0"
+    },
+    {
+     "key": "e_1_2_6_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.0960-7412.2001.01202.x"
+    },
+    {
+     "key": "e_1_2_6_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.plantsci.2005.08.018"
+    },
+    {
+     "key": "e_1_2_6_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.106.047407"
+    },
+    {
+     "key": "e_1_2_6_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jmbi.2000.3903"
+    },
+    {
+     "key": "e_1_2_6_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1110/ps.8.5.978"
+    },
+    {
+     "key": "e_1_2_6_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/mcp.M300030-MCP200"
+    },
+    {
+     "key": "e_1_2_6_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.arplant.50.1.27"
+    },
+    {
+     "key": "e_1_2_6_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.103.020941"
+    },
+    {
+     "key": "e_1_2_6_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0005-2728(73)90137-0"
+    },
+    {
+     "key": "e_1_2_6_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1159/000071070"
+    },
+    {
+     "key": "e_1_2_6_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/jbc.M607670200"
+    },
+    {
+     "key": "e_1_2_6_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.016519"
+    },
+    {
+     "key": "e_1_2_6_25_1",
+     "first-page": "381",
+     "article-title": "Two cDNAs from potato are able to complement a phosphate uptake\u2010deficient yeast mutant: identification of phosphate transporters from higher plants",
+     "volume": "9",
+     "author": "Leggewie G",
+     "year": "1997",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "e_1_2_6_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.95.12.6803"
+    },
+    {
+     "key": "e_1_2_6_27_1",
+     "volume-title": "Mineral nutrition of higher plants",
+     "author": "Marschner H.",
+     "year": "1995"
+    },
+    {
+     "key": "e_1_2_6_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s004380050776"
+    },
+    {
+     "key": "e_1_2_6_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s004250000297"
+    },
+    {
+     "key": "e_1_2_6_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0074-7696(08)60159-X"
+    },
+    {
+     "key": "e_1_2_6_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.94.13.7098"
+    },
+    {
+     "key": "e_1_2_6_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1042/bj3050081"
+    },
+    {
+     "key": "e_1_2_6_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/sj.emboj.7600464"
+    },
+    {
+     "key": "e_1_2_6_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.2002.01356.x"
+    },
+    {
+     "key": "e_1_2_6_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1399-3054.1962.tb08052.x"
+    },
+    {
+     "key": "e_1_2_6_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.117.3.1007"
+    },
+    {
+     "key": "e_1_2_6_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00262640"
+    },
+    {
+     "key": "e_1_2_6_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.91.12.5607"
+    },
+    {
+     "key": "e_1_2_6_39_1",
+     "first-page": "350",
+     "volume-title": "Plant responses to environmental stresses: from phytohormones to genome reorganization",
+     "author": "Plaxton WC",
+     "year": "1999"
+    },
+    {
+     "key": "e_1_2_6_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1199/tab.0024"
+    },
+    {
+     "key": "e_1_2_6_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00373848"
+    },
+    {
+     "key": "e_1_2_6_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.arplant.50.1.665"
+    },
+    {
+     "key": "e_1_2_6_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-002-0921-3"
+    },
+    {
+     "key": "e_1_2_6_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00424-003-1087-y"
+    },
+    {
+     "key": "e_1_2_6_45_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-003-1121-5"
+    },
+    {
+     "key": "e_1_2_6_46_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.011577"
+    },
+    {
+     "key": "e_1_2_6_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/jbc.M508333200"
+    },
+    {
+     "key": "e_1_2_6_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.91.2.679"
+    },
+    {
+     "key": "e_1_2_6_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.010858"
+    },
+    {
+     "key": "e_1_2_6_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/35025070"
+    },
+    {
+     "key": "e_1_2_6_51_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1128/JB.164.2.964-968.1985"
+    },
+    {
+     "key": "e_1_2_6_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2229-3-2"
+    },
+    {
+     "key": "e_1_2_6_53_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/bbrc.2000.2407"
+    },
+    {
+     "key": "e_1_2_6_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/70585"
+    },
+    {
+     "key": "e_1_2_6_55_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.002220"
+    },
+    {
+     "key": "e_1_2_6_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/17.6.560"
+    },
+    {
+     "key": "e_1_2_6_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.88.21.9608"
+    },
+    {
+     "key": "e_1_2_6_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/159.4.1491"
+    },
+    {
+     "key": "e_1_2_6_59_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1391",
+     "DOI": "10.1016/S0022-3565(24)37735-3",
+     "article-title": "Hepatic sinusoidal membrane transport of anionic drugs mediated by anion transporter Npt1",
+     "volume": "286",
+     "author": "Yabuuchi H",
+     "year": "1998",
+     "journal-title": "Journal of Pharmacology and Experimental Therapeutics"
+    },
+    {
+     "key": "e_1_2_6_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1469-8137.2003.00677.x"
+    },
+    {
+     "key": "e_1_2_6_61_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tplants.2005.07.003"
+    }
+   ],
+   "container-title": [
+    "New Phytologist"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1469-8137.2007.02331.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-8137.2007.02331.x",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/j.1469-8137.2007.02331.x",
+     "content-type": "application/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://nph.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-8137.2007.02331.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      1,
+      26
+     ]
+    ],
+    "date-time": "2025-01-26T14:30:41Z",
+    "timestamp": 1737901841000
+   },
+   "score": 62.625114,
+   "resource": {
+    "primary": {
+     "URL": "https://nph.onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02331.x"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2007,
+      12,
+      13
+     ]
+    ]
+   },
+   "references-count": 60,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2008,
+       3
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/j.1469-8137.2007.02331.x"
+   ],
+   "URL": "https://doi.org/10.1111/j.1469-8137.2007.02331.x",
+   "archive": [
+    "Portico"
+   ],
+   "ISSN": [
+    "0028-646X",
+    "1469-8137"
+   ],
+   "issn-type": [
+    {
+     "value": "0028-646X",
+     "type": "print"
+    },
+    {
+     "value": "1469-8137",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2007,
+      12,
+      13
+     ]
+    ]
+   }
+  },
+  {
+   "institution": [
+    {
+     "name": "Chicago Operations Office",
+     "acronym": [
+      "CHO"
+     ],
+     "place": [
+      "Argonne, IL (United States)"
+     ]
+    },
+    {
+     "name": "University of Minnesota"
+    },
+    {
+     "name": "USDOE Office of Energy Research (ER)"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2022,
+      4,
+      4
+     ]
+    ],
+    "date-time": "2022-04-04T13:56:22Z",
+    "timestamp": 1649080582331
+   },
+   "reference-count": 0,
+   "publisher": "Office of Scientific and Technical Information (OSTI)",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.2172/950496",
+   "type": "report",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      14
+     ]
+    ],
+    "date-time": "2010-01-14T04:02:38Z",
+    "timestamp": 1263441758000
+   },
+   "approved": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      13
+     ]
+    ]
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Functional Analysis of Arabidopsis Sucrose Transporters"
+   ],
+   "prefix": "10.2172",
+   "author": [
+    {
+     "family": "John M. Ward",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "960",
+   "published-online": {
+    "date-parts": [
+     [
+      2009,
+      3,
+      31
+     ]
+    ]
+   },
+   "deposited": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      14
+     ]
+    ],
+    "date-time": "2010-01-14T04:02:41Z",
+    "timestamp": 1263441761000
+   },
+   "score": 35.022526,
+   "resource": {
+    "primary": {
+     "URL": "http://www.osti.gov/servlets/purl/950496-upP64K/"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2009,
+      3,
+      31
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.2172/950496",
+   "published": {
+    "date-parts": [
+     [
+      2009,
+      3,
+      31
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      28
+     ]
+    ],
+    "date-time": "2026-09-28T00:02:54Z",
+    "timestamp": 1790553774643,
+    "version": "4.1.0"
+   },
+   "reference-count": 51,
+   "publisher": "Informa UK Limited",
+   "issue": "10",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Plant Signaling &amp; Behavior"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      10
+     ]
+    ]
+   },
+   "DOI": "10.4161/psb.3.10.6666",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      3,
+      16
+     ]
+    ],
+    "date-time": "2011-03-16T22:48:29Z",
+    "timestamp": 1300315709000
+   },
+   "page": "784-790",
+   "source": "Crossref",
+   "is-referenced-by-count": 55,
+   "title": [
+    "Differential expression and phylogenetic analysis suggest specialization of plastid-localized members of the PHT4 phosphate transporter family for photosynthetic and heterotrophic tissues"
+   ],
+   "prefix": "10.1080",
+   "volume": "3",
+   "author": [
+    {
+     "given": "Biwei",
+     "family": "Guo",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sonia",
+     "family": "Irigoyen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tiffany B.",
+     "family": "Fowler",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Wayne K.",
+     "family": "Versaw",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "301",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "R1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02861058"
+    },
+    {
+     "key": "R2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0968-0004(86)90136-2"
+    },
+    {
+     "key": "R3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.pp.33.060182.002243"
+    },
+    {
+     "key": "R4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/jbc.M709371200"
+    },
+    {
+     "key": "R5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.016519"
+    },
+    {
+     "key": "R6",
+     "doi-asserted-by": "crossref",
+     "first-page": "39",
+     "DOI": "10.1002/j.1460-2075.1989.tb03346.x",
+     "volume": "8",
+     "author": "Fl\u00fcgge UI",
+     "year": "1989",
+     "journal-title": "EMBO J"
+    },
+    {
+     "key": "R7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.010576"
+    },
+    {
+     "key": "R8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.9.3.453"
+    },
+    {
+     "key": "R9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.10.1.105"
+    },
+    {
+     "key": "R10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1034/j.1399-3054.2003.00137.x"
+    },
+    {
+     "key": "R11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.11.11.2153"
+    },
+    {
+     "key": "R12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.002220"
+    },
+    {
+     "key": "R13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1469-8137.2003.00677.x"
+    },
+    {
+     "key": "R14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.172390399"
+    },
+    {
+     "key": "R15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2004.02106.x"
+    },
+    {
+     "key": "R16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1469-8137.2007.02331.x"
+    },
+    {
+     "key": "R17",
+     "doi-asserted-by": "crossref",
+     "first-page": "325",
+     "DOI": "10.1074/mcp.M300030-MCP200",
+     "volume": "2",
+     "author": "Ferro M",
+     "year": "2003",
+     "journal-title": "Mol Cell Proteomics"
+    },
+    {
+     "key": "R18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-003-1121-5"
+    },
+    {
+     "key": "R19",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1399-3054.1962.tb08052.x"
+    },
+    {
+     "key": "R20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313x.1998.00343.x"
+    },
+    {
+     "key": "R21",
+     "doi-asserted-by": "crossref",
+     "first-page": "3901",
+     "DOI": "10.1002/j.1460-2075.1987.tb02730.x",
+     "volume": "6",
+     "author": "Jefferson RA",
+     "year": "1987",
+     "journal-title": "EMBO J"
+    },
+    {
+     "key": "R22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1385/0-89603-302-3:185"
+    },
+    {
+     "key": "R23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/1791345a0"
+    },
+    {
+     "key": "R24",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00291994"
+    },
+    {
+     "key": "R25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.004929"
+    },
+    {
+     "key": "R26",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.9.4.491"
+    },
+    {
+     "key": "R27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.104.059063"
+    },
+    {
+     "key": "R28",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/gkm333"
+    },
+    {
+     "key": "R29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nprot.2007.131"
+    },
+    {
+     "key": "R30",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00239-003-2564-9"
+    },
+    {
+     "key": "R31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.0307901101"
+    },
+    {
+     "key": "R32",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.212522399"
+    },
+    {
+     "key": "R33",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.202474599"
+    },
+    {
+     "key": "R34",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2006.02976.x"
+    },
+    {
+     "key": "R35",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bbabio.2006.10.009"
+    },
+    {
+     "key": "R36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.013441"
+    },
+    {
+     "key": "R37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1115581"
+    },
+    {
+     "key": "R38",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-3040.2007.01753.x"
+    },
+    {
+     "key": "R39",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pch205"
+    },
+    {
+     "key": "R40",
+     "first-page": "232",
+     "volume": "502",
+     "author": "Fliege R",
+     "year": "1978",
+     "journal-title": "Bioch Biophys Acta"
+    },
+    {
+     "key": "R41",
+     "doi-asserted-by": "crossref",
+     "first-page": "1123",
+     "DOI": "10.1104/pp.106.3.1123",
+     "volume": "106",
+     "author": "Barnes SA",
+     "year": "1994",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "R42",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s004250050268"
+    },
+    {
+     "key": "R43",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00192527"
+    },
+    {
+     "key": "R44",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.90.13.6160"
+    },
+    {
+     "key": "R45",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.2002.01460.x"
+    },
+    {
+     "key": "R46",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.104.040469"
+    },
+    {
+     "key": "R47",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.arplant.51.1.111"
+    },
+    {
+     "key": "R48",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00262640"
+    },
+    {
+     "key": "R49",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00387060"
+    },
+    {
+     "key": "R50",
+     "doi-asserted-by": "crossref",
+     "first-page": "167",
+     "DOI": "10.5642/aliso.19911301.06",
+     "volume": "3",
+     "author": "Behnke HD",
+     "year": "1991",
+     "journal-title": "Aliso"
+    },
+    {
+     "key": "R51",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.120.1.43"
+    }
+   ],
+   "container-title": [
+    "Plant Signaling &amp; Behavior"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://www.tandfonline.com/doi/pdf/10.4161/psb.3.10.6666",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      6,
+      9
+     ]
+    ],
+    "date-time": "2019-06-09T08:58:02Z",
+    "timestamp": 1560070682000
+   },
+   "score": 35.000404,
+   "resource": {
+    "primary": {
+     "URL": "http://www.tandfonline.com/doi/abs/10.4161/psb.3.10.6666"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2008,
+      10
+     ]
+    ]
+   },
+   "references-count": 51,
+   "journal-issue": {
+    "issue": "10",
+    "published-online": {
+     "date-parts": [
+      [
+       2014,
+       10,
+       28
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2008,
+       10
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.4161/psb.3.10.6666"
+   ],
+   "URL": "https://doi.org/10.4161/psb.3.10.6666",
+   "ISSN": [
+    "1559-2324"
+   ],
+   "issn-type": [
+    {
+     "value": "1559-2324",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2008,
+      10
+     ]
+    ]
+   }
+  }
+ ]
+}

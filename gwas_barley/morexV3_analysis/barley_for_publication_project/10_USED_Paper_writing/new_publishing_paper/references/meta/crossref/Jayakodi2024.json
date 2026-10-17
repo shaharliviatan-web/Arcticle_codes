@@ -1,0 +1,4049 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     24
+    ]
+   ],
+   "date-time": "2026-09-24T19:18:25Z",
+   "timestamp": 1790277505742,
+   "version": "4.1.0"
+  },
+  "reference-count": 151,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "8043",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2024,
+       11,
+       13
+      ]
+     ],
+     "date-time": "2024-11-13T00:00:00Z",
+     "timestamp": 1731456000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2024,
+       11,
+       13
+      ]
+     ],
+     "date-time": "2024-11-13T00:00:00Z",
+     "timestamp": 1731456000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Nature"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     12,
+     19
+    ]
+   ]
+  },
+  "DOI": "10.1038/s41586-024-08187-1",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     13
+    ]
+   ],
+   "date-time": "2024-11-13T12:40:46Z",
+   "timestamp": 1731501646000
+  },
+  "page": "654-662",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 165,
+  "title": [
+   "Structural variation in the pangenome of wild and domesticated barley"
+  ],
+  "prefix": "10.1038",
+  "volume": "636",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-2951-0541",
+    "authenticated-orcid": false,
+    "given": "Murukarthick",
+    "family": "Jayakodi",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1358-2623",
+    "authenticated-orcid": false,
+    "given": "Qiongxian",
+    "family": "Lu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9802-1787",
+    "authenticated-orcid": false,
+    "given": "H\u00e9l\u00e8ne",
+    "family": "Pidon",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4663-985X",
+    "authenticated-orcid": false,
+    "given": "M. Timothy",
+    "family": "Rabanus-Wallace",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0041-3115",
+    "authenticated-orcid": false,
+    "given": "Micha",
+    "family": "Bayer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5543-1911",
+    "authenticated-orcid": false,
+    "given": "Thomas",
+    "family": "Lux",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5424-5797",
+    "authenticated-orcid": false,
+    "given": "Yu",
+    "family": "Guo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Benjamin",
+    "family": "Jaegle",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ana",
+    "family": "Badea",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Wubishet",
+    "family": "Bekele",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gurcharn S.",
+    "family": "Brar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5390-4079",
+    "authenticated-orcid": false,
+    "given": "Katarzyna",
+    "family": "Braune",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8420-8161",
+    "authenticated-orcid": false,
+    "given": "Boyke",
+    "family": "Bunk",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kenneth J.",
+    "family": "Chalmers",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4484-2253",
+    "authenticated-orcid": false,
+    "given": "Brett",
+    "family": "Chapman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6503-0495",
+    "authenticated-orcid": false,
+    "given": "Morten Egevang",
+    "family": "J\u00f8rgensen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3737-4850",
+    "authenticated-orcid": false,
+    "given": "Jia-Wu",
+    "family": "Feng",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Manuel",
+    "family": "Feser",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Anne",
+    "family": "Fiebig",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6757-0943",
+    "authenticated-orcid": false,
+    "given": "Heidrun",
+    "family": "Gundlach",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1829-6044",
+    "authenticated-orcid": false,
+    "given": "Wenbin",
+    "family": "Guo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6612-6939",
+    "authenticated-orcid": false,
+    "given": "Georg",
+    "family": "Haberer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0168-9968",
+    "authenticated-orcid": false,
+    "given": "Mats",
+    "family": "Hansson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Axel",
+    "family": "Himmelbach",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Iris",
+    "family": "Hoffie",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Robert E.",
+    "family": "Hoffie",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Haifei",
+    "family": "Hu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9555-5054",
+    "authenticated-orcid": false,
+    "given": "Sachiko",
+    "family": "Isobe",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8948-6793",
+    "authenticated-orcid": false,
+    "given": "Patrick",
+    "family": "K\u00f6nig",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0665-5094",
+    "authenticated-orcid": false,
+    "given": "Sandip M.",
+    "family": "Kale",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nadia",
+    "family": "Kamal",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gabriel",
+    "family": "Keeble-Gagn\u00e8re",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2379-9225",
+    "authenticated-orcid": false,
+    "given": "Beat",
+    "family": "Keller",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Manuela",
+    "family": "Knauft",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8566-9501",
+    "authenticated-orcid": false,
+    "given": "Ravi",
+    "family": "Koppolu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6912-7411",
+    "authenticated-orcid": false,
+    "given": "Simon G.",
+    "family": "Krattinger",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7080-7983",
+    "authenticated-orcid": false,
+    "given": "Jochen",
+    "family": "Kumlehn",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9494-400X",
+    "authenticated-orcid": false,
+    "given": "Peter",
+    "family": "Langridge",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9653-2700",
+    "authenticated-orcid": false,
+    "given": "Chengdao",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3160-4766",
+    "authenticated-orcid": false,
+    "given": "Marina P.",
+    "family": "Marone",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andreas",
+    "family": "Maurer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6484-1077",
+    "authenticated-orcid": false,
+    "given": "Klaus F. X.",
+    "family": "Mayer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Melzer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9320-2629",
+    "authenticated-orcid": false,
+    "given": "Gary J.",
+    "family": "Muehlbauer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Emiko",
+    "family": "Murozuka",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sudharsan",
+    "family": "Padmarasu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dragan",
+    "family": "Perovic",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4646-6351",
+    "authenticated-orcid": false,
+    "given": "Klaus",
+    "family": "Pillen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pierre A.",
+    "family": "Pin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7536-3856",
+    "authenticated-orcid": false,
+    "given": "Curtis J.",
+    "family": "Pozniak",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2209-2308",
+    "authenticated-orcid": false,
+    "given": "Luke",
+    "family": "Ramsay",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pai Rosager",
+    "family": "Pedas",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Twan",
+    "family": "Rutten",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1622-5346",
+    "authenticated-orcid": false,
+    "given": "Shun",
+    "family": "Sakuma",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8818-5203",
+    "authenticated-orcid": false,
+    "given": "Kazuhiro",
+    "family": "Sato",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Danuta",
+    "family": "Sch\u00fcler",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1073-6719",
+    "authenticated-orcid": false,
+    "given": "Thomas",
+    "family": "Schmutzer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6113-3518",
+    "authenticated-orcid": false,
+    "given": "Uwe",
+    "family": "Scholz",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3732-8822",
+    "authenticated-orcid": false,
+    "given": "Miriam",
+    "family": "Schreiber",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7880-6221",
+    "authenticated-orcid": false,
+    "given": "Kenta",
+    "family": "Shirasawa",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1723-1492",
+    "authenticated-orcid": false,
+    "given": "Craig",
+    "family": "Simpson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7317-4376",
+    "authenticated-orcid": false,
+    "given": "Birgitte",
+    "family": "Skadhauge",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0701-7035",
+    "authenticated-orcid": false,
+    "given": "Manuel",
+    "family": "Spannagl",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7961-5363",
+    "authenticated-orcid": false,
+    "given": "Brian J.",
+    "family": "Steffenson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hanne C.",
+    "family": "Thomsen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4951-7540",
+    "authenticated-orcid": false,
+    "given": "Josquin F.",
+    "family": "Tibbits",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0358-434X",
+    "authenticated-orcid": false,
+    "given": "Martin Toft Simmelsgaard",
+    "family": "Nielsen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Corinna",
+    "family": "Trautewig",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7877-6587",
+    "authenticated-orcid": false,
+    "given": "Dominique",
+    "family": "Vequaud",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Cynthia",
+    "family": "Voss",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3751-3921",
+    "authenticated-orcid": false,
+    "given": "Penghao",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1045-3065",
+    "authenticated-orcid": false,
+    "given": "Robbie",
+    "family": "Waugh",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sharon",
+    "family": "Westcott",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6720-8832",
+    "authenticated-orcid": false,
+    "given": "Magnus Wohlfahrt",
+    "family": "Rasmussen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7558-765X",
+    "authenticated-orcid": false,
+    "given": "Runxuan",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiao-Qi",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6777-7135",
+    "authenticated-orcid": false,
+    "given": "Thomas",
+    "family": "Wicker",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5923-3667",
+    "authenticated-orcid": false,
+    "given": "Christoph",
+    "family": "Dockter",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6373-6013",
+    "authenticated-orcid": false,
+    "given": "Martin",
+    "family": "Mascher",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3011-8731",
+    "authenticated-orcid": false,
+    "given": "Nils",
+    "family": "Stein",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     13
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "8187_CR1",
+    "doi-asserted-by": "publisher",
+    "first-page": "563",
+    "DOI": "10.1038/s41576-024-00691-4",
+    "volume": "25",
+    "author": "M Schreiber",
+    "year": "2024",
+    "unstructured": "Schreiber, M., Jayakodi, M., Stein, N. & Mascher, M. Plant pangenomes for crop improvement, biodiversity and evolution. Nat. Rev. Genet. 25, 563\u2013577 (2024).",
+    "journal-title": "Nat. Rev. Genet."
+   },
+   {
+    "key": "8187_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "411",
+    "DOI": "10.1146/annurev-arplant-080720-105454",
+    "volume": "72",
+    "author": "L Lei",
+    "year": "2021",
+    "unstructured": "Lei, L. et al. Plant pan-genomics comes of age. Annu. Rev. Plant Biol. 72, 411\u2013435 (2021).",
+    "journal-title": "Annu. Rev. Plant Biol."
+   },
+   {
+    "key": "8187_CR3",
+    "doi-asserted-by": "publisher",
+    "first-page": "1424",
+    "DOI": "10.1073/pnas.0608580104",
+    "volume": "104",
+    "author": "T Komatsuda",
+    "year": "2007",
+    "unstructured": "Komatsuda, T. et al. Six-rowed barley originated from a mutation in a homeodomain-leucine zipper I-class homeobox gene. Proc. Natl Acad. Sci. USA 104, 1424\u20131429 (2007).",
+    "journal-title": "Proc. Natl Acad. Sci. USA"
+   },
+   {
+    "key": "8187_CR4",
+    "doi-asserted-by": "publisher",
+    "first-page": "939",
+    "DOI": "10.1111/nph.12068",
+    "volume": "197",
+    "author": "S Sakuma",
+    "year": "2013",
+    "unstructured": "Sakuma, S. et al. Divergence of expression pattern contributed to neofunctionalization of duplicated HD-Zip I transcription factor in barley. New Phytol. 197, 939\u2013948 (2013).",
+    "journal-title": "New Phytol."
+   },
+   {
+    "key": "8187_CR5",
+    "doi-asserted-by": "publisher",
+    "first-page": "319",
+    "DOI": "10.1038/s41588-018-0266-x",
+    "volume": "51",
+    "author": "SG Milner",
+    "year": "2019",
+    "unstructured": "Milner, S. G. et al. Genebank genomics highlights the diversity of a global barley collection. Nat. Genet. 51, 319\u2013326 (2019).",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "8187_CR6",
+    "doi-asserted-by": "publisher",
+    "first-page": "351",
+    "DOI": "10.1016/j.tplants.2013.12.002",
+    "volume": "19",
+    "author": "S Abbo",
+    "year": "2014",
+    "unstructured": "Abbo, S. et al. Plant domestication versus crop evolution: a conceptual framework for cereals and grain legumes. Trends Plant Sci. 19, 351\u2013360 (2014).",
+    "journal-title": "Trends Plant Sci."
+   },
+   {
+    "key": "8187_CR7",
+    "doi-asserted-by": "publisher",
+    "first-page": "913",
+    "DOI": "10.1111/nph.13266",
+    "volume": "206",
+    "author": "IK Dawson",
+    "year": "2015",
+    "unstructured": "Dawson, I. K. et al. Barley: a translational model for adaptation to climate change. New Phytol. 206, 913\u2013931 (2015).",
+    "journal-title": "New Phytol."
+   },
+   {
+    "key": "8187_CR8",
+    "doi-asserted-by": "publisher",
+    "first-page": "123",
+    "DOI": "10.1111/hrd2.00077",
+    "volume": "151",
+    "author": "U Lundqvist",
+    "year": "2014",
+    "unstructured": "Lundqvist, U. Scandinavian mutation research in barley\u2014a historical review. Hereditas 151, 123\u2013131 (2014).",
+    "journal-title": "Hereditas"
+   },
+   {
+    "key": "8187_CR9",
+    "doi-asserted-by": "publisher",
+    "first-page": "142",
+    "DOI": "10.1104/pp.108.128967",
+    "volume": "149",
+    "author": "D Schulte",
+    "year": "2009",
+    "unstructured": "Schulte, D. et al. The international barley sequencing consortium\u2014at the threshold of efficient access to the barley genome. Plant Physiol. 149, 142\u2013147 (2009).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "8187_CR10",
+    "doi-asserted-by": "publisher",
+    "first-page": "284",
+    "DOI": "10.1038/s41586-020-2947-8",
+    "volume": "588",
+    "author": "M Jayakodi",
+    "year": "2020",
+    "unstructured": "Jayakodi, M. et al. The barley pan-genome reveals the hidden legacy of mutation breeding. Nature 588, 284\u2013289 (2020).",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "8187_CR11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/plcell/koab077",
+    "author": "M Mascher",
+    "year": "2021",
+    "unstructured": "Mascher, M. et al. Long-read sequence assembly: a technical evaluation in barley. Plant Cell https://doi.org/10.1093/plcell/koab077 (2021).",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "8187_CR12",
+    "doi-asserted-by": "publisher",
+    "first-page": "1024",
+    "DOI": "10.1038/ng.3612",
+    "volume": "48",
+    "author": "J Russell",
+    "year": "2016",
+    "unstructured": "Russell, J. et al. Exome sequencing of geographically diverse barley landraces and wild relatives gives insights into environmental adaptation. Nat. Genet. 48, 1024\u20131030 (2016).",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "8187_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "617",
+    "DOI": "10.1104/pp.110.166249",
+    "volume": "155",
+    "author": "A Druka",
+    "year": "2011",
+    "unstructured": "Druka, A. et al. Genetic dissection of barley morphology and development. Plant Physiol. 155, 617\u2013627 (2011).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "8187_CR14",
+    "doi-asserted-by": "publisher",
+    "first-page": "1155",
+    "DOI": "10.1038/s41587-019-0217-9",
+    "volume": "37",
+    "author": "AM Wenger",
+    "year": "2019",
+    "unstructured": "Wenger, A. M. et al. Accurate circular consensus long-read sequencing improves variant detection and assembly of a human genome. Nat. Biotechnol. 37, 1155\u20131162 (2019).",
+    "journal-title": "Nat. Biotechnol."
+   },
+   {
+    "key": "8187_CR15",
+    "doi-asserted-by": "publisher",
+    "first-page": "441",
+    "DOI": "10.1007/978-1-4939-9045-0_28",
+    "volume": "1933",
+    "author": "S Padmarasu",
+    "year": "2019",
+    "unstructured": "Padmarasu, S., Himmelbach, A., Mascher, M. & Stein, N. In situ Hi-C for plants: an improved method to detect long-range chromatin interactions. Methods Mol. Biol. 1933, 441\u2013472 (2019).",
+    "journal-title": "Methods Mol. Biol."
+   },
+   {
+    "key": "8187_CR16",
+    "doi-asserted-by": "publisher",
+    "first-page": "3210",
+    "DOI": "10.1093/bioinformatics/btv351",
+    "volume": "31",
+    "author": "FA Simao",
+    "year": "2015",
+    "unstructured": "Simao, F. A., Waterhouse, R. M., Ioannidis, P., Kriventseva, E. V. & Zdobnov, E. M. BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics 31, 3210\u20133212 (2015).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.2115639118",
+    "volume": "119",
+    "author": "MKN Lawniczak",
+    "year": "2022",
+    "unstructured": "Lawniczak, M. K. N. et al. Standards recommendations for the Earth BioGenome Project. Proc. Natl Acad. Sci. USA 119, e2115639118 (2022).",
+    "journal-title": "Proc. Natl Acad. Sci. USA"
+   },
+   {
+    "key": "8187_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "849",
+    "DOI": "10.1111/tpj.15861",
+    "volume": "111",
+    "author": "Y Guo",
+    "year": "2022",
+    "unstructured": "Guo, Y., Himmelbach, A., Weiss, E., Stein, N. & Mascher, M. Six-rowed wild-growing barleys are hybrids of diverse origins. Plant J. 111, 849\u2013858 (2022).",
+    "journal-title": "Plant J."
+   },
+   {
+    "key": "8187_CR19",
+    "first-page": "287",
+    "volume": "21",
+    "author": "A Kamm",
+    "year": "1954",
+    "unstructured": "Kamm, A. The discovery of wild six-rowed barley and wild Hordeum intermedium in Israel. Ann. R. Agric. Coll. Sweden 21, 287\u2013320 (1954).",
+    "journal-title": "Ann. R. Agric. Coll. Sweden"
+   },
+   {
+    "key": "8187_CR20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12864-015-1459-7",
+    "volume": "16",
+    "author": "A Maurer",
+    "year": "2015",
+    "unstructured": "Maurer, A. et al. Modelling the genetic architecture of flowering time control in barley through nested association mapping. BMC Genomics 16, 290 (2015).",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "key": "8187_CR21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-020-02168-z",
+    "volume": "21",
+    "author": "H Li",
+    "year": "2020",
+    "unstructured": "Li, H., Feng, X. & Chu, C. The design and construction of reference pangenome graphs with minigraph. Genome Biol. 21, 265 (2020).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR22",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Andreace, F., Lechat, P., Dufresne, Y. & Chikhi, R. Comparing methods for constructing and representing human pangenome graphs. Genome Biol. 24, 274 (2023).",
+    "DOI": "10.1186/s13059-023-03098-2"
+   },
+   {
+    "key": "8187_CR23",
+    "doi-asserted-by": "publisher",
+    "first-page": "572",
+    "DOI": "10.1038/s41576-021-00367-3",
+    "volume": "22",
+    "author": "W De Coster",
+    "year": "2021",
+    "unstructured": "De Coster, W., Weissensteiner, M. H. & Sedlazeck, F. J. Towards population-scale long-read sequencing. Nat. Rev. Genet. 22, 572\u2013587 (2021).",
+    "journal-title": "Nat. Rev. Genet."
+   },
+   {
+    "key": "8187_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "1113",
+    "DOI": "10.1101/gr.8.11.1113",
+    "volume": "8",
+    "author": "RW Michelmore",
+    "year": "1998",
+    "unstructured": "Michelmore, R. W. & Meyers, B. C. Clusters of resistance genes in plants evolve by divergent selection and a birth-and-death process. Genome Res. 8, 1113\u20131130 (1998).",
+    "journal-title": "Genome Res."
+   },
+   {
+    "key": "8187_CR25",
+    "doi-asserted-by": "publisher",
+    "first-page": "1903",
+    "DOI": "10.1105/tpc.002238",
+    "volume": "14",
+    "author": "F Wei",
+    "year": "2002",
+    "unstructured": "Wei, F., Wing, R. A. & Wise, R. P. Genome dynamics and evolution of the Mla (powdery mildew) resistance locus in barley. Plant Cell 14, 1903\u20131917 (2002).",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "8187_CR26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41467-021-27288-3",
+    "volume": "12",
+    "author": "J Bettgenhaeuser",
+    "year": "2021",
+    "unstructured": "Bettgenhaeuser, J. et al. The barley immune receptor Mla recognizes multiple pathogens and contributes to host range dynamics. Nat. Commun. 12, 6915 (2021).",
+    "journal-title": "Nat. Commun."
+   },
+   {
+    "key": "8187_CR27",
+    "doi-asserted-by": "publisher",
+    "first-page": "497",
+    "DOI": "10.1094/MPMI-23-4-0497",
+    "volume": "23",
+    "author": "S Seeholzer",
+    "year": "2010",
+    "unstructured": "Seeholzer, S. et al. Diversity at the Mla powdery mildew resistance locus from cultivated barley reveals sites of positive selection. Mol. Plant Microbe Interact. 23, 497\u2013509 (2010).",
+    "journal-title": "Mol. Plant Microbe Interact."
+   },
+   {
+    "key": "8187_CR28",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Brabham, H. J. et al. Barley MLA3 recognizes the host-specificity effector Pwl2from Magnaporthe oryzae. Plant Cell 36, 447\u2013470 (2024).",
+    "DOI": "10.1093/plcell/koad266"
+   },
+   {
+    "key": "8187_CR29",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Rabanus-Wallace, M. T., Wicker, T. & Stein, N. Replicators, genes, and the C-value enigma: high-quality genome assembly of barley provides direct evidence that self-replicating DNA forms \u2018cooperative\u2019 associations with genes in arms races. Preprint at bioRxiv https://doi.org/10.1101/2023.10.01.560391 (2023).",
+    "DOI": "10.1101/2023.10.01.560391"
+   },
+   {
+    "key": "8187_CR30",
+    "doi-asserted-by": "publisher",
+    "first-page": "2628",
+    "DOI": "10.1111/pce.12979",
+    "volume": "40",
+    "author": "CM Escudero-Martinez",
+    "year": "2017",
+    "unstructured": "Escudero-Martinez, C. M., Morris, J. A., Hedley, P. E. & Bos, J. I. B. Barley transcriptome analyses upon interaction with different aphid species identify thionins contributing to resistance. Plant Cell Environ. 40, 2628\u20132643 (2017).",
+    "journal-title": "Plant Cell Environ."
+   },
+   {
+    "key": "8187_CR31",
+    "doi-asserted-by": "publisher",
+    "first-page": "631",
+    "DOI": "10.1111/j.1365-313X.2007.03164.x",
+    "volume": "51",
+    "author": "T Wicker",
+    "year": "2007",
+    "unstructured": "Wicker, T., Yahiaoui, N. & Keller, B. Illegitimate recombination is a major evolutionary mechanism for initiating size variation in plant resistance genes. Plant J. 51, 631\u2013641 (2007).",
+    "journal-title": "Plant J."
+   },
+   {
+    "key": "8187_CR32",
+    "doi-asserted-by": "publisher",
+    "first-page": "792",
+    "DOI": "10.1093/sysbio/syv035",
+    "volume": "64",
+    "author": "J Brassac",
+    "year": "2015",
+    "unstructured": "Brassac, J. & Blattner, F. R. Species-level phylogeny and polyploid relationships in Hordeum (Poaceae) inferred by next-generation sequencing and in silico cloning of multiple nuclear loci. Syst. Biol. 64, 792\u2013808 (2015).",
+    "journal-title": "Syst. Biol."
+   },
+   {
+    "key": "8187_CR33",
+    "doi-asserted-by": "publisher",
+    "first-page": "485",
+    "DOI": "10.1038/386485a0",
+    "volume": "386",
+    "author": "J Doebley",
+    "year": "1997",
+    "unstructured": "Doebley, J., Stec, A. & Hubbard, L. The evolution of apical dominance in maize. Nature 386, 485\u2013488 (1997).",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "8187_CR34",
+    "doi-asserted-by": "publisher",
+    "first-page": "563",
+    "DOI": "10.1105/tpc.17.00961",
+    "volume": "30",
+    "author": "LE Dixon",
+    "year": "2018",
+    "unstructured": "Dixon, L. E. et al. TEOSINTE BRANCHED1 regulates inflorescence architecture and development in bread wheat (Triticum aestivum). Plant Cell 30, 563\u2013581 (2018).",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "8187_CR35",
+    "doi-asserted-by": "publisher",
+    "first-page": "169",
+    "DOI": "10.1038/ng.745",
+    "volume": "43",
+    "author": "L Ramsay",
+    "year": "2011",
+    "unstructured": "Ramsay, L. et al. INTERMEDIUM-C, a modifier of lateral spikelet fertility in barley, is an ortholog of the maize domestication gene TEOSINTE BRANCHED 1. Nat. Genet. 43, 169\u2013172 (2011).",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "8187_CR36",
+    "doi-asserted-by": "publisher",
+    "first-page": "37",
+    "DOI": "10.1111/j.1601-5223.1989.tb00374.x",
+    "volume": "111",
+    "author": "U Lundqvist",
+    "year": "1989",
+    "unstructured": "Lundqvist, U., Abebe, B. & Lundqvist, A. Gene interaction of induced intermedium mutations of two-row barley. Hereditas 111, 37\u201347 (1989).",
+    "journal-title": "Hereditas"
+   },
+   {
+    "key": "8187_CR37",
+    "doi-asserted-by": "publisher",
+    "first-page": "843",
+    "DOI": "10.1007/s10722-017-0504-6",
+    "volume": "64",
+    "author": "HM Youssef",
+    "year": "2017",
+    "unstructured": "Youssef, H. M. et al. Natural diversity of inflorescence architecture traces cryptic domestication genes in barley (Hordeum vulgare L.). Genet. Resour. Crop Evol. 64, 843\u2013853 (2017).",
+    "journal-title": "Genet. Resour. Crop Evol."
+   },
+   {
+    "key": "8187_CR38",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-019-1899-5",
+    "volume": "20",
+    "author": "C Monat",
+    "year": "2019",
+    "unstructured": "Monat, C. et al. TRITEX: chromosome-scale sequence assembly of Triticeae genomes with open-source tools. Genome Biol. 20, 284 (2019).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR39",
+    "doi-asserted-by": "publisher",
+    "first-page": "1149",
+    "DOI": "10.1007/s00018-013-1388-z",
+    "volume": "71",
+    "author": "\u0160 Jane\u010dek",
+    "year": "2014",
+    "unstructured": "Jane\u010dek, \u0160., Svensson, B. & MacGregor, E. A. \u03b1-Amylase: an enzyme specificity found in various families of glycoside hydrolases. Cell. Mol. Life Sci. 71, 1149\u20131170 (2014).",
+    "journal-title": "Cell. Mol. Life Sci."
+   },
+   {
+    "key": "8187_CR40",
+    "doi-asserted-by": "publisher",
+    "first-page": "163",
+    "DOI": "10.1007/BF00025299",
+    "volume": "66",
+    "author": "EE Karrer",
+    "year": "1992",
+    "unstructured": "Karrer, E. E., Chandler, J. M., Foolad, M. R. & Rodriguez, R. L. Correlation between \u03b1-amylase gene expression and seedling vigor in rice. Euphytica 66, 163\u2013169 (1992).",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "8187_CR41",
+    "doi-asserted-by": "publisher",
+    "first-page": "427",
+    "DOI": "10.1038/nature22043",
+    "volume": "544",
+    "author": "M Mascher",
+    "year": "2017",
+    "unstructured": "Mascher, M. et al. A chromosome conformation capture ordered sequence of the barley genome. Nature 544, 427\u2013433 (2017).",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "8187_CR42",
+    "doi-asserted-by": "publisher",
+    "first-page": "205",
+    "DOI": "10.1006/jmbi.1998.1683",
+    "volume": "278",
+    "author": "A Kadziola",
+    "year": "1998",
+    "unstructured": "Kadziola, A., S\u00f8gaard, M., Svensson, B. & Haser, R. Molecular structure of a barley \u03b1-amylase-inhibitor complex: implications for starch binding and catalysis. J. Mol. Biol. 278, 205\u2013217 (1998).",
+    "journal-title": "J. Mol. Biol."
+   },
+   {
+    "key": "8187_CR43",
+    "doi-asserted-by": "publisher",
+    "first-page": "176",
+    "DOI": "10.1104/pp.108.123653",
+    "volume": "148",
+    "author": "X Zou",
+    "year": "2008",
+    "unstructured": "Zou, X., Neuman, D. & Shen, Q. J. Interactions of two transcriptional repressors and two transcriptional activators in modulating gibberellin signaling in aleurone cells. Plant Physiol. 148, 176\u2013186 (2008).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "8187_CR44",
+    "doi-asserted-by": "publisher",
+    "first-page": "903",
+    "DOI": "10.1093/aob/mcm048",
+    "volume": "100",
+    "author": "DQ Fuller",
+    "year": "2007",
+    "unstructured": "Fuller, D. Q. Contrasting patterns in crop domestication and domestication rates: recent archaeobotanical insights from the Old World. Ann. Bot. 100, 903\u2013924 (2007).",
+    "journal-title": "Ann. Bot."
+   },
+   {
+    "key": "8187_CR45",
+    "doi-asserted-by": "publisher",
+    "first-page": "46",
+    "DOI": "10.1270/jsbbs.22085",
+    "volume": "73",
+    "author": "S Sakuma",
+    "year": "2023",
+    "unstructured": "Sakuma, S. & Koppolu, R. Form follows function in Triticeae inflorescences. Breed. Sci. 73, 46\u201356 (2023).",
+    "journal-title": "Breed. Sci."
+   },
+   {
+    "key": "8187_CR46",
+    "doi-asserted-by": "publisher",
+    "first-page": "1127",
+    "DOI": "10.3390/genes12081127",
+    "volume": "12",
+    "author": "JK Yu",
+    "year": "2021",
+    "unstructured": "Yu, J. K. & Chung, Y. S. Plant variety protection: current practices and insights. Genes (Basel) 12, 1127 (2021).",
+    "journal-title": "Genes (Basel)"
+   },
+   {
+    "key": "8187_CR47",
+    "doi-asserted-by": "publisher",
+    "first-page": "93",
+    "DOI": "10.1007/BF02983275",
+    "volume": "10",
+    "author": "F Engledow",
+    "year": "1920",
+    "unstructured": "Engledow, F. Inheritance in barley: I. The lateral florets and the rachilla. J. Genet. 10, 93\u2013108 (1920).",
+    "journal-title": "J. Genet."
+   },
+   {
+    "key": "8187_CR48",
+    "doi-asserted-by": "publisher",
+    "first-page": "21611",
+    "DOI": "10.1073/pnas.1010179107",
+    "volume": "107",
+    "author": "J Cockram",
+    "year": "2010",
+    "unstructured": "Cockram, J. et al. Genome-wide association mapping to candidate polymorphism resolution in the unsequenced barley genome. Proc. Natl Acad. Sci. USA 107, 21611\u201321616 (2010).",
+    "journal-title": "Proc. Natl Acad. Sci. USA"
+   },
+   {
+    "key": "8187_CR49",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/sdata.2017.44",
+    "volume": "4",
+    "author": "S Beier",
+    "year": "2017",
+    "unstructured": "Beier, S. et al. Construction of a map-based reference genome sequence for barley, Hordeum vulgare L. Sci. Data 4, 170044 (2017).",
+    "journal-title": "Sci. Data"
+   },
+   {
+    "key": "8187_CR50",
+    "doi-asserted-by": "publisher",
+    "first-page": "3065",
+    "DOI": "10.1105/tpc.15.00489",
+    "volume": "27",
+    "author": "N Kumar",
+    "year": "2015",
+    "unstructured": "Kumar, N. et al. Functional conservation in the SIAMESE-RELATED family of cyclin-dependent kinase inhibitors in land plants. Plant Cell 27, 3065\u20133080 (2015).",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "8187_CR51",
+    "doi-asserted-by": "publisher",
+    "first-page": "165",
+    "DOI": "10.1104/pp.20.00271",
+    "volume": "184",
+    "author": "K Wang",
+    "year": "2020",
+    "unstructured": "Wang, K. et al. The CDK inhibitor SIAMESE targets both CDKA;1 and CDKB1 complexes to establish endoreplication in trichomes. Plant Physiol. 184, 165\u2013175 (2020).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "8187_CR52",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/sciadv.abq2266",
+    "volume": "8",
+    "author": "S Knudsen",
+    "year": "2022",
+    "unstructured": "Knudsen, S. et al. FIND-IT: accelerated trait development for a green evolution. Sci. Adv. 8, eabq2266 (2022).",
+    "journal-title": "Sci. Adv."
+   },
+   {
+    "key": "8187_CR53",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41467-022-29316-2",
+    "volume": "13",
+    "author": "Y Nomoto",
+    "year": "2022",
+    "unstructured": "Nomoto, Y. et al. A hierarchical transcriptional network activates specific CDK inhibitors that regulate G2 to control cell size and number in Arabidopsis. Nat. Commun. 13, 1660 (2022).",
+    "journal-title": "Nat. Commun."
+   },
+   {
+    "key": "8187_CR54",
+    "doi-asserted-by": "publisher",
+    "first-page": "312",
+    "DOI": "10.1038/s41586-023-05896-x",
+    "volume": "617",
+    "author": "W-W Liao",
+    "year": "2023",
+    "unstructured": "Liao, W.-W. et al. A draft human pangenome reference. Nature 617, 312\u2013324 (2023).",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "8187_CR55",
+    "doi-asserted-by": "publisher",
+    "first-page": "337",
+    "DOI": "10.1038/s41477-019-0404-1",
+    "volume": "5",
+    "author": "TA Brown",
+    "year": "2019",
+    "unstructured": "Brown, T. A. Is the domestication bottleneck a myth? Nat. Plants 5, 337\u2013338 (2019).",
+    "journal-title": "Nat. Plants"
+   },
+   {
+    "key": "8187_CR56",
+    "doi-asserted-by": "publisher",
+    "first-page": "680",
+    "DOI": "10.1139/g88-115",
+    "volume": "30",
+    "author": "J Dvorak",
+    "year": "1988",
+    "unstructured": "Dvorak, J., McGuire, P. E. & Cassidy, B. Apparent sources of the A genomes of wheats inferred from polymorphism in abundance and restriction fragment length of repeated nucleotide sequences. Genome 30, 680\u2013689 (1988).",
+    "journal-title": "Genome"
+   },
+   {
+    "key": "8187_CR57",
+    "doi-asserted-by": "publisher",
+    "first-page": "e2955",
+    "DOI": "10.21769/BioProtoc.2955",
+    "volume": "8",
+    "author": "A Himmelbach",
+    "year": "2018",
+    "unstructured": "Himmelbach, A., Walde, I., Mascher, M. & Stein, N. Tethered chromosome conformation capture sequencing in Triticeae: a valuable tool for genome assembly. Bio Protoc. 8, e2955 (2018).",
+    "journal-title": "Bio Protoc."
+   },
+   {
+    "key": "8187_CR58",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Himmelbach, A. et al. Discovery of multi\u2010megabase polymorphic inversions by chromosome conformation capture sequencing in large\u2010genome plant species. Plant J. 96, 1309\u20131316 (2018).",
+    "DOI": "10.1111/tpj.14109"
+   },
+   {
+    "key": "8187_CR59",
+    "doi-asserted-by": "publisher",
+    "first-page": "170",
+    "DOI": "10.1038/s41592-020-01056-5",
+    "volume": "18",
+    "author": "H Cheng",
+    "year": "2021",
+    "unstructured": "Cheng, H., Concepcion, G. T., Feng, X., Zhang, H. & Li, H. Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm. Nat. Methods 18, 170\u2013175 (2021).",
+    "journal-title": "Nat. Methods"
+   },
+   {
+    "key": "8187_CR60",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13007-022-00964-1",
+    "volume": "18",
+    "author": "MP Marone",
+    "year": "2022",
+    "unstructured": "Marone, M. P., Singh, H. C., Pozniak, C. J. & Mascher, M. A technical guide to TRITEX, a computational pipeline for chromosome-scale sequence assembly of plant genomes. Plant Methods 18, 128 (2022).",
+    "journal-title": "Plant Methods"
+   },
+   {
+    "key": "8187_CR61",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-020-02134-9",
+    "volume": "21",
+    "author": "A Rhie",
+    "year": "2020",
+    "unstructured": "Rhie, A., Walenz, B. P., Koren, S. & Phillippy, A. M. Merqury: reference-free quality, completeness, and phasing assessment for genome assemblies. Genome Biol. 21, 245 (2020).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR62",
+    "doi-asserted-by": "publisher",
+    "first-page": "550",
+    "DOI": "10.1093/bioinformatics/btx637",
+    "volume": "34",
+    "author": "H Sun",
+    "year": "2017",
+    "unstructured": "Sun, H., Ding, J., Piedno\u00ebl, M. & Schneeberger, K. findGSE: estimating genome size variation within human and Arabidopsis using k-mer frequencies. Bioinformatics 34, 550\u2013557 (2017).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR63",
+    "doi-asserted-by": "publisher",
+    "first-page": "841",
+    "DOI": "10.1093/bioinformatics/btq033",
+    "volume": "26",
+    "author": "AR Quinlan",
+    "year": "2010",
+    "unstructured": "Quinlan, A. R. & Hall, I. M. BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics 26, 841\u2013842 (2010).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR64",
+    "doi-asserted-by": "publisher",
+    "first-page": "1026",
+    "DOI": "10.1038/nbt.3988",
+    "volume": "35",
+    "author": "M Steinegger",
+    "year": "2017",
+    "unstructured": "Steinegger, M. & S\u00f6ding, J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nat. Biotechnol. 35, 1026\u20131028 (2017).",
+    "journal-title": "Nat. Biotechnol."
+   },
+   {
+    "key": "8187_CR65",
+    "first-page": "7",
+    "volume": "1",
+    "author": "H Li",
+    "year": "2018",
+    "unstructured": "Li, H. Minimap2: pairwise alignment for nucleotide sequences. Bioinformatics 1, 7 (2018).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR66",
+    "doi-asserted-by": "publisher",
+    "first-page": "3021",
+    "DOI": "10.1093/bioinformatics/btw369",
+    "volume": "32",
+    "author": "M Nattestad",
+    "year": "2016",
+    "unstructured": "Nattestad, M. & Schatz, M. C. Assemblytics: a web analytics tool for the detection of variants from an assembly. Bioinformatics 32, 3021\u20133023 (2016).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR67",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-019-1911-0",
+    "volume": "20",
+    "author": "M Goel",
+    "year": "2019",
+    "unstructured": "Goel, M., Sun, H., Jiao, W.-B. & Schneeberger, K. SyRI: finding genomic rearrangements and local sequence differences from whole-genome assemblies. Genome Biol. 20, 277 (2019).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR68",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Martin, M. Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet J https://doi.org/10.14806/ej.17.1.200 (2011).",
+    "DOI": "10.14806/ej.17.1.200"
+   },
+   {
+    "key": "8187_CR69",
+    "doi-asserted-by": "publisher",
+    "first-page": "2987",
+    "DOI": "10.1093/bioinformatics/btr509",
+    "volume": "27",
+    "author": "H Li",
+    "year": "2011",
+    "unstructured": "Li, H. A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data. Bioinformatics 27, 2987\u20132993 (2011).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR70",
+    "doi-asserted-by": "publisher",
+    "first-page": "821",
+    "DOI": "10.1038/ng.2310",
+    "volume": "44",
+    "author": "X Zhou",
+    "year": "2012",
+    "unstructured": "Zhou, X. & Stephens, M. Genome-wide efficient mixed-model analysis for association studies. Nat. Genet. 44, 821\u2013824 (2012).",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "8187_CR71",
+    "doi-asserted-by": "publisher",
+    "first-page": "4572",
+    "DOI": "10.1093/bioinformatics/btab705",
+    "volume": "37",
+    "author": "H Li",
+    "year": "2021",
+    "unstructured": "Li, H. New strategies to improve minimap2 alignment accuracy. Bioinformatics 37, 4572\u20134574 (2021).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR72",
+    "doi-asserted-by": "publisher",
+    "first-page": "867",
+    "DOI": "10.1093/bioinformatics/btx699",
+    "volume": "34",
+    "author": "BS Pedersen",
+    "year": "2017",
+    "unstructured": "Pedersen, B. S. & Quinlan, A. R. Mosdepth: quick coverage calculation for genomes and exomes. Bioinformatics 34, 867\u2013868 (2017).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR73",
+    "doi-asserted-by": "publisher",
+    "first-page": "477",
+    "DOI": "10.1038/hdy.2016.121",
+    "volume": "118",
+    "author": "A Maurer",
+    "year": "2017",
+    "unstructured": "Maurer, A., Sannemann, W., Leon, J. & Pillen, K. Estimating parent-specific QTL effects through cumulating linked identity-by-state SNP effects in multiparental populations. Heredity 118, 477\u2013485 (2017).",
+    "journal-title": "Heredity"
+   },
+   {
+    "key": "8187_CR74",
+    "doi-asserted-by": "publisher",
+    "first-page": "e52249",
+    "DOI": "10.1371/journal.pone.0052249",
+    "volume": "7",
+    "author": "H Xu",
+    "year": "2012",
+    "unstructured": "Xu, H. et al. FastUniq: a fast de novo duplicates removal tool for paired short reads. PLoS ONE 7, e52249 (2012).",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "key": "8187_CR75",
+    "doi-asserted-by": "publisher",
+    "first-page": "e0185056",
+    "DOI": "10.1371/journal.pone.0185056",
+    "volume": "12",
+    "author": "B Bushnell",
+    "year": "2017",
+    "unstructured": "Bushnell, B., Rood, J. & Singer, E. BBMerge\u2014accurate paired shotgun read merging via overlap. PLoS ONE 12, e0185056 (2017).",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "key": "8187_CR76",
+    "doi-asserted-by": "publisher",
+    "first-page": "2885",
+    "DOI": "10.1093/bioinformatics/btv290",
+    "volume": "31",
+    "author": "H Li",
+    "year": "2015",
+    "unstructured": "Li, H. BFC: correcting Illumina sequencing errors. Bioinformatics 31, 2885\u20132887 (2015).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR77",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/1748-7188-8-22",
+    "volume": "8",
+    "author": "R Chikhi",
+    "year": "2013",
+    "unstructured": "Chikhi, R. & Rizk, G. Space-efficient and exact de Bruijn graph representation based on a Bloom filter. Algorithms Mol. Biol. 8, 22 (2013).",
+    "journal-title": "Algorithms Mol. Biol."
+   },
+   {
+    "key": "8187_CR78",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/gigascience/giab008",
+    "volume": "10",
+    "author": "P Danecek",
+    "year": "2021",
+    "unstructured": "Danecek, P. et al. Twelve years of SAMtools and BCFtools. Gigascience 10, giab008 (2021).",
+    "journal-title": "Gigascience"
+   },
+   {
+    "key": "8187_CR79",
+    "doi-asserted-by": "publisher",
+    "first-page": "e190",
+    "DOI": "10.1371/journal.pgen.0020190",
+    "volume": "2",
+    "author": "N Patterson",
+    "year": "2006",
+    "unstructured": "Patterson, N., Price, A. L. & Reich, D. Population structure and eigenanalysis. PLoS Genet. 2, e190 (2006).",
+    "journal-title": "PLoS Genet."
+   },
+   {
+    "key": "8187_CR80",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13742-015-0047-8",
+    "volume": "4",
+    "author": "CC Chang",
+    "year": "2015",
+    "unstructured": "Chang, C. C. et al. Second-generation PLINK: rising to the challenge of larger and richer datasets. Gigascience 4, 7 (2015).",
+    "journal-title": "Gigascience"
+   },
+   {
+    "key": "8187_CR81",
+    "doi-asserted-by": "publisher",
+    "first-page": "276",
+    "DOI": "10.1016/S0168-9525(00)02024-2",
+    "volume": "16",
+    "author": "P Rice",
+    "year": "2000",
+    "unstructured": "Rice, P., Longden, I. & Bleasby, A. EMBOSS: the European molecular biology open software suite. Trends Genet. 16, 276\u2013277 (2000).",
+    "journal-title": "Trends Genet."
+   },
+   {
+    "key": "8187_CR82",
+    "doi-asserted-by": "publisher",
+    "first-page": "W293",
+    "DOI": "10.1093/nar/gkab301",
+    "volume": "49",
+    "author": "I Letunic",
+    "year": "2021",
+    "unstructured": "Letunic, I. & Bork, P. Interactive Tree Of Life (iTOL) v5: an online tool for phylogenetic tree display and annotation. Nucleic Acids Res. 49, W293\u2013W296 (2021).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR83",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Waugh, R. et al. A barley pan-transcriptome reveals layers of genotype-dependent transcriptional complexity. Preprint at Research Square https://doi.org/10.21203/rs.3.rs-3787876/v1 (2024).",
+    "DOI": "10.21203/rs.3.rs-3787876/v1"
+   },
+   {
+    "key": "8187_CR84",
+    "doi-asserted-by": "publisher",
+    "first-page": "15",
+    "DOI": "10.1093/bioinformatics/bts635",
+    "volume": "29",
+    "author": "A Dobin",
+    "year": "2013",
+    "unstructured": "Dobin, A. et al. STAR: ultrafast universal RNA-seq aligner. Bioinformatics 29, 15\u201321 (2013).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR85",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-019-1910-1",
+    "volume": "20",
+    "author": "S Kovaka",
+    "year": "2019",
+    "unstructured": "Kovaka, S. et al. Transcriptome assembly from long-read RNA-seq alignments with StringTie2. Genome Biol. 20, 278 (2019).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR86",
+    "doi-asserted-by": "publisher",
+    "first-page": "D523",
+    "DOI": "10.1093/nar/gkac1052",
+    "volume": "51",
+    "author": "TU Consortium",
+    "year": "2022",
+    "unstructured": "Consortium, T. U. UniProt: the universal protein knowledgebase in 2023. Nucleic Acids Res. 51, D523\u2013D531 (2022).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR87",
+    "doi-asserted-by": "publisher",
+    "first-page": "965",
+    "DOI": "10.1016/j.infsof.2005.09.005",
+    "volume": "47",
+    "author": "G Gremme",
+    "year": "2005",
+    "unstructured": "Gremme, G., Brendel, V., Sparks, M. E. & Kurtz, S. Engineering a software tool for gene structure prediction in higher organisms. Inf. Softw. Technol. 47, 965\u2013978 (2005).",
+    "journal-title": "Inf. Softw. Technol."
+   },
+   {
+    "key": "8187_CR88",
+    "doi-asserted-by": "publisher",
+    "first-page": "1859",
+    "DOI": "10.1093/bioinformatics/bti310",
+    "volume": "21",
+    "author": "TD Wu",
+    "year": "2005",
+    "unstructured": "Wu, T. D. & Watanabe, C. K. GMAP: a genomic mapping and alignment program for mRNA and EST sequences. Bioinformatics 21, 1859\u20131875 (2005).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR89",
+    "doi-asserted-by": "publisher",
+    "first-page": "339",
+    "DOI": "10.1007/978-1-4939-3167-5_18",
+    "volume": "1374",
+    "author": "S Ghosh",
+    "year": "2016",
+    "unstructured": "Ghosh, S. & Chan, C. K. Analysis of RNA-seq data using TopHat and Cufflinks. Methods Mol. Biol. 1374, 339\u2013361 (2016).",
+    "journal-title": "Methods Mol. Biol."
+   },
+   {
+    "key": "8187_CR90",
+    "doi-asserted-by": "publisher",
+    "first-page": "W435",
+    "DOI": "10.1093/nar/gkl200",
+    "volume": "34",
+    "author": "M Stanke",
+    "year": "2006",
+    "unstructured": "Stanke, M. et al. AUGUSTUS: ab initio prediction of alternative transcripts. Nucleic Acids Res. 34, W435\u2013W439 (2006).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR91",
+    "doi-asserted-by": "publisher",
+    "first-page": "1979",
+    "DOI": "10.1101/gr.081612.108",
+    "volume": "18",
+    "author": "V Ter-Hovhannisyan",
+    "year": "2008",
+    "unstructured": "Ter-Hovhannisyan, V., Lomsadze, A., Chernoff, Y. O. & Borodovsky, M. Gene prediction in novel fungal genomes using an ab initio algorithm with unsupervised training. Genome Res. 18, 1979\u20131990 (2008).",
+    "journal-title": "Genome Res."
+   },
+   {
+    "key": "8187_CR92",
+    "doi-asserted-by": "publisher",
+    "first-page": "e57",
+    "DOI": "10.1002/cpbi.57",
+    "volume": "65",
+    "author": "KJ Hoff",
+    "year": "2019",
+    "unstructured": "Hoff, K. J. & Stanke, M. Predicting genes in single genomes with AUGUSTUS. Curr. Protoc. Bioinformatics 65, e57 (2019).",
+    "journal-title": "Curr. Protoc. Bioinformatics"
+   },
+   {
+    "key": "8187_CR93",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/gb-2008-9-1-r7",
+    "volume": "9",
+    "author": "BJ Haas",
+    "year": "2008",
+    "unstructured": "Haas, B. J. et al. Automated eukaryotic gene structure annotation using EVidenceModeler and the Program to Assemble Spliced Alignments. Genome Biol. 9, R7 (2008).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR94",
+    "doi-asserted-by": "publisher",
+    "first-page": "5654",
+    "DOI": "10.1093/nar/gkg770",
+    "volume": "31",
+    "author": "BJ Haas",
+    "year": "2003",
+    "unstructured": "Haas, B. J. et al. Improving the Arabidopsis genome annotation using maximal transcript alignment assemblies. Nucleic Acids Res. 31, 5654\u20135666 (2003).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR95",
+    "doi-asserted-by": "publisher",
+    "first-page": "403",
+    "DOI": "10.1016/S0022-2836(05)80360-2",
+    "volume": "215",
+    "author": "SF Altschul",
+    "year": "1990",
+    "unstructured": "Altschul, S. F., Gish, W., Miller, W., Myers, E. W. & Lipman, D. J. Basic local alignment search tool. J. Mol. Biol. 215, 403\u2013410 (1990).",
+    "journal-title": "J. Mol. Biol."
+   },
+   {
+    "key": "8187_CR96",
+    "doi-asserted-by": "publisher",
+    "first-page": "3150",
+    "DOI": "10.1093/bioinformatics/bts565",
+    "volume": "28",
+    "author": "L Fu",
+    "year": "2012",
+    "unstructured": "Fu, L., Niu, B., Zhu, Z., Wu, S. & Li, W. CD-HIT: accelerated for clustering the next-generation sequencing data. Bioinformatics 28, 3150\u20133152 (2012).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR97",
+    "doi-asserted-by": "publisher",
+    "first-page": "1422",
+    "DOI": "10.1093/bioinformatics/btp163",
+    "volume": "25",
+    "author": "PJ Cock",
+    "year": "2009",
+    "unstructured": "Cock, P. J. et al. Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics 25, 1422\u20131423 (2009).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR98",
+    "doi-asserted-by": "publisher",
+    "first-page": "10915",
+    "DOI": "10.1073/pnas.89.22.10915",
+    "volume": "89",
+    "author": "S Henikoff",
+    "year": "1992",
+    "unstructured": "Henikoff, S. & Henikoff, J. G. Amino acid substitution matrices from protein blocks. Proc. Natl Acad. Sci. USA 89, 10915\u201310919 (1992).",
+    "journal-title": "Proc. Natl Acad. Sci. USA"
+   },
+   {
+    "key": "8187_CR99",
+    "doi-asserted-by": "publisher",
+    "first-page": "421",
+    "DOI": "10.1186/1471-2105-10-421",
+    "volume": "10",
+    "author": "C Camacho",
+    "year": "2009",
+    "unstructured": "Camacho, C. et al. BLAST+: architecture and applications. BMC Bioinf. 10, 421 (2009).",
+    "journal-title": "BMC Bioinf."
+   },
+   {
+    "key": "8187_CR100",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-019-1832-y",
+    "volume": "20",
+    "author": "DM Emms",
+    "year": "2019",
+    "unstructured": "Emms, D. M. & Kelly, S. OrthoFinder: phylogenetic orthology inference for comparative genomics. Genome Biol. 20, 238 (2019).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR101",
+    "doi-asserted-by": "publisher",
+    "first-page": "e78526",
+    "DOI": "10.7554/eLife.78526",
+    "volume": "11",
+    "author": "JT Lovell",
+    "year": "2022",
+    "unstructured": "Lovell, J. T. et al. GENESPACE tracks regions of interest and gene copy number variation across multiple genomes. eLife 11, e78526 (2022).",
+    "journal-title": "eLife"
+   },
+   {
+    "key": "8187_CR102",
+    "doi-asserted-by": "publisher",
+    "first-page": "D1141",
+    "DOI": "10.1093/nar/gkv1130",
+    "volume": "44",
+    "author": "M Spannagl",
+    "year": "2016",
+    "unstructured": "Spannagl, M. et al. PGSB PlantsDB: updates to the database framework for comparative plant genome research. Nucleic Acids Res. 44, D1141\u2013D1147 (2016).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR103",
+    "doi-asserted-by": "publisher",
+    "first-page": "18",
+    "DOI": "10.1186/1471-2105-9-18",
+    "volume": "9",
+    "author": "D Ellinghaus",
+    "year": "2008",
+    "unstructured": "Ellinghaus, D., Kurtz, S. & Willhoeft, U. LTRharvest, an efficient and flexible software for de novo detection of LTR retrotransposons. BMC Bioinformatics 9, 18 (2008).",
+    "journal-title": "BMC Bioinformatics"
+   },
+   {
+    "key": "8187_CR104",
+    "doi-asserted-by": "publisher",
+    "first-page": "7002",
+    "DOI": "10.1093/nar/gkp759",
+    "volume": "37",
+    "author": "S Steinbiss",
+    "year": "2009",
+    "unstructured": "Steinbiss, S., Willhoeft, U., Gremme, G. & Kurtz, S. Fine-grained annotation and classification of de novo predicted LTR retrotransposons. Nucleic Acids Res. 37, 7002\u20137013 (2009).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR105",
+    "doi-asserted-by": "publisher",
+    "first-page": "955",
+    "DOI": "10.1093/nar/25.5.955",
+    "volume": "25",
+    "author": "TM Lowe",
+    "year": "1997",
+    "unstructured": "Lowe, T. M. & Eddy, S. R. tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence. Nucleic Acids Res. 25, 955\u2013964 (1997).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR106",
+    "doi-asserted-by": "publisher",
+    "first-page": "12404",
+    "DOI": "10.1073/pnas.0403715101",
+    "volume": "101",
+    "author": "J Ma",
+    "year": "2004",
+    "unstructured": "Ma, J. & Bennetzen, J. L. Rapid recent growth and divergence of rice nuclear genomes. Proc. Natl Acad. Sci. USA 101, 12404\u201312410 (2004).",
+    "journal-title": "Proc. Natl Acad. Sci. USA"
+   },
+   {
+    "key": "8187_CR107",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Garrison, E. et al. Building pangenome graphs. Nat. Methods https://doi.org/10.1038/s41592-024-02430-3 (2024).",
+    "DOI": "10.1038/s41592-024-02430-3"
+   },
+   {
+    "key": "8187_CR108",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41587-023-01793-w",
+    "author": "G Hickey",
+    "year": "2023",
+    "unstructured": "Hickey, G. et al. Pangenome graph construction from genome alignments with Minigraph-Cactus. Nat. Biotechnol. https://doi.org/10.1038/s41587-023-01793-w (2023).",
+    "journal-title": "Nat. Biotechnol."
+   },
+   {
+    "key": "8187_CR109",
+    "doi-asserted-by": "publisher",
+    "first-page": "875",
+    "DOI": "10.1038/nbt.4227",
+    "volume": "36",
+    "author": "E Garrison",
+    "year": "2018",
+    "unstructured": "Garrison, E. et al. Variation graph toolkit improves read mapping by representing genetic variation in the reference. Nat. Biotechnol. 36, 875\u2013879 (2018).",
+    "journal-title": "Nat. Biotechnol."
+   },
+   {
+    "key": "8187_CR110",
+    "doi-asserted-by": "publisher",
+    "first-page": "3319",
+    "DOI": "10.1093/bioinformatics/btac308",
+    "volume": "38",
+    "author": "A Guarracino",
+    "year": "2022",
+    "unstructured": "Guarracino, A., Heumos, S., Nahnsen, S., Prins, P. & Garrison, E. ODGI: understanding pangenome graphs. Bioinformatics 38, 3319\u20133326 (2022).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR111",
+    "doi-asserted-by": "publisher",
+    "first-page": "834",
+    "DOI": "10.3389/fmicb.2019.00834",
+    "volume": "10",
+    "author": "S-C Park",
+    "year": "2019",
+    "unstructured": "Park, S.-C., Lee, K., Kim, Y. O., Won, S. & Chun, J. Large-scale genomics reveals the genetic characteristics of seven species and importance of phylogenetic distance for estimating pan-genome size. Front. Microbiol. 10, 834 (2019).",
+    "journal-title": "Front. Microbiol."
+   },
+   {
+    "key": "8187_CR112",
+    "doi-asserted-by": "publisher",
+    "first-page": "abg8871",
+    "DOI": "10.1126/science.abg8871",
+    "volume": "374",
+    "author": "J Sir\u00e9n",
+    "year": "2021",
+    "unstructured": "Sir\u00e9n, J. et al. Pangenomics enables genotyping of known structural variants in 5202 diverse genomes. Science 374, abg8871 (2021).",
+    "journal-title": "Science"
+   },
+   {
+    "key": "8187_CR113",
+    "unstructured": "Li, H. Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. Preprint at https://arxiv.org/abs/1303.3997 (2013)."
+   },
+   {
+    "key": "8187_CR114",
+    "doi-asserted-by": "publisher",
+    "first-page": "2032",
+    "DOI": "10.1093/bioinformatics/btv098",
+    "volume": "31",
+    "author": "A Tarasov",
+    "year": "2015",
+    "unstructured": "Tarasov, A., Vilella, A. J., Cuppen, E., Nijman, I. J. & Prins, P. Sambamba: fast processing of NGS alignment formats. Bioinformatics 31, 2032\u20132034 (2015).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR115",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-020-1941-7",
+    "volume": "21",
+    "author": "G Hickey",
+    "year": "2020",
+    "unstructured": "Hickey, G. et al. Genotyping structural variants in pangenome graphs using the vg toolkit. Genome Biol. 21, 35 (2020).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "8187_CR116",
+    "unstructured": "Harris, R. S. Improved Pairwise Alignment of Genomic DNA. PhD thesis, Pennsylvania State Univ. (2007)."
+   },
+   {
+    "key": "8187_CR117",
+    "doi-asserted-by": "publisher",
+    "first-page": "2460",
+    "DOI": "10.1093/bioinformatics/btq461",
+    "volume": "26",
+    "author": "RC Edgar",
+    "year": "2010",
+    "unstructured": "Edgar, R. C. Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26, 2460\u20132461 (2010).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR118",
+    "doi-asserted-by": "publisher",
+    "first-page": "550",
+    "DOI": "10.1111/j.1365-313X.2012.05007.x",
+    "volume": "71",
+    "author": "JP Buchmann",
+    "year": "2012",
+    "unstructured": "Buchmann, J. P., Matsumoto, T., Stein, N., Keller, B. & Wicker, T. Inter-species sequence comparison of Brachypodium reveals how transposon activity corrodes genome colinearity. Plant J. 71, 550\u2013563 (2012).",
+    "journal-title": "Plant J."
+   },
+   {
+    "key": "8187_CR119",
+    "doi-asserted-by": "publisher",
+    "first-page": "W22",
+    "DOI": "10.1093/nar/gkt389",
+    "volume": "41",
+    "author": "S Kuraku",
+    "year": "2013",
+    "unstructured": "Kuraku, S., Zmasek, C. M., Nishimura, O. & Katoh, K. aLeaves facilitates on-demand exploration of metazoan gene family trees on MAFFT sequence alignment server with enhanced interactivity. Nucleic Acids Res. 41, W22\u2013W28 (2013).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR120",
+    "unstructured": "R Core Team. R: A Language and Environment for Statistical Computing (R Foundation for Statistical Computing, 2022)."
+   },
+   {
+    "key": "8187_CR121",
+    "doi-asserted-by": "publisher",
+    "first-page": "e115",
+    "DOI": "10.1093/nar/gks596",
+    "volume": "40",
+    "author": "A Untergasser",
+    "year": "2012",
+    "unstructured": "Untergasser, A. et al. Primer3\u2014new capabilities and interfaces. Nucleic Acids Res. 40, e115\u2013e115 (2012).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR122",
+    "doi-asserted-by": "publisher",
+    "first-page": "2156",
+    "DOI": "10.1093/bioinformatics/btr330",
+    "volume": "27",
+    "author": "P Danecek",
+    "year": "2011",
+    "unstructured": "Danecek, P. et al. The variant call format and VCFtools. Bioinformatics 27, 2156\u20132158 (2011).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR123",
+    "doi-asserted-by": "publisher",
+    "first-page": "764",
+    "DOI": "10.1093/bioinformatics/btr011",
+    "volume": "27",
+    "author": "G Mar\u00e7ais",
+    "year": "2011",
+    "unstructured": "Mar\u00e7ais, G. & Kingsford, C. A fast, lock-free approach for efficient parallel counting of occurrences of k-mers. Bioinformatics 27, 764\u2013770 (2011).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR124",
+    "doi-asserted-by": "publisher",
+    "first-page": "1110",
+    "DOI": "10.1111/2041-210X.12410",
+    "volume": "6",
+    "author": "JW Leigh",
+    "year": "2015",
+    "unstructured": "Leigh, J. W. & Bryant, D. popart: full-feature software for haplotype network construction. Methods Ecol. Evol. 6, 1110\u20131116 (2015).",
+    "journal-title": "Methods Ecol. Evol."
+   },
+   {
+    "key": "8187_CR125",
+    "doi-asserted-by": "publisher",
+    "first-page": "3350",
+    "DOI": "10.1093/bioinformatics/btv383",
+    "volume": "31",
+    "author": "RR Wick",
+    "year": "2015",
+    "unstructured": "Wick, R. R., Schultz, M. B., Zobel, J. & Holt, K. E. Bandage: interactive visualization of de novo genome assemblies. Bioinformatics 31, 3350\u20133352 (2015).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR126",
+    "doi-asserted-by": "publisher",
+    "first-page": "60",
+    "DOI": "10.1002/pro.3942",
+    "volume": "30",
+    "author": "CHM Rodrigues",
+    "year": "2021",
+    "unstructured": "Rodrigues, C. H. M., Pires, D. E. V. & Ascher, D. B. DynaMut2: assessing changes in stability and flexibility upon single and multiple point missense mutations. Protein Sci. 30, 60\u201369 (2021).",
+    "journal-title": "Protein Sci."
+   },
+   {
+    "key": "8187_CR127",
+    "doi-asserted-by": "publisher",
+    "first-page": "754",
+    "DOI": "10.1111/tpj.13600",
+    "volume": "91",
+    "author": "NS Betts",
+    "year": "2017",
+    "unstructured": "Betts, N. S. et al. Isolation of tissues and preservation of RNA from intact, germinated barley grain. Plant J. 91, 754\u2013765 (2017).",
+    "journal-title": "Plant J."
+   },
+   {
+    "key": "8187_CR128",
+    "doi-asserted-by": "publisher",
+    "first-page": "525",
+    "DOI": "10.1038/nbt.3519",
+    "volume": "34",
+    "author": "NL Bray",
+    "year": "2016",
+    "unstructured": "Bray, N. L., Pimentel, H., Melsted, P. & Pachter, L. Near-optimal probabilistic RNA-seq quantification. Nat. Biotechnol. 34, 525\u2013527 (2016).",
+    "journal-title": "Nat. Biotechnol."
+   },
+   {
+    "key": "8187_CR129",
+    "doi-asserted-by": "publisher",
+    "first-page": "119",
+    "DOI": "10.1093/oxfordjournals.aob.a086434",
+    "volume": "51",
+    "author": "SR Waddington",
+    "year": "1983",
+    "unstructured": "Waddington, S. R., Cartwright, P. M. & Wall, P. C. A quantitative scale of spike initial and pistil development in barley and wheat. Ann. Bot. 51, 119\u2013130 (1983).",
+    "journal-title": "Ann. Bot."
+   },
+   {
+    "key": "8187_CR130",
+    "doi-asserted-by": "publisher",
+    "first-page": "155",
+    "DOI": "10.1534/genetics.115.176628",
+    "volume": "201",
+    "author": "N Poursarebani",
+    "year": "2015",
+    "unstructured": "Poursarebani, N. et al. The genetic basis of composite spike form in barley and \u2018Miracle-Wheat\u2019. Genetics 201, 155\u2013165 (2015).",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "8187_CR131",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.18637/jss.v079.i06",
+    "volume": "79",
+    "author": "J Taylor",
+    "year": "2017",
+    "unstructured": "Taylor, J. & Butler, D. R package ASMap: efficient genetic linkage map construction and diagnosis. J. Stat. Softw. 79, 1\u201329 (2017).",
+    "journal-title": "J. Stat. Softw."
+   },
+   {
+    "key": "8187_CR132",
+    "doi-asserted-by": "publisher",
+    "first-page": "e1000212",
+    "DOI": "10.1371/journal.pgen.1000212",
+    "volume": "4",
+    "author": "Y Wu",
+    "year": "2008",
+    "unstructured": "Wu, Y., Bhat, P. R., Close, T. J. & Lonardi, S. Efficient and accurate construction of genetic linkage maps from the minimum spanning tree of a graph. PLoS Genet. 4, e1000212 (2008).",
+    "journal-title": "PLoS Genet."
+   },
+   {
+    "key": "8187_CR133",
+    "doi-asserted-by": "publisher",
+    "first-page": "889",
+    "DOI": "10.1093/bioinformatics/btg112",
+    "volume": "19",
+    "author": "KW Broman",
+    "year": "2003",
+    "unstructured": "Broman, K. W., Wu, H., Sen, \u015a. & Churchill, G. A. R/qtl: QTL mapping in experimental crosses. Bioinformatics 19, 889\u2013890 (2003).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR134",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1111/j.2517-6161.1977.tb01600.x",
+    "volume": "39",
+    "author": "AP Dempster",
+    "year": "1977",
+    "unstructured": "Dempster, A. P., Laird, N. M. & Rubin, D. B. Maximum likelihood from incomplete data via the EM algorithm. J. R. Stat. Soc. Series B Stat. Methodol. 39, 1\u201322 (1977).",
+    "journal-title": "J. R. Stat. Soc. Series B Stat. Methodol."
+   },
+   {
+    "key": "8187_CR135",
+    "doi-asserted-by": "publisher",
+    "first-page": "823",
+    "DOI": "10.1007/s00122-020-03733-7",
+    "volume": "134",
+    "author": "H Pidon",
+    "year": "2021",
+    "unstructured": "Pidon, H. et al. High-resolution mapping of Rym14Hb, a wild relative resistance gene to barley yellow mosaic disease. Theor. Appl. Genet. 134, 823\u2013833 (2021).",
+    "journal-title": "Theor. Appl. Genet."
+   },
+   {
+    "key": "8187_CR136",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41467-022-34630-w",
+    "volume": "13",
+    "author": "RC Edgar",
+    "year": "2022",
+    "unstructured": "Edgar, R. C. Muscle5: high-accuracy alignment ensembles enable unbiased assessments of sequence homology and phylogeny. Nat. Commun. 13, 6968 (2022).",
+    "journal-title": "Nat. Commun."
+   },
+   {
+    "key": "8187_CR137",
+    "doi-asserted-by": "publisher",
+    "first-page": "5175",
+    "DOI": "10.1093/bioinformatics/btac681",
+    "volume": "38",
+    "author": "Y Chen",
+    "year": "2022",
+    "unstructured": "Chen, Y. & Wang, X. Evaluation of efficiency prediction algorithms and development of ensemble model for CRISPR/Cas9 gRNA selection. Bioinformatics 38, 5175\u20135181 (2022).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR138",
+    "doi-asserted-by": "publisher",
+    "first-page": "W70",
+    "DOI": "10.1093/nar/gkn188",
+    "volume": "36",
+    "author": "AR Gruber",
+    "year": "2008",
+    "unstructured": "Gruber, A. R., Lorenz, R., Bernhart, S. H., Neub\u00f6ck, R. & Hofacker, I. L. The Vienna RNA websuite. Nucleic Acids Res. 36, W70\u2013W74 (2008).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR139",
+    "doi-asserted-by": "publisher",
+    "first-page": "2647",
+    "DOI": "10.3390/ijms20112647",
+    "volume": "20",
+    "author": "I Koeppel",
+    "year": "2019",
+    "unstructured": "Koeppel, I., Hertig, C., Hoffie, R. & Kumlehn, J. Cas endonuclease technology\u2014a quantum leap in the advancement of barley and wheat genetic engineering. Int. J. Mol. Sci. 20, 2647 (2019).",
+    "journal-title": "Int. J. Mol. Sci."
+   },
+   {
+    "key": "8187_CR140",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12870-020-02454-9",
+    "volume": "20",
+    "author": "SV Gerasimova",
+    "year": "2020",
+    "unstructured": "Gerasimova, S. V. et al. Conversion of hulled into naked barley by Cas endonuclease-mediated knockout of the NUD gene. BMC Plant Biol. 20, 255 (2020).",
+    "journal-title": "BMC Plant Biol."
+   },
+   {
+    "key": "8187_CR141",
+    "doi-asserted-by": "publisher",
+    "first-page": "835608",
+    "DOI": "10.1155/2009/835608",
+    "volume": "2009",
+    "author": "G Hensel",
+    "year": "2009",
+    "unstructured": "Hensel, G., Kastner, C., Oleszczuk, S., Riechen, J. & Kumlehn, J. Agrobacterium-mediated gene transfer to cereal crop plants: current protocols for barley, wheat, triticale, and maize. Int. J. Plant Genomics 2009, 835608 (2009).",
+    "journal-title": "Int. J. Plant Genomics"
+   },
+   {
+    "key": "8187_CR142",
+    "doi-asserted-by": "publisher",
+    "first-page": "23",
+    "DOI": "10.1038/s41477-017-0083-8",
+    "volume": "4",
+    "author": "A Watson",
+    "year": "2018",
+    "unstructured": "Watson, A. et al. Speed breeding is a powerful tool to accelerate crop research and breeding. Nat. Plants 4, 23\u201329 (2018).",
+    "journal-title": "Nat. Plants"
+   },
+   {
+    "key": "8187_CR143",
+    "doi-asserted-by": "publisher",
+    "first-page": "351",
+    "DOI": "10.1534/genetics.106.067355",
+    "volume": "176",
+    "author": "DJ Witherspoon",
+    "year": "2007",
+    "unstructured": "Witherspoon, D. J. et al. Genetic similarities within and between human populations. Genetics 176, 351\u2013359 (2007).",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "8187_CR144",
+    "doi-asserted-by": "publisher",
+    "first-page": "111",
+    "DOI": "10.32614/RJ-2014-011",
+    "volume": "6",
+    "author": "MP Van der Loo",
+    "year": "2014",
+    "unstructured": "Van der Loo, M. P. The stringdist package for approximate string matching. R J. 6, 111 (2014).",
+    "journal-title": "R J."
+   },
+   {
+    "key": "8187_CR145",
+    "doi-asserted-by": "publisher",
+    "first-page": "2114",
+    "DOI": "10.1093/bioinformatics/btu170",
+    "volume": "30",
+    "author": "AM Bolger",
+    "year": "2014",
+    "unstructured": "Bolger, A. M., Lohse, M. & Usadel, B. Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics 30, 2114\u20132120 (2014).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "8187_CR146",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41467-020-18890-y",
+    "volume": "11",
+    "author": "N Poursarebani",
+    "year": "2020",
+    "unstructured": "Poursarebani, N. et al. COMPOSITUM 1 contributes to the architectural simplification of barley inflorescence via meristem identity signals. Nat. Commun. 11, 5138 (2020).",
+    "journal-title": "Nat. Commun."
+   },
+   {
+    "key": "8187_CR147",
+    "doi-asserted-by": "publisher",
+    "first-page": "D121",
+    "DOI": "10.1093/nar/gkac1051",
+    "volume": "51",
+    "author": "J Burgin",
+    "year": "2022",
+    "unstructured": "Burgin, J. et al. The European Nucleotide Archive in 2022. Nucleic Acids Res. 51, D121\u2013D125 (2022).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR148",
+    "doi-asserted-by": "publisher",
+    "first-page": "D1216",
+    "DOI": "10.1093/nar/gkab960",
+    "volume": "50",
+    "author": "T Cezard",
+    "year": "2022",
+    "unstructured": "Cezard, T. et al. The European Variation Archive: a FAIR resource of genomic variation for all species. Nucleic Acids Res. 50, D1216\u2013D1220 (2022).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "8187_CR149",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Yao, E. et al. GrainGenes: a data-rich repository for small grains genetics and genomics. Database https://doi.org/10.1093/database/baac034 (2022).",
+    "DOI": "10.1093/database/baac034"
+   },
+   {
+    "key": "8187_CR150",
+    "doi-asserted-by": "publisher",
+    "unstructured": "Arend, D. et al. PGP repository: a plant phenomics and genomics data publication infrastructure. Database https://doi.org/10.1093/database/baw033 (2016).",
+    "DOI": "10.1093/database/baw033"
+   },
+   {
+    "key": "8187_CR151",
+    "doi-asserted-by": "publisher",
+    "first-page": "3491",
+    "DOI": "10.1534/g3.117.300222",
+    "volume": "7",
+    "author": "AH Sallam",
+    "year": "2017",
+    "unstructured": "Sallam, A. H. et al. Genome-wide association mapping of stem rust resistance in Hordeum vulgare subsp. spontaneum. G3 (Bethesda) 7, 3491\u20133507 (2017).",
+    "journal-title": "G3 (Bethesda)"
+   }
+  ],
+  "container-title": [
+   "Nature"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.nature.com/articles/s41586-024-08187-1.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://www.nature.com/articles/s41586-024-08187-1",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://www.nature.com/articles/s41586-024-08187-1.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     12,
+     22
+    ]
+   ],
+   "date-time": "2024-12-22T19:02:16Z",
+   "timestamp": 1734894136000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.nature.com/articles/s41586-024-08187-1"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     13
+    ]
+   ]
+  },
+  "references-count": 151,
+  "journal-issue": {
+   "issue": "8043",
+   "published-print": {
+    "date-parts": [
+     [
+      2024,
+      12,
+      19
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "8187"
+  ],
+  "URL": "https://doi.org/10.1038/s41586-024-08187-1",
+  "relation": {},
+  "ISSN": [
+   "0028-0836",
+   "1476-4687"
+  ],
+  "issn-type": [
+   {
+    "value": "0028-0836",
+    "type": "print"
+   },
+   {
+    "value": "1476-4687",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     13
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "9 October 2023",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "9 October 2024",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "13 November 2024",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "K.B., C.D., M.E.J., S.M.K., Q.L., E.M., P.R.P., B.S., H.C.T., M.T.S.N., C.V. and M.W.R. are current or previous Carlsberg A/S employees. P.A.P. and D.V. are SECOBRA Recherches employees. The other authors declare no competing interests.",
+    "order": 1,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Competing interests"
+    }
+   }
+  ]
+ },
+ "search": [
+  {
+   "institution": [
+    {
+     "name": "bioRxiv"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T23:11:35Z",
+    "timestamp": 1768518695487,
+    "version": "3.49.0"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      19
+     ]
+    ]
+   },
+   "group-title": "Plant Biology",
+   "reference-count": 0,
+   "publisher": "openRxiv",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        3,
+        19
+       ]
+      ],
+      "date-time": "2025-03-19T00:00:00Z",
+      "timestamp": 1742342400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      19
+     ]
+    ]
+   },
+   "abstract": "<jats:p>CCT motif genes play a key role in barley development and flowering, yet their genetic diversity remains underexplored. Leveraging a barley pangenome (76 genotypes) and pan-transcriptome (subset of 20 genotypes), we examined CCT gene variation and evolutionary dynamics. Motif-based searches, combined with genome assembly validation, revealed annotation limitations and novel frameshift variants (e.g., HvCO10), indicating active diversification. Pangenome-wide phylogenetic analysis identified clade-specific domain expansions, including B-box domain additions in HvCO clades. Tissue-specific expression patterns further supported functional divergence among paralogs. Notably, VRN2, a canonical floral repressor associated with winter growth, was retained in spring genotypes, challenging its presumed exclusive role in vernalization. Discrepancies between VRN1 expression, VRN2 deletion, and growth habits implicated additional regulatory mechanisms. These findings highlight the power of pangenomes in resolving gene family complexity, refining annotations, and advancing the understanding of CCT genes to enhance barley resilience and adaptability.</jats:p>",
+   "DOI": "10.1101/2025.03.19.643958",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      19
+     ]
+    ],
+    "date-time": "2025-03-19T19:20:09Z",
+    "timestamp": 1742412009000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Pangenome insights into structural variation and functional diversification of barley CCT motif genes"
+   ],
+   "prefix": "10.64898",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-2296-2724",
+     "authenticated-orcid": false,
+     "given": "Zihao",
+     "family": "Zhu",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3011-8731",
+     "authenticated-orcid": false,
+     "given": "Nils",
+     "family": "Stein",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "54368",
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.19.643958",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T08:18:31Z",
+    "timestamp": 1768465111000
+   },
+   "score": 37.42059,
+   "resource": {
+    "primary": {
+     "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.19.643958"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      19
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.1101/2025.03.19.643958",
+   "relation": {
+    "is-preprint-of": [
+     {
+      "id-type": "doi",
+      "id": "10.1002/tpg2.70098",
+      "asserted-by": "subject"
+     }
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      19
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      26
+     ]
+    ],
+    "date-time": "2025-03-26T11:20:36Z",
+    "timestamp": 1742988036415,
+    "version": "3.40.3"
+   },
+   "publisher-location": "Dordrecht",
+   "reference-count": 26,
+   "publisher": "Springer Netherlands",
+   "isbn-type": [
+    {
+     "type": "print",
+     "value": "9789400746817"
+    },
+    {
+     "type": "electronic",
+     "value": "9789400746824"
+    }
+   ],
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2012,
+        8,
+        13
+       ]
+      ],
+      "date-time": "2012-08-13T00:00:00Z",
+      "timestamp": 1344816000000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2012,
+        8,
+        13
+       ]
+      ],
+      "date-time": "2012-08-13T00:00:00Z",
+      "timestamp": 1344816000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2013
+     ]
+    ]
+   },
+   "DOI": "10.1007/978-94-007-4682-4_5",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2012,
+      12,
+      29
+     ]
+    ],
+    "date-time": "2012-12-29T14:57:43Z",
+    "timestamp": 1356793063000
+   },
+   "page": "57-68",
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 3,
+   "title": [
+    "Alpha-Amylase Allelic Variation in Domesticated and Wild Barley"
+   ],
+   "prefix": "10.1007",
+   "author": [
+    {
+     "given": "Suong",
+     "family": "Cu",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Sophia",
+     "family": "Roumeliotis",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Jason",
+     "family": "Eglinton",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2012,
+      8,
+      13
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "5_CR1",
+     "doi-asserted-by": "publisher",
+     "first-page": "73",
+     "DOI": "10.1007/BF00124634",
+     "volume": "82",
+     "author": "H Ahokas",
+     "year": "1990",
+     "unstructured": "Ahokas, H., & Naskali, L. (1990). Geographic variation of a-amylase, b-amylase, b-glucanase, pullulanase and chitinase activity in germinating Hordeum spontaneum barley from Israel and Jordan. Genetica, 82, 73\u201378.",
+     "journal-title": "Genetica"
+    },
+    {
+     "key": "5_CR2",
+     "doi-asserted-by": "publisher",
+     "first-page": "193",
+     "DOI": "10.1016/0167-4838(92)90025-9",
+     "volume": "2",
+     "author": "ELH Ajandouz",
+     "year": "1992",
+     "unstructured": "Ajandouz, E. L. H., Abe, J. I., Svensson, B., & Marchis-Mouren, G. (1992). Barley malt-a-amylase. Purification, action pattern, and subsite mapping of isozyme 1 and two members of the isozyme 2 subfamily using p-nitrophenylated maltooligosaccharide substrates, Biochimica et biophysica acta. Protein Structure and Molecular Enzymology, 2, 193\u2013202.",
+     "journal-title": "Protein Structure and Molecular Enzymology"
+    },
+    {
+     "key": "5_CR3",
+     "doi-asserted-by": "crossref",
+     "first-page": "298",
+     "DOI": "10.1002/j.2050-0416.1984.tb04278.x",
+     "volume": "5",
+     "author": "E Bertoft",
+     "year": "1984",
+     "unstructured": "Bertoft, E., Andtfolk, C., & Kulp, S. (1984). Effects of pH, temperature, and calcium ions on barley malt alpha-amylase isoenzymes. The Journal of The Institute of Brewing & Distilling, 5, 298\u2013302.",
+     "journal-title": "The Journal of The Institute of Brewing & Distilling"
+    },
+    {
+     "key": "5_CR4",
+     "doi-asserted-by": "publisher",
+     "first-page": "315",
+     "DOI": "10.1017/S0016672300019182",
+     "volume": "3",
+     "author": "AHD Brown",
+     "year": "1982",
+     "unstructured": "Brown, A. H. D., & Jacobsen, J. V. (1982). Genetic basis and natural variation of alpha-amylase isozymes in barley. Genetical Research, 3, 315\u2013324.",
+     "journal-title": "Genetical Research"
+    },
+    {
+     "key": "5_CR5",
+     "doi-asserted-by": "crossref",
+     "first-page": "19392",
+     "DOI": "10.1016/S0021-9258(19)47314-6",
+     "volume": "264",
+     "author": "D Bush",
+     "year": "1989",
+     "unstructured": "Bush, D., Sticher, L., van Huystee, R., Wagner, D., & Jones, R. (1989). The calcium requirement for stability and enzymatic activity of two isoforms of barley aleurone alpha-amylase. The Journal of Biological Chemistry, 264, 19392\u201319398.",
+     "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+     "key": "5_CR6",
+     "volume-title": "Analytica-EBC (European Brewery Convention)",
+     "author": "EBC",
+     "year": "1997",
+     "unstructured": "EBC. (1997). Analytica-EBC (European Brewery Convention). N\u00fcrnberg: Fachverlag Hans Karl."
+    },
+    {
+     "key": "5_CR7",
+     "doi-asserted-by": "publisher",
+     "first-page": "301",
+     "DOI": "10.1016/S0733-5210(98)90010-8",
+     "volume": "28",
+     "author": "JK Eglinton",
+     "year": "1998",
+     "unstructured": "Eglinton, J. K., Langridge, P., & Evans, D. E. (1998). Thermostability variation in alleles of barley beta-amylase. Journal of Cereal Science, 28, 301\u2013309.",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "5_CR8",
+     "doi-asserted-by": "publisher",
+     "first-page": "229",
+     "DOI": "10.1006/jcrs.1997.0119",
+     "volume": "26",
+     "author": "DE Evans",
+     "year": "1997",
+     "unstructured": "Evans, D. E., MacLeod, L. C., Eglinton, J. K., Gibson, C. E., Zhang, X., Wallace, W., Skerritt, J. H., & Lance, R. C. M. (1997). Measurement of beta-amylase in malting barley (Hordeum vulgare L.). I. Development of a quantitative ELISA for beta-amylase. Journal of Cereal Science, 26, 229\u2013239.",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "5_CR9",
+     "doi-asserted-by": "crossref",
+     "first-page": "210",
+     "DOI": "10.1094/ASBCJ-61-0210",
+     "volume": "61",
+     "author": "E Evans",
+     "year": "2003",
+     "unstructured": "Evans, E., Van Wegen, B., Ma, Y., & Eglinton, J. (2003). The impact of the thermostability of alpha-amylase, beta-amylase, and limit dextrinase on potential wort fermentability. Journal of the American Society of Brewing Chemists, 61, 210\u2013218.",
+     "journal-title": "Journal of the American Society of Brewing Chemists"
+    },
+    {
+     "key": "5_CR10",
+     "doi-asserted-by": "crossref",
+     "first-page": "195",
+     "DOI": "10.1094/ASBCJ-63-0185",
+     "volume": "63",
+     "author": "DE Evans",
+     "year": "2005",
+     "unstructured": "Evans, D. E., Collins, H. M., Eglinton, J. K., & Wilhelmson, A. (2005). Assessing the impact of the level of diastatic power enzymes and their thermostability on the hydrolysis of starch during wort production to predict malt fermentability. Journal of the American Society of Brewing Chemists, 63, 195\u2013198.",
+     "journal-title": "Journal of the American Society of Brewing Chemists"
+    },
+    {
+     "key": "5_CR11",
+     "doi-asserted-by": "publisher",
+     "first-page": "1520",
+     "DOI": "10.1073/pnas.58.4.1520",
+     "volume": "58",
+     "author": "F Filner",
+     "year": "1967",
+     "unstructured": "Filner, F., & Varner, J. E. (1967). A test for the de novo synthesis of enzyme: density labeling with H2018 of barley alpha-amylase induced by gibberellic acid. Proceedings of the National Academy of Sciences of the United States of America, 58, 1520\u20131526.",
+     "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    {
+     "key": "5_CR12",
+     "doi-asserted-by": "publisher",
+     "first-page": "123",
+     "DOI": "10.1111/j.1601-5223.1965.tb02010.x",
+     "volume": "54",
+     "author": "O Frydenberg",
+     "year": "1965",
+     "unstructured": "Frydenberg, O., & Nielsen, G. (1965). Amylase isozymes in germinating barley seeds. Hereditas, 54, 123\u2013139.",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "5_CR13",
+     "first-page": "201",
+     "volume": "61",
+     "author": "O Frydenberg",
+     "year": "1969",
+     "unstructured": "Frydenberg, O., Nielsen, G., & Sandfaer, J. (1969). The inheritance and distribution of alpha-amylase types and DDT responses in barley. Journal of Plant Breeding, 61, 201\u2013215.",
+     "journal-title": "Journal of Plant Breeding"
+    },
+    {
+     "key": "5_CR14",
+     "doi-asserted-by": "crossref",
+     "first-page": "37",
+     "DOI": "10.1002/j.2050-0416.1984.tb04230.x",
+     "volume": "90",
+     "author": "R Henry",
+     "year": "1984",
+     "unstructured": "Henry, R. (1984). A rapid method for the determination of diastatic power. Journal of the Institute of Brewing, 90, 37\u201339.",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "5_CR15",
+     "doi-asserted-by": "publisher",
+     "first-page": "39",
+     "DOI": "10.1016/S0733-5210(88)80047-X",
+     "volume": "8",
+     "author": "C Henson",
+     "year": "1988",
+     "unstructured": "Henson, C., & Stone, J. (1988). Variation in alpha-amylase and alpha-amylase inhibitor activities in barley malts. Journal of Cereal Science, 8, 39\u201346.",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "5_CR16",
+     "doi-asserted-by": "publisher",
+     "first-page": "1647",
+     "DOI": "10.1104/pp.70.6.1647",
+     "volume": "70",
+     "author": "JV Jacobsen",
+     "year": "1982",
+     "unstructured": "Jacobsen, J. V., & Higgins, T. J. V. (1982). Characterization of the {alpha}-amylases synthesized by aleurone layers of Himalaya barley in response to gibberellic acid. Plant Physiology, 70, 1647\u20131653.",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "5_CR17",
+     "doi-asserted-by": "publisher",
+     "first-page": "289",
+     "DOI": "10.1016/S0733-5210(03)00032-8",
+     "volume": "38",
+     "author": "MT Jensen",
+     "year": "2003",
+     "unstructured": "Jensen, M. T., Gottschalk, T. E., & Svensson, B. (2003). Differences in conformational stability of barley alpha-amylase isozymes 1 and 2. Role of charged groups and isozyme 2 specific salt-bridges. Journal of Cereal Science, 38, 289\u2013300.",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "5_CR18",
+     "doi-asserted-by": "crossref",
+     "first-page": "18953",
+     "DOI": "10.1016/S0021-9258(18)37374-5",
+     "volume": "263",
+     "author": "B Khursheed",
+     "year": "1988",
+     "unstructured": "Khursheed, B., & Rogers, J. (1988). Barley alpha-amylase genes. Quantitative comparison of steady state mRNA levels from individual members of the two different families expressed in aleurone cells. The Journal of Biological Chemistry, 263, 18953\u201318960.",
+     "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+     "key": "5_CR19",
+     "doi-asserted-by": "publisher",
+     "first-page": "425",
+     "DOI": "10.1111/j.1439-0523.1998.tb01967.x",
+     "volume": "117",
+     "author": "M Kihara",
+     "year": "1998",
+     "unstructured": "Kihara, M., Kaneko, T., & Ito, K. (1998). Genetic variation of beta-amylase thermostability among varieties of barley, Hordeum vulgare L., and relation to malting quality. Plant Breeding, 117, 425\u2013428.",
+     "journal-title": "Plant Breeding"
+    },
+    {
+     "key": "5_CR20",
+     "doi-asserted-by": "publisher",
+     "first-page": "3",
+     "DOI": "10.1007/BF00017982",
+     "volume": "9",
+     "author": "C Knox",
+     "year": "1987",
+     "unstructured": "Knox, C., Sonthayanon, B., Chandra, G., & Muthukrishnan, S. (1987). Structure and organization of two divergent aamylase genes from barley. Plant Molecular Biology, 9, 3\u201317.",
+     "journal-title": "Plant Molecular Biology"
+    },
+    {
+     "key": "5_CR21",
+     "doi-asserted-by": "publisher",
+     "first-page": "439",
+     "DOI": "10.1007/BF02907784",
+     "volume": "49",
+     "author": "J Mundy",
+     "year": "1984",
+     "unstructured": "Mundy, J. (1984). Hormonal regulation of \u03b1-amylase inhibitor synthesis in germinating barley. Carlsberg Research Communications, 49, 439\u2013444.",
+     "journal-title": "Carlsberg Research Communications"
+    },
+    {
+     "key": "5_CR22",
+     "doi-asserted-by": "publisher",
+     "first-page": "81",
+     "DOI": "10.1007/BF02906171",
+     "volume": "48",
+     "author": "J Mundy",
+     "year": "1983",
+     "unstructured": "Mundy, J., Svendsen, I., & Hejgaard, J. (1983). Barley alpha-amylase/subtilisin inhibitor I. Isolation and characterization. Carlsberg Research Communications, 48, 81\u201390.",
+     "journal-title": "Carlsberg Research Communications"
+    },
+    {
+     "key": "5_CR23",
+     "doi-asserted-by": "crossref",
+     "first-page": "13637",
+     "DOI": "10.1016/S0021-9258(18)89788-5",
+     "volume": "259",
+     "author": "S Muthukrishnan",
+     "year": "1984",
+     "unstructured": "Muthukrishnan, S., Gill, B., Swegle, M., & Chandra, C. (1984). Structural genes for alpha-amylases are located on barley chromosomes 1 and 6. The Journal of Biological Chemistry, 259, 13637\u201313639.",
+     "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+     "key": "5_CR24",
+     "doi-asserted-by": "publisher",
+     "first-page": "815",
+     "DOI": "10.2307/2407648",
+     "volume": "3",
+     "author": "E Nevo",
+     "year": "1979",
+     "unstructured": "Nevo, E., Zohary, D., Brown, A. H. D., & Haber, M. (1979). Genetic diversity and environmental associations of wild barley, Hordeum spontaneum, in Israel. Evolution, 3, 815\u2013833.",
+     "journal-title": "Evolution"
+    },
+    {
+     "key": "5_CR25",
+     "volume-title": "SA barley improvement program barley quality report 2001 and 2002 seasons",
+     "author": "S Roumeliotis",
+     "year": "2004",
+     "unstructured": "Roumeliotis, S., & Tansing, P. (2004). SA barley improvement program barley quality report 2001 and 2002 seasons. Adelaide: Waite Barley Quality Evaluation Laboratory, The University of Adelaide."
+    },
+    {
+     "key": "5_CR26",
+     "doi-asserted-by": "publisher",
+     "first-page": "649",
+     "DOI": "10.1016/S0969-2126(98)00066-5",
+     "volume": "6",
+     "author": "F Vall\u00e9e",
+     "year": "1998",
+     "unstructured": "Vall\u00e9e, F., Kadziola, A., Bourne, Y., Juy, M., Rodenburg, K. W., Svensson, B., & Haser, R. (1998). Barley alpha-amylase bound to its endogenous protein inhibitor BASI: crystal structure of the complex at 1.9 \u00e5 resolution. Structure, 6, 649\u2013659.",
+     "journal-title": "Structure"
+    }
+   ],
+   "container-title": [
+    "Advance in Barley Sciences"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1007/978-94-007-4682-4_5",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      23
+     ]
+    ],
+    "date-time": "2023-01-23T18:04:15Z",
+    "timestamp": 1674497055000
+   },
+   "score": 37.208004,
+   "resource": {
+    "primary": {
+     "URL": "https://link.springer.com/10.1007/978-94-007-4682-4_5"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2012,
+      8,
+      13
+     ]
+    ]
+   },
+   "ISBN": [
+    "9789400746817",
+    "9789400746824"
+   ],
+   "references-count": 26,
+   "URL": "https://doi.org/10.1007/978-94-007-4682-4_5",
+   "published": {
+    "date-parts": [
+     [
+      2012,
+      8,
+      13
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "13 August 2012",
+     "order": 1,
+     "name": "first_online",
+     "label": "First Online",
+     "group": {
+      "name": "ChapterHistory",
+      "label": "Chapter History"
+     }
+    }
+   ]
+  },
+  {
+   "institution": [
+    {
+     "name": "Research Square"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      3
+     ]
+    ],
+    "date-time": "2026-01-03T14:49:48Z",
+    "timestamp": 1767451788538,
+    "version": "3.41.2"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      8
+     ]
+    ]
+   },
+   "group-title": "In Review",
+   "reference-count": 0,
+   "publisher": "Springer Science and Business Media LLC",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2024,
+        2,
+        8
+       ]
+      ],
+      "date-time": "2024-02-08T00:00:00Z",
+      "timestamp": 1707350400000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      1
+     ]
+    ]
+   },
+   "abstract": "<title>Abstract</title>\n        <p><bold>Wild plants can contribute valuable genes to their domesticated relatives. Fertility barriers and a lack of genomic resources have hindered the effective use of crop-wild introgressions. Decades of research into barley\u2019s closest wild relative, </bold><italic><bold>Hordeum bulbosum</bold></italic><bold>, a grass native to the Mediterranean basin and Western Asia, have yet to manifest themselves in the release of a cultivar bearing alien genes. Here, we construct a pangenome of bulbous barley comprising ten haplotype-resolved genome sequence assemblies. Autotetraploid cytotypes, among which the donors of resistance-conferring introgressions are found, arose at least twice, and are connected among each other and to diploid forms through gene flow. The differential amplification of transposable elements after barley and </bold><italic><bold>H. bulbosum</bold></italic><bold> diverged from each other is responsible for genome size differences between them. We illustrate the translational value of our resource by mapping non-host resistance to a viral pathogen to a structurally diverse multigene cluster implicated in diverse immune responses in wheat and barley.</bold></p>",
+   "DOI": "10.21203/rs.3.rs-3916840/v1",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      8
+     ]
+    ],
+    "date-time": "2024-02-08T05:26:46Z",
+    "timestamp": 1707370006000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 7,
+   "title": [
+    "A haplotype-resolved pangenome of the barley wild relative Hordeum bulbosum"
+   ],
+   "prefix": "10.21203",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-6373-6013",
+     "authenticated-orcid": false,
+     "given": "Martin",
+     "family": "Mascher",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Jia-Wu",
+     "family": "Feng",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-9802-1787",
+     "authenticated-orcid": false,
+     "given": "H\u00e9l\u00e8ne",
+     "family": "Pidon",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Maria",
+     "family": "Cuacos",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IPK Gatersleben"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Axel",
+     "family": "Himmelbach",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4171-5371",
+     "authenticated-orcid": false,
+     "given": "J\u00f6rg",
+     "family": "Fuchs",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IPK"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6612-6939",
+     "authenticated-orcid": false,
+     "given": "Georg",
+     "family": "Haberer",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Helmholtz Center Munich"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Thomas",
+     "family": "Lux",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Helmholtz Zentrum M\u00fcnchen"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Yi-Tzu",
+     "family": "Kuo",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IPK Gatersleben"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Yu",
+     "family": "Guo",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IPK Gatersleben"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2951-0541",
+     "authenticated-orcid": false,
+     "given": "Murukarthick",
+     "family": "Jayakodi",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK)"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Helena",
+     "family": "Toegelov\u00e1",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Experimenta Botany of the Czech Academy of Sciences"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "D\u00f6rte",
+     "family": "Harpke",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IPK Gatersleben"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Manuela",
+     "family": "Knauft",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4159-7619",
+     "authenticated-orcid": false,
+     "given": "Hana",
+     "family": "Simkova",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Centre of the Region Han\u00e1 for Biotechnological and Agricultural Research"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6484-1077",
+     "authenticated-orcid": false,
+     "given": "Klaus",
+     "family": "Mayer",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Helmholtz Center Munich"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Manuel",
+     "family": "Spannagl",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Helmholtz Helmholtz-Center Munich, German Research Center for Environmental Health"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7080-7983",
+     "authenticated-orcid": false,
+     "given": "Jochen",
+     "family": "Kumlehn",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IPK"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Stefan",
+     "family": "Heckmann",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IPK Gatersleben"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3419-239X",
+     "authenticated-orcid": false,
+     "given": "Andreas",
+     "family": "Houben",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Plant Genetics and Crop Plant Research (IPK)"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7731-7741",
+     "authenticated-orcid": false,
+     "given": "Frank",
+     "family": "Blattner",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Plant Genetics and Crop Plant Research"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3011-8731",
+     "authenticated-orcid": false,
+     "given": "Nils",
+     "family": "Stein",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "link": [
+    {
+     "URL": "https://www.researchsquare.com/article/rs-3916840/v1",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://www.researchsquare.com/article/rs-3916840/v1.html",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      10
+     ]
+    ],
+    "date-time": "2025-07-10T09:11:26Z",
+    "timestamp": 1752138686000
+   },
+   "score": 32.594685,
+   "resource": {
+    "primary": {
+     "URL": "https://www.researchsquare.com/article/rs-3916840/v1"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      8
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.21203/rs.3.rs-3916840/v1",
+   "relation": {
+    "is-preprint-of": [
+     {
+      "id-type": "doi",
+      "id": "10.1038/s41586-025-09270-x",
+      "asserted-by": "subject"
+     }
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      8
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  }
+ ]
+}

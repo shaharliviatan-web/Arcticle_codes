@@ -9,8 +9,12 @@ sampling-site Online Resource.
 
 ## Item MM5 · from the M&M closing data paragraph (removed word for word)
 
-> The MorexV3 SNP calls are available from Zenodo (https://doi.org/XXXX), the genotype BLUPs are given in Online Resource N, and the analysis code is available at https://github.com/hubner-lab/XXXX (archived at https://doi.org/XXXX).
+> The MorexV3 SNP calls are available from Zenodo (https://doi.org/XXXX), the genotype BLUPs are given in Online Resource 1, and the analysis code is available at https://github.com/hubner-lab/XXXX (archived at https://doi.org/XXXX).
 
 Kept in the M&M (TAG: accession numbers at the end of Materials and methods): "The raw sequencing reads of the 300
-accessions are available from the European Nucleotide Archive under project PRJEB79623 (Potapenko et al. 2026a); the
-sample alias of each accession is listed in Online Resource N."
+accessions are available from the European Nucleotide Archive under project PRJEB79623 (Potapenko et al. 2026b); the
+sample alias of each accession is listed in Online Resource 1."
+
+*2026-10-01 (supplementary session, item E1): "Online Resource N" above → **Online Resource 1** (`supplementary/ESM_1.xlsx`: sites, accessions with their ENA sample alias and sample/run accessions, and the genotype BLUPs of the ten traits).*
+
+*2026-10-01 (References session, item REF1): Potapenko letters swapped to TAG's chronological order; the Mol Ecol paper is now **Potapenko et al. 2026b** (2026a = Mol Biol Evol). The quoted M&M sentence above is updated.*

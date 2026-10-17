@@ -1,0 +1,5404 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     29
+    ]
+   ],
+   "date-time": "2026-09-29T18:40:02Z",
+   "timestamp": 1790707202151,
+   "version": "4.1.0"
+  },
+  "reference-count": 150,
+  "publisher": "Wiley",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2010,
+       2,
+       5
+      ]
+     ],
+     "date-time": "2010-02-05T00:00:00Z",
+     "timestamp": 1265328000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Plant Cell &amp; Environment"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     4
+    ]
+   ]
+  },
+  "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Drought and salinity are the major abiotic stresses that dramatically threaten the food supply in the world. Tribe <jats:italic>Triticeae</jats:italic>, including wheat and barley, possesses tremendous potential for drought and salt tolerance that has been extensively and practically identified, tested, and transferred to wheat cultivars with proven expression of tolerance in experimental trials. <jats:italic>Triticum dicoccoides</jats:italic> and <jats:italic>Hordeum spontaneum</jats:italic>, the progenitors of cultivated wheat and barley, have adapted to a broad range of environments and developed rich genetic diversities for drought and salt tolerances. Drought\u2010 and salt\u2010tolerant genes and quantitative trait loci (QTLs) have been identified in <jats:italic>T. dicoccoides</jats:italic> and <jats:italic>H. spontaneum</jats:italic> and have great potential in wheat and barley improvement. Advanced backcross QTL analysis, the introgression libraries based on wild wheat and wild barley as donors, and positional cloning of natural QTLs will play prevailing roles in elucidating the molecular control of drought and salt tolerance. Combining tolerant genes and QTLs in crop breeding programs aimed at improving tolerance to drought and salinity will be achieved within a multidisciplinary context. Wild genetic resistances to drought and salinity will be shifted in the future from field experiments to the farmer.</jats:p>",
+  "DOI": "10.1111/j.1365-3040.2009.02107.x",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2009,
+     12,
+     23
+    ]
+   ],
+   "date-time": "2009-12-23T09:38:54Z",
+   "timestamp": 1261561134000
+  },
+  "page": "670-685",
+  "source": "Crossref",
+  "is-referenced-by-count": 379,
+  "title": [
+   "Drought and salt tolerances in wild relatives for wheat and barley improvement"
+  ],
+  "prefix": "10.1111",
+  "volume": "33",
+  "author": [
+   {
+    "given": "EVIATAR",
+    "family": "NEVO",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "GUOXIONG",
+    "family": "CHEN",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2010,
+     3,
+     2
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_8_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1744-7348.2003.tb00238.x"
+   },
+   {
+    "key": "e_1_2_8_3_1",
+    "volume-title": "HALOPHA Database of Salt Tolerant Plants of the World",
+    "author": "Aronson J.A.",
+    "year": "1989"
+   },
+   {
+    "key": "e_1_2_8_4_1",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-1-4020-9065-3",
+    "volume-title": "Salinity and Water Stress. Improving Crop Efficiency",
+    "author": "Ashraf M.",
+    "year": "2009"
+   },
+   {
+    "key": "e_1_2_8_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-002-1029-7"
+   },
+   {
+    "key": "e_1_2_8_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1399-3054.2005.00470.x"
+   },
+   {
+    "key": "e_1_2_8_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-003-1357-2"
+   },
+   {
+    "key": "e_1_2_8_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/B:PLSO.0000037029.82618.27"
+   },
+   {
+    "key": "e_1_2_8_9_1",
+    "volume-title": "Plant Breeding for Stress Environments",
+    "author": "Blum A.",
+    "year": "1988"
+   },
+   {
+    "key": "e_1_2_8_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1071/AR05069"
+   },
+   {
+    "key": "e_1_2_8_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.plaphy.2005.02.010"
+   },
+   {
+    "key": "e_1_2_8_12_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.106.093476"
+   },
+   {
+    "key": "e_1_2_8_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/00380768.2004.10408573"
+   },
+   {
+    "key": "e_1_2_8_14_1",
+    "first-page": "551",
+    "article-title": "Production of disomic addition lines and partial amphiploids of Thinopyrum junceumon wheat",
+    "volume": "315",
+    "author": "Charpentier A.",
+    "year": "1992",
+    "journal-title": "Comptes Rendusdel' Academiedes Sciences"
+   },
+   {
+    "key": "e_1_2_8_15_1",
+    "unstructured": "ChenG.(2005)Drought Resistance in Wild Barley Hordeum Spontaneum from Israel: Physiology Gene Identification and QTL Mapping. Ph.D. Dissertation Institute of Evolution University of Haifa Haifa Israel."
+   },
+   {
+    "key": "e_1_2_8_16_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1270/jsbbs.59.21"
+   },
+   {
+    "key": "e_1_2_8_17_1",
+    "first-page": "22",
+    "article-title": "Comparative study of morphological and physiological traits related to drought resistance between xeric and mesic Hordeum spontaneum lines in Israel",
+    "volume": "32",
+    "author": "Chen G.",
+    "year": "2002",
+    "journal-title": "Barley Genetic Newsletter"
+   },
+   {
+    "key": "e_1_2_8_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0140-1963(02)00321-X"
+   },
+   {
+    "key": "e_1_2_8_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1079/SSR2004163"
+   },
+   {
+    "key": "e_1_2_8_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00425-004-1277-7"
+   },
+   {
+    "key": "e_1_2_8_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.plantsci.2004.05.010"
+   },
+   {
+    "key": "e_1_2_8_22_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2002.1759"
+   },
+   {
+    "key": "e_1_2_8_23_1",
+    "first-page": "9",
+    "article-title": "Allelic variation at loci encoding dehydrins in wild and cultivated barley",
+    "author": "Close T.J.",
+    "year": "2000",
+    "journal-title": "Plant and Animal Genome"
+   },
+   {
+    "key": "e_1_2_8_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/erj124"
+   },
+   {
+    "key": "e_1_2_8_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1024527401033"
+   },
+   {
+    "key": "e_1_2_8_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.0611226104"
+   },
+   {
+    "key": "e_1_2_8_27_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/01904169509365056"
+   },
+   {
+    "key": "e_1_2_8_28_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2134/agronj1960.00021962005200110006x"
+   },
+   {
+    "key": "e_1_2_8_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-004-1755-0"
+   },
+   {
+    "key": "e_1_2_8_30_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1601-5223.2009.02098.x"
+   },
+   {
+    "key": "e_1_2_8_31_1",
+    "first-page": "118",
+    "volume-title": "Proceedings of the 54th Australian Cereal Chemistry Conference and 11th Wheat Breeders Assembly, September, 2004",
+    "author": "Dreccer M.F.",
+    "year": "2004"
+   },
+   {
+    "key": "e_1_2_8_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.fcr.2006.07.005"
+   },
+   {
+    "key": "e_1_2_8_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1046/j.1365-313X.2003.01661.x"
+   },
+   {
+    "key": "e_1_2_8_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1986.0011183X002600040002x"
+   },
+   {
+    "key": "e_1_2_8_35_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.85.11.3805"
+   },
+   {
+    "key": "e_1_2_8_36_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jexbot/51.342.9"
+   },
+   {
+    "key": "e_1_2_8_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jexbot/53.371.1163"
+   },
+   {
+    "key": "e_1_2_8_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-005-2008-6"
+   },
+   {
+    "key": "e_1_2_8_39_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s001220051089"
+   },
+   {
+    "key": "e_1_2_8_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s001220200002"
+   },
+   {
+    "key": "e_1_2_8_41_1",
+    "first-page": "121",
+    "volume-title": "Prospects of Saline Agriculture in the Arabian Peninsula",
+    "author": "Farooq S.",
+    "year": "2004"
+   },
+   {
+    "key": "e_1_2_8_42_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "65",
+    "DOI": "10.1007/978-1-4020-9065-3_7",
+    "volume-title": "Salinity and Water Stress",
+    "author": "Farooq S.",
+    "year": "2009"
+   },
+   {
+    "key": "e_1_2_8_43_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1601-5223.2001.t01-1-00211.x"
+   },
+   {
+    "key": "e_1_2_8_44_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02370417"
+   },
+   {
+    "key": "e_1_2_8_45_1",
+    "first-page": "125",
+    "article-title": "Intergeneric hybridization for wheat improvement. VI. Production of salt\u2010tolerant germplasm through crossing wheat (Triticum aestivum L.) with Aegilops cylindrica and its significance in practical agriculture",
+    "volume": "46",
+    "author": "Farooq S.",
+    "year": "1992",
+    "journal-title": "Journal of Genetics and Breeding"
+   },
+   {
+    "key": "e_1_2_8_46_1",
+    "first-page": "275",
+    "article-title": "Production of salt\u2010tolerant wheat germplasm through crossing cultivated wheat with Aegilops cylindrica\u2010II. Field evaluation of salt\u2010tolerant germplasm",
+    "volume": "23",
+    "author": "Farooq S.",
+    "year": "1995",
+    "journal-title": "Cereal Research Communications"
+   },
+   {
+    "key": "e_1_2_8_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/scientificamerican0181-102"
+   },
+   {
+    "key": "e_1_2_8_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1560/IJPS.55.3-4.307"
+   },
+   {
+    "key": "e_1_2_8_49_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.tig.2007.11.001"
+   },
+   {
+    "key": "e_1_2_8_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1744-7348.2004.tb00329.x"
+   },
+   {
+    "key": "e_1_2_8_51_1",
+    "first-page": "93",
+    "article-title": "A 5B deficient hybrid between Triticum aestivum and Agropyron junceum",
+    "volume": "13",
+    "author": "Forster B.",
+    "year": "1985",
+    "journal-title": "Cereal Research Communications"
+   },
+   {
+    "key": "e_1_2_8_52_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1439-0523.1987.tb01083.x"
+   },
+   {
+    "key": "e_1_2_8_53_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/hdy.1990.75"
+   },
+   {
+    "key": "e_1_2_8_54_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2008.03.0125"
+   },
+   {
+    "key": "e_1_2_8_55_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00299-008-0623-9"
+   },
+   {
+    "key": "e_1_2_8_56_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/eri229"
+   },
+   {
+    "key": "e_1_2_8_57_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/41.5.615"
+   },
+   {
+    "key": "e_1_2_8_58_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/41.5.623"
+   },
+   {
+    "key": "e_1_2_8_59_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/35.8.1200"
+   },
+   {
+    "key": "e_1_2_8_60_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/36.7.1021"
+   },
+   {
+    "key": "e_1_2_8_61_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/37.8.1114"
+   },
+   {
+    "key": "e_1_2_8_62_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00288856"
+   },
+   {
+    "key": "e_1_2_8_63_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00227318"
+   },
+   {
+    "key": "e_1_2_8_64_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00035941"
+   },
+   {
+    "key": "e_1_2_8_65_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1006/anbo.1996.0168"
+   },
+   {
+    "key": "e_1_2_8_66_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1420-9101.2005.01021.x"
+   },
+   {
+    "key": "e_1_2_8_67_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/erp194"
+   },
+   {
+    "key": "e_1_2_8_68_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s001220100690"
+   },
+   {
+    "key": "e_1_2_8_69_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11104-008-9780-4"
+   },
+   {
+    "key": "e_1_2_8_70_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.153.3740.1074"
+   },
+   {
+    "key": "e_1_2_8_71_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10681-007-9633-x"
+   },
+   {
+    "key": "e_1_2_8_72_1",
+    "first-page": "273",
+    "volume-title": "Proceedings of the National Conference Salinity Management in Agriculture",
+    "author": "Hollington P.A.",
+    "year": "2000"
+   },
+   {
+    "key": "e_1_2_8_73_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00425-004-1412-5"
+   },
+   {
+    "key": "e_1_2_8_74_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1071/AR03032"
+   },
+   {
+    "key": "e_1_2_8_75_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11032-008-9239-6"
+   },
+   {
+    "key": "e_1_2_8_76_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/erl293"
+   },
+   {
+    "key": "e_1_2_8_77_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jexbot/51.353.2021"
+   },
+   {
+    "key": "e_1_2_8_78_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.010548"
+   },
+   {
+    "key": "e_1_2_8_79_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.106.086538"
+   },
+   {
+    "key": "e_1_2_8_80_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11248-007-9086-y"
+   },
+   {
+    "key": "e_1_2_8_81_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "247",
+    "DOI": "10.1007/BF03543601",
+    "article-title": "Root characteristics in durum wheat (T. turgidum conv. durum) and some wild Triticeae species",
+    "volume": "28",
+    "author": "Kara Y.",
+    "year": "2000",
+    "journal-title": "Cereal Research Communications Hungary"
+   },
+   {
+    "key": "e_1_2_8_82_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1046/j.1469-8137.1997.00828.x"
+   },
+   {
+    "key": "e_1_2_8_83_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1984.0011183X002400020024x"
+   },
+   {
+    "key": "e_1_2_8_84_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1221",
+    "DOI": "10.1007/s00122-006-0223-4",
+    "article-title": "AB\u2010QTL analysis in spring barley: II. Detection of favourable exotic alleles for agronomic traits introgressed from wild barley (H. vulgare ssp. spontaneum)",
+    "volume": "112",
+    "author": "Von Korff M.",
+    "year": "2006",
+    "journal-title": "Theoretical and Applied Genetics"
+   },
+   {
+    "key": "e_1_2_8_85_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-008-0787-2"
+   },
+   {
+    "key": "e_1_2_8_86_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1105/tpc.10.8.1391"
+   },
+   {
+    "key": "e_1_2_8_87_1",
+    "volume-title": "Genetic Resources of Tibetan Barley in China",
+    "author": "Ma D.Q.",
+    "year": "2000"
+   },
+   {
+    "key": "e_1_2_8_88_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1981.0011183X002100050018x"
+   },
+   {
+    "key": "e_1_2_8_89_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/aob/mcn142"
+   },
+   {
+    "key": "e_1_2_8_90_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1018302910661"
+   },
+   {
+    "key": "e_1_2_8_91_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1071/PP9960803"
+   },
+   {
+    "key": "e_1_2_8_92_1",
+    "first-page": "549",
+    "volume-title": "International Crop Science I",
+    "author": "Mujeeb\u2010Kazi A.",
+    "year": "1993"
+   },
+   {
+    "key": "e_1_2_8_93_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00126756"
+   },
+   {
+    "key": "e_1_2_8_94_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1024553303144"
+   },
+   {
+    "key": "e_1_2_8_95_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4020-5578-2_22"
+   },
+   {
+    "key": "e_1_2_8_96_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/erj100"
+   },
+   {
+    "key": "e_1_2_8_97_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.108.129791"
+   },
+   {
+    "key": "e_1_2_8_98_1",
+    "first-page": "247",
+    "article-title": "Plant genetic resources: prediction by isozyme markers and ecology",
+    "volume": "16",
+    "author": "Nevo E.",
+    "year": "1987",
+    "journal-title": "Agriculture, Physiology and Medicine"
+   },
+   {
+    "key": "e_1_2_8_99_1",
+    "first-page": "19",
+    "volume-title": "Barley: Genetics, Molecular Biology and Biotechnology",
+    "author": "Nevo E.",
+    "year": "1992"
+   },
+   {
+    "key": "e_1_2_8_100_1",
+    "first-page": "287",
+    "volume-title": "Diversity and Evolution of Plants. Genotypic and Phenotypic Variation in Higher Plants",
+    "author": "Nevo E.",
+    "year": "2004"
+   },
+   {
+    "key": "e_1_2_8_101_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1560/IJPS.55.3-4.251"
+   },
+   {
+    "key": "e_1_2_8_102_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00305839"
+   },
+   {
+    "key": "e_1_2_8_103_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00276247"
+   },
+   {
+    "key": "e_1_2_8_104_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00021900"
+   },
+   {
+    "key": "e_1_2_8_105_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00021901"
+   },
+   {
+    "key": "e_1_2_8_106_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1095-8312.1986.tb01742.x"
+   },
+   {
+    "key": "e_1_2_8_107_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1439-0523.1993.tb00599.x"
+   },
+   {
+    "key": "e_1_2_8_108_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1008616923427"
+   },
+   {
+    "key": "e_1_2_8_109_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-662-07140-3"
+   },
+   {
+    "key": "e_1_2_8_110_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1139/g91-149"
+   },
+   {
+    "key": "e_1_2_8_111_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2004-0605"
+   },
+   {
+    "key": "e_1_2_8_112_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0044-328X(80)80225-X"
+   },
+   {
+    "key": "e_1_2_8_113_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1022995214885"
+   },
+   {
+    "key": "e_1_2_8_114_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1139/g97-046"
+   },
+   {
+    "key": "e_1_2_8_115_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-3040.2005.01259.x"
+   },
+   {
+    "key": "e_1_2_8_116_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-3040.2007.01731.x"
+   },
+   {
+    "key": "e_1_2_8_117_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-3040.2009.01956.x"
+   },
+   {
+    "key": "e_1_2_8_118_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1139/g03-140"
+   },
+   {
+    "key": "e_1_2_8_119_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/pcp/pch118"
+   },
+   {
+    "key": "e_1_2_8_120_1",
+    "first-page": "402",
+    "volume-title": "Drought Tolerance in Cereals",
+    "author": "Reynolds M.P.",
+    "year": "2006"
+   },
+   {
+    "key": "e_1_2_8_121_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1004549927123"
+   },
+   {
+    "key": "e_1_2_8_122_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.tplants.2009.07.007"
+   },
+   {
+    "key": "e_1_2_8_123_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1991.0011183X003100040030x"
+   },
+   {
+    "key": "e_1_2_8_124_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1744-7348.2005.04048.x"
+   },
+   {
+    "key": "e_1_2_8_125_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-004-1745-2"
+   },
+   {
+    "key": "e_1_2_8_126_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-007-0540-2"
+   },
+   {
+    "key": "e_1_2_8_127_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02184304"
+   },
+   {
+    "key": "e_1_2_8_128_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-3040.2004.01237.x"
+   },
+   {
+    "key": "e_1_2_8_129_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11103-006-9131-x"
+   },
+   {
+    "key": "e_1_2_8_130_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1744-7348.2004.tb00346.x"
+   },
+   {
+    "key": "e_1_2_8_131_1",
+    "unstructured": "TheT.T.(1973)Transference of Resistance to Stem Rust from Triticum monococcum L. to Hexaploid Wheat. PhD thesis University of Sydney Sydney."
+   },
+   {
+    "key": "e_1_2_8_132_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-002-1151-6"
+   },
+   {
+    "key": "e_1_2_8_133_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.1133649"
+   },
+   {
+    "key": "e_1_2_8_134_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/A:1017562909881"
+   },
+   {
+    "key": "e_1_2_8_135_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-294X.2008.03847.x"
+   },
+   {
+    "key": "e_1_2_8_136_1",
+    "first-page": "173",
+    "volume-title": "Biodiversity and Wheat Improvement",
+    "author": "Waines J.G.",
+    "year": "1993"
+   },
+   {
+    "key": "e_1_2_8_137_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.crvi.2008.11.007"
+   },
+   {
+    "key": "e_1_2_8_138_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/1471-2148-8-91"
+   },
+   {
+    "key": "e_1_2_8_139_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/344556"
+   },
+   {
+    "key": "e_1_2_8_140_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.pbi.2008.12.007"
+   },
+   {
+    "key": "e_1_2_8_141_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11032-008-9209-z"
+   },
+   {
+    "key": "e_1_2_8_142_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1139/b05-151"
+   },
+   {
+    "key": "e_1_2_8_143_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1641/0006-3568(2004)054[0627:EEOTEO]2.0.CO;2"
+   },
+   {
+    "key": "e_1_2_8_144_1",
+    "first-page": "399",
+    "article-title": "Asymmetric somatic hybridization between wheat (Triticum aestivum L.) and Agropyron elongatum (Host) Nevishi",
+    "volume": "107",
+    "author": "Xia G.",
+    "year": "2003",
+    "journal-title": "Theoretical and Applied Genetics"
+   },
+   {
+    "key": "e_1_2_8_145_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10681-008-9703-8"
+   },
+   {
+    "key": "e_1_2_8_146_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.110.1.249"
+   },
+   {
+    "key": "e_1_2_8_147_1",
+    "first-page": "11",
+    "article-title": "Evaluation for salt tolerance in genetic resources of Triticum and Aegilops species",
+    "volume": "96",
+    "author": "Xu X.",
+    "year": "1993",
+    "journal-title": "Plant Genetic Resource Newsletter"
+   },
+   {
+    "key": "e_1_2_8_148_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10265-008-0195-3"
+   },
+   {
+    "key": "e_1_2_8_149_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.plantsci.2004.05.034"
+   },
+   {
+    "key": "e_1_2_8_150_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10722-008-9307-0"
+   },
+   {
+    "key": "e_1_2_8_151_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-294X.2009.04140.x"
+   }
+  ],
+  "container-title": [
+   "Plant, Cell &amp; Environment"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1365-3040.2009.02107.x",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-3040.2009.02107.x",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     13
+    ]
+   ],
+   "date-time": "2023-09-13T19:52:25Z",
+   "timestamp": 1694634745000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-3040.2009.02107.x"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     3,
+     2
+    ]
+   ]
+  },
+  "references-count": 150,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      4
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1111/j.1365-3040.2009.02107.x"
+  ],
+  "URL": "https://doi.org/10.1111/j.1365-3040.2009.02107.x",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0140-7791",
+   "1365-3040"
+  ],
+  "issn-type": [
+   {
+    "value": "0140-7791",
+    "type": "print"
+   },
+   {
+    "value": "1365-3040",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     3,
+     2
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      11
+     ]
+    ],
+    "date-time": "2026-06-11T20:39:58Z",
+    "timestamp": 1781210398953,
+    "version": "3.54.1"
+   },
+   "reference-count": 150,
+   "publisher": "Wiley",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2015,
+        9,
+        1
+       ]
+      ],
+      "date-time": "2015-09-01T00:00:00Z",
+      "timestamp": 1441065600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 2010,
+     "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      3
+     ]
+    ]
+   },
+   "DOI": "10.1111/j.1365-3040.2010.02107.x",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      2,
+      5
+     ]
+    ],
+    "date-time": "2010-02-05T09:32:23Z",
+    "timestamp": 1265362343000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "Drought and salt tolerances in wild relatives for wheat and barley improvement"
+   ],
+   "prefix": "10.1111",
+   "author": [
+    {
+     "given": "EVIATAR",
+     "family": "NEVO",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "GUOXIONG",
+     "family": "CHEN",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "reference": [
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB1",
+     "doi-asserted-by": "crossref",
+     "first-page": "129",
+     "DOI": "10.1111/j.1744-7348.2003.tb00238.x",
+     "article-title": "Breeding cereals for Mediterranean conditions: ecophysiology clues for biotechnology application",
+     "volume": "142",
+     "author": "Araus",
+     "year": "2003",
+     "journal-title": "Annals of Applied Biology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB2",
+     "volume-title": "HALOPHA Database of Salt Tolerant Plants of the World",
+     "author": "Aronson",
+     "year": "1989"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB3",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/978-1-4020-9065-3",
+     "volume-title": "Salinity and Water Stress. Improving Crop Efficiency",
+     "author": "Ashraf",
+     "year": "2009"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB4",
+     "doi-asserted-by": "crossref",
+     "first-page": "397",
+     "DOI": "10.1007/s00122-002-1029-7",
+     "article-title": "Ecological-genomic diversity of microsatellites in wild barley, Hordeum spontaneum, populations in Jordan",
+     "volume": "106",
+     "author": "Baek",
+     "year": "2003",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB5",
+     "doi-asserted-by": "crossref",
+     "first-page": "421",
+     "DOI": "10.1111/j.1399-3054.2005.00470.x",
+     "article-title": "Field evaluation of transgenic wheat plants stably expressing the HVA1 gene for drought tolerance",
+     "volume": "123",
+     "author": "Bahieldin",
+     "year": "2005",
+     "journal-title": "Physiologia Plantarum"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB6",
+     "doi-asserted-by": "crossref",
+     "first-page": "1215",
+     "DOI": "10.1007/s00122-003-1357-2",
+     "article-title": "QTLs for agronomic traits in the Mediterranean environment identified in recombinant inbred lines of the cross \u2018Arta\u2019H. spontaneum 41-1",
+     "volume": "107",
+     "author": "Baum",
+     "year": "2003",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB7",
+     "doi-asserted-by": "crossref",
+     "first-page": "63",
+     "DOI": "10.1023/B:PLSO.0000037029.82618.27",
+     "article-title": "Gel observation chamber for rapid screening of root traits in cereal seedlings",
+     "volume": "262",
+     "author": "Bengough",
+     "year": "2004",
+     "journal-title": "Plant and Soil"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB8",
+     "volume-title": "Plant Breeding for Stress Environments",
+     "author": "Blum",
+     "year": "1988"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB9",
+     "doi-asserted-by": "crossref",
+     "first-page": "1159",
+     "DOI": "10.1071/AR05069",
+     "article-title": "Drought resistance, water use efficiency and yield potential - are they compatible, dissonant or mutually exclusive?",
+     "volume": "56",
+     "author": "Blum",
+     "year": "2005",
+     "journal-title": "Australian Journal of Agricultural Research"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB10",
+     "doi-asserted-by": "crossref",
+     "first-page": "347",
+     "DOI": "10.1016/j.plaphy.2005.02.010",
+     "article-title": "Cloning and characterization of a wheat vacuolar cation/proton antiporter and pyrophosphatase proton pump",
+     "volume": "43",
+     "author": "Brini",
+     "year": "2005",
+     "journal-title": "Plant Physiology and Biochemistry"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB11",
+     "doi-asserted-by": "crossref",
+     "first-page": "1918",
+     "DOI": "10.1104/pp.106.093476",
+     "article-title": "HKT1; 5-like cation transporter linked to Na+ exclusion loci in wheat, Nax2 and Kna1",
+     "volume": "143",
+     "author": "Byrt",
+     "year": "2007",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB12",
+     "doi-asserted-by": "crossref",
+     "first-page": "1047",
+     "DOI": "10.1080/00380768.2004.10408573",
+     "article-title": "Triticum dicoccoides: an important genetic resource for increasing zinc and iron concentration in modern cultivated wheat",
+     "volume": "50",
+     "author": "Cakmak",
+     "year": "2004",
+     "journal-title": "Soil Science and Plant Nutrition"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB13",
+     "first-page": "551",
+     "article-title": "Production of disomic addition lines and partial amphiploids of Thinopyrum junceumon wheat",
+     "volume": "315",
+     "author": "Charpentier",
+     "year": "1992",
+     "journal-title": "Comptes Rendusdel' Academiedes Sciences"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB14",
+     "unstructured": "Chen G. (2005) Drought Resistance in Wild Barley, Hordeum Spontaneum, from Israel: Physiology, Gene Identification, and QTL Mapping. Ph.D. Dissertation, Institute of Evolution, University of Haifa, Haifa, Israel."
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB15",
+     "doi-asserted-by": "crossref",
+     "first-page": "21",
+     "DOI": "10.1270/jsbbs.59.21",
+     "article-title": "Mapping of the eibi1 gene responsible for the drought hypersensitive cuticle in wild barley (Hordeum spontaneum)",
+     "volume": "59",
+     "author": "Chen",
+     "year": "2009",
+     "journal-title": "Breeding Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB16",
+     "first-page": "22",
+     "article-title": "Comparative study of morphological and physiological traits related to drought resistance between xeric and mesic Hordeum spontaneum lines in Israel",
+     "volume": "32",
+     "author": "Chen",
+     "year": "2002",
+     "journal-title": "Barley Genetic Newsletter"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB17",
+     "doi-asserted-by": "crossref",
+     "first-page": "95",
+     "DOI": "10.1016/S0140-1963(02)00321-X",
+     "article-title": "Differential patterns of germination and desiccation tolerance of mesic and xeric wild barley (Hordeum spontaneum) in Israel",
+     "volume": "56",
+     "author": "Chen",
+     "year": "2004",
+     "journal-title": "Journal of Arid Environment"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB18",
+     "doi-asserted-by": "crossref",
+     "first-page": "137",
+     "DOI": "10.1079/SSR2004163",
+     "article-title": "Ecogeographic and genetic determinants of kernel weight and color of wild barley (Hordeum spontaneum) populations in Israel",
+     "volume": "14",
+     "author": "Chen",
+     "year": "2004",
+     "journal-title": "Seed Science Research"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB19",
+     "doi-asserted-by": "crossref",
+     "first-page": "684",
+     "DOI": "10.1007/s00425-004-1277-7",
+     "article-title": "Wild barley eibi1 mutation identifies a gene essential for leaf water conservation",
+     "volume": "219",
+     "author": "Chen",
+     "year": "2004",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB20",
+     "doi-asserted-by": "crossref",
+     "first-page": "773",
+     "DOI": "10.1016/j.plantsci.2004.05.010",
+     "article-title": "Introgression of salt-tolerance from somatic hybrids between common wheat and Thinopyrum ponticum",
+     "volume": "167",
+     "author": "Chen",
+     "year": "2004",
+     "journal-title": "Plant Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB21",
+     "doi-asserted-by": "crossref",
+     "first-page": "1759",
+     "DOI": "10.2135/cropsci2002.1759",
+     "article-title": "Genetic resources of Tibetan barley in China",
+     "volume": "42",
+     "author": "Choo",
+     "year": "2002",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB22",
+     "first-page": "9",
+     "article-title": "Allelic variation at loci encoding dehydrins in wild and cultivated barley",
+     "volume": "VIII",
+     "author": "Close",
+     "year": "2000",
+     "journal-title": "Plant and Animal Genome"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB23",
+     "doi-asserted-by": "crossref",
+     "first-page": "1059",
+     "DOI": "10.1093/jxb/erj124",
+     "article-title": "Use of wild relatives to improve salt tolerance in wheat",
+     "volume": "57",
+     "author": "Colmer",
+     "year": "2006",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB24",
+     "doi-asserted-by": "crossref",
+     "first-page": "233",
+     "DOI": "10.1023/A:1024527401033",
+     "article-title": "Differential effects of salinity on leaf elongation kinetics of three grass species",
+     "volume": "253",
+     "author": "Cramer",
+     "year": "2003",
+     "journal-title": "Plant and Soil"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB25",
+     "doi-asserted-by": "crossref",
+     "first-page": "2773",
+     "DOI": "10.1073/pnas.0611226104",
+     "article-title": "Adaptive climatic molecular evolution in wild barley at the lsa defense locus",
+     "volume": "104",
+     "author": "Cronin",
+     "year": "2007",
+     "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB26",
+     "doi-asserted-by": "crossref",
+     "first-page": "2199",
+     "DOI": "10.1080/01904169509365056",
+     "article-title": "Differentiation of chloride and sulphate salinity on the basis of ionic distribution in genetically diverse cultivars of wheat",
+     "volume": "18",
+     "author": "Datta",
+     "year": "1995",
+     "journal-title": "Journal of Plant Nutrition"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB27",
+     "doi-asserted-by": "crossref",
+     "first-page": "631",
+     "DOI": "10.2134/agronj1960.00021962005200110006x",
+     "article-title": "Salt tolerance of twenty five strains of Agropyron",
+     "volume": "52",
+     "author": "Dewey",
+     "year": "1960",
+     "journal-title": "Agronomic Journal"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB28",
+     "doi-asserted-by": "crossref",
+     "first-page": "1417",
+     "DOI": "10.1007/s00122-004-1755-0",
+     "article-title": "Identification of drought-inducible genes and differentially expressed sequence tags in barley",
+     "volume": "109",
+     "author": "Diab",
+     "year": "2004",
+     "journal-title": "Theoretical and Applied Genetic"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB29",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1111/j.1601-5223.2009.02098.x",
+     "article-title": "EST-SSR diversity correlated with ecological and genetic factors of wild emmer wheat in Israel",
+     "volume": "146",
+     "author": "Dong",
+     "year": "2009",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB30",
+     "first-page": "118",
+     "volume-title": "Proceedings of the 54th Australian Cereal Chemistry Conference and 11th Wheat Breeders Assembly, September, 2004",
+     "author": "Dreccer",
+     "year": "2004"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB31",
+     "doi-asserted-by": "crossref",
+     "first-page": "218",
+     "DOI": "10.1016/j.fcr.2006.07.005",
+     "article-title": "CIMMYT-selected derived synthetic bread wheats for rainfed environments: yield evaluation in Mexico and Australia",
+     "volume": "100",
+     "author": "Dreccer",
+     "year": "2007",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB32",
+     "doi-asserted-by": "crossref",
+     "first-page": "751",
+     "DOI": "10.1046/j.1365-313X.2003.01661.x",
+     "article-title": "OsDREB genes in rice, Oryza sativa L., encode transcription activators that function in drought-, high-salt- and cold-responsive gene expression",
+     "volume": "33",
+     "author": "Dubouzet",
+     "year": "2003",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB34",
+     "doi-asserted-by": "crossref",
+     "first-page": "658",
+     "DOI": "10.2135/cropsci1986.0011183X002600040002x",
+     "article-title": "Expression of tolerance of Na+, K+, Mg2+, Cl-, and SO42\u2212 ions and sea water in the amphiploid of Triticum aestivum\u2003\u00d7\u2003Elytrigia elongata",
+     "volume": "26",
+     "author": "Dv\u00f4r\u00e1k",
+     "year": "1986",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB33",
+     "doi-asserted-by": "crossref",
+     "first-page": "3805",
+     "DOI": "10.1073/pnas.85.11.3805",
+     "article-title": "On the evolution of the adaptation of Lophopyrum-elongatum to growth in saline environments",
+     "volume": "85",
+     "author": "Dv\u00f4r\u00e1k",
+     "year": "1988",
+     "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB35",
+     "doi-asserted-by": "crossref",
+     "first-page": "9",
+     "DOI": "10.1093/jexbot/51.342.9",
+     "article-title": "Wild barley: a source of genes for crop improvement in the 21st century?",
+     "volume": "51",
+     "author": "Ellis",
+     "year": "2000",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB36",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1093/jexbot/53.371.1163",
+     "article-title": "Phenotype/genotype associations for yield and salt tolerance in a mapping population segregating for two dwarfing genes",
+     "volume": "53",
+     "author": "Ellis",
+     "year": "2002",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB1003",
+     "doi-asserted-by": "crossref",
+     "first-page": "423",
+     "DOI": "10.1007/s00122-005-2008-6",
+     "article-title": "Molecular mapping of gibberellin-responsive dwarfing genes in bread wheat",
+     "volume": "111",
+     "author": "Ellis",
+     "year": "2005",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB38",
+     "doi-asserted-by": "crossref",
+     "first-page": "434",
+     "DOI": "10.1007/s001220051089",
+     "article-title": "RAPD polymorphism of wild emmer wheat population, Triticum dicoccoides, in Israel",
+     "volume": "98",
+     "author": "Fahima",
+     "year": "1999",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB37",
+     "doi-asserted-by": "crossref",
+     "first-page": "17",
+     "DOI": "10.1007/s001220200002",
+     "article-title": "Microsatellite polymorphism in natural populations of wild emmer wheat, Triticum dicoccoides, in Israel",
+     "volume": "104",
+     "author": "Fahima",
+     "year": "2002",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB42",
+     "first-page": "121",
+     "volume-title": "Prospects of Saline Agriculture in the Arabian Peninsula",
+     "author": "Farooq",
+     "year": "2004"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB43",
+     "doi-asserted-by": "crossref",
+     "first-page": "65",
+     "DOI": "10.1007/978-1-4020-9065-3_7",
+     "volume-title": "Salinity and Water Stress",
+     "author": "Farooq",
+     "year": "2009"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB39",
+     "doi-asserted-by": "crossref",
+     "first-page": "211",
+     "DOI": "10.1111/j.1601-5223.2001.t01-1-00211.x",
+     "article-title": "Production of low input and stress tolerant wheat germplasm through the use of biodiversity residing in the wild relatives",
+     "volume": "135",
+     "author": "Farooq",
+     "year": "2001",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB41",
+     "doi-asserted-by": "crossref",
+     "first-page": "255",
+     "DOI": "10.1007/BF02370417",
+     "article-title": "Salt tolerance potential of wild resources of the tribe Triticeae. II. Screening of species of the genus Aegilops",
+     "volume": "119",
+     "author": "Farooq",
+     "year": "1989",
+     "journal-title": "Plant and Soil"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB40",
+     "first-page": "125",
+     "article-title": "Intergeneric hybridization for wheat improvement. VI. Production of salt-tolerant germplasm through crossing wheat (Triticum aestivum L.) with Aegilops cylindrica and its significance in practical agriculture",
+     "volume": "46",
+     "author": "Farooq",
+     "year": "1992",
+     "journal-title": "Journal of Genetics and Breeding"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB44",
+     "first-page": "275",
+     "article-title": "Production of salt-tolerant wheat germplasm through crossing cultivated wheat with Aegilops cylindrica-II. Field evaluation of salt-tolerant germplasm",
+     "volume": "23",
+     "author": "Farooq",
+     "year": "1995",
+     "journal-title": "Cereal Research Communications"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB45",
+     "doi-asserted-by": "crossref",
+     "first-page": "102",
+     "DOI": "10.1038/scientificamerican0181-102",
+     "article-title": "The wild genetic resources of wheat",
+     "volume": "244",
+     "author": "Feldman",
+     "year": "1981",
+     "journal-title": "Scientific American"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB46",
+     "doi-asserted-by": "crossref",
+     "first-page": "307",
+     "DOI": "10.1560/IJPS.55.3-4.307",
+     "article-title": "Physical mapping of the wheat genome: a coordinated effort to lay the foundation for genome sequencing and develop tools for breeders",
+     "volume": "55",
+     "author": "Feuillet",
+     "year": "2007",
+     "journal-title": "Israel Journal of Plant Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB47",
+     "doi-asserted-by": "crossref",
+     "first-page": "24",
+     "DOI": "10.1016/j.tig.2007.11.001",
+     "article-title": "Cereal breeding takes a walk on the wild side",
+     "volume": "24",
+     "author": "Feuillet",
+     "year": "2008",
+     "journal-title": "Trend in Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB51",
+     "doi-asserted-by": "crossref",
+     "first-page": "157",
+     "DOI": "10.1111/j.1744-7348.2004.tb00329.x",
+     "article-title": "Genotype and phenotype associations with drought tolerance in barley tested in North Africa",
+     "volume": "144",
+     "author": "Forster",
+     "year": "2004",
+     "journal-title": "Annals of Applied Biology."
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB48",
+     "first-page": "93",
+     "article-title": "A 5B deficient hybrid between Triticum aestivum and Agropyron junceum",
+     "volume": "13",
+     "author": "Forster",
+     "year": "1985",
+     "journal-title": "Cereal Research Communications"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB49",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1111/j.1439-0523.1987.tb01083.x",
+     "article-title": "Salt tolerance of an amphiploid between Triticum aestivum and Agropyron junceum",
+     "volume": "98",
+     "author": "Forster",
+     "year": "1987",
+     "journal-title": "Plant Breeding"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB50",
+     "doi-asserted-by": "crossref",
+     "first-page": "99",
+     "DOI": "10.1038/hdy.1990.75",
+     "article-title": "Chromosome location of genes controlling tolerance to salt (NaCl) and vigour in Hordeum vulgare and H. chilense",
+     "volume": "65",
+     "author": "Forster",
+     "year": "1990",
+     "journal-title": "Heredity"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB52",
+     "doi-asserted-by": "crossref",
+     "first-page": "161",
+     "DOI": "10.2135/cropsci2008.03.0125",
+     "article-title": "Genome-wide reduction of genetic diversity in wheat breeding",
+     "volume": "49",
+     "author": "Fu",
+     "year": "2009",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB53",
+     "doi-asserted-by": "crossref",
+     "first-page": "301",
+     "DOI": "10.1007/s00299-008-0623-9",
+     "article-title": "A cotton (Gossypium hirsutum) DREB-binding transcription factor gene, GhDREB, confers enhanced tolerance to drought, high salt, and freezing stresses in transgenic wheat",
+     "volume": "28",
+     "author": "Gao",
+     "year": "2009",
+     "journal-title": "Plant Cell Report"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB54",
+     "doi-asserted-by": "crossref",
+     "first-page": "2365",
+     "DOI": "10.1093/jxb/eri229",
+     "article-title": "Salt tolerance in wild Hordeum species is associated with restricted entry of Na+ and Cl- into the shoots",
+     "volume": "56",
+     "author": "Garthwaite",
+     "year": "2005",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB60",
+     "doi-asserted-by": "crossref",
+     "first-page": "615",
+     "DOI": "10.1093/jxb/41.5.615",
+     "article-title": "Salt tolerance in the Triticeae: K+/Na+ discrimination in Aegilops species",
+     "volume": "41",
+     "author": "Gorham",
+     "year": "1990",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB61",
+     "doi-asserted-by": "crossref",
+     "first-page": "623",
+     "DOI": "10.1093/jxb/41.5.623",
+     "article-title": "Salt tolerance in the Triticeae: K+/Na+ discrimination in synthetic hexaploid wheats",
+     "volume": "41",
+     "author": "Gorham",
+     "year": "1990",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB59",
+     "doi-asserted-by": "crossref",
+     "first-page": "1200",
+     "DOI": "10.1093/jxb/35.8.1200",
+     "article-title": "Salt tolerance in the Triticeae: Leymus sabulosus",
+     "volume": "35",
+     "author": "Gorham",
+     "year": "1984",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB58",
+     "doi-asserted-by": "crossref",
+     "first-page": "1021",
+     "DOI": "10.1093/jxb/36.7.1021",
+     "article-title": "Salt tolerance in the Triticeae: growth and solute accumulation in leaves of Thinopyrum bessarabicum",
+     "volume": "36",
+     "author": "Gorham",
+     "year": "1985",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB56",
+     "doi-asserted-by": "crossref",
+     "first-page": "1114",
+     "DOI": "10.1093/jxb/37.8.1114",
+     "article-title": "Salt tolerance in the Triticeae: salinity induced changes in the leaf solute composition of some perennial Triticeae",
+     "volume": "37",
+     "author": "Gorham",
+     "year": "1986",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB57",
+     "doi-asserted-by": "crossref",
+     "first-page": "584",
+     "DOI": "10.1007/BF00288856",
+     "article-title": "Chromosomal location of a K+/Na+ discrimination character in the D genome of wheat",
+     "volume": "74",
+     "author": "Gorham",
+     "year": "1987",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB55",
+     "doi-asserted-by": "crossref",
+     "first-page": "729",
+     "DOI": "10.1007/BF00227318",
+     "article-title": "The presence of the enhanced K+/Na+ discrimination trait in diploid Triticum species",
+     "volume": "82",
+     "author": "Gorham",
+     "year": "1991",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB62",
+     "doi-asserted-by": "crossref",
+     "first-page": "73",
+     "DOI": "10.1007/BF00035941",
+     "article-title": "Seminal root morphology and coleoptile length in wild (Hordeum vulgare ssp. spontaneum) and cultivated (Hordeum vulgate ssp. vulgare) barley",
+     "volume": "86",
+     "author": "Grando",
+     "year": "1995",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB63",
+     "doi-asserted-by": "crossref",
+     "first-page": "611",
+     "DOI": "10.1006/anbo.1996.0168",
+     "article-title": "Sand accretion and salinity as constraints on the establishment of Leymus arenarius for land reclamation in Iceland",
+     "volume": "78",
+     "author": "Greipsson",
+     "year": "1996",
+     "journal-title": "Annals of Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB64",
+     "doi-asserted-by": "crossref",
+     "first-page": "1601",
+     "DOI": "10.1111/j.1420-9101.2005.01021.x",
+     "article-title": "Stress avoidance in a common annual: reproductive timing is important for local adaptation and geographic distribution",
+     "volume": "18",
+     "author": "Griffith",
+     "year": "2005",
+     "journal-title": "Journal of Evolutionary Biology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB65",
+     "doi-asserted-by": "crossref",
+     "first-page": "3531",
+     "DOI": "10.1093/jxb/erp194",
+     "article-title": "Differentially expressed genes between drought-tolerant and drought-sensitive barley genotypes in response to drought stress during the reproductive stage",
+     "volume": "60",
+     "author": "Guo",
+     "year": "2009",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB66",
+     "doi-asserted-by": "crossref",
+     "first-page": "473",
+     "DOI": "10.1007/s001220100690",
+     "article-title": "Polymorphism at rDNA loci in barley and its relation with climatic variables",
+     "volume": "104",
+     "author": "Gupta",
+     "year": "2002",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB67",
+     "doi-asserted-by": "crossref",
+     "first-page": "285",
+     "DOI": "10.1007/s11104-008-9780-4",
+     "article-title": "Measuring root traits in barley (Hordeum vulgare sp. vulgare and ssp. spontaneum) seedlings using gel chambers, soil sacs and X-ray microtomography",
+     "volume": "316",
+     "author": "Hargreaves",
+     "year": "2009",
+     "journal-title": "Plant and Soil"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB68",
+     "doi-asserted-by": "crossref",
+     "first-page": "1074",
+     "DOI": "10.1126/science.153.3740.1074",
+     "article-title": "Distribution of wild wheats and barley",
+     "volume": "153",
+     "author": "Harlan",
+     "year": "1966",
+     "journal-title": "Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB69",
+     "doi-asserted-by": "crossref",
+     "first-page": "893",
+     "DOI": "10.1007/s10681-007-9633-x",
+     "article-title": "Research and field monitoring on transgenic crops by the Centro Internacional de Mejoramiento de Ma\u00edzy Trigo (CIMMYT)",
+     "volume": "164",
+     "author": "Hoisington",
+     "year": "2008",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB70",
+     "first-page": "273",
+     "volume-title": "Proceedings of the National Conference Salinity Management in Agriculture",
+     "author": "Hollington",
+     "year": "2000"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB71",
+     "doi-asserted-by": "crossref",
+     "first-page": "875",
+     "DOI": "10.1007/s00425-004-1412-5",
+     "article-title": "Isolation and functional characterization of the Ca-DREBLP1 gene encoding a dehydration-responsive element binding factor like protein 1 in hot pepper (Capsicum annuum L. cv. Pukang)",
+     "volume": "220",
+     "author": "Hong",
+     "year": "2005",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB72",
+     "doi-asserted-by": "crossref",
+     "first-page": "589",
+     "DOI": "10.1071/AR03032",
+     "article-title": "Effect of sodium exclusion trait on chlorophyll retention and growth of durum wheat in saline soil",
+     "volume": "54",
+     "author": "Husain",
+     "year": "2003",
+     "journal-title": "Australian Journal of Agricultural Research"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB73",
+     "doi-asserted-by": "crossref",
+     "first-page": "365",
+     "DOI": "10.1007/s11032-008-9239-6",
+     "article-title": "Association mapping of plant height, yield, and yield stability in recombinant chromosome substitution lines (RCSLs) using Hordeum vulgare subsp. spontaneum as a source of donor alleles in a Hordeum vulgare subsp. Vulgare background",
+     "volume": "23",
+     "author": "Inostroza",
+     "year": "2009",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB74",
+     "doi-asserted-by": "crossref",
+     "first-page": "1219",
+     "DOI": "10.1093/jxb/erl293",
+     "article-title": "Salt tolerance in a Hordeum marinum-Triticum aestivum amphiploid, and its parents",
+     "volume": "58",
+     "author": "Islam",
+     "year": "2007",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB75",
+     "doi-asserted-by": "crossref",
+     "first-page": "2021",
+     "DOI": "10.1093/jexbot/51.353.2021",
+     "article-title": "Phenotypic responses of wild barley to experimentally imposed water stress",
+     "volume": "51",
+     "author": "Ivandic",
+     "year": "2000",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB76",
+     "doi-asserted-by": "crossref",
+     "first-page": "910",
+     "DOI": "10.1104/pp.010548",
+     "article-title": "Components of the Arabidopsis C-repeat/dehydration-responsive element binding factor cold response pathway are conserved in Brassica napus and other plant species",
+     "volume": "127",
+     "author": "Jaglo",
+     "year": "2001",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB77",
+     "doi-asserted-by": "crossref",
+     "first-page": "1537",
+     "DOI": "10.1104/pp.106.086538",
+     "article-title": "Physiological characterization of two genes for Na+ exclusion in wheat: Nax1 and Nax2",
+     "volume": "142",
+     "author": "James",
+     "year": "2006",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB78",
+     "doi-asserted-by": "crossref",
+     "first-page": "93",
+     "DOI": "10.1007/s11248-007-9086-y",
+     "article-title": "Stress inducible expression of the DREB1A transcription factor from xeric, Hordeum spontaneum L. in turf and forage grass (Paspalum notatum Flugge) enhances abiotic stress tolerance",
+     "volume": "17",
+     "author": "James",
+     "year": "2008",
+     "journal-title": "Transgenic Research"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB79",
+     "doi-asserted-by": "crossref",
+     "first-page": "247",
+     "DOI": "10.1007/BF03543601",
+     "article-title": "Root characteristics in durum wheat (T. turgidum conv. durum) and some wild Triticeae species",
+     "volume": "28",
+     "author": "Kara",
+     "year": "2000",
+     "journal-title": "Cereal Research Communications Hungary"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB80",
+     "doi-asserted-by": "crossref",
+     "first-page": "75",
+     "DOI": "10.1046/j.1469-8137.1997.00828.x",
+     "article-title": "Introgression of salt-tolerance genes from Thinopyrum bessarabicum into wheat",
+     "volume": "137",
+     "author": "King",
+     "year": "1997",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB81",
+     "doi-asserted-by": "crossref",
+     "first-page": "310",
+     "DOI": "10.2135/cropsci1984.0011183X002400020024x",
+     "article-title": "Selection for salt-resistant spring wheat",
+     "volume": "24",
+     "author": "Kingsbury",
+     "year": "1984",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB132",
+     "doi-asserted-by": "crossref",
+     "first-page": "1221",
+     "DOI": "10.1007/s00122-006-0223-4",
+     "article-title": "AB-QTL analysis in spring barley: II. Detection of favourable exotic alleles for agronomic traits introgressed from wild barley (H. vulgare ssp. spontaneum)",
+     "volume": "112",
+     "author": "von Korff",
+     "year": "2006",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB131",
+     "doi-asserted-by": "crossref",
+     "first-page": "653",
+     "DOI": "10.1007/s00122-008-0787-2",
+     "article-title": "Quantitative trait loci associated with adaptation to Mediterranean dryland conditions in barley",
+     "volume": "117",
+     "author": "von Korff",
+     "year": "2008",
+     "journal-title": "Theoretical Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB82",
+     "doi-asserted-by": "crossref",
+     "first-page": "1391",
+     "DOI": "10.1105/tpc.10.8.1391",
+     "article-title": "Two transcription factors, DREB1 and DREB2, with an EREBP/AP2 DNA binding domain separate two cellular signal transduction pathways in drought- and low-temperature-responsive gene expression, respectively, in Arabidopsis",
+     "volume": "10",
+     "author": "Liu",
+     "year": "1998",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB83",
+     "volume-title": "Genetic Resources of Tibetan Barley in China",
+     "author": "Ma",
+     "year": "2000"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB86",
+     "doi-asserted-by": "crossref",
+     "first-page": "702",
+     "DOI": "10.2135/cropsci1981.0011183X002100050018x",
+     "article-title": "High salt tolerance potential in wheatgrasses",
+     "volume": "21",
+     "author": "McGuire",
+     "year": "1981",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB84",
+     "doi-asserted-by": "crossref",
+     "first-page": "237",
+     "DOI": "10.1093/aob/mcn142",
+     "article-title": "Tolerance of Hordeum marinum accessions to O2 deficiency, salinity and these stresses combined",
+     "volume": "103",
+     "author": "Malik",
+     "year": "2009",
+     "journal-title": "Annual of Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB85",
+     "doi-asserted-by": "crossref",
+     "first-page": "137",
+     "DOI": "10.1023/A:1018302910661",
+     "article-title": "Genetic resources of salt tolerance in wild Hordeum species",
+     "volume": "103",
+     "author": "Mano",
+     "year": "1998",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB87",
+     "first-page": "803",
+     "article-title": "Chromosomal location of a wheat osmoregulation gene using RFLP analysis",
+     "volume": "23",
+     "author": "Morgan",
+     "year": "1996",
+     "journal-title": "Australia Journal of Plant Physiology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB1002",
+     "first-page": "549",
+     "volume-title": "International Crop Science I",
+     "author": "Mujeeb-Kazi",
+     "year": "1993"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB88",
+     "doi-asserted-by": "crossref",
+     "first-page": "129",
+     "DOI": "10.1007/BF00126756",
+     "article-title": "Conservation of the genetic variation of Triticum tauschii (Coss.) Schmalh. (Aegilops squarrosaauct. non L.) in synthetic hexaploid wheats (T. turgidum L. s. lat. cross T. tauschii; 2n=6x=42, AABBDD) and its potential utilization for wheat improvement",
+     "volume": "43",
+     "author": "Mujeeb-Kazi",
+     "year": "1996",
+     "journal-title": "Genetic Resources and Crop Evolution"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB89",
+     "doi-asserted-by": "crossref",
+     "first-page": "201",
+     "DOI": "10.1023/A:1024553303144",
+     "article-title": "Screening methods for salinity tolerance: a case study with tetraploid wheat",
+     "volume": "253",
+     "author": "Munns",
+     "year": "2003",
+     "journal-title": "Plant and Soil"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB90",
+     "doi-asserted-by": "crossref",
+     "first-page": "565",
+     "DOI": "10.1007/978-1-4020-5578-2_22",
+     "volume-title": "Advances in Molecular Breeding toward Drought and Salt Tolerant Crops",
+     "author": "Munns",
+     "year": "2007"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB91",
+     "doi-asserted-by": "crossref",
+     "first-page": "1025",
+     "DOI": "10.1093/jxb/erj100",
+     "article-title": "Approaches to increasing the salt tolerance of wheat and other cereals",
+     "volume": "57",
+     "author": "Munns",
+     "year": "2006",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB92",
+     "doi-asserted-by": "crossref",
+     "first-page": "88",
+     "DOI": "10.1104/pp.108.129791",
+     "article-title": "Transcriptional regulatory networks in response to abiotic stresses in Arabidopsis and Grasses",
+     "volume": "149",
+     "author": "Nakashima",
+     "year": "2009",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB95",
+     "first-page": "247",
+     "article-title": "Plant genetic resources: prediction by isozyme markers and ecology",
+     "volume": "16",
+     "author": "Nevo",
+     "year": "1987",
+     "journal-title": "Agriculture, Physiology and Medicine"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB96",
+     "first-page": "19",
+     "volume-title": "Barley: Genetics, Molecular Biology and Biotechnology",
+     "author": "Nevo",
+     "year": "1992"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB97",
+     "first-page": "287",
+     "volume-title": "Diversity and Evolution of Plants. Genotypic and Phenotypic Variation in Higher Plants",
+     "author": "Nevo",
+     "year": "2004"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB98",
+     "doi-asserted-by": "crossref",
+     "first-page": "251",
+     "DOI": "10.1560/IJPS.55.3-4.251",
+     "article-title": "Evolution of wild wheat and barley and crop improvement: Studies at the Institute of Evolution",
+     "volume": "55",
+     "author": "Nevo",
+     "year": "2007",
+     "journal-title": "Israel Journal of Plant Sciences"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB94",
+     "doi-asserted-by": "crossref",
+     "first-page": "421",
+     "DOI": "10.1007/BF00305839",
+     "article-title": "Genetic diversity of wild emmer wheat in Israel and Turkey: Structure, evolution and application in breeding",
+     "volume": "77",
+     "author": "Nevo",
+     "year": "1989",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB103",
+     "doi-asserted-by": "crossref",
+     "first-page": "241",
+     "DOI": "10.1007/BF00276247",
+     "article-title": "Genetic diversity and environmental associations of wild wheat, Triticum dicoccoides, in Israel",
+     "volume": "62",
+     "author": "Nevo",
+     "year": "1982",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB101",
+     "doi-asserted-by": "crossref",
+     "first-page": "717",
+     "DOI": "10.1007/BF00021900",
+     "article-title": "Genetic resources of wild cereals in Israel and vicinity: I. Phenotypic variation within and between populations of wild wheat, Triticum dicoccoides",
+     "volume": "33",
+     "author": "Nevo",
+     "year": "1984",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB102",
+     "doi-asserted-by": "crossref",
+     "first-page": "737",
+     "DOI": "10.1007/BF00021901",
+     "article-title": "Genetic resources of wild cereals in Israel and vicinity: II. Phenotypic variation within and between populations of wild barley, Hordeum spontaneum",
+     "volume": "33",
+     "author": "Nevo",
+     "year": "1984",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB100",
+     "doi-asserted-by": "crossref",
+     "first-page": "355",
+     "DOI": "10.1111/j.1095-8312.1986.tb01742.x",
+     "article-title": "Genetic resources of wild barley in the Near East: structure, evolution and application in breeding",
+     "volume": "27",
+     "author": "Nevo",
+     "year": "1986",
+     "journal-title": "Biological Journal of the Linnean Society"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB93",
+     "doi-asserted-by": "crossref",
+     "first-page": "338",
+     "DOI": "10.1111/j.1439-0523.1993.tb00599.x",
+     "article-title": "Genetic resources for salt tolerance in the wild progenitors of wheat (Triticum dicoccoides) and barley (Hordeum spontaneum) in Israel",
+     "volume": "110",
+     "author": "Nevo",
+     "year": "1993",
+     "journal-title": "Plant Breeding"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB99",
+     "doi-asserted-by": "crossref",
+     "first-page": "151",
+     "DOI": "10.1023/A:1008616923427",
+     "article-title": "Ecological correlates of RAPD DNA diversity of wild barley, Hordeum spontaneum, in the Fertile Crescent",
+     "volume": "45",
+     "author": "Nevo",
+     "year": "1998",
+     "journal-title": "Genetic Resources and Crop Evolution"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB104",
+     "volume-title": "Evolution of Wild Emmer and Wheat Improvement. Population Genetics, Genetic Resources, and Genome Organization of Wheat's Progenitor, Triticum dicoccoides",
+     "author": "Nevo",
+     "year": "2002"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB105",
+     "doi-asserted-by": "crossref",
+     "first-page": "961",
+     "DOI": "10.1139/g91-149",
+     "article-title": "Salt tolerance and ionic relations of wheat as affected by individual chromosomes of salt-tolerant Lophopyrum elongatum",
+     "volume": "34",
+     "author": "Omielan",
+     "year": "1991",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB106",
+     "doi-asserted-by": "crossref",
+     "first-page": "2218",
+     "DOI": "10.2135/cropsci2004-0605",
+     "article-title": "Barley HVA1 gene confers salt tolerance in R3 transgenic oat",
+     "volume": "45",
+     "author": "Oraby",
+     "year": "2005",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB107",
+     "doi-asserted-by": "crossref",
+     "first-page": "105",
+     "DOI": "10.1016/S0044-328X(80)80225-X",
+     "article-title": "Comparison of salt tolerance between Hordeum vulgare and H. jubatumin whole plants and callus culture",
+     "volume": "98",
+     "author": "Orton",
+     "year": "1980",
+     "journal-title": "Zeitscrift f\u00fcr Pflanzenphysiologie"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB1001",
+     "doi-asserted-by": "crossref",
+     "first-page": "213",
+     "DOI": "10.1023/A:1022995214885",
+     "article-title": "Microscale ecological stress causes RAPD molecular selection in wild barley, Neve Yaar microsite, Israel",
+     "volume": "50",
+     "author": "Owuor",
+     "year": "2003",
+     "journal-title": "Genetic Resources and Crop Evolution"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB108",
+     "doi-asserted-by": "crossref",
+     "first-page": "332",
+     "DOI": "10.1139/g97-046",
+     "article-title": "AFLP variation in wild barley (Hordeum spontaneum C. Koch) with reference to salt tolerance and associated ecogeography",
+     "volume": "40",
+     "author": "Pakniyat",
+     "year": "1997",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB109",
+     "doi-asserted-by": "crossref",
+     "first-page": "176",
+     "DOI": "10.1111/j.1365-3040.2005.01259.x",
+     "article-title": "Genetic diversity for drought resistance in wild wheat and its ecogeographical association",
+     "volume": "28",
+     "author": "Peleg",
+     "year": "2005",
+     "journal-title": "Plant, Cell & Environment"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB111",
+     "doi-asserted-by": "crossref",
+     "first-page": "39",
+     "DOI": "10.1111/j.1365-3040.2007.01731.x",
+     "article-title": "Allelic diversity associated with aridity gradient in wild emmer wheat populations",
+     "volume": "31",
+     "author": "Peleg",
+     "year": "2008",
+     "journal-title": "Plant, Cell & Environment"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB110",
+     "doi-asserted-by": "crossref",
+     "first-page": "758",
+     "DOI": "10.1111/j.1365-3040.2009.01956.x",
+     "article-title": "Genomic dissection of drought resistance in durum wheat\u2003\u00d7\u2003wild emmer wheat recombinant inbreed line population",
+     "volume": "32",
+     "author": "Peleg",
+     "year": "2009",
+     "journal-title": "Plant, Cell & Environment"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB113",
+     "doi-asserted-by": "crossref",
+     "first-page": "493",
+     "DOI": "10.1139/g03-140",
+     "article-title": "Stress-induced expression in wheat of the Arabidopsis thaliana DREB1A gene delays water stress symptoms under greenhouse conditions",
+     "volume": "47",
+     "author": "Pellegrineschi",
+     "year": "2004",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB114",
+     "doi-asserted-by": "crossref",
+     "first-page": "1042",
+     "DOI": "10.1093/pcp/pch118",
+     "article-title": "Cloning and functional analysis of a novel DREB1/CBF transcription factor involved in cold-responsive gene expression in Zea mays L",
+     "volume": "45",
+     "author": "Qin",
+     "year": "2004",
+     "journal-title": "Plant Cell Physiology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB115",
+     "first-page": "402",
+     "volume-title": "Drought Tolerance in Cereals",
+     "author": "Reynolds",
+     "year": "2006"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB116",
+     "doi-asserted-by": "crossref",
+     "first-page": "9",
+     "DOI": "10.1023/A:1004549927123",
+     "article-title": "Salinity-yield response functions of barley genotypes assessed with a triple line source sprinkler system",
+     "volume": "209",
+     "author": "Royo",
+     "year": "1999",
+     "journal-title": "Plant and Soil"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB118",
+     "doi-asserted-by": "crossref",
+     "first-page": "488",
+     "DOI": "10.1016/j.tplants.2009.07.007",
+     "article-title": "Conceptual framework for drought phenotyping during molecular breeding",
+     "volume": "14",
+     "author": "Salekdeh",
+     "year": "2009",
+     "journal-title": "Trends in Plant Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB117",
+     "doi-asserted-by": "crossref",
+     "first-page": "992",
+     "DOI": "10.2135/cropsci1991.0011183X003100040030x",
+     "article-title": "Variation in sodium exclusion and salt tolerance in Triticum tauschii",
+     "volume": "31",
+     "author": "Schachtman",
+     "year": "1991",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB119",
+     "doi-asserted-by": "crossref",
+     "first-page": "61",
+     "DOI": "10.1111/j.1744-7348.2005.04048.x",
+     "article-title": "Promising ecophysiological traits for genetic improvement of cereal yields in Mediterranean environments",
+     "volume": "146",
+     "author": "Slafer",
+     "year": "2005",
+     "journal-title": "Annual of Applied Biology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB120",
+     "doi-asserted-by": "crossref",
+     "first-page": "1303",
+     "DOI": "10.1007/s00122-004-1745-2",
+     "article-title": "Comparative mapping of wheat chromosome 1AS which contains the tiller inhibition gene (tin) with rice chromosome 5S",
+     "volume": "109",
+     "author": "Spielmeyer",
+     "year": "2004",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB121",
+     "doi-asserted-by": "crossref",
+     "first-page": "59",
+     "DOI": "10.1007/s00122-007-0540-2",
+     "article-title": "A QTL on chromosome 6A in bread wheat (Triticum aestivum) is associated with longer coleoptiles, greater seedling vigour and final plant height",
+     "volume": "115",
+     "author": "Spielmeyer",
+     "year": "2007",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB122",
+     "doi-asserted-by": "crossref",
+     "first-page": "327",
+     "DOI": "10.1007/BF02184304",
+     "article-title": "Modification of the salinity response of wheat by the genome of Elytrygia elongatum",
+     "volume": "83",
+     "author": "Storey",
+     "year": "1985",
+     "journal-title": "Plant and Soil"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB124",
+     "doi-asserted-by": "crossref",
+     "first-page": "1297",
+     "DOI": "10.1111/j.1365-3040.2004.01237.x",
+     "article-title": "Differential expression of dehydrin (Dhn) in response to water stress in resistant and sensitive wild barley (Hordeum spontaneum)",
+     "volume": "27",
+     "author": "Suprunova",
+     "year": "2004",
+     "journal-title": "Plant, Cell & Environment"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB123",
+     "doi-asserted-by": "crossref",
+     "first-page": "17",
+     "DOI": "10.1007/s11103-006-9131-x",
+     "article-title": "Identification of a novel gene (Hsdr4) involved in water-stress tolerance in wild barley",
+     "volume": "64",
+     "author": "Suprunova",
+     "year": "2007",
+     "journal-title": "Plant Molecular Biology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB125",
+     "doi-asserted-by": "crossref",
+     "first-page": "309",
+     "DOI": "10.1111/j.1744-7348.2004.tb00346.x",
+     "article-title": "Spontaneum QTL alleles improving field performance of barley grown under rainfed conditions",
+     "volume": "144",
+     "author": "Talam\u00e8",
+     "year": "2004",
+     "journal-title": "Annals of Applied Biology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB126",
+     "unstructured": "The T.T. (1973) Transference of Resistance to Stem Rust from Triticum monococcum L. to Hexaploid Wheat. PhD thesis, University of Sydney, Sydney."
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB127",
+     "doi-asserted-by": "crossref",
+     "first-page": "1333",
+     "DOI": "10.1007/s00122-002-1151-6",
+     "article-title": "AFLP genetic polymorphism in wild barley (Hordeum spontaneum) populations in Israel",
+     "volume": "106",
+     "author": "Turpeinen",
+     "year": "2003",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB128",
+     "doi-asserted-by": "crossref",
+     "first-page": "1298",
+     "DOI": "10.1126/science.1133649",
+     "article-title": "A NAC gene regulating senescence improves grain protein, zinc, and iron content in wheat",
+     "volume": "314",
+     "author": "Uauy",
+     "year": "2006",
+     "journal-title": "Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB129",
+     "doi-asserted-by": "crossref",
+     "first-page": "17",
+     "DOI": "10.1023/A:1017562909881",
+     "article-title": "Wheat pre-breeding using wild progenitors",
+     "volume": "119",
+     "author": "Valkoun",
+     "year": "2001",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB130",
+     "doi-asserted-by": "crossref",
+     "first-page": "3416",
+     "DOI": "10.1111/j.1365-294X.2008.03847.x",
+     "article-title": "Habitat-specific natural selection at a flowering-time QTL is a main driver of local adaptation in two wild barley populations",
+     "volume": "17",
+     "author": "Verhoeven",
+     "year": "2008",
+     "journal-title": "Molecular Ecology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB133",
+     "first-page": "173",
+     "volume-title": "Biodiversity and Wheat Improvement",
+     "author": "Waines",
+     "year": "1993"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB134",
+     "doi-asserted-by": "crossref",
+     "first-page": "393",
+     "DOI": "10.1016/j.crvi.2008.11.007",
+     "article-title": "Genetic diversity analysis of wild close relatives of barley from Tibet and the Middle East by ISSR and SSR markers",
+     "volume": "332",
+     "author": "Wang",
+     "year": "2009",
+     "journal-title": "Comptes Rendus Biologies"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB135",
+     "doi-asserted-by": "crossref",
+     "first-page": "91",
+     "DOI": "10.1186/1471-2148-8-91",
+     "article-title": "Molecular evolution of dimeric alpha-amylase inhibitor genes in wild emmer wheat and its ecological association",
+     "volume": "8",
+     "author": "Wang",
+     "year": "2008",
+     "journal-title": "BMC Evolutionary Biology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB136",
+     "doi-asserted-by": "crossref",
+     "first-page": "25",
+     "DOI": "10.1086/344556",
+     "article-title": "Development of salinity-tolerant wheat recombinant lines from a wheat disomic addition line carrying a Thinopyrum junceum chromosome",
+     "volume": "164",
+     "author": "Wang",
+     "year": "2003",
+     "journal-title": "International Journal of Plant Sciences"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB137",
+     "doi-asserted-by": "crossref",
+     "first-page": "218",
+     "DOI": "10.1016/j.pbi.2008.12.007",
+     "article-title": "The emergence of whole genome association scans in barley",
+     "volume": "12",
+     "author": "Waugh",
+     "year": "2009",
+     "journal-title": "Current Opinion in Plant Biology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB138",
+     "doi-asserted-by": "crossref",
+     "first-page": "13",
+     "DOI": "10.1007/s11032-008-9209-z",
+     "article-title": "Dreb1 genes in wheat (Triticum aestivum L.): development of functional markers and gene mapping based on SNPs",
+     "volume": "23",
+     "author": "Wei",
+     "year": "2009",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB139",
+     "doi-asserted-by": "crossref",
+     "first-page": "1496",
+     "DOI": "10.1139/b05-151",
+     "article-title": "Does domestication mimic speciation? 1. A population-genetic analysis of Hordeum spontaneum and Hordeum vulgare based on AFLP and evolutionary considerations",
+     "volume": "83",
+     "author": "Wei",
+     "year": "2005",
+     "journal-title": "Canadian Journal of Botany"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB140",
+     "doi-asserted-by": "crossref",
+     "first-page": "627",
+     "DOI": "10.1641/0006-3568(2004)054[0627:EEOTEO]2.0.CO;2",
+     "article-title": "Environmental effects on the expression of quantitative trait loci and implications for phenotypic evolution",
+     "volume": "54",
+     "author": "Weinig",
+     "year": "2004",
+     "journal-title": "Bioscience"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB141",
+     "doi-asserted-by": "crossref",
+     "first-page": "399",
+     "DOI": "10.1007/s00122-003-1247-7",
+     "article-title": "Asymmetric somatic hybridization between wheat (Triticum aestivum L.) and Agropyron elongatum (Host) Nevishi",
+     "volume": "107",
+     "author": "Xia",
+     "year": "2003",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB142",
+     "doi-asserted-by": "crossref",
+     "first-page": "603",
+     "DOI": "10.1007/s10681-008-9703-8",
+     "article-title": "Wild emmer: genetic resources, gene mapping and transfer for wheat improvement",
+     "volume": "164",
+     "author": "Xie",
+     "year": "2008",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB143",
+     "doi-asserted-by": "crossref",
+     "first-page": "249",
+     "DOI": "10.1104/pp.110.1.249",
+     "article-title": "Expression of a late embryogenesis related protein gene, HVA1, from barley confers tolerance to water deficit and salt stress in transgenic rice",
+     "volume": "110",
+     "author": "Xu",
+     "year": "1996",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB144",
+     "first-page": "11",
+     "article-title": "Evaluation for salt tolerance in genetic resources of Triticum and Aegilops species",
+     "volume": "96",
+     "author": "Xu",
+     "year": "1993",
+     "journal-title": "Plant Genetic Resource Newsletter"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB145",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.1007/s10265-008-0195-3",
+     "article-title": "Isolation and functional characterization of HvDREB1, a gene encoding a dehydration-responsive element binding protein in Hordeum vulgare",
+     "volume": "122",
+     "author": "Xu",
+     "year": "2009",
+     "journal-title": "Journal of Plant Research"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB146",
+     "doi-asserted-by": "crossref",
+     "first-page": "849",
+     "DOI": "10.1016/j.plantsci.2004.05.034",
+     "article-title": "Enhanced salt tolerance of transgenic wheat (Tritivum aestivumL.) expressing a vacuolar Na+/H+ antiporter gene with improved grain yields in saline soils in the field and a reduced level of leaf Na+",
+     "volume": "167",
+     "author": "Xue",
+     "year": "2004",
+     "journal-title": "Plant Science"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB147",
+     "doi-asserted-by": "crossref",
+     "first-page": "995",
+     "DOI": "10.1007/s10722-008-9307-0",
+     "article-title": "Phenotypic variation in caryopsis dormancy and seedling salt tolerance in wild barley, Hordeum spontaneum, from different habitats in Israel",
+     "volume": "55",
+     "author": "Yan",
+     "year": "2008",
+     "journal-title": "Genetic Resources and Crop Evolution"
+    },
+    {
+     "key": "10.1111/j.1365-3040.2010.02107.x-BIB148",
+     "doi-asserted-by": "crossref",
+     "first-page": "2063",
+     "DOI": "10.1111/j.1365-294X.2009.04140.x",
+     "article-title": "Adaptive microclimatic structural and expressional dehydrin 1 evolution in wild barley, Hordeum spontaneum, at \u2018Evolution Canyon\u2019, Mount Carmel, Israel",
+     "volume": "18",
+     "author": "Yang",
+     "year": "2009",
+     "journal-title": "Molecular Ecology"
+    }
+   ],
+   "container-title": [
+    "Plant, Cell &amp; Environment"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1365-3040.2010.02107.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      3,
+      23
+     ]
+    ],
+    "date-time": "2024-03-23T19:36:15Z",
+    "timestamp": 1711222575000
+   },
+   "score": 89.420494,
+   "resource": {
+    "primary": {
+     "URL": "http://doi.wiley.com/10.1111/j.1365-3040.2010.02107.x"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      3
+     ]
+    ]
+   },
+   "references-count": 150,
+   "URL": "https://doi.org/10.1111/j.1365-3040.2010.02107.x",
+   "ISSN": [
+    "0140-7791",
+    "1365-3040"
+   ],
+   "issn-type": [
+    {
+     "value": "0140-7791",
+     "type": "print"
+    },
+    {
+     "value": "1365-3040",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      29
+     ]
+    ],
+    "date-time": "2026-09-29T18:40:02Z",
+    "timestamp": 1790707202151,
+    "version": "4.1.0"
+   },
+   "reference-count": 150,
+   "publisher": "Wiley",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2010,
+        2,
+        5
+       ]
+      ],
+      "date-time": "2010-02-05T00:00:00Z",
+      "timestamp": 1265328000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Plant Cell &amp; Environment"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      4
+     ]
+    ]
+   },
+   "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Drought and salinity are the major abiotic stresses that dramatically threaten the food supply in the world. Tribe <jats:italic>Triticeae</jats:italic>, including wheat and barley, possesses tremendous potential for drought and salt tolerance that has been extensively and practically identified, tested, and transferred to wheat cultivars with proven expression of tolerance in experimental trials. <jats:italic>Triticum dicoccoides</jats:italic> and <jats:italic>Hordeum spontaneum</jats:italic>, the progenitors of cultivated wheat and barley, have adapted to a broad range of environments and developed rich genetic diversities for drought and salt tolerances. Drought\u2010 and salt\u2010tolerant genes and quantitative trait loci (QTLs) have been identified in <jats:italic>T. dicoccoides</jats:italic> and <jats:italic>H. spontaneum</jats:italic> and have great potential in wheat and barley improvement. Advanced backcross QTL analysis, the introgression libraries based on wild wheat and wild barley as donors, and positional cloning of natural QTLs will play prevailing roles in elucidating the molecular control of drought and salt tolerance. Combining tolerant genes and QTLs in crop breeding programs aimed at improving tolerance to drought and salinity will be achieved within a multidisciplinary context. Wild genetic resistances to drought and salinity will be shifted in the future from field experiments to the farmer.</jats:p>",
+   "DOI": "10.1111/j.1365-3040.2009.02107.x",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2009,
+      12,
+      23
+     ]
+    ],
+    "date-time": "2009-12-23T09:38:54Z",
+    "timestamp": 1261561134000
+   },
+   "page": "670-685",
+   "source": "Crossref",
+   "is-referenced-by-count": 379,
+   "title": [
+    "Drought and salt tolerances in wild relatives for wheat and barley improvement"
+   ],
+   "prefix": "10.1111",
+   "volume": "33",
+   "author": [
+    {
+     "given": "EVIATAR",
+     "family": "NEVO",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "GUOXIONG",
+     "family": "CHEN",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      3,
+      2
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_8_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1744-7348.2003.tb00238.x"
+    },
+    {
+     "key": "e_1_2_8_3_1",
+     "volume-title": "HALOPHA Database of Salt Tolerant Plants of the World",
+     "author": "Aronson J.A.",
+     "year": "1989"
+    },
+    {
+     "key": "e_1_2_8_4_1",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/978-1-4020-9065-3",
+     "volume-title": "Salinity and Water Stress. Improving Crop Efficiency",
+     "author": "Ashraf M.",
+     "year": "2009"
+    },
+    {
+     "key": "e_1_2_8_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-002-1029-7"
+    },
+    {
+     "key": "e_1_2_8_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1399-3054.2005.00470.x"
+    },
+    {
+     "key": "e_1_2_8_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-003-1357-2"
+    },
+    {
+     "key": "e_1_2_8_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/B:PLSO.0000037029.82618.27"
+    },
+    {
+     "key": "e_1_2_8_9_1",
+     "volume-title": "Plant Breeding for Stress Environments",
+     "author": "Blum A.",
+     "year": "1988"
+    },
+    {
+     "key": "e_1_2_8_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/AR05069"
+    },
+    {
+     "key": "e_1_2_8_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.plaphy.2005.02.010"
+    },
+    {
+     "key": "e_1_2_8_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.106.093476"
+    },
+    {
+     "key": "e_1_2_8_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/00380768.2004.10408573"
+    },
+    {
+     "key": "e_1_2_8_14_1",
+     "first-page": "551",
+     "article-title": "Production of disomic addition lines and partial amphiploids of Thinopyrum junceumon wheat",
+     "volume": "315",
+     "author": "Charpentier A.",
+     "year": "1992",
+     "journal-title": "Comptes Rendusdel' Academiedes Sciences"
+    },
+    {
+     "key": "e_1_2_8_15_1",
+     "unstructured": "ChenG.(2005)Drought Resistance in Wild Barley Hordeum Spontaneum from Israel: Physiology Gene Identification and QTL Mapping. Ph.D. Dissertation Institute of Evolution University of Haifa Haifa Israel."
+    },
+    {
+     "key": "e_1_2_8_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1270/jsbbs.59.21"
+    },
+    {
+     "key": "e_1_2_8_17_1",
+     "first-page": "22",
+     "article-title": "Comparative study of morphological and physiological traits related to drought resistance between xeric and mesic Hordeum spontaneum lines in Israel",
+     "volume": "32",
+     "author": "Chen G.",
+     "year": "2002",
+     "journal-title": "Barley Genetic Newsletter"
+    },
+    {
+     "key": "e_1_2_8_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0140-1963(02)00321-X"
+    },
+    {
+     "key": "e_1_2_8_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1079/SSR2004163"
+    },
+    {
+     "key": "e_1_2_8_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-004-1277-7"
+    },
+    {
+     "key": "e_1_2_8_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.plantsci.2004.05.010"
+    },
+    {
+     "key": "e_1_2_8_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci2002.1759"
+    },
+    {
+     "key": "e_1_2_8_23_1",
+     "first-page": "9",
+     "article-title": "Allelic variation at loci encoding dehydrins in wild and cultivated barley",
+     "author": "Close T.J.",
+     "year": "2000",
+     "journal-title": "Plant and Animal Genome"
+    },
+    {
+     "key": "e_1_2_8_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erj124"
+    },
+    {
+     "key": "e_1_2_8_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1024527401033"
+    },
+    {
+     "key": "e_1_2_8_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.0611226104"
+    },
+    {
+     "key": "e_1_2_8_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/01904169509365056"
+    },
+    {
+     "key": "e_1_2_8_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj1960.00021962005200110006x"
+    },
+    {
+     "key": "e_1_2_8_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-004-1755-0"
+    },
+    {
+     "key": "e_1_2_8_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1601-5223.2009.02098.x"
+    },
+    {
+     "key": "e_1_2_8_31_1",
+     "first-page": "118",
+     "volume-title": "Proceedings of the 54th Australian Cereal Chemistry Conference and 11th Wheat Breeders Assembly, September, 2004",
+     "author": "Dreccer M.F.",
+     "year": "2004"
+    },
+    {
+     "key": "e_1_2_8_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.fcr.2006.07.005"
+    },
+    {
+     "key": "e_1_2_8_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.2003.01661.x"
+    },
+    {
+     "key": "e_1_2_8_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1986.0011183X002600040002x"
+    },
+    {
+     "key": "e_1_2_8_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.85.11.3805"
+    },
+    {
+     "key": "e_1_2_8_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jexbot/51.342.9"
+    },
+    {
+     "key": "e_1_2_8_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jexbot/53.371.1163"
+    },
+    {
+     "key": "e_1_2_8_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-005-2008-6"
+    },
+    {
+     "key": "e_1_2_8_39_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220051089"
+    },
+    {
+     "key": "e_1_2_8_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220200002"
+    },
+    {
+     "key": "e_1_2_8_41_1",
+     "first-page": "121",
+     "volume-title": "Prospects of Saline Agriculture in the Arabian Peninsula",
+     "author": "Farooq S.",
+     "year": "2004"
+    },
+    {
+     "key": "e_1_2_8_42_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "65",
+     "DOI": "10.1007/978-1-4020-9065-3_7",
+     "volume-title": "Salinity and Water Stress",
+     "author": "Farooq S.",
+     "year": "2009"
+    },
+    {
+     "key": "e_1_2_8_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1601-5223.2001.t01-1-00211.x"
+    },
+    {
+     "key": "e_1_2_8_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02370417"
+    },
+    {
+     "key": "e_1_2_8_45_1",
+     "first-page": "125",
+     "article-title": "Intergeneric hybridization for wheat improvement. VI. Production of salt\u2010tolerant germplasm through crossing wheat (Triticum aestivum L.) with Aegilops cylindrica and its significance in practical agriculture",
+     "volume": "46",
+     "author": "Farooq S.",
+     "year": "1992",
+     "journal-title": "Journal of Genetics and Breeding"
+    },
+    {
+     "key": "e_1_2_8_46_1",
+     "first-page": "275",
+     "article-title": "Production of salt\u2010tolerant wheat germplasm through crossing cultivated wheat with Aegilops cylindrica\u2010II. Field evaluation of salt\u2010tolerant germplasm",
+     "volume": "23",
+     "author": "Farooq S.",
+     "year": "1995",
+     "journal-title": "Cereal Research Communications"
+    },
+    {
+     "key": "e_1_2_8_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/scientificamerican0181-102"
+    },
+    {
+     "key": "e_1_2_8_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1560/IJPS.55.3-4.307"
+    },
+    {
+     "key": "e_1_2_8_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tig.2007.11.001"
+    },
+    {
+     "key": "e_1_2_8_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1744-7348.2004.tb00329.x"
+    },
+    {
+     "key": "e_1_2_8_51_1",
+     "first-page": "93",
+     "article-title": "A 5B deficient hybrid between Triticum aestivum and Agropyron junceum",
+     "volume": "13",
+     "author": "Forster B.",
+     "year": "1985",
+     "journal-title": "Cereal Research Communications"
+    },
+    {
+     "key": "e_1_2_8_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1439-0523.1987.tb01083.x"
+    },
+    {
+     "key": "e_1_2_8_53_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/hdy.1990.75"
+    },
+    {
+     "key": "e_1_2_8_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci2008.03.0125"
+    },
+    {
+     "key": "e_1_2_8_55_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00299-008-0623-9"
+    },
+    {
+     "key": "e_1_2_8_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/eri229"
+    },
+    {
+     "key": "e_1_2_8_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/41.5.615"
+    },
+    {
+     "key": "e_1_2_8_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/41.5.623"
+    },
+    {
+     "key": "e_1_2_8_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/35.8.1200"
+    },
+    {
+     "key": "e_1_2_8_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/36.7.1021"
+    },
+    {
+     "key": "e_1_2_8_61_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/37.8.1114"
+    },
+    {
+     "key": "e_1_2_8_62_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00288856"
+    },
+    {
+     "key": "e_1_2_8_63_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00227318"
+    },
+    {
+     "key": "e_1_2_8_64_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00035941"
+    },
+    {
+     "key": "e_1_2_8_65_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/anbo.1996.0168"
+    },
+    {
+     "key": "e_1_2_8_66_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1420-9101.2005.01021.x"
+    },
+    {
+     "key": "e_1_2_8_67_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erp194"
+    },
+    {
+     "key": "e_1_2_8_68_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220100690"
+    },
+    {
+     "key": "e_1_2_8_69_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11104-008-9780-4"
+    },
+    {
+     "key": "e_1_2_8_70_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.153.3740.1074"
+    },
+    {
+     "key": "e_1_2_8_71_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10681-007-9633-x"
+    },
+    {
+     "key": "e_1_2_8_72_1",
+     "first-page": "273",
+     "volume-title": "Proceedings of the National Conference Salinity Management in Agriculture",
+     "author": "Hollington P.A.",
+     "year": "2000"
+    },
+    {
+     "key": "e_1_2_8_73_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-004-1412-5"
+    },
+    {
+     "key": "e_1_2_8_74_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/AR03032"
+    },
+    {
+     "key": "e_1_2_8_75_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11032-008-9239-6"
+    },
+    {
+     "key": "e_1_2_8_76_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erl293"
+    },
+    {
+     "key": "e_1_2_8_77_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jexbot/51.353.2021"
+    },
+    {
+     "key": "e_1_2_8_78_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.010548"
+    },
+    {
+     "key": "e_1_2_8_79_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.106.086538"
+    },
+    {
+     "key": "e_1_2_8_80_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11248-007-9086-y"
+    },
+    {
+     "key": "e_1_2_8_81_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "247",
+     "DOI": "10.1007/BF03543601",
+     "article-title": "Root characteristics in durum wheat (T. turgidum conv. durum) and some wild Triticeae species",
+     "volume": "28",
+     "author": "Kara Y.",
+     "year": "2000",
+     "journal-title": "Cereal Research Communications Hungary"
+    },
+    {
+     "key": "e_1_2_8_82_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1469-8137.1997.00828.x"
+    },
+    {
+     "key": "e_1_2_8_83_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1984.0011183X002400020024x"
+    },
+    {
+     "key": "e_1_2_8_84_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1221",
+     "DOI": "10.1007/s00122-006-0223-4",
+     "article-title": "AB\u2010QTL analysis in spring barley: II. Detection of favourable exotic alleles for agronomic traits introgressed from wild barley (H. vulgare ssp. spontaneum)",
+     "volume": "112",
+     "author": "Von Korff M.",
+     "year": "2006",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "e_1_2_8_85_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-008-0787-2"
+    },
+    {
+     "key": "e_1_2_8_86_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.10.8.1391"
+    },
+    {
+     "key": "e_1_2_8_87_1",
+     "volume-title": "Genetic Resources of Tibetan Barley in China",
+     "author": "Ma D.Q.",
+     "year": "2000"
+    },
+    {
+     "key": "e_1_2_8_88_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1981.0011183X002100050018x"
+    },
+    {
+     "key": "e_1_2_8_89_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/aob/mcn142"
+    },
+    {
+     "key": "e_1_2_8_90_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1018302910661"
+    },
+    {
+     "key": "e_1_2_8_91_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/PP9960803"
+    },
+    {
+     "key": "e_1_2_8_92_1",
+     "first-page": "549",
+     "volume-title": "International Crop Science I",
+     "author": "Mujeeb\u2010Kazi A.",
+     "year": "1993"
+    },
+    {
+     "key": "e_1_2_8_93_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00126756"
+    },
+    {
+     "key": "e_1_2_8_94_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1024553303144"
+    },
+    {
+     "key": "e_1_2_8_95_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-1-4020-5578-2_22"
+    },
+    {
+     "key": "e_1_2_8_96_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erj100"
+    },
+    {
+     "key": "e_1_2_8_97_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.108.129791"
+    },
+    {
+     "key": "e_1_2_8_98_1",
+     "first-page": "247",
+     "article-title": "Plant genetic resources: prediction by isozyme markers and ecology",
+     "volume": "16",
+     "author": "Nevo E.",
+     "year": "1987",
+     "journal-title": "Agriculture, Physiology and Medicine"
+    },
+    {
+     "key": "e_1_2_8_99_1",
+     "first-page": "19",
+     "volume-title": "Barley: Genetics, Molecular Biology and Biotechnology",
+     "author": "Nevo E.",
+     "year": "1992"
+    },
+    {
+     "key": "e_1_2_8_100_1",
+     "first-page": "287",
+     "volume-title": "Diversity and Evolution of Plants. Genotypic and Phenotypic Variation in Higher Plants",
+     "author": "Nevo E.",
+     "year": "2004"
+    },
+    {
+     "key": "e_1_2_8_101_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1560/IJPS.55.3-4.251"
+    },
+    {
+     "key": "e_1_2_8_102_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00305839"
+    },
+    {
+     "key": "e_1_2_8_103_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00276247"
+    },
+    {
+     "key": "e_1_2_8_104_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00021900"
+    },
+    {
+     "key": "e_1_2_8_105_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00021901"
+    },
+    {
+     "key": "e_1_2_8_106_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1095-8312.1986.tb01742.x"
+    },
+    {
+     "key": "e_1_2_8_107_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1439-0523.1993.tb00599.x"
+    },
+    {
+     "key": "e_1_2_8_108_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1008616923427"
+    },
+    {
+     "key": "e_1_2_8_109_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-3-662-07140-3"
+    },
+    {
+     "key": "e_1_2_8_110_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/g91-149"
+    },
+    {
+     "key": "e_1_2_8_111_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci2004-0605"
+    },
+    {
+     "key": "e_1_2_8_112_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0044-328X(80)80225-X"
+    },
+    {
+     "key": "e_1_2_8_113_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1022995214885"
+    },
+    {
+     "key": "e_1_2_8_114_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/g97-046"
+    },
+    {
+     "key": "e_1_2_8_115_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-3040.2005.01259.x"
+    },
+    {
+     "key": "e_1_2_8_116_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-3040.2007.01731.x"
+    },
+    {
+     "key": "e_1_2_8_117_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-3040.2009.01956.x"
+    },
+    {
+     "key": "e_1_2_8_118_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/g03-140"
+    },
+    {
+     "key": "e_1_2_8_119_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pch118"
+    },
+    {
+     "key": "e_1_2_8_120_1",
+     "first-page": "402",
+     "volume-title": "Drought Tolerance in Cereals",
+     "author": "Reynolds M.P.",
+     "year": "2006"
+    },
+    {
+     "key": "e_1_2_8_121_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1004549927123"
+    },
+    {
+     "key": "e_1_2_8_122_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tplants.2009.07.007"
+    },
+    {
+     "key": "e_1_2_8_123_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1991.0011183X003100040030x"
+    },
+    {
+     "key": "e_1_2_8_124_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1744-7348.2005.04048.x"
+    },
+    {
+     "key": "e_1_2_8_125_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-004-1745-2"
+    },
+    {
+     "key": "e_1_2_8_126_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-007-0540-2"
+    },
+    {
+     "key": "e_1_2_8_127_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02184304"
+    },
+    {
+     "key": "e_1_2_8_128_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-3040.2004.01237.x"
+    },
+    {
+     "key": "e_1_2_8_129_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11103-006-9131-x"
+    },
+    {
+     "key": "e_1_2_8_130_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1744-7348.2004.tb00346.x"
+    },
+    {
+     "key": "e_1_2_8_131_1",
+     "unstructured": "TheT.T.(1973)Transference of Resistance to Stem Rust from Triticum monococcum L. to Hexaploid Wheat. PhD thesis University of Sydney Sydney."
+    },
+    {
+     "key": "e_1_2_8_132_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-002-1151-6"
+    },
+    {
+     "key": "e_1_2_8_133_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1133649"
+    },
+    {
+     "key": "e_1_2_8_134_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1017562909881"
+    },
+    {
+     "key": "e_1_2_8_135_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-294X.2008.03847.x"
+    },
+    {
+     "key": "e_1_2_8_136_1",
+     "first-page": "173",
+     "volume-title": "Biodiversity and Wheat Improvement",
+     "author": "Waines J.G.",
+     "year": "1993"
+    },
+    {
+     "key": "e_1_2_8_137_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.crvi.2008.11.007"
+    },
+    {
+     "key": "e_1_2_8_138_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2148-8-91"
+    },
+    {
+     "key": "e_1_2_8_139_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/344556"
+    },
+    {
+     "key": "e_1_2_8_140_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pbi.2008.12.007"
+    },
+    {
+     "key": "e_1_2_8_141_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11032-008-9209-z"
+    },
+    {
+     "key": "e_1_2_8_142_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/b05-151"
+    },
+    {
+     "key": "e_1_2_8_143_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1641/0006-3568(2004)054[0627:EEOTEO]2.0.CO;2"
+    },
+    {
+     "key": "e_1_2_8_144_1",
+     "first-page": "399",
+     "article-title": "Asymmetric somatic hybridization between wheat (Triticum aestivum L.) and Agropyron elongatum (Host) Nevishi",
+     "volume": "107",
+     "author": "Xia G.",
+     "year": "2003",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "e_1_2_8_145_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10681-008-9703-8"
+    },
+    {
+     "key": "e_1_2_8_146_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.110.1.249"
+    },
+    {
+     "key": "e_1_2_8_147_1",
+     "first-page": "11",
+     "article-title": "Evaluation for salt tolerance in genetic resources of Triticum and Aegilops species",
+     "volume": "96",
+     "author": "Xu X.",
+     "year": "1993",
+     "journal-title": "Plant Genetic Resource Newsletter"
+    },
+    {
+     "key": "e_1_2_8_148_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10265-008-0195-3"
+    },
+    {
+     "key": "e_1_2_8_149_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.plantsci.2004.05.034"
+    },
+    {
+     "key": "e_1_2_8_150_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10722-008-9307-0"
+    },
+    {
+     "key": "e_1_2_8_151_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-294X.2009.04140.x"
+    }
+   ],
+   "container-title": [
+    "Plant, Cell &amp; Environment"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1365-3040.2009.02107.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-3040.2009.02107.x",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      9,
+      13
+     ]
+    ],
+    "date-time": "2023-09-13T19:52:25Z",
+    "timestamp": 1694634745000
+   },
+   "score": 80.71293,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-3040.2009.02107.x"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      3,
+      2
+     ]
+    ]
+   },
+   "references-count": 150,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2010,
+       4
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/j.1365-3040.2009.02107.x"
+   ],
+   "URL": "https://doi.org/10.1111/j.1365-3040.2009.02107.x",
+   "archive": [
+    "Portico"
+   ],
+   "ISSN": [
+    "0140-7791",
+    "1365-3040"
+   ],
+   "issn-type": [
+    {
+     "value": "0140-7791",
+     "type": "print"
+    },
+    {
+     "value": "1365-3040",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      3,
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      23
+     ]
+    ],
+    "date-time": "2026-06-23T13:27:22Z",
+    "timestamp": 1782221242194,
+    "version": "3.54.5"
+   },
+   "reference-count": 127,
+   "publisher": "Elsevier",
+   "isbn-type": [
+    {
+     "value": "9780443220906",
+     "type": "print"
+    }
+   ],
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-004"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   },
+   "DOI": "10.1016/b978-0-443-22090-6.00005-9",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      21
+     ]
+    ],
+    "date-time": "2025-03-21T22:26:38Z",
+    "timestamp": 1742595998000
+   },
+   "page": "141-168",
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "Wheat wild relatives: an untapped genetic resource for improvement of cold tolerance in wheat"
+   ],
+   "prefix": "10.1016",
+   "author": [
+    {
+     "given": "Ankur R.",
+     "family": "Bhardwaj",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Bharti",
+     "family": "Chaudhry",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib1",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1186/s12870-021-03182-4",
+     "article-title": "Mapping freezing tolerance QTL in alfalfa: Based on indoor phenotyping",
+     "volume": "21",
+     "author": "Adhikari",
+     "year": "2021",
+     "journal-title": "BMC Plant Biology"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib2",
+     "doi-asserted-by": "crossref",
+     "first-page": "43",
+     "DOI": "10.1093/jxb/err266",
+     "article-title": "Regulation of root water uptake under abiotic stress conditions",
+     "volume": "63",
+     "author": "Aroca",
+     "year": "2011",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "477",
+     "DOI": "10.1111/1541-4337.12262",
+     "article-title": "Cultivated ancient wheats (Triticum spp.): A potential source of health-beneficial food products",
+     "volume": "16",
+     "author": "Arzani",
+     "year": "2017",
+     "journal-title": "Comprehensive Reviews in Food Science and Food Safety"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "129",
+     "DOI": "10.1016/j.plaphy.2016.12.025",
+     "article-title": "Oil palm drought inducible DREB1 induced expression of DRE/CRT- and non-DRE/CRT-containing genes in lowland transgenic tomato under cold and PEG treatments",
+     "volume": "112",
+     "author": "Azzeme",
+     "year": "2017",
+     "journal-title": "Plant Physiology and Biochemistry"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "799",
+     "DOI": "10.2135/cropsci2005.0120",
+     "article-title": "Aegilops species from semiarid areas of Lebanon: Variation in quantitative attributes under water stress",
+     "volume": "46",
+     "author": "Baalbaki",
+     "year": "2006",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib6",
+     "doi-asserted-by": "crossref",
+     "first-page": "137",
+     "DOI": "10.1016/0008-6215(91)84124-W",
+     "article-title": "Fructan chemical structure and sensitivity to an exohydrolase",
+     "volume": "217",
+     "author": "Bancal",
+     "year": "1991",
+     "journal-title": "Carbohydrate Research"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib7",
+     "unstructured": "Barashkova, E. A., & Vavilov, N. (1991). Physiological-genetic aspects of frost resistance in winter wheat\u2019 Relationship of frost hardiness with genome composition in wheat. In Proceedings of International Symposium: Wheat Breeding-Prospects and Future Approaches; Institute for Wheat and Sunflower: Albena, Bulgaria, pp. 379\u2013384."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "1139",
+     "DOI": "10.4141/cjps79-176",
+     "article-title": "\u2018The effect of seedling rate, seeding date, and location on grain yield, maturity, protein percentage and protein yield of sme spring wheats in central Alberta",
+     "volume": "59",
+     "author": "Briggs",
+     "year": "1979",
+     "journal-title": "Canadian Journal of Plant Science"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib9",
+     "unstructured": "Cimmyt. 2004. Wild wheat relatives help boost genetic diversity, Mexico City."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib10",
+     "first-page": "35",
+     "article-title": "RAPD analyses of some wild Triticum L. and Aegilops L. species and wheat cultivars in Turkey",
+     "volume": "50",
+     "author": "Cenkci",
+     "year": "2008",
+     "journal-title": "Acta Biologica Cracoviensia Series Botanica"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "3",
+     "DOI": "10.1046/j.1469-8137.1997.00716.x",
+     "article-title": "Fructan oligomers in Poa ampla",
+     "volume": "136",
+     "author": "Chatterton",
+     "year": "1997",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "843",
+     "DOI": "10.1078/0176-1617-01127",
+     "article-title": "Fructans in crested wheatgrass leaves",
+     "volume": "160",
+     "author": "Chatterton",
+     "year": "2003",
+     "journal-title": "Journal of Plant Physiology"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib13",
+     "doi-asserted-by": "crossref",
+     "first-page": "169",
+     "DOI": "10.1016/S0176-1617(89)80051-3",
+     "article-title": "Carbohydrate partitioning in 185 accessions of Gramineae grown under warm and cool temperatures",
+     "volume": "134",
+     "author": "Chatterton",
+     "year": "1989",
+     "journal-title": "Journal of Plant Physiology"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib14",
+     "doi-asserted-by": "crossref",
+     "first-page": "389",
+     "DOI": "10.1111/j.1469-8137.1993.tb03829.x",
+     "article-title": "Structure of fructan oligomers in cheatgrass (Bromus tectorum L.)",
+     "volume": "124",
+     "author": "Chatterton",
+     "year": "1993",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib15",
+     "doi-asserted-by": "crossref",
+     "first-page": "552",
+     "DOI": "10.1016/S0176-1617(11)80397-4",
+     "article-title": "Structures of fructan oligomers in orchardgrass (Dactylis glomerata L.)",
+     "volume": "142",
+     "author": "Chatterton",
+     "year": "1993",
+     "journal-title": "Journal of Plant Physiology"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib16",
+     "doi-asserted-by": "crossref",
+     "first-page": "941",
+     "DOI": "10.1007/s00122-005-0026-z",
+     "article-title": "Development and characterization of wheat- Leymus racemosus translocation lines with resistance to Fusarium Head Blight",
+     "volume": "111",
+     "author": "Chen",
+     "year": "2005",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib17",
+     "doi-asserted-by": "crossref",
+     "first-page": "451",
+     "DOI": "10.4141/P01-062",
+     "article-title": "Expression of resistance to stripe rust, powdery mildew and the wheat curl mite in Triticum aestivum \u00d7 Haynaldia villosalines",
+     "volume": "82",
+     "author": "Chen",
+     "year": "2002",
+     "journal-title": "Canadian Journal of Plant Science"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "e65122",
+     "DOI": "10.1371/journal.pone.0065122",
+     "article-title": "The development of 7E chromosome-specific molecular markers for Thinopyrum elongatum based on SLAF-seq technology",
+     "volume": "8",
+     "author": "Chen",
+     "year": "2013",
+     "journal-title": "PLoS One"
+    },
+    {
+     "issue": "10",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib19",
+     "doi-asserted-by": "crossref",
+     "first-page": "444",
+     "DOI": "10.1016/j.tplants.2007.07.002",
+     "article-title": "Cold stress regulation of gene expression in plants",
+     "volume": "12",
+     "author": "Chinnusamy",
+     "year": "2007",
+     "journal-title": "Trends in Plant Science"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "1059",
+     "DOI": "10.1093/jxb/erj124",
+     "article-title": "Use of wild relatives to improve salt tolerance in wheat",
+     "volume": "57",
+     "author": "Colmer",
+     "year": "2006",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib21",
+     "doi-asserted-by": "crossref",
+     "first-page": "801",
+     "DOI": "10.1071/CP16056",
+     "article-title": "Recent changes in southern Australian frost occurrence: Implications for wheat production risk",
+     "volume": "67",
+     "author": "Crimp",
+     "year": "2016",
+     "journal-title": "Crop and Pasture Science"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib22",
+     "unstructured": "Curtis, B. C., Rajaram, S., & G\u00f3mez Macpherson, H. (2002). Bread wheat: Improvement and production. Food & Agriculture Organization of the UN, Rome, Italy."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib24",
+     "doi-asserted-by": "crossref",
+     "first-page": "753",
+     "DOI": "10.1111/j.1469-8137.2005.01627.x",
+     "article-title": "Physical map of the wheat high-grain protein content gene Gpc-B1 and development of a high-throughput molecular marker",
+     "volume": "169",
+     "author": "Distelfeld",
+     "year": "2006",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "issue": "5833",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib25",
+     "doi-asserted-by": "crossref",
+     "first-page": "1862",
+     "DOI": "10.1126/science.1143986",
+     "article-title": "Genome plasticity a key factor in the success of polyploid wheat under domestication",
+     "volume": "316",
+     "author": "Dubcovsky",
+     "year": "2007",
+     "journal-title": "Science (New York, N.Y.)"
+    },
+    {
+     "issue": "3-4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "448",
+     "DOI": "10.1007/BF00223692",
+     "article-title": "Mapping of the K+/Na+ discrimination locus Kna1 in wheat",
+     "volume": "92-92",
+     "author": "Dubcovsky",
+     "year": "1996",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib27",
+     "first-page": "221",
+     "article-title": "Heat resistance in wild Triticum and Aegilops",
+     "volume": "46",
+     "author": "Ehdaie",
+     "year": "1992",
+     "journal-title": "Journal of Genetics & Breeding"
+    },
+    {
+     "issue": "1\u20133",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib28",
+     "doi-asserted-by": "crossref",
+     "first-page": "250",
+     "DOI": "10.1159/000082407",
+     "article-title": "Allopolyploidy \u2013 A shaping force in the evolution of wheat genomes",
+     "volume": "109",
+     "author": "Feldman",
+     "year": "2005",
+     "journal-title": "Cytogenetic and Genome Research"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib29",
+     "doi-asserted-by": "crossref",
+     "first-page": "102",
+     "DOI": "10.1038/scientificamerican0181-102",
+     "article-title": "The wild gene resources of wheat",
+     "volume": "244",
+     "author": "Feldman",
+     "year": "1981",
+     "journal-title": "Scientific American"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib30",
+     "doi-asserted-by": "crossref",
+     "first-page": "24",
+     "DOI": "10.1016/j.tig.2007.11.001",
+     "article-title": "Cereal breeding takes a walk on the wild side",
+     "volume": "24",
+     "author": "Feuillet",
+     "year": "2008",
+     "journal-title": "Trends in Genetics"
+    },
+    {
+     "issue": "12",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib31",
+     "doi-asserted-by": "crossref",
+     "first-page": "3487",
+     "DOI": "10.1093/jxb/erv088",
+     "article-title": "Post-head-emergence frost in wheat and barley: defining the problem, assessing the damage, and identifying resistance",
+     "volume": "66",
+     "author": "Frederiks",
+     "year": "2015",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib32",
+     "first-page": "669",
+     "article-title": "Cryo-scanning electron microscopic study on freezing behavior of xylem ray parenchyma cells in hardwood species",
+     "volume": "31",
+     "author": "Fujikawa",
+     "year": "2000",
+     "journal-title": "Micron (Oxford, England 1993"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib33",
+     "doi-asserted-by": "crossref",
+     "first-page": "435",
+     "DOI": "10.1016/j.eja.2007.01.001",
+     "article-title": "The freezing characteristics of wheat at ear emergence",
+     "volume": "26",
+     "author": "Fuller",
+     "year": "2007",
+     "journal-title": "European Journal of Agronomy"
+    },
+    {
+     "issue": "7",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "589",
+     "DOI": "10.1071/FP08166",
+     "article-title": "Sporobolus stapfianus, a model desiccation-tolerant grass",
+     "volume": "36",
+     "author": "Gaff",
+     "year": "2009",
+     "journal-title": "Functional Plant Biology"
+    },
+    {
+     "issue": "7",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib35",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0254437",
+     "DOI": "10.1371/journal.pone.0254437",
+     "article-title": "QTL mapping of seedling tolerance to exposure to low temperature in the maize IBM RIL population",
+     "volume": "16",
+     "author": "Goering",
+     "year": "2021",
+     "journal-title": "PLoS One"
+    },
+    {
+     "issue": "Special Issue",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "52",
+     "DOI": "10.17221/6132-CJGPB",
+     "article-title": "Comparative-genetic analysis - a base for wheat taxonomy revision",
+     "volume": "41",
+     "author": "Goncharov",
+     "year": "2005",
+     "journal-title": "Czech Journal of Genetics and Plant Breeding"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib37",
+     "series-title": "Wheat science and trade",
+     "first-page": "3",
+     "article-title": "Wheat evolution, domestication, and improvement",
+     "author": "Gustafson",
+     "year": "2009"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib38",
+     "doi-asserted-by": "crossref",
+     "first-page": "354",
+     "DOI": "10.1016/j.scienta.2018.06.008",
+     "article-title": "Comprehensive transcriptome analysis reveals common and specific genes and pathways involved in cold acclimation and cold stress in tea plant leaves",
+     "volume": "240",
+     "author": "Hao",
+     "year": "2018",
+     "journal-title": "Scientia Horticulturae"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib39",
+     "first-page": "126",
+     "article-title": "Physiological, biochemical and morphological changes in Aegilops crassa Boiss. accessions and durum wheat under controlled drought",
+     "volume": "13",
+     "author": "Harb",
+     "year": "2013",
+     "journal-title": "American-Eurasian Journal of Agricultural and Environmental Science"
+    },
+    {
+     "issue": "3740",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib40",
+     "doi-asserted-by": "crossref",
+     "first-page": "1074",
+     "DOI": "10.1126/science.153.3740.1074",
+     "article-title": "Distribution of wild wheats and barley",
+     "volume": "153",
+     "author": "Harlan",
+     "year": "1966",
+     "journal-title": "Science (New York, N.Y.)"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib41",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/978-1-4939-0844-8",
+     "article-title": "Plant cold acclimation: Methods and protocols",
+     "volume": "1166",
+     "author": "Hincha",
+     "year": "2014",
+     "journal-title": "Methods in Molecular Biology"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib43",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1094/CM-2011-1229-01-RS",
+     "article-title": "Influence of precipitation, temperature, and 56 years on winter wheat yields in western Kansas",
+     "volume": "10",
+     "author": "Holman",
+     "year": "2011",
+     "journal-title": "Crop Management"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib44",
+     "doi-asserted-by": "crossref",
+     "first-page": "9",
+     "DOI": "10.1266/ggs.87.9",
+     "article-title": "Variation in abscisic acid responsiveness of Aegilops tauschii and hexaploid wheat synthetics due to the D-genome diversity",
+     "volume": "87",
+     "author": "Iehisa",
+     "year": "2012",
+     "journal-title": "Genes & Genetic Systems"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib45",
+     "doi-asserted-by": "crossref",
+     "first-page": "105",
+     "DOI": "10.2298/GENSR1401105I",
+     "article-title": "\u2018Khorasan wheat population researching (Triticum turgidum, ssp. Turanicum (McKey) in the minimum tillage conditions\u2019",
+     "volume": "46",
+     "author": "Ikanovi\u0107",
+     "year": "2014",
+     "journal-title": "Genetika"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib46",
+     "doi-asserted-by": "crossref",
+     "first-page": "1219",
+     "DOI": "10.1093/jxb/erl293",
+     "article-title": "Salt tolerance in a Hordeum marinum-Triticum aestivum amphiploid, and its parents",
+     "volume": "58",
+     "author": "Islam",
+     "year": "2007",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "issue": "7443",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib47",
+     "doi-asserted-by": "crossref",
+     "first-page": "91",
+     "DOI": "10.1038/nature12028",
+     "article-title": "Aegilops tauschii draft genome sequence reveals a gene repertoire for wheat adaptation",
+     "volume": "496",
+     "author": "Jia",
+     "year": "2013",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib48",
+     "doi-asserted-by": "crossref",
+     "first-page": "199",
+     "DOI": "10.1007/BF00036700",
+     "article-title": "Recent advances in alien gene transfer in wheat",
+     "volume": "73",
+     "author": "Jiang",
+     "year": "1993",
+     "journal-title": "Euphytica"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib49",
+     "doi-asserted-by": "crossref",
+     "first-page": "336",
+     "DOI": "10.1111/j.1365-3040.2009.01925.x",
+     "article-title": "\u2018Ice recrystallization inhibition proteins (IRIPs) and freeze tolerance in the cryophilic Antarctic hair grass Deschampsia antarctica E. Desv.\u2019",
+     "volume": "32",
+     "author": "John",
+     "year": "2009",
+     "journal-title": "Plant Cell and Environment"
+    },
+    {
+     "issue": "11",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib50",
+     "doi-asserted-by": "crossref",
+     "first-page": "2297",
+     "DOI": "10.1271/bbb.66.2297",
+     "article-title": "Molecular characterization of sucrose: Sucrose 1-fructosyltransferase and sucrose:fructan 6-fructosyltransferase associated with fructan accumulation in winter wheat during cold hardening",
+     "volume": "66",
+     "author": "Kawakami",
+     "year": "2002",
+     "journal-title": "Bioscience, Biotechnology, and Biochemistry"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib51",
+     "doi-asserted-by": "crossref",
+     "first-page": "793",
+     "DOI": "10.1093/jxb/erm367",
+     "article-title": "Genetic engineering of rice capable of synthesizing fructans and enhancing chilling tolerance",
+     "volume": "59",
+     "author": "Kawakami",
+     "year": "2008",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "issue": "11",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib52",
+     "article-title": "Early yield assessment of wheat on meteorological basis for Potohar region",
+     "volume": "6",
+     "author": "Kazmi",
+     "year": "2009",
+     "journal-title": "Pakistan Journal of Meteorology"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib53",
+     "doi-asserted-by": "crossref",
+     "first-page": "344",
+     "DOI": "10.1007/s12374-010-9122-y",
+     "article-title": "Wild relatives of the wheat grain proteome",
+     "volume": "53",
+     "author": "Kim",
+     "year": "2010",
+     "journal-title": "Journal of Plant Biology"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib54",
+     "doi-asserted-by": "crossref",
+     "first-page": "565",
+     "DOI": "10.1007/s10142-011-0231-6",
+     "article-title": "Alteration in expression of hormone-related genes in wild emmer wheat roots associated with drought adaptation mechanisms",
+     "volume": "11",
+     "author": "Krugman",
+     "year": "2011",
+     "journal-title": "Functional & Integrative Genomics"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib55",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1155/2012/310705",
+     "article-title": "Saline agriculture in the 21st century: Using salt contaminated resources to cope food requirements",
+     "volume": "2012",
+     "author": "Ladeiro",
+     "year": "2012",
+     "journal-title": "Journal of Botany"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib56",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1186/1471-2229-12-65",
+     "article-title": "Comparative analyses reveal potential uses of Brachypodium distachyonas a model for cold stress responses in temperate grasses",
+     "volume": "12",
+     "author": "Li",
+     "year": "2012",
+     "journal-title": "BMC Plant Biology"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib57",
+     "article-title": "Plant cold hardiness: Gene regulation and genetic engineering",
+     "author": "Li",
+     "year": "2002",
+     "journal-title": "Kluwer Academic/Plenum eBooks"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib58",
+     "doi-asserted-by": "crossref",
+     "first-page": "11",
+     "DOI": "10.1007/s10725-015-0029-y",
+     "article-title": "Wheat plants exposed to winter warming are more susceptible to low temperature stress in the spring",
+     "volume": "77",
+     "author": "Li",
+     "year": "2015",
+     "journal-title": "Plant Growth Regulation"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib59",
+     "doi-asserted-by": "crossref",
+     "first-page": "572",
+     "DOI": "10.1139/b81-082",
+     "article-title": "Cold hardiness of some relatives of hexaploid wheat",
+     "volume": "59",
+     "author": "Limin",
+     "year": "1981",
+     "journal-title": "Canadian Journal of Botany"
+    },
+    {
+     "issue": "7443",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib60",
+     "doi-asserted-by": "crossref",
+     "first-page": "87",
+     "DOI": "10.1038/nature11997",
+     "article-title": "Draft genome of the wheat A-genome progenitor Triticum urartu",
+     "volume": "496",
+     "author": "Ling",
+     "year": "2013",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib61",
+     "doi-asserted-by": "crossref",
+     "first-page": "725",
+     "DOI": "10.1111/j.1469-8137.1993.tb03783.x",
+     "article-title": "\u2018Structure and quantity of fructan oligomers in oat (Avena spp.),\u2019",
+     "volume": "123",
+     "author": "Livingston",
+     "year": "1993",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib62",
+     "doi-asserted-by": "crossref",
+     "first-page": "27",
+     "DOI": "10.1111/j.1469-8137.1994.tb04256.x",
+     "article-title": "Fructan synthesis in oat",
+     "volume": "127",
+     "author": "Livingston",
+     "year": "1994",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib63",
+     "doi-asserted-by": "crossref",
+     "first-page": "1059",
+     "DOI": "10.1007/s12010-015-1629-8",
+     "article-title": "Identification of CBF14 and NAC2 genes in Aegilops tauschii associated with resistance to freezing stress",
+     "volume": "176",
+     "author": "Masoomi-Aladizgeh",
+     "year": "2015",
+     "journal-title": "Applied Biochemistry and Biotechnology"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib64",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1016/j.postharvbio.2019.04.016",
+     "article-title": "Omics analysis of the ethylene signal transduction in tomato as a function of storage temperature",
+     "volume": "155",
+     "author": "Mata",
+     "year": "2019",
+     "journal-title": "Postharvest Biology and Technology"
+    },
+    {
+     "issue": "6194",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib65",
+     "article-title": "A chromosome-based draft sequence of the hexaploid bread wheat (Triticum aestivum) genome",
+     "volume": "345",
+     "author": "Mayer",
+     "year": "2014",
+     "journal-title": "Science (New York, N.Y.)"
+    },
+    {
+     "issue": "12",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib66",
+     "doi-asserted-by": "crossref",
+     "first-page": "1931",
+     "DOI": "10.1093/pcp/pct163",
+     "article-title": "Unlocking Triticeae genomics to sustainably feed the future",
+     "volume": "54",
+     "author": "Mochida",
+     "year": "2013",
+     "journal-title": "Plant and Cell Physiology"
+    },
+    {
+     "issue": "10",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib67",
+     "doi-asserted-by": "crossref",
+     "first-page": "e75265",
+     "DOI": "10.1371/journal.pone.0075265",
+     "article-title": "Large-scale collection and analysis of full-length cDNAs from Brachypodium distachyon and integration with Pooideae sequence resources",
+     "volume": "8",
+     "author": "Mochida",
+     "year": "2013",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib68",
+     "first-page": "427",
+     "article-title": "Genotype x environment interaction in bread wheat in Northern Sudan using AMMI Analysis",
+     "volume": "6",
+     "author": "Mohammed",
+     "year": "2009",
+     "journal-title": "American-Eurasian Journal of Agricultural & Environmental Sciences"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib69",
+     "first-page": "179",
+     "volume": "122",
+     "author": "Mujeeb-Kazi",
+     "year": "2013"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib70",
+     "doi-asserted-by": "crossref",
+     "first-page": "651",
+     "DOI": "10.1146/annurev.arplant.59.032607.092911",
+     "article-title": "Mechanisms of salinity tolerance",
+     "volume": "59",
+     "author": "Munns",
+     "year": "2008",
+     "journal-title": "Annual Review of Plant Biology"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib71",
+     "doi-asserted-by": "crossref",
+     "first-page": "670",
+     "DOI": "10.1111/j.1365-3040.2009.02107.x",
+     "article-title": "Drought and salt tolerances in wild relatives for wheat and barley improvement",
+     "volume": "33",
+     "author": "Nevo",
+     "year": "2010",
+     "journal-title": "Plant Cell and Environment"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib72",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1155/2013/610721",
+     "article-title": "Drought tolerance in wheat",
+     "volume": "2013",
+     "author": "Nezhadahmadi",
+     "year": "2013",
+     "journal-title": "The Scientific World Journal"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib73",
+     "doi-asserted-by": "crossref",
+     "first-page": "34",
+     "DOI": "10.1016/j.ppees.2018.05.004",
+     "article-title": "Xylem anatomical responses to climate variability in Himalayan birch trees at one of the world\u2019s highest forest limit",
+     "volume": "33",
+     "author": "Pandey",
+     "year": "2018",
+     "journal-title": "Perspectives in Plant Ecology, Evolution and Systematics"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib74",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2174/1389202918666170228141345",
+     "article-title": "An overview of signaling regulons during cold stress tolerance in plants",
+     "volume": "18",
+     "author": "Pareek",
+     "year": "2017",
+     "journal-title": "Current Genomics"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib75",
+     "doi-asserted-by": "crossref",
+     "first-page": "705",
+     "DOI": "10.2134/agronj1983.00021962007500040031x",
+     "article-title": "Grain production of winter wheat after spring freeze injury 1",
+     "volume": "75",
+     "author": "Paulsen",
+     "year": "1983",
+     "journal-title": "Agronomy Journal"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib76",
+     "doi-asserted-by": "crossref",
+     "first-page": "83",
+     "DOI": "10.1046/j.1469-8137.2001.00069.x",
+     "article-title": "Structure of fructans in roots and leaf tissues of Lolium perenne",
+     "volume": "150",
+     "author": "Pavis",
+     "year": "2001",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "issue": "7",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib77",
+     "doi-asserted-by": "crossref",
+     "first-page": "758",
+     "DOI": "10.1111/j.1365-3040.2009.01956.x",
+     "article-title": "Genomic dissection of drought resistance in durum wheat \u00d7 wild emmer wheat recombinant inbreed line population",
+     "volume": "32",
+     "author": "Peleg",
+     "year": "2009",
+     "journal-title": "Plant, Cell and Environment"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib78",
+     "doi-asserted-by": "crossref",
+     "first-page": "281",
+     "DOI": "10.1007/s11032-011-9608-4",
+     "article-title": "Domestication evolution, genetics and genomics in wheat",
+     "volume": "28",
+     "author": "Peng",
+     "year": "2011",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib79",
+     "doi-asserted-by": "crossref",
+     "first-page": "1493",
+     "DOI": "10.1007/s00299-011-1058-2",
+     "article-title": "Improved drought and salt tolerance of Arabidopsis thaliana by transgenic expression of a novel DREB gene from Leymus chinensis",
+     "volume": "30",
+     "author": "Peng",
+     "year": "2011",
+     "journal-title": "Plant Cell Reports"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib80",
+     "unstructured": "Pe\u00f1a, R. (2002). Wheat for bread and other foods. In Bread wheat improvement and production (pp. 483\u2013542). Food and Agriculture Organization of the United Nations."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib81",
+     "doi-asserted-by": "crossref",
+     "first-page": "1141",
+     "DOI": "10.1111/j.1469-8137.2011.03763.x",
+     "article-title": "Plant resistance to mechanical stress: Evidence of an avoidance\u2013tolerance trade-off",
+     "volume": "191",
+     "author": "Puijalon",
+     "year": "2011",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib82",
+     "doi-asserted-by": "crossref",
+     "first-page": "237",
+     "DOI": "10.1111/j.1365-3040.2008.01916.x",
+     "article-title": "Quantifying the three main components of salinity tolerance in cereals",
+     "volume": "32",
+     "author": "Rajendran",
+     "year": "2009",
+     "journal-title": "Plant Cell and Environment"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib83",
+     "doi-asserted-by": "crossref",
+     "first-page": "344",
+     "DOI": "10.1016/j.jplph.2010.07.019",
+     "article-title": "Fructan accumulation and transcription of candidate genes during cold acclimation in three varieties of Poa pratensis",
+     "volume": "168",
+     "author": "Rao",
+     "year": "2011",
+     "journal-title": "Journal of Plant Physiology"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib84",
+     "doi-asserted-by": "crossref",
+     "first-page": "419",
+     "DOI": "10.3390/agronomy3020419",
+     "article-title": "New approaches for crop genetic adaptation to the abiotic stresses predicted with climate change",
+     "volume": "3",
+     "author": "Redden",
+     "year": "2013",
+     "journal-title": "Agronomy"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib85",
+     "doi-asserted-by": "crossref",
+     "first-page": "734",
+     "DOI": "10.1016/S0176-1617(97)80291-X",
+     "article-title": "\u2018The in vivo tolerance of photosynthetic membranes to high and low temperatures in cultivated and wild wheats of the Triticum and Aegilops genera,\u2019",
+     "volume": "150",
+     "author": "Rekika",
+     "year": "1997",
+     "journal-title": "Journal of Plant Physiology"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib86",
+     "first-page": "899",
+     "article-title": "Effect of temperature on development and grain formation in spring wheat",
+     "volume": "42",
+     "author": "Riazuddin",
+     "year": "2010",
+     "journal-title": "Pakistan Journal of Botany"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib87",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.scienta.2019.108565",
+     "article-title": "\u2018ABA and its signaling pathway are involved in the cold acclimation and deacclimation of grapevine buds,\u2019",
+     "volume": "256",
+     "author": "Rubio",
+     "year": "2019",
+     "journal-title": "Scientia Horticulturae"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib88",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1186/1471-2148-8-245",
+     "article-title": "\u2018Tracking the evolution of a cold stress associated gene family in cold tolerant grasses,\u2019",
+     "volume": "8",
+     "author": "Sandve",
+     "year": "2008",
+     "journal-title": "BMC Evolutionary Biology"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib89",
+     "doi-asserted-by": "crossref",
+     "first-page": "30",
+     "DOI": "10.2174/138920211794520178",
+     "article-title": "\u2018Engineering cold stress tolerance in crop plants,\u2019",
+     "volume": "12",
+     "author": "Sanghera",
+     "year": "2011",
+     "journal-title": "Current Genomics"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib90",
+     "doi-asserted-by": "crossref",
+     "first-page": "1040",
+     "DOI": "10.1104/pp.104.041293",
+     "article-title": "Salicylate accumulation inhibits growth at chilling temperature in Arabidopsis",
+     "volume": "135",
+     "author": "Scott",
+     "year": "2004",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib91",
+     "doi-asserted-by": "crossref",
+     "first-page": "76",
+     "DOI": "10.1016/j.envexpbot.2010.02.013",
+     "article-title": "The role of antioxidant defense systems at differential salt tolerance of Hordeum marinum Huds. (sea barleygrass) and Hordeum vulgare L. (cultivated barley)",
+     "volume": "69",
+     "author": "Seckin",
+     "year": "2010",
+     "journal-title": "Environmental and Experimental Botany"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib92",
+     "doi-asserted-by": "crossref",
+     "first-page": "426",
+     "DOI": "10.1270/jsbbs.60.426",
+     "article-title": "Wide genetic diversity of salinity tolerance, sodium exclusion and growth in wild emmer wheat, Triticum dicoccoides",
+     "volume": "60",
+     "author": "Shavrukov",
+     "year": "2010",
+     "journal-title": "Breeding Science"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib93",
+     "doi-asserted-by": "crossref",
+     "first-page": "1537",
+     "DOI": "10.1093/jxb/erp058",
+     "article-title": "Wheat",
+     "volume": "60",
+     "author": "Shewry",
+     "year": "2009",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib94",
+     "doi-asserted-by": "crossref",
+     "first-page": "469",
+     "DOI": "10.1016/j.jcs.2017.11.010",
+     "article-title": "Do ancient types of wheat have health benefits compared with modern bread wheat?",
+     "volume": "79",
+     "author": "Shewry",
+     "year": "2018",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "issue": "6793",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib95",
+     "doi-asserted-by": "crossref",
+     "first-page": "256",
+     "DOI": "10.1038/35018639",
+     "article-title": "\u2018Heat-stable antifreeze protein from grass,\u2019",
+     "volume": "406",
+     "author": "Sidebottom",
+     "year": "2000",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib96",
+     "doi-asserted-by": "crossref",
+     "first-page": "347",
+     "DOI": "10.1270/jsbbs.61.347",
+     "article-title": "Applicability of Aegilops tauschii drought tolerance traits to breeding of hexaploid wheat",
+     "volume": "61",
+     "author": "Sohail",
+     "year": "2011",
+     "journal-title": "Breeding Science"
+    },
+    {
+     "issue": "25",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib97",
+     "doi-asserted-by": "crossref",
+     "first-page": "11652",
+     "DOI": "10.1073/pnas.92.25.11652",
+     "article-title": "\u2018Purification, cloning, and functional expression of sucrose:fructan 6-fructosyltransferase, a key enzyme of fructan synthesis in barley",
+     "volume": "92",
+     "author": "Sprenger",
+     "year": "1995",
+     "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib128",
+     "series-title": "Fibre and Cereal Crops Problems",
+     "article-title": "Improvement of durum wheat for multiple stress tolerance: Potential interest of Aegilops sp",
+     "author": "Stankova",
+     "year": "1995"
+    },
+    {
+     "issue": "5329",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib98",
+     "doi-asserted-by": "crossref",
+     "first-page": "1063",
+     "DOI": "10.1126/science.277.5329.1063",
+     "article-title": "Seed banks and molecular maps: Unlocking genetic potential from the wild",
+     "volume": "277",
+     "author": "Tanksley",
+     "year": "1997",
+     "journal-title": "Science (New York, N.Y.)"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib99",
+     "doi-asserted-by": "crossref",
+     "first-page": "791",
+     "DOI": "10.1104/pp.104.900138",
+     "article-title": "Abiotic stress tolerance in grasses. From model plants to crop plants",
+     "volume": "137",
+     "author": "Tester",
+     "year": "2005",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib100",
+     "doi-asserted-by": "crossref",
+     "first-page": "429",
+     "DOI": "10.1016/j.envexpbot.2009.09.004",
+     "article-title": "Cold stress effects on reproductive development in grain crops: An overview",
+     "volume": "67",
+     "author": "Thakur",
+     "year": "2010",
+     "journal-title": "Environmental and Experimental Botany"
+    },
+    {
+     "issue": "7282",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib101",
+     "doi-asserted-by": "crossref",
+     "first-page": "763",
+     "DOI": "10.1038/nature08747",
+     "article-title": "\u2018Genome sequencing and analysis of the model grass Brachypodium distachyon\u2019",
+     "volume": "463",
+     "author": "The International Brachypodium Initiative",
+     "year": "2010",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib102",
+     "doi-asserted-by": "crossref",
+     "first-page": "1091",
+     "DOI": "10.1007/s00425-012-1641-y",
+     "article-title": "\u2018Physiological and molecular changes in plants grown at low temperatures,\u2019",
+     "volume": "235",
+     "author": "Theocharis",
+     "year": "2012",
+     "journal-title": "Planta"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib103",
+     "doi-asserted-by": "crossref",
+     "first-page": "56",
+     "DOI": "10.3390/plants9010056",
+     "article-title": "\u2018The role of major transcription factors in solanaceous food crops under different stress conditions: Current and future perspectives,\u2019",
+     "volume": "9",
+     "author": "Tolosa",
+     "year": "2020",
+     "journal-title": "Plants"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib104",
+     "doi-asserted-by": "crossref",
+     "first-page": "884",
+     "DOI": "10.1093/pcp/pci093",
+     "article-title": "\u2018Molecular characterization and origin of novel bipartite cold-regulated ice recrystallization inhibition proteins from cereals,\u2019",
+     "volume": "46",
+     "author": "Tremblay",
+     "year": "2005",
+     "journal-title": "Plant and Cell Physiology"
+    },
+    {
+     "issue": "7",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib105",
+     "doi-asserted-by": "crossref",
+     "first-page": "637",
+     "DOI": "10.1038/nclimate2242",
+     "article-title": "Adverse weather conditions for European wheat production will become more frequent with climate change",
+     "volume": "4",
+     "author": "Trnka",
+     "year": "2014",
+     "journal-title": "Nature Climate Change"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib106",
+     "first-page": "699",
+     "article-title": "Wheat pre-breeding using wild progenitors",
+     "volume": "119",
+     "author": "Valkoun",
+     "year": "2001",
+     "journal-title": "Springer Science and Business Media LLC"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib107",
+     "doi-asserted-by": "crossref",
+     "first-page": "641",
+     "DOI": "10.1111/j.1438-8677.2011.00540.x",
+     "article-title": "Consequences of early chilling stress in twoTriticum species: Plastic responses and adaptive significance",
+     "volume": "14",
+     "author": "Valluru",
+     "year": "2012",
+     "journal-title": "Plant Biology"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib108",
+     "doi-asserted-by": "crossref",
+     "first-page": "311",
+     "DOI": "10.1093/mp/sss098",
+     "article-title": "Molecular and physiological analysis of growth-limiting drought stress in Brachypodium distachyon leaves",
+     "volume": "6",
+     "author": "Verelst",
+     "year": "2013",
+     "journal-title": "Molecular Plant"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib109",
+     "doi-asserted-by": "crossref",
+     "first-page": "351",
+     "DOI": "10.1104/pp.120.2.351",
+     "article-title": "\u2018Fructan: More than a reserve carbohydrate?1,\u2019",
+     "volume": "120",
+     "author": "Vijn",
+     "year": "1999",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib110",
+     "unstructured": "Voorhees, W. B., Allmares, R. R., & Johnson, C.E (1981). Alleviating temperature stress. In G. F. Arkin & H. M. Taylor (Eds.), Modifying the root environment to reduce crop stress (pp. 217-266). American Society of Agricultural Engineers."
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib111",
+     "doi-asserted-by": "crossref",
+     "first-page": "504",
+     "DOI": "10.1016/j.plaphy.2008.12.010",
+     "article-title": "Involvement of phospholipase D in the low temperature acclimation-induced thermotolerance in grape berry",
+     "volume": "47",
+     "author": "Wan",
+     "year": "2009",
+     "journal-title": "Plant Physiology and Biochemistry"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib112",
+     "article-title": "The world wheat book: A history of wheat breeding",
+     "volume": "Volume 2",
+     "author": "William",
+     "year": "2011",
+     "journal-title": "Lavoisier: Paris, France"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib113",
+     "doi-asserted-by": "crossref",
+     "first-page": "1493",
+     "DOI": "10.1007/s00299-011-1058-2",
+     "article-title": "Improved drought and salt tolerance of Arabidopsis thaliana by transgenic expression of a novel DREB gene from Leymus chinensis",
+     "volume": "30",
+     "author": "Xianjun",
+     "year": "2011",
+     "journal-title": "Plant Cell Reports"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib114",
+     "doi-asserted-by": "crossref",
+     "first-page": "154",
+     "DOI": "10.1016/j.agrformet.2018.06.006",
+     "article-title": "Estimating spring frost and its impact on yield across winter wheat in China",
+     "volume": "260-261",
+     "author": "Xiao",
+     "year": "2018",
+     "journal-title": "Agricultural and Forest Meteorology"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib115",
+     "doi-asserted-by": "crossref",
+     "first-page": "66",
+     "DOI": "10.1016/j.plaphy.2019.12.011",
+     "article-title": "An aquaporin gene MaPIP2-7 is involved in tolerance to drought, cold and salt stresses in transgenic banana (Musa acuminata L.)",
+     "volume": "147",
+     "author": "Xu",
+     "year": "2020",
+     "journal-title": "Plant Physiology and Biochemistry"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib129",
+     "doi-asserted-by": "crossref",
+     "first-page": "861",
+     "DOI": "10.1016/j.plantsci.2004.05.037",
+     "article-title": "Transgenic perennial ryegrass plants expressing wheat fructosyltransferase genes accumulate increased amounts of fructan and acquire increased tolerance on a cellular level to freezing",
+     "volume": "167",
+     "author": "Yamada",
+     "year": "2004",
+     "journal-title": "Plant Science"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib116",
+     "doi-asserted-by": "crossref",
+     "first-page": "9",
+     "DOI": "10.6090/jarq.45.9",
+     "article-title": "Research on fructan in wheat and temperate forage grasses in Japan",
+     "volume": "45",
+     "author": "Yoshida",
+     "year": "2011",
+     "journal-title": "Agricultural Research Quarterly"
+    },
+    {
+     "issue": "12",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib117",
+     "doi-asserted-by": "crossref",
+     "first-page": "1308",
+     "DOI": "10.3390/su8121308",
+     "article-title": "Assessing wheat frost risk with the support of GIS: An approach coupling a growing season meteorological index and a hybrid fuzzy neural network model",
+     "volume": "8",
+     "author": "Yue",
+     "year": "2016",
+     "journal-title": "Sustainability"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib118",
+     "doi-asserted-by": "crossref",
+     "first-page": "385",
+     "DOI": "10.1626/jcs.60.385",
+     "article-title": "Studies on fructan accumulation in wheat (Triticum aestivum L.). I. Relationship between fructan concentration and overwintering ability from aspect on the pedigree",
+     "volume": "60",
+     "author": "Yukawa",
+     "year": "1991",
+     "journal-title": "Japanese Journal of Crop Science"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib119",
+     "doi-asserted-by": "crossref",
+     "first-page": "155",
+     "DOI": "10.1007/s00425-010-1163-4",
+     "article-title": "Ice recrystallization inhibition proteins of perennial ryegrass enhance freezing tolerance",
+     "volume": "232",
+     "author": "Zhang",
+     "year": "2010",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib120",
+     "unstructured": "Zhang, F. (2011). The ICE-CBF-COR pathway in cold acclimation and AFPs in plants. https://www.semanticscholar.org/paper/The-ICE-CBF-COR-Pathway-in-Cold-Acclimation-and-in-Zhang-Jiang/11eb0cf06a2f6fae958664fc3a353ed9dea8a6cb."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib121",
+     "article-title": "Physiological and transcriptomic analyses reveal a response mechanism to cold stress in Santalum album L. leaves",
+     "volume": "7",
+     "author": "Zhang",
+     "year": "2017",
+     "journal-title": "Scientific Reports"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib122",
+     "doi-asserted-by": "crossref",
+     "first-page": "497",
+     "DOI": "10.2135/cropsci2004.0572",
+     "article-title": "\u2018Recent molecular and genomic studies on stress tolerance of forage and turf grasses,\u2019",
+     "volume": "46",
+     "author": "Zhang",
+     "year": "2006",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib123",
+     "article-title": "\u2018Cloning and expression analysis of stress-tolerant related genes from Agropyron cristatum (L.),\u2019 Gaertn. Master\u2019s Thesis",
+     "author": "Zhang",
+     "year": "2011",
+     "journal-title": "Northwest University of Science and Technology"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib124",
+     "doi-asserted-by": "crossref",
+     "first-page": "466",
+     "DOI": "10.1016/j.tplants.2015.06.001",
+     "article-title": "\u2018Cold responsive gene transcription becomes more complex,\u2019",
+     "volume": "20",
+     "author": "Zhao",
+     "year": "2015",
+     "journal-title": "Trends in Plant Science"
+    },
+    {
+     "issue": "12",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib125",
+     "doi-asserted-by": "crossref",
+     "first-page": "171",
+     "DOI": "10.1016/j.proenv.2015.07.244",
+     "article-title": "Frost trends and their estimated impact on yield in the Australian Wheatbelt",
+     "volume": "29",
+     "author": "Zheng",
+     "year": "2015",
+     "journal-title": "Procedia Environmental Sciences"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib126",
+     "doi-asserted-by": "crossref",
+     "first-page": "895",
+     "DOI": "10.1016/j.bbrc.2018.10.153",
+     "article-title": "The glutamate receptors AtGLR1.2 and AtGLR1.3 increase cold tolerance by regulating jasmonate signaling in Arabidopsis thaliana",
+     "volume": "506",
+     "author": "Zheng",
+     "year": "2018",
+     "journal-title": "Biochemical and Biophysical Research Communications"
+    },
+    {
+     "key": "10.1016/B978-0-443-22090-6.00005-9_bib127",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Zohary, D., Hopf, M., & Weiss, E. (2012). Domestication of plants in the old world. https://doi.org/10.1093/acprof:osobl/9780199549061.001.0001.",
+     "DOI": "10.1093/acprof:osobl/9780199549061.001.0001"
+    }
+   ],
+   "container-title": [
+    "Wheat Wild Relatives"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:B9780443220906000059?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:B9780443220906000059?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      21
+     ]
+    ],
+    "date-time": "2025-03-21T22:29:40Z",
+    "timestamp": 1742596180000
+   },
+   "score": 41.000004,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780443220906000059"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780443220906"
+   ],
+   "references-count": 127,
+   "URL": "https://doi.org/10.1016/b978-0-443-22090-6.00005-9",
+   "published": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   }
+  }
+ ]
+}

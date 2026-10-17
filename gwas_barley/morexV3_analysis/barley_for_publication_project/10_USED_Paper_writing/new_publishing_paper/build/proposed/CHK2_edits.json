@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item CHK2 — checklist item 5 marked** (task instruction: mark what is done, through the review tool). ✅ done, ⬜ open."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Checklist at the top, item 5",
+   "why": "Status of the supplementary task, 2026-10-01.",
+   "old": "5. **Online Resources (supplementary):** number them in citation order and name the files `ESM_1`, `ESM_2`, … (.xlsx for tables, PDF for figures); replace every \"Online Resource N / X / 1 / 3\" placeholder; put a title block in each file (article title, journal, author names, corresponding author's affiliation and e-mail); add a concise caption for each Online Resource to the manuscript. Plan: `supplementary/supplementary.md`. Status of each citation: the \"supmat\" Word comments (❌ not resolved / ✅ resolved); delete them all before submitting.",
+   "new": "{-5. **Online Resources (supplementary):** number them in citation order and name the files `ESM_1`, `ESM_2`, … (.xlsx for tables, PDF for figures); replace every \"Online Resource N / X / 1 / 3\" placeholder; put a title block in each file (article title, journal, author names, corresponding author's affiliation and e-mail); add a concise caption for each Online Resource to the manuscript. Plan: `supplementary/supplementary.md`. Status of each citation: the \"supmat\" Word comments (❌ not resolved / ✅ resolved); delete them all before submitting.-}{+5. **Online Resources (supplementary):** ✅ numbered 1–13 in citation order; files `supplementary/ESM_1.xlsx` … `ESM_13.pdf` built (`supplementary/scripts/build_all.sh`); ✅ every placeholder replaced; ✅ title block in each file (author names, affiliation and e-mail still placeholders: item 1); ⬜ concise captions (section \"Supplementary Information\", item CAP1, awaiting approval); ⬜ NIR-calibration sheet of Online Resource 2 (TODO 214; calibration files from the user); ⬜ the two citations proposed in Results Ch. 2 ¶3 and Ch. 3 ¶1 (ESM0 Q13). List: `supplementary/supplementary.md`. Status of each citation: the \"supmat\" Word comments (❌ not resolved / ✅ resolved); delete them all before submitting. Not cited, for a later decision: `supplementary/unreferenced/`.+}"
+  }
+ ]
+}

@@ -1,0 +1,3176 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     8
+    ]
+   ],
+   "date-time": "2026-04-08T01:11:01Z",
+   "timestamp": 1775610661522,
+   "version": "3.50.1"
+  },
+  "reference-count": 71,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       11,
+       21
+      ]
+     ],
+     "date-time": "2019-11-21T00:00:00Z",
+     "timestamp": 1574294400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       11,
+       21
+      ]
+     ],
+     "date-time": "2019-11-21T00:00:00Z",
+     "timestamp": 1574294400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Sci Rep"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>The composition of plant cell walls is important in determining cereal end uses. Unlike other widely consumed cereal grains barley is comparatively rich in (1,3;1,4)-\u03b2-glucan, a source of dietary fibre. Previous work showed <jats:italic>Cellulose synthase-like</jats:italic> genes synthesise (1,3;1,4)-\u03b2-glucan in several tissues. <jats:italic>HvCslF6</jats:italic> encodes a grain (1,3;1,4)-\u03b2-glucan synthase, whereas the function of <jats:italic>HvCslF9</jats:italic> is unknown. Here, the relationship between mRNA levels of <jats:italic>HvCslF6</jats:italic>, <jats:italic>HvCslF9</jats:italic>, <jats:italic>HvGlbI</jats:italic> (1,3;1,4)-\u03b2-glucan endohydrolase, and (1,3;1,4)-\u03b2-glucan content was studied in developing grains of four barley cultivars. <jats:italic>HvCslF6</jats:italic> was differentially expressed during mid (8\u201315 DPA) and late (38 DPA) grain development stages while <jats:italic>HvCslF9</jats:italic> transcript was only clearly detected at 8\u201310 DPA. A peak of <jats:italic>HvGlbI</jats:italic> expression was detected at 15 DPA. Differences in transcript abundance across the three genes could partially explain variation in grain (1,3;1,4)-\u03b2-glucan content in these genotypes. Remarkably narrow sequence variation was found within the <jats:italic>HvCslF6</jats:italic> promoter and coding sequence and does not explain variation in (1,3;1,4)-\u03b2-glucan content. Our data emphasise the genotype-dependent accumulation of (1,3;1,4)-\u03b2-glucan during barley grain development and a role for the balance between hydrolysis and synthesis in determining (1,3;1,4)-\u03b2-glucan content, and suggests that other regulatory sequences or proteins are likely to be involved in this trait in developing grain.</jats:p>",
+  "DOI": "10.1038/s41598-019-53798-8",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     21
+    ]
+   ],
+   "date-time": "2019-11-21T11:02:41Z",
+   "timestamp": 1574334161000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 29,
+  "title": [
+   "Barley grain (1,3;1,4)-\u03b2-glucan content: effects of transcript and sequence variation in genes encoding the corresponding synthase and endohydrolase enzymes"
+  ],
+  "prefix": "10.1038",
+  "volume": "9",
+  "author": [
+   {
+    "given": "Guillermo",
+    "family": "Garcia-Gimenez",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Joanne",
+    "family": "Russell",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Matthew K.",
+    "family": "Aubert",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Geoffrey B.",
+    "family": "Fincher",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Rachel A.",
+    "family": "Burton",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Robbie",
+    "family": "Waugh",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Matthew R.",
+    "family": "Tucker",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Kelly",
+    "family": "Houston",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     21
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "53798_CR1",
+    "doi-asserted-by": "publisher",
+    "first-page": "116",
+    "DOI": "10.1002/j.2050-0416.1975.tb03672.x",
+    "volume": "81",
+    "author": "GB Fincher",
+    "year": "1975",
+    "unstructured": "Fincher, G. B. Morphology and chemical composition of barley endosperm cell walls. J. Inst. Brew. 81, 116\u2013122 (1975).",
+    "journal-title": "J. Inst. Brew."
+   },
+   {
+    "key": "53798_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "283",
+    "DOI": "10.1023/A:1026588408152",
+    "volume": "44",
+    "author": "TE Young",
+    "year": "2000",
+    "unstructured": "Young, T. E. & Gallie, D. R. Programmed cell death during endosperm development. Plant Mol. Biol. 44, 283\u2013301 (2000).",
+    "journal-title": "Plant Mol. Biol."
+   },
+   {
+    "key": "53798_CR3",
+    "doi-asserted-by": "publisher",
+    "first-page": "49",
+    "DOI": "10.1016/S1937-6448(10)81002-0",
+    "volume-title": "International Review of Cell and Molecular Biology",
+    "author": "Nese Sreenivasulu",
+    "year": "2010",
+    "unstructured": "Sreenivasulu, N. et al. Barley grain development: Toward an integrative view. In International Review of Cell and Molecular Biology (ed. Jeon, K. W.) 49\u201389, https://doi.org/10.1016/S1937-6448(10)81002-0 (Academic Press, 2010)."
+   },
+   {
+    "key": "53798_CR4",
+    "doi-asserted-by": "publisher",
+    "first-page": "655",
+    "DOI": "10.1104/pp.111.192682",
+    "volume": "159",
+    "author": "SM Wilson",
+    "year": "2012",
+    "unstructured": "Wilson, S. M. et al. Pattern of deposition of cell wall polysaccharides and transcript abundance of related cell wall synthesis genes during differentiation in barley endosperm. Plant Physiol. 159, 655\u2013670 (2012).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR5",
+    "first-page": "1",
+    "volume": "15",
+    "author": "K Houston",
+    "year": "2014",
+    "unstructured": "Houston, K. et al. A genome wide association scan for (1,3;1,4)-\u03b2-glucan content in the grain of contemporary 2-row spring and winter barleys. BMC Genomics 15, 1\u201315 (2014).",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "key": "53798_CR6",
+    "doi-asserted-by": "publisher",
+    "first-page": "982",
+    "DOI": "10.1021/jf991102f",
+    "volume": "48",
+    "author": "MS Izydorczyk",
+    "year": "2000",
+    "unstructured": "Izydorczyk, M. S., Storsley, J., Labossiere, D., MacGregor, A. W. & Rossnagel, B. G. Variation in total and soluble \u03b2-glucan content in hulless barley: effects of thermal, physical, and enzymic treatments. J. Agric. Food Chem. 48, 982\u2013989 (2000).",
+    "journal-title": "J. Agric. Food Chem."
+   },
+   {
+    "key": "53798_CR7",
+    "doi-asserted-by": "publisher",
+    "first-page": "97",
+    "DOI": "10.1111/j.1439-0523.1987.tb01100.x",
+    "volume": "98",
+    "author": "RJ Henry",
+    "year": "1987",
+    "unstructured": "Henry, R. J. & Brown, A. H. D. Variation in the carbohydrate composition of wild barley (Hordeum spontaneum) grain. Plant Breed. 98, 97\u2013103 (1987).",
+    "journal-title": "Plant Breed."
+   },
+   {
+    "key": "53798_CR8",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.3389/fpls.2012.00130",
+    "volume": "3",
+    "author": "RA Burton",
+    "year": "2012",
+    "unstructured": "Burton, R. A. & Fincher, G. B. Current challenges in cell wall biology in the cereals and grasses. Front. Plant Sci. 3, 1\u20136 (2012).",
+    "journal-title": "Front. Plant Sci."
+   },
+   {
+    "key": "53798_CR9",
+    "doi-asserted-by": "publisher",
+    "first-page": "449",
+    "DOI": "10.1007/s00425-005-0209-5",
+    "volume": "224",
+    "author": "S Philippe",
+    "year": "2006",
+    "unstructured": "Philippe, S., Saulnier, L. & Guillon, F. Arabinoxylan and (1\u21923),(1\u21924)-\u03b2-glucan deposition in cell walls during wheat endosperm development. Planta 224, 449\u2013461 (2006).",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "53798_CR10",
+    "doi-asserted-by": "publisher",
+    "first-page": "1001",
+    "DOI": "10.1093/jxb/erq332",
+    "volume": "62",
+    "author": "F Guillon",
+    "year": "2011",
+    "unstructured": "Guillon, F. et al. Brachypodium distachyon grain: Characterization of endosperm cell walls. J. Exp. Bot. 62, 1001\u20131015 (2011).",
+    "journal-title": "J. Exp. Bot."
+   },
+   {
+    "key": "53798_CR11",
+    "doi-asserted-by": "publisher",
+    "first-page": "739",
+    "DOI": "10.1093/jxb/err298",
+    "volume": "63",
+    "author": "F Guillon",
+    "year": "2012",
+    "unstructured": "Guillon, F. et al. A comprehensive overview of grain development in Brachypodium distachyon variety Bd21. J. Exp. Bot. 63, 739\u2013755 (2012).",
+    "journal-title": "J. Exp. Bot."
+   },
+   {
+    "key": "53798_CR12",
+    "doi-asserted-by": "publisher",
+    "first-page": "117",
+    "DOI": "10.1111/j.1467-7652.2010.00532.x",
+    "volume": "9",
+    "author": "RA Burton",
+    "year": "2011",
+    "unstructured": "Burton, R. A. et al. Over-expression of specific HvCslF Cellulose synthase-like genes in transgenic barley increases the levels of cell wall (1,3;1,4)-\u03b2-d-glucans and alters their fine structure. Plant Biotechnol. J. 9, 117\u2013135 (2011).",
+    "journal-title": "Plant Biotechnol. J."
+   },
+   {
+    "key": "53798_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "1821",
+    "DOI": "10.1104/pp.107.114694",
+    "volume": "146",
+    "author": "RA Burton",
+    "year": "2008",
+    "unstructured": "Burton, R. A. et al. The genetics and transcriptional profiles of the Cellulose synthase-like HvCslF gene family in barley. Plant Physiol. 146, 1821\u20131833 (2008).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR14",
+    "doi-asserted-by": "publisher",
+    "first-page": "612",
+    "DOI": "10.1104/pp.111.189191",
+    "volume": "158",
+    "author": "TK Pellny",
+    "year": "2012",
+    "unstructured": "Pellny, T. K. et al. Cell walls of developing wheat starchy endosperm: comparison of composition and RNA-Seq transcriptome. Plant Physiol. 158, 612\u2013627 (2012).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR15",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Wong, S. C. et al. Differential expression of the HvCslF6 gene late in grain development may explain quantitative differences in (1,3;1,4)-\u03b2-glucan concentration in barley. Mol. Breed. 35 (2015).",
+    "DOI": "10.1007/s11032-015-0208-6"
+   },
+   {
+    "key": "53798_CR16",
+    "doi-asserted-by": "publisher",
+    "first-page": "2054",
+    "DOI": "10.1021/acs.biochem.5b01384",
+    "volume": "55",
+    "author": "G Dimitroff",
+    "year": "2016",
+    "unstructured": "Dimitroff, G. et al. (1,3;1,4)-\u03b2-Glucan biosynthesis by the CSLF6 enzyme: Position and flexibility of catalytic residues influence product fine structure. Biochemistry 55, 2054\u20132061 (2016).",
+    "journal-title": "Biochemistry"
+   },
+   {
+    "key": "53798_CR17",
+    "doi-asserted-by": "publisher",
+    "first-page": "e1500069",
+    "DOI": "10.1126/sciadv.1500069",
+    "volume": "1",
+    "author": "SA Jobling",
+    "year": "2015",
+    "unstructured": "Jobling, S. A. Membrane pore architecture of the CSLF6 protein controls (1-3,1-4)-\u03b2-glucan structure. Sci. Adv. 1, e1500069 (2015).",
+    "journal-title": "Sci. Adv."
+   },
+   {
+    "key": "53798_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "850",
+    "DOI": "10.1016/j.foodres.2008.04.001",
+    "volume": "41",
+    "author": "MS Izydorczyk",
+    "year": "2008",
+    "unstructured": "Izydorczyk, M. S. & Dexter, J. E. Barley \u03b2-glucans and arabinoxylans: Molecular structure, physicochemical properties, and uses in food products-a Review. Food Res. Int. 41, 850\u2013868 (2008).",
+    "journal-title": "Food Res. Int."
+   },
+   {
+    "key": "53798_CR19",
+    "doi-asserted-by": "publisher",
+    "first-page": "73",
+    "DOI": "10.1021/acscentsci.8b00568",
+    "volume": "5",
+    "author": "A Little",
+    "year": "2019",
+    "unstructured": "Little, A. et al. A novel (1,4)-\u03b2-linked glucoxylan is synthesized by members of the Cellulose synthase-like F gene family in land plants. ACS Cent. Sci. 5, 73\u201384 (2019).",
+    "journal-title": "ACS Cent. Sci."
+   },
+   {
+    "key": "53798_CR20",
+    "doi-asserted-by": "publisher",
+    "first-page": "145",
+    "DOI": "10.1111/j.1467-7652.2005.00169.x",
+    "volume": "4",
+    "author": "N Farrokhi",
+    "year": "2006",
+    "unstructured": "Farrokhi, N. et al. Plant cell wall biosynthesis: Genetic, biochemical and functional genomics approaches to the identification of key genes. Plant Biotechnol. J. 4, 145\u2013167 (2006).",
+    "journal-title": "Plant Biotechnol. J."
+   },
+   {
+    "key": "53798_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "27",
+    "DOI": "10.1104/pp.108.130096",
+    "volume": "149",
+    "author": "GB Fincher",
+    "year": "2009",
+    "unstructured": "Fincher, G. B. Revolutionary times in our understanding of cell wall biosynthesis and remodeling in the grasses. Plant Physiol. 149, 27\u201337 (2009).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR22",
+    "doi-asserted-by": "publisher",
+    "first-page": "12951",
+    "DOI": "10.1074/jbc.M611487200",
+    "volume": "282",
+    "author": "M Hrmova",
+    "year": "2007",
+    "unstructured": "Hrmova, M., Farkas, V., Lahnstein, J. & Fincher, G. B. A barley xyloglucan xyloglucosyl transferase covalently links xyloglucan, cellulosic substrates, and (1,3;1,4)-\u03b2-D-glucans. J. Biol. Chem. 282, 12951\u201312962 (2007).",
+    "journal-title": "J. Biol. Chem."
+   },
+   {
+    "key": "53798_CR23",
+    "doi-asserted-by": "publisher",
+    "first-page": "2081",
+    "DOI": "10.1073/pnas.83.7.2081",
+    "volume": "83",
+    "author": "GB Fincher",
+    "year": "1986",
+    "unstructured": "Fincher, G. B. et al. Primary structure of the (1\u21923,1\u21924)-\u03b2-D-glucan 4-glucohydrolase from barley aleurone. Proc. Natl. Acad. Sci. USA 83, 2081\u20132085 (1986).",
+    "journal-title": "Proc. Natl. Acad. Sci. USA"
+   },
+   {
+    "key": "53798_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "437",
+    "DOI": "10.1007/BF00262439",
+    "volume": "224",
+    "author": "N Slakeski",
+    "year": "1990",
+    "unstructured": "Slakeski, N. et al. Structure and tissue-specific regulation of genes encoding barley (1\u21923, 1\u21924)-\u03b2-glucan endohydrolases. MGG Mol. Gen. Genet. 224, 437\u2013449 (1990).",
+    "journal-title": "MGG Mol. Gen. Genet."
+   },
+   {
+    "key": "53798_CR25",
+    "doi-asserted-by": "publisher",
+    "first-page": "61",
+    "DOI": "10.1016/S0733-5210(88)80060-2",
+    "volume": "7",
+    "author": "IM Stuart",
+    "year": "1988",
+    "unstructured": "Stuart, I. M., Loi, L. & Fincher, G. B. Varietal and environmental variations in (1\u21923,1\u21924)-\u03b2-glucan levels and (1\u21923,1\u21924)-\u03b2-glucanase potential in barley: Relationships to malting quality. J. Cereal Sci. 7, 61\u201371 (1988).",
+    "journal-title": "J. Cereal Sci."
+   },
+   {
+    "key": "53798_CR26",
+    "doi-asserted-by": "publisher",
+    "first-page": "1226",
+    "DOI": "10.1104/pp.99.3.1226",
+    "volume": "99",
+    "author": "N Slakeski",
+    "year": "1992",
+    "unstructured": "Slakeski, N. & Fincher, G. B. Developmental regulation of (1\u21923,1\u21924)-\u03b2-glucanase gene expression in barley. Plant Physiol. 99, 1226\u20131231 (1992).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR27",
+    "doi-asserted-by": "publisher",
+    "first-page": "349",
+    "DOI": "10.1016/0014-5793(86)80434-3",
+    "volume": "198",
+    "author": "J Mundy",
+    "year": "1986",
+    "unstructured": "Mundy, J. & Fincher, B. Effects of gibberellic acid and abscisic acid on levels of aleurone. FEBS Lett. 198, 349\u2013352 (1986).",
+    "journal-title": "FEBS Lett."
+   },
+   {
+    "key": "53798_CR28",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.3389/fpls.2017.01872",
+    "volume": "8",
+    "author": "NS Betts",
+    "year": "2017",
+    "unstructured": "Betts, N. S. et al. Morphology, carbohydrate distribution, gene expression, and enzymatic activities related to cell wall hydrolysis in four barley varieties during simulated malting. Front. Plant Sci. 8, 1\u201315 (2017).",
+    "journal-title": "Front. Plant Sci."
+   },
+   {
+    "key": "53798_CR29",
+    "doi-asserted-by": "publisher",
+    "first-page": "381",
+    "DOI": "10.1093/jxb/err285",
+    "volume": "63",
+    "author": "S Taketa",
+    "year": "2012",
+    "unstructured": "Taketa, S. et al. Functional characterization of barley betaglucanless mutants demonstrates a unique role for CslF6 in (1,3;1,4)-\u03b2-D-glucan biosynthesis. J. Exp. Bot. 63, 381\u2013392 (2012).",
+    "journal-title": "J. Exp. Bot."
+   },
+   {
+    "key": "53798_CR30",
+    "doi-asserted-by": "publisher",
+    "first-page": "332",
+    "DOI": "10.1016/j.jcs.2012.02.003",
+    "volume": "56",
+    "author": "AT Cory",
+    "year": "2012",
+    "unstructured": "Cory, A. T., B\u00e5ga, M., Anyia, A., Rossnagel, B. G. & Chibbar, R. N. Genetic markers for CslF6 gene associated with (1,3;1,4)-\u03b2-glucan concentration in barley grain. J. Cereal Sci. 56, 332\u2013339 (2012).",
+    "journal-title": "J. Cereal Sci."
+   },
+   {
+    "key": "53798_CR31",
+    "doi-asserted-by": "publisher",
+    "first-page": "189",
+    "DOI": "10.1016/j.jcs.2013.12.009",
+    "volume": "59",
+    "author": "G Hu",
+    "year": "2014",
+    "unstructured": "Hu, G., Burton, C., Hong, Z. & Jackson, E. A mutation of the Cellulose-synthase-like (CslF6) gene in barley (Hordeum vulgare L.) partially affects the \u03b2-glucan content in grains. J. Cereal Sci. 59, 189\u2013195 (2014).",
+    "journal-title": "J. Cereal Sci."
+   },
+   {
+    "key": "53798_CR32",
+    "series-title": "Food Chemistry, Function and Analysis",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1039/9781788012799",
+    "volume-title": "Cereal Grain-based Functional Foods",
+    "year": "2018",
+    "unstructured": "Ames, N., Storsley, J. & Thandapilly, S. J. Functionality of beta-glucan from oat and barley and its relation with human health. In Cereal Grain-based Functional Foods: Carbohydrate and Phytochemical Components (eds Beta, T. & Camire, M. E.) 147\u2013166, https://doi.org/10.1039/9781788012799 (Royal Society of Chemistry, 2018)."
+   },
+   {
+    "key": "53798_CR33",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1371/journal.pone.0169635",
+    "volume": "12",
+    "author": "C Cosola",
+    "year": "2017",
+    "unstructured": "Cosola, C. et al. Beta-glucans supplementation associates with reduction in P-cresyl sulfate levels and improved endothelial vascular reactivity in healthy individuals. PLoS One 12, 1\u201316 (2017).",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "53798_CR34",
+    "doi-asserted-by": "publisher",
+    "first-page": "1162",
+    "DOI": "10.1017/S0007114507682968",
+    "volume": "97",
+    "author": "JM Keenan",
+    "year": "2007",
+    "unstructured": "Keenan, J. M. et al. The effects of concentrated barley \u03b2-glucan on blood lipids in a population of hypercholesterolaemic men and women. Br. J. Nutr. 97, 1162\u20131168 (2007).",
+    "journal-title": "Br. J. Nutr."
+   },
+   {
+    "key": "53798_CR35",
+    "doi-asserted-by": "publisher",
+    "first-page": "318",
+    "DOI": "10.1111/j.1541-4337.2010.00112.x",
+    "volume": "9",
+    "author": "M Gupta",
+    "year": "2010",
+    "unstructured": "Gupta, M., Abu-Ghannam, N. & Gallaghar, E. Barley for brewing: Characteristic changes during malting, brewing and applications of its by-products. Compr. Rev. Food Sci. Food Saf. 9, 318\u2013328 (2010).",
+    "journal-title": "Compr. Rev. Food Sci. Food Saf."
+   },
+   {
+    "key": "53798_CR36",
+    "doi-asserted-by": "publisher",
+    "first-page": "223",
+    "DOI": "10.1016/j.foodchem.2003.08.020",
+    "volume": "86",
+    "author": "J Wang",
+    "year": "2004",
+    "unstructured": "Wang, J., Zhang, G., Chen, J. & Wu, F. The changes of \u03b2-glucan content and \u03b2-glucanase activity in barley before and after malting and their relationships to malt qualities. Food Chem. 86, 223\u2013228 (2004).",
+    "journal-title": "Food Chem."
+   },
+   {
+    "key": "53798_CR37",
+    "doi-asserted-by": "publisher",
+    "first-page": "921",
+    "DOI": "10.1007/BF00223901",
+    "volume": "91",
+    "author": "F Han",
+    "year": "1995",
+    "unstructured": "Han, F. et al. Mapping of \u03b2-glucan content and \u03b2-glucanase activity loci in barley grain and malt. Theor. Appl. Genet. 91, 921\u2013927 (1995).",
+    "journal-title": "Theor. Appl. Genet."
+   },
+   {
+    "key": "53798_CR38",
+    "doi-asserted-by": "publisher",
+    "first-page": "1069",
+    "DOI": "10.1093/nar/gki247",
+    "volume": "33",
+    "author": "IA Shahmuradov",
+    "year": "2005",
+    "unstructured": "Shahmuradov, I. A., Solovyev, V. V. & Gammerman, A. J. Plant promoter prediction with confidence estimation. Nucleic Acids Res. 33, 1069\u20131076 (2005).",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "53798_CR39",
+    "doi-asserted-by": "publisher",
+    "first-page": "655",
+    "DOI": "10.1007/s00425-006-0244-x",
+    "volume": "224",
+    "author": "SM Wilson",
+    "year": "2006",
+    "unstructured": "Wilson, S. M. et al. Temporal and spatial appearance of wall polysaccharides during cellularization of barley (Hordeum vulgare) endosperm. Planta 224, 655\u2013667 (2006).",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "53798_CR40",
+    "doi-asserted-by": "publisher",
+    "first-page": "647",
+    "DOI": "10.1016/j.jcs.2008.02.004",
+    "volume": "48",
+    "author": "J Li",
+    "year": "2008",
+    "unstructured": "Li, J., B\u00e5ga, M., Rossnagel, B. G., Legge, W. G. & Chibbar, R. N. Identification of quantitative trait loci for \u03b2-glucan concentration in barley grain. J. Cereal Sci. 48, 647\u2013655 (2008).",
+    "journal-title": "J. Cereal Sci."
+   },
+   {
+    "key": "53798_CR41",
+    "doi-asserted-by": "publisher",
+    "first-page": "15",
+    "DOI": "10.1007/s11032-012-9764-1",
+    "volume": "31",
+    "author": "E Islamovic",
+    "year": "2013",
+    "unstructured": "Islamovic, E. et al. Genetic dissection of grain beta-glucan and amylose content in barley (Hordeum vulgare L.). Mol. Breed. 31, 15\u201325 (2013).",
+    "journal-title": "Mol. Breed."
+   },
+   {
+    "key": "53798_CR42",
+    "doi-asserted-by": "publisher",
+    "first-page": "275",
+    "DOI": "10.1007/s11032-006-9075-5",
+    "volume": "19",
+    "author": "JL Molina-Cano",
+    "year": "2007",
+    "unstructured": "Molina-Cano, J. L. et al. QTL analysis of a cross between European and North American malting barleys reveals a putative candidate gene for \u03b2-glucan content on chromosome 1H. Mol. Breed. 19, 275\u2013284 (2007).",
+    "journal-title": "Mol. Breed."
+   },
+   {
+    "key": "53798_CR43",
+    "doi-asserted-by": "publisher",
+    "first-page": "131",
+    "DOI": "10.1300/J144v05n01_06",
+    "volume": "5",
+    "author": "E Igartua",
+    "year": "2002",
+    "unstructured": "Igartua, E., Hayes, P. M., Thomas, W. T. B., Meyer, R. & Mather, D. E. Genetic control of quantitative grain and malt quality traits in barley. J. Crop Prod. 5, 131\u2013164 (2002).",
+    "journal-title": "J. Crop Prod."
+   },
+   {
+    "key": "53798_CR44",
+    "doi-asserted-by": "publisher",
+    "first-page": "1209",
+    "DOI": "10.1104/pp.109.151712",
+    "volume": "152",
+    "author": "C Nemeth",
+    "year": "2010",
+    "unstructured": "Nemeth, C. et al. Down-regulation of the CslF6 gene results in decreased (1,3;1,4)-\u03b2-d-glucan in endosperm of wheat. Plant Physiol. 152, 1209\u20131218 (2010).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR45",
+    "doi-asserted-by": "publisher",
+    "first-page": "56",
+    "DOI": "10.1104/pp.112.195495",
+    "volume": "159",
+    "author": "ME Vega-Sanchez",
+    "year": "2012",
+    "unstructured": "Vega-Sanchez, M. E. et al. Loss of Cellulose synthase-like F6 function affects mixed-linkage glucan deposition, cell wall mechanical properties, and defense responses in vegetative tissues of rice. Plant Physiol. 159, 56\u201369 (2012).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR46",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1038/s41598-017-17765-5",
+    "volume": "8",
+    "author": "I Marcotuli",
+    "year": "2018",
+    "unstructured": "Marcotuli, I., Pasqualina, C., Antonio, B. & Agata, G. Expression analysis of Cellulose synthase-like genes in durum wheat. Sci. Rep. 8, 1\u20139 (2018).",
+    "journal-title": "Sci. Rep."
+   },
+   {
+    "key": "53798_CR47",
+    "doi-asserted-by": "publisher",
+    "first-page": "873",
+    "DOI": "10.1093/mp/ssp063",
+    "volume": "2",
+    "author": "RA Burton",
+    "year": "2009",
+    "unstructured": "Burton, R. A. & Fincher, G. B. (1,3;1,4)-\u03b2-D-glucans in cell walls of the poaceae, lower plants, and fungi: A tale of two linkages. Mol. Plant 2, 873\u2013882 (2009).",
+    "journal-title": "Mol. Plant"
+   },
+   {
+    "key": "53798_CR48",
+    "doi-asserted-by": "publisher",
+    "first-page": "729",
+    "DOI": "10.1007/s00425-005-1481-0",
+    "volume": "221",
+    "author": "DM Gibeaut",
+    "year": "2005",
+    "unstructured": "Gibeaut, D. M., Pauly, M., Bacic, A. & Fincher, G. B. Changes in cell wall polysaccharides in developing barley (Hordeum vulgare) coleoptiles. Planta 221, 729\u2013738 (2005).",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "53798_CR49",
+    "doi-asserted-by": "publisher",
+    "first-page": "115",
+    "DOI": "10.1094/CCHEM.2004.81.1.115",
+    "volume": "81",
+    "author": "MS Buckeridge",
+    "year": "2004",
+    "unstructured": "Buckeridge, M. S., Rayon, C., Urbanowicz, B., Tin\u00e9, M. A. S. & Carpita, N. C. Mixed linkage (1\u21923),(1\u21924)-\u03b2-D-glucans of grasses. Cereal Chem. 81, 115\u2013127 (2004).",
+    "journal-title": "Cereal Chem."
+   },
+   {
+    "key": "53798_CR50",
+    "doi-asserted-by": "publisher",
+    "first-page": "142",
+    "DOI": "10.1111/aab.12043",
+    "volume": "163",
+    "author": "A Cseh",
+    "year": "2013",
+    "unstructured": "Cseh, A. et al. Expression of HvCslF9 and HvCslF6 barley genes in the genetic background of wheat and their influence on the wheat \u03b2-glucan content. Ann. Appl. Biol. 163, 142\u2013150 (2013).",
+    "journal-title": "Ann. Appl. Biol."
+   },
+   {
+    "key": "53798_CR51",
+    "doi-asserted-by": "publisher",
+    "first-page": "964",
+    "DOI": "10.1016/j.molp.2015.03.009",
+    "volume": "8",
+    "author": "C Colmsee",
+    "year": "2015",
+    "unstructured": "Colmsee, C. et al. BARLEX - The barley draft genome explorer. Mol. Plant 8, 964\u2013966 (2015).",
+    "journal-title": "Mol. Plant"
+   },
+   {
+    "key": "53798_CR52",
+    "doi-asserted-by": "publisher",
+    "first-page": "968",
+    "DOI": "10.1104/pp.15.00140",
+    "volume": "168",
+    "author": "JG Schwerdt",
+    "year": "2015",
+    "unstructured": "Schwerdt, J. G. et al. Evolutionary dynamics of the Cellulose synthase gene superfamily in grasses. Plant Physiol. 168, 968\u2013983 (2015).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR53",
+    "doi-asserted-by": "publisher",
+    "first-page": "1207",
+    "DOI": "10.1104/pp.18.00978",
+    "volume": "178",
+    "author": "M Fan",
+    "year": "2018",
+    "unstructured": "Fan, M. et al. A trihelix family transcription factor is associated with key genes in mixed-linkage glucan accumulation. Plant Physiol. 178, 1207\u20131221 (2018).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR54",
+    "doi-asserted-by": "publisher",
+    "first-page": "1024",
+    "DOI": "10.1038/ng.3612",
+    "volume": "48",
+    "author": "J Russell",
+    "year": "2016",
+    "unstructured": "Russell, J. et al. Exome sequencing of geographically diverse barley landraces and wild relatives gives insights into environmental adaptation. Nat. Genet. 48, 1024\u20131030 (2016).",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "53798_CR55",
+    "doi-asserted-by": "publisher",
+    "first-page": "1124",
+    "DOI": "10.1104/pp.17.01718",
+    "volume": "177",
+    "author": "A Little",
+    "year": "2018",
+    "unstructured": "Little, A. et al. Revised phylogeny of the Cellulose synthase gene superfamily: insights into cell wall evolution. Plant Physiol. 177, 1124\u20131141 (2018).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR56",
+    "doi-asserted-by": "publisher",
+    "first-page": "47",
+    "DOI": "10.1270/jsbbs.59.47",
+    "volume": "59",
+    "author": "T Tonooka",
+    "year": "2009",
+    "unstructured": "Tonooka, T., Aoki, E., Yoshioka, T. & Taketa, S. A novel mutant gene for (1-3, 1-4)-\u03b2-D-glucanless grain on barley (Hordeum vulgare L.) chromosome 7H. Breed. Sci. 59, 47\u201354 (2009).",
+    "journal-title": "Breed. Sci."
+   },
+   {
+    "key": "53798_CR57",
+    "doi-asserted-by": "publisher",
+    "first-page": "1692",
+    "DOI": "10.1104/pp.18.00771",
+    "volume": "179",
+    "author": "CP Moehs",
+    "year": "2019",
+    "unstructured": "Moehs, C. P. et al. Development of decreased-gluten wheat enabled by determination of the genetic basis of lys3a barley. Plant Physiol. 179, 1692\u20131703 (2019).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR58",
+    "doi-asserted-by": "publisher",
+    "first-page": "69",
+    "DOI": "10.1016/j.jcs.2011.10.005",
+    "volume": "55",
+    "author": "U Christensen",
+    "year": "2012",
+    "unstructured": "Christensen, U. & Scheller, H. V. Regulation of (1,3;1,4)-\u03b2-d-glucan synthesis in developing endosperm of barley lys mutants. J. Cereal Sci. 55, 69\u201376 (2012).",
+    "journal-title": "J. Cereal Sci."
+   },
+   {
+    "key": "53798_CR59",
+    "doi-asserted-by": "publisher",
+    "first-page": "16",
+    "DOI": "10.1016/j.jcs.2018.04.013",
+    "volume": "82",
+    "author": "F Cook",
+    "year": "2018",
+    "unstructured": "Cook, F. et al. Barley lys3 mutants are unique amongst shrunken-endosperm mutants in having abnormally large embryos. J. Cereal Sci. 82, 16\u201324 (2018).",
+    "journal-title": "J. Cereal Sci."
+   },
+   {
+    "key": "53798_CR60",
+    "doi-asserted-by": "publisher",
+    "first-page": "51",
+    "DOI": "10.1007/s00425-001-0721-1",
+    "volume": "215",
+    "author": "S Roulin",
+    "year": "2002",
+    "unstructured": "Roulin, S., Buchala, A. J. & Fincher, G. B. Induction of (1\u21923,1\u21924)-\u03b2-D-glucan hydrolases in leaves of dark-incubated barley seedlings. Planta 215, 51\u201359 (2002).",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "53798_CR61",
+    "doi-asserted-by": "publisher",
+    "first-page": "5033",
+    "DOI": "10.1093/jxb/ert292",
+    "volume": "64",
+    "author": "K Trafford",
+    "year": "2013",
+    "unstructured": "Trafford, K. et al. Grain development in Brachypodium and other grasses: Possible interactions between cell expansion, starch deposition, and cell-wall synthesis. J. Exp. Bot. 64, 5033\u20135047 (2013).",
+    "journal-title": "J. Exp. Bot."
+   },
+   {
+    "key": "53798_CR62",
+    "doi-asserted-by": "publisher",
+    "first-page": "617",
+    "DOI": "10.1104/pp.110.166249",
+    "volume": "155",
+    "author": "A Druka",
+    "year": "2011",
+    "unstructured": "Druka, A. et al. Genetic dissection of barley morphology and development. Plant Physiol. 155, 617\u2013627 (2011).",
+    "journal-title": "Plant Physiol."
+   },
+   {
+    "key": "53798_CR63",
+    "doi-asserted-by": "publisher",
+    "first-page": "34",
+    "DOI": "10.1186/gb-2002-3-7-research0034",
+    "volume": "3",
+    "author": "J Vandesompele",
+    "year": "2002",
+    "unstructured": "Vandesompele, J. et al. Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes. Genome Biol. 3, 34\u20131 (2002).",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "53798_CR64",
+    "doi-asserted-by": "publisher",
+    "first-page": "303",
+    "DOI": "10.1002/jsfa.2740550215",
+    "volume": "55",
+    "author": "BV McCleary",
+    "year": "1991",
+    "unstructured": "McCleary, B. V. & Codd, R. Measurement of (1\u21923),(1\u21924)-\u03b2-D-glucan in barley and oats: A streamlined enzymic procedure. J. Sci. Food Agric. 55, 303\u2013312 (1991).",
+    "journal-title": "J. Sci. Food Agric."
+   },
+   {
+    "key": "53798_CR65",
+    "unstructured": "VSN International. Genstat for Windows 19th Edition. Available at, https://www.vsni.co.uk/ (2017)."
+   },
+   {
+    "key": "53798_CR66",
+    "doi-asserted-by": "publisher",
+    "first-page": "1010",
+    "DOI": "10.1139/g03-080",
+    "volume": "46",
+    "author": "I Matus",
+    "year": "2003",
+    "unstructured": "Matus, I. et al. Development and characterization of recombinant chromosome substitution lines (RCSLs) using Hordeum vulgare subsp. spontaneum as a source of donor alleles in a Hordeum vulgare subsp. vulgare background. Genome 46, 1010\u20131023 (2003).",
+    "journal-title": "Genome"
+   },
+   {
+    "key": "53798_CR67",
+    "doi-asserted-by": "publisher",
+    "first-page": "1647",
+    "DOI": "10.1093/bioinformatics/bts199",
+    "volume": "28",
+    "author": "M Kearse",
+    "year": "2012",
+    "unstructured": "Kearse, M. et al. Geneious Basic: An integrated and extendable desktop software platform for the organization and analysis of sequence data. Bioinformatics 28, 1647\u20131649 (2012).",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "53798_CR68",
+    "doi-asserted-by": "publisher",
+    "first-page": "475",
+    "DOI": "10.1023/A:1008662515059",
+    "volume": "45",
+    "author": "E Igartua",
+    "year": "1998",
+    "unstructured": "Igartua, E. et al. The Spanish barley core collection. Genet. Resour. Crop Evol. 45, 475\u2013481 (1998).",
+    "journal-title": "Genet. Resour. Crop Evol."
+   },
+   {
+    "key": "53798_CR69",
+    "doi-asserted-by": "publisher",
+    "first-page": "1523",
+    "DOI": "10.1111/j.1365-294X.2009.04106.x",
+    "volume": "18",
+    "author": "S H\u00fcbner",
+    "year": "2009",
+    "unstructured": "H\u00fcbner, S. et al. Strong correlation of wild barley (Hordeum spontaneum) population structure with temperature and precipitation variation. Mol. Ecol. 18, 1523\u20131536 (2009).",
+    "journal-title": "Mol. Ecol."
+   },
+   {
+    "key": "53798_CR70",
+    "doi-asserted-by": "publisher",
+    "first-page": "239",
+    "DOI": "10.1006/jmbi.1996.0456",
+    "volume": "261",
+    "author": "ZS Juo",
+    "year": "1996",
+    "unstructured": "Juo, Z. S. et al. How proteins recognize the TATA box. J. Mol. Biol. 261, 239\u2013254 (1996).",
+    "journal-title": "J. Mol. Biol."
+   },
+   {
+    "key": "53798_CR71",
+    "doi-asserted-by": "publisher",
+    "first-page": "191",
+    "DOI": "10.1016/S0097-8485(99)00015-7",
+    "volume": "23",
+    "author": "AG Pedersen",
+    "year": "1999",
+    "unstructured": "Pedersen, A. G., Baldi, P., Chauvin, Y. & Brunak, S. The biology of eukaryotic promoter prediction - A review. Comput. Chem. 23, 191\u2013207 (1999).",
+    "journal-title": "Comput. Chem."
+   }
+  ],
+  "container-title": [
+   "Scientific Reports"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.nature.com/articles/s41598-019-53798-8.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://www.nature.com/articles/s41598-019-53798-8",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://www.nature.com/articles/s41598-019-53798-8.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     17
+    ]
+   ],
+   "date-time": "2022-12-17T16:14:35Z",
+   "timestamp": 1671293675000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.nature.com/articles/s41598-019-53798-8"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     21
+    ]
+   ]
+  },
+  "references-count": 71,
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      12
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "53798"
+  ],
+  "URL": "https://doi.org/10.1038/s41598-019-53798-8",
+  "relation": {},
+  "ISSN": [
+   "2045-2322"
+  ],
+  "issn-type": [
+   {
+    "value": "2045-2322",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     21
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "18 July 2019",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "31 October 2019",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "21 November 2019",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+    "order": 1,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Competing interests"
+    }
+   }
+  ],
+  "article-number": "17250"
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      8
+     ]
+    ],
+    "date-time": "2026-04-08T01:11:01Z",
+    "timestamp": 1775610661522,
+    "version": "3.50.1"
+   },
+   "reference-count": 71,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        11,
+        21
+       ]
+      ],
+      "date-time": "2019-11-21T00:00:00Z",
+      "timestamp": 1574294400000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        11,
+        21
+       ]
+      ],
+      "date-time": "2019-11-21T00:00:00Z",
+      "timestamp": 1574294400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Sci Rep"
+   ],
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>The composition of plant cell walls is important in determining cereal end uses. Unlike other widely consumed cereal grains barley is comparatively rich in (1,3;1,4)-\u03b2-glucan, a source of dietary fibre. Previous work showed <jats:italic>Cellulose synthase-like</jats:italic> genes synthesise (1,3;1,4)-\u03b2-glucan in several tissues. <jats:italic>HvCslF6</jats:italic> encodes a grain (1,3;1,4)-\u03b2-glucan synthase, whereas the function of <jats:italic>HvCslF9</jats:italic> is unknown. Here, the relationship between mRNA levels of <jats:italic>HvCslF6</jats:italic>, <jats:italic>HvCslF9</jats:italic>, <jats:italic>HvGlbI</jats:italic> (1,3;1,4)-\u03b2-glucan endohydrolase, and (1,3;1,4)-\u03b2-glucan content was studied in developing grains of four barley cultivars. <jats:italic>HvCslF6</jats:italic> was differentially expressed during mid (8\u201315 DPA) and late (38 DPA) grain development stages while <jats:italic>HvCslF9</jats:italic> transcript was only clearly detected at 8\u201310 DPA. A peak of <jats:italic>HvGlbI</jats:italic> expression was detected at 15 DPA. Differences in transcript abundance across the three genes could partially explain variation in grain (1,3;1,4)-\u03b2-glucan content in these genotypes. Remarkably narrow sequence variation was found within the <jats:italic>HvCslF6</jats:italic> promoter and coding sequence and does not explain variation in (1,3;1,4)-\u03b2-glucan content. Our data emphasise the genotype-dependent accumulation of (1,3;1,4)-\u03b2-glucan during barley grain development and a role for the balance between hydrolysis and synthesis in determining (1,3;1,4)-\u03b2-glucan content, and suggests that other regulatory sequences or proteins are likely to be involved in this trait in developing grain.</jats:p>",
+   "DOI": "10.1038/s41598-019-53798-8",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2019,
+      11,
+      21
+     ]
+    ],
+    "date-time": "2019-11-21T11:02:41Z",
+    "timestamp": 1574334161000
+   },
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 29,
+   "title": [
+    "Barley grain (1,3;1,4)-\u03b2-glucan content: effects of transcript and sequence variation in genes encoding the corresponding synthase and endohydrolase enzymes"
+   ],
+   "prefix": "10.1038",
+   "volume": "9",
+   "author": [
+    {
+     "given": "Guillermo",
+     "family": "Garcia-Gimenez",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Joanne",
+     "family": "Russell",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Matthew K.",
+     "family": "Aubert",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Geoffrey B.",
+     "family": "Fincher",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Rachel A.",
+     "family": "Burton",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Robbie",
+     "family": "Waugh",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Matthew R.",
+     "family": "Tucker",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Kelly",
+     "family": "Houston",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      11,
+      21
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "53798_CR1",
+     "doi-asserted-by": "publisher",
+     "first-page": "116",
+     "DOI": "10.1002/j.2050-0416.1975.tb03672.x",
+     "volume": "81",
+     "author": "GB Fincher",
+     "year": "1975",
+     "unstructured": "Fincher, G. B. Morphology and chemical composition of barley endosperm cell walls. J. Inst. Brew. 81, 116\u2013122 (1975).",
+     "journal-title": "J. Inst. Brew."
+    },
+    {
+     "key": "53798_CR2",
+     "doi-asserted-by": "publisher",
+     "first-page": "283",
+     "DOI": "10.1023/A:1026588408152",
+     "volume": "44",
+     "author": "TE Young",
+     "year": "2000",
+     "unstructured": "Young, T. E. & Gallie, D. R. Programmed cell death during endosperm development. Plant Mol. Biol. 44, 283\u2013301 (2000).",
+     "journal-title": "Plant Mol. Biol."
+    },
+    {
+     "key": "53798_CR3",
+     "doi-asserted-by": "publisher",
+     "first-page": "49",
+     "DOI": "10.1016/S1937-6448(10)81002-0",
+     "volume-title": "International Review of Cell and Molecular Biology",
+     "author": "Nese Sreenivasulu",
+     "year": "2010",
+     "unstructured": "Sreenivasulu, N. et al. Barley grain development: Toward an integrative view. In International Review of Cell and Molecular Biology (ed. Jeon, K. W.) 49\u201389, https://doi.org/10.1016/S1937-6448(10)81002-0 (Academic Press, 2010)."
+    },
+    {
+     "key": "53798_CR4",
+     "doi-asserted-by": "publisher",
+     "first-page": "655",
+     "DOI": "10.1104/pp.111.192682",
+     "volume": "159",
+     "author": "SM Wilson",
+     "year": "2012",
+     "unstructured": "Wilson, S. M. et al. Pattern of deposition of cell wall polysaccharides and transcript abundance of related cell wall synthesis genes during differentiation in barley endosperm. Plant Physiol. 159, 655\u2013670 (2012).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR5",
+     "first-page": "1",
+     "volume": "15",
+     "author": "K Houston",
+     "year": "2014",
+     "unstructured": "Houston, K. et al. A genome wide association scan for (1,3;1,4)-\u03b2-glucan content in the grain of contemporary 2-row spring and winter barleys. BMC Genomics 15, 1\u201315 (2014).",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "key": "53798_CR6",
+     "doi-asserted-by": "publisher",
+     "first-page": "982",
+     "DOI": "10.1021/jf991102f",
+     "volume": "48",
+     "author": "MS Izydorczyk",
+     "year": "2000",
+     "unstructured": "Izydorczyk, M. S., Storsley, J., Labossiere, D., MacGregor, A. W. & Rossnagel, B. G. Variation in total and soluble \u03b2-glucan content in hulless barley: effects of thermal, physical, and enzymic treatments. J. Agric. Food Chem. 48, 982\u2013989 (2000).",
+     "journal-title": "J. Agric. Food Chem."
+    },
+    {
+     "key": "53798_CR7",
+     "doi-asserted-by": "publisher",
+     "first-page": "97",
+     "DOI": "10.1111/j.1439-0523.1987.tb01100.x",
+     "volume": "98",
+     "author": "RJ Henry",
+     "year": "1987",
+     "unstructured": "Henry, R. J. & Brown, A. H. D. Variation in the carbohydrate composition of wild barley (Hordeum spontaneum) grain. Plant Breed. 98, 97\u2013103 (1987).",
+     "journal-title": "Plant Breed."
+    },
+    {
+     "key": "53798_CR8",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.3389/fpls.2012.00130",
+     "volume": "3",
+     "author": "RA Burton",
+     "year": "2012",
+     "unstructured": "Burton, R. A. & Fincher, G. B. Current challenges in cell wall biology in the cereals and grasses. Front. Plant Sci. 3, 1\u20136 (2012).",
+     "journal-title": "Front. Plant Sci."
+    },
+    {
+     "key": "53798_CR9",
+     "doi-asserted-by": "publisher",
+     "first-page": "449",
+     "DOI": "10.1007/s00425-005-0209-5",
+     "volume": "224",
+     "author": "S Philippe",
+     "year": "2006",
+     "unstructured": "Philippe, S., Saulnier, L. & Guillon, F. Arabinoxylan and (1\u21923),(1\u21924)-\u03b2-glucan deposition in cell walls during wheat endosperm development. Planta 224, 449\u2013461 (2006).",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "53798_CR10",
+     "doi-asserted-by": "publisher",
+     "first-page": "1001",
+     "DOI": "10.1093/jxb/erq332",
+     "volume": "62",
+     "author": "F Guillon",
+     "year": "2011",
+     "unstructured": "Guillon, F. et al. Brachypodium distachyon grain: Characterization of endosperm cell walls. J. Exp. Bot. 62, 1001\u20131015 (2011).",
+     "journal-title": "J. Exp. Bot."
+    },
+    {
+     "key": "53798_CR11",
+     "doi-asserted-by": "publisher",
+     "first-page": "739",
+     "DOI": "10.1093/jxb/err298",
+     "volume": "63",
+     "author": "F Guillon",
+     "year": "2012",
+     "unstructured": "Guillon, F. et al. A comprehensive overview of grain development in Brachypodium distachyon variety Bd21. J. Exp. Bot. 63, 739\u2013755 (2012).",
+     "journal-title": "J. Exp. Bot."
+    },
+    {
+     "key": "53798_CR12",
+     "doi-asserted-by": "publisher",
+     "first-page": "117",
+     "DOI": "10.1111/j.1467-7652.2010.00532.x",
+     "volume": "9",
+     "author": "RA Burton",
+     "year": "2011",
+     "unstructured": "Burton, R. A. et al. Over-expression of specific HvCslF Cellulose synthase-like genes in transgenic barley increases the levels of cell wall (1,3;1,4)-\u03b2-d-glucans and alters their fine structure. Plant Biotechnol. J. 9, 117\u2013135 (2011).",
+     "journal-title": "Plant Biotechnol. J."
+    },
+    {
+     "key": "53798_CR13",
+     "doi-asserted-by": "publisher",
+     "first-page": "1821",
+     "DOI": "10.1104/pp.107.114694",
+     "volume": "146",
+     "author": "RA Burton",
+     "year": "2008",
+     "unstructured": "Burton, R. A. et al. The genetics and transcriptional profiles of the Cellulose synthase-like HvCslF gene family in barley. Plant Physiol. 146, 1821\u20131833 (2008).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR14",
+     "doi-asserted-by": "publisher",
+     "first-page": "612",
+     "DOI": "10.1104/pp.111.189191",
+     "volume": "158",
+     "author": "TK Pellny",
+     "year": "2012",
+     "unstructured": "Pellny, T. K. et al. Cell walls of developing wheat starchy endosperm: comparison of composition and RNA-Seq transcriptome. Plant Physiol. 158, 612\u2013627 (2012).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR15",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Wong, S. C. et al. Differential expression of the HvCslF6 gene late in grain development may explain quantitative differences in (1,3;1,4)-\u03b2-glucan concentration in barley. Mol. Breed. 35 (2015).",
+     "DOI": "10.1007/s11032-015-0208-6"
+    },
+    {
+     "key": "53798_CR16",
+     "doi-asserted-by": "publisher",
+     "first-page": "2054",
+     "DOI": "10.1021/acs.biochem.5b01384",
+     "volume": "55",
+     "author": "G Dimitroff",
+     "year": "2016",
+     "unstructured": "Dimitroff, G. et al. (1,3;1,4)-\u03b2-Glucan biosynthesis by the CSLF6 enzyme: Position and flexibility of catalytic residues influence product fine structure. Biochemistry 55, 2054\u20132061 (2016).",
+     "journal-title": "Biochemistry"
+    },
+    {
+     "key": "53798_CR17",
+     "doi-asserted-by": "publisher",
+     "first-page": "e1500069",
+     "DOI": "10.1126/sciadv.1500069",
+     "volume": "1",
+     "author": "SA Jobling",
+     "year": "2015",
+     "unstructured": "Jobling, S. A. Membrane pore architecture of the CSLF6 protein controls (1-3,1-4)-\u03b2-glucan structure. Sci. Adv. 1, e1500069 (2015).",
+     "journal-title": "Sci. Adv."
+    },
+    {
+     "key": "53798_CR18",
+     "doi-asserted-by": "publisher",
+     "first-page": "850",
+     "DOI": "10.1016/j.foodres.2008.04.001",
+     "volume": "41",
+     "author": "MS Izydorczyk",
+     "year": "2008",
+     "unstructured": "Izydorczyk, M. S. & Dexter, J. E. Barley \u03b2-glucans and arabinoxylans: Molecular structure, physicochemical properties, and uses in food products-a Review. Food Res. Int. 41, 850\u2013868 (2008).",
+     "journal-title": "Food Res. Int."
+    },
+    {
+     "key": "53798_CR19",
+     "doi-asserted-by": "publisher",
+     "first-page": "73",
+     "DOI": "10.1021/acscentsci.8b00568",
+     "volume": "5",
+     "author": "A Little",
+     "year": "2019",
+     "unstructured": "Little, A. et al. A novel (1,4)-\u03b2-linked glucoxylan is synthesized by members of the Cellulose synthase-like F gene family in land plants. ACS Cent. Sci. 5, 73\u201384 (2019).",
+     "journal-title": "ACS Cent. Sci."
+    },
+    {
+     "key": "53798_CR20",
+     "doi-asserted-by": "publisher",
+     "first-page": "145",
+     "DOI": "10.1111/j.1467-7652.2005.00169.x",
+     "volume": "4",
+     "author": "N Farrokhi",
+     "year": "2006",
+     "unstructured": "Farrokhi, N. et al. Plant cell wall biosynthesis: Genetic, biochemical and functional genomics approaches to the identification of key genes. Plant Biotechnol. J. 4, 145\u2013167 (2006).",
+     "journal-title": "Plant Biotechnol. J."
+    },
+    {
+     "key": "53798_CR21",
+     "doi-asserted-by": "publisher",
+     "first-page": "27",
+     "DOI": "10.1104/pp.108.130096",
+     "volume": "149",
+     "author": "GB Fincher",
+     "year": "2009",
+     "unstructured": "Fincher, G. B. Revolutionary times in our understanding of cell wall biosynthesis and remodeling in the grasses. Plant Physiol. 149, 27\u201337 (2009).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR22",
+     "doi-asserted-by": "publisher",
+     "first-page": "12951",
+     "DOI": "10.1074/jbc.M611487200",
+     "volume": "282",
+     "author": "M Hrmova",
+     "year": "2007",
+     "unstructured": "Hrmova, M., Farkas, V., Lahnstein, J. & Fincher, G. B. A barley xyloglucan xyloglucosyl transferase covalently links xyloglucan, cellulosic substrates, and (1,3;1,4)-\u03b2-D-glucans. J. Biol. Chem. 282, 12951\u201312962 (2007).",
+     "journal-title": "J. Biol. Chem."
+    },
+    {
+     "key": "53798_CR23",
+     "doi-asserted-by": "publisher",
+     "first-page": "2081",
+     "DOI": "10.1073/pnas.83.7.2081",
+     "volume": "83",
+     "author": "GB Fincher",
+     "year": "1986",
+     "unstructured": "Fincher, G. B. et al. Primary structure of the (1\u21923,1\u21924)-\u03b2-D-glucan 4-glucohydrolase from barley aleurone. Proc. Natl. Acad. Sci. USA 83, 2081\u20132085 (1986).",
+     "journal-title": "Proc. Natl. Acad. Sci. USA"
+    },
+    {
+     "key": "53798_CR24",
+     "doi-asserted-by": "publisher",
+     "first-page": "437",
+     "DOI": "10.1007/BF00262439",
+     "volume": "224",
+     "author": "N Slakeski",
+     "year": "1990",
+     "unstructured": "Slakeski, N. et al. Structure and tissue-specific regulation of genes encoding barley (1\u21923, 1\u21924)-\u03b2-glucan endohydrolases. MGG Mol. Gen. Genet. 224, 437\u2013449 (1990).",
+     "journal-title": "MGG Mol. Gen. Genet."
+    },
+    {
+     "key": "53798_CR25",
+     "doi-asserted-by": "publisher",
+     "first-page": "61",
+     "DOI": "10.1016/S0733-5210(88)80060-2",
+     "volume": "7",
+     "author": "IM Stuart",
+     "year": "1988",
+     "unstructured": "Stuart, I. M., Loi, L. & Fincher, G. B. Varietal and environmental variations in (1\u21923,1\u21924)-\u03b2-glucan levels and (1\u21923,1\u21924)-\u03b2-glucanase potential in barley: Relationships to malting quality. J. Cereal Sci. 7, 61\u201371 (1988).",
+     "journal-title": "J. Cereal Sci."
+    },
+    {
+     "key": "53798_CR26",
+     "doi-asserted-by": "publisher",
+     "first-page": "1226",
+     "DOI": "10.1104/pp.99.3.1226",
+     "volume": "99",
+     "author": "N Slakeski",
+     "year": "1992",
+     "unstructured": "Slakeski, N. & Fincher, G. B. Developmental regulation of (1\u21923,1\u21924)-\u03b2-glucanase gene expression in barley. Plant Physiol. 99, 1226\u20131231 (1992).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR27",
+     "doi-asserted-by": "publisher",
+     "first-page": "349",
+     "DOI": "10.1016/0014-5793(86)80434-3",
+     "volume": "198",
+     "author": "J Mundy",
+     "year": "1986",
+     "unstructured": "Mundy, J. & Fincher, B. Effects of gibberellic acid and abscisic acid on levels of aleurone. FEBS Lett. 198, 349\u2013352 (1986).",
+     "journal-title": "FEBS Lett."
+    },
+    {
+     "key": "53798_CR28",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.3389/fpls.2017.01872",
+     "volume": "8",
+     "author": "NS Betts",
+     "year": "2017",
+     "unstructured": "Betts, N. S. et al. Morphology, carbohydrate distribution, gene expression, and enzymatic activities related to cell wall hydrolysis in four barley varieties during simulated malting. Front. Plant Sci. 8, 1\u201315 (2017).",
+     "journal-title": "Front. Plant Sci."
+    },
+    {
+     "key": "53798_CR29",
+     "doi-asserted-by": "publisher",
+     "first-page": "381",
+     "DOI": "10.1093/jxb/err285",
+     "volume": "63",
+     "author": "S Taketa",
+     "year": "2012",
+     "unstructured": "Taketa, S. et al. Functional characterization of barley betaglucanless mutants demonstrates a unique role for CslF6 in (1,3;1,4)-\u03b2-D-glucan biosynthesis. J. Exp. Bot. 63, 381\u2013392 (2012).",
+     "journal-title": "J. Exp. Bot."
+    },
+    {
+     "key": "53798_CR30",
+     "doi-asserted-by": "publisher",
+     "first-page": "332",
+     "DOI": "10.1016/j.jcs.2012.02.003",
+     "volume": "56",
+     "author": "AT Cory",
+     "year": "2012",
+     "unstructured": "Cory, A. T., B\u00e5ga, M., Anyia, A., Rossnagel, B. G. & Chibbar, R. N. Genetic markers for CslF6 gene associated with (1,3;1,4)-\u03b2-glucan concentration in barley grain. J. Cereal Sci. 56, 332\u2013339 (2012).",
+     "journal-title": "J. Cereal Sci."
+    },
+    {
+     "key": "53798_CR31",
+     "doi-asserted-by": "publisher",
+     "first-page": "189",
+     "DOI": "10.1016/j.jcs.2013.12.009",
+     "volume": "59",
+     "author": "G Hu",
+     "year": "2014",
+     "unstructured": "Hu, G., Burton, C., Hong, Z. & Jackson, E. A mutation of the Cellulose-synthase-like (CslF6) gene in barley (Hordeum vulgare L.) partially affects the \u03b2-glucan content in grains. J. Cereal Sci. 59, 189\u2013195 (2014).",
+     "journal-title": "J. Cereal Sci."
+    },
+    {
+     "key": "53798_CR32",
+     "series-title": "Food Chemistry, Function and Analysis",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1039/9781788012799",
+     "volume-title": "Cereal Grain-based Functional Foods",
+     "year": "2018",
+     "unstructured": "Ames, N., Storsley, J. & Thandapilly, S. J. Functionality of beta-glucan from oat and barley and its relation with human health. In Cereal Grain-based Functional Foods: Carbohydrate and Phytochemical Components (eds Beta, T. & Camire, M. E.) 147\u2013166, https://doi.org/10.1039/9781788012799 (Royal Society of Chemistry, 2018)."
+    },
+    {
+     "key": "53798_CR33",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1371/journal.pone.0169635",
+     "volume": "12",
+     "author": "C Cosola",
+     "year": "2017",
+     "unstructured": "Cosola, C. et al. Beta-glucans supplementation associates with reduction in P-cresyl sulfate levels and improved endothelial vascular reactivity in healthy individuals. PLoS One 12, 1\u201316 (2017).",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "53798_CR34",
+     "doi-asserted-by": "publisher",
+     "first-page": "1162",
+     "DOI": "10.1017/S0007114507682968",
+     "volume": "97",
+     "author": "JM Keenan",
+     "year": "2007",
+     "unstructured": "Keenan, J. M. et al. The effects of concentrated barley \u03b2-glucan on blood lipids in a population of hypercholesterolaemic men and women. Br. J. Nutr. 97, 1162\u20131168 (2007).",
+     "journal-title": "Br. J. Nutr."
+    },
+    {
+     "key": "53798_CR35",
+     "doi-asserted-by": "publisher",
+     "first-page": "318",
+     "DOI": "10.1111/j.1541-4337.2010.00112.x",
+     "volume": "9",
+     "author": "M Gupta",
+     "year": "2010",
+     "unstructured": "Gupta, M., Abu-Ghannam, N. & Gallaghar, E. Barley for brewing: Characteristic changes during malting, brewing and applications of its by-products. Compr. Rev. Food Sci. Food Saf. 9, 318\u2013328 (2010).",
+     "journal-title": "Compr. Rev. Food Sci. Food Saf."
+    },
+    {
+     "key": "53798_CR36",
+     "doi-asserted-by": "publisher",
+     "first-page": "223",
+     "DOI": "10.1016/j.foodchem.2003.08.020",
+     "volume": "86",
+     "author": "J Wang",
+     "year": "2004",
+     "unstructured": "Wang, J., Zhang, G., Chen, J. & Wu, F. The changes of \u03b2-glucan content and \u03b2-glucanase activity in barley before and after malting and their relationships to malt qualities. Food Chem. 86, 223\u2013228 (2004).",
+     "journal-title": "Food Chem."
+    },
+    {
+     "key": "53798_CR37",
+     "doi-asserted-by": "publisher",
+     "first-page": "921",
+     "DOI": "10.1007/BF00223901",
+     "volume": "91",
+     "author": "F Han",
+     "year": "1995",
+     "unstructured": "Han, F. et al. Mapping of \u03b2-glucan content and \u03b2-glucanase activity loci in barley grain and malt. Theor. Appl. Genet. 91, 921\u2013927 (1995).",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "53798_CR38",
+     "doi-asserted-by": "publisher",
+     "first-page": "1069",
+     "DOI": "10.1093/nar/gki247",
+     "volume": "33",
+     "author": "IA Shahmuradov",
+     "year": "2005",
+     "unstructured": "Shahmuradov, I. A., Solovyev, V. V. & Gammerman, A. J. Plant promoter prediction with confidence estimation. Nucleic Acids Res. 33, 1069\u20131076 (2005).",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "53798_CR39",
+     "doi-asserted-by": "publisher",
+     "first-page": "655",
+     "DOI": "10.1007/s00425-006-0244-x",
+     "volume": "224",
+     "author": "SM Wilson",
+     "year": "2006",
+     "unstructured": "Wilson, S. M. et al. Temporal and spatial appearance of wall polysaccharides during cellularization of barley (Hordeum vulgare) endosperm. Planta 224, 655\u2013667 (2006).",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "53798_CR40",
+     "doi-asserted-by": "publisher",
+     "first-page": "647",
+     "DOI": "10.1016/j.jcs.2008.02.004",
+     "volume": "48",
+     "author": "J Li",
+     "year": "2008",
+     "unstructured": "Li, J., B\u00e5ga, M., Rossnagel, B. G., Legge, W. G. & Chibbar, R. N. Identification of quantitative trait loci for \u03b2-glucan concentration in barley grain. J. Cereal Sci. 48, 647\u2013655 (2008).",
+     "journal-title": "J. Cereal Sci."
+    },
+    {
+     "key": "53798_CR41",
+     "doi-asserted-by": "publisher",
+     "first-page": "15",
+     "DOI": "10.1007/s11032-012-9764-1",
+     "volume": "31",
+     "author": "E Islamovic",
+     "year": "2013",
+     "unstructured": "Islamovic, E. et al. Genetic dissection of grain beta-glucan and amylose content in barley (Hordeum vulgare L.). Mol. Breed. 31, 15\u201325 (2013).",
+     "journal-title": "Mol. Breed."
+    },
+    {
+     "key": "53798_CR42",
+     "doi-asserted-by": "publisher",
+     "first-page": "275",
+     "DOI": "10.1007/s11032-006-9075-5",
+     "volume": "19",
+     "author": "JL Molina-Cano",
+     "year": "2007",
+     "unstructured": "Molina-Cano, J. L. et al. QTL analysis of a cross between European and North American malting barleys reveals a putative candidate gene for \u03b2-glucan content on chromosome 1H. Mol. Breed. 19, 275\u2013284 (2007).",
+     "journal-title": "Mol. Breed."
+    },
+    {
+     "key": "53798_CR43",
+     "doi-asserted-by": "publisher",
+     "first-page": "131",
+     "DOI": "10.1300/J144v05n01_06",
+     "volume": "5",
+     "author": "E Igartua",
+     "year": "2002",
+     "unstructured": "Igartua, E., Hayes, P. M., Thomas, W. T. B., Meyer, R. & Mather, D. E. Genetic control of quantitative grain and malt quality traits in barley. J. Crop Prod. 5, 131\u2013164 (2002).",
+     "journal-title": "J. Crop Prod."
+    },
+    {
+     "key": "53798_CR44",
+     "doi-asserted-by": "publisher",
+     "first-page": "1209",
+     "DOI": "10.1104/pp.109.151712",
+     "volume": "152",
+     "author": "C Nemeth",
+     "year": "2010",
+     "unstructured": "Nemeth, C. et al. Down-regulation of the CslF6 gene results in decreased (1,3;1,4)-\u03b2-d-glucan in endosperm of wheat. Plant Physiol. 152, 1209\u20131218 (2010).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR45",
+     "doi-asserted-by": "publisher",
+     "first-page": "56",
+     "DOI": "10.1104/pp.112.195495",
+     "volume": "159",
+     "author": "ME Vega-Sanchez",
+     "year": "2012",
+     "unstructured": "Vega-Sanchez, M. E. et al. Loss of Cellulose synthase-like F6 function affects mixed-linkage glucan deposition, cell wall mechanical properties, and defense responses in vegetative tissues of rice. Plant Physiol. 159, 56\u201369 (2012).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR46",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1038/s41598-017-17765-5",
+     "volume": "8",
+     "author": "I Marcotuli",
+     "year": "2018",
+     "unstructured": "Marcotuli, I., Pasqualina, C., Antonio, B. & Agata, G. Expression analysis of Cellulose synthase-like genes in durum wheat. Sci. Rep. 8, 1\u20139 (2018).",
+     "journal-title": "Sci. Rep."
+    },
+    {
+     "key": "53798_CR47",
+     "doi-asserted-by": "publisher",
+     "first-page": "873",
+     "DOI": "10.1093/mp/ssp063",
+     "volume": "2",
+     "author": "RA Burton",
+     "year": "2009",
+     "unstructured": "Burton, R. A. & Fincher, G. B. (1,3;1,4)-\u03b2-D-glucans in cell walls of the poaceae, lower plants, and fungi: A tale of two linkages. Mol. Plant 2, 873\u2013882 (2009).",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "53798_CR48",
+     "doi-asserted-by": "publisher",
+     "first-page": "729",
+     "DOI": "10.1007/s00425-005-1481-0",
+     "volume": "221",
+     "author": "DM Gibeaut",
+     "year": "2005",
+     "unstructured": "Gibeaut, D. M., Pauly, M., Bacic, A. & Fincher, G. B. Changes in cell wall polysaccharides in developing barley (Hordeum vulgare) coleoptiles. Planta 221, 729\u2013738 (2005).",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "53798_CR49",
+     "doi-asserted-by": "publisher",
+     "first-page": "115",
+     "DOI": "10.1094/CCHEM.2004.81.1.115",
+     "volume": "81",
+     "author": "MS Buckeridge",
+     "year": "2004",
+     "unstructured": "Buckeridge, M. S., Rayon, C., Urbanowicz, B., Tin\u00e9, M. A. S. & Carpita, N. C. Mixed linkage (1\u21923),(1\u21924)-\u03b2-D-glucans of grasses. Cereal Chem. 81, 115\u2013127 (2004).",
+     "journal-title": "Cereal Chem."
+    },
+    {
+     "key": "53798_CR50",
+     "doi-asserted-by": "publisher",
+     "first-page": "142",
+     "DOI": "10.1111/aab.12043",
+     "volume": "163",
+     "author": "A Cseh",
+     "year": "2013",
+     "unstructured": "Cseh, A. et al. Expression of HvCslF9 and HvCslF6 barley genes in the genetic background of wheat and their influence on the wheat \u03b2-glucan content. Ann. Appl. Biol. 163, 142\u2013150 (2013).",
+     "journal-title": "Ann. Appl. Biol."
+    },
+    {
+     "key": "53798_CR51",
+     "doi-asserted-by": "publisher",
+     "first-page": "964",
+     "DOI": "10.1016/j.molp.2015.03.009",
+     "volume": "8",
+     "author": "C Colmsee",
+     "year": "2015",
+     "unstructured": "Colmsee, C. et al. BARLEX - The barley draft genome explorer. Mol. Plant 8, 964\u2013966 (2015).",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "53798_CR52",
+     "doi-asserted-by": "publisher",
+     "first-page": "968",
+     "DOI": "10.1104/pp.15.00140",
+     "volume": "168",
+     "author": "JG Schwerdt",
+     "year": "2015",
+     "unstructured": "Schwerdt, J. G. et al. Evolutionary dynamics of the Cellulose synthase gene superfamily in grasses. Plant Physiol. 168, 968\u2013983 (2015).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR53",
+     "doi-asserted-by": "publisher",
+     "first-page": "1207",
+     "DOI": "10.1104/pp.18.00978",
+     "volume": "178",
+     "author": "M Fan",
+     "year": "2018",
+     "unstructured": "Fan, M. et al. A trihelix family transcription factor is associated with key genes in mixed-linkage glucan accumulation. Plant Physiol. 178, 1207\u20131221 (2018).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR54",
+     "doi-asserted-by": "publisher",
+     "first-page": "1024",
+     "DOI": "10.1038/ng.3612",
+     "volume": "48",
+     "author": "J Russell",
+     "year": "2016",
+     "unstructured": "Russell, J. et al. Exome sequencing of geographically diverse barley landraces and wild relatives gives insights into environmental adaptation. Nat. Genet. 48, 1024\u20131030 (2016).",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "53798_CR55",
+     "doi-asserted-by": "publisher",
+     "first-page": "1124",
+     "DOI": "10.1104/pp.17.01718",
+     "volume": "177",
+     "author": "A Little",
+     "year": "2018",
+     "unstructured": "Little, A. et al. Revised phylogeny of the Cellulose synthase gene superfamily: insights into cell wall evolution. Plant Physiol. 177, 1124\u20131141 (2018).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR56",
+     "doi-asserted-by": "publisher",
+     "first-page": "47",
+     "DOI": "10.1270/jsbbs.59.47",
+     "volume": "59",
+     "author": "T Tonooka",
+     "year": "2009",
+     "unstructured": "Tonooka, T., Aoki, E., Yoshioka, T. & Taketa, S. A novel mutant gene for (1-3, 1-4)-\u03b2-D-glucanless grain on barley (Hordeum vulgare L.) chromosome 7H. Breed. Sci. 59, 47\u201354 (2009).",
+     "journal-title": "Breed. Sci."
+    },
+    {
+     "key": "53798_CR57",
+     "doi-asserted-by": "publisher",
+     "first-page": "1692",
+     "DOI": "10.1104/pp.18.00771",
+     "volume": "179",
+     "author": "CP Moehs",
+     "year": "2019",
+     "unstructured": "Moehs, C. P. et al. Development of decreased-gluten wheat enabled by determination of the genetic basis of lys3a barley. Plant Physiol. 179, 1692\u20131703 (2019).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR58",
+     "doi-asserted-by": "publisher",
+     "first-page": "69",
+     "DOI": "10.1016/j.jcs.2011.10.005",
+     "volume": "55",
+     "author": "U Christensen",
+     "year": "2012",
+     "unstructured": "Christensen, U. & Scheller, H. V. Regulation of (1,3;1,4)-\u03b2-d-glucan synthesis in developing endosperm of barley lys mutants. J. Cereal Sci. 55, 69\u201376 (2012).",
+     "journal-title": "J. Cereal Sci."
+    },
+    {
+     "key": "53798_CR59",
+     "doi-asserted-by": "publisher",
+     "first-page": "16",
+     "DOI": "10.1016/j.jcs.2018.04.013",
+     "volume": "82",
+     "author": "F Cook",
+     "year": "2018",
+     "unstructured": "Cook, F. et al. Barley lys3 mutants are unique amongst shrunken-endosperm mutants in having abnormally large embryos. J. Cereal Sci. 82, 16\u201324 (2018).",
+     "journal-title": "J. Cereal Sci."
+    },
+    {
+     "key": "53798_CR60",
+     "doi-asserted-by": "publisher",
+     "first-page": "51",
+     "DOI": "10.1007/s00425-001-0721-1",
+     "volume": "215",
+     "author": "S Roulin",
+     "year": "2002",
+     "unstructured": "Roulin, S., Buchala, A. J. & Fincher, G. B. Induction of (1\u21923,1\u21924)-\u03b2-D-glucan hydrolases in leaves of dark-incubated barley seedlings. Planta 215, 51\u201359 (2002).",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "53798_CR61",
+     "doi-asserted-by": "publisher",
+     "first-page": "5033",
+     "DOI": "10.1093/jxb/ert292",
+     "volume": "64",
+     "author": "K Trafford",
+     "year": "2013",
+     "unstructured": "Trafford, K. et al. Grain development in Brachypodium and other grasses: Possible interactions between cell expansion, starch deposition, and cell-wall synthesis. J. Exp. Bot. 64, 5033\u20135047 (2013).",
+     "journal-title": "J. Exp. Bot."
+    },
+    {
+     "key": "53798_CR62",
+     "doi-asserted-by": "publisher",
+     "first-page": "617",
+     "DOI": "10.1104/pp.110.166249",
+     "volume": "155",
+     "author": "A Druka",
+     "year": "2011",
+     "unstructured": "Druka, A. et al. Genetic dissection of barley morphology and development. Plant Physiol. 155, 617\u2013627 (2011).",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "53798_CR63",
+     "doi-asserted-by": "publisher",
+     "first-page": "34",
+     "DOI": "10.1186/gb-2002-3-7-research0034",
+     "volume": "3",
+     "author": "J Vandesompele",
+     "year": "2002",
+     "unstructured": "Vandesompele, J. et al. Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes. Genome Biol. 3, 34\u20131 (2002).",
+     "journal-title": "Genome Biol."
+    },
+    {
+     "key": "53798_CR64",
+     "doi-asserted-by": "publisher",
+     "first-page": "303",
+     "DOI": "10.1002/jsfa.2740550215",
+     "volume": "55",
+     "author": "BV McCleary",
+     "year": "1991",
+     "unstructured": "McCleary, B. V. & Codd, R. Measurement of (1\u21923),(1\u21924)-\u03b2-D-glucan in barley and oats: A streamlined enzymic procedure. J. Sci. Food Agric. 55, 303\u2013312 (1991).",
+     "journal-title": "J. Sci. Food Agric."
+    },
+    {
+     "key": "53798_CR65",
+     "unstructured": "VSN International. Genstat for Windows 19th Edition. Available at, https://www.vsni.co.uk/ (2017)."
+    },
+    {
+     "key": "53798_CR66",
+     "doi-asserted-by": "publisher",
+     "first-page": "1010",
+     "DOI": "10.1139/g03-080",
+     "volume": "46",
+     "author": "I Matus",
+     "year": "2003",
+     "unstructured": "Matus, I. et al. Development and characterization of recombinant chromosome substitution lines (RCSLs) using Hordeum vulgare subsp. spontaneum as a source of donor alleles in a Hordeum vulgare subsp. vulgare background. Genome 46, 1010\u20131023 (2003).",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "53798_CR67",
+     "doi-asserted-by": "publisher",
+     "first-page": "1647",
+     "DOI": "10.1093/bioinformatics/bts199",
+     "volume": "28",
+     "author": "M Kearse",
+     "year": "2012",
+     "unstructured": "Kearse, M. et al. Geneious Basic: An integrated and extendable desktop software platform for the organization and analysis of sequence data. Bioinformatics 28, 1647\u20131649 (2012).",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "53798_CR68",
+     "doi-asserted-by": "publisher",
+     "first-page": "475",
+     "DOI": "10.1023/A:1008662515059",
+     "volume": "45",
+     "author": "E Igartua",
+     "year": "1998",
+     "unstructured": "Igartua, E. et al. The Spanish barley core collection. Genet. Resour. Crop Evol. 45, 475\u2013481 (1998).",
+     "journal-title": "Genet. Resour. Crop Evol."
+    },
+    {
+     "key": "53798_CR69",
+     "doi-asserted-by": "publisher",
+     "first-page": "1523",
+     "DOI": "10.1111/j.1365-294X.2009.04106.x",
+     "volume": "18",
+     "author": "S H\u00fcbner",
+     "year": "2009",
+     "unstructured": "H\u00fcbner, S. et al. Strong correlation of wild barley (Hordeum spontaneum) population structure with temperature and precipitation variation. Mol. Ecol. 18, 1523\u20131536 (2009).",
+     "journal-title": "Mol. Ecol."
+    },
+    {
+     "key": "53798_CR70",
+     "doi-asserted-by": "publisher",
+     "first-page": "239",
+     "DOI": "10.1006/jmbi.1996.0456",
+     "volume": "261",
+     "author": "ZS Juo",
+     "year": "1996",
+     "unstructured": "Juo, Z. S. et al. How proteins recognize the TATA box. J. Mol. Biol. 261, 239\u2013254 (1996).",
+     "journal-title": "J. Mol. Biol."
+    },
+    {
+     "key": "53798_CR71",
+     "doi-asserted-by": "publisher",
+     "first-page": "191",
+     "DOI": "10.1016/S0097-8485(99)00015-7",
+     "volume": "23",
+     "author": "AG Pedersen",
+     "year": "1999",
+     "unstructured": "Pedersen, A. G., Baldi, P., Chauvin, Y. & Brunak, S. The biology of eukaryotic promoter prediction - A review. Comput. Chem. 23, 191\u2013207 (1999).",
+     "journal-title": "Comput. Chem."
+    }
+   ],
+   "container-title": [
+    "Scientific Reports"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.nature.com/articles/s41598-019-53798-8.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://www.nature.com/articles/s41598-019-53798-8",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://www.nature.com/articles/s41598-019-53798-8.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      17
+     ]
+    ],
+    "date-time": "2022-12-17T16:14:35Z",
+    "timestamp": 1671293675000
+   },
+   "score": 81.7814,
+   "resource": {
+    "primary": {
+     "URL": "https://www.nature.com/articles/s41598-019-53798-8"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      11,
+      21
+     ]
+    ]
+   },
+   "references-count": 71,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2019,
+       12
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "53798"
+   ],
+   "URL": "https://doi.org/10.1038/s41598-019-53798-8",
+   "ISSN": [
+    "2045-2322"
+   ],
+   "issn-type": [
+    {
+     "value": "2045-2322",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2019,
+      11,
+      21
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "18 July 2019",
+     "order": 1,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "31 October 2019",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "21 November 2019",
+     "order": 3,
+     "name": "first_online",
+     "label": "First Online",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+     "order": 1,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Competing interests"
+     }
+    }
+   ],
+   "article-number": "17250"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      5,
+      14
+     ]
+    ],
+    "date-time": "2025-05-14T04:47:06Z",
+    "timestamp": 1747198026898,
+    "version": "3.40.5"
+   },
+   "description": "electron microscopy structure",
+   "reference-count": 0,
+   "publisher": "Worldwide Protein Data Bank",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.2210/pdb8dqk/pdb",
+   "type": "component",
+   "created": {
+    "date-parts": [
+     [
+      2022,
+      7,
+      26
+     ]
+    ],
+    "date-time": "2022-07-26T17:25:40Z",
+    "timestamp": 1658856340000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Intermediate resolution structure of barley (1,3;1,4)-beta-glucan synthase CslF6."
+   ],
+   "prefix": "10.2210",
+   "author": [
+    {
+     "given": "R.",
+     "family": "Ho",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "P.",
+     "family": "Purushotham",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "J.",
+     "family": "Zimmer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "7763",
+   "published-online": {
+    "date-parts": [
+     [
+      2022,
+      11,
+      30
+     ]
+    ]
+   },
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      11
+     ]
+    ],
+    "date-time": "2024-06-11T17:50:43Z",
+    "timestamp": 1718128243000
+   },
+   "score": 40.49559,
+   "resource": {
+    "primary": {
+     "URL": "https://www.wwpdb.org/pdb?id=pdb_00008dqk"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      11,
+      30
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.2210/pdb8dqk/pdb",
+   "published": {
+    "date-parts": [
+     [
+      2022,
+      11,
+      30
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      22
+     ]
+    ],
+    "date-time": "2026-09-22T19:04:48Z",
+    "timestamp": 1790103888661,
+    "version": "4.0.1"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2026
+     ]
+    ]
+   },
+   "group-title": "SSRN",
+   "reference-count": 67,
+   "publisher": "Elsevier BV",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2026,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2026-01-01T00:00:00Z",
+      "timestamp": 1767225600000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "https://www.uspto.gov/ip-policy/copyright-policy/copyright-basics"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "abstract": "<jats:p>Mixed linkage (1,3;1,4)-\u03b2-glucan (MLG) is a major non-cellulosic polysaccharide of commelinid monocot cell walls and an important soluble dietary fibre component found in cereal grains, including those of barley. Despite its importance, relatively little is known about the regulation of cellulose synthase-like F6 (CSLF6), the major MLG synthase (MLGS) isoform involved in MLG biosynthesis in developing grain and young vegetative tissues. We investigated potential post-transcriptional regulation of CSLF6 using complementary protein complex, co-immunoprecipitation (co-IP), and biochemical approaches. Higher-order CSLF6-containing complexes were detected under non-denaturing conditions. Co-IP using detergent-solubilised barley microsomal membranes (MM) identified 16 Class I and 37 Class II candidate CSLF6-associated proteins. Biochemical analyses of in vitro MLGS activity in 4-day-old barley seedling MMs, as a proxy for CSLF6 activity, indicated that alkaline pH in the presence of Mg2+ and Ca2+ enhanced MLGS activity. A soluble protein fraction (&gt;100,000 g supernatant) from barley seedlings, lacking CSLF6, stimulated MLGS activity when combined with MM, supporting the presence of one or more soluble proteinaceous stimulatory factors. The combination of size-exclusion chromatography, MLGS activity assays and comparative mass spectrometry identified proteins enriched in this active protein fraction, including candidates associated with signalling/regulation and protein modification or turnover. The soluble fraction also stimulated MLGS activity in wheat and ryegrass microsomal membrane (MM) preparations, suggesting that the stimulatory activity may involve a conserved component of the MLGS machinery. Together, these findings identify candidate CSLF6-associated proteins and soluble proteinaceous factors that may contribute to MLGS regulation and provide targets for functional validation.</jats:p>",
+   "DOI": "10.2139/ssrn.7507383",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      22
+     ]
+    ],
+    "date-time": "2026-09-22T18:37:16Z",
+    "timestamp": 1790102236000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Protein-associated regulation of CSLF6, the major mixed linkage (1,3;1,4)-\u03b2-glucan synthase, in barley (Hordeum vulgare) seedlings"
+   ],
+   "prefix": "10.2139",
+   "author": [
+    {
+     "given": "Guillermo",
+     "family": "Garcia-Gimenez",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yin  Ying",
+     "family": "Ho",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "John",
+     "family": "Humphries",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0653-9704",
+     "authenticated-orcid": true,
+     "given": "Rohan",
+     "family": "Lowe",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7483-8605",
+     "authenticated-orcid": true,
+     "given": "Antony",
+     "family": "Bacic",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-8921-2725",
+     "authenticated-orcid": true,
+     "given": "Monika  S.",
+     "family": "Doblin",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "ref1",
+     "author": "References"
+    },
+    {
+     "key": "ref2",
+     "doi-asserted-by": "crossref",
+     "first-page": "57",
+     "DOI": "10.1016/j.tifs.2019.03.023",
+     "article-title": "Physiological functionalities and mechanisms of ?-glucans",
+     "volume": "88",
+     "author": "J Bai",
+     "year": "2019",
+     "journal-title": "Trends Food Sci Technol"
+    },
+    {
+     "key": "ref3",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.3389/fpls.2020.602850",
+     "article-title": "Characterisation of Cellulose Synthase Like F6 (CslF6) Mutants Shows Altered Carbon Metabolism in ?-D-(1,3;1,4)-Glucan Deficient Grain in Brachypodium distachyon",
+     "volume": "11",
+     "author": "M Bain",
+     "year": "2021",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "key": "ref4",
+     "doi-asserted-by": "crossref",
+     "first-page": "331",
+     "DOI": "10.1007/BF00202589",
+     "article-title": "Biosynthesis of (1,3)(1,4)-?-glucan and (1,3)-?glucan in barley (Hordeum vulgare L.)",
+     "volume": "195",
+     "author": "M Becker",
+     "year": "1995",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "ref5",
+     "doi-asserted-by": "crossref",
+     "first-page": "1634",
+     "DOI": "10.1038/nprot.2012.089",
+     "article-title": "Radiometric and spectrophotometric in vitro assays of glycosyltransferases involved in plant cell wall carbohydrate biosynthesis",
+     "volume": "7",
+     "author": "C Brown",
+     "year": "2012",
+     "journal-title": "Nat Protoc"
+    },
+    {
+     "key": "ref6",
+     "doi-asserted-by": "crossref",
+     "first-page": "115",
+     "DOI": "10.1094/CCHEM.2004.81.1.115",
+     "article-title": "Mixed linkage (1?3),(1?4)-?-D-glucans of grasses",
+     "volume": "81",
+     "author": "M S Buckeridge",
+     "year": "2004",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "ref7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1105",
+     "DOI": "10.1104/pp.120.4.1105",
+     "article-title": "The mechanism of synthesis of a mixedlinkage (1?3),(1?4)?-D-glucan in maize. Evidence for multiple sites of glucosyl transfer in the synthase complex",
+     "volume": "120",
+     "author": "M S Buckeridge",
+     "year": "1999",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref8",
+     "doi-asserted-by": "crossref",
+     "first-page": "213",
+     "DOI": "10.1046/j.1365-313X.1995.08020213.x",
+     "article-title": "In vitro synthesis of a microfibrillar (1?3)-?-glucan by a ryegrass ( Lolium multiflorum ) endosperm (1?3)-?-glucan synthase enriched by product entrapment",
+     "volume": "8",
+     "author": "V Bulone",
+     "year": "1995",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "ref9",
+     "doi-asserted-by": "crossref",
+     "first-page": "117",
+     "DOI": "10.1111/j.1467-7652.2010.00532.x",
+     "article-title": "Over-expression of specific HvCslF cellulose synthase-like genes in transgenic barley increases the levels of cell wall (1,3;1,4)-?-d-glucans and alters their fine structure",
+     "volume": "9",
+     "author": "R A Burton",
+     "year": "2011",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "key": "ref10",
+     "doi-asserted-by": "crossref",
+     "first-page": "1940",
+     "DOI": "10.1126/science.1122975",
+     "article-title": "Cellulose Synthase-Like CslF Genes Mediate the Synthesis of Cell Wall (1,3;1,4)-beta-D-Glucans",
+     "volume": "311",
+     "author": "R A Burton",
+     "year": "1979",
+     "journal-title": "Science"
+    },
+    {
+     "key": "ref11",
+     "doi-asserted-by": "crossref",
+     "first-page": "171",
+     "DOI": "10.1104/pp.110.163360",
+     "article-title": "Update on mechanisms of plant cell wall biosynthesis: How plants make cellulose and other (1?4)-?-D-Glycans",
+     "volume": "155",
+     "author": "N C Carpita",
+     "year": "2011",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref12",
+     "doi-asserted-by": "crossref",
+     "first-page": "1362",
+     "DOI": "10.1104/pp.110.156158",
+     "article-title": "The maize mixed-linkage (1?3),(1?4)-?-D-glucan polysaccharide is synthesized at the golgi membrane",
+     "volume": "153",
+     "author": "N C Carpita",
+     "year": "2010",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref13",
+     "doi-asserted-by": "crossref",
+     "first-page": "17188",
+     "DOI": "10.1073/pnas.1012348107",
+     "article-title": "Mutations of cellulose synthase (CESA1) phosphorylation sites modulate anisotropic cell expansion and bidirectional mobility of cellulose synthase",
+     "volume": "107",
+     "author": "S Chen",
+     "year": "2010",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "key": "ref14",
+     "doi-asserted-by": "crossref",
+     "first-page": "272",
+     "DOI": "10.1094/CCHEM-87-4-0272",
+     "article-title": "Variability in fine structures of non-cellulosic cell wall polysaccharides from cereal grains: potential importance in human health and nutrition",
+     "volume": "87",
+     "author": "H M Collins",
+     "year": "2010",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "ref15",
+     "doi-asserted-by": "crossref",
+     "first-page": "1367",
+     "DOI": "10.1038/nbt.1511",
+     "article-title": "MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification",
+     "volume": "26",
+     "author": "J Cox",
+     "year": "2008",
+     "journal-title": "Nat Biotechnol"
+    },
+    {
+     "key": "ref16",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3390/molecules26144335",
+     "article-title": "Updating Insights into the Catalytic Domain Properties of Plant",
+     "volume": "26",
+     "author": "G Daras",
+     "year": "2021",
+     "journal-title": "Molecules"
+    },
+    {
+     "issue": "1,",
+     "key": "ref17",
+     "doi-asserted-by": "crossref",
+     "first-page": "2054",
+     "DOI": "10.1021/acs.biochem.5b01384",
+     "article-title": "3;1,4)-?-Glucan Biosynthesis by the CSLF6 Enzyme: Position and Flexibility of Catalytic Residues Influence Product Fine Structure",
+     "volume": "55",
+     "author": "G Dimitroff",
+     "year": "2016",
+     "journal-title": "Biochemistry"
+    },
+    {
+     "key": "ref18",
+     "doi-asserted-by": "crossref",
+     "first-page": "5996",
+     "DOI": "10.1073/pnas.0902019106",
+     "article-title": "A barley cellulose synthase-like CSLH gene mediates (1,3;1,4)--D-glucan synthesis in transgenic Arabidopsis",
+     "volume": "106",
+     "author": "M S Doblin",
+     "year": "2009",
+     "journal-title": "Proceedings of the National Academy of Sciences"
+    },
+    {
+     "key": "ref19",
+     "doi-asserted-by": "crossref",
+     "first-page": "1207",
+     "DOI": "10.1104/pp.18.00978",
+     "article-title": "A trihelix family transcription factor is associated with key genes in mixed-linkage glucan accumulation",
+     "volume": "178",
+     "author": "M Fan",
+     "year": "2018",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref20",
+     "first-page": "9938",
+     "article-title": "Food Labeling: Health Claims; Soluble Fiber From Certain Foods and Risk of Coronary Heart Disease",
+     "volume": "73",
+     "author": "Fda",
+     "year": "2008",
+     "journal-title": "Fed Regist"
+    },
+    {
+     "key": "ref21",
+     "doi-asserted-by": "crossref",
+     "first-page": "27",
+     "DOI": "10.1104/pp.108.130096",
+     "article-title": "Revolutionary times in our understanding of cell wall biosynthesis and remodeling in the grasses",
+     "volume": "149",
+     "author": "G B Fincher",
+     "year": "2009",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref22",
+     "first-page": "1",
+     "article-title": "Targeted mutation of barley (1,3;1,4)-?-glucan synthases reveals complex relationships between the storage and cell wall polysaccharide content",
+     "author": "G Garcia-Gimenez",
+     "year": "2020",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "ref23",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3389/fpls.2022.883139",
+     "article-title": "Identification of candidate MYB transcription factors that influence CslF6 expression in barley grain",
+     "volume": "13",
+     "author": "G Garcia-Gimenez",
+     "year": "2022",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "key": "ref24",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/s11032-020-01199-5",
+     "article-title": "Identification of genetic loci and candidate genes related to ?-glucan content in barley grain by genome-wide association study in International Barley Core Selected Collection",
+     "volume": "41",
+     "author": "L Geng",
+     "year": "2021",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "key": "ref25",
+     "author": "D M Gibeaut",
+     "year": "1993",
+     "journal-title": "Synthesis of (1-* 3), (1-> 4)-,8-D-glucan in the Golgi apparatus of maize coleoptiles (cell wail polysaccharides"
+    },
+    {
+     "key": "ref26",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3389/fpls.2015.01112",
+     "article-title": "Wd40-repeat proteins in plant cell wall formation: Current evidence and research prospects",
+     "volume": "6",
+     "author": "G Guerriero",
+     "year": "2015",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "key": "ref27",
+     "doi-asserted-by": "crossref",
+     "first-page": "318",
+     "DOI": "10.1111/j.1541-4337.2010.00112.x",
+     "article-title": "Barley for brewing: Characteristic changes during malting, brewing and applications of its by-products",
+     "volume": "9",
+     "author": "M Gupta",
+     "year": "2010",
+     "journal-title": "Compr Rev Food Sci Food Saf"
+    },
+    {
+     "key": "ref28",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.plgene.2019.100189",
+     "article-title": "In silico study of the CESA and CSL gene family in Arabidopsis thaliana and Oryza sativa: Focus on post-translation modifications",
+     "volume": "19",
+     "author": "P Heidari",
+     "year": "2019",
+     "journal-title": "Plant Gene"
+    },
+    {
+     "key": "ref29",
+     "doi-asserted-by": "crossref",
+     "first-page": "632",
+     "DOI": "10.1104/pp.69.3.632",
+     "article-title": "Factors Influencing ?-Glucan Synthesis by Particulate Enzymes from Suspension-Cultured Lolium multiflorum Endosperm Cells",
+     "volume": "69",
+     "author": "R J Henry",
+     "year": "1982",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref30",
+     "doi-asserted-by": "crossref",
+     "first-page": "629",
+     "DOI": "10.1042/bj2030629",
+     "article-title": "Solubilization of beta-glucan synthases from the membranes of cultured ryegrass endosperm cells",
+     "volume": "203",
+     "author": "R J Henry",
+     "year": "1982",
+     "journal-title": "Biochem J"
+    },
+    {
+     "key": "ref31",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1186/1471-2164-15-907",
+     "article-title": "A genome wide association scan for (1,3;1,4)?-glucan content in the grain of contemporary 2-row Spring and Winter barleys",
+     "volume": "15",
+     "author": "K Houston",
+     "year": "2014",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "key": "ref32",
+     "article-title": "The knowns and unknowns of callose biosynthesis in terrestrial plants",
+     "volume": "538",
+     "author": "Y S Y Hsieh",
+     "year": "2024",
+     "journal-title": "Carbohydr Res"
+    },
+    {
+     "key": "ref33",
+     "article-title": "Divergent structures and functions of the Cupin proteins in plants",
+     "volume": "242",
+     "author": "F Hu",
+     "year": "2023",
+     "journal-title": "Int J Biol Macromol"
+    },
+    {
+     "key": "ref34",
+     "doi-asserted-by": "crossref",
+     "first-page": "68",
+     "DOI": "10.1038/s41596-018-0082-x",
+     "article-title": "Singlepot, solid-phase-enhanced sample preparation for proteomics experiments",
+     "volume": "14",
+     "author": "C S Hughes",
+     "year": "2019",
+     "journal-title": "Nat Protoc"
+    },
+    {
+     "key": "ref35",
+     "doi-asserted-by": "crossref",
+     "first-page": "2503",
+     "DOI": "10.1105/tpc.016097",
+     "article-title": "An Arabidopsis Callose Synthase, GSL5, Is Required for Wound and Papillary Callose Formation",
+     "volume": "15",
+     "author": "A K Jacobs",
+     "year": "2003",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "ref36",
+     "doi-asserted-by": "crossref",
+     "first-page": "12191",
+     "DOI": "10.1073/pnas.0605098103",
+     "article-title": "The cotton fiber zinc-binding domain of cellulose synthase A1 from Gossypium hirsutum displays rapid turnover in vitro and in vivo",
+     "volume": "103",
+     "author": "D Jacob-Wilk",
+     "year": "2006",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "key": "ref37",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1126/sciadv.1500069",
+     "article-title": "Membrane pore architecture of the CslF6 protein controls (1-3,1-4)-?-glucan structure",
+     "volume": "1",
+     "author": "S A Jobling",
+     "year": "2015",
+     "journal-title": "Sci Adv"
+    },
+    {
+     "key": "ref38",
+     "doi-asserted-by": "crossref",
+     "first-page": "537",
+     "DOI": "10.1111/tpj.12748",
+     "article-title": "The cytoplasmic localization of the catalytic site of CSLF6 supports a channeling model for the biosynthesis of mixed-linkage glucan",
+     "volume": "81",
+     "author": "S J Kim",
+     "year": "2015",
+     "journal-title": "Plant Journal"
+    },
+    {
+     "key": "ref39",
+     "doi-asserted-by": "crossref",
+     "first-page": "1062",
+     "DOI": "10.1111/tpj.13830",
+     "article-title": "In the grass species Brachypodium distachyon, the production of mixed-linkage (1,3;1,4)-?-glucan (MLG) occurs in the Golgi apparatus",
+     "volume": "93",
+     "author": "S J Kim",
+     "year": "2018",
+     "journal-title": "Plant Journal"
+    },
+    {
+     "key": "ref40",
+     "doi-asserted-by": "crossref",
+     "first-page": "221",
+     "DOI": "10.1093/aob/mcn077",
+     "article-title": "?-1,3 : 1,4-glucan synthase activity in rice seedlings under water",
+     "volume": "102",
+     "author": "T Kimpara",
+     "year": "2008",
+     "journal-title": "Ann Bot"
+    },
+    {
+     "key": "ref41",
+     "doi-asserted-by": "crossref",
+     "first-page": "1559",
+     "DOI": "10.1093/plphys/kiab009",
+     "article-title": "A mixed-linkage (1,3;1,4)-b-D-glucan specific hydrolase mediates dark-triggered degradation of this plant cell wall polysaccharide",
+     "volume": "185",
+     "author": "F J Kraemer",
+     "year": "2021",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref42",
+     "doi-asserted-by": "crossref",
+     "first-page": "36931",
+     "DOI": "10.1074/jbc.M203530200",
+     "article-title": "In vitro versus in vivo cellulose microfibrils from plant primary wall synthases: Structural differences",
+     "volume": "277",
+     "author": "J Lai-Kee-Him",
+     "year": "2002",
+     "journal-title": "Journal of Biological Chemistry"
+    },
+    {
+     "key": "ref43",
+     "first-page": "1143",
+     "article-title": "?-Glucan synthesis in the cotton fiber",
+     "volume": "101",
+     "author": "L Li",
+     "year": "1993",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref44",
+     "doi-asserted-by": "crossref",
+     "first-page": "1124",
+     "DOI": "10.1104/pp.17.01718",
+     "article-title": "Revised phylogeny of the cellulose synthase gene superfamily: Insights into cell wall evolution",
+     "volume": "177",
+     "author": "A Little",
+     "year": "2018",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref45",
+     "doi-asserted-by": "crossref",
+     "first-page": "69",
+     "DOI": "10.1146/annurev-arplant-050213-040240",
+     "article-title": "The cell biology of cellulose synthesis",
+     "volume": "65",
+     "author": "H E Mcfarlane",
+     "year": "2014",
+     "journal-title": "Annu Rev Plant Biol"
+    },
+    {
+     "key": "ref46",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/S0021-9258(18)54610-X",
+     "article-title": "The ?-glucan svnthase from Lolium multiflorum: Detergent solubilization, purification using monoclonal antibodies, and photoaffinity labeling with a novel photoreactive pyrimidine analogue of uridine 5?diphosphoglucose",
+     "volume": "266",
+     "author": "P J Meikle",
+     "year": "1991",
+     "journal-title": "Journal of Biological Chemistry"
+    },
+    {
+     "key": "ref47",
+     "doi-asserted-by": "crossref",
+     "first-page": "1159",
+     "DOI": "10.1021/pr070255c",
+     "article-title": "Analysis of the Oryza sativa plasma membrane proteome using combined protein and peptide fractionation approaches in conjunction with mass spectrometry",
+     "volume": "7",
+     "author": "S H A Natera",
+     "year": "2008",
+     "journal-title": "J Proteome Res"
+    },
+    {
+     "key": "ref48",
+     "doi-asserted-by": "crossref",
+     "first-page": "1209",
+     "DOI": "10.1104/pp.109.151712",
+     "article-title": "Downregulation of the CSLF6 gene results in decreased (1,3;1,4)-?-D-glucan in endosperm of wheat",
+     "volume": "152",
+     "author": "C Nemeth",
+     "year": "2010",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref49",
+     "author": "P Purushotham",
+     "year": "2022",
+     "journal-title": "Mechanism of mixedlinkage glucan biosynthesis by barley cellulose synthase-like CslF6 (1,3;1,4)-?-glucan synthase"
+    },
+    {
+     "key": "ref50",
+     "doi-asserted-by": "crossref",
+     "first-page": "1089",
+     "DOI": "10.1126/science.abb2978",
+     "article-title": "Architecture of a catalytically active homotrimeric plant cellulose synthase complex",
+     "volume": "369",
+     "author": "P Purushotham",
+     "year": "1979",
+     "journal-title": "Science"
+    },
+    {
+     "key": "ref51",
+     "doi-asserted-by": "crossref",
+     "first-page": "1896",
+     "DOI": "10.1038/nprot.2007.261",
+     "article-title": "Protocol for micro-purification, enrichment, prefractionation and storage of peptides for proteomics using StageTips",
+     "volume": "2",
+     "author": "J Rappsilber",
+     "year": "2007",
+     "journal-title": "Nat Protoc"
+    },
+    {
+     "key": "ref52",
+     "doi-asserted-by": "crossref",
+     "first-page": "185",
+     "DOI": "10.1105/tpc.016600",
+     "article-title": "KIC, a Novel Ca2+ Binding Protein with One EF-Hand Motif, Interacts with a Microtubule Motor Protein and Regulates Trichome Morphogenesis",
+     "volume": "16",
+     "author": "V S Reddy",
+     "year": "2004",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "ref53",
+     "doi-asserted-by": "crossref",
+     "first-page": "11",
+     "DOI": "10.9734/bji/2022/v26i4653",
+     "article-title": "A Comprehensive Review on Cytoskeletal Organization and Its Interaction with Polysaccharides and Enzymes during Primary Cell Wall Development",
+     "volume": "26",
+     "author": "R S Rehman",
+     "year": "2022",
+     "journal-title": "Biotechnology Journal International"
+    },
+    {
+     "key": "ref54",
+     "doi-asserted-by": "crossref",
+     "first-page": "1113",
+     "DOI": "10.1104/pp.106.085191",
+     "article-title": "The Arabidopsis tetratricopeptide repeat-containing protein TTL1 is required for osmotic stress responses and abscisic acid sensitivity",
+     "volume": "142",
+     "author": "A Rosado",
+     "year": "2006",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref55",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.3389/fpls.2011.00023",
+     "article-title": "Large-scale coexpression approach to dissect secondary cell wall formation across plant species",
+     "volume": "2",
+     "author": "C Ruprecht",
+     "year": "2011",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "key": "ref56",
+     "doi-asserted-by": "crossref",
+     "first-page": "3533",
+     "DOI": "10.1073/pnas.1615005114",
+     "article-title": "BRASSINOSTEROID INSENSITIVE2 negatively regulates cellulose synthesis in Arabidopsis by phosphorylating cellulose synthase 1",
+     "volume": "114",
+     "author": "C S\ufffdnchez-Rodr\ufffdguez",
+     "year": "2017",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "key": "ref57",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3389/fpls.2015.01218",
+     "article-title": "Expansion and function of repeat domain proteins during stress and development in plants",
+     "volume": "6",
+     "author": "M Sharma",
+     "year": "2016",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "key": "ref58",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.3389/fnut.2023.1143682",
+     "article-title": "?-Glucans: a Potential Source for Maintaining Gut Microbiota and the Immune System",
+     "volume": "10",
+     "author": "R P Singh",
+     "year": "2023",
+     "journal-title": "Front Nutr"
+    },
+    {
+     "key": "ref59",
+     "first-page": "123",
+     "article-title": "STUDIES ON LOLIUM MULTIFLORUM ENDOSPERM IN TISSUE CULTURE ultrastructure of the cultured endosperm is compared with that of endosperm from the developing seeds . The chemistry of L . multiflorum cell walls and aspects of the biosynthesis of the , B-glucan",
+     "volume": "1",
+     "author": "M M Smith",
+     "year": "1973",
+     "journal-title": "Aust J Biol Sci"
+    },
+    {
+     "key": "ref60",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3390/plants7030052",
+     "article-title": "Phosphoregulation of the plant cellulose synthase complex and cellulose synthase-like proteins",
+     "volume": "7",
+     "author": "T L Speicher",
+     "year": "2018",
+     "journal-title": "Plants"
+    },
+    {
+     "key": "ref61",
+     "doi-asserted-by": "crossref",
+     "first-page": "124",
+     "DOI": "10.1016/j.tifs.2012.10.005",
+     "article-title": "The increasing use of barley and barley by-products in the production of healthier baked goods",
+     "volume": "29",
+     "author": "P Sullivan",
+     "year": "2013",
+     "journal-title": "Trends Food Sci Technol"
+    },
+    {
+     "key": "ref62",
+     "doi-asserted-by": "crossref",
+     "first-page": "381",
+     "DOI": "10.1093/jxb/err285",
+     "article-title": "Functional characterization of barley betaglucanless mutants demonstrates a unique role for CslF6 in (1,3;1,4)-?-D-glucan biosynthesis",
+     "volume": "63",
+     "author": "S Taketa",
+     "year": "2012",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "key": "ref63",
+     "doi-asserted-by": "crossref",
+     "first-page": "181",
+     "DOI": "10.1111/j.1399-3054.2005.00558.x",
+     "article-title": "Biosynthesis of (1?3),(1?4)-?-glucan in developing endosperms of barley (Hordeum vulgare)",
+     "volume": "125",
+     "author": "K Tsuchiya",
+     "year": "2005",
+     "journal-title": "Physiol Plant"
+    },
+    {
+     "key": "ref64",
+     "doi-asserted-by": "crossref",
+     "first-page": "758",
+     "DOI": "10.1104/pp.103.032011",
+     "article-title": "Topology of the Maize Mixed Linkage (1?3),(1?4)-?-D-Glucan Synthase at the Golgi Membrane",
+     "volume": "134",
+     "author": "B R Urbanowicz",
+     "year": "2004",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref65",
+     "doi-asserted-by": "crossref",
+     "first-page": "56",
+     "DOI": "10.1104/pp.112.195495",
+     "article-title": "Loss of cellulose synthase-like F6 function affects mixed-linkage glucan deposition, cell wall mechanical properties, and defense responses in vegetative tissues of ricespi",
+     "volume": "159",
+     "author": "M E Vega-S\ufffdnchez",
+     "year": "2012",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "ref66",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0066669",
+     "article-title": "Plant Kinesin-Like Calmodulin Binding Protein Employs Its Regulatory Domain for Dimerization",
+     "volume": "8",
+     "author": "M V Vinogradova",
+     "year": "2013",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "ref67",
+     "doi-asserted-by": "crossref",
+     "first-page": "754",
+     "DOI": "10.1105/tpc.114.135970",
+     "article-title": "Determining the subcellular location of synthesis and assembly of the cell wall polysaccharide (1,3; 1,4)-b-d-glucan in grasses",
+     "volume": "27",
+     "author": "S M Wilson",
+     "year": "2015",
+     "journal-title": "Plant Cell"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      22
+     ]
+    ],
+    "date-time": "2026-09-22T18:40:36Z",
+    "timestamp": 1790102436000
+   },
+   "score": 40.38338,
+   "resource": {
+    "primary": {
+     "URL": "https://www.ssrn.com/abstract=7507383"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2026
+     ]
+    ]
+   },
+   "references-count": 67,
+   "URL": "https://doi.org/10.2139/ssrn.7507383",
+   "published": {
+    "date-parts": [
+     [
+      2026
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  }
+ ]
+}

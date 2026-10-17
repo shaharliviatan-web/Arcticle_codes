@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item CHK4** — checklist item 5: captions done (CAP1)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Checklist at the top, item 5",
+   "why": "CAP1 applied.",
+   "old": "⬜ concise captions (section \"Supplementary Information\", item CAP1, awaiting approval)",
+   "new": "{-⬜ concise captions (section \"Supplementary Information\", item CAP1, awaiting approval)-}{+✅ concise captions (last section, \"Supplementary Information\"; enter the same captions in the submission system)+}"
+  }
+ ]
+}

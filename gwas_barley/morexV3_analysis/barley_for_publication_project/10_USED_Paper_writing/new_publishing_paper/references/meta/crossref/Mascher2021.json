@@ -1,0 +1,4681 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T01:35:21Z",
+   "timestamp": 1790732121664,
+   "version": "4.1.0"
+  },
+  "reference-count": 84,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "6",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2021,
+       3,
+       12
+      ]
+     ],
+     "date-time": "2021-03-12T00:00:00Z",
+     "timestamp": 1615507200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "German Ministry of Education and Research"
+   },
+   {
+    "name": "SHAPE II",
+    "award": [
+     "FKZ 031B0884"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "FKZ 031B0884"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100018929",
+    "name": "de.NBI",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "FKZ 031A536"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "FKZ 031A536"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100018929",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001824",
+    "name": "Czech Science Foundation",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "17-17564S"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "17-17564S"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001824",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100008530",
+    "name": "ERDF",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "CZ.02.1.01/0.0/0.0/16_019/0000827"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "CZ.02.1.01/0.0/0.0/16_019/0000827"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100008530",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "ELIXIR-CZ project",
+    "award": [
+     "LM2015047"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "LM2015047"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100000324",
+    "name": "The Gatsby Charitable Foundation",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "BB/P012574/1"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "BB/P012574/1"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100000324",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "DTP",
+    "award": [
+     "BB/M011216/1"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "BB/M011216/1"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100008762",
+    "name": "Genome Canada",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100008762",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100010785",
+    "name": "Canada First Research Excellence Fund",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/501100010785",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2021,
+     7,
+     19
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Sequence assembly of large and repeat-rich plant genomes has been challenging, requiring substantial computational resources and often several complementary sequence assembly and genome mapping approaches. The recent development of fast and accurate long-read sequencing by circular consensus sequencing (CCS) on the PacBio platform may greatly increase the scope of plant pan-genome projects. Here, we compare current long-read sequencing platforms regarding their ability to rapidly generate contiguous sequence assemblies in pan-genome studies of barley (Hordeum vulgare). Most long-read assemblies are clearly superior to the current barley reference sequence based on short-reads. Assemblies derived from accurate long reads excel in most metrics, but the CCS approach was the most cost-effective strategy for assembling tens of barley genomes. A downsampling analysis indicated that 20-fold CCS coverage can yield very good sequence assemblies, while even five-fold CCS data may capture the complete sequence of most genes. We present an updated reference genome assembly for barley with near-complete representation of the repeat-rich intergenic space. Long-read assembly can underpin the construction of accurate and complete sequences of multiple genomes of a species to build pan-genome infrastructures in Triticeae crops and their wild relatives.</jats:p>",
+  "DOI": "10.1093/plcell/koab077",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     3,
+     10
+    ]
+   ],
+   "date-time": "2021-03-10T15:12:12Z",
+   "timestamp": 1615389132000
+  },
+  "page": "1888-1906",
+  "source": "Crossref",
+  "is-referenced-by-count": 417,
+  "title": [
+   "Long-read sequence assembly: a technical evaluation in barley"
+  ],
+  "prefix": "10.1093",
+  "volume": "33",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-6373-6013",
+    "authenticated-orcid": false,
+    "given": "Martin",
+    "family": "Mascher",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben , Seeland 06466, Germany"
+     },
+     {
+      "name": "German Centre for Integrative Biodiversity Research (iDiv), Halle-Jena-Leipzig , Leipzig 04103, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas",
+    "family": "Wicker",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Plant and Microbial Biology, University of Z\u00fcrich , Z\u00fcrich 8008, Switzerland"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7943-3997",
+    "authenticated-orcid": false,
+    "given": "Jerry",
+    "family": "Jenkins",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0109-5174",
+    "authenticated-orcid": false,
+    "given": "Christopher",
+    "family": "Plott",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5543-1911",
+    "authenticated-orcid": false,
+    "given": "Thomas",
+    "family": "Lux",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7313-2125",
+    "authenticated-orcid": false,
+    "given": "Chu Shin",
+    "family": "Koh",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Global Institute for Food Security, University of Saskatchewan , Saskatoon SK S7N 4L8, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2663-1006",
+    "authenticated-orcid": false,
+    "given": "Jennifer",
+    "family": "Ens",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Plant Sciences, Crop Development Centre, University of Saskatchewan , Saskatoon SK S7N 5A8, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Heidrun",
+    "family": "Gundlach",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1872-2127",
+    "authenticated-orcid": false,
+    "given": "Lori B",
+    "family": "Boston",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zuzana",
+    "family": "Tulpov\u00e1",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Experimental Botany of the Czech Academy of Sciences, Centre of the Region Han\u00e1 for Biotechnological and Agricultural Research , Olomouc 78371, Czech Republic"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6598-6742",
+    "authenticated-orcid": false,
+    "given": "Samuel",
+    "family": "Holden",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Sainsbury Laboratory, University of East Anglia , Norwich NR4 7UH, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Inmaculada",
+    "family": "Hern\u00e1ndez-Pinz\u00f3n",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Sainsbury Laboratory, University of East Anglia , Norwich NR4 7UH, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6113-3518",
+    "authenticated-orcid": false,
+    "given": "Uwe",
+    "family": "Scholz",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben , Seeland 06466, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6484-1077",
+    "authenticated-orcid": false,
+    "given": "Klaus F X",
+    "family": "Mayer",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0701-7035",
+    "authenticated-orcid": false,
+    "given": "Manuel",
+    "family": "Spannagl",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7536-3856",
+    "authenticated-orcid": false,
+    "given": "Curtis J",
+    "family": "Pozniak",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Plant Sciences, Crop Development Centre, University of Saskatchewan , Saskatoon SK S7N 5A8, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1832-4009",
+    "authenticated-orcid": false,
+    "given": "Andrew G",
+    "family": "Sharpe",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Global Institute for Food Security, University of Saskatchewan , Saskatoon SK S7N 4L8, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hana",
+    "family": "\u0160imkov\u00e1",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Experimental Botany of the Czech Academy of Sciences, Centre of the Region Han\u00e1 for Biotechnological and Agricultural Research , Olomouc 78371, Czech Republic"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2098-6818",
+    "authenticated-orcid": false,
+    "given": "Matthew J",
+    "family": "Moscou",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Sainsbury Laboratory, University of East Anglia , Norwich NR4 7UH, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8356-8325",
+    "authenticated-orcid": false,
+    "given": "Jane",
+    "family": "Grimwood",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8062-9172",
+    "authenticated-orcid": false,
+    "given": "Jeremy",
+    "family": "Schmutz",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3011-8731",
+    "authenticated-orcid": false,
+    "given": "Nils",
+    "family": "Stein",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben , Seeland 06466, Germany"
+     },
+     {
+      "name": "Center for Integrated Breeding Research (CiBreed), Georg-August-University G\u00f6ttingen , G\u00f6ttingen 37073, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     3,
+     12
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2023011109351170900_koab077-B1",
+    "doi-asserted-by": "crossref",
+    "first-page": "145",
+    "DOI": "10.1016/j.cell.2020.05.021",
+    "article-title": "Major impacts of widespread structural variation on gene expression and crop improvement in tomato",
+    "volume": "182",
+    "author": "Alonge",
+    "year": "2020",
+    "journal-title": "Cell"
+   },
+   {
+    "key": "2023011109351170900_koab077-B2",
+    "doi-asserted-by": "crossref",
+    "first-page": "403",
+    "DOI": "10.1016/S0022-2836(05)80360-2",
+    "article-title": "Basic local alignment search tool",
+    "volume": "215",
+    "author": "Altschul",
+    "year": "1990",
+    "journal-title": "J Mol Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B3",
+    "doi-asserted-by": "crossref",
+    "first-page": "baw033",
+    "DOI": "10.1093/database/baw033",
+    "article-title": "PGP repository: a plant phenomics and genomics data publication infrastructure",
+    "volume": "2016",
+    "author": "Arend",
+    "year": "2016",
+    "journal-title": "Database"
+   },
+   {
+    "key": "2023011109351170900_koab077-B4",
+    "doi-asserted-by": "crossref",
+    "first-page": "214",
+    "DOI": "10.1186/1471-2105-15-214",
+    "article-title": "e! DAL-a framework to store, share and publish research data",
+    "volume": "15",
+    "author": "Arend",
+    "year": "2014",
+    "journal-title": "BMC Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B5",
+    "doi-asserted-by": "crossref",
+    "first-page": "412",
+    "DOI": "10.1104/pp.113.228213",
+    "article-title": "A sequence-ready physical map of barley anchored genetically by two million single-nucleotide polymorphisms",
+    "volume": "164",
+    "author": "Ariyadasa",
+    "year": "2014",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B6",
+    "doi-asserted-by": "crossref",
+    "first-page": "93",
+    "DOI": "10.1126/science.aan0032",
+    "article-title": "Wild emmer genome architecture and diversity elucidate wheat evolution and domestication",
+    "volume": "357",
+    "author": "Avni",
+    "year": "2017",
+    "journal-title": "Science"
+   },
+   {
+    "key": "2023011109351170900_koab077-B7",
+    "doi-asserted-by": "crossref",
+    "first-page": "846",
+    "DOI": "10.1007/s00122-002-1104-0",
+    "article-title": "Genetic and morphological characterization of the barley uniculm2 (cul2) mutant",
+    "volume": "106",
+    "author": "Babb",
+    "year": "2003",
+    "journal-title": "Theor Appl Genet"
+   },
+   {
+    "key": "2023011109351170900_koab077-B8",
+    "doi-asserted-by": "crossref",
+    "first-page": "493",
+    "DOI": "10.1111/tpj.14641",
+    "article-title": "Genome-wide sequence information reveals recurrent hybridization among diploid wheat wild relatives",
+    "volume": "102",
+    "author": "Bernhardt",
+    "year": "2020",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2023011109351170900_koab077-B9",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1007/978-3-319-92528-8_2",
+    "volume-title": "The Barley Genome",
+    "author": "Blattner",
+    "year": "2018"
+   },
+   {
+    "key": "2023011109351170900_koab077-B10",
+    "doi-asserted-by": "crossref",
+    "first-page": "550",
+    "DOI": "10.1111/j.1365-313X.2012.05007.x",
+    "article-title": "Inter-species sequence comparison of Brachypodium reveals how transposon activity corrodes genome colinearity",
+    "volume": "71",
+    "author": "Buchmann",
+    "year": "2012",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2023011109351170900_koab077-B11",
+    "doi-asserted-by": "crossref",
+    "first-page": "e0185056",
+    "DOI": "10.1371/journal.pone.0185056",
+    "article-title": "BBMerge\u2014accurate paired shotgun read merging via overlap",
+    "volume": "12",
+    "author": "Bushnell",
+    "year": "2017",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "key": "2023011109351170900_koab077-B12",
+    "first-page": "306",
+    "volume-title": "Genome Biol",
+    "author": "Campoy",
+    "year": "2020"
+   },
+   {
+    "key": "2023011109351170900_koab077-B13",
+    "doi-asserted-by": "crossref",
+    "first-page": "26",
+    "DOI": "10.1186/s13059-015-0582-8",
+    "article-title": "A whole-genome shotgun approach for assembling and anchoring the hexaploid bread wheat genome",
+    "volume": "16",
+    "author": "Chapman",
+    "year": "2015",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B14",
+    "doi-asserted-by": "crossref",
+    "first-page": "1050",
+    "DOI": "10.1038/nmeth.4035",
+    "article-title": "Phased diploid genome assembly with single-molecule real-time sequencing",
+    "volume": "13",
+    "author": "Chin",
+    "year": "2016",
+    "journal-title": "Nat Methods"
+   },
+   {
+    "key": "2023011109351170900_koab077-B15",
+    "doi-asserted-by": "crossref",
+    "first-page": "760",
+    "DOI": "10.1111/pbi.12826",
+    "article-title": "Assembly and analysis of a qingke reference genome demonstrate its close genetic relation to modern cultivated barley",
+    "volume": "16",
+    "author": "Dai",
+    "year": "2018",
+    "journal-title": "Plant Biotechnol J"
+   },
+   {
+    "key": "2023011109351170900_koab077-B16",
+    "doi-asserted-by": "crossref",
+    "first-page": "617",
+    "DOI": "10.1104/pp.110.166249",
+    "article-title": "Genetic dissection of Barley morphology and development",
+    "volume": "155",
+    "author": "Druka",
+    "year": "2011",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B17",
+    "doi-asserted-by": "crossref",
+    "first-page": "680",
+    "DOI": "10.1139/g88-115",
+    "article-title": "Apparent sources of the A genomes of wheats inferred from polymorphism in abundance and restriction fragment length of repeated nucleotide sequences",
+    "volume": "30",
+    "author": "Dvorak",
+    "year": "1988",
+    "journal-title": "Genome"
+   },
+   {
+    "key": "2023011109351170900_koab077-B18",
+    "doi-asserted-by": "crossref",
+    "first-page": "18",
+    "DOI": "10.1186/1471-2105-9-18",
+    "article-title": "LTRharvest, an efficient and flexible software for de novo detection of LTR retrotransposons",
+    "volume": "9",
+    "author": "Ellinghaus",
+    "year": "2008",
+    "journal-title": "BMC Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B19",
+    "author": "Garg",
+    "year": "2020"
+   },
+   {
+    "key": "2023011109351170900_koab077-B20",
+    "author": "Genova",
+    "year": "2019"
+   },
+   {
+    "key": "2023011109351170900_koab077-B21",
+    "doi-asserted-by": "crossref",
+    "first-page": "965",
+    "DOI": "10.1016/j.infsof.2005.09.005",
+    "article-title": "Engineering a software tool for gene structure prediction in higher organisms",
+    "volume": "47",
+    "author": "Gremme",
+    "year": "2005",
+    "journal-title": "Inf Software Technol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B22",
+    "doi-asserted-by": "crossref",
+    "first-page": "5654",
+    "DOI": "10.1093/nar/gkg770",
+    "article-title": "Improving the Arabidopsis genome annotation using maximal transcript alignment assemblies",
+    "volume": "31",
+    "author": "Haas",
+    "year": "2003",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2023011109351170900_koab077-B23",
+    "doi-asserted-by": "crossref",
+    "first-page": "R7",
+    "DOI": "10.1186/gb-2008-9-1-r7",
+    "article-title": "Automated eukaryotic gene structure annotation using EVidenceModeler and the Program to Assemble Spliced Alignments",
+    "volume": "9",
+    "author": "Haas",
+    "year": "2008",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B24",
+    "doi-asserted-by": "crossref",
+    "first-page": "e57",
+    "DOI": "10.1002/cpbi.57",
+    "article-title": "Predicting genes in single genomes with AUGUSTUS",
+    "volume": "65",
+    "author": "Hoff",
+    "year": "2019",
+    "journal-title": "Curr Protoc Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B25",
+    "first-page": "711",
+    "year": "2012"
+   },
+   {
+    "key": "2023011109351170900_koab077-B26",
+    "first-page": "1251788",
+    "year": "2014"
+   },
+   {
+    "key": "2023011109351170900_koab077-B27",
+    "doi-asserted-by": "crossref",
+    "first-page": "284",
+    "DOI": "10.1038/s41586-020-2947-8",
+    "article-title": "The barley pan-genome reveals the hidden legacy of mutation breeding",
+    "volume": "588",
+    "author": "Jayakodi",
+    "year": "2020",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2023011109351170900_koab077-B28",
+    "first-page": "1113",
+    "article-title": "A homolog of\u2014blade-on-petiole 1 and 2 (BOP1/2) controls internode length and homeotic changes of the barley inflorescence",
+    "volume": "171",
+    "author": "Jost",
+    "year": "2016",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B29",
+    "doi-asserted-by": "crossref",
+    "first-page": "700",
+    "DOI": "10.1016/j.tplants.2019.05.003",
+    "article-title": "Tools and strategies for long-read sequencing and de novo assembly of plant genomes",
+    "volume": "24",
+    "author": "Jung",
+    "year": "2019",
+    "journal-title": "Trends Plant Sci"
+   },
+   {
+    "key": "2023011109351170900_koab077-B30",
+    "doi-asserted-by": "crossref",
+    "first-page": "286",
+    "DOI": "10.1093/bib/bbn013",
+    "article-title": "Recent developments in the MAFFT multiple sequence alignment program",
+    "volume": "9",
+    "author": "Katoh",
+    "year": "2008",
+    "journal-title": "Brief Bioinform"
+   },
+   {
+    "key": "2023011109351170900_koab077-B31",
+    "doi-asserted-by": "crossref",
+    "first-page": "907",
+    "DOI": "10.1038/s41587-019-0201-4",
+    "article-title": "Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype",
+    "volume": "37",
+    "author": "Kim",
+    "year": "2019",
+    "journal-title": "Nat Biotechnol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B32",
+    "doi-asserted-by": "crossref",
+    "first-page": "1174",
+    "DOI": "10.1038/nbt.4277",
+    "article-title": "De novo assembly of haplotype-resolved genomes with trio binning",
+    "volume": "36",
+    "author": "Koren",
+    "year": "2018",
+    "journal-title": "Nat Biotechnol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B33",
+    "doi-asserted-by": "crossref",
+    "first-page": "517",
+    "DOI": "10.1186/1471-2164-9-517",
+    "article-title": "A new method to compute K-mer frequencies and its application to annotate large repetitive plant genomes",
+    "volume": "9",
+    "author": "Kurtz",
+    "year": "2008",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B34",
+    "doi-asserted-by": "crossref",
+    "first-page": "2885",
+    "DOI": "10.1093/bioinformatics/btv290",
+    "article-title": "BFC: correcting Illumina sequencing errors",
+    "volume": "31",
+    "author": "Li",
+    "year": "2015",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B35",
+    "first-page": "7",
+    "article-title": "Minimap2: pairwise alignment for nucleotide sequences",
+    "volume": "1",
+    "author": "Li",
+    "year": "2018",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B36",
+    "doi-asserted-by": "crossref",
+    "first-page": "2078",
+    "DOI": "10.1093/bioinformatics/btp352",
+    "article-title": "The sequence alignment/map format and SAMtools",
+    "volume": "25",
+    "author": "Li",
+    "year": "2009",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B37",
+    "doi-asserted-by": "crossref",
+    "first-page": "121",
+    "DOI": "10.1186/s13059-020-02029-9",
+    "article-title": "Gapless assembly of maize chromosomes using long-read technologies",
+    "volume": "21",
+    "author": "Liu",
+    "year": "2020",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B38",
+    "first-page": "162",
+    "article-title": "Pan-genome of wild and cultivated soybeans. Cell",
+    "author": "Liu",
+    "year": "2020"
+   },
+   {
+    "key": "2023011109351170900_koab077-B39",
+    "doi-asserted-by": "crossref",
+    "first-page": "885",
+    "DOI": "10.1038/s41588-019-0381-3",
+    "article-title": "Durum wheat genome highlights past domestication signatures and future improvement targets",
+    "volume": "51",
+    "author": "Maccaferri",
+    "year": "2019",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "key": "2023011109351170900_koab077-B40",
+    "doi-asserted-by": "crossref",
+    "first-page": "829",
+    "DOI": "10.1007/BF00027369",
+    "article-title": "BARE-1, a copia-like retroelement in barley (Hordeum vulgare L.)",
+    "volume": "22",
+    "author": "Manninen",
+    "year": "1993",
+    "journal-title": "Plant Mol Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B41",
+    "doi-asserted-by": "crossref",
+    "first-page": "427",
+    "DOI": "10.1038/nature22043",
+    "article-title": "A chromosome conformation capture ordered sequence of the barley genome",
+    "volume": "544",
+    "author": "Mascher",
+    "year": "2017",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2023011109351170900_koab077-B42",
+    "doi-asserted-by": "crossref",
+    "first-page": "718",
+    "DOI": "10.1111/tpj.12319",
+    "article-title": "Anchoring and ordering NGS contig assemblies by population sequencing (POPSEQ)",
+    "volume": "76",
+    "author": "Mascher",
+    "year": "2013",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2023011109351170900_koab077-B43",
+    "doi-asserted-by": "crossref",
+    "first-page": "20",
+    "DOI": "10.1104/pp.110.171579",
+    "article-title": "Comprehensive sequence analysis of 24,783 barley full-length cDNAs derived from 12 clone libraries",
+    "volume": "156",
+    "author": "Matsumoto",
+    "year": "2011",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B44",
+    "doi-asserted-by": "crossref",
+    "first-page": "1249",
+    "DOI": "10.1105/tpc.110.082537",
+    "article-title": "Unlocking the barley genome by chromosomal and comparative genomics",
+    "volume": "23",
+    "author": "Mayer",
+    "year": "2011",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2023011109351170900_koab077-B45",
+    "doi-asserted-by": "crossref",
+    "first-page": "129",
+    "DOI": "10.1016/j.pbi.2005.01.002",
+    "article-title": "Evolving disease resistance genes",
+    "volume": "8",
+    "author": "Meyers",
+    "year": "2005",
+    "journal-title": "Curr Opin Plant Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B46",
+    "doi-asserted-by": "crossref",
+    "first-page": "79",
+    "DOI": "10.1038/s41586-020-2547-7",
+    "article-title": "Telomere-to-telomere assembly of a complete human X chromosome",
+    "volume": "585",
+    "author": "Miga",
+    "year": "2020",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2023011109351170900_koab077-B47",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-3-319-23494-6",
+    "volume-title": "Alien Introgression in Wheat",
+    "author": "Moln\u00e1r-L\u00e1ng",
+    "year": "2015"
+   },
+   {
+    "key": "2023011109351170900_koab077-B48",
+    "doi-asserted-by": "crossref",
+    "first-page": "284",
+    "DOI": "10.1186/s13059-019-1899-5",
+    "article-title": "TRITEX: chromosome-scale sequence assembly of Triticeae genomes with open-source tools",
+    "volume": "20",
+    "author": "Monat",
+    "year": "2019",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B49",
+    "doi-asserted-by": "crossref",
+    "first-page": "1291",
+    "DOI": "10.1101/gr.263566.120",
+    "article-title": "HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads",
+    "volume": "30",
+    "author": "Nurk",
+    "year": "2020",
+    "journal-title": "Genome Res"
+   },
+   {
+    "key": "2023011109351170900_koab077-B50",
+    "doi-asserted-by": "crossref",
+    "first-page": "383",
+    "DOI": "10.1534/genetics.114.165613",
+    "article-title": "Mapping-by-sequencing identifies HvPHYTOCHROME C as a candidate gene for the early maturity 5 locus modulating the circadian clock and photoperiodic flowering in barley",
+    "volume": "198",
+    "author": "Pankin",
+    "year": "2014",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B51",
+    "doi-asserted-by": "crossref",
+    "first-page": "290",
+    "DOI": "10.1038/nbt.3122",
+    "article-title": "StringTie enables improved reconstruction of a transcriptome from RNA-seq reads",
+    "volume": "33",
+    "author": "Pertea",
+    "year": "2015",
+    "journal-title": "Nat Biotechnol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B52",
+    "author": "Rabanus-Wallace",
+    "year": "2019"
+   },
+   {
+    "key": "2023011109351170900_koab077-B53",
+    "doi-asserted-by": "crossref",
+    "first-page": "968",
+    "DOI": "10.1186/s12864-019-6243-7",
+    "article-title": "BaRTv1.0: an improved barley reference transcript dataset to determine accurate changes in the barley transcriptome using RNA-seq",
+    "volume": "20",
+    "author": "Rapazote-Flores",
+    "year": "2019",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B54",
+    "doi-asserted-by": "crossref",
+    "first-page": "155",
+    "DOI": "10.1038/s41592-019-0669-3",
+    "article-title": "Fast and accurate long-read assembly with wtdbg2",
+    "volume": "17",
+    "author": "Ruan",
+    "year": "2020",
+    "journal-title": "Nat Methods"
+   },
+   {
+    "key": "2023011109351170900_koab077-B55",
+    "doi-asserted-by": "crossref",
+    "first-page": "43",
+    "DOI": "10.1038/1695",
+    "article-title": "The paleontology of intergene retrotransposons of maize",
+    "volume": "20",
+    "author": "SanMiguel",
+    "year": "1998",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "key": "2023011109351170900_koab077-B56",
+    "doi-asserted-by": "crossref",
+    "first-page": "793",
+    "DOI": "10.1038/nature03895",
+    "article-title": "The map-based sequence of the rice genome",
+    "volume": "436",
+    "author": "Sasaki",
+    "year": "2005",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2023011109351170900_koab077-B57",
+    "doi-asserted-by": "crossref",
+    "first-page": "1492",
+    "DOI": "10.1094/MPMI-05-11-0107",
+    "article-title": "Large-scale data integration reveals colocalization of gene functional groups with meta-QTL for multiple disease resistance in barley",
+    "volume": "24",
+    "author": "Schweizer",
+    "year": "2011",
+    "journal-title": "Mol Plant-Microbe Interact"
+   },
+   {
+    "key": "2023011109351170900_koab077-B58",
+    "doi-asserted-by": "crossref",
+    "first-page": "373",
+    "DOI": "10.1007/s00122-011-1712-7",
+    "article-title": "High resolution mapping of Dense spike-ar (dsp.ar) to the genetic centromere of barley chromosome 7H",
+    "volume": "124",
+    "author": "Shahinnia",
+    "year": "2012",
+    "journal-title": "Theor Appl Genet"
+   },
+   {
+    "key": "2023011109351170900_koab077-B59",
+    "doi-asserted-by": "crossref",
+    "first-page": "3210",
+    "DOI": "10.1093/bioinformatics/btv351",
+    "article-title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs",
+    "volume": "31",
+    "author": "Simao",
+    "year": "2015",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B60",
+    "doi-asserted-by": "crossref",
+    "first-page": "369",
+    "DOI": "10.1023/A:1024322001786",
+    "article-title": "Preparation of HMW DNA from plant nuclei and chromosomes isolated from root tips",
+    "volume": "46",
+    "author": "\u0160imkov\u00e1",
+    "year": "2003",
+    "journal-title": "Biol Plantarum"
+   },
+   {
+    "key": "2023011109351170900_koab077-B61",
+    "first-page": "393",
+    "volume-title": "Introduction to Bioinformatics: A Theoretical and Practical Approach",
+    "author": "Staden",
+    "year": "2003"
+   },
+   {
+    "key": "2023011109351170900_koab077-B62",
+    "doi-asserted-by": "crossref",
+    "first-page": "62",
+    "DOI": "10.1186/1471-2105-7-62",
+    "article-title": "Gene prediction in eukaryotes with a generalized hidden Markov model that uses hints from external sources",
+    "volume": "7",
+    "author": "Stanke",
+    "year": "2006",
+    "journal-title": "BMC Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B63",
+    "author": "Stein",
+    "year": "2018"
+   },
+   {
+    "key": "2023011109351170900_koab077-B64",
+    "doi-asserted-by": "crossref",
+    "first-page": "219",
+    "DOI": "10.1007/978-94-011-4898-6_22",
+    "volume-title": "Evolution and Impact of Transposable Elements",
+    "author": "Suoniemi",
+    "year": "1997"
+   },
+   {
+    "key": "2023011109351170900_koab077-B65",
+    "doi-asserted-by": "crossref",
+    "first-page": "796",
+    "DOI": "10.1038/35048692",
+    "article-title": "Analysis of the genome sequence of the flowering plant Arabidopsis thaliana",
+    "volume": "408",
+    "year": "2000",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2023011109351170900_koab077-B66",
+    "article-title": "Shifting the limits in wheat research and breeding using a fully annotated reference genome",
+    "volume": "361",
+    "year": "2018",
+    "journal-title": "Science"
+   },
+   {
+    "key": "2023011109351170900_koab077-B67",
+    "doi-asserted-by": "crossref",
+    "first-page": "104",
+    "DOI": "10.1186/s13059-018-1477-2",
+    "article-title": "Chromosome-scale comparative sequence analysis unravels molecular mechanisms of genome dynamics between two wheat cultivars",
+    "volume": "19",
+    "author": "Thind",
+    "year": "2018",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B68",
+    "doi-asserted-by": "crossref",
+    "first-page": "562",
+    "DOI": "10.1038/nprot.2012.016",
+    "article-title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks",
+    "volume": "7",
+    "author": "Trapnell",
+    "year": "2012",
+    "journal-title": "Nat Protocols"
+   },
+   {
+    "key": "2023011109351170900_koab077-B69",
+    "doi-asserted-by": "crossref",
+    "first-page": "737",
+    "DOI": "10.1101/gr.214270.116",
+    "article-title": "Fast and accurate de novo genome assembly from long uncorrected reads",
+    "volume": "27",
+    "author": "Vaser",
+    "year": "2017",
+    "journal-title": "Genome Res"
+   },
+   {
+    "key": "2023011109351170900_koab077-B70",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1038/s41586-020-2961-x",
+    "article-title": "Multiple wheat genomes reveal global variation in modern breeding",
+    "author": "Walkowiak",
+    "year": "2020",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2023011109351170900_koab077-B71",
+    "doi-asserted-by": "crossref",
+    "first-page": "124",
+    "DOI": "10.1038/s41587-018-0004-z",
+    "article-title": "Errors in long-read assemblies can critically affect protein prediction",
+    "volume": "37",
+    "author": "Watson",
+    "year": "2019",
+    "journal-title": "Nat Biotechnol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B72",
+    "doi-asserted-by": "crossref",
+    "first-page": "1903",
+    "DOI": "10.1105/tpc.002238",
+    "article-title": "Genome dynamics and evolution of the Mla (powdery mildew) resistance locus in barley",
+    "volume": "14",
+    "author": "Wei",
+    "year": "2002",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2023011109351170900_koab077-B73",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.3835/plantgenome2017.06.0049",
+    "article-title": "A high-density, sequence-enriched genetic map of hordeum bulbosum and its collinearity to H. vulgare",
+    "volume": "10",
+    "author": "Wendler",
+    "year": "2017",
+    "journal-title": "Plant Genome"
+   },
+   {
+    "key": "2023011109351170900_koab077-B74",
+    "doi-asserted-by": "crossref",
+    "first-page": "1155",
+    "DOI": "10.1038/s41587-019-0217-9",
+    "article-title": "Highly-accurate long-read sequencing improves variant detection and assembly of a human genome",
+    "volume": "37",
+    "author": "Wenger",
+    "year": "2019",
+    "journal-title": "Nat Biotechnol"
+   },
+   {
+    "key": "2023011109351170900_koab077-B75",
+    "doi-asserted-by": "crossref",
+    "first-page": "123",
+    "DOI": "10.1007/978-3-319-92528-8_9",
+    "volume-title": "The Barley Genome",
+    "author": "Wicker",
+    "year": "2018"
+   },
+   {
+    "key": "2023011109351170900_koab077-B76",
+    "doi-asserted-by": "crossref",
+    "first-page": "973",
+    "DOI": "10.1038/nrg2165",
+    "article-title": "A unified classification system for eukaryotic transposable elements",
+    "volume": "8",
+    "author": "Wicker",
+    "year": "2007",
+    "journal-title": "Nat Rev Genet"
+   },
+   {
+    "key": "2023011109351170900_koab077-B77",
+    "doi-asserted-by": "crossref",
+    "first-page": "12790",
+    "DOI": "10.1038/ncomms12790",
+    "article-title": "DNA transposon activity is associated with increased mutation rates in genes of rice and other grasses",
+    "volume": "7",
+    "author": "Wicker",
+    "year": "2016",
+    "journal-title": "Nat Commun"
+   },
+   {
+    "key": "2023011109351170900_koab077-B78",
+    "doi-asserted-by": "crossref",
+    "first-page": "1859",
+    "DOI": "10.1093/bioinformatics/bti310",
+    "article-title": "GMAP: a genomic mapping and alignment program for mRNA and EST sequences",
+    "volume": "21",
+    "author": "Wu",
+    "year": "2005",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023011109351170900_koab077-B79",
+    "doi-asserted-by": "crossref",
+    "first-page": "1072",
+    "DOI": "10.1038/nmeth.4432",
+    "article-title": "MECAT: fast mapping, error correction, and de novo assembly for single-molecule sequencing reads",
+    "volume": "14",
+    "author": "Xiao",
+    "year": "2017",
+    "journal-title": "Nat Methods"
+   },
+   {
+    "key": "2023011109351170900_koab077-B80",
+    "first-page": "doi: 10.1101/831248)",
+    "author": "Xu",
+    "year": "2019"
+   },
+   {
+    "key": "2023011109351170900_koab077-B81",
+    "author": "Yuan",
+    "year": "2020"
+   },
+   {
+    "key": "2023011109351170900_koab077-B82",
+    "doi-asserted-by": "crossref",
+    "first-page": "139",
+    "DOI": "10.1038/s41597-020-0480-0",
+    "article-title": "An improved high-quality genome assembly and annotation of Tibetan hulless barley",
+    "volume": "7",
+    "author": "Zeng",
+    "year": "2020",
+    "journal-title": "Sci Data"
+   },
+   {
+    "key": "2023011109351170900_koab077-B83",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1093/gigascience/gix097",
+    "article-title": "The first near-complete assembly of the hexaploid bread wheat genome, Triticum aestivum",
+    "volume": "6",
+    "author": "Zimin",
+    "year": "2017",
+    "journal-title": "Gigascience"
+   },
+   {
+    "key": "2023011109351170900_koab077-B84",
+    "doi-asserted-by": "crossref",
+    "first-page": "787",
+    "DOI": "10.1101/gr.213405.116",
+    "article-title": "Hybrid assembly of the large and highly repetitive genome of Aegilops tauschii, a progenitor of bread wheat, with the MaSuRCA mega-reads algorithm",
+    "volume": "27",
+    "author": "Zimin",
+    "year": "2017",
+    "journal-title": "Genome Res"
+   }
+  ],
+  "container-title": [
+   "The Plant Cell"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://academic.oup.com/plcell/advance-article-pdf/doi/10.1093/plcell/koab077/37336487/koab077.pdf",
+    "content-type": "application/pdf",
+    "content-version": "am",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/plcell/article-pdf/33/6/1888/48606401/koab077.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/plcell/article-pdf/33/6/1888/48606401/koab077.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     10,
+     22
+    ]
+   ],
+   "date-time": "2023-10-22T17:40:08Z",
+   "timestamp": 1697996408000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/plcell/article/33/6/1888/6169005"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     3,
+     12
+    ]
+   ]
+  },
+  "references-count": 84,
+  "journal-issue": {
+   "issue": "6",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      12
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2021,
+      7,
+      19
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/plcell/koab077",
+  "relation": {},
+  "ISSN": [
+   "1040-4651",
+   "1532-298X"
+  ],
+  "issn-type": [
+   {
+    "value": "1040-4651",
+    "type": "print"
+   },
+   {
+    "value": "1532-298X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     1
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     3,
+     12
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2026-09-30T01:35:21Z",
+    "timestamp": 1790732121664,
+    "version": "4.1.0"
+   },
+   "reference-count": 84,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "6",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        3,
+        12
+       ]
+      ],
+      "date-time": "2021-03-12T00:00:00Z",
+      "timestamp": 1615507200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "name": "German Ministry of Education and Research"
+    },
+    {
+     "name": "SHAPE II",
+     "award": [
+      "FKZ 031B0884"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "FKZ 031B0884"
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100018929",
+     "name": "de.NBI",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "FKZ 031A536"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "FKZ 031A536"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100018929",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100001824",
+     "name": "Czech Science Foundation",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "17-17564S"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "17-17564S"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001824",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100008530",
+     "name": "ERDF",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "CZ.02.1.01/0.0/0.0/16_019/0000827"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "CZ.02.1.01/0.0/0.0/16_019/0000827"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100008530",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "name": "ELIXIR-CZ project",
+     "award": [
+      "LM2015047"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "LM2015047"
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100000324",
+     "name": "The Gatsby Charitable Foundation",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "BB/P012574/1"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "BB/P012574/1"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100000324",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "name": "DTP",
+     "award": [
+      "BB/M011216/1"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "BB/M011216/1"
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100008762",
+     "name": "Genome Canada",
+     "doi-asserted-by": "publisher",
+     "id": [
+      {
+       "id": "10.13039/100008762",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100010785",
+     "name": "Canada First Research Excellence Fund",
+     "doi-asserted-by": "publisher",
+     "id": [
+      {
+       "id": "10.13039/501100010785",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2021,
+      7,
+      19
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Sequence assembly of large and repeat-rich plant genomes has been challenging, requiring substantial computational resources and often several complementary sequence assembly and genome mapping approaches. The recent development of fast and accurate long-read sequencing by circular consensus sequencing (CCS) on the PacBio platform may greatly increase the scope of plant pan-genome projects. Here, we compare current long-read sequencing platforms regarding their ability to rapidly generate contiguous sequence assemblies in pan-genome studies of barley (Hordeum vulgare). Most long-read assemblies are clearly superior to the current barley reference sequence based on short-reads. Assemblies derived from accurate long reads excel in most metrics, but the CCS approach was the most cost-effective strategy for assembling tens of barley genomes. A downsampling analysis indicated that 20-fold CCS coverage can yield very good sequence assemblies, while even five-fold CCS data may capture the complete sequence of most genes. We present an updated reference genome assembly for barley with near-complete representation of the repeat-rich intergenic space. Long-read assembly can underpin the construction of accurate and complete sequences of multiple genomes of a species to build pan-genome infrastructures in Triticeae crops and their wild relatives.</jats:p>",
+   "DOI": "10.1093/plcell/koab077",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      10
+     ]
+    ],
+    "date-time": "2021-03-10T15:12:12Z",
+    "timestamp": 1615389132000
+   },
+   "page": "1888-1906",
+   "source": "Crossref",
+   "is-referenced-by-count": 417,
+   "title": [
+    "Long-read sequence assembly: a technical evaluation in barley"
+   ],
+   "prefix": "10.1093",
+   "volume": "33",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-6373-6013",
+     "authenticated-orcid": false,
+     "given": "Martin",
+     "family": "Mascher",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben , Seeland 06466, Germany"
+      },
+      {
+       "name": "German Centre for Integrative Biodiversity Research (iDiv), Halle-Jena-Leipzig , Leipzig 04103, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Thomas",
+     "family": "Wicker",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Plant and Microbial Biology, University of Z\u00fcrich , Z\u00fcrich 8008, Switzerland"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-7943-3997",
+     "authenticated-orcid": false,
+     "given": "Jerry",
+     "family": "Jenkins",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-0109-5174",
+     "authenticated-orcid": false,
+     "given": "Christopher",
+     "family": "Plott",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5543-1911",
+     "authenticated-orcid": false,
+     "given": "Thomas",
+     "family": "Lux",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7313-2125",
+     "authenticated-orcid": false,
+     "given": "Chu Shin",
+     "family": "Koh",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Global Institute for Food Security, University of Saskatchewan , Saskatoon SK S7N 4L8, Canada"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2663-1006",
+     "authenticated-orcid": false,
+     "given": "Jennifer",
+     "family": "Ens",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Plant Sciences, Crop Development Centre, University of Saskatchewan , Saskatoon SK S7N 5A8, Canada"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Heidrun",
+     "family": "Gundlach",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-1872-2127",
+     "authenticated-orcid": false,
+     "given": "Lori B",
+     "family": "Boston",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Zuzana",
+     "family": "Tulpov\u00e1",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Experimental Botany of the Czech Academy of Sciences, Centre of the Region Han\u00e1 for Biotechnological and Agricultural Research , Olomouc 78371, Czech Republic"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6598-6742",
+     "authenticated-orcid": false,
+     "given": "Samuel",
+     "family": "Holden",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "The Sainsbury Laboratory, University of East Anglia , Norwich NR4 7UH, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Inmaculada",
+     "family": "Hern\u00e1ndez-Pinz\u00f3n",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "The Sainsbury Laboratory, University of East Anglia , Norwich NR4 7UH, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6113-3518",
+     "authenticated-orcid": false,
+     "given": "Uwe",
+     "family": "Scholz",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben , Seeland 06466, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6484-1077",
+     "authenticated-orcid": false,
+     "given": "Klaus F X",
+     "family": "Mayer",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0701-7035",
+     "authenticated-orcid": false,
+     "given": "Manuel",
+     "family": "Spannagl",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "PGSB\u2013Plant Genome and Systems Biology, Helmholtz Center Munich\u2013German Research Center for Environmental Health , Neuherberg 85764, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-7536-3856",
+     "authenticated-orcid": false,
+     "given": "Curtis J",
+     "family": "Pozniak",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Plant Sciences, Crop Development Centre, University of Saskatchewan , Saskatoon SK S7N 5A8, Canada"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-1832-4009",
+     "authenticated-orcid": false,
+     "given": "Andrew G",
+     "family": "Sharpe",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Global Institute for Food Security, University of Saskatchewan , Saskatoon SK S7N 4L8, Canada"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hana",
+     "family": "\u0160imkov\u00e1",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Experimental Botany of the Czech Academy of Sciences, Centre of the Region Han\u00e1 for Biotechnological and Agricultural Research , Olomouc 78371, Czech Republic"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2098-6818",
+     "authenticated-orcid": false,
+     "given": "Matthew J",
+     "family": "Moscou",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "The Sainsbury Laboratory, University of East Anglia , Norwich NR4 7UH, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-8356-8325",
+     "authenticated-orcid": false,
+     "given": "Jane",
+     "family": "Grimwood",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-8062-9172",
+     "authenticated-orcid": false,
+     "given": "Jeremy",
+     "family": "Schmutz",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "HudsonAlpha Institute for Biotechnology , Huntsville, AL 35806"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3011-8731",
+     "authenticated-orcid": false,
+     "given": "Nils",
+     "family": "Stein",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben , Seeland 06466, Germany"
+      },
+      {
+       "name": "Center for Integrated Breeding Research (CiBreed), Georg-August-University G\u00f6ttingen , G\u00f6ttingen 37073, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      12
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2023011109351170900_koab077-B1",
+     "doi-asserted-by": "crossref",
+     "first-page": "145",
+     "DOI": "10.1016/j.cell.2020.05.021",
+     "article-title": "Major impacts of widespread structural variation on gene expression and crop improvement in tomato",
+     "volume": "182",
+     "author": "Alonge",
+     "year": "2020",
+     "journal-title": "Cell"
+    },
+    {
+     "key": "2023011109351170900_koab077-B2",
+     "doi-asserted-by": "crossref",
+     "first-page": "403",
+     "DOI": "10.1016/S0022-2836(05)80360-2",
+     "article-title": "Basic local alignment search tool",
+     "volume": "215",
+     "author": "Altschul",
+     "year": "1990",
+     "journal-title": "J Mol Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "baw033",
+     "DOI": "10.1093/database/baw033",
+     "article-title": "PGP repository: a plant phenomics and genomics data publication infrastructure",
+     "volume": "2016",
+     "author": "Arend",
+     "year": "2016",
+     "journal-title": "Database"
+    },
+    {
+     "key": "2023011109351170900_koab077-B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "214",
+     "DOI": "10.1186/1471-2105-15-214",
+     "article-title": "e! DAL-a framework to store, share and publish research data",
+     "volume": "15",
+     "author": "Arend",
+     "year": "2014",
+     "journal-title": "BMC Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B5",
+     "doi-asserted-by": "crossref",
+     "first-page": "412",
+     "DOI": "10.1104/pp.113.228213",
+     "article-title": "A sequence-ready physical map of barley anchored genetically by two million single-nucleotide polymorphisms",
+     "volume": "164",
+     "author": "Ariyadasa",
+     "year": "2014",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B6",
+     "doi-asserted-by": "crossref",
+     "first-page": "93",
+     "DOI": "10.1126/science.aan0032",
+     "article-title": "Wild emmer genome architecture and diversity elucidate wheat evolution and domestication",
+     "volume": "357",
+     "author": "Avni",
+     "year": "2017",
+     "journal-title": "Science"
+    },
+    {
+     "key": "2023011109351170900_koab077-B7",
+     "doi-asserted-by": "crossref",
+     "first-page": "846",
+     "DOI": "10.1007/s00122-002-1104-0",
+     "article-title": "Genetic and morphological characterization of the barley uniculm2 (cul2) mutant",
+     "volume": "106",
+     "author": "Babb",
+     "year": "2003",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "2023011109351170900_koab077-B8",
+     "doi-asserted-by": "crossref",
+     "first-page": "493",
+     "DOI": "10.1111/tpj.14641",
+     "article-title": "Genome-wide sequence information reveals recurrent hybridization among diploid wheat wild relatives",
+     "volume": "102",
+     "author": "Bernhardt",
+     "year": "2020",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2023011109351170900_koab077-B9",
+     "doi-asserted-by": "crossref",
+     "first-page": "11",
+     "DOI": "10.1007/978-3-319-92528-8_2",
+     "volume-title": "The Barley Genome",
+     "author": "Blattner",
+     "year": "2018"
+    },
+    {
+     "key": "2023011109351170900_koab077-B10",
+     "doi-asserted-by": "crossref",
+     "first-page": "550",
+     "DOI": "10.1111/j.1365-313X.2012.05007.x",
+     "article-title": "Inter-species sequence comparison of Brachypodium reveals how transposon activity corrodes genome colinearity",
+     "volume": "71",
+     "author": "Buchmann",
+     "year": "2012",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2023011109351170900_koab077-B11",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0185056",
+     "DOI": "10.1371/journal.pone.0185056",
+     "article-title": "BBMerge\u2014accurate paired shotgun read merging via overlap",
+     "volume": "12",
+     "author": "Bushnell",
+     "year": "2017",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "2023011109351170900_koab077-B12",
+     "first-page": "306",
+     "volume-title": "Genome Biol",
+     "author": "Campoy",
+     "year": "2020"
+    },
+    {
+     "key": "2023011109351170900_koab077-B13",
+     "doi-asserted-by": "crossref",
+     "first-page": "26",
+     "DOI": "10.1186/s13059-015-0582-8",
+     "article-title": "A whole-genome shotgun approach for assembling and anchoring the hexaploid bread wheat genome",
+     "volume": "16",
+     "author": "Chapman",
+     "year": "2015",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B14",
+     "doi-asserted-by": "crossref",
+     "first-page": "1050",
+     "DOI": "10.1038/nmeth.4035",
+     "article-title": "Phased diploid genome assembly with single-molecule real-time sequencing",
+     "volume": "13",
+     "author": "Chin",
+     "year": "2016",
+     "journal-title": "Nat Methods"
+    },
+    {
+     "key": "2023011109351170900_koab077-B15",
+     "doi-asserted-by": "crossref",
+     "first-page": "760",
+     "DOI": "10.1111/pbi.12826",
+     "article-title": "Assembly and analysis of a qingke reference genome demonstrate its close genetic relation to modern cultivated barley",
+     "volume": "16",
+     "author": "Dai",
+     "year": "2018",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "key": "2023011109351170900_koab077-B16",
+     "doi-asserted-by": "crossref",
+     "first-page": "617",
+     "DOI": "10.1104/pp.110.166249",
+     "article-title": "Genetic dissection of Barley morphology and development",
+     "volume": "155",
+     "author": "Druka",
+     "year": "2011",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B17",
+     "doi-asserted-by": "crossref",
+     "first-page": "680",
+     "DOI": "10.1139/g88-115",
+     "article-title": "Apparent sources of the A genomes of wheats inferred from polymorphism in abundance and restriction fragment length of repeated nucleotide sequences",
+     "volume": "30",
+     "author": "Dvorak",
+     "year": "1988",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "2023011109351170900_koab077-B18",
+     "doi-asserted-by": "crossref",
+     "first-page": "18",
+     "DOI": "10.1186/1471-2105-9-18",
+     "article-title": "LTRharvest, an efficient and flexible software for de novo detection of LTR retrotransposons",
+     "volume": "9",
+     "author": "Ellinghaus",
+     "year": "2008",
+     "journal-title": "BMC Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B19",
+     "author": "Garg",
+     "year": "2020"
+    },
+    {
+     "key": "2023011109351170900_koab077-B20",
+     "author": "Genova",
+     "year": "2019"
+    },
+    {
+     "key": "2023011109351170900_koab077-B21",
+     "doi-asserted-by": "crossref",
+     "first-page": "965",
+     "DOI": "10.1016/j.infsof.2005.09.005",
+     "article-title": "Engineering a software tool for gene structure prediction in higher organisms",
+     "volume": "47",
+     "author": "Gremme",
+     "year": "2005",
+     "journal-title": "Inf Software Technol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B22",
+     "doi-asserted-by": "crossref",
+     "first-page": "5654",
+     "DOI": "10.1093/nar/gkg770",
+     "article-title": "Improving the Arabidopsis genome annotation using maximal transcript alignment assemblies",
+     "volume": "31",
+     "author": "Haas",
+     "year": "2003",
+     "journal-title": "Nucleic Acids Res"
+    },
+    {
+     "key": "2023011109351170900_koab077-B23",
+     "doi-asserted-by": "crossref",
+     "first-page": "R7",
+     "DOI": "10.1186/gb-2008-9-1-r7",
+     "article-title": "Automated eukaryotic gene structure annotation using EVidenceModeler and the Program to Assemble Spliced Alignments",
+     "volume": "9",
+     "author": "Haas",
+     "year": "2008",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B24",
+     "doi-asserted-by": "crossref",
+     "first-page": "e57",
+     "DOI": "10.1002/cpbi.57",
+     "article-title": "Predicting genes in single genomes with AUGUSTUS",
+     "volume": "65",
+     "author": "Hoff",
+     "year": "2019",
+     "journal-title": "Curr Protoc Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B25",
+     "first-page": "711",
+     "year": "2012"
+    },
+    {
+     "key": "2023011109351170900_koab077-B26",
+     "first-page": "1251788",
+     "year": "2014"
+    },
+    {
+     "key": "2023011109351170900_koab077-B27",
+     "doi-asserted-by": "crossref",
+     "first-page": "284",
+     "DOI": "10.1038/s41586-020-2947-8",
+     "article-title": "The barley pan-genome reveals the hidden legacy of mutation breeding",
+     "volume": "588",
+     "author": "Jayakodi",
+     "year": "2020",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2023011109351170900_koab077-B28",
+     "first-page": "1113",
+     "article-title": "A homolog of\u2014blade-on-petiole 1 and 2 (BOP1/2) controls internode length and homeotic changes of the barley inflorescence",
+     "volume": "171",
+     "author": "Jost",
+     "year": "2016",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B29",
+     "doi-asserted-by": "crossref",
+     "first-page": "700",
+     "DOI": "10.1016/j.tplants.2019.05.003",
+     "article-title": "Tools and strategies for long-read sequencing and de novo assembly of plant genomes",
+     "volume": "24",
+     "author": "Jung",
+     "year": "2019",
+     "journal-title": "Trends Plant Sci"
+    },
+    {
+     "key": "2023011109351170900_koab077-B30",
+     "doi-asserted-by": "crossref",
+     "first-page": "286",
+     "DOI": "10.1093/bib/bbn013",
+     "article-title": "Recent developments in the MAFFT multiple sequence alignment program",
+     "volume": "9",
+     "author": "Katoh",
+     "year": "2008",
+     "journal-title": "Brief Bioinform"
+    },
+    {
+     "key": "2023011109351170900_koab077-B31",
+     "doi-asserted-by": "crossref",
+     "first-page": "907",
+     "DOI": "10.1038/s41587-019-0201-4",
+     "article-title": "Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype",
+     "volume": "37",
+     "author": "Kim",
+     "year": "2019",
+     "journal-title": "Nat Biotechnol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B32",
+     "doi-asserted-by": "crossref",
+     "first-page": "1174",
+     "DOI": "10.1038/nbt.4277",
+     "article-title": "De novo assembly of haplotype-resolved genomes with trio binning",
+     "volume": "36",
+     "author": "Koren",
+     "year": "2018",
+     "journal-title": "Nat Biotechnol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B33",
+     "doi-asserted-by": "crossref",
+     "first-page": "517",
+     "DOI": "10.1186/1471-2164-9-517",
+     "article-title": "A new method to compute K-mer frequencies and its application to annotate large repetitive plant genomes",
+     "volume": "9",
+     "author": "Kurtz",
+     "year": "2008",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B34",
+     "doi-asserted-by": "crossref",
+     "first-page": "2885",
+     "DOI": "10.1093/bioinformatics/btv290",
+     "article-title": "BFC: correcting Illumina sequencing errors",
+     "volume": "31",
+     "author": "Li",
+     "year": "2015",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B35",
+     "first-page": "7",
+     "article-title": "Minimap2: pairwise alignment for nucleotide sequences",
+     "volume": "1",
+     "author": "Li",
+     "year": "2018",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B36",
+     "doi-asserted-by": "crossref",
+     "first-page": "2078",
+     "DOI": "10.1093/bioinformatics/btp352",
+     "article-title": "The sequence alignment/map format and SAMtools",
+     "volume": "25",
+     "author": "Li",
+     "year": "2009",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B37",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.1186/s13059-020-02029-9",
+     "article-title": "Gapless assembly of maize chromosomes using long-read technologies",
+     "volume": "21",
+     "author": "Liu",
+     "year": "2020",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B38",
+     "first-page": "162",
+     "article-title": "Pan-genome of wild and cultivated soybeans. Cell",
+     "author": "Liu",
+     "year": "2020"
+    },
+    {
+     "key": "2023011109351170900_koab077-B39",
+     "doi-asserted-by": "crossref",
+     "first-page": "885",
+     "DOI": "10.1038/s41588-019-0381-3",
+     "article-title": "Durum wheat genome highlights past domestication signatures and future improvement targets",
+     "volume": "51",
+     "author": "Maccaferri",
+     "year": "2019",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "key": "2023011109351170900_koab077-B40",
+     "doi-asserted-by": "crossref",
+     "first-page": "829",
+     "DOI": "10.1007/BF00027369",
+     "article-title": "BARE-1, a copia-like retroelement in barley (Hordeum vulgare L.)",
+     "volume": "22",
+     "author": "Manninen",
+     "year": "1993",
+     "journal-title": "Plant Mol Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B41",
+     "doi-asserted-by": "crossref",
+     "first-page": "427",
+     "DOI": "10.1038/nature22043",
+     "article-title": "A chromosome conformation capture ordered sequence of the barley genome",
+     "volume": "544",
+     "author": "Mascher",
+     "year": "2017",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2023011109351170900_koab077-B42",
+     "doi-asserted-by": "crossref",
+     "first-page": "718",
+     "DOI": "10.1111/tpj.12319",
+     "article-title": "Anchoring and ordering NGS contig assemblies by population sequencing (POPSEQ)",
+     "volume": "76",
+     "author": "Mascher",
+     "year": "2013",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2023011109351170900_koab077-B43",
+     "doi-asserted-by": "crossref",
+     "first-page": "20",
+     "DOI": "10.1104/pp.110.171579",
+     "article-title": "Comprehensive sequence analysis of 24,783 barley full-length cDNAs derived from 12 clone libraries",
+     "volume": "156",
+     "author": "Matsumoto",
+     "year": "2011",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B44",
+     "doi-asserted-by": "crossref",
+     "first-page": "1249",
+     "DOI": "10.1105/tpc.110.082537",
+     "article-title": "Unlocking the barley genome by chromosomal and comparative genomics",
+     "volume": "23",
+     "author": "Mayer",
+     "year": "2011",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2023011109351170900_koab077-B45",
+     "doi-asserted-by": "crossref",
+     "first-page": "129",
+     "DOI": "10.1016/j.pbi.2005.01.002",
+     "article-title": "Evolving disease resistance genes",
+     "volume": "8",
+     "author": "Meyers",
+     "year": "2005",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B46",
+     "doi-asserted-by": "crossref",
+     "first-page": "79",
+     "DOI": "10.1038/s41586-020-2547-7",
+     "article-title": "Telomere-to-telomere assembly of a complete human X chromosome",
+     "volume": "585",
+     "author": "Miga",
+     "year": "2020",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2023011109351170900_koab077-B47",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/978-3-319-23494-6",
+     "volume-title": "Alien Introgression in Wheat",
+     "author": "Moln\u00e1r-L\u00e1ng",
+     "year": "2015"
+    },
+    {
+     "key": "2023011109351170900_koab077-B48",
+     "doi-asserted-by": "crossref",
+     "first-page": "284",
+     "DOI": "10.1186/s13059-019-1899-5",
+     "article-title": "TRITEX: chromosome-scale sequence assembly of Triticeae genomes with open-source tools",
+     "volume": "20",
+     "author": "Monat",
+     "year": "2019",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B49",
+     "doi-asserted-by": "crossref",
+     "first-page": "1291",
+     "DOI": "10.1101/gr.263566.120",
+     "article-title": "HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads",
+     "volume": "30",
+     "author": "Nurk",
+     "year": "2020",
+     "journal-title": "Genome Res"
+    },
+    {
+     "key": "2023011109351170900_koab077-B50",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.1534/genetics.114.165613",
+     "article-title": "Mapping-by-sequencing identifies HvPHYTOCHROME C as a candidate gene for the early maturity 5 locus modulating the circadian clock and photoperiodic flowering in barley",
+     "volume": "198",
+     "author": "Pankin",
+     "year": "2014",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B51",
+     "doi-asserted-by": "crossref",
+     "first-page": "290",
+     "DOI": "10.1038/nbt.3122",
+     "article-title": "StringTie enables improved reconstruction of a transcriptome from RNA-seq reads",
+     "volume": "33",
+     "author": "Pertea",
+     "year": "2015",
+     "journal-title": "Nat Biotechnol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B52",
+     "author": "Rabanus-Wallace",
+     "year": "2019"
+    },
+    {
+     "key": "2023011109351170900_koab077-B53",
+     "doi-asserted-by": "crossref",
+     "first-page": "968",
+     "DOI": "10.1186/s12864-019-6243-7",
+     "article-title": "BaRTv1.0: an improved barley reference transcript dataset to determine accurate changes in the barley transcriptome using RNA-seq",
+     "volume": "20",
+     "author": "Rapazote-Flores",
+     "year": "2019",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B54",
+     "doi-asserted-by": "crossref",
+     "first-page": "155",
+     "DOI": "10.1038/s41592-019-0669-3",
+     "article-title": "Fast and accurate long-read assembly with wtdbg2",
+     "volume": "17",
+     "author": "Ruan",
+     "year": "2020",
+     "journal-title": "Nat Methods"
+    },
+    {
+     "key": "2023011109351170900_koab077-B55",
+     "doi-asserted-by": "crossref",
+     "first-page": "43",
+     "DOI": "10.1038/1695",
+     "article-title": "The paleontology of intergene retrotransposons of maize",
+     "volume": "20",
+     "author": "SanMiguel",
+     "year": "1998",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "key": "2023011109351170900_koab077-B56",
+     "doi-asserted-by": "crossref",
+     "first-page": "793",
+     "DOI": "10.1038/nature03895",
+     "article-title": "The map-based sequence of the rice genome",
+     "volume": "436",
+     "author": "Sasaki",
+     "year": "2005",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2023011109351170900_koab077-B57",
+     "doi-asserted-by": "crossref",
+     "first-page": "1492",
+     "DOI": "10.1094/MPMI-05-11-0107",
+     "article-title": "Large-scale data integration reveals colocalization of gene functional groups with meta-QTL for multiple disease resistance in barley",
+     "volume": "24",
+     "author": "Schweizer",
+     "year": "2011",
+     "journal-title": "Mol Plant-Microbe Interact"
+    },
+    {
+     "key": "2023011109351170900_koab077-B58",
+     "doi-asserted-by": "crossref",
+     "first-page": "373",
+     "DOI": "10.1007/s00122-011-1712-7",
+     "article-title": "High resolution mapping of Dense spike-ar (dsp.ar) to the genetic centromere of barley chromosome 7H",
+     "volume": "124",
+     "author": "Shahinnia",
+     "year": "2012",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "2023011109351170900_koab077-B59",
+     "doi-asserted-by": "crossref",
+     "first-page": "3210",
+     "DOI": "10.1093/bioinformatics/btv351",
+     "article-title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs",
+     "volume": "31",
+     "author": "Simao",
+     "year": "2015",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B60",
+     "doi-asserted-by": "crossref",
+     "first-page": "369",
+     "DOI": "10.1023/A:1024322001786",
+     "article-title": "Preparation of HMW DNA from plant nuclei and chromosomes isolated from root tips",
+     "volume": "46",
+     "author": "\u0160imkov\u00e1",
+     "year": "2003",
+     "journal-title": "Biol Plantarum"
+    },
+    {
+     "key": "2023011109351170900_koab077-B61",
+     "first-page": "393",
+     "volume-title": "Introduction to Bioinformatics: A Theoretical and Practical Approach",
+     "author": "Staden",
+     "year": "2003"
+    },
+    {
+     "key": "2023011109351170900_koab077-B62",
+     "doi-asserted-by": "crossref",
+     "first-page": "62",
+     "DOI": "10.1186/1471-2105-7-62",
+     "article-title": "Gene prediction in eukaryotes with a generalized hidden Markov model that uses hints from external sources",
+     "volume": "7",
+     "author": "Stanke",
+     "year": "2006",
+     "journal-title": "BMC Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B63",
+     "author": "Stein",
+     "year": "2018"
+    },
+    {
+     "key": "2023011109351170900_koab077-B64",
+     "doi-asserted-by": "crossref",
+     "first-page": "219",
+     "DOI": "10.1007/978-94-011-4898-6_22",
+     "volume-title": "Evolution and Impact of Transposable Elements",
+     "author": "Suoniemi",
+     "year": "1997"
+    },
+    {
+     "key": "2023011109351170900_koab077-B65",
+     "doi-asserted-by": "crossref",
+     "first-page": "796",
+     "DOI": "10.1038/35048692",
+     "article-title": "Analysis of the genome sequence of the flowering plant Arabidopsis thaliana",
+     "volume": "408",
+     "year": "2000",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2023011109351170900_koab077-B66",
+     "article-title": "Shifting the limits in wheat research and breeding using a fully annotated reference genome",
+     "volume": "361",
+     "year": "2018",
+     "journal-title": "Science"
+    },
+    {
+     "key": "2023011109351170900_koab077-B67",
+     "doi-asserted-by": "crossref",
+     "first-page": "104",
+     "DOI": "10.1186/s13059-018-1477-2",
+     "article-title": "Chromosome-scale comparative sequence analysis unravels molecular mechanisms of genome dynamics between two wheat cultivars",
+     "volume": "19",
+     "author": "Thind",
+     "year": "2018",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B68",
+     "doi-asserted-by": "crossref",
+     "first-page": "562",
+     "DOI": "10.1038/nprot.2012.016",
+     "article-title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks",
+     "volume": "7",
+     "author": "Trapnell",
+     "year": "2012",
+     "journal-title": "Nat Protocols"
+    },
+    {
+     "key": "2023011109351170900_koab077-B69",
+     "doi-asserted-by": "crossref",
+     "first-page": "737",
+     "DOI": "10.1101/gr.214270.116",
+     "article-title": "Fast and accurate de novo genome assembly from long uncorrected reads",
+     "volume": "27",
+     "author": "Vaser",
+     "year": "2017",
+     "journal-title": "Genome Res"
+    },
+    {
+     "key": "2023011109351170900_koab077-B70",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1038/s41586-020-2961-x",
+     "article-title": "Multiple wheat genomes reveal global variation in modern breeding",
+     "author": "Walkowiak",
+     "year": "2020",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2023011109351170900_koab077-B71",
+     "doi-asserted-by": "crossref",
+     "first-page": "124",
+     "DOI": "10.1038/s41587-018-0004-z",
+     "article-title": "Errors in long-read assemblies can critically affect protein prediction",
+     "volume": "37",
+     "author": "Watson",
+     "year": "2019",
+     "journal-title": "Nat Biotechnol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B72",
+     "doi-asserted-by": "crossref",
+     "first-page": "1903",
+     "DOI": "10.1105/tpc.002238",
+     "article-title": "Genome dynamics and evolution of the Mla (powdery mildew) resistance locus in barley",
+     "volume": "14",
+     "author": "Wei",
+     "year": "2002",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2023011109351170900_koab077-B73",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3835/plantgenome2017.06.0049",
+     "article-title": "A high-density, sequence-enriched genetic map of hordeum bulbosum and its collinearity to H. vulgare",
+     "volume": "10",
+     "author": "Wendler",
+     "year": "2017",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "2023011109351170900_koab077-B74",
+     "doi-asserted-by": "crossref",
+     "first-page": "1155",
+     "DOI": "10.1038/s41587-019-0217-9",
+     "article-title": "Highly-accurate long-read sequencing improves variant detection and assembly of a human genome",
+     "volume": "37",
+     "author": "Wenger",
+     "year": "2019",
+     "journal-title": "Nat Biotechnol"
+    },
+    {
+     "key": "2023011109351170900_koab077-B75",
+     "doi-asserted-by": "crossref",
+     "first-page": "123",
+     "DOI": "10.1007/978-3-319-92528-8_9",
+     "volume-title": "The Barley Genome",
+     "author": "Wicker",
+     "year": "2018"
+    },
+    {
+     "key": "2023011109351170900_koab077-B76",
+     "doi-asserted-by": "crossref",
+     "first-page": "973",
+     "DOI": "10.1038/nrg2165",
+     "article-title": "A unified classification system for eukaryotic transposable elements",
+     "volume": "8",
+     "author": "Wicker",
+     "year": "2007",
+     "journal-title": "Nat Rev Genet"
+    },
+    {
+     "key": "2023011109351170900_koab077-B77",
+     "doi-asserted-by": "crossref",
+     "first-page": "12790",
+     "DOI": "10.1038/ncomms12790",
+     "article-title": "DNA transposon activity is associated with increased mutation rates in genes of rice and other grasses",
+     "volume": "7",
+     "author": "Wicker",
+     "year": "2016",
+     "journal-title": "Nat Commun"
+    },
+    {
+     "key": "2023011109351170900_koab077-B78",
+     "doi-asserted-by": "crossref",
+     "first-page": "1859",
+     "DOI": "10.1093/bioinformatics/bti310",
+     "article-title": "GMAP: a genomic mapping and alignment program for mRNA and EST sequences",
+     "volume": "21",
+     "author": "Wu",
+     "year": "2005",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023011109351170900_koab077-B79",
+     "doi-asserted-by": "crossref",
+     "first-page": "1072",
+     "DOI": "10.1038/nmeth.4432",
+     "article-title": "MECAT: fast mapping, error correction, and de novo assembly for single-molecule sequencing reads",
+     "volume": "14",
+     "author": "Xiao",
+     "year": "2017",
+     "journal-title": "Nat Methods"
+    },
+    {
+     "key": "2023011109351170900_koab077-B80",
+     "first-page": "doi: 10.1101/831248)",
+     "author": "Xu",
+     "year": "2019"
+    },
+    {
+     "key": "2023011109351170900_koab077-B81",
+     "author": "Yuan",
+     "year": "2020"
+    },
+    {
+     "key": "2023011109351170900_koab077-B82",
+     "doi-asserted-by": "crossref",
+     "first-page": "139",
+     "DOI": "10.1038/s41597-020-0480-0",
+     "article-title": "An improved high-quality genome assembly and annotation of Tibetan hulless barley",
+     "volume": "7",
+     "author": "Zeng",
+     "year": "2020",
+     "journal-title": "Sci Data"
+    },
+    {
+     "key": "2023011109351170900_koab077-B83",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1093/gigascience/gix097",
+     "article-title": "The first near-complete assembly of the hexaploid bread wheat genome, Triticum aestivum",
+     "volume": "6",
+     "author": "Zimin",
+     "year": "2017",
+     "journal-title": "Gigascience"
+    },
+    {
+     "key": "2023011109351170900_koab077-B84",
+     "doi-asserted-by": "crossref",
+     "first-page": "787",
+     "DOI": "10.1101/gr.213405.116",
+     "article-title": "Hybrid assembly of the large and highly repetitive genome of Aegilops tauschii, a progenitor of bread wheat, with the MaSuRCA mega-reads algorithm",
+     "volume": "27",
+     "author": "Zimin",
+     "year": "2017",
+     "journal-title": "Genome Res"
+    }
+   ],
+   "container-title": [
+    "The Plant Cell"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/plcell/advance-article-pdf/doi/10.1093/plcell/koab077/37336487/koab077.pdf",
+     "content-type": "application/pdf",
+     "content-version": "am",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/plcell/article-pdf/33/6/1888/48606401/koab077.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/plcell/article-pdf/33/6/1888/48606401/koab077.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      10,
+      22
+     ]
+    ],
+    "date-time": "2023-10-22T17:40:08Z",
+    "timestamp": 1697996408000
+   },
+   "score": 40.779034,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/plcell/article/33/6/1888/6169005"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      12
+     ]
+    ]
+   },
+   "references-count": 84,
+   "journal-issue": {
+    "issue": "6",
+    "published-online": {
+     "date-parts": [
+      [
+       2021,
+       3,
+       12
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2021,
+       7,
+       19
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/plcell/koab077",
+   "ISSN": [
+    "1040-4651",
+    "1532-298X"
+   ],
+   "issn-type": [
+    {
+     "value": "1040-4651",
+     "type": "print"
+    },
+    {
+     "value": "1532-298X",
+     "type": "electronic"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      12
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      17
+     ]
+    ],
+    "date-time": "2025-04-17T05:29:52Z",
+    "timestamp": 1744867792347
+   },
+   "publisher-location": "Cham",
+   "reference-count": 61,
+   "publisher": "Springer International Publishing",
+   "isbn-type": [
+    {
+     "type": "print",
+     "value": "9783319925271"
+    },
+    {
+     "type": "electronic",
+     "value": "9783319925288"
+    }
+   ],
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2018,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2018-01-01T00:00:00Z",
+      "timestamp": 1514764800000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "http://www.springer.com/tdm"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2018
+     ]
+    ]
+   },
+   "DOI": "10.1007/978-3-319-92528-8_5",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2018,
+      8,
+      18
+     ]
+    ],
+    "date-time": "2018-08-18T04:09:22Z",
+    "timestamp": 1534565362000
+   },
+   "page": "57-71",
+   "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 4,
+   "title": [
+    "Barley Genome Sequencing and Assembly\u2014A First Version Reference Sequence"
+   ],
+   "prefix": "10.1007",
+   "author": [
+    {
+     "given": "Nils",
+     "family": "Stein",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Martin",
+     "family": "Mascher",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      8,
+      19
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "5_CR1",
+     "doi-asserted-by": "publisher",
+     "first-page": "385",
+     "DOI": "10.1111/tpj.13006",
+     "volume": "84",
+     "author": "L Aliyeva-Schnorr",
+     "year": "2015",
+     "unstructured": "Aliyeva-Schnorr L, Beier S, Karafi\u00e1tov\u00e1 M, Schmutzer T, Scholz U, Dolezel J, Stein N, Houben A (2015) Cytogenetic mapping of BAC contigs assigned to the genetic centromere of barley chromosome 3H. Plant J 84:385\u2013394",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "5_CR2",
+     "doi-asserted-by": "publisher",
+     "first-page": "231",
+     "DOI": "10.1007/s10577-016-9518-8",
+     "volume": "24",
+     "author": "L Aliyeva-Schnorr",
+     "year": "2016",
+     "unstructured": "Aliyeva-Schnorr L, Stein N, Houben A (2016) Collinearity of homoeologous group 3 chromosomes in the genus Hordeum and Secale cereale as revealed by 3H-derived FISH analysis. Chromosom Res 24:231\u2013242",
+     "journal-title": "Chromosom Res"
+    },
+    {
+     "key": "5_CR3",
+     "doi-asserted-by": "publisher",
+     "first-page": "412",
+     "DOI": "10.1104/pp.113.228213",
+     "volume": "164",
+     "author": "R Ariyadasa",
+     "year": "2014",
+     "unstructured": "Ariyadasa R, Mascher M, Nussbaumer T, Schulte D, Frenkel Z, Poursarebani N, Zhou R, Steuernagel B, Gundlach H, Taudien S, Felder M, Platzer M, Himmelbach A, Schmutzer T, Hedley P, Muehlbauer G, Scholz U, Korol A, Mayer K, Waugh R, Langridge P, Graner A, Stein N (2014) A sequence-ready physical map of barley anchored genetically by two million SNPs. Plant Physiol 164:412\u2013423",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "5_CR4",
+     "doi-asserted-by": "publisher",
+     "first-page": "297",
+     "DOI": "10.1016/S0167-7799(99)01326-8",
+     "volume": "17",
+     "author": "C Aston",
+     "year": "1999",
+     "unstructured": "Aston C, Mishra B, Schwartz DC (1999) Optical mapping and its potential for large-scale sequencing projects. Trends Biotechnol 17:297",
+     "journal-title": "Trends Biotechnol"
+    },
+    {
+     "key": "5_CR5",
+     "doi-asserted-by": "publisher",
+     "first-page": "93",
+     "DOI": "10.1126/science.aan0032",
+     "volume": "357",
+     "author": "R Avni",
+     "year": "2017",
+     "unstructured": "Avni R, Nave M, Barad O, Baruch K, Twardziok SO, Gundlach H, Hale I, Mascher M, Spannagl M, Wiebe K, Jordan KW, Golan G, Deek J, Ben-Zvi B, Ben-Zvi G, Himmelbach A, MacLachlan RP, Sharpe AG, Fritz A, Ben-David R, Budak H, Fahima T, Korol A, Faris JD, Hernandez A, Mikel MA, Levy AA, Steffenson B, Maccaferri M, Tuberosa R, Cattivelli L, Faccioli P, Ceriotti A, Kashkush K, Pourkheirandish M, Komatsuda T, Eilam T, Sela H, Sharon A, Ohad N, Chamovitz DA, Mayer KFX, Stein N, Ronen G, Peleg Z, Pozniak CJ, Akhunov ED, Distelfeld A (2017) Wild emmer genome architecture and diversity elucidate wheat evolution and domestication. Science 357:93\u201397",
+     "journal-title": "Science"
+    },
+    {
+     "key": "5_CR6",
+     "doi-asserted-by": "publisher",
+     "first-page": "839",
+     "DOI": "10.1002/bies.20262",
+     "volume": "27",
+     "author": "WB Barbazuk",
+     "year": "2005",
+     "unstructured": "Barbazuk WB, Bedell JA, Rabinowicz PD (2005) Reduced representation sequencing: a success in maize and a promise for other plant genomes. BioEssays 27:839\u2013848",
+     "journal-title": "BioEssays"
+    },
+    {
+     "key": "5_CR7",
+     "doi-asserted-by": "publisher",
+     "first-page": "1511",
+     "DOI": "10.1111/pbi.12511",
+     "volume": "14",
+     "author": "S Beier",
+     "year": "2016",
+     "unstructured": "Beier S, Himmelbach A, Schmutzer T, Felder M, Taudien S, Mayer K, Platzer M, Stein N, Scholz U, Mascher M (2016) Multiplex sequencing of bacterial artificial chromosomes for assembling complex plant genomes. Plant Biotechnol J 14:1511\u20131522",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "key": "5_CR8",
+     "doi-asserted-by": "publisher",
+     "first-page": "170044",
+     "DOI": "10.1038/sdata.2017.44",
+     "volume": "4",
+     "author": "S Beier",
+     "year": "2017",
+     "unstructured": "Beier S, Himmelbach A, Colmsee C, Zhang X-Q, Barrero RA, Zhang Q, Li L, Bayer M, Bolser D, Taudien S, Groth M, Felder M, Hastie A, \u0160imkov\u00e1 H, Sta\u0148kov\u00e1 H, Vr\u00e1na J, Chan S, Mu\u00f1oz-Amatria\u00edn M, Ounit R, Wanamaker S, Schmutzer T, Aliyeva-Schnorr L, Grasso S, Tanskanen J, Sampath D, Heavens D, Cao S, Chapman B, Dai F, Han Y, Li H, Li X, Lin C, McCooke JK, Tan C, Wang S, Yin S, Zhou G, Poland JA, Bellgard MI, Houben A, Dole\u017eel J, Ayling S, Lonardi S, Langridge P, Muehlbauer GJ, Kersey P, Clark MD, Caccamo M, Schulman AH, Platzer M, Close TJ, Hansson M, Zhang G, Braumann I, Li C, Waugh R, Scholz U, Stein N, Mascher M (2017) Construction of a map-based reference genome sequence for barley, Hordeum vulgare L. Sci Data 4:170044",
+     "journal-title": "Sci Data"
+    },
+    {
+     "key": "5_CR9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nbt.2727",
+     "author": "JN Burton",
+     "year": "2013",
+     "unstructured": "Burton JN, Adey A, Patwardhan RP, Qiu R, Kitzman JO, Shendure J (2013) Chromosome-scale scaffolding of de novo genome assemblies based on chromatin interactions. Nat Biotech. https://doi.org/10.1038/nbt.2727",
+     "journal-title": "Nat Biotech"
+    },
+    {
+     "key": "5_CR10",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Choulet F, Alberti A, Theil S, Glover N, Barbe V, Daron J, Pingault L, Sourdille P, Couloux A, Paux E, Leroy P, Mangenot S, Guilhot N, Le Gouis J, Balfourier F, Alaux M, Jamilloux V, Poulain J, Durand C, Bellec A, Gaspin C, Safar J, Dolezel J, Rogers J, Vandepoele K, Aury J-M, Mayer K, Berges H, Quesneville H, Wincker P, Feuillet C (2014) Structural and functional partitioning of bread wheat chromosome 3B. Science 345. https://doi.org/10.1126/science.1249721",
+     "DOI": "10.1126/science.1249721"
+    },
+    {
+     "key": "5_CR11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.molp.2015.03.009",
+     "author": "C Colmsee",
+     "year": "2015",
+     "unstructured": "Colmsee C, Beier S, Himmelbach A, Schmutzer T, Stein N, Scholz U, Mascher M (2015) BARLEX\u2014the barley draft genome explorer. Mol Plant. https://doi.org/10.1016/j.molp.2015.03.009",
+     "journal-title": "Mol Plant"
+    },
+    {
+     "key": "5_CR12",
+     "doi-asserted-by": "publisher",
+     "first-page": "760",
+     "DOI": "10.1111/pbi.12826",
+     "volume": "16",
+     "author": "F Dai",
+     "year": "2018",
+     "unstructured": "Dai F, Wang X, Zhang X-Q, Chen Z, Nevo E, Jin G, Wu D, Li C, Zhang G (2018) Assembly and analysis of a qingke reference genome demonstrate its close genetic relation to modern cultivated barley. Plant Biotechnol J 16:760\u2013770",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "key": "5_CR13",
+     "doi-asserted-by": "publisher",
+     "first-page": "e177",
+     "DOI": "10.1093/nar/gkq673",
+     "volume": "38",
+     "author": "SK Das",
+     "year": "2010",
+     "unstructured": "Das SK, Austin MD, Akana MC, Deshpande P, Cao H, Xiao M (2010) Single molecule linear analysis of DNA in nano-channel labeled with sequence specific fluorescent probes. Nucleic Acids Res 38:e177\u2013e177",
+     "journal-title": "Nucleic Acids Res"
+    },
+    {
+     "key": "5_CR14",
+     "doi-asserted-by": "publisher",
+     "first-page": "13",
+     "DOI": "10.1093/nar/21.1.13",
+     "volume": "21",
+     "author": "PH Dear",
+     "year": "1993",
+     "unstructured": "Dear PH, Cook PR (1993) Happy mapping: linkage mapping using a physical analogue of meiosis. Nucl Acids Res 21:13\u201320",
+     "journal-title": "Nucl Acids Res"
+    },
+    {
+     "key": "5_CR15",
+     "doi-asserted-by": "publisher",
+     "first-page": "390",
+     "DOI": "10.1038/nrg3454",
+     "volume": "14",
+     "author": "J Dekker",
+     "year": "2013",
+     "unstructured": "Dekker J, Marti-Renom MA, Mirny LA (2013) Exploring the three-dimensional organization of genomes: interpreting chromatin interaction data. Nat Rev Genet 14:390\u2013403",
+     "journal-title": "Nat Rev Genet"
+    },
+    {
+     "key": "5_CR16",
+     "doi-asserted-by": "publisher",
+     "first-page": "5293",
+     "DOI": "10.1021/ac0496401",
+     "volume": "76",
+     "author": "ET Dimalanta",
+     "year": "2004",
+     "unstructured": "Dimalanta ET, Lim A, Runnheim R, Lamers C, Churas C, Forrest DK, dePablo JJ, Graham MD, Coppersmith SN, Goldstein S, Schwartz DC (2004) A microfluidic system for large DNA molecule arrays. Anal Chem 76:5293\u20135301",
+     "journal-title": "Anal Chem"
+    },
+    {
+     "key": "5_CR17",
+     "doi-asserted-by": "publisher",
+     "first-page": "122",
+     "DOI": "10.1016/j.biotechadv.2013.12.011",
+     "volume": "32",
+     "author": "J Dole\u017eel",
+     "year": "2014",
+     "unstructured": "Dole\u017eel J, Vr\u00e1na J, C\u00e1pal P, Kubal\u00e1kov\u00e1 M, Bure\u0161ov\u00e1 V, \u0160imkov\u00e1 H (2014) Advances in plant chromosome genomics. Biotechnol Adv 32:122\u2013136",
+     "journal-title": "Biotechnol Adv"
+    },
+    {
+     "key": "5_CR18",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Eversole K, Graner A, Stein N (2009) Wheat and barley genome sequencing. In: Feuillet C, Muehlbauer GJ (eds) Genetics and genomics of the Triticeae. Springer, Berlin, pp 713\u2013742",
+     "DOI": "10.1007/978-0-387-77489-3_24"
+    },
+    {
+     "key": "5_CR19",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Himmelbach A, Walde I, \u0160imkov\u00e1 H, Dole\u017eel J, Hastie A, Stein N, Mascher M (2018) Discovery of large polymorphic inversions by chromosome conformation capture sequencing. Plant J (under review)",
+     "DOI": "10.1111/tpj.14109"
+    },
+    {
+     "key": "5_CR20",
+     "doi-asserted-by": "publisher",
+     "first-page": "121",
+     "DOI": "10.1105/tpc.113.119982",
+     "volume": "26",
+     "author": "CN Hirsch",
+     "year": "2014",
+     "unstructured": "Hirsch CN, Foerster JM, Johnson JM, Sekhon RS, Muttoni G, Vaillancourt B, Pe\u00f1agaricano F, Lindquist E, Pedraza MA, Barry K, de Leon N, Kaeppler SM, Buell CR (2014) Insights into the Maize pan-genome and pan-transcriptome. Plant Cell 26:121\u2013135",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "5_CR21",
+     "doi-asserted-by": "publisher",
+     "first-page": "10",
+     "DOI": "10.1186/s13742-015-0052-y",
+     "volume": "4",
+     "author": "K Howe",
+     "year": "2015",
+     "unstructured": "Howe K, Wood JMD (2015) Using optical mapping data for the improvement of vertebrate genome assemblies. GigaScience 4:10",
+     "journal-title": "GigaScience"
+    },
+    {
+     "key": "5_CR22",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Jarvis DE, Ho YS, Lightfoot DJ, Schm\u00f6ckel SM, Li B, Borm TJA, Ohyanagi H, Mineta K, Michell CT, Saber N, Kharbatia NM, Rupper RR, Sharp AR, Dally N, Boughton BA, Woo YH, Gao G, Schijlen EGWM, Guo X, Momin AA, Negr\u00e3o S, Al-Babili S, Gehring C, Roessner U, Jung C, Murphy K, Arold ST, Gojobori T, Linden CGvd, van Loo EN, Jellen EN, Maughan PJ, Tester M (2017) The genome of Chenopodium quinoa. Nature (advance online publication), pp 1\u20136",
+     "DOI": "10.1038/nature21370"
+    },
+    {
+     "key": "5_CR23",
+     "first-page": "1113",
+     "volume": "171",
+     "author": "M Jost",
+     "year": "2016",
+     "unstructured": "Jost M, Taketa S, Mascher M, Himmelbach A, Yuo T, Shahinnia F, Rutten T, Druka A, Schmutzer T, Steuernagel B, Beier S, Taudien S, Scholz U, Morgante M, Waugh R, Stein N (2016) A homolog of blade-on-petiole 1 and 2 (BOP1/2) controls internode length and homeotic changes of the barley inflorescence. Plant Physiol 171:1113\u20131127",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "5_CR24",
+     "doi-asserted-by": "publisher",
+     "first-page": "289",
+     "DOI": "10.1126/science.1181369",
+     "volume": "326",
+     "author": "E Lieberman-Aiden",
+     "year": "2009",
+     "unstructured": "Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, Amit I, Lajoie BR, Sabo PJ, Dorschner MO, Sandstrom R, Bernstein B, Bender MA, Groudine M, Gnirke A, Stamatoyannopoulos J, Mirny LA, Lander ES, Dekker J (2009) Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 326:289\u2013293",
+     "journal-title": "Science"
+    },
+    {
+     "key": "5_CR25",
+     "doi-asserted-by": "publisher",
+     "first-page": "378",
+     "DOI": "10.1016/S0888-7543(03)00128-9",
+     "volume": "82",
+     "author": "M-C Luo",
+     "year": "2003",
+     "unstructured": "Luo M-C, Thomas C, You FM, Hsiao J, Ouyang S, Buell CR, Malandro M, McGuire PE, Anderson OD, Dvorak J (2003) High-throughput fingerprinting of bacterial artificial chromosomes using the snapshot labeling kit and sizing of restriction fragments by capillary electrophoresis. Genomics 82:378",
+     "journal-title": "Genomics"
+    },
+    {
+     "key": "5_CR26",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Maccaferri M, Harris NS, Twardziok SO, Gundlach H, Spannagl M, Ormanbekova D, Lux T, Prade V, Milner S, Himmelbach A, Mascher M, Bagnaresi P, Faccioli P, Cozzi P, Lauria M, Lazzari B, Stella A, Manconi A, Gnocchi M, Avni R, Deek J, Biyiklioglu S, Frascaroli E, Corneti S, Salvi S, Tuberosa R, Sonnante G, Desiderio F, Mar\u00e8 C, Crosatti C, Mica E, Ozkan H, Vita PD, Marone D, Joukhadar R, Pasam RK, Mazzucotelli E, Nigro D, Gadaleta A, Chao S, Faris J, Melo ATO, Pumphrey M, Pecchioni N, Milanesi L, Wiebe K, MacLachlan RP, Clarke JM, Sharpe AG, Koh K, Liang KYH, Taylor GJ, Knox R, Budak H, Mastrangelo AM, Xu SS, Stein N, Hale I, Distelfeld A, Hayden MJ, Walkowiak S, Mayer KFX, Ceriotti A, Pozniak CJ, Cattivelli L (2018) Durum wheat genome reveals past domestication signatures and future improvement targets (under review)",
+     "DOI": "10.1038/s41588-019-0381-3"
+    },
+    {
+     "key": "5_CR27",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Madishetty K, Condamine P, Svensson JT, Rodriguez E, Close TJ (2007) An improved method to identify BAC clones using pooled overgos. Nucl Acids Res 35:e5",
+     "DOI": "10.1093/nar/gkl920"
+    },
+    {
+     "key": "5_CR28",
+     "doi-asserted-by": "publisher",
+     "first-page": "3685",
+     "DOI": "10.1105/tpc.113.114553",
+     "volume": "25",
+     "author": "MM Martis",
+     "year": "2013",
+     "unstructured": "Martis MM, Zhou R, Haseneyer G, Schmutzer T, Vr\u00e1na J, Kubal\u00e1kov\u00e1 M, K\u00f6nig S, Kugler KG, Scholz U, Hackauf B, Korzun V, Sch\u00f6n C-C, Dole\u017eel J, Bauer E, Mayer KFX, Stein N (2013) Reticulate evolution of the rye genome. Plant Cell 25:3685\u20133698",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "5_CR29",
+     "doi-asserted-by": "publisher",
+     "first-page": "718",
+     "DOI": "10.1111/tpj.12319",
+     "volume": "76",
+     "author": "M Mascher",
+     "year": "2013",
+     "unstructured": "Mascher M, Muehlbauer GJ, Rokhsar DS, Chapman J, Schmutz J, Barry K, Mu\u00f1oz-Amatria\u00edn M, Close TJ, Wise RP, Schulman AH, Himmelbach A, Mayer KFX, Scholz U, Poland JA, Stein N, Waugh R (2013) Anchoring and ordering NGS contig assemblies by population sequencing (POPSEQ). Plant J 76:718\u2013727",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "5_CR30",
+     "doi-asserted-by": "publisher",
+     "first-page": "427",
+     "DOI": "10.1038/nature22043",
+     "volume": "544",
+     "author": "M Mascher",
+     "year": "2017",
+     "unstructured": "Mascher M, Gundlach H, Himmelbach A, Beier S, Twardziok SO, Wicker T, Radchuk V, Dockter C, Hedley PE, Russell J, Bayer M, Ramsay L, Liu H, Haberer G, Zhang X-Q, Zhang Q, Barrero RA, Li L, Taudien S, Groth M, Felder M, Hastie A, \u0160imkov\u00e1 H, Sta\u0148kov\u00e1 H, Vr\u00e1na J, Chan S, Mu\u00f1oz-Amatria\u00edn M, Ounit R, Wanamaker S, Bolser D, Colmsee C, Schmutzer T, Aliyeva-Schnorr L, Grasso S, Tanskanen J, Chailyan A, Sampath D, Heavens D, Clissold L, Cao S, Chapman B, Dai F, Han Y, Li H, Li X, Lin C, McCooke JK, Tan C, Wang P, Wang S, Yin S, Zhou G, Poland JA, Bellgard MI, Borisjuk L, Houben A, Dole\u017eel J, Ayling S, Lonardi S, Kersey P, Langridge P, Muehlbauer GJ, Clark MD, Caccamo M, Schulman AH, Mayer KFX, Platzer M, Close TJ, Scholz U, Hansson M, Zhang G, Braumann I, Spannagl M, Li C, Waugh R, Stein N (2017) A chromosome conformation capture ordered sequence of the barley genome. Nature 544:427\u2013433",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "5_CR31",
+     "doi-asserted-by": "publisher",
+     "first-page": "496",
+     "DOI": "10.1104/pp.109.142612",
+     "volume": "151",
+     "author": "KFX Mayer",
+     "year": "2009",
+     "unstructured": "Mayer KFX, Taudien S, Martis M, Simkova H, Suchankova P, Gundlach H, Wicker T, Petzold A, Felder M, Steuernagel B, Scholz U, Graner A, Platzer M, Dolezel J, Stein N (2009) Gene content and virtual gene order of barley chromosome 1H. Plant Physiol (Rockv) 151:496\u2013505",
+     "journal-title": "Plant Physiol (Rockv)"
+    },
+    {
+     "key": "5_CR32",
+     "doi-asserted-by": "publisher",
+     "first-page": "1249",
+     "DOI": "10.1105/tpc.110.082537",
+     "volume": "23",
+     "author": "KFX Mayer",
+     "year": "2011",
+     "unstructured": "Mayer KFX, Martis M, Hedley P, \u0160imkov\u00e1 H, Liu H, Morris JA, Steuernagel B, Taudien S, Roessner S, Gundlach H, Kubal\u00e1kov\u00e1 M, Such\u00e1nkov\u00e1 P, Murat F, Felder M, Nussbaumer T, Graner A, Salse J, Endo T, Sakai H, Tanaka T, Itoh T, Sato K, Platzer M, Matsumoto T, Scholz U, Dole\u017eel J, Waugh R, Stein N (2011) Unlocking the barley genome by chromosomal and comparative genomics. Plant Cell 23:1249\u20131263",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "5_CR33",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Montenegro JD, Golicz AA, Bayer PE, Hurgobin B, Lee H, Chan C-KK, Visendi P, Lai K, Dole\u017eel J, Batley J, Edwards D (2017) The pangenome of hexaploid bread wheat. Plant J 90:1007\u20131013",
+     "DOI": "10.1111/tpj.13515"
+    },
+    {
+     "key": "5_CR34",
+     "doi-asserted-by": "publisher",
+     "first-page": "587",
+     "DOI": "10.1038/nmeth.3865",
+     "volume": "13",
+     "author": "Y Mostovoy",
+     "year": "2016",
+     "unstructured": "Mostovoy Y, Levy-Sakin M, Lam J, Lam ET, Hastie AR, Marks P, Lee J, Chu C, Lin C, D\u017eakula \u017d, Cao H, Schlebusch SA, Giorda K, Schnall-Levin M, Wall JD, Kwok P-Y (2016) A hybrid approach for de novo human genome sequence assembly and phasing. Nat Meth 13:587\u2013590",
+     "journal-title": "Nat Meth"
+    },
+    {
+     "key": "5_CR35",
+     "doi-asserted-by": "publisher",
+     "first-page": "R58",
+     "DOI": "10.1186/gb-2013-14-6-r58",
+     "volume": "14",
+     "author": "M Mu\u00f1oz-Amatria\u00edn",
+     "year": "2013",
+     "unstructured": "Mu\u00f1oz-Amatria\u00edn M, Eichten SR, Wicker T, Mascher M, Richmond TA, Jeddeloh JA, Steuernagel B, Taudien S, Platzer M, Scholz U, Ariyadasa R, Spannagl M, Nussbaumer T, Mayer KFX, Springer NM, Muehlbauer GJ, Stein N (2013) Distribution, functional impact and origin mechanisms of copy number variation in the barley genome. Genome Biol 14:R58",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "5_CR36",
+     "doi-asserted-by": "publisher",
+     "first-page": "216",
+     "DOI": "10.1111/tpj.12959",
+     "volume": "84",
+     "author": "M Mu\u00f1oz-Amatria\u00edn",
+     "year": "2015",
+     "unstructured": "Mu\u00f1oz-Amatria\u00edn M, Lonardi S, Luo M, Madishetty K, Svensson JT, Moscou MJ, Wanamaker S, Jiang T, Kleinhofs A, Muehlbauer GJ, Wise RP, Stein N, Ma Y, Rodriguez E, Kudrna D, Bhat PR, Chao S, Condamine P, Heinen S, Resnik J, Wing R, Witt HN, Alpert M, Beccuti M, Bozdag S, Cordero F, Mirebrahim H, Ounit R, Wu Y, You F, Zheng J, Simkov\u00e1 H, Dolezel J, Grimwood J, Schmutz J, Duma D, Altschmied L, Blake T, Bregitzer P, Cooper L, Dilbirligi M, Falk A, Feiz L, Graner A, Gustafson P, Hayes PM, Lemaux P, Mammadov J, Close TJ (2015) Sequencing of 15622 gene-bearing BACs clarifies the gene-dense regions of the barley genome. Plant J 84:216\u2013227",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "5_CR37",
+     "doi-asserted-by": "publisher",
+     "first-page": "342",
+     "DOI": "10.1101/gr.193474.115",
+     "volume": "26",
+     "author": "NH Putnam",
+     "year": "2016",
+     "unstructured": "Putnam NH, O\u2019Connell BL, Stites JC, Rice BJ, Blanchette M, Calef R, Troll CJ, Fields A, Hartley PD, Sugnet CW, Haussler D, Rokhsar DS, Green RE (2016) Chromosome-scale shotgun assembly using an in vitro method for long-range linkage. Genome Res 26:342\u2013350",
+     "journal-title": "Genome Res"
+    },
+    {
+     "key": "5_CR38",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Sato K, Tanaka T, Shigenobu S, Motoi Y, Wu J, Itoh T (2015) Improvement of barley genome annotations by deciphering the Haruna Nijo genome. DNA Res",
+     "DOI": "10.1093/dnares/dsv033"
+    },
+    {
+     "key": "5_CR39",
+     "doi-asserted-by": "publisher",
+     "first-page": "1112",
+     "DOI": "10.1126/science.1178534",
+     "volume": "326",
+     "author": "PS Schnable",
+     "year": "2009",
+     "unstructured": "Schnable PS, Ware D, Fulton RS, Stein JC, Wei F, Pasternak S, Liang C, Zhang J, Fulton L, Graves TA, Minx P, Reily AD, Courtney L, Kruchowski SS, Tomlinson C, Strong C, Delehaunty K, Fronick C, Courtney B, Rock SM, Belter E, Du F, Kim K, Abbott RM, Cotton M, Levy A, Marchetto P, Ochoa K, Jackson SM, Gillam B, Chen W, Yan L, Higginbotham J, Cardenas M, Waligorski J, Applebaum E, Phelps L, Falcone J, Kanchi K, Thane T, Scimone A, Thane N, Henke J, Wang T, Ruppert J, Shah N, Rotter K, Hodges J, Ingenthron E, Cordes M, Kohlberg S, Sgro J, Delgado B, Mead K, Chinwalla A, Leonard S, Crouse K, Collura K, Kudrna D, Currie J, He R, Angelova A, Rajasekar S, Mueller T, Lomeli R, Scara G, Ko A, Delaney K, Wissotski M, Lopez G, Campos D, Braidotti M, Ashley E, Golser W, Kim H, Lee S, Lin J, Dujmic Z, Kim W, Talag J, Zuccolo A, Fan C, Sebastian A, Kramer M, Spiegel L, Nascimento L, Zutavern T, Miller B, Ambroise C, Muller S, Spooner W, Narechania A, Ren L, Wei S, Kumari S, Faga B, Levy MJ, McMahan L, Van Buren P, Vaughn MW, Ying K, Yeh C-T, Emrich SJ, Jia Y, Kalyanaraman A, Hsia A-P, Barbazuk WB, Baucom RS, Brutnell TP, Carpita NC, Chaparro C, Chia J-M, Deragon J-M, Estill JC, Fu Y, Jeddeloh JA, Han Y, Lee H, Li P, Lisch DR, Liu S, Liu Z, Nagel DH, McCann MC, SanMiguel P, Myers AM, Nettleton D, Nguyen J, Penning BW, Ponnala L, Schneider KL, Schwartz DC, Sharma A, Soderlund C, Springer NM, Sun Q, Wang H, Waterman M, Westerman R, Wolfgruber TK, Yang L, Yu Y, Zhang L, Zhou S, Zhu Q, Bennetzen JL, Dawe RK, Jiang J, Jiang N, Presting GG, Wessler SR, Aluru S, Martienssen RA, Clifton SW, McCombie WR, Wing RA, Wilson RK (2009) The B73 maize genome: complexity, diversity, and dynamics. Science 326:1112\u20131115",
+     "journal-title": "Science"
+    },
+    {
+     "key": "5_CR40",
+     "doi-asserted-by": "publisher",
+     "first-page": "142",
+     "DOI": "10.1104/pp.108.128967",
+     "volume": "149",
+     "author": "D Schulte",
+     "year": "2009",
+     "unstructured": "Schulte D, Close TJ, Graner A, Langridge P, Matsumoto T, Muehlbauer G, Sato K, Schulman AH, Waugh R, Wise RP, Stein N (2009) The international barley sequencing consortium\u2014at the threshold of efficient access to the barley genome. Plant Physiol (Rockv) 149:142\u2013147",
+     "journal-title": "Plant Physiol (Rockv)"
+    },
+    {
+     "key": "5_CR41",
+     "doi-asserted-by": "publisher",
+     "first-page": "247",
+     "DOI": "10.1186/1471-2164-12-247",
+     "volume": "12",
+     "author": "D Schulte",
+     "year": "2011",
+     "unstructured": "Schulte D, Ariyadasa R, Shi B, Fleury D, Langridge P, Collins N, Saski C, Atkins M, deJong P, Graner A, Stein N (2011) BAC library resources for map-based cloning and physical map construction in barley (Hordeum vulgare L.). BMC Genom 12:247",
+     "journal-title": "BMC Genom"
+    },
+    {
+     "key": "5_CR42",
+     "doi-asserted-by": "publisher",
+     "first-page": "1135",
+     "DOI": "10.1038/nbt1486",
+     "volume": "26",
+     "author": "J Shendure",
+     "year": "2008",
+     "unstructured": "Shendure J, Ji H (2008) Next-generation DNA sequencing. Nat Biotechnol 26:1135\u20131145",
+     "journal-title": "Nat Biotechnol"
+    },
+    {
+     "key": "5_CR43",
+     "doi-asserted-by": "publisher",
+     "first-page": "335",
+     "DOI": "10.1038/nrg1325",
+     "volume": "5",
+     "author": "J Shendure",
+     "year": "2004",
+     "unstructured": "Shendure J, Mitra RD, Varma C, Church GM (2004) Advanced sequencing technologies: methods and goals. Nat Rev Genet 5:335\u2013343",
+     "journal-title": "Nat Rev Genet"
+    },
+    {
+     "key": "5_CR44",
+     "doi-asserted-by": "publisher",
+     "first-page": "345",
+     "DOI": "10.1038/nature24286",
+     "volume": "550",
+     "author": "J Shendure",
+     "year": "2017",
+     "unstructured": "Shendure J, Balasubramanian S, Church GM, Gilbert W, Rogers J, Schloss JA, Waterston RH (2017) DNA sequencing at 40: past, present and future. Nature 550:345",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "5_CR45",
+     "doi-asserted-by": "publisher",
+     "first-page": "12",
+     "DOI": "10.1007/s10142-004-0106-1",
+     "volume": "4",
+     "author": "P Sourdille",
+     "year": "2004",
+     "unstructured": "Sourdille P, Singh S, Cadalen T, Brown-Guedira G, Gay G, Qi L, Gill B, Dufour P, Murigneux A, Bernard M (2004) Microsatellite-based deletion bin system for the establishment of genetic-physical map relationships in wheat (Triticum aestivum L.). Funct Integr Genomics 4:12\u201325",
+     "journal-title": "Funct Integr Genomics"
+    },
+    {
+     "key": "5_CR46",
+     "volume-title": "Biotechnological approaches to barley improvement",
+     "author": "N Stein",
+     "year": "2014",
+     "unstructured": "Stein N (2014) Development of sequence resources. In: Kumlehn J, Stein N (eds) Biotechnological approaches to barley improvement. Springer, Berlin"
+    },
+    {
+     "key": "5_CR47",
+     "doi-asserted-by": "publisher",
+     "first-page": "391",
+     "DOI": "10.1007/978-94-007-7572-5_16",
+     "volume-title": "Advances in genomics of plant genetic resources",
+     "author": "N Stein",
+     "year": "2014",
+     "unstructured": "Stein N, Steuernagel B (2014) Advances in sequencing the barley genome. In: Tuberosa R, Frison E, Graner A (eds) Advances in genomics of plant genetic resources. Springer Netherlands, Dordrecht, pp 391\u2013403"
+    },
+    {
+     "key": "5_CR48",
+     "doi-asserted-by": "publisher",
+     "first-page": "547",
+     "DOI": "10.1186/1471-2164-10-547",
+     "volume": "10",
+     "author": "B Steuernagel",
+     "year": "2009",
+     "unstructured": "Steuernagel B, Taudien S, Gundlach H, Seidel M, Ariyadasa R, Schulte D, Petzold A, Felder M, Graner A, Scholz U, Mayer KFX, Platzer M, Stein N (2009) De novo 454 sequencing of barcoded BAC pools for comprehensive gene survey and genome analysis in the complex genome of barley. BMC Genom 10:547",
+     "journal-title": "BMC Genom"
+    },
+    {
+     "key": "5_CR49",
+     "doi-asserted-by": "publisher",
+     "first-page": "411",
+     "DOI": "10.1186/1756-0500-4-411",
+     "volume": "4",
+     "author": "S Taudien",
+     "year": "2011",
+     "unstructured": "Taudien S, Steuernagel B, Ariyadasa R, Schulte D, Schmutzer T, Groth M, Felder M, Petzold A, Scholz U, Mayer KF, Stein N, Platzer M (2011) Sequencing of BAC pools by different next generation sequencing platforms and strategies. BMC Res Notes 4:411",
+     "journal-title": "BMC Res Notes"
+    },
+    {
+     "key": "5_CR50",
+     "doi-asserted-by": "publisher",
+     "first-page": "1678",
+     "DOI": "10.1007/s00216-004-2526-0",
+     "volume": "378",
+     "author": "JO Tegenfeldt",
+     "year": "2004",
+     "unstructured": "Tegenfeldt JO, Prinz C, Cao H, Huang RL, Austin RH, Chou SY, Cox EC, Sturm JC (2004) Micro- and nanofluidics for DNA analysis. Anal Bioanal Chem 378:1678\u20131692",
+     "journal-title": "Anal Bioanal Chem"
+    },
+    {
+     "key": "5_CR51",
+     "doi-asserted-by": "publisher",
+     "first-page": "472",
+     "DOI": "10.1016/j.mib.2008.09.006",
+     "volume": "11",
+     "author": "H Tettelin",
+     "year": "2008",
+     "unstructured": "Tettelin H, Riley D, Cattuto C, Medini D (2008) Comparative genomics: the bacterial pan-genome. Curr Opin Microbiol 11:472\u2013477",
+     "journal-title": "Curr Opin Microbiol"
+    },
+    {
+     "key": "5_CR52",
+     "doi-asserted-by": "crossref",
+     "unstructured": "The International Barley Genome Sequencing Consortium (IBSC), Mayer KFX, Waugh R, Langridge P, Close TJ, Wise RP, Graner A, Matsumoto T, Sato K, Schulman A, Muehlbauer GJ, Stein N (2012) A physical, genetical and functional sequence assembly of the barley genome. Nature (Lond) 491:711\u2013716",
+     "DOI": "10.1038/nature11543"
+    },
+    {
+     "key": "5_CR53",
+     "doi-asserted-by": "publisher",
+     "unstructured": "The International Wheat Genome Sequencing Consortium (2014) A chromosome-based draft sequence of the hexaploid bread wheat (Triticum aestivum) genome. Science 345. https://doi.org/10.1126/science.1251788",
+     "DOI": "10.1126/science.1251788"
+    },
+    {
+     "key": "5_CR54",
+     "unstructured": "The International Wheat Genome Sequencing Consortium (IWGSC) (2018) Shifting the limits in wheat research and breeding through a fully annotated and anchored reference genome sequence (under review)"
+    },
+    {
+     "key": "5_CR55",
+     "doi-asserted-by": "publisher",
+     "first-page": "195",
+     "DOI": "10.1111/tpj.13153",
+     "volume": "86",
+     "author": "VK Tiwari",
+     "year": "2016",
+     "unstructured": "Tiwari VK, Heesacker A, Riera-Lizarazu O, Gunn H, Wang S, Wang Y, Gu YQ, Paux E, Koo D-H, Kumar A, Luo M-C, Lazo G, Zemetra R, Akhunov E, Friebe B, Poland J, Gill BS, Kianian S, Leonard JM (2016) A whole-genome, radiation hybrid mapping resource of hexaploid wheat. Plant J 86:195\u2013207",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "5_CR56",
+     "doi-asserted-by": "publisher",
+     "first-page": "2118",
+     "DOI": "10.1126/science.1090047",
+     "volume": "302",
+     "author": "CA Whitelaw",
+     "year": "2003",
+     "unstructured": "Whitelaw CA, Barbazuk WB, Pertea G, Chan AP, Cheung F, Lee Y, Zheng L, van Heeringen S, Karamycheva S, Bennetzen JL, SanMiguel P, Lakey N, Bedell J, Yuan Y, Budiman MA, Resnick A, Van Aken S, Utterback T, Riedmuller S, Williams M, Feldblyum T, Schubert K, Beachy R, Fraser CM, Quackenbush J (2003) Enrichment of gene-coding sequences in maize by genome filtration. Science 302:2118\u20132120",
+     "journal-title": "Science"
+    },
+    {
+     "key": "5_CR57",
+     "doi-asserted-by": "publisher",
+     "first-page": "275",
+     "DOI": "10.1186/1471-2164-7-275",
+     "volume": "7",
+     "author": "T Wicker",
+     "year": "2006",
+     "unstructured": "Wicker T, Schlagenhauf E, Graner A, Close TJ, Keller B, Stein N (2006) 454 sequencing put to the test using the complex genome of barley. BMC Genom 7:275",
+     "journal-title": "BMC Genom"
+    },
+    {
+     "key": "5_CR58",
+     "doi-asserted-by": "publisher",
+     "first-page": "1093",
+     "DOI": "10.1007/s001220051584",
+     "volume": "101",
+     "author": "Y Yu",
+     "year": "2000",
+     "unstructured": "Yu Y, Tomkins JP, Waugh R, Frisch DA, Kudrna D, Kleinhofs A, Brueggeman RS, Muehlbauer GJ, Wise RP, Wing RA (2000) A bacterial artificial chromosome library for barley (Hordeum vulgare L.) and the identification of clones containing putative resistance genes. Theor Appl Genet 101:1093\u20131099",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "5_CR59",
+     "doi-asserted-by": "publisher",
+     "first-page": "1095",
+     "DOI": "10.1073/pnas.1423628112",
+     "volume": "112",
+     "author": "X Zeng",
+     "year": "2015",
+     "unstructured": "Zeng X, Long H, Wang Z, Zhao S, Tang Y, Huang Z, Wang Y, Xu Q, Mao L, Deng G, Yao X, Li X, Bai L, Yuan H, Pan Z, Liu R, Chen X, WangMu Q, Chen M, Yu L, Liang J, DunZhu D, Zheng Y, Yu S, LuoBu Z, Guang X, Li J, Deng C, Hu W, Chen C, TaBa X, Gao L, Lv X, Abu YB, Fang X, Nevo E, Yu M, Wang J, Tashi N (2015) The draft genome of Tibetan hulless barley reveals adaptive patterns to the high stressful Tibetan Plateau. Proc Natl Acad Sci 112:1095\u20131100",
+     "journal-title": "Proc Natl Acad Sci"
+    },
+    {
+     "key": "5_CR60",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41477-017-0067-8",
+     "author": "G Zhao",
+     "year": "2017",
+     "unstructured": "Zhao G, Zou C, Li K, Wang K, Li T, Gao L, Zhang X, Wang H, Yang Z, Liu X, Jiang W, Mao L, Kong X, Jiao Y, Jia J (2017) The Aegilops tauschii genome reveals multiple impacts of transposons. Nature Plants. https://doi.org/10.1038/s41477-017-0067-8",
+     "journal-title": "Nature Plants"
+    },
+    {
+     "key": "5_CR61",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41588-018-0041-z",
+     "author": "Q Zhao",
+     "year": "2018",
+     "unstructured": "Zhao Q, Feng Q, Lu H, Li Y, Wang A, Tian Q, Zhan Q, Lu Y, Zhang L, Huang T, Wang Y, Fan D, Zhao Y, Wang Z, Zhou C, Chen J, Zhu C, Li W, Weng Q, Xu Q, Wang Z-X, Wei X, Han B, Huang X (2018) Pan-genome analysis highlights the extent of genomic variation in cultivated and wild rice. Nat Genet. https://doi.org/10.1038/s41588-018-0041-z",
+     "journal-title": "Nat Genet"
+    }
+   ],
+   "container-title": [
+    "Compendium of Plant Genomes",
+    "The Barley Genome"
+   ],
+   "link": [
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-92528-8_5",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      10,
+      22
+     ]
+    ],
+    "date-time": "2019-10-22T10:36:11Z",
+    "timestamp": 1571740571000
+   },
+   "score": 37.060448,
+   "resource": {
+    "primary": {
+     "URL": "http://link.springer.com/10.1007/978-3-319-92528-8_5"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2018
+     ]
+    ]
+   },
+   "ISBN": [
+    "9783319925271",
+    "9783319925288"
+   ],
+   "references-count": 61,
+   "URL": "https://doi.org/10.1007/978-3-319-92528-8_5",
+   "ISSN": [
+    "2199-4781",
+    "2199-479X"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2199-4781"
+    },
+    {
+     "type": "electronic",
+     "value": "2199-479X"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2018
+     ]
+    ]
+   }
+  },
+  {
+   "institution": [
+    {
+     "name": "bioRxiv"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T17:14:09Z",
+    "timestamp": 1768497249950,
+    "version": "3.49.0"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      10
+     ]
+    ]
+   },
+   "group-title": "Genomics",
+   "reference-count": 71,
+   "publisher": "openRxiv",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      10
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The first gapless, telomere-to-telomere (T2T) sequence assemblies of plant chromosomes were reported recently. However, sequence assemblies of most plant genomes remain fragmented. Only recent breakthroughs in accurate long-read sequencing have made it possible to achieve highly contiguous sequence assemblies with a few tens of contigs per chromosome, i.e. a number small enough to allow for a systematic inquiry into the causes of the remaining sequence gaps and the approaches and resources needed to close them. Here, we analyze sequence gaps in the current reference genome sequence of barley cv. Morex (MorexV3). Optical map and sequence raw data, complemented by ChIP-seq data for centromeric histone variant CENH3, were used to estimate the abundance of centromeric, ribosomal DNA and subtelomeric repeats in the barley genome. These estimates were compared with copy numbers in the MorexV3 pseudomolecule sequence. We found that almost all centromeric sequences and 45S ribosomal DNA repeat arrays were absent from the MorexV3 pseudomolecules and that the majority of sequence gaps can be attributed to assembly breakdown in long stretches of satellite repeats. However, missing sequences cannot fully account for the difference between assembly size and flow cytometric genome size estimates. We discuss the prospects of gap closure with ultra-long sequence reads.</jats:p>",
+   "DOI": "10.1101/2021.11.08.467736",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      10
+     ]
+    ],
+    "date-time": "2021-11-10T16:01:50Z",
+    "timestamp": 1636560110000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Prospects of telomere-to-telomere assembly in barley: analysis of sequence gaps in the MorexV3 reference genome"
+   ],
+   "prefix": "10.64898",
+   "author": [
+    {
+     "given": "Pavla",
+     "family": "Navr\u00e1tilov\u00e1",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6983-0609",
+     "authenticated-orcid": false,
+     "given": "Helena",
+     "family": "Toegelov\u00e1",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-4403-9367",
+     "authenticated-orcid": false,
+     "given": "Zuzana",
+     "family": "Tulpov\u00e1",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-5893-3784",
+     "authenticated-orcid": false,
+     "given": "Yi-Tzu",
+     "family": "Kuo",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3011-8731",
+     "authenticated-orcid": false,
+     "given": "Nils",
+     "family": "Stein",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6263-0492",
+     "authenticated-orcid": false,
+     "given": "Jaroslav",
+     "family": "Dole\u017eel",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3419-239X",
+     "authenticated-orcid": false,
+     "given": "Andreas",
+     "family": "Houben",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4159-7619",
+     "authenticated-orcid": false,
+     "given": "Hana",
+     "family": "\u0160imkov\u00e1",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6373-6013",
+     "authenticated-orcid": false,
+     "given": "Martin",
+     "family": "Mascher",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "54368",
+   "reference": [
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Aliyeva-Schnorr, L. , Ma, L. and Houben, A. (2015) A Fast Air-dry Dropping Chromosome Preparation Method Suitable for FISH in Plants. J Vis Exp, e53470.",
+     "DOI": "10.3791/53470"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.2",
+     "doi-asserted-by": "crossref",
+     "first-page": "231",
+     "DOI": "10.1007/s10577-016-9518-8",
+     "article-title": "Collinearity of homoeologous group 3 chromosomes in the genus Hordeum and Secale cereale as revealed by 3H-derived FISH analysis",
+     "volume": "24",
+     "year": "2016",
+     "journal-title": "Chromosome Research"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jmbi.1990.9999"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.4",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Arend, D. , Junker, A. , Scholz, U. , Sch\u00fcler, D. , Wylie, J. and Lange, M. (2016) PGP repository: a plant phenomics and genomics data publication infrastructure. Database 2016.",
+     "DOI": "10.1093/database/baw033"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.5",
+     "doi-asserted-by": "crossref",
+     "first-page": "374",
+     "DOI": "10.1007/BF00210075",
+     "article-title": "Characterization of relic DNA from barley genome",
+     "volume": "80",
+     "year": "1990",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.6",
+     "doi-asserted-by": "crossref",
+     "first-page": "374",
+     "DOI": "10.1007/BF00210075",
+     "article-title": "Characterization of Relic DNA from Barley Genome",
+     "volume": "80",
+     "year": "1990",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1047",
+     "DOI": "10.1038/s42003-021-02559-3",
+     "article-title": "Telomere-to-telomere gapless chromosomes of banana using nanopore sequencing",
+     "volume": "4",
+     "year": "2021",
+     "journal-title": "Communications Biology"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/27.2.573"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00713070"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.125.2.532"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10577-007-1156-8"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nature11082"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/aob/mci005"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.14",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Dole\u017eel, J. , \u010c\u00ed\u017ekov\u00e1, J. , \u0160imkov\u00e1, H. and Barto\u0161, J. (2018) One Major Challenge of Sequencing Large Plant Genomes Is to Know How Big They Really Are. Int J Mol Sci 19.",
+     "DOI": "10.3390/ijms19113554"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.15",
+     "doi-asserted-by": "crossref",
+     "first-page": "635",
+     "DOI": "10.1002/cyto.a.20915",
+     "article-title": "Nuclear genome size: Are we getting closer?",
+     "volume": "77A",
+     "year": "2010",
+     "journal-title": "Cytometry Part A"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.16",
+     "doi-asserted-by": "crossref",
+     "first-page": "105",
+     "DOI": "10.1139/g94-013",
+     "article-title": "Physical mapping of 5S rDNA loci by direct-cloned biotinylated probes in barley chromosomes",
+     "volume": "37",
+     "year": "1994",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.17",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/7.7.1869"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.18",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Gershman, A. , Sauria, M.E.G. , Hook, P.W. , Hoyt, S.J. , Razaghi, R. , Koren, S. , Altemose, N. , Caldas, G.V. , Vollger, M.R. , Logsdon, G.A. , Rhie, A. , Eichler, E.E. , Schatz, M.C. , O\u2019Neill, R.J. , Phillippy, A.M. , Miga, K.H. and Timp, W. (2021) Epigenetic Patterns in a Complete Human Genome. bioRxiv, 2021.2005.2026.443420.",
+     "DOI": "10.1101/2021.05.26.443420"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.19",
+     "doi-asserted-by": "crossref",
+     "first-page": "4809",
+     "DOI": "10.1093/bioinformatics/btz484",
+     "article-title": "Noise-cancelling repeat finder: uncovering tandem repeats in error-prone long-read sequencing data",
+     "volume": "35",
+     "year": "2019",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.20",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Himmelbach, A. , Ruban, A. , Walde, I. , \u0160imkov\u00e1, H. , Dole\u017eel, J. , Hastie, A. , Stein, N. and Mascher, M. (2018) Discovery of multi-megabase polymorphic inversions by chromosome conformation capture sequencing in large-genome plant species. The Plant Journal.",
+     "DOI": "10.1111/tpj.14109"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00412-007-0102-z"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/29.24.5029"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10577-015-9466-8"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.24",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nature22971"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.25",
+     "doi-asserted-by": "crossref",
+     "first-page": "181",
+     "DOI": "10.1007/s00412-011-0351-8",
+     "article-title": "Telomere-mediated truncation of barley chromosomes",
+     "volume": "121",
+     "year": "2012",
+     "journal-title": "Chromosoma"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.26",
+     "doi-asserted-by": "crossref",
+     "first-page": "2483",
+     "DOI": "10.3390/ijms20102483",
+     "article-title": "The Dark Matter of Large Cereal Genomes: Long Tandem Repeats",
+     "volume": "20",
+     "year": "2019",
+     "journal-title": "International journal of molecular sciences"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.92.21.9555"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.28",
+     "doi-asserted-by": "crossref",
+     "first-page": "1013",
+     "DOI": "10.1139/g92-155",
+     "article-title": "Physical mapping of the 18S\u20135.8S\u201326S rRNA genes in barley by in situ hybridization",
+     "volume": "35",
+     "year": "1992",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.29",
+     "doi-asserted-by": "crossref",
+     "first-page": "517",
+     "DOI": "10.1139/g93-071",
+     "article-title": "Physical mapping of four sites of 5S rDNA sequences and one site of the \u03b1-amylase-2 gene in barley (Hordeum vulgare)",
+     "volume": "36",
+     "year": "1993",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.30",
+     "first-page": "7",
+     "article-title": "Minimap2: pairwise alignment for nucleotide sequences",
+     "volume": "1",
+     "year": "2018",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btp352"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.32",
+     "doi-asserted-by": "crossref",
+     "first-page": "1916",
+     "DOI": "10.1101/gr.1251803",
+     "article-title": "Estimating the repeat structure and length of DNA sequences using L-tuples",
+     "volume": "13",
+     "year": "2003",
+     "journal-title": "Genome Res"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.33",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1181369"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.34",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13059-020-02029-9"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.35",
+     "doi-asserted-by": "crossref",
+     "first-page": "101",
+     "DOI": "10.1038/s41586-021-03420-7",
+     "article-title": "The structure, function and evolution of a complete human chromosome 8",
+     "volume": "593",
+     "year": "2021",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btr011"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0248-4900(93)90113-S"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.38",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1089/cmb.2017.0096"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.39",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.1204237109"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.40",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nature22043"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.41",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Mascher, M. , Wicker, T. , Jenkins, J. , Plott, C. , Lux, T. , Koh, C.S. , Ens, J. , Gundlach, H. , Boston, L.B. , Tulpov\u00e1, Z. , Holden, S. , Hern\u00e1ndez-Pinz\u00f3n, I. , Scholz, U. , Mayer, K.F.X. , Spannagl, M. , Pozniak, C.J. , Sharpe, A.G. , \u0160imkov\u00e1, H. , Moscou, M.J. , Grimwood, J. , Schmutz, J. and Stein, N. (2021) Long-read sequence assembly: a technical evaluation in barley. Plant Cell.",
+     "DOI": "10.1093/plcell/koab077"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.42",
+     "doi-asserted-by": "crossref",
+     "first-page": "79",
+     "DOI": "10.1038/s41586-020-2547-7",
+     "article-title": "Telomere-to-telomere assembly of a complete human X chromosome",
+     "volume": "585",
+     "year": "2020",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.43",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13059-019-1899-5"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.44",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Naish, M. , Alonge, M. , Wlodzimierz, P. , Tock, A.J. , Abramson, B.W. , Lambing, C.A. , Kuo, P. , Yelina, N. , Hartwick, N. , Colt, K. , Kakutani, T. , Martienssen, R.A. , Bousios, A. , Michael, T.P. , Schatz, M.C. and Henderson, I.R. (2021) The genetic and epigenetic landscape of the Arabidopsis centromeres. bioRxiv, 2021.2005.2030.446350.",
+     "DOI": "10.1101/2021.05.30.446350"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.45",
+     "doi-asserted-by": "crossref",
+     "first-page": "e1002777",
+     "DOI": "10.1371/journal.pgen.1002777",
+     "article-title": "Stretching the Rules: Monocentric Chromosomes with Multiple Centromere Domains",
+     "volume": "8",
+     "year": "2012",
+     "journal-title": "PLOS Genetics"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.46",
+     "doi-asserted-by": "crossref",
+     "first-page": "3745",
+     "DOI": "10.1038/s41596-020-0400-y",
+     "article-title": "Global analysis of repetitive DNA from unassembled sequence reads using RepeatExplorer2",
+     "volume": "15",
+     "year": "2020",
+     "journal-title": "Nature Protocols"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.47",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Nurk, S. , Koren, S. , Rhie, A. , Rautiainen, M. , Bzikadze, A.V. , Mikheenko, A. , Vollger, M.R. , Altemose, N. , Uralsky, L. , Gershman, A. , Aganezov, S. , Hoyt, S.J. , Diekhans, M. , Logsdon, G.A. , Alonge, M. , Antonarakis, S.E. , Borchers, M. , Bouffard, G.G. , Brooks, S.Y. , Caldas, G.V. , Cheng, H. , Chin, C.-S. , Chow, W. , de Lima, L.G. , Dishuck, P.C. , Durbin, R. , Dvorkina, T. , Fiddes, I.T. , Formenti, G. , Fulton, R.S. , Fungtammasan, A. , Garrison, E. , Grady, P.G.S. , Graves-Lindsay, T.A. , Hall, I.M. , Hansen, N.F. , Hartley, G.A. , Haukness, M. , Howe, K. , Hunkapiller, M.W. , Jain, C. , Jain, M. , Jarvis, E.D. , Kerpedjiev, P. , Kirsche, M. , Kolmogorov, M. , Korlach, J. , Kremitzki, M. , Li, H. , Maduro, V.V. , Marschall, T. , McCartney, A.M. , McDaniel, J. , Miller, D.E. , Mullikin, J.C. , Myers, E.W. , Olson, N.D. , Paten, B. , Peluso, P. , Pevzner, P.A. , Porubsky, D. , Potapova, T. , Rogaev, E.I. , Rosenfeld, J.A. , Salzberg, S.L. , Schneider, V.A. , Sedlazeck, F.J. , Shafin, K. , Shew, C.J. , Shumate, A. , Sims, Y. , Smit, A.F.A. , Soto, D.C. , Sovi\u0107, I. , Storer, J.M. , Streets, A. , Sullivan, B.A. , Thibaud-Nissen, F. , Torrance, J. , Wagner, J. , Walenz, B.P. , Wenger, A. , Wood, J.M.D. , Xiao, C. , Yan, S.M. , Young, A.C. , Zarate, S. , Surti, U. , McCoy, R.C. , Dennis, M.Y. , Alexandrov, I.A. , Gerton, J.L. , O\u2019Neill, R.J. , Timp, W. , Zook, J.M. , Schatz, M.C. , Eichler, E.E. , Miga, K.H. and Phillippy, A.M. (2021) The complete sequence of a human genome. bioRxiv, 2021.2005.2026.445798.",
+     "DOI": "10.1101/2021.05.26.445798"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.48",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/gr.263566.120"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.49",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Pfenninger, M. , Sch\u00f6nnenbeck, P. and Schell, T. (2021) Precise estimation of genome size from NGS data. bioRxiv, 2021.2005.2018.444645.",
+     "DOI": "10.1101/2021.05.18.444645"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.50",
+     "doi-asserted-by": "crossref",
+     "first-page": "3047",
+     "DOI": "10.1534/g3.120.401028",
+     "article-title": "Measuring Genome Sizes Using Read-Depth, k-mers, and Flow Cytometry: Methodological Comparisons in Beetles (Coleoptera)",
+     "volume": "10",
+     "year": "2020",
+     "journal-title": "G3: Genes|Genomes|Genetics"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.51",
+     "doi-asserted-by": "crossref",
+     "first-page": "182",
+     "DOI": "10.1186/s12864-021-07500-w",
+     "article-title": "Consistent ultra-long DNA sequencing with automated slow pipetting",
+     "volume": "22",
+     "year": "2021",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.52",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313x.1998.00341.x"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.53",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btq033"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.54",
+     "unstructured": "R Core Team (2017) R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. 2016."
+    },
+    {
+     "issue": "V 10",
+     "key": "2021111214300907000_2021.11.08.467736v1.55",
+     "first-page": "214",
+     "volume": "1885",
+     "year": "1885",
+     "journal-title": "\u00dcber Zellteilung//Morphologisches Jahrbuch"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.56",
+     "first-page": "294",
+     "article-title": "Genetic and physical mapping of barley telomeres",
+     "volume": "238",
+     "year": "1993",
+     "journal-title": "Mol Gen Genet"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.57",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.1103190108"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.58",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/gr.213611.116"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.59",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.1998.00125.x"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.60",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btx637"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.61",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Sun, H. , Jiao, W.-B. , Krause, K. , Campoy, J.A. , Goel, M. , Folz-Donahue, K. , Kukat, C. , Huettel, B. and Schneeberger, K. (2021) Chromosome-scale and haplotype-resolved genome assembly of a tetraploid potato cultivar. bioRxiv, 2021.2005.2015.444292.",
+     "DOI": "10.1101/2021.05.15.444292"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.62",
+     "doi-asserted-by": "crossref",
+     "first-page": "43",
+     "DOI": "10.1139/g06-134",
+     "article-title": "Development and molecular cytogenetic identification of new winter wheat--winter barley (\u2018Martonv\u00e1s\u00e1ri 9 kr1\u2019 - \u2018Igri\u2019) disomic addition lines",
+     "volume": "50",
+     "year": "2007",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.63",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.yexcr.2020.111895"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.64",
+     "unstructured": "Tange, O. (2018) Gnu Parallel. DOI: https://doi.org/10.5281/zenodo 1146014."
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.65",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.aar7191"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.66",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/cyto.990100606"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.67",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Tulpov\u00e1, Z. , Kova\u0159\u00edk, A. , Toegelov\u00e1, H. , Navr\u00e1tilov\u00e1, P. , Kapustov\u00e1, V. , H\u0159ibov\u00e1, E. , Vr\u00e1na, J. , Macas, J. , Dole\u017eel, J. and \u0160imkov\u00e1, H. (2021) Anatomy, transcription dynamics and evolution of wheat ribosomal RNA loci deciphered by a multi-omics approach. bioRxiv, 2020.2008.2029.273623.",
+     "DOI": "10.1101/2020.08.29.273623"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.68",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1111/j.1439-0523.1994.tb01270.x",
+     "article-title": "Natural Genes and Mechanisms for Resistance to Viruses in Cultivated and Wild Potato Species (Solanum spp.)",
+     "volume": "112",
+     "year": "1994",
+     "journal-title": "Plant Breeding"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.69",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btx153"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.70",
+     "doi-asserted-by": "crossref",
+     "first-page": "833",
+     "DOI": "10.1038/s41477-019-0487-8",
+     "article-title": "Assembly of allele-aware, chromosomal-scale autopolyploid genomes based on Hi-C data",
+     "volume": "5",
+     "year": "2019",
+     "journal-title": "Nature Plants"
+    },
+    {
+     "key": "2021111214300907000_2021.11.08.467736v1.71",
+     "doi-asserted-by": "crossref",
+     "first-page": "1018",
+     "DOI": "10.1038/s41588-020-0699-x",
+     "article-title": "Haplotype-resolved genome analyses of a heterozygous diploid potato",
+     "volume": "52",
+     "year": "2020",
+     "journal-title": "Nature Genetics"
+    }
+   ],
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.11.08.467736",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T02:22:16Z",
+    "timestamp": 1768443736000
+   },
+   "score": 33.781662,
+   "resource": {
+    "primary": {
+     "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.11.08.467736"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      10
+     ]
+    ]
+   },
+   "references-count": 71,
+   "URL": "https://doi.org/10.1101/2021.11.08.467736",
+   "relation": {
+    "is-preprint-of": [
+     {
+      "id-type": "doi",
+      "id": "10.1111/pbi.13816",
+      "asserted-by": "subject"
+     }
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      10
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  }
+ ]
+}

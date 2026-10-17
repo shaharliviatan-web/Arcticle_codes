@@ -1,0 +1,62 @@
+{
+ "notes": [
+  "**Item E3 — NIR facts from N. Pintel's files** (user-approved, ESM0 Q17: \"fix this in the manuscript text\"; (b) add the facts to TODOs 212 and 213). M&M: five scans; four kit subsamples; Kjeldahl (nitrogen × 6.25) in three subsamples. TODO 212 stays open for the citation; TODO 213 stays open for S. Hübner. TODO 214 resolved; supmat 240 → ✅ (no ❌ left). Caption of Online Resource 2 and checklist item 5 updated."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "M&M · NIR ¶2 (calibration scans)",
+   "why": "Fact from N. Pintel's files (user, 2026-10-01): each calibration accession was scanned five times (DA 7250 report of 7 Jan 2020, 150 scans = 30 × 5, averaged).",
+   "old": "Their grain was scanned and then milled",
+   "new": "Their grain was scanned {+five times +}and then milled"
+  },
+  {
+   "where": "M&M · NIR ¶2 (kit subsamples)",
+   "why": "Fact from N. Pintel's lab sheet: starch and β-glucan were assayed in four subsamples (a–d) per accession, not three (one accession has two valid starch values).",
+   "old": "each accession was assayed in three subsamples of about 200 mg, and their mean was used.",
+   "new": "each accession was assayed in {-three-}{+four+} subsamples of about 200 mg, and their mean was used."
+  },
+  {
+   "where": "M&M · NIR ¶2 (Kjeldahl)",
+   "why": "Facts from N. Pintel's Kjeldahl sheet: protein = nitrogen × 6.25; three subsamples per accession (87 of 90 weighed 0.18–0.22 g).",
+   "old": "Total protein was determined by the Kjeldahl method on 200 mg of ground grain at",
+   "new": "Total protein was determined by the Kjeldahl method {+(nitrogen × 6.25) in three subsamples of about +}{-on -}200 mg of ground grain at"
+  },
+  {
+   "where": "TODO 212 (comment text only)",
+   "why": "User (ESM0 Q17b): add the facts found; the citation check stays open.",
+   "old": "The nitrogen-to-protein conversion factor is not stated in the thesis or the old M&M drafts]{.comment-start id=\"212\"",
+   "new": "{-The nitrogen-to-protein conversion factor is not stated in the thesis or the old M&M drafts-}{+Found 2026-10-01 and written into the text: the conversion factor N x 6.25 (0.1 N HCl titrant) and three subsamples per accession of 0.08-0.26 g (87 of 90 between 0.18 and 0.22 g), from the Kjeldahl sheet PROTEIN CALC NIR.xlsx in N. Pintel's files (section_materials/02_materials_methods/NIR_calibration_files/NIR.zip; copies in supplementary/sources/NIR_calibration/, README there). Still open: the citation+}]{.comment-start id=\"212\""
+  },
+  {
+   "where": "TODO 213 (comment text only; stays open)",
+   "why": "User (ESM0 Q17b): add the facts found; open for S. Hübner to inspect.",
+   "old": "this constant cancels under within-season centering and is not described in the text]{.comment-start id=\"213\"",
+   "new": "this constant cancels under within-season centering and is not described in the text{+. Found 2026-10-01 in N. Pintel's files (section_materials/02_materials_methods/NIR_calibration_files/NIR.zip; copies in supplementary/sources/NIR_calibration/, README there): the calibration scans of the 30 calibration accessions (DA 7250, S/N 1921241, 7 Jan 2020, five scans per accession, averaged) used the factory calibrations Barley_Moisture_7July2011_Micro.41M, Barley_Protein_Asis_7July2011_Micro.41M, Barley_Fiber_Asis_7July2011_Micro.41M and Barley_Starch_Asis_7July2011_Micro.41M with bias 0 and slope 1, and no beta-glucan calibration (DA7250_Extensive Report_Barley_20200107_..._avg.xlsx). The season exports of June 2020 (2019-20) and October 2021 (2021-22) do not name the calibration, so whether one calibration served all three seasons cannot be read from the files. S. Hübner to inspect (user, 2026-10-01)+}]{.comment-start id=\"213\""
+  },
+  {
+   "where": "M&M · NIR ¶2 (validation, TODO 214)",
+   "why": "TODO 214 resolved: the calibration sheets are in Online Resource 2 (ESM0 Q17, option A); supmat 240 → ✅ (the last ❌).",
+   "old": "[supmat: not resolved ❌ — Online Resource 2 (ESM_2.xlsx) built with the block correlations only; the NIR calibration sheet waits for the calibration files (ESM0 Q5)]{.comment-start id=\"240\" author=\"supmat\"}[TODO: NIR calibration sheet of Online Resource 2 not built yet: waiting for the calibration files the user will bring (ESM0 Q5, 2026-10-01). The only values so far are in the Pintel MSc thesis, Table 1 (2019-20 season; not in the project files), without n or significance levels: kit vs calibration scans: starch 0.785, protein 0.915, beta-glucan 1.000; kit vs 2019-20 scans: 0.466, 0.556, 0.514; 2019-20 scans vs calibration scans: 0.548, 0.649, 0.514, fiber 0.526. The beta-glucan r = 1.000 is expected, because its calibration was built on these kit values. Online Resource 2 now holds only the block correlations (TODO 215)]{.comment-start id=\"214\" author=\"TODO\"}[[Online Resource 2]]{.mark}[]{.comment-end id=\"214\"}[]{.comment-end id=\"240\"}",
+   "new": "{-[supmat: not resolved ❌ — Online Resource 2 (ESM_2.xlsx) built with the block correlations only; the NIR calibration sheet waits for the calibration files (ESM0 Q5)]{.comment-start id=\"240\" author=\"supmat\"}[TODO: NIR calibration sheet of Online Resource 2 not built yet: waiting for the calibration files the user will bring (ESM0 Q5, 2026-10-01). The only values so far are in the Pintel MSc thesis, Table 1 (2019-20 season; not in the project files), without n or significance levels: kit vs calibration scans: starch 0.785, protein 0.915, beta-glucan 1.000; kit vs 2019-20 scans: 0.466, 0.556, 0.514; 2019-20 scans vs calibration scans: 0.548, 0.649, 0.514, fiber 0.526. The beta-glucan r = 1.000 is expected, because its calibration was built on these kit values. Online Resource 2 now holds only the block correlations (TODO 215)]{.comment-start id=\"214\" author=\"TODO\"}[[Online Resource 2]]{.mark}[]{.comment-end id=\"214\"}[]{.comment-end id=\"240\"}-}{+[supmat: resolved ✅ — Online Resource 2 (ESM_2.xlsx, sheets NIR calibration and Calibration correlations: the 30 calibration accessions from N. Pintel's files, ESM0 Q17)]{.comment-start id=\"240\" author=\"supmat\"}Online Resource 2[]{.comment-end id=\"240\"}+}"
+  },
+  {
+   "where": "Supplementary Information · Online Resource 2",
+   "why": "The file now also holds the calibration validation (Q17; caption announced there).",
+   "old": "**Online Resource 2** Pearson correlations between the blocks of the 2019–20 season for the four nutritional traits",
+   "new": "**Online Resource 2** {+Validation of the near-infrared calibration against laboratory values, and +}{-Pearson-}{+Pearson+} correlations between the blocks of the 2019–20 season for the four nutritional traits"
+  },
+  {
+   "where": "Checklist at the top, item 5",
+   "why": "Done.",
+   "old": "⬜ NIR-calibration sheet of Online Resource 2 (TODO 214; calibration files from the user)",
+   "new": "{-⬜ NIR-calibration sheet of Online Resource 2 (TODO 214; calibration files from the user)-}{+✅ NIR-calibration sheets of Online Resource 2 (from N. Pintel's files)+}"
+  },
+  {
+   "where": "M&M · NIR ¶2 (hidden note)",
+   "why": "Source of the E3 facts (invisible in Word).",
+   "old": "<!-- MM8 (M&M voice review, 2026-09-30): NIR ¶1 merged here",
+   "new": "{+<!-- E3 (supplementary session, 2026-10-01, user-approved): five scans, four kit subsamples, Kjeldahl N x 6.25 in three subsamples, from N. Pintel's files (NIR.zip; supplementary/sources/NIR_calibration/README.md): DA7250 extensive report of 7 Jan 2020 (30 accessions x 5 scans), Results for NIR calibration.xlsx (beta-glucan and starch a-d; protein a-c), PROTEIN CALC NIR.xlsx. Calibration validation: Online Resource 2. --> +}<!-- MM8 (M&M voice review, 2026-09-30): NIR ¶1 merged here"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item FIX1** — the citation under TODO 401 (Discussion §2 ¶1) showed in brackets, \"[(Friedman and Atsmon 1988)]\", because it was written in the placeholder style. The brackets are removed; the citation stays highlighted and the comment stays (user request, 2026-10-01)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Discussion §2 ¶1 (TODO 401 anchor)",
+   "why": "A real citation, not a placeholder: no brackets.",
+   "old": "[[(Friedman and Atsmon 1988)]]{.mark}",
+   "new": "[{-[-}(Friedman and Atsmon 1988){-]-}]{.mark}"
+  }
+ ]
+}

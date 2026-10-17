@@ -1,0 +1,2583 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     28
+    ]
+   ],
+   "date-time": "2026-09-28T23:07:49Z",
+   "timestamp": 1790636869619,
+   "version": "4.1.0"
+  },
+  "reference-count": 43,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "15",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     10
+    ]
+   ]
+  },
+  "DOI": "10.1093/jxb/erq238",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     8,
+     3
+    ]
+   ],
+   "date-time": "2010-08-03T02:42:20Z",
+   "timestamp": 1280803340000
+  },
+  "page": "4303-4312",
+  "source": "Crossref",
+  "is-referenced-by-count": 299,
+  "title": [
+   "Deviation from the grain protein concentration\u2013grain yield negative relationship is highly correlated to post-anthesis N uptake in winter wheat"
+  ],
+  "prefix": "10.1093",
+  "volume": "61",
+  "author": [
+   {
+    "given": "Matthieu",
+    "family": "Bogard",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vincent",
+    "family": "Allard",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maryse",
+    "family": "Brancourt-Hulmel",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Emmanuel",
+    "family": "Heumez",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jean-Marie",
+    "family": "Machet",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marie-H\u00e9l\u00e8ne",
+    "family": "Jeuffroy",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Philippe",
+    "family": "Gate",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pierre",
+    "family": "Martre",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jacques",
+    "family": "Le Gouis",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2010,
+     8,
+     2
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "657",
+    "DOI": "10.1017/S0021859609990190",
+    "article-title": "Variation of grain nitrogen content in relation with grain yield in old and modern Spanish wheats grown under a wide range of agronomic conditions in a mediterranean region",
+    "volume": "147",
+    "author": "Acreche",
+    "year": "2009",
+    "journal-title": "Journal of Agricultural Science"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1141",
+    "DOI": "10.2135/cropsci2003.0361",
+    "article-title": "Nitrogen remobilization during grain filling in wheat: genotypic and environmental effects",
+    "volume": "45",
+    "author": "Barbottin",
+    "year": "2005",
+    "journal-title": "Crop Science"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "581",
+    "DOI": "10.1016/j.jplph.2006.03.009",
+    "article-title": "Physiology and biochemistry of source-regulated protein accumulation in the wheat grain",
+    "volume": "164",
+    "author": "Barneix",
+    "year": "2007",
+    "journal-title": "Journal of Plant Physiology"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "91",
+    "DOI": "10.1111/j.1744-7348.2001.tb00088.x",
+    "article-title": "Stay-green: a consequence of the balance between supply and demand for nitrogen during grain filling?",
+    "volume": "138",
+    "author": "Borrell",
+    "year": "2001",
+    "journal-title": "Annals of Applied Biology"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "59",
+    "DOI": "10.1023/A:1017586220359",
+    "article-title": "Genetic diversity of wheat storage proteins and bread wheat quality",
+    "volume": "119",
+    "author": "Branlard",
+    "year": "2001",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "315",
+    "DOI": "10.1006/anbo.1995.1101",
+    "article-title": "Consequences of wheat breeding on nitrogen and phosphorus yield, grain nitrogen and phosphorus concentration and associated traits",
+    "volume": "76",
+    "author": "Calderini",
+    "year": "1995",
+    "journal-title": "Annals of Botany"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib7",
+    "article-title": "Stay-green wheat for Australia's changing, dry environment",
+    "volume-title": "Proceedings of the 11th International Wheat Genetics Symposium",
+    "author": "Christopher",
+    "year": "2008"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "25",
+    "DOI": "10.1007/s11032-007-9153-3",
+    "article-title": "Colinearity between the barley grain protein content (GPC) QTL on chromosome arm 6HS and the wheat Gpc-B1 region",
+    "volume": "22",
+    "author": "Distelfeld",
+    "year": "2008",
+    "journal-title": "Molecular Breeding"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "133",
+    "DOI": "10.1016/S0733-5210(03)00030-4",
+    "article-title": "Molecular and biochemical impacts of environmental factors on wheat grain development and protein synthesis",
+    "volume": "38",
+    "author": "Dupont",
+    "year": "2003",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib10",
+    "first-page": "103",
+    "article-title": "The inverse yield\u2013protein relationship in cereals: possibilities and limitations for genetically improving the grain protein yield",
+    "volume": "1",
+    "author": "Feil",
+    "year": "1997",
+    "journal-title": "Trends in Agronomy"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "366",
+    "DOI": "10.1034/j.1399-3054.2000.1100311.x",
+    "article-title": "Rate and duration of grain filling in relation to flag leaf senescence and grain yield in spring wheat (Triticum aestivum) exposed to different concentrations of ozone",
+    "volume": "110",
+    "author": "Gelang",
+    "year": "2000",
+    "journal-title": "Physiologia Plantarum"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "855",
+    "DOI": "10.1093/jexbot/53.370.855",
+    "article-title": "The regulation of nitrate and ammonium transport systems in plants",
+    "volume": "53",
+    "author": "Glass",
+    "year": "2002",
+    "journal-title": "Journal of Experimental Botany"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "37",
+    "DOI": "10.1111/j.1438-8677.2008.00114.x",
+    "article-title": "Leaf senescence and nutrient remobilisation in barley and wheat",
+    "volume": "10",
+    "author": "Gregersen",
+    "year": "2008",
+    "journal-title": "Plant Biology"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "124",
+    "DOI": "10.1111/j.0031-9317.2004.0221.x",
+    "article-title": "Variation in nitrate uptake and assimilation between two ecotypes of Lotus japonicus and their recombinant inbred lines",
+    "volume": "120",
+    "author": "Harrison",
+    "year": "2004",
+    "journal-title": "Physiologia Plantarum"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "244",
+    "DOI": "10.1111/j.1439-0523.2007.01346.x",
+    "article-title": "Simultaneous selection for early maturity, increased grain yield and elevated grain protein content in spring wheat",
+    "volume": "126",
+    "author": "Iqbal",
+    "year": "2007",
+    "journal-title": "Plant Breeding"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib16",
+    "doi-asserted-by": "crossref",
+    "first-page": "426",
+    "DOI": "10.1111/j.1399-3054.2007.01044.x",
+    "article-title": "A high-grain protein content locus on barley (Hordeum vulgare) chromosome 6 is associated with increased flag leaf proteolysis and nitrogen remobilization",
+    "volume": "132",
+    "author": "Jukanti",
+    "year": "2008",
+    "journal-title": "Physiologia Plantarum"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1016/j.fcr.2007.01.002",
+    "article-title": "In winter wheat (Triticum aestivum L.), post-anthesis nitrogen uptake and remobilisation to the grain correlates with agronomic traits and nitrogen physiological markers",
+    "volume": "102",
+    "author": "Kichey",
+    "year": "2007",
+    "journal-title": "Field Crops Research"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "383",
+    "DOI": "10.1093/aob/mcg033",
+    "article-title": "Modelling cereal root systems for water and nitrogen capture: towards an economic optimum",
+    "volume": "91",
+    "author": "King",
+    "year": "2003",
+    "journal-title": "Annals of Botany"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "569",
+    "DOI": "10.1146/annurev.arplant.47.1.569",
+    "article-title": "The molecular genetics of nitrogen assimilation into amino acids in higher plants",
+    "volume": "47",
+    "author": "Lam",
+    "year": "1996",
+    "journal-title": "Annual Review of Plant Physiology and Plant Molecular Biology"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "121",
+    "DOI": "10.1071/FP03060",
+    "article-title": "Early vigorous growth is a major factor influencing nitrogen uptake in wheat",
+    "volume": "31",
+    "author": "Liao",
+    "year": "2004",
+    "journal-title": "Functional Plant Biology"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "508",
+    "DOI": "10.2135/cropsci1999.0011183X003900020035x",
+    "article-title": "RFLP markers associated with high grain protein from Triticum turgidum L. var. dicoccoides introgressed into hard red spring wheat",
+    "volume": "39",
+    "author": "Mesfin",
+    "year": "1999",
+    "journal-title": "Crop Science"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.1023/A:1012961703208",
+    "article-title": "The use of grain protein deviation for identifying wheat cultivars with high grain protein concentration and yield",
+    "volume": "122",
+    "author": "Monaghan",
+    "year": "2001",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "1388",
+    "DOI": "10.1111/j.1365-3040.2005.01371.x",
+    "article-title": "Are the carbon costs of seed production related to the quantitative and qualitative performance? An appraisal for legumes and other crops",
+    "volume": "28",
+    "author": "Munier-Jolain",
+    "year": "2005",
+    "journal-title": "Plant, Cell and Environment"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib24",
+    "doi-asserted-by": "crossref",
+    "first-page": "1921",
+    "DOI": "10.1093/jexbot/51.352.1921",
+    "article-title": "The strategy of the wheat plant in acclimating growth and grain production to nitrogen availability",
+    "volume": "51",
+    "author": "Oscarson",
+    "year": "2000",
+    "journal-title": "Journal of Experimental Botany"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib25",
+    "first-page": "59",
+    "article-title": "Yield and grain protein concentration in bread wheat: a review and a study of multi-annual data from a French breeding program",
+    "volume": "57",
+    "author": "Oury",
+    "year": "2003",
+    "journal-title": "Journal of Genetics and Breeding"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "87",
+    "DOI": "10.1007/s10681-009-9997-1",
+    "article-title": "The prediction of bread wheat quality: joint use of the phenotypic information brought by technological tests and the genetic information brought by HMW and LMW glutenin subunits",
+    "volume": "171",
+    "author": "Oury",
+    "year": "2010",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "45",
+    "DOI": "10.1007/s10681-007-9395-5",
+    "article-title": "Yield and grain protein concentration in bread wheat: how to use the negative relationship between the two characters to identify favourable genotypes?",
+    "volume": "157",
+    "author": "Oury",
+    "year": "2007",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib28",
+    "volume-title": "IPCC Fourth Assessment Report: Climate Change 2007 (AR4)",
+    "author": "Parry",
+    "year": "2007"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib29",
+    "volume-title": "R: a language and environment for statistical computing",
+    "author": "R Development Core Team",
+    "year": "2005"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "255",
+    "DOI": "10.1016/S0378-4290(98)00143-9",
+    "article-title": "Source:sink ratio and leaf senescence in maize: II. Nitrogen metabolism during grain filling",
+    "volume": "60",
+    "author": "Rajcan",
+    "year": "1999",
+    "journal-title": "Field Crops Research"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "779",
+    "DOI": "10.1093/jxb/erm363",
+    "article-title": "Plant response to nitrate starvation is determined by N storage capacity matched by nitrate uptake capacity in two Arabidopsis genotypes",
+    "volume": "59",
+    "author": "Richard-Molard",
+    "year": "2008",
+    "journal-title": "Journal of Experimental Botany"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "111",
+    "DOI": "10.2135/cropsci2002.0111",
+    "article-title": "Breeding opportunities for increasing the efficiency of water use and crop yield in temperate cereals",
+    "volume": "42",
+    "author": "Richards",
+    "year": "2002",
+    "journal-title": "Crop Science"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "158",
+    "DOI": "10.1007/BF00266987",
+    "article-title": "Variation in nitrogen use efficiency among soft red winter wheat genotypes",
+    "volume": "72",
+    "author": "Sanford",
+    "year": "1986",
+    "journal-title": "Theoretical and Applied Genetics"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib34",
+    "doi-asserted-by": "crossref",
+    "first-page": "1095",
+    "DOI": "10.1016/j.agrformet.2009.01.006",
+    "article-title": "Quantifying effects of simple wheat traits on yield in water-limited environments using a modelling approach",
+    "volume": "149",
+    "author": "Semenov",
+    "year": "2009",
+    "journal-title": "Agricultural and Forest Meteorology"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "309",
+    "DOI": "10.1002/jsfa.2740670306",
+    "article-title": "The relation between yield and protein in cereal grain",
+    "volume": "67",
+    "author": "Simmonds",
+    "year": "1995",
+    "journal-title": "Journal of the Science of Food and Agriculture"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "63",
+    "DOI": "10.1007/BF00023162",
+    "article-title": "Genetic improvement of bread wheat (Triticum aestivum L.) in Argentina: relationships between nitrogen and dry matter",
+    "volume": "50",
+    "author": "Slafer",
+    "year": "1990",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib37",
+    "doi-asserted-by": "crossref",
+    "first-page": "401",
+    "DOI": "10.1007/s10681-006-9208-2",
+    "article-title": "Dissecting gene \u00d7 environmental effects on wheat yields via QTL and physiological analysis",
+    "volume": "154",
+    "author": "Snape",
+    "year": "2007",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib38",
+    "doi-asserted-by": "crossref",
+    "first-page": "1351",
+    "DOI": "10.1021/jf00096a011",
+    "article-title": "Amino acid composition and nitrogen-to-protein conversion factors for animal and plant foods",
+    "volume": "38",
+    "author": "Sosulski",
+    "year": "1990",
+    "journal-title": "Journal of Agricultural and Food Chemistry"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib39",
+    "doi-asserted-by": "crossref",
+    "first-page": "1298",
+    "DOI": "10.1126/science.1133649",
+    "article-title": "A NAC gene regulating senescence improves grain protein, zinc, and iron content in wheat",
+    "volume": "314",
+    "author": "Uauy",
+    "year": "2006",
+    "journal-title": "Science"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib40",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/s11032-009-9366-8",
+    "article-title": "Modeling and mapping QTL for senescence-related traits in winter wheat under high temperature",
+    "author": "Vijayalakshmi",
+    "year": "2010",
+    "journal-title": "Molecular Breeding"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib41",
+    "doi-asserted-by": "crossref",
+    "first-page": "4263",
+    "DOI": "10.1093/jxb/erp257",
+    "article-title": "Wheat (Triticum aestivum) NAM proteins regulate the translocation of iron, zinc, and nitrogen compounds from vegetative tissues to grain",
+    "volume": "60",
+    "author": "Waters",
+    "year": "2009",
+    "journal-title": "Journal of Experimental Botany"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib42",
+    "doi-asserted-by": "crossref",
+    "first-page": "682",
+    "DOI": "10.2134/agronj1992.00021962008400040028x",
+    "article-title": "Fertilizer-nitrogen use efficiency of irrigated wheat: I. Uptake efficiency of preplant versus late-season application",
+    "volume": "84",
+    "author": "Wuest",
+    "year": "1992",
+    "journal-title": "Agronomy Journal"
+   },
+   {
+    "key": "key\n\t\t\t\t20170512132631_bib43",
+    "doi-asserted-by": "crossref",
+    "first-page": "187",
+    "DOI": "10.1016/j.fcr.2009.05.001",
+    "article-title": "Optimal numbers of environments to assess slopes of joint regression for grain yield, grain protein yield and grain protein concentration under nitrogen constraint in winter wheat",
+    "volume": "113",
+    "author": "Zheng",
+    "year": "2009",
+    "journal-title": "Field Crops Research"
+   }
+  ],
+  "container-title": [
+   "Journal of Experimental Botany"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://academic.oup.com/jxb/article-pdf/61/15/4303/16926650/erq238.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2017,
+     8,
+     23
+    ]
+   ],
+   "date-time": "2017-08-23T00:23:31Z",
+   "timestamp": 1503447811000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erq238"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     8,
+     2
+    ]
+   ]
+  },
+  "references-count": 43,
+  "journal-issue": {
+   "issue": "15",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      8,
+      2
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      10
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/jxb/erq238",
+  "relation": {},
+  "ISSN": [
+   "1460-2431",
+   "0022-0957"
+  ],
+  "issn-type": [
+   {
+    "value": "1460-2431",
+    "type": "electronic"
+   },
+   {
+    "value": "0022-0957",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     8,
+     2
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      28
+     ]
+    ],
+    "date-time": "2026-09-28T23:07:49Z",
+    "timestamp": 1790636869619,
+    "version": "4.1.0"
+   },
+   "reference-count": 43,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "15",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      10
+     ]
+    ]
+   },
+   "DOI": "10.1093/jxb/erq238",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      8,
+      3
+     ]
+    ],
+    "date-time": "2010-08-03T02:42:20Z",
+    "timestamp": 1280803340000
+   },
+   "page": "4303-4312",
+   "source": "Crossref",
+   "is-referenced-by-count": 299,
+   "title": [
+    "Deviation from the grain protein concentration\u2013grain yield negative relationship is highly correlated to post-anthesis N uptake in winter wheat"
+   ],
+   "prefix": "10.1093",
+   "volume": "61",
+   "author": [
+    {
+     "given": "Matthieu",
+     "family": "Bogard",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Vincent",
+     "family": "Allard",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Maryse",
+     "family": "Brancourt-Hulmel",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Emmanuel",
+     "family": "Heumez",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jean-Marie",
+     "family": "Machet",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Marie-H\u00e9l\u00e8ne",
+     "family": "Jeuffroy",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Philippe",
+     "family": "Gate",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Pierre",
+     "family": "Martre",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jacques",
+     "family": "Le Gouis",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      8,
+      2
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib1",
+     "doi-asserted-by": "crossref",
+     "first-page": "657",
+     "DOI": "10.1017/S0021859609990190",
+     "article-title": "Variation of grain nitrogen content in relation with grain yield in old and modern Spanish wheats grown under a wide range of agronomic conditions in a mediterranean region",
+     "volume": "147",
+     "author": "Acreche",
+     "year": "2009",
+     "journal-title": "Journal of Agricultural Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib2",
+     "doi-asserted-by": "crossref",
+     "first-page": "1141",
+     "DOI": "10.2135/cropsci2003.0361",
+     "article-title": "Nitrogen remobilization during grain filling in wheat: genotypic and environmental effects",
+     "volume": "45",
+     "author": "Barbottin",
+     "year": "2005",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "581",
+     "DOI": "10.1016/j.jplph.2006.03.009",
+     "article-title": "Physiology and biochemistry of source-regulated protein accumulation in the wheat grain",
+     "volume": "164",
+     "author": "Barneix",
+     "year": "2007",
+     "journal-title": "Journal of Plant Physiology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "91",
+     "DOI": "10.1111/j.1744-7348.2001.tb00088.x",
+     "article-title": "Stay-green: a consequence of the balance between supply and demand for nitrogen during grain filling?",
+     "volume": "138",
+     "author": "Borrell",
+     "year": "2001",
+     "journal-title": "Annals of Applied Biology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "59",
+     "DOI": "10.1023/A:1017586220359",
+     "article-title": "Genetic diversity of wheat storage proteins and bread wheat quality",
+     "volume": "119",
+     "author": "Branlard",
+     "year": "2001",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib6",
+     "doi-asserted-by": "crossref",
+     "first-page": "315",
+     "DOI": "10.1006/anbo.1995.1101",
+     "article-title": "Consequences of wheat breeding on nitrogen and phosphorus yield, grain nitrogen and phosphorus concentration and associated traits",
+     "volume": "76",
+     "author": "Calderini",
+     "year": "1995",
+     "journal-title": "Annals of Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib7",
+     "article-title": "Stay-green wheat for Australia's changing, dry environment",
+     "volume-title": "Proceedings of the 11th International Wheat Genetics Symposium",
+     "author": "Christopher",
+     "year": "2008"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "25",
+     "DOI": "10.1007/s11032-007-9153-3",
+     "article-title": "Colinearity between the barley grain protein content (GPC) QTL on chromosome arm 6HS and the wheat Gpc-B1 region",
+     "volume": "22",
+     "author": "Distelfeld",
+     "year": "2008",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "133",
+     "DOI": "10.1016/S0733-5210(03)00030-4",
+     "article-title": "Molecular and biochemical impacts of environmental factors on wheat grain development and protein synthesis",
+     "volume": "38",
+     "author": "Dupont",
+     "year": "2003",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib10",
+     "first-page": "103",
+     "article-title": "The inverse yield\u2013protein relationship in cereals: possibilities and limitations for genetically improving the grain protein yield",
+     "volume": "1",
+     "author": "Feil",
+     "year": "1997",
+     "journal-title": "Trends in Agronomy"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "366",
+     "DOI": "10.1034/j.1399-3054.2000.1100311.x",
+     "article-title": "Rate and duration of grain filling in relation to flag leaf senescence and grain yield in spring wheat (Triticum aestivum) exposed to different concentrations of ozone",
+     "volume": "110",
+     "author": "Gelang",
+     "year": "2000",
+     "journal-title": "Physiologia Plantarum"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "855",
+     "DOI": "10.1093/jexbot/53.370.855",
+     "article-title": "The regulation of nitrate and ammonium transport systems in plants",
+     "volume": "53",
+     "author": "Glass",
+     "year": "2002",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib13",
+     "doi-asserted-by": "crossref",
+     "first-page": "37",
+     "DOI": "10.1111/j.1438-8677.2008.00114.x",
+     "article-title": "Leaf senescence and nutrient remobilisation in barley and wheat",
+     "volume": "10",
+     "author": "Gregersen",
+     "year": "2008",
+     "journal-title": "Plant Biology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib14",
+     "doi-asserted-by": "crossref",
+     "first-page": "124",
+     "DOI": "10.1111/j.0031-9317.2004.0221.x",
+     "article-title": "Variation in nitrate uptake and assimilation between two ecotypes of Lotus japonicus and their recombinant inbred lines",
+     "volume": "120",
+     "author": "Harrison",
+     "year": "2004",
+     "journal-title": "Physiologia Plantarum"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib15",
+     "doi-asserted-by": "crossref",
+     "first-page": "244",
+     "DOI": "10.1111/j.1439-0523.2007.01346.x",
+     "article-title": "Simultaneous selection for early maturity, increased grain yield and elevated grain protein content in spring wheat",
+     "volume": "126",
+     "author": "Iqbal",
+     "year": "2007",
+     "journal-title": "Plant Breeding"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib16",
+     "doi-asserted-by": "crossref",
+     "first-page": "426",
+     "DOI": "10.1111/j.1399-3054.2007.01044.x",
+     "article-title": "A high-grain protein content locus on barley (Hordeum vulgare) chromosome 6 is associated with increased flag leaf proteolysis and nitrogen remobilization",
+     "volume": "132",
+     "author": "Jukanti",
+     "year": "2008",
+     "journal-title": "Physiologia Plantarum"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib17",
+     "doi-asserted-by": "crossref",
+     "first-page": "22",
+     "DOI": "10.1016/j.fcr.2007.01.002",
+     "article-title": "In winter wheat (Triticum aestivum L.), post-anthesis nitrogen uptake and remobilisation to the grain correlates with agronomic traits and nitrogen physiological markers",
+     "volume": "102",
+     "author": "Kichey",
+     "year": "2007",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.1093/aob/mcg033",
+     "article-title": "Modelling cereal root systems for water and nitrogen capture: towards an economic optimum",
+     "volume": "91",
+     "author": "King",
+     "year": "2003",
+     "journal-title": "Annals of Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib19",
+     "doi-asserted-by": "crossref",
+     "first-page": "569",
+     "DOI": "10.1146/annurev.arplant.47.1.569",
+     "article-title": "The molecular genetics of nitrogen assimilation into amino acids in higher plants",
+     "volume": "47",
+     "author": "Lam",
+     "year": "1996",
+     "journal-title": "Annual Review of Plant Physiology and Plant Molecular Biology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.1071/FP03060",
+     "article-title": "Early vigorous growth is a major factor influencing nitrogen uptake in wheat",
+     "volume": "31",
+     "author": "Liao",
+     "year": "2004",
+     "journal-title": "Functional Plant Biology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib21",
+     "doi-asserted-by": "crossref",
+     "first-page": "508",
+     "DOI": "10.2135/cropsci1999.0011183X003900020035x",
+     "article-title": "RFLP markers associated with high grain protein from Triticum turgidum L. var. dicoccoides introgressed into hard red spring wheat",
+     "volume": "39",
+     "author": "Mesfin",
+     "year": "1999",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib22",
+     "doi-asserted-by": "crossref",
+     "first-page": "309",
+     "DOI": "10.1023/A:1012961703208",
+     "article-title": "The use of grain protein deviation for identifying wheat cultivars with high grain protein concentration and yield",
+     "volume": "122",
+     "author": "Monaghan",
+     "year": "2001",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib23",
+     "doi-asserted-by": "crossref",
+     "first-page": "1388",
+     "DOI": "10.1111/j.1365-3040.2005.01371.x",
+     "article-title": "Are the carbon costs of seed production related to the quantitative and qualitative performance? An appraisal for legumes and other crops",
+     "volume": "28",
+     "author": "Munier-Jolain",
+     "year": "2005",
+     "journal-title": "Plant, Cell and Environment"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib24",
+     "doi-asserted-by": "crossref",
+     "first-page": "1921",
+     "DOI": "10.1093/jexbot/51.352.1921",
+     "article-title": "The strategy of the wheat plant in acclimating growth and grain production to nitrogen availability",
+     "volume": "51",
+     "author": "Oscarson",
+     "year": "2000",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib25",
+     "first-page": "59",
+     "article-title": "Yield and grain protein concentration in bread wheat: a review and a study of multi-annual data from a French breeding program",
+     "volume": "57",
+     "author": "Oury",
+     "year": "2003",
+     "journal-title": "Journal of Genetics and Breeding"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "87",
+     "DOI": "10.1007/s10681-009-9997-1",
+     "article-title": "The prediction of bread wheat quality: joint use of the phenotypic information brought by technological tests and the genetic information brought by HMW and LMW glutenin subunits",
+     "volume": "171",
+     "author": "Oury",
+     "year": "2010",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib27",
+     "doi-asserted-by": "crossref",
+     "first-page": "45",
+     "DOI": "10.1007/s10681-007-9395-5",
+     "article-title": "Yield and grain protein concentration in bread wheat: how to use the negative relationship between the two characters to identify favourable genotypes?",
+     "volume": "157",
+     "author": "Oury",
+     "year": "2007",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib28",
+     "volume-title": "IPCC Fourth Assessment Report: Climate Change 2007 (AR4)",
+     "author": "Parry",
+     "year": "2007"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib29",
+     "volume-title": "R: a language and environment for statistical computing",
+     "author": "R Development Core Team",
+     "year": "2005"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib30",
+     "doi-asserted-by": "crossref",
+     "first-page": "255",
+     "DOI": "10.1016/S0378-4290(98)00143-9",
+     "article-title": "Source:sink ratio and leaf senescence in maize: II. Nitrogen metabolism during grain filling",
+     "volume": "60",
+     "author": "Rajcan",
+     "year": "1999",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib31",
+     "doi-asserted-by": "crossref",
+     "first-page": "779",
+     "DOI": "10.1093/jxb/erm363",
+     "article-title": "Plant response to nitrate starvation is determined by N storage capacity matched by nitrate uptake capacity in two Arabidopsis genotypes",
+     "volume": "59",
+     "author": "Richard-Molard",
+     "year": "2008",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "111",
+     "DOI": "10.2135/cropsci2002.0111",
+     "article-title": "Breeding opportunities for increasing the efficiency of water use and crop yield in temperate cereals",
+     "volume": "42",
+     "author": "Richards",
+     "year": "2002",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib33",
+     "doi-asserted-by": "crossref",
+     "first-page": "158",
+     "DOI": "10.1007/BF00266987",
+     "article-title": "Variation in nitrogen use efficiency among soft red winter wheat genotypes",
+     "volume": "72",
+     "author": "Sanford",
+     "year": "1986",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "1095",
+     "DOI": "10.1016/j.agrformet.2009.01.006",
+     "article-title": "Quantifying effects of simple wheat traits on yield in water-limited environments using a modelling approach",
+     "volume": "149",
+     "author": "Semenov",
+     "year": "2009",
+     "journal-title": "Agricultural and Forest Meteorology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib35",
+     "doi-asserted-by": "crossref",
+     "first-page": "309",
+     "DOI": "10.1002/jsfa.2740670306",
+     "article-title": "The relation between yield and protein in cereal grain",
+     "volume": "67",
+     "author": "Simmonds",
+     "year": "1995",
+     "journal-title": "Journal of the Science of Food and Agriculture"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "63",
+     "DOI": "10.1007/BF00023162",
+     "article-title": "Genetic improvement of bread wheat (Triticum aestivum L.) in Argentina: relationships between nitrogen and dry matter",
+     "volume": "50",
+     "author": "Slafer",
+     "year": "1990",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib37",
+     "doi-asserted-by": "crossref",
+     "first-page": "401",
+     "DOI": "10.1007/s10681-006-9208-2",
+     "article-title": "Dissecting gene \u00d7 environmental effects on wheat yields via QTL and physiological analysis",
+     "volume": "154",
+     "author": "Snape",
+     "year": "2007",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib38",
+     "doi-asserted-by": "crossref",
+     "first-page": "1351",
+     "DOI": "10.1021/jf00096a011",
+     "article-title": "Amino acid composition and nitrogen-to-protein conversion factors for animal and plant foods",
+     "volume": "38",
+     "author": "Sosulski",
+     "year": "1990",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib39",
+     "doi-asserted-by": "crossref",
+     "first-page": "1298",
+     "DOI": "10.1126/science.1133649",
+     "article-title": "A NAC gene regulating senescence improves grain protein, zinc, and iron content in wheat",
+     "volume": "314",
+     "author": "Uauy",
+     "year": "2006",
+     "journal-title": "Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib40",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/s11032-009-9366-8",
+     "article-title": "Modeling and mapping QTL for senescence-related traits in winter wheat under high temperature",
+     "author": "Vijayalakshmi",
+     "year": "2010",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib41",
+     "doi-asserted-by": "crossref",
+     "first-page": "4263",
+     "DOI": "10.1093/jxb/erp257",
+     "article-title": "Wheat (Triticum aestivum) NAM proteins regulate the translocation of iron, zinc, and nitrogen compounds from vegetative tissues to grain",
+     "volume": "60",
+     "author": "Waters",
+     "year": "2009",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib42",
+     "doi-asserted-by": "crossref",
+     "first-page": "682",
+     "DOI": "10.2134/agronj1992.00021962008400040028x",
+     "article-title": "Fertilizer-nitrogen use efficiency of irrigated wheat: I. Uptake efficiency of preplant versus late-season application",
+     "volume": "84",
+     "author": "Wuest",
+     "year": "1992",
+     "journal-title": "Agronomy Journal"
+    },
+    {
+     "key": "key\n\t\t\t\t20170512132631_bib43",
+     "doi-asserted-by": "crossref",
+     "first-page": "187",
+     "DOI": "10.1016/j.fcr.2009.05.001",
+     "article-title": "Optimal numbers of environments to assess slopes of joint regression for grain yield, grain protein yield and grain protein concentration under nitrogen constraint in winter wheat",
+     "volume": "113",
+     "author": "Zheng",
+     "year": "2009",
+     "journal-title": "Field Crops Research"
+    }
+   ],
+   "container-title": [
+    "Journal of Experimental Botany"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/jxb/article-pdf/61/15/4303/16926650/erq238.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2017,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2017-08-23T00:23:31Z",
+    "timestamp": 1503447811000
+   },
+   "score": 91.51965,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erq238"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      8,
+      2
+     ]
+    ]
+   },
+   "references-count": 43,
+   "journal-issue": {
+    "issue": "15",
+    "published-online": {
+     "date-parts": [
+      [
+       2010,
+       8,
+       2
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2010,
+       10
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/jxb/erq238",
+   "ISSN": [
+    "1460-2431",
+    "0022-0957"
+   ],
+   "issn-type": [
+    {
+     "value": "1460-2431",
+     "type": "electronic"
+    },
+    {
+     "value": "0022-0957",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      8,
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      2,
+      28
+     ]
+    ],
+    "date-time": "2026-02-28T09:20:38Z",
+    "timestamp": 1772270438368,
+    "version": "3.50.1"
+   },
+   "reference-count": 0,
+   "publisher": "PeerJ",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.7717/peerj.8892/fig-7",
+   "type": "component",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      4,
+      30
+     ]
+    ],
+    "date-time": "2020-04-30T04:37:42Z",
+    "timestamp": 1588221462000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Figure 7: Relationship of grain yield (A, B) and grain protein yield (B, C) with soil water consumption at sowing to anthesis (SA) and anthesis to maturity (AM) of winter wheat."
+   ],
+   "prefix": "10.7717",
+   "member": "4443",
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      4,
+      30
+     ]
+    ],
+    "date-time": "2020-04-30T04:37:50Z",
+    "timestamp": 1588221470000
+   },
+   "score": 69.39214,
+   "resource": {
+    "primary": {
+     "URL": "https://peerj.com/articles/8892/fig-7"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      null
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.7717/peerj.8892/fig-7",
+   "relation": {
+    "is-component-of": [
+     {
+      "id-type": "doi",
+      "id": "10.7717/peerj.8892",
+      "asserted-by": "object"
+     }
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      27
+     ]
+    ],
+    "date-time": "2026-09-27T07:51:45Z",
+    "timestamp": 1790495505339,
+    "version": "4.1.0"
+   },
+   "reference-count": 72,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "10",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2011,
+      6
+     ]
+    ]
+   },
+   "DOI": "10.1093/jxb/err061",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      3,
+      18
+     ]
+    ],
+    "date-time": "2011-03-18T00:58:58Z",
+    "timestamp": 1300409938000
+   },
+   "page": "3621-3636",
+   "source": "Crossref",
+   "is-referenced-by-count": 192,
+   "title": [
+    "Anthesis date mainly explained correlations between post-anthesis leaf senescence, grain yield, and grain protein concentration in a winter wheat population segregating for flowering time QTLs"
+   ],
+   "prefix": "10.1093",
+   "volume": "62",
+   "author": [
+    {
+     "given": "Matthieu",
+     "family": "Bogard",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Matthieu",
+     "family": "Jourdan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Vincent",
+     "family": "Allard",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Pierre",
+     "family": "Martre",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Marie Reine",
+     "family": "Perretant",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Catherine",
+     "family": "Ravel",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Emmanuel",
+     "family": "Heumez",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Simon",
+     "family": "Orford",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "John",
+     "family": "Snape",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Simon",
+     "family": "Griffiths",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Oorbessy",
+     "family": "Gaju",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "John",
+     "family": "Foulkes",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jacques",
+     "family": "Le Gouis",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      3,
+      17
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1409",
+     "DOI": "10.1007/s00122-006-0365-4",
+     "article-title": "Diversity arrays technology (DArT) for high-throughput profiling of the hexaploid wheat genome",
+     "volume": "113",
+     "author": "Akbari",
+     "year": "2006",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib2",
+     "doi-asserted-by": "crossref",
+     "first-page": "507",
+     "DOI": "10.1007/s00122-009-1059-5",
+     "article-title": "Single nucleotide polymorphism genotyping in polyploid wheat with the Illumina GoldenGate assay",
+     "volume": "119",
+     "author": "Akhunov",
+     "year": "2009",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "2324",
+     "DOI": "10.1093/bioinformatics/bth230",
+     "article-title": "BioMercator: integrating genetic maps and QTL towards discovery of candidate genes",
+     "volume": "20",
+     "author": "Arcade",
+     "year": "2004",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "579",
+     "DOI": "10.1093/aob/mcn124",
+     "article-title": "Late foliar diseases in wheat crops decrease nitrogen yield through N uptake rather than through variations in N remobilization",
+     "volume": "102",
+     "author": "Bancal",
+     "year": "2008",
+     "journal-title": "Annals of Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "1141",
+     "DOI": "10.2135/cropsci2003.0361",
+     "article-title": "Nitrogen remobilization during grain filling in wheat: genotypic and environmental effects",
+     "volume": "45",
+     "author": "Barbottin",
+     "year": "2005",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib6",
+     "doi-asserted-by": "crossref",
+     "first-page": "721",
+     "DOI": "10.1007/s00122-007-0603-4",
+     "article-title": "A pseudo-response regulator is misexpressed in the photoperiod insensitive Ppd-D1a mutant of wheat (Triticum aestivum L.)",
+     "volume": "115",
+     "author": "Beales",
+     "year": "2007",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib7",
+     "doi-asserted-by": "crossref",
+     "first-page": "4303",
+     "DOI": "10.1093/jxb/erq238",
+     "article-title": "Deviation from the grain protein concentration\u2013grain yield negative relationship is highly correlated to post-anthesis N uptake in winter wheat",
+     "volume": "61",
+     "author": "Bogard",
+     "year": "2010",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.1007/s00122-007-0676-0",
+     "article-title": "FT genome A and D polymorphisms are associated with the variation of earliness components in hexaploid wheat",
+     "volume": "116",
+     "author": "Bonnin",
+     "year": "2008",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "131",
+     "DOI": "10.1016/j.fcr.2003.08.002",
+     "article-title": "Seed dry weight response to source\u2013sink manipulations in wheat, maize and soybean: a quantitative reappraisal",
+     "volume": "86",
+     "author": "Borr\u00e1s",
+     "year": "2004",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib10",
+     "doi-asserted-by": "crossref",
+     "first-page": "1295",
+     "DOI": "10.2135/cropsci2000.4051295x",
+     "article-title": "Nitrogen dynamics and the physiological basis of stay-green in Sorghum",
+     "volume": "40",
+     "author": "Borrell",
+     "year": "2000",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "91",
+     "DOI": "10.1111/j.1744-7348.2001.tb00088.x",
+     "article-title": "Stay-green: a consequence of the balance between supply and demand for nitrogen during grain filling?",
+     "volume": "138",
+     "author": "Borrell",
+     "year": "2001",
+     "journal-title": "Annals of Applied Biology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "357",
+     "DOI": "10.1016/j.jcs.2010.02.004",
+     "article-title": "Effect of the grain protein content locus Gpc-B1 on bread and pasta quality",
+     "volume": "51",
+     "author": "Brevis",
+     "year": "2010",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib13",
+     "doi-asserted-by": "crossref",
+     "first-page": "889",
+     "DOI": "10.1093/bioinformatics/btg112",
+     "article-title": "R/qtl: QTL mapping in experimental crosses",
+     "volume": "19",
+     "author": "Broman",
+     "year": "2003",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib14",
+     "doi-asserted-by": "crossref",
+     "first-page": "729",
+     "DOI": "10.1007/s00122-008-0815-2",
+     "article-title": "Genetic variation for N-remobilization and postsilking N-uptake in a set of maize recombinant inbred lines. 3. QTL detection and coincidences",
+     "volume": "117",
+     "author": "Coque",
+     "year": "2008",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib15",
+     "doi-asserted-by": "crossref",
+     "first-page": "1703",
+     "DOI": "10.1093/bioinformatics/bti222",
+     "article-title": "CARHTA GENE: multipopulation integrated genetic and radiation hybrid mapping",
+     "volume": "21",
+     "author": "de Givry",
+     "year": "2005",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib16",
+     "doi-asserted-by": "crossref",
+     "first-page": "249",
+     "DOI": "10.1016/S0378-4290(99)00046-5",
+     "article-title": "Spike dry matter and nitrogen accumulation before anthesis in wheat as affected by nitrogen fertilizer: relationship to kernels per spike",
+     "volume": "64",
+     "author": "Demotes-Mainard",
+     "year": "1999",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib17",
+     "doi-asserted-by": "crossref",
+     "first-page": "25",
+     "DOI": "10.1007/s11032-007-9153-3",
+     "article-title": "Colinearity between the barley grain protein content (GPC) QTL on chromosome arm 6HS and the wheat Gpc-B1 region",
+     "volume": "22",
+     "author": "Distelfeld",
+     "year": "2008",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "269",
+     "DOI": "10.1016/S0378-4290(96)01002-7",
+     "article-title": "Source\u2013sink ratio in barley (Hordeum vulgare L.) during grain filling: effects on senescence and grain protein concentration",
+     "volume": "49",
+     "author": "Dreccer",
+     "year": "1997",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib19",
+     "doi-asserted-by": "crossref",
+     "first-page": "2269",
+     "DOI": "10.1534/genetics.106.058537",
+     "article-title": "Mapping quantitative trait loci by an extension of the Haley\u2013Knott regression method using estimating equations",
+     "volume": "173",
+     "author": "Feenstra",
+     "year": "2006",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib20",
+     "first-page": "103",
+     "article-title": "The inverse yield\u2013protein relationship in cereals: possibilities and limitations for genetically improving the grain protein yield",
+     "volume": "1",
+     "author": "Feil",
+     "year": "1997",
+     "journal-title": "Trends in Agronomy"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib21",
+     "doi-asserted-by": "crossref",
+     "first-page": "181",
+     "DOI": "10.1007/s00438-008-0403-9",
+     "article-title": "Comparison of genetic and cytogenetic maps of hexaploid wheat (Triticum aestivum L.) using SSR and DArT markers",
+     "volume": "281",
+     "author": "Francki",
+     "year": "2009",
+     "journal-title": "Molecular Genetics and Genomics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib22",
+     "doi-asserted-by": "crossref",
+     "first-page": "313",
+     "DOI": "10.1104/pp.113.2.313",
+     "article-title": "Making sense of senescence",
+     "volume": "113",
+     "author": "Gan",
+     "year": "1997",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib23",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1002/9780470988855",
+     "volume-title": "Senescence processes in plants. Annual plant reviews",
+     "author": "Gan",
+     "year": "2007"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib24",
+     "doi-asserted-by": "crossref",
+     "first-page": "772",
+     "DOI": "10.1080/14620316.1999.11511187",
+     "article-title": "Correlations between sugar and acid content and peach growth",
+     "volume": "74",
+     "author": "G\u00e9nard",
+     "year": "1999",
+     "journal-title": "Journal of Horticultural Science and Bbiotechnology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib25",
+     "doi-asserted-by": "crossref",
+     "first-page": "463",
+     "DOI": "10.1093/genetics/155.1.463",
+     "article-title": "Quantitative trait loci: a meta-analysis",
+     "volume": "155",
+     "author": "Goffinet",
+     "year": "2000",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "1165",
+     "DOI": "10.1093/aob/mcp063",
+     "article-title": "The molecular biology of seasonal flowering-responses in Arabidopsis and the cereals",
+     "volume": "103",
+     "author": "Greenup",
+     "year": "2009",
+     "journal-title": "Annals of Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib27",
+     "doi-asserted-by": "crossref",
+     "first-page": "1032",
+     "DOI": "10.1007/s00122-002-1111-1",
+     "article-title": "Genetic analysis of grain protein-content, grain yield and thousand-kernel weight in bread wheat",
+     "volume": "106",
+     "author": "Groos",
+     "year": "2003",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib28",
+     "doi-asserted-by": "crossref",
+     "first-page": "382",
+     "DOI": "10.1016/j.crvi.2010.01.016",
+     "article-title": "Senescence and death of plant organs: nutrient recycling and developmental regulation",
+     "volume": "333",
+     "author": "Guiboileau",
+     "year": "2010",
+     "journal-title": "Comptes Rendus Biologies"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib29",
+     "doi-asserted-by": "crossref",
+     "first-page": "278",
+     "DOI": "10.1111/j.1399-3054.1991.tb00094.x",
+     "article-title": "Effect of source\u2013sink relations and nitrogen nutrition on senescence and N remobilization in the flag leaf of wheat",
+     "volume": "82",
+     "author": "Guitman",
+     "year": "1991",
+     "journal-title": "Physiologia Plantarum"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib30",
+     "doi-asserted-by": "crossref",
+     "first-page": "327",
+     "DOI": "10.1093/jxb/erl225",
+     "article-title": "Sorghum stay-green QTL individually reduce post-flowering drought-induced leaf senescence",
+     "volume": "58",
+     "author": "Harris",
+     "year": "2007",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib31",
+     "doi-asserted-by": "crossref",
+     "first-page": "2369",
+     "DOI": "10.1093/jxb/erm097",
+     "article-title": "The challenge of improving nitrogen use efficiency in crop plants: towards a more central role for genetic variability and quantitative genetics within integrated approaches",
+     "volume": "58",
+     "author": "Hirel",
+     "year": "2007",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "688",
+     "DOI": "10.1007/s00122-003-1465-z",
+     "article-title": "The genetic basis of stay-green in rice analyzed in a population of doubled haploid lines derived from an indica by japonica cross",
+     "volume": "108",
+     "author": "Jiang",
+     "year": "2004",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib33",
+     "doi-asserted-by": "crossref",
+     "first-page": "426",
+     "DOI": "10.1111/j.1399-3054.2007.01044.x",
+     "article-title": "A high-grain protein content locus on barley (Hordeum vulgare) chromosome 6 is associated with increased flag leaf proteolysis and nitrogen remobilization",
+     "volume": "132",
+     "author": "Jukanti",
+     "year": "2008",
+     "journal-title": "Physiologia Plantarum"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "22",
+     "DOI": "10.1016/j.fcr.2007.01.002",
+     "article-title": "In winter wheat (Triticum aestivum L.), post-anthesis nitrogen uptake and remobilisation to the grain correlates with agronomic traits and nitrogen physiological markers",
+     "volume": "102",
+     "author": "Kichey",
+     "year": "2007",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib35",
+     "doi-asserted-by": "crossref",
+     "first-page": "3137",
+     "DOI": "10.1093/jxb/erq139",
+     "article-title": "A major grain protein content locus on barley (Hordeum vulgare L.) chromosome 6 influences flowering time and sequential leaf senescence",
+     "volume": "61",
+     "author": "Lacerenza",
+     "year": "2010",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "399",
+     "DOI": "10.1007/s00122-007-0575-4",
+     "article-title": "Using genotype\u00d7nitrogen interaction variables to evaluate the QTL involved in wheat tolerance to nitrogen constraints",
+     "volume": "115",
+     "author": "Laperche",
+     "year": "2007",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib37",
+     "doi-asserted-by": "crossref",
+     "first-page": "393",
+     "DOI": "10.1007/BF00265339",
+     "article-title": "The production of haploid wheat plants from wheat\u00d7maize crosses",
+     "volume": "76",
+     "author": "Laurie",
+     "year": "1988",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib38",
+     "doi-asserted-by": "crossref",
+     "first-page": "115",
+     "DOI": "10.1146/annurev.arplant.57.032905.105316",
+     "article-title": "Leaf senescence",
+     "volume": "58",
+     "author": "Lim",
+     "year": "2007",
+     "journal-title": "Annual Review of Plant Biology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib39",
+     "doi-asserted-by": "crossref",
+     "first-page": "481",
+     "DOI": "10.1534/genetics.106.061549",
+     "article-title": "Poor performance of bootstrap confidence intervals for the location of a quantitative trait locus",
+     "volume": "174",
+     "author": "Manichaikul",
+     "year": "2006",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib40",
+     "doi-asserted-by": "crossref",
+     "first-page": "1959",
+     "DOI": "10.1104/pp.103.030585",
+     "article-title": "Modeling grain nitrogen accumulation and protein composition to understand the sink/source regulations of nitrogen remobilization for wheat",
+     "volume": "133",
+     "author": "Martre",
+     "year": "2003",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib41",
+     "doi-asserted-by": "crossref",
+     "first-page": "23",
+     "DOI": "10.1111/j.1438-8677.2008.00097.x",
+     "article-title": "Leaf nitrogen remobilisation for plant development and grain filling",
+     "volume": "10",
+     "author": "Masclaux-Daubresse",
+     "year": "2008",
+     "journal-title": "Plant Biology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib42",
+     "doi-asserted-by": "crossref",
+     "first-page": "183",
+     "DOI": "10.1016/S0378-4290(00)00119-2",
+     "article-title": "Is nitrogen uptake after anthesis in wheat regulated by sink size?",
+     "volume": "68",
+     "author": "Mi",
+     "year": "2000",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib43",
+     "doi-asserted-by": "crossref",
+     "first-page": "9",
+     "DOI": "10.1111/j.1439-037X.1996.tb00586.x",
+     "article-title": "Grain weight reductions in wheat associated with semidwarfism: an analysis of grain weight at different positions within the spike of near-isogenic lines",
+     "volume": "177",
+     "author": "Miralles",
+     "year": "1996",
+     "journal-title": "Journal of Agronomy and Crop Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib44",
+     "doi-asserted-by": "crossref",
+     "first-page": "394",
+     "DOI": "10.1104/pp.61.3.394",
+     "article-title": "Effects of sink removal on photosynthesis and senescence in leaves of soybean (Glycine max L.) plants",
+     "volume": "61",
+     "author": "Mondal",
+     "year": "1978",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib45",
+     "first-page": "60",
+     "article-title": "BeadArray technology: enabling an accurate, cost-effective approach to high-throughput genotyping.",
+     "volume": "56\u201358",
+     "author": "Oliphant",
+     "year": "2002",
+     "journal-title": "BioTechniques Suppl"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib46",
+     "first-page": "59",
+     "article-title": "Yield and grain protein concentration in bread wheat: a review and a study of multi-annual data from a French breeding program",
+     "volume": "57",
+     "author": "Oury",
+     "year": "2003",
+     "journal-title": "Journal of Genetics and Breeding"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib47",
+     "doi-asserted-by": "crossref",
+     "first-page": "1001",
+     "DOI": "10.1007/s00122-010-1351-4",
+     "article-title": "Heat and drought adaptive QTL in a wheat population designed to minimize confounding agronomic effects",
+     "volume": "121",
+     "author": "Pinto",
+     "year": "2010",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib48",
+     "doi-asserted-by": "crossref",
+     "first-page": "659",
+     "DOI": "10.1007/s00122-002-1114-y",
+     "article-title": "QTL analysis for grain protein content using SSR markers and validation studies using NILs in bread wheat",
+     "volume": "106",
+     "author": "Prasad",
+     "year": "2003",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib49",
+     "article-title": "R: a language and environment for statistical computing",
+     "author": "R Development Core Team",
+     "year": "2005",
+     "journal-title": "R Foundation for Statistical Computing"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib50",
+     "doi-asserted-by": "crossref",
+     "first-page": "245",
+     "DOI": "10.1016/S0378-4290(98)00142-7",
+     "article-title": "Source:sink ratio and leaf senescence in maize: I. Dry matter accumulation and partitioning during grain filling",
+     "volume": "60",
+     "author": "Rajcan",
+     "year": "1999",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib51",
+     "doi-asserted-by": "crossref",
+     "first-page": "255",
+     "DOI": "10.1016/S0378-4290(98)00143-9",
+     "article-title": "Source:sink ratio and leaf senescence in maize: II. Nitrogen metabolism during grain filling",
+     "volume": "60",
+     "author": "Rajcan",
+     "year": "1999",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib52",
+     "doi-asserted-by": "crossref",
+     "first-page": "158",
+     "DOI": "10.1007/BF00266987",
+     "article-title": "Variation in nitrogen use efficiency among soft red winter wheat genotypes",
+     "volume": "72",
+     "author": "Sanford",
+     "year": "1986",
+     "journal-title": "Theoretical and Applied Genetics"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib53",
+     "doi-asserted-by": "crossref",
+     "first-page": "309",
+     "DOI": "10.1002/jsfa.2740670306",
+     "article-title": "The relation between yield and protein in cereal grain",
+     "volume": "67",
+     "author": "Simmonds",
+     "year": "1995",
+     "journal-title": "Journal of the Science of Food and Agriculture"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib54",
+     "doi-asserted-by": "crossref",
+     "first-page": "63",
+     "DOI": "10.1007/BF00023162",
+     "article-title": "Genetic improvement of bread wheat (Triticum aestivum L.) in Argentina: relationships between nitrogen and dry matter",
+     "volume": "50",
+     "author": "Slafer",
+     "year": "1990",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib55",
+     "doi-asserted-by": "crossref",
+     "first-page": "401",
+     "DOI": "10.1007/s10681-006-9208-2",
+     "article-title": "Dissecting gene\u00d7environmental effects on wheat yields via QTL and physiological analysis",
+     "volume": "154",
+     "author": "Snape",
+     "year": "2007",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib56",
+     "doi-asserted-by": "crossref",
+     "first-page": "1351",
+     "DOI": "10.1021/jf00096a011",
+     "article-title": "Amino acid composition and nitrogen-to-protein conversion factors for animal and plant foods",
+     "volume": "38",
+     "author": "Sosulski",
+     "year": "1990",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib57",
+     "doi-asserted-by": "crossref",
+     "first-page": "1415",
+     "DOI": "10.1093/jxb/erg150",
+     "article-title": "Physiological characterization of \u2018stay green\u2019 mutants in durum wheat",
+     "volume": "54",
+     "author": "Spano",
+     "year": "2003",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib58",
+     "doi-asserted-by": "crossref",
+     "first-page": "329",
+     "DOI": "10.1093/jexbot/51.suppl_1.329",
+     "article-title": "Five ways to stay green",
+     "volume": "51",
+     "author": "Thomas",
+     "year": "2000",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib59",
+     "doi-asserted-by": "crossref",
+     "first-page": "83",
+     "DOI": "10.1146/annurev.pp.31.060180.000503",
+     "article-title": "Leaf senescence",
+     "volume": "31",
+     "author": "Thomas",
+     "year": "1980",
+     "journal-title": "Annual Review of Plant Physiology"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib60",
+     "doi-asserted-by": "crossref",
+     "first-page": "855",
+     "DOI": "10.4141/cjps82-128",
+     "article-title": "Effect of source\u2013sink ratio on dry matter accumulation and leaf senescence of maize",
+     "volume": "62",
+     "author": "Tollenaar",
+     "year": "1982",
+     "journal-title": "Canadian Journal of Plant Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib61",
+     "doi-asserted-by": "crossref",
+     "first-page": "108",
+     "DOI": "10.1016/j.eja.2006.04.004",
+     "article-title": "Unravelling environmental and genetic relationships between grain yield and nitrogen concentration for wheat",
+     "volume": "25",
+     "author": "Triboi",
+     "year": "2006",
+     "journal-title": "European Journal of Agronomy"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib62",
+     "doi-asserted-by": "crossref",
+     "first-page": "163",
+     "DOI": "10.1016/S1161-0301(01)00146-0",
+     "article-title": "Productivity and grain or seed composition: a new approach to an old problem",
+     "volume": "16",
+     "author": "Triboi",
+     "year": "2002",
+     "journal-title": "European Journal of Agronomy"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib63",
+     "doi-asserted-by": "crossref",
+     "first-page": "1298",
+     "DOI": "10.1126/science.1133649",
+     "article-title": "A NAC gene regulating senescence improves grain protein, zinc, and iron content in wheat",
+     "volume": "314",
+     "author": "Uauy",
+     "year": "2006",
+     "journal-title": "Science"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib64",
+     "doi-asserted-by": "crossref",
+     "first-page": "29",
+     "DOI": "10.1016/j.fcr.2009.09.019",
+     "article-title": "Functional dynamics of the nitrogen balance of sorghum. II. Grain filling period",
+     "volume": "115",
+     "author": "van Oosterom",
+     "year": "2010",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib65",
+     "doi-asserted-by": "crossref",
+     "first-page": "255",
+     "DOI": "10.1023/B:EUPH.0000013255.31618.14",
+     "article-title": "Mapping quantitative trait loci for flag leaf senescence as a yield determinant in winter wheat under optimal and drought-stressed environments",
+     "volume": "135",
+     "author": "Verma",
+     "year": "2004",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib66",
+     "doi-asserted-by": "crossref",
+     "first-page": "163",
+     "DOI": "10.1007/s11032-009-9366-8",
+     "article-title": "Modeling and mapping QTL for senescence-related traits in winter wheat under high temperature",
+     "volume": "26",
+     "author": "Vijayalakshmi",
+     "year": "2010",
+     "journal-title": "Molecular Breeding"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib67",
+     "doi-asserted-by": "crossref",
+     "first-page": "77",
+     "DOI": "10.1093/jhered/93.1.77",
+     "article-title": "MapChart: software for the graphical presentation of linkage maps and QTLs",
+     "volume": "93",
+     "author": "Voorrips",
+     "year": "2002",
+     "journal-title": "Journal of Heredity"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib68",
+     "doi-asserted-by": "crossref",
+     "first-page": "453",
+     "DOI": "10.1023/A:1006817714739",
+     "article-title": "Source\u2013sink manipulation effects on post-anthesis photosynthesis and grain setting on spike in winter wheat",
+     "volume": "35",
+     "author": "Wang",
+     "year": "1998",
+     "journal-title": "Photosynthetica"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib69",
+     "doi-asserted-by": "crossref",
+     "first-page": "4263",
+     "DOI": "10.1093/jxb/erp257",
+     "article-title": "Wheat (Triticum aestivum) NAM proteins regulate the translocation of iron, zinc, and nitrogen compounds from vegetative tissues to grain",
+     "volume": "60",
+     "author": "Waters",
+     "year": "2009",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib70",
+     "doi-asserted-by": "crossref",
+     "first-page": "420",
+     "DOI": "10.1111/j.1469-8137.2009.03072.x",
+     "article-title": "QTL analysis for sugar-regulated leaf senescence supports flowering-dependent and -independent senescence pathways",
+     "volume": "185",
+     "author": "Wingler",
+     "year": "2010",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib71",
+     "doi-asserted-by": "crossref",
+     "first-page": "19581",
+     "DOI": "10.1073/pnas.0607142103",
+     "article-title": "The wheat and barley vernalization gene VRN3 is an orthologue of FT",
+     "volume": "103",
+     "author": "Yan",
+     "year": "2006",
+     "journal-title": "Proceedings of the National Academy of Sciences, USA"
+    },
+    {
+     "key": "key\n\t\t\t\t20170702103737_bib72",
+     "doi-asserted-by": "crossref",
+     "first-page": "415",
+     "DOI": "10.1111/j.1365-3180.1974.tb01084.x",
+     "article-title": "A decimal code for the growth stages of cereals",
+     "volume": "14",
+     "author": "Zadoks",
+     "year": "1974",
+     "journal-title": "Weed Research"
+    }
+   ],
+   "container-title": [
+    "Journal of Experimental Botany"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/jxb/article-pdf/62/10/3621/18041745/err061.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      20
+     ]
+    ],
+    "date-time": "2021-11-20T12:52:04Z",
+    "timestamp": 1637412724000
+   },
+   "score": 60.91765,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/err061"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2011,
+      3,
+      17
+     ]
+    ]
+   },
+   "references-count": 72,
+   "journal-issue": {
+    "issue": "10",
+    "published-online": {
+     "date-parts": [
+      [
+       2011,
+       3,
+       17
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2011,
+       6
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/jxb/err061",
+   "ISSN": [
+    "1460-2431",
+    "0022-0957"
+   ],
+   "issn-type": [
+    {
+     "value": "1460-2431",
+     "type": "electronic"
+    },
+    {
+     "value": "0022-0957",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2011,
+      3,
+      17
+     ]
+    ]
+   }
+  }
+ ]
+}

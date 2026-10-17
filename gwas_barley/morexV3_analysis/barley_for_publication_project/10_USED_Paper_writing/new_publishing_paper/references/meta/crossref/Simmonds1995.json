@@ -1,0 +1,1843 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T21:57:26Z",
+   "timestamp": 1790805446230,
+   "version": "4.1.0"
+  },
+  "reference-count": 58,
+  "publisher": "Wiley",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2006,
+       9,
+       19
+      ]
+     ],
+     "date-time": "2006-09-19T00:00:00Z",
+     "timestamp": 1158624000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 4220,
+    "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "scijournals.onlinelibrary.wiley.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "J Sci Food Agric"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1995,
+     3
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>An analysis of published data on genetic relations between dry grain yields (y, t ha<jats:sup>\u22121</jats:sup>) and protein content [<jats:italic>p</jats:italic>, protein as a fraction (g g<jats:sup>\u22121</jats:sup>) of dry grain] of cereals is presented. In all, 106 usable regressions of <jats:italic>y</jats:italic> on <jats:italic>p</jats:italic> across geneotypes were assembled. The long\u2010recognised negative relation between yield and protein concentration was fully substantiated. There is a strong positive relation between grain yield and protein yield. The linear regression coefficient of yield on protein concentration is related to yield, with slope about \u221215. This relation holds approximately over all cereals. The data can be used to estimate a characteristic parameter described by <jats:italic>C</jats:italic> = dy/d(<jats:italic>yp</jats:italic>) = \u223c 15\u201325 at the mean of each experiment. The relationship is surprisingly consistent but no simple physiological interpretation is available. In discussion, the high <jats:italic>C</jats:italic>, the impact of strong negative regressions of <jats:italic>y</jats:italic> on <jats:italic>p</jats:italic> for breeding strategies, the fact that protein yield increases with gross grain yield but at falling <jats:italic>p</jats:italic> and certain socio\u2010economic consequences are emphasized. An acute need for orderly reporting of experimental data is also emphasised; the existing literature is chaotic as to units, moisture contents and conversion factors.</jats:p>",
+  "DOI": "10.1002/jsfa.2740670306",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2006,
+     11,
+     3
+    ]
+   ],
+   "date-time": "2006-11-03T09:02:51Z",
+   "timestamp": 1162544571000
+  },
+  "page": "309-315",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 339,
+  "title": [
+   "The relation between yield and protein in cereal grain"
+  ],
+  "prefix": "10.1002",
+  "volume": "67",
+  "author": [
+   {
+    "given": "Norman W",
+    "family": "Simmonds",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2006,
+     9,
+     19
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_1_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/S0021859600028665"
+   },
+   {
+    "key": "e_1_2_1_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1968.0011183X000800060025x"
+   },
+   {
+    "key": "e_1_2_1_4_1",
+    "first-page": "419",
+    "volume-title": "Rice Breeding",
+    "author": "Beachell H M",
+    "year": "1972"
+   },
+   {
+    "key": "e_1_2_1_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/jsfa.2740300111"
+   },
+   {
+    "key": "e_1_2_1_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/jsfa.2740320107"
+   },
+   {
+    "key": "e_1_2_1_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/jsfa.2740331103"
+   },
+   {
+    "key": "e_1_2_1_8_1",
+    "first-page": "542",
+    "article-title": "Uber die Beziehungen Zwischen K\u00f6rnertrag, Rohproteingehalt und Rohproteinertrag verschieden Weizensorten sowie ihre z\u00fcchterische Bedeutung",
+    "volume": "23",
+    "author": "Berg S O",
+    "year": "1941",
+    "journal-title": "Zeitschr Pflanzenz"
+   },
+   {
+    "key": "e_1_2_1_9_1",
+    "first-page": "789",
+    "article-title": "Criteria for early generation selection in wheat breeding programmes for improving protein productivity",
+    "volume": "24",
+    "author": "Bhatia C R",
+    "year": "1975",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "e_1_2_1_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.194.4272.1418"
+   },
+   {
+    "key": "e_1_2_1_11_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "CarpenterK J1970Nutritonal considerations in attempts to change the chemical composition of crops.Proc Nutr Soc293\u201312.",
+    "DOI": "10.1079/PNS19700004"
+   },
+   {
+    "key": "e_1_2_1_12_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00276260"
+   },
+   {
+    "key": "e_1_2_1_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0033-7560(74)90179-3"
+   },
+   {
+    "key": "e_1_2_1_14_1",
+    "first-page": "41",
+    "article-title": "Influence of nitrogen uptake and nitrogen partitioning efficiency on grain yield and grain protein concentration of twelve winter wheat genotypes",
+    "volume": "86",
+    "author": "Dubois J B",
+    "year": "1981",
+    "journal-title": "Zeitschr Pflanzenz"
+   },
+   {
+    "key": "e_1_2_1_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1981.0011183X002100010037x"
+   },
+   {
+    "key": "e_1_2_1_16_1",
+    "first-page": "9",
+    "volume-title": "Alternative Sources of Protein for Animal Production",
+    "author": "Frey K J",
+    "year": "1973"
+   },
+   {
+    "key": "e_1_2_1_17_1",
+    "first-page": "185",
+    "article-title": "Protein of oats",
+    "volume": "78",
+    "author": "Frey K J",
+    "year": "1977",
+    "journal-title": "Zeitschr Pflanzenz"
+   },
+   {
+    "key": "e_1_2_1_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1139/cjr49c-019"
+   },
+   {
+    "key": "e_1_2_1_19_1",
+    "first-page": "29",
+    "volume-title": "New Approaches to Breeding for Improved Plant Protein",
+    "author": "Johnson V A",
+    "year": "1969"
+   },
+   {
+    "key": "e_1_2_1_20_1",
+    "first-page": "23",
+    "volume-title": "Seed Protein Improvement by Nuclear Techniques",
+    "author": "Johnson V A",
+    "year": "1978"
+   },
+   {
+    "key": "e_1_2_1_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF02897739"
+   },
+   {
+    "key": "e_1_2_1_22_1",
+    "first-page": "24",
+    "volume-title": "Proc. 16th NIAB Crop Conf Camb 1980",
+    "author": "Kingston I B",
+    "year": "1981"
+   },
+   {
+    "key": "e_1_2_1_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/S0021859600065576"
+   },
+   {
+    "key": "e_1_2_1_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1985.0011183X002500030021x"
+   },
+   {
+    "key": "e_1_2_1_25_1",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/978-94-009-3131-2",
+    "volume-title": "Wheat Breeding, The Scientific Basis",
+    "author": "Lupton F G H",
+    "year": "1987"
+   },
+   {
+    "key": "e_1_2_1_26_1",
+    "first-page": "371",
+    "article-title": "Durum wheat\u2014Report on autumn sown variety trials, 1984\u201386",
+    "volume": "17",
+    "author": "Mann G C",
+    "year": "1987",
+    "journal-title": "J Nat Inst Agric Bot"
+   },
+   {
+    "key": "e_1_2_1_27_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1972.0011183X001200050014x"
+   },
+   {
+    "key": "e_1_2_1_28_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1968.0011183X000800050008x"
+   },
+   {
+    "key": "e_1_2_1_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2134/agronj1954.00021962004600080005x"
+   },
+   {
+    "key": "e_1_2_1_30_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/B978-0-12-159850-1.50012-2"
+   },
+   {
+    "key": "e_1_2_1_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2134/agronj1964.00021962005600030014x"
+   },
+   {
+    "key": "e_1_2_1_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1976.0011183X001600060036x"
+   },
+   {
+    "key": "e_1_2_1_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1139/cjr38c-001"
+   },
+   {
+    "key": "e_1_2_1_34_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/BF00028955",
+    "article-title": "Vegetative protein and its relation to grain protein in high and low grain protein winter wheats",
+    "volume": "48",
+    "author": "Noaman M M",
+    "year": "1990",
+    "journal-title": "Euyphytica"
+   },
+   {
+    "key": "e_1_2_1_35_1",
+    "doi-asserted-by": "crossref",
+    "first-page": "121",
+    "DOI": "10.1007/BF00038826",
+    "article-title": "Indirect selection for grain protein and grain yield in winter wheat",
+    "volume": "47",
+    "author": "Noaman M M",
+    "year": "1990",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "e_1_2_1_36_1",
+    "volume-title": "Plant Proteins",
+    "author": "Norton G",
+    "year": "1978"
+   },
+   {
+    "key": "e_1_2_1_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1071/AR9810425"
+   },
+   {
+    "key": "e_1_2_1_38_1",
+    "first-page": "89",
+    "article-title": "Breeding for yield and quality in winter wheat. Consequences for nitrogen uptake and partitioning efficiency",
+    "volume": "94",
+    "author": "Paccaud F X",
+    "year": "1985",
+    "journal-title": "Zeitschr Fflanzenz"
+   },
+   {
+    "key": "e_1_2_1_39_1",
+    "first-page": "247",
+    "volume-title": "Plant Proteins",
+    "author": "Payne P R",
+    "year": "1978"
+   },
+   {
+    "key": "e_1_2_1_40_1",
+    "first-page": "459",
+    "volume-title": "Photosynthesis and Productivity in Different Environments",
+    "author": "Penning de Vries F W T",
+    "year": "1975"
+   },
+   {
+    "key": "e_1_2_1_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0022-5193(74)90119-2"
+   },
+   {
+    "key": "e_1_2_1_42_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1975.0011183X001500050009x"
+   },
+   {
+    "key": "e_1_2_1_43_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1975.0011183X001500060016x"
+   },
+   {
+    "key": "e_1_2_1_44_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/S0021859600027556"
+   },
+   {
+    "key": "e_1_2_1_45_1",
+    "first-page": "3",
+    "volume-title": "Seed Protein Improvement by Nuclear Techniques",
+    "author": "Rabson R",
+    "year": "1978"
+   },
+   {
+    "key": "e_1_2_1_46_1",
+    "first-page": "207",
+    "volume-title": "Plant Proteins",
+    "author": "Rhodes A P",
+    "year": "1978"
+   },
+   {
+    "key": "e_1_2_1_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1139/f73-072"
+   },
+   {
+    "key": "e_1_2_1_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1985.0011183X002500020017x"
+   },
+   {
+    "key": "e_1_2_1_49_1",
+    "first-page": "53",
+    "article-title": "Economic aspects of plant breeding with especial reference to economic index selection",
+    "volume": "6",
+    "author": "Simmonds N W",
+    "year": "1989",
+    "journal-title": "Res Dev Agric"
+   },
+   {
+    "key": "e_1_2_1_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.189.4202.565"
+   },
+   {
+    "key": "e_1_2_1_51_1",
+    "first-page": "186",
+    "article-title": "Evolution of high\u2010protein genetic stock of bread wheat",
+    "volume": "87",
+    "author": "Singhal N C",
+    "year": "1981",
+    "journal-title": "Zeitschr Pflanzenz"
+   },
+   {
+    "key": "e_1_2_1_52_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/0378-4290(93)90154-F"
+   },
+   {
+    "key": "e_1_2_1_53_1",
+    "first-page": "315",
+    "volume-title": "Seed Protein Improvement in Cereals and Grain Legumes \u20142",
+    "author": "Stolen O",
+    "year": "1979"
+   },
+   {
+    "key": "e_1_2_1_54_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2134/agronj1969.00021962006100050031x"
+   },
+   {
+    "key": "e_1_2_1_55_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00021914"
+   },
+   {
+    "key": "e_1_2_1_56_1",
+    "first-page": "129",
+    "article-title": "Yield and protein content of hard red spring wheat under conditions of high temperature and low moisture",
+    "volume": "47",
+    "author": "Waldron L R",
+    "year": "1933",
+    "journal-title": "J Agric Res"
+   },
+   {
+    "key": "e_1_2_1_57_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1439-0523.1990.tb00403.x"
+   },
+   {
+    "key": "e_1_2_1_58_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1071/EA9720511"
+   },
+   {
+    "key": "e_1_2_1_59_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2134/agronj1968.00021962006000050013x"
+   }
+  ],
+  "container-title": [
+   "Journal of the Science of Food and Agriculture"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjsfa.2740670306",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/jsfa.2740670306",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2025-10-19T11:12:32Z",
+   "timestamp": 1760872352000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/jsfa.2740670306"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1995,
+     3
+    ]
+   ]
+  },
+  "references-count": 58,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      1995,
+      3
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1002/jsfa.2740670306"
+  ],
+  "URL": "https://doi.org/10.1002/jsfa.2740670306",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0022-5142",
+   "1097-0010"
+  ],
+  "issn-type": [
+   {
+    "value": "0022-5142",
+    "type": "print"
+   },
+   {
+    "value": "1097-0010",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1995,
+     3
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "1994-04-28",
+    "order": 0,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "1994-09-21",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2006-09-19",
+    "order": 3,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2026-09-30T21:57:26Z",
+    "timestamp": 1790805446230,
+    "version": "4.1.0"
+   },
+   "reference-count": 58,
+   "publisher": "Wiley",
+   "issue": "3",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2006,
+        9,
+        19
+       ]
+      ],
+      "date-time": "2006-09-19T00:00:00Z",
+      "timestamp": 1158624000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 4220,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "scijournals.onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "J Sci Food Agric"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      1995,
+      3
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>An analysis of published data on genetic relations between dry grain yields (y, t ha<jats:sup>\u22121</jats:sup>) and protein content [<jats:italic>p</jats:italic>, protein as a fraction (g g<jats:sup>\u22121</jats:sup>) of dry grain] of cereals is presented. In all, 106 usable regressions of <jats:italic>y</jats:italic> on <jats:italic>p</jats:italic> across geneotypes were assembled. The long\u2010recognised negative relation between yield and protein concentration was fully substantiated. There is a strong positive relation between grain yield and protein yield. The linear regression coefficient of yield on protein concentration is related to yield, with slope about \u221215. This relation holds approximately over all cereals. The data can be used to estimate a characteristic parameter described by <jats:italic>C</jats:italic> = dy/d(<jats:italic>yp</jats:italic>) = \u223c 15\u201325 at the mean of each experiment. The relationship is surprisingly consistent but no simple physiological interpretation is available. In discussion, the high <jats:italic>C</jats:italic>, the impact of strong negative regressions of <jats:italic>y</jats:italic> on <jats:italic>p</jats:italic> for breeding strategies, the fact that protein yield increases with gross grain yield but at falling <jats:italic>p</jats:italic> and certain socio\u2010economic consequences are emphasized. An acute need for orderly reporting of experimental data is also emphasised; the existing literature is chaotic as to units, moisture contents and conversion factors.</jats:p>",
+   "DOI": "10.1002/jsfa.2740670306",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2006,
+      11,
+      3
+     ]
+    ],
+    "date-time": "2006-11-03T09:02:51Z",
+    "timestamp": 1162544571000
+   },
+   "page": "309-315",
+   "update-policy": "https://doi.org/10.1002/crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 339,
+   "title": [
+    "The relation between yield and protein in cereal grain"
+   ],
+   "prefix": "10.1002",
+   "volume": "67",
+   "author": [
+    {
+     "given": "Norman W",
+     "family": "Simmonds",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2006,
+      9,
+      19
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_1_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0021859600028665"
+    },
+    {
+     "key": "e_1_2_1_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1968.0011183X000800060025x"
+    },
+    {
+     "key": "e_1_2_1_4_1",
+     "first-page": "419",
+     "volume-title": "Rice Breeding",
+     "author": "Beachell H M",
+     "year": "1972"
+    },
+    {
+     "key": "e_1_2_1_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.2740300111"
+    },
+    {
+     "key": "e_1_2_1_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.2740320107"
+    },
+    {
+     "key": "e_1_2_1_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.2740331103"
+    },
+    {
+     "key": "e_1_2_1_8_1",
+     "first-page": "542",
+     "article-title": "Uber die Beziehungen Zwischen K\u00f6rnertrag, Rohproteingehalt und Rohproteinertrag verschieden Weizensorten sowie ihre z\u00fcchterische Bedeutung",
+     "volume": "23",
+     "author": "Berg S O",
+     "year": "1941",
+     "journal-title": "Zeitschr Pflanzenz"
+    },
+    {
+     "key": "e_1_2_1_9_1",
+     "first-page": "789",
+     "article-title": "Criteria for early generation selection in wheat breeding programmes for improving protein productivity",
+     "volume": "24",
+     "author": "Bhatia C R",
+     "year": "1975",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "e_1_2_1_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.194.4272.1418"
+    },
+    {
+     "key": "e_1_2_1_11_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "CarpenterK J1970Nutritonal considerations in attempts to change the chemical composition of crops.Proc Nutr Soc293\u201312.",
+     "DOI": "10.1079/PNS19700004"
+    },
+    {
+     "key": "e_1_2_1_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00276260"
+    },
+    {
+     "key": "e_1_2_1_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0033-7560(74)90179-3"
+    },
+    {
+     "key": "e_1_2_1_14_1",
+     "first-page": "41",
+     "article-title": "Influence of nitrogen uptake and nitrogen partitioning efficiency on grain yield and grain protein concentration of twelve winter wheat genotypes",
+     "volume": "86",
+     "author": "Dubois J B",
+     "year": "1981",
+     "journal-title": "Zeitschr Pflanzenz"
+    },
+    {
+     "key": "e_1_2_1_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1981.0011183X002100010037x"
+    },
+    {
+     "key": "e_1_2_1_16_1",
+     "first-page": "9",
+     "volume-title": "Alternative Sources of Protein for Animal Production",
+     "author": "Frey K J",
+     "year": "1973"
+    },
+    {
+     "key": "e_1_2_1_17_1",
+     "first-page": "185",
+     "article-title": "Protein of oats",
+     "volume": "78",
+     "author": "Frey K J",
+     "year": "1977",
+     "journal-title": "Zeitschr Pflanzenz"
+    },
+    {
+     "key": "e_1_2_1_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/cjr49c-019"
+    },
+    {
+     "key": "e_1_2_1_19_1",
+     "first-page": "29",
+     "volume-title": "New Approaches to Breeding for Improved Plant Protein",
+     "author": "Johnson V A",
+     "year": "1969"
+    },
+    {
+     "key": "e_1_2_1_20_1",
+     "first-page": "23",
+     "volume-title": "Seed Protein Improvement by Nuclear Techniques",
+     "author": "Johnson V A",
+     "year": "1978"
+    },
+    {
+     "key": "e_1_2_1_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02897739"
+    },
+    {
+     "key": "e_1_2_1_22_1",
+     "first-page": "24",
+     "volume-title": "Proc. 16th NIAB Crop Conf Camb 1980",
+     "author": "Kingston I B",
+     "year": "1981"
+    },
+    {
+     "key": "e_1_2_1_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0021859600065576"
+    },
+    {
+     "key": "e_1_2_1_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1985.0011183X002500030021x"
+    },
+    {
+     "key": "e_1_2_1_25_1",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/978-94-009-3131-2",
+     "volume-title": "Wheat Breeding, The Scientific Basis",
+     "author": "Lupton F G H",
+     "year": "1987"
+    },
+    {
+     "key": "e_1_2_1_26_1",
+     "first-page": "371",
+     "article-title": "Durum wheat\u2014Report on autumn sown variety trials, 1984\u201386",
+     "volume": "17",
+     "author": "Mann G C",
+     "year": "1987",
+     "journal-title": "J Nat Inst Agric Bot"
+    },
+    {
+     "key": "e_1_2_1_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1972.0011183X001200050014x"
+    },
+    {
+     "key": "e_1_2_1_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1968.0011183X000800050008x"
+    },
+    {
+     "key": "e_1_2_1_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj1954.00021962004600080005x"
+    },
+    {
+     "key": "e_1_2_1_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-12-159850-1.50012-2"
+    },
+    {
+     "key": "e_1_2_1_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj1964.00021962005600030014x"
+    },
+    {
+     "key": "e_1_2_1_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1976.0011183X001600060036x"
+    },
+    {
+     "key": "e_1_2_1_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/cjr38c-001"
+    },
+    {
+     "key": "e_1_2_1_34_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1007/BF00028955",
+     "article-title": "Vegetative protein and its relation to grain protein in high and low grain protein winter wheats",
+     "volume": "48",
+     "author": "Noaman M M",
+     "year": "1990",
+     "journal-title": "Euyphytica"
+    },
+    {
+     "key": "e_1_2_1_35_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.1007/BF00038826",
+     "article-title": "Indirect selection for grain protein and grain yield in winter wheat",
+     "volume": "47",
+     "author": "Noaman M M",
+     "year": "1990",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "e_1_2_1_36_1",
+     "volume-title": "Plant Proteins",
+     "author": "Norton G",
+     "year": "1978"
+    },
+    {
+     "key": "e_1_2_1_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/AR9810425"
+    },
+    {
+     "key": "e_1_2_1_38_1",
+     "first-page": "89",
+     "article-title": "Breeding for yield and quality in winter wheat. Consequences for nitrogen uptake and partitioning efficiency",
+     "volume": "94",
+     "author": "Paccaud F X",
+     "year": "1985",
+     "journal-title": "Zeitschr Fflanzenz"
+    },
+    {
+     "key": "e_1_2_1_39_1",
+     "first-page": "247",
+     "volume-title": "Plant Proteins",
+     "author": "Payne P R",
+     "year": "1978"
+    },
+    {
+     "key": "e_1_2_1_40_1",
+     "first-page": "459",
+     "volume-title": "Photosynthesis and Productivity in Different Environments",
+     "author": "Penning de Vries F W T",
+     "year": "1975"
+    },
+    {
+     "key": "e_1_2_1_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0022-5193(74)90119-2"
+    },
+    {
+     "key": "e_1_2_1_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1975.0011183X001500050009x"
+    },
+    {
+     "key": "e_1_2_1_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1975.0011183X001500060016x"
+    },
+    {
+     "key": "e_1_2_1_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0021859600027556"
+    },
+    {
+     "key": "e_1_2_1_45_1",
+     "first-page": "3",
+     "volume-title": "Seed Protein Improvement by Nuclear Techniques",
+     "author": "Rabson R",
+     "year": "1978"
+    },
+    {
+     "key": "e_1_2_1_46_1",
+     "first-page": "207",
+     "volume-title": "Plant Proteins",
+     "author": "Rhodes A P",
+     "year": "1978"
+    },
+    {
+     "key": "e_1_2_1_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/f73-072"
+    },
+    {
+     "key": "e_1_2_1_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1985.0011183X002500020017x"
+    },
+    {
+     "key": "e_1_2_1_49_1",
+     "first-page": "53",
+     "article-title": "Economic aspects of plant breeding with especial reference to economic index selection",
+     "volume": "6",
+     "author": "Simmonds N W",
+     "year": "1989",
+     "journal-title": "Res Dev Agric"
+    },
+    {
+     "key": "e_1_2_1_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.189.4202.565"
+    },
+    {
+     "key": "e_1_2_1_51_1",
+     "first-page": "186",
+     "article-title": "Evolution of high\u2010protein genetic stock of bread wheat",
+     "volume": "87",
+     "author": "Singhal N C",
+     "year": "1981",
+     "journal-title": "Zeitschr Pflanzenz"
+    },
+    {
+     "key": "e_1_2_1_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0378-4290(93)90154-F"
+    },
+    {
+     "key": "e_1_2_1_53_1",
+     "first-page": "315",
+     "volume-title": "Seed Protein Improvement in Cereals and Grain Legumes \u20142",
+     "author": "Stolen O",
+     "year": "1979"
+    },
+    {
+     "key": "e_1_2_1_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj1969.00021962006100050031x"
+    },
+    {
+     "key": "e_1_2_1_55_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00021914"
+    },
+    {
+     "key": "e_1_2_1_56_1",
+     "first-page": "129",
+     "article-title": "Yield and protein content of hard red spring wheat under conditions of high temperature and low moisture",
+     "volume": "47",
+     "author": "Waldron L R",
+     "year": "1933",
+     "journal-title": "J Agric Res"
+    },
+    {
+     "key": "e_1_2_1_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1439-0523.1990.tb00403.x"
+    },
+    {
+     "key": "e_1_2_1_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/EA9720511"
+    },
+    {
+     "key": "e_1_2_1_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj1968.00021962006000050013x"
+    }
+   ],
+   "container-title": [
+    "Journal of the Science of Food and Agriculture"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjsfa.2740670306",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://scijournals.onlinelibrary.wiley.com/doi/pdf/10.1002/jsfa.2740670306",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      19
+     ]
+    ],
+    "date-time": "2025-10-19T11:12:32Z",
+    "timestamp": 1760872352000
+   },
+   "score": 53.27068,
+   "resource": {
+    "primary": {
+     "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/jsfa.2740670306"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1995,
+      3
+     ]
+    ]
+   },
+   "references-count": 58,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       1995,
+       3
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1002/jsfa.2740670306"
+   ],
+   "URL": "https://doi.org/10.1002/jsfa.2740670306",
+   "archive": [
+    "Portico"
+   ],
+   "ISSN": [
+    "0022-5142",
+    "1097-0010"
+   ],
+   "issn-type": [
+    {
+     "value": "0022-5142",
+     "type": "print"
+    },
+    {
+     "value": "1097-0010",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1995,
+      3
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "1994-04-28",
+     "order": 0,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "1994-09-21",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2006-09-19",
+     "order": 3,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2025-11-01T13:35:05Z",
+    "timestamp": 1762004105732
+   },
+   "reference-count": 14,
+   "publisher": "Cambridge University Press (CUP)",
+   "issue": "3",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        10,
+        3
+       ]
+      ],
+      "date-time": "2008-10-03T00:00:00Z",
+      "timestamp": 1222992000000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 4477,
+     "URL": "https://www.cambridge.org/core/terms"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Ex. Agric."
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      1996,
+      7
+     ]
+    ]
+   },
+   "abstract": "<jats:title>SUMMARY</jats:title><jats:p>Earlier work has shown that, in cereals in general, grain yield (Y) and protein content (P) are strongly negatively related. It is shown here that the expected positive expected relationship between grain yield and protein yield also holds, with (YP) given approximately by YP = 0.141 + 0.0969 Y. All cereal breeding in which high protein content is desired therefore faces a compromise with grain yield.</jats:p>",
+   "DOI": "10.1017/s0014479700026284",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2008,
+      10,
+      3
+     ]
+    ],
+    "date-time": "2008-10-03T13:52:53Z",
+    "timestamp": 1223041973000
+   },
+   "page": "351-356",
+   "source": "Crossref",
+   "is-referenced-by-count": 15,
+   "title": [
+    "Yields of Cereal Grain and Protein"
+   ],
+   "prefix": "10.1017",
+   "volume": "32",
+   "author": [
+    {
+     "given": "N. W.",
+     "family": "Simmonds",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "56",
+   "published-online": {
+    "date-parts": [
+     [
+      2008,
+      10,
+      3
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "S0014479700026284_ref011",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/f73-072"
+    },
+    {
+     "key": "S0014479700026284_ref008",
+     "first-page": "371",
+     "article-title": "Durum wheat: report on autumn sown variety trials, 1984\u201386",
+     "volume": "17",
+     "author": "Mann",
+     "year": "1987",
+     "journal-title": "journal of the National Institute of Agricultural Botany"
+    },
+    {
+     "key": "S0014479700026284_ref006",
+     "doi-asserted-by": "crossref",
+     "first-page": "521",
+     "DOI": "10.2135/cropsci1985.0011183X002500030021x",
+     "article-title": "Grain and plant protein relationships in hard red spring wheat",
+     "volume": "25",
+     "author": "Loftier",
+     "year": "1985",
+     "journal-title": "Crop Science"
+    },
+    {
+     "key": "S0014479700026284_ref003",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00276260"
+    },
+    {
+     "key": "S0014479700026284_ref001",
+     "first-page": "419",
+     "volume-title": "Rice Breeding",
+     "author": "Beachell",
+     "year": "1972"
+    },
+    {
+     "key": "S0014479700026284_ref004",
+     "first-page": "41",
+     "article-title": "Influence of nitrogen uptake and nitrogen partitioning efficiency on grain yield and grain protein concentration of twelve winter wheat genotypes",
+     "volume": "86",
+     "author": "Dubois",
+     "year": "1981",
+     "journal-title": "Zeitschrift f\u00fcr Pflanzenz\u00fcchtung"
+    },
+    {
+     "key": "S0014479700026284_ref013",
+     "first-page": "186",
+     "article-title": "Evolution of high-protein genetic stock of bread wheat",
+     "volume": "87",
+     "author": "Singhal",
+     "year": "1981",
+     "journal-title": "Zeitschrift f\u00fcr Pflanzenz\u00fcchtung"
+    },
+    {
+     "key": "S0014479700026284_ref007",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-94-009-3131-2"
+    },
+    {
+     "key": "S0014479700026284_ref009",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.1007/BF00038826",
+     "article-title": "Indirect selection for grain protein and grain yield in winter wheat",
+     "volume": "47",
+     "author": "Noaman",
+     "year": "1990",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "S0014479700026284_ref005",
+     "unstructured": "Frey K. J. (1977). Protein of oats. Zeitschrift f\u00fcr Pflanzenz\u00fcchtung 78:185\u2013215."
+    },
+    {
+     "key": "S0014479700026284_ref014",
+     "first-page": "58",
+     "article-title": "Peformance and variability of local barley landraces in near-Eastern environments",
+     "volume": "104",
+     "author": "Weltzien",
+     "year": "1990",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "S0014479700026284_ref012",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.2740670306"
+    },
+    {
+     "key": "S0014479700026284_ref010",
+     "first-page": "89",
+     "article-title": "Breeding for yield and quality in winter wheat. Consequences for nitrogen uptake and partitioning efficiency",
+     "volume": "94",
+     "author": "Paccaud",
+     "year": "1985",
+     "journal-title": "Zeitschrift f\u00fcr Pflanzenz\u00fcchtung"
+    },
+    {
+     "key": "S0014479700026284_ref002",
+     "first-page": "789",
+     "article-title": "Criteria for early generation selection in wheat breeding programmes for improving protein productivity",
+     "volume": "24",
+     "author": "Bhatia",
+     "year": "1975",
+     "journal-title": "Euphytica"
+    }
+   ],
+   "container-title": [
+    "Experimental Agriculture"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0014479700026284",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      9,
+      17
+     ]
+    ],
+    "date-time": "2021-09-17T19:35:24Z",
+    "timestamp": 1631907324000
+   },
+   "score": 34.468044,
+   "resource": {
+    "primary": {
+     "URL": "https://www.cambridge.org/core/product/identifier/S0014479700026284/type/journal_article"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1996,
+      7
+     ]
+    ]
+   },
+   "references-count": 14,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       1996,
+       7
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S0014479700026284"
+   ],
+   "URL": "https://doi.org/10.1017/s0014479700026284",
+   "ISSN": [
+    "0014-4797",
+    "1469-4441"
+   ],
+   "issn-type": [
+    {
+     "value": "0014-4797",
+     "type": "print"
+    },
+    {
+     "value": "1469-4441",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1996,
+      7
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T11:25:03Z",
+    "timestamp": 1790853903181,
+    "version": "4.1.0"
+   },
+   "reference-count": 22,
+   "publisher": "Elsevier BV",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        1995,
+        7,
+        1
+       ]
+      ],
+      "date-time": "1995-07-01T00:00:00Z",
+      "timestamp": 804556800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Journal of Cereal Science"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      1995,
+      7
+     ]
+    ]
+   },
+   "DOI": "10.1016/s0733-5210(05)80010-4",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2005,
+      9,
+      15
+     ]
+    ],
+    "date-time": "2005-09-15T14:15:43Z",
+    "timestamp": 1126793743000
+   },
+   "page": "85-93",
+   "source": "Crossref",
+   "is-referenced-by-count": 70,
+   "title": [
+    "In vitro protein digestibility of developing and mature sorghum grain in relation to \u03b1-, \u03b2-, and \u03b3-kafirin disulfide crosslinking"
+   ],
+   "prefix": "10.1016",
+   "volume": "22",
+   "author": [
+    {
+     "given": "M.P.",
+     "family": "Oria",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "B.R.",
+     "family": "Hamaker",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "J.M.",
+     "family": "Schull",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1928",
+     "DOI": "10.1093/jn/111.11.1928",
+     "article-title": "Protein quality and digestibility of sorghum in preschool children: Balance studies and plasma free amino acids",
+     "volume": "111",
+     "author": "MacLean",
+     "year": "1981",
+     "journal-title": "Journal of Nutrition"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib2",
+     "first-page": "1333",
+     "article-title": "Digestibility of sorghum proteins",
+     "volume": "78",
+     "author": "Axtell",
+     "year": "1981"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "647",
+     "DOI": "10.1021/jf00070a014",
+     "article-title": "Effect of cooking on the protein profiles and pepsin digestibility of sorghum and maize",
+     "volume": "34",
+     "author": "Hamaker",
+     "year": "1986",
+     "journal-title": "Journal of Agricultural Food Chemistry"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib4",
+     "first-page": "1",
+     "article-title": "Pepsin digestibility of proteins in sorghum and other major cereals",
+     "volume": "81",
+     "author": "Mertz",
+     "year": "1984"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "153",
+     "DOI": "10.1016/S0733-5210(85)80025-4",
+     "article-title": "Dietary fiber content and composition of sorghum and sorghum-based foods",
+     "volume": "3",
+     "author": "Bach Knudsen",
+     "year": "1985",
+     "journal-title": "Journal of Cereal Sciences"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib6",
+     "first-page": "626",
+     "article-title": "Improving the in vitro protein digestibility of proteins of sorghum with reducing agents",
+     "volume": "84",
+     "author": "Hamaker",
+     "year": "1987"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib7",
+     "first-page": "178",
+     "article-title": "Effects of cooking and treatment with sodium bisulfate on in vitro protein digestibility and microstructure of sorghum flour",
+     "volume": "69",
+     "author": "Rom",
+     "year": "1992",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib8",
+     "first-page": "1021",
+     "article-title": "Heterogeneite des glutelines du grains du mais: Extraction selective et composition en acides amines des trois fractions isolees",
+     "volume": "52",
+     "author": "Landry",
+     "year": "1970",
+     "journal-title": "Bulletin of Social Chim Biology"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "692",
+     "DOI": "10.1021/jf60188a027",
+     "article-title": "Relationship between tannin levels, rat growth, and distribution of proteins in sorghum",
+     "volume": "21",
+     "author": "Jambunathan",
+     "year": "1973",
+     "journal-title": "Journal of Agricultural Food Chemistry"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib10",
+     "doi-asserted-by": "crossref",
+     "first-page": "83",
+     "DOI": "10.1021/jf00001a015",
+     "article-title": "Proposed nomenclature for the alcohol soluble proteins (kafirins) of Sorghum bicolor (L. Moench) endosperm based on molecular weight, solubility, and structure",
+     "volume": "39",
+     "author": "Shull",
+     "year": "1991",
+     "journal-title": "Journal of Agricultural Food Chemistry"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "64",
+     "DOI": "10.1007/BF01379281",
+     "article-title": "Purification and immunochemical localization of kafirins in Sorghum bicolor (L. Moench) endosperm",
+     "volume": "171",
+     "author": "Schull",
+     "year": "1992",
+     "journal-title": "Protoplasma"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "35",
+     "DOI": "10.1016/S0254-6299(16)31699-4",
+     "article-title": "Protein body formation in the starchy endosperm of developing Sorghum bicolor (L.) Moench seeds",
+     "volume": "51",
+     "author": "Taylor",
+     "year": "1985",
+     "journal-title": "South African Journal of Botany"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib13",
+     "first-page": "667",
+     "article-title": "Differences in kafirin composition during endosperm development and germination in sorghum cultivars of varying hardness",
+     "volume": "70",
+     "author": "Mazhar",
+     "year": "1993",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib14",
+     "series-title": "Approved methods of the American Association of Cereal Chemists",
+     "author": "AACC",
+     "year": "1983"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib15",
+     "series-title": "Approved methods of the American Association of Cereal Chemists",
+     "author": "AACC",
+     "year": "1986"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib16",
+     "first-page": "270",
+     "article-title": "The tools of biochemistry",
+     "author": "Cooper",
+     "year": "1977"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib17",
+     "doi-asserted-by": "crossref",
+     "first-page": "191",
+     "DOI": "10.1104/pp.92.1.191",
+     "article-title": "New methods for the extraction and quantitation of zeins reveal a high content of \u03b3-zein in modified opaque-2 maize",
+     "volume": "92",
+     "author": "Wallace",
+     "year": "1990",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "742",
+     "DOI": "10.1016/0076-6879(86)18114-6",
+     "article-title": "ELISA techniques",
+     "volume": "118",
+     "author": "Clark",
+     "year": "1986",
+     "journal-title": "Methods in Enzymology"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib19",
+     "first-page": "452",
+     "article-title": "Quantitation of \u03b1-, \u03b2-, and \u03b3-kafirins in vitreous and opaque endosperm of Sorghum bicolor",
+     "volume": "70",
+     "author": "Watterson",
+     "year": "1993",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "76",
+     "DOI": "10.1016/0003-2697(80)90013-5",
+     "article-title": "Elution of proteins from sodium dodecyl sulfate-polyacrylamide gels, removal of sodium dodecyl sulfate, and renaturation of enzymatic activity: results from sigma subunit of Escherichia coli RNA polymerase, wheat germ DNA topoisomerase, and other enzymes",
+     "volume": "109",
+     "author": "Hager",
+     "year": "1980",
+     "journal-title": "Analytical Biochemistry"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib21",
+     "first-page": "679",
+     "article-title": "Effect of cooking on protein in sorghum flour",
+     "volume": "32",
+     "author": "Chandrashekar",
+     "year": "1987",
+     "journal-title": "Cereal Foods World"
+    },
+    {
+     "key": "10.1016/S0733-5210(05)80010-4_bib22",
+     "first-page": "75",
+     "article-title": "Kernel characteristics and protein fraction changes during seed development of high-lysine and normal sorghums",
+     "volume": "65",
+     "author": "Van Scoyoc",
+     "year": "1988",
+     "journal-title": "Cereal Chemistry"
+    }
+   ],
+   "container-title": [
+    "Journal of Cereal Science"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0733521005800104?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0733521005800104?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      23
+     ]
+    ],
+    "date-time": "2019-03-23T09:52:41Z",
+    "timestamp": 1553334761000
+   },
+   "score": 33.443787,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0733521005800104"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1995,
+      7
+     ]
+    ]
+   },
+   "references-count": 22,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       1995,
+       7
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S0733521005800104"
+   ],
+   "URL": "https://doi.org/10.1016/s0733-5210(05)80010-4",
+   "ISSN": [
+    "0733-5210"
+   ],
+   "issn-type": [
+    {
+     "value": "0733-5210",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      1995,
+      7
+     ]
+    ]
+   }
+  }
+ ]
+}

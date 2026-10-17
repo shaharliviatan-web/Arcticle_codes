@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item REF5:** submission checklist item 4 shortened to the open items only (user request, 2026-10-01)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Submission checklist, item 4",
+   "why": "User request: short, open items only.",
+   "old": "4. **References:** list built in TAG style and every citation checked (references/citation_audit.md; section \"References\" below, source 05_references.md). Still open: the Word comments 102 and 401 (Friedman and Atsmon 1988, no PDF), 257 and 501 (Holland et al. 2003, no PDF), 502 (Keeling et al. 1993 pages), 104 and 428 (partly supported claims kept as written), and 216 (source of the soil variables).",
+   "new": "{-4. **References:** list built in TAG style and every citation checked (references/citation_audit.md; section \"References\" below, source 05_references.md). Still open: the Word comments 102 and 401 (Friedman and Atsmon 1988, no PDF), 257 and 501 (Holland et al. 2003, no PDF), 502 (Keeling et al. 1993 pages), 104 and 428 (partly supported claims kept as written), and 216 (source of the soil variables).-}{+4. **References:** open Word comments 102, 401 (Friedman and Atsmon 1988: no PDF); 257, 501 (Holland et al. 2003: no PDF); 502 (Keeling et al. 1993: pages); 104, 428 (partly supported claims kept); 216 (source of the soil variables).+}"
+  }
+ ]
+}

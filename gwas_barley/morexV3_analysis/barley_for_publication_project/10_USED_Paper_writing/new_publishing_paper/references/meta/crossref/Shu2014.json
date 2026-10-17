@@ -1,0 +1,2868 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     18
+    ]
+   ],
+   "date-time": "2026-08-18T04:25:59Z",
+   "timestamp": 1787027159259,
+   "version": "build-2736575974"
+  },
+  "reference-count": 50,
+  "publisher": "Frontiers Media SA",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Front. Plant Sci."
+  ],
+  "DOI": "10.3389/fpls.2014.00197",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2014,
+     5,
+     15
+    ]
+   ],
+   "date-time": "2014-05-15T09:11:52Z",
+   "timestamp": 1400145112000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 45,
+  "title": [
+   "Quantification of amylose, amylopectin, and \u00ce\u00b2-glucan in search for genes controlling the three major quality traits in barley by genome-wide association studies"
+  ],
+  "prefix": "10.3389",
+  "volume": "5",
+  "author": [
+   {
+    "given": "Xiaoli",
+    "family": "Shu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S\u00c3\u00b8ren K.",
+    "family": "Rasmussen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "1965",
+  "published-online": {
+   "date-parts": [
+    [
+     2014,
+     5,
+     15
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "B1",
+    "doi-asserted-by": "publisher",
+    "first-page": "201",
+    "DOI": "10.1080/10408398.2010.499806",
+    "article-title": "Beta glucan: a valuable functional ingredient in foods",
+    "volume": "52",
+    "author": "Ahmad",
+    "year": "2012",
+    "journal-title": "Crit. Rev. Food Sci. Nutr"
+   },
+   {
+    "key": "B2",
+    "doi-asserted-by": "publisher",
+    "first-page": "1666",
+    "DOI": "10.3945/jn.112.161372",
+    "article-title": "Barley cultivar, kernel composition, and processing affect the glycemic index",
+    "volume": "142",
+    "author": "Aldughpassi",
+    "year": "2012",
+    "journal-title": "J. Nutr"
+   },
+   {
+    "key": "B3",
+    "doi-asserted-by": "publisher",
+    "first-page": "183",
+    "DOI": "10.1006/jcrs.1999.0267",
+    "article-title": "Chemical composition and microstructure of two naked waxy barleys",
+    "volume": "30",
+    "author": "Andersson",
+    "year": "1999",
+    "journal-title": "J. Cereal Sci"
+   },
+   {
+    "key": "B4",
+    "doi-asserted-by": "publisher",
+    "first-page": "4743",
+    "DOI": "10.1021/jf200054e",
+    "article-title": "Barley grain constituents, starch composition, and structure affect starch in vitro enzymatic hydrolysis",
+    "volume": "59",
+    "author": "Asare",
+    "year": "2011",
+    "journal-title": "J. Agric. Food Chem"
+   },
+   {
+    "key": "B5",
+    "doi-asserted-by": "publisher",
+    "first-page": "190",
+    "DOI": "10.1094/CCHEM.1997.74.2.190",
+    "article-title": "Zero amylose lines of hull-less barley",
+    "volume": "74",
+    "author": "Bahatty",
+    "year": "1997",
+    "journal-title": "Cereal Chem"
+   },
+   {
+    "key": "B6",
+    "doi-asserted-by": "publisher",
+    "first-page": "233",
+    "DOI": "10.1016/j.jcs.2008.02.002",
+    "article-title": "Barley for food: characteristics, improvement, and renewed interest",
+    "volume": "48",
+    "author": "Baik",
+    "year": "2008",
+    "journal-title": "J. Cereal Sci"
+   },
+   {
+    "key": "B7",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1016/j.jcs.2005.01.002",
+    "article-title": "The potential use of cereal (1\u00e2\u2020\u20193,1\u00e2\u2020\u20194)-\u00ce\u00b2-d-glucans as functional food ingredients",
+    "volume": "42",
+    "author": "Brennan",
+    "year": "2005",
+    "journal-title": "J. Cereal Sci"
+   },
+   {
+    "key": "B8",
+    "doi-asserted-by": "publisher",
+    "first-page": "117",
+    "DOI": "10.1111/j.1467-7652.2010.00532.x",
+    "article-title": "Over-expression of specific hvcslf cellulose synthase-like genes in transgenic barley increases the levels of cell wall (1,3;1,4)-beta-d-glucans and alters their fine structure",
+    "volume": "9",
+    "author": "Burton",
+    "year": "2011",
+    "journal-title": "Plant Biotechnol. J"
+   },
+   {
+    "issue": "130",
+    "key": "B9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2012.00130",
+    "article-title": "Current challenges in cell wall biology in the cereals and grasses",
+    "volume": "3",
+    "author": "Burton",
+    "year": "2012",
+    "journal-title": "Front. Plant Sci"
+   },
+   {
+    "key": "B10",
+    "doi-asserted-by": "publisher",
+    "first-page": "1821",
+    "DOI": "10.1104/pp.107.114694",
+    "article-title": "The genetics and transcriptional profiles of the cellulose synthase-like hvcslf gene family in barley",
+    "volume": "146",
+    "author": "Burton",
+    "year": "2008",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "B11",
+    "doi-asserted-by": "publisher",
+    "first-page": "1940",
+    "DOI": "10.1126/science.1122975",
+    "article-title": "Cellulose synthase-like cslf genes mediate the synthesis of cell wall (1,3;1,4)-beta-d-glucans",
+    "volume": "311",
+    "author": "Burton",
+    "year": "2006",
+    "journal-title": "Science"
+   },
+   {
+    "key": "B12",
+    "doi-asserted-by": "publisher",
+    "first-page": "991",
+    "DOI": "10.1534/genetics.109.108522",
+    "article-title": "Understanding the evolution of defense metabolites in arabidopsis thaliana using genome-wide association mapping",
+    "volume": "185",
+    "author": "Chan",
+    "year": "2010",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B13",
+    "doi-asserted-by": "publisher",
+    "first-page": "1388",
+    "DOI": "10.1038/ng.2447",
+    "article-title": "Natural variation in a homolog of antirrhinum centroradialis contributed to spring growth habit and environmental adaptation in cultivated barley",
+    "volume": "44",
+    "author": "Comadran",
+    "year": "2012",
+    "journal-title": "Nat. Genet"
+   },
+   {
+    "key": "B14",
+    "doi-asserted-by": "publisher",
+    "first-page": "332",
+    "DOI": "10.1016/j.jcs.2012.02.003",
+    "article-title": "Genetic markers for cslf6 gene associated with (1,3;1,4)-\u00ce\u00b2-glucan concentration in barley grain",
+    "volume": "56",
+    "author": "Cory",
+    "year": "2012",
+    "journal-title": "J. Cereal Sci"
+   },
+   {
+    "key": "B15",
+    "doi-asserted-by": "publisher",
+    "first-page": "1135",
+    "DOI": "10.1046/j.1365-313X.1996.10061135.x",
+    "article-title": "The elongation of amylose and amylopectin chains in isolated starch garnules",
+    "volume": "10",
+    "author": "Denyer",
+    "year": "1996",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "B16",
+    "doi-asserted-by": "publisher",
+    "first-page": "8",
+    "DOI": "10.1016/j.phytochem.2011.10.003",
+    "article-title": "Biosynthesis of non-cellulosic polysaccharides of plant cell walls",
+    "volume": "74",
+    "author": "Dhugga",
+    "year": "2012",
+    "journal-title": "Phytochemistry"
+   },
+   {
+    "key": "B17",
+    "doi-asserted-by": "publisher",
+    "first-page": "145",
+    "DOI": "10.1111/j.1467-7652.2005.00169.x",
+    "article-title": "Plant cell wall biosynthesis: genetic, biochemical and functional genomics approaches to the identification of key genes",
+    "volume": "4",
+    "author": "Farrokhi",
+    "year": "2006",
+    "journal-title": "Plant Biotechnol. J"
+   },
+   {
+    "key": "B18",
+    "doi-asserted-by": "publisher",
+    "first-page": "23",
+    "DOI": "10.3109/09637486.2011.593504",
+    "article-title": "Effects of barley beta-glucan-enriched flour fractions on the glycaemic index of bread",
+    "volume": "63",
+    "author": "Finocchiaro",
+    "year": "2012",
+    "journal-title": "Int. J. Food Sci. Nutr"
+   },
+   {
+    "key": "B19",
+    "doi-asserted-by": "publisher",
+    "first-page": "750",
+    "DOI": "10.1007/s00122-004-1688-7",
+    "article-title": "Fine mapping of a malting-quality qtl complex near the chromosome 4h s telomere in barley",
+    "volume": "109",
+    "author": "Gao",
+    "year": "2004",
+    "journal-title": "Theor. Appl. Genet"
+   },
+   {
+    "key": "B20",
+    "doi-asserted-by": "publisher",
+    "first-page": "921",
+    "DOI": "10.1007/BF00223901",
+    "article-title": "Mapping of \u00ce\u00b2-glucan content and \u00ce\u00b2-glucanase activity loci in barley grain and malt",
+    "volume": "91",
+    "author": "Han",
+    "year": "1995",
+    "journal-title": "Theor. Appl. Genet"
+   },
+   {
+    "key": "B21",
+    "doi-asserted-by": "publisher",
+    "first-page": "1754",
+    "DOI": "10.2135/cropsci2006.06.0429",
+    "article-title": "Barley amylose and beta-glucan: their relationships to protein, agronomic traits, and environmental factors",
+    "volume": "47",
+    "author": "Hang",
+    "year": "2007",
+    "journal-title": "Crop Sci"
+   },
+   {
+    "key": "B22",
+    "doi-asserted-by": "publisher",
+    "first-page": "20534",
+    "DOI": "10.1073/pnas.0809408105",
+    "article-title": "Small-interfering rnas from natural antisense transcripts derived from a cellulose synthase gene modulate cell wall biosynthesis in barley",
+    "volume": "105",
+    "author": "Held",
+    "year": "2008",
+    "journal-title": "Proc. Natl. Acad. Sci. U.S.A"
+   },
+   {
+    "key": "B23",
+    "doi-asserted-by": "publisher",
+    "first-page": "230",
+    "DOI": "10.1007/BF00206248",
+    "article-title": "The effect of waxy mutations on the granule-bound starch synthase of barley and maize endosperms",
+    "volume": "198",
+    "author": "Hylton",
+    "year": "1996",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "B24",
+    "doi-asserted-by": "publisher",
+    "first-page": "15",
+    "DOI": "10.1007/s11032-012-9764-1",
+    "article-title": "Genetic dissection of grain beta-glucan and amylose content in barley (hordeum vulgare l.)",
+    "volume": "31",
+    "author": "Islamovic",
+    "year": "2012",
+    "journal-title": "Mol. Breed"
+   },
+   {
+    "key": "B25",
+    "doi-asserted-by": "publisher",
+    "first-page": "155",
+    "DOI": "10.2337/diaclin.29.4.155",
+    "article-title": "The 3 R's of glycemic index: recommendations, research, and the real world",
+    "volume": "29",
+    "author": "Kirpitch",
+    "year": "2011",
+    "journal-title": "Clin. Diabetes"
+   },
+   {
+    "key": "B26",
+    "doi-asserted-by": "publisher",
+    "first-page": "242",
+    "DOI": "10.1104/pp.104.055954",
+    "article-title": "Identification of a novel enzyme required for starch metabolism in arabidopsis leaves. The phosphoglucan, water dikinase",
+    "volume": "137",
+    "author": "Kotting",
+    "year": "2005",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "B27",
+    "doi-asserted-by": "publisher",
+    "first-page": "334",
+    "DOI": "10.1105/tpc.108.064360",
+    "article-title": "Starch-excess4 is a laforin-like phosphoglucan phosphatase required for starch degradation in arabidopsis thaliana",
+    "volume": "21",
+    "author": "Kotting",
+    "year": "2009",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "B28",
+    "doi-asserted-by": "publisher",
+    "first-page": "55",
+    "DOI": "10.1007/s10068-011-0008-7",
+    "article-title": "Physicochemical properties of pearled hull-less barley cultivars with normal and low amylose content",
+    "volume": "20",
+    "author": "Lee",
+    "year": "2011",
+    "journal-title": "Food Sci. Biotechnol"
+   },
+   {
+    "key": "B29",
+    "doi-asserted-by": "publisher",
+    "first-page": "647",
+    "DOI": "10.1016/j.jcs.2008.02.004",
+    "article-title": "Identification of quantitative trait loci for \u00ce\u00b2-glucan concentration in barley grain",
+    "volume": "48",
+    "author": "Li",
+    "year": "2008",
+    "journal-title": "J. Cereal Sci"
+   },
+   {
+    "key": "B30",
+    "doi-asserted-by": "publisher",
+    "first-page": "5217",
+    "DOI": "10.1093/jxb/err239",
+    "article-title": "The barley amo1 locus is tightly linked to the starch synthase iiia gene and negatively regulates expression of granule-bound starch synthetic genes",
+    "volume": "62",
+    "author": "Li",
+    "year": "2011",
+    "journal-title": "J. Exp. Bot"
+   },
+   {
+    "key": "B31",
+    "doi-asserted-by": "publisher",
+    "first-page": "1249",
+    "DOI": "10.1105/tpc.110.082537",
+    "article-title": "Unlocking the barley genome by chromosomal and comparative genomics",
+    "volume": "23",
+    "author": "Mayer",
+    "year": "2011",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "B32",
+    "first-page": "283",
+    "article-title": "Whole genome association mapping identifies naked grain locus nud as determinant of b-glucan content in barley",
+    "volume": "98",
+    "author": "Mezaka",
+    "year": "2011",
+    "journal-title": "Agriculture"
+   },
+   {
+    "key": "B33",
+    "doi-asserted-by": "publisher",
+    "first-page": "3133",
+    "DOI": "10.1093/bioinformatics/btq580",
+    "article-title": "Flapjack\u00e2\u20ac\u201cgraphical genotype visualization",
+    "volume": "26",
+    "author": "Milne",
+    "year": "2010",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "B34",
+    "doi-asserted-by": "publisher",
+    "first-page": "173",
+    "DOI": "10.1046/j.1365-313X.2003.01712.x",
+    "article-title": "Barley sex6 mutants lack starch synthase iia activity and contain a starch with novel properties",
+    "volume": "34",
+    "author": "Morell",
+    "year": "2003",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "B35",
+    "doi-asserted-by": "publisher",
+    "first-page": "1687",
+    "DOI": "10.1007/s00122-012-1945-0",
+    "article-title": "Genome-wide association study for oat (avena sativa l.) beta-glucan concentration using germplasm of worldwide origin",
+    "volume": "125",
+    "author": "Newell",
+    "year": "2012",
+    "journal-title": "Theor. Appl. Genet"
+   },
+   {
+    "key": "B36",
+    "doi-asserted-by": "publisher",
+    "first-page": "141",
+    "DOI": "10.1007/s12571-011-0126-3",
+    "article-title": "Crops that feed the world 4. Barley: a resilient crop? Strengths and weaknesses in the context of food secuity",
+    "volume": "3",
+    "author": "Newton",
+    "year": "2011",
+    "journal-title": "Food Sci"
+   },
+   {
+    "key": "B37",
+    "doi-asserted-by": "publisher",
+    "first-page": "16",
+    "DOI": "10.1186/1471-2229-12-16",
+    "article-title": "Genome-wide association studies for agronomical traits in a world wide spring barley collection",
+    "volume": "12",
+    "author": "Pasam",
+    "year": "2012",
+    "journal-title": "BMC Plant Biol"
+   },
+   {
+    "key": "B38",
+    "doi-asserted-by": "crossref",
+    "first-page": "945",
+    "DOI": "10.1093/genetics/155.2.945",
+    "article-title": "Inference of population structure using multilocus genotype data",
+    "volume": "155",
+    "author": "Pritchard",
+    "year": "2000",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B39",
+    "doi-asserted-by": "publisher",
+    "first-page": "713",
+    "DOI": "10.1016/j.phytochem.2009.04.002",
+    "article-title": "Analysis of the (1,3)-beta-d-glucan synthase gene family of barley",
+    "volume": "70",
+    "author": "Schober",
+    "year": "2009",
+    "journal-title": "Phytochemistry"
+   },
+   {
+    "key": "B40",
+    "doi-asserted-by": "publisher",
+    "first-page": "10302",
+    "DOI": "10.1021/jf3031875",
+    "article-title": "Genome-wide association study of resistant starch (RS) phenotypes in a barley variety collection",
+    "volume": "60",
+    "author": "Shu",
+    "year": "2012",
+    "journal-title": "J. Agric. Food Chem"
+   },
+   {
+    "key": "B41",
+    "doi-asserted-by": "publisher",
+    "first-page": "767",
+    "DOI": "10.1534/genetics.110.122549",
+    "article-title": "One hundred years of pleiotrpy: a retrospective",
+    "volume": "186",
+    "author": "Stearns",
+    "year": "2010",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B42",
+    "doi-asserted-by": "publisher",
+    "first-page": "381",
+    "DOI": "10.1093/jxb/err285",
+    "article-title": "Functional characterization of barley betaglucanless mutants demonstrates a unique role for cslf6 in (1,3;1,4)-beta-d-glucan biosynthesis",
+    "volume": "63",
+    "author": "Taketa",
+    "year": "2012",
+    "journal-title": "J. Exp. Bot"
+   },
+   {
+    "key": "B43",
+    "doi-asserted-by": "publisher",
+    "first-page": "694",
+    "DOI": "10.1105/tpc.017400",
+    "article-title": "Protein phosphorylation in amyloplasts regulates starch branching enzyme activity and protein-protein interactions",
+    "volume": "16",
+    "author": "Tetlow",
+    "year": "2004",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "B44",
+    "doi-asserted-by": "publisher",
+    "first-page": "480",
+    "DOI": "10.1016/j.nutres.2009.07.003",
+    "article-title": "High-molecular-weight barley beta-glucan in chapatis (unleavened indian flatbread) lowers glycemic index",
+    "volume": "29",
+    "author": "Thondre",
+    "year": "2009",
+    "journal-title": "Nutr. Res"
+   },
+   {
+    "key": "B45",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.3835/plantgenome2013.3803.0007",
+    "article-title": "Structural and temporal variation in the genetic diversity of a european collection of spring 2-row barley cultivars and utility for association mapping of quantitative traits",
+    "volume": "6",
+    "author": "Tondelli",
+    "year": "2013",
+    "journal-title": "Plant Genome"
+   },
+   {
+    "key": "B46",
+    "doi-asserted-by": "publisher",
+    "first-page": "47",
+    "DOI": "10.1270/jsbbs.59.47",
+    "article-title": "A nove mutant gene for (1-3, 1-4)-\u00ce\u00b2-D-glucanless grain on barley (hordeum vulgare l.) chromosome 7H",
+    "volume": "59",
+    "author": "Tonooka",
+    "year": "2009",
+    "journal-title": "Breed. Sci"
+   },
+   {
+    "key": "B47",
+    "doi-asserted-by": "publisher",
+    "first-page": "508",
+    "DOI": "10.1002/star.200900242",
+    "article-title": "A novel triple-wavelength colorimetric method for measuring amylose and amylopectin contents",
+    "volume": "62",
+    "author": "Wang",
+    "year": "2010",
+    "journal-title": "Starch St\u00c3\u00a4rke"
+   },
+   {
+    "key": "B48",
+    "doi-asserted-by": "publisher",
+    "first-page": "839",
+    "DOI": "10.1631/jzus.B0920135",
+    "article-title": "Genetic mapping of quantitative trait loci associated with beta-amylase and limit dextrinase activities and beta-glucan and protein fraction contents in barley",
+    "volume": "10",
+    "author": "Wei",
+    "year": "2009",
+    "journal-title": "J. Zhejiang Univ. Sci. B"
+   },
+   {
+    "key": "B49",
+    "doi-asserted-by": "publisher",
+    "first-page": "209",
+    "DOI": "10.1146/annurev-arplant-042809-112301",
+    "article-title": "Starch: its metabolism, evolution, and biotechnological modification in plants",
+    "volume": "61",
+    "author": "Zeeman",
+    "year": "2010",
+    "journal-title": "Ann. Rev. Plant Biol"
+   },
+   {
+    "key": "B50",
+    "doi-asserted-by": "publisher",
+    "first-page": "875",
+    "DOI": "10.1534/genetics.108.098863",
+    "article-title": "Nonmetic multidimensional scaling corrects for population structure in whole genome association studies",
+    "volume": "182",
+    "author": "Zhu",
+    "year": "2009",
+    "journal-title": "Genetics"
+   }
+  ],
+  "container-title": [
+   "Frontiers in Plant Science"
+  ],
+  "original-title": [],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     4,
+     3
+    ]
+   ],
+   "date-time": "2022-04-03T12:48:38Z",
+   "timestamp": 1648990118000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://journal.frontiersin.org/article/10.3389/fpls.2014.00197/abstract"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2014,
+     5,
+     15
+    ]
+   ]
+  },
+  "references-count": 50,
+  "URL": "https://doi.org/10.3389/fpls.2014.00197",
+  "relation": {},
+  "ISSN": [
+   "1664-462X"
+  ],
+  "issn-type": [
+   {
+    "value": "1664-462X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     5,
+     15
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      18
+     ]
+    ],
+    "date-time": "2026-08-18T04:25:59Z",
+    "timestamp": 1787027159259,
+    "version": "build-2736575974"
+   },
+   "reference-count": 50,
+   "publisher": "Frontiers Media SA",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Front. Plant Sci."
+   ],
+   "DOI": "10.3389/fpls.2014.00197",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      15
+     ]
+    ],
+    "date-time": "2014-05-15T09:11:52Z",
+    "timestamp": 1400145112000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 45,
+   "title": [
+    "Quantification of amylose, amylopectin, and \u00ce\u00b2-glucan in search for genes controlling the three major quality traits in barley by genome-wide association studies"
+   ],
+   "prefix": "10.3389",
+   "volume": "5",
+   "author": [
+    {
+     "given": "Xiaoli",
+     "family": "Shu",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "S\u00c3\u00b8ren K.",
+     "family": "Rasmussen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1965",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      15
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "B1",
+     "doi-asserted-by": "publisher",
+     "first-page": "201",
+     "DOI": "10.1080/10408398.2010.499806",
+     "article-title": "Beta glucan: a valuable functional ingredient in foods",
+     "volume": "52",
+     "author": "Ahmad",
+     "year": "2012",
+     "journal-title": "Crit. Rev. Food Sci. Nutr"
+    },
+    {
+     "key": "B2",
+     "doi-asserted-by": "publisher",
+     "first-page": "1666",
+     "DOI": "10.3945/jn.112.161372",
+     "article-title": "Barley cultivar, kernel composition, and processing affect the glycemic index",
+     "volume": "142",
+     "author": "Aldughpassi",
+     "year": "2012",
+     "journal-title": "J. Nutr"
+    },
+    {
+     "key": "B3",
+     "doi-asserted-by": "publisher",
+     "first-page": "183",
+     "DOI": "10.1006/jcrs.1999.0267",
+     "article-title": "Chemical composition and microstructure of two naked waxy barleys",
+     "volume": "30",
+     "author": "Andersson",
+     "year": "1999",
+     "journal-title": "J. Cereal Sci"
+    },
+    {
+     "key": "B4",
+     "doi-asserted-by": "publisher",
+     "first-page": "4743",
+     "DOI": "10.1021/jf200054e",
+     "article-title": "Barley grain constituents, starch composition, and structure affect starch in vitro enzymatic hydrolysis",
+     "volume": "59",
+     "author": "Asare",
+     "year": "2011",
+     "journal-title": "J. Agric. Food Chem"
+    },
+    {
+     "key": "B5",
+     "doi-asserted-by": "publisher",
+     "first-page": "190",
+     "DOI": "10.1094/CCHEM.1997.74.2.190",
+     "article-title": "Zero amylose lines of hull-less barley",
+     "volume": "74",
+     "author": "Bahatty",
+     "year": "1997",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "B6",
+     "doi-asserted-by": "publisher",
+     "first-page": "233",
+     "DOI": "10.1016/j.jcs.2008.02.002",
+     "article-title": "Barley for food: characteristics, improvement, and renewed interest",
+     "volume": "48",
+     "author": "Baik",
+     "year": "2008",
+     "journal-title": "J. Cereal Sci"
+    },
+    {
+     "key": "B7",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.jcs.2005.01.002",
+     "article-title": "The potential use of cereal (1\u00e2\u2020\u20193,1\u00e2\u2020\u20194)-\u00ce\u00b2-d-glucans as functional food ingredients",
+     "volume": "42",
+     "author": "Brennan",
+     "year": "2005",
+     "journal-title": "J. Cereal Sci"
+    },
+    {
+     "key": "B8",
+     "doi-asserted-by": "publisher",
+     "first-page": "117",
+     "DOI": "10.1111/j.1467-7652.2010.00532.x",
+     "article-title": "Over-expression of specific hvcslf cellulose synthase-like genes in transgenic barley increases the levels of cell wall (1,3;1,4)-beta-d-glucans and alters their fine structure",
+     "volume": "9",
+     "author": "Burton",
+     "year": "2011",
+     "journal-title": "Plant Biotechnol. J"
+    },
+    {
+     "issue": "130",
+     "key": "B9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2012.00130",
+     "article-title": "Current challenges in cell wall biology in the cereals and grasses",
+     "volume": "3",
+     "author": "Burton",
+     "year": "2012",
+     "journal-title": "Front. Plant Sci"
+    },
+    {
+     "key": "B10",
+     "doi-asserted-by": "publisher",
+     "first-page": "1821",
+     "DOI": "10.1104/pp.107.114694",
+     "article-title": "The genetics and transcriptional profiles of the cellulose synthase-like hvcslf gene family in barley",
+     "volume": "146",
+     "author": "Burton",
+     "year": "2008",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "B11",
+     "doi-asserted-by": "publisher",
+     "first-page": "1940",
+     "DOI": "10.1126/science.1122975",
+     "article-title": "Cellulose synthase-like cslf genes mediate the synthesis of cell wall (1,3;1,4)-beta-d-glucans",
+     "volume": "311",
+     "author": "Burton",
+     "year": "2006",
+     "journal-title": "Science"
+    },
+    {
+     "key": "B12",
+     "doi-asserted-by": "publisher",
+     "first-page": "991",
+     "DOI": "10.1534/genetics.109.108522",
+     "article-title": "Understanding the evolution of defense metabolites in arabidopsis thaliana using genome-wide association mapping",
+     "volume": "185",
+     "author": "Chan",
+     "year": "2010",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B13",
+     "doi-asserted-by": "publisher",
+     "first-page": "1388",
+     "DOI": "10.1038/ng.2447",
+     "article-title": "Natural variation in a homolog of antirrhinum centroradialis contributed to spring growth habit and environmental adaptation in cultivated barley",
+     "volume": "44",
+     "author": "Comadran",
+     "year": "2012",
+     "journal-title": "Nat. Genet"
+    },
+    {
+     "key": "B14",
+     "doi-asserted-by": "publisher",
+     "first-page": "332",
+     "DOI": "10.1016/j.jcs.2012.02.003",
+     "article-title": "Genetic markers for cslf6 gene associated with (1,3;1,4)-\u00ce\u00b2-glucan concentration in barley grain",
+     "volume": "56",
+     "author": "Cory",
+     "year": "2012",
+     "journal-title": "J. Cereal Sci"
+    },
+    {
+     "key": "B15",
+     "doi-asserted-by": "publisher",
+     "first-page": "1135",
+     "DOI": "10.1046/j.1365-313X.1996.10061135.x",
+     "article-title": "The elongation of amylose and amylopectin chains in isolated starch garnules",
+     "volume": "10",
+     "author": "Denyer",
+     "year": "1996",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "B16",
+     "doi-asserted-by": "publisher",
+     "first-page": "8",
+     "DOI": "10.1016/j.phytochem.2011.10.003",
+     "article-title": "Biosynthesis of non-cellulosic polysaccharides of plant cell walls",
+     "volume": "74",
+     "author": "Dhugga",
+     "year": "2012",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "B17",
+     "doi-asserted-by": "publisher",
+     "first-page": "145",
+     "DOI": "10.1111/j.1467-7652.2005.00169.x",
+     "article-title": "Plant cell wall biosynthesis: genetic, biochemical and functional genomics approaches to the identification of key genes",
+     "volume": "4",
+     "author": "Farrokhi",
+     "year": "2006",
+     "journal-title": "Plant Biotechnol. J"
+    },
+    {
+     "key": "B18",
+     "doi-asserted-by": "publisher",
+     "first-page": "23",
+     "DOI": "10.3109/09637486.2011.593504",
+     "article-title": "Effects of barley beta-glucan-enriched flour fractions on the glycaemic index of bread",
+     "volume": "63",
+     "author": "Finocchiaro",
+     "year": "2012",
+     "journal-title": "Int. J. Food Sci. Nutr"
+    },
+    {
+     "key": "B19",
+     "doi-asserted-by": "publisher",
+     "first-page": "750",
+     "DOI": "10.1007/s00122-004-1688-7",
+     "article-title": "Fine mapping of a malting-quality qtl complex near the chromosome 4h s telomere in barley",
+     "volume": "109",
+     "author": "Gao",
+     "year": "2004",
+     "journal-title": "Theor. Appl. Genet"
+    },
+    {
+     "key": "B20",
+     "doi-asserted-by": "publisher",
+     "first-page": "921",
+     "DOI": "10.1007/BF00223901",
+     "article-title": "Mapping of \u00ce\u00b2-glucan content and \u00ce\u00b2-glucanase activity loci in barley grain and malt",
+     "volume": "91",
+     "author": "Han",
+     "year": "1995",
+     "journal-title": "Theor. Appl. Genet"
+    },
+    {
+     "key": "B21",
+     "doi-asserted-by": "publisher",
+     "first-page": "1754",
+     "DOI": "10.2135/cropsci2006.06.0429",
+     "article-title": "Barley amylose and beta-glucan: their relationships to protein, agronomic traits, and environmental factors",
+     "volume": "47",
+     "author": "Hang",
+     "year": "2007",
+     "journal-title": "Crop Sci"
+    },
+    {
+     "key": "B22",
+     "doi-asserted-by": "publisher",
+     "first-page": "20534",
+     "DOI": "10.1073/pnas.0809408105",
+     "article-title": "Small-interfering rnas from natural antisense transcripts derived from a cellulose synthase gene modulate cell wall biosynthesis in barley",
+     "volume": "105",
+     "author": "Held",
+     "year": "2008",
+     "journal-title": "Proc. Natl. Acad. Sci. U.S.A"
+    },
+    {
+     "key": "B23",
+     "doi-asserted-by": "publisher",
+     "first-page": "230",
+     "DOI": "10.1007/BF00206248",
+     "article-title": "The effect of waxy mutations on the granule-bound starch synthase of barley and maize endosperms",
+     "volume": "198",
+     "author": "Hylton",
+     "year": "1996",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "B24",
+     "doi-asserted-by": "publisher",
+     "first-page": "15",
+     "DOI": "10.1007/s11032-012-9764-1",
+     "article-title": "Genetic dissection of grain beta-glucan and amylose content in barley (hordeum vulgare l.)",
+     "volume": "31",
+     "author": "Islamovic",
+     "year": "2012",
+     "journal-title": "Mol. Breed"
+    },
+    {
+     "key": "B25",
+     "doi-asserted-by": "publisher",
+     "first-page": "155",
+     "DOI": "10.2337/diaclin.29.4.155",
+     "article-title": "The 3 R's of glycemic index: recommendations, research, and the real world",
+     "volume": "29",
+     "author": "Kirpitch",
+     "year": "2011",
+     "journal-title": "Clin. Diabetes"
+    },
+    {
+     "key": "B26",
+     "doi-asserted-by": "publisher",
+     "first-page": "242",
+     "DOI": "10.1104/pp.104.055954",
+     "article-title": "Identification of a novel enzyme required for starch metabolism in arabidopsis leaves. The phosphoglucan, water dikinase",
+     "volume": "137",
+     "author": "Kotting",
+     "year": "2005",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "B27",
+     "doi-asserted-by": "publisher",
+     "first-page": "334",
+     "DOI": "10.1105/tpc.108.064360",
+     "article-title": "Starch-excess4 is a laforin-like phosphoglucan phosphatase required for starch degradation in arabidopsis thaliana",
+     "volume": "21",
+     "author": "Kotting",
+     "year": "2009",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B28",
+     "doi-asserted-by": "publisher",
+     "first-page": "55",
+     "DOI": "10.1007/s10068-011-0008-7",
+     "article-title": "Physicochemical properties of pearled hull-less barley cultivars with normal and low amylose content",
+     "volume": "20",
+     "author": "Lee",
+     "year": "2011",
+     "journal-title": "Food Sci. Biotechnol"
+    },
+    {
+     "key": "B29",
+     "doi-asserted-by": "publisher",
+     "first-page": "647",
+     "DOI": "10.1016/j.jcs.2008.02.004",
+     "article-title": "Identification of quantitative trait loci for \u00ce\u00b2-glucan concentration in barley grain",
+     "volume": "48",
+     "author": "Li",
+     "year": "2008",
+     "journal-title": "J. Cereal Sci"
+    },
+    {
+     "key": "B30",
+     "doi-asserted-by": "publisher",
+     "first-page": "5217",
+     "DOI": "10.1093/jxb/err239",
+     "article-title": "The barley amo1 locus is tightly linked to the starch synthase iiia gene and negatively regulates expression of granule-bound starch synthetic genes",
+     "volume": "62",
+     "author": "Li",
+     "year": "2011",
+     "journal-title": "J. Exp. Bot"
+    },
+    {
+     "key": "B31",
+     "doi-asserted-by": "publisher",
+     "first-page": "1249",
+     "DOI": "10.1105/tpc.110.082537",
+     "article-title": "Unlocking the barley genome by chromosomal and comparative genomics",
+     "volume": "23",
+     "author": "Mayer",
+     "year": "2011",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B32",
+     "first-page": "283",
+     "article-title": "Whole genome association mapping identifies naked grain locus nud as determinant of b-glucan content in barley",
+     "volume": "98",
+     "author": "Mezaka",
+     "year": "2011",
+     "journal-title": "Agriculture"
+    },
+    {
+     "key": "B33",
+     "doi-asserted-by": "publisher",
+     "first-page": "3133",
+     "DOI": "10.1093/bioinformatics/btq580",
+     "article-title": "Flapjack\u00e2\u20ac\u201cgraphical genotype visualization",
+     "volume": "26",
+     "author": "Milne",
+     "year": "2010",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "B34",
+     "doi-asserted-by": "publisher",
+     "first-page": "173",
+     "DOI": "10.1046/j.1365-313X.2003.01712.x",
+     "article-title": "Barley sex6 mutants lack starch synthase iia activity and contain a starch with novel properties",
+     "volume": "34",
+     "author": "Morell",
+     "year": "2003",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "B35",
+     "doi-asserted-by": "publisher",
+     "first-page": "1687",
+     "DOI": "10.1007/s00122-012-1945-0",
+     "article-title": "Genome-wide association study for oat (avena sativa l.) beta-glucan concentration using germplasm of worldwide origin",
+     "volume": "125",
+     "author": "Newell",
+     "year": "2012",
+     "journal-title": "Theor. Appl. Genet"
+    },
+    {
+     "key": "B36",
+     "doi-asserted-by": "publisher",
+     "first-page": "141",
+     "DOI": "10.1007/s12571-011-0126-3",
+     "article-title": "Crops that feed the world 4. Barley: a resilient crop? Strengths and weaknesses in the context of food secuity",
+     "volume": "3",
+     "author": "Newton",
+     "year": "2011",
+     "journal-title": "Food Sci"
+    },
+    {
+     "key": "B37",
+     "doi-asserted-by": "publisher",
+     "first-page": "16",
+     "DOI": "10.1186/1471-2229-12-16",
+     "article-title": "Genome-wide association studies for agronomical traits in a world wide spring barley collection",
+     "volume": "12",
+     "author": "Pasam",
+     "year": "2012",
+     "journal-title": "BMC Plant Biol"
+    },
+    {
+     "key": "B38",
+     "doi-asserted-by": "crossref",
+     "first-page": "945",
+     "DOI": "10.1093/genetics/155.2.945",
+     "article-title": "Inference of population structure using multilocus genotype data",
+     "volume": "155",
+     "author": "Pritchard",
+     "year": "2000",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B39",
+     "doi-asserted-by": "publisher",
+     "first-page": "713",
+     "DOI": "10.1016/j.phytochem.2009.04.002",
+     "article-title": "Analysis of the (1,3)-beta-d-glucan synthase gene family of barley",
+     "volume": "70",
+     "author": "Schober",
+     "year": "2009",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "B40",
+     "doi-asserted-by": "publisher",
+     "first-page": "10302",
+     "DOI": "10.1021/jf3031875",
+     "article-title": "Genome-wide association study of resistant starch (RS) phenotypes in a barley variety collection",
+     "volume": "60",
+     "author": "Shu",
+     "year": "2012",
+     "journal-title": "J. Agric. Food Chem"
+    },
+    {
+     "key": "B41",
+     "doi-asserted-by": "publisher",
+     "first-page": "767",
+     "DOI": "10.1534/genetics.110.122549",
+     "article-title": "One hundred years of pleiotrpy: a retrospective",
+     "volume": "186",
+     "author": "Stearns",
+     "year": "2010",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B42",
+     "doi-asserted-by": "publisher",
+     "first-page": "381",
+     "DOI": "10.1093/jxb/err285",
+     "article-title": "Functional characterization of barley betaglucanless mutants demonstrates a unique role for cslf6 in (1,3;1,4)-beta-d-glucan biosynthesis",
+     "volume": "63",
+     "author": "Taketa",
+     "year": "2012",
+     "journal-title": "J. Exp. Bot"
+    },
+    {
+     "key": "B43",
+     "doi-asserted-by": "publisher",
+     "first-page": "694",
+     "DOI": "10.1105/tpc.017400",
+     "article-title": "Protein phosphorylation in amyloplasts regulates starch branching enzyme activity and protein-protein interactions",
+     "volume": "16",
+     "author": "Tetlow",
+     "year": "2004",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B44",
+     "doi-asserted-by": "publisher",
+     "first-page": "480",
+     "DOI": "10.1016/j.nutres.2009.07.003",
+     "article-title": "High-molecular-weight barley beta-glucan in chapatis (unleavened indian flatbread) lowers glycemic index",
+     "volume": "29",
+     "author": "Thondre",
+     "year": "2009",
+     "journal-title": "Nutr. Res"
+    },
+    {
+     "key": "B45",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.3835/plantgenome2013.3803.0007",
+     "article-title": "Structural and temporal variation in the genetic diversity of a european collection of spring 2-row barley cultivars and utility for association mapping of quantitative traits",
+     "volume": "6",
+     "author": "Tondelli",
+     "year": "2013",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "B46",
+     "doi-asserted-by": "publisher",
+     "first-page": "47",
+     "DOI": "10.1270/jsbbs.59.47",
+     "article-title": "A nove mutant gene for (1-3, 1-4)-\u00ce\u00b2-D-glucanless grain on barley (hordeum vulgare l.) chromosome 7H",
+     "volume": "59",
+     "author": "Tonooka",
+     "year": "2009",
+     "journal-title": "Breed. Sci"
+    },
+    {
+     "key": "B47",
+     "doi-asserted-by": "publisher",
+     "first-page": "508",
+     "DOI": "10.1002/star.200900242",
+     "article-title": "A novel triple-wavelength colorimetric method for measuring amylose and amylopectin contents",
+     "volume": "62",
+     "author": "Wang",
+     "year": "2010",
+     "journal-title": "Starch St\u00c3\u00a4rke"
+    },
+    {
+     "key": "B48",
+     "doi-asserted-by": "publisher",
+     "first-page": "839",
+     "DOI": "10.1631/jzus.B0920135",
+     "article-title": "Genetic mapping of quantitative trait loci associated with beta-amylase and limit dextrinase activities and beta-glucan and protein fraction contents in barley",
+     "volume": "10",
+     "author": "Wei",
+     "year": "2009",
+     "journal-title": "J. Zhejiang Univ. Sci. B"
+    },
+    {
+     "key": "B49",
+     "doi-asserted-by": "publisher",
+     "first-page": "209",
+     "DOI": "10.1146/annurev-arplant-042809-112301",
+     "article-title": "Starch: its metabolism, evolution, and biotechnological modification in plants",
+     "volume": "61",
+     "author": "Zeeman",
+     "year": "2010",
+     "journal-title": "Ann. Rev. Plant Biol"
+    },
+    {
+     "key": "B50",
+     "doi-asserted-by": "publisher",
+     "first-page": "875",
+     "DOI": "10.1534/genetics.108.098863",
+     "article-title": "Nonmetic multidimensional scaling corrects for population structure in whole genome association studies",
+     "volume": "182",
+     "author": "Zhu",
+     "year": "2009",
+     "journal-title": "Genetics"
+    }
+   ],
+   "container-title": [
+    "Frontiers in Plant Science"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      4,
+      3
+     ]
+    ],
+    "date-time": "2022-04-03T12:48:38Z",
+    "timestamp": 1648990118000
+   },
+   "score": 64.69589,
+   "resource": {
+    "primary": {
+     "URL": "http://journal.frontiersin.org/article/10.3389/fpls.2014.00197/abstract"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      15
+     ]
+    ]
+   },
+   "references-count": 50,
+   "URL": "https://doi.org/10.3389/fpls.2014.00197",
+   "ISSN": [
+    "1664-462X"
+   ],
+   "issn-type": [
+    {
+     "value": "1664-462X",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      15
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2026-09-30T17:53:18Z",
+    "timestamp": 1790790798720,
+    "version": "4.1.0"
+   },
+   "reference-count": 36,
+   "publisher": "Elsevier BV",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2014,
+        3,
+        1
+       ]
+      ],
+      "date-time": "2014-03-01T00:00:00Z",
+      "timestamp": 1393632000000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "elsevier.com",
+     "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Food Hydrocolloids"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      3
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.foodhyd.2013.08.018",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2013,
+      8,
+      23
+     ]
+    ],
+    "date-time": "2013-08-23T22:58:21Z",
+    "timestamp": 1377298701000
+   },
+   "page": "686-693",
+   "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 89,
+   "special_numbering": "C",
+   "title": [
+    "Amylolysis of amylopectin and amylose isolated from wheat, triticale, corn and barley starches"
+   ],
+   "prefix": "10.1016",
+   "volume": "35",
+   "author": [
+    {
+     "given": "Sabaratnam",
+     "family": "Naguleswaran",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Thava",
+     "family": "Vasanthan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ratnajothi",
+     "family": "Hoover",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David",
+     "family": "Bressler",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib1",
+     "doi-asserted-by": "crossref",
+     "first-page": "4743",
+     "DOI": "10.1021/jf200054e",
+     "article-title": "Barley grain constituents, starch composition, and structure affect starch in\u00a0vitro enzymatic hydrolysis",
+     "volume": "59",
+     "author": "Asare",
+     "year": "2011",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib2",
+     "series-title": "Methods in carbohydrate chemistry",
+     "first-page": "67",
+     "article-title": "Determination of reducing value: 3, 5-dinitrosalicylic acid method",
+     "author": "Bruner",
+     "year": "1964"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "102",
+     "DOI": "10.1016/j.carbpol.2005.12.030",
+     "article-title": "Simultaneous determination of amylose content and unit chain distribution of amylopectins of cassava starches by fluorescent labeling/HPSEC",
+     "volume": "65",
+     "author": "Charoenkul",
+     "year": "2006",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "562",
+     "DOI": "10.1016/j.carbpol.2007.01.018",
+     "article-title": "Method for determining the amylose content, molecular weights, and weight- and molar-based distributions of degree of polymerization of amylose and fine-structure of amylopectin",
+     "volume": "69",
+     "author": "Chen",
+     "year": "2007",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "59",
+     "DOI": "10.1007/s12010-007-8054-6",
+     "article-title": "Bioethanol production from uncooked raw starch by immobilized surface-engineered yeast cells",
+     "volume": "145",
+     "author": "Chen",
+     "year": "2008",
+     "journal-title": "Applied Biochemistry and Biotechnology"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib6",
+     "doi-asserted-by": "crossref",
+     "first-page": "471",
+     "DOI": "10.1094/CCHEM-85-4-0471",
+     "article-title": "Composition, molecular structure, properties, and in\u00a0vitro digestibility of starches from newly released Canadian pulse cultivars",
+     "volume": "85",
+     "author": "Chung",
+     "year": "2008",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib7",
+     "doi-asserted-by": "crossref",
+     "first-page": "480",
+     "DOI": "10.1016/j.carbpol.2010.05.018",
+     "article-title": "Relationship between granule size and in\u00a0vitro digestibility of maize and potato starches",
+     "volume": "82",
+     "author": "Dhital",
+     "year": "2010",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib8",
+     "first-page": "33",
+     "article-title": "Classification and measurement of nutritionally important starch fractions",
+     "volume": "46",
+     "author": "Englyst",
+     "year": "1992",
+     "journal-title": "European Journal of Clinical Nutrition"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "480",
+     "DOI": "10.1094/CCHEM-85-4-0480",
+     "article-title": "Enzyme susceptibility of high-amylose starch precipitated from sodium hydroxide dispersions",
+     "volume": "85",
+     "author": "Evans",
+     "year": "2008",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib10",
+     "doi-asserted-by": "crossref",
+     "first-page": "157",
+     "DOI": "10.1094/CCHEM-86-2-0157",
+     "article-title": "Isolation and characterization of high-purity starch isolates from regular, waxy, and high-amylose hulless barley grains",
+     "volume": "86",
+     "author": "Gao",
+     "year": "2009",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "1363",
+     "DOI": "10.1128/AEM.01512-08",
+     "article-title": "Fermentation of barley by using Saccharomyces cerevisiae: examination of barley as a feedstock for bioethanol production and value-added products",
+     "volume": "75",
+     "author": "Gibreel",
+     "year": "2009",
+     "journal-title": "Applied and Environmental Microbiology"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib12",
+     "first-page": "139",
+     "article-title": "Characterizing the size and molecular weight distribution of starch: why it is important and why it is hard",
+     "volume": "55",
+     "author": "Gilbert",
+     "year": "2010",
+     "journal-title": "Cereal Foods World"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib13",
+     "doi-asserted-by": "crossref",
+     "first-page": "397",
+     "DOI": "10.1016/j.carres.2009.11.011",
+     "article-title": "Hydrolysis of amylopectin by amylolytic enzymes: level of inner chain attack as an important analytical differentiation criterion",
+     "volume": "345",
+     "author": "Goesaert",
+     "year": "2010",
+     "journal-title": "Carbohydrate Research"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib14",
+     "doi-asserted-by": "crossref",
+     "first-page": "473",
+     "DOI": "10.1111/j.1469-8137.2008.02422.x",
+     "article-title": "Sustainable liquid biofuels from biomass: the writing's on the walls",
+     "volume": "178",
+     "author": "Gomez",
+     "year": "2008",
+     "journal-title": "New Phytologist"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib15",
+     "doi-asserted-by": "crossref",
+     "first-page": "342",
+     "DOI": "10.1016/S0008-6215(00)90643-8",
+     "article-title": "Polymodal distribution of the chain lengths of amylopectins, and its significance",
+     "volume": "147",
+     "author": "Hizukuri",
+     "year": "1986",
+     "journal-title": "Carbohydrate Research"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib16",
+     "doi-asserted-by": "crossref",
+     "first-page": "167",
+     "DOI": "10.1016/j.foodres.2010.10.046",
+     "article-title": "Compositional changes in whole grain flours as a result of solvent washing and their effect on starch amylolysis",
+     "volume": "44",
+     "author": "Kandil",
+     "year": "2011",
+     "journal-title": "Food Research International"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib17",
+     "series-title": "Food carbohydrates: chemistry, physical properties, and applications",
+     "first-page": "309",
+     "article-title": "Understanding starches and their role in foods",
+     "author": "Liu",
+     "year": "2005"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "15",
+     "DOI": "10.1094/CCHEM-84-1-0015",
+     "article-title": "Investigation of digestibility in\u00a0vitro and physicochemical properties of A- and B-type starch from soft and hard wheat flour",
+     "volume": "84",
+     "author": "Liu",
+     "year": "2007",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib19",
+     "series-title": "Starch: Chemistry and technology",
+     "first-page": "745",
+     "article-title": "Starch use in foods",
+     "author": "Mason",
+     "year": "2009"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "214",
+     "DOI": "10.1016/j.foodhyd.2009.12.004",
+     "article-title": "Structural characterizations of waxy maize starch residue following in\u00a0vitro pancreatin and amyloglucosidase synergistic hydrolysis",
+     "volume": "25",
+     "author": "Miao",
+     "year": "2011",
+     "journal-title": "Food Hydrocolloids"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib21",
+     "doi-asserted-by": "crossref",
+     "first-page": "879",
+     "DOI": "10.1007/s00449-011-0539-6",
+     "article-title": "Starch hydrolysis modeling: application to fuel ethanol production",
+     "volume": "34",
+     "author": "Murthy",
+     "year": "2011",
+     "journal-title": "Bioprocess and Biosystems Engineering"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib22",
+     "doi-asserted-by": "crossref",
+     "first-page": "87",
+     "DOI": "10.1094/CCHEM-04-10-0062",
+     "article-title": "Distribution of granule channels, protein, and phospholipid in triticale and corn starches as revealed by confocal laser scanning microscopy",
+     "volume": "88",
+     "author": "Naguleswaran",
+     "year": "2011",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib23",
+     "doi-asserted-by": "crossref",
+     "first-page": "864",
+     "DOI": "10.1016/j.carbpol.2012.01.027",
+     "article-title": "Amylolysis of large and small granules of native triticale, wheat and corn starches using a mixture of \u03b1-amylase and glucoamylase",
+     "volume": "88",
+     "author": "Naguleswaran",
+     "year": "2012",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib24",
+     "doi-asserted-by": "crossref",
+     "first-page": "771",
+     "DOI": "10.1016/j.foodres.2013.01.057",
+     "article-title": "The susceptibility of large and small granules of waxy, normal and high-amylose genotypes of barley and corn starches towards amylolysis at sub-gelatinization temperatures",
+     "volume": "51",
+     "author": "Naguleswaran",
+     "year": "2013",
+     "journal-title": "Food Research International"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib25",
+     "doi-asserted-by": "crossref",
+     "first-page": "375",
+     "DOI": "10.1016/S0924-2244(97)01090-X",
+     "article-title": "Towards an understanding of starch granule structure and hydrolysis",
+     "volume": "8",
+     "author": "Oates",
+     "year": "1997",
+     "journal-title": "Trends in Food Science & Technology"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "2520",
+     "DOI": "10.1021/bm070024z",
+     "article-title": "Branching features of amylopectins and glycogen determined by asymmetrical flow field flow fractionation coupled with multiangle laser light scattering",
+     "volume": "8",
+     "author": "Rolland-Sabate",
+     "year": "2007",
+     "journal-title": "Biomacromolecules"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib27",
+     "doi-asserted-by": "crossref",
+     "first-page": "420",
+     "DOI": "10.1016/j.carbpol.2008.08.001",
+     "article-title": "Structure-function relationships in A and B granules from wheat starches of similar amylose content",
+     "volume": "75",
+     "author": "Salman",
+     "year": "2009",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib28",
+     "doi-asserted-by": "crossref",
+     "first-page": "79",
+     "DOI": "10.1016/S0141-8130(02)00067-3",
+     "article-title": "Organization of the external region of the starch granule as determined by infrared spectroscopy",
+     "volume": "31",
+     "author": "Sevenou",
+     "year": "2002",
+     "journal-title": "International Journal of Biological Macromolecules"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib29",
+     "doi-asserted-by": "crossref",
+     "first-page": "549",
+     "DOI": "10.1002/star.200700631",
+     "article-title": "Comparison between granular starch hydrolyzing enzyme and conventional enzymes for ethanol production from maize starch with different amylose:amylopectin ratios",
+     "volume": "59",
+     "author": "Sharma",
+     "year": "2007",
+     "journal-title": "Starch-Starke"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib30",
+     "doi-asserted-by": "crossref",
+     "first-page": "23",
+     "DOI": "10.1016/j.anifeedsci.2006.01.015",
+     "article-title": "Starch structure and degree of starch hydrolysis of small and large starch granules from barley varieties with varying amylose content",
+     "volume": "130",
+     "author": "Stevneb\u00f8",
+     "year": "2006",
+     "journal-title": "Animal Feed Science and Technology"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib31",
+     "first-page": "107",
+     "article-title": "Starch granule porosity and its changes by means of amylolysis",
+     "volume": "21",
+     "author": "Sujka",
+     "year": "2007",
+     "journal-title": "International Agrophysics"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "299",
+     "DOI": "10.1016/S0008-6215(00)90397-5",
+     "article-title": "Purification and structure of amylose from rice starch",
+     "volume": "148",
+     "author": "Takeda",
+     "year": "1986",
+     "journal-title": "Carbohydrate Research"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib33",
+     "doi-asserted-by": "crossref",
+     "first-page": "39",
+     "DOI": "10.1016/j.anifeedsci.2006.01.016",
+     "article-title": "Hydrolysis of native starches with amylases",
+     "volume": "130",
+     "author": "Tester",
+     "year": "2006",
+     "journal-title": "Animal Feed Science and Technology"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "47",
+     "DOI": "10.1016/j.fbp.2009.10.001",
+     "article-title": "Hydrolysis of granular starch at sub-gelatinization temperature using a mixture of amylolytic enzymes",
+     "volume": "88",
+     "author": "Uthumporn",
+     "year": "2010",
+     "journal-title": "Food and Bioproducts Processing"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib35",
+     "series-title": "Spearman rank correlation (v1.0.1) in free statistics software (v1.1.23-r7)",
+     "author": "Wessa",
+     "year": "2012"
+    },
+    {
+     "key": "10.1016/j.foodhyd.2013.08.018_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "307",
+     "DOI": "10.1016/S0144-8617(01)00339-3",
+     "article-title": "Molecular weights and gyration radii of amylopectins determined by high-performance size-exclusion chromatography equipped with multi-angle laser-light scattering and refractive index detectors",
+     "volume": "49",
+     "author": "Yoo",
+     "year": "2002",
+     "journal-title": "Carbohydrate Polymers"
+    }
+   ],
+   "container-title": [
+    "Food Hydrocolloids"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0268005X13002610?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0268005X13002610?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      10,
+      13
+     ]
+    ],
+    "date-time": "2018-10-13T15:00:36Z",
+    "timestamp": 1539442836000
+   },
+   "score": 35.324005,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0268005X13002610"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      3
+     ]
+    ]
+   },
+   "references-count": 36,
+   "alternative-id": [
+    "S0268005X13002610"
+   ],
+   "URL": "https://doi.org/10.1016/j.foodhyd.2013.08.018",
+   "ISSN": [
+    "0268-005X"
+   ],
+   "issn-type": [
+    {
+     "value": "0268-005X",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      3
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Elsevier",
+     "name": "publisher",
+     "label": "This article is maintained by"
+    },
+    {
+     "value": "Amylolysis of amylopectin and amylose isolated from wheat, triticale, corn and barley starches",
+     "name": "articletitle",
+     "label": "Article Title"
+    },
+    {
+     "value": "Food Hydrocolloids",
+     "name": "journaltitle",
+     "label": "Journal Title"
+    },
+    {
+     "value": "https://doi.org/10.1016/j.foodhyd.2013.08.018",
+     "name": "articlelink",
+     "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+     "value": "article",
+     "name": "content_type",
+     "label": "Content Type"
+    },
+    {
+     "value": "Copyright \u00a9 2013 Published by Elsevier Ltd.",
+     "name": "copyright",
+     "label": "Copyright"
+    }
+   ]
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2026-08-01T00:43:36Z",
+    "timestamp": 1785545016444,
+    "version": "3.56.0"
+   },
+   "reference-count": 57,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "3",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2014,
+        5,
+        16
+       ]
+      ],
+      "date-time": "2014-05-16T00:00:00Z",
+      "timestamp": 1400198400000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "http://www.springer.com/tdm"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Mol Breeding"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      10
+     ]
+    ]
+   },
+   "DOI": "10.1007/s11032-014-0112-5",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      15
+     ]
+    ],
+    "date-time": "2014-05-15T19:51:06Z",
+    "timestamp": 1400183466000
+   },
+   "page": "1229-1243",
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 36,
+   "title": [
+    "Association mapping of grain hardness, polyphenol oxidase, total phenolics, amylose content, and \u03b2-glucan in US barley breeding germplasm"
+   ],
+   "prefix": "10.1007",
+   "volume": "34",
+   "author": [
+    {
+     "given": "Mohsen",
+     "family": "Mohammadi",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jeffrey B.",
+     "family": "Endelman",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sindhu",
+     "family": "Nair",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Shiaoman",
+     "family": "Chao",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Stephen S.",
+     "family": "Jones",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gary J.",
+     "family": "Muehlbauer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Steven E.",
+     "family": "Ullrich",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Byung-Kee",
+     "family": "Baik",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Mitchell L.",
+     "family": "Wise",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Kevin P.",
+     "family": "Smith",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      16
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "112_CR1",
+     "doi-asserted-by": "crossref",
+     "first-page": "233",
+     "DOI": "10.1016/j.jcs.2008.02.002",
+     "volume": "48",
+     "author": "BK Baik",
+     "year": "2008",
+     "unstructured": "Baik BK, Ullrich SE (2008) Barley for food: characteristics, improvement, and renewed interest. J Cereal Sci 48:233\u2013242",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "112_CR2",
+     "doi-asserted-by": "crossref",
+     "first-page": "870",
+     "DOI": "10.1007/s00122-002-1034-x",
+     "volume": "105",
+     "author": "B Beecher",
+     "year": "2002",
+     "unstructured": "Beecher B, Bettge A, Smidansky E, Giroux MJ (2002a) Expression of wildtype pinB sequence in transgenic wheat complements a hard phenotype. Theor Appl Gen 105:870\u2013877",
+     "journal-title": "Theor Appl Gen"
+    },
+    {
+     "key": "112_CR3",
+     "doi-asserted-by": "crossref",
+     "first-page": "584",
+     "DOI": "10.1139/g02-008",
+     "volume": "45",
+     "author": "B Beecher",
+     "year": "2002",
+     "unstructured": "Beecher B, Bowman J, Martin JM, Bettge AD, Morris CF, Blake TK, Giroux MJ (2002b) Hordoindolines are associated with a major endosperm-texture QTL in barley (Hordeum vulgare). Genome 45:584\u2013591",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "112_CR4",
+     "doi-asserted-by": "crossref",
+     "first-page": "337",
+     "DOI": "10.1093/ajcn/49.2.337",
+     "volume": "49",
+     "author": "KM Behall",
+     "year": "1989",
+     "unstructured": "Behall KM, Scholfield DJ, Yuhauiak I, Canary J (1989) Diets containing high amylose vs amylopectin starch: effects on metabolic variables in human subjects. Am J Clin Nutr 49:337\u2013344",
+     "journal-title": "Am J Clin Nutr"
+    },
+    {
+     "key": "112_CR5",
+     "doi-asserted-by": "crossref",
+     "first-page": "1185",
+     "DOI": "10.1093/ajcn/80.5.1185",
+     "volume": "80",
+     "author": "KM Behall",
+     "year": "2004",
+     "unstructured": "Behall KM, Scholfield DJ, Hallfrisch J (2004) Diets containing barley significantly reduce lipids in mildly hypercholesterolemic men and women. Am J Clin Nutr 80:1185\u20131193",
+     "journal-title": "Am J Clin Nutr"
+    },
+    {
+     "key": "112_CR6",
+     "first-page": "150",
+     "volume": "35",
+     "author": "VM Bendelow",
+     "year": "1977",
+     "unstructured": "Bendelow VM (1977) Automated procedure for the estimation of total polyphenol content in beer, wort, malt, and barley. J Am Soc Brew Chem 35:150\u2013152",
+     "journal-title": "J Am Soc Brew Chem"
+    },
+    {
+     "key": "112_CR7",
+     "doi-asserted-by": "crossref",
+     "first-page": "693",
+     "DOI": "10.1007/s00122-012-2011-7",
+     "volume": "126",
+     "author": "GL Berger",
+     "year": "2013",
+     "unstructured": "Berger GL, Liu S, Hall MD, Brooks WS, Chao S, Muehlbauer GJ, Baik BK, Steffenson B, Griffey CA (2013) Marker-trait associations in Virginia Tech winter barley identified using genome-wide mapping. Theor Appl Genet 126:693\u2013710",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "112_CR8",
+     "doi-asserted-by": "crossref",
+     "first-page": "205",
+     "DOI": "10.1007/s11103-007-9263-7",
+     "volume": "66",
+     "author": "M Bhave",
+     "year": "2008",
+     "unstructured": "Bhave M, Morris CF (2008) Molecular genetics of puroindolines and related genes: allelic diversity in wheat and other grasses. Plant Mol Biol 66:205\u2013219",
+     "journal-title": "Plant Mol Biol"
+    },
+    {
+     "key": "112_CR9",
+     "doi-asserted-by": "crossref",
+     "first-page": "55",
+     "DOI": "10.1093/ajcn/69.1.55",
+     "volume": "69",
+     "author": "I Bourdon",
+     "year": "1999",
+     "unstructured": "Bourdon I, Yokoyama W, Davis P, Hudson C, Backus R, Richter D, Knuckles B, Schneeman BO (1999) Postprandial lipid, glucose, insulin, and cholecystokinin responses in men fed barley pasta enriched with beta-glucan. Am J Clin Nutr 69:55\u201363",
+     "journal-title": "Am J Clin Nutr"
+    },
+    {
+     "key": "112_CR10",
+     "doi-asserted-by": "crossref",
+     "first-page": "2633",
+     "DOI": "10.1093/bioinformatics/btm308",
+     "volume": "23",
+     "author": "PJ Bradbury",
+     "year": "2007",
+     "unstructured": "Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES (2007) TASSEL: software for association mapping of complex traits in diverse samples. Bioinformatics 23:2633\u20132635",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "112_CR11",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1104/pp.104.044081",
+     "volume": "136",
+     "author": "KS Caldwell",
+     "year": "2004",
+     "unstructured": "Caldwell KS, Langridge P, Powell W (2004) Comparative sequence analysis of the region harboring the hardness locus in barley and its colinear region in rice. Plant Physiol 136:1\u201314",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "112_CR12",
+     "doi-asserted-by": "crossref",
+     "first-page": "1651",
+     "DOI": "10.1093/molbev/msp076",
+     "volume": "26",
+     "author": "M Charles",
+     "year": "2009",
+     "unstructured": "Charles M, Tang H, Belcram H, Paterson A, Gornicki P, Chalhoub B (2009) Sixty million years in evolution of soft grain trait in grasses: emergence of the softness locus in the common ancestor of Pooideae and Ehrhartoideae, after their divergence from Panicoideae. Mol Biol Evol 26:1651\u20131661",
+     "journal-title": "Mol Biol Evol"
+    },
+    {
+     "key": "112_CR13",
+     "doi-asserted-by": "crossref",
+     "first-page": "582",
+     "DOI": "10.1186/1471-2164-10-582",
+     "volume": "10",
+     "author": "TJ Close",
+     "year": "2009",
+     "unstructured": "Close TJ, Bhat PR, Lonardi S, Wu Y, Rostoks N, Ramsay L, Druka A, Stein N, Svensson JT, Wanamaker S, Bozdag S, Roose ML, Moscou MJ, Chao S, Varshney RK, Sz\u0171cs P, Sato K, Hayes PM, Matthews DE, Kleinhofs A, Muehlbauer GJ, DeYoung J, Marshall DF, Madishetty K, Fenton RD, Condamine P, Graner A, Waugh R (2009) Development and implementation of high-throughput SNP genotyping in barley. BMC Genom 10:582",
+     "journal-title": "BMC Genom"
+    },
+    {
+     "key": "112_CR14",
+     "first-page": "105",
+     "volume": "52",
+     "author": "L Dykes",
+     "year": "2007",
+     "unstructured": "Dykes L, Rooney LW (2007) Phenolic compounds in cereal grains and their health benefits. Cereal Foods World 52:105\u2013111",
+     "journal-title": "Cereal Foods World"
+    },
+    {
+     "key": "112_CR15",
+     "doi-asserted-by": "crossref",
+     "first-page": "250",
+     "DOI": "10.3835/plantgenome2011.08.0024",
+     "volume": "4",
+     "author": "JB Endelman",
+     "year": "2011",
+     "unstructured": "Endelman JB (2011) Ridge regression and other kernels for genomic selection with R package rrBLUP. Plant Genome 4:250\u2013255",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "112_CR16",
+     "doi-asserted-by": "crossref",
+     "first-page": "82",
+     "DOI": "10.1016/j.jcs.2006.12.003",
+     "volume": "46",
+     "author": "GP Fox",
+     "year": "2007",
+     "unstructured": "Fox GP, Osborne B, Bowman J, Kelly A, Cakir M, Poulsen D, Inkerman A, Henry R (2007) Measurement of genetic and environmental variation in barley (Hordeumvulgare) grain hardness. J Cereal Sci 46:82\u201392",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "112_CR17",
+     "first-page": "278",
+     "volume": "73",
+     "author": "CS Gaines",
+     "year": "1996",
+     "unstructured": "Gaines CS, Finney PF, Fleege LM, Andrews LC (1996) Predicting a hardness measurement using the single-kernel characterization system. Cereal Chem 73:278\u2013283",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR18",
+     "doi-asserted-by": "crossref",
+     "first-page": "857",
+     "DOI": "10.1007/s001220050636",
+     "volume": "95",
+     "author": "MJ Giroux",
+     "year": "1997",
+     "unstructured": "Giroux MJ, Morris CF (1997) A glycine to serine change in puroindoline b is associated with wheat grain hardness and low level of starch-surface friabilin. Theor Appl Genet 95:857\u2013864",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "112_CR56",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Hamblin MT, Close TJ, Bhat PR, Chao S, Kling JG, Abraham KJ, Blake T, Brooks WS, Cooper B, Griffey CA, Hayes PM, Hole DJ, Horsley RD, Obert DE, Smith KP, Ullrich SE, Muehlbauer GJ, Jannink JL (2010) Population structure and linkage disequilibrium in U.S. barley germplasm: implications for association mapping. Crop Sci 50:556\u2013566",
+     "DOI": "10.2135/cropsci2009.04.0198"
+    },
+    {
+     "key": "112_CR19",
+     "doi-asserted-by": "crossref",
+     "first-page": "921",
+     "DOI": "10.1007/BF00223901",
+     "volume": "91",
+     "author": "F Han",
+     "year": "1995",
+     "unstructured": "Han F, Ullrich SE, Chirat S, Menteur S, Jestin L, Sarrafi A, Hayes PM, Jones BL, Blake TK, Wesenberg DM, Kleinhofs A, Kilian A (1995) Mapping of \u03b2-glucan content and \u03b2-glucanase activity loci in barley grain and malt. Theor Appl Genet 91:921\u2013927",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "112_CR20",
+     "doi-asserted-by": "crossref",
+     "first-page": "35",
+     "DOI": "10.1016/j.jcs.2009.08.007",
+     "volume": "51",
+     "author": "G Hu",
+     "year": "2010",
+     "unstructured": "Hu G, Charlotte B, Chunyan Y (2010) Efficient measurement of amylose content in cereal grains. J Cereal Sci 51:35\u201340",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "112_CR21",
+     "doi-asserted-by": "crossref",
+     "first-page": "15",
+     "DOI": "10.1007/s11032-012-9764-1",
+     "volume": "31",
+     "author": "E Islamovic",
+     "year": "2013",
+     "unstructured": "Islamovic E, Obert DE, Oliver RE, Harrison SA, Ibrahim A, Marshall JM, Miclaus KJ, Hu G, Jackson EW (2013) Genetic dissection of grain beta-glucan and amylose content in barley (Hordeum vulgare L.). Mol Breed 31:15\u201325",
+     "journal-title": "Mol Breed"
+    },
+    {
+     "key": "112_CR22",
+     "doi-asserted-by": "crossref",
+     "first-page": "348",
+     "DOI": "10.1038/ng.548",
+     "volume": "42",
+     "author": "HM Kang",
+     "year": "2010",
+     "unstructured": "Kang HM, Sul JH, Service SK, Zaitlen NA, Kong S, Freimer NB, Sabatti C, Eskin E (2010) Variance component model to account for sample structure in genome-wide association studies. Nat Genet 42:348\u2013354",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "key": "112_CR23",
+     "doi-asserted-by": "crossref",
+     "first-page": "769",
+     "DOI": "10.1093/genetics/126.3.769",
+     "volume": "126",
+     "author": "SJ Knapp",
+     "year": "1990",
+     "unstructured": "Knapp SJ, Bridges WC (1990) Using molecular markers to estimate quantitative trait locus parameters: power and genetic variances for unreplicated and replicated progeny. Genetics 126:769\u2013777",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "112_CR24",
+     "doi-asserted-by": "crossref",
+     "first-page": "1424",
+     "DOI": "10.1073/pnas.0608580104",
+     "volume": "104",
+     "author": "T Komatsuda",
+     "year": "2007",
+     "unstructured": "Komatsuda T, Pourkheirandish M, He C, Azhaguvel P, Kanamori H, Perovic D, Stein N, Graner A, Wicker T, Tagiri A, Lundqvist U, Fujimura T, Matsuoka M, Matsumoto T, Yano M (2007) Six rowed barley originated from a mutation in a homeodomain leucine zipper I-class homeobox gene. Proc Natl Acad Sci USA 104:1424\u20131429",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "112_CR25",
+     "doi-asserted-by": "crossref",
+     "first-page": "299",
+     "DOI": "10.1093/genetics/27.3.299",
+     "volume": "27",
+     "author": "W Leonard",
+     "year": "1942",
+     "unstructured": "Leonard W (1942) Inheritance of fertility in the lateral spikelets of barley. Genetics 27:299\u2013316",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "112_CR26",
+     "doi-asserted-by": "crossref",
+     "first-page": "439",
+     "DOI": "10.1007/s11032-010-9442-0",
+     "volume": "27",
+     "author": "J Massman",
+     "year": "2011",
+     "unstructured": "Massman J, Cooper B, Horsley R, Neate S, Dill-Macky R, Chao S, Dong Y, Schwarz P, Muehlbauer GJ, Smith KP (2011) Genome-wide association mapping of fusarium head blight resistance in contemporary barley breeding germplasm. Mol Breed 27:439\u2013454",
+     "journal-title": "Mol Breed"
+    },
+    {
+     "key": "112_CR27",
+     "doi-asserted-by": "crossref",
+     "first-page": "1205",
+     "DOI": "10.1093/ajcn/53.5.1205",
+     "volume": "53",
+     "author": "GH McIntosh",
+     "year": "1991",
+     "unstructured": "McIntosh GH, Whyte J, McArthur R, Nestel PJ (1991) Barley and wheat foods: influence on plasma cholesterol concentrations in hypercholesterolemic men. Am J Clin Nutr 53:1205\u20131209",
+     "journal-title": "Am J Clin Nutr"
+    },
+    {
+     "key": "112_CR28",
+     "doi-asserted-by": "crossref",
+     "first-page": "238",
+     "DOI": "10.3835/plantgenome2011.08.0023",
+     "volume": "4",
+     "author": "M Mu\u00f1oz-Amatria\u00edn",
+     "year": "2011",
+     "unstructured": "Mu\u00f1oz-Amatria\u00edn M, Moscou MJ, Bhat PR, Svensson JT, Barto\u0161 J, Such\u00e1nkov\u00e1 P, \u0160imkov\u00e1 H, Endo TR, Fenton RD, Lonardi S, Castillo AM, Chao S, Cistu\u00e9 L, Cuesta-Marcos A, Forrest KL, Hayden MJ, Hayes PM, Horsley RD, Makoto K, Moody D, Sato K, Vall\u00e9s MP, Wulff BBH, Muehlbauer GJ, Dole\u017eel J, Close TJ (2011) An improved consensus linkage map of barley based on flow-sorted chromosomes and single nucleotide polymorphism markers. Plant Genome 4:238\u2013249",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "112_CR29",
+     "doi-asserted-by": "crossref",
+     "first-page": "461",
+     "DOI": "10.1094/CCHEM-12-09-0163",
+     "volume": "87",
+     "author": "S Nair",
+     "year": "2010",
+     "unstructured": "Nair S, Ullrich SE, Blake TK, Cooper B, Griffey CA, Hayes PM, Hole DJ, Horsley RD, Obert DE, Smith KP, Muehlbauer GJ, Baik BK (2010) Variation in kernel hardness and associated traits in USA barley breeding lines. Cereal Chem 87:461\u2013466",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR30",
+     "doi-asserted-by": "crossref",
+     "first-page": "147",
+     "DOI": "10.1094/CCHEM-06-10-0089",
+     "volume": "88",
+     "author": "S Nair",
+     "year": "2011",
+     "unstructured": "Nair S, Ullrich SE, Baik BK (2011) Association of barley kernel hardness with physical grain traits and food processing parameters. Cereal Chem 88:147\u2013152",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR31",
+     "doi-asserted-by": "crossref",
+     "first-page": "145",
+     "DOI": "10.1007/s10681-005-9062-7",
+     "volume": "149",
+     "author": "JC Nelson",
+     "year": "2006",
+     "unstructured": "Nelson JC, Andreescu C, Breseghello F, Finney PL, Gualberto DG, Bergman CJ, Pena RJ, Perretant MR, Leroy P, Qualset CO, Sorrells ME (2006) Quantitative trait locus analysis of wheat quality traits. Euphytica 149:145\u2013159",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "112_CR32",
+     "doi-asserted-by": "crossref",
+     "first-page": "43",
+     "DOI": "10.1111/j.1439-0523.1996.tb00869.x",
+     "volume": "115",
+     "author": "A Oziel",
+     "year": "1996",
+     "unstructured": "Oziel A, Hayes PM, Chen FQ, Jones B (1996) Application of quantitative trait locus mapping to the development of winter habit malting barley. Plant Breed 115:43\u201351",
+     "journal-title": "Plant Breed"
+    },
+    {
+     "key": "112_CR33",
+     "doi-asserted-by": "crossref",
+     "first-page": "752",
+     "DOI": "10.1094/CCHEM.2004.81.6.752",
+     "volume": "81",
+     "author": "Z QuindeAxtell",
+     "year": "2004",
+     "unstructured": "QuindeAxtell Z, Ullrich SE, Baik BK (2004) Genotypic variation in color and discoloration potential of barley-based food products. Cereal Chem 81:752\u2013758",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR34",
+     "doi-asserted-by": "crossref",
+     "first-page": "385",
+     "DOI": "10.1094/CC-83-0385",
+     "volume": "83",
+     "author": "Z QuindeAxtell",
+     "year": "2006",
+     "unstructured": "QuindeAxtell Z, Powers J, Baik BK (2006) Retardation of discoloration in barley flour gel and dough. Cereal Chem 83:385\u2013390",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR57",
+     "unstructured": "R Development Core Team (2013) R: a language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. http://www-R-project.org"
+    },
+    {
+     "key": "112_CR35",
+     "doi-asserted-by": "crossref",
+     "first-page": "7185",
+     "DOI": "10.1093/nar/16.14.7185",
+     "volume": "16",
+     "author": "W Rohde",
+     "year": "1988",
+     "unstructured": "Rohde W, Becker D, Salamini F (1988) Structural analysis of the waxy locus from Hordeumvulgare. Nucleic Acids Res 16:7185\u20137186",
+     "journal-title": "Nucleic Acids Res"
+    },
+    {
+     "key": "112_CR36",
+     "doi-asserted-by": "crossref",
+     "first-page": "511",
+     "DOI": "10.1111/j.1439-0523.1996.tb00967.x",
+     "volume": "115",
+     "author": "S Rouv\u00e8s",
+     "year": "1996",
+     "unstructured": "Rouv\u00e8s S, Boeuf C, Zwickert-Menteur S, Gautier MF, Joudrier P, Nelson JC, Bernard M, Jestin L (1996) Locating supplementary RFLP markers on barley chromosome 7 and synteny with homoeologous wheat group 5. Plant Breed 115:511\u2013513",
+     "journal-title": "Plant Breed"
+    },
+    {
+     "key": "112_CR37",
+     "doi-asserted-by": "crossref",
+     "first-page": "427",
+     "DOI": "10.1534/g3.112.005363",
+     "volume": "3",
+     "author": "JE Rutkoski",
+     "year": "2013",
+     "unstructured": "Rutkoski JE, Poland J, Jannink JL, Sorrells ME (2013) Imputation of unordered markers and the impact on genomic selection accuracy. G3 3:427\u2013439",
+     "journal-title": "G3"
+    },
+    {
+     "key": "112_CR38",
+     "doi-asserted-by": "crossref",
+     "first-page": "187",
+     "DOI": "10.1094/CCHEM-86-2-0187",
+     "volume": "86",
+     "author": "MR Schmitt",
+     "year": "2009",
+     "unstructured": "Schmitt MR, Wise ML (2009) Barley and oat \u03b2-glucan content measured by Calcofluor fluorescence in a microplate assay. Cereal Chem 86:187\u2013190",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR39",
+     "doi-asserted-by": "crossref",
+     "first-page": "274",
+     "DOI": "10.1111/j.1439-0523.1992.tb00185.x",
+     "volume": "109",
+     "author": "J Schondelmaier",
+     "year": "1992",
+     "unstructured": "Schondelmaier J, Jacobi A, Fischbeck G, Jahoor A (1992) Genetical studies on the mode of inheritance and localization of the amo1 (high amylose) gene in barley. Plant Breed 109:274\u2013280",
+     "journal-title": "Plant Breed"
+    },
+    {
+     "key": "112_CR40",
+     "doi-asserted-by": "crossref",
+     "first-page": "680",
+     "DOI": "10.2135/cropsci2002.0680",
+     "volume": "42",
+     "author": "D See",
+     "year": "2002",
+     "unstructured": "See D, Kanazin V, Kephart K, Blake T (2002) Mapping genes controlling variation in barley grain protein concentration. Crop Sci 42:680\u2013685",
+     "journal-title": "Crop Sci"
+    },
+    {
+     "key": "112_CR41",
+     "doi-asserted-by": "crossref",
+     "first-page": "21",
+     "DOI": "10.1007/s11130-007-0064-6",
+     "volume": "63",
+     "author": "C Shimizu",
+     "year": "2008",
+     "unstructured": "Shimizu C, Kihara M, Aoe S, Araki S, Ito K, Hayashi K, Watari J, Sakata Y, Ikegami S (2008) Effect of high beta-glucan barley on serum cholesterol concentrations and visceral fat area in Japanese men\u2014a randomized, double-blinded, placebo-controlled trial. Plant Foods Hum Nutr 63:21\u201325",
+     "journal-title": "Plant Foods Hum Nutr"
+    },
+    {
+     "key": "112_CR42",
+     "doi-asserted-by": "crossref",
+     "first-page": "9440",
+     "DOI": "10.1073/pnas.1530509100",
+     "volume": "100",
+     "author": "JD Storey",
+     "year": "2003",
+     "unstructured": "Storey JD, Tibshirani R (2003) Statistical significance for genome wide studies. Proc Natl Acad Sci USA 100:9440\u20139445",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "112_CR43",
+     "doi-asserted-by": "crossref",
+     "first-page": "134",
+     "DOI": "10.3835/plantgenome2008.01.0005",
+     "volume": "2",
+     "author": "P Sz\u0171cs",
+     "year": "2009",
+     "unstructured": "Sz\u0171cs P, Blake VC, Bhat PR, Chao S, Close TJ, Cuesta-Marcos A, Muehlbauer GJ, Ramsay L, Waugh R, Hayes PM (2009) An integrated resource for barley linkage map and malting quality QTL alignment. Plant Genome 2:134\u2013140",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "112_CR44",
+     "doi-asserted-by": "crossref",
+     "first-page": "3983",
+     "DOI": "10.1093/jxb/erq211",
+     "volume": "61",
+     "author": "S Taketa",
+     "year": "2010",
+     "unstructured": "Taketa S, Matsuki K, Amano S, Saisho D, Himi E, Shitsukawa N, You T, Noda K, Takeda K (2010) Duplicate polyphenol oxidase genes on barley chromosome 2H and their functional differentiation in the phenol reaction of spikes and grains. J Exp Bot 61:3983\u20133993",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "key": "112_CR45",
+     "doi-asserted-by": "crossref",
+     "first-page": "1007",
+     "DOI": "10.2135/cropsci2007.08.0424",
+     "volume": "48",
+     "author": "Y Turuspekov",
+     "year": "2008",
+     "unstructured": "Turuspekov Y, Beecher B, Darlington Y, Bowman J, Blake TK, Giroux MJ (2008a) Hardness locus sequence variation and endosperm texture in spring barley. Crop Sci 48:1007\u20131019",
+     "journal-title": "Crop Sci"
+    },
+    {
+     "key": "112_CR46",
+     "doi-asserted-by": "crossref",
+     "first-page": "817",
+     "DOI": "10.1094/CCHEM-85-6-0817",
+     "volume": "85",
+     "author": "Y Turuspekov",
+     "year": "2008",
+     "unstructured": "Turuspekov Y, Martin JM, Bowman JGP, Beecher BS, Giroux MJ (2008b) Associations between Vrs1 alleles and grain quality traits in spring barley Hordeum vulgare L. Cereal Chem 85:817\u2013823",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR47",
+     "doi-asserted-by": "crossref",
+     "first-page": "279",
+     "DOI": "10.1016/S0733-5210(86)80030-3",
+     "volume": "4",
+     "author": "SE Ullrich",
+     "year": "1986",
+     "unstructured": "Ullrich SE, Clancy JA, Eslick RF, Lance RCM (1986) \u03b2-Glucan content and viscosity of extracts from waxy barley. J Cereal Sci 4:279\u2013285",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "112_CR48",
+     "doi-asserted-by": "crossref",
+     "first-page": "151",
+     "DOI": "10.1007/s00122-010-1431-5",
+     "volume": "122",
+     "author": "CK Walker",
+     "year": "2011",
+     "unstructured": "Walker CK, Panozzo JF, Ford R, Eckermann P, Moody D, Lehmensiek A, Appels R (2011) Chromosomal loci associated with endosperm hardness in a malting barley cross. Theor Appl Genet 122:151\u2013162",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "112_CR49",
+     "doi-asserted-by": "crossref",
+     "first-page": "233",
+     "DOI": "10.1007/s00122-011-1697-2",
+     "volume": "124",
+     "author": "M Wang",
+     "year": "2012",
+     "unstructured": "Wang M, Jiang N, Jia T, Leach L, Cockram J, Comadran J, Shaw P, Waugh R, Luo Z (2012) Genome-wide association mapping of agronomic and morphologic traits in highly structured populations of barley cultivars. Theor Appl Genet 124:233\u2013246",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "112_CR50",
+     "first-page": "411",
+     "volume": "47",
+     "author": "PC Williams",
+     "year": "1970",
+     "unstructured": "Williams PC, Kuzina FD, Hlynka I (1970) A rapid colorimetric procedure for estimating the amylose content of starches and flours. Cereal Chem 47:411\u2013421",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR51",
+     "first-page": "73",
+     "volume": "61",
+     "author": "PJ Wood",
+     "year": "1984",
+     "unstructured": "Wood PJ, Weisz J (1984) Use of calcofluor in analysis of oat beta-D-glucan. Cereal Chem 61:73\u201375",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "112_CR52",
+     "doi-asserted-by": "crossref",
+     "first-page": "87",
+     "DOI": "10.1023/A:1008103716474",
+     "volume": "55",
+     "author": "SK Yadav",
+     "year": "2000",
+     "unstructured": "Yadav SK, Luthra YP, Sood DR, Aggarwal NK (2000) Gibberellic acid (GA3) induced changes in proanthocyanidins and malt quality of two- and six-row husked barleys. Plant Foods Hum Nutr 55:87\u201396",
+     "journal-title": "Plant Foods Hum Nutr"
+    },
+    {
+     "key": "112_CR53",
+     "doi-asserted-by": "crossref",
+     "first-page": "1013",
+     "DOI": "10.1007/s00122-011-1643-3",
+     "volume": "123",
+     "author": "M Yanaka",
+     "year": "2011",
+     "unstructured": "Yanaka M, Takata K, Terasawa Y, Ikeda TM (2011) Chromosome 5H of Hordeum species involved in reduction in grain hardness in wheat genetic background. Theor Appl Genet 123:1013\u20131018",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "112_CR54",
+     "doi-asserted-by": "crossref",
+     "first-page": "134",
+     "DOI": "10.1111/j.1365-2621.1998.tb15693.x",
+     "volume": "63",
+     "author": "GH Zheng",
+     "year": "1998",
+     "unstructured": "Zheng GH, Sosulski FW (1998) Determination of water separation from cooked starch and flour pastes after refrigeration and freeze-thaw. J Food Sci 63:134\u2013139",
+     "journal-title": "J Food Sci"
+    },
+    {
+     "key": "112_CR55",
+     "doi-asserted-by": "crossref",
+     "first-page": "438",
+     "DOI": "10.1631/jzus.B1200003",
+     "volume": "13",
+     "author": "H Zhou",
+     "year": "2012",
+     "unstructured": "Zhou H, Muehlbauer G, Steffenson B (2012) Population structure and linkage disequilibrium in elite barley breeding germplasm from the United States. J Zhejiang Univ Sci B 13:438\u2013451",
+     "journal-title": "J Zhejiang Univ Sci B"
+    }
+   ],
+   "container-title": [
+    "Molecular Breeding"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s11032-014-0112-5.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/article/10.1007/s11032-014-0112-5/fulltext.html",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s11032-014-0112-5",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      4,
+      3
+     ]
+    ],
+    "date-time": "2022-04-03T17:13:41Z",
+    "timestamp": 1649006021000
+   },
+   "score": 33.286644,
+   "resource": {
+    "primary": {
+     "URL": "http://link.springer.com/10.1007/s11032-014-0112-5"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      16
+     ]
+    ]
+   },
+   "references-count": 57,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       2014,
+       10
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "112"
+   ],
+   "URL": "https://doi.org/10.1007/s11032-014-0112-5",
+   "ISSN": [
+    "1380-3743",
+    "1572-9788"
+   ],
+   "issn-type": [
+    {
+     "value": "1380-3743",
+     "type": "print"
+    },
+    {
+     "value": "1572-9788",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      16
+     ]
+    ]
+   }
+  }
+ ]
+}

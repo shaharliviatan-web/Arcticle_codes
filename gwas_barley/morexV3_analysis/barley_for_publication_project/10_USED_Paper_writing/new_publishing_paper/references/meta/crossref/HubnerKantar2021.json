@@ -1,0 +1,3779 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     29
+    ]
+   ],
+   "date-time": "2026-09-29T11:42:59Z",
+   "timestamp": 1790682179089,
+   "version": "4.1.0"
+  },
+  "reference-count": 146,
+  "publisher": "Frontiers Media SA",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2021,
+       1,
+       27
+      ]
+     ],
+     "date-time": "2021-01-27T00:00:00Z",
+     "timestamp": 1611705600000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "frontiersin.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Front. Plant Sci."
+  ],
+  "abstract": "<jats:p>The diversity observed among crop wild relatives (CWRs) and their ability to flourish in unfavorable and harsh environments have drawn the attention of plant scientists and breeders for many decades. However, it is also recognized that the benefit gained from using CWRs in breeding is a potential rose between thorns of detrimental genetic variation that is linked to the trait of interest. Despite the increased interest in CWRs, little attention was given so far to the statistical, analytical, and technical considerations that should guide the sampling design, the germplasm characterization, and later its implementation in breeding. Here, we review the entire process of sampling and identifying beneficial genetic variation in CWRs and the challenge of using it in breeding. The ability to detect beneficial genetic variation in CWRs is strongly affected by the sampling design which should be adjusted to the spatial and temporal variation of the target species, the trait of interest, and the analytical approach used. Moreover, linkage disequilibrium is a key factor that constrains the resolution of searching for beneficial alleles along the genome, and later, the ability to deplete linked deleterious genetic variation as a consequence of genetic drag. We also discuss how technological advances in genomics, phenomics, biotechnology, and data science can improve the ability to identify beneficial genetic variation in CWRs and to exploit it in strive for higher-yielding and sustainable crops.</jats:p>",
+  "DOI": "10.3389/fpls.2021.626565",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     27
+    ]
+   ],
+   "date-time": "2021-01-27T06:52:30Z",
+   "timestamp": 1611730350000
+  },
+  "update-policy": "https://doi.org/10.3389/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 38,
+  "title": [
+   "Tapping Diversity From the Wild: From Sampling to Implementation"
+  ],
+  "prefix": "10.3389",
+  "volume": "12",
+  "author": [
+   {
+    "given": "Sariel",
+    "family": "H\u00fcbner",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael B.",
+    "family": "Kantar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "1965",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     27
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "B1",
+    "doi-asserted-by": "publisher",
+    "first-page": "4226",
+    "DOI": "10.1111/mec.14203",
+    "article-title": "Connecting genomic patterns of local adaptation and niche suitability in teosintes.",
+    "volume": "26",
+    "author": "Aguirre-Liguori",
+    "year": "2017",
+    "journal-title": "Mol. Ecol."
+   },
+   {
+    "key": "B2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1038/s42003-018-0085-8",
+    "article-title": "RAiSD detects positive selection based on multiple signatures of a selective sweep and SNP vectors.",
+    "volume": "1",
+    "author": "Alachiotis",
+    "year": "2018",
+    "journal-title": "Commun. Biol."
+   },
+   {
+    "key": "B3",
+    "doi-asserted-by": "publisher",
+    "first-page": "343",
+    "DOI": "10.1007/978-3-319-91944-7_9",
+    "article-title": "Improvement of Fig (Ficus carica L.) by Conventional Breeding and Biotechnology",
+    "author": "Aljane",
+    "year": "2018",
+    "journal-title": "Advances in Plant Breeding Strategies: Fruits"
+   },
+   {
+    "key": "B4",
+    "doi-asserted-by": "publisher",
+    "first-page": "145",
+    "DOI": "10.1016/j.cell.2020.05.021",
+    "article-title": "Major impacts of widespread structural variation on gene expression and crop improvement in tomato.",
+    "volume": "182",
+    "author": "Alonge",
+    "year": "2020",
+    "journal-title": "Cell"
+   },
+   {
+    "key": "B5",
+    "doi-asserted-by": "crossref",
+    "first-page": "835",
+    "DOI": "10.1534/g3.116.026914",
+    "article-title": "Environmental association analyses identify candidates for abiotic stress tolerance in Glycine soja, the wild progenitor of cultivated soybeans.",
+    "volume": "6",
+    "author": "Anderson",
+    "year": "2016",
+    "journal-title": "G3 Genes Genomes Genet."
+   },
+   {
+    "key": "B6",
+    "article-title": "Signatures of environmental adaptation during range expansion of wild common bean (Phaseolus vulgaris).",
+    "volume": "2019",
+    "author": "Ariani",
+    "year": "2019",
+    "journal-title": "BioRxiv"
+   },
+   {
+    "key": "B7",
+    "doi-asserted-by": "publisher",
+    "first-page": "75",
+    "DOI": "10.1139/g95-009",
+    "article-title": "Molecular markers for four leaf rust resistance genes introgressed into wheat from wild relatives.",
+    "volume": "38",
+    "author": "Autrique",
+    "year": "1995",
+    "journal-title": "Genome"
+   },
+   {
+    "key": "B8",
+    "doi-asserted-by": "publisher",
+    "first-page": "139",
+    "DOI": "10.1105/tpc.19.00332",
+    "article-title": "Transcriptome-based prediction of complex traits in maize.",
+    "volume": "32",
+    "author": "Azodi",
+    "year": "2020",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "B9",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1038/s41598-017-17342-w",
+    "article-title": "Dissecting the genetic basis of local adaptation in soybean.",
+    "volume": "7",
+    "author": "Bandillo",
+    "year": "2017",
+    "journal-title": "Sci. Rep."
+   },
+   {
+    "key": "B10",
+    "doi-asserted-by": "publisher",
+    "first-page": "830",
+    "DOI": "10.1111/nph.13255",
+    "article-title": "Genome scans reveal candidate domestication and improvement genes in cultivated sunflower, as well as post-domestication introgression with wild relatives.",
+    "volume": "206",
+    "author": "Baute",
+    "year": "2015",
+    "journal-title": "N. Phytol."
+   },
+   {
+    "key": "B11",
+    "doi-asserted-by": "publisher",
+    "first-page": "575",
+    "DOI": "10.1007/s00122-018-3240-1",
+    "article-title": "Manipulation of crossover frequency and distribution for plant breeding.",
+    "volume": "132",
+    "author": "Blary",
+    "year": "2019",
+    "journal-title": "Theoret. Appl. Genet."
+   },
+   {
+    "key": "B12",
+    "doi-asserted-by": "publisher",
+    "first-page": "953",
+    "DOI": "10.1111/nph.13410",
+    "article-title": "Genomic variation across landscapes: insights and applications.",
+    "volume": "207",
+    "author": "Bragg",
+    "year": "2015",
+    "journal-title": "N. Phytol."
+   },
+   {
+    "key": "B13",
+    "doi-asserted-by": "publisher",
+    "first-page": "889",
+    "DOI": "10.1093/bioinformatics/btg112",
+    "article-title": "R/qtl: QTL mapping in experimental crosses.",
+    "volume": "19",
+    "author": "Broman",
+    "year": "2003",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "B14",
+    "doi-asserted-by": "publisher",
+    "first-page": "670",
+    "DOI": "10.1111/tpj.13888",
+    "article-title": "Molecular diversity and landscape genomics of the crop wild relative Triticum urartu across the Fertile Crescent.",
+    "volume": "94",
+    "author": "Brunazzi",
+    "year": "2018",
+    "journal-title": "Plant J."
+   },
+   {
+    "key": "B15",
+    "doi-asserted-by": "publisher",
+    "first-page": "451",
+    "DOI": "10.2135/cropsci2017.05.0303",
+    "article-title": "Sustaining the future of plant breeding: The critical role of the USDA-ARS National Plant Germplasm System.",
+    "volume": "58",
+    "author": "Byrne",
+    "year": "2018",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B16",
+    "doi-asserted-by": "publisher",
+    "first-page": "1775",
+    "DOI": "10.1534/genetics.106.065144",
+    "article-title": "Homeologous recombination in Solanum lycopersicoides introgression lines of cultivated tomato.",
+    "volume": "174",
+    "author": "Canady",
+    "year": "2006",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B17",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1038/nplants.2016.22",
+    "article-title": "Global conservation priorities for crop wild relatives.",
+    "volume": "2",
+    "author": "Casta\u00f1eda-\u00c1lvarez",
+    "year": "2016",
+    "journal-title": "Nat. Plants"
+   },
+   {
+    "key": "B18",
+    "doi-asserted-by": "publisher",
+    "first-page": "852",
+    "DOI": "10.1093/molbev/msz008",
+    "article-title": "LFMM 2: Fast and accurate inference of gene-environment associations in genome-wide studies.",
+    "volume": "36",
+    "author": "Caye",
+    "year": "2019",
+    "journal-title": "Mol. Biol. Evol."
+   },
+   {
+    "key": "B19",
+    "doi-asserted-by": "publisher",
+    "first-page": "667",
+    "DOI": "10.1146/annurev-arplant-050718-100049",
+    "article-title": "CRISPR/Cas genome editing and precision plant breeding in agriculture.",
+    "volume": "70",
+    "author": "Chen",
+    "year": "2019",
+    "journal-title": "Annu. Rev. Plant Biol."
+   },
+   {
+    "key": "B20",
+    "article-title": "Climatic niche predicts the landscape structure of locally adaptive standing genetic variation.",
+    "author": "Chhatre",
+    "year": "2019",
+    "journal-title": "BioRxiv"
+   },
+   {
+    "key": "B21",
+    "doi-asserted-by": "publisher",
+    "first-page": "84",
+    "DOI": "10.1038/s43016-019-0007-z",
+    "article-title": "Identification and stacking of crucial traits required for the domestication of pennycress.",
+    "volume": "1",
+    "author": "Chopra",
+    "year": "2020",
+    "journal-title": "Nat. Food"
+   },
+   {
+    "key": "B22",
+    "doi-asserted-by": "publisher",
+    "first-page": "2141",
+    "DOI": "10.2135/cropsci2015.08.0512",
+    "article-title": "Use of crop growth models with whole-genome prediction: application to a maize multienvironment trial.",
+    "volume": "56",
+    "author": "Cooper",
+    "year": "2016",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1051/ocl/2020041",
+    "article-title": "Doubled haploids of interspecific hybrids between Brassica napus and Brassica rapa for canola production with valuable breeding traits.",
+    "volume": "27",
+    "author": "Daurova",
+    "year": "2020",
+    "journal-title": "OCL"
+   },
+   {
+    "key": "B24",
+    "doi-asserted-by": "publisher",
+    "first-page": "2046",
+    "DOI": "10.1111/mec.12710",
+    "article-title": "Genome-wide admixture and ecological niche modeling reveal the maintenance of species boundaries despite long history of interspecific gene flow.",
+    "volume": "23",
+    "author": "De La Torre",
+    "year": "2014",
+    "journal-title": "Mol. Ecol."
+   },
+   {
+    "key": "B25",
+    "doi-asserted-by": "publisher",
+    "first-page": "1248",
+    "DOI": "10.1111/2041-210x.12418",
+    "article-title": "A new FST-based method to uncover local adaptation using environmental variables.",
+    "volume": "6",
+    "author": "De Villemereuil",
+    "year": "2015",
+    "journal-title": "Methods Ecol. Evol."
+   },
+   {
+    "key": "B26",
+    "doi-asserted-by": "publisher",
+    "first-page": "1070",
+    "DOI": "10.2135/cropsci2016.10.0885",
+    "article-title": "Past and future use of wild relatives in crop breeding.",
+    "volume": "57",
+    "author": "Dempewolf",
+    "year": "2017",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B27",
+    "doi-asserted-by": "publisher",
+    "first-page": "2029",
+    "DOI": "10.1093/molbev/msz141",
+    "article-title": "Variation in recombination rate is shaped by domestication and environmental conditions in barley.",
+    "volume": "36",
+    "author": "Dreissig",
+    "year": "2019",
+    "journal-title": "Mol. Biol. Evol."
+   },
+   {
+    "key": "B28",
+    "doi-asserted-by": "publisher",
+    "first-page": "969",
+    "DOI": "10.1534/genetics.110.115543",
+    "article-title": "Patterns of population structure and environmental associations to aridity across the range of loblolly pine (Pinus taeda L., Pinaceae).",
+    "volume": "185",
+    "author": "Eckert",
+    "year": "2010",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B29",
+    "doi-asserted-by": "publisher",
+    "first-page": "903",
+    "DOI": "10.1016/j.scitotenv.2019.07.204",
+    "article-title": "Scenario-based land abandonment projections: Method, application and implications.",
+    "volume": "692",
+    "author": "Estoque",
+    "year": "2019",
+    "journal-title": "Sci. Total Environ."
+   },
+   {
+    "key": "B30",
+    "doi-asserted-by": "publisher",
+    "first-page": "615",
+    "DOI": "10.1016/j.molp.2019.03.016",
+    "article-title": "De novo domestication: an alternative route toward new crops for the future.",
+    "volume": "12",
+    "author": "Fernie",
+    "year": "2019",
+    "journal-title": "Mol. Plant"
+   },
+   {
+    "key": "B31",
+    "doi-asserted-by": "publisher",
+    "first-page": "196",
+    "DOI": "10.1016/j.pbi.2006.01.010",
+    "article-title": "Natural genetic variation for improving crop quality.",
+    "volume": "9",
+    "author": "Fernie",
+    "year": "2006",
+    "journal-title": "Curr. Opin. Plant Biol."
+   },
+   {
+    "key": "B32",
+    "doi-asserted-by": "publisher",
+    "first-page": "4302",
+    "DOI": "10.1002/joc.5086",
+    "article-title": "WorldClim 2: new 1km spatial resolution climate surfaces for global land areas.",
+    "volume": "37",
+    "author": "Fick",
+    "year": "2017",
+    "journal-title": "Int. J. Climatol."
+   },
+   {
+    "key": "B33",
+    "doi-asserted-by": "publisher",
+    "first-page": "86",
+    "DOI": "10.1126/science.1209271",
+    "article-title": "A map of local adaptation in Arabidopsis thaliana.",
+    "volume": "334",
+    "author": "Fournier-Level",
+    "year": "2011",
+    "journal-title": "Science"
+   },
+   {
+    "key": "B34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12870-019-2142-y",
+    "article-title": "The impact of sample selection strategies on genetic diversity and representativeness in germplasm bank collections.",
+    "volume": "19",
+    "author": "Franco-Duran",
+    "year": "2019",
+    "journal-title": "BMC Plant Biol."
+   },
+   {
+    "key": "B35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pone.0240589",
+    "article-title": "Identification of novel resistant sources for ascochyta blight (Ascochyta rabiei) in chickpea.",
+    "volume": "15",
+    "author": "Gayacharan",
+    "year": "2020",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "B36",
+    "doi-asserted-by": "publisher",
+    "first-page": "2204",
+    "DOI": "10.1111/mec.15477",
+    "article-title": "Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species.",
+    "volume": "12",
+    "author": "Gibson",
+    "year": "2020",
+    "journal-title": "Mol. Ecol."
+   },
+   {
+    "key": "B37",
+    "doi-asserted-by": "crossref",
+    "first-page": "812",
+    "DOI": "10.1126/science.1185383",
+    "article-title": "Food security: the challenge of feeding 9 billion people.",
+    "volume": "327",
+    "author": "Godfray",
+    "year": "2010",
+    "journal-title": "Science"
+   },
+   {
+    "key": "B38",
+    "doi-asserted-by": "publisher",
+    "first-page": "378",
+    "DOI": "10.1111/nph.15171",
+    "article-title": "Soil environment is a key driver of adaptation in Medicago truncatula: new insights from landscape genomics.",
+    "volume": "219",
+    "author": "Guerrero",
+    "year": "2018",
+    "journal-title": "N. Phytol."
+   },
+   {
+    "key": "B39",
+    "doi-asserted-by": "publisher",
+    "first-page": "205",
+    "DOI": "10.1534/genetics.113.152462",
+    "article-title": "Robust identification of local adaptation from allele frequencies.",
+    "volume": "195",
+    "author": "G\u00fcnther",
+    "year": "2013",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B40",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pbio.0020245",
+    "article-title": "Unused natural variation can lift yield barriers in plant breeding.",
+    "volume": "2004",
+    "author": "Gur",
+    "year": "2004",
+    "journal-title": "PLoS Biol."
+   },
+   {
+    "key": "B41",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1007/s10681-007-9363-0",
+    "article-title": "The use of wild relatives in crop improvement: a survey of developments over the last 20 years.",
+    "volume": "156",
+    "author": "Hajjar",
+    "year": "2007",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "B42",
+    "doi-asserted-by": "publisher",
+    "first-page": "236",
+    "DOI": "10.17660/ejhs.2018/83.4.4",
+    "article-title": "Sex-linked molecular markers for two cold-hardy kiwifruit species, Actinidia arguta and A. kolomikta.",
+    "volume": "83",
+    "author": "Hale",
+    "year": "2018",
+    "journal-title": "Eur. J. Hortic. Sci."
+   },
+   {
+    "key": "B43",
+    "doi-asserted-by": "publisher",
+    "first-page": "1407",
+    "DOI": "10.1111/nph.14993",
+    "article-title": "Plant genetic resources for food and agriculture: opportunities and challenges emerging from the science and information technology revolution.",
+    "volume": "217",
+    "author": "Halewood",
+    "year": "2018",
+    "journal-title": "N. Phytol."
+   },
+   {
+    "key": "B44",
+    "doi-asserted-by": "publisher",
+    "first-page": "509",
+    "DOI": "10.2307/1218252",
+    "article-title": "Toward a rational classification of cultivated plants.",
+    "volume": "20",
+    "author": "Harlan",
+    "year": "1971",
+    "journal-title": "Taxon"
+   },
+   {
+    "key": "B45",
+    "doi-asserted-by": "publisher",
+    "first-page": "896",
+    "DOI": "10.1038/s41588-019-0382-2",
+    "article-title": "Exome sequencing highlights the role of wild-relative introgression in shaping the adaptive landscape of the wheat genome.",
+    "volume": "51",
+    "author": "He",
+    "year": "2019",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "B46",
+    "doi-asserted-by": "publisher",
+    "first-page": "379",
+    "DOI": "10.1086/688018",
+    "article-title": "Finding the genomic basis of local adaptation: pitfalls, practical solutions, and future directions.",
+    "volume": "188",
+    "author": "Hoban",
+    "year": "2016",
+    "journal-title": "Am. Natural."
+   },
+   {
+    "key": "B47",
+    "doi-asserted-by": "publisher",
+    "first-page": "209",
+    "DOI": "10.1007/978-3-319-95101-0_8",
+    "article-title": "Sampling wild species to conserve genetic diversity",
+    "author": "Hoban",
+    "year": "2018",
+    "journal-title": "North American Crop Wild Relatives"
+   },
+   {
+    "key": "B48",
+    "doi-asserted-by": "publisher",
+    "first-page": "54",
+    "DOI": "10.1038/s41477-018-0329-0",
+    "article-title": "Sunflower pan-genome analysis shows that hybridization altered gene content and disease resistance.",
+    "volume": "5",
+    "author": "H\u00fcbner",
+    "year": "2019",
+    "journal-title": "Nat. Plants"
+   },
+   {
+    "key": "B49",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12870-015-0528-z",
+    "article-title": "RNA-Seq analysis identifies genes associated with differential reproductive success under drought-stress in accessions of wild barley Hordeum spontaneum.",
+    "volume": "15",
+    "author": "H\u00fcbner",
+    "year": "2015",
+    "journal-title": "BMC Plant Biol."
+   },
+   {
+    "key": "B50",
+    "doi-asserted-by": "publisher",
+    "first-page": "83",
+    "DOI": "10.1007/s10681-010-0272-2",
+    "article-title": "Rapid and high-precision marker assisted backcrossing to introgress the SUB1 QTL into BR11, the rainfed lowland rice mega variety of Bangladesh.",
+    "volume": "178",
+    "author": "Iftekharuddaula",
+    "year": "2011",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "B51",
+    "doi-asserted-by": "publisher",
+    "first-page": "1277",
+    "DOI": "10.1111/1755-0998.13176",
+    "article-title": "Chromosome-level hybrid de novo genome assemblies as an attainable option for nonmodel insects.",
+    "volume": "20",
+    "author": "Jaworski",
+    "year": "2020",
+    "journal-title": "Mol. Ecol. Resour."
+   },
+   {
+    "key": "B52",
+    "doi-asserted-by": "publisher",
+    "first-page": "665",
+    "DOI": "10.1111/eva.12891",
+    "article-title": "Landscape genomics predicts climate change-related genetic offset for the widespread Platycladus orientalis (Cupressaceae).",
+    "volume": "13",
+    "author": "Jia",
+    "year": "2019",
+    "journal-title": "Evolut. Applicat."
+   },
+   {
+    "key": "B53",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fgene.2019.00279",
+    "article-title": "Integrative differential expression analysis for multiple experiments (IDEAMEX): a web server tool for integrated rna-seq data analysis.",
+    "volume": "10",
+    "author": "Jim\u00e9nez-Jacinto",
+    "year": "2019",
+    "journal-title": "Front. Genet."
+   },
+   {
+    "key": "B54",
+    "doi-asserted-by": "publisher",
+    "first-page": "992",
+    "DOI": "10.1111/nph.14084",
+    "article-title": "Landscape genomics reveals altered genome wide diversity within revegetated stands of Eucalyptus microcarpa (Grey Box).",
+    "volume": "212",
+    "author": "Jordan",
+    "year": "2016",
+    "journal-title": "N. Phytol."
+   },
+   {
+    "key": "B55",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2015.00841",
+    "article-title": "Ecogeography and utility to plant breeding of the crop wild relatives of sunflower (Helianthus annuus L.).",
+    "volume": "6",
+    "author": "Kantar",
+    "year": "2015",
+    "journal-title": "Front. Plant Sci."
+   },
+   {
+    "key": "B56",
+    "doi-asserted-by": "publisher",
+    "first-page": "186",
+    "DOI": "10.1016/j.plantsci.2019.01.006",
+    "article-title": "Edit at will: Genotype independent plant transformation in the era of advanced genomics and genome editing.",
+    "volume": "281",
+    "author": "Kausch",
+    "year": "2019",
+    "journal-title": "Plant Sci."
+   },
+   {
+    "key": "B57",
+    "doi-asserted-by": "publisher",
+    "first-page": "1959",
+    "DOI": "10.1534/g3.118.200262",
+    "article-title": "diploS/HIC: an updated approach to classifying selective sweeps.",
+    "volume": "8",
+    "author": "Kern",
+    "year": "2018",
+    "journal-title": "G3 Genes Genomes Genet."
+   },
+   {
+    "key": "B58",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pone.0063107",
+    "article-title": "The FIGS (Focused Identification of Germplasm Strategy) approach identifies traits related to drought adaptation in Vicia faba genetic resources.",
+    "volume": "8",
+    "author": "Khazaei",
+    "year": "2013",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "B59",
+    "doi-asserted-by": "publisher",
+    "first-page": "4001",
+    "DOI": "10.1073/pnas.1313490111",
+    "article-title": "Increasing homogeneity in global food supplies and the implications for food security.",
+    "volume": "111",
+    "author": "Khoury",
+    "year": "2014",
+    "journal-title": "Proc. Natl. Acad. Sci."
+   },
+   {
+    "key": "B60",
+    "doi-asserted-by": "publisher",
+    "first-page": "33351",
+    "DOI": "10.1073/pnas.2007029117",
+    "article-title": "Crop wild relatives of the United States require urgent conservation action.",
+    "volume": "117",
+    "author": "Khoury",
+    "year": "2020",
+    "journal-title": "Proc. Natl. Acad. Sci."
+   },
+   {
+    "key": "B61",
+    "doi-asserted-by": "publisher",
+    "first-page": "259",
+    "DOI": "10.1016/j.biocon.2015.01.032",
+    "article-title": "Crop wild relatives of pigeonpea [Cajanus cajan (L.) Millsp.]: Distributions, ex situ conservation status, and potential genetic resources for abiotic stress tolerance.",
+    "volume": "184",
+    "author": "Khoury",
+    "year": "2015",
+    "journal-title": "Biol. Conserv."
+   },
+   {
+    "key": "B62",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1186/1746-4811-9-29",
+    "article-title": "The advantages and limitations of trait analysis with GWAS: a review.",
+    "volume": "9",
+    "author": "Korte",
+    "year": "2013",
+    "journal-title": "Plant Methods"
+   },
+   {
+    "key": "B63",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1038/srep19355",
+    "article-title": "Global nitrogen budgets in cereals: A 50-year assessment for maize, rice and wheat production systems.",
+    "volume": "6",
+    "author": "Ladha",
+    "year": "2016",
+    "journal-title": "Sci. Rep."
+   },
+   {
+    "key": "B64",
+    "doi-asserted-by": "publisher",
+    "first-page": "766",
+    "DOI": "10.1038/s41477-018-0259-x",
+    "article-title": "Rapid improvement of domestication traits in an orphan crop by genome editing.",
+    "volume": "4",
+    "author": "Lemmon",
+    "year": "2018",
+    "journal-title": "Nat. Plants"
+   },
+   {
+    "key": "B65",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/1471-2105-12-323",
+    "article-title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome.",
+    "volume": "12",
+    "author": "Li",
+    "year": "2011",
+    "journal-title": "BMC Bioinformatics"
+   },
+   {
+    "key": "B66",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1038/s42003-020-0890-8",
+    "article-title": "SMRT sequencing of the Oryza rufipogon genome reveals the genomic basis of rice adaptation.",
+    "volume": "3",
+    "author": "Li",
+    "year": "2020",
+    "journal-title": "Commun. Biol."
+   },
+   {
+    "key": "B67",
+    "doi-asserted-by": "publisher",
+    "first-page": "389",
+    "DOI": "10.1111/pbi.13206",
+    "article-title": "Identification of loci controlling adaptation in Chinese soya bean landraces via a combination of conventional and bioclimatic GWAS.",
+    "volume": "18",
+    "author": "Li",
+    "year": "2019",
+    "journal-title": "Plant Biotechnol. J."
+   },
+   {
+    "key": "B68",
+    "doi-asserted-by": "publisher",
+    "first-page": "1031",
+    "DOI": "10.1111/mec.13100",
+    "article-title": "The relative power of genome scans to detect local adaptation depends on sampling design and statistical method.",
+    "volume": "24",
+    "author": "Lotterhos",
+    "year": "2015",
+    "journal-title": "Mol. Ecol."
+   },
+   {
+    "key": "B69",
+    "doi-asserted-by": "publisher",
+    "first-page": "717",
+    "DOI": "10.1111/2041-210x.12774",
+    "article-title": "Composite measures of selection can improve the signal-to-noise ratio in genome scans.",
+    "volume": "8",
+    "author": "Lotterhos",
+    "year": "2017",
+    "journal-title": "Methods Ecol. Evol."
+   },
+   {
+    "key": "B70",
+    "doi-asserted-by": "publisher",
+    "first-page": "443",
+    "DOI": "10.1093/gbe/evaa056",
+    "article-title": "The limits to estimating population-genetic parameters with temporal data.",
+    "volume": "12",
+    "author": "Lynch",
+    "year": "2020",
+    "journal-title": "Genome Biol. Evol."
+   },
+   {
+    "key": "B71",
+    "doi-asserted-by": "publisher",
+    "first-page": "93",
+    "DOI": "10.24326/asphc.2019.4.9",
+    "article-title": "Analysis of genetic diversity of Ficus carica L.(Moraceae) collection using simple sequence repeat (SSR) markers.",
+    "volume": "18",
+    "author": "Marcotuli",
+    "year": "2019",
+    "journal-title": "Acta Sci. Polonorum Hortorum Cultus"
+   },
+   {
+    "key": "B72",
+    "doi-asserted-by": "publisher",
+    "first-page": "2673",
+    "DOI": "10.1007/s10531-005-5409-6",
+    "article-title": "Towards a definition of a crop wild relative.",
+    "volume": "15",
+    "author": "Maxted",
+    "year": "2006",
+    "journal-title": "Biodiver. Conserv."
+   },
+   {
+    "key": "B73",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1128/mBio.00982-17",
+    "article-title": "The US Culture Collection Network responding to the requirements of the Nagoya Protocol on access and benefit sharing.",
+    "volume": "8",
+    "author": "McCluskey",
+    "year": "2017",
+    "journal-title": "MBio"
+   },
+   {
+    "key": "B74",
+    "doi-asserted-by": "publisher",
+    "first-page": "19",
+    "DOI": "10.1016/j.fcr.2016.02.004",
+    "article-title": "QTL mapping for agronomic traits using multi-parent advanced generation inter-cross (MAGIC) populations derived from diverse elite indica rice lines.",
+    "volume": "189",
+    "author": "Meng",
+    "year": "2016",
+    "journal-title": "Field Crops Res."
+   },
+   {
+    "key": "B75",
+    "doi-asserted-by": "publisher",
+    "first-page": "1083",
+    "DOI": "10.1038/ng.3633",
+    "article-title": "Domestication history and geographical adaptation inferred from a SNP map of African rice.",
+    "volume": "48",
+    "author": "Meyer",
+    "year": "2016",
+    "journal-title": "Nature Genetics"
+   },
+   {
+    "key": "B76",
+    "doi-asserted-by": "publisher",
+    "first-page": "29",
+    "DOI": "10.1111/j.1469-8137.2012.04253.x",
+    "article-title": "Patterns and processes in crop domestication: an historical review and quantitative analysis of 203 global food crops.",
+    "volume": "196",
+    "author": "Meyer",
+    "year": "2012",
+    "journal-title": "N. Phytol."
+   },
+   {
+    "key": "B77",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2017.00460",
+    "article-title": "Exploiting wild relatives for genomics-assisted breeding of perennial crops.",
+    "volume": "8",
+    "author": "Migicovsky",
+    "year": "2017",
+    "journal-title": "Front. Plant Sci."
+   },
+   {
+    "key": "B78",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12864-016-2834-8",
+    "article-title": "Genomic ancestry estimation quantifies use of wild species in grape breeding.",
+    "volume": "17",
+    "author": "Migicovsky",
+    "year": "2016",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "key": "B79",
+    "doi-asserted-by": "publisher",
+    "first-page": "2365",
+    "DOI": "10.2135/cropsci2019.05.0353",
+    "article-title": "Using living germplasm collections to characterize, improve, and conserve woody perennials.",
+    "volume": "59",
+    "author": "Migicovsky",
+    "year": "2019",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B80",
+    "doi-asserted-by": "publisher",
+    "first-page": "167",
+    "DOI": "10.1007/978-3-319-95101-0_6",
+    "article-title": "The gene pool concept applied to crop wild relatives: An evolutionary perspective",
+    "author": "Miller",
+    "year": "2018",
+    "journal-title": "North American Crop Wild Relatives"
+   },
+   {
+    "key": "B81",
+    "doi-asserted-by": "publisher",
+    "first-page": "319",
+    "DOI": "10.1038/s41588-018-0266-x",
+    "article-title": "Genebank genomics highlights the diversity of a global barley collection.",
+    "volume": "51",
+    "author": "Milner",
+    "year": "2019",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "B82",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2018.00074",
+    "article-title": "Genetic and genomic tools to asssist sugar beet improvement: the value of the crop wild relatives.",
+    "volume": "9",
+    "author": "Monteiro",
+    "year": "2018",
+    "journal-title": "Front. Plant Sci."
+   },
+   {
+    "key": "B83",
+    "doi-asserted-by": "publisher",
+    "first-page": "453",
+    "DOI": "10.1073/pnas.1215985110",
+    "article-title": "Population genomic and genome-wide association studies of agroclimatic traits in sorghum.",
+    "volume": "110",
+    "author": "Morris",
+    "year": "2013",
+    "journal-title": "Proc. Natl. Acad. Sci."
+   },
+   {
+    "key": "B84",
+    "doi-asserted-by": "crossref",
+    "first-page": "235",
+    "DOI": "10.1023/A:1022872604743",
+    "article-title": "Money matters (II): costs of maize inbred line conversion schemes at CIMMYT using conventional and marker-assisted selection.",
+    "volume": "11",
+    "author": "Morris",
+    "year": "2003",
+    "journal-title": "Mol. Breeding"
+   },
+   {
+    "key": "B85",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1201/b18036-2",
+    "article-title": "Growing the lost crops of eastern North America\u2019s original agricultural system.",
+    "volume": "3",
+    "author": "Mueller",
+    "year": "2017",
+    "journal-title": "Nat. Plants"
+   },
+   {
+    "key": "B86",
+    "doi-asserted-by": "publisher",
+    "first-page": "573",
+    "DOI": "10.2135/cropsci2018.08.0504",
+    "article-title": "Quantitative trait loci for cold tolerance in chickpea.",
+    "volume": "59",
+    "author": "Mugabe",
+    "year": "2019",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B87",
+    "doi-asserted-by": "publisher",
+    "first-page": "259",
+    "DOI": "10.1146/annurev-publhealth-031816-044356",
+    "article-title": "Climate change and global food systems: potential impacts on food security and undernutrition.",
+    "volume": "38",
+    "author": "Myers",
+    "year": "2017",
+    "journal-title": "Annu. Rev. Public Health"
+   },
+   {
+    "key": "B88",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fgene.2020.00350",
+    "article-title": "Reaching the end-game for GWAS: Machine learning approaches for the prioritization of complex disease loci.",
+    "volume": "11",
+    "author": "Nicholls",
+    "year": "2020",
+    "journal-title": "Front. Genet."
+   },
+   {
+    "key": "B89",
+    "doi-asserted-by": "publisher",
+    "first-page": "54",
+    "DOI": "10.1111/eva.12603",
+    "article-title": "Genomic sequence and copy number evolution during hybrid crop development in sunflowers.",
+    "volume": "12",
+    "author": "Owens",
+    "year": "2019",
+    "journal-title": "Evolut. Applicat."
+   },
+   {
+    "key": "B90",
+    "article-title": "Genetic control of pod dehiscence in domesticated common bean: Associations with range expansion and local aridity conditions.",
+    "author": "Parker",
+    "year": "2019",
+    "journal-title": "Biorxiv"
+   },
+   {
+    "key": "B91",
+    "doi-asserted-by": "publisher",
+    "first-page": "1929",
+    "DOI": "10.1093/molbev/msu136",
+    "article-title": "PopGenome: an efficient Swiss army knife for population genomic analyses in R.",
+    "volume": "31",
+    "author": "Pfeifer",
+    "year": "2014",
+    "journal-title": "Mol. Biol. Evolut."
+   },
+   {
+    "key": "B92",
+    "doi-asserted-by": "crossref",
+    "first-page": "S",
+    "DOI": "10.2135/cropsci2007.09.0020IPBS",
+    "article-title": "HarvestPlus: breeding crops for better nutrition.",
+    "volume": "47",
+    "author": "Pfeiffer",
+    "year": "2007",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B93",
+    "doi-asserted-by": "publisher",
+    "first-page": "747",
+    "DOI": "10.2307/1313097",
+    "article-title": "Economic and environmental benefits of biodiversity.",
+    "volume": "47",
+    "author": "Pimentel",
+    "year": "1997",
+    "journal-title": "BioScience"
+   },
+   {
+    "key": "B94",
+    "doi-asserted-by": "publisher",
+    "first-page": "165",
+    "DOI": "10.1016/j.fct.2017.10.020",
+    "article-title": "Wild edible plants: Nutritional and toxicological characteristics, retrieval strategies and importance for today\u2019s society.",
+    "volume": "110",
+    "author": "Pinela",
+    "year": "2017",
+    "journal-title": "Food Chem. Toxicol."
+   },
+   {
+    "key": "B95",
+    "doi-asserted-by": "publisher",
+    "first-page": "758",
+    "DOI": "10.1038/s41558-019-0585-7",
+    "article-title": "Potential adaptive strategies for 29 sub-Saharan crops under future climate change.",
+    "volume": "9",
+    "author": "Pironon",
+    "year": "2019",
+    "journal-title": "Nat. Clim. Change"
+   },
+   {
+    "key": "B96",
+    "doi-asserted-by": "publisher",
+    "first-page": "2153",
+    "DOI": "10.1093/molbev/msaa053",
+    "article-title": "Performing highly efficient genome scans for local adaptation with R package pcadapt version 4.",
+    "volume": "37",
+    "author": "Priv\u00e9",
+    "year": "2020",
+    "journal-title": "Mol. Biol. Evol."
+   },
+   {
+    "key": "B97",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/s10681-017-1938-9",
+    "article-title": "Introgressiomics: a new approach for using crop wild relatives in breeding for adaptation to climate change.",
+    "volume": "213",
+    "author": "Prohens",
+    "year": "2017",
+    "journal-title": "Euphytica"
+   },
+   {
+    "key": "B98",
+    "doi-asserted-by": "crossref",
+    "first-page": "R705",
+    "DOI": "10.1016/j.cub.2019.05.053",
+    "article-title": "Evolutionary insights into the nature of plant domestication.",
+    "volume": "29",
+    "author": "Purugganan",
+    "year": "2019",
+    "journal-title": "Curr. Biol."
+   },
+   {
+    "key": "B99",
+    "doi-asserted-by": "publisher",
+    "first-page": "1594",
+    "DOI": "10.1093/gbe/evt109",
+    "article-title": "Complex patterns of local adaptation in teosinte.",
+    "volume": "5",
+    "author": "Pyh\u00e4j\u00e4rvi",
+    "year": "2013",
+    "journal-title": "Genome Biol. Evol."
+   },
+   {
+    "key": "B100",
+    "doi-asserted-by": "publisher",
+    "first-page": "741",
+    "DOI": "10.1007/s00122-015-2662-2",
+    "article-title": "Genetics and mapping of a novel downy mildew resistance gene, Pl 18, introgressed from wild Helianthus argophyllus into cultivated sunflower (Helianthus annuus L.).",
+    "volume": "129",
+    "author": "Qi",
+    "year": "2016",
+    "journal-title": "Theoret. Appl. Genet."
+   },
+   {
+    "key": "B101",
+    "doi-asserted-by": "publisher",
+    "first-page": "2553",
+    "DOI": "10.1007/s00122-019-03370-9",
+    "article-title": "Diversification of the downy mildew resistance gene pool by introgression of a new gene, Pl 35, from wild Helianthus argophyllus into oilseed and confection sunflowers (Helianthus annuus L.).",
+    "volume": "132",
+    "author": "Qi",
+    "year": "2019",
+    "journal-title": "Theoret. Appl. Genet."
+   },
+   {
+    "key": "B102",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1038/ncomms15323",
+    "article-title": "Genomic variation associated with local adaptation of weedy rice during de-domestication.",
+    "volume": "8",
+    "author": "Qiu",
+    "year": "2017",
+    "journal-title": "Nat. Commun."
+   },
+   {
+    "key": "B103",
+    "doi-asserted-by": "publisher",
+    "first-page": "559",
+    "DOI": "10.1007/s00122-018-3267-3",
+    "article-title": "Breaking the curse of dimensionality to identify causal variants in Breeding 4.",
+    "volume": "132",
+    "author": "Ramstein",
+    "year": "2019",
+    "journal-title": "Theoret. Appl. Genet."
+   },
+   {
+    "key": "B104",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pone.0218731",
+    "article-title": "Comparative transcriptome analysis of pigeonpea, Cajanus cajan (L.) and one of its wild relatives Cajanus platycarpus (Benth.) Maesen.",
+    "volume": "14",
+    "author": "Rathinam",
+    "year": "2019",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "B105",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1002/csc2.20248",
+    "article-title": "From bits to bites: Advancement of the Germinate platform to support prebreeding informatics for crop wild relatives.",
+    "author": "Raubach",
+    "year": "2020",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B106",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pone.0217148",
+    "article-title": "Climate change has likely already affected global food production.",
+    "volume": "14",
+    "author": "Ray",
+    "year": "2019",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "B107",
+    "doi-asserted-by": "publisher",
+    "first-page": "40",
+    "DOI": "10.1016/j.plantsci.2018.06.017",
+    "article-title": "High-throughput phenotyping to enhance the use of crop genetic resources.",
+    "volume": "282",
+    "author": "Rebetzke",
+    "year": "2019",
+    "journal-title": "Plant Sci."
+   },
+   {
+    "key": "B108",
+    "doi-asserted-by": "publisher",
+    "first-page": "4348",
+    "DOI": "10.1111/mec.13322",
+    "article-title": "A practical guide to environmental association analysis in landscape genomics.",
+    "volume": "24",
+    "author": "Rellstab",
+    "year": "2015",
+    "journal-title": "Mol. Ecol."
+   },
+   {
+    "key": "B109",
+    "doi-asserted-by": "publisher",
+    "first-page": "233",
+    "DOI": "10.1093/oxfordjournals.jhered.a111443",
+    "article-title": "Cytoplasmic male sterility in sunflower: origin, inheritance, and frequency in natural populations.",
+    "volume": "85",
+    "author": "Rieseberg",
+    "year": "1994",
+    "journal-title": "J. Heredity"
+   },
+   {
+    "key": "B110",
+    "doi-asserted-by": "publisher",
+    "first-page": "3823",
+    "DOI": "10.1073/pnas.1413864112",
+    "article-title": "Recombination in diverse maize is stable, predictable, and associated with genetic load.",
+    "volume": "112",
+    "author": "Rodgers-Melnick",
+    "year": "2015",
+    "journal-title": "Proc. Natl. Acad. Sci."
+   },
+   {
+    "key": "B111",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.3835/plantgenome2015.08.0073",
+    "article-title": "Software for genome-wide association studies in autopolyploids and its application to potato.",
+    "volume": "9",
+    "author": "Rosyara",
+    "year": "2016",
+    "journal-title": "Plant Genome"
+   },
+   {
+    "key": "B112",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/ng.3612",
+    "article-title": "Exome sequencing of geographically diverse barley landraces and wild relatives gives insights into environmental adaptation.",
+    "volume": "48",
+    "author": "Russell",
+    "year": "2016",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "B113",
+    "doi-asserted-by": "publisher",
+    "first-page": "1411",
+    "DOI": "10.1534/genetics.118.301429",
+    "article-title": "Replicability of introgression under linked, polygenic selection.",
+    "volume": "210",
+    "author": "Sachdeva",
+    "year": "2018",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B114",
+    "doi-asserted-by": "publisher",
+    "first-page": "301",
+    "DOI": "10.1016/j.tig.2017.12.005",
+    "article-title": "Supervised machine learning for population genetics: a new paradigm.",
+    "volume": "34",
+    "author": "Schrider",
+    "year": "2018",
+    "journal-title": "Trends Genet."
+   },
+   {
+    "key": "B115",
+    "doi-asserted-by": "publisher",
+    "first-page": "154",
+    "DOI": "10.1111/1755-0998.13095",
+    "article-title": "Sampling strategy optimization to increase statistical power in landscape genomics: A simulation-based approach.",
+    "volume": "20",
+    "author": "Selmoni",
+    "year": "2020",
+    "journal-title": "Mol. Ecol. Resour."
+   },
+   {
+    "key": "B116",
+    "first-page": "17",
+    "article-title": "Pre-breeding to expand primary genepool through introgression of genes from wild Cajanus species for pigeonpea improvement.",
+    "author": "Sharma",
+    "year": "2016",
+    "journal-title": "Legume Perspect."
+   },
+   {
+    "key": "B117",
+    "doi-asserted-by": "publisher",
+    "first-page": "430",
+    "DOI": "10.1038/s41477-020-0657-8",
+    "article-title": "The Nagoya Protocol and historical collections of plants.",
+    "volume": "6",
+    "author": "Sherman",
+    "year": "2020",
+    "journal-title": "Nat. Plants"
+   },
+   {
+    "key": "B118",
+    "doi-asserted-by": "publisher",
+    "first-page": "3",
+    "DOI": "10.1007/s13237-019-00263-6",
+    "article-title": "Cytogenetics and genetic introgression from wild relatives in soybean.",
+    "volume": "62",
+    "author": "Singh",
+    "year": "2019",
+    "journal-title": "Nucleus"
+   },
+   {
+    "key": "B119",
+    "doi-asserted-by": "publisher",
+    "first-page": "33",
+    "DOI": "10.3732/ajb.1500162",
+    "article-title": "Landscape genomic analysis of candidate genes for climate adaptation in a California endemic oak, Quercus lobata.",
+    "volume": "103",
+    "author": "Sork",
+    "year": "2016",
+    "journal-title": "Am. J. Bot."
+   },
+   {
+    "key": "B120",
+    "doi-asserted-by": "crossref",
+    "first-page": "R896",
+    "DOI": "10.1016/j.cub.2017.06.048",
+    "article-title": "How to make a domesticate.",
+    "volume": "27",
+    "author": "Stetter",
+    "year": "2017",
+    "journal-title": "Curr. Biol."
+   },
+   {
+    "key": "B121",
+    "doi-asserted-by": "publisher",
+    "first-page": "158",
+    "DOI": "10.1038/sj.hdy.6800937",
+    "article-title": "Combining population genomics and quantitative genetics: finding the genes underlying ecologically important traits.",
+    "volume": "100",
+    "author": "Stinchcombe",
+    "year": "2008",
+    "journal-title": "Heredity"
+   },
+   {
+    "key": "B122",
+    "doi-asserted-by": "publisher",
+    "first-page": "635",
+    "DOI": "10.3732/ajb.1500539",
+    "article-title": "Crop wild relatives of the brinjal eggplant (Solanum melongena): Poorly represented in genebanks and many species at risk of extinction.",
+    "volume": "103",
+    "author": "Syfert",
+    "year": "2016",
+    "journal-title": "Am. J. Bot."
+   },
+   {
+    "key": "B123",
+    "doi-asserted-by": "publisher",
+    "first-page": "1111",
+    "DOI": "10.1038/s41588-020-0690-6",
+    "article-title": "Analysis of wild tomato introgression lines elucidates the genetic basis of transcriptome and metabolome variation underlying fruit traits and pathogen response.",
+    "volume": "52",
+    "author": "Szyma\u00f1ski",
+    "year": "2020",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "B124",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.3835/plantgenome2015.11.0120",
+    "article-title": "GAPIT version 2: an enhanced integrated tool for genomic association and prediction.",
+    "volume": "9",
+    "author": "Tang",
+    "year": "2016",
+    "journal-title": "Plant Genome"
+   },
+   {
+    "key": "B125",
+    "doi-asserted-by": "publisher",
+    "first-page": "1063",
+    "DOI": "10.1126/science.277.5329.1063",
+    "article-title": "Seed banks and molecular maps: unlocking genetic potential from the wild.",
+    "volume": "277",
+    "author": "Tanksley",
+    "year": "1997",
+    "journal-title": "Science"
+   },
+   {
+    "key": "B126",
+    "doi-asserted-by": "publisher",
+    "first-page": "156",
+    "DOI": "10.1016/j.molp.2018.12.016",
+    "article-title": "Exploring and exploiting pan-genomics for crop improvement.",
+    "volume": "12",
+    "author": "Tao",
+    "year": "2019",
+    "journal-title": "Mol. Plant"
+   },
+   {
+    "key": "B127",
+    "doi-asserted-by": "crossref",
+    "first-page": "R770",
+    "DOI": "10.1016/j.cub.2017.05.055",
+    "article-title": "Plant phenomics, from sensors to knowledge.",
+    "volume": "27",
+    "author": "Tardieu",
+    "year": "2017",
+    "journal-title": "Curr. Biol."
+   },
+   {
+    "key": "B128",
+    "doi-asserted-by": "publisher",
+    "first-page": "602",
+    "DOI": "10.1038/s41586-020-2467-6",
+    "article-title": "Massive haplotypes underlie ecotypic differentiation in sunflowers.",
+    "volume": "584",
+    "author": "Todesco",
+    "year": "2020",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "B129",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12859-019-2927-x",
+    "article-title": "ImaGene: a convolutional neural network to quantify natural selection from genomic data.",
+    "volume": "20",
+    "author": "Torada",
+    "year": "2019",
+    "journal-title": "BMC Bioinformatics"
+   },
+   {
+    "key": "B130",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1093/botlinnean/boaa064",
+    "article-title": "Crop wild phylorelatives (CWPs): Phylogenetic distance, cytogenetic compatibility and breeding system data enable estimation of crop wild relative gene pool classification.",
+    "volume": "195",
+    "author": "Viruel",
+    "year": "2020",
+    "journal-title": "Botanic. J. Linnean Soc."
+   },
+   {
+    "key": "B131",
+    "doi-asserted-by": "publisher",
+    "first-page": "534",
+    "DOI": "10.1038/s41588-020-0612-7",
+    "article-title": "Identifying genetic variants underlying phenotypic variation in plants without complete genomes.",
+    "volume": "52",
+    "author": "Voichek",
+    "year": "2020",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "B132",
+    "doi-asserted-by": "crossref",
+    "first-page": "277",
+    "DOI": "10.1038/s41586-020-2961-x",
+    "article-title": "Multiple wheat genomes reveal global variation in modern breeding.",
+    "volume": "588",
+    "author": "Walkowiak",
+    "year": "2020",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "B133",
+    "doi-asserted-by": "publisher",
+    "first-page": "597",
+    "DOI": "10.1016/j.molp.2019.03.006",
+    "article-title": "Development of a haploid-inducer mediated genome editing system for accelerating maize breeding.",
+    "volume": "12",
+    "author": "Wang",
+    "year": "2019",
+    "journal-title": "Mol. Plant"
+   },
+   {
+    "key": "B134",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1186/s13059-020-01959-8",
+    "article-title": "The genome evolution and domestication of tropical fruit mango.",
+    "volume": "21",
+    "author": "Wang",
+    "year": "2020",
+    "journal-title": "Genome Biol."
+   },
+   {
+    "key": "B135",
+    "doi-asserted-by": "publisher",
+    "first-page": "1227",
+    "DOI": "10.2135/cropsci2016.10.0855",
+    "article-title": "The use of crop wild relatives in maize and sunflower breeding.",
+    "volume": "57",
+    "author": "Warburton",
+    "year": "2017",
+    "journal-title": "Crop Sci."
+   },
+   {
+    "key": "B136",
+    "doi-asserted-by": "publisher",
+    "first-page": "2023",
+    "DOI": "10.1111/nph.15731",
+    "article-title": "Population genomic analysis of mango (Mangifera indica) suggests a complex history of domestication.",
+    "volume": "222",
+    "author": "Warschefsky",
+    "year": "2019",
+    "journal-title": "N. Phytol."
+   },
+   {
+    "key": "B137",
+    "doi-asserted-by": "publisher",
+    "first-page": "565",
+    "DOI": "10.1111/j.1472-4642.2009.00567.x",
+    "article-title": "Using species distribution models to predict new occurrences for rare plants.",
+    "volume": "15",
+    "author": "Williams",
+    "year": "2009",
+    "journal-title": "Divers. Distribut."
+   },
+   {
+    "key": "B138",
+    "doi-asserted-by": "publisher",
+    "first-page": "506",
+    "DOI": "10.1093/molbev/msi035",
+    "article-title": "Molecular population genetics and the search for adaptive evolution in plants.",
+    "volume": "22",
+    "author": "Wright",
+    "year": "2005",
+    "journal-title": "Mol. Biol. Evol"
+   },
+   {
+    "key": "B139",
+    "doi-asserted-by": "publisher",
+    "first-page": "223",
+    "DOI": "10.1038/384223a0",
+    "article-title": "Genes from wild rice improve yield.",
+    "volume": "384",
+    "author": "Xiao",
+    "year": "1996",
+    "journal-title": "Nature."
+   },
+   {
+    "key": "B140",
+    "doi-asserted-by": "publisher",
+    "first-page": "705",
+    "DOI": "10.1038/nature04920",
+    "article-title": "Sub1A is an ethylene-response-factor-like gene that confers submergence tolerance to rice.",
+    "volume": "442",
+    "author": "Xu",
+    "year": "2006",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "B141",
+    "doi-asserted-by": "publisher",
+    "first-page": "187",
+    "DOI": "10.1016/j.molp.2020.01.008",
+    "article-title": "Crop phenomics and high-throughput phenotyping: Past decades, current challenges, and future perspectives.",
+    "volume": "13",
+    "author": "Yang",
+    "year": "2020",
+    "journal-title": "Mol. Plant"
+   },
+   {
+    "key": "B142",
+    "doi-asserted-by": "publisher",
+    "first-page": "1263",
+    "DOI": "10.1534/genetics.113.159319",
+    "article-title": "Genomic signature of adaptation to climate in Medicago truncatula.",
+    "volume": "196",
+    "author": "Yoder",
+    "year": "2014",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "B143",
+    "doi-asserted-by": "publisher",
+    "first-page": "983",
+    "DOI": "10.1038/35103590",
+    "article-title": "Improving plant breeding with exotic genetic libraries.",
+    "volume": "2",
+    "author": "Zamir",
+    "year": "2001",
+    "journal-title": "Nat. Rev. Genet."
+   },
+   {
+    "key": "B144",
+    "doi-asserted-by": "publisher",
+    "first-page": "1975",
+    "DOI": "10.1007/s00122-016-2753-8",
+    "article-title": "Pm55, a developmental-stage and tissue-specific powdery mildew resistance gene introgressed from Dasypyrum villosum into common wheat.",
+    "volume": "129",
+    "author": "Zhang",
+    "year": "2016",
+    "journal-title": "Theoret. Appl. Genet."
+   },
+   {
+    "key": "B145",
+    "doi-asserted-by": "publisher",
+    "first-page": "407",
+    "DOI": "10.1038/nmeth.2848",
+    "article-title": "Efficient multivariate linear mixed model algorithms for genome-wide association studies.",
+    "volume": "11",
+    "author": "Zhou",
+    "year": "2014",
+    "journal-title": "Nat. Methods"
+   },
+   {
+    "key": "B146",
+    "doi-asserted-by": "publisher",
+    "first-page": "965",
+    "DOI": "10.1038/s41477-019-0507-8",
+    "article-title": "The population genetics of structural variants in grapevine domestication.",
+    "volume": "5",
+    "author": "Zhou",
+    "year": "2019",
+    "journal-title": "Nat. Plants"
+   }
+  ],
+  "container-title": [
+   "Frontiers in Plant Science"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "https://www.frontiersin.org/articles/10.3389/fpls.2021.626565/full",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2023-10-19T07:17:45Z",
+   "timestamp": 1697699865000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.frontiersin.org/articles/10.3389/fpls.2021.626565/full"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     27
+    ]
+   ]
+  },
+  "references-count": 146,
+  "alternative-id": [
+   "10.3389/fpls.2021.626565"
+  ],
+  "URL": "https://doi.org/10.3389/fpls.2021.626565",
+  "relation": {},
+  "ISSN": [
+   "1664-462X"
+  ],
+  "issn-type": [
+   {
+    "value": "1664-462X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     1,
+     27
+    ]
+   ]
+  },
+  "article-number": "626565"
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      29
+     ]
+    ],
+    "date-time": "2026-09-29T11:42:59Z",
+    "timestamp": 1790682179089,
+    "version": "4.1.0"
+   },
+   "reference-count": 146,
+   "publisher": "Frontiers Media SA",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        1,
+        27
+       ]
+      ],
+      "date-time": "2021-01-27T00:00:00Z",
+      "timestamp": 1611705600000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "frontiersin.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Front. Plant Sci."
+   ],
+   "abstract": "<jats:p>The diversity observed among crop wild relatives (CWRs) and their ability to flourish in unfavorable and harsh environments have drawn the attention of plant scientists and breeders for many decades. However, it is also recognized that the benefit gained from using CWRs in breeding is a potential rose between thorns of detrimental genetic variation that is linked to the trait of interest. Despite the increased interest in CWRs, little attention was given so far to the statistical, analytical, and technical considerations that should guide the sampling design, the germplasm characterization, and later its implementation in breeding. Here, we review the entire process of sampling and identifying beneficial genetic variation in CWRs and the challenge of using it in breeding. The ability to detect beneficial genetic variation in CWRs is strongly affected by the sampling design which should be adjusted to the spatial and temporal variation of the target species, the trait of interest, and the analytical approach used. Moreover, linkage disequilibrium is a key factor that constrains the resolution of searching for beneficial alleles along the genome, and later, the ability to deplete linked deleterious genetic variation as a consequence of genetic drag. We also discuss how technological advances in genomics, phenomics, biotechnology, and data science can improve the ability to identify beneficial genetic variation in CWRs and to exploit it in strive for higher-yielding and sustainable crops.</jats:p>",
+   "DOI": "10.3389/fpls.2021.626565",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      1,
+      27
+     ]
+    ],
+    "date-time": "2021-01-27T06:52:30Z",
+    "timestamp": 1611730350000
+   },
+   "update-policy": "https://doi.org/10.3389/crossmark-policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 38,
+   "title": [
+    "Tapping Diversity From the Wild: From Sampling to Implementation"
+   ],
+   "prefix": "10.3389",
+   "volume": "12",
+   "author": [
+    {
+     "given": "Sariel",
+     "family": "H\u00fcbner",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Michael B.",
+     "family": "Kantar",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1965",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      1,
+      27
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "B1",
+     "doi-asserted-by": "publisher",
+     "first-page": "4226",
+     "DOI": "10.1111/mec.14203",
+     "article-title": "Connecting genomic patterns of local adaptation and niche suitability in teosintes.",
+     "volume": "26",
+     "author": "Aguirre-Liguori",
+     "year": "2017",
+     "journal-title": "Mol. Ecol."
+    },
+    {
+     "key": "B2",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1038/s42003-018-0085-8",
+     "article-title": "RAiSD detects positive selection based on multiple signatures of a selective sweep and SNP vectors.",
+     "volume": "1",
+     "author": "Alachiotis",
+     "year": "2018",
+     "journal-title": "Commun. Biol."
+    },
+    {
+     "key": "B3",
+     "doi-asserted-by": "publisher",
+     "first-page": "343",
+     "DOI": "10.1007/978-3-319-91944-7_9",
+     "article-title": "Improvement of Fig (Ficus carica L.) by Conventional Breeding and Biotechnology",
+     "author": "Aljane",
+     "year": "2018",
+     "journal-title": "Advances in Plant Breeding Strategies: Fruits"
+    },
+    {
+     "key": "B4",
+     "doi-asserted-by": "publisher",
+     "first-page": "145",
+     "DOI": "10.1016/j.cell.2020.05.021",
+     "article-title": "Major impacts of widespread structural variation on gene expression and crop improvement in tomato.",
+     "volume": "182",
+     "author": "Alonge",
+     "year": "2020",
+     "journal-title": "Cell"
+    },
+    {
+     "key": "B5",
+     "doi-asserted-by": "crossref",
+     "first-page": "835",
+     "DOI": "10.1534/g3.116.026914",
+     "article-title": "Environmental association analyses identify candidates for abiotic stress tolerance in Glycine soja, the wild progenitor of cultivated soybeans.",
+     "volume": "6",
+     "author": "Anderson",
+     "year": "2016",
+     "journal-title": "G3 Genes Genomes Genet."
+    },
+    {
+     "key": "B6",
+     "article-title": "Signatures of environmental adaptation during range expansion of wild common bean (Phaseolus vulgaris).",
+     "volume": "2019",
+     "author": "Ariani",
+     "year": "2019",
+     "journal-title": "BioRxiv"
+    },
+    {
+     "key": "B7",
+     "doi-asserted-by": "publisher",
+     "first-page": "75",
+     "DOI": "10.1139/g95-009",
+     "article-title": "Molecular markers for four leaf rust resistance genes introgressed into wheat from wild relatives.",
+     "volume": "38",
+     "author": "Autrique",
+     "year": "1995",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "B8",
+     "doi-asserted-by": "publisher",
+     "first-page": "139",
+     "DOI": "10.1105/tpc.19.00332",
+     "article-title": "Transcriptome-based prediction of complex traits in maize.",
+     "volume": "32",
+     "author": "Azodi",
+     "year": "2020",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B9",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1038/s41598-017-17342-w",
+     "article-title": "Dissecting the genetic basis of local adaptation in soybean.",
+     "volume": "7",
+     "author": "Bandillo",
+     "year": "2017",
+     "journal-title": "Sci. Rep."
+    },
+    {
+     "key": "B10",
+     "doi-asserted-by": "publisher",
+     "first-page": "830",
+     "DOI": "10.1111/nph.13255",
+     "article-title": "Genome scans reveal candidate domestication and improvement genes in cultivated sunflower, as well as post-domestication introgression with wild relatives.",
+     "volume": "206",
+     "author": "Baute",
+     "year": "2015",
+     "journal-title": "N. Phytol."
+    },
+    {
+     "key": "B11",
+     "doi-asserted-by": "publisher",
+     "first-page": "575",
+     "DOI": "10.1007/s00122-018-3240-1",
+     "article-title": "Manipulation of crossover frequency and distribution for plant breeding.",
+     "volume": "132",
+     "author": "Blary",
+     "year": "2019",
+     "journal-title": "Theoret. Appl. Genet."
+    },
+    {
+     "key": "B12",
+     "doi-asserted-by": "publisher",
+     "first-page": "953",
+     "DOI": "10.1111/nph.13410",
+     "article-title": "Genomic variation across landscapes: insights and applications.",
+     "volume": "207",
+     "author": "Bragg",
+     "year": "2015",
+     "journal-title": "N. Phytol."
+    },
+    {
+     "key": "B13",
+     "doi-asserted-by": "publisher",
+     "first-page": "889",
+     "DOI": "10.1093/bioinformatics/btg112",
+     "article-title": "R/qtl: QTL mapping in experimental crosses.",
+     "volume": "19",
+     "author": "Broman",
+     "year": "2003",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "B14",
+     "doi-asserted-by": "publisher",
+     "first-page": "670",
+     "DOI": "10.1111/tpj.13888",
+     "article-title": "Molecular diversity and landscape genomics of the crop wild relative Triticum urartu across the Fertile Crescent.",
+     "volume": "94",
+     "author": "Brunazzi",
+     "year": "2018",
+     "journal-title": "Plant J."
+    },
+    {
+     "key": "B15",
+     "doi-asserted-by": "publisher",
+     "first-page": "451",
+     "DOI": "10.2135/cropsci2017.05.0303",
+     "article-title": "Sustaining the future of plant breeding: The critical role of the USDA-ARS National Plant Germplasm System.",
+     "volume": "58",
+     "author": "Byrne",
+     "year": "2018",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B16",
+     "doi-asserted-by": "publisher",
+     "first-page": "1775",
+     "DOI": "10.1534/genetics.106.065144",
+     "article-title": "Homeologous recombination in Solanum lycopersicoides introgression lines of cultivated tomato.",
+     "volume": "174",
+     "author": "Canady",
+     "year": "2006",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B17",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1038/nplants.2016.22",
+     "article-title": "Global conservation priorities for crop wild relatives.",
+     "volume": "2",
+     "author": "Casta\u00f1eda-\u00c1lvarez",
+     "year": "2016",
+     "journal-title": "Nat. Plants"
+    },
+    {
+     "key": "B18",
+     "doi-asserted-by": "publisher",
+     "first-page": "852",
+     "DOI": "10.1093/molbev/msz008",
+     "article-title": "LFMM 2: Fast and accurate inference of gene-environment associations in genome-wide studies.",
+     "volume": "36",
+     "author": "Caye",
+     "year": "2019",
+     "journal-title": "Mol. Biol. Evol."
+    },
+    {
+     "key": "B19",
+     "doi-asserted-by": "publisher",
+     "first-page": "667",
+     "DOI": "10.1146/annurev-arplant-050718-100049",
+     "article-title": "CRISPR/Cas genome editing and precision plant breeding in agriculture.",
+     "volume": "70",
+     "author": "Chen",
+     "year": "2019",
+     "journal-title": "Annu. Rev. Plant Biol."
+    },
+    {
+     "key": "B20",
+     "article-title": "Climatic niche predicts the landscape structure of locally adaptive standing genetic variation.",
+     "author": "Chhatre",
+     "year": "2019",
+     "journal-title": "BioRxiv"
+    },
+    {
+     "key": "B21",
+     "doi-asserted-by": "publisher",
+     "first-page": "84",
+     "DOI": "10.1038/s43016-019-0007-z",
+     "article-title": "Identification and stacking of crucial traits required for the domestication of pennycress.",
+     "volume": "1",
+     "author": "Chopra",
+     "year": "2020",
+     "journal-title": "Nat. Food"
+    },
+    {
+     "key": "B22",
+     "doi-asserted-by": "publisher",
+     "first-page": "2141",
+     "DOI": "10.2135/cropsci2015.08.0512",
+     "article-title": "Use of crop growth models with whole-genome prediction: application to a maize multienvironment trial.",
+     "volume": "56",
+     "author": "Cooper",
+     "year": "2016",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1051/ocl/2020041",
+     "article-title": "Doubled haploids of interspecific hybrids between Brassica napus and Brassica rapa for canola production with valuable breeding traits.",
+     "volume": "27",
+     "author": "Daurova",
+     "year": "2020",
+     "journal-title": "OCL"
+    },
+    {
+     "key": "B24",
+     "doi-asserted-by": "publisher",
+     "first-page": "2046",
+     "DOI": "10.1111/mec.12710",
+     "article-title": "Genome-wide admixture and ecological niche modeling reveal the maintenance of species boundaries despite long history of interspecific gene flow.",
+     "volume": "23",
+     "author": "De La Torre",
+     "year": "2014",
+     "journal-title": "Mol. Ecol."
+    },
+    {
+     "key": "B25",
+     "doi-asserted-by": "publisher",
+     "first-page": "1248",
+     "DOI": "10.1111/2041-210x.12418",
+     "article-title": "A new FST-based method to uncover local adaptation using environmental variables.",
+     "volume": "6",
+     "author": "De Villemereuil",
+     "year": "2015",
+     "journal-title": "Methods Ecol. Evol."
+    },
+    {
+     "key": "B26",
+     "doi-asserted-by": "publisher",
+     "first-page": "1070",
+     "DOI": "10.2135/cropsci2016.10.0885",
+     "article-title": "Past and future use of wild relatives in crop breeding.",
+     "volume": "57",
+     "author": "Dempewolf",
+     "year": "2017",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B27",
+     "doi-asserted-by": "publisher",
+     "first-page": "2029",
+     "DOI": "10.1093/molbev/msz141",
+     "article-title": "Variation in recombination rate is shaped by domestication and environmental conditions in barley.",
+     "volume": "36",
+     "author": "Dreissig",
+     "year": "2019",
+     "journal-title": "Mol. Biol. Evol."
+    },
+    {
+     "key": "B28",
+     "doi-asserted-by": "publisher",
+     "first-page": "969",
+     "DOI": "10.1534/genetics.110.115543",
+     "article-title": "Patterns of population structure and environmental associations to aridity across the range of loblolly pine (Pinus taeda L., Pinaceae).",
+     "volume": "185",
+     "author": "Eckert",
+     "year": "2010",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B29",
+     "doi-asserted-by": "publisher",
+     "first-page": "903",
+     "DOI": "10.1016/j.scitotenv.2019.07.204",
+     "article-title": "Scenario-based land abandonment projections: Method, application and implications.",
+     "volume": "692",
+     "author": "Estoque",
+     "year": "2019",
+     "journal-title": "Sci. Total Environ."
+    },
+    {
+     "key": "B30",
+     "doi-asserted-by": "publisher",
+     "first-page": "615",
+     "DOI": "10.1016/j.molp.2019.03.016",
+     "article-title": "De novo domestication: an alternative route toward new crops for the future.",
+     "volume": "12",
+     "author": "Fernie",
+     "year": "2019",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "B31",
+     "doi-asserted-by": "publisher",
+     "first-page": "196",
+     "DOI": "10.1016/j.pbi.2006.01.010",
+     "article-title": "Natural genetic variation for improving crop quality.",
+     "volume": "9",
+     "author": "Fernie",
+     "year": "2006",
+     "journal-title": "Curr. Opin. Plant Biol."
+    },
+    {
+     "key": "B32",
+     "doi-asserted-by": "publisher",
+     "first-page": "4302",
+     "DOI": "10.1002/joc.5086",
+     "article-title": "WorldClim 2: new 1km spatial resolution climate surfaces for global land areas.",
+     "volume": "37",
+     "author": "Fick",
+     "year": "2017",
+     "journal-title": "Int. J. Climatol."
+    },
+    {
+     "key": "B33",
+     "doi-asserted-by": "publisher",
+     "first-page": "86",
+     "DOI": "10.1126/science.1209271",
+     "article-title": "A map of local adaptation in Arabidopsis thaliana.",
+     "volume": "334",
+     "author": "Fournier-Level",
+     "year": "2011",
+     "journal-title": "Science"
+    },
+    {
+     "key": "B34",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12870-019-2142-y",
+     "article-title": "The impact of sample selection strategies on genetic diversity and representativeness in germplasm bank collections.",
+     "volume": "19",
+     "author": "Franco-Duran",
+     "year": "2019",
+     "journal-title": "BMC Plant Biol."
+    },
+    {
+     "key": "B35",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0240589",
+     "article-title": "Identification of novel resistant sources for ascochyta blight (Ascochyta rabiei) in chickpea.",
+     "volume": "15",
+     "author": "Gayacharan",
+     "year": "2020",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "B36",
+     "doi-asserted-by": "publisher",
+     "first-page": "2204",
+     "DOI": "10.1111/mec.15477",
+     "article-title": "Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species.",
+     "volume": "12",
+     "author": "Gibson",
+     "year": "2020",
+     "journal-title": "Mol. Ecol."
+    },
+    {
+     "key": "B37",
+     "doi-asserted-by": "crossref",
+     "first-page": "812",
+     "DOI": "10.1126/science.1185383",
+     "article-title": "Food security: the challenge of feeding 9 billion people.",
+     "volume": "327",
+     "author": "Godfray",
+     "year": "2010",
+     "journal-title": "Science"
+    },
+    {
+     "key": "B38",
+     "doi-asserted-by": "publisher",
+     "first-page": "378",
+     "DOI": "10.1111/nph.15171",
+     "article-title": "Soil environment is a key driver of adaptation in Medicago truncatula: new insights from landscape genomics.",
+     "volume": "219",
+     "author": "Guerrero",
+     "year": "2018",
+     "journal-title": "N. Phytol."
+    },
+    {
+     "key": "B39",
+     "doi-asserted-by": "publisher",
+     "first-page": "205",
+     "DOI": "10.1534/genetics.113.152462",
+     "article-title": "Robust identification of local adaptation from allele frequencies.",
+     "volume": "195",
+     "author": "G\u00fcnther",
+     "year": "2013",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B40",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pbio.0020245",
+     "article-title": "Unused natural variation can lift yield barriers in plant breeding.",
+     "volume": "2004",
+     "author": "Gur",
+     "year": "2004",
+     "journal-title": "PLoS Biol."
+    },
+    {
+     "key": "B41",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1007/s10681-007-9363-0",
+     "article-title": "The use of wild relatives in crop improvement: a survey of developments over the last 20 years.",
+     "volume": "156",
+     "author": "Hajjar",
+     "year": "2007",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "B42",
+     "doi-asserted-by": "publisher",
+     "first-page": "236",
+     "DOI": "10.17660/ejhs.2018/83.4.4",
+     "article-title": "Sex-linked molecular markers for two cold-hardy kiwifruit species, Actinidia arguta and A. kolomikta.",
+     "volume": "83",
+     "author": "Hale",
+     "year": "2018",
+     "journal-title": "Eur. J. Hortic. Sci."
+    },
+    {
+     "key": "B43",
+     "doi-asserted-by": "publisher",
+     "first-page": "1407",
+     "DOI": "10.1111/nph.14993",
+     "article-title": "Plant genetic resources for food and agriculture: opportunities and challenges emerging from the science and information technology revolution.",
+     "volume": "217",
+     "author": "Halewood",
+     "year": "2018",
+     "journal-title": "N. Phytol."
+    },
+    {
+     "key": "B44",
+     "doi-asserted-by": "publisher",
+     "first-page": "509",
+     "DOI": "10.2307/1218252",
+     "article-title": "Toward a rational classification of cultivated plants.",
+     "volume": "20",
+     "author": "Harlan",
+     "year": "1971",
+     "journal-title": "Taxon"
+    },
+    {
+     "key": "B45",
+     "doi-asserted-by": "publisher",
+     "first-page": "896",
+     "DOI": "10.1038/s41588-019-0382-2",
+     "article-title": "Exome sequencing highlights the role of wild-relative introgression in shaping the adaptive landscape of the wheat genome.",
+     "volume": "51",
+     "author": "He",
+     "year": "2019",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "B46",
+     "doi-asserted-by": "publisher",
+     "first-page": "379",
+     "DOI": "10.1086/688018",
+     "article-title": "Finding the genomic basis of local adaptation: pitfalls, practical solutions, and future directions.",
+     "volume": "188",
+     "author": "Hoban",
+     "year": "2016",
+     "journal-title": "Am. Natural."
+    },
+    {
+     "key": "B47",
+     "doi-asserted-by": "publisher",
+     "first-page": "209",
+     "DOI": "10.1007/978-3-319-95101-0_8",
+     "article-title": "Sampling wild species to conserve genetic diversity",
+     "author": "Hoban",
+     "year": "2018",
+     "journal-title": "North American Crop Wild Relatives"
+    },
+    {
+     "key": "B48",
+     "doi-asserted-by": "publisher",
+     "first-page": "54",
+     "DOI": "10.1038/s41477-018-0329-0",
+     "article-title": "Sunflower pan-genome analysis shows that hybridization altered gene content and disease resistance.",
+     "volume": "5",
+     "author": "H\u00fcbner",
+     "year": "2019",
+     "journal-title": "Nat. Plants"
+    },
+    {
+     "key": "B49",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12870-015-0528-z",
+     "article-title": "RNA-Seq analysis identifies genes associated with differential reproductive success under drought-stress in accessions of wild barley Hordeum spontaneum.",
+     "volume": "15",
+     "author": "H\u00fcbner",
+     "year": "2015",
+     "journal-title": "BMC Plant Biol."
+    },
+    {
+     "key": "B50",
+     "doi-asserted-by": "publisher",
+     "first-page": "83",
+     "DOI": "10.1007/s10681-010-0272-2",
+     "article-title": "Rapid and high-precision marker assisted backcrossing to introgress the SUB1 QTL into BR11, the rainfed lowland rice mega variety of Bangladesh.",
+     "volume": "178",
+     "author": "Iftekharuddaula",
+     "year": "2011",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "B51",
+     "doi-asserted-by": "publisher",
+     "first-page": "1277",
+     "DOI": "10.1111/1755-0998.13176",
+     "article-title": "Chromosome-level hybrid de novo genome assemblies as an attainable option for nonmodel insects.",
+     "volume": "20",
+     "author": "Jaworski",
+     "year": "2020",
+     "journal-title": "Mol. Ecol. Resour."
+    },
+    {
+     "key": "B52",
+     "doi-asserted-by": "publisher",
+     "first-page": "665",
+     "DOI": "10.1111/eva.12891",
+     "article-title": "Landscape genomics predicts climate change-related genetic offset for the widespread Platycladus orientalis (Cupressaceae).",
+     "volume": "13",
+     "author": "Jia",
+     "year": "2019",
+     "journal-title": "Evolut. Applicat."
+    },
+    {
+     "key": "B53",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fgene.2019.00279",
+     "article-title": "Integrative differential expression analysis for multiple experiments (IDEAMEX): a web server tool for integrated rna-seq data analysis.",
+     "volume": "10",
+     "author": "Jim\u00e9nez-Jacinto",
+     "year": "2019",
+     "journal-title": "Front. Genet."
+    },
+    {
+     "key": "B54",
+     "doi-asserted-by": "publisher",
+     "first-page": "992",
+     "DOI": "10.1111/nph.14084",
+     "article-title": "Landscape genomics reveals altered genome wide diversity within revegetated stands of Eucalyptus microcarpa (Grey Box).",
+     "volume": "212",
+     "author": "Jordan",
+     "year": "2016",
+     "journal-title": "N. Phytol."
+    },
+    {
+     "key": "B55",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2015.00841",
+     "article-title": "Ecogeography and utility to plant breeding of the crop wild relatives of sunflower (Helianthus annuus L.).",
+     "volume": "6",
+     "author": "Kantar",
+     "year": "2015",
+     "journal-title": "Front. Plant Sci."
+    },
+    {
+     "key": "B56",
+     "doi-asserted-by": "publisher",
+     "first-page": "186",
+     "DOI": "10.1016/j.plantsci.2019.01.006",
+     "article-title": "Edit at will: Genotype independent plant transformation in the era of advanced genomics and genome editing.",
+     "volume": "281",
+     "author": "Kausch",
+     "year": "2019",
+     "journal-title": "Plant Sci."
+    },
+    {
+     "key": "B57",
+     "doi-asserted-by": "publisher",
+     "first-page": "1959",
+     "DOI": "10.1534/g3.118.200262",
+     "article-title": "diploS/HIC: an updated approach to classifying selective sweeps.",
+     "volume": "8",
+     "author": "Kern",
+     "year": "2018",
+     "journal-title": "G3 Genes Genomes Genet."
+    },
+    {
+     "key": "B58",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0063107",
+     "article-title": "The FIGS (Focused Identification of Germplasm Strategy) approach identifies traits related to drought adaptation in Vicia faba genetic resources.",
+     "volume": "8",
+     "author": "Khazaei",
+     "year": "2013",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "B59",
+     "doi-asserted-by": "publisher",
+     "first-page": "4001",
+     "DOI": "10.1073/pnas.1313490111",
+     "article-title": "Increasing homogeneity in global food supplies and the implications for food security.",
+     "volume": "111",
+     "author": "Khoury",
+     "year": "2014",
+     "journal-title": "Proc. Natl. Acad. Sci."
+    },
+    {
+     "key": "B60",
+     "doi-asserted-by": "publisher",
+     "first-page": "33351",
+     "DOI": "10.1073/pnas.2007029117",
+     "article-title": "Crop wild relatives of the United States require urgent conservation action.",
+     "volume": "117",
+     "author": "Khoury",
+     "year": "2020",
+     "journal-title": "Proc. Natl. Acad. Sci."
+    },
+    {
+     "key": "B61",
+     "doi-asserted-by": "publisher",
+     "first-page": "259",
+     "DOI": "10.1016/j.biocon.2015.01.032",
+     "article-title": "Crop wild relatives of pigeonpea [Cajanus cajan (L.) Millsp.]: Distributions, ex situ conservation status, and potential genetic resources for abiotic stress tolerance.",
+     "volume": "184",
+     "author": "Khoury",
+     "year": "2015",
+     "journal-title": "Biol. Conserv."
+    },
+    {
+     "key": "B62",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1186/1746-4811-9-29",
+     "article-title": "The advantages and limitations of trait analysis with GWAS: a review.",
+     "volume": "9",
+     "author": "Korte",
+     "year": "2013",
+     "journal-title": "Plant Methods"
+    },
+    {
+     "key": "B63",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1038/srep19355",
+     "article-title": "Global nitrogen budgets in cereals: A 50-year assessment for maize, rice and wheat production systems.",
+     "volume": "6",
+     "author": "Ladha",
+     "year": "2016",
+     "journal-title": "Sci. Rep."
+    },
+    {
+     "key": "B64",
+     "doi-asserted-by": "publisher",
+     "first-page": "766",
+     "DOI": "10.1038/s41477-018-0259-x",
+     "article-title": "Rapid improvement of domestication traits in an orphan crop by genome editing.",
+     "volume": "4",
+     "author": "Lemmon",
+     "year": "2018",
+     "journal-title": "Nat. Plants"
+    },
+    {
+     "key": "B65",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2105-12-323",
+     "article-title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome.",
+     "volume": "12",
+     "author": "Li",
+     "year": "2011",
+     "journal-title": "BMC Bioinformatics"
+    },
+    {
+     "key": "B66",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1038/s42003-020-0890-8",
+     "article-title": "SMRT sequencing of the Oryza rufipogon genome reveals the genomic basis of rice adaptation.",
+     "volume": "3",
+     "author": "Li",
+     "year": "2020",
+     "journal-title": "Commun. Biol."
+    },
+    {
+     "key": "B67",
+     "doi-asserted-by": "publisher",
+     "first-page": "389",
+     "DOI": "10.1111/pbi.13206",
+     "article-title": "Identification of loci controlling adaptation in Chinese soya bean landraces via a combination of conventional and bioclimatic GWAS.",
+     "volume": "18",
+     "author": "Li",
+     "year": "2019",
+     "journal-title": "Plant Biotechnol. J."
+    },
+    {
+     "key": "B68",
+     "doi-asserted-by": "publisher",
+     "first-page": "1031",
+     "DOI": "10.1111/mec.13100",
+     "article-title": "The relative power of genome scans to detect local adaptation depends on sampling design and statistical method.",
+     "volume": "24",
+     "author": "Lotterhos",
+     "year": "2015",
+     "journal-title": "Mol. Ecol."
+    },
+    {
+     "key": "B69",
+     "doi-asserted-by": "publisher",
+     "first-page": "717",
+     "DOI": "10.1111/2041-210x.12774",
+     "article-title": "Composite measures of selection can improve the signal-to-noise ratio in genome scans.",
+     "volume": "8",
+     "author": "Lotterhos",
+     "year": "2017",
+     "journal-title": "Methods Ecol. Evol."
+    },
+    {
+     "key": "B70",
+     "doi-asserted-by": "publisher",
+     "first-page": "443",
+     "DOI": "10.1093/gbe/evaa056",
+     "article-title": "The limits to estimating population-genetic parameters with temporal data.",
+     "volume": "12",
+     "author": "Lynch",
+     "year": "2020",
+     "journal-title": "Genome Biol. Evol."
+    },
+    {
+     "key": "B71",
+     "doi-asserted-by": "publisher",
+     "first-page": "93",
+     "DOI": "10.24326/asphc.2019.4.9",
+     "article-title": "Analysis of genetic diversity of Ficus carica L.(Moraceae) collection using simple sequence repeat (SSR) markers.",
+     "volume": "18",
+     "author": "Marcotuli",
+     "year": "2019",
+     "journal-title": "Acta Sci. Polonorum Hortorum Cultus"
+    },
+    {
+     "key": "B72",
+     "doi-asserted-by": "publisher",
+     "first-page": "2673",
+     "DOI": "10.1007/s10531-005-5409-6",
+     "article-title": "Towards a definition of a crop wild relative.",
+     "volume": "15",
+     "author": "Maxted",
+     "year": "2006",
+     "journal-title": "Biodiver. Conserv."
+    },
+    {
+     "key": "B73",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1128/mBio.00982-17",
+     "article-title": "The US Culture Collection Network responding to the requirements of the Nagoya Protocol on access and benefit sharing.",
+     "volume": "8",
+     "author": "McCluskey",
+     "year": "2017",
+     "journal-title": "MBio"
+    },
+    {
+     "key": "B74",
+     "doi-asserted-by": "publisher",
+     "first-page": "19",
+     "DOI": "10.1016/j.fcr.2016.02.004",
+     "article-title": "QTL mapping for agronomic traits using multi-parent advanced generation inter-cross (MAGIC) populations derived from diverse elite indica rice lines.",
+     "volume": "189",
+     "author": "Meng",
+     "year": "2016",
+     "journal-title": "Field Crops Res."
+    },
+    {
+     "key": "B75",
+     "doi-asserted-by": "publisher",
+     "first-page": "1083",
+     "DOI": "10.1038/ng.3633",
+     "article-title": "Domestication history and geographical adaptation inferred from a SNP map of African rice.",
+     "volume": "48",
+     "author": "Meyer",
+     "year": "2016",
+     "journal-title": "Nature Genetics"
+    },
+    {
+     "key": "B76",
+     "doi-asserted-by": "publisher",
+     "first-page": "29",
+     "DOI": "10.1111/j.1469-8137.2012.04253.x",
+     "article-title": "Patterns and processes in crop domestication: an historical review and quantitative analysis of 203 global food crops.",
+     "volume": "196",
+     "author": "Meyer",
+     "year": "2012",
+     "journal-title": "N. Phytol."
+    },
+    {
+     "key": "B77",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2017.00460",
+     "article-title": "Exploiting wild relatives for genomics-assisted breeding of perennial crops.",
+     "volume": "8",
+     "author": "Migicovsky",
+     "year": "2017",
+     "journal-title": "Front. Plant Sci."
+    },
+    {
+     "key": "B78",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12864-016-2834-8",
+     "article-title": "Genomic ancestry estimation quantifies use of wild species in grape breeding.",
+     "volume": "17",
+     "author": "Migicovsky",
+     "year": "2016",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "key": "B79",
+     "doi-asserted-by": "publisher",
+     "first-page": "2365",
+     "DOI": "10.2135/cropsci2019.05.0353",
+     "article-title": "Using living germplasm collections to characterize, improve, and conserve woody perennials.",
+     "volume": "59",
+     "author": "Migicovsky",
+     "year": "2019",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B80",
+     "doi-asserted-by": "publisher",
+     "first-page": "167",
+     "DOI": "10.1007/978-3-319-95101-0_6",
+     "article-title": "The gene pool concept applied to crop wild relatives: An evolutionary perspective",
+     "author": "Miller",
+     "year": "2018",
+     "journal-title": "North American Crop Wild Relatives"
+    },
+    {
+     "key": "B81",
+     "doi-asserted-by": "publisher",
+     "first-page": "319",
+     "DOI": "10.1038/s41588-018-0266-x",
+     "article-title": "Genebank genomics highlights the diversity of a global barley collection.",
+     "volume": "51",
+     "author": "Milner",
+     "year": "2019",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "B82",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2018.00074",
+     "article-title": "Genetic and genomic tools to asssist sugar beet improvement: the value of the crop wild relatives.",
+     "volume": "9",
+     "author": "Monteiro",
+     "year": "2018",
+     "journal-title": "Front. Plant Sci."
+    },
+    {
+     "key": "B83",
+     "doi-asserted-by": "publisher",
+     "first-page": "453",
+     "DOI": "10.1073/pnas.1215985110",
+     "article-title": "Population genomic and genome-wide association studies of agroclimatic traits in sorghum.",
+     "volume": "110",
+     "author": "Morris",
+     "year": "2013",
+     "journal-title": "Proc. Natl. Acad. Sci."
+    },
+    {
+     "key": "B84",
+     "doi-asserted-by": "crossref",
+     "first-page": "235",
+     "DOI": "10.1023/A:1022872604743",
+     "article-title": "Money matters (II): costs of maize inbred line conversion schemes at CIMMYT using conventional and marker-assisted selection.",
+     "volume": "11",
+     "author": "Morris",
+     "year": "2003",
+     "journal-title": "Mol. Breeding"
+    },
+    {
+     "key": "B85",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1201/b18036-2",
+     "article-title": "Growing the lost crops of eastern North America\u2019s original agricultural system.",
+     "volume": "3",
+     "author": "Mueller",
+     "year": "2017",
+     "journal-title": "Nat. Plants"
+    },
+    {
+     "key": "B86",
+     "doi-asserted-by": "publisher",
+     "first-page": "573",
+     "DOI": "10.2135/cropsci2018.08.0504",
+     "article-title": "Quantitative trait loci for cold tolerance in chickpea.",
+     "volume": "59",
+     "author": "Mugabe",
+     "year": "2019",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B87",
+     "doi-asserted-by": "publisher",
+     "first-page": "259",
+     "DOI": "10.1146/annurev-publhealth-031816-044356",
+     "article-title": "Climate change and global food systems: potential impacts on food security and undernutrition.",
+     "volume": "38",
+     "author": "Myers",
+     "year": "2017",
+     "journal-title": "Annu. Rev. Public Health"
+    },
+    {
+     "key": "B88",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fgene.2020.00350",
+     "article-title": "Reaching the end-game for GWAS: Machine learning approaches for the prioritization of complex disease loci.",
+     "volume": "11",
+     "author": "Nicholls",
+     "year": "2020",
+     "journal-title": "Front. Genet."
+    },
+    {
+     "key": "B89",
+     "doi-asserted-by": "publisher",
+     "first-page": "54",
+     "DOI": "10.1111/eva.12603",
+     "article-title": "Genomic sequence and copy number evolution during hybrid crop development in sunflowers.",
+     "volume": "12",
+     "author": "Owens",
+     "year": "2019",
+     "journal-title": "Evolut. Applicat."
+    },
+    {
+     "key": "B90",
+     "article-title": "Genetic control of pod dehiscence in domesticated common bean: Associations with range expansion and local aridity conditions.",
+     "author": "Parker",
+     "year": "2019",
+     "journal-title": "Biorxiv"
+    },
+    {
+     "key": "B91",
+     "doi-asserted-by": "publisher",
+     "first-page": "1929",
+     "DOI": "10.1093/molbev/msu136",
+     "article-title": "PopGenome: an efficient Swiss army knife for population genomic analyses in R.",
+     "volume": "31",
+     "author": "Pfeifer",
+     "year": "2014",
+     "journal-title": "Mol. Biol. Evolut."
+    },
+    {
+     "key": "B92",
+     "doi-asserted-by": "crossref",
+     "first-page": "S",
+     "DOI": "10.2135/cropsci2007.09.0020IPBS",
+     "article-title": "HarvestPlus: breeding crops for better nutrition.",
+     "volume": "47",
+     "author": "Pfeiffer",
+     "year": "2007",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B93",
+     "doi-asserted-by": "publisher",
+     "first-page": "747",
+     "DOI": "10.2307/1313097",
+     "article-title": "Economic and environmental benefits of biodiversity.",
+     "volume": "47",
+     "author": "Pimentel",
+     "year": "1997",
+     "journal-title": "BioScience"
+    },
+    {
+     "key": "B94",
+     "doi-asserted-by": "publisher",
+     "first-page": "165",
+     "DOI": "10.1016/j.fct.2017.10.020",
+     "article-title": "Wild edible plants: Nutritional and toxicological characteristics, retrieval strategies and importance for today\u2019s society.",
+     "volume": "110",
+     "author": "Pinela",
+     "year": "2017",
+     "journal-title": "Food Chem. Toxicol."
+    },
+    {
+     "key": "B95",
+     "doi-asserted-by": "publisher",
+     "first-page": "758",
+     "DOI": "10.1038/s41558-019-0585-7",
+     "article-title": "Potential adaptive strategies for 29 sub-Saharan crops under future climate change.",
+     "volume": "9",
+     "author": "Pironon",
+     "year": "2019",
+     "journal-title": "Nat. Clim. Change"
+    },
+    {
+     "key": "B96",
+     "doi-asserted-by": "publisher",
+     "first-page": "2153",
+     "DOI": "10.1093/molbev/msaa053",
+     "article-title": "Performing highly efficient genome scans for local adaptation with R package pcadapt version 4.",
+     "volume": "37",
+     "author": "Priv\u00e9",
+     "year": "2020",
+     "journal-title": "Mol. Biol. Evol."
+    },
+    {
+     "key": "B97",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/s10681-017-1938-9",
+     "article-title": "Introgressiomics: a new approach for using crop wild relatives in breeding for adaptation to climate change.",
+     "volume": "213",
+     "author": "Prohens",
+     "year": "2017",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "B98",
+     "doi-asserted-by": "crossref",
+     "first-page": "R705",
+     "DOI": "10.1016/j.cub.2019.05.053",
+     "article-title": "Evolutionary insights into the nature of plant domestication.",
+     "volume": "29",
+     "author": "Purugganan",
+     "year": "2019",
+     "journal-title": "Curr. Biol."
+    },
+    {
+     "key": "B99",
+     "doi-asserted-by": "publisher",
+     "first-page": "1594",
+     "DOI": "10.1093/gbe/evt109",
+     "article-title": "Complex patterns of local adaptation in teosinte.",
+     "volume": "5",
+     "author": "Pyh\u00e4j\u00e4rvi",
+     "year": "2013",
+     "journal-title": "Genome Biol. Evol."
+    },
+    {
+     "key": "B100",
+     "doi-asserted-by": "publisher",
+     "first-page": "741",
+     "DOI": "10.1007/s00122-015-2662-2",
+     "article-title": "Genetics and mapping of a novel downy mildew resistance gene, Pl 18, introgressed from wild Helianthus argophyllus into cultivated sunflower (Helianthus annuus L.).",
+     "volume": "129",
+     "author": "Qi",
+     "year": "2016",
+     "journal-title": "Theoret. Appl. Genet."
+    },
+    {
+     "key": "B101",
+     "doi-asserted-by": "publisher",
+     "first-page": "2553",
+     "DOI": "10.1007/s00122-019-03370-9",
+     "article-title": "Diversification of the downy mildew resistance gene pool by introgression of a new gene, Pl 35, from wild Helianthus argophyllus into oilseed and confection sunflowers (Helianthus annuus L.).",
+     "volume": "132",
+     "author": "Qi",
+     "year": "2019",
+     "journal-title": "Theoret. Appl. Genet."
+    },
+    {
+     "key": "B102",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1038/ncomms15323",
+     "article-title": "Genomic variation associated with local adaptation of weedy rice during de-domestication.",
+     "volume": "8",
+     "author": "Qiu",
+     "year": "2017",
+     "journal-title": "Nat. Commun."
+    },
+    {
+     "key": "B103",
+     "doi-asserted-by": "publisher",
+     "first-page": "559",
+     "DOI": "10.1007/s00122-018-3267-3",
+     "article-title": "Breaking the curse of dimensionality to identify causal variants in Breeding 4.",
+     "volume": "132",
+     "author": "Ramstein",
+     "year": "2019",
+     "journal-title": "Theoret. Appl. Genet."
+    },
+    {
+     "key": "B104",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0218731",
+     "article-title": "Comparative transcriptome analysis of pigeonpea, Cajanus cajan (L.) and one of its wild relatives Cajanus platycarpus (Benth.) Maesen.",
+     "volume": "14",
+     "author": "Rathinam",
+     "year": "2019",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "B105",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1002/csc2.20248",
+     "article-title": "From bits to bites: Advancement of the Germinate platform to support prebreeding informatics for crop wild relatives.",
+     "author": "Raubach",
+     "year": "2020",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B106",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0217148",
+     "article-title": "Climate change has likely already affected global food production.",
+     "volume": "14",
+     "author": "Ray",
+     "year": "2019",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "B107",
+     "doi-asserted-by": "publisher",
+     "first-page": "40",
+     "DOI": "10.1016/j.plantsci.2018.06.017",
+     "article-title": "High-throughput phenotyping to enhance the use of crop genetic resources.",
+     "volume": "282",
+     "author": "Rebetzke",
+     "year": "2019",
+     "journal-title": "Plant Sci."
+    },
+    {
+     "key": "B108",
+     "doi-asserted-by": "publisher",
+     "first-page": "4348",
+     "DOI": "10.1111/mec.13322",
+     "article-title": "A practical guide to environmental association analysis in landscape genomics.",
+     "volume": "24",
+     "author": "Rellstab",
+     "year": "2015",
+     "journal-title": "Mol. Ecol."
+    },
+    {
+     "key": "B109",
+     "doi-asserted-by": "publisher",
+     "first-page": "233",
+     "DOI": "10.1093/oxfordjournals.jhered.a111443",
+     "article-title": "Cytoplasmic male sterility in sunflower: origin, inheritance, and frequency in natural populations.",
+     "volume": "85",
+     "author": "Rieseberg",
+     "year": "1994",
+     "journal-title": "J. Heredity"
+    },
+    {
+     "key": "B110",
+     "doi-asserted-by": "publisher",
+     "first-page": "3823",
+     "DOI": "10.1073/pnas.1413864112",
+     "article-title": "Recombination in diverse maize is stable, predictable, and associated with genetic load.",
+     "volume": "112",
+     "author": "Rodgers-Melnick",
+     "year": "2015",
+     "journal-title": "Proc. Natl. Acad. Sci."
+    },
+    {
+     "key": "B111",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.3835/plantgenome2015.08.0073",
+     "article-title": "Software for genome-wide association studies in autopolyploids and its application to potato.",
+     "volume": "9",
+     "author": "Rosyara",
+     "year": "2016",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "B112",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/ng.3612",
+     "article-title": "Exome sequencing of geographically diverse barley landraces and wild relatives gives insights into environmental adaptation.",
+     "volume": "48",
+     "author": "Russell",
+     "year": "2016",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "B113",
+     "doi-asserted-by": "publisher",
+     "first-page": "1411",
+     "DOI": "10.1534/genetics.118.301429",
+     "article-title": "Replicability of introgression under linked, polygenic selection.",
+     "volume": "210",
+     "author": "Sachdeva",
+     "year": "2018",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B114",
+     "doi-asserted-by": "publisher",
+     "first-page": "301",
+     "DOI": "10.1016/j.tig.2017.12.005",
+     "article-title": "Supervised machine learning for population genetics: a new paradigm.",
+     "volume": "34",
+     "author": "Schrider",
+     "year": "2018",
+     "journal-title": "Trends Genet."
+    },
+    {
+     "key": "B115",
+     "doi-asserted-by": "publisher",
+     "first-page": "154",
+     "DOI": "10.1111/1755-0998.13095",
+     "article-title": "Sampling strategy optimization to increase statistical power in landscape genomics: A simulation-based approach.",
+     "volume": "20",
+     "author": "Selmoni",
+     "year": "2020",
+     "journal-title": "Mol. Ecol. Resour."
+    },
+    {
+     "key": "B116",
+     "first-page": "17",
+     "article-title": "Pre-breeding to expand primary genepool through introgression of genes from wild Cajanus species for pigeonpea improvement.",
+     "author": "Sharma",
+     "year": "2016",
+     "journal-title": "Legume Perspect."
+    },
+    {
+     "key": "B117",
+     "doi-asserted-by": "publisher",
+     "first-page": "430",
+     "DOI": "10.1038/s41477-020-0657-8",
+     "article-title": "The Nagoya Protocol and historical collections of plants.",
+     "volume": "6",
+     "author": "Sherman",
+     "year": "2020",
+     "journal-title": "Nat. Plants"
+    },
+    {
+     "key": "B118",
+     "doi-asserted-by": "publisher",
+     "first-page": "3",
+     "DOI": "10.1007/s13237-019-00263-6",
+     "article-title": "Cytogenetics and genetic introgression from wild relatives in soybean.",
+     "volume": "62",
+     "author": "Singh",
+     "year": "2019",
+     "journal-title": "Nucleus"
+    },
+    {
+     "key": "B119",
+     "doi-asserted-by": "publisher",
+     "first-page": "33",
+     "DOI": "10.3732/ajb.1500162",
+     "article-title": "Landscape genomic analysis of candidate genes for climate adaptation in a California endemic oak, Quercus lobata.",
+     "volume": "103",
+     "author": "Sork",
+     "year": "2016",
+     "journal-title": "Am. J. Bot."
+    },
+    {
+     "key": "B120",
+     "doi-asserted-by": "crossref",
+     "first-page": "R896",
+     "DOI": "10.1016/j.cub.2017.06.048",
+     "article-title": "How to make a domesticate.",
+     "volume": "27",
+     "author": "Stetter",
+     "year": "2017",
+     "journal-title": "Curr. Biol."
+    },
+    {
+     "key": "B121",
+     "doi-asserted-by": "publisher",
+     "first-page": "158",
+     "DOI": "10.1038/sj.hdy.6800937",
+     "article-title": "Combining population genomics and quantitative genetics: finding the genes underlying ecologically important traits.",
+     "volume": "100",
+     "author": "Stinchcombe",
+     "year": "2008",
+     "journal-title": "Heredity"
+    },
+    {
+     "key": "B122",
+     "doi-asserted-by": "publisher",
+     "first-page": "635",
+     "DOI": "10.3732/ajb.1500539",
+     "article-title": "Crop wild relatives of the brinjal eggplant (Solanum melongena): Poorly represented in genebanks and many species at risk of extinction.",
+     "volume": "103",
+     "author": "Syfert",
+     "year": "2016",
+     "journal-title": "Am. J. Bot."
+    },
+    {
+     "key": "B123",
+     "doi-asserted-by": "publisher",
+     "first-page": "1111",
+     "DOI": "10.1038/s41588-020-0690-6",
+     "article-title": "Analysis of wild tomato introgression lines elucidates the genetic basis of transcriptome and metabolome variation underlying fruit traits and pathogen response.",
+     "volume": "52",
+     "author": "Szyma\u00f1ski",
+     "year": "2020",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "B124",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.3835/plantgenome2015.11.0120",
+     "article-title": "GAPIT version 2: an enhanced integrated tool for genomic association and prediction.",
+     "volume": "9",
+     "author": "Tang",
+     "year": "2016",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "B125",
+     "doi-asserted-by": "publisher",
+     "first-page": "1063",
+     "DOI": "10.1126/science.277.5329.1063",
+     "article-title": "Seed banks and molecular maps: unlocking genetic potential from the wild.",
+     "volume": "277",
+     "author": "Tanksley",
+     "year": "1997",
+     "journal-title": "Science"
+    },
+    {
+     "key": "B126",
+     "doi-asserted-by": "publisher",
+     "first-page": "156",
+     "DOI": "10.1016/j.molp.2018.12.016",
+     "article-title": "Exploring and exploiting pan-genomics for crop improvement.",
+     "volume": "12",
+     "author": "Tao",
+     "year": "2019",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "B127",
+     "doi-asserted-by": "crossref",
+     "first-page": "R770",
+     "DOI": "10.1016/j.cub.2017.05.055",
+     "article-title": "Plant phenomics, from sensors to knowledge.",
+     "volume": "27",
+     "author": "Tardieu",
+     "year": "2017",
+     "journal-title": "Curr. Biol."
+    },
+    {
+     "key": "B128",
+     "doi-asserted-by": "publisher",
+     "first-page": "602",
+     "DOI": "10.1038/s41586-020-2467-6",
+     "article-title": "Massive haplotypes underlie ecotypic differentiation in sunflowers.",
+     "volume": "584",
+     "author": "Todesco",
+     "year": "2020",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "B129",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12859-019-2927-x",
+     "article-title": "ImaGene: a convolutional neural network to quantify natural selection from genomic data.",
+     "volume": "20",
+     "author": "Torada",
+     "year": "2019",
+     "journal-title": "BMC Bioinformatics"
+    },
+    {
+     "key": "B130",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1093/botlinnean/boaa064",
+     "article-title": "Crop wild phylorelatives (CWPs): Phylogenetic distance, cytogenetic compatibility and breeding system data enable estimation of crop wild relative gene pool classification.",
+     "volume": "195",
+     "author": "Viruel",
+     "year": "2020",
+     "journal-title": "Botanic. J. Linnean Soc."
+    },
+    {
+     "key": "B131",
+     "doi-asserted-by": "publisher",
+     "first-page": "534",
+     "DOI": "10.1038/s41588-020-0612-7",
+     "article-title": "Identifying genetic variants underlying phenotypic variation in plants without complete genomes.",
+     "volume": "52",
+     "author": "Voichek",
+     "year": "2020",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "B132",
+     "doi-asserted-by": "crossref",
+     "first-page": "277",
+     "DOI": "10.1038/s41586-020-2961-x",
+     "article-title": "Multiple wheat genomes reveal global variation in modern breeding.",
+     "volume": "588",
+     "author": "Walkowiak",
+     "year": "2020",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "B133",
+     "doi-asserted-by": "publisher",
+     "first-page": "597",
+     "DOI": "10.1016/j.molp.2019.03.006",
+     "article-title": "Development of a haploid-inducer mediated genome editing system for accelerating maize breeding.",
+     "volume": "12",
+     "author": "Wang",
+     "year": "2019",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "B134",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1186/s13059-020-01959-8",
+     "article-title": "The genome evolution and domestication of tropical fruit mango.",
+     "volume": "21",
+     "author": "Wang",
+     "year": "2020",
+     "journal-title": "Genome Biol."
+    },
+    {
+     "key": "B135",
+     "doi-asserted-by": "publisher",
+     "first-page": "1227",
+     "DOI": "10.2135/cropsci2016.10.0855",
+     "article-title": "The use of crop wild relatives in maize and sunflower breeding.",
+     "volume": "57",
+     "author": "Warburton",
+     "year": "2017",
+     "journal-title": "Crop Sci."
+    },
+    {
+     "key": "B136",
+     "doi-asserted-by": "publisher",
+     "first-page": "2023",
+     "DOI": "10.1111/nph.15731",
+     "article-title": "Population genomic analysis of mango (Mangifera indica) suggests a complex history of domestication.",
+     "volume": "222",
+     "author": "Warschefsky",
+     "year": "2019",
+     "journal-title": "N. Phytol."
+    },
+    {
+     "key": "B137",
+     "doi-asserted-by": "publisher",
+     "first-page": "565",
+     "DOI": "10.1111/j.1472-4642.2009.00567.x",
+     "article-title": "Using species distribution models to predict new occurrences for rare plants.",
+     "volume": "15",
+     "author": "Williams",
+     "year": "2009",
+     "journal-title": "Divers. Distribut."
+    },
+    {
+     "key": "B138",
+     "doi-asserted-by": "publisher",
+     "first-page": "506",
+     "DOI": "10.1093/molbev/msi035",
+     "article-title": "Molecular population genetics and the search for adaptive evolution in plants.",
+     "volume": "22",
+     "author": "Wright",
+     "year": "2005",
+     "journal-title": "Mol. Biol. Evol"
+    },
+    {
+     "key": "B139",
+     "doi-asserted-by": "publisher",
+     "first-page": "223",
+     "DOI": "10.1038/384223a0",
+     "article-title": "Genes from wild rice improve yield.",
+     "volume": "384",
+     "author": "Xiao",
+     "year": "1996",
+     "journal-title": "Nature."
+    },
+    {
+     "key": "B140",
+     "doi-asserted-by": "publisher",
+     "first-page": "705",
+     "DOI": "10.1038/nature04920",
+     "article-title": "Sub1A is an ethylene-response-factor-like gene that confers submergence tolerance to rice.",
+     "volume": "442",
+     "author": "Xu",
+     "year": "2006",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "B141",
+     "doi-asserted-by": "publisher",
+     "first-page": "187",
+     "DOI": "10.1016/j.molp.2020.01.008",
+     "article-title": "Crop phenomics and high-throughput phenotyping: Past decades, current challenges, and future perspectives.",
+     "volume": "13",
+     "author": "Yang",
+     "year": "2020",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "B142",
+     "doi-asserted-by": "publisher",
+     "first-page": "1263",
+     "DOI": "10.1534/genetics.113.159319",
+     "article-title": "Genomic signature of adaptation to climate in Medicago truncatula.",
+     "volume": "196",
+     "author": "Yoder",
+     "year": "2014",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "B143",
+     "doi-asserted-by": "publisher",
+     "first-page": "983",
+     "DOI": "10.1038/35103590",
+     "article-title": "Improving plant breeding with exotic genetic libraries.",
+     "volume": "2",
+     "author": "Zamir",
+     "year": "2001",
+     "journal-title": "Nat. Rev. Genet."
+    },
+    {
+     "key": "B144",
+     "doi-asserted-by": "publisher",
+     "first-page": "1975",
+     "DOI": "10.1007/s00122-016-2753-8",
+     "article-title": "Pm55, a developmental-stage and tissue-specific powdery mildew resistance gene introgressed from Dasypyrum villosum into common wheat.",
+     "volume": "129",
+     "author": "Zhang",
+     "year": "2016",
+     "journal-title": "Theoret. Appl. Genet."
+    },
+    {
+     "key": "B145",
+     "doi-asserted-by": "publisher",
+     "first-page": "407",
+     "DOI": "10.1038/nmeth.2848",
+     "article-title": "Efficient multivariate linear mixed model algorithms for genome-wide association studies.",
+     "volume": "11",
+     "author": "Zhou",
+     "year": "2014",
+     "journal-title": "Nat. Methods"
+    },
+    {
+     "key": "B146",
+     "doi-asserted-by": "publisher",
+     "first-page": "965",
+     "DOI": "10.1038/s41477-019-0507-8",
+     "article-title": "The population genetics of structural variants in grapevine domestication.",
+     "volume": "5",
+     "author": "Zhou",
+     "year": "2019",
+     "journal-title": "Nat. Plants"
+    }
+   ],
+   "container-title": [
+    "Frontiers in Plant Science"
+   ],
+   "link": [
+    {
+     "URL": "https://www.frontiersin.org/articles/10.3389/fpls.2021.626565/full",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      10,
+      19
+     ]
+    ],
+    "date-time": "2023-10-19T07:17:45Z",
+    "timestamp": 1697699865000
+   },
+   "score": 64.89065,
+   "resource": {
+    "primary": {
+     "URL": "https://www.frontiersin.org/articles/10.3389/fpls.2021.626565/full"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      1,
+      27
+     ]
+    ]
+   },
+   "references-count": 146,
+   "alternative-id": [
+    "10.3389/fpls.2021.626565"
+   ],
+   "URL": "https://doi.org/10.3389/fpls.2021.626565",
+   "ISSN": [
+    "1664-462X"
+   ],
+   "issn-type": [
+    {
+     "value": "1664-462X",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      1,
+      27
+     ]
+    ]
+   },
+   "article-number": "626565"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      21
+     ]
+    ],
+    "date-time": "2025-02-21T00:23:44Z",
+    "timestamp": 1740097424419,
+    "version": "3.37.3"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      24
+     ]
+    ]
+   },
+   "group-title": "BIOLOGY",
+   "reference-count": 0,
+   "publisher": "MDPI AG",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        5,
+        24
+       ]
+      ],
+      "date-time": "2021-05-24T00:00:00Z",
+      "timestamp": 1621814400000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      23
+     ]
+    ]
+   },
+   "abstract": "<jats:p>A The present investigation was undertaken in foothill regions of Uttarakhand from July-2016 up to December-2018. A total of thirty four different sites ranging from the roadside areas, grasslands to forests were studied and Mushroom fruiting bodies were collected. A total of One Hundred sixty six fruiting counts were obtained and 68 mushroom genera belonging to 15 orders and 43 families were identified. During collection visits mushroom were apparent from organic debris of diversified habitats ranging from humid soil; grassland; leaf litter; living tree trunk; dead wood log of forest zone. Maximum fruiting bodies (75%) were obtained between July to September and minimum i.e. 6% between November &amp;ndash; February. Among the collected mushroom Stereum rugosum, Crepidotus variabilis, Laccaria laccata, Schizophyllum commune, Ganoderma applantum, Cantharellus cibarius were more prevalent. Out of all collected mushroom sample the frequency of Mushroom belonging to order Agaricales was 45.18% followed by Polyporales i.e., 27.7%. The collected mushroom were cultured on PDA medium and their mycelial forms were preserved for further studies.</jats:p>",
+   "DOI": "10.20944/preprints202105.0553.v1",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      25
+     ]
+    ],
+    "date-time": "2021-05-25T07:10:35Z",
+    "timestamp": 1621926635000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "New Reports of Wild Mushroom Diversity from Foothill Region of Uttarakhand"
+   ],
+   "prefix": "10.20944",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-3103-6957",
+     "authenticated-orcid": false,
+     "given": "Vasundhra",
+     "family": "Sharma",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "A. K.",
+     "family": "Jaitly",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "1968",
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      7
+     ]
+    ],
+    "date-time": "2021-06-07T10:07:56Z",
+    "timestamp": 1623060476000
+   },
+   "score": 26.95203,
+   "resource": {
+    "primary": {
+     "URL": "https://www.preprints.org/manuscript/202105.0553/v1"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      24
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.20944/preprints202105.0553.v1",
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      24
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      30
+     ]
+    ],
+    "date-time": "2025-07-30T11:14:46Z",
+    "timestamp": 1753874086688,
+    "version": "3.41.2"
+   },
+   "reference-count": 0,
+   "publisher": "AIP Publishing",
+   "issue": "25",
+   "content-domain": {
+    "domain": [
+     "pubs.aip.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      18
+     ]
+    ]
+   },
+   "abstract": "<jats:p>A review discusses the history, current status and future strategies for minimizing the energy loss in solar-powered devices caused by hot carrier cooling.</jats:p>",
+   "DOI": "10.1063/10.0005305",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      15
+     ]
+    ],
+    "date-time": "2021-06-15T13:56:01Z",
+    "timestamp": 1623765361000
+   },
+   "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Strategies for tapping the energy from hot carriers"
+   ],
+   "prefix": "10.1063",
+   "volume": "2021",
+   "author": [
+    {
+     "given": "Yuen",
+     "family": "Yiu",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "317",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      14
+     ]
+    ]
+   },
+   "container-title": [
+    "Scilight"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://pubs.aip.org/aip/sci/article-pdf/doi/10.1063/10.0005305/11458217/251105_1_online.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://pubs.aip.org/aip/sci/article-pdf/doi/10.1063/10.0005305/11458217/251105_1_online.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      7,
+      4
+     ]
+    ],
+    "date-time": "2023-07-04T22:06:35Z",
+    "timestamp": 1688508395000
+   },
+   "score": 25.196861,
+   "resource": {
+    "primary": {
+     "URL": "https://pubs.aip.org/sci/article/2021/25/251105/365060/Strategies-for-tapping-the-energy-from-hot"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      14
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "25",
+    "published-print": {
+     "date-parts": [
+      [
+       2021,
+       6,
+       18
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1063/10.0005305",
+   "ISSN": [
+    "2572-7907"
+   ],
+   "issn-type": [
+    {
+     "type": "electronic",
+     "value": "2572-7907"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      18
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      14
+     ]
+    ]
+   },
+   "article-number": "251105"
+  }
+ ]
+}

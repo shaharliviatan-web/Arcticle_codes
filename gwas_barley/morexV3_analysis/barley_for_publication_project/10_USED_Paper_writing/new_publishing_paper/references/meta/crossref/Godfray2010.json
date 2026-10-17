@@ -1,0 +1,1349 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2026-10-01T01:00:59Z",
+   "timestamp": 1790816459464,
+   "version": "4.1.0"
+  },
+  "reference-count": 52,
+  "publisher": "American Association for the Advancement of Science (AAAS)",
+  "issue": "5967",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Science"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     2,
+     12
+    ]
+   ]
+  },
+  "abstract": "<jats:p>Continuing population and consumption growth will mean that the global demand for food will increase for at least another 40 years. Growing competition for land, water, and energy, in addition to the overexploitation of fisheries, will affect our ability to produce food, as will the urgent requirement to reduce the impact of the food system on the environment. The effects of climate change are a further threat. But the world can produce more food and can ensure that it is used more efficiently and equitably. A multifaceted and linked global strategy is needed to ensure sustainable and equitable food security, different components of which are explored here.</jats:p>",
+  "DOI": "10.1126/science.1185383",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     1,
+     28
+    ]
+   ],
+   "date-time": "2010-01-28T22:19:48Z",
+   "timestamp": 1264717188000
+  },
+  "page": "812-818",
+  "source": "Crossref",
+  "is-referenced-by-count": 9615,
+  "title": [
+   "Food Security: The Challenge of Feeding 9 Billion People"
+  ],
+  "prefix": "10.1126",
+  "volume": "327",
+  "author": [
+   {
+    "given": "H. Charles J.",
+    "family": "Godfray",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Zoology and Institute of Biodiversity at the James Martin 21st Century School, University of Oxford, South Parks Road, Oxford OX1 3PS, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John R.",
+    "family": "Beddington",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "U.K. Government Office for Science, 1 Victoria Street, London SW1H OET, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ian R.",
+    "family": "Crute",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Agriculture and Horticulture Development Board, Stoneleigh Park, Kenilworth, Warwickshire CV8 2TL, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lawrence",
+    "family": "Haddad",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Development Studies, Falmer, Brighton BN1 9RE, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "Lawrence",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Syngenta AG, Post Office Box, CH-4002 Basel, Switzerland."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "James F.",
+    "family": "Muir",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Aquaculture, University of Stirling, Stirling FK9 4LA, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jules",
+    "family": "Pretty",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Biological Sciences, University of Essex, Wivenhoe Park, Colchester, Essex CO4 3SQ, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sherman",
+    "family": "Robinson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Development Studies, Falmer, Brighton BN1 9RE, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sandy M.",
+    "family": "Thomas",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Foresight, U.K. Government Office for Science, 1 Victoria Street, London SW1H OET, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Camilla",
+    "family": "Toulmin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "International Institute for Environment and Development, 3 Endsleigh Street, London WC1H 0DD, UK."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "221",
+  "reference": [
+   {
+    "key": "e_1_3_1_2_2",
+    "unstructured": "World Bank World Development Report 2008: Agriculture for Development (World Bank Washington DC 2008)."
+   },
+   {
+    "key": "e_1_3_1_3_2",
+    "unstructured": "FAOSTAT http://faostat.fao.org/default.aspx (2009)."
+   },
+   {
+    "key": "e_1_3_1_4_2",
+    "unstructured": "Food and Agriculture Organization of the United Nations (FAO) State of Food Insecurity in the World 2009 (FAO Rome 2009)."
+   },
+   {
+    "key": "e_1_3_1_5_2",
+    "unstructured": "A. Evans The Feeding of the Nine Billion: Global Food Security (Chatham House London 2009)."
+   },
+   {
+    "key": "e_1_3_1_6_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.1057544"
+   },
+   {
+    "key": "e_1_3_1_7_2",
+    "unstructured": "Millenium Ecosystem Assessment Ecosystems and Human Well-Being (World Resources Institute Washington DC 2005)."
+   },
+   {
+    "key": "e_1_3_1_8_2",
+    "unstructured": "Intergovernmental Panel on Climate Change Contribution of Working Group II to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change M. L. Parry et al . Eds. (Cambridge Univ. Press Cambridge 2007)."
+   },
+   {
+    "key": "e_1_3_1_9_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.0701976104"
+   },
+   {
+    "key": "e_1_3_1_10_2",
+    "unstructured": "J. von Braun The World Food Situation: New Driving Forces and Required Actions (International Food Policy Research Institute Washington DC 2007)."
+   },
+   {
+    "key": "e_1_3_1_11_2",
+    "unstructured": "G. Conway The Doubly Green Revolution (Penguin Books London 1997)."
+   },
+   {
+    "key": "e_1_3_1_12_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodpol.2009.01.001"
+   },
+   {
+    "key": "e_1_3_1_13_2",
+    "unstructured": "Royal Society of London Sustainable Biofuels: Prospects and Challenges (Royal Society London 2008)."
+   },
+   {
+    "key": "e_1_3_1_14_2",
+    "unstructured": "R. Skidelsky The Return of the Master (Allen Lane London 2009)."
+   },
+   {
+    "key": "e_1_3_1_15_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1098/rstb.2007.2163"
+   },
+   {
+    "key": "e_1_3_1_16_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-2486.2005.001035.x"
+   },
+   {
+    "key": "e_1_3_1_17_2",
+    "unstructured": "C. Nellemann et al . Eds. The Environmental Food Crisis [United Nations Environment Programme (UNEP) Nairobi Kenya 2009]."
+   },
+   {
+    "key": "e_1_3_1_18_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.1152747"
+   },
+   {
+    "key": "e_1_3_1_19_2",
+    "unstructured": "Royal Society of London Reaping the Benefits: Science and the Sustainable Intensification of Global Agriculture (Royal Society London 2009)."
+   },
+   {
+    "key": "e_1_3_1_20_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.96.11.5952"
+   },
+   {
+    "key": "e_1_3_1_21_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.1078710"
+   },
+   {
+    "key": "e_1_3_1_22_2",
+    "unstructured": "P. Hazell L. Haddad Food Agriculture and the Environment Discussion Paper 34 (International Food Policy Research Institute Washington DC 2001)."
+   },
+   {
+    "key": "e_1_3_1_23_2",
+    "unstructured": "Forum for Agricultural Research in Africa Framework for African Agricultural Productivity (Forum for Agricultural Research in Africa Accra Ghana 2006)."
+   },
+   {
+    "key": "e_1_3_1_24_2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "K. Anderson Ed. Distortions to Agricultural Incentives a Global Perspective 1955-2007 (Palgrave Macmillan London 2009).",
+    "DOI": "10.1596/978-0-8213-7665-2"
+   },
+   {
+    "key": "e_1_3_1_25_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodpol.2005.02.001"
+   },
+   {
+    "key": "e_1_3_1_26_2",
+    "unstructured": "G. C. Nelson et al . Climate Change: Impact on Agriculture and Costs of Adaptation (International Food Policy Research Institute Washington DC 2009)."
+   },
+   {
+    "key": "e_1_3_1_27_2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "N. Stern The Economics of Climate Change (Cambridge Univ. Press Cambridge 2007).",
+    "DOI": "10.1017/CBO9780511817434"
+   },
+   {
+    "key": "e_1_3_1_28_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1021/es051670d"
+   },
+   {
+    "key": "e_1_3_1_29_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1098/rstb.2007.2166"
+   },
+   {
+    "key": "e_1_3_1_30_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/wbro/lkp007"
+   },
+   {
+    "key": "e_1_3_1_31_2",
+    "first-page": "67",
+    "article-title": "The politics of hunger: How illusion and greed fan the food crisis",
+    "volume": "87",
+    "author": "Collier P.",
+    "year": "2008",
+    "unstructured": "Collier P., The politics of hunger: How illusion and greed fan the food crisis. Foreign Aff. 87, 67 (2008).",
+    "journal-title": "Foreign Aff."
+   },
+   {
+    "key": "e_1_3_1_32_2",
+    "unstructured": "L. Cotula S. Vermeulen L. Leonard J. Keeley Land Grab or Development Opportunity? Agricultural Investment and International Land Deals in Africa [International Institute for Environment and Development (with FAO and International Fund for Agricultural Development) London 2009]."
+   },
+   {
+    "key": "e_1_3_1_33_2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "A. Aksoy J. C. Beghin Eds. Global Agricultural Trade and Developing Countries (World Bank Washington DC 2005).",
+    "DOI": "10.1596/0-8213-5863-4"
+   },
+   {
+    "key": "e_1_3_1_34_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.fcr.2005.02.006"
+   },
+   {
+    "key": "e_1_3_1_35_2",
+    "unstructured": "IAASTD International Assessment of Agricultural Knowledge Science and Technology for Development: Executive Summary of the Synthesis Report www.agassessment.org/index.cfm?Page=About_IAASTD&ItemID=2 (2008)."
+   },
+   {
+    "key": "e_1_3_1_36_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1146/annurev.arplant.043008.092013"
+   },
+   {
+    "key": "e_1_3_1_37_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10677-007-9084-4"
+   },
+   {
+    "key": "e_1_3_1_38_2",
+    "unstructured": "Cabinent Office Food Matters: Towards a Strategy for the 21st Century (Cabinet Office Stategy Unit London 2008)."
+   },
+   {
+    "key": "e_1_3_1_39_2",
+    "unstructured": "Waste and Resources Action Programme (WRAP) The Food We Waste (WRAP Banbury UK 2008)."
+   },
+   {
+    "key": "e_1_3_1_40_2",
+    "unstructured": "T. Stuart Uncovering the Global Food Scandal (Penguin London 2009)."
+   },
+   {
+    "key": "e_1_3_1_41_2",
+    "unstructured": "FAO www.fao.org/english/newsroom/factfile/IMG/FF9712-e.pdf (1997)."
+   },
+   {
+    "key": "e_1_3_1_42_2",
+    "unstructured": "California Integrated Waste Management Board www.ciwmb.ca.gov/FoodWaste/FAQ.htm#Discards (2007)."
+   },
+   {
+    "key": "e_1_3_1_43_2",
+    "unstructured": "FAO World Agriculture Towards 2030/2050 (FAO Rome Italy 2006)."
+   },
+   {
+    "key": "e_1_3_1_44_2",
+    "unstructured": "FAO World Agriculture Towards 2030/2050 (FAO Rome Italy 2003)."
+   },
+   {
+    "key": "e_1_3_1_45_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.aquaculture.2008.08.015"
+   },
+   {
+    "key": "e_1_3_1_46_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.aquaculture.2008.08.015"
+   },
+   {
+    "key": "e_1_3_1_47_2",
+    "unstructured": "D. Whitmarsh N. G. Palmieri in Aquaculture in the Ecosystem M. Holmer K. Black C. M. Duarte N. Marba I. Karakassis Eds. (Springer Berlin Germany 2008)."
+   },
+   {
+    "key": "e_1_3_1_48_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1098/rstb.2007.2169"
+   },
+   {
+    "key": "e_1_3_1_49_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1098/rstb.2007.2168"
+   },
+   {
+    "key": "e_1_3_1_50_2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "J. Gressel Genetic Glass Ceilings (Johns Hopkins Univ. Press Baltimore 2008).",
+    "DOI": "10.1353/book.60335"
+   },
+   {
+    "key": "e_1_3_1_51_2",
+    "unstructured": "FAO Livestock\u2019s Long Shadow (FAO Rome Italy 2006)."
+   },
+   {
+    "key": "e_1_3_1_52_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.landusepol.2007.10.001"
+   },
+   {
+    "key": "e_1_3_1_53_2",
+    "unstructured": "UNEP Africa: Atlas of Our Changing Environment (UNEP Nairobi Kenya 2008)."
+   }
+  ],
+  "container-title": [
+   "Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.science.org/doi/pdf/10.1126/science.1185383",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     1,
+     10
+    ]
+   ],
+   "date-time": "2024-01-10T04:03:33Z",
+   "timestamp": 1704859413000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.science.org/doi/10.1126/science.1185383"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     2,
+     12
+    ]
+   ]
+  },
+  "references-count": 52,
+  "journal-issue": {
+   "issue": "5967",
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      2,
+      12
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1126/science.1185383"
+  ],
+  "URL": "https://doi.org/10.1126/science.1185383",
+  "relation": {},
+  "ISSN": [
+   "0036-8075",
+   "1095-9203"
+  ],
+  "issn-type": [
+   {
+    "value": "0036-8075",
+    "type": "print"
+   },
+   {
+    "value": "1095-9203",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     2,
+     12
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T01:00:59Z",
+    "timestamp": 1790816459464,
+    "version": "4.1.0"
+   },
+   "reference-count": 52,
+   "publisher": "American Association for the Advancement of Science (AAAS)",
+   "issue": "5967",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Science"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      2,
+      12
+     ]
+    ]
+   },
+   "abstract": "<jats:p>Continuing population and consumption growth will mean that the global demand for food will increase for at least another 40 years. Growing competition for land, water, and energy, in addition to the overexploitation of fisheries, will affect our ability to produce food, as will the urgent requirement to reduce the impact of the food system on the environment. The effects of climate change are a further threat. But the world can produce more food and can ensure that it is used more efficiently and equitably. A multifaceted and linked global strategy is needed to ensure sustainable and equitable food security, different components of which are explored here.</jats:p>",
+   "DOI": "10.1126/science.1185383",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      28
+     ]
+    ],
+    "date-time": "2010-01-28T22:19:48Z",
+    "timestamp": 1264717188000
+   },
+   "page": "812-818",
+   "source": "Crossref",
+   "is-referenced-by-count": 9615,
+   "title": [
+    "Food Security: The Challenge of Feeding 9 Billion People"
+   ],
+   "prefix": "10.1126",
+   "volume": "327",
+   "author": [
+    {
+     "given": "H. Charles J.",
+     "family": "Godfray",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Zoology and Institute of Biodiversity at the James Martin 21st Century School, University of Oxford, South Parks Road, Oxford OX1 3PS, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "John R.",
+     "family": "Beddington",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "U.K. Government Office for Science, 1 Victoria Street, London SW1H OET, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ian R.",
+     "family": "Crute",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Agriculture and Horticulture Development Board, Stoneleigh Park, Kenilworth, Warwickshire CV8 2TL, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Lawrence",
+     "family": "Haddad",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Development Studies, Falmer, Brighton BN1 9RE, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David",
+     "family": "Lawrence",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Syngenta AG, Post Office Box, CH-4002 Basel, Switzerland."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "James F.",
+     "family": "Muir",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Aquaculture, University of Stirling, Stirling FK9 4LA, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jules",
+     "family": "Pretty",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Biological Sciences, University of Essex, Wivenhoe Park, Colchester, Essex CO4 3SQ, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sherman",
+     "family": "Robinson",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Development Studies, Falmer, Brighton BN1 9RE, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sandy M.",
+     "family": "Thomas",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Foresight, U.K. Government Office for Science, 1 Victoria Street, London SW1H OET, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Camilla",
+     "family": "Toulmin",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "International Institute for Environment and Development, 3 Endsleigh Street, London WC1H 0DD, UK."
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "221",
+   "reference": [
+    {
+     "key": "e_1_3_1_2_2",
+     "unstructured": "World Bank World Development Report 2008: Agriculture for Development (World Bank Washington DC 2008)."
+    },
+    {
+     "key": "e_1_3_1_3_2",
+     "unstructured": "FAOSTAT http://faostat.fao.org/default.aspx (2009)."
+    },
+    {
+     "key": "e_1_3_1_4_2",
+     "unstructured": "Food and Agriculture Organization of the United Nations (FAO) State of Food Insecurity in the World 2009 (FAO Rome 2009)."
+    },
+    {
+     "key": "e_1_3_1_5_2",
+     "unstructured": "A. Evans The Feeding of the Nine Billion: Global Food Security (Chatham House London 2009)."
+    },
+    {
+     "key": "e_1_3_1_6_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1057544"
+    },
+    {
+     "key": "e_1_3_1_7_2",
+     "unstructured": "Millenium Ecosystem Assessment Ecosystems and Human Well-Being (World Resources Institute Washington DC 2005)."
+    },
+    {
+     "key": "e_1_3_1_8_2",
+     "unstructured": "Intergovernmental Panel on Climate Change Contribution of Working Group II to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change M. L. Parry et al . Eds. (Cambridge Univ. Press Cambridge 2007)."
+    },
+    {
+     "key": "e_1_3_1_9_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.0701976104"
+    },
+    {
+     "key": "e_1_3_1_10_2",
+     "unstructured": "J. von Braun The World Food Situation: New Driving Forces and Required Actions (International Food Policy Research Institute Washington DC 2007)."
+    },
+    {
+     "key": "e_1_3_1_11_2",
+     "unstructured": "G. Conway The Doubly Green Revolution (Penguin Books London 1997)."
+    },
+    {
+     "key": "e_1_3_1_12_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodpol.2009.01.001"
+    },
+    {
+     "key": "e_1_3_1_13_2",
+     "unstructured": "Royal Society of London Sustainable Biofuels: Prospects and Challenges (Royal Society London 2008)."
+    },
+    {
+     "key": "e_1_3_1_14_2",
+     "unstructured": "R. Skidelsky The Return of the Master (Allen Lane London 2009)."
+    },
+    {
+     "key": "e_1_3_1_15_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1098/rstb.2007.2163"
+    },
+    {
+     "key": "e_1_3_1_16_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-2486.2005.001035.x"
+    },
+    {
+     "key": "e_1_3_1_17_2",
+     "unstructured": "C. Nellemann et al . Eds. The Environmental Food Crisis [United Nations Environment Programme (UNEP) Nairobi Kenya 2009]."
+    },
+    {
+     "key": "e_1_3_1_18_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1152747"
+    },
+    {
+     "key": "e_1_3_1_19_2",
+     "unstructured": "Royal Society of London Reaping the Benefits: Science and the Sustainable Intensification of Global Agriculture (Royal Society London 2009)."
+    },
+    {
+     "key": "e_1_3_1_20_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.96.11.5952"
+    },
+    {
+     "key": "e_1_3_1_21_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1078710"
+    },
+    {
+     "key": "e_1_3_1_22_2",
+     "unstructured": "P. Hazell L. Haddad Food Agriculture and the Environment Discussion Paper 34 (International Food Policy Research Institute Washington DC 2001)."
+    },
+    {
+     "key": "e_1_3_1_23_2",
+     "unstructured": "Forum for Agricultural Research in Africa Framework for African Agricultural Productivity (Forum for Agricultural Research in Africa Accra Ghana 2006)."
+    },
+    {
+     "key": "e_1_3_1_24_2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "K. Anderson Ed. Distortions to Agricultural Incentives a Global Perspective 1955-2007 (Palgrave Macmillan London 2009).",
+     "DOI": "10.1596/978-0-8213-7665-2"
+    },
+    {
+     "key": "e_1_3_1_25_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodpol.2005.02.001"
+    },
+    {
+     "key": "e_1_3_1_26_2",
+     "unstructured": "G. C. Nelson et al . Climate Change: Impact on Agriculture and Costs of Adaptation (International Food Policy Research Institute Washington DC 2009)."
+    },
+    {
+     "key": "e_1_3_1_27_2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "N. Stern The Economics of Climate Change (Cambridge Univ. Press Cambridge 2007).",
+     "DOI": "10.1017/CBO9780511817434"
+    },
+    {
+     "key": "e_1_3_1_28_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/es051670d"
+    },
+    {
+     "key": "e_1_3_1_29_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1098/rstb.2007.2166"
+    },
+    {
+     "key": "e_1_3_1_30_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/wbro/lkp007"
+    },
+    {
+     "key": "e_1_3_1_31_2",
+     "first-page": "67",
+     "article-title": "The politics of hunger: How illusion and greed fan the food crisis",
+     "volume": "87",
+     "author": "Collier P.",
+     "year": "2008",
+     "unstructured": "Collier P., The politics of hunger: How illusion and greed fan the food crisis. Foreign Aff. 87, 67 (2008).",
+     "journal-title": "Foreign Aff."
+    },
+    {
+     "key": "e_1_3_1_32_2",
+     "unstructured": "L. Cotula S. Vermeulen L. Leonard J. Keeley Land Grab or Development Opportunity? Agricultural Investment and International Land Deals in Africa [International Institute for Environment and Development (with FAO and International Fund for Agricultural Development) London 2009]."
+    },
+    {
+     "key": "e_1_3_1_33_2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "A. Aksoy J. C. Beghin Eds. Global Agricultural Trade and Developing Countries (World Bank Washington DC 2005).",
+     "DOI": "10.1596/0-8213-5863-4"
+    },
+    {
+     "key": "e_1_3_1_34_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.fcr.2005.02.006"
+    },
+    {
+     "key": "e_1_3_1_35_2",
+     "unstructured": "IAASTD International Assessment of Agricultural Knowledge Science and Technology for Development: Executive Summary of the Synthesis Report www.agassessment.org/index.cfm?Page=About_IAASTD&ItemID=2 (2008)."
+    },
+    {
+     "key": "e_1_3_1_36_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.arplant.043008.092013"
+    },
+    {
+     "key": "e_1_3_1_37_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10677-007-9084-4"
+    },
+    {
+     "key": "e_1_3_1_38_2",
+     "unstructured": "Cabinent Office Food Matters: Towards a Strategy for the 21st Century (Cabinet Office Stategy Unit London 2008)."
+    },
+    {
+     "key": "e_1_3_1_39_2",
+     "unstructured": "Waste and Resources Action Programme (WRAP) The Food We Waste (WRAP Banbury UK 2008)."
+    },
+    {
+     "key": "e_1_3_1_40_2",
+     "unstructured": "T. Stuart Uncovering the Global Food Scandal (Penguin London 2009)."
+    },
+    {
+     "key": "e_1_3_1_41_2",
+     "unstructured": "FAO www.fao.org/english/newsroom/factfile/IMG/FF9712-e.pdf (1997)."
+    },
+    {
+     "key": "e_1_3_1_42_2",
+     "unstructured": "California Integrated Waste Management Board www.ciwmb.ca.gov/FoodWaste/FAQ.htm#Discards (2007)."
+    },
+    {
+     "key": "e_1_3_1_43_2",
+     "unstructured": "FAO World Agriculture Towards 2030/2050 (FAO Rome Italy 2006)."
+    },
+    {
+     "key": "e_1_3_1_44_2",
+     "unstructured": "FAO World Agriculture Towards 2030/2050 (FAO Rome Italy 2003)."
+    },
+    {
+     "key": "e_1_3_1_45_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.aquaculture.2008.08.015"
+    },
+    {
+     "key": "e_1_3_1_46_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.aquaculture.2008.08.015"
+    },
+    {
+     "key": "e_1_3_1_47_2",
+     "unstructured": "D. Whitmarsh N. G. Palmieri in Aquaculture in the Ecosystem M. Holmer K. Black C. M. Duarte N. Marba I. Karakassis Eds. (Springer Berlin Germany 2008)."
+    },
+    {
+     "key": "e_1_3_1_48_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1098/rstb.2007.2169"
+    },
+    {
+     "key": "e_1_3_1_49_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1098/rstb.2007.2168"
+    },
+    {
+     "key": "e_1_3_1_50_2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "J. Gressel Genetic Glass Ceilings (Johns Hopkins Univ. Press Baltimore 2008).",
+     "DOI": "10.1353/book.60335"
+    },
+    {
+     "key": "e_1_3_1_51_2",
+     "unstructured": "FAO Livestock\u2019s Long Shadow (FAO Rome Italy 2006)."
+    },
+    {
+     "key": "e_1_3_1_52_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.landusepol.2007.10.001"
+    },
+    {
+     "key": "e_1_3_1_53_2",
+     "unstructured": "UNEP Africa: Atlas of Our Changing Environment (UNEP Nairobi Kenya 2008)."
+    }
+   ],
+   "container-title": [
+    "Science"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.science.org/doi/pdf/10.1126/science.1185383",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      10
+     ]
+    ],
+    "date-time": "2024-01-10T04:03:33Z",
+    "timestamp": 1704859413000
+   },
+   "score": 49.540928,
+   "resource": {
+    "primary": {
+     "URL": "https://www.science.org/doi/10.1126/science.1185383"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      2,
+      12
+     ]
+    ]
+   },
+   "references-count": 52,
+   "journal-issue": {
+    "issue": "5967",
+    "published-print": {
+     "date-parts": [
+      [
+       2010,
+       2,
+       12
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1126/science.1185383"
+   ],
+   "URL": "https://doi.org/10.1126/science.1185383",
+   "ISSN": [
+    "0036-8075",
+    "1095-9203"
+   ],
+   "issn-type": [
+    {
+     "value": "0036-8075",
+     "type": "print"
+    },
+    {
+     "value": "1095-9203",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      2,
+      12
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      5,
+      12
+     ]
+    ],
+    "date-time": "2024-05-12T05:57:33Z",
+    "timestamp": 1715493453963
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press",
+   "isbn-type": [
+    {
+     "value": "9780195113129",
+     "type": "print"
+    },
+    {
+     "value": "9780197561119",
+     "type": "electronic"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1998,
+      7,
+      30
+     ]
+    ]
+   },
+   "abstract": "<p>Most observers agree that, barring catastrophe, the global population will number more than 8 billion by 2025. There is, however, less agreement about the consequences for food security. Some, for example, Brown and Kane of the World Watch Institute (Brown and Kane, 1994), argue that there will be widespread shortages of foodstuffs, accompanied by higher global prices. Others, like Alexandratos of the Food and Agriculture Organization of the United Nations (FAO) (Alexandratos, 1995), claim that production will match rising demands and that prices will continue to decline in real terms. All agree, however, that the world\u2019s poor, especially those in the poorest countries, will be without adequate food. This chapter links food security with poverty and argues that increased productivity in agriculture is the most effective way for the poor to achieve food security. What is food security? The International Food Policy Research Institute, IFPRI (IFPRI, 1995) defines food security as \u201ceconomic and physical access at all times to the food required for a healthy and productive life.\u201d Food security has two dimensions: the availability of food and access to food. Availability depends on production, and, while the debate about global availability continues, the view in this chapter, like that of the FAO, is that adequate food will be available globally at real prices roughly comparable to those prevailing in the 1990s. (See Dyson, 1996, p. 167, for perhaps the latest systematic study holding this view.) To achieve food adequacy, the major assumptions here are that research will continue to turn out the elements of improved technologies and that Eastern Europe, especially Russia and Ukraine, will move closer to its potential as a food supplier. Lack of access to food because of poverty, however, is a major challenge. Some people in the developed world and in higher-income developing countries do not have access to food, but policy changes could resolve that problem; certainly, such societies have the resources. This is not the case for the poor in the world\u2019s poorest countries; for them, the combination of individual and societal poverty severely limits access to adequate foodstuffs.</p>",
+   "DOI": "10.1093/oso/9780195113129.003.0028",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      11
+     ]
+    ],
+    "date-time": "2020-11-11T00:56:42Z",
+    "timestamp": 1605056202000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "Productivity, Poverty Alleviation, and Food Security"
+   ],
+   "prefix": "10.1093",
+   "author": [
+    {
+     "given": "Donald L.",
+     "family": "Winkelmann",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      12
+     ]
+    ]
+   },
+   "container-title": [
+    "Feeding a World Population of More Than Eight Billion People"
+   ],
+   "original-title": [
+    "Productivity, Poverty Alleviation, and Food Security"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      8,
+      2
+     ]
+    ],
+    "date-time": "2022-08-02T21:51:32Z",
+    "timestamp": 1659477092000
+   },
+   "score": 49.43669,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/book/41791/chapter/354497213"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1998,
+      7,
+      30
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780195113129",
+    "9780197561119"
+   ],
+   "references-count": 0,
+   "URL": "https://doi.org/10.1093/oso/9780195113129.003.0028",
+   "published": {
+    "date-parts": [
+     [
+      1998,
+      7,
+      30
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      5,
+      12
+     ]
+    ],
+    "date-time": "2024-05-12T05:57:33Z",
+    "timestamp": 1715493453189
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press",
+   "isbn-type": [
+    {
+     "value": "9780195113129",
+     "type": "print"
+    },
+    {
+     "value": "9780197561119",
+     "type": "electronic"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1998,
+      7,
+      30
+     ]
+    ]
+   },
+   "abstract": "<p>People expressing concern about the environmental resource basis of human life often take a global, futuristic view (see, e.g., Kennedy, 1993). They emphasize the deleterious effects that growing population and rising consumption would have on our planet in the future. They express worry that the increasing demand for environmental resources (such as agricultural land, forests, fisheries, fresh water, the atmosphere, and the oceans) and the resulting impacts on ecosystem services (such as regenerating soils, recycling nutrients, filtering pollutants, assimilating waste, pollinating crops, and operating the hydrological cycle) would make civilization unsustainable. This book is, at least in part, a response to this thought. Although the global, futuristic emphasis has proved useful, it has had two unfortunate consequences: it has encouraged us to adopt an all-or-nothing position (the future will be either catastrophic or rosy), and it has drawn attention away from the economic misery that is endemic in large parts of the world today. Disaster is not something for which the poorest have to wait: they face it right now, and nearly 1 billion people go to bed hungry each night, having been unable to escape from something that can be called a poverty trap. Moreover, in poor countries, decisions on fertility and on allocations concerning education, child care, food, work, health care, and the use of the local environmental resource base are in large measure reached and implemented within households. In earlier work (Dasgupta, 1993, 1995a, 1995b, 1996, 1997), I have tried to show that the interface that connects the problems of population growth, poverty environmental degradation, food insecurity, and civic disconnection should ideally be studied with reference to myriad communitarian, household, and individual decisions, or, in other words, that if we are to reach a global, futuristic vision of the human dilemma, we need to adopt a local, contemporary lens.</p>",
+   "DOI": "10.1093/oso/9780195113129.003.0007",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      10
+     ]
+    ],
+    "date-time": "2020-11-10T23:47:20Z",
+    "timestamp": 1605052040000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "The Economies of Food"
+   ],
+   "prefix": "10.1093",
+   "author": [
+    {
+     "given": "Partha",
+     "family": "Dasgupta",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      12
+     ]
+    ]
+   },
+   "container-title": [
+    "Feeding a World Population of More Than Eight Billion People"
+   ],
+   "original-title": [
+    "The Economies of Food"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      8,
+      2
+     ]
+    ],
+    "date-time": "2022-08-02T21:51:23Z",
+    "timestamp": 1659477083000
+   },
+   "score": 44.050743,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/book/41791/chapter/354494681"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1998,
+      7,
+      30
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780195113129",
+    "9780197561119"
+   ],
+   "references-count": 0,
+   "URL": "https://doi.org/10.1093/oso/9780195113129.003.0007",
+   "published": {
+    "date-parts": [
+     [
+      1998,
+      7,
+      30
+     ]
+    ]
+   }
+  }
+ ]
+}

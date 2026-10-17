@@ -1,6 +1,39 @@
-# Supplementary (Online Resources) — running list
+# Supplementary (Online Resources)
 
-Collected while writing; a later session fixes the numbering and builds the files. Started 2026-09-29.
+**Where everything is: `README.md` in this folder** (folder map, download folder, rebuild command). This file is the list.
+
+## Final numbering (2026-10-01) — BUILT
+
+Numbered by first citation in the manuscript (checked: 1 → 13 in reading order). Files in this folder, built by
+`scripts/build_all.sh` (README there: sources, checks, layout). Questions and answers: `../build/proposed/ESM0_QUESTIONS.md`;
+hand-over: `../build/SUPPLEMENTARY_DONE_2026-10.md`. Every citation is resolved; the "supmat" Word comments that tracked them were deleted on 2026-10-01.
+
+| # | file | content | status |
+|---|---|---|---|
+| 1 | `ESM_1.xlsx` | sampling sites, accessions (ENA identifiers, genotype BLUPs of 10 traits), site environments, environmental correlations | built; no unit for plant height and grain weight (as Mol Ecol) |
+| 2 | `ESM_2.xlsx` | validation of the NIR calibration (30 calibration accessions; N. Pintel's files) and inter-block correlations 2019–20 | built |
+| 3 | `ESM_3.xlsx` | variance components and H² | built |
+| 4 | `ESM_4.pdf` | LD decay, a genome-wide, b per chromosome | built |
+| 5 | `ESM_5.xlsx` | 36 loci; 52 significant SNPs | built |
+| 6 | `ESM_6.xlsx` | 55 candidate genes | built |
+| 7 | `ESM_7.xlsx` | choice of ε | built |
+| 8 | `ESM_8.xlsx` | canonical β-glucan genes on MorexV3 | built |
+| 9 | `ESM_9.pdf` | crosshap plots of the four presented genes, GDSL for fiber and starch (replaces the 7H MGmin × ε grid, dropped by the user) | built |
+| 10 | `ESM_10.xlsx` | elite cultivars: lines, screen, site accounting, excluded sites | built |
+| 11 | `ESM_11.xlsx` | carrier origin, tables | built |
+| 12 | `ESM_12.pdf` | carrier origin, Figs. S1–S2 | built |
+| 13 | `ESM_13.pdf` | site figure (former Fig. 2a) | built |
+
+**For download / upload:** `for_submission/` — `xlsx/` (9), `pdf/` (4), `ESM_all_Online_Resources.zip` (all 13) and `CAPTIONS.md` (file → caption for the submission system); refreshed by `scripts/build_all.sh`. One file per Online Resource, as TAG asks (no merged PDF).
+
+Title blocks: author names, the corresponding author's affiliation and e-mail are **placeholders** (`scripts/esm_common.py`;
+manuscript checklist item 1). Captions in the manuscript: last section, "Supplementary Information" (item CAP1, applied).
+**Not cited in the text** (user, 2026-10-01): `unreferenced/` — the raw-phenotype checks; the user decides later whether
+they join the numbered set.
+
+## Planning list (2026-09-29 to 2026-09-30; kept for the record, superseded by the table above)
+
+Collected while writing. Started 2026-09-29.
 
 **TAG rules:** cite as "Online Resource N"; files `ESM_N.xlsx` / `ESM_N.pdf`, numbered in citation order; each file carries
 the article title, journal, authors and the corresponding author's affiliation and e-mail; a short caption for each in the
@@ -10,7 +43,7 @@ manuscript. Tables → .xlsx/.csv; figure or text collections → PDF. A large s
 main text. Table 1 → the variance-components Online Resource; Table 2 → the all-candidate-genes Online Resource (which
 also absorbs the 55-gene table and the 23-gene annotation table, formerly "Online Resource 2"); old Fig. 2a → the
 site-figure Online Resource. The three are **built** (files below). In TAG, "Online Resource N" = a supplementary
-file (ESM); nothing is uploaded elsewhere. Numbering is still open (placeholders "Online Resource N", each with a TODO).
+file (ESM); nothing is uploaded elsewhere. Numbering was still open then (fixed 2026-10-01, above).
 Built ESM files: tables in `supplementary/tables/` (scripts in `supplementary/scripts/`, README there); figures in
 `08_USED_creating_figures/Figure_ESM_*/`.
 
@@ -35,9 +68,9 @@ column, not in a caption, and not in file names (e.g. the `T1__…` prefix of `0
 | – | Variant-calling tools, versions and filter thresholds (optional; Evgeny suggests it) | the calling pipeline in one place | M&M §1 ¶3–4 | VCF header + Evgeny's reply (`build/MM_BLUEPRINT.md`, Appendix A) |
 | – | LD decay, genome-wide + per chromosome | descriptive. **Caption must carry** (moved out of the M&M text, item MM4, 2026-09-30): pairs with r² ≥ 0.001 within 2.5 Mb, 1-kb bins, LOESS span 0.10 weighted by pair count; the smoothed r² falls to 0.2 at about 188 kb | M&M §5 ¶3 only (TODO 219, `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md`) | `02_USED_LD_decay_V2_wholegenome/results/figure_ld_decay_*.png`; value from `02_…/results/ld_decay_summary_for_results_chapter.txt` |
 | – | crosshap ε comparison on the 55 candidate genes (ε 0.2–1.0: genes testable, accessions assigned, median groups) | why ε = 0.6 (balance of testable genes and assigned accessions) | M&M §7 ¶2 (TODO 223, `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md`) | `04_USED_haplotype_analysis_crosshap/04_runs/loci_LDspan_eps06_V4/Diagnostics/epsilon_choice_supplementary.tsv` (summary) + `epsilon_choice_per_gene.tsv` (55 genes × 5 ε), from `01_scripts/diagnostics/parameter_choice_tables.R` (2026-09-30) |
-| – | PC variance (scree), 3 PCs | structure correction | **not cited** (user 2026-09-29: the M&M cites Potapenko et al. 2026a for 3 PCs, no justification in the text); keep only if wanted | `01_…/00_FINAL_BLUP_3PC/03_pc_selection/Table_S2_pc_variance.tsv` |
+| – | PC variance (scree), 3 PCs | structure correction | **not cited** (user 2026-09-29: the M&M cites Potapenko et al. 2026b (Mol Ecol; 2026a before the REF1 letter swap) for 3 PCs, no justification in the text); keep only if wanted | `01_…/00_FINAL_BLUP_3PC/03_pc_selection/Table_S2_pc_variance.tsv` |
 | – | NIR calibration validation (Pearson r) | calibration quality | M&M §3 ¶2 (TODO 214, `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md`) | old M&M 2.5.2026 / thesis Table 1 — **Noam to verify** |
-| – | Block 4 of 2019–20: inter-block correlations of the 4 NIR traits | why it was removed (β-glucan) | M&M §4 ¶1 (TODO 215, `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md`) | `12_USED_adittional_checks/01_block4_2019_interblock_correlations/results/tables/Table_OnlineResource_2019_block_correlations.tsv` (generated 2026-09-29; optional figure `results/figures/Fig_interblock_correlation_heatmaps.png`) |
+| – | Block 4 of 2019–20: inter-block correlations of the 4 NIR traits | why it was removed (β-glucan) | M&M §4 ¶1 (TODO 215, `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md`) | `12_USED_adittional_checks_for_supplementary/01_block4_2019_interblock_correlations/results/tables/Table_OnlineResource_2019_block_correlations.tsv` (generated 2026-09-29; optional figure `results/figures/Fig_interblock_correlation_heatmaps.png`) |
 | – | Genotype BLUPs, 290 accessions × traits | TAG expects phenotype data for QTL studies (as in Potapenko et al.: phenotypes as supplementary, no separate deposit) | M&M closing paragraph (TODO 234, `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md`); Data availability | `00_THIN_…/outputs/subsection_1/tables/BLUP_10_traits.csv` |
 | – | Sampling sites and accessions: site number, name, ecotype region or intermediate zone, coordinates; per accession its ENA sample alias (VCF `HS0103` = ENA `01_03`) | the site-to-region division behind the site figure (former Fig. 2a); links accessions to the raw reads | M&M §1 ¶1 (TODO 218; moved there from §4 ¶5 by item MM3, 2026-09-30) and closing paragraph (TODO 234), `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md` | `00_THIN_…/01_phenotypic_analysis_no_GxE_v3_streamlined.R` (SITE_NAME_MAP, SITE_REGION_MAP) + longitude/latitude in `00_THIN_…/all years barley.csv`; could be merged with the environmental-variables table below |
 | – | Site environmental variables + collinearity matrix | Fig. 1d inputs (former Fig. 2d); the two variables dropped for collinearity | M&M §4 ¶5 (TODO 217, `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md`) | `00_THIN_…/outputs/subsection_1/C2_trait_environment_correlations/tables/C2corr_site_level_dataset.csv` + `C2_environmental_predictor_collinearity/tables/C2col_environment_correlation_matrix.csv` |

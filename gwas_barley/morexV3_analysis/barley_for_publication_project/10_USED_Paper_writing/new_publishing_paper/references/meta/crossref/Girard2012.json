@@ -1,0 +1,1683 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     27
+    ]
+   ],
+   "date-time": "2026-09-27T21:34:22Z",
+   "timestamp": 1790544862831,
+   "version": "4.1.0"
+  },
+  "reference-count": 0,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2013,
+       7,
+       1
+      ]
+     ],
+     "date-time": "2013-07-01T00:00:00Z",
+     "timestamp": 1372636800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 365,
+    "URL": "http://aspb.org/publications/aspb-journals/open-articles"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Plant Cell"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2012,
+     7
+    ]
+   ]
+  },
+  "DOI": "10.1105/tpc.112.101055",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2012,
+     7,
+     18
+    ]
+   ],
+   "date-time": "2012-07-18T23:06:54Z",
+   "timestamp": 1342652814000
+  },
+  "page": "3119-3134",
+  "source": "Crossref",
+  "is-referenced-by-count": 218,
+  "title": [
+   "Tomato GDSL1 Is Required for Cutin Deposition in the Fruit Cuticle"
+  ],
+  "prefix": "10.1093",
+  "volume": "24",
+  "author": [
+   {
+    "given": "Anne-Laure",
+    "family": "Girard",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Fabien",
+    "family": "Mounet",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Martine",
+    "family": "Lemaire-Chamley",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     },
+     {
+      "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C\u00e9dric",
+    "family": "Gaillard",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Khalil",
+    "family": "Elmorjani",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Julien",
+    "family": "Vivancos",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jean-Luc",
+    "family": "Runavot",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bernard",
+    "family": "Quemener",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Johann",
+    "family": "Petit",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     },
+     {
+      "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "V\u00e9ronique",
+    "family": "Germain",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     },
+     {
+      "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Christophe",
+    "family": "Rothan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     },
+     {
+      "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Didier",
+    "family": "Marion",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "B\u00e9n\u00e9dicte",
+    "family": "Bakan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2012,
+     7,
+     17
+    ]
+   ]
+  },
+  "container-title": [
+   "The Plant Cell"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://syndication.highwire.org/content/doi/10.1105/tpc.112.101055",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     2,
+     13
+    ]
+   ],
+   "date-time": "2021-02-13T01:45:56Z",
+   "timestamp": 1613180756000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/plcell/article/24/7/3119-3134/6100878"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2012,
+     7
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "7",
+   "published-online": {
+    "date-parts": [
+     [
+      2012,
+      8,
+      23
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2012,
+      7
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1105/tpc.112.101055"
+  ],
+  "URL": "https://doi.org/10.1105/tpc.112.101055",
+  "relation": {},
+  "ISSN": [
+   "1040-4651",
+   "1532-298X"
+  ],
+  "issn-type": [
+   {
+    "value": "1040-4651",
+    "type": "print"
+   },
+   {
+    "value": "1532-298X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2012,
+     7
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      27
+     ]
+    ],
+    "date-time": "2026-09-27T21:34:22Z",
+    "timestamp": 1790544862831,
+    "version": "4.1.0"
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "7",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2013,
+        7,
+        1
+       ]
+      ],
+      "date-time": "2013-07-01T00:00:00Z",
+      "timestamp": 1372636800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 365,
+     "URL": "http://aspb.org/publications/aspb-journals/open-articles"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Plant Cell"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2012,
+      7
+     ]
+    ]
+   },
+   "DOI": "10.1105/tpc.112.101055",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2012,
+      7,
+      18
+     ]
+    ],
+    "date-time": "2012-07-18T23:06:54Z",
+    "timestamp": 1342652814000
+   },
+   "page": "3119-3134",
+   "source": "Crossref",
+   "is-referenced-by-count": 218,
+   "title": [
+    "Tomato GDSL1 Is Required for Cutin Deposition in the Fruit Cuticle"
+   ],
+   "prefix": "10.1093",
+   "volume": "24",
+   "author": [
+    {
+     "given": "Anne-Laure",
+     "family": "Girard",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Fabien",
+     "family": "Mounet",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Martine",
+     "family": "Lemaire-Chamley",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      },
+      {
+       "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "C\u00e9dric",
+     "family": "Gaillard",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Khalil",
+     "family": "Elmorjani",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Julien",
+     "family": "Vivancos",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jean-Luc",
+     "family": "Runavot",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Bernard",
+     "family": "Quemener",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Johann",
+     "family": "Petit",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      },
+      {
+       "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "V\u00e9ronique",
+     "family": "Germain",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      },
+      {
+       "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Christophe",
+     "family": "Rothan",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institut National de la Recherche Agronomique, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      },
+      {
+       "name": "Universit\u00e9 de Bordeaux, Unit\u00e9 Mixte de Recherche 1332 Biologie du Fruit et Pathologie, F-33140 Villenave d\u2019Ornon, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Didier",
+     "family": "Marion",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "B\u00e9n\u00e9dicte",
+     "family": "Bakan",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Unit\u00e9 Biopolym\u00e8res, Interactions, Assemblages, Institut National de la Recherche Agronomique, F-44316 Nantes cedex 3, France"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2012,
+      7,
+      17
+     ]
+    ]
+   },
+   "container-title": [
+    "The Plant Cell"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1105/tpc.112.101055",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      2,
+      13
+     ]
+    ],
+    "date-time": "2021-02-13T01:45:56Z",
+    "timestamp": 1613180756000
+   },
+   "score": 64.12307,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/plcell/article/24/7/3119-3134/6100878"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2012,
+      7
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "7",
+    "published-online": {
+     "date-parts": [
+      [
+       2012,
+       8,
+       23
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2012,
+       7
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1105/tpc.112.101055"
+   ],
+   "URL": "https://doi.org/10.1105/tpc.112.101055",
+   "ISSN": [
+    "1040-4651",
+    "1532-298X"
+   ],
+   "issn-type": [
+    {
+     "value": "1040-4651",
+     "type": "print"
+    },
+    {
+     "value": "1532-298X",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2012,
+      7
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      27
+     ]
+    ],
+    "date-time": "2026-09-27T07:42:35Z",
+    "timestamp": 1790494955684,
+    "version": "4.1.0"
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        8,
+        1
+       ]
+      ],
+      "date-time": "2021-08-01T00:00:00Z",
+      "timestamp": 1627776000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 432,
+     "URL": "http://aspb.org/publications/aspb-journals/open-articles"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/100014440",
+     "name": "Ministry of Science, Innovation and Universities",
+     "doi-asserted-by": "crossref",
+     "award": [
+      "RTI2018\u2013094277\u2013B"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "RTI2018\u2013094277\u2013B"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100014440",
+       "id-type": "DOI",
+       "asserted-by": "crossref"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "plantphysiol.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Plant Physiol."
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      8
+     ]
+    ]
+   },
+   "DOI": "10.1104/pp.20.00516",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      27
+     ]
+    ],
+    "date-time": "2020-05-27T01:44:31Z",
+    "timestamp": 1590543871000
+   },
+   "page": "1622-1637",
+   "update-policy": "https://doi.org/10.1105/tpc.16.cmpolicy",
+   "source": "Crossref",
+   "is-referenced-by-count": 39,
+   "title": [
+    "Cutinsomes and CUTIN SYNTHASE1 Function Sequentially in Tomato Fruit Cutin Deposition"
+   ],
+   "prefix": "10.1093",
+   "volume": "183",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-0531-8830",
+     "authenticated-orcid": false,
+     "given": "Patricia",
+     "family": "Segado",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Instituto de Hortofruticultura Subtropical y Mediterr\u00e1nea La Mayora, Universidad de M\u00e1laga - Consejo Superior de Investigaciones Cient\u00edficas Departamento de Biolog\u00eda Molecular y Bioqu\u00edmica, Universidad de M\u00e1laga, E\u201329071 M\u00e1laga, Spain"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-8251-7577",
+     "authenticated-orcid": false,
+     "given": "Jos\u00e9 Alejandro",
+     "family": "Heredia-Guerrero",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Instituto de Hortofruticultura Subtropical y Mediterr\u00e1nea La Mayora, Universidad de M\u00e1laga - Consejo Superior de Investigaciones Cient\u00edficas, Departamento de Mejora Gen\u00e9tica y Biotecnolog\u00eda, Estaci\u00f3n Experimental La Mayora, Algarrobo-Costa, E\u201329750 M\u00e1laga, Spain"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-3328-1115",
+     "authenticated-orcid": false,
+     "given": "Antonio",
+     "family": "Heredia",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Instituto de Hortofruticultura Subtropical y Mediterr\u00e1nea La Mayora, Universidad de M\u00e1laga - Consejo Superior de Investigaciones Cient\u00edficas Departamento de Biolog\u00eda Molecular y Bioqu\u00edmica, Universidad de M\u00e1laga, E\u201329071 M\u00e1laga, Spain"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4129-9849",
+     "authenticated-orcid": false,
+     "given": "Eva",
+     "family": "Dom\u00ednguez",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Instituto de Hortofruticultura Subtropical y Mediterr\u00e1nea La Mayora, Universidad de M\u00e1laga - Consejo Superior de Investigaciones Cient\u00edficas, Departamento de Mejora Gen\u00e9tica y Biotecnolog\u00eda, Estaci\u00f3n Experimental La Mayora, Algarrobo-Costa, E\u201329750 M\u00e1laga, Spain"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      26
+     ]
+    ]
+   },
+   "container-title": [
+    "Plant Physiology"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1104/pp.20.00516",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1104/pp.20.00516",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      2,
+      17
+     ]
+    ],
+    "date-time": "2021-02-17T13:57:52Z",
+    "timestamp": 1613570272000
+   },
+   "score": 38.13824,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/plphys/article/183/4/1622-1637/6118560"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      26
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "4",
+    "published-online": {
+     "date-parts": [
+      [
+       2020,
+       8,
+       3
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       8
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1104/pp.20.00516"
+   ],
+   "URL": "https://doi.org/10.1104/pp.20.00516",
+   "ISSN": [
+    "0032-0889",
+    "1532-2548"
+   ],
+   "issn-type": [
+    {
+     "value": "0032-0889",
+     "type": "print"
+    },
+    {
+     "value": "1532-2548",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      26
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      29
+     ]
+    ],
+    "date-time": "2026-07-29T08:07:35Z",
+    "timestamp": 1785312455086,
+    "version": "3.55.0"
+   },
+   "reference-count": 41,
+   "publisher": "American Society for Horticultural Science",
+   "issue": "12",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        12,
+        1
+       ]
+      ],
+      "date-time": "2025-12-01T00:00:00Z",
+      "timestamp": 1764547200000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "horts"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2025,
+      12
+     ]
+    ]
+   },
+   "abstract": "<jats:p>\n                    Cuticular microcracks impair the barrier functions of the fruit cuticles of many fruit-crop species, including of apple (\n                    <jats:italic>Malus \u00d7domestica</jats:italic>\n                    ). Among other factors, microcracking depends on the balance between the rate of cuticle deposition and the rate of fruit growth. The objective of our study was to test the hypothesis that feeding the developing apple fruit with a precursor of cutin monomers increases cuticle deposition. Carbon-13\u2013labeled oleic acid applied to the surface of \u2018Gala\u2019 apples was taken up and incorporated in the cutin fraction at all application concentrations. The rate of cuticle deposition decreased during development. Compared with the untreated controls, spray applications of oleic acid, submersion in an emulsion containing oleic acid, or feeding oleic acid using a tube mounted on the surface did not result in significant increases in the mass of the cuticular membrane (CM) or the dewaxed CM (DCM), or the wax per unit area. Similarly, spray applications of oleic acid had little effect on cuticle deposition. CM, DCM, and wax mass did increase slightly as the concentration of oleic acid increased, but this effect was only occasionally significant statistically. CM and wax mass were greater at 151 days than at 79 days after full bloom. Spray applications of the emulsion of oleic acid caused severe russeting at all concentrations. Uniaxial tensile tests showed no treatment effects on cuticle stiffness or maximum strain, but fracture force did decrease as the oleic acid concentration increased. Our results reveal that external applications of a precursor of cutin monomers or wax constituents do not lead to gravimetrically detectable increases in cuticle mass nor (most likely) to physiologically relevant increases in cuticle mass.\n                  </jats:p>",
+   "DOI": "10.21273/hortsci18917-25",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      20
+     ]
+    ],
+    "date-time": "2025-10-20T16:53:21Z",
+    "timestamp": 1760979201000
+   },
+   "page": "2244-2249",
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Feeding a Cutin Precursor (Oleic Acid) to Developing Apple Fruit Does Not Increase Cuticle Deposition"
+   ],
+   "prefix": "10.21273",
+   "volume": "60",
+   "author": [
+    {
+     "given": "Bishnu P.",
+     "family": "Khanal",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Institute of Horticultural Production Systems, Leibniz University Hannover, Herrenh\u00e4user Stra\u00dfe 2, 30419 Hannover, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Puja",
+     "family": "Paudel",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Horticultural Production Systems, Leibniz University Hannover, Herrenh\u00e4user Stra\u00dfe 2, 30419 Hannover, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Moritz",
+     "family": "Knoche",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Institute of Horticultural Production Systems, Leibniz University Hannover, Herrenh\u00e4user Stra\u00dfe 2, 30419 Hannover, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "9090",
+   "reference": [
+    {
+     "key": "B1",
+     "article-title": "Improved pharmaceutical formulations comprising Ritonavir",
+     "author": "Alani LA",
+     "year": "2006",
+     "unstructured": "Alani LA, Ghosh S (inventors). 2006. Improved pharmaceutical formulations comprising Ritonavir. Abbott Laboratories (assignee). European patent - EP1 183 026 B1 (Filed 25 May 2000, granted 5 Jul 2006)."
+    },
+    {
+     "issue": "1",
+     "key": "B2",
+     "series-title": "Ann Bot",
+     "first-page": "101",
+     "article-title": "Identification of putative candidate genes involved in cuticle formation in Prunus avium (sweet cherry) fruit",
+     "volume": "110",
+     "author": "Alkio M",
+     "year": "2012",
+     "unstructured": "Alkio M, Jonas U, Sprink T, van Nocker S, Knoche M. 2012. Identification of putative candidate genes involved in cuticle formation in Prunus avium (sweet cherry) fruit. Ann Bot. 110(1):101\u2013112."
+    },
+    {
+     "issue": "9",
+     "key": "B3",
+     "series-title": "PLoS One",
+     "first-page": "e091129",
+     "article-title": "Lenticels are sites of initiation of microcracking and russeting in \u2018Apple\u2019 mango",
+     "volume": "18",
+     "author": "Athoo T",
+     "year": "2023",
+     "unstructured": "Athoo T, Winkler A, Owino WO, Knoche M. 2023. Lenticels are sites of initiation of microcracking and russeting in \u2018Apple\u2019 mango. PLoS One. 18(9):e091129. https://doi.org/10.1371/journal.pone.0291129."
+    },
+    {
+     "issue": "3",
+     "key": "B4",
+     "series-title": "Plant Physiol",
+     "first-page": "585",
+     "article-title": "Physical aspects of fruit growth: Stress distribution around lenticels",
+     "volume": "69",
+     "author": "Brown K",
+     "year": "1982",
+     "unstructured": "Brown K, Considine J. 1982. Physical aspects of fruit growth: Stress distribution around lenticels. Plant Physiol. 69(3):585\u2013590. https://doi.org/10.1104/pp.69.3.585."
+    },
+    {
+     "issue": "6",
+     "key": "B5",
+     "series-title": "J Sci Food Agric",
+     "first-page": "996",
+     "article-title": "Effects of 1-MCP applied postharvest on epicuticular wax of apples (Malus domestica Borkh.) during storage",
+     "volume": "88",
+     "author": "Curry EA",
+     "year": "2008",
+     "unstructured": "Curry EA. 2008. Effects of 1-MCP applied postharvest on epicuticular wax of apples (Malus domestica Borkh.) during storage. J Sci Food Agric. 88(6):996\u20131006. https://doi.org/10.1002/jsfa.3180."
+    },
+    {
+     "key": "B6",
+     "article-title": "Growth-induced microcracking and repair mechanism of fruit cuticles",
+     "author": "Curry EA",
+     "year": "2009",
+     "unstructured": "Curry EA. 2009. Growth-induced microcracking and repair mechanism of fruit cuticles. https://studyres.com/doc/22675171/growth-induced-microcracking-and-repair-mechanisms-of-fruit. [\naccessed 1 Aug 2025]."
+    },
+    {
+     "key": "B7",
+     "series-title": "Scanning Microscopy",
+     "author": "Curry E",
+     "year": "2010",
+     "unstructured": "Curry E, Arey B. 2010. Apple cuticle: The perfect interface, p 349\u2013359. In: Scanning Microscopy. Vol. 7729. SPIE, California, USA. https://doi.org/10.1117/12.853913."
+    },
+    {
+     "issue": "3",
+     "key": "B8",
+     "series-title": "J Am Soc Hortic Sci",
+     "first-page": "351",
+     "article-title": "Fine structure of the fruit surface of three apple cultivars",
+     "volume": "97",
+     "author": "Faust M",
+     "year": "1972a",
+     "unstructured": "Faust M, Shear CB. 1972a. Fine structure of the fruit surface of three apple cultivars. J Am Soc Hortic Sci. 97(3):351\u2013355. https://doi.org/10.21273/JASHS.97.3.351."
+    },
+    {
+     "issue": "3",
+     "key": "B9",
+     "series-title": "HortScience",
+     "first-page": "233",
+     "article-title": "Russeting of apples, an interpretive review",
+     "volume": "7",
+     "author": "Faust M",
+     "year": "1972b",
+     "unstructured": "Faust M, Shear CB. 1972b. Russeting of apples, an interpretive review. HortScience. 7(3):233\u2013235. https://doi.org/10.21273/HORTSCI.7.3.233."
+    },
+    {
+     "issue": "1",
+     "key": "B10",
+     "series-title": "Postharvest Biol Technol",
+     "first-page": "111",
+     "article-title": "Structural and physiological changes associated with the skin spot disorder in apple",
+     "volume": "64",
+     "author": "Grimm E",
+     "year": "2012",
+     "unstructured": "Grimm E, Khanal BP, Winkler A, Knoche M, K\u00f6pcke D. 2012. Structural and physiological changes associated with the skin spot disorder in apple. Postharvest Biol Technol. 64(1):111\u2013118. https://doi.org/10.1016/j.postharvbio.2011.10.004."
+    },
+    {
+     "issue": "2",
+     "key": "B11",
+     "series-title": "Eur J Plant Pathol",
+     "first-page": "317",
+     "article-title": "Role of lenticels and microcracks on susceptibility of apple fruit to Botryosphaeria dothidea",
+     "volume": "143",
+     "author": "Guan Y",
+     "year": "2015",
+     "unstructured": "Guan Y, Chang R, Liu G, Wang Y, Wu T, Han Z, Zhang X. 2015. Role of lenticels and microcracks on susceptibility of apple fruit to Botryosphaeria dothidea\n. Eur J Plant Pathol. 143(2):317\u2013330. https://doi.org/10.1007/s10658-015-0682-z."
+    },
+    {
+     "issue": "8",
+     "key": "B12",
+     "series-title": "Food Bioprocess Technol",
+     "first-page": "2155",
+     "article-title": "Water loss: A postharvest quality marker in apple storage",
+     "volume": "17",
+     "author": "Hasan MU",
+     "year": "2024",
+     "unstructured": "Hasan MU, Singh Z, Shah HMS, Kaur J, Woodward A. 2024. Water loss: A postharvest quality marker in apple storage. Food Bioprocess Technol. 17(8):2155\u20132180. https://doi.org/10.1007/s11947-023-03305-9."
+    },
+    {
+     "key": "B13",
+     "series-title": "Phytochemistry",
+     "first-page": "2913",
+     "article-title": "Cutins of Malus pumila fruits and leaves",
+     "volume": "12",
+     "author": "Holloway PJ",
+     "year": "1973",
+     "unstructured": "Holloway PJ. 1973. Cutins of Malus pumila fruits and leaves. Phytochemistry. 12:2913\u20132920. https://doi.org/10.1016/0031-9422(73)80506-0."
+    },
+    {
+     "key": "B14",
+     "series-title": "Plant cuticles: An integrated functional approach",
+     "first-page": "33",
+     "author": "Jeffree CE",
+     "year": "1996",
+     "unstructured": "Jeffree CE. 1996. Structure and ontogeny of plant cuticles, p 33\u201382. In: Kerstiens G (ed). Plant cuticles: An integrated functional approach. Bios Scientific Publishers, Oxford, UK. http://dx.doi.org/10.1002/9780470988718.ch2."
+    },
+    {
+     "issue": "1",
+     "key": "B15",
+     "series-title": "New Phytol",
+     "first-page": "134",
+     "article-title": "Intracuticular wax fixes and restricts strain in leaf and fruit cuticles",
+     "volume": "200",
+     "author": "Khanal BP",
+     "year": "2013a",
+     "unstructured": "Khanal BP, Grimm E, Finger S, Blume A, Knoche M. 2013a. Intracuticular wax fixes and restricts strain in leaf and fruit cuticles. New Phytol. 200(1):134\u2013143. https://doi.org/10.1111/nph.12355."
+    },
+    {
+     "issue": "1",
+     "key": "B16",
+     "series-title": "Plant Biol (Stuttg)",
+     "first-page": "74",
+     "article-title": "Surface moisture increases microcracking and water vapor permeance of apple fruit skin",
+     "volume": "23",
+     "author": "Khanal BP",
+     "year": "2021",
+     "unstructured": "Khanal BP, Imoro Y, Chen YH, Straube J, Knoche M. 2021. Surface moisture increases microcracking and water vapor permeance of apple fruit skin. Plant Biol (Stuttg). 23(1):74\u201382. https://doi.org/10.1111/plb.13178."
+    },
+    {
+     "key": "B17",
+     "series-title": "J Appl Bot Food Qual",
+     "first-page": "127",
+     "article-title": "Skin spots on \u2018Cripps Pink\u2019 and \u2018Elstar\u2019 apples are identical",
+     "volume": "97",
+     "author": "Khanal BP",
+     "year": "2024",
+     "unstructured": "Khanal BP, Knoche M. 2024. Skin spots on \u2018Cripps Pink\u2019 and \u2018Elstar\u2019 apples are identical. J Appl Bot Food Qual. 97:127\u2013132. https://doi.org/10.5073/JABFQ.2024.097.015."
+    },
+    {
+     "issue": "4",
+     "key": "B18",
+     "series-title": "Planta",
+     "first-page": "891",
+     "article-title": "Evidence for a radial strain gradient in apple fruit cuticles",
+     "volume": "240",
+     "author": "Khanal BP",
+     "year": "2014",
+     "unstructured": "Khanal BP, Knoche M, Bu\u00dfler S, Schl\u00fcter O. 2014. Evidence for a radial strain gradient in apple fruit cuticles. Planta. 240(4):891\u2013897. https://doi.org/10.1007/s00425-014-2132-0."
+    },
+    {
+     "key": "B19",
+     "series-title": "Plants (Basel)",
+     "first-page": "1118",
+     "article-title": "Russet susceptibility in apple is associated with skin cells that are larger, more variable in size, and of reduced fracture strain",
+     "volume": "9",
+     "author": "Khanal BP",
+     "year": "2020",
+     "unstructured": "Khanal BP, Le TL, Si Y, Knoche M. 2020. Russet susceptibility in apple is associated with skin cells that are larger, more variable in size, and of reduced fracture strain. Plants (Basel). 9:1118. https://doi.org/10.3390/plants9091118."
+    },
+    {
+     "issue": "9",
+     "key": "B20",
+     "series-title": "HortScience",
+     "first-page": "1135",
+     "article-title": "Russeting in apple seems unrelated to the mechanical properties of the cuticle",
+     "volume": "48",
+     "author": "Khanal BP",
+     "year": "2013b",
+     "unstructured": "Khanal BP, Shrestha R, H\u00fcckst\u00e4dt L, Knoche M. 2013b. Russeting in apple seems unrelated to the mechanical properties of the cuticle. HortScience. 48(9):1135\u20131138. https://doi.org/10.21273/HORTSCI.48.9.1135."
+    },
+    {
+     "issue": "6",
+     "key": "B21",
+     "series-title": "HortScience",
+     "first-page": "1929",
+     "article-title": "Surface moisture induces microcracks in the cuticle of \u2018Golden Delicious\u2019 apple",
+     "volume": "43",
+     "author": "Knoche M",
+     "year": "2008",
+     "unstructured": "Knoche M, Grimm E. 2008. Surface moisture induces microcracks in the cuticle of \u2018Golden Delicious\u2019 apple. HortScience. 43(6):1929\u20131931. https://doi.org/10.21273/HORTSCI.43.6.1929."
+    },
+    {
+     "issue": "2",
+     "key": "B22",
+     "series-title": "Planta",
+     "first-page": "293",
+     "article-title": "Patterns of microcracking in apple fruit skin reflect those of the cuticular ridges and of the epidermal cell walls",
+     "volume": "248",
+     "author": "Knoche M",
+     "year": "2018",
+     "unstructured": "Knoche M, Khanal BP, Br\u00fcggenwirth M, Thapa S. 2018. Patterns of microcracking in apple fruit skin reflect those of the cuticular ridges and of the epidermal cell walls. Planta. 248(2):293\u2013306. https://doi.org/10.1080/07352689.2017.1369333."
+    },
+    {
+     "issue": "3",
+     "key": "B23",
+     "series-title": "Crit Rev Plant Sci",
+     "first-page": "190",
+     "article-title": "Ongoing growth challenges fruit-skin integrity",
+     "volume": "36",
+     "author": "Knoche M",
+     "year": "2017",
+     "unstructured": "Knoche M, Lang A. 2017. Ongoing growth challenges fruit-skin integrity. Crit Rev Plant Sci. 36(3):190\u2013215. https://doi.org/10.1080/07352689.2017.1369333."
+    },
+    {
+     "issue": "5",
+     "key": "B24",
+     "series-title": "J Am Soc Hortic Sci",
+     "first-page": "597",
+     "article-title": "Deposition and strain of the cuticle of developing European plum fruit",
+     "volume": "132",
+     "author": "Knoche M",
+     "year": "2007",
+     "unstructured": "Knoche M, Peschel S. 2007. Deposition and strain of the cuticle of developing European plum fruit. J Am Soc Hortic Sci. 132(5):597\u2013602. https://doi.org/10.21273/JASHS.132.5.597."
+    },
+    {
+     "issue": "3",
+     "key": "B25",
+     "series-title": "Protoplasma",
+     "first-page": "701",
+     "article-title": "The structure of the fruit peel in two varieties of Malus domestica Borkh. (Rosaceae) before and after storage",
+     "volume": "250",
+     "author": "Konarska A",
+     "year": "2013",
+     "unstructured": "Konarska A. 2013. The structure of the fruit peel in two varieties of Malus domestica Borkh. (Rosaceae) before and after storage. Protoplasma. 250(3):701\u2013714. https://doi.org/10.1007/s00709-012-0454-y."
+    },
+    {
+     "issue": "5",
+     "key": "B26",
+     "series-title": "Planta",
+     "first-page": "1145",
+     "article-title": "Mismatch between cuticle deposition and area expansion in fruit skins allows potentially catastrophic buildup of elastic strain",
+     "volume": "244",
+     "author": "Lai X",
+     "year": "2016",
+     "unstructured": "Lai X, Khanal BP, Knoche M. 2016. Mismatch between cuticle deposition and area expansion in fruit skins allows potentially catastrophic buildup of elastic strain. Planta. 244(5):1145\u20131156. https://doi.org/10.1007/s00425-016-2572-9."
+    },
+    {
+     "key": "B27",
+     "series-title": "Arabidopsis Book",
+     "first-page": "e0161",
+     "article-title": "Acyl-lipid metabolism",
+     "volume": "11",
+     "author": "Li-Beisson Y",
+     "year": "2013",
+     "unstructured": "Li-Beisson Y, Shorrosh B, Beisson F, Andersson MX, Arondel V, Bates PD, Baud S, Bird D, DeBono A, Durrett TP, Franke RB, Graham IA, Katayama K, Kelly AA, Larson T, Markham JE, Miquel M, Molina I, Nishida I, Rowland O, Samuels L, Schmid KM, Wada H, Welti R, Xu C, Zallot R, Ohlrogge J. 2013. Acyl-lipid metabolism. Arabidopsis Book. 11:e0161. https://doi.org/10.1199/tab.0161."
+    },
+    {
+     "key": "B28",
+     "series-title": "J Am Soc Hortic Sci",
+     "first-page": "105",
+     "article-title": "A study of the skin structure of Golden Delicious apples",
+     "volume": "45",
+     "author": "Meyer A",
+     "year": "1944",
+     "unstructured": "Meyer A. 1944. A study of the skin structure of Golden Delicious apples. J Am Soc Hortic Sci. 45:105\u2013110."
+    },
+    {
+     "issue": "1",
+     "key": "B29",
+     "series-title": "Plant Physiol",
+     "first-page": "78",
+     "article-title": "The isolation of plant cuticle with pectic enzymes",
+     "volume": "30",
+     "author": "Orgell WH",
+     "year": "1955",
+     "unstructured": "Orgell WH. 1955. The isolation of plant cuticle with pectic enzymes. Plant Physiol. 30(1):78\u201380. https://doi.org/10.1104/pp.30.1.78."
+    },
+    {
+     "issue": "7",
+     "key": "B31",
+     "series-title": "Phytochemistry",
+     "first-page": "1017",
+     "article-title": "Composition of the cuticle of developing sweet cherry fruit",
+     "volume": "68",
+     "author": "Peschel S",
+     "year": "2007",
+     "unstructured": "Peschel S, Franke R, Schreiber L, Knoche M. 2007. Composition of the cuticle of developing sweet cherry fruit. Phytochemistry. 68(7):1017\u20131025. https://doi.org/10.1016/j.phytochem.2007.01.008."
+    },
+    {
+     "issue": "4",
+     "key": "B32",
+     "series-title": "J Am Soc Hortic Sci",
+     "first-page": "487",
+     "article-title": "Characterization of microcracks in the cuticle of developing sweet cherry fruit",
+     "volume": "130",
+     "author": "Peschel S",
+     "year": "2005",
+     "unstructured": "Peschel S, Knoche M. 2005. Characterization of microcracks in the cuticle of developing sweet cherry fruit. J Am Soc Hortic Sci. 130(4):487\u2013495. https://doi.org/10.21273/JASHS.130.4.487."
+    },
+    {
+     "key": "B33",
+     "series-title": "Biology of the plant cuticle",
+     "first-page": "1",
+     "author": "Riederer M",
+     "year": "2006",
+     "unstructured": "Riederer M. 2006. Introduction: Biology of the plant cuticle, p 1\u201310. In: Riederer M, M\u00fcller C (eds). Biology of the plant cuticle. Blackwell Publishing, Oxford, UK. https://doi.org/10.1002/9780470988718.ch1."
+    },
+    {
+     "issue": "363",
+     "key": "B34",
+     "series-title": "J Exp Bot",
+     "first-page": "2023",
+     "article-title": "Protecting against water loss: Analysis of the barrier properties of plant cuticles",
+     "volume": "52",
+     "author": "Riederer M",
+     "year": "2001",
+     "unstructured": "Riederer M, Schreiber L. 2001. Protecting against water loss: Analysis of the barrier properties of plant cuticles. J Exp Bot. 52(363):2023\u20132032."
+    },
+    {
+     "issue": "6",
+     "key": "B35",
+     "series-title": "HortScience",
+     "first-page": "746",
+     "article-title": "Russeting and relative growth rate are positively related in \u2018Conference\u2019 and \u2018Condo\u2019 pear",
+     "volume": "49",
+     "author": "Scharwies JD",
+     "year": "2014",
+     "unstructured": "Scharwies JD, Grimm E, Knoche M. 2014. Russeting and relative growth rate are positively related in \u2018Conference\u2019 and \u2018Condo\u2019 pear. HortScience. 49(6):746\u2013749. https://doi.org/10.21273/HORTSCI.49.6.746."
+    },
+    {
+     "key": "B36",
+     "series-title": "Sci Hortic",
+     "first-page": "110512",
+     "article-title": "Factors affecting cuticle synthesis in apple fruit identified under field conditions",
+     "volume": "290",
+     "author": "Si Y",
+     "year": "2021a",
+     "unstructured": "Si Y, Khanal BP, Knoche M. 2021a. Factors affecting cuticle synthesis in apple fruit identified under field conditions. Sci Hortic. 290:110512. https://doi.org/10.1016/j.scienta.2021.110512."
+    },
+    {
+     "issue": "3",
+     "key": "B37",
+     "series-title": "Plants (Basel)",
+     "first-page": "497",
+     "article-title": "Cutin synthesis in developing, field-grown apple fruit examined by external feeding of labelled precursors",
+     "volume": "10",
+     "author": "Si Y",
+     "year": "2021b",
+     "unstructured": "Si Y, Khanal BP, Sauheitl L, Knoche M. 2021b. Cutin synthesis in developing, field-grown apple fruit examined by external feeding of labelled precursors. Plants (Basel). 10(3):497. https://doi.org/10.3390/plants10030497."
+    },
+    {
+     "key": "B38",
+     "series-title": "Front Plant Sci",
+     "first-page": "694123",
+     "article-title": "Direct evidence for a radial gradient in age of the apple fruit cuticle",
+     "volume": "12",
+     "author": "Si Y",
+     "year": "2021c",
+     "unstructured": "Si Y, Khanal BP, Schl\u00fcter OK, Knoche M. 2021c. Direct evidence for a radial gradient in age of the apple fruit cuticle. Front Plant Sci. 12:694123. https://doi.org/10.3389/fpls.2021.730837."
+    },
+    {
+     "issue": "1",
+     "key": "B39",
+     "series-title": "BMC Plant Biol",
+     "first-page": "623",
+     "article-title": "Cuticle deposition ceases during strawberry fruit development",
+     "volume": "24",
+     "author": "Straube J",
+     "year": "2024",
+     "unstructured": "Straube J, Hurtado G, Zeisler-Diehl V, Schreiber L, Knoche M. 2024. Cuticle deposition ceases during strawberry fruit development. BMC Plant Biol. 24(1):623. https://doi.org/10.1186/s12870-024-05327-7."
+    },
+    {
+     "issue": "10",
+     "key": "B40",
+     "series-title": "Biochemistry",
+     "first-page": "1885",
+     "article-title": "Determination of the structures of cutin monomers by a novel depolymerization procedure and combined gas chromatography and mass spectrometry",
+     "volume": "11",
+     "author": "Walton TJ",
+     "year": "1972",
+     "unstructured": "Walton TJ, Kolattukudy PE. 1972. Determination of the structures of cutin monomers by a novel depolymerization procedure and combined gas chromatography and mass spectrometry. Biochemistry. 11(10):1885\u20131896. https://doi.org/10.1021/bi00760a025."
+    },
+    {
+     "issue": "3",
+     "key": "B41",
+     "series-title": "Horticulturae",
+     "first-page": "231",
+     "article-title": "Russeting of fruits: Etiology and management",
+     "volume": "8",
+     "author": "Winkler A",
+     "year": "2022",
+     "unstructured": "Winkler A, Athoo T, Knoche M. 2022. Russeting of fruits: Etiology and management. Horticulturae. 8(3):231. https://doi.org/10.3390/horticulturae8030231."
+    },
+    {
+     "issue": "1",
+     "key": "B42",
+     "series-title": "Plant Physiol",
+     "first-page": "5",
+     "article-title": "The formation and function of plant cuticles",
+     "volume": "163",
+     "author": "Yeats TH",
+     "year": "2013",
+     "unstructured": "Yeats TH, Rose JKC. 2013. The formation and function of plant cuticles. Plant Physiol. 163(1):5\u201320. https://doi.org/10.1104/pp.113.222737."
+    }
+   ],
+   "container-title": [
+    "HortScience"
+   ],
+   "link": [
+    {
+     "URL": "https://journals.ashs.org/view/journals/hortsci/60/12/article-p2244.xml",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://journals.ashs.org/downloadpdf/journals/hortsci/60/12/article-p2244.xml",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://journals.ashs.org/downloadpdf/journals/hortsci/60/12/article-p2244.xml",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      29
+     ]
+    ],
+    "date-time": "2026-07-29T07:35:39Z",
+    "timestamp": 1785310539000
+   },
+   "score": 36.786858,
+   "resource": {
+    "primary": {
+     "URL": "https://journals.ashs.org/view/journals/hortsci/60/12/article-p2244.xml"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2025,
+      12
+     ]
+    ]
+   },
+   "references-count": 41,
+   "journal-issue": {
+    "issue": "12"
+   },
+   "URL": "https://doi.org/10.21273/hortsci18917-25",
+   "ISSN": [
+    "0018-5345",
+    "2327-9834"
+   ],
+   "issn-type": [
+    {
+     "value": "0018-5345",
+     "type": "print"
+    },
+    {
+     "value": "2327-9834",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2025,
+      12
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2374 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     16
+    ]
+   ],
+   "date-time": "2026-09-16T16:07:16Z",
+   "timestamp": 1789574836916,
+   "version": "build-2803163510"
+  },
+  "reference-count": 80,
+  "publisher": "Wiley",
+  "issue": "17",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       1
+      ]
+     ],
+     "date-time": "2026-09-01T00:00:00Z",
+     "timestamp": 1788220800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       9,
+       1
+      ]
+     ],
+     "date-time": "2026-09-01T00:00:00Z",
+     "timestamp": 1788220800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/100020059",
+    "name": "Russell Berrie Foundation",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/100020059",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "onlinelibrary.wiley.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Molecular Ecology"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     9
+    ]
+   ]
+  },
+  "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Genomic mechanisms of local adaptation must be highly responsive in geographic regions where climate is changing rapidly. The Levant region is a critical biodiversity hotspot and the distribution edge for many species, including the wild ancestor of domesticated barley. This region is under an accelerated desertification process, thus enforcing a rapid genomic response to the projected environmental changes. To elucidate the genomic basis of rapid local adaptation, we studied wild barley populations using an ecological\u2010genetic sampling design that decouples environmental variation from demographic background. We collected and sequenced 300 wild barley individuals and evaluated the phenotypes of 3600 progeny plants over 3\u2009years. Our genomic analyses revealed that local adaptation is associated with clusters of candidate genes forming haplotype blocks. These clusters are enriched with environment and stress responsive genes, including flowering time regulators, drought and heat responsive genes. We identified six candidate adaptive haplotype blocks which span 1\u20138\u2009Mbp and are distributed across chromosomes 1H, 2H, 4H and 5H, each segregating as two major haplotypes. Additionally, we integrated over 2600 occurrence records into ecological and evolutionary modelling to assess the genomic vulnerability of populations to projected future climates. Our study identifies candidate genomic regions and environmental drivers of local adaptation in wild barley and highlights the advantage of haplotype blocks architecture in orchestrating an efficient response to rapid environmental change. We highlight the ecological factors most strongly associated with the observed evolutionary responses and provide insights and guidelines for biodiversity conservation and implementation of crop wild relatives in breeding.</jats:p>",
+  "DOI": "10.1111/mec.70540",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     1
+    ]
+   ],
+   "date-time": "2026-09-01T07:55:41Z",
+   "timestamp": 1788249341000
+  },
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+   "Haplotype Blocks Are Associated With Rapid Local Adaptation to Environmental Shifts in Wild Barley"
+  ],
+  "prefix": "10.1111",
+  "volume": "35",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0009-0008-4878-930X",
+    "authenticated-orcid": false,
+    "given": "Evgenii",
+    "family": "Potapenko",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+     },
+     {
+      "name": "Department of Evolutionary and Environmental Biology University of Haifa  Haifa Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "Schwarts",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+     },
+     {
+      "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tali",
+    "family": "Mandel",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0001-1291-8842",
+    "authenticated-orcid": false,
+    "given": "Nimrod",
+    "family": "Ashkenazy",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+     },
+     {
+      "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dana",
+    "family": "Fuerst",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+     },
+     {
+      "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1673-4685",
+    "authenticated-orcid": false,
+    "given": "Guy",
+    "family": "Atsmon",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sagi",
+    "family": "Snir",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Evolutionary and Environmental Biology University of Haifa  Haifa Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3401-7068",
+    "authenticated-orcid": false,
+    "given": "Abraham B.",
+    "family": "Korol",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Evolutionary and Environmental Biology University of Haifa  Haifa Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5542-0975",
+    "authenticated-orcid": false,
+    "given": "Michael B.",
+    "family": "Kantar",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Tropical Plant and Soil Sciences University of Hawai\u2019i at M\u00e2noa  Honolulu Hawaii USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8331-0391",
+    "authenticated-orcid": false,
+    "given": "Avi",
+    "family": "Bar\u2010Massada",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Faculty of Natural Sciences University of Haifa  Kiryat Tivon Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3660-4634",
+    "authenticated-orcid": false,
+    "given": "Sariel",
+    "family": "H\u00fcbner",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+     },
+     {
+      "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "311",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     1
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_2_10_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122\u2010004\u20101657\u20101"
+   },
+   {
+    "key": "e_1_2_10_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s42003\u2010018\u20100085\u20108"
+   },
+   {
+    "key": "e_1_2_10_4_1",
+    "unstructured": "Andrews S.2010.\u201cFastQC: A Quality Control Tool for High Throughput Sequence Data.\u201dhttp://www.bioinformatics.babraham.ac.uk/projects/fastqc."
+   },
+   {
+    "key": "e_1_2_10_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.tree.2007.09.008"
+   },
+   {
+    "key": "e_1_2_10_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/nrg700"
+   },
+   {
+    "key": "e_1_2_10_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.18637/jss.v067.i01"
+   },
+   {
+    "key": "e_1_2_10_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41467\u2010023\u201037303\u20104"
+   },
+   {
+    "key": "e_1_2_10_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2017.01792"
+   },
+   {
+    "key": "e_1_2_10_10_1",
+    "unstructured": "BioGIS.2002.\u201cIsrael Nature and Parks Authority Database.\u201dIsrael Biodiversity Information System.http://www.biogis.huji.ac.il."
+   },
+   {
+    "key": "e_1_2_10_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1890/07\u20100986.1"
+   },
+   {
+    "key": "e_1_2_10_12_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/s0304\u20103800(01)00501\u20104"
+   },
+   {
+    "key": "e_1_2_10_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pone.0193517"
+   },
+   {
+    "key": "e_1_2_10_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/a:1010933404324"
+   },
+   {
+    "key": "e_1_2_10_15_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/1755\u20100998.12906"
+   },
+   {
+    "key": "e_1_2_10_16_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41437\u2010021\u201000494\u2010x"
+   },
+   {
+    "key": "e_1_2_10_17_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1146/annurev.ecolsys.34.011802.132359"
+   },
+   {
+    "key": "e_1_2_10_18_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00299\u2010021\u201002759\u20105"
+   },
+   {
+    "key": "e_1_2_10_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bioinformatics/bty560"
+   },
+   {
+    "key": "e_1_2_10_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1242/dev.121.7.2057"
+   },
+   {
+    "key": "e_1_2_10_21_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bioinformatics/btr330"
+   },
+   {
+    "key": "e_1_2_10_22_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/gigascience/giab008"
+   },
+   {
+    "key": "e_1_2_10_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.aax3100"
+   },
+   {
+    "key": "e_1_2_10_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bib/bbaa227"
+   },
+   {
+    "key": "e_1_2_10_25_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1890/11\u20100252.1"
+   },
+   {
+    "key": "e_1_2_10_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41586\u2010019\u20101520\u20109"
+   },
+   {
+    "key": "e_1_2_10_27_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.5194/gmd\u20109\u20101937\u20102016"
+   },
+   {
+    "key": "e_1_2_10_28_1",
+    "volume-title": "Introduction to Quantitative Genetics",
+    "author": "Falconer D. S.",
+    "year": "1996"
+   },
+   {
+    "key": "e_1_2_10_29_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10535\u2010015\u20100518\u2010x"
+   },
+   {
+    "key": "e_1_2_10_30_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/joc.5086"
+   },
+   {
+    "key": "e_1_2_10_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/oso/9780198504405.001.0001"
+   },
+   {
+    "key": "e_1_2_10_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/ele.12376"
+   },
+   {
+    "key": "e_1_2_10_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/2041\u2010210x.12382"
+   },
+   {
+    "key": "e_1_2_10_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/evo.12214"
+   },
+   {
+    "key": "e_1_2_10_35_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/aob/mcw248"
+   },
+   {
+    "key": "e_1_2_10_36_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41576\u2010024\u201000738\u20106"
+   },
+   {
+    "key": "e_1_2_10_37_1",
+    "unstructured": "Hijmans R. J.2024a.\u201craster: Geographic Data Analysis and Modeling.\u201d R Package Version 3.6\u201030.https://CRAN.R\u2010project.org/package=raster."
+   },
+   {
+    "key": "e_1_2_10_38_1",
+    "unstructured": "Hijmans R. J.2024b.\u201cterra: Spatial Data Analysis R Package Version 1.7\u201378.\u201dhttps://CRAN.R\u2010project.org/package=terra."
+   },
+   {
+    "key": "e_1_2_10_39_1",
+    "unstructured": "Hijmans R. J. M.Barbosa A.Ghosh andA.Mandel.2024.\u201cgeodata: Download Geographic Data.\u201d R Package Version 0.6\u20102.https://CRAN.R\u2010project.org/package=geodata."
+   },
+   {
+    "key": "e_1_2_10_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/s0016672300010156"
+   },
+   {
+    "key": "e_1_2_10_41_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.gloenvcha.2004.04.010"
+   },
+   {
+    "key": "e_1_2_10_42_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/jeb.12043"
+   },
+   {
+    "key": "e_1_2_10_43_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365\u2010294x.2011.05434.x"
+   },
+   {
+    "key": "e_1_2_10_44_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365\u2010294x.2009.04106.x"
+   },
+   {
+    "key": "e_1_2_10_45_1",
+    "unstructured": "James Hutton Institute.2020.\u201cBarley 50 k SNP Platform\u2014Morex V2 Assembly Positions.\u201dhttps://ics.hutton.ac.uk/50k/."
+   },
+   {
+    "key": "e_1_2_10_46_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41586\u2010020\u20102947\u20108"
+   },
+   {
+    "key": "e_1_2_10_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12859\u2010023\u201005301\u20104"
+   },
+   {
+    "key": "e_1_2_10_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/ng.548"
+   },
+   {
+    "key": "e_1_2_10_49_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1461\u20100248.2004.00684.x"
+   },
+   {
+    "key": "e_1_2_10_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/nph.17733"
+   },
+   {
+    "key": "e_1_2_10_51_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/eva.13354"
+   },
+   {
+    "key": "e_1_2_10_52_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365\u2010294x.2012.05709.x"
+   },
+   {
+    "key": "e_1_2_10_53_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.devcel.2011.10.018"
+   },
+   {
+    "key": "e_1_2_10_54_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/genetics/156.1.423"
+   },
+   {
+    "key": "e_1_2_10_55_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.288.5471.1602"
+   },
+   {
+    "key": "e_1_2_10_56_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1534/genetics.118.301747"
+   },
+   {
+    "issue": "3",
+    "key": "e_1_2_10_57_1",
+    "first-page": "18",
+    "article-title": "Classification and Regression by randomForest",
+    "volume": "2",
+    "author": "Liaw A.",
+    "year": "2002",
+    "journal-title": "R News"
+   },
+   {
+    "key": "e_1_2_10_58_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059\u2010019\u20101899\u20105"
+   },
+   {
+    "key": "e_1_2_10_59_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1095\u20108312.2005.00425.x"
+   },
+   {
+    "key": "e_1_2_10_60_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00299\u2010017\u20102139\u20107"
+   },
+   {
+    "key": "e_1_2_10_61_1",
+    "unstructured": "Oksanen J.2009.\u201cvegan: Community Ecology Package.\u201d R Package Version 1.15\u20104.https://CRAN.R\u2010project.org/package=vegan."
+   },
+   {
+    "key": "e_1_2_10_62_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/nph.15077"
+   },
+   {
+    "key": "e_1_2_10_63_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1101/201178"
+   },
+   {
+    "key": "e_1_2_10_64_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.tplants.2012.02.004"
+   },
+   {
+    "key": "e_1_2_10_65_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1086/519795"
+   },
+   {
+    "key": "e_1_2_10_66_1",
+    "volume-title": "R: A Language and Environment for Statistical Computing",
+    "author": "R Core Team",
+    "year": "2023"
+   },
+   {
+    "key": "e_1_2_10_67_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/eva.13205"
+   },
+   {
+    "key": "e_1_2_10_68_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2013.08.0579"
+   },
+   {
+    "key": "e_1_2_10_69_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/ng.3612"
+   },
+   {
+    "key": "e_1_2_10_70_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12870\u2010015\u20100493\u20106"
+   },
+   {
+    "key": "e_1_2_10_71_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.16.01327"
+   },
+   {
+    "key": "e_1_2_10_72_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41586\u2010020\u20102467\u20106"
+   },
+   {
+    "key": "e_1_2_10_73_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1534/g3.120.401285"
+   },
+   {
+    "key": "e_1_2_10_74_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Vasimuddin M. S.Misra H.Li andS.Aluru.2019.\u201cEfficient Architecture\u2010aware Acceleration of BWA\u2010MEM for Multicore Systems.\u201d 2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS): 314\u2013324.https://doi.org/10.1109/ipdps.2019.00041.",
+    "DOI": "10.1109/IPDPS.2019.00041"
+   },
+   {
+    "key": "e_1_2_10_75_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/evl3.154"
+   },
+   {
+    "key": "e_1_2_10_76_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2019.00228"
+   },
+   {
+    "key": "e_1_2_10_77_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1558\u20105646.2011.01269.x"
+   },
+   {
+    "key": "e_1_2_10_78_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.gpb.2020.10.007"
+   },
+   {
+    "key": "e_1_2_10_79_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365\u20103180.1974.tb01084.x"
+   },
+   {
+    "key": "e_1_2_10_80_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/pcp/pcr057"
+   },
+   {
+    "key": "e_1_2_10_81_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/acprof:osobl/9780199549061.001.0001"
+   }
+  ],
+  "container-title": [
+   "Molecular Ecology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/mec.70540",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/mec.70540",
+    "content-type": "application/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/mec.70540",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     16
+    ]
+   ],
+   "date-time": "2026-09-16T15:21:49Z",
+   "timestamp": 1789572109000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1111/mec.70540"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     9
+    ]
+   ]
+  },
+  "references-count": 80,
+  "journal-issue": {
+   "issue": "17",
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      9
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1111/mec.70540"
+  ],
+  "URL": "https://doi.org/10.1111/mec.70540",
+  "archive": [
+   "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+   "0962-1083",
+   "1365-294X"
+  ],
+  "issn-type": [
+   {
+    "value": "0962-1083",
+    "type": "print"
+   },
+   {
+    "value": "1365-294X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2026,
+     9
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2026-02-26",
+    "order": 0,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2026-08-19",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2026-09-01",
+    "order": 3,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ],
+  "article-number": "e70540"
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      16
+     ]
+    ],
+    "date-time": "2026-09-16T16:07:16Z",
+    "timestamp": 1789574836916,
+    "version": "build-2803163510"
+   },
+   "reference-count": 80,
+   "publisher": "Wiley",
+   "issue": "17",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2026,
+        9,
+        1
+       ]
+      ],
+      "date-time": "2026-09-01T00:00:00Z",
+      "timestamp": 1788220800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2026,
+        9,
+        1
+       ]
+      ],
+      "date-time": "2026-09-01T00:00:00Z",
+      "timestamp": 1788220800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/100020059",
+     "name": "Russell Berrie Foundation",
+     "doi-asserted-by": "publisher",
+     "id": [
+      {
+       "id": "10.13039/100020059",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Molecular Ecology"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      9
+     ]
+    ]
+   },
+   "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Genomic mechanisms of local adaptation must be highly responsive in geographic regions where climate is changing rapidly. The Levant region is a critical biodiversity hotspot and the distribution edge for many species, including the wild ancestor of domesticated barley. This region is under an accelerated desertification process, thus enforcing a rapid genomic response to the projected environmental changes. To elucidate the genomic basis of rapid local adaptation, we studied wild barley populations using an ecological\u2010genetic sampling design that decouples environmental variation from demographic background. We collected and sequenced 300 wild barley individuals and evaluated the phenotypes of 3600 progeny plants over 3\u2009years. Our genomic analyses revealed that local adaptation is associated with clusters of candidate genes forming haplotype blocks. These clusters are enriched with environment and stress responsive genes, including flowering time regulators, drought and heat responsive genes. We identified six candidate adaptive haplotype blocks which span 1\u20138\u2009Mbp and are distributed across chromosomes 1H, 2H, 4H and 5H, each segregating as two major haplotypes. Additionally, we integrated over 2600 occurrence records into ecological and evolutionary modelling to assess the genomic vulnerability of populations to projected future climates. Our study identifies candidate genomic regions and environmental drivers of local adaptation in wild barley and highlights the advantage of haplotype blocks architecture in orchestrating an efficient response to rapid environmental change. We highlight the ecological factors most strongly associated with the observed evolutionary responses and provide insights and guidelines for biodiversity conservation and implementation of crop wild relatives in breeding.</jats:p>",
+   "DOI": "10.1111/mec.70540",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      1
+     ]
+    ],
+    "date-time": "2026-09-01T07:55:41Z",
+    "timestamp": 1788249341000
+   },
+   "update-policy": "https://doi.org/10.1002/crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Haplotype Blocks Are Associated With Rapid Local Adaptation to Environmental Shifts in Wild Barley"
+   ],
+   "prefix": "10.1111",
+   "volume": "35",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0009-0008-4878-930X",
+     "authenticated-orcid": false,
+     "given": "Evgenii",
+     "family": "Potapenko",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+      },
+      {
+       "name": "Department of Evolutionary and Environmental Biology University of Haifa  Haifa Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David",
+     "family": "Schwarts",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+      },
+      {
+       "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tali",
+     "family": "Mandel",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0009-0001-1291-8842",
+     "authenticated-orcid": false,
+     "given": "Nimrod",
+     "family": "Ashkenazy",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+      },
+      {
+       "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Dana",
+     "family": "Fuerst",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+      },
+      {
+       "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-1673-4685",
+     "authenticated-orcid": false,
+     "given": "Guy",
+     "family": "Atsmon",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sagi",
+     "family": "Snir",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Evolutionary and Environmental Biology University of Haifa  Haifa Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-3401-7068",
+     "authenticated-orcid": false,
+     "given": "Abraham B.",
+     "family": "Korol",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Evolutionary and Environmental Biology University of Haifa  Haifa Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-5542-0975",
+     "authenticated-orcid": false,
+     "given": "Michael B.",
+     "family": "Kantar",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Tropical Plant and Soil Sciences University of Hawai\u2019i at M\u00e2noa  Honolulu Hawaii USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-8331-0391",
+     "authenticated-orcid": false,
+     "given": "Avi",
+     "family": "Bar\u2010Massada",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Faculty of Natural Sciences University of Haifa  Kiryat Tivon Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3660-4634",
+     "authenticated-orcid": false,
+     "given": "Sariel",
+     "family": "H\u00fcbner",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Bioinformatics, Faculty of Sciences and Technology Tel Hai University of Kiryat Shmona in the Galilee  Upper Galilee Israel"
+      },
+      {
+       "name": "MIGAL Galilee Research Institute  Kiryat Shmona Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      1
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_10_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122\u2010004\u20101657\u20101"
+    },
+    {
+     "key": "e_1_2_10_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s42003\u2010018\u20100085\u20108"
+    },
+    {
+     "key": "e_1_2_10_4_1",
+     "unstructured": "Andrews S.2010.\u201cFastQC: A Quality Control Tool for High Throughput Sequence Data.\u201dhttp://www.bioinformatics.babraham.ac.uk/projects/fastqc."
+    },
+    {
+     "key": "e_1_2_10_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tree.2007.09.008"
+    },
+    {
+     "key": "e_1_2_10_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nrg700"
+    },
+    {
+     "key": "e_1_2_10_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.18637/jss.v067.i01"
+    },
+    {
+     "key": "e_1_2_10_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41467\u2010023\u201037303\u20104"
+    },
+    {
+     "key": "e_1_2_10_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2017.01792"
+    },
+    {
+     "key": "e_1_2_10_10_1",
+     "unstructured": "BioGIS.2002.\u201cIsrael Nature and Parks Authority Database.\u201dIsrael Biodiversity Information System.http://www.biogis.huji.ac.il."
+    },
+    {
+     "key": "e_1_2_10_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1890/07\u20100986.1"
+    },
+    {
+     "key": "e_1_2_10_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/s0304\u20103800(01)00501\u20104"
+    },
+    {
+     "key": "e_1_2_10_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0193517"
+    },
+    {
+     "key": "e_1_2_10_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/a:1010933404324"
+    },
+    {
+     "key": "e_1_2_10_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1755\u20100998.12906"
+    },
+    {
+     "key": "e_1_2_10_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41437\u2010021\u201000494\u2010x"
+    },
+    {
+     "key": "e_1_2_10_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.ecolsys.34.011802.132359"
+    },
+    {
+     "key": "e_1_2_10_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00299\u2010021\u201002759\u20105"
+    },
+    {
+     "key": "e_1_2_10_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/bty560"
+    },
+    {
+     "key": "e_1_2_10_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1242/dev.121.7.2057"
+    },
+    {
+     "key": "e_1_2_10_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btr330"
+    },
+    {
+     "key": "e_1_2_10_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/gigascience/giab008"
+    },
+    {
+     "key": "e_1_2_10_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.aax3100"
+    },
+    {
+     "key": "e_1_2_10_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bib/bbaa227"
+    },
+    {
+     "key": "e_1_2_10_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1890/11\u20100252.1"
+    },
+    {
+     "key": "e_1_2_10_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41586\u2010019\u20101520\u20109"
+    },
+    {
+     "key": "e_1_2_10_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.5194/gmd\u20109\u20101937\u20102016"
+    },
+    {
+     "key": "e_1_2_10_28_1",
+     "volume-title": "Introduction to Quantitative Genetics",
+     "author": "Falconer D. S.",
+     "year": "1996"
+    },
+    {
+     "key": "e_1_2_10_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10535\u2010015\u20100518\u2010x"
+    },
+    {
+     "key": "e_1_2_10_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/joc.5086"
+    },
+    {
+     "key": "e_1_2_10_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/oso/9780198504405.001.0001"
+    },
+    {
+     "key": "e_1_2_10_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/ele.12376"
+    },
+    {
+     "key": "e_1_2_10_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/2041\u2010210x.12382"
+    },
+    {
+     "key": "e_1_2_10_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/evo.12214"
+    },
+    {
+     "key": "e_1_2_10_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/aob/mcw248"
+    },
+    {
+     "key": "e_1_2_10_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41576\u2010024\u201000738\u20106"
+    },
+    {
+     "key": "e_1_2_10_37_1",
+     "unstructured": "Hijmans R. J.2024a.\u201craster: Geographic Data Analysis and Modeling.\u201d R Package Version 3.6\u201030.https://CRAN.R\u2010project.org/package=raster."
+    },
+    {
+     "key": "e_1_2_10_38_1",
+     "unstructured": "Hijmans R. J.2024b.\u201cterra: Spatial Data Analysis R Package Version 1.7\u201378.\u201dhttps://CRAN.R\u2010project.org/package=terra."
+    },
+    {
+     "key": "e_1_2_10_39_1",
+     "unstructured": "Hijmans R. J. M.Barbosa A.Ghosh andA.Mandel.2024.\u201cgeodata: Download Geographic Data.\u201d R Package Version 0.6\u20102.https://CRAN.R\u2010project.org/package=geodata."
+    },
+    {
+     "key": "e_1_2_10_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/s0016672300010156"
+    },
+    {
+     "key": "e_1_2_10_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.gloenvcha.2004.04.010"
+    },
+    {
+     "key": "e_1_2_10_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/jeb.12043"
+    },
+    {
+     "key": "e_1_2_10_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365\u2010294x.2011.05434.x"
+    },
+    {
+     "key": "e_1_2_10_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365\u2010294x.2009.04106.x"
+    },
+    {
+     "key": "e_1_2_10_45_1",
+     "unstructured": "James Hutton Institute.2020.\u201cBarley 50 k SNP Platform\u2014Morex V2 Assembly Positions.\u201dhttps://ics.hutton.ac.uk/50k/."
+    },
+    {
+     "key": "e_1_2_10_46_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41586\u2010020\u20102947\u20108"
+    },
+    {
+     "key": "e_1_2_10_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12859\u2010023\u201005301\u20104"
+    },
+    {
+     "key": "e_1_2_10_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/ng.548"
+    },
+    {
+     "key": "e_1_2_10_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1461\u20100248.2004.00684.x"
+    },
+    {
+     "key": "e_1_2_10_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/nph.17733"
+    },
+    {
+     "key": "e_1_2_10_51_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/eva.13354"
+    },
+    {
+     "key": "e_1_2_10_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365\u2010294x.2012.05709.x"
+    },
+    {
+     "key": "e_1_2_10_53_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.devcel.2011.10.018"
+    },
+    {
+     "key": "e_1_2_10_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/genetics/156.1.423"
+    },
+    {
+     "key": "e_1_2_10_55_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.288.5471.1602"
+    },
+    {
+     "key": "e_1_2_10_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1534/genetics.118.301747"
+    },
+    {
+     "issue": "3",
+     "key": "e_1_2_10_57_1",
+     "first-page": "18",
+     "article-title": "Classification and Regression by randomForest",
+     "volume": "2",
+     "author": "Liaw A.",
+     "year": "2002",
+     "journal-title": "R News"
+    },
+    {
+     "key": "e_1_2_10_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13059\u2010019\u20101899\u20105"
+    },
+    {
+     "key": "e_1_2_10_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1095\u20108312.2005.00425.x"
+    },
+    {
+     "key": "e_1_2_10_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00299\u2010017\u20102139\u20107"
+    },
+    {
+     "key": "e_1_2_10_61_1",
+     "unstructured": "Oksanen J.2009.\u201cvegan: Community Ecology Package.\u201d R Package Version 1.15\u20104.https://CRAN.R\u2010project.org/package=vegan."
+    },
+    {
+     "key": "e_1_2_10_62_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/nph.15077"
+    },
+    {
+     "key": "e_1_2_10_63_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/201178"
+    },
+    {
+     "key": "e_1_2_10_64_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tplants.2012.02.004"
+    },
+    {
+     "key": "e_1_2_10_65_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/519795"
+    },
+    {
+     "key": "e_1_2_10_66_1",
+     "volume-title": "R: A Language and Environment for Statistical Computing",
+     "author": "R Core Team",
+     "year": "2023"
+    },
+    {
+     "key": "e_1_2_10_67_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/eva.13205"
+    },
+    {
+     "key": "e_1_2_10_68_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci2013.08.0579"
+    },
+    {
+     "key": "e_1_2_10_69_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/ng.3612"
+    },
+    {
+     "key": "e_1_2_10_70_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12870\u2010015\u20100493\u20106"
+    },
+    {
+     "key": "e_1_2_10_71_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.16.01327"
+    },
+    {
+     "key": "e_1_2_10_72_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41586\u2010020\u20102467\u20106"
+    },
+    {
+     "key": "e_1_2_10_73_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1534/g3.120.401285"
+    },
+    {
+     "key": "e_1_2_10_74_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Vasimuddin M. S.Misra H.Li andS.Aluru.2019.\u201cEfficient Architecture\u2010aware Acceleration of BWA\u2010MEM for Multicore Systems.\u201d 2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS): 314\u2013324.https://doi.org/10.1109/ipdps.2019.00041.",
+     "DOI": "10.1109/IPDPS.2019.00041"
+    },
+    {
+     "key": "e_1_2_10_75_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/evl3.154"
+    },
+    {
+     "key": "e_1_2_10_76_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2019.00228"
+    },
+    {
+     "key": "e_1_2_10_77_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558\u20105646.2011.01269.x"
+    },
+    {
+     "key": "e_1_2_10_78_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.gpb.2020.10.007"
+    },
+    {
+     "key": "e_1_2_10_79_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365\u20103180.1974.tb01084.x"
+    },
+    {
+     "key": "e_1_2_10_80_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pcr057"
+    },
+    {
+     "key": "e_1_2_10_81_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/acprof:osobl/9780199549061.001.0001"
+    }
+   ],
+   "container-title": [
+    "Molecular Ecology"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/mec.70540",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/mec.70540",
+     "content-type": "application/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/mec.70540",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      16
+     ]
+    ],
+    "date-time": "2026-09-16T15:21:49Z",
+    "timestamp": 1789572109000
+   },
+   "score": 69.715195,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/mec.70540"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2026,
+      9
+     ]
+    ]
+   },
+   "references-count": 80,
+   "journal-issue": {
+    "issue": "17",
+    "published-print": {
+     "date-parts": [
+      [
+       2026,
+       9
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/mec.70540"
+   ],
+   "URL": "https://doi.org/10.1111/mec.70540",
+   "archive": [
+    "Portico"
+   ],
+   "ISSN": [
+    "0962-1083",
+    "1365-294X"
+   ],
+   "issn-type": [
+    {
+     "value": "0962-1083",
+     "type": "print"
+    },
+    {
+     "value": "1365-294X",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      9
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "2026-02-26",
+     "order": 0,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2026-08-19",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2026-09-01",
+     "order": 3,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ],
+   "article-number": "e70540"
+  },
+  {
+   "institution": [
+    {
+     "name": "bioRxiv"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T16:55:34Z",
+    "timestamp": 1768496134964,
+    "version": "3.49.0"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   },
+   "group-title": "Genomics",
+   "reference-count": 75,
+   "publisher": "openRxiv",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   },
+   "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Mitochondria are assumed to be maternally inherited in most animal species, and this foundational concept has fostered advances in phylogenetics, conservation, and population genetics. Like other animals, mitochondria were thought to be solely maternally inherited in the marine copepod\n                  <jats:italic>Tigriopus californicus</jats:italic>\n                  , which has served as a useful model for studying mitonuclear interactions, hybrid breakdown, and environmental tolerance. However, we present PCR, Sanger sequencing, and Illumina Nextera sequencing evidence that extensive paternal mitochondrial DNA (mtDNA) transmission is occurring in inter-population hybrids of\n                  <jats:italic>T. californicus</jats:italic>\n                  . PCR on four types of crosses between three populations (total sample size of 376 F1 individuals) with 20% genome-wide mitochondrial divergence showed 2% to 59% of F1 hybrids with both paternal and maternal mtDNA, where low and high paternal leakage values were found in different cross directions of the same population pairs. Sequencing methods further verified nucleotide similarities between F1 mtDNA and paternal mtDNA sequences. Interestingly, the paternal mtDNA in F1s from some crosses inherited haplotypes that were uncommon in the paternal population. Compared to some previous research on paternal leakage, we employed more rigorous methods to rule out contamination and false detection of paternal mtDNA due to non-functional nuclear mitochondrial DNA fragments. Our results raise the potential that other animal systems thought to only inherit maternal mitochondria may also have paternal leakage, which would then affect the interpretation of past and future population genetics or phylogenetic studies that rely on mitochondria as uniparental markers.\n                </jats:p>",
+   "DOI": "10.1101/2021.05.10.443310",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ],
+    "date-time": "2021-05-11T14:20:30Z",
+    "timestamp": 1620742830000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Frequent paternal mitochondrial inheritance and rapid haplotype frequency shifts in copepod hybrids"
+   ],
+   "prefix": "10.64898",
+   "author": [
+    {
+     "given": "Jeeyun",
+     "family": "Lee",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Christopher S.",
+     "family": "Willett",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "54368",
+   "reference": [
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jtbi.1996.0089"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Artimo P , Jonnalagedda M , Arnold K , Baratin D , Csardi G , De Castro E , Duvaud S , Flegel V , Fortier A , Gasteiger E , et al. 2012. ExPASy: SIB bioinformatics resource portal. Nucleic Acids Res. 40.",
+     "DOI": "10.1093/nar/gks400"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.es.18.110187.002421"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fgene.2019.00518"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.5",
+     "first-page": "7",
+     "article-title": "Elevated oxidative damage is correlated with reduced fitness in interpopulation hybrids of a marine copepod",
+     "volume": "280",
+     "year": "2013",
+     "journal-title": "Proc. R. Soc. B Biol. Sci"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.6",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/molbev/msu321"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1250",
+     "DOI": "10.1038/s41559-018-0588-1",
+     "article-title": "Genomic signatures of mitonuclear coevolution across populations of Tigriopus californicus",
+     "volume": "2",
+     "year": "2018",
+     "journal-title": "Nat. Ecol. Evol"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/515453"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00414-003-0418-z"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2409510"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.11",
+     "doi-asserted-by": "crossref",
+     "first-page": "108",
+     "DOI": "10.1007/BF00384471",
+     "article-title": "Population structure of the intertidal copepod Tigriopus californicus as revealed by field manipulation of allele frequencies",
+     "volume": "65",
+     "year": "1984",
+     "journal-title": "Oecologia"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.91.11.5197"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00397511"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2411174"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.gene.2007.07.026"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/mec.12006"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.17",
+     "doi-asserted-by": "crossref",
+     "first-page": "281",
+     "DOI": "10.1146/annurev-ecolsys-110512-135758",
+     "article-title": "Cytonuclear genomic interactions and hybrid breakdown",
+     "volume": "44",
+     "year": "2013",
+     "journal-title": "Annual Review of Ecology, Evolution, and Systematics"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.18",
+     "doi-asserted-by": "crossref",
+     "first-page": "41",
+     "DOI": "10.1017/S0016672300018899",
+     "article-title": "Models of mitochondrial DNA transmission genetics and evolution in higher eucaryotes",
+     "volume": "40",
+     "year": "1982",
+     "journal-title": "Genetics Research"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.19",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.89.10.4221"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.20",
+     "unstructured": "Coleman-Hulbert A. 2010. Mitochondrial Inheritance and Natural Phenotypic Variation among Caenorhabditis briggsae Populations. Portland, OR Available from: http://archives.pdx.edu/ds/psu/4874"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.devcel.2011.12.021"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/ece3.1069"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2640438"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.24",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.0962-1083.2001.01306.x"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.25",
+     "unstructured": "Egloff DA. 1966. Ecological aspects of sex ratio and reproduction in experimental and field populations of the marine copepod Tigriopus californicus . Thesis (Ph.D.) Stanford University."
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.26",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1558-5646.2007.00305.x"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0000892"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.28",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00349126"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.29",
+     "first-page": "405",
+     "article-title": "Nuclear mitochondrial pseudogenes",
+     "volume": "44",
+     "year": "2010",
+     "journal-title": "Mol. Biol. (Mosk)"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.30",
+     "doi-asserted-by": "crossref",
+     "first-page": "e2760",
+     "DOI": "10.7717/peerj.2760",
+     "article-title": "Pursuing the quest for better understanding the taxonomic distribution of the system of doubly uniparental inheritance of mtdna",
+     "volume": "4",
+     "year": "2016",
+     "journal-title": "PeerJ"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/352255a0"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.32",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0016672300030500"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.33",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.1910141117"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.34",
+     "unstructured": "Hoelzel AR , Green A. 1992. Analysis of population-level variation by sequencing PCR-amplified DNA. Molecular genetic analysis of populations: a practical approach 159\u2013187."
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.35",
+     "doi-asserted-by": "crossref",
+     "first-page": "1509",
+     "DOI": "10.1007/s10709-012-9650-0",
+     "article-title": "Paternal leakage of mitochondrial DNA in experimental crosses of populations of the potato cyst nematode Globodera pallida",
+     "volume": "139",
+     "year": "2011",
+     "journal-title": "Genetica"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1098/rspb.1992.0027"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.92.10.4542"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.38",
+     "doi-asserted-by": "crossref",
+     "first-page": "657",
+     "DOI": "10.1093/genetics/126.3.657",
+     "article-title": "Incomplete Maternal Transmission of Mitochondrial DNA in Drosophila",
+     "volume": "126",
+     "year": "1990",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.39",
+     "first-page": "2",
+     "article-title": "Evolution and inheritance of animal mitochondrial DNA: Rules and exceptions",
+     "volume": "24",
+     "year": "2017",
+     "journal-title": "J. Biol. Res"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.40",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ympev.2006.03.014"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.41",
+     "doi-asserted-by": "crossref",
+     "first-page": "609",
+     "DOI": "10.1111/evo.13690",
+     "article-title": "Genomic scans reveal multiple mito-nuclear incompatibilities in population crosses of the copepod Tigriopus californicus",
+     "volume": "73",
+     "year": "2019",
+     "journal-title": "Evolution"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.42",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.1810946115"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.43",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.1820533116"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.44",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/ng.2919"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.45",
+     "doi-asserted-by": "crossref",
+     "first-page": "123",
+     "DOI": "10.1017/S0016672300029189",
+     "article-title": "Mitochondrial DNA heteroplasmy maintained in natural populations of Drosophila simulans in Reunion",
+     "volume": "57",
+     "year": "1991",
+     "journal-title": "Genetics Research"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.46",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41598-019-40055-1"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.47",
+     "doi-asserted-by": "crossref",
+     "first-page": "75",
+     "DOI": "10.2307/3222572",
+     "article-title": "Marine harpacticoid copepods from California",
+     "volume": "60",
+     "year": "1941",
+     "journal-title": "Transactions of the American Microscopical Society"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.48",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-294X.1994.tb00080.x"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.49",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s002270050729"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.50",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2164-12-442"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.51",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/mec.13579"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.52",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2144/000114077"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.53",
+     "doi-asserted-by": "crossref",
+     "first-page": "4529",
+     "DOI": "10.1002/ece3.1692",
+     "article-title": "Extensive mitochondrial heteroplasmy in hybrid water frog (Pelophylax spp.) populations from Southeast Europe",
+     "volume": "5",
+     "year": "2015",
+     "journal-title": "Ecol. Evol"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.54",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.202335899"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.55",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0147-619X(80)90102-X"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.56",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0032593"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.57",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/molbev/msw192"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.58",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.cell.2012.09.004"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.59",
+     "doi-asserted-by": "crossref",
+     "first-page": "399",
+     "DOI": "10.1266/ggs.81.399",
+     "article-title": "Analysis of paternal transmission of mitochondrial DNA in Drosophila",
+     "volume": "81",
+     "year": "2006",
+     "journal-title": "Genes & genetic systems"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.60",
+     "doi-asserted-by": "crossref",
+     "first-page": "851",
+     "DOI": "10.1093/genetics/148.2.851",
+     "article-title": "Maternal Inheritance of Mouse mtDNA in Interspecific Hybrids: Segregation of the Leaked Paternal mtDNA Followed by the Prevention of Subsequent Paternal Leakage",
+     "volume": "148",
+     "year": "1998",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.61",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/46466"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.62",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1095/biolreprod63.2.582"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.63",
+     "doi-asserted-by": "crossref",
+     "first-page": "291",
+     "DOI": "10.1017/S0016672300020292",
+     "article-title": "A mathematical model of extranuclear genes and the genetic variability maintained in a finite population",
+     "volume": "37",
+     "year": "1981",
+     "journal-title": "Genetics Research"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.64",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1095/biolreprod.102.010975"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.65",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.283.5407.1482"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.66",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1005639407166"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.67",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-294X.2008.03982.x"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.68",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2148-9-139"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.69",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1095-8312.1985.tb02048.x"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.70",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Wolff JN , Ladoukakis ED , Enr\u00edquez JA , Dowling DK. 2014. Mitonuclear interactions: Evolutionary consequences over multiple biological scales. Philos. Trans. R. Soc. B Biol. Sci. 369.",
+     "DOI": "10.1098/rstb.2013.0443"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.71",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/g05-082"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.72",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.89.23.11164"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.73",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.91.16.7463"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.74",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1266/ggs.75.313"
+    },
+    {
+     "key": "2021051305550500000_2021.05.10.443310v1.75",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11692-012-9195-2"
+    }
+   ],
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.10.443310",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T01:42:42Z",
+    "timestamp": 1768441362000
+   },
+   "score": 28.010056,
+   "resource": {
+    "primary": {
+     "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.05.10.443310"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   },
+   "references-count": 75,
+   "URL": "https://doi.org/10.1101/2021.05.10.443310",
+   "relation": {
+    "is-preprint-of": [
+     {
+      "id-type": "doi",
+      "id": "10.1093/jhered/esab068",
+      "asserted-by": "subject"
+     }
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      9,
+      6
+     ]
+    ],
+    "date-time": "2024-09-06T03:03:46Z",
+    "timestamp": 1725591826289
+   },
+   "publisher-location": "Berlin/Heidelberg",
+   "reference-count": 0,
+   "publisher": "Springer-Verlag",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.1007/springerreference_97756",
+   "type": "reference-entry",
+   "created": {
+    "date-parts": [
+     [
+      2012,
+      1,
+      20
+     ]
+    ],
+    "date-time": "2012-01-20T08:30:50Z",
+    "timestamp": 1327048250000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Haplotype Blocks"
+   ],
+   "prefix": "10.1007",
+   "member": "297",
+   "container-title": [
+    "SpringerReference"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2012,
+      1,
+      20
+     ]
+    ],
+    "date-time": "2012-01-20T08:47:52Z",
+    "timestamp": 1327049272000
+   },
+   "score": 27.864223,
+   "resource": {
+    "primary": {
+     "URL": "http://www.springerreference.com/index/doi/10.1007/SpringerReference_97756"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      null
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.1007/springerreference_97756"
+  }
+ ]
+}

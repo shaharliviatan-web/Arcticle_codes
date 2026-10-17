@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item REF4: hidden header note** (References session, 2026-10-01; user request to update the maps with the session's work). The first hidden note of the file lists its sections; the References section (REF3) and the Supplementary Information captions (CAP1) are added. Invisible in Word; no text change."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Top of file, first hidden note",
+   "why": "Section list brought up to date.",
+   "old": "(title, Key message, Abstract, Keywords, Introduction, Materials and methods, Results, Discussion, Conclusions; item AB1)",
+   "new": "(title, Key message, Abstract, Keywords, Introduction, Materials and methods, Results, Discussion, Conclusions; item AB1{+; References, item REF3; Supplementary Information captions, item CAP1+})"
+  }
+ ]
+}

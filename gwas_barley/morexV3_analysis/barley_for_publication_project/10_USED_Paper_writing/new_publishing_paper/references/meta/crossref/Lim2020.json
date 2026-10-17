@@ -1,0 +1,4713 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     17
+    ]
+   ],
+   "date-time": "2026-04-17T13:07:12Z",
+   "timestamp": 1776431232840,
+   "version": "3.51.2"
+  },
+  "reference-count": 80,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       9,
+       19
+      ]
+     ],
+     "date-time": "2019-09-19T00:00:00Z",
+     "timestamp": 1568851200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "Adelaide Graduate Research Scholarship"
+   },
+   {
+    "DOI": "10.13039/501100000923",
+    "name": "Australian Research Council",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "CE110001007"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "CE110001007"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100000923",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "ARC Fellowship",
+    "award": [
+     "DE150100837"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "DE150100837"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "ARC Fellowship",
+    "award": [
+     "FT140100780"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "FT140100780"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001659",
+    "name": "German Research Foundation",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "DFG, MA 4814/3-1"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "DFG, MA 4814/3-1"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001659",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2020,
+     1,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:p>Overexpression of the HvCslF6 gene in hull-less barley grain perturbs sucrose uptake and allocation, and impairs transfer tissue and endosperm development</jats:p>",
+  "DOI": "10.1093/jxb/erz407",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     9,
+     13
+    ]
+   ],
+   "date-time": "2019-09-13T11:43:38Z",
+   "timestamp": 1568375018000
+  },
+  "page": "138-153",
+  "source": "Crossref",
+  "is-referenced-by-count": 19,
+  "title": [
+   "Overexpression of HvCslF6 in barley grain alters carbohydrate partitioning plus transfer tissue and endosperm development"
+  ],
+  "prefix": "10.1093",
+  "volume": "71",
+  "author": [
+   {
+    "given": "Wai Li",
+    "family": "Lim",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3885-7707",
+    "authenticated-orcid": false,
+    "given": "Helen M",
+    "family": "Collins",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8549-2873",
+    "authenticated-orcid": false,
+    "given": "Caitlin S",
+    "family": "Byrt",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4202-1403",
+    "authenticated-orcid": false,
+    "given": "Jelle",
+    "family": "Lahnstein",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8114-9891",
+    "authenticated-orcid": false,
+    "given": "Neil J",
+    "family": "Shirley",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2539-6980",
+    "authenticated-orcid": false,
+    "given": "Matthew K",
+    "family": "Aubert",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4661-6700",
+    "authenticated-orcid": false,
+    "given": "Matthew R",
+    "family": "Tucker",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1781-7722",
+    "authenticated-orcid": false,
+    "given": "Manuela",
+    "family": "Peukert",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Applied Biochemistry Group, Leibniz Institute of Plant Genetics and Crop Plant Research Stadt Seeland, Gatersleben, Germany"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4399-6149",
+    "authenticated-orcid": false,
+    "given": "Andrea",
+    "family": "Matros",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Applied Biochemistry Group, Leibniz Institute of Plant Genetics and Crop Plant Research Stadt Seeland, Gatersleben, Germany"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0638-4709",
+    "authenticated-orcid": false,
+    "given": "Rachel A",
+    "family": "Burton",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     },
+     {
+      "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     9,
+     19
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2019121610292684300_CIT0001",
+    "doi-asserted-by": "crossref",
+    "first-page": "73",
+    "DOI": "10.1016/S0733-5210(85)80035-7",
+    "article-title": "The variation in chemical composition of Swedish barleys",
+    "volume": "3",
+    "author": "\u00c5man",
+    "year": "1985",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "11025",
+    "DOI": "10.1038/s41598-018-29068-4",
+    "article-title": "Differences in hydrolytic enzyme activity accompany natural variation in mature aleurone morphology in barley (Hordeum vulgare L.)",
+    "volume": "8",
+    "author": "Aubert",
+    "year": "2018",
+    "journal-title": "Scientific Reports"
+   },
+   {
+    "key": "2019121610292684300_CIT0003",
+    "doi-asserted-by": "crossref",
+    "first-page": "4039",
+    "DOI": "10.1242/dev.127.18.4039",
+    "article-title": "Positional cues specify and maintain aleurone cell fate in maize endosperm development",
+    "volume": "127",
+    "author": "Becraft",
+    "year": "2000",
+    "journal-title": "Development"
+   },
+   {
+    "key": "2019121610292684300_CIT0004",
+    "doi-asserted-by": "crossref",
+    "first-page": "1033",
+    "DOI": "10.1105/tpc.11.6.1033",
+    "article-title": "Hormonally regulated programmed cell death in barley aleurone cells",
+    "volume": "11",
+    "author": "Bethke",
+    "year": "1999",
+    "journal-title": "The Plant Cell"
+   },
+   {
+    "key": "2019121610292684300_CIT0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "29321",
+    "DOI": "10.1074/jbc.M605903200",
+    "article-title": "Understanding the biological rationale for the diversity of cellulose-directed carbohydrate-binding modules in prokaryotic enzymes",
+    "volume": "281",
+    "author": "Blake",
+    "year": "2006",
+    "journal-title": "Journal of Biological Chemistry"
+   },
+   {
+    "key": "2019121610292684300_CIT0006",
+    "doi-asserted-by": "crossref",
+    "first-page": "661",
+    "DOI": "10.1111/j.1365-313X.1992.tb00135.x",
+    "article-title": "Endosperm differentiation in barley wild-type and sex mutants",
+    "volume": "2",
+    "author": "Bosnes",
+    "year": "1992",
+    "journal-title": "The Plant Journal"
+   },
+   {
+    "key": "2019121610292684300_CIT0007",
+    "doi-asserted-by": "crossref",
+    "first-page": "117",
+    "DOI": "10.1111/j.1467-7652.2010.00532.x",
+    "article-title": "Over-expression of specific HvCslF cellulose synthase-like genes in transgenic barley increases the levels of cell wall (1,3;1,4)-\u03b2-d-glucans and alters their fine structure",
+    "volume": "9",
+    "author": "Burton",
+    "year": "2011",
+    "journal-title": "Plant Biotechnology Journal"
+   },
+   {
+    "key": "2019121610292684300_CIT0008",
+    "doi-asserted-by": "crossref",
+    "first-page": "130",
+    "DOI": "10.3389/fpls.2012.00130",
+    "article-title": "Current challenges in cell wall biology in the cereals and grasses",
+    "volume": "3",
+    "author": "Burton",
+    "year": "2012",
+    "journal-title": "Frontiers in Plant Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0009",
+    "doi-asserted-by": "crossref",
+    "first-page": "456",
+    "DOI": "10.3389/fpls.2014.00456",
+    "article-title": "Evolution and development of cell walls in cereal grains",
+    "volume": "5",
+    "author": "Burton",
+    "year": "2014",
+    "journal-title": "Frontiers in Plant Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "1821",
+    "DOI": "10.1104/pp.107.114694",
+    "article-title": "The genetics and transcriptional profiles of the cellulose synthase-like HvCslF gene family in barley",
+    "volume": "146",
+    "author": "Burton",
+    "year": "2008",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0011",
+    "doi-asserted-by": "crossref",
+    "first-page": "224",
+    "DOI": "10.1104/pp.103.032904",
+    "article-title": "The CesA gene family of barley. Quantitative analysis of transcripts reveals two groups of co-expressed genes",
+    "volume": "134",
+    "author": "Burton",
+    "year": "2004",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0012",
+    "doi-asserted-by": "crossref",
+    "first-page": "223",
+    "DOI": "10.1186/1471-2229-12-223",
+    "article-title": "Concerted suppression of all starch branching enzyme genes in barley produces amylose-only starch granules",
+    "volume": "12",
+    "author": "Carciofi",
+    "year": "2012",
+    "journal-title": "BMC Plant Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0013",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1002/j.2050-0416.2001.tb00074.x",
+    "article-title": "Comparison of size characterization of barley starch granules determined by electron and optical microscopy, low angle laser light scattering and gravitational field\u2010flow fractionation",
+    "volume": "107",
+    "author": "Chmelik",
+    "year": "2001",
+    "journal-title": "Journal of the Institute of Brewing"
+   },
+   {
+    "key": "2019121610292684300_CIT0014",
+    "doi-asserted-by": "crossref",
+    "first-page": "211",
+    "DOI": "10.1007/s10142-007-0070-7",
+    "article-title": "Gene expression in a starch synthase IIa mutant of barley: changes in the level of gene transcription and grain composition",
+    "volume": "8",
+    "author": "Clarke",
+    "year": "2008",
+    "journal-title": "Functional & Integrative Genomics"
+   },
+   {
+    "key": "2019121610292684300_CIT0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "462",
+    "DOI": "10.1104/pp.103.027979",
+    "article-title": "A gateway cloning vector set for high-throughput functional analysis of genes in planta",
+    "volume": "133",
+    "author": "Curtis",
+    "year": "2003",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0016",
+    "doi-asserted-by": "crossref",
+    "first-page": "15572",
+    "DOI": "10.1073/pnas.0706569104",
+    "article-title": "Organization of cellulose synthase complexes involved in primary cell wall synthesis in Arabidopsis thaliana",
+    "volume": "104",
+    "author": "Desprez",
+    "year": "2007",
+    "journal-title": "Proceedings of the National Academy of Sciences, USA"
+   },
+   {
+    "key": "2019121610292684300_CIT0017",
+    "doi-asserted-by": "crossref",
+    "first-page": "44",
+    "DOI": "10.1016/j.jcs.2011.02.009",
+    "article-title": "Effect of genotype, environment and agronomic management on \u03b2-glucan concentration of naked barley grain intended for health food use",
+    "volume": "54",
+    "author": "Dickin",
+    "year": "2011",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0018",
+    "doi-asserted-by": "crossref",
+    "first-page": "5996",
+    "DOI": "10.1073/pnas.0902019106",
+    "article-title": "A barley cellulose synthase-like CSLH gene mediates (1,3;1,4)-beta-d-glucan synthesis in transgenic Arabidopsis",
+    "volume": "106",
+    "author": "Doblin",
+    "year": "2009",
+    "journal-title": "Proceedings of the National Academy of Sciences, USA"
+   },
+   {
+    "key": "2019121610292684300_CIT0019",
+    "first-page": "366",
+    "article-title": "Programmed cell death (PCD): an essential process of cereal seed development and germination",
+    "volume": "5",
+    "author": "Dom\u00ednguez",
+    "year": "2014",
+    "journal-title": "Frontiers in Plant Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "248",
+    "DOI": "10.1002/j.1537-2197.1985.tb08289.x",
+    "article-title": "Anatomy of immature grains of eight maternal effect shrunken endosperm barley mutants",
+    "volume": "72",
+    "author": "Felker",
+    "year": "1985",
+    "journal-title": "American Journal of Botany"
+   },
+   {
+    "key": "2019121610292684300_CIT0021",
+    "doi-asserted-by": "crossref",
+    "first-page": "116",
+    "DOI": "10.1002/j.2050-0416.1975.tb03672.x",
+    "article-title": "Morphology and chemical composition of barley endosperm cell walls",
+    "volume": "81",
+    "author": "Fincher",
+    "year": "1975",
+    "journal-title": "Journal of the Institute of Brewing"
+   },
+   {
+    "key": "2019121610292684300_CIT0022",
+    "doi-asserted-by": "crossref",
+    "first-page": "204",
+    "DOI": "10.1104/pp.105.064295",
+    "article-title": "Aleurone cell identity is suppressed following connation in maize kernels",
+    "volume": "139",
+    "author": "Geisler-Lee",
+    "year": "2005",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0023",
+    "doi-asserted-by": "crossref",
+    "first-page": "667",
+    "DOI": "10.1105/tpc.13.3.667",
+    "article-title": "Gibberellin/abscisic acid antagonism in barley aleurone cells: site of action of the protein kinase PKABA1 in relation to gibberellin signaling molecules",
+    "volume": "13",
+    "author": "G\u00f3mez-Cadenas",
+    "year": "2001",
+    "journal-title": "The Plant Cell"
+   },
+   {
+    "key": "2019121610292684300_CIT0024",
+    "doi-asserted-by": "crossref",
+    "first-page": "2238",
+    "DOI": "10.1073/pnas.0409429102",
+    "article-title": "Ricinosomes and endosperm transfer cell structure in programmed cell death of the nucellus during Ricinus seed development",
+    "volume": "102",
+    "author": "Greenwood",
+    "year": "2005",
+    "journal-title": "Proceedings of the National Academy of Sciences, USA"
+   },
+   {
+    "key": "2019121610292684300_CIT0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "898",
+    "DOI": "10.1104/pp.106.080945",
+    "article-title": "Surface position, not signaling from surrounding maternal tissues, specifies aleurone epidermal cell fate in maize",
+    "volume": "141",
+    "author": "Gruis",
+    "year": "2006",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0026",
+    "doi-asserted-by": "crossref",
+    "first-page": "1001",
+    "DOI": "10.1093/jxb/erq332",
+    "article-title": "Brachypodium distachyon grain: characterization of endosperm cell walls",
+    "volume": "62",
+    "author": "Guillon",
+    "year": "2011",
+    "journal-title": "Journal of Experimental Botany"
+   },
+   {
+    "key": "2019121610292684300_CIT0027",
+    "doi-asserted-by": "crossref",
+    "first-page": "e0182537",
+    "DOI": "10.1371/journal.pone.0182537",
+    "article-title": "A genome wide association study of arabinoxylan content in 2-row spring barley grain",
+    "volume": "12",
+    "author": "Hassan",
+    "year": "2017",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "2019121610292684300_CIT0028",
+    "first-page": "362",
+    "article-title": "Characterization of cereal sugars and oligosaccharides",
+    "volume": "66",
+    "author": "Henry",
+    "year": "1989",
+    "journal-title": "Cereal Chemistry"
+   },
+   {
+    "key": "2019121610292684300_CIT0029",
+    "doi-asserted-by": "crossref",
+    "first-page": "71",
+    "DOI": "10.1002/j.2050-0416.1988.tb04560.x",
+    "article-title": "The carbohydrates of barley grains\u2014a review",
+    "volume": "94",
+    "author": "Henry",
+    "year": "1988",
+    "journal-title": "Journal of the Institute of Brewing"
+   },
+   {
+    "key": "2019121610292684300_CIT0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "73",
+    "DOI": "10.1023/A:1010619128894",
+    "article-title": "Structure\u2013function relationships of beta-d-glucan endo- and exohydrolases from higher plants",
+    "volume": "47",
+    "author": "Hrmova",
+    "year": "2001",
+    "journal-title": "Plant Molecular Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0031",
+    "doi-asserted-by": "crossref",
+    "first-page": "984",
+    "DOI": "10.3389/fpls.2016.00984",
+    "article-title": "The plant cell wall: a complex and dynamic structure as revealed by the responses of genes under stress conditions",
+    "volume": "7",
+    "author": "Houston",
+    "year": "2016",
+    "journal-title": "Frontiers in Plant Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0032",
+    "doi-asserted-by": "crossref",
+    "first-page": "369",
+    "DOI": "10.1016/j.jcs.2007.10.004",
+    "article-title": "Genotypic variation in wheat grain fructan content revealed by a simplified HPLC method",
+    "volume": "48",
+    "author": "Huynh",
+    "year": "2008",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0033",
+    "doi-asserted-by": "crossref",
+    "first-page": "383",
+    "DOI": "10.1016/j.plaphy.2010.03.006",
+    "article-title": "Starch biosynthesis in cereal endosperm",
+    "volume": "48",
+    "author": "Jeon",
+    "year": "2010",
+    "journal-title": "Plant Physiology and Biochemistry"
+   },
+   {
+    "key": "2019121610292684300_CIT0034",
+    "doi-asserted-by": "crossref",
+    "first-page": "1169",
+    "DOI": "10.1007/s11746-003-0837-3",
+    "article-title": "Comparison of Kjeldahl and Dumas methods for determining protein contents of soybean products",
+    "volume": "80",
+    "author": "Jung",
+    "year": "2003",
+    "journal-title": "Journal of the American Oil Chemists' Society"
+   },
+   {
+    "key": "2019121610292684300_CIT0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "849",
+    "DOI": "10.1046/j.1365-313X.1994.6060849.x",
+    "article-title": "The promoter of the barley aleurone-specific gene encoding a putative 7 kDa lipid transfer protein confers aleurone cell-specific expression in transgenic rice",
+    "volume": "6",
+    "author": "Kalla",
+    "year": "1994",
+    "journal-title": "The Plant Journal"
+   },
+   {
+    "key": "2019121610292684300_CIT0036",
+    "doi-asserted-by": "crossref",
+    "first-page": "271",
+    "DOI": "10.1146/annurev.food.102308.124214",
+    "article-title": "Biochemistry and genetics of starch synthesis",
+    "volume": "1",
+    "author": "Keeling",
+    "year": "2010",
+    "journal-title": "Annual Review of Food Science and Technology"
+   },
+   {
+    "key": "2019121610292684300_CIT0037",
+    "doi-asserted-by": "crossref",
+    "first-page": "307",
+    "DOI": "10.1111/j.1365-313X.2006.02695.x",
+    "article-title": "An Arabidopsis cell wall-associated kinase required for invertase activity and cell growth",
+    "volume": "46",
+    "author": "Kohorn",
+    "year": "2006",
+    "journal-title": "The Plant Journal"
+   },
+   {
+    "key": "2019121610292684300_CIT0038",
+    "doi-asserted-by": "crossref",
+    "first-page": "370",
+    "DOI": "10.1007/s00425-003-1116-2",
+    "article-title": "The maize disorganized aleurone layer 1 and 2 (dil1, dil2) mutants lack control of the mitotic division plane in the aleurone layer of developing endosperm",
+    "volume": "218",
+    "author": "Lid",
+    "year": "2004",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "2019121610292684300_CIT0039",
+    "doi-asserted-by": "crossref",
+    "first-page": "5460",
+    "DOI": "10.1073/pnas.042098799",
+    "article-title": "The defective kernel 1 (dek1) gene required for aleurone cell development in the endosperm of maize grains encodes a membrane protein of the calpain gene superfamily",
+    "volume": "99",
+    "author": "Lid",
+    "year": "2002",
+    "journal-title": "Proceedings of the National Academy of Sciences, USA"
+   },
+   {
+    "key": "2019121610292684300_CIT0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "382",
+    "DOI": "10.1111/jipb.12625",
+    "article-title": "Method for hull-less barley transformation and manipulation of grain mixed-linkage beta-glucan",
+    "volume": "60",
+    "author": "Lim",
+    "year": "2018",
+    "journal-title": "Journal of Integrative Plant Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0041",
+    "doi-asserted-by": "crossref",
+    "first-page": "1124",
+    "DOI": "10.1104/pp.17.01718",
+    "article-title": "Revised phylogeny of the cellulose synthase gene superfamily: insights into cell wall evolution",
+    "volume": "177",
+    "author": "Little",
+    "year": "2018",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0042",
+    "doi-asserted-by": "crossref",
+    "first-page": "822",
+    "DOI": "10.1111/tpj.12853",
+    "article-title": "Sugars as hydroxyl radical scavengers: proof-of-concept by studying the fate of sucralose in Arabidopsis",
+    "volume": "82",
+    "author": "Matros",
+    "year": "2015",
+    "journal-title": "The Plant Journal"
+   },
+   {
+    "key": "2019121610292684300_CIT0043",
+    "doi-asserted-by": "crossref",
+    "first-page": "543",
+    "DOI": "10.1369/jhc.4B6578.2005",
+    "article-title": "Monoclonal antibodies to plant cell wall xylans and arabinoxylans",
+    "volume": "53",
+    "author": "McCartney",
+    "year": "2005",
+    "journal-title": "Journal of Histochemistry and Cytochemistry"
+   },
+   {
+    "key": "2019121610292684300_CIT0044",
+    "doi-asserted-by": "crossref",
+    "first-page": "51",
+    "DOI": "10.1006/jcrs.1994.1044",
+    "article-title": "Quantitative measurement of total starch in cereal flours and products",
+    "volume": "20",
+    "author": "McCleary",
+    "year": "1994",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0045",
+    "doi-asserted-by": "crossref",
+    "first-page": "303",
+    "DOI": "10.1002/jsfa.2740550215",
+    "article-title": "Measurement of (1\u21923),(1\u21924)-\u03b2-d-glucan in barley and oats: a streamlined enzymic procedure",
+    "volume": "55",
+    "author": "McCleary",
+    "year": "1991",
+    "journal-title": "Journal of the Science of Food and Agriculture"
+   },
+   {
+    "key": "2019121610292684300_CIT0046",
+    "doi-asserted-by": "crossref",
+    "first-page": "1022",
+    "DOI": "10.1111/j.1467-7652.2011.00618.x",
+    "article-title": "Dynamic 13C/1H NMR imaging uncovers sugar allocation in the living seed",
+    "volume": "9",
+    "author": "Melkus",
+    "year": "2011",
+    "journal-title": "Plant Biotechnology Journal"
+   },
+   {
+    "key": "2019121610292684300_CIT0047",
+    "doi-asserted-by": "crossref",
+    "first-page": "213",
+    "DOI": "10.1016/j.jcs.2004.07.006",
+    "article-title": "Near infrared spectra indicate specific mutant endosperm genes and reveal a new mechanism for substituting starch with (1\u21923,1\u21924)-\u03b2-glucan in barley",
+    "volume": "40",
+    "author": "Munck",
+    "year": "2004",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0048",
+    "doi-asserted-by": "crossref",
+    "first-page": "581",
+    "DOI": "10.4236/fns.2014.56068",
+    "article-title": "Relationship of grain fructan content to degree of polymerisation in different barleys",
+    "volume": "5",
+    "author": "Nemeth",
+    "year": "2014",
+    "journal-title": "Food and Nutrition Sciences"
+   },
+   {
+    "key": "2019121610292684300_CIT0049",
+    "doi-asserted-by": "crossref",
+    "first-page": "3753",
+    "DOI": "10.1093/jxb/ern228",
+    "article-title": "The defective seed5 (des5) mutant: effects on barley seed development and HvDek1, HvCr4, and HvSal1 gene regulation",
+    "volume": "59",
+    "author": "Olsen",
+    "year": "2008",
+    "journal-title": "Journal of Experimental Botany"
+   },
+   {
+    "key": "2019121610292684300_CIT0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "233",
+    "DOI": "10.1146/annurev.arplant.52.1.233",
+    "article-title": "Endosperm development: cellularization and cell fate specification",
+    "volume": "52",
+    "author": "Olsen",
+    "year": "2001",
+    "journal-title": "Annual Review of Plant Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0051",
+    "doi-asserted-by": "crossref",
+    "first-page": "326",
+    "DOI": "10.1002/j.2050-0416.1972.tb03456.x",
+    "article-title": "Morphology of starch granules in cereal grains and malts",
+    "volume": "78",
+    "author": "Palmer",
+    "year": "1972",
+    "journal-title": "Journal of the Institute of Brewing"
+   },
+   {
+    "key": "2019121610292684300_CIT0052",
+    "doi-asserted-by": "crossref",
+    "first-page": "2088",
+    "DOI": "10.1104/pp.104.045203",
+    "article-title": "The lys5 mutations of barley reveal the nature and importance of plastidial ADP-Glc transporters for starch synthesis in cereal endosperm",
+    "volume": "135",
+    "author": "Patron",
+    "year": "2004",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0053",
+    "doi-asserted-by": "crossref",
+    "first-page": "235",
+    "DOI": "10.1007/s004250100606",
+    "article-title": "A (1\u21924)-beta-mannan-specific monoclonal antibody and its use in the immunocytochemical location of galactomannans",
+    "volume": "214",
+    "author": "Pettolino",
+    "year": "2001",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "2019121610292684300_CIT0054",
+    "doi-asserted-by": "crossref",
+    "first-page": "574",
+    "DOI": "10.1002/cppb.20037",
+    "article-title": "Mass spectrometry imaging of metabolites in barley grain tissues",
+    "volume": "1",
+    "author": "Peukert",
+    "year": "2016",
+    "journal-title": "Current Protocols in Plant Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0055",
+    "doi-asserted-by": "crossref",
+    "first-page": "1245",
+    "DOI": "10.3389/fpls.2015.01245",
+    "article-title": "Spatiotemporal dynamics of oligofructan metabolism and suggested functions in developing cereal grains",
+    "volume": "6",
+    "author": "Peukert",
+    "year": "2016",
+    "journal-title": "Frontiers in Plant Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0056",
+    "doi-asserted-by": "crossref",
+    "first-page": "3728",
+    "DOI": "10.1105/tpc.114.130211",
+    "article-title": "Spatio-temporal dynamics of fructan metabolism in developing barley grains",
+    "volume": "26",
+    "author": "Peukert",
+    "year": "2014",
+    "journal-title": "The Plant Cell"
+   },
+   {
+    "key": "2019121610292684300_CIT0057",
+    "doi-asserted-by": "crossref",
+    "first-page": "77",
+    "DOI": "10.1146/annurev.pp.42.060191.000453",
+    "article-title": "Fructan metabolism in grasses and cereals",
+    "volume": "42",
+    "author": "Pollock",
+    "year": "1991",
+    "journal-title": "Annual Review of Plant Physiology and Plant Molecular Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0058",
+    "doi-asserted-by": "crossref",
+    "first-page": "190",
+    "DOI": "10.1104/pp.108.133520",
+    "article-title": "Spatiotemporal profiling of starch biosynthesis and degradation in the developing barley grain",
+    "volume": "150",
+    "author": "Radchuk",
+    "year": "2009",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0059",
+    "doi-asserted-by": "crossref",
+    "first-page": "33",
+    "DOI": "10.1146/annurev-arplant-050213-040251",
+    "article-title": "Sucrose metabolism: gateway to diverse carbon use and sugar signaling",
+    "volume": "65",
+    "author": "Ruan",
+    "year": "2014",
+    "journal-title": "Annual Review of Plant Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "1111",
+    "DOI": "10.1104/pp.103.021527",
+    "article-title": "Starch-branching enzyme I-deficient mutation specifically affects the structure and properties of starch in rice endosperm",
+    "volume": "133",
+    "author": "Satoh",
+    "year": "2003",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0061",
+    "doi-asserted-by": "crossref",
+    "first-page": "608",
+    "DOI": "10.1105/tpc.16.00845",
+    "article-title": "Widespread contamination of arabidopsis embryo and endosperm transcriptome data sets",
+    "volume": "29",
+    "author": "Schon",
+    "year": "2017",
+    "journal-title": "The Plant Cell"
+   },
+   {
+    "key": "2019121610292684300_CIT0062",
+    "doi-asserted-by": "crossref",
+    "first-page": "24",
+    "DOI": "10.1016/j.jcs.2008.06.012",
+    "article-title": "Accumulation of mixed linkage (1\u21923)(1\u21924)-\u03b2-d-glucan during grain filling in barley: a vibrational spectroscopy study",
+    "volume": "49",
+    "author": "Seefeldt",
+    "year": "2009",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "2019121610292684300_CIT0063",
+    "doi-asserted-by": "crossref",
+    "first-page": "e0149613",
+    "DOI": "10.1371/journal.pone.0149613",
+    "article-title": "Starch granule re-structuring by starch branching enzyme and glucan water dikinase modulation affects caryopsis physiology and metabolism",
+    "volume": "11",
+    "author": "Shaik",
+    "year": "2016",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "2019121610292684300_CIT0064",
+    "doi-asserted-by": "crossref",
+    "first-page": "e0123878",
+    "DOI": "10.1371/journal.pone.0123878",
+    "article-title": "Asparagus spears as a model to study heteroxylan biosynthesis during secondary wall development",
+    "volume": "10",
+    "author": "Song",
+    "year": "2015",
+    "journal-title": "PLoS One"
+   },
+   {
+    "key": "2019121610292684300_CIT0065",
+    "doi-asserted-by": "crossref",
+    "first-page": "49",
+    "DOI": "10.1016/S1937-6448(10)81002-0",
+    "article-title": "Barley grain development toward an integrative view",
+    "volume": "281",
+    "author": "Sreenivasulu",
+    "year": "2010",
+    "journal-title": "International Review of Cell and Molecular Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0066",
+    "doi-asserted-by": "crossref",
+    "first-page": "546",
+    "DOI": "10.1002/iub.1297",
+    "article-title": "A review of starch-branching enzymes and their role in amylopectin biosynthesis",
+    "volume": "66",
+    "author": "Tetlow",
+    "year": "2014",
+    "journal-title": "IUBMB Life"
+   },
+   {
+    "key": "2019121610292684300_CIT0067",
+    "doi-asserted-by": "crossref",
+    "first-page": "639",
+    "DOI": "10.1111/j.1365-313X.2012.05018.x",
+    "article-title": "Differentiation of endosperm transfer cells of barley: a comprehensive analysis at the micro-scale",
+    "volume": "71",
+    "author": "Thiel",
+    "year": "2012",
+    "journal-title": "The Plant Journal"
+   },
+   {
+    "key": "2019121610292684300_CIT0068",
+    "doi-asserted-by": "crossref",
+    "first-page": "5033",
+    "DOI": "10.1093/jxb/ert292",
+    "article-title": "Grain development in Brachypodium and other grasses: possible interactions between cell expansion, starch deposition, and cell-wall synthesis",
+    "volume": "64",
+    "author": "Trafford",
+    "year": "2013",
+    "journal-title": "Journal of Experimental Botany"
+   },
+   {
+    "key": "2019121610292684300_CIT0069",
+    "doi-asserted-by": "crossref",
+    "first-page": "264",
+    "DOI": "10.1016/j.devcel.2011.01.009",
+    "article-title": "Transcriptional activation of Arabidopsis axis patterning genes WOX8/9 links zygote polarity to embryo development",
+    "volume": "20",
+    "author": "Ueda",
+    "year": "2011",
+    "journal-title": "Developmental Cell"
+   },
+   {
+    "key": "2019121610292684300_CIT0070",
+    "doi-asserted-by": "crossref",
+    "first-page": "1858",
+    "DOI": "10.1016/j.carres.2008.11.010",
+    "article-title": "An extended set of monoclonal antibodies to pectic homogalacturonan",
+    "volume": "344",
+    "author": "Verhertbruggen",
+    "year": "2009",
+    "journal-title": "Carbohydrate Research"
+   },
+   {
+    "key": "2019121610292684300_CIT0071",
+    "doi-asserted-by": "crossref",
+    "first-page": "2102",
+    "DOI": "10.1021/jf204774n",
+    "article-title": "A simple and accurate method for determining wheat grain fructan content and average degree of polymerization",
+    "volume": "60",
+    "author": "Verspreet",
+    "year": "2012",
+    "journal-title": "Journal of Agricultural and Food Chemistry"
+   },
+   {
+    "key": "2019121610292684300_CIT0072",
+    "doi-asserted-by": "crossref",
+    "first-page": "195",
+    "DOI": "10.1007/s11103-006-9014-1",
+    "article-title": "A novel cis-acting element, ESP, contributes to high-level endosperm-specific expression in an oat globulin promoter",
+    "volume": "62",
+    "author": "Vickers",
+    "year": "2006",
+    "journal-title": "Plant Molecular Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0073",
+    "doi-asserted-by": "crossref",
+    "first-page": "351",
+    "DOI": "10.1104/pp.120.2.351",
+    "article-title": "Fructan: more than a reserve carbohydrate?",
+    "volume": "120",
+    "author": "Vijn",
+    "year": "1999",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0074",
+    "doi-asserted-by": "crossref",
+    "first-page": "429",
+    "DOI": "10.1016/S0176-1617(86)80227-9",
+    "article-title": "Properties and subcellular localization of fructan hydrolase in the leaves of barley (Hordeum vulgare L. cv Gerbel)",
+    "volume": "123",
+    "author": "Wagner",
+    "year": "1986",
+    "journal-title": "Journal of Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "698",
+    "DOI": "10.1104/pp.109.150854",
+    "article-title": "Increasing sucrose uptake capacity of wheat grains stimulates storage protein synthesis",
+    "volume": "152",
+    "author": "Weichert",
+    "year": "2010",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0076",
+    "doi-asserted-by": "crossref",
+    "first-page": "655",
+    "DOI": "10.1104/pp.111.192682",
+    "article-title": "Pattern of deposition of cell wall polysaccharides and transcript abundance of related cell wall synthesis genes during differentiation in barley endosperm",
+    "volume": "159",
+    "author": "Wilson",
+    "year": "2012",
+    "journal-title": "Plant Physiology"
+   },
+   {
+    "key": "2019121610292684300_CIT0077",
+    "doi-asserted-by": "crossref",
+    "first-page": "655",
+    "DOI": "10.1007/s00425-006-0244-x",
+    "article-title": "Temporal and spatial appearance of wall polysaccharides during cellularization of barley (Hordeum vulgare) endosperm",
+    "volume": "224",
+    "author": "Wilson",
+    "year": "2006",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "2019121610292684300_CIT0078",
+    "doi-asserted-by": "crossref",
+    "first-page": "754",
+    "DOI": "10.1105/tpc.114.135970",
+    "article-title": "Determining the subcellular location of synthesis and assembly of the cell wall polysaccharide (1,3;1,4)-\u03b2-d-glucan in grasses",
+    "volume": "27",
+    "author": "Wilson",
+    "year": "2015",
+    "journal-title": "The Plant Cell"
+   },
+   {
+    "key": "2019121610292684300_CIT0079",
+    "first-page": "1",
+    "article-title": "Molecular physiology and genomics of developing barley grains",
+    "volume": "2",
+    "author": "Wobus",
+    "year": "2005",
+    "journal-title": "Recent Research Developments in Plant Molecular Biology"
+   },
+   {
+    "key": "2019121610292684300_CIT0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "e82114",
+    "DOI": "10.1371/journal.pone.0082114",
+    "article-title": "Heterogeneity and glycan masking of cell wall microstructures in the stems of Miscanthus \u00d7 giganteus, and its parents M. sinensis and M. sacchariflorus",
+    "volume": "8",
+    "author": "Xue",
+    "year": "2013",
+    "journal-title": "PLoS One"
+   }
+  ],
+  "container-title": [
+   "Journal of Experimental Botany"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://academic.oup.com/jxb/advance-article-pdf/doi/10.1093/jxb/erz407/30140247/erz407.pdf",
+    "content-type": "application/pdf",
+    "content-version": "am",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "http://academic.oup.com/jxb/article-pdf/71/1/138/31550147/erz407.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "http://academic.oup.com/jxb/article-pdf/71/1/138/31550147/erz407.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     9,
+     28
+    ]
+   ],
+   "date-time": "2022-09-28T17:06:53Z",
+   "timestamp": 1664384813000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/jxb/article/71/1/138/5571796"
+   }
+  },
+  "subtitle": [],
+  "editor": [
+   {
+    "given": "Gwyneth",
+    "family": "Ingram",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "CNRS/Ecole Normale Superieure de Lyon, France"
+     }
+    ],
+    "role": [
+     {
+      "role": "editor",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     9,
+     19
+    ]
+   ]
+  },
+  "references-count": 80,
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      9,
+      19
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      1,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/jxb/erz407",
+  "relation": {},
+  "ISSN": [
+   "0022-0957",
+   "1460-2431"
+  ],
+  "issn-type": [
+   {
+    "value": "0022-0957",
+    "type": "print"
+   },
+   {
+    "value": "1460-2431",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2020,
+     1,
+     1
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     9,
+     19
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      17
+     ]
+    ],
+    "date-time": "2026-04-17T13:07:12Z",
+    "timestamp": 1776431232840,
+    "version": "3.51.2"
+   },
+   "reference-count": 80,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        9,
+        19
+       ]
+      ],
+      "date-time": "2019-09-19T00:00:00Z",
+      "timestamp": 1568851200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "name": "Adelaide Graduate Research Scholarship"
+    },
+    {
+     "DOI": "10.13039/501100000923",
+     "name": "Australian Research Council",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "CE110001007"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "CE110001007"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100000923",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "name": "ARC Fellowship",
+     "award": [
+      "DE150100837"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "DE150100837"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "ARC Fellowship",
+     "award": [
+      "FT140100780"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "FT140100780"
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100001659",
+     "name": "German Research Foundation",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "DFG, MA 4814/3-1"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "DFG, MA 4814/3-1"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001659",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      1,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:p>Overexpression of the HvCslF6 gene in hull-less barley grain perturbs sucrose uptake and allocation, and impairs transfer tissue and endosperm development</jats:p>",
+   "DOI": "10.1093/jxb/erz407",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2019,
+      9,
+      13
+     ]
+    ],
+    "date-time": "2019-09-13T11:43:38Z",
+    "timestamp": 1568375018000
+   },
+   "page": "138-153",
+   "source": "Crossref",
+   "is-referenced-by-count": 19,
+   "title": [
+    "Overexpression of HvCslF6 in barley grain alters carbohydrate partitioning plus transfer tissue and endosperm development"
+   ],
+   "prefix": "10.1093",
+   "volume": "71",
+   "author": [
+    {
+     "given": "Wai Li",
+     "family": "Lim",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3885-7707",
+     "authenticated-orcid": false,
+     "given": "Helen M",
+     "family": "Collins",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-8549-2873",
+     "authenticated-orcid": false,
+     "given": "Caitlin S",
+     "family": "Byrt",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-4202-1403",
+     "authenticated-orcid": false,
+     "given": "Jelle",
+     "family": "Lahnstein",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-8114-9891",
+     "authenticated-orcid": false,
+     "given": "Neil J",
+     "family": "Shirley",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2539-6980",
+     "authenticated-orcid": false,
+     "given": "Matthew K",
+     "family": "Aubert",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4661-6700",
+     "authenticated-orcid": false,
+     "given": "Matthew R",
+     "family": "Tucker",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-1781-7722",
+     "authenticated-orcid": false,
+     "given": "Manuela",
+     "family": "Peukert",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Applied Biochemistry Group, Leibniz Institute of Plant Genetics and Crop Plant Research Stadt Seeland, Gatersleben, Germany"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-4399-6149",
+     "authenticated-orcid": false,
+     "given": "Andrea",
+     "family": "Matros",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Applied Biochemistry Group, Leibniz Institute of Plant Genetics and Crop Plant Research Stadt Seeland, Gatersleben, Germany"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-0638-4709",
+     "authenticated-orcid": false,
+     "given": "Rachel A",
+     "family": "Burton",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Australian Research Council Centre of Excellence in Plant Cell Walls, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      },
+      {
+       "name": "School of Agriculture, Food and Wine, University of Adelaide, Waite Campus, Urrbrae, SA, Australia"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      9,
+      19
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2019121610292684300_CIT0001",
+     "doi-asserted-by": "crossref",
+     "first-page": "73",
+     "DOI": "10.1016/S0733-5210(85)80035-7",
+     "article-title": "The variation in chemical composition of Swedish barleys",
+     "volume": "3",
+     "author": "\u00c5man",
+     "year": "1985",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0002",
+     "doi-asserted-by": "crossref",
+     "first-page": "11025",
+     "DOI": "10.1038/s41598-018-29068-4",
+     "article-title": "Differences in hydrolytic enzyme activity accompany natural variation in mature aleurone morphology in barley (Hordeum vulgare L.)",
+     "volume": "8",
+     "author": "Aubert",
+     "year": "2018",
+     "journal-title": "Scientific Reports"
+    },
+    {
+     "key": "2019121610292684300_CIT0003",
+     "doi-asserted-by": "crossref",
+     "first-page": "4039",
+     "DOI": "10.1242/dev.127.18.4039",
+     "article-title": "Positional cues specify and maintain aleurone cell fate in maize endosperm development",
+     "volume": "127",
+     "author": "Becraft",
+     "year": "2000",
+     "journal-title": "Development"
+    },
+    {
+     "key": "2019121610292684300_CIT0004",
+     "doi-asserted-by": "crossref",
+     "first-page": "1033",
+     "DOI": "10.1105/tpc.11.6.1033",
+     "article-title": "Hormonally regulated programmed cell death in barley aleurone cells",
+     "volume": "11",
+     "author": "Bethke",
+     "year": "1999",
+     "journal-title": "The Plant Cell"
+    },
+    {
+     "key": "2019121610292684300_CIT0005",
+     "doi-asserted-by": "crossref",
+     "first-page": "29321",
+     "DOI": "10.1074/jbc.M605903200",
+     "article-title": "Understanding the biological rationale for the diversity of cellulose-directed carbohydrate-binding modules in prokaryotic enzymes",
+     "volume": "281",
+     "author": "Blake",
+     "year": "2006",
+     "journal-title": "Journal of Biological Chemistry"
+    },
+    {
+     "key": "2019121610292684300_CIT0006",
+     "doi-asserted-by": "crossref",
+     "first-page": "661",
+     "DOI": "10.1111/j.1365-313X.1992.tb00135.x",
+     "article-title": "Endosperm differentiation in barley wild-type and sex mutants",
+     "volume": "2",
+     "author": "Bosnes",
+     "year": "1992",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "2019121610292684300_CIT0007",
+     "doi-asserted-by": "crossref",
+     "first-page": "117",
+     "DOI": "10.1111/j.1467-7652.2010.00532.x",
+     "article-title": "Over-expression of specific HvCslF cellulose synthase-like genes in transgenic barley increases the levels of cell wall (1,3;1,4)-\u03b2-d-glucans and alters their fine structure",
+     "volume": "9",
+     "author": "Burton",
+     "year": "2011",
+     "journal-title": "Plant Biotechnology Journal"
+    },
+    {
+     "key": "2019121610292684300_CIT0008",
+     "doi-asserted-by": "crossref",
+     "first-page": "130",
+     "DOI": "10.3389/fpls.2012.00130",
+     "article-title": "Current challenges in cell wall biology in the cereals and grasses",
+     "volume": "3",
+     "author": "Burton",
+     "year": "2012",
+     "journal-title": "Frontiers in Plant Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0009",
+     "doi-asserted-by": "crossref",
+     "first-page": "456",
+     "DOI": "10.3389/fpls.2014.00456",
+     "article-title": "Evolution and development of cell walls in cereal grains",
+     "volume": "5",
+     "author": "Burton",
+     "year": "2014",
+     "journal-title": "Frontiers in Plant Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0010",
+     "doi-asserted-by": "crossref",
+     "first-page": "1821",
+     "DOI": "10.1104/pp.107.114694",
+     "article-title": "The genetics and transcriptional profiles of the cellulose synthase-like HvCslF gene family in barley",
+     "volume": "146",
+     "author": "Burton",
+     "year": "2008",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0011",
+     "doi-asserted-by": "crossref",
+     "first-page": "224",
+     "DOI": "10.1104/pp.103.032904",
+     "article-title": "The CesA gene family of barley. Quantitative analysis of transcripts reveals two groups of co-expressed genes",
+     "volume": "134",
+     "author": "Burton",
+     "year": "2004",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0012",
+     "doi-asserted-by": "crossref",
+     "first-page": "223",
+     "DOI": "10.1186/1471-2229-12-223",
+     "article-title": "Concerted suppression of all starch branching enzyme genes in barley produces amylose-only starch granules",
+     "volume": "12",
+     "author": "Carciofi",
+     "year": "2012",
+     "journal-title": "BMC Plant Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0013",
+     "doi-asserted-by": "crossref",
+     "first-page": "11",
+     "DOI": "10.1002/j.2050-0416.2001.tb00074.x",
+     "article-title": "Comparison of size characterization of barley starch granules determined by electron and optical microscopy, low angle laser light scattering and gravitational field\u2010flow fractionation",
+     "volume": "107",
+     "author": "Chmelik",
+     "year": "2001",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "2019121610292684300_CIT0014",
+     "doi-asserted-by": "crossref",
+     "first-page": "211",
+     "DOI": "10.1007/s10142-007-0070-7",
+     "article-title": "Gene expression in a starch synthase IIa mutant of barley: changes in the level of gene transcription and grain composition",
+     "volume": "8",
+     "author": "Clarke",
+     "year": "2008",
+     "journal-title": "Functional & Integrative Genomics"
+    },
+    {
+     "key": "2019121610292684300_CIT0015",
+     "doi-asserted-by": "crossref",
+     "first-page": "462",
+     "DOI": "10.1104/pp.103.027979",
+     "article-title": "A gateway cloning vector set for high-throughput functional analysis of genes in planta",
+     "volume": "133",
+     "author": "Curtis",
+     "year": "2003",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0016",
+     "doi-asserted-by": "crossref",
+     "first-page": "15572",
+     "DOI": "10.1073/pnas.0706569104",
+     "article-title": "Organization of cellulose synthase complexes involved in primary cell wall synthesis in Arabidopsis thaliana",
+     "volume": "104",
+     "author": "Desprez",
+     "year": "2007",
+     "journal-title": "Proceedings of the National Academy of Sciences, USA"
+    },
+    {
+     "key": "2019121610292684300_CIT0017",
+     "doi-asserted-by": "crossref",
+     "first-page": "44",
+     "DOI": "10.1016/j.jcs.2011.02.009",
+     "article-title": "Effect of genotype, environment and agronomic management on \u03b2-glucan concentration of naked barley grain intended for health food use",
+     "volume": "54",
+     "author": "Dickin",
+     "year": "2011",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0018",
+     "doi-asserted-by": "crossref",
+     "first-page": "5996",
+     "DOI": "10.1073/pnas.0902019106",
+     "article-title": "A barley cellulose synthase-like CSLH gene mediates (1,3;1,4)-beta-d-glucan synthesis in transgenic Arabidopsis",
+     "volume": "106",
+     "author": "Doblin",
+     "year": "2009",
+     "journal-title": "Proceedings of the National Academy of Sciences, USA"
+    },
+    {
+     "key": "2019121610292684300_CIT0019",
+     "first-page": "366",
+     "article-title": "Programmed cell death (PCD): an essential process of cereal seed development and germination",
+     "volume": "5",
+     "author": "Dom\u00ednguez",
+     "year": "2014",
+     "journal-title": "Frontiers in Plant Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0020",
+     "doi-asserted-by": "crossref",
+     "first-page": "248",
+     "DOI": "10.1002/j.1537-2197.1985.tb08289.x",
+     "article-title": "Anatomy of immature grains of eight maternal effect shrunken endosperm barley mutants",
+     "volume": "72",
+     "author": "Felker",
+     "year": "1985",
+     "journal-title": "American Journal of Botany"
+    },
+    {
+     "key": "2019121610292684300_CIT0021",
+     "doi-asserted-by": "crossref",
+     "first-page": "116",
+     "DOI": "10.1002/j.2050-0416.1975.tb03672.x",
+     "article-title": "Morphology and chemical composition of barley endosperm cell walls",
+     "volume": "81",
+     "author": "Fincher",
+     "year": "1975",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "2019121610292684300_CIT0022",
+     "doi-asserted-by": "crossref",
+     "first-page": "204",
+     "DOI": "10.1104/pp.105.064295",
+     "article-title": "Aleurone cell identity is suppressed following connation in maize kernels",
+     "volume": "139",
+     "author": "Geisler-Lee",
+     "year": "2005",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0023",
+     "doi-asserted-by": "crossref",
+     "first-page": "667",
+     "DOI": "10.1105/tpc.13.3.667",
+     "article-title": "Gibberellin/abscisic acid antagonism in barley aleurone cells: site of action of the protein kinase PKABA1 in relation to gibberellin signaling molecules",
+     "volume": "13",
+     "author": "G\u00f3mez-Cadenas",
+     "year": "2001",
+     "journal-title": "The Plant Cell"
+    },
+    {
+     "key": "2019121610292684300_CIT0024",
+     "doi-asserted-by": "crossref",
+     "first-page": "2238",
+     "DOI": "10.1073/pnas.0409429102",
+     "article-title": "Ricinosomes and endosperm transfer cell structure in programmed cell death of the nucellus during Ricinus seed development",
+     "volume": "102",
+     "author": "Greenwood",
+     "year": "2005",
+     "journal-title": "Proceedings of the National Academy of Sciences, USA"
+    },
+    {
+     "key": "2019121610292684300_CIT0025",
+     "doi-asserted-by": "crossref",
+     "first-page": "898",
+     "DOI": "10.1104/pp.106.080945",
+     "article-title": "Surface position, not signaling from surrounding maternal tissues, specifies aleurone epidermal cell fate in maize",
+     "volume": "141",
+     "author": "Gruis",
+     "year": "2006",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0026",
+     "doi-asserted-by": "crossref",
+     "first-page": "1001",
+     "DOI": "10.1093/jxb/erq332",
+     "article-title": "Brachypodium distachyon grain: characterization of endosperm cell walls",
+     "volume": "62",
+     "author": "Guillon",
+     "year": "2011",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "2019121610292684300_CIT0027",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0182537",
+     "DOI": "10.1371/journal.pone.0182537",
+     "article-title": "A genome wide association study of arabinoxylan content in 2-row spring barley grain",
+     "volume": "12",
+     "author": "Hassan",
+     "year": "2017",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "2019121610292684300_CIT0028",
+     "first-page": "362",
+     "article-title": "Characterization of cereal sugars and oligosaccharides",
+     "volume": "66",
+     "author": "Henry",
+     "year": "1989",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "2019121610292684300_CIT0029",
+     "doi-asserted-by": "crossref",
+     "first-page": "71",
+     "DOI": "10.1002/j.2050-0416.1988.tb04560.x",
+     "article-title": "The carbohydrates of barley grains\u2014a review",
+     "volume": "94",
+     "author": "Henry",
+     "year": "1988",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "2019121610292684300_CIT0030",
+     "doi-asserted-by": "crossref",
+     "first-page": "73",
+     "DOI": "10.1023/A:1010619128894",
+     "article-title": "Structure\u2013function relationships of beta-d-glucan endo- and exohydrolases from higher plants",
+     "volume": "47",
+     "author": "Hrmova",
+     "year": "2001",
+     "journal-title": "Plant Molecular Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0031",
+     "doi-asserted-by": "crossref",
+     "first-page": "984",
+     "DOI": "10.3389/fpls.2016.00984",
+     "article-title": "The plant cell wall: a complex and dynamic structure as revealed by the responses of genes under stress conditions",
+     "volume": "7",
+     "author": "Houston",
+     "year": "2016",
+     "journal-title": "Frontiers in Plant Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0032",
+     "doi-asserted-by": "crossref",
+     "first-page": "369",
+     "DOI": "10.1016/j.jcs.2007.10.004",
+     "article-title": "Genotypic variation in wheat grain fructan content revealed by a simplified HPLC method",
+     "volume": "48",
+     "author": "Huynh",
+     "year": "2008",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0033",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.1016/j.plaphy.2010.03.006",
+     "article-title": "Starch biosynthesis in cereal endosperm",
+     "volume": "48",
+     "author": "Jeon",
+     "year": "2010",
+     "journal-title": "Plant Physiology and Biochemistry"
+    },
+    {
+     "key": "2019121610292684300_CIT0034",
+     "doi-asserted-by": "crossref",
+     "first-page": "1169",
+     "DOI": "10.1007/s11746-003-0837-3",
+     "article-title": "Comparison of Kjeldahl and Dumas methods for determining protein contents of soybean products",
+     "volume": "80",
+     "author": "Jung",
+     "year": "2003",
+     "journal-title": "Journal of the American Oil Chemists' Society"
+    },
+    {
+     "key": "2019121610292684300_CIT0035",
+     "doi-asserted-by": "crossref",
+     "first-page": "849",
+     "DOI": "10.1046/j.1365-313X.1994.6060849.x",
+     "article-title": "The promoter of the barley aleurone-specific gene encoding a putative 7 kDa lipid transfer protein confers aleurone cell-specific expression in transgenic rice",
+     "volume": "6",
+     "author": "Kalla",
+     "year": "1994",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "2019121610292684300_CIT0036",
+     "doi-asserted-by": "crossref",
+     "first-page": "271",
+     "DOI": "10.1146/annurev.food.102308.124214",
+     "article-title": "Biochemistry and genetics of starch synthesis",
+     "volume": "1",
+     "author": "Keeling",
+     "year": "2010",
+     "journal-title": "Annual Review of Food Science and Technology"
+    },
+    {
+     "key": "2019121610292684300_CIT0037",
+     "doi-asserted-by": "crossref",
+     "first-page": "307",
+     "DOI": "10.1111/j.1365-313X.2006.02695.x",
+     "article-title": "An Arabidopsis cell wall-associated kinase required for invertase activity and cell growth",
+     "volume": "46",
+     "author": "Kohorn",
+     "year": "2006",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "2019121610292684300_CIT0038",
+     "doi-asserted-by": "crossref",
+     "first-page": "370",
+     "DOI": "10.1007/s00425-003-1116-2",
+     "article-title": "The maize disorganized aleurone layer 1 and 2 (dil1, dil2) mutants lack control of the mitotic division plane in the aleurone layer of developing endosperm",
+     "volume": "218",
+     "author": "Lid",
+     "year": "2004",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "2019121610292684300_CIT0039",
+     "doi-asserted-by": "crossref",
+     "first-page": "5460",
+     "DOI": "10.1073/pnas.042098799",
+     "article-title": "The defective kernel 1 (dek1) gene required for aleurone cell development in the endosperm of maize grains encodes a membrane protein of the calpain gene superfamily",
+     "volume": "99",
+     "author": "Lid",
+     "year": "2002",
+     "journal-title": "Proceedings of the National Academy of Sciences, USA"
+    },
+    {
+     "key": "2019121610292684300_CIT0040",
+     "doi-asserted-by": "crossref",
+     "first-page": "382",
+     "DOI": "10.1111/jipb.12625",
+     "article-title": "Method for hull-less barley transformation and manipulation of grain mixed-linkage beta-glucan",
+     "volume": "60",
+     "author": "Lim",
+     "year": "2018",
+     "journal-title": "Journal of Integrative Plant Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0041",
+     "doi-asserted-by": "crossref",
+     "first-page": "1124",
+     "DOI": "10.1104/pp.17.01718",
+     "article-title": "Revised phylogeny of the cellulose synthase gene superfamily: insights into cell wall evolution",
+     "volume": "177",
+     "author": "Little",
+     "year": "2018",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0042",
+     "doi-asserted-by": "crossref",
+     "first-page": "822",
+     "DOI": "10.1111/tpj.12853",
+     "article-title": "Sugars as hydroxyl radical scavengers: proof-of-concept by studying the fate of sucralose in Arabidopsis",
+     "volume": "82",
+     "author": "Matros",
+     "year": "2015",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "2019121610292684300_CIT0043",
+     "doi-asserted-by": "crossref",
+     "first-page": "543",
+     "DOI": "10.1369/jhc.4B6578.2005",
+     "article-title": "Monoclonal antibodies to plant cell wall xylans and arabinoxylans",
+     "volume": "53",
+     "author": "McCartney",
+     "year": "2005",
+     "journal-title": "Journal of Histochemistry and Cytochemistry"
+    },
+    {
+     "key": "2019121610292684300_CIT0044",
+     "doi-asserted-by": "crossref",
+     "first-page": "51",
+     "DOI": "10.1006/jcrs.1994.1044",
+     "article-title": "Quantitative measurement of total starch in cereal flours and products",
+     "volume": "20",
+     "author": "McCleary",
+     "year": "1994",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0045",
+     "doi-asserted-by": "crossref",
+     "first-page": "303",
+     "DOI": "10.1002/jsfa.2740550215",
+     "article-title": "Measurement of (1\u21923),(1\u21924)-\u03b2-d-glucan in barley and oats: a streamlined enzymic procedure",
+     "volume": "55",
+     "author": "McCleary",
+     "year": "1991",
+     "journal-title": "Journal of the Science of Food and Agriculture"
+    },
+    {
+     "key": "2019121610292684300_CIT0046",
+     "doi-asserted-by": "crossref",
+     "first-page": "1022",
+     "DOI": "10.1111/j.1467-7652.2011.00618.x",
+     "article-title": "Dynamic 13C/1H NMR imaging uncovers sugar allocation in the living seed",
+     "volume": "9",
+     "author": "Melkus",
+     "year": "2011",
+     "journal-title": "Plant Biotechnology Journal"
+    },
+    {
+     "key": "2019121610292684300_CIT0047",
+     "doi-asserted-by": "crossref",
+     "first-page": "213",
+     "DOI": "10.1016/j.jcs.2004.07.006",
+     "article-title": "Near infrared spectra indicate specific mutant endosperm genes and reveal a new mechanism for substituting starch with (1\u21923,1\u21924)-\u03b2-glucan in barley",
+     "volume": "40",
+     "author": "Munck",
+     "year": "2004",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0048",
+     "doi-asserted-by": "crossref",
+     "first-page": "581",
+     "DOI": "10.4236/fns.2014.56068",
+     "article-title": "Relationship of grain fructan content to degree of polymerisation in different barleys",
+     "volume": "5",
+     "author": "Nemeth",
+     "year": "2014",
+     "journal-title": "Food and Nutrition Sciences"
+    },
+    {
+     "key": "2019121610292684300_CIT0049",
+     "doi-asserted-by": "crossref",
+     "first-page": "3753",
+     "DOI": "10.1093/jxb/ern228",
+     "article-title": "The defective seed5 (des5) mutant: effects on barley seed development and HvDek1, HvCr4, and HvSal1 gene regulation",
+     "volume": "59",
+     "author": "Olsen",
+     "year": "2008",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "2019121610292684300_CIT0050",
+     "doi-asserted-by": "crossref",
+     "first-page": "233",
+     "DOI": "10.1146/annurev.arplant.52.1.233",
+     "article-title": "Endosperm development: cellularization and cell fate specification",
+     "volume": "52",
+     "author": "Olsen",
+     "year": "2001",
+     "journal-title": "Annual Review of Plant Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0051",
+     "doi-asserted-by": "crossref",
+     "first-page": "326",
+     "DOI": "10.1002/j.2050-0416.1972.tb03456.x",
+     "article-title": "Morphology of starch granules in cereal grains and malts",
+     "volume": "78",
+     "author": "Palmer",
+     "year": "1972",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "2019121610292684300_CIT0052",
+     "doi-asserted-by": "crossref",
+     "first-page": "2088",
+     "DOI": "10.1104/pp.104.045203",
+     "article-title": "The lys5 mutations of barley reveal the nature and importance of plastidial ADP-Glc transporters for starch synthesis in cereal endosperm",
+     "volume": "135",
+     "author": "Patron",
+     "year": "2004",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0053",
+     "doi-asserted-by": "crossref",
+     "first-page": "235",
+     "DOI": "10.1007/s004250100606",
+     "article-title": "A (1\u21924)-beta-mannan-specific monoclonal antibody and its use in the immunocytochemical location of galactomannans",
+     "volume": "214",
+     "author": "Pettolino",
+     "year": "2001",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "2019121610292684300_CIT0054",
+     "doi-asserted-by": "crossref",
+     "first-page": "574",
+     "DOI": "10.1002/cppb.20037",
+     "article-title": "Mass spectrometry imaging of metabolites in barley grain tissues",
+     "volume": "1",
+     "author": "Peukert",
+     "year": "2016",
+     "journal-title": "Current Protocols in Plant Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0055",
+     "doi-asserted-by": "crossref",
+     "first-page": "1245",
+     "DOI": "10.3389/fpls.2015.01245",
+     "article-title": "Spatiotemporal dynamics of oligofructan metabolism and suggested functions in developing cereal grains",
+     "volume": "6",
+     "author": "Peukert",
+     "year": "2016",
+     "journal-title": "Frontiers in Plant Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0056",
+     "doi-asserted-by": "crossref",
+     "first-page": "3728",
+     "DOI": "10.1105/tpc.114.130211",
+     "article-title": "Spatio-temporal dynamics of fructan metabolism in developing barley grains",
+     "volume": "26",
+     "author": "Peukert",
+     "year": "2014",
+     "journal-title": "The Plant Cell"
+    },
+    {
+     "key": "2019121610292684300_CIT0057",
+     "doi-asserted-by": "crossref",
+     "first-page": "77",
+     "DOI": "10.1146/annurev.pp.42.060191.000453",
+     "article-title": "Fructan metabolism in grasses and cereals",
+     "volume": "42",
+     "author": "Pollock",
+     "year": "1991",
+     "journal-title": "Annual Review of Plant Physiology and Plant Molecular Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0058",
+     "doi-asserted-by": "crossref",
+     "first-page": "190",
+     "DOI": "10.1104/pp.108.133520",
+     "article-title": "Spatiotemporal profiling of starch biosynthesis and degradation in the developing barley grain",
+     "volume": "150",
+     "author": "Radchuk",
+     "year": "2009",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0059",
+     "doi-asserted-by": "crossref",
+     "first-page": "33",
+     "DOI": "10.1146/annurev-arplant-050213-040251",
+     "article-title": "Sucrose metabolism: gateway to diverse carbon use and sugar signaling",
+     "volume": "65",
+     "author": "Ruan",
+     "year": "2014",
+     "journal-title": "Annual Review of Plant Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0060",
+     "doi-asserted-by": "crossref",
+     "first-page": "1111",
+     "DOI": "10.1104/pp.103.021527",
+     "article-title": "Starch-branching enzyme I-deficient mutation specifically affects the structure and properties of starch in rice endosperm",
+     "volume": "133",
+     "author": "Satoh",
+     "year": "2003",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0061",
+     "doi-asserted-by": "crossref",
+     "first-page": "608",
+     "DOI": "10.1105/tpc.16.00845",
+     "article-title": "Widespread contamination of arabidopsis embryo and endosperm transcriptome data sets",
+     "volume": "29",
+     "author": "Schon",
+     "year": "2017",
+     "journal-title": "The Plant Cell"
+    },
+    {
+     "key": "2019121610292684300_CIT0062",
+     "doi-asserted-by": "crossref",
+     "first-page": "24",
+     "DOI": "10.1016/j.jcs.2008.06.012",
+     "article-title": "Accumulation of mixed linkage (1\u21923)(1\u21924)-\u03b2-d-glucan during grain filling in barley: a vibrational spectroscopy study",
+     "volume": "49",
+     "author": "Seefeldt",
+     "year": "2009",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "2019121610292684300_CIT0063",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0149613",
+     "DOI": "10.1371/journal.pone.0149613",
+     "article-title": "Starch granule re-structuring by starch branching enzyme and glucan water dikinase modulation affects caryopsis physiology and metabolism",
+     "volume": "11",
+     "author": "Shaik",
+     "year": "2016",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "2019121610292684300_CIT0064",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0123878",
+     "DOI": "10.1371/journal.pone.0123878",
+     "article-title": "Asparagus spears as a model to study heteroxylan biosynthesis during secondary wall development",
+     "volume": "10",
+     "author": "Song",
+     "year": "2015",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "2019121610292684300_CIT0065",
+     "doi-asserted-by": "crossref",
+     "first-page": "49",
+     "DOI": "10.1016/S1937-6448(10)81002-0",
+     "article-title": "Barley grain development toward an integrative view",
+     "volume": "281",
+     "author": "Sreenivasulu",
+     "year": "2010",
+     "journal-title": "International Review of Cell and Molecular Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0066",
+     "doi-asserted-by": "crossref",
+     "first-page": "546",
+     "DOI": "10.1002/iub.1297",
+     "article-title": "A review of starch-branching enzymes and their role in amylopectin biosynthesis",
+     "volume": "66",
+     "author": "Tetlow",
+     "year": "2014",
+     "journal-title": "IUBMB Life"
+    },
+    {
+     "key": "2019121610292684300_CIT0067",
+     "doi-asserted-by": "crossref",
+     "first-page": "639",
+     "DOI": "10.1111/j.1365-313X.2012.05018.x",
+     "article-title": "Differentiation of endosperm transfer cells of barley: a comprehensive analysis at the micro-scale",
+     "volume": "71",
+     "author": "Thiel",
+     "year": "2012",
+     "journal-title": "The Plant Journal"
+    },
+    {
+     "key": "2019121610292684300_CIT0068",
+     "doi-asserted-by": "crossref",
+     "first-page": "5033",
+     "DOI": "10.1093/jxb/ert292",
+     "article-title": "Grain development in Brachypodium and other grasses: possible interactions between cell expansion, starch deposition, and cell-wall synthesis",
+     "volume": "64",
+     "author": "Trafford",
+     "year": "2013",
+     "journal-title": "Journal of Experimental Botany"
+    },
+    {
+     "key": "2019121610292684300_CIT0069",
+     "doi-asserted-by": "crossref",
+     "first-page": "264",
+     "DOI": "10.1016/j.devcel.2011.01.009",
+     "article-title": "Transcriptional activation of Arabidopsis axis patterning genes WOX8/9 links zygote polarity to embryo development",
+     "volume": "20",
+     "author": "Ueda",
+     "year": "2011",
+     "journal-title": "Developmental Cell"
+    },
+    {
+     "key": "2019121610292684300_CIT0070",
+     "doi-asserted-by": "crossref",
+     "first-page": "1858",
+     "DOI": "10.1016/j.carres.2008.11.010",
+     "article-title": "An extended set of monoclonal antibodies to pectic homogalacturonan",
+     "volume": "344",
+     "author": "Verhertbruggen",
+     "year": "2009",
+     "journal-title": "Carbohydrate Research"
+    },
+    {
+     "key": "2019121610292684300_CIT0071",
+     "doi-asserted-by": "crossref",
+     "first-page": "2102",
+     "DOI": "10.1021/jf204774n",
+     "article-title": "A simple and accurate method for determining wheat grain fructan content and average degree of polymerization",
+     "volume": "60",
+     "author": "Verspreet",
+     "year": "2012",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "2019121610292684300_CIT0072",
+     "doi-asserted-by": "crossref",
+     "first-page": "195",
+     "DOI": "10.1007/s11103-006-9014-1",
+     "article-title": "A novel cis-acting element, ESP, contributes to high-level endosperm-specific expression in an oat globulin promoter",
+     "volume": "62",
+     "author": "Vickers",
+     "year": "2006",
+     "journal-title": "Plant Molecular Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0073",
+     "doi-asserted-by": "crossref",
+     "first-page": "351",
+     "DOI": "10.1104/pp.120.2.351",
+     "article-title": "Fructan: more than a reserve carbohydrate?",
+     "volume": "120",
+     "author": "Vijn",
+     "year": "1999",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0074",
+     "doi-asserted-by": "crossref",
+     "first-page": "429",
+     "DOI": "10.1016/S0176-1617(86)80227-9",
+     "article-title": "Properties and subcellular localization of fructan hydrolase in the leaves of barley (Hordeum vulgare L. cv Gerbel)",
+     "volume": "123",
+     "author": "Wagner",
+     "year": "1986",
+     "journal-title": "Journal of Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0075",
+     "doi-asserted-by": "crossref",
+     "first-page": "698",
+     "DOI": "10.1104/pp.109.150854",
+     "article-title": "Increasing sucrose uptake capacity of wheat grains stimulates storage protein synthesis",
+     "volume": "152",
+     "author": "Weichert",
+     "year": "2010",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0076",
+     "doi-asserted-by": "crossref",
+     "first-page": "655",
+     "DOI": "10.1104/pp.111.192682",
+     "article-title": "Pattern of deposition of cell wall polysaccharides and transcript abundance of related cell wall synthesis genes during differentiation in barley endosperm",
+     "volume": "159",
+     "author": "Wilson",
+     "year": "2012",
+     "journal-title": "Plant Physiology"
+    },
+    {
+     "key": "2019121610292684300_CIT0077",
+     "doi-asserted-by": "crossref",
+     "first-page": "655",
+     "DOI": "10.1007/s00425-006-0244-x",
+     "article-title": "Temporal and spatial appearance of wall polysaccharides during cellularization of barley (Hordeum vulgare) endosperm",
+     "volume": "224",
+     "author": "Wilson",
+     "year": "2006",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "2019121610292684300_CIT0078",
+     "doi-asserted-by": "crossref",
+     "first-page": "754",
+     "DOI": "10.1105/tpc.114.135970",
+     "article-title": "Determining the subcellular location of synthesis and assembly of the cell wall polysaccharide (1,3;1,4)-\u03b2-d-glucan in grasses",
+     "volume": "27",
+     "author": "Wilson",
+     "year": "2015",
+     "journal-title": "The Plant Cell"
+    },
+    {
+     "key": "2019121610292684300_CIT0079",
+     "first-page": "1",
+     "article-title": "Molecular physiology and genomics of developing barley grains",
+     "volume": "2",
+     "author": "Wobus",
+     "year": "2005",
+     "journal-title": "Recent Research Developments in Plant Molecular Biology"
+    },
+    {
+     "key": "2019121610292684300_CIT0080",
+     "doi-asserted-by": "crossref",
+     "first-page": "e82114",
+     "DOI": "10.1371/journal.pone.0082114",
+     "article-title": "Heterogeneity and glycan masking of cell wall microstructures in the stems of Miscanthus \u00d7 giganteus, and its parents M. sinensis and M. sacchariflorus",
+     "volume": "8",
+     "author": "Xue",
+     "year": "2013",
+     "journal-title": "PLoS One"
+    }
+   ],
+   "container-title": [
+    "Journal of Experimental Botany"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/jxb/advance-article-pdf/doi/10.1093/jxb/erz407/30140247/erz407.pdf",
+     "content-type": "application/pdf",
+     "content-version": "am",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "http://academic.oup.com/jxb/article-pdf/71/1/138/31550147/erz407.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "http://academic.oup.com/jxb/article-pdf/71/1/138/31550147/erz407.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      9,
+      28
+     ]
+    ],
+    "date-time": "2022-09-28T17:06:53Z",
+    "timestamp": 1664384813000
+   },
+   "score": 81.244446,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/jxb/article/71/1/138/5571796"
+    }
+   },
+   "editor": [
+    {
+     "given": "Gwyneth",
+     "family": "Ingram",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "CNRS/Ecole Normale Superieure de Lyon, France"
+      }
+     ],
+     "role": [
+      {
+       "role": "editor",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      9,
+      19
+     ]
+    ]
+   },
+   "references-count": 80,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2019,
+       9,
+       19
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       1,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/jxb/erz407",
+   "ISSN": [
+    "0022-0957",
+    "1460-2431"
+   ],
+   "issn-type": [
+    {
+     "value": "0022-0957",
+     "type": "print"
+    },
+    {
+     "value": "1460-2431",
+     "type": "electronic"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2020,
+      1,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2019,
+      9,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      25
+     ]
+    ],
+    "date-time": "2026-08-25T12:53:16Z",
+    "timestamp": 1787662396670,
+    "version": "build-2736575974"
+   },
+   "reference-count": 62,
+   "publisher": "Frontiers Media SA",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Front. Plant Sci."
+   ],
+   "DOI": "10.3389/fpls.2014.00108",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      3,
+      26
+     ]
+    ],
+    "date-time": "2014-03-26T09:41:00Z",
+    "timestamp": 1395826860000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 39,
+   "title": [
+    "Development of endosperm transfer cells in barley"
+   ],
+   "prefix": "10.3389",
+   "volume": "5",
+   "author": [
+    {
+     "given": "Johannes",
+     "family": "Thiel",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1965",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      3,
+      26
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "B1",
+     "doi-asserted-by": "publisher",
+     "first-page": "987",
+     "DOI": "10.1111/j.1365-313X.2011.04749.x",
+     "article-title": "Glucose and ethylene signaling pathways converge to regulate trans-differentiation of epidermal transfer cells in",
+     "volume": "68",
+     "author": "Adriunas",
+     "year": "2011",
+     "journal-title": "Vicia narbonensis cotyledons. Plant J."
+    },
+    {
+     "key": "B2",
+     "doi-asserted-by": "publisher",
+     "first-page": "235",
+     "DOI": "10.1007/s00425-008-0823-0",
+     "article-title": "The promoter of ZmMRP-1, a maize transfer cell-specific transcriptional activator, is induced at solute exchange surfaces and responds to transport demands.",
+     "volume": "229",
+     "author": "Barrero",
+     "year": "2009",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "352",
+     "DOI": "10.1109/ISBI.2008.4541005",
+     "article-title": "\u00e2\u20ac\u0153Fast registration-based automatic segmentation of serial section images for high-resolution images for high-resolution 3-D plant seed modeling,\u00e2\u20ac\u009d in",
+     "author": "Bollenbeck",
+     "year": "2008",
+     "journal-title": "Proceedings of the Fifth IEEE Symposium on Biomedical Imaging 2008"
+    },
+    {
+     "key": "B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "495",
+     "DOI": "10.1105/tpc.13.3.495",
+     "article-title": "Dynamic analyses of the expression of the HISTONE:YFP fusion protein in Arabidopsis show that syncytial endosperm is divided in mitotic domains.",
+     "volume": "13",
+     "author": "Boisnard-Lorig",
+     "year": "2001",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B5",
+     "doi-asserted-by": "publisher",
+     "first-page": "414",
+     "DOI": "10.1007/s004250050145",
+     "article-title": "Cell wall (1\u00e2\u20ac\u201c3) and (1\u00e2\u20ac\u201c3,1\u00e2\u20ac\u201c4)-beta-glucans during the early grain development in rice (Oryza sativa L.).",
+     "volume": "202",
+     "author": "Brown",
+     "year": "1997",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "B6",
+     "doi-asserted-by": "publisher",
+     "first-page": "77",
+     "DOI": "10.1016/j.febslet.2005.11.051",
+     "article-title": "Osmotic stress sensing in Populus: components identification of a phosphorelay system.",
+     "volume": "580",
+     "author": "Chefdor",
+     "year": "2006",
+     "journal-title": "FEBS Lett."
+    },
+    {
+     "key": "B7",
+     "doi-asserted-by": "publisher",
+     "first-page": "207",
+     "DOI": "10.1126/science.1213351",
+     "article-title": "Sucrose efflux mediated by SWEET proteins as a key step for phloem transport.",
+     "volume": "335",
+     "author": "Chen",
+     "year": "2012",
+     "journal-title": "Science"
+    },
+    {
+     "key": "B8",
+     "doi-asserted-by": "publisher",
+     "first-page": "971",
+     "DOI": "10.1105/tpc.8.6.971",
+     "article-title": "The Miniature1 seed locus of maize encodes a cell wall invertase required for normal development of endosperm and maternal cells in the pedicel.",
+     "volume": "8",
+     "author": "Cheng",
+     "year": "1996",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "issue": "102",
+     "key": "B9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2013.00102",
+     "article-title": "Phloem parenchyma transfer cells in Arabidopsis \u00e2\u20ac\u201c an experimental system to identify transcriptional regulators of wall ingrowth formation.",
+     "volume": "4",
+     "author": "Chinnappa",
+     "year": "2013",
+     "journal-title": "Front. Plant Sci."
+    },
+    {
+     "key": "B10",
+     "doi-asserted-by": "publisher",
+     "first-page": "160",
+     "DOI": "10.1016/j.cub.2011.11.059",
+     "article-title": "Maternal control of nutrient allocation in plant seeds by genomic imprinting.",
+     "volume": "22",
+     "author": "Costa",
+     "year": "2012",
+     "journal-title": "Curr. Biol."
+    },
+    {
+     "key": "B11",
+     "doi-asserted-by": "publisher",
+     "first-page": "1964",
+     "DOI": "10.1104/pp.108.128108",
+     "article-title": "Transcriptome analysis of proliferating Arabidopsis endosperm reveals biological implications for the control of syncytial division, cytokinin signaling, and gene expression regulation.",
+     "volume": "148",
+     "author": "Day",
+     "year": "2008",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "B12",
+     "doi-asserted-by": "publisher",
+     "first-page": "121",
+     "DOI": "10.1080/713609214",
+     "article-title": "Regulation of membrane transport by rab GTPases.",
+     "volume": "38",
+     "author": "Deneka",
+     "year": "2003",
+     "journal-title": "Crit. Rev. Biochem. Mol. Biol."
+    },
+    {
+     "key": "B13",
+     "doi-asserted-by": "publisher",
+     "first-page": "877",
+     "DOI": "10.1007/BF00019474",
+     "article-title": "Isolation of molecular markers from the barley endosperm coenocyte and the surrounding nucellus cell layers.",
+     "volume": "31",
+     "author": "Doan",
+     "year": "1996",
+     "journal-title": "Plant Mol. Biol."
+    },
+    {
+     "key": "B14",
+     "doi-asserted-by": "publisher",
+     "first-page": "863",
+     "DOI": "10.1111/j.1469-8137.2009.02822.x",
+     "article-title": "Early gene expression programs accompanying trans-differentiation of epidermal cells of Vicia faba cotyledons into transfer cells.",
+     "volume": "182",
+     "author": "Dibley",
+     "year": "2009",
+     "journal-title": "New Phytol."
+    },
+    {
+     "key": "B15",
+     "doi-asserted-by": "publisher",
+     "first-page": "599",
+     "DOI": "10.1105/tpc.010365",
+     "article-title": "Establishment of cereal endosperm expression domains: identification and properties of a maize transfer cell-specific transcription factor, ZmMRP-1.",
+     "volume": "14",
+     "author": "Gomez",
+     "year": "2002",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B16",
+     "doi-asserted-by": "publisher",
+     "first-page": "2022",
+     "DOI": "10.1105/tpc.108.065409",
+     "article-title": "The maize transcription factor myb-related protein-1 is a key regulator of the differentiation of transfer cells.",
+     "volume": "21",
+     "author": "Gomez",
+     "year": "2009",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B17",
+     "doi-asserted-by": "publisher",
+     "first-page": "1771",
+     "DOI": "10.1104/pp.106.080945",
+     "article-title": "Surface position, not signaling from surrounding maternal tissues, specifies aleurone epidermal cell fate in maize.",
+     "volume": "141",
+     "author": "Gruis",
+     "year": "2006",
+     "journal-title": "Plant Phsiol."
+    },
+    {
+     "key": "B18",
+     "doi-asserted-by": "publisher",
+     "first-page": "1288",
+     "DOI": "10.1105/tpc.019778",
+     "article-title": "Maternally expressed gene1 is a novel maize endosperm transfer cell-specific gene with a maternal parent-of-origin pattern of expression.",
+     "volume": "16",
+     "author": "Gutierrez-Marcos",
+     "year": "2004",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B19",
+     "doi-asserted-by": "publisher",
+     "first-page": "3290",
+     "DOI": "10.1038/sj.emboj.7600337",
+     "article-title": "The response regulator 2 mediates ethylene signaling and hormone signal integration in Arabidopsis.",
+     "volume": "23",
+     "author": "Hass",
+     "year": "2004",
+     "journal-title": "EMBO J."
+    },
+    {
+     "key": "B20",
+     "doi-asserted-by": "publisher",
+     "first-page": "1371",
+     "DOI": "10.1104/pp.107.103945",
+     "article-title": "Fluorescent reporter proteins for the tonoplast and the vacuolar lumen identify a single vacuolar compartment in Arabidopsis cells.",
+     "volume": "145",
+     "author": "Hunter",
+     "year": "2007",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "B21",
+     "doi-asserted-by": "publisher",
+     "first-page": "733",
+     "DOI": "10.1093/oxfordjournals.pcp.a029600",
+     "article-title": "Compilation and characterization of Arabidopsisthaliana response regulators implicated in His-Asp phosphorelay signal transduction.",
+     "volume": "40",
+     "author": "Imamura",
+     "year": "1999",
+     "journal-title": "Plant Cell Physiol."
+    },
+    {
+     "key": "B22",
+     "doi-asserted-by": "publisher",
+     "first-page": "1867",
+     "DOI": "10.1105/tpc.11.10.1867",
+     "article-title": "Tonoplast intrinsic protein isoforms as markers for vacuolar functions.",
+     "volume": "11",
+     "author": "Jauh",
+     "year": "1999",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B23",
+     "doi-asserted-by": "publisher",
+     "first-page": "549",
+     "DOI": "10.4236/ajps.2011.24065",
+     "article-title": "ARR5 and ARR6 mediate tissue specific cross-talk between auxin and cytokinin in Arabidopsis.",
+     "volume": "2",
+     "author": "Kakani",
+     "year": "2011",
+     "journal-title": "Am. J. Plant Sci."
+    },
+    {
+     "key": "B24",
+     "doi-asserted-by": "publisher",
+     "first-page": "814",
+     "DOI": "10.1073/pnas.0505150103",
+     "article-title": "Cytokinin-mediated control of leaf longevity by AHK3 through phosphorylation of ARR2 in Arabidopsis.",
+     "volume": "103",
+     "author": "Kim",
+     "year": "2006",
+     "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+    },
+    {
+     "key": "B25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2229-12-154",
+     "article-title": "A putative role for amino acid permeases in sink-source communication of barley tissues elicited from RNA-seq.",
+     "author": "Kohl",
+     "year": "2012",
+     "journal-title": "BMC Plant Biol. 12:154."
+    },
+    {
+     "key": "B26",
+     "doi-asserted-by": "publisher",
+     "first-page": "1172",
+     "DOI": "10.1038/nature04270",
+     "article-title": "WUSCHEL controls meristem function by direct regulation of cytokinin-inducible response regulators.",
+     "volume": "438",
+     "author": "Leibfried",
+     "year": "2005",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "114",
+     "key": "B27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2229-13-114",
+     "article-title": "Identification and characterization of the zinc-regulated transporters, iron-regulated transporter-like protein (ZIP) gene family in maize.",
+     "volume": "13",
+     "author": "Li",
+     "year": "2013",
+     "journal-title": "BMC Plant Biol."
+    },
+    {
+     "key": "B28",
+     "doi-asserted-by": "publisher",
+     "first-page": "653",
+     "DOI": "10.1016/j.pbi.2008.08.005",
+     "article-title": "Wall ingrowth formation in transfer cells: novel examples of localized wall deposition in plant cells.",
+     "volume": "11",
+     "author": "McCurdy",
+     "year": "2008",
+     "journal-title": "Curr. Opin. Plant Biol."
+    },
+    {
+     "key": "B29",
+     "doi-asserted-by": "publisher",
+     "first-page": "2263",
+     "DOI": "10.1271/bbb.69.2263",
+     "article-title": "Two-component phosphorelay signal transduction systems in plants: from hormone responses to circadian rhythms.",
+     "volume": "69",
+     "author": "Mizuno",
+     "year": "2005",
+     "journal-title": "Biosci. Biotechnol. Biochem."
+    },
+    {
+     "key": "B30",
+     "doi-asserted-by": "publisher",
+     "first-page": "17",
+     "DOI": "10.1111/j.1365-313X.2006.02848.x",
+     "article-title": "The maize transfer cell-specific type-A response regulator ZmTCRR-1 appears to be involved in intercellular signaling.",
+     "volume": "48",
+     "author": "Mu\u00c3\u00b1iz",
+     "year": "2006",
+     "journal-title": "Plant J."
+    },
+    {
+     "issue": "84",
+     "key": "B31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2229-10-84",
+     "article-title": "Atypical response regulators expressed in the maize endosperm transfer cells link canonical two component system and seed biology.",
+     "volume": "10",
+     "author": "Mu\u00c3\u00b1iz",
+     "year": "2010",
+     "journal-title": "BMC Plant Biol."
+    },
+    {
+     "key": "B32",
+     "doi-asserted-by": "publisher",
+     "first-page": "51",
+     "DOI": "10.1007/BF01280734",
+     "article-title": "Transfer cell induction in cotyledons of Vicia faba L.",
+     "volume": "200",
+     "author": "Offler",
+     "year": "1997",
+     "journal-title": "Protoplasma"
+    },
+    {
+     "key": "B33",
+     "doi-asserted-by": "publisher",
+     "first-page": "233",
+     "DOI": "10.1146/annurev.arplant.52.1.233",
+     "article-title": "Endosperm development: cellularization and cell fate specification.",
+     "volume": "52",
+     "author": "Olsen",
+     "year": "2001",
+     "journal-title": "Annu. Rev. Plant Physiol. Plant Mol. Biol."
+    },
+    {
+     "key": "B34",
+     "doi-asserted-by": "publisher",
+     "first-page": "40",
+     "DOI": "10.1105/tpc.105.037796",
+     "article-title": "Arabidopsis cytokinin receptor mutants reveal functions in shoot growth, leaf senescence, seed size, germination, root development, and cytokinin metabolism.",
+     "volume": "18",
+     "author": "Riefler",
+     "year": "2006",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B35",
+     "doi-asserted-by": "publisher",
+     "first-page": "337",
+     "DOI": "10.1046/j.1365-313X.1998.00134.x",
+     "article-title": "A response-regulator homologue possibly involved in nitrogen signal transduction mediated by cytokinin in maize.",
+     "volume": "14",
+     "author": "Sakakibara",
+     "year": "1998",
+     "journal-title": "Plant J."
+    },
+    {
+     "issue": "e0112",
+     "key": "B36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1199/tab.0112",
+     "article-title": "Two-component signaling elements and histidyl-aspartyl phosphorelays.",
+     "volume": "6",
+     "author": "Schaller",
+     "year": "2008",
+     "journal-title": "Arabidopsis Book"
+    },
+    {
+     "issue": "e24173",
+     "key": "B37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0024173",
+     "article-title": "Phosphorylation alters the interaction of the Arabidopsis phosphpotransfer protein AHP1 with its sensor kinase ETR1.",
+     "volume": "6",
+     "author": "Scharein",
+     "year": "2011",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "B38",
+     "doi-asserted-by": "publisher",
+     "first-page": "304",
+     "DOI": "10.1007/s00425-002-0738-0",
+     "article-title": "Formation of transfer cells and H(+)-ATPase expression in tomato roots under P and Fe deficiency.",
+     "volume": "215",
+     "author": "Schikora",
+     "year": "2002",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "B39",
+     "doi-asserted-by": "publisher",
+     "first-page": "633",
+     "DOI": "10.1023/B:PLAN.0000019070.60954.77",
+     "article-title": "Members of the aquaporin family in the developing pea seed coat include representatives of the PIP, TIP, and NIP subfamilies.",
+     "volume": "53",
+     "author": "Schuurmans",
+     "year": "2003",
+     "journal-title": "Plant Mol. Biol."
+    },
+    {
+     "key": "B40",
+     "doi-asserted-by": "publisher",
+     "first-page": "327",
+     "DOI": "10.1023/A:1006460231978",
+     "article-title": "The stress- and abscisic acid induced barley gene HVA22: developmental regulation and homologues in diverse organisms.",
+     "volume": "45",
+     "author": "Shen",
+     "year": "2001",
+     "journal-title": "Plant Mol. Biol."
+    },
+    {
+     "key": "B41",
+     "doi-asserted-by": "publisher",
+     "first-page": "641",
+     "DOI": "10.1093/mp/ssr051",
+     "article-title": "Diverse functional roles of monosaccharide transporters and their homologs in vascular plants: a physiological perspective.",
+     "volume": "4",
+     "author": "Slewinsky",
+     "year": "2011",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "B42",
+     "doi-asserted-by": "publisher",
+     "first-page": "589",
+     "DOI": "10.1111/j.1365-313X.2010.04350.x",
+     "article-title": "De-regulation of abscisic acid contents causes abnormal endosperm development in the barley mutant seg8.",
+     "volume": "64",
+     "author": "Sreenivasulu",
+     "year": "2010",
+     "journal-title": "Plant J."
+    },
+    {
+     "key": "B43",
+     "doi-asserted-by": "publisher",
+     "first-page": "310",
+     "DOI": "10.1111/j.1365-313X.2006.02789.x",
+     "article-title": "Gene expression patterns reveal tissue-specific signaling networks controlling programmed cell death and ABA- regulated maturation in developing barley seeds.",
+     "volume": "47",
+     "author": "Sreenivasulu",
+     "year": "2006",
+     "journal-title": "Plant J."
+    },
+    {
+     "key": "B44",
+     "doi-asserted-by": "publisher",
+     "first-page": "191",
+     "DOI": "10.1007/BF01280314",
+     "article-title": "Wall ingrowth architecture in epidermal transfer cells of Vicia faba cotyledons.",
+     "volume": "215",
+     "author": "Talbot",
+     "year": "2001",
+     "journal-title": "Protoplasma"
+    },
+    {
+     "key": "B45",
+     "doi-asserted-by": "publisher",
+     "first-page": "197",
+     "DOI": "10.1007/s007090200021",
+     "article-title": "Transfer cell wall architecture: a contribution towards understanding localized wall deposition.",
+     "volume": "219",
+     "author": "Talbot",
+     "year": "2002",
+     "journal-title": "Protoplasma"
+    },
+    {
+     "key": "B46",
+     "doi-asserted-by": "publisher",
+     "first-page": "1333",
+     "DOI": "10.1093/jxb/erp023",
+     "article-title": "A roadmap for zinc trafficking in the developing barley grain based on laser capture microdissection and gene expression profiling.",
+     "volume": "60",
+     "author": "Tauris",
+     "year": "2009",
+     "journal-title": "J. Exp. Bot."
+    },
+    {
+     "key": "B47",
+     "doi-asserted-by": "publisher",
+     "first-page": "205",
+     "DOI": "10.1007/s00425-009-0935-1",
+     "article-title": "Amino acid metabolism at the maternal-filial boundary of young barley seeds: a microdissection-based study.",
+     "volume": "230",
+     "author": "Thiel",
+     "year": "2009",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "B48",
+     "doi-asserted-by": "publisher",
+     "first-page": "1436",
+     "DOI": "10.1104/pp.108.127001",
+     "article-title": "Different hormonal regulation of cellular differentiation and function in nucellar projection and endosperm transfer cells -a microdissection-based transcriptome study of young barley grains.",
+     "volume": "148",
+     "author": "Thiel",
+     "year": "2008",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "B49",
+     "doi-asserted-by": "publisher",
+     "first-page": "639",
+     "DOI": "10.1111/j.1365-313X.2012.05018.x",
+     "article-title": "Differentiation of endosperm transfer cells of barley - a comprehensive analysis at the micro-scale.",
+     "volume": "71",
+     "author": "Thiel",
+     "year": "2012a",
+     "journal-title": "Plant J."
+    },
+    {
+     "issue": "e41867",
+     "key": "B50",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0041867",
+     "article-title": "454 transcriptome sequencing suggests a role for two-component signaling in cellularization and differentiation of barley endosperm transfer cells.",
+     "volume": "7",
+     "author": "Thiel",
+     "year": "2012b",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "B51",
+     "doi-asserted-by": "publisher",
+     "first-page": "775",
+     "DOI": "10.1016/S0168-9452(01)00345-4",
+     "article-title": "Development and function of transfer cells.",
+     "volume": "160",
+     "author": "Thompson",
+     "year": "2001",
+     "journal-title": "Plant Sci."
+    },
+    {
+     "key": "B52",
+     "doi-asserted-by": "publisher",
+     "first-page": "20623",
+     "DOI": "10.1073/pnas.0706547105",
+     "article-title": "Functional analysis of AHK1/ATHK1 and cytokinin receptor histidine kinases in response to abscisic acid, drought, and salt stress in Arabidopsis.",
+     "volume": "104",
+     "author": "Tran",
+     "year": "2007",
+     "journal-title": "Proc. Natl. Acad. Sci."
+    },
+    {
+     "key": "B53",
+     "doi-asserted-by": "publisher",
+     "first-page": "227",
+     "DOI": "10.1016/S0014-5793(00)01860-3",
+     "article-title": "Possible His to Asp phosphorelay signaling in an Arabidopsis two-component system.",
+     "volume": "478",
+     "author": "Urao",
+     "year": "2000",
+     "journal-title": "FEBS Lett."
+    },
+    {
+     "key": "B54",
+     "doi-asserted-by": "publisher",
+     "first-page": "395",
+     "DOI": "10.1046/j.1365-313X.2003.01633.x",
+     "article-title": "The role of invertases and hexose transporters in controlling sugar ratios in maternal and filial tissues of barley caryopses during early development.",
+     "volume": "33",
+     "author": "Weschke",
+     "year": "2003",
+     "journal-title": "Plant J."
+    },
+    {
+     "key": "B55",
+     "doi-asserted-by": "publisher",
+     "first-page": "1101",
+     "DOI": "10.1105/tpc.107.055871",
+     "article-title": "Analysis of the Arabidopsis histidine kinase ATHK1 reveals a connection between vegetative osmotic stress sensing and seed maturation.",
+     "volume": "20",
+     "author": "Wohlbach",
+     "year": "2008",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "B56",
+     "doi-asserted-by": "publisher",
+     "first-page": "1276",
+     "DOI": "10.1039/c3mt00071k",
+     "article-title": "Diverse accumulation and distribution of nutrient elements in developing wheat grain studied by laser ablation inductively coupled plasma mass spectrometry imaging.",
+     "volume": "5",
+     "author": "Wu",
+     "year": "2013",
+     "journal-title": "Metallomics"
+    },
+    {
+     "issue": "e31081",
+     "key": "B57",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0031081",
+     "article-title": "Genome-wide analysis of the complex transcriptional networks of rice developing seeds.",
+     "volume": "7",
+     "author": "Xue",
+     "year": "2012",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "B58",
+     "doi-asserted-by": "publisher",
+     "first-page": "314",
+     "DOI": "10.1071/FP06271",
+     "article-title": "Nutrient loading of developing seeds.",
+     "volume": "34",
+     "author": "Zhang",
+     "year": "2007",
+     "journal-title": "Funct. Plant Biol."
+    },
+    {
+     "key": "B59",
+     "doi-asserted-by": "publisher",
+     "first-page": "935",
+     "DOI": "10.1007/s00299-010-0891-z",
+     "article-title": "Current opinions on endosperm transfer cells in maize.",
+     "volume": "29",
+     "author": "Zheng",
+     "year": "2010",
+     "journal-title": "Plant Cell Rep."
+    },
+    {
+     "key": "B60",
+     "doi-asserted-by": "publisher",
+     "first-page": "1281",
+     "DOI": "10.1007/s00299-011-1039-5",
+     "article-title": "Contrast observation and investigation of wheat endosperm transfer cells and nucellar projection transfer cells.",
+     "volume": "30",
+     "author": "Zheng",
+     "year": "2011",
+     "journal-title": "Plant Cell Rep."
+    },
+    {
+     "key": "B61",
+     "doi-asserted-by": "publisher",
+     "first-page": "931",
+     "DOI": "10.1111/j.1469-8137.2009.03136.x",
+     "article-title": "An epidermal-specific ethylene signal cascade regulates trans-differentiation of transfer cells in Vicia faba cotyledons.",
+     "volume": "185",
+     "author": "Zhou",
+     "year": "2010",
+     "journal-title": "New Phytol."
+    },
+    {
+     "key": "B62",
+     "doi-asserted-by": "publisher",
+     "first-page": "2621",
+     "DOI": "10.1104/pp.104.046367",
+     "article-title": "Genevestigator. Arabidopsis microarray database and analysis toolbox.",
+     "volume": "136",
+     "author": "Zimmermann",
+     "year": "2004",
+     "journal-title": "Plant Physiol"
+    }
+   ],
+   "container-title": [
+    "Frontiers in Plant Science"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2017,
+      6,
+      22
+     ]
+    ],
+    "date-time": "2017-06-22T06:23:02Z",
+    "timestamp": 1498112582000
+   },
+   "score": 33.284813,
+   "resource": {
+    "primary": {
+     "URL": "http://journal.frontiersin.org/article/10.3389/fpls.2014.00108/abstract"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      3,
+      26
+     ]
+    ]
+   },
+   "references-count": 62,
+   "URL": "https://doi.org/10.3389/fpls.2014.00108",
+   "relation": {
+    "has-review": [
+     {
+      "id-type": "doi",
+      "id": "10.3410/f.718327642.793492876",
+      "asserted-by": "object"
+     }
+    ]
+   },
+   "ISSN": [
+    "1664-462X"
+   ],
+   "issn-type": [
+    {
+     "value": "1664-462X",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      3,
+      26
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      21
+     ]
+    ],
+    "date-time": "2026-09-21T07:16:46Z",
+    "timestamp": 1789975006288,
+    "version": "4.0.1"
+   },
+   "edition-number": "1",
+   "reference-count": 191,
+   "publisher": "Wiley",
+   "isbn-type": [
+    {
+     "value": "9780813801230",
+     "type": "print"
+    },
+    {
+     "value": "9780470958636",
+     "type": "electronic"
+    }
+   ],
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2010,
+        12,
+        31
+       ]
+      ],
+      "date-time": "2010-12-31T00:00:00Z",
+      "timestamp": 1293753600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      12,
+      31
+     ]
+    ]
+   },
+   "DOI": "10.1002/9780470958636.ch14",
+   "type": "other",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      6,
+      25
+     ]
+    ],
+    "date-time": "2011-06-25T15:58:49Z",
+    "timestamp": 1309017529000
+   },
+   "page": "449-477",
+   "source": "Crossref",
+   "is-referenced-by-count": 14,
+   "title": [
+    "Biochemistry, Physiology, and Genetics of Endosperm Mobilization in Germinated Barley Grain"
+   ],
+   "prefix": "10.1002",
+   "author": [
+    {
+     "given": "Geoffrey B.",
+     "family": "Fincher",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      4,
+      20
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_1_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0014-5793(75)80806-4"
+    },
+    {
+     "key": "e_1_2_1_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0008-6215(00)83805-7"
+    },
+    {
+     "key": "e_1_2_1_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-12-511902-3.50009-9"
+    },
+    {
+     "key": "e_1_2_1_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/PP9810475"
+    },
+    {
+     "key": "e_1_2_1_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1742-4658.2007.05790.x"
+    },
+    {
+     "key": "e_1_2_1_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0092-8674(00)80107-5"
+    },
+    {
+     "key": "e_1_2_1_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/ASBCJ-57-0081"
+    },
+    {
+     "key": "e_1_2_1_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00040833"
+    },
+    {
+     "key": "e_1_2_1_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s004380050362"
+    },
+    {
+     "key": "e_1_2_1_11_1",
+     "volume-title": "Seeds: Ecology, Biogeography, and Evolution of Dormancy and Germination",
+     "author": "Baskin C.C.",
+     "year": "1998"
+    },
+    {
+     "key": "e_1_2_1_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00018-002-8485-8"
+    },
+    {
+     "key": "e_1_2_1_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf071087b"
+    },
+    {
+     "key": "e_1_2_1_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00392139"
+    },
+    {
+     "key": "e_1_2_1_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S1369-5266(99)80006-5"
+    },
+    {
+     "key": "e_1_2_1_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.93.8.3169"
+    },
+    {
+     "key": "e_1_2_1_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2001.00930.x"
+    },
+    {
+     "key": "e_1_2_1_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.11.6.1033"
+    },
+    {
+     "key": "e_1_2_1_19_1",
+     "volume-title": "Physiology and Biochemistry of Seeds in Relation to Germination",
+     "author": "Bewley J.D.",
+     "year": "1983"
+    },
+    {
+     "key": "e_1_2_1_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erm315"
+    },
+    {
+     "key": "e_1_2_1_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2005.01.002"
+    },
+    {
+     "key": "e_1_2_1_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-94-009-5715-2"
+    },
+    {
+     "key": "e_1_2_1_23_1",
+     "volume-title": "Malts and Malting",
+     "author": "Briggs D.E.",
+     "year": "2002"
+    },
+    {
+     "key": "e_1_2_1_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.6.9.1241"
+    },
+    {
+     "key": "e_1_2_1_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s004250100588"
+    },
+    {
+     "key": "e_1_2_1_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.119.3.859"
+    },
+    {
+     "key": "e_1_2_1_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.010363"
+    },
+    {
+     "key": "e_1_2_1_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1122975"
+    },
+    {
+     "key": "e_1_2_1_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.107.114694"
+    },
+    {
+     "key": "e_1_2_1_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.0960-7412.2001.01019.x"
+    },
+    {
+     "key": "e_1_2_1_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.96.25.14641"
+    },
+    {
+     "key": "e_1_2_1_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.42.3.398"
+    },
+    {
+     "key": "e_1_2_1_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/protein/gzh028"
+    },
+    {
+     "key": "e_1_2_1_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/289399a0"
+    },
+    {
+     "key": "e_1_2_1_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02906192"
+    },
+    {
+     "key": "e_1_2_1_36_1",
+     "first-page": "3",
+     "volume-title": "Recent Advances in Carbohydrate Bioengineering",
+     "author": "Coutinho P.M.",
+     "year": "1999"
+    },
+    {
+     "key": "e_1_2_1_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.91.17.8209"
+    },
+    {
+     "key": "e_1_2_1_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00384189"
+    },
+    {
+     "key": "e_1_2_1_39_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "11106",
+     "DOI": "10.1016/S0021-9258(18)37928-6",
+     "article-title": "The A\u2010and B\u2010chains of carboxypeptidase I from germinated barley originate from a single precursor polypeptide",
+     "volume": "263",
+     "author": "Doan N.P.",
+     "year": "1988",
+     "journal-title": "J. Biol. Chem."
+    },
+    {
+     "key": "e_1_2_1_40_1",
+     "first-page": "31",
+     "volume-title": "Barley: Chemistry and Technology",
+     "author": "Duffus C.M.",
+     "year": "1993"
+    },
+    {
+     "key": "e_1_2_1_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0733-5210(98)90010-8"
+    },
+    {
+     "key": "e_1_2_1_42_1",
+     "first-page": "335",
+     "article-title": "Peptidases in germinating barley grain: properties, localization and possible functions",
+     "volume": "50",
+     "author": "Enari T.M.",
+     "year": "1977",
+     "journal-title": "Ciba Found. Symp."
+    },
+    {
+     "key": "e_1_2_1_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-7652.2005.00169.x"
+    },
+    {
+     "key": "e_1_2_1_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1026584207243"
+    },
+    {
+     "key": "e_1_2_1_45_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1432-1327.2000.01758.x"
+    },
+    {
+     "key": "e_1_2_1_46_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/9780470988848.ch8"
+    },
+    {
+     "key": "e_1_2_1_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1042/BJ20061291"
+    },
+    {
+     "key": "e_1_2_1_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf0724724"
+    },
+    {
+     "key": "e_1_2_1_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/j.2050-0416.1975.tb03672.x"
+    },
+    {
+     "key": "e_1_2_1_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/j.2050-0416.1975.tb06961.x"
+    },
+    {
+     "key": "e_1_2_1_51_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.pp.40.060189.001513"
+    },
+    {
+     "key": "e_1_2_1_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B0-12-765490-9/00060-4"
+    },
+    {
+     "key": "e_1_2_1_53_1",
+     "first-page": "364",
+     "volume-title": "Advances in Cereal Science and Technology",
+     "author": "Fincher G.B.",
+     "year": "1986"
+    },
+    {
+     "key": "e_1_2_1_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B0-12-765490-9/00107-5"
+    },
+    {
+     "key": "e_1_2_1_55_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.arplant.59.032607.092740"
+    },
+    {
+     "key": "e_1_2_1_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1042/BST0320517"
+    },
+    {
+     "key": "e_1_2_1_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.plantsci.2005.11.012"
+    },
+    {
+     "key": "e_1_2_1_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-002-0823-4"
+    },
+    {
+     "key": "e_1_2_1_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.123.1.275"
+    },
+    {
+     "key": "e_1_2_1_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/BI9720487"
+    },
+    {
+     "key": "e_1_2_1_61_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-003-1281-5"
+    },
+    {
+     "key": "e_1_2_1_62_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-004-1688-7"
+    },
+    {
+     "key": "e_1_2_1_63_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02906499"
+    },
+    {
+     "key": "e_1_2_1_64_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-005-1481-0"
+    },
+    {
+     "key": "e_1_2_1_65_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bbapap.2003.08.015"
+    },
+    {
+     "key": "e_1_2_1_66_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.13.3.667"
+    },
+    {
+     "key": "e_1_2_1_67_1",
+     "first-page": "1879",
+     "article-title": "Gibberellin\u2010regulated expression of an myb gene in barley aleurone cells: evidence for Myb transactivation of a high\u2010pI alpha\u2010amylase gene promoter",
+     "volume": "7",
+     "author": "Gubler F.",
+     "year": "1995",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "e_1_2_1_68_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.1999.00346.x"
+    },
+    {
+     "key": "e_1_2_1_69_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pbi.2005.01.011"
+    },
+    {
+     "key": "e_1_2_1_70_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.107.115469"
+    },
+    {
+     "key": "e_1_2_1_71_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0733-5210(09)80052-0"
+    },
+    {
+     "key": "e_1_2_1_72_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.108.120238"
+    },
+    {
+     "key": "e_1_2_1_73_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.80.3.692"
+    },
+    {
+     "key": "e_1_2_1_74_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00223901"
+    },
+    {
+     "key": "e_1_2_1_75_1",
+     "first-page": "59",
+     "article-title": "Amino acid and peptide transport in higher plants",
+     "volume": "11",
+     "author": "Hardy D.J.",
+     "year": "1992",
+     "journal-title": "Plant Physiol."
+    },
+    {
+     "key": "e_1_2_1_76_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF01184929"
+    },
+    {
+     "key": "e_1_2_1_77_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/j.2050-0416.1978.tb03837.x"
+    },
+    {
+     "key": "e_1_2_1_78_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1042/bst0260153"
+    },
+    {
+     "key": "e_1_2_1_79_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1042/bj3160695"
+    },
+    {
+     "key": "e_1_2_1_80_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-007-0620-3"
+    },
+    {
+     "key": "e_1_2_1_81_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0008-6215(97)00257-7"
+    },
+    {
+     "key": "e_1_2_1_82_1",
+     "first-page": "943",
+     "volume-title": "Handbook of Food Enzymology",
+     "author": "Hrmova M.",
+     "year": "2002"
+    },
+    {
+     "key": "e_1_2_1_83_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/jbc.271.9.5277"
+    },
+    {
+     "key": "e_1_2_1_84_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/jbc.273.18.11134"
+    },
+    {
+     "key": "e_1_2_1_85_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.010442"
+    },
+    {
+     "key": "e_1_2_1_86_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.89.16.7526"
+    },
+    {
+     "key": "e_1_2_1_87_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1300/J144v05n01_06"
+    },
+    {
+     "key": "e_1_2_1_88_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.2003.01628.x"
+    },
+    {
+     "key": "e_1_2_1_89_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.70.6.1647"
+    },
+    {
+     "key": "e_1_2_1_90_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1034/j.1399-3054.2002.1150313.x"
+    },
+    {
+     "key": "e_1_2_1_91_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1469-8137.1997.00784.x"
+    },
+    {
+     "key": "e_1_2_1_92_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.7.4.417"
+    },
+    {
+     "key": "e_1_2_1_93_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0074-7696(08)60682-8"
+    },
+    {
+     "key": "e_1_2_1_94_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bbapap.2003.08.014"
+    },
+    {
+     "key": "e_1_2_1_95_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.123.2.471"
+    },
+    {
+     "key": "e_1_2_1_96_1",
+     "unstructured": "Kim H.S. K.G.Park S.B.Baek Y.G.Son C.W.Lee J.C.Kim J.G.Kim andJ.H.Nam.2004.Inheritance of (1\u20103) (1\u20104)\u2010beta\u2010D\u2010glucan content in barley (Hordeum vulgareL.) pp.543\u2013548. Proc. 9th Int. Barley Genet. Symp. Brno Czech Republic June 20\u201326 2004"
+    },
+    {
+     "key": "e_1_2_1_97_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "16135",
+     "DOI": "10.1016/S0021-9258(18)98526-1",
+     "article-title": "Role of the NADP/thioredoxin system in the reduction of alpha\u2010amylase and trypsin inhibitor proteins",
+     "volume": "266",
+     "author": "Kobrehel K.",
+     "year": "1991",
+     "journal-title": "J. Biol. Chem."
+    },
+    {
+     "key": "e_1_2_1_98_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.99.3.919"
+    },
+    {
+     "key": "e_1_2_1_99_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.87.1.95"
+    },
+    {
+     "key": "e_1_2_1_100_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.2.8.769"
+    },
+    {
+     "key": "e_1_2_1_101_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.94.1.251"
+    },
+    {
+     "key": "e_1_2_1_102_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/oxfordjournals.pcp.a029152"
+    },
+    {
+     "key": "e_1_2_1_103_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1432-1033.1987.tb13640.x"
+    },
+    {
+     "key": "e_1_2_1_104_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CCHEM.1998.75.4.473"
+    },
+    {
+     "key": "e_1_2_1_105_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/j.2050-0416.2007.tb00276.x"
+    },
+    {
+     "key": "e_1_2_1_106_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.8.2.259"
+    },
+    {
+     "key": "e_1_2_1_107_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0003-9861(71)90223-2"
+    },
+    {
+     "key": "e_1_2_1_108_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1042/0264-6021:3560181"
+    },
+    {
+     "key": "e_1_2_1_109_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/jbc.M210627200"
+    },
+    {
+     "key": "e_1_2_1_110_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/AR02210"
+    },
+    {
+     "key": "e_1_2_1_111_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1432-1033.1990.tb19476.x"
+    },
+    {
+     "key": "e_1_2_1_112_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S1360-1385(00)01571-5"
+    },
+    {
+     "key": "e_1_2_1_113_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02907173"
+    },
+    {
+     "key": "e_1_2_1_114_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/bi000688s"
+    },
+    {
+     "key": "e_1_2_1_115_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bbapap.2003.09.018"
+    },
+    {
+     "key": "e_1_2_1_116_1",
+     "first-page": "73",
+     "volume-title": "Barley: Chemistry and Technology",
+     "author": "MacGregor A.W.",
+     "year": "1993"
+    },
+    {
+     "key": "e_1_2_1_117_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.75.1.203"
+    },
+    {
+     "key": "e_1_2_1_118_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-005-0065-5"
+    },
+    {
+     "key": "e_1_2_1_119_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "173",
+     "DOI": "10.1007/s001220051466",
+     "article-title": "QTL analysis of malting quality in barley based on the doubled haploid progeny of two elite North American varieties representing different germplasm groups",
+     "volume": "101",
+     "author": "Marquez\u2010Cedillo L.A.",
+     "year": "2000",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "e_1_2_1_120_1",
+     "first-page": "971",
+     "article-title": "Starch synthesis",
+     "volume": "7",
+     "author": "Martin C.",
+     "year": "1995",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "e_1_2_1_121_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erg099"
+    },
+    {
+     "key": "e_1_2_1_122_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2135/cropsci1997.0011183X003700020039x"
+    },
+    {
+     "key": "e_1_2_1_123_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00958963"
+    },
+    {
+     "key": "e_1_2_1_124_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jmb.2008.05.034"
+    },
+    {
+     "key": "e_1_2_1_125_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jmbi.1998.2379"
+    },
+    {
+     "key": "e_1_2_1_126_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00021787"
+    },
+    {
+     "key": "e_1_2_1_127_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2006.02659.x"
+    },
+    {
+     "key": "e_1_2_1_128_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/j.2050-0416.2004.tb00178.x"
+    },
+    {
+     "key": "e_1_2_1_129_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2007.03146.x"
+    },
+    {
+     "key": "e_1_2_1_130_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0031-9422(00)94628-4"
+    },
+    {
+     "key": "e_1_2_1_131_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02906171"
+    },
+    {
+     "key": "e_1_2_1_132_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.79.3.867"
+    },
+    {
+     "key": "e_1_2_1_133_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/protein/15.1.29"
+    },
+    {
+     "key": "e_1_2_1_134_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pep.2005.10.008"
+    },
+    {
+     "key": "e_1_2_1_135_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00196561"
+    },
+    {
+     "key": "e_1_2_1_136_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bbapap.2003.09.019"
+    },
+    {
+     "key": "e_1_2_1_137_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0891-5849(03)00511-2"
+    },
+    {
+     "key": "e_1_2_1_138_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10142-002-0050-x"
+    },
+    {
+     "key": "e_1_2_1_139_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/B:MOLB.0000038004.21342.3c"
+    },
+    {
+     "key": "e_1_2_1_140_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10142-005-0008-x"
+    },
+    {
+     "key": "e_1_2_1_141_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2007.03315.x"
+    },
+    {
+     "key": "e_1_2_1_142_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-004-1608-x"
+    },
+    {
+     "key": "e_1_2_1_143_1",
+     "first-page": "47",
+     "article-title": "A centromeric region on chromosome 6(6H) affects dormancy in an induced mutant in barley",
+     "volume": "56",
+     "author": "Prada D.",
+     "year": "2005",
+     "journal-title": "J. Exp. Bot."
+    },
+    {
+     "key": "e_1_2_1_144_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.117.2.425"
+    },
+    {
+     "key": "e_1_2_1_145_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pbi.2006.07.007"
+    },
+    {
+     "key": "e_1_2_1_146_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1432-1327.2000.01094.x"
+    },
+    {
+     "key": "e_1_2_1_147_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj2001.9351071x"
+    },
+    {
+     "key": "e_1_2_1_148_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.82.19.6512"
+    },
+    {
+     "key": "e_1_2_1_149_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S1570-9639(03)00209-7"
+    },
+    {
+     "key": "e_1_2_1_150_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pbi.2007.10.011"
+    },
+    {
+     "key": "e_1_2_1_151_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2006.02881.x"
+    },
+    {
+     "key": "e_1_2_1_152_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.107.113639"
+    },
+    {
+     "key": "e_1_2_1_153_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1011667312754"
+    },
+    {
+     "key": "e_1_2_1_154_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0304-4165(94)90095-7"
+    },
+    {
+     "key": "e_1_2_1_155_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/CBO9780511721816"
+    },
+    {
+     "key": "e_1_2_1_156_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jcrs.2002.0488"
+    },
+    {
+     "key": "e_1_2_1_157_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1432-1033.1989.tb15146.x"
+    },
+    {
+     "key": "e_1_2_1_158_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.99.3.1226"
+    },
+    {
+     "key": "e_1_2_1_159_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00262439"
+    },
+    {
+     "key": "e_1_2_1_160_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.88.18.8140"
+    },
+    {
+     "key": "e_1_2_1_161_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0014-5793(77)80337-2"
+    },
+    {
+     "key": "e_1_2_1_162_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2004.02159.x"
+    },
+    {
+     "key": "e_1_2_1_163_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/protein/14.4.245"
+    },
+    {
+     "key": "e_1_2_1_164_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1006217506090"
+    },
+    {
+     "key": "e_1_2_1_165_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02907994"
+    },
+    {
+     "key": "e_1_2_1_166_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.58.3.380"
+    },
+    {
+     "key": "e_1_2_1_167_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00385565"
+    },
+    {
+     "key": "e_1_2_1_168_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/j.1537-2197.1973.tb10198.x"
+    },
+    {
+     "key": "e_1_2_1_169_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0176-1617(00)80161-3"
+    },
+    {
+     "key": "e_1_2_1_170_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1023/A:1006006203372"
+    },
+    {
+     "key": "e_1_2_1_171_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3732/ajb.92.10.1660"
+    },
+    {
+     "key": "e_1_2_1_172_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.febslet.2007.04.047"
+    },
+    {
+     "key": "e_1_2_1_173_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.arplant.58.032806.103830"
+    },
+    {
+     "key": "e_1_2_1_174_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11032-007-9125-7"
+    },
+    {
+     "key": "e_1_2_1_175_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jmbi.1994.1141"
+    },
+    {
+     "key": "e_1_2_1_176_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bbrc.2007.03.066"
+    },
+    {
+     "key": "e_1_2_1_177_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.91.7.2785"
+    },
+    {
+     "key": "e_1_2_1_178_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0969-2126(99)80024-0"
+    },
+    {
+     "key": "e_1_2_1_179_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0008-6215(94)84257-4"
+    },
+    {
+     "key": "e_1_2_1_180_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "800",
+     "DOI": "10.1042/bst0110800",
+     "article-title": "Characterization of a dithiol\u2010dependent peptide\u2010transport protein in the scutellum of germinating barley",
+     "volume": "11",
+     "author": "Walker\u2010Smith D.J.",
+     "year": "1983",
+     "journal-title": "Biochem. Soc. Trans."
+    },
+    {
+     "key": "e_1_2_1_181_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2003.08.020"
+    },
+    {
+     "key": "e_1_2_1_182_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jexbot/51.348.1201"
+    },
+    {
+     "key": "e_1_2_1_183_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.1998.00199.x"
+    },
+    {
+     "key": "e_1_2_1_184_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-006-0244-x"
+    },
+    {
+     "key": "e_1_2_1_185_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.212641999"
+    },
+    {
+     "key": "e_1_2_1_186_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.2003.01663.x"
+    },
+    {
+     "key": "e_1_2_1_187_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1432-1033.1982.tb05837.x"
+    },
+    {
+     "key": "e_1_2_1_188_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0144-8617(83)90004-8"
+    },
+    {
+     "key": "e_1_2_1_189_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0144-8617(83)90019-X"
+    },
+    {
+     "key": "e_1_2_1_190_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0733-5210(95)90044-6"
+    },
+    {
+     "key": "e_1_2_1_191_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jcrs.2001.0414"
+    },
+    {
+     "key": "e_1_2_1_192_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.108.123653"
+    }
+   ],
+   "container-title": [
+    "Barley"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470958636.ch14",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470958636.ch14",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      4,
+      8
+     ]
+    ],
+    "date-time": "2024-04-08T02:32:17Z",
+    "timestamp": 1712543537000
+   },
+   "score": 33.193092,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9780470958636.ch14"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      12,
+      31
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780813801230",
+    "9780470958636"
+   ],
+   "references-count": 191,
+   "alternative-id": [
+    "10.1002/9780470958636.ch14",
+    "10.1002/9780470958636"
+   ],
+   "URL": "https://doi.org/10.1002/9780470958636.ch14",
+   "archive": [
+    "Portico"
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      12,
+      31
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,1749 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2026-10-01T03:26:06Z",
+   "timestamp": 1790825166025,
+   "version": "4.1.0"
+  },
+  "reference-count": 26,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "9",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2016,
+       10,
+       2
+      ]
+     ],
+     "date-time": "2016-10-02T00:00:00Z",
+     "timestamp": 1475366400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 977,
+    "URL": "http://creativecommons.org/licenses/by/3.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     5,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Motivation: Robust large-scale sequence analysis is a major challenge in modern genomic science, where biologists are frequently trying to characterize many millions of sequences. Here, we describe a new Java-based architecture for the widely used protein function prediction software package InterProScan. Developments include improvements and additions to the outputs of the software and the complete reimplementation of the software framework, resulting in a flexible and stable system that is able to use both multiprocessor machines and/or conventional clusters to achieve scalable distributed data analysis. InterProScan is freely available for download from the EMBl-EBI FTP site and the open source code is hosted at Google Code.</jats:p>\n                  <jats:p>Availability and implementation: InterProScan is distributed via FTP at ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/ and the source code is available from http://code.google.com/p/interproscan/.</jats:p>\n                  <jats:p>Contact: \u00a0http://www.ebi.ac.uk/support or interhelp@ebi.ac.uk or mitchell@ebi.ac.uk</jats:p>",
+  "DOI": "10.1093/bioinformatics/btu031",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2014,
+     1,
+     22
+    ]
+   ],
+   "date-time": "2014-01-22T20:47:51Z",
+   "timestamp": 1390423671000
+  },
+  "page": "1236-1240",
+  "source": "Crossref",
+  "is-referenced-by-count": 9389,
+  "title": [
+   "InterProScan 5: genome-scale protein function classification"
+  ],
+  "prefix": "10.1093",
+  "volume": "30",
+  "author": [
+   {
+    "given": "Philip",
+    "family": "Jones",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     },
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "Binns",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hsin-Yu",
+    "family": "Chang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Matthew",
+    "family": "Fraser",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Weizhong",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Craig",
+    "family": "McAnulla",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hamish",
+    "family": "McWilliam",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John",
+    "family": "Maslen",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     },
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alex",
+    "family": "Mitchell",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gift",
+    "family": "Nuka",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sebastien",
+    "family": "Pesseat",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Antony F.",
+    "family": "Quinn",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Amaia",
+    "family": "Sangrador-Vegas",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maxim",
+    "family": "Scheremetjew",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Siew-Yit",
+    "family": "Yong",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Rodrigo",
+    "family": "Lopez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sarah",
+    "family": "Hunter",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2014,
+     1,
+     29
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2023012710515721000_btu031-B1",
+    "doi-asserted-by": "crossref",
+    "first-page": "403",
+    "DOI": "10.1016/S0022-2836(05)80360-2",
+    "article-title": "Basic local alignment search tool",
+    "volume": "215",
+    "author": "Altschul",
+    "year": "1990",
+    "journal-title": "J. Mol. Biol."
+   },
+   {
+    "key": "2023012710515721000_btu031-B2",
+    "doi-asserted-by": "crossref",
+    "first-page": "bas019",
+    "DOI": "10.1093/database/bas019",
+    "article-title": "The PRINTS database: a fine-grained protein sequence annotation and analysis resource\u2013its status in 2012",
+    "volume": "2012",
+    "author": "Attwood",
+    "year": "2012",
+    "journal-title": "Database"
+   },
+   {
+    "key": "2023012710515721000_btu031-B3",
+    "doi-asserted-by": "crossref",
+    "first-page": "304",
+    "DOI": "10.1093/nar/28.1.304",
+    "article-title": "The ENZYME database in 2000",
+    "volume": "28",
+    "author": "Bairoch",
+    "year": "2000",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B4",
+    "doi-asserted-by": "crossref",
+    "first-page": "D212",
+    "DOI": "10.1093/nar/gki034",
+    "article-title": "The ProDom database of protein domain families: more emphasis on 3D",
+    "volume": "33",
+    "author": "Bru",
+    "year": "2005",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B5",
+    "first-page": "205",
+    "article-title": "A new generation of homology search tools based on probabilistic inference",
+    "volume": "23",
+    "author": "Eddy",
+    "year": "2009",
+    "journal-title": "Genome Inform."
+   },
+   {
+    "key": "2023012710515721000_btu031-B6",
+    "doi-asserted-by": "crossref",
+    "first-page": "W695",
+    "DOI": "10.1093/nar/gkq313",
+    "article-title": "A new bioinformatics analysis tools framework at EMBL-EBI",
+    "volume": "38",
+    "author": "Goujon",
+    "year": "2010",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B7",
+    "doi-asserted-by": "crossref",
+    "first-page": "D387",
+    "DOI": "10.1093/nar/gks1234",
+    "article-title": "TIGRFAMs and Genome Properties in 2013",
+    "volume": "40",
+    "author": "Haft",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B8",
+    "doi-asserted-by": "crossref",
+    "first-page": "D306",
+    "DOI": "10.1093/nar/gkr948",
+    "article-title": "InterPro in 2011: new developments in the family and domain prediction database",
+    "volume": "40",
+    "author": "Hunter",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B9",
+    "doi-asserted-by": "crossref",
+    "first-page": "1027",
+    "DOI": "10.1016/j.jmb.2004.03.016",
+    "article-title": "A combined transmembrane topology and signal peptide prediction method",
+    "volume": "338",
+    "author": "K\u00e4ll",
+    "year": "2004",
+    "journal-title": "J. Mol. Biol."
+   },
+   {
+    "key": "2023012710515721000_btu031-B10",
+    "doi-asserted-by": "crossref",
+    "first-page": "263",
+    "DOI": "10.1007/978-1-62703-107-3_17",
+    "article-title": "Molecular network analysis of diseases and drugs in KEGG",
+    "volume": "939",
+    "author": "Kanehisa",
+    "year": "2013",
+    "journal-title": "Methods Mol. Biol."
+   },
+   {
+    "key": "2023012710515721000_btu031-B11",
+    "doi-asserted-by": "crossref",
+    "first-page": "567",
+    "DOI": "10.1006/jmbi.2000.4315",
+    "article-title": "Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes",
+    "volume": "305",
+    "author": "Krogh",
+    "year": "2001",
+    "journal-title": "J. Mol. Biol."
+   },
+   {
+    "key": "2023012710515721000_btu031-B12",
+    "doi-asserted-by": "crossref",
+    "first-page": "D465",
+    "DOI": "10.1093/nar/gkr1181",
+    "article-title": "Gene3D: a domain-based resource for comparative genomics, functional annotation and protein network analysis",
+    "volume": "40",
+    "author": "Lees",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B13",
+    "doi-asserted-by": "crossref",
+    "first-page": "D302",
+    "DOI": "10.1093/nar/gkr931",
+    "article-title": "SMART 7: recent updates to the protein domain annotation resource",
+    "volume": "40",
+    "author": "Letunic",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B14",
+    "doi-asserted-by": "crossref",
+    "first-page": "D427",
+    "DOI": "10.1093/nar/gkq1130",
+    "article-title": "SUPERFAMILY 1.75 including a domain-centric gene ontology method",
+    "volume": "39",
+    "author": "De Lima Morais",
+    "year": "2011",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B15",
+    "doi-asserted-by": "crossref",
+    "first-page": "D377",
+    "DOI": "10.1093/nar/gks1118",
+    "article-title": "PANTHER in 2013: modeling the evolution of gene function, and other gene attributes, in the context of phylogenetic trees",
+    "volume": "41",
+    "author": "Mi",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B16",
+    "doi-asserted-by": "crossref",
+    "first-page": "D584",
+    "DOI": "10.1093/nar/gks1157",
+    "article-title": "HAMAP in 2013, new developments in the protein family classification and annotation system",
+    "volume": "41",
+    "author": "Pedruzzi",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B17",
+    "doi-asserted-by": "crossref",
+    "first-page": "785",
+    "DOI": "10.1038/nmeth.1701",
+    "article-title": "SignalP 4.0: discriminating signal peptides from transmembrane regions",
+    "volume": "8",
+    "author": "Petersen",
+    "year": "2011",
+    "journal-title": "Nat. Methods"
+   },
+   {
+    "key": "2023012710515721000_btu031-B18",
+    "doi-asserted-by": "crossref",
+    "first-page": "D290",
+    "DOI": "10.1093/nar/gkr1065",
+    "article-title": "The Pfam protein families database",
+    "volume": "40",
+    "author": "Punta",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B19",
+    "doi-asserted-by": "crossref",
+    "first-page": "W116",
+    "DOI": "10.1093/nar/gki442",
+    "article-title": "InterProScan: protein domains identifier",
+    "volume": "33",
+    "author": "Quevillon",
+    "year": "2005",
+    "journal-title": "Nucleic Acids Research"
+   },
+   {
+    "key": "2023012710515721000_btu031-B20",
+    "doi-asserted-by": "crossref",
+    "first-page": "65",
+    "DOI": "10.1093/dnares/dsq030",
+    "article-title": "Sequence analysis of the genome of an oil-bearing tree, Jatropha curcas L",
+    "volume": "18",
+    "author": "Sato",
+    "year": "2011",
+    "journal-title": "DNA Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B21",
+    "doi-asserted-by": "crossref",
+    "first-page": "109",
+    "DOI": "10.1038/ng.740",
+    "article-title": "The genome of woodland strawberry (Fragaria vesca)",
+    "volume": "43",
+    "author": "Shulaev",
+    "year": "2011",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "2023012710515721000_btu031-B22",
+    "doi-asserted-by": "crossref",
+    "first-page": "D344",
+    "DOI": "10.1093/nar/gks1067",
+    "article-title": "New and continuing developments at PROSITE",
+    "volume": "41",
+    "author": "Sigrist",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B23",
+    "doi-asserted-by": "crossref",
+    "first-page": "e1002007",
+    "DOI": "10.1371/journal.pgen.1002007",
+    "article-title": "The genome sequence of the leaf-cutter ant Atta cephalotes reveals insights into its obligate symbiotic lifestyle",
+    "volume": "7",
+    "author": "Suen",
+    "year": "2011",
+    "journal-title": "PLoS Genet."
+   },
+   {
+    "key": "2023012710515721000_btu031-B24",
+    "doi-asserted-by": "crossref",
+    "first-page": "25",
+    "DOI": "10.1038/75556",
+    "article-title": "Gene Ontology: tool for the unification of biology",
+    "volume": "25",
+    "author": "The Gene Ontology Consortium",
+    "year": "2000",
+    "journal-title": "Nat. Genet."
+   },
+   {
+    "key": "2023012710515721000_btu031-B25",
+    "doi-asserted-by": "crossref",
+    "first-page": "D71",
+    "DOI": "10.1093/nar/gkr981",
+    "article-title": "Reorganizing the protein space at the Universal Protein Resource (UniProt)",
+    "volume": "40",
+    "author": "The UniProt Consortium",
+    "year": "2012",
+    "journal-title": "Nucleic Acids Res."
+   },
+   {
+    "key": "2023012710515721000_btu031-B26",
+    "doi-asserted-by": "crossref",
+    "first-page": "D112",
+    "DOI": "10.1093/nar/gkh097",
+    "article-title": "PIRSF: family classification system at the Protein Information Resource",
+    "volume": "32",
+    "author": "Wu",
+    "year": "2004",
+    "journal-title": "Nucleic Acids Res."
+   }
+  ],
+  "container-title": [
+   "Bioinformatics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/30/9/1236/48923139/bioinformatics_30_9_1236.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/30/9/1236/48923139/bioinformatics_30_9_1236.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     1,
+     27
+    ]
+   ],
+   "date-time": "2023-01-27T06:32:35Z",
+   "timestamp": 1674801155000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/bioinformatics/article/30/9/1236/237988"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2014,
+     1,
+     29
+    ]
+   ]
+  },
+  "references-count": 26,
+  "journal-issue": {
+   "issue": "9",
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/bioinformatics/btu031",
+  "relation": {},
+  "ISSN": [
+   "1367-4811",
+   "1367-4803"
+  ],
+  "issn-type": [
+   {
+    "value": "1367-4811",
+    "type": "electronic"
+   },
+   {
+    "value": "1367-4803",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2014,
+     5,
+     1
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     1,
+     29
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      21
+     ]
+    ],
+    "date-time": "2025-11-21T18:41:14Z",
+    "timestamp": 1763750474025,
+    "version": "3.45.0"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2016,
+      9,
+      2
+     ]
+    ]
+   },
+   "reference-count": 0,
+   "publisher": "F1000 Research Ltd",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2016,
+        9,
+        2
+       ]
+      ],
+      "date-time": "2016-09-02T00:00:00Z",
+      "timestamp": 1472774400000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/3.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "abstract": "<ns3:p>Abstract:</ns3:p>\n                <ns3:p>InterPro (http://www.ebi.ac.uk/interpro/) is a freely available resource that is used to classify sequences into protein families and to predict the presence of important domains and sites. InterProScan (https://www.ebi.ac.uk/interpro/interproscan.html) is the underlying software application that allows both protein and nucleic acid sequences to be scanned against InterPro's predictive models (signatures), which are provided by the resource\u2019s member databases.</ns3:p>\n                <ns3:p>Recently, both the Conserved Domain Database (CDD) and Structure-Function Linkage Database (SFLD) have joined InterPro as new member databases. InterProScan has been updated accordingly, incorporating CDD\u2019s curated models that use position specific scoring matrices (PSSMs) to represent protein domains, which tend to be more functionally specific than some of the models already used in InterPro. SFLD\u2019s hidden Markov models that offer structure-function mapping have also been incorporated. SFLD models allow evolutionary classification of related enzymes according to shared chemical functions to determine conserved active sites.</ns3:p>\n                <ns3:p>Here, we present these recent developments and performance improvements to InterProScan.</ns3:p>\n                <ns3:p>Optimisation in the pipeline filters \u00a0and database query refinements have also resulted in improved throughput for large-scale protein sequence analysis \u00a0and accelerated InterProScan domain searches by several orders of magnitude.</ns3:p>",
+   "DOI": "10.7490/f1000research.1112997.1",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      21
+     ]
+    ],
+    "date-time": "2025-11-21T18:37:09Z",
+    "timestamp": 1763750229000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "InterProScan 5: Large scale protein function classification"
+   ],
+   "prefix": "10.7490",
+   "author": [
+    {
+     "given": "Gift",
+     "family": "Nuka",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Simon",
+     "family": "Potter",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Siew-Yit",
+     "family": "Yong",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Maxim",
+     "family": "Scheremetjew",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Alex",
+     "family": "Mitchell",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Matthew",
+     "family": "Fraser",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Rob",
+     "family": "Finn",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "2560",
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      11,
+      21
+     ]
+    ],
+    "date-time": "2025-11-21T18:37:18Z",
+    "timestamp": 1763750238000
+   },
+   "score": 41.502586,
+   "resource": {
+    "primary": {
+     "URL": "https://f1000research.com/posters/5-2164"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      9,
+      2
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.7490/f1000research.1112997.1",
+   "published": {
+    "date-parts": [
+     [
+      2016,
+      9,
+      2
+     ]
+    ]
+   },
+   "subtype": "other"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T03:26:06Z",
+    "timestamp": 1790825166025,
+    "version": "4.1.0"
+   },
+   "reference-count": 26,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "9",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2016,
+        10,
+        2
+       ]
+      ],
+      "date-time": "2016-10-02T00:00:00Z",
+      "timestamp": 1475366400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 977,
+     "URL": "http://creativecommons.org/licenses/by/3.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Motivation: Robust large-scale sequence analysis is a major challenge in modern genomic science, where biologists are frequently trying to characterize many millions of sequences. Here, we describe a new Java-based architecture for the widely used protein function prediction software package InterProScan. Developments include improvements and additions to the outputs of the software and the complete reimplementation of the software framework, resulting in a flexible and stable system that is able to use both multiprocessor machines and/or conventional clusters to achieve scalable distributed data analysis. InterProScan is freely available for download from the EMBl-EBI FTP site and the open source code is hosted at Google Code.</jats:p>\n                  <jats:p>Availability and implementation: InterProScan is distributed via FTP at ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/ and the source code is available from http://code.google.com/p/interproscan/.</jats:p>\n                  <jats:p>Contact: \u00a0http://www.ebi.ac.uk/support or interhelp@ebi.ac.uk or mitchell@ebi.ac.uk</jats:p>",
+   "DOI": "10.1093/bioinformatics/btu031",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      1,
+      22
+     ]
+    ],
+    "date-time": "2014-01-22T20:47:51Z",
+    "timestamp": 1390423671000
+   },
+   "page": "1236-1240",
+   "source": "Crossref",
+   "is-referenced-by-count": 9389,
+   "title": [
+    "InterProScan 5: genome-scale protein function classification"
+   ],
+   "prefix": "10.1093",
+   "volume": "30",
+   "author": [
+    {
+     "given": "Philip",
+     "family": "Jones",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      },
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "David",
+     "family": "Binns",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hsin-Yu",
+     "family": "Chang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Matthew",
+     "family": "Fraser",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Weizhong",
+     "family": "Li",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Craig",
+     "family": "McAnulla",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hamish",
+     "family": "McWilliam",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "John",
+     "family": "Maslen",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      },
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Alex",
+     "family": "Mitchell",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gift",
+     "family": "Nuka",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sebastien",
+     "family": "Pesseat",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Antony F.",
+     "family": "Quinn",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Amaia",
+     "family": "Sangrador-Vegas",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Maxim",
+     "family": "Scheremetjew",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Siew-Yit",
+     "family": "Yong",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Rodrigo",
+     "family": "Lopez",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sarah",
+     "family": "Hunter",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      1,
+      29
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2023012710515721000_btu031-B1",
+     "doi-asserted-by": "crossref",
+     "first-page": "403",
+     "DOI": "10.1016/S0022-2836(05)80360-2",
+     "article-title": "Basic local alignment search tool",
+     "volume": "215",
+     "author": "Altschul",
+     "year": "1990",
+     "journal-title": "J. Mol. Biol."
+    },
+    {
+     "key": "2023012710515721000_btu031-B2",
+     "doi-asserted-by": "crossref",
+     "first-page": "bas019",
+     "DOI": "10.1093/database/bas019",
+     "article-title": "The PRINTS database: a fine-grained protein sequence annotation and analysis resource\u2013its status in 2012",
+     "volume": "2012",
+     "author": "Attwood",
+     "year": "2012",
+     "journal-title": "Database"
+    },
+    {
+     "key": "2023012710515721000_btu031-B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "304",
+     "DOI": "10.1093/nar/28.1.304",
+     "article-title": "The ENZYME database in 2000",
+     "volume": "28",
+     "author": "Bairoch",
+     "year": "2000",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "D212",
+     "DOI": "10.1093/nar/gki034",
+     "article-title": "The ProDom database of protein domain families: more emphasis on 3D",
+     "volume": "33",
+     "author": "Bru",
+     "year": "2005",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B5",
+     "first-page": "205",
+     "article-title": "A new generation of homology search tools based on probabilistic inference",
+     "volume": "23",
+     "author": "Eddy",
+     "year": "2009",
+     "journal-title": "Genome Inform."
+    },
+    {
+     "key": "2023012710515721000_btu031-B6",
+     "doi-asserted-by": "crossref",
+     "first-page": "W695",
+     "DOI": "10.1093/nar/gkq313",
+     "article-title": "A new bioinformatics analysis tools framework at EMBL-EBI",
+     "volume": "38",
+     "author": "Goujon",
+     "year": "2010",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B7",
+     "doi-asserted-by": "crossref",
+     "first-page": "D387",
+     "DOI": "10.1093/nar/gks1234",
+     "article-title": "TIGRFAMs and Genome Properties in 2013",
+     "volume": "40",
+     "author": "Haft",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B8",
+     "doi-asserted-by": "crossref",
+     "first-page": "D306",
+     "DOI": "10.1093/nar/gkr948",
+     "article-title": "InterPro in 2011: new developments in the family and domain prediction database",
+     "volume": "40",
+     "author": "Hunter",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B9",
+     "doi-asserted-by": "crossref",
+     "first-page": "1027",
+     "DOI": "10.1016/j.jmb.2004.03.016",
+     "article-title": "A combined transmembrane topology and signal peptide prediction method",
+     "volume": "338",
+     "author": "K\u00e4ll",
+     "year": "2004",
+     "journal-title": "J. Mol. Biol."
+    },
+    {
+     "key": "2023012710515721000_btu031-B10",
+     "doi-asserted-by": "crossref",
+     "first-page": "263",
+     "DOI": "10.1007/978-1-62703-107-3_17",
+     "article-title": "Molecular network analysis of diseases and drugs in KEGG",
+     "volume": "939",
+     "author": "Kanehisa",
+     "year": "2013",
+     "journal-title": "Methods Mol. Biol."
+    },
+    {
+     "key": "2023012710515721000_btu031-B11",
+     "doi-asserted-by": "crossref",
+     "first-page": "567",
+     "DOI": "10.1006/jmbi.2000.4315",
+     "article-title": "Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes",
+     "volume": "305",
+     "author": "Krogh",
+     "year": "2001",
+     "journal-title": "J. Mol. Biol."
+    },
+    {
+     "key": "2023012710515721000_btu031-B12",
+     "doi-asserted-by": "crossref",
+     "first-page": "D465",
+     "DOI": "10.1093/nar/gkr1181",
+     "article-title": "Gene3D: a domain-based resource for comparative genomics, functional annotation and protein network analysis",
+     "volume": "40",
+     "author": "Lees",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B13",
+     "doi-asserted-by": "crossref",
+     "first-page": "D302",
+     "DOI": "10.1093/nar/gkr931",
+     "article-title": "SMART 7: recent updates to the protein domain annotation resource",
+     "volume": "40",
+     "author": "Letunic",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B14",
+     "doi-asserted-by": "crossref",
+     "first-page": "D427",
+     "DOI": "10.1093/nar/gkq1130",
+     "article-title": "SUPERFAMILY 1.75 including a domain-centric gene ontology method",
+     "volume": "39",
+     "author": "De Lima Morais",
+     "year": "2011",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B15",
+     "doi-asserted-by": "crossref",
+     "first-page": "D377",
+     "DOI": "10.1093/nar/gks1118",
+     "article-title": "PANTHER in 2013: modeling the evolution of gene function, and other gene attributes, in the context of phylogenetic trees",
+     "volume": "41",
+     "author": "Mi",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B16",
+     "doi-asserted-by": "crossref",
+     "first-page": "D584",
+     "DOI": "10.1093/nar/gks1157",
+     "article-title": "HAMAP in 2013, new developments in the protein family classification and annotation system",
+     "volume": "41",
+     "author": "Pedruzzi",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B17",
+     "doi-asserted-by": "crossref",
+     "first-page": "785",
+     "DOI": "10.1038/nmeth.1701",
+     "article-title": "SignalP 4.0: discriminating signal peptides from transmembrane regions",
+     "volume": "8",
+     "author": "Petersen",
+     "year": "2011",
+     "journal-title": "Nat. Methods"
+    },
+    {
+     "key": "2023012710515721000_btu031-B18",
+     "doi-asserted-by": "crossref",
+     "first-page": "D290",
+     "DOI": "10.1093/nar/gkr1065",
+     "article-title": "The Pfam protein families database",
+     "volume": "40",
+     "author": "Punta",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B19",
+     "doi-asserted-by": "crossref",
+     "first-page": "W116",
+     "DOI": "10.1093/nar/gki442",
+     "article-title": "InterProScan: protein domains identifier",
+     "volume": "33",
+     "author": "Quevillon",
+     "year": "2005",
+     "journal-title": "Nucleic Acids Research"
+    },
+    {
+     "key": "2023012710515721000_btu031-B20",
+     "doi-asserted-by": "crossref",
+     "first-page": "65",
+     "DOI": "10.1093/dnares/dsq030",
+     "article-title": "Sequence analysis of the genome of an oil-bearing tree, Jatropha curcas L",
+     "volume": "18",
+     "author": "Sato",
+     "year": "2011",
+     "journal-title": "DNA Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B21",
+     "doi-asserted-by": "crossref",
+     "first-page": "109",
+     "DOI": "10.1038/ng.740",
+     "article-title": "The genome of woodland strawberry (Fragaria vesca)",
+     "volume": "43",
+     "author": "Shulaev",
+     "year": "2011",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "2023012710515721000_btu031-B22",
+     "doi-asserted-by": "crossref",
+     "first-page": "D344",
+     "DOI": "10.1093/nar/gks1067",
+     "article-title": "New and continuing developments at PROSITE",
+     "volume": "41",
+     "author": "Sigrist",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B23",
+     "doi-asserted-by": "crossref",
+     "first-page": "e1002007",
+     "DOI": "10.1371/journal.pgen.1002007",
+     "article-title": "The genome sequence of the leaf-cutter ant Atta cephalotes reveals insights into its obligate symbiotic lifestyle",
+     "volume": "7",
+     "author": "Suen",
+     "year": "2011",
+     "journal-title": "PLoS Genet."
+    },
+    {
+     "key": "2023012710515721000_btu031-B24",
+     "doi-asserted-by": "crossref",
+     "first-page": "25",
+     "DOI": "10.1038/75556",
+     "article-title": "Gene Ontology: tool for the unification of biology",
+     "volume": "25",
+     "author": "The Gene Ontology Consortium",
+     "year": "2000",
+     "journal-title": "Nat. Genet."
+    },
+    {
+     "key": "2023012710515721000_btu031-B25",
+     "doi-asserted-by": "crossref",
+     "first-page": "D71",
+     "DOI": "10.1093/nar/gkr981",
+     "article-title": "Reorganizing the protein space at the Universal Protein Resource (UniProt)",
+     "volume": "40",
+     "author": "The UniProt Consortium",
+     "year": "2012",
+     "journal-title": "Nucleic Acids Res."
+    },
+    {
+     "key": "2023012710515721000_btu031-B26",
+     "doi-asserted-by": "crossref",
+     "first-page": "D112",
+     "DOI": "10.1093/nar/gkh097",
+     "article-title": "PIRSF: family classification system at the Protein Information Resource",
+     "volume": "32",
+     "author": "Wu",
+     "year": "2004",
+     "journal-title": "Nucleic Acids Res."
+    }
+   ],
+   "container-title": [
+    "Bioinformatics"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/30/9/1236/48923139/bioinformatics_30_9_1236.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/30/9/1236/48923139/bioinformatics_30_9_1236.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      27
+     ]
+    ],
+    "date-time": "2023-01-27T06:32:35Z",
+    "timestamp": 1674801155000
+   },
+   "score": 41.066105,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/bioinformatics/article/30/9/1236/237988"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      1,
+      29
+     ]
+    ]
+   },
+   "references-count": 26,
+   "journal-issue": {
+    "issue": "9",
+    "published-print": {
+     "date-parts": [
+      [
+       2014,
+       5,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/bioinformatics/btu031",
+   "ISSN": [
+    "1367-4811",
+    "1367-4803"
+   ],
+   "issn-type": [
+    {
+     "value": "1367-4811",
+     "type": "electronic"
+    },
+    {
+     "value": "1367-4803",
+     "type": "print"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      1,
+      29
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      2,
+      28
+     ]
+    ],
+    "date-time": "2026-02-28T08:55:05Z",
+    "timestamp": 1772268905370,
+    "version": "3.50.1"
+   },
+   "reference-count": 0,
+   "publisher": "PeerJ",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.7717/peerj.18961/fig-6",
+   "type": "component",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      14
+     ]
+    ],
+    "date-time": "2025-02-14T03:45:22Z",
+    "timestamp": 1739504722000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Figure 6: QAP protein classification\n                      <i>via</i>\n                      the InterProScan (IPR)-based domain annotation method."
+   ],
+   "prefix": "10.7717",
+   "member": "4443",
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      14
+     ]
+    ],
+    "date-time": "2025-02-14T03:45:30Z",
+    "timestamp": 1739504730000
+   },
+   "score": 33.20915,
+   "resource": {
+    "primary": {
+     "URL": "https://peerj.com/articles/18961/fig-6"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      null
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.7717/peerj.18961/fig-6",
+   "relation": {
+    "is-component-of": [
+     {
+      "id-type": "doi",
+      "id": "10.7717/peerj.18961",
+      "asserted-by": "object"
+     }
+    ]
+   }
+  }
+ ]
+}

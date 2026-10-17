@@ -1,0 +1,12 @@
+Check 02 -- raw phenotype checks: key numbers (scripts/04_results_numbers.py; tables in results/tables/).
+Panel: 290 accessions; 870 / 1,160 / 1,450 plants in 2019-20 / 2020-21 / 2021-22 (block 4 of 2019-20 removed); 862 / 1,139 / 1,163 with NIR values (= M&M; asserted in 01_boxplots.R).
+Protein: season means 16.3 / 16.2 / 17.7 %; values outside the ±3 SD limits per season 1 / 0 / 12
+Starch: season means 33.5 / 43.0 / 29.6 %; values outside the ±3 SD limits per season 1 / 2 / 10
+β-glucan: season means 6.2 / 5.0 / 7.3 %; values outside the ±3 SD limits per season 0 / 2 / 7
+Fiber: season means 4.9 / 3.8 / 3.8 %; values outside the ±3 SD limits per season 6 / 4 / 14
+Starch 2021-22 (internal note, not for the supplement): as recorded, 25 of 1163 plants below 0 % (min -21.6 %); with the +8.85 used here and in the analyses, 4 remain below 0 (min -12.8 %).
+Protein: between-season r 0.39-0.46; season vs all-season mean r 0.73-0.84
+Starch: between-season r 0.66-0.77; season vs all-season mean r 0.87-0.93
+β-glucan: between-season r 0.26-0.50; season vs all-season mean r 0.68-0.84
+Fiber: between-season r 0.41-0.54; season vs all-season mean r 0.77-0.85
+Between traits, all seasons (accession means of season-centered raw values): starch-fiber -0.77, starch-β-glucan -0.54, β-glucan-fiber 0.38, protein-starch -0.13 (BLUP-based Fig. 1c of the manuscript: -0.78, -0.53, 0.35, -0.12)

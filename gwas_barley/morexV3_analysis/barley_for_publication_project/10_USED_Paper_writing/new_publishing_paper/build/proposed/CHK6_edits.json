@@ -1,0 +1,794 @@
+{
+ "notes": [
+  "**The list as it will read** (exactly; item 4 unchanged). In the changes further down, red struck-through text is the old wording that is deleted; only the green text stays.",
+  "",
+  "> **⚠ BEFORE SUBMISSION: open items (TAG requirements; updated 2026-10-01). Delete this list before submitting.**",
+  ">",
+  "> 1. **Title page (not written yet):** the author names and their affiliations (institution, department, city, country); the corresponding author's e-mail and ORCID (ORCID is mandatory); and the Acknowledgments, which TAG places on the title page, with the funding organizations written in full (including Equinom Ltd., which lent the NIR instrument). The same author names, affiliation and e-mail also go into the title block of every Online Resource file, where they are placeholders now; the files are then rebuilt.",
+  "> 2. **Author contribution statement (not written yet):** one short line per author, using initials. TAG prints it before the Acknowledgments, and it is also entered in the submission system.",
+  "> 3. **Statements and Declarations (not written yet; they go after the References):** TAG returns a manuscript that lacks any of them. Needed: Funding (agencies and grant numbers); Competing interests; Author contributions; Data availability; Ethics approval (not applicable to this study). The Data availability text is already drafted and names Online Resource 1 for the genotype BLUPs; it still needs the Zenodo DOI of the MorexV3 SNP calls and the GitHub link (with its Zenodo archive) of the analysis code (comment 234).",
+  "> 4. **References that still need attention** (each marked by a Word comment): Friedman and Atsmon 1988 and Holland et al. 2003 could not be checked, because no PDF was available (comments 102, 401, 257, 501); the page numbers of Keeling et al. 1993 need confirming (502); two citations only partly support their sentences, which were kept as written (104, 428); and the source of the soil variables is not described in the cited paper (216).",
+  "> 5. **Online Resources (supplementary): done.** The 13 files are built, numbered in the order they are first cited, cited in the text, and captioned in the last section (\"Supplementary Information\"). Left to do: put the author names, affiliation and e-mail into the files (item 1); at submission, upload the 13 files and enter each one's caption in the submission system; and decide whether the extra, uncited supplement of raw-phenotype checks should join the supplement (it would then need a number and a citation in the text).",
+  "> 6. **Other open comments** (each marked by a Word comment).",
+  "> 7. **Cover letter (not written yet):** give the accession number of the raw reads (ENA PRJEB79623); state any restriction on sharing the seeds of the accessions (the same statement belongs at the end of the Materials and methods); and suggest reviewers who are independent of the authors, from different countries, with institutional e-mail addresses.",
+  "> 8. **Final Word file:** 10-pt Times Roman; automatic page numbering; no field functions. The four figures are embedded in the text and are also uploaded as separate TIFF files, Fig1 to Fig4 (600 dpi, 174 mm wide). Before submitting, delete this list and every remaining Word comment.",
+  "> 9. *(Optional)* **Figure accessibility:** TAG recommends patterns or symbols in addition to colour, but Figs. 2–4 tell loci and haplotype groups apart by colour alone.",
+  "",
+  "**Item CHK6 (revised twice: no names of who should answer) — the open-items list, the resolved comments, and the open comments rewritten** (user, 2026-10-01). Only the list and the Word comments change; the manuscript text is unchanged except where a deleted comment leaves its anchor as plain text.",
+  "**Checklist:** no paths in any item (the map of locations stays in the project rules; I add this rule there on apply). Item 6 is now only its heading. Item 4 is unchanged.",
+  "**Deleted (resolved):** your comments 311, 312, 313, 314, 315, 316, 317, 318, 319, 414, 415, 416, and TODO 203 (the reasons are in each change below).",
+  "**Left unchanged:** the reference comments of item 4 (102, 104, 216, 257, 428, 501, 502; already detailed by the References session). **Also deleted (change 5, user):** the 37 supmat comments, all resolved.",
+  "**The new text of each rewritten comment** (the preview below hides comment texts, so here they are in full):",
+  "**201.** TODO - number of rounds of single-seed descent. The text says three rounds, as in the paper cited for the plant material, Potapenko et al. 2026b (Mol Ecol): \"This procedure (single-seed-descent and selfing) was repeated three times\". The genome-size paper on the same collection, Potapenko et al. 2026a (Mol Biol Evol), says two rounds, and so do our earlier Materials and methods drafts (May and June 2026). N. Pintel's thesis does not say. Please confirm the number of rounds.",
+  "**202.** TODO - how the reads were cleaned before the MorexV3 re-call. The text says the raw reads were quality-checked and trimmed as described by Potapenko et al. 2026b (Mol Ecol), that is, with FastQC v0.11.5 and fastp v0.20.0 as in that paper. This is right only if the MorexV3 re-call started from the reads already cleaned for that paper. If the reads were cleaned again for this study, please give the tools, versions and settings, and they will replace the citation.",
+  "**204.** TODO - the reason the ten accessions of site 04 (Hachola) were removed. The text now says \"because of an error in the sampling site\", which needs to be confirmed or replaced. Earlier write-ups gave three different reasons: \"missing in the phenotyping experiments\" (mini paper), \"poor sample quality\" (old Materials and methods drafts) and \"no phenotype data\" (notes in our analysis scripts). None of them fits the data well: the phenotype table does hold site-04 plants in all three seasons (130 plants, 100 with grain-composition values), but in 2019-20 and 2020-21 their IDs (for example HS0403, HS0414, HS0415) do not match the ten sequenced accessions (HS0401-HS0411, without HS0403); only 2021-22 matches. Please give the reason to write here.",
+  "**205.** TODO - the missing-data filter of the SNPs. The text says that SNPs with more than 30% missing data were removed, but the final SNP set contains SNPs with up to 31.7% missing data (40 SNPs above 30% over the 300 accessions; 155 over the 290 analysed). The likely reason is the order of the filters: the 30% filter was applied before genotypes supported by fewer than three reads were set to missing, which added missing calls afterwards. Please confirm the order and the threshold, so the sentence can state them correctly. The other filter, minor-allele frequency 0.05, holds exactly.",
+  "**206.** TODO - the pre-sowing treatment of the seeds. The text gives no details and cites Potapenko et al. 2026b (Mol Ecol), whose protocol is: seeds dried at 30 °C for 14 days, dipped in 4% sodium hypochlorite, sown in mid-October on germination paper, kept 10 days in the dark at 4 °C, then moved to 5-L pots with a commercial soil mix. The sources disagree: Potapenko et al. 2026a (Mol Biol Evol) gives a 3% chlorine solution, sowing trays, 10 days in the dark at 4 °C and 14 days in a growth chamber at 20 °C before transplanting; N. Pintel's thesis and our old drafts give 3% sodium hypochlorite for 5 minutes, a 5-minute rinse in distilled water and germination paper at 16 °C for 18 days. Please confirm which protocol was used in this experiment; if it differs from the cited paper, the details will be written here.",
+  "**207.** TODO - the definition of flowering time. The text follows the cited paper, Potapenko et al. 2026b (Mol Ecol): days from sowing to heading. Other sources define it differently: Potapenko et al. 2026a (Mol Biol Evol) counts days from transplanting to the emergence of the awns (Zadoks stage 49), and N. Pintel's thesis and the old draft count days from transplanting to the emergence of the first spike from the flag-leaf sheath. Our data fit the cited definition: in 2020-21 they range from 73 to 147 days, as reported in Mol Ecol. Please confirm.",
+  "**208.** TODO - the definition of plant height. The text follows the cited paper, Potapenko et al. 2026b (Mol Ecol): the length of the tallest tiller, which is the measurement used in our analyses. N. Pintel's thesis defines plant height instead as the height from the ground to the base of the highest flag leaf, which Potapenko et al. 2026a (Mol Biol Evol) records as a separate trait (flag-leaf height). Please confirm that the length of the tallest tiller is right.",
+  "**209.** TODO - the definition of grain weight. Neither cited paper defines it, so the text gives no definition. Our old draft (May 2026) says the cleaned grain of the five harvested spikes was weighed per plant, but in the data the grains were counted on three spikes per plant (two for 13 plants in 2019-20), so it is not clear how many spikes were weighed. Please give the definition: what was weighed, on how many spikes, and in which unit.",
+  "**210.** TODO - the definition of grain number. The text follows the cited paper, Potapenko et al. 2026b (Mol Ecol): number of grains per spike. The values used in our analyses, however, are the total number of grains on the spikes counted per plant (three spikes; two for 13 plants in 2019-20); grains per spike is a separate column that we did not use, and the Mol Ecol figures themselves label the trait \"Number of grains\". Please confirm which it is. If it is the total, the text should say \"number of grains on three spikes per plant\".",
+  "**211.** TODO - how the grain was threshed. The text says by hand in 2019-20 and with a Haldrup LT-21 thresher in 2020-21 and 2021-22. N. Pintel's thesis, which covers only the first two seasons, says by hand in the first season and with the Haldrup LT-21 in the second. For 2021-22 the only source is our old draft (May 2026). Please confirm the threshing in 2021-22.",
+  "**213.** TODO - was one NIR calibration used for all three seasons? The text describes one calibration: the manufacturer's calibration for cultivated barley, adjusted to the laboratory values for protein and starch, plus a new beta-glucan calibration built from the kit values. It does not say whether this calibration was applied to all three seasons; only our old draft (June 2026) says so, and N. Pintel's thesis covers the first two seasons only. N. Pintel's files show the calibration step itself: the 30 calibration accessions were scanned on 7 January 2020 (five scans each) with the factory calibrations for cultivated barley, before any adjustment and with no beta-glucan calibration. The scans of the seasons (June 2020 for 2019-20, October 2021 for 2021-22) do not record which calibration was used. Two signs that the seasons may differ: the season means of starch as recorded are 33.0, 42.9 and 20.7% (2019-20, 2020-21, 2021-22), and in 2021-22, 25 of 1,163 plants have negative starch values as recorded (down to -21.6%). The analysis scripts add 8.85 to the 2021-22 starch values, an adjustment carried over from an earlier pipeline that is not described in the text; it does not change the results, because each season is centred on its own mean. Please check whether one calibration was used for all seasons, and how it was adjusted.",
+  "**234.** TODO - data and code availability. This paragraph keeps only the accession number of the raw reads, which TAG requires at the end of the Materials and methods. The full Data availability statement goes into the Declarations (not written yet) and still needs: (1) the MorexV3 SNP calls on Zenodo with a DOI (one VCF file of 6.9 GB, 300 accessions and 7,110,996 SNPs; decide whether to deposit all 300 accessions or the 290 analysed); (2) the analysis code in a GitHub repository of the lab (as for the two Potapenko et al. 2026 papers), archived on Zenodo for a DOI. Already done: the genotype BLUPs (the phenotypes) and the ENA identifiers of every accession are in Online Resource 1.",
+  "**235.** TODO - statement on sharing the seeds. TAG asks that any restriction on sharing the material, here the seeds of the 300 accessions, be stated in the Materials and methods and in the cover letter; TAG expects materials to be freely available for non-commercial use within 60 days of a request. No document of the project states the lab's policy. Please give the sentence to write here, for example that the seeds are available from the corresponding author on request, or the restriction that applies.",
+  "**236.** TODO - statement on the use of generative AI. TAG, following the Springer Nature policy, requires the use of large language models to be described in the Methods; only AI-assisted copy editing of text written by the authors is exempt. This statement was drafted on 30 September 2026 from the list of uses given by Shahar Liviatan. It names the tools (Claude Opus and Claude Sonnet from Anthropic, used through Claude Code; ChatGPT with GPT-5 and GPT-5.5 from OpenAI), the period (February to October 2026) and the tasks, and states that the authors checked all code, outputs and text and take responsibility for the content. Please approve it, or add the exact model versions or any other AI tool used in the project.",
+  "**401.** TODO - the wild-versus-cultivated comparison rests on one old paper. The sentence says that domestication and breeding moved cultivated barley toward higher starch and lower protein and fiber, citing only Friedman and Atsmon (1988), which could not be checked (no PDF or abstract available; see the reference comment in the Introduction). Our experiment grew two cultivated checks, Morex and Clipper, but they are not in the analysed data. N. Pintel's NIR files contain one scan of each, from 17 November 2020: Morex 7.0% protein, 64.7% starch, 4.1% beta-glucan and 2.7% fiber; Clipper 12.9%, 59.7%, 5.4% and 4.2%; the wild accessions averaged about 16% protein and 33-43% starch in the first two seasons. One scan per cultivar is too little to replace the citation, but it points the same way. Decide whether to keep the citation alone, add these values, or find a second source.",
+  "**402.** TODO - optional: mention how protein was measured where the Discussion explains why no protein gene was found. The protein results are the weakest: two loci and no gene that could be tested. One possible factor is the measurement: protein was predicted by NIR, calibrated against Kjeldahl values of 30 accessions (r = 0.92 on the same grain, 0.56 against the 2019-20 values of the same accessions; Online Resource 2). On 25 September 2026 it was decided to give no measurement detail here. Keep that decision and delete this comment, or add one sentence."
+ ],
+ "questions": [
+  "Approve as written, or tell me what to change (item and comment number)."
+ ],
+ "edits": [
+  {
+   "where": "Checklist · heading",
+   "why": "Date of this update.",
+   "old": "**⚠ BEFORE SUBMISSION: open items (TAG requirements; checked 2026-10-01). Delete this list before submitting.**",
+   "new": "{-**⚠ BEFORE SUBMISSION: open items (TAG requirements; checked 2026-10-01). Delete this list before submitting.**-}{+**⚠ BEFORE SUBMISSION: open items (TAG requirements; updated 2026-10-01). Delete this list before submitting.**+}"
+  },
+  {
+   "where": "Checklist · item 1",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "1. **Title page:** authors; affiliations (institution, department, city, country); corresponding author's e-mail and **ORCID (mandatory)**; **Acknowledgments** on the title page, with funding organizations written in full (including Equinom Ltd., which lent the NIR instrument). The same author names, and the corresponding author's affiliation and e-mail, go into the **title block of every Online Resource file** (placeholders `[AUTHOR NAMES]`, `[AFFILIATION]`, `[E-MAIL]`; set them in `supplementary/scripts/esm_common.py` and rebuild the files).",
+   "new": "{-1. **Title page:** authors; affiliations (institution, department, city, country); corresponding author's e-mail and **ORCID (mandatory)**; **Acknowledgments** on the title page, with funding organizations written in full (including Equinom Ltd., which lent the NIR instrument). The same author names, and the corresponding author's affiliation and e-mail, go into the **title block of every Online Resource file** (placeholders `[AUTHOR NAMES]`, `[AFFILIATION]`, `[E-MAIL]`; set them in `supplementary/scripts/esm_common.py` and rebuild the files).-}{+1. **Title page (not written yet):** the author names and their affiliations (institution, department, city, country); the corresponding author's e-mail and ORCID (ORCID is mandatory); and the Acknowledgments, which TAG places on the title page, with the funding organizations written in full (including Equinom Ltd., which lent the NIR instrument). The same author names, affiliation and e-mail also go into the title block of every Online Resource file, where they are placeholders now; the files are then rebuilt.+}"
+  },
+  {
+   "where": "Checklist · item 2",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "2. **Author contribution statement:** short, by initials, for all authors (placed before the Acknowledgments; also entered in the submission system).",
+   "new": "{-2. **Author contribution statement:** short, by initials, for all authors (placed before the Acknowledgments; also entered in the submission system).-}{+2. **Author contribution statement (not written yet):** one short line per author, using initials. TAG prints it before the Acknowledgments, and it is also entered in the submission system.+}"
+  },
+  {
+   "where": "Checklist · item 3",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "3. **Statements and Declarations** (after the References; missing ones → the manuscript is returned as incomplete): Funding (agency + grant numbers); Competing interests; Author contributions; **Data availability** (draft in `build/DECLARATIONS_HANDOVER.md`: needs the Zenodo DOI of the MorexV3 SNP calls and the GitHub/Zenodo link of the code; BLUPs as an Online Resource); Ethics approval: not applicable.",
+   "new": "{-3. **Statements and Declarations** (after the References; missing ones → the manuscript is returned as incomplete): Funding (agency + grant numbers); Competing interests; Author contributions; **Data availability** (draft in `build/DECLARATIONS_HANDOVER.md`: needs the Zenodo DOI of the MorexV3 SNP calls and the GitHub/Zenodo link of the code; BLUPs as an Online Resource); Ethics approval: not applicable.-}{+3. **Statements and Declarations (not written yet; they go after the References):** TAG returns a manuscript that lacks any of them. Needed: Funding (agencies and grant numbers); Competing interests; Author contributions; Data availability; Ethics approval (not applicable to this study). The Data availability text is already drafted and names Online Resource 1 for the genotype BLUPs; it still needs the Zenodo DOI of the MorexV3 SNP calls and the GitHub link (with its Zenodo archive) of the analysis code (comment 234).+}"
+  },
+  {
+   "where": "Checklist · item 5",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "5. **Online Resources (supplementary):** ✅ numbered 1–13 in citation order; files `supplementary/ESM_1.xlsx` … `ESM_13.pdf` built (`supplementary/scripts/build_all.sh`); ✅ every placeholder replaced; ✅ title block in each file (author names, affiliation and e-mail still placeholders: item 1); ✅ concise captions (last section, \"Supplementary Information\"; enter the same captions in the submission system); ✅ NIR-calibration sheets of Online Resource 2 (from N. Pintel's files); ✅ citations added in Results Ch. 2 ¶3, Ch. 3 ¶1 (Q13) and of Online Resource 9 in Ch. 3–4 (Q10). Map of all files: `supplementary/README.md`; **files to upload, with their captions: `supplementary/for_submission/`** (zip + `CAPTIONS.md`); list: `supplementary/supplementary.md`. Status of each citation: the \"supmat\" Word comments (❌ not resolved / ✅ resolved); delete them all before submitting. Not cited, for a later decision: `supplementary/unreferenced/`.",
+   "new": "{-5. **Online Resources (supplementary):** ✅ numbered 1–13 in citation order; files `supplementary/ESM_1.xlsx` … `ESM_13.pdf` built (`supplementary/scripts/build_all.sh`); ✅ every placeholder replaced; ✅ title block in each file (author names, affiliation and e-mail still placeholders: item 1); ✅ concise captions (last section, \"Supplementary Information\"; enter the same captions in the submission system); ✅ NIR-calibration sheets of Online Resource 2 (from N. Pintel's files); ✅ citations added in Results Ch. 2 ¶3, Ch. 3 ¶1 (Q13) and of Online Resource 9 in Ch. 3–4 (Q10). Map of all files: `supplementary/README.md`; **files to upload, with their captions: `supplementary/for_submission/`** (zip + `CAPTIONS.md`); list: `supplementary/supplementary.md`. Status of each citation: the \"supmat\" Word comments (❌ not resolved / ✅ resolved); delete them all before submitting. Not cited, for a later decision: `supplementary/unreferenced/`.-}{+5. **Online Resources (supplementary): done.** The 13 files are built, numbered in the order they are first cited, cited in the text, and captioned in the last section (\"Supplementary Information\"). Left to do: put the author names, affiliation and e-mail into the files (item 1); at submission, upload the 13 files and enter each one's caption in the submission system; and decide whether the extra, uncited supplement of raw-phenotype checks should join the supplement (it would then need a number and a citation in the text).+}"
+  },
+  {
+   "where": "Checklist · item 6",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "6. **Open TODO comments:** resolve and delete them (`grep -n 'TODO:'` on this file); the wet-lab facts (TODOs 201–213) need Noam Pintel / Evgenii Potapenko.",
+   "new": "{-6. **Open TODO comments:** resolve and delete them (`grep -n 'TODO:'` on this file); the wet-lab facts (TODOs 201–213) need Noam Pintel / Evgenii Potapenko.-}{+6. **Other open comments** (each marked by a Word comment).+}"
+  },
+  {
+   "where": "Checklist · item 7",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "7. **Cover letter:** refer to the accession number (ENA PRJEB79623) and state any restriction on sharing the seeds; suggested reviewers (independent, mixed countries, institutional e-mails).",
+   "new": "{-7. **Cover letter:** refer to the accession number (ENA PRJEB79623) and state any restriction on sharing the seeds; suggested reviewers (independent, mixed countries, institutional e-mails).-}{+7. **Cover letter (not written yet):** give the accession number of the raw reads (ENA PRJEB79623); state any restriction on sharing the seeds of the accessions (the same statement belongs at the end of the Materials and methods); and suggest reviewers who are independent of the authors, from different countries, with institutional e-mail addresses.+}"
+  },
+  {
+   "where": "Checklist · item 8",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "8. **Final Word formatting:** 10-pt Times Roman; automatic page numbering; no field functions; submit the figures as `Fig1.tif`–`Fig4.tif` (600 dpi, 174 mm), also embedded in the text.",
+   "new": "{-8. **Final Word formatting:** 10-pt Times Roman; automatic page numbering; no field functions; submit the figures as `Fig1.tif`–`Fig4.tif` (600 dpi, 174 mm), also embedded in the text.-}{+8. **Final Word file:** 10-pt Times Roman; automatic page numbering; no field functions. The four figures are embedded in the text and are also uploaded as separate TIFF files, Fig1 to Fig4 (600 dpi, 174 mm wide). Before submitting, delete this list and every remaining Word comment.+}"
+  },
+  {
+   "where": "Checklist · item 9",
+   "why": "Updated to the current state, plain status line like item 4, no paths (user, 2026-10-01).",
+   "old": "9. *(Optional)* **Figure accessibility:** TAG asks for patterns in addition to colour; Figs. 2–4 rely on colour (loci, haplotype groups).",
+   "new": "{-9. *(Optional)* **Figure accessibility:** TAG asks for patterns in addition to colour; Figs. 2–4 rely on colour (loci, haplotype groups).-}{+9. *(Optional)* **Figure accessibility:** TAG recommends patterns or symbols in addition to colour, but Figs. 2–4 tell loci and haplotype groups apart by colour alone.+}"
+  },
+  {
+   "where": "Checklist · hidden note",
+   "why": "Record (invisible in Word).",
+   "old": "Source: TAG_requirements.md. -->",
+   "new": "Source: TAG_requirements.md. {+Updated 2026-10-01 (item CHK6, user request): items 1-3 and 5-9 rewritten as plain status lines, with no paths (user rule: the list names no paths; the map of locations is kept in the project rules); item 6 reduced to its heading, the comments themselves rewritten to explain each problem; resolved comments deleted (the user's 311-319 and 414-416, TODO 203, and the 37 supmat comments, all resolved); item 4 (References session) unchanged. +}-->"
+  },
+  {
+   "where": "Delete your comment 311",
+   "why": "Resolved: answered in the text (Results Ch. 2: the 4H cluster is described as two adjacent loci split by the 50-kb gap rule).",
+   "old": "[Because of the LD CLUMPING and the span/window size defined by r\\^2 and gap between snps - the signal split to 2 signals. See figure 2 start of chrom 4.]{.comment-start id=\"311\" author=\"שחר לויתן\" date=\"2026-09-28T10:52:00Z\" parent=\"309\"}",
+   "new": "{-[Because of the LD CLUMPING and the span/window size defined by r\\^2 and gap between snps - the signal split to 2 signals. See figure 2 start of chrom 4.]{.comment-start id=\"311\" author=\"שחר לויתן\" date=\"2026-09-28T10:52:00Z\" parent=\"309\"}-}"
+  },
+  {
+   "where": "Delete your comment 311 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"311\"}",
+   "new": "{-[]{.comment-end id=\"311\"}-}"
+  },
+  {
+   "where": "Delete your comment 312",
+   "why": "Resolved: same as 311.",
+   "old": "[So how to report this signal? As 1? Or 2?]{.comment-start id=\"312\" author=\"שחר לויתן\" date=\"2026-09-28T10:52:00Z\" parent=\"309\"}",
+   "new": "{-[So how to report this signal? As 1? Or 2?]{.comment-start id=\"312\" author=\"שחר לויתן\" date=\"2026-09-28T10:52:00Z\" parent=\"309\"}-}"
+  },
+  {
+   "where": "Delete your comment 312 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"312\"}",
+   "new": "{-[]{.comment-end id=\"312\"}-}"
+  },
+  {
+   "where": "Delete your comment 313",
+   "why": "Resolved: answered in the text (Results Ch. 2: six fiber loci on 1H, five of them in two clusters).",
+   "old": "[So many signals because of the LDCLUMPING algorythem. See precious comment. Seems in the GWAS like 2 signals and reported as 6. how to report it?]{.comment-start id=\"313\" author=\"שחר לויתן\" date=\"2026-09-28T10:55:00Z\"}",
+   "new": "{-[So many signals because of the LDCLUMPING algorythem. See precious comment. Seems in the GWAS like 2 signals and reported as 6. how to report it?]{.comment-start id=\"313\" author=\"שחר לויתן\" date=\"2026-09-28T10:55:00Z\"}-}"
+  },
+  {
+   "where": "Delete your comment 313 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"313\"}",
+   "new": "{-[]{.comment-end id=\"313\"}-}"
+  },
+  {
+   "where": "Delete your comment 314",
+   "why": "Resolved: answered: the 52 significant SNPs with MAF and effects are in Online Resource 5, cited in this paragraph.",
+   "old": "[add supplementary table here?\\\nfor each snp - MAF, effect, etc...?]{.comment-start id=\"314\" author=\"שחר לויתן\" date=\"2026-09-28T11:03:00Z\"}",
+   "new": "{-[add supplementary table here?\\\nfor each snp - MAF, effect, etc...?]{.comment-start id=\"314\" author=\"שחר לויתן\" date=\"2026-09-28T11:03:00Z\"}-}"
+  },
+  {
+   "where": "Delete your comment 314 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"314\"}",
+   "new": "{-[]{.comment-end id=\"314\"}-}"
+  },
+  {
+   "where": "Delete your comment 315",
+   "why": "Resolved: same as 314.",
+   "old": "[? add supplementary table of each snp and maf?]{.comment-start id=\"315\" author=\"שחר לויתן\" date=\"2026-09-28T11:00:00Z\"}",
+   "new": "{-[? add supplementary table of each snp and maf?]{.comment-start id=\"315\" author=\"שחר לויתן\" date=\"2026-09-28T11:00:00Z\"}-}"
+  },
+  {
+   "where": "Delete your comment 315 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"315\"}",
+   "new": "{-[]{.comment-end id=\"315\"}-}"
+  },
+  {
+   "where": "Delete your comment 316",
+   "why": "Resolved: answered: all locus coordinates are in Online Resource 5.",
+   "old": "[Add Supplemenatry table the loci co-localized regions ?]{.comment-start id=\"316\" author=\"שחר לויתן\" date=\"2026-09-28T11:05:00Z\" parent=\"310\"}",
+   "new": "{-[Add Supplemenatry table the loci co-localized regions ?]{.comment-start id=\"316\" author=\"שחר לויתן\" date=\"2026-09-28T11:05:00Z\" parent=\"310\"}-}"
+  },
+  {
+   "where": "Delete your comment 316 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"316\"}",
+   "new": "{-[]{.comment-end id=\"316\"}-}"
+  },
+  {
+   "where": "Delete your comment 317",
+   "why": "Resolved: answered: all 55 genes are in Online Resource 6, cited in this paragraph.",
+   "old": "[Add supplementary table of the genes?\\\ngene name, tested/not tested, number of snps , etc… add]{.comment-start id=\"317\" author=\"שחר לויתן\" date=\"2026-09-28T11:29:00Z\"}",
+   "new": "{-[Add supplementary table of the genes?\\\ngene name, tested/not tested, number of snps , etc… add]{.comment-start id=\"317\" author=\"שחר לויתן\" date=\"2026-09-28T11:29:00Z\"}-}"
+  },
+  {
+   "where": "Delete your comment 317 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"317\"}",
+   "new": "{-[]{.comment-end id=\"317\"}-}"
+  },
+  {
+   "where": "Delete your comment 318",
+   "why": "Resolved: answered: Online Resource 6.",
+   "old": "[Add supplementary table]{.comment-start id=\"318\" author=\"שחר לויתן\" date=\"2026-09-28T11:29:00Z\" parent=\"303\"}",
+   "new": "{-[Add supplementary table]{.comment-start id=\"318\" author=\"שחר לויתן\" date=\"2026-09-28T11:29:00Z\" parent=\"303\"}-}"
+  },
+  {
+   "where": "Delete your comment 318 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"318\"}",
+   "new": "{-[]{.comment-end id=\"318\"}-}"
+  },
+  {
+   "where": "Delete your comment 319",
+   "why": "Resolved: answered: the compared and excluded SNP sites are in Online Resource 10.",
+   "old": "[Add a supplemtery table (?) that shows the snps that got in to the analysis - and which one removed from the elite/wild datas. Because only shared sites in two datas/VCFs were analysed.]{.comment-start id=\"319\" author=\"שחר לויתן\" date=\"2026-09-28T11:36:00Z\" parent=\"306\"}",
+   "new": "{-[Add a supplemtery table (?) that shows the snps that got in to the analysis - and which one removed from the elite/wild datas. Because only shared sites in two datas/VCFs were analysed.]{.comment-start id=\"319\" author=\"שחר לויתן\" date=\"2026-09-28T11:36:00Z\" parent=\"306\"}-}"
+  },
+  {
+   "where": "Delete your comment 319 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"319\"}",
+   "new": "{-[]{.comment-end id=\"319\"}-}"
+  },
+  {
+   "where": "Delete your comment 414",
+   "why": "Resolved: answered: the distances are in Online Resource 8, cited in this sentence.",
+   "old": "[Not in the results - but analysis I made - where to add it ?]{.comment-start id=\"414\" author=\"שחר לויתן\" date=\"2026-09-28T14:13:00Z\" parent=\"410\"}",
+   "new": "{-[Not in the results - but analysis I made - where to add it ?]{.comment-start id=\"414\" author=\"שחר לויתן\" date=\"2026-09-28T14:13:00Z\" parent=\"410\"}-}"
+  },
+  {
+   "where": "Delete your comment 414 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"414\"}",
+   "new": "{-[]{.comment-end id=\"414\"}-}"
+  },
+  {
+   "where": "Delete your comment 415",
+   "why": "Resolved: answered: the sentence refers to the Materials and methods.",
+   "old": "[Refernce to the M&M]{.comment-start id=\"415\" author=\"שחר לויתן\" date=\"2026-09-28T14:28:00Z\"}",
+   "new": "{-[Refernce to the M&M]{.comment-start id=\"415\" author=\"שחר לויתן\" date=\"2026-09-28T14:28:00Z\"}-}"
+  },
+  {
+   "where": "Delete your comment 415 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"415\"}",
+   "new": "{-[]{.comment-end id=\"415\"}-}"
+  },
+  {
+   "where": "Delete your comment 416",
+   "why": "Resolved: answered: the References session checked every citation of this paragraph (all supported).",
+   "old": "[Check and verify citations]{.comment-start id=\"416\" author=\"שחר לויתן\" date=\"2026-09-28T14:30:00Z\"}",
+   "new": "{-[Check and verify citations]{.comment-start id=\"416\" author=\"שחר לויתן\" date=\"2026-09-28T14:30:00Z\"}-}"
+  },
+  {
+   "where": "Delete your comment 416 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"416\"}",
+   "new": "{-[]{.comment-end id=\"416\"}-}"
+  },
+  {
+   "where": "Delete TODO 203",
+   "why": "Resolved: the two GATK citations that replaced the preprint passed the References session's bibliographic check (tool citations).",
+   "old": "[TODO (References): verify. The calling description (E. Potapenko) cited Poplin et al. (2017), a bioRxiv preprint (https://doi.org/10.1101/201178), which TAG's reference list does not accept. Replaced with McKenna A, Hanna M, Banks E et al (2010) The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data. Genome Res 20:1297-1303, https://doi.org/10.1101/gr.107524.110; and Van der Auwera GA, O'Connor BD (2020) Genomics in the cloud: using Docker, GATK, and WDL in Terra. O'Reilly Media, Sebastopol]{.comment-start id=\"203\" author=\"TODO\"}[(McKenna et al. 2010; Van der Auwera and O'Connor 2020)]{.mark}[]{.comment-end id=\"203\"}",
+   "new": "{-[TODO (References): verify. The calling description (E. Potapenko) cited Poplin et al. (2017), a bioRxiv preprint (https://doi.org/10.1101/201178), which TAG's reference list does not accept. Replaced with McKenna A, Hanna M, Banks E et al (2010) The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data. Genome Res 20:1297-1303, https://doi.org/10.1101/gr.107524.110; and Van der Auwera GA, O'Connor BD (2020) Genomics in the cloud: using Docker, GATK, and WDL in Terra. O'Reilly Media, Sebastopol]{.comment-start id=\"203\" author=\"TODO\"}[(McKenna et al. 2010; Van der Auwera and O'Connor 2020)]{.mark}[]{.comment-end id=\"203\"}-}{+(McKenna et al. 2010; Van der Auwera and O'Connor 2020)+}"
+  },
+  {
+   "where": "Delete supmat comment 239",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheet Sites)]{.comment-start id=\"239\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheet Sites)]{.comment-start id=\"239\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 239 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"239\"}",
+   "new": "{-[]{.comment-end id=\"239\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 240",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 2 (ESM_2.xlsx, sheets NIR calibration and Calibration correlations: the 30 calibration accessions from N. Pintel's files, ESM0 Q17)]{.comment-start id=\"240\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 2 (ESM_2.xlsx, sheets NIR calibration and Calibration correlations: the 30 calibration accessions from N. Pintel's files, ESM0 Q17)]{.comment-start id=\"240\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 240 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"240\"}",
+   "new": "{-[]{.comment-end id=\"240\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 241",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 2 (ESM_2.xlsx, sheet Blocks 2019–20)]{.comment-start id=\"241\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 2 (ESM_2.xlsx, sheet Blocks 2019–20)]{.comment-start id=\"241\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 241 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"241\"}",
+   "new": "{-[]{.comment-end id=\"241\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 242",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheet Accessions (genotype BLUPs of the ten traits))]{.comment-start id=\"242\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheet Accessions (genotype BLUPs of the ten traits))]{.comment-start id=\"242\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 242 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"242\"}",
+   "new": "{-[]{.comment-end id=\"242\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 243",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 3 (ESM_3.xlsx)]{.comment-start id=\"243\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 3 (ESM_3.xlsx)]{.comment-start id=\"243\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 243 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"243\"}",
+   "new": "{-[]{.comment-end id=\"243\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 244",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheets Sites and Environment correlations)]{.comment-start id=\"244\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheets Sites and Environment correlations)]{.comment-start id=\"244\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 244 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"244\"}",
+   "new": "{-[]{.comment-end id=\"244\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 245",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 4 (ESM_4.pdf; its legend carries r² ≥ 0.001, LOESS span 0.10 and the 188 kb)]{.comment-start id=\"245\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 4 (ESM_4.pdf; its legend carries r² ≥ 0.001, LOESS span 0.10 and the 188 kb)]{.comment-start id=\"245\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 245 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"245\"}",
+   "new": "{-[]{.comment-end id=\"245\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 246",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 5 (ESM_5.xlsx)]{.comment-start id=\"246\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 5 (ESM_5.xlsx)]{.comment-start id=\"246\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 246 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"246\"}",
+   "new": "{-[]{.comment-end id=\"246\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 247",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]{.comment-start id=\"247\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]{.comment-start id=\"247\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 247 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"247\"}",
+   "new": "{-[]{.comment-end id=\"247\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 248",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 7 (ESM_7.xlsx)]{.comment-start id=\"248\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 7 (ESM_7.xlsx)]{.comment-start id=\"248\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 248 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"248\"}",
+   "new": "{-[]{.comment-end id=\"248\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 249",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx, columns Testable / Reason not testable)]{.comment-start id=\"249\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx, columns Testable / Reason not testable)]{.comment-start id=\"249\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 249 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"249\"}",
+   "new": "{-[]{.comment-end id=\"249\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 250",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx, annotation columns)]{.comment-start id=\"250\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx, annotation columns)]{.comment-start id=\"250\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 250 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"250\"}",
+   "new": "{-[]{.comment-end id=\"250\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 251",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 8 (ESM_8.xlsx)]{.comment-start id=\"251\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 8 (ESM_8.xlsx)]{.comment-start id=\"251\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 251 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"251\"}",
+   "new": "{-[]{.comment-end id=\"251\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 252",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 9 (ESM_9.pdf, page 5 (GDSL gene, MGmin 3, ε 0.9: marker group MG1 = the 4 SNPs); the 7H grid was dropped (user))]{.comment-start id=\"252\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 9 (ESM_9.pdf, page 5 (GDSL gene, MGmin 3, ε 0.9: marker group MG1 = the 4 SNPs); the 7H grid was dropped (user))]{.comment-start id=\"252\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 252 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"252\"}",
+   "new": "{-[]{.comment-end id=\"252\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 253",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 10 (ESM_10.xlsx, sheets Site accounting and Excluded sites)]{.comment-start id=\"253\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 10 (ESM_10.xlsx, sheets Site accounting and Excluded sites)]{.comment-start id=\"253\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 253 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"253\"}",
+   "new": "{-[]{.comment-end id=\"253\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 254",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 10 (ESM_10.xlsx, sheets Cultivars and Screen)]{.comment-start id=\"254\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 10 (ESM_10.xlsx, sheets Cultivars and Screen)]{.comment-start id=\"254\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 254 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"254\"}",
+   "new": "{-[]{.comment-end id=\"254\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 255",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resources 11 (ESM_11.xlsx, tables; BH groups, χ² region test and region fall-back in its About sheet) and 12 (ESM_12.pdf, Figs. S1–S2)]{.comment-start id=\"255\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resources 11 (ESM_11.xlsx, tables; BH groups, χ² region test and region fall-back in its About sheet) and 12 (ESM_12.pdf, Figs. S1–S2)]{.comment-start id=\"255\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 255 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"255\"}",
+   "new": "{-[]{.comment-end id=\"255\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 256",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheet Accessions; TODO 234 stays open for its other items)]{.comment-start id=\"256\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 1 (ESM_1.xlsx, sheet Accessions; TODO 234 stays open for its other items)]{.comment-start id=\"256\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 256 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"256\"}",
+   "new": "{-[]{.comment-end id=\"256\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 326",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 3 (ESM_3.xlsx)]{.comment-start id=\"326\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 3 (ESM_3.xlsx)]{.comment-start id=\"326\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 326 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"326\"}",
+   "new": "{-[]{.comment-end id=\"326\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 327",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 13 (ESM_13.pdf)]{.comment-start id=\"327\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 13 (ESM_13.pdf)]{.comment-start id=\"327\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 327 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"327\"}",
+   "new": "{-[]{.comment-end id=\"327\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 328",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 5 (ESM_5.xlsx; the placeholder '1' was an old number)]{.comment-start id=\"328\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 5 (ESM_5.xlsx; the placeholder '1' was an old number)]{.comment-start id=\"328\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 328 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"328\"}",
+   "new": "{-[]{.comment-end id=\"328\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 329",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 3 (ESM_3.xlsx)]{.comment-start id=\"329\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 3 (ESM_3.xlsx)]{.comment-start id=\"329\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 329 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"329\"}",
+   "new": "{-[]{.comment-end id=\"329\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 330",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — TODO 309 resolved: Online Resource 5 (ESM_5.xlsx, sheet Loci) lists both 4H β-glucan loci (betaglucan_L05, lead 4H:34,858,354, −log10(P) 7.33; betaglucan_L06, lead 4H:34,971,609) with their spans; your comments 311–312 stay (how to report the signal)]{.comment-start id=\"330\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — TODO 309 resolved: Online Resource 5 (ESM_5.xlsx, sheet Loci) lists both 4H β-glucan loci (betaglucan_L05, lead 4H:34,858,354, −log10(P) 7.33; betaglucan_L06, lead 4H:34,971,609) with their spans; your comments 311–312 stay (how to report the signal)]{.comment-start id=\"330\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 330 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"330\"}",
+   "new": "{-[]{.comment-end id=\"330\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 331",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 5 (ESM_5.xlsx, sheet Significant SNPs: MAF, effect and P of the 52 SNPs); answers your comments 314/315]{.comment-start id=\"331\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 5 (ESM_5.xlsx, sheet Significant SNPs: MAF, effect and P of the 52 SNPs); answers your comments 314/315]{.comment-start id=\"331\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 331 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"331\"}",
+   "new": "{-[]{.comment-end id=\"331\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 332",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — TODO 310 / your comment 316 resolved: Online Resource 5 (ESM_5.xlsx, sheet Loci) lists the coordinates of every co-localized fiber, starch and β-glucan locus (cited in Ch. 2 ¶1)]{.comment-start id=\"332\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — TODO 310 / your comment 316 resolved: Online Resource 5 (ESM_5.xlsx, sheet Loci) lists the coordinates of every co-localized fiber, starch and β-glucan locus (cited in Ch. 2 ¶1)]{.comment-start id=\"332\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 332 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"332\"}",
+   "new": "{-[]{.comment-end id=\"332\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 333",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx: testable, reason not testable, haplotype test of all 55 genes); answers your comment 317]{.comment-start id=\"333\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx: testable, reason not testable, haplotype test of all 55 genes); answers your comment 317]{.comment-start id=\"333\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 333 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"333\"}",
+   "new": "{-[]{.comment-end id=\"333\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 334",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx; also answers your comment 318)]{.comment-start id=\"334\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx; also answers your comment 318)]{.comment-start id=\"334\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 334 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"334\"}",
+   "new": "{-[]{.comment-end id=\"334\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 335",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page a: crosshap plot of GPAT6)]{.comment-start id=\"335\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page a: crosshap plot of GPAT6)]{.comment-start id=\"335\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 335 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"335\"}",
+   "new": "{-[]{.comment-end id=\"335\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 336",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page b: crosshap plot of GH17)]{.comment-start id=\"336\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page b: crosshap plot of GH17)]{.comment-start id=\"336\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 336 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"336\"}",
+   "new": "{-[]{.comment-end id=\"336\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 337",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page c: crosshap plot of PHT4;3)]{.comment-start id=\"337\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page c: crosshap plot of PHT4;3)]{.comment-start id=\"337\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 337 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"337\"}",
+   "new": "{-[]{.comment-end id=\"337\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 338",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 10 (ESM_10.xlsx, sheets Site accounting and Excluded sites; the placeholder '3' was an old number; also answers your comment 319)]{.comment-start id=\"338\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 10 (ESM_10.xlsx, sheets Site accounting and Excluded sites; the placeholder '3' was an old number; also answers your comment 319)]{.comment-start id=\"338\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 338 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"338\"}",
+   "new": "{-[]{.comment-end id=\"338\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 339",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 9 (ESM_9.pdf, pages d and e: crosshap plots of the GDSL gene for fiber and starch)]{.comment-start id=\"339\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 9 (ESM_9.pdf, pages d and e: crosshap plots of the GDSL gene for fiber and starch)]{.comment-start id=\"339\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 339 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"339\"}",
+   "new": "{-[]{.comment-end id=\"339\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 423",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 13 (ESM_13.pdf)]{.comment-start id=\"423\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 13 (ESM_13.pdf)]{.comment-start id=\"423\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 423 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"423\"}",
+   "new": "{-[]{.comment-end id=\"423\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 424",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 13 (ESM_13.pdf)]{.comment-start id=\"424\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 13 (ESM_13.pdf)]{.comment-start id=\"424\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 424 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"424\"}",
+   "new": "{-[]{.comment-end id=\"424\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 425",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resources 11 (ESM_11.xlsx: sheets Lead SNPs – tests, Carriers vs site-mates) and 12 (ESM_12.pdf); placeholder 'X' replaced]{.comment-start id=\"425\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resources 11 (ESM_11.xlsx: sheets Lead SNPs – tests, Carriers vs site-mates) and 12 (ESM_12.pdf); placeholder 'X' replaced]{.comment-start id=\"425\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 425 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"425\"}",
+   "new": "{-[]{.comment-end id=\"425\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 426",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resource 8 (ESM_8.xlsx; answers TODO 410 and your comment 414)]{.comment-start id=\"426\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 8 (ESM_8.xlsx; answers TODO 410 and your comment 414)]{.comment-start id=\"426\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 426 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"426\"}",
+   "new": "{-[]{.comment-end id=\"426\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 427",
+   "why": "Resolved (✅); all supmat comments deleted (user, 2026-10-01).",
+   "old": "[supmat: resolved ✅ — Online Resources 11 (ESM_11.xlsx: sheet Haplotype groups – tests, GPAT6 group C) and 12 (ESM_12.pdf); placeholder 'X' replaced]{.comment-start id=\"427\" author=\"supmat\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resources 11 (ESM_11.xlsx: sheet Haplotype groups – tests, GPAT6 group C) and 12 (ESM_12.pdf); placeholder 'X' replaced]{.comment-start id=\"427\" author=\"supmat\"}-}"
+  },
+  {
+   "where": "Delete supmat comment 427 (end mark)",
+   "why": "Its end mark.",
+   "old": "[]{.comment-end id=\"427\"}",
+   "new": "{-[]{.comment-end id=\"427\"}-}"
+  },
+  {
+   "where": "Rewrite TODO 201 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: number of single-seed-descent rounds - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): three (\"This procedure (single-seed-descent and selfing) was repeated three times\"). Potapenko et al. 2026 Mol Biol Evol: two (\"All HS plants underwent two rounds of single seed descent and selfing\"). Old M&M drafts (2.5.2026 and 4.6.26): two rounds. Pintel MSc thesis: not stated",
+   "new": "{-TODO: number of single-seed-descent rounds - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): three (\"This procedure (single-seed-descent and selfing) was repeated three times\"). Potapenko et al. 2026 Mol Biol Evol: two (\"All HS plants underwent two rounds of single seed descent and selfing\"). Old M&M drafts (2.5.2026 and 4.6.26): two rounds. Pintel MSc thesis: not stated-}{+TODO - number of rounds of single-seed descent. The text says three rounds, as in the paper cited for the plant material, Potapenko et al. 2026b (Mol Ecol): \"This procedure (single-seed-descent and selfing) was repeated three times\". The genome-size paper on the same collection, Potapenko et al. 2026a (Mol Biol Evol), says two rounds, and so do our earlier Materials and methods drafts (May and June 2026). N. Pintel's thesis does not say. Please confirm the number of rounds.+}"
+  },
+  {
+   "where": "Rewrite TODO 202 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: verify - did the MorexV3 re-call start from the reads already cleaned for Potapenko et al. 2026 Mol Ecol (FastQC v0.11.5, fastp v0.20.0)? If so, this citation stands; if the reads were re-trimmed, name the tools, versions and settings here",
+   "new": "{-TODO: verify - did the MorexV3 re-call start from the reads already cleaned for Potapenko et al. 2026 Mol Ecol (FastQC v0.11.5, fastp v0.20.0)? If so, this citation stands; if the reads were re-trimmed, name the tools, versions and settings here-}{+TODO - how the reads were cleaned before the MorexV3 re-call. The text says the raw reads were quality-checked and trimmed as described by Potapenko et al. 2026b (Mol Ecol), that is, with FastQC v0.11.5 and fastp v0.20.0 as in that paper. This is right only if the MorexV3 re-call started from the reads already cleaned for that paper. If the reads were cleaned again for this study, please give the tools, versions and settings, and they will replace the citation.+}"
+  },
+  {
+   "where": "Rewrite TODO 204 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: how to write it? There is phenotypic data on these accessions. Other versions: mini paper \"missing in the phenotyping experiments\"; old M&M drafts \"poor sample quality\"; script comments (00_THIN 03a, 03b) \"no phenotype data\". The phenotype table holds site-04 plants in all three seasons (130 rows, 100 with NIR values), but their IDs differ between seasons: 2019 and 2020 include HS0403, HS0414 and HS0415, which are not among the genotyped HS0401-HS0411 (no HS0403); only 2021 matches the genotyped set",
+   "new": "{-TODO: how to write it? There is phenotypic data on these accessions. Other versions: mini paper \"missing in the phenotyping experiments\"; old M&M drafts \"poor sample quality\"; script comments (00_THIN 03a, 03b) \"no phenotype data\". The phenotype table holds site-04 plants in all three seasons (130 rows, 100 with NIR values), but their IDs differ between seasons: 2019 and 2020 include HS0403, HS0414 and HS0415, which are not among the genotyped HS0401-HS0411 (no HS0403); only 2021 matches the genotyped set-}{+TODO - the reason the ten accessions of site 04 (Hachola) were removed. The text now says \"because of an error in the sampling site\", which needs to be confirmed or replaced. Earlier write-ups gave three different reasons: \"missing in the phenotyping experiments\" (mini paper), \"poor sample quality\" (old Materials and methods drafts) and \"no phenotype data\" (notes in our analysis scripts). None of them fits the data well: the phenotype table does hold site-04 plants in all three seasons (130 plants, 100 with grain-composition values), but in 2019-20 and 2020-21 their IDs (for example HS0403, HS0414, HS0415) do not match the ten sequenced accessions (HS0401-HS0411, without HS0403); only 2021-22 matches. Please give the reason to write here.+}"
+  },
+  {
+   "where": "Rewrite TODO 205 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: verify the missing-data threshold and the order of the filters. The data exceed 30%: over the 300 accessions, maximum per-SNP missingness is 31.7% (40 SNPs above 30%); in the 290 panel, 31.7% (155 SNPs above 30%). Possibly the 30% filter was applied before genotypes with fewer than three reads were set to missing. The MAF filter holds exactly (minimum MAF over the 300 accessions = 0.050)",
+   "new": "{-TODO: verify the missing-data threshold and the order of the filters. The data exceed 30%: over the 300 accessions, maximum per-SNP missingness is 31.7% (40 SNPs above 30%); in the 290 panel, 31.7% (155 SNPs above 30%). Possibly the 30% filter was applied before genotypes with fewer than three reads were set to missing. The MAF filter holds exactly (minimum MAF over the 300 accessions = 0.050)-}{+TODO - the missing-data filter of the SNPs. The text says that SNPs with more than 30% missing data were removed, but the final SNP set contains SNPs with up to 31.7% missing data (40 SNPs above 30% over the 300 accessions; 155 over the 290 analysed). The likely reason is the order of the filters: the 30% filter was applied before genotypes supported by fewer than three reads were set to missing, which added missing calls afterwards. Please confirm the order and the threshold, so the sentence can state them correctly. The other filter, minor-allele frequency 0.05, holds exactly.+}"
+  },
+  {
+   "where": "Rewrite TODO 206 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: pre-sowing treatment, now covered by this citation without details. Potapenko et al. 2026 Mol Ecol (the cited source), Phenotyping: seeds oven-dried at 30 °C for 14 d, dipped in 4% sodium hypochlorite, sown in mid-October on germination paper, 10 d in the dark at 4 °C, then transferred to 5-L pots with a commercial soil mix (Ram 158). Sources disagree: Potapenko et al. 2026 Mol Biol Evol: 3% chlorine solution, sowing trays, 10 d in the dark at 4 °C, then 14 d in a growth chamber at 20 °C (8 h light) before transplanting. Pintel MSc thesis and old M&M drafts: 3% sodium hypochlorite for 5 min, rinsed in distilled water for 5 min, then germination paper at 16 °C for 18 d",
+   "new": "{-TODO: pre-sowing treatment, now covered by this citation without details. Potapenko et al. 2026 Mol Ecol (the cited source), Phenotyping: seeds oven-dried at 30 °C for 14 d, dipped in 4% sodium hypochlorite, sown in mid-October on germination paper, 10 d in the dark at 4 °C, then transferred to 5-L pots with a commercial soil mix (Ram 158). Sources disagree: Potapenko et al. 2026 Mol Biol Evol: 3% chlorine solution, sowing trays, 10 d in the dark at 4 °C, then 14 d in a growth chamber at 20 °C (8 h light) before transplanting. Pintel MSc thesis and old M&M drafts: 3% sodium hypochlorite for 5 min, rinsed in distilled water for 5 min, then germination paper at 16 °C for 18 d-}{+TODO - the pre-sowing treatment of the seeds. The text gives no details and cites Potapenko et al. 2026b (Mol Ecol), whose protocol is: seeds dried at 30 °C for 14 days, dipped in 4% sodium hypochlorite, sown in mid-October on germination paper, kept 10 days in the dark at 4 °C, then moved to 5-L pots with a commercial soil mix. The sources disagree: Potapenko et al. 2026a (Mol Biol Evol) gives a 3% chlorine solution, sowing trays, 10 days in the dark at 4 °C and 14 days in a growth chamber at 20 °C before transplanting; N. Pintel's thesis and our old drafts give 3% sodium hypochlorite for 5 minutes, a 5-minute rinse in distilled water and germination paper at 16 °C for 18 days. Please confirm which protocol was used in this experiment; if it differs from the cited paper, the details will be written here.+}"
+  },
+  {
+   "where": "Rewrite TODO 207 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: flowering-time definition - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): days from sowing to heading. Potapenko et al. 2026 Mol Biol Evol: \"days to flowering\" from transplanting to the emergence of awns (Zadoks 49). Pintel MSc thesis and old M&M draft (2.5.2026): days from transplanting to the emergence of the first spike from the flag-leaf sheath. The data column used is flowering_time; its 2020-21 range (73-147 d) matches the range reported in Mol Ecol",
+   "new": "{-TODO: flowering-time definition - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): days from sowing to heading. Potapenko et al. 2026 Mol Biol Evol: \"days to flowering\" from transplanting to the emergence of awns (Zadoks 49). Pintel MSc thesis and old M&M draft (2.5.2026): days from transplanting to the emergence of the first spike from the flag-leaf sheath. The data column used is flowering_time; its 2020-21 range (73-147 d) matches the range reported in Mol Ecol-}{+TODO - the definition of flowering time. The text follows the cited paper, Potapenko et al. 2026b (Mol Ecol): days from sowing to heading. Other sources define it differently: Potapenko et al. 2026a (Mol Biol Evol) counts days from transplanting to the emergence of the awns (Zadoks stage 49), and N. Pintel's thesis and the old draft count days from transplanting to the emergence of the first spike from the flag-leaf sheath. Our data fit the cited definition: in 2020-21 they range from 73 to 147 days, as reported in Mol Ecol. Please confirm.+}"
+  },
+  {
+   "where": "Rewrite TODO 208 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: plant-height definition - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): tallest tiller length; the data column used is Tiller.Length. Pintel MSc thesis: plant height measured from the ground to the base of the highest flag leaf; Potapenko et al. 2026 Mol Biol Evol records that measurement as a separate trait, \"flag leaf height\"",
+   "new": "{-TODO: plant-height definition - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): tallest tiller length; the data column used is Tiller.Length. Pintel MSc thesis: plant height measured from the ground to the base of the highest flag leaf; Potapenko et al. 2026 Mol Biol Evol records that measurement as a separate trait, \"flag leaf height\"-}{+TODO - the definition of plant height. The text follows the cited paper, Potapenko et al. 2026b (Mol Ecol): the length of the tallest tiller, which is the measurement used in our analyses. N. Pintel's thesis defines plant height instead as the height from the ground to the base of the highest flag leaf, which Potapenko et al. 2026a (Mol Biol Evol) records as a separate trait (flag-leaf height). Please confirm that the length of the tallest tiller is right.+}"
+  },
+  {
+   "where": "Rewrite TODO 209 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: grain weight is not defined in Potapenko et al. 2026 Mol Ecol (the cited source) or Mol Biol Evol. Old M&M draft (2.5.2026): the cleaned grain of the five harvested spikes was weighed per plant. In the data, grain number was counted on three spikes per plant (number_of_spikes = 3, or 2 for 13 plants in 2019-20), not five",
+   "new": "{-TODO: grain weight is not defined in Potapenko et al. 2026 Mol Ecol (the cited source) or Mol Biol Evol. Old M&M draft (2.5.2026): the cleaned grain of the five harvested spikes was weighed per plant. In the data, grain number was counted on three spikes per plant (number_of_spikes = 3, or 2 for 13 plants in 2019-20), not five-}{+TODO - the definition of grain weight. Neither cited paper defines it, so the text gives no definition. Our old draft (May 2026) says the cleaned grain of the five harvested spikes was weighed per plant, but in the data the grains were counted on three spikes per plant (two for 13 plants in 2019-20), so it is not clear how many spikes were weighed. Please give the definition: what was weighed, on how many spikes, and in which unit.+}"
+  },
+  {
+   "where": "Rewrite TODO 210 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: grain-number definition - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): number of grains per spike. The data column used, number_of_grains (all years barley.csv), is the total number of grains of the spikes counted per plant (three spikes; two for 13 plants in 2019-20); grains per spike is a separate column (Grain_per_spike = number_of_grains / number_of_spikes), not used here. Mol Ecol Figs S9-S10 label the trait \"Number of grains\"",
+   "new": "{-TODO: grain-number definition - sources disagree. Written as in Potapenko et al. 2026 Mol Ecol (the cited source): number of grains per spike. The data column used, number_of_grains (all years barley.csv), is the total number of grains of the spikes counted per plant (three spikes; two for 13 plants in 2019-20); grains per spike is a separate column (Grain_per_spike = number_of_grains / number_of_spikes), not used here. Mol Ecol Figs S9-S10 label the trait \"Number of grains\"-}{+TODO - the definition of grain number. The text follows the cited paper, Potapenko et al. 2026b (Mol Ecol): number of grains per spike. The values used in our analyses, however, are the total number of grains on the spikes counted per plant (three spikes; two for 13 plants in 2019-20); grains per spike is a separate column that we did not use, and the Mol Ecol figures themselves label the trait \"Number of grains\". Please confirm which it is. If it is the total, the text should say \"number of grains on three spikes per plant\".+}"
+  },
+  {
+   "where": "Rewrite TODO 211 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: threshing - sources. Neither Potapenko et al. 2026 paper describes post-harvest processing (their studies did not measure grain composition). Pintel MSc thesis (covers 2019-20 and 2020-21 only; its \"Season 2020\" and \"Season 2021\" are 2019-20 and 2020-21): \"threshed manually in season 2019 and by a mechanic thresher (Haldrup LT21) in 2021\". Old M&M draft (2.5.2026): by hand in 2019-20 and with a Haldrup LT-21 in 2020-21 and 2021-22. The 2021-22 season rests on the old draft only",
+   "new": "{-TODO: threshing - sources. Neither Potapenko et al. 2026 paper describes post-harvest processing (their studies did not measure grain composition). Pintel MSc thesis (covers 2019-20 and 2020-21 only; its \"Season 2020\" and \"Season 2021\" are 2019-20 and 2020-21): \"threshed manually in season 2019 and by a mechanic thresher (Haldrup LT21) in 2021\". Old M&M draft (2.5.2026): by hand in 2019-20 and with a Haldrup LT-21 in 2020-21 and 2021-22. The 2021-22 season rests on the old draft only-}{+TODO - how the grain was threshed. The text says by hand in 2019-20 and with a Haldrup LT-21 thresher in 2020-21 and 2021-22. N. Pintel's thesis, which covers only the first two seasons, says by hand in the first season and with the Haldrup LT-21 in the second. For 2021-22 the only source is our old draft (May 2026). Please confirm the threshing in 2021-22.+}"
+  },
+  {
+   "where": "Rewrite TODO 213 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: whether one calibration was applied to all three seasons - not stated here. Pintel MSc thesis: covers 2019-20 and 2020-21 only. Old M&M draft (4.6.26): \"The single calibration was applied uniformly across all three seasons\". Data (all years barley.csv, wild plants): raw season means differ strongly - starch 33.0 / 42.9 / 20.7%, beta-glucan 5.8 / 5.0 / 7.3%, protein 16.1 / 16.2 / 17.7%, fiber 4.9 / 3.8 / 3.8% (2019-20 / 2020-21 / 2021-22). The analysis scripts add 8.85 to the 2021-22 starch values (\"post-NIR adjustment retained from Tal Amar's pipeline\"; 00_THIN 01 and 02); this constant cancels under within-season centering and is not described in the text. Found 2026-10-01 in N. Pintel's files (section_materials/02_materials_methods/NIR_calibration_files/NIR.zip; copies in supplementary/sources/NIR_calibration/, README there): the calibration scans of the 30 calibration accessions (DA 7250, S/N 1921241, 7 Jan 2020, five scans per accession, averaged) used the factory calibrations Barley_Moisture_7July2011_Micro.41M, Barley_Protein_Asis_7July2011_Micro.41M, Barley_Fiber_Asis_7July2011_Micro.41M and Barley_Starch_Asis_7July2011_Micro.41M with bias 0 and slope 1, and no beta-glucan calibration (DA7250_Extensive Report_Barley_20200107_..._avg.xlsx). The season exports of June 2020 (2019-20) and October 2021 (2021-22) do not name the calibration, so whether one calibration served all three seasons cannot be read from the files. S. Hübner to inspect (user, 2026-10-01)",
+   "new": "{-TODO: whether one calibration was applied to all three seasons - not stated here. Pintel MSc thesis: covers 2019-20 and 2020-21 only. Old M&M draft (4.6.26): \"The single calibration was applied uniformly across all three seasons\". Data (all years barley.csv, wild plants): raw season means differ strongly - starch 33.0 / 42.9 / 20.7%, beta-glucan 5.8 / 5.0 / 7.3%, protein 16.1 / 16.2 / 17.7%, fiber 4.9 / 3.8 / 3.8% (2019-20 / 2020-21 / 2021-22). The analysis scripts add 8.85 to the 2021-22 starch values (\"post-NIR adjustment retained from Tal Amar's pipeline\"; 00_THIN 01 and 02); this constant cancels under within-season centering and is not described in the text. Found 2026-10-01 in N. Pintel's files (section_materials/02_materials_methods/NIR_calibration_files/NIR.zip; copies in supplementary/sources/NIR_calibration/, README there): the calibration scans of the 30 calibration accessions (DA 7250, S/N 1921241, 7 Jan 2020, five scans per accession, averaged) used the factory calibrations Barley_Moisture_7July2011_Micro.41M, Barley_Protein_Asis_7July2011_Micro.41M, Barley_Fiber_Asis_7July2011_Micro.41M and Barley_Starch_Asis_7July2011_Micro.41M with bias 0 and slope 1, and no beta-glucan calibration (DA7250_Extensive Report_Barley_20200107_..._avg.xlsx). The season exports of June 2020 (2019-20) and October 2021 (2021-22) do not name the calibration, so whether one calibration served all three seasons cannot be read from the files. S. Hübner to inspect (user, 2026-10-01)-}{+TODO - was one NIR calibration used for all three seasons? The text describes one calibration: the manufacturer's calibration for cultivated barley, adjusted to the laboratory values for protein and starch, plus a new beta-glucan calibration built from the kit values. It does not say whether this calibration was applied to all three seasons; only our old draft (June 2026) says so, and N. Pintel's thesis covers the first two seasons only. N. Pintel's files show the calibration step itself: the 30 calibration accessions were scanned on 7 January 2020 (five scans each) with the factory calibrations for cultivated barley, before any adjustment and with no beta-glucan calibration. The scans of the seasons (June 2020 for 2019-20, October 2021 for 2021-22) do not record which calibration was used. Two signs that the seasons may differ: the season means of starch as recorded are 33.0, 42.9 and 20.7% (2019-20, 2020-21, 2021-22), and in 2021-22, 25 of 1,163 plants have negative starch values as recorded (down to -21.6%). The analysis scripts add 8.85 to the 2021-22 starch values, an adjustment carried over from an earlier pipeline that is not described in the text; it does not change the results, because each season is centred on its own mean. Please check whether one calibration was used for all seasons, and how it was adjusted.+}"
+  },
+  {
+   "where": "Rewrite TODO 234 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: Sariel needs to sort this out and approve it. To fill in and confirm: (1) the MorexV3 SNP calls on Zenodo with a DOI (user choice 2026-09-30; /mnt/data/shahar/gwas_barley/data/inputs/morexV3_with_ids.vcf.gz, 6.9 GB, 300 accessions x 7,110,996 SNPs - decide whether to deposit the 300- or the 290-accession file); (2) the GitHub repository under https://github.com/hubner-lab (as in Potapenko et al. 2026 Mol Ecol and Mol Biol Evol) and a Zenodo archive of its release for a DOI; (3) phenotypes as in Potapenko et al.: the genotype BLUPs are in Online Resource 1 (sheet Accessions; done 2026-10-01), no separate deposit; (4) the ENA sample alias of each accession, with its ENA sample and run accessions, is in Online Resource 1 (done 2026-10-01). Since item MM5 (2026-09-30) this paragraph keeps only the accession number, which TAG requires at the end of the Materials and methods; the sentence on (1)-(3) moved to the Data availability statement of the Declarations (text saved in new_publishing_paper/build/DECLARATIONS_HANDOVER.md)",
+   "new": "{-TODO: Sariel needs to sort this out and approve it. To fill in and confirm: (1) the MorexV3 SNP calls on Zenodo with a DOI (user choice 2026-09-30; /mnt/data/shahar/gwas_barley/data/inputs/morexV3_with_ids.vcf.gz, 6.9 GB, 300 accessions x 7,110,996 SNPs - decide whether to deposit the 300- or the 290-accession file); (2) the GitHub repository under https://github.com/hubner-lab (as in Potapenko et al. 2026 Mol Ecol and Mol Biol Evol) and a Zenodo archive of its release for a DOI; (3) phenotypes as in Potapenko et al.: the genotype BLUPs are in Online Resource 1 (sheet Accessions; done 2026-10-01), no separate deposit; (4) the ENA sample alias of each accession, with its ENA sample and run accessions, is in Online Resource 1 (done 2026-10-01). Since item MM5 (2026-09-30) this paragraph keeps only the accession number, which TAG requires at the end of the Materials and methods; the sentence on (1)-(3) moved to the Data availability statement of the Declarations (text saved in new_publishing_paper/build/DECLARATIONS_HANDOVER.md)-}{+TODO - data and code availability. This paragraph keeps only the accession number of the raw reads, which TAG requires at the end of the Materials and methods. The full Data availability statement goes into the Declarations (not written yet) and still needs: (1) the MorexV3 SNP calls on Zenodo with a DOI (one VCF file of 6.9 GB, 300 accessions and 7,110,996 SNPs; decide whether to deposit all 300 accessions or the 290 analysed); (2) the analysis code in a GitHub repository of the lab (as for the two Potapenko et al. 2026 papers), archived on Zenodo for a DOI. Already done: the genotype BLUPs (the phenotypes) and the ENA identifiers of every accession are in Online Resource 1.+}"
+  },
+  {
+   "where": "Rewrite TODO 235 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: Sariel needs to sort this out and approve it. TAG asks that any restriction on sharing the material (seeds of the 300 accessions) be stated in the Materials and methods and in the cover letter; materials should be freely available for non-commercial use within 60 days of a request (TAG_requirements.md). No source in the project states the policy",
+   "new": "{-TODO: Sariel needs to sort this out and approve it. TAG asks that any restriction on sharing the material (seeds of the 300 accessions) be stated in the Materials and methods and in the cover letter; materials should be freely available for non-commercial use within 60 days of a request (TAG_requirements.md). No source in the project states the policy-}{+TODO - statement on sharing the seeds. TAG asks that any restriction on sharing the material, here the seeds of the 300 accessions, be stated in the Materials and methods and in the cover letter; TAG expects materials to be freely available for non-commercial use within 60 days of a request. No document of the project states the lab's policy. Please give the sentence to write here, for example that the seeds are available from the corresponding author on request, or the restriction that applies.+}"
+  },
+  {
+   "where": "Rewrite TODO 236 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: Sariel needs to see and approve this statement. Tools named by the user (2026-09-30): Claude Opus and Claude Sonnet (Anthropic, through Claude Code) and ChatGPT with GPT-5 and GPT-5.5 (OpenAI); add the exact Claude model versions if wanted, and any other AI tool used during the project. Basis: TAG / Springer Nature policy - LLM use must be documented in the Methods; only \"AI assisted copy editing\" of human-written text is exempt, not \"generative editorial work and autonomous content creation\" (journal_TAG/TAG_submission_guidelines_2026-09-15.pdf, p. 12). Tasks from the user's list (brainstorming, writing code, organizing folders, writing text) plus checking the manuscript against the code and outputs; folder organization is not research content and is not listed. Period of use: February-October 2026 (user). \"Checked by the authors\" rather than \"run by the authors\", so the sentence holds whoever executed the code",
+   "new": "{-TODO: Sariel needs to see and approve this statement. Tools named by the user (2026-09-30): Claude Opus and Claude Sonnet (Anthropic, through Claude Code) and ChatGPT with GPT-5 and GPT-5.5 (OpenAI); add the exact Claude model versions if wanted, and any other AI tool used during the project. Basis: TAG / Springer Nature policy - LLM use must be documented in the Methods; only \"AI assisted copy editing\" of human-written text is exempt, not \"generative editorial work and autonomous content creation\" (journal_TAG/TAG_submission_guidelines_2026-09-15.pdf, p. 12). Tasks from the user's list (brainstorming, writing code, organizing folders, writing text) plus checking the manuscript against the code and outputs; folder organization is not research content and is not listed. Period of use: February-October 2026 (user). \"Checked by the authors\" rather than \"run by the authors\", so the sentence holds whoever executed the code-}{+TODO - statement on the use of generative AI. TAG, following the Springer Nature policy, requires the use of large language models to be described in the Methods; only AI-assisted copy editing of text written by the authors is exempt. This statement was drafted on 30 September 2026 from the list of uses given by Shahar Liviatan. It names the tools (Claude Opus and Claude Sonnet from Anthropic, used through Claude Code; ChatGPT with GPT-5 and GPT-5.5 from OpenAI), the period (February to October 2026) and the tasks, and states that the authors checked all code, outputs and text and take responsibility for the content. Please approve it, or add the exact model versions or any other AI tool used in the project.+}"
+  },
+  {
+   "where": "Rewrite TODO 401 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: This claim rests on the literature only. Morex and Clipper were grown as cultivated checks in the same common garden but carry no NIR values in 00_THIN_Generate_Plots_For_Publication/all years barley.csv (checked 2026-09-24). Check whether cultivated-check nutritional data exist elsewhere in our own study (raw NIR exports, the calibration set, collaborators' records): if they do, the wild-vs-cultivated comparison could rest on this experiment rather than on a 1988 citation. Background: section_materials/04_discussion/NOTE_cultivated_checks_no_NIR.md. Citation audit 2026-10-01: Friedman and Atsmon 1988 could not be verified (no PDF and no abstract available; see TODO 102)",
+   "new": "{-TODO: This claim rests on the literature only. Morex and Clipper were grown as cultivated checks in the same common garden but carry no NIR values in 00_THIN_Generate_Plots_For_Publication/all years barley.csv (checked 2026-09-24). Check whether cultivated-check nutritional data exist elsewhere in our own study (raw NIR exports, the calibration set, collaborators' records): if they do, the wild-vs-cultivated comparison could rest on this experiment rather than on a 1988 citation. Background: section_materials/04_discussion/NOTE_cultivated_checks_no_NIR.md. Citation audit 2026-10-01: Friedman and Atsmon 1988 could not be verified (no PDF and no abstract available; see TODO 102)-}{+TODO - the wild-versus-cultivated comparison rests on one old paper. The sentence says that domestication and breeding moved cultivated barley toward higher starch and lower protein and fiber, citing only Friedman and Atsmon (1988), which could not be checked (no PDF or abstract available; see the reference comment in the Introduction). Our experiment grew two cultivated checks, Morex and Clipper, but they are not in the analysed data. N. Pintel's NIR files contain one scan of each, from 17 November 2020: Morex 7.0% protein, 64.7% starch, 4.1% beta-glucan and 2.7% fiber; Clipper 12.9%, 59.7%, 5.4% and 4.2%; the wild accessions averaged about 16% protein and 33-43% starch in the first two seasons. One scan per cultivar is too little to replace the citation, but it points the same way. Decide whether to keep the citation alone, add these values, or find a second source.+}"
+  },
+  {
+   "where": "Rewrite TODO 402 (comment text only)",
+   "why": "Make the comment self-explanatory for other readers (user, 2026-10-01).",
+   "old": "TODO: Check how grain protein was quantified (NIR calibration against Kjeldahl; Pintel MSc thesis) - it may help discuss the protein GWAS and gene-search results (two loci, no testable gene). Decided 2026-09-25: no measurement detail in the text for now",
+   "new": "{-TODO: Check how grain protein was quantified (NIR calibration against Kjeldahl; Pintel MSc thesis) - it may help discuss the protein GWAS and gene-search results (two loci, no testable gene). Decided 2026-09-25: no measurement detail in the text for now-}{+TODO - optional: mention how protein was measured where the Discussion explains why no protein gene was found. The protein results are the weakest: two loci and no gene that could be tested. One possible factor is the measurement: protein was predicted by NIR, calibrated against Kjeldahl values of 30 accessions (r = 0.92 on the same grain, 0.56 against the 2019-20 values of the same accessions; Online Resource 2). On 25 September 2026 it was decided to give no measurement detail here. Keep that decision and delete this comment, or add one sentence.+}"
+  }
+ ]
+}

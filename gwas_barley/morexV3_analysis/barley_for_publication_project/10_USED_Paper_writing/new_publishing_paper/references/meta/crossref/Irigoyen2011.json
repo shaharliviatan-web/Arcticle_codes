@@ -1,0 +1,2691 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     4,
+     25
+    ]
+   ],
+   "date-time": "2026-04-25T16:53:29Z",
+   "timestamp": 1777136009243,
+   "version": "3.51.4"
+  },
+  "reference-count": 69,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2021,
+       1,
+       25
+      ]
+     ],
+     "date-time": "2021-01-25T00:00:00Z",
+     "timestamp": 1611532800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 3406,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2011,
+     12,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>Nonphotosynthetic plastids are important sites for the biosynthesis of starch, fatty acids, and amino acids. The uptake and subsequent use of cytosolic ATP to fuel these and other anabolic processes would lead to the accumulation of inorganic phosphate (Pi) if not balanced by a Pi export activity. However, the identity of the transporter(s) responsible for Pi export is unclear. The plastid-localized Pi transporter PHT4;2 of Arabidopsis (Arabidopsis thaliana) is expressed in multiple sink organs but is nearly restricted to roots during vegetative growth. We identified and used pht4;2 null mutants to confirm that PHT4;2 contributes to Pi transport in isolated root plastids. Starch accumulation was limited in pht4;2 roots, which is consistent with the inhibition of starch synthesis by excess Pi as a result of a defect in Pi export. Reduced starch accumulation in leaves and altered expression patterns for starch synthesis genes and other plastid transporter genes suggest metabolic adaptation to the defect in roots. Moreover, pht4;2 rosettes, but not roots, were significantly larger than those of the wild type, with 40% greater leaf area and twice the biomass when plants were grown with a short (8-h) photoperiod. Increased cell proliferation accounted for the larger leaf size and biomass, as no changes were detected in mature cell size, specific leaf area, or relative photosynthetic electron transport activity. These data suggest novel signaling between roots and leaves that contributes to the regulation of leaf size.</jats:p>",
+  "DOI": "10.1104/pp.111.181925",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2011,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2011-09-30T11:33:16Z",
+   "timestamp": 1317382396000
+  },
+  "page": "1765-1777",
+  "source": "Crossref",
+  "is-referenced-by-count": 67,
+  "title": [
+   "The Sink-Specific Plastidic Phosphate Transporter PHT4;2 Influences Starch Accumulation and Leaf Size in Arabidopsis \u00a0 \u00a0"
+  ],
+  "prefix": "10.1093",
+  "volume": "157",
+  "author": [
+   {
+    "given": "Sonia",
+    "family": "Irigoyen",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Patrik M.",
+    "family": "Karlsson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Jacob",
+    "family": "Kuruvilla",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Cornelia",
+    "family": "Spetea",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Wayne K.",
+    "family": "Versaw",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2011,
+     9,
+     29
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2021052608283087900_b1",
+    "doi-asserted-by": "crossref",
+    "first-page": "653",
+    "DOI": "10.1126/science.1086391",
+    "article-title": "Genome-wide insertional mutagenesis of Arabidopsis thaliana",
+    "volume": "301",
+    "author": "Alonso",
+    "year": "2003",
+    "journal-title": "Science"
+   },
+   {
+    "key": "2021052608283087900_b2",
+    "doi-asserted-by": "crossref",
+    "first-page": "117",
+    "DOI": "10.1007/BF00944073",
+    "article-title": "Metabolic adaptation of renal carbohydrate metabolism. V. In vivo response of rat renal-tubule gluconeogenesis to different diuretics",
+    "volume": "137",
+    "author": "Amores",
+    "year": "1994",
+    "journal-title": "Mol Cell Biochem"
+   },
+   {
+    "key": "2021052608283087900_b3",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1023/B:PRES.0000011916.67519.58",
+    "article-title": "ADP-glucose pyrophosphorylase: a regulatory enzyme for plant starch synthesis",
+    "volume": "79",
+    "author": "Ballicora",
+    "year": "2004",
+    "journal-title": "Photosynth Res"
+   },
+   {
+    "key": "2021052608283087900_b4",
+    "doi-asserted-by": "crossref",
+    "first-page": "734",
+    "DOI": "10.1104/pp.104.053884",
+    "article-title": "Genome-wide analysis of gene expression profiles associated with cell cycle transitions in growing organs of Arabidopsis",
+    "volume": "138",
+    "author": "Beemster",
+    "year": "2005",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b5",
+    "doi-asserted-by": "crossref",
+    "first-page": "248",
+    "DOI": "10.1016/0003-2697(76)90527-3",
+    "article-title": "A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding",
+    "volume": "72",
+    "author": "Bradford",
+    "year": "1976",
+    "journal-title": "Anal Biochem"
+   },
+   {
+    "key": "2021052608283087900_b6",
+    "doi-asserted-by": "crossref",
+    "first-page": "1247",
+    "DOI": "10.1093/mp/ssp070",
+    "article-title": "Proteomic analysis of the proplastid envelope membrane provides novel insights into small molecule and protein transport across proplastid membranes",
+    "volume": "2",
+    "author": "Br\u00e4utigam",
+    "year": "2009",
+    "journal-title": "Mol Plant"
+   },
+   {
+    "key": "2021052608283087900_b7",
+    "doi-asserted-by": "crossref",
+    "first-page": "1318",
+    "DOI": "10.1104/pp.89.4.1318",
+    "article-title": "Proton-coupled sucrose transport in plasmalemma vesicles isolated from sugar beet (Beta vulgaris L. cv Great Western) leaves",
+    "volume": "89",
+    "author": "Bush",
+    "year": "1989",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b8",
+    "doi-asserted-by": "crossref",
+    "first-page": "735",
+    "DOI": "10.1046/j.1365-313x.1998.00343.x",
+    "article-title": "Floral dip: a simplified method for Agrobacterium-mediated transformation of Arabidopsis thaliana",
+    "volume": "16",
+    "author": "Clough",
+    "year": "1998",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2021052608283087900_b9",
+    "doi-asserted-by": "crossref",
+    "first-page": "2123",
+    "DOI": "10.1002/pmic.200900345",
+    "article-title": "Proteomic analysis of Medicago truncatula root plastids",
+    "volume": "10",
+    "author": "Daher",
+    "year": "2010",
+    "journal-title": "Proteomics"
+   },
+   {
+    "key": "2021052608283087900_b10",
+    "doi-asserted-by": "crossref",
+    "first-page": "2153",
+    "DOI": "10.1105/tpc.11.11.2153",
+    "article-title": "Pht2;1 encodes a low-affinity phosphate transporter from Arabidopsis",
+    "volume": "11",
+    "author": "Daram",
+    "year": "1999",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2021052608283087900_b11",
+    "doi-asserted-by": "crossref",
+    "first-page": "169",
+    "DOI": "10.1104/pp.73.1.169",
+    "article-title": "Properties of the isolated intact chloroplast at cytoplasmic K concentrations. I. Light-induced cation uptake into intact chloroplasts is driven by an electrical potential difference",
+    "volume": "73",
+    "author": "Demmig",
+    "year": "1983",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b12",
+    "doi-asserted-by": "crossref",
+    "first-page": "1653",
+    "DOI": "10.1105/TPC.010087",
+    "article-title": "Functional analysis of cyclin-dependent kinase inhibitors of Arabidopsis",
+    "volume": "13",
+    "author": "De Veylder",
+    "year": "2001",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2021052608283087900_b13",
+    "doi-asserted-by": "crossref",
+    "first-page": "512",
+    "DOI": "10.1104/pp.010576",
+    "article-title": "The plastidic pentose phosphate translocator represents a link between the cytosolic and the plastidic pentose phosphate pathways in plants",
+    "volume": "128",
+    "author": "Eicks",
+    "year": "2002",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b14",
+    "doi-asserted-by": "crossref",
+    "first-page": "953",
+    "DOI": "10.1038/nprot.2007.131",
+    "article-title": "Locating proteins in the cell using TargetP, SignalP and related tools",
+    "volume": "2",
+    "author": "Emanuelsson",
+    "year": "2007",
+    "journal-title": "Nat Protoc"
+   },
+   {
+    "key": "2021052608283087900_b15",
+    "doi-asserted-by": "crossref",
+    "first-page": "161",
+    "DOI": "10.1007/BF00402959",
+    "article-title": "Purification of plastids from higher-plant roots",
+    "volume": "168",
+    "author": "Emes",
+    "year": "1986",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "2021052608283087900_b16",
+    "doi-asserted-by": "crossref",
+    "first-page": "112",
+    "DOI": "10.1016/0005-2736(92)90301-2",
+    "article-title": "Reaction mechanism and asymmetric orientation of the reconstituted chloroplast phosphate translocator",
+    "volume": "1110",
+    "author": "Fl\u00fcgge",
+    "year": "1992",
+    "journal-title": "Biochim Biophys Acta"
+   },
+   {
+    "key": "2021052608283087900_b17",
+    "doi-asserted-by": "crossref",
+    "first-page": "27",
+    "DOI": "10.1146/annurev.arplant.50.1.27",
+    "article-title": "Phosphate translocators in plastids",
+    "volume": "50",
+    "author": "Fl\u00fcgge",
+    "year": "1999",
+    "journal-title": "Annu Rev Plant Physiol Plant Mol Biol"
+   },
+   {
+    "key": "2021052608283087900_b18",
+    "doi-asserted-by": "crossref",
+    "first-page": "1049",
+    "DOI": "10.1126/science.220.4601.1049",
+    "article-title": "Rapid flow cytometric analysis of the cell cycle in intact plant tissues",
+    "volume": "220",
+    "author": "Galbraith",
+    "year": "1983",
+    "journal-title": "Science"
+   },
+   {
+    "key": "2021052608283087900_b19",
+    "doi-asserted-by": "crossref",
+    "first-page": "87",
+    "DOI": "10.1016/S0304-4165(89)80016-9",
+    "article-title": "The relationship between the quantum yield of photosynthetic electron transport and quenching of chlorophyll fluorescence",
+    "volume": "990",
+    "author": "Genty",
+    "year": "1989",
+    "journal-title": "Biochim Biophys Acta"
+   },
+   {
+    "key": "2021052608283087900_b20",
+    "doi-asserted-by": "crossref",
+    "first-page": "157",
+    "DOI": "10.1016/j.pbi.2008.11.003",
+    "article-title": "David and Goliath: what can the tiny weed Arabidopsis teach us to improve biomass production in crops?",
+    "volume": "12",
+    "author": "Gonzalez",
+    "year": "2009",
+    "journal-title": "Curr Opin Plant Biol"
+   },
+   {
+    "key": "2021052608283087900_b21",
+    "doi-asserted-by": "crossref",
+    "first-page": "1261",
+    "DOI": "10.1104/pp.110.156018",
+    "article-title": "Increased leaf size: different means to an end",
+    "volume": "153",
+    "author": "Gonzalez",
+    "year": "2010",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b22",
+    "doi-asserted-by": "crossref",
+    "first-page": "262",
+    "DOI": "10.1007/BF00194006",
+    "article-title": "Comparison of the kinetic properties, inhibition and labelling of the phosphate translocators from maize and spinach mesophyll chloroplasts",
+    "volume": "180",
+    "author": "Gross",
+    "year": "1990",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "2021052608283087900_b23",
+    "doi-asserted-by": "crossref",
+    "first-page": "784",
+    "DOI": "10.4161/psb.3.10.6666",
+    "article-title": "Differential expression and phylogenetic analysis suggest specialization of plastid-localized members of the PHT4 phosphate transporter family for photosynthetic and heterotrophic tissues",
+    "volume": "3",
+    "author": "Guo",
+    "year": "2008",
+    "journal-title": "Plant Signal Behav"
+   },
+   {
+    "key": "2021052608283087900_b24",
+    "doi-asserted-by": "crossref",
+    "first-page": "889",
+    "DOI": "10.1111/j.1469-8137.2007.02331.x",
+    "article-title": "Functional analysis of the Arabidopsis PHT4 family of intracellular phosphate transporters",
+    "volume": "177",
+    "author": "Guo",
+    "year": "2008",
+    "journal-title": "New Phytol"
+   },
+   {
+    "key": "2021052608283087900_b25",
+    "doi-asserted-by": "crossref",
+    "first-page": "3925",
+    "DOI": "10.1002/j.1460-2075.1995.tb00064.x",
+    "article-title": "Dominant negative mutants of the Cdc2 kinase uncouple cell division from iterative plant development",
+    "volume": "14",
+    "author": "Hemerly",
+    "year": "1995",
+    "journal-title": "EMBO J"
+   },
+   {
+    "key": "2021052608283087900_b26",
+    "doi-asserted-by": "crossref",
+    "first-page": "37",
+    "DOI": "10.1007/s10265-005-0232-4",
+    "article-title": "Coordination of cell proliferation and cell expansion in the control of leaf size in Arabidopsis thaliana",
+    "volume": "119",
+    "author": "Horiguchi",
+    "year": "2006",
+    "journal-title": "J Plant Res"
+   },
+   {
+    "key": "2021052608283087900_b27",
+    "doi-asserted-by": "crossref",
+    "first-page": "68",
+    "DOI": "10.1111/j.1365-313X.2005.02429.x",
+    "article-title": "The transcription factor AtGRF5 and the transcription coactivator AN3 regulate cell proliferation in leaf primordia of Arabidopsis thaliana",
+    "volume": "43",
+    "author": "Horiguchi",
+    "year": "2005",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2021052608283087900_b28",
+    "doi-asserted-by": "crossref",
+    "first-page": "420747",
+    "DOI": "10.1155/2008/420747",
+    "article-title": "Genevestigator v3: a reference expression database for the meta-analysis of transcriptomes",
+    "volume": "2008",
+    "author": "Hruz",
+    "year": "2008",
+    "journal-title": "Adv Bioinform"
+   },
+   {
+    "key": "2021052608283087900_b29",
+    "doi-asserted-by": "crossref",
+    "first-page": "773",
+    "DOI": "10.1104/pp.118.3.773",
+    "article-title": "Overexpression of 20-oxidase confers a gibberellin-overproduction phenotype in Arabidopsis",
+    "volume": "118",
+    "author": "Huang",
+    "year": "1998",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b30",
+    "doi-asserted-by": "crossref",
+    "first-page": "17",
+    "DOI": "10.1016/j.pbi.2008.09.006",
+    "article-title": "Making bigger plants: key regulators of final organ size",
+    "volume": "12",
+    "author": "Krizek",
+    "year": "2009",
+    "journal-title": "Curr Opin Plant Biol"
+   },
+   {
+    "key": "2021052608283087900_b31",
+    "doi-asserted-by": "crossref",
+    "first-page": "115",
+    "DOI": "10.1111/j.1438-8677.2010.00349.x",
+    "article-title": "The role of plastidial glucose-6-phosphate/phosphate translocators in vegetative tissues of Arabidopsis thaliana mutants impaired in starch biosynthesis",
+    "volume": "12",
+    "author": "Kunz",
+    "year": "2010",
+    "journal-title": "Plant Biol (Stuttg)"
+   },
+   {
+    "key": "2021052608283087900_b32",
+    "doi-asserted-by": "crossref",
+    "first-page": "121",
+    "DOI": "10.1126/science.1115711",
+    "article-title": "Arabidopsis H+-PPase AVP1 regulates auxin-mediated organ development",
+    "volume": "310",
+    "author": "Li",
+    "year": "2005",
+    "journal-title": "Science"
+   },
+   {
+    "key": "2021052608283087900_b33",
+    "doi-asserted-by": "crossref",
+    "first-page": "1406",
+    "DOI": "10.1016/j.jplph.2010.12.008",
+    "article-title": "Starch-related cytosolic heteroglycans in roots from Arabidopsis thaliana",
+    "volume": "168",
+    "author": "Malinova",
+    "year": "2011",
+    "journal-title": "J Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b34",
+    "doi-asserted-by": "crossref",
+    "first-page": "1661",
+    "DOI": "10.2307/3869747",
+    "article-title": "Relationship between endopolyploidy and cell size in epidermal tissue of Arabidopsis",
+    "volume": "5",
+    "author": "Melaragno",
+    "year": "1993",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2021052608283087900_b35",
+    "doi-asserted-by": "crossref",
+    "first-page": "473",
+    "DOI": "10.1111/j.1399-3054.1962.tb08052.x",
+    "article-title": "A revised medium for rapid growth and bioassays with tobacco tissue cultures",
+    "volume": "15",
+    "author": "Murashige",
+    "year": "1962",
+    "journal-title": "Physiol Plant"
+   },
+   {
+    "key": "2021052608283087900_b36",
+    "doi-asserted-by": "crossref",
+    "first-page": "111",
+    "DOI": "10.1146/annurev.arplant.51.1.111",
+    "article-title": "Nonphotosynthetic metabolism in plastids",
+    "volume": "51",
+    "author": "Neuhaus",
+    "year": "2000",
+    "journal-title": "Annu Rev Plant Physiol Plant Mol Biol"
+   },
+   {
+    "key": "2021052608283087900_b37",
+    "doi-asserted-by": "crossref",
+    "first-page": "542",
+    "DOI": "10.1007/BF00262640",
+    "article-title": "Unidirectional transport of orthophosphate across the envelope of isolated cauliflower-bud amyloplasts",
+    "volume": "198",
+    "author": "Neuhaus",
+    "year": "1996",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "2021052608283087900_b38",
+    "doi-asserted-by": "crossref",
+    "first-page": "760",
+    "DOI": "10.1105/tpc.104.029124",
+    "article-title": "The Arabidopsis plastidic glucose 6-phosphate/phosphate translocator GPT1 is essential for pollen maturation and embryo sac development",
+    "volume": "17",
+    "author": "Niewiadomski",
+    "year": "2005",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2021052608283087900_b39",
+    "doi-asserted-by": "crossref",
+    "first-page": "833",
+    "DOI": "10.1104/pp.120.3.833",
+    "article-title": "Arabidopsis det2 is defective in the conversion of (24R)-24-methylcholest-4-en-3-one to (24R)-24-methyl-5alpha-cholestan-3-one in brassinosteroid biosynthesis",
+    "volume": "120",
+    "author": "Noguchi",
+    "year": "1999",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b40",
+    "doi-asserted-by": "crossref",
+    "first-page": "343",
+    "DOI": "10.1111/j.0031-9317.2004.00350.x",
+    "article-title": "A convenient and versatile hydroponic cultivation system for Arabidopsis thaliana",
+    "volume": "121",
+    "author": "Noren",
+    "year": "2004",
+    "journal-title": "Physiol Plant"
+   },
+   {
+    "key": "2021052608283087900_b41",
+    "doi-asserted-by": "crossref",
+    "first-page": "257",
+    "DOI": "10.1038/nature01958",
+    "article-title": "Control of leaf morphogenesis by microRNAs",
+    "volume": "425",
+    "author": "Palatnik",
+    "year": "2003",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2021052608283087900_b42",
+    "doi-asserted-by": "crossref",
+    "first-page": "431",
+    "DOI": "10.1146/annurev.pp.33.060182.002243",
+    "article-title": "Regulation of the biosynthesis and degradation of starch",
+    "volume": "33",
+    "author": "Preiss",
+    "year": "1982",
+    "journal-title": "Annu Rev Plant Biol"
+   },
+   {
+    "key": "2021052608283087900_b43",
+    "doi-asserted-by": "crossref",
+    "first-page": "1760",
+    "DOI": "10.1073/pnas.0813167106",
+    "article-title": "Detergent binding explains anomalous SDS-PAGE migration of membrane proteins",
+    "volume": "106",
+    "author": "Rath",
+    "year": "2009",
+    "journal-title": "Proc Natl Acad Sci USA"
+   },
+   {
+    "key": "2021052608283087900_b44",
+    "doi-asserted-by": "crossref",
+    "first-page": "13",
+    "DOI": "10.1111/j.1365-313X.2004.02106.x",
+    "article-title": "Expression analysis suggests novel roles for the plastidic phosphate transporter Pht2;1 in auto- and heterotrophic tissues in potato and Arabidopsis",
+    "volume": "39",
+    "author": "Rausch",
+    "year": "2004",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2021052608283087900_b45",
+    "doi-asserted-by": "crossref",
+    "first-page": "293",
+    "DOI": "10.1111/j.1365-313X.2007.03049.x",
+    "article-title": "Limitation of nocturnal import of ATP into Arabidopsis chloroplasts leads to photooxidative damage",
+    "volume": "50",
+    "author": "Reinhold",
+    "year": "2007",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2021052608283087900_b46",
+    "doi-asserted-by": "crossref",
+    "first-page": "3524",
+    "DOI": "10.1104/pp.104.049502",
+    "article-title": "Molecular physiological analysis of the two plastidic ATP/ADP transporters from Arabidopsis",
+    "volume": "136",
+    "author": "Reiser",
+    "year": "2004",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b47",
+    "doi-asserted-by": "crossref",
+    "first-page": "2910",
+    "DOI": "10.1105/tpc.104.025072",
+    "article-title": "TELOMERASE ACTIVATOR1 induces telomerase activity and potentiates responses to auxin in Arabidopsis",
+    "volume": "16",
+    "author": "Ren",
+    "year": "2004",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2021052608283087900_b48",
+    "doi-asserted-by": "crossref",
+    "first-page": "4513",
+    "DOI": "10.1128/MCB.20.13.4513-4521.2000",
+    "article-title": "Sugar control of the plant cell cycle: differential regulation of Arabidopsis D-type cyclin gene expression",
+    "volume": "20",
+    "author": "Riou-Khamlichi",
+    "year": "2000",
+    "journal-title": "Mol Cell Biol"
+   },
+   {
+    "key": "2021052608283087900_b49",
+    "doi-asserted-by": "crossref",
+    "first-page": "406",
+    "DOI": "10.1007/s00425-003-1121-5",
+    "article-title": "Characterization of a protein of the plastid inner envelope having homology to animal inorganic phosphate, chloride and organic-anion transporters",
+    "volume": "218",
+    "author": "Roth",
+    "year": "2004",
+    "journal-title": "Planta"
+   },
+   {
+    "key": "2021052608283087900_b50",
+    "doi-asserted-by": "crossref",
+    "first-page": "6430",
+    "DOI": "10.1021/bi100239j",
+    "article-title": "Functionally important amino acids in the Arabidopsis thylakoid phosphate transporter: homology modeling and site-directed mutagenesis",
+    "volume": "49",
+    "author": "Ruiz-Pav\u00f3n",
+    "year": "2010",
+    "journal-title": "Biochemistry"
+   },
+   {
+    "key": "2021052608283087900_b51",
+    "doi-asserted-by": "crossref",
+    "first-page": "13520",
+    "DOI": "10.1074/jbc.M709371200",
+    "article-title": "Arabidopsis ANTR1 is a thylakoid Na+-dependent phosphate transporter: functional characterization in Escherichia coli",
+    "volume": "283",
+    "author": "Pav\u00f3n",
+    "year": "2008",
+    "journal-title": "J Biol Chem"
+   },
+   {
+    "key": "2021052608283087900_b52",
+    "doi-asserted-by": "crossref",
+    "first-page": "2174",
+    "DOI": "10.1093/pcp/pcp151",
+    "article-title": "Raffinose in chloroplasts is synthesized in the cytosol and transported across the chloroplast envelope",
+    "volume": "50",
+    "author": "Schneider",
+    "year": "2009",
+    "journal-title": "Plant Cell Physiol"
+   },
+   {
+    "key": "2021052608283087900_b53",
+    "doi-asserted-by": "crossref",
+    "first-page": "e230",
+    "DOI": "10.1371/journal.pbio.0060230",
+    "article-title": "Control of jasmonate biosynthesis and senescence by miR319 targets",
+    "volume": "6",
+    "author": "Schommer",
+    "year": "2008",
+    "journal-title": "PLoS Biol"
+   },
+   {
+    "key": "2021052608283087900_b54",
+    "doi-asserted-by": "crossref",
+    "first-page": "51",
+    "DOI": "10.1007/BF00024185",
+    "article-title": "Continuous recording of photochemical and non-photochemical chlorophyll fluorescence quenching with a new type of modulation fluorometer",
+    "volume": "10",
+    "author": "Schreiber",
+    "year": "1986",
+    "journal-title": "Photosynth Res"
+   },
+   {
+    "key": "2021052608283087900_b55",
+    "doi-asserted-by": "crossref",
+    "first-page": "1342",
+    "DOI": "10.1038/nprot.2006.232",
+    "article-title": "Quantification of starch in plant tissues",
+    "volume": "1",
+    "author": "Smith",
+    "year": "2006",
+    "journal-title": "Nat Protoc"
+   },
+   {
+    "key": "2021052608283087900_b56",
+    "doi-asserted-by": "crossref",
+    "first-page": "10211",
+    "DOI": "10.1073/pnas.0403709101",
+    "article-title": "A probable Na+(K+)/H+ exchanger on the chloroplast envelope functions in pH homeostasis and chloroplast development in Arabidopsis thaliana",
+    "volume": "101",
+    "author": "Song",
+    "year": "2004",
+    "journal-title": "Proc Natl Acad Sci USA"
+   },
+   {
+    "key": "2021052608283087900_b57",
+    "doi-asserted-by": "crossref",
+    "first-page": "1067",
+    "DOI": "10.1111/j.1365-313X.2010.04142.x",
+    "article-title": "Arabidopsis and primary photosynthetic metabolism: more than the icing on the cake",
+    "volume": "61",
+    "author": "Stitt",
+    "year": "2010",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "2021052608283087900_b58",
+    "doi-asserted-by": "crossref",
+    "first-page": "518",
+    "DOI": "10.1016/0076-6879(89)74035-0",
+    "article-title": "Metabolite levels in specific cells and subcellular compartments of plant leaves",
+    "volume": "174",
+    "author": "Stitt",
+    "year": "1989",
+    "journal-title": "Methods Enzymol"
+   },
+   {
+    "key": "2021052608283087900_b59",
+    "doi-asserted-by": "crossref",
+    "first-page": "731",
+    "DOI": "10.1104/pp.126.2.731",
+    "article-title": "Nitrite reductase gene enrichment improves assimilation of NO2 in Arabidopsis",
+    "volume": "126",
+    "author": "Takahashi",
+    "year": "2001",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b60",
+    "doi-asserted-by": "crossref",
+    "first-page": "36486",
+    "DOI": "10.1074/jbc.M806903200",
+    "article-title": "Nonmitochondrial ATP/ADP transporters accept phosphate as third substrate",
+    "volume": "283",
+    "author": "Trentmann",
+    "year": "2008",
+    "journal-title": "J Biol Chem"
+   },
+   {
+    "key": "2021052608283087900_b61",
+    "doi-asserted-by": "crossref",
+    "first-page": "65",
+    "DOI": "10.1104/pp.108.122846",
+    "article-title": "Two Arabidopsis ADP-glucose pyrophosphorylase large subunits (APL1 and APL2) are catalytic",
+    "volume": "148",
+    "author": "Ventriglia",
+    "year": "2008",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b62",
+    "doi-asserted-by": "crossref",
+    "first-page": "1751",
+    "DOI": "10.1105/tpc.002220",
+    "article-title": "A chloroplast phosphate transporter, PHT2;1, influences allocation of phosphate within the plant and phosphate-starvation responses",
+    "volume": "14",
+    "author": "Versaw",
+    "year": "2002",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "2021052608283087900_b63",
+    "doi-asserted-by": "crossref",
+    "first-page": "1129",
+    "DOI": "10.1093/aob/mci264",
+    "article-title": "Specific leaf area and dry matter content estimate thickness in laminar leaves",
+    "volume": "96",
+    "author": "Vile",
+    "year": "2005",
+    "journal-title": "Ann Bot (Lond)"
+   },
+   {
+    "key": "2021052608283087900_b64",
+    "doi-asserted-by": "crossref",
+    "first-page": "59",
+    "DOI": "10.1016/j.cub.2004.12.038",
+    "article-title": "The DP-E2F-like gene DEL1 controls the endocycle in Arabidopsis thaliana",
+    "volume": "15",
+    "author": "Vlieghe",
+    "year": "2005",
+    "journal-title": "Curr Biol"
+   },
+   {
+    "key": "2021052608283087900_b65",
+    "doi-asserted-by": "crossref",
+    "first-page": "380",
+    "DOI": "10.1038/35066597",
+    "article-title": "BRI1 is a critical component of a plasma-membrane receptor for plant steroids",
+    "volume": "410",
+    "author": "Wang",
+    "year": "2001",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2021052608283087900_b66",
+    "doi-asserted-by": "crossref",
+    "first-page": "1003",
+    "DOI": "10.1104/pp.122.4.1003",
+    "article-title": "Activation tagging in Arabidopsis",
+    "volume": "122",
+    "author": "Weigel",
+    "year": "2000",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b67",
+    "doi-asserted-by": "crossref",
+    "first-page": "580",
+    "DOI": "10.1104/pp.97.2.580",
+    "article-title": "Surface charge-mediated effects of Mg2+ on K+ flux across the chloroplast envelope are associated with regulation of stromal pH and photosynthesis",
+    "volume": "97",
+    "author": "Wu",
+    "year": "1991",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "2021052608283087900_b68",
+    "doi-asserted-by": "crossref",
+    "first-page": "17",
+    "DOI": "10.1186/1746-4811-6-17",
+    "article-title": "High-contrast three-dimensional imaging of the Arabidopsis leaf enables the analysis of cell dimensions in the epidermis and mesophyll",
+    "volume": "6",
+    "author": "Wuyts",
+    "year": "2010",
+    "journal-title": "Plant Methods"
+   },
+   {
+    "key": "2021052608283087900_b69",
+    "doi-asserted-by": "crossref",
+    "first-page": "291",
+    "DOI": "10.1046/j.1469-8137.2003.00677.x",
+    "article-title": "A phosphate transporter from Medicago truncatula is expressed in the photosynthetic tissues of the plant and is located in the chloroplast envelope",
+    "volume": "157",
+    "author": "Zhao",
+    "year": "2003",
+    "journal-title": "New Phytol"
+   }
+  ],
+  "container-title": [
+   "Plant Physiology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://academic.oup.com/plphys/article-pdf/157/4/1765/38111172/plphys_v157_4_1765.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "http://academic.oup.com/plphys/article-pdf/157/4/1765/38111172/plphys_v157_4_1765.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     6,
+     10
+    ]
+   ],
+   "date-time": "2023-06-10T05:09:22Z",
+   "timestamp": 1686373762000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/plphys/article/157/4/1765/6108878"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2011,
+     9,
+     29
+    ]
+   ]
+  },
+  "references-count": 69,
+  "journal-issue": {
+   "issue": "4",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      9,
+      29
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2011,
+      12,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1104/pp.111.181925",
+  "relation": {},
+  "ISSN": [
+   "1532-2548"
+  ],
+  "issn-type": [
+   {
+    "value": "1532-2548",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2011,
+     12,
+     1
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2011,
+     9,
+     29
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      25
+     ]
+    ],
+    "date-time": "2026-04-25T16:53:29Z",
+    "timestamp": 1777136009243,
+    "version": "3.51.4"
+   },
+   "reference-count": 69,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        1,
+        25
+       ]
+      ],
+      "date-time": "2021-01-25T00:00:00Z",
+      "timestamp": 1611532800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 3406,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2011,
+      12,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>Nonphotosynthetic plastids are important sites for the biosynthesis of starch, fatty acids, and amino acids. The uptake and subsequent use of cytosolic ATP to fuel these and other anabolic processes would lead to the accumulation of inorganic phosphate (Pi) if not balanced by a Pi export activity. However, the identity of the transporter(s) responsible for Pi export is unclear. The plastid-localized Pi transporter PHT4;2 of Arabidopsis (Arabidopsis thaliana) is expressed in multiple sink organs but is nearly restricted to roots during vegetative growth. We identified and used pht4;2 null mutants to confirm that PHT4;2 contributes to Pi transport in isolated root plastids. Starch accumulation was limited in pht4;2 roots, which is consistent with the inhibition of starch synthesis by excess Pi as a result of a defect in Pi export. Reduced starch accumulation in leaves and altered expression patterns for starch synthesis genes and other plastid transporter genes suggest metabolic adaptation to the defect in roots. Moreover, pht4;2 rosettes, but not roots, were significantly larger than those of the wild type, with 40% greater leaf area and twice the biomass when plants were grown with a short (8-h) photoperiod. Increased cell proliferation accounted for the larger leaf size and biomass, as no changes were detected in mature cell size, specific leaf area, or relative photosynthetic electron transport activity. These data suggest novel signaling between roots and leaves that contributes to the regulation of leaf size.</jats:p>",
+   "DOI": "10.1104/pp.111.181925",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2011-09-30T11:33:16Z",
+    "timestamp": 1317382396000
+   },
+   "page": "1765-1777",
+   "source": "Crossref",
+   "is-referenced-by-count": 67,
+   "title": [
+    "The Sink-Specific Plastidic Phosphate Transporter PHT4;2 Influences Starch Accumulation and Leaf Size in Arabidopsis \u00a0 \u00a0"
+   ],
+   "prefix": "10.1093",
+   "volume": "157",
+   "author": [
+    {
+     "given": "Sonia",
+     "family": "Irigoyen",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Patrik M.",
+     "family": "Karlsson",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Jacob",
+     "family": "Kuruvilla",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Cornelia",
+     "family": "Spetea",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Wayne K.",
+     "family": "Versaw",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Biology and Interdepartmental Program in Molecular and Environmental Plant Sciences, Texas A&M University, College Station, Texas 77843 (S.I., W.K.V.); Division of Molecular Genetics, Department of Physics, Chemistry, and Biology, Link\u00f6ping University, 581 83 Linkoeping, Sweden (P.M.K., J.K., C.S.); Department of Plant and Environmental Sciences, University of Gothenburg, 405 30 Got"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      9,
+      29
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2021052608283087900_b1",
+     "doi-asserted-by": "crossref",
+     "first-page": "653",
+     "DOI": "10.1126/science.1086391",
+     "article-title": "Genome-wide insertional mutagenesis of Arabidopsis thaliana",
+     "volume": "301",
+     "author": "Alonso",
+     "year": "2003",
+     "journal-title": "Science"
+    },
+    {
+     "key": "2021052608283087900_b2",
+     "doi-asserted-by": "crossref",
+     "first-page": "117",
+     "DOI": "10.1007/BF00944073",
+     "article-title": "Metabolic adaptation of renal carbohydrate metabolism. V. In vivo response of rat renal-tubule gluconeogenesis to different diuretics",
+     "volume": "137",
+     "author": "Amores",
+     "year": "1994",
+     "journal-title": "Mol Cell Biochem"
+    },
+    {
+     "key": "2021052608283087900_b3",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1023/B:PRES.0000011916.67519.58",
+     "article-title": "ADP-glucose pyrophosphorylase: a regulatory enzyme for plant starch synthesis",
+     "volume": "79",
+     "author": "Ballicora",
+     "year": "2004",
+     "journal-title": "Photosynth Res"
+    },
+    {
+     "key": "2021052608283087900_b4",
+     "doi-asserted-by": "crossref",
+     "first-page": "734",
+     "DOI": "10.1104/pp.104.053884",
+     "article-title": "Genome-wide analysis of gene expression profiles associated with cell cycle transitions in growing organs of Arabidopsis",
+     "volume": "138",
+     "author": "Beemster",
+     "year": "2005",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b5",
+     "doi-asserted-by": "crossref",
+     "first-page": "248",
+     "DOI": "10.1016/0003-2697(76)90527-3",
+     "article-title": "A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding",
+     "volume": "72",
+     "author": "Bradford",
+     "year": "1976",
+     "journal-title": "Anal Biochem"
+    },
+    {
+     "key": "2021052608283087900_b6",
+     "doi-asserted-by": "crossref",
+     "first-page": "1247",
+     "DOI": "10.1093/mp/ssp070",
+     "article-title": "Proteomic analysis of the proplastid envelope membrane provides novel insights into small molecule and protein transport across proplastid membranes",
+     "volume": "2",
+     "author": "Br\u00e4utigam",
+     "year": "2009",
+     "journal-title": "Mol Plant"
+    },
+    {
+     "key": "2021052608283087900_b7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1318",
+     "DOI": "10.1104/pp.89.4.1318",
+     "article-title": "Proton-coupled sucrose transport in plasmalemma vesicles isolated from sugar beet (Beta vulgaris L. cv Great Western) leaves",
+     "volume": "89",
+     "author": "Bush",
+     "year": "1989",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b8",
+     "doi-asserted-by": "crossref",
+     "first-page": "735",
+     "DOI": "10.1046/j.1365-313x.1998.00343.x",
+     "article-title": "Floral dip: a simplified method for Agrobacterium-mediated transformation of Arabidopsis thaliana",
+     "volume": "16",
+     "author": "Clough",
+     "year": "1998",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2021052608283087900_b9",
+     "doi-asserted-by": "crossref",
+     "first-page": "2123",
+     "DOI": "10.1002/pmic.200900345",
+     "article-title": "Proteomic analysis of Medicago truncatula root plastids",
+     "volume": "10",
+     "author": "Daher",
+     "year": "2010",
+     "journal-title": "Proteomics"
+    },
+    {
+     "key": "2021052608283087900_b10",
+     "doi-asserted-by": "crossref",
+     "first-page": "2153",
+     "DOI": "10.1105/tpc.11.11.2153",
+     "article-title": "Pht2;1 encodes a low-affinity phosphate transporter from Arabidopsis",
+     "volume": "11",
+     "author": "Daram",
+     "year": "1999",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2021052608283087900_b11",
+     "doi-asserted-by": "crossref",
+     "first-page": "169",
+     "DOI": "10.1104/pp.73.1.169",
+     "article-title": "Properties of the isolated intact chloroplast at cytoplasmic K concentrations. I. Light-induced cation uptake into intact chloroplasts is driven by an electrical potential difference",
+     "volume": "73",
+     "author": "Demmig",
+     "year": "1983",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b12",
+     "doi-asserted-by": "crossref",
+     "first-page": "1653",
+     "DOI": "10.1105/TPC.010087",
+     "article-title": "Functional analysis of cyclin-dependent kinase inhibitors of Arabidopsis",
+     "volume": "13",
+     "author": "De Veylder",
+     "year": "2001",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2021052608283087900_b13",
+     "doi-asserted-by": "crossref",
+     "first-page": "512",
+     "DOI": "10.1104/pp.010576",
+     "article-title": "The plastidic pentose phosphate translocator represents a link between the cytosolic and the plastidic pentose phosphate pathways in plants",
+     "volume": "128",
+     "author": "Eicks",
+     "year": "2002",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b14",
+     "doi-asserted-by": "crossref",
+     "first-page": "953",
+     "DOI": "10.1038/nprot.2007.131",
+     "article-title": "Locating proteins in the cell using TargetP, SignalP and related tools",
+     "volume": "2",
+     "author": "Emanuelsson",
+     "year": "2007",
+     "journal-title": "Nat Protoc"
+    },
+    {
+     "key": "2021052608283087900_b15",
+     "doi-asserted-by": "crossref",
+     "first-page": "161",
+     "DOI": "10.1007/BF00402959",
+     "article-title": "Purification of plastids from higher-plant roots",
+     "volume": "168",
+     "author": "Emes",
+     "year": "1986",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "2021052608283087900_b16",
+     "doi-asserted-by": "crossref",
+     "first-page": "112",
+     "DOI": "10.1016/0005-2736(92)90301-2",
+     "article-title": "Reaction mechanism and asymmetric orientation of the reconstituted chloroplast phosphate translocator",
+     "volume": "1110",
+     "author": "Fl\u00fcgge",
+     "year": "1992",
+     "journal-title": "Biochim Biophys Acta"
+    },
+    {
+     "key": "2021052608283087900_b17",
+     "doi-asserted-by": "crossref",
+     "first-page": "27",
+     "DOI": "10.1146/annurev.arplant.50.1.27",
+     "article-title": "Phosphate translocators in plastids",
+     "volume": "50",
+     "author": "Fl\u00fcgge",
+     "year": "1999",
+     "journal-title": "Annu Rev Plant Physiol Plant Mol Biol"
+    },
+    {
+     "key": "2021052608283087900_b18",
+     "doi-asserted-by": "crossref",
+     "first-page": "1049",
+     "DOI": "10.1126/science.220.4601.1049",
+     "article-title": "Rapid flow cytometric analysis of the cell cycle in intact plant tissues",
+     "volume": "220",
+     "author": "Galbraith",
+     "year": "1983",
+     "journal-title": "Science"
+    },
+    {
+     "key": "2021052608283087900_b19",
+     "doi-asserted-by": "crossref",
+     "first-page": "87",
+     "DOI": "10.1016/S0304-4165(89)80016-9",
+     "article-title": "The relationship between the quantum yield of photosynthetic electron transport and quenching of chlorophyll fluorescence",
+     "volume": "990",
+     "author": "Genty",
+     "year": "1989",
+     "journal-title": "Biochim Biophys Acta"
+    },
+    {
+     "key": "2021052608283087900_b20",
+     "doi-asserted-by": "crossref",
+     "first-page": "157",
+     "DOI": "10.1016/j.pbi.2008.11.003",
+     "article-title": "David and Goliath: what can the tiny weed Arabidopsis teach us to improve biomass production in crops?",
+     "volume": "12",
+     "author": "Gonzalez",
+     "year": "2009",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "key": "2021052608283087900_b21",
+     "doi-asserted-by": "crossref",
+     "first-page": "1261",
+     "DOI": "10.1104/pp.110.156018",
+     "article-title": "Increased leaf size: different means to an end",
+     "volume": "153",
+     "author": "Gonzalez",
+     "year": "2010",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b22",
+     "doi-asserted-by": "crossref",
+     "first-page": "262",
+     "DOI": "10.1007/BF00194006",
+     "article-title": "Comparison of the kinetic properties, inhibition and labelling of the phosphate translocators from maize and spinach mesophyll chloroplasts",
+     "volume": "180",
+     "author": "Gross",
+     "year": "1990",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "2021052608283087900_b23",
+     "doi-asserted-by": "crossref",
+     "first-page": "784",
+     "DOI": "10.4161/psb.3.10.6666",
+     "article-title": "Differential expression and phylogenetic analysis suggest specialization of plastid-localized members of the PHT4 phosphate transporter family for photosynthetic and heterotrophic tissues",
+     "volume": "3",
+     "author": "Guo",
+     "year": "2008",
+     "journal-title": "Plant Signal Behav"
+    },
+    {
+     "key": "2021052608283087900_b24",
+     "doi-asserted-by": "crossref",
+     "first-page": "889",
+     "DOI": "10.1111/j.1469-8137.2007.02331.x",
+     "article-title": "Functional analysis of the Arabidopsis PHT4 family of intracellular phosphate transporters",
+     "volume": "177",
+     "author": "Guo",
+     "year": "2008",
+     "journal-title": "New Phytol"
+    },
+    {
+     "key": "2021052608283087900_b25",
+     "doi-asserted-by": "crossref",
+     "first-page": "3925",
+     "DOI": "10.1002/j.1460-2075.1995.tb00064.x",
+     "article-title": "Dominant negative mutants of the Cdc2 kinase uncouple cell division from iterative plant development",
+     "volume": "14",
+     "author": "Hemerly",
+     "year": "1995",
+     "journal-title": "EMBO J"
+    },
+    {
+     "key": "2021052608283087900_b26",
+     "doi-asserted-by": "crossref",
+     "first-page": "37",
+     "DOI": "10.1007/s10265-005-0232-4",
+     "article-title": "Coordination of cell proliferation and cell expansion in the control of leaf size in Arabidopsis thaliana",
+     "volume": "119",
+     "author": "Horiguchi",
+     "year": "2006",
+     "journal-title": "J Plant Res"
+    },
+    {
+     "key": "2021052608283087900_b27",
+     "doi-asserted-by": "crossref",
+     "first-page": "68",
+     "DOI": "10.1111/j.1365-313X.2005.02429.x",
+     "article-title": "The transcription factor AtGRF5 and the transcription coactivator AN3 regulate cell proliferation in leaf primordia of Arabidopsis thaliana",
+     "volume": "43",
+     "author": "Horiguchi",
+     "year": "2005",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2021052608283087900_b28",
+     "doi-asserted-by": "crossref",
+     "first-page": "420747",
+     "DOI": "10.1155/2008/420747",
+     "article-title": "Genevestigator v3: a reference expression database for the meta-analysis of transcriptomes",
+     "volume": "2008",
+     "author": "Hruz",
+     "year": "2008",
+     "journal-title": "Adv Bioinform"
+    },
+    {
+     "key": "2021052608283087900_b29",
+     "doi-asserted-by": "crossref",
+     "first-page": "773",
+     "DOI": "10.1104/pp.118.3.773",
+     "article-title": "Overexpression of 20-oxidase confers a gibberellin-overproduction phenotype in Arabidopsis",
+     "volume": "118",
+     "author": "Huang",
+     "year": "1998",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b30",
+     "doi-asserted-by": "crossref",
+     "first-page": "17",
+     "DOI": "10.1016/j.pbi.2008.09.006",
+     "article-title": "Making bigger plants: key regulators of final organ size",
+     "volume": "12",
+     "author": "Krizek",
+     "year": "2009",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "key": "2021052608283087900_b31",
+     "doi-asserted-by": "crossref",
+     "first-page": "115",
+     "DOI": "10.1111/j.1438-8677.2010.00349.x",
+     "article-title": "The role of plastidial glucose-6-phosphate/phosphate translocators in vegetative tissues of Arabidopsis thaliana mutants impaired in starch biosynthesis",
+     "volume": "12",
+     "author": "Kunz",
+     "year": "2010",
+     "journal-title": "Plant Biol (Stuttg)"
+    },
+    {
+     "key": "2021052608283087900_b32",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.1126/science.1115711",
+     "article-title": "Arabidopsis H+-PPase AVP1 regulates auxin-mediated organ development",
+     "volume": "310",
+     "author": "Li",
+     "year": "2005",
+     "journal-title": "Science"
+    },
+    {
+     "key": "2021052608283087900_b33",
+     "doi-asserted-by": "crossref",
+     "first-page": "1406",
+     "DOI": "10.1016/j.jplph.2010.12.008",
+     "article-title": "Starch-related cytosolic heteroglycans in roots from Arabidopsis thaliana",
+     "volume": "168",
+     "author": "Malinova",
+     "year": "2011",
+     "journal-title": "J Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b34",
+     "doi-asserted-by": "crossref",
+     "first-page": "1661",
+     "DOI": "10.2307/3869747",
+     "article-title": "Relationship between endopolyploidy and cell size in epidermal tissue of Arabidopsis",
+     "volume": "5",
+     "author": "Melaragno",
+     "year": "1993",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2021052608283087900_b35",
+     "doi-asserted-by": "crossref",
+     "first-page": "473",
+     "DOI": "10.1111/j.1399-3054.1962.tb08052.x",
+     "article-title": "A revised medium for rapid growth and bioassays with tobacco tissue cultures",
+     "volume": "15",
+     "author": "Murashige",
+     "year": "1962",
+     "journal-title": "Physiol Plant"
+    },
+    {
+     "key": "2021052608283087900_b36",
+     "doi-asserted-by": "crossref",
+     "first-page": "111",
+     "DOI": "10.1146/annurev.arplant.51.1.111",
+     "article-title": "Nonphotosynthetic metabolism in plastids",
+     "volume": "51",
+     "author": "Neuhaus",
+     "year": "2000",
+     "journal-title": "Annu Rev Plant Physiol Plant Mol Biol"
+    },
+    {
+     "key": "2021052608283087900_b37",
+     "doi-asserted-by": "crossref",
+     "first-page": "542",
+     "DOI": "10.1007/BF00262640",
+     "article-title": "Unidirectional transport of orthophosphate across the envelope of isolated cauliflower-bud amyloplasts",
+     "volume": "198",
+     "author": "Neuhaus",
+     "year": "1996",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "2021052608283087900_b38",
+     "doi-asserted-by": "crossref",
+     "first-page": "760",
+     "DOI": "10.1105/tpc.104.029124",
+     "article-title": "The Arabidopsis plastidic glucose 6-phosphate/phosphate translocator GPT1 is essential for pollen maturation and embryo sac development",
+     "volume": "17",
+     "author": "Niewiadomski",
+     "year": "2005",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2021052608283087900_b39",
+     "doi-asserted-by": "crossref",
+     "first-page": "833",
+     "DOI": "10.1104/pp.120.3.833",
+     "article-title": "Arabidopsis det2 is defective in the conversion of (24R)-24-methylcholest-4-en-3-one to (24R)-24-methyl-5alpha-cholestan-3-one in brassinosteroid biosynthesis",
+     "volume": "120",
+     "author": "Noguchi",
+     "year": "1999",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b40",
+     "doi-asserted-by": "crossref",
+     "first-page": "343",
+     "DOI": "10.1111/j.0031-9317.2004.00350.x",
+     "article-title": "A convenient and versatile hydroponic cultivation system for Arabidopsis thaliana",
+     "volume": "121",
+     "author": "Noren",
+     "year": "2004",
+     "journal-title": "Physiol Plant"
+    },
+    {
+     "key": "2021052608283087900_b41",
+     "doi-asserted-by": "crossref",
+     "first-page": "257",
+     "DOI": "10.1038/nature01958",
+     "article-title": "Control of leaf morphogenesis by microRNAs",
+     "volume": "425",
+     "author": "Palatnik",
+     "year": "2003",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2021052608283087900_b42",
+     "doi-asserted-by": "crossref",
+     "first-page": "431",
+     "DOI": "10.1146/annurev.pp.33.060182.002243",
+     "article-title": "Regulation of the biosynthesis and degradation of starch",
+     "volume": "33",
+     "author": "Preiss",
+     "year": "1982",
+     "journal-title": "Annu Rev Plant Biol"
+    },
+    {
+     "key": "2021052608283087900_b43",
+     "doi-asserted-by": "crossref",
+     "first-page": "1760",
+     "DOI": "10.1073/pnas.0813167106",
+     "article-title": "Detergent binding explains anomalous SDS-PAGE migration of membrane proteins",
+     "volume": "106",
+     "author": "Rath",
+     "year": "2009",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "2021052608283087900_b44",
+     "doi-asserted-by": "crossref",
+     "first-page": "13",
+     "DOI": "10.1111/j.1365-313X.2004.02106.x",
+     "article-title": "Expression analysis suggests novel roles for the plastidic phosphate transporter Pht2;1 in auto- and heterotrophic tissues in potato and Arabidopsis",
+     "volume": "39",
+     "author": "Rausch",
+     "year": "2004",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2021052608283087900_b45",
+     "doi-asserted-by": "crossref",
+     "first-page": "293",
+     "DOI": "10.1111/j.1365-313X.2007.03049.x",
+     "article-title": "Limitation of nocturnal import of ATP into Arabidopsis chloroplasts leads to photooxidative damage",
+     "volume": "50",
+     "author": "Reinhold",
+     "year": "2007",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2021052608283087900_b46",
+     "doi-asserted-by": "crossref",
+     "first-page": "3524",
+     "DOI": "10.1104/pp.104.049502",
+     "article-title": "Molecular physiological analysis of the two plastidic ATP/ADP transporters from Arabidopsis",
+     "volume": "136",
+     "author": "Reiser",
+     "year": "2004",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b47",
+     "doi-asserted-by": "crossref",
+     "first-page": "2910",
+     "DOI": "10.1105/tpc.104.025072",
+     "article-title": "TELOMERASE ACTIVATOR1 induces telomerase activity and potentiates responses to auxin in Arabidopsis",
+     "volume": "16",
+     "author": "Ren",
+     "year": "2004",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2021052608283087900_b48",
+     "doi-asserted-by": "crossref",
+     "first-page": "4513",
+     "DOI": "10.1128/MCB.20.13.4513-4521.2000",
+     "article-title": "Sugar control of the plant cell cycle: differential regulation of Arabidopsis D-type cyclin gene expression",
+     "volume": "20",
+     "author": "Riou-Khamlichi",
+     "year": "2000",
+     "journal-title": "Mol Cell Biol"
+    },
+    {
+     "key": "2021052608283087900_b49",
+     "doi-asserted-by": "crossref",
+     "first-page": "406",
+     "DOI": "10.1007/s00425-003-1121-5",
+     "article-title": "Characterization of a protein of the plastid inner envelope having homology to animal inorganic phosphate, chloride and organic-anion transporters",
+     "volume": "218",
+     "author": "Roth",
+     "year": "2004",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "2021052608283087900_b50",
+     "doi-asserted-by": "crossref",
+     "first-page": "6430",
+     "DOI": "10.1021/bi100239j",
+     "article-title": "Functionally important amino acids in the Arabidopsis thylakoid phosphate transporter: homology modeling and site-directed mutagenesis",
+     "volume": "49",
+     "author": "Ruiz-Pav\u00f3n",
+     "year": "2010",
+     "journal-title": "Biochemistry"
+    },
+    {
+     "key": "2021052608283087900_b51",
+     "doi-asserted-by": "crossref",
+     "first-page": "13520",
+     "DOI": "10.1074/jbc.M709371200",
+     "article-title": "Arabidopsis ANTR1 is a thylakoid Na+-dependent phosphate transporter: functional characterization in Escherichia coli",
+     "volume": "283",
+     "author": "Pav\u00f3n",
+     "year": "2008",
+     "journal-title": "J Biol Chem"
+    },
+    {
+     "key": "2021052608283087900_b52",
+     "doi-asserted-by": "crossref",
+     "first-page": "2174",
+     "DOI": "10.1093/pcp/pcp151",
+     "article-title": "Raffinose in chloroplasts is synthesized in the cytosol and transported across the chloroplast envelope",
+     "volume": "50",
+     "author": "Schneider",
+     "year": "2009",
+     "journal-title": "Plant Cell Physiol"
+    },
+    {
+     "key": "2021052608283087900_b53",
+     "doi-asserted-by": "crossref",
+     "first-page": "e230",
+     "DOI": "10.1371/journal.pbio.0060230",
+     "article-title": "Control of jasmonate biosynthesis and senescence by miR319 targets",
+     "volume": "6",
+     "author": "Schommer",
+     "year": "2008",
+     "journal-title": "PLoS Biol"
+    },
+    {
+     "key": "2021052608283087900_b54",
+     "doi-asserted-by": "crossref",
+     "first-page": "51",
+     "DOI": "10.1007/BF00024185",
+     "article-title": "Continuous recording of photochemical and non-photochemical chlorophyll fluorescence quenching with a new type of modulation fluorometer",
+     "volume": "10",
+     "author": "Schreiber",
+     "year": "1986",
+     "journal-title": "Photosynth Res"
+    },
+    {
+     "key": "2021052608283087900_b55",
+     "doi-asserted-by": "crossref",
+     "first-page": "1342",
+     "DOI": "10.1038/nprot.2006.232",
+     "article-title": "Quantification of starch in plant tissues",
+     "volume": "1",
+     "author": "Smith",
+     "year": "2006",
+     "journal-title": "Nat Protoc"
+    },
+    {
+     "key": "2021052608283087900_b56",
+     "doi-asserted-by": "crossref",
+     "first-page": "10211",
+     "DOI": "10.1073/pnas.0403709101",
+     "article-title": "A probable Na+(K+)/H+ exchanger on the chloroplast envelope functions in pH homeostasis and chloroplast development in Arabidopsis thaliana",
+     "volume": "101",
+     "author": "Song",
+     "year": "2004",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "2021052608283087900_b57",
+     "doi-asserted-by": "crossref",
+     "first-page": "1067",
+     "DOI": "10.1111/j.1365-313X.2010.04142.x",
+     "article-title": "Arabidopsis and primary photosynthetic metabolism: more than the icing on the cake",
+     "volume": "61",
+     "author": "Stitt",
+     "year": "2010",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "2021052608283087900_b58",
+     "doi-asserted-by": "crossref",
+     "first-page": "518",
+     "DOI": "10.1016/0076-6879(89)74035-0",
+     "article-title": "Metabolite levels in specific cells and subcellular compartments of plant leaves",
+     "volume": "174",
+     "author": "Stitt",
+     "year": "1989",
+     "journal-title": "Methods Enzymol"
+    },
+    {
+     "key": "2021052608283087900_b59",
+     "doi-asserted-by": "crossref",
+     "first-page": "731",
+     "DOI": "10.1104/pp.126.2.731",
+     "article-title": "Nitrite reductase gene enrichment improves assimilation of NO2 in Arabidopsis",
+     "volume": "126",
+     "author": "Takahashi",
+     "year": "2001",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b60",
+     "doi-asserted-by": "crossref",
+     "first-page": "36486",
+     "DOI": "10.1074/jbc.M806903200",
+     "article-title": "Nonmitochondrial ATP/ADP transporters accept phosphate as third substrate",
+     "volume": "283",
+     "author": "Trentmann",
+     "year": "2008",
+     "journal-title": "J Biol Chem"
+    },
+    {
+     "key": "2021052608283087900_b61",
+     "doi-asserted-by": "crossref",
+     "first-page": "65",
+     "DOI": "10.1104/pp.108.122846",
+     "article-title": "Two Arabidopsis ADP-glucose pyrophosphorylase large subunits (APL1 and APL2) are catalytic",
+     "volume": "148",
+     "author": "Ventriglia",
+     "year": "2008",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b62",
+     "doi-asserted-by": "crossref",
+     "first-page": "1751",
+     "DOI": "10.1105/tpc.002220",
+     "article-title": "A chloroplast phosphate transporter, PHT2;1, influences allocation of phosphate within the plant and phosphate-starvation responses",
+     "volume": "14",
+     "author": "Versaw",
+     "year": "2002",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "2021052608283087900_b63",
+     "doi-asserted-by": "crossref",
+     "first-page": "1129",
+     "DOI": "10.1093/aob/mci264",
+     "article-title": "Specific leaf area and dry matter content estimate thickness in laminar leaves",
+     "volume": "96",
+     "author": "Vile",
+     "year": "2005",
+     "journal-title": "Ann Bot (Lond)"
+    },
+    {
+     "key": "2021052608283087900_b64",
+     "doi-asserted-by": "crossref",
+     "first-page": "59",
+     "DOI": "10.1016/j.cub.2004.12.038",
+     "article-title": "The DP-E2F-like gene DEL1 controls the endocycle in Arabidopsis thaliana",
+     "volume": "15",
+     "author": "Vlieghe",
+     "year": "2005",
+     "journal-title": "Curr Biol"
+    },
+    {
+     "key": "2021052608283087900_b65",
+     "doi-asserted-by": "crossref",
+     "first-page": "380",
+     "DOI": "10.1038/35066597",
+     "article-title": "BRI1 is a critical component of a plasma-membrane receptor for plant steroids",
+     "volume": "410",
+     "author": "Wang",
+     "year": "2001",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2021052608283087900_b66",
+     "doi-asserted-by": "crossref",
+     "first-page": "1003",
+     "DOI": "10.1104/pp.122.4.1003",
+     "article-title": "Activation tagging in Arabidopsis",
+     "volume": "122",
+     "author": "Weigel",
+     "year": "2000",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b67",
+     "doi-asserted-by": "crossref",
+     "first-page": "580",
+     "DOI": "10.1104/pp.97.2.580",
+     "article-title": "Surface charge-mediated effects of Mg2+ on K+ flux across the chloroplast envelope are associated with regulation of stromal pH and photosynthesis",
+     "volume": "97",
+     "author": "Wu",
+     "year": "1991",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "2021052608283087900_b68",
+     "doi-asserted-by": "crossref",
+     "first-page": "17",
+     "DOI": "10.1186/1746-4811-6-17",
+     "article-title": "High-contrast three-dimensional imaging of the Arabidopsis leaf enables the analysis of cell dimensions in the epidermis and mesophyll",
+     "volume": "6",
+     "author": "Wuyts",
+     "year": "2010",
+     "journal-title": "Plant Methods"
+    },
+    {
+     "key": "2021052608283087900_b69",
+     "doi-asserted-by": "crossref",
+     "first-page": "291",
+     "DOI": "10.1046/j.1469-8137.2003.00677.x",
+     "article-title": "A phosphate transporter from Medicago truncatula is expressed in the photosynthetic tissues of the plant and is located in the chloroplast envelope",
+     "volume": "157",
+     "author": "Zhao",
+     "year": "2003",
+     "journal-title": "New Phytol"
+    }
+   ],
+   "container-title": [
+    "Plant Physiology"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/plphys/article-pdf/157/4/1765/38111172/plphys_v157_4_1765.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "http://academic.oup.com/plphys/article-pdf/157/4/1765/38111172/plphys_v157_4_1765.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      10
+     ]
+    ],
+    "date-time": "2023-06-10T05:09:22Z",
+    "timestamp": 1686373762000
+   },
+   "score": 96.13737,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/plphys/article/157/4/1765/6108878"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2011,
+      9,
+      29
+     ]
+    ]
+   },
+   "references-count": 69,
+   "journal-issue": {
+    "issue": "4",
+    "published-online": {
+     "date-parts": [
+      [
+       2011,
+       9,
+       29
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2011,
+       12,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1104/pp.111.181925",
+   "ISSN": [
+    "1532-2548"
+   ],
+   "issn-type": [
+    {
+     "value": "1532-2548",
+     "type": "electronic"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2011,
+      12,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2011,
+      9,
+      29
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      31
+     ]
+    ],
+    "date-time": "2025-12-31T11:17:27Z",
+    "timestamp": 1767179847342,
+    "version": "build-2238731810"
+   },
+   "update-to": [
+    {
+     "DOI": "10.1371/journal.pone.0126531",
+     "type": "correction",
+     "label": "Correction",
+     "source": "publisher",
+     "updated": {
+      "date-parts": [
+       [
+        2015,
+        5,
+        15
+       ]
+      ],
+      "date-time": "2015-05-15T00:00:00Z",
+      "timestamp": 1431648000000
+     }
+    }
+   ],
+   "reference-count": 0,
+   "publisher": "Public Library of Science (PLoS)",
+   "issue": "5",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2015,
+        5,
+        15
+       ]
+      ],
+      "date-time": "2015-05-15T00:00:00Z",
+      "timestamp": 1431648000000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "www.plosone.org"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "PLoS ONE"
+   ],
+   "DOI": "10.1371/journal.pone.0128736",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2015,
+      5,
+      15
+     ]
+    ],
+    "date-time": "2015-05-15T16:07:21Z",
+    "timestamp": 1431706041000
+   },
+   "page": "e0128736",
+   "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Correction: Correction: Plastidic Phosphoglucose Isomerase Is an Important Determinant of Starch Accumulation in Mesophyll Cells, Growth, Photosynthetic Capacity, and Biosynthesis of Plastidic Cytokinins in Arabidopsis"
+   ],
+   "prefix": "10.1371",
+   "volume": "10",
+   "author": [
+    {
+     "name": "The PLOS ONE Staff",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "340",
+   "published-online": {
+    "date-parts": [
+     [
+      2015,
+      5,
+      15
+     ]
+    ]
+   },
+   "container-title": [
+    "PLOS ONE"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      10,
+      20
+     ]
+    ],
+    "date-time": "2018-10-20T05:12:01Z",
+    "timestamp": 1540012321000
+   },
+   "score": 37.2846,
+   "resource": {
+    "primary": {
+     "URL": "https://dx.plos.org/10.1371/journal.pone.0128736"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2015,
+      5,
+      15
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "5",
+    "published-online": {
+     "date-parts": [
+      [
+       2015,
+       5,
+       15
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1371/journal.pone.0128736",
+   "ISSN": [
+    "1932-6203"
+   ],
+   "issn-type": [
+    {
+     "value": "1932-6203",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2015,
+      5,
+      15
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      28
+     ]
+    ],
+    "date-time": "2026-09-28T00:02:54Z",
+    "timestamp": 1790553774643,
+    "version": "4.1.0"
+   },
+   "reference-count": 51,
+   "publisher": "Informa UK Limited",
+   "issue": "10",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Plant Signaling &amp; Behavior"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      10
+     ]
+    ]
+   },
+   "DOI": "10.4161/psb.3.10.6666",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      3,
+      16
+     ]
+    ],
+    "date-time": "2011-03-16T22:48:29Z",
+    "timestamp": 1300315709000
+   },
+   "page": "784-790",
+   "source": "Crossref",
+   "is-referenced-by-count": 55,
+   "title": [
+    "Differential expression and phylogenetic analysis suggest specialization of plastid-localized members of the PHT4 phosphate transporter family for photosynthetic and heterotrophic tissues"
+   ],
+   "prefix": "10.1080",
+   "volume": "3",
+   "author": [
+    {
+     "given": "Biwei",
+     "family": "Guo",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sonia",
+     "family": "Irigoyen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Tiffany B.",
+     "family": "Fowler",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Wayne K.",
+     "family": "Versaw",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "301",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "R1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02861058"
+    },
+    {
+     "key": "R2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0968-0004(86)90136-2"
+    },
+    {
+     "key": "R3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.pp.33.060182.002243"
+    },
+    {
+     "key": "R4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1074/jbc.M709371200"
+    },
+    {
+     "key": "R5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.016519"
+    },
+    {
+     "key": "R6",
+     "doi-asserted-by": "crossref",
+     "first-page": "39",
+     "DOI": "10.1002/j.1460-2075.1989.tb03346.x",
+     "volume": "8",
+     "author": "Fl\u00fcgge UI",
+     "year": "1989",
+     "journal-title": "EMBO J"
+    },
+    {
+     "key": "R7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.010576"
+    },
+    {
+     "key": "R8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.9.3.453"
+    },
+    {
+     "key": "R9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.10.1.105"
+    },
+    {
+     "key": "R10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1034/j.1399-3054.2003.00137.x"
+    },
+    {
+     "key": "R11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.11.11.2153"
+    },
+    {
+     "key": "R12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.002220"
+    },
+    {
+     "key": "R13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1469-8137.2003.00677.x"
+    },
+    {
+     "key": "R14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.172390399"
+    },
+    {
+     "key": "R15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2004.02106.x"
+    },
+    {
+     "key": "R16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1469-8137.2007.02331.x"
+    },
+    {
+     "key": "R17",
+     "doi-asserted-by": "crossref",
+     "first-page": "325",
+     "DOI": "10.1074/mcp.M300030-MCP200",
+     "volume": "2",
+     "author": "Ferro M",
+     "year": "2003",
+     "journal-title": "Mol Cell Proteomics"
+    },
+    {
+     "key": "R18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-003-1121-5"
+    },
+    {
+     "key": "R19",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1399-3054.1962.tb08052.x"
+    },
+    {
+     "key": "R20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313x.1998.00343.x"
+    },
+    {
+     "key": "R21",
+     "doi-asserted-by": "crossref",
+     "first-page": "3901",
+     "DOI": "10.1002/j.1460-2075.1987.tb02730.x",
+     "volume": "6",
+     "author": "Jefferson RA",
+     "year": "1987",
+     "journal-title": "EMBO J"
+    },
+    {
+     "key": "R22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1385/0-89603-302-3:185"
+    },
+    {
+     "key": "R23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/1791345a0"
+    },
+    {
+     "key": "R24",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00291994"
+    },
+    {
+     "key": "R25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.004929"
+    },
+    {
+     "key": "R26",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.9.4.491"
+    },
+    {
+     "key": "R27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.104.059063"
+    },
+    {
+     "key": "R28",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/gkm333"
+    },
+    {
+     "key": "R29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nprot.2007.131"
+    },
+    {
+     "key": "R30",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00239-003-2564-9"
+    },
+    {
+     "key": "R31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.0307901101"
+    },
+    {
+     "key": "R32",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.212522399"
+    },
+    {
+     "key": "R33",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.202474599"
+    },
+    {
+     "key": "R34",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2006.02976.x"
+    },
+    {
+     "key": "R35",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bbabio.2006.10.009"
+    },
+    {
+     "key": "R36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.013441"
+    },
+    {
+     "key": "R37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1115581"
+    },
+    {
+     "key": "R38",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-3040.2007.01753.x"
+    },
+    {
+     "key": "R39",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pch205"
+    },
+    {
+     "key": "R40",
+     "first-page": "232",
+     "volume": "502",
+     "author": "Fliege R",
+     "year": "1978",
+     "journal-title": "Bioch Biophys Acta"
+    },
+    {
+     "key": "R41",
+     "doi-asserted-by": "crossref",
+     "first-page": "1123",
+     "DOI": "10.1104/pp.106.3.1123",
+     "volume": "106",
+     "author": "Barnes SA",
+     "year": "1994",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "R42",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s004250050268"
+    },
+    {
+     "key": "R43",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00192527"
+    },
+    {
+     "key": "R44",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.90.13.6160"
+    },
+    {
+     "key": "R45",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313X.2002.01460.x"
+    },
+    {
+     "key": "R46",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.104.040469"
+    },
+    {
+     "key": "R47",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.arplant.51.1.111"
+    },
+    {
+     "key": "R48",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00262640"
+    },
+    {
+     "key": "R49",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00387060"
+    },
+    {
+     "key": "R50",
+     "doi-asserted-by": "crossref",
+     "first-page": "167",
+     "DOI": "10.5642/aliso.19911301.06",
+     "volume": "3",
+     "author": "Behnke HD",
+     "year": "1991",
+     "journal-title": "Aliso"
+    },
+    {
+     "key": "R51",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.120.1.43"
+    }
+   ],
+   "container-title": [
+    "Plant Signaling &amp; Behavior"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://www.tandfonline.com/doi/pdf/10.4161/psb.3.10.6666",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      6,
+      9
+     ]
+    ],
+    "date-time": "2019-06-09T08:58:02Z",
+    "timestamp": 1560070682000
+   },
+   "score": 34.418083,
+   "resource": {
+    "primary": {
+     "URL": "http://www.tandfonline.com/doi/abs/10.4161/psb.3.10.6666"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2008,
+      10
+     ]
+    ]
+   },
+   "references-count": 51,
+   "journal-issue": {
+    "issue": "10",
+    "published-online": {
+     "date-parts": [
+      [
+       2014,
+       10,
+       28
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2008,
+       10
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.4161/psb.3.10.6666"
+   ],
+   "URL": "https://doi.org/10.4161/psb.3.10.6666",
+   "ISSN": [
+    "1559-2324"
+   ],
+   "issn-type": [
+    {
+     "value": "1559-2324",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2008,
+      10
+     ]
+    ]
+   }
+  }
+ ]
+}

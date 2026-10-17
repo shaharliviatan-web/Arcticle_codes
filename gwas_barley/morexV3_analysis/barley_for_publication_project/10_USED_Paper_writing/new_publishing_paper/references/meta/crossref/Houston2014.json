@@ -1,0 +1,3710 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     23
+    ]
+   ],
+   "date-time": "2026-09-23T06:22:33Z",
+   "timestamp": 1790144553343,
+   "version": "4.0.1"
+  },
+  "reference-count": 74,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "BMC Genomics"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2014,
+     12
+    ]
+   ]
+  },
+  "DOI": "10.1186/1471-2164-15-907",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2014,
+     10,
+     17
+    ]
+   ],
+   "date-time": "2014-10-17T21:01:07Z",
+   "timestamp": 1413579667000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 64,
+  "title": [
+   "A genome wide association scan for (1,3;1,4)-\u03b2-glucan content in the grain of contemporary 2-row Spring and Winter barleys"
+  ],
+  "prefix": "10.1186",
+  "volume": "15",
+  "author": [
+   {
+    "given": "Kelly",
+    "family": "Houston",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Joanne",
+    "family": "Russell",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Miriam",
+    "family": "Schreiber",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Claire",
+    "family": "Halpin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Helena",
+    "family": "Oakey",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jennifer M",
+    "family": "Washington",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Allan",
+    "family": "Booth",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Neil",
+    "family": "Shirley",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Rachel A",
+    "family": "Burton",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Geoffrey B",
+    "family": "Fincher",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Robbie",
+    "family": "Waugh",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2014,
+     10,
+     17
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "6608_CR1",
+    "doi-asserted-by": "publisher",
+    "first-page": "1897",
+    "DOI": "10.1001/archinte.163.16.1897",
+    "volume": "163",
+    "author": "LA Bazzano",
+    "year": "2003",
+    "unstructured": "Bazzano LA, He J, Ogden LG, Loria CM, Whelton PK: Dietary fiber intake and reduced risk of coronary heart disease in US men and women: the National Health and Nutrition Examination Survey I Epidemiologic Follow-up Study. Arch Intern Med. 2003, 163: 1897-1904. 10.1001/archinte.163.16.1897.",
+    "journal-title": "Arch Intern Med"
+   },
+   {
+    "issue": "1",
+    "key": "6608_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "94",
+    "DOI": "10.1016/j.ahj.2004.08.013",
+    "volume": "150",
+    "author": "AT Erkkil\u00e4",
+    "year": "2005",
+    "unstructured": "Erkkil\u00e4 AT, Herrington DM, Mozaffarian D, Lichtenstein AH: Cereal fiber and whole-grain intake are associated with reduced progression of coronary-artery atherosclerosis in postmenopausal women with coronary artery disease. Am Heart J. 2005, 150 (1): 94-101. 10.1016/j.ahj.2004.08.013.",
+    "journal-title": "Am Heart J"
+   },
+   {
+    "key": "6608_CR3",
+    "unstructured": "FDA Allows Barley Products to Claim Reduction in Risk of Coronary Heart Disease. http://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/2005/ucm108543.htm,"
+   },
+   {
+    "issue": "98",
+    "key": "6608_CR4",
+    "first-page": "29248",
+    "volume": "71",
+    "author": "Food and Drug Administration S. HH",
+    "year": "2006",
+    "unstructured": "Food and Drug Administration S. HH: Food labeling: health claims; soluble dietary fiber from certain foods and coronary heart disease. Final rule. Fed Regist. 2006, 71 (98): 29248-29250.",
+    "journal-title": "Fed Regist"
+   },
+   {
+    "issue": "159",
+    "key": "6608_CR5",
+    "first-page": "47828",
+    "volume": "73",
+    "author": "Food and Drug Administration S. HH",
+    "year": "2008",
+    "unstructured": "Food and Drug Administration S. HH: Food labeling: health claims; soluble fiber from certain foods and risk of coronary heart disease. Final rule. Fed Regist. 2008, 73 (159): 47828-47829.",
+    "journal-title": "Fed Regist"
+   },
+   {
+    "key": "6608_CR6",
+    "doi-asserted-by": "publisher",
+    "first-page": "141",
+    "DOI": "10.1007/s12571-011-0126-3",
+    "volume": "3",
+    "author": "AC Newton",
+    "year": "2011",
+    "unstructured": "Newton AC, Flavell AJ, George TS, Leat P, Mullholland B, Ramsay L, Giha CR, Russell J, Steffenson BJ, Swanston JS, Thomas WTB, Waugh R, White PJ, Bingham IJ: Crops that feed the world 4. Barley: a resilient crop? Strengths and weaknesses in the context of food security. Food Security. 2011, 3: 141-178. 10.1007/s12571-011-0126-3.",
+    "journal-title": "Food Security"
+   },
+   {
+    "key": "6608_CR7",
+    "doi-asserted-by": "publisher",
+    "first-page": "233",
+    "DOI": "10.1002/j.2050-0416.1978.tb03880.x",
+    "volume": "84",
+    "author": "MA Andersen",
+    "year": "1978",
+    "unstructured": "Andersen MA, Cook JA, Stone BA: Enzymatic determination of (1,3;1,4)-\u03b2-glucans in barley grain and other cereals. Inst Brew. 1978, 84: 233-239. 10.1002/j.2050-0416.1978.tb03880.x.",
+    "journal-title": "Inst Brew"
+   },
+   {
+    "key": "6608_CR8",
+    "first-page": "97",
+    "volume": "45",
+    "author": "M Havrlentova",
+    "year": "2006",
+    "unstructured": "Havrlentova M, Kraic J: Content of \u03b2-D-glucan in cereal grains. J Food Nutr Res. 2006, 45: 97-103.",
+    "journal-title": "J Food Nutr Res"
+   },
+   {
+    "key": "6608_CR9",
+    "unstructured": "Sustagrain \u00aeBarley. http://www.conagramills.com/media/Sustagrain%20Sell%20Sheet.pdf,"
+   },
+   {
+    "key": "6608_CR10",
+    "unstructured": "BARLEYmax\u2122: high fibre wholegrain with resistant starch. http://www.csiro.au/resources/BARLEYmax.html,"
+   },
+   {
+    "issue": "6\u20137",
+    "key": "6608_CR11",
+    "doi-asserted-by": "crossref",
+    "first-page": "921",
+    "DOI": "10.1007/BF00223901",
+    "volume": "91",
+    "author": "F Han",
+    "year": "1995",
+    "unstructured": "Han F, Ullrich SE, Chirat S, Menteur S, Jestin L, Sarrafi A, Hayes PM, Jones BL, Blake TK, Wesenberg DM, Kleinhofs A, Kilian A: Mapping of (1,3;1,4)-\u03b2-glucan content and \u03b2-glucanase activity loci in barley grain and malt. Theor Appl Genet. 1995, 91 (6\u20137): 921-927.",
+    "journal-title": "Theor Appl Genet"
+   },
+   {
+    "issue": "5769",
+    "key": "6608_CR12",
+    "doi-asserted-by": "publisher",
+    "first-page": "1940",
+    "DOI": "10.1126/science.1122975",
+    "volume": "311",
+    "author": "RA Burton",
+    "year": "2006",
+    "unstructured": "Burton RA, Wilson SM, Hrmova M, Harvey AJ, Shirley NJ, Medhurst A, Stone BA, Newbigin EJ, Bacic A, Fincher GB: Cellulose Synthase-Like CslF Genes Mediate the Synthesis of Cell Wall (1\u20133;1\u20134)-\u00df-D-Glucans. Science. 2006, 311 (5769): 1940-1942. 10.1126/science.1122975.",
+    "journal-title": "Science"
+   },
+   {
+    "issue": "14",
+    "key": "6608_CR13",
+    "doi-asserted-by": "publisher",
+    "first-page": "5996",
+    "DOI": "10.1073/pnas.0902019106",
+    "volume": "106",
+    "author": "MS Doblin",
+    "year": "2009",
+    "unstructured": "Doblin MS, Pettolino FA, Wilson SM, Campbell R, Burton RA, Fincher GB, Newbigin E, Bacic A: A barley cellulose synthase-like CSLH gene mediates (13;14)-beta-D-glucan synthesis in transgenic Arabidopsis. Proc Natl Acad Sci U S A. 2009, 106 (14): 5996-6001. 10.1073/pnas.0902019106.",
+    "journal-title": "Proc Natl Acad Sci U S A"
+   },
+   {
+    "key": "6608_CR14",
+    "volume-title": "PloS One",
+    "author": "M Schreiber",
+    "year": "2014",
+    "unstructured": "Schreiber M, Wright F, MacKenzie K, Hedley PE, Schwerdt JG, Little A, Burton RA, Fincher GB, Marshall D, Waugh R, Halpin C: The barley genome sequence assembly reveals three additional members of the CslF (1,3;1,4)-\u03b2-glucan synthase gene family. PloS One. 2014, doi:10.1371/journal.pone.0090888"
+   },
+   {
+    "key": "6608_CR15",
+    "doi-asserted-by": "publisher",
+    "first-page": "495",
+    "DOI": "10.1104/pp.124.2.495",
+    "volume": "124",
+    "author": "T Richmond",
+    "year": "2000",
+    "unstructured": "Richmond T, Somerville C: The cellulose synthase superfamily. Plant Physiol. 2000, 124: 495-498. 10.1104/pp.124.2.495.",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "issue": "2",
+    "key": "6608_CR16",
+    "doi-asserted-by": "publisher",
+    "first-page": "117",
+    "DOI": "10.1111/j.1467-7652.2010.00532.x",
+    "volume": "9",
+    "author": "RA Burton",
+    "year": "2011",
+    "unstructured": "Burton RA, Collins HM, Kibble NAJ, Smith JA, Shirley NJ, Jobling SA, Henderson M, Singh RR, Pettolino F, Wilson SM, Bird AR, Topping DL, Bacic A, Fincher GB: Over-expression of specific HvCslF cellulose synthase-like genes in transgenic barley increases the levels of cell wall (13;14)-\u03b2-D-glucans and alters their fine structure. Plant Biotechnol J. 2011, 9 (2): 117-135. 10.1111/j.1467-7652.2010.00532.x.",
+    "journal-title": "Plant Biotechnol J"
+   },
+   {
+    "issue": "3",
+    "key": "6608_CR17",
+    "doi-asserted-by": "publisher",
+    "first-page": "211",
+    "DOI": "10.1007/s10142-007-0070-7",
+    "volume": "8",
+    "author": "B Clarke",
+    "year": "2008",
+    "unstructured": "Clarke B, Liang R, Morell MK, Bird AR, Jenkins CL, Li Z: Gene expression in a starch synthase IIa mutant of barley: changes in the level of gene transcription and grain composition. Funct Integr Genomics. 2008, 8 (3): 211-221. 10.1007/s10142-007-0070-7.",
+    "journal-title": "Funct Integr Genomics"
+   },
+   {
+    "key": "6608_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "213",
+    "DOI": "10.1016/j.jcs.2004.07.006",
+    "volume": "40",
+    "author": "L Munck",
+    "year": "2004",
+    "unstructured": "Munck L, M\u00f8ller B, Jacobsen S, S\u00f8ndergaard I: Near infrared spectra indicate specific mutant endosperm genes and reveal a new mechanism for substituting starch with (1\u2009\u2192\u20093,1\u2009\u2192\u20094)-\u03b2-glucan in barley. J Cereal Sci. 2004, 40: 213-222. 10.1016/j.jcs.2004.07.006.",
+    "journal-title": "J Cereal Sci"
+   },
+   {
+    "key": "6608_CR19",
+    "doi-asserted-by": "publisher",
+    "first-page": "5033",
+    "DOI": "10.1093/jxb/ert292",
+    "volume": "64",
+    "author": "K Trafford",
+    "year": "2013",
+    "unstructured": "Trafford K, Haleux P, Henderson M, Parker M, Shirley NJ, Tucker MR, Fincher GB, Burton RA: Grain development in Brachypodium and other grasses: Interactions between cell expansion, starch deposition and cell wall synthesis. J. Exp Bot. 2013, 64: 5033-5047. 10.1093/jxb/ert292.",
+    "journal-title": "J. Exp Bot"
+   },
+   {
+    "key": "6608_CR20",
+    "doi-asserted-by": "publisher",
+    "first-page": "1001",
+    "DOI": "10.1093/jxb/erq332",
+    "volume": "62",
+    "author": "F Guillon",
+    "year": "2011",
+    "unstructured": "Guillon F, Bouchet B, Jamme F, Robert P, Quemener B, Barron C, Larre C, Dumas P, Saulnier L: Brachypodium distachyon grain: characterization of endosperm cell walls. J Exp Bot. 2011, 62: 1001-1015. 10.1093/jxb/erq332.",
+    "journal-title": "J Exp Bot"
+   },
+   {
+    "key": "6608_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "544",
+    "DOI": "10.1007/s00122-002-0954-9",
+    "volume": "105",
+    "author": "D Hoffman",
+    "year": "2002",
+    "unstructured": "Hoffman D, Dahleen L: Markers polymorphic among malting barley (Hordeum vulgareL.) cultivars of a narrow gene pool associated with key QTLs. Theor Appl Genet. 2002, 105: 544-554. 10.1007/s00122-002-0954-9.",
+    "journal-title": "Theor Appl Genet"
+   },
+   {
+    "issue": "3",
+    "key": "6608_CR22",
+    "doi-asserted-by": "publisher",
+    "first-page": "275",
+    "DOI": "10.1007/s11032-006-9075-5",
+    "volume": "19",
+    "author": "J-L Molina-Cano",
+    "year": "2007",
+    "unstructured": "Molina-Cano J-L, Moralejo M, El\u00eda M, Mu\u00f1oz P, Russell JR, P\u00e9rez-Vendrell AM, Ciudad F, Swanston JS: QTL analysis of a cross between European and North American malting barleys reveals a putative candidate gene for (1,3;1,4)-\u03b2-glucan content on chromosome 1H. Mol Breed. 2007, 19 (3): 275-284. 10.1007/s11032-006-9075-5.",
+    "journal-title": "Mol Breed"
+   },
+   {
+    "issue": "3",
+    "key": "6608_CR23",
+    "doi-asserted-by": "crossref",
+    "first-page": "461",
+    "DOI": "10.1007/BF00251188",
+    "volume": "71",
+    "author": "W Powell",
+    "year": "1985",
+    "unstructured": "Powell W, Caligari PDS, Swanston JS, Jinks JL: Genetical investigations into (1,3;1,4)-\u03b2-glucan content in barley. Theor Appl Genet. 1985, 71 (3): 461-466.",
+    "journal-title": "Theor Appl Genet"
+   },
+   {
+    "key": "6608_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "269",
+    "DOI": "10.1016/S0733-5210(86)80029-7",
+    "volume": "4",
+    "author": "RJ Henry",
+    "year": "1986",
+    "unstructured": "Henry RJ: Genetic and environmental variation in the pentosan and (1,3;1,4)-\u03b2-glucan contents of barley and their relation to malting quality. J Cereal Sci. 1986, 4: 269-277. 10.1016/S0733-5210(86)80029-7.",
+    "journal-title": "J Cereal Sci"
+   },
+   {
+    "issue": "31",
+    "key": "6608_CR25",
+    "doi-asserted-by": "publisher",
+    "first-page": "217",
+    "DOI": "10.1146/annurev.ecolsys.31.1.217",
+    "volume": "2000",
+    "author": "EA Kellogg",
+    "year": "2000",
+    "unstructured": "Kellogg EA: The grasses: A Case Study in Macroevolution. Annu Rev Ecol Syst. 2000, 2000 (31): 217-238.",
+    "journal-title": "Annu Rev Ecol Syst"
+   },
+   {
+    "issue": "41",
+    "key": "6608_CR26",
+    "doi-asserted-by": "publisher",
+    "first-page": "16675",
+    "DOI": "10.1073/pnas.1311681110",
+    "volume": "110",
+    "author": "K Houston",
+    "year": "2013",
+    "unstructured": "Houston K, McKim SM, Comadran J, Bonar N, Druka I, Uzrek N, Cirillo E, Guzy-Wrobelska J, Collins N, Halpin C, Hansson M, Dockter C, Druka A, Waugh R: Variation in the interaction between alleles of HvAPETALA2 and microRNA172 determines the density of grains on the barley inflorescence. Proc Natl Acad Sci U S A. 2013, 110 (41): 16675-16680. 10.1073/pnas.1311681110.",
+    "journal-title": "Proc Natl Acad Sci U S A"
+   },
+   {
+    "key": "6608_CR27",
+    "doi-asserted-by": "publisher",
+    "first-page": "1388",
+    "DOI": "10.1038/ng.2447",
+    "volume": "44",
+    "author": "J Comadran",
+    "year": "2012",
+    "unstructured": "Comadran J, Kilian B, Russell J, Ramsay L, Stein N, Ganal MW, Shaw P, Bayer M, Thomas WT, Marshall D, Hedley P, Tondelli A, Pecchioni N, Francia E, Korzun V, Walther A, Waugh R: Natural variation in a homolog of Antirrhinum CENTRORADIALIS contributed to spring growth habit and environmental adaptation in cultivated barley. Nat Genet. 2012, 44: 1388-1392. 10.1038/ng.2447.",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "key": "6608_CR28",
+    "doi-asserted-by": "publisher",
+    "first-page": "169",
+    "DOI": "10.1038/ng.745",
+    "volume": "43",
+    "author": "L Ramsay",
+    "year": "2011",
+    "unstructured": "Ramsay L, Comadran J, Druka A, Marshall DF, Thomas WT, Macaulay M, MacKenzie K, Simpson C, Fuller J, Bonar N, Hayes PM, Lundqvist U, Franckowiak JD, Close TJ, Muehlbauer GJ, Waugh R: INTERMEDIUM-C, a modifier of lateral spikelet fertility in barley, is an ortholog of the maize domestication gene TEOSINTE BRANCHED 1. Nat. Genet. 2011, 43: 169-172. 10.1038/ng.745.",
+    "journal-title": "Nat. Genet"
+   },
+   {
+    "issue": "2",
+    "key": "6608_CR29",
+    "doi-asserted-by": "publisher",
+    "first-page": "332",
+    "DOI": "10.1016/j.jcs.2012.02.003",
+    "volume": "56",
+    "author": "AT Cory",
+    "year": "2012",
+    "unstructured": "Cory AT, Baga M, Anyia A, Rossnagel BG, Chibbar RN: Genetic markers for ClsF6 gene associated with (1,3;1,4)-\u03b2-glucan concentration in barley grain. J Cereal Sci. 2012, 56 (2): 332-339. 10.1016/j.jcs.2012.02.003.",
+    "journal-title": "J Cereal Sci"
+   },
+   {
+    "key": "6608_CR30",
+    "doi-asserted-by": "publisher",
+    "first-page": "381",
+    "DOI": "10.1093/jxb/err285",
+    "volume": "63",
+    "author": "S Taketa",
+    "year": "2012",
+    "unstructured": "Taketa S, Yuo T, Tonooka T, Tsumuraya Y, Inagaki Y, Haruyama N, Larroque O, Jobling SA: Functional characterization of barley betaglucanless mutants demonstrates a unique role for CslF6 in (1,3;1,4)-{beta}-D-glucan biosynthesis. J Exp Bot. 2012, 63: 381-392. 10.1093/jxb/err285.",
+    "journal-title": "J Exp Bot"
+   },
+   {
+    "issue": "7426",
+    "key": "6608_CR31",
+    "doi-asserted-by": "crossref",
+    "first-page": "711",
+    "DOI": "10.1038/nature11543",
+    "volume": "491",
+    "author": "IBSC",
+    "year": "2012",
+    "unstructured": "IBSC: A physical genetic and functional sequence assembly of the barley genome. Nature. 2012, 491 (7426): 711-716.",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "6608_CR32",
+    "doi-asserted-by": "publisher",
+    "first-page": "713",
+    "DOI": "10.1016/j.phytochem.2009.04.002",
+    "volume": "70",
+    "author": "MS Schober",
+    "year": "2009",
+    "unstructured": "Schober MS, Burton RA, Shirley NJ, Jacobs AK, Fincher GB: Analysis of the (1,3)-b-D-glucan synthase gene family of barley. Phytochemistry. 2009, 70: 713-720. 10.1016/j.phytochem.2009.04.002.",
+    "journal-title": "Phytochemistry"
+   },
+   {
+    "key": "6608_CR33",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Mohammadi M, Endelman JB, Nair S, Chao S, Jones SS, Muehlbauer GJ, Ullrich SE, Baik BK, Wise ML, Smith KP: Association mapping of grain hardness, polyphenol oxidase, total phenolics, amylose content, and \u03b2-glucan in US barley breeding germplasm. Mol Breeding. doi:10.1007/s11032-014-0112-5",
+    "DOI": "10.1007/s11032-014-0112-5"
+   },
+   {
+    "key": "6608_CR34",
+    "doi-asserted-by": "publisher",
+    "first-page": "1821",
+    "DOI": "10.1104/pp.107.114694",
+    "volume": "146",
+    "author": "RA Burton",
+    "year": "2008",
+    "unstructured": "Burton RA, Jobling SA, Harvey AJ, Shirley NJ, Mather DE, Bacic A, Fincher GB: The Genetics and Transcriptional Profiles of the Cellulose Synthase-Like HvCslF Gene Family in Barley. Plant Physiol. 2008, 146: 1821-1833. 10.1104/pp.107.114694.",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "issue": "3",
+    "key": "6608_CR35",
+    "doi-asserted-by": "publisher",
+    "first-page": "647",
+    "DOI": "10.1016/j.jcs.2008.02.004",
+    "volume": "48",
+    "author": "J Li",
+    "year": "2008",
+    "unstructured": "Li J, Baga M, Rossnagel BG, Legge WG, Chibbar RN: Identification of quantitative trait loci for (1,3;1,4)-\u03b2-glucan concentration in barley grain. J Cereal Sci. 2008, 48 (3): 647-655. 10.1016/j.jcs.2008.02.004.",
+    "journal-title": "J Cereal Sci"
+   },
+   {
+    "key": "6608_CR36",
+    "doi-asserted-by": "publisher",
+    "first-page": "134",
+    "DOI": "10.3835/plantgenome2008.01.0005",
+    "volume": "2",
+    "author": "P Szucs",
+    "year": "2009",
+    "unstructured": "Szucs P, Blake VC, Bhat PR, Close TJ, Cuesta-Marcos A, Muehlbauer GJ, Ramsay LV, Waugh R, Hayes PM: An Integrated Resource for Barley Linkage Map and Malting Quality QTL Alignment. Plant Gen. 2009, 2: 134-140. 10.3835/plantgenome2008.01.0005.",
+    "journal-title": "Plant Gen"
+   },
+   {
+    "key": "6608_CR37",
+    "doi-asserted-by": "publisher",
+    "first-page": "95",
+    "DOI": "10.1038/nrg1521",
+    "volume": "6",
+    "author": "JN Hirschhorn",
+    "year": "2005",
+    "unstructured": "Hirschhorn JN, Daly MJD: Genome-wide association studies for common diseases and complex traits. Nat Rev Genet. 2005, 6: 95-108.",
+    "journal-title": "Nat Rev Genet"
+   },
+   {
+    "issue": "2",
+    "key": "6608_CR38",
+    "doi-asserted-by": "publisher",
+    "first-page": "57",
+    "DOI": "10.1016/j.tplants.2006.12.001",
+    "volume": "12",
+    "author": "I Mackay",
+    "year": "2007",
+    "unstructured": "Mackay I, Powell W: Methods for linkage disequilibrium mapping in crops. Trends Plant Sci. 2007, 12 (2): 57-63. 10.1016/j.tplants.2006.12.001.",
+    "journal-title": "Trends Plant Sci"
+   },
+   {
+    "issue": "2",
+    "key": "6608_CR39",
+    "doi-asserted-by": "publisher",
+    "first-page": "218",
+    "DOI": "10.1016/j.pbi.2008.12.007",
+    "volume": "12",
+    "author": "R Waugh",
+    "year": "2009",
+    "unstructured": "Waugh R, Jannink JL, Muehlbauer GJ, Ramsay L: The emergence of whole genome association scans in barley. Curr Opin Plant Biol. 2009, 12 (2): 218-222. 10.1016/j.pbi.2008.12.007.",
+    "journal-title": "Curr Opin Plant Biol"
+   },
+   {
+    "key": "6608_CR40",
+    "doi-asserted-by": "publisher",
+    "first-page": "15",
+    "DOI": "10.1007/s11032-012-9764-1",
+    "volume": "31",
+    "author": "E Islamovic",
+    "year": "2013",
+    "unstructured": "Islamovic E, Obert DE, Oliver RE, Harrison SA, Ibrahim A, Marshall JM, Miclaus KJ Hu G, Jackson EW: Genetic dissection of grain beta-glucan and amylose content in barley (Hordeum vulgare L.). Mol Breeding. 2013, 31: 15-25. 10.1007/s11032-012-9764-1.",
+    "journal-title": "Mol Breeding"
+   },
+   {
+    "key": "6608_CR41",
+    "doi-asserted-by": "publisher",
+    "first-page": "9353",
+    "DOI": "10.1073/pnas.92.20.9353",
+    "volume": "92",
+    "author": "Y Amor",
+    "year": "1995",
+    "unstructured": "Amor Y, Haigler CH, Johnson S, Wainscott M, Delmer DP: A membrane associated form of sucrose synthase and its potential role in synthesis of cellulose and callose in plants. Proc Natl Acad Sci USA. 1995, 92: 9353-9357. 10.1073/pnas.92.20.9353.",
+    "journal-title": "Proc Natl Acad Sci USA"
+   },
+   {
+    "key": "6608_CR42",
+    "doi-asserted-by": "publisher",
+    "first-page": "1105",
+    "DOI": "10.1104/pp.120.4.1105",
+    "volume": "120",
+    "author": "MS Buckeridge",
+    "year": "1999",
+    "unstructured": "Buckeridge MS, Vergara CE, Carpita NC: Mechanism of synthesis of a cereal mixed-linkage (1\u20133;1\u20134)- \u00df -d-glucan: evidence for multiple sites of glucosyl transfer in the synthase complex. Plant Physiol. 1999, 120: 1105-1116. 10.1104/pp.120.4.1105.",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "issue": "2",
+    "key": "6608_CR43",
+    "doi-asserted-by": "publisher",
+    "first-page": "758",
+    "DOI": "10.1104/pp.103.032011",
+    "volume": "134",
+    "author": "BR Urbanowicz",
+    "year": "2004",
+    "unstructured": "Urbanowicz BR, Rayon C, Carpita NC: Topology of the Maize Mixed Linkage (1\u20133;1\u20134)- \u03b2 \u2013D Glucan Synthase at the Golgi Membrane. Plant Physiol. 2004, 134 (2): 758-768. 10.1104/pp.103.032011.",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "key": "6608_CR44",
+    "doi-asserted-by": "publisher",
+    "first-page": "43",
+    "DOI": "10.1111/j.1439-0523.1996.tb00869.x",
+    "volume": "115",
+    "author": "A Oziel",
+    "year": "1996",
+    "unstructured": "Oziel A, Hayes PM, Chen FQ, Jones B: Application of quantitative trait locus mapping to the development of winter-habit malting barley. Plant Breeding. 1996, 115: 43-51. 10.1111/j.1439-0523.1996.tb00869.x.",
+    "journal-title": "Plant Breeding"
+   },
+   {
+    "key": "6608_CR45",
+    "doi-asserted-by": "publisher",
+    "first-page": "858",
+    "DOI": "10.1071/AR06203",
+    "volume": "58",
+    "author": "JH Panozzo",
+    "year": "2007",
+    "unstructured": "Panozzo JH, Eckermann PJ, Mather DE, Moody DB, Black CK, Collins HM, Barr AR, Lim P, Cullis BR: QTL analysis of malting quality traits in two barley populations. Aust J Agric Res. 2007, 58: 858-866. 10.1071/AR06203.",
+    "journal-title": "Aust J Agric Res"
+   },
+   {
+    "key": "6608_CR46",
+    "volume-title": "J Cereal Sci",
+    "author": "G Hu",
+    "year": "2014",
+    "unstructured": "Hu G, Burton C, Hong Z, Jackson E: A mutation of the cellulose-synthase-like (CslF6) gene in barley (Hordeum vulgare L.) partially affects the \u03b2 -glucan content in grains. J Cereal Sci. 2014, doi:10.1016/j.jcs.2013.12.009"
+   },
+   {
+    "issue": "3",
+    "key": "6608_CR47",
+    "first-page": "283",
+    "volume": "98",
+    "author": "I Mezaka",
+    "year": "2011",
+    "unstructured": "Mezaka I, Bleidere M, Legzdina L, Rostoks N: Whole genome association mapping identifies naked grain locus NUD as determinant of (1,3;1,4)-\u03b2-glucan content in barley. \u017demdirbyst\u0117- Agriculture. 2011, 98 (3): 283-292.",
+    "journal-title": "\u017demdirbyst\u0117- Agriculture"
+   },
+   {
+    "key": "6608_CR48",
+    "doi-asserted-by": "publisher",
+    "first-page": "582",
+    "DOI": "10.1186/1471-2164-10-582",
+    "volume": "10",
+    "author": "TJ Close",
+    "year": "2009",
+    "unstructured": "Close TJ, Bhat PR, Lonardi S, Wu Y, Rostoks N, Ramsay L, Druka A, Stein N, Svensson JT, Wanamaker S, Bozdag S, Roose ML, Moscou MJ, Chao S, Varshney RK, Szucs P, Sato K, Hayes PM, Matthews DE, Kleinhofs A, Muehlbauer GJ, DeYoung J, Marshall DF, Madishetty K, Fenton RD, Condamine P, Graner A, Waugh R: Development and implementation of high-throughput SNP genotyping in barley. BMC Genomics. 2009, 10: 582-10.1186/1471-2164-10-582.",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "issue": "6",
+    "key": "6608_CR49",
+    "doi-asserted-by": "publisher",
+    "first-page": "563",
+    "DOI": "10.1111/pbr.12086",
+    "volume": "132",
+    "author": "Y Chutimanitsakun",
+    "year": "2013",
+    "unstructured": "Chutimanitsakun Y, Cuesta-Marcos A, Chao S, Corey A, Filichkin T, Fisk S, Kolding M, Meints B, Ong Y-L, Rey JI, Ross AS, Hayes PM: Application of marker-assisted selection and genome-wide association scanning to the development of winter food barley germplasm resources. Plant Breeding. 2013, 132 (6): 563-570. 10.1111/pbr.12086.",
+    "journal-title": "Plant Breeding"
+   },
+   {
+    "key": "6608_CR50",
+    "doi-asserted-by": "publisher",
+    "first-page": "161",
+    "DOI": "10.1006/jcrs.1996.0049",
+    "volume": "24",
+    "author": "M Oscarsson",
+    "year": "1996",
+    "unstructured": "Oscarsson M, Andersson R, Salomonsson AC, Aman P: Chemical composition of barley samples focusing on dietary fiber components. J Cereal Sci. 1996, 24: 161-169. 10.1006/jcrs.1996.0049.",
+    "journal-title": "J Cereal Sci"
+   },
+   {
+    "key": "6608_CR51",
+    "doi-asserted-by": "publisher",
+    "first-page": "71",
+    "DOI": "10.1016/0003-9861(64)90157-2",
+    "volume": "106",
+    "author": "WW Luchsinger",
+    "year": "1964",
+    "unstructured": "Luchsinger WW, Chen SC: The mechanism of action of malt \u03b2-glucanases: VI. Hydrolysis of barley \u03b2-d-glucan by endo-\u03b2-glucanases from germinated barley. Arch Biochem Biophys. 1964, 106: 71-77.",
+    "journal-title": "Arch Biochem Biophys"
+   },
+   {
+    "issue": "1\u20132",
+    "key": "6608_CR52",
+    "doi-asserted-by": "publisher",
+    "first-page": "67",
+    "DOI": "10.1016/S0141-8130(97)00043-3",
+    "volume": "21",
+    "author": "M Hrmova",
+    "year": "1997",
+    "unstructured": "Hrmova M, Banik M, Harvey AJ, Garrett T, Varghese J, H\u00f8j P, Fincher GB: Polysaccharide hydrolases in germinated barley and their role in the depolymerization of plant and fungal cell walls. Int J Biol Macromol. 1997, 21 (1\u20132): 67-72.",
+    "journal-title": "Int J Biol Macromol"
+   },
+   {
+    "issue": "17",
+    "key": "6608_CR53",
+    "doi-asserted-by": "publisher",
+    "first-page": "12951",
+    "DOI": "10.1074/jbc.M611487200",
+    "volume": "282",
+    "author": "M Hrmova",
+    "year": "2007",
+    "unstructured": "Hrmova M, Farkas V, Lahnstein J, Fincher GB: A barley xyloglucan xyloglucosyl transferase covalently links xyloglucan, cellulosic substrates, and (1,3;1,4)-\u03b2-D-glucans. J Biol Chem. 2007, 282 (17): 12951-12962. 10.1074/jbc.M611487200.",
+    "journal-title": "J Biol Chem"
+   },
+   {
+    "key": "6608_CR54",
+    "doi-asserted-by": "publisher",
+    "first-page": "140",
+    "DOI": "10.1016/j.pbi.2009.01.002",
+    "volume": "12",
+    "author": "GB Fincher",
+    "year": "2009",
+    "unstructured": "Fincher GB: Exploring the evolution of (1,3;1,4)-b-D-glucans in plant cell walls: comparative genomics can help!. Curr Opin Plant Biol. 2009, 12: 140-147. 10.1016/j.pbi.2009.01.002.",
+    "journal-title": "Curr Opin Plant Biol"
+   },
+   {
+    "key": "6608_CR55",
+    "doi-asserted-by": "publisher",
+    "first-page": "663",
+    "DOI": "10.1111/j.1432-1033.1982.tb05837.x",
+    "volume": "121",
+    "author": "JR Woodward",
+    "year": "1982",
+    "unstructured": "Woodward JR, Fincher GB: Purification and chemical properties of two 1,3;1,4-beta-glucan endohydrolases from germinating barley. Eur J Biochem. 1982, 121: 663-10.1111/j.1432-1033.1982.tb05837.x.",
+    "journal-title": "Eur J Biochem"
+   },
+   {
+    "key": "6608_CR56",
+    "doi-asserted-by": "publisher",
+    "first-page": "309",
+    "DOI": "10.1042/bj2800309",
+    "volume": "280",
+    "author": "B Henrissat",
+    "year": "1991",
+    "unstructured": "Henrissat B: A classification of glycosyl hydrolases based on amino acid sequence similarities. Biochem J. 1991, 280: 309-316.",
+    "journal-title": "Biochem J"
+   },
+   {
+    "key": "6608_CR57",
+    "doi-asserted-by": "publisher",
+    "first-page": "730",
+    "DOI": "10.1111/j.1365-313X.2003.02000.x",
+    "volume": "37",
+    "author": "PM Szyjanowicz",
+    "year": "2004",
+    "unstructured": "Szyjanowicz PM, McKinnon I, Taylor NG, Gardiner J, Jarvis MC, Turner SR: The irregular xylem 2 mutant is an allele of korrigan that affects the secondary cell wall of Arabidopsis thaliana. Plant J. 2004, 37: 730-740. 10.1111/j.1365-313X.2003.02000.x.",
+    "journal-title": "Plant J"
+   },
+   {
+    "key": "6608_CR58",
+    "doi-asserted-by": "publisher",
+    "first-page": "145",
+    "DOI": "10.1111/j.1467-7652.2005.00169.x",
+    "volume": "4",
+    "author": "N Farrokhi",
+    "year": "2006",
+    "unstructured": "Farrokhi N, Burton RA, Brownfield L, Hrmova M, Wilson SM, Bacic A, Fincher GB: Plant cell wall biosynthesis: genetic, biochemical and functional genomics approaches to the identification of key genes. Plant Biotechnol J. 2006, 4: 145-167. 10.1111/j.1467-7652.2005.00169.x.",
+    "journal-title": "Plant Biotechnol J"
+   },
+   {
+    "key": "6608_CR59",
+    "doi-asserted-by": "publisher",
+    "first-page": "D233",
+    "DOI": "10.1093/nar/gkn663",
+    "volume": "37",
+    "author": "BL Cantarel",
+    "year": "2009",
+    "unstructured": "Cantarel BL, Coutinho PM, Rancurel C, Bernard T, Lombard V, Henrissat B: The Carbohydrate-Active EnZymes database (CAZy): an expert resource for glycogenomics. Nucleic Acids Res. 2009, 37: D233-D238. 10.1093/nar/gkn663.",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "6608_CR60",
+    "doi-asserted-by": "publisher",
+    "first-page": "103",
+    "DOI": "10.1111/j.1432-1033.1992.tb17266.x",
+    "volume": "209",
+    "author": "J Wang",
+    "year": "1992",
+    "unstructured": "Wang J, Xu P, Fincher GB: Purification, characterization and gene structure of (1\u2009\u2192\u20093)-\u03b2-glucanase isoenzyme GIII from barley (Hordeum vulgare). Eur J Biochem. 1992, 209: 103-109. 10.1111/j.1432-1033.1992.tb17266.x.",
+    "journal-title": "Eur J Biochem"
+   },
+   {
+    "key": "6608_CR61",
+    "doi-asserted-by": "publisher",
+    "first-page": "1947",
+    "DOI": "10.1105/tpc.107.051391",
+    "volume": "19",
+    "author": "MJ Baumann",
+    "year": "2007",
+    "unstructured": "Baumann MJ, Ekl\u00f6f JM, Michel G, Kallas AM, Teeri TT, Czjzek M, Brumer H: Structural evidence for the evolution of xyloglucanase activity from xyloglucan endo-transglycosylases: biological implications for cell wall metabolism. Plant Cell. 2007, 19: 1947-1963. 10.1105/tpc.107.051391.",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "key": "6608_CR62",
+    "doi-asserted-by": "publisher",
+    "first-page": "724",
+    "DOI": "10.1038/nchembio.439",
+    "volume": "6",
+    "author": "RA Burton",
+    "year": "2010",
+    "unstructured": "Burton RA, Gidley MJ, Fincher GB: Heterogeneity in the chemistry, structure and function of plant cell walls. Nat Chem Biol. 2010, 6: 724-732. 10.1038/nchembio.439.",
+    "journal-title": "Nat Chem Biol"
+   },
+   {
+    "issue": "12\u201313",
+    "key": "6608_CR63",
+    "doi-asserted-by": "publisher",
+    "first-page": "1613",
+    "DOI": "10.1016/j.carres.2007.05.013",
+    "volume": "342",
+    "author": "M Hrmova",
+    "year": "2007",
+    "unstructured": "Hrmova M, Fincher GB: Dissecting the catalytic mechanism of a plant \u03b2-d-glucan glucohydrolase through structural biology using inhibitors and substrate analogues. Carbohydr Res. 2007, 342 (12\u201313): 1613-1623.",
+    "journal-title": "Carbohydr Res"
+   },
+   {
+    "key": "6608_CR64",
+    "first-page": "109",
+    "volume": "41",
+    "author": "BA Stone",
+    "year": "2011",
+    "unstructured": "Stone BA, Jacobs AK, Hrmova M, Burton RA, Fincher GB: The Biosynthesis of Plant Cell Wall and Related Polysaccharides by Enzymes of the GT2 and GT48 Families. Annual Plant Reviews. 2011, 41: 109-166.",
+    "journal-title": "Annual Plant Reviews"
+   },
+   {
+    "key": "6608_CR65",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1016/S1161-0301(98)00043-4",
+    "volume": "10",
+    "author": "NO Bertholdsson",
+    "year": "1999",
+    "unstructured": "Bertholdsson NO: Characterization of malting barley cultivars with more or less stable grain protein content under varying environmental conditions. Eur J Agron. 1999, 10: 1-8. 10.1016/S1161-0301(98)00043-4.",
+    "journal-title": "Eur J Agron"
+   },
+   {
+    "issue": "12",
+    "key": "6608_CR66",
+    "doi-asserted-by": "publisher",
+    "first-page": "1103",
+    "DOI": "10.1071/AR02194",
+    "volume": "54",
+    "author": "SJ Coventry",
+    "year": "2003",
+    "unstructured": "Coventry SJ, Barr AR, Eglinton JK, McDonald GK: The determinants and genome locations influencing grain weight and size in barley (Hordeum vulgare L.). Aust J Agr Res. 2003, 54 (12): 1103-1115. 10.1071/AR02194.",
+    "journal-title": "Aust J Agr Res"
+   },
+   {
+    "key": "6608_CR67",
+    "volume-title": "Diversity in barley",
+    "author": "PM Hayes",
+    "year": "2003",
+    "unstructured": "Hayes PM, Castro A, Marquez-Cedillo L, Corey A, Henson C, Jones BL, Kling D, Mather D, Matus I, Rossi C, Sato K, et al: Genetic diversity for quantitatively inherited agronomic and malting quality traits. Diversity in barley. Edited by: Von Bothmer R. 2003, Amsterdam: Elsevier Science Publishers"
+   },
+   {
+    "issue": "3",
+    "key": "6608_CR68",
+    "doi-asserted-by": "publisher",
+    "first-page": "305",
+    "DOI": "10.1016/j.pbi.2009.12.009",
+    "volume": "13",
+    "author": "M Pauly",
+    "year": "2010",
+    "unstructured": "Pauly M, Keegstra K: Plant cell walls as precursors for biofuels. Curr Opin Plant Biol. 2010, 13 (3): 305-312.",
+    "journal-title": "Curr Opin Plant Biol"
+   },
+   {
+    "key": "6608_CR69",
+    "doi-asserted-by": "crossref",
+    "first-page": "945",
+    "DOI": "10.1093/genetics/155.2.945",
+    "volume": "155",
+    "author": "JK Pritchard",
+    "year": "2000",
+    "unstructured": "Pritchard JK, Stephens M, Donnelly P: Inference of population structure using multilocus genotype data. Genetics. 2000, 155: 945-959.",
+    "journal-title": "Genetics"
+   },
+   {
+    "key": "6608_CR70",
+    "volume-title": "qvalue: Q-value estimation for false discovery rate control",
+    "author": "A Dabney",
+    "year": "2010",
+    "unstructured": "Dabney A, Storey JD, Warnes GR: qvalue: Q-value estimation for false discovery rate control. 2010, R package version 1.38.0"
+   },
+   {
+    "key": "6608_CR71",
+    "doi-asserted-by": "publisher",
+    "first-page": "1249",
+    "DOI": "10.1105/tpc.110.082537",
+    "volume": "23",
+    "author": "KF Mayer",
+    "year": "2011",
+    "unstructured": "Mayer KF, Martis M, Hedley PE, Simkova H, Liu H, Morris JA, Steuernagel B, Taudien S, Roessner S, Gundlach H, Kubal\u00e1kov\u00e1 M, Such\u00e1nkov\u00e1 P, Murat F, Felder M, Nussbaumer T, Graner A, Salse J, Endo T, Sakai H, Tanaka T, Itoh T, Sato K, Platzer M, Matsumoto T, Scholz U, Dolezel J, Waugh R, Stein N: Unlocking the barley genome by chromosomal and comparative genomics. Plant Cell. 2011, 23: 1249-1263. 10.1105/tpc.110.082537.",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "issue": "10",
+    "key": "6608_CR72",
+    "doi-asserted-by": "publisher",
+    "first-page": "2731",
+    "DOI": "10.1093/molbev/msr121",
+    "volume": "28",
+    "author": "K Tamura",
+    "year": "2011",
+    "unstructured": "Tamura K, Peterson D, Peterson N, Stecher G, Nei M, Kumar S: MEGA5: Molecular Evolutionary Genetics Analysis Using Maximum Likelihood Evolutionary Distance and Maximum Parsimony Methods. Mol Biol Evol. 2011, 28 (10): 2731-2739. 10.1093/molbev/msr121.",
+    "journal-title": "Mol Biol Evol"
+   },
+   {
+    "key": "6608_CR73",
+    "doi-asserted-by": "publisher",
+    "first-page": "210",
+    "DOI": "10.1186/1471-2148-10-210",
+    "volume": "10",
+    "author": "A Criscuolo",
+    "year": "2010",
+    "unstructured": "Criscuolo A, Gribaldo S: BMGE (Block Mapping and Gathering with Entropy): selection of phylogenetic informative regions from multiple sequence alignments. BMC Evol Biol. 2010, 10: 210-10.1186/1471-2148-10-210.",
+    "journal-title": "BMC Evol Biol"
+   },
+   {
+    "key": "6608_CR74",
+    "doi-asserted-by": "publisher",
+    "first-page": "126",
+    "DOI": "10.1093/bioinformatics/btn575",
+    "volume": "25",
+    "author": "I Milne",
+    "year": "2008",
+    "unstructured": "Milne I, Lindner D, Bayer M, Husmeier D, McGuire G, Marshall DF, Wright F: TOPALi v2: a rich graphical interface for evolutionary analyses of multiple alignments on HPC clusters and multi-core desktops. Bioinformatics. 2008, 25: 126-127.",
+    "journal-title": "Bioinformatics"
+   }
+  ],
+  "container-title": [
+   "BMC Genomics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1186/1471-2164-15-907.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     9,
+     2
+    ]
+   ],
+   "date-time": "2021-09-02T06:26:07Z",
+   "timestamp": 1630563967000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-907"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2014,
+     10,
+     17
+    ]
+   ]
+  },
+  "references-count": 74,
+  "journal-issue": {
+   "issue": "1",
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      12
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "6608"
+  ],
+  "URL": "https://doi.org/10.1186/1471-2164-15-907",
+  "relation": {},
+  "ISSN": [
+   "1471-2164"
+  ],
+  "issn-type": [
+   {
+    "value": "1471-2164",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     10,
+     17
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "31 March 2014",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "24 September 2014",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "17 October 2014",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   }
+  ],
+  "article-number": "907"
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      23
+     ]
+    ],
+    "date-time": "2026-09-23T06:22:33Z",
+    "timestamp": 1790144553343,
+    "version": "4.0.1"
+   },
+   "reference-count": 74,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "1",
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "BMC Genomics"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      12
+     ]
+    ]
+   },
+   "DOI": "10.1186/1471-2164-15-907",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      17
+     ]
+    ],
+    "date-time": "2014-10-17T21:01:07Z",
+    "timestamp": 1413579667000
+   },
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 64,
+   "title": [
+    "A genome wide association scan for (1,3;1,4)-\u03b2-glucan content in the grain of contemporary 2-row Spring and Winter barleys"
+   ],
+   "prefix": "10.1186",
+   "volume": "15",
+   "author": [
+    {
+     "given": "Kelly",
+     "family": "Houston",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Joanne",
+     "family": "Russell",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Miriam",
+     "family": "Schreiber",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Claire",
+     "family": "Halpin",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Helena",
+     "family": "Oakey",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jennifer M",
+     "family": "Washington",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Allan",
+     "family": "Booth",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Neil",
+     "family": "Shirley",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Rachel A",
+     "family": "Burton",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Geoffrey B",
+     "family": "Fincher",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Robbie",
+     "family": "Waugh",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      17
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "6608_CR1",
+     "doi-asserted-by": "publisher",
+     "first-page": "1897",
+     "DOI": "10.1001/archinte.163.16.1897",
+     "volume": "163",
+     "author": "LA Bazzano",
+     "year": "2003",
+     "unstructured": "Bazzano LA, He J, Ogden LG, Loria CM, Whelton PK: Dietary fiber intake and reduced risk of coronary heart disease in US men and women: the National Health and Nutrition Examination Survey I Epidemiologic Follow-up Study. Arch Intern Med. 2003, 163: 1897-1904. 10.1001/archinte.163.16.1897.",
+     "journal-title": "Arch Intern Med"
+    },
+    {
+     "issue": "1",
+     "key": "6608_CR2",
+     "doi-asserted-by": "publisher",
+     "first-page": "94",
+     "DOI": "10.1016/j.ahj.2004.08.013",
+     "volume": "150",
+     "author": "AT Erkkil\u00e4",
+     "year": "2005",
+     "unstructured": "Erkkil\u00e4 AT, Herrington DM, Mozaffarian D, Lichtenstein AH: Cereal fiber and whole-grain intake are associated with reduced progression of coronary-artery atherosclerosis in postmenopausal women with coronary artery disease. Am Heart J. 2005, 150 (1): 94-101. 10.1016/j.ahj.2004.08.013.",
+     "journal-title": "Am Heart J"
+    },
+    {
+     "key": "6608_CR3",
+     "unstructured": "FDA Allows Barley Products to Claim Reduction in Risk of Coronary Heart Disease. http://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/2005/ucm108543.htm,"
+    },
+    {
+     "issue": "98",
+     "key": "6608_CR4",
+     "first-page": "29248",
+     "volume": "71",
+     "author": "Food and Drug Administration S. HH",
+     "year": "2006",
+     "unstructured": "Food and Drug Administration S. HH: Food labeling: health claims; soluble dietary fiber from certain foods and coronary heart disease. Final rule. Fed Regist. 2006, 71 (98): 29248-29250.",
+     "journal-title": "Fed Regist"
+    },
+    {
+     "issue": "159",
+     "key": "6608_CR5",
+     "first-page": "47828",
+     "volume": "73",
+     "author": "Food and Drug Administration S. HH",
+     "year": "2008",
+     "unstructured": "Food and Drug Administration S. HH: Food labeling: health claims; soluble fiber from certain foods and risk of coronary heart disease. Final rule. Fed Regist. 2008, 73 (159): 47828-47829.",
+     "journal-title": "Fed Regist"
+    },
+    {
+     "key": "6608_CR6",
+     "doi-asserted-by": "publisher",
+     "first-page": "141",
+     "DOI": "10.1007/s12571-011-0126-3",
+     "volume": "3",
+     "author": "AC Newton",
+     "year": "2011",
+     "unstructured": "Newton AC, Flavell AJ, George TS, Leat P, Mullholland B, Ramsay L, Giha CR, Russell J, Steffenson BJ, Swanston JS, Thomas WTB, Waugh R, White PJ, Bingham IJ: Crops that feed the world 4. Barley: a resilient crop? Strengths and weaknesses in the context of food security. Food Security. 2011, 3: 141-178. 10.1007/s12571-011-0126-3.",
+     "journal-title": "Food Security"
+    },
+    {
+     "key": "6608_CR7",
+     "doi-asserted-by": "publisher",
+     "first-page": "233",
+     "DOI": "10.1002/j.2050-0416.1978.tb03880.x",
+     "volume": "84",
+     "author": "MA Andersen",
+     "year": "1978",
+     "unstructured": "Andersen MA, Cook JA, Stone BA: Enzymatic determination of (1,3;1,4)-\u03b2-glucans in barley grain and other cereals. Inst Brew. 1978, 84: 233-239. 10.1002/j.2050-0416.1978.tb03880.x.",
+     "journal-title": "Inst Brew"
+    },
+    {
+     "key": "6608_CR8",
+     "first-page": "97",
+     "volume": "45",
+     "author": "M Havrlentova",
+     "year": "2006",
+     "unstructured": "Havrlentova M, Kraic J: Content of \u03b2-D-glucan in cereal grains. J Food Nutr Res. 2006, 45: 97-103.",
+     "journal-title": "J Food Nutr Res"
+    },
+    {
+     "key": "6608_CR9",
+     "unstructured": "Sustagrain \u00aeBarley. http://www.conagramills.com/media/Sustagrain%20Sell%20Sheet.pdf,"
+    },
+    {
+     "key": "6608_CR10",
+     "unstructured": "BARLEYmax\u2122: high fibre wholegrain with resistant starch. http://www.csiro.au/resources/BARLEYmax.html,"
+    },
+    {
+     "issue": "6\u20137",
+     "key": "6608_CR11",
+     "doi-asserted-by": "crossref",
+     "first-page": "921",
+     "DOI": "10.1007/BF00223901",
+     "volume": "91",
+     "author": "F Han",
+     "year": "1995",
+     "unstructured": "Han F, Ullrich SE, Chirat S, Menteur S, Jestin L, Sarrafi A, Hayes PM, Jones BL, Blake TK, Wesenberg DM, Kleinhofs A, Kilian A: Mapping of (1,3;1,4)-\u03b2-glucan content and \u03b2-glucanase activity loci in barley grain and malt. Theor Appl Genet. 1995, 91 (6\u20137): 921-927.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "5769",
+     "key": "6608_CR12",
+     "doi-asserted-by": "publisher",
+     "first-page": "1940",
+     "DOI": "10.1126/science.1122975",
+     "volume": "311",
+     "author": "RA Burton",
+     "year": "2006",
+     "unstructured": "Burton RA, Wilson SM, Hrmova M, Harvey AJ, Shirley NJ, Medhurst A, Stone BA, Newbigin EJ, Bacic A, Fincher GB: Cellulose Synthase-Like CslF Genes Mediate the Synthesis of Cell Wall (1\u20133;1\u20134)-\u00df-D-Glucans. Science. 2006, 311 (5769): 1940-1942. 10.1126/science.1122975.",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "14",
+     "key": "6608_CR13",
+     "doi-asserted-by": "publisher",
+     "first-page": "5996",
+     "DOI": "10.1073/pnas.0902019106",
+     "volume": "106",
+     "author": "MS Doblin",
+     "year": "2009",
+     "unstructured": "Doblin MS, Pettolino FA, Wilson SM, Campbell R, Burton RA, Fincher GB, Newbigin E, Bacic A: A barley cellulose synthase-like CSLH gene mediates (13;14)-beta-D-glucan synthesis in transgenic Arabidopsis. Proc Natl Acad Sci U S A. 2009, 106 (14): 5996-6001. 10.1073/pnas.0902019106.",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "key": "6608_CR14",
+     "volume-title": "PloS One",
+     "author": "M Schreiber",
+     "year": "2014",
+     "unstructured": "Schreiber M, Wright F, MacKenzie K, Hedley PE, Schwerdt JG, Little A, Burton RA, Fincher GB, Marshall D, Waugh R, Halpin C: The barley genome sequence assembly reveals three additional members of the CslF (1,3;1,4)-\u03b2-glucan synthase gene family. PloS One. 2014, doi:10.1371/journal.pone.0090888"
+    },
+    {
+     "key": "6608_CR15",
+     "doi-asserted-by": "publisher",
+     "first-page": "495",
+     "DOI": "10.1104/pp.124.2.495",
+     "volume": "124",
+     "author": "T Richmond",
+     "year": "2000",
+     "unstructured": "Richmond T, Somerville C: The cellulose synthase superfamily. Plant Physiol. 2000, 124: 495-498. 10.1104/pp.124.2.495.",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "issue": "2",
+     "key": "6608_CR16",
+     "doi-asserted-by": "publisher",
+     "first-page": "117",
+     "DOI": "10.1111/j.1467-7652.2010.00532.x",
+     "volume": "9",
+     "author": "RA Burton",
+     "year": "2011",
+     "unstructured": "Burton RA, Collins HM, Kibble NAJ, Smith JA, Shirley NJ, Jobling SA, Henderson M, Singh RR, Pettolino F, Wilson SM, Bird AR, Topping DL, Bacic A, Fincher GB: Over-expression of specific HvCslF cellulose synthase-like genes in transgenic barley increases the levels of cell wall (13;14)-\u03b2-D-glucans and alters their fine structure. Plant Biotechnol J. 2011, 9 (2): 117-135. 10.1111/j.1467-7652.2010.00532.x.",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "issue": "3",
+     "key": "6608_CR17",
+     "doi-asserted-by": "publisher",
+     "first-page": "211",
+     "DOI": "10.1007/s10142-007-0070-7",
+     "volume": "8",
+     "author": "B Clarke",
+     "year": "2008",
+     "unstructured": "Clarke B, Liang R, Morell MK, Bird AR, Jenkins CL, Li Z: Gene expression in a starch synthase IIa mutant of barley: changes in the level of gene transcription and grain composition. Funct Integr Genomics. 2008, 8 (3): 211-221. 10.1007/s10142-007-0070-7.",
+     "journal-title": "Funct Integr Genomics"
+    },
+    {
+     "key": "6608_CR18",
+     "doi-asserted-by": "publisher",
+     "first-page": "213",
+     "DOI": "10.1016/j.jcs.2004.07.006",
+     "volume": "40",
+     "author": "L Munck",
+     "year": "2004",
+     "unstructured": "Munck L, M\u00f8ller B, Jacobsen S, S\u00f8ndergaard I: Near infrared spectra indicate specific mutant endosperm genes and reveal a new mechanism for substituting starch with (1\u2009\u2192\u20093,1\u2009\u2192\u20094)-\u03b2-glucan in barley. J Cereal Sci. 2004, 40: 213-222. 10.1016/j.jcs.2004.07.006.",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "6608_CR19",
+     "doi-asserted-by": "publisher",
+     "first-page": "5033",
+     "DOI": "10.1093/jxb/ert292",
+     "volume": "64",
+     "author": "K Trafford",
+     "year": "2013",
+     "unstructured": "Trafford K, Haleux P, Henderson M, Parker M, Shirley NJ, Tucker MR, Fincher GB, Burton RA: Grain development in Brachypodium and other grasses: Interactions between cell expansion, starch deposition and cell wall synthesis. J. Exp Bot. 2013, 64: 5033-5047. 10.1093/jxb/ert292.",
+     "journal-title": "J. Exp Bot"
+    },
+    {
+     "key": "6608_CR20",
+     "doi-asserted-by": "publisher",
+     "first-page": "1001",
+     "DOI": "10.1093/jxb/erq332",
+     "volume": "62",
+     "author": "F Guillon",
+     "year": "2011",
+     "unstructured": "Guillon F, Bouchet B, Jamme F, Robert P, Quemener B, Barron C, Larre C, Dumas P, Saulnier L: Brachypodium distachyon grain: characterization of endosperm cell walls. J Exp Bot. 2011, 62: 1001-1015. 10.1093/jxb/erq332.",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "key": "6608_CR21",
+     "doi-asserted-by": "publisher",
+     "first-page": "544",
+     "DOI": "10.1007/s00122-002-0954-9",
+     "volume": "105",
+     "author": "D Hoffman",
+     "year": "2002",
+     "unstructured": "Hoffman D, Dahleen L: Markers polymorphic among malting barley (Hordeum vulgareL.) cultivars of a narrow gene pool associated with key QTLs. Theor Appl Genet. 2002, 105: 544-554. 10.1007/s00122-002-0954-9.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "3",
+     "key": "6608_CR22",
+     "doi-asserted-by": "publisher",
+     "first-page": "275",
+     "DOI": "10.1007/s11032-006-9075-5",
+     "volume": "19",
+     "author": "J-L Molina-Cano",
+     "year": "2007",
+     "unstructured": "Molina-Cano J-L, Moralejo M, El\u00eda M, Mu\u00f1oz P, Russell JR, P\u00e9rez-Vendrell AM, Ciudad F, Swanston JS: QTL analysis of a cross between European and North American malting barleys reveals a putative candidate gene for (1,3;1,4)-\u03b2-glucan content on chromosome 1H. Mol Breed. 2007, 19 (3): 275-284. 10.1007/s11032-006-9075-5.",
+     "journal-title": "Mol Breed"
+    },
+    {
+     "issue": "3",
+     "key": "6608_CR23",
+     "doi-asserted-by": "crossref",
+     "first-page": "461",
+     "DOI": "10.1007/BF00251188",
+     "volume": "71",
+     "author": "W Powell",
+     "year": "1985",
+     "unstructured": "Powell W, Caligari PDS, Swanston JS, Jinks JL: Genetical investigations into (1,3;1,4)-\u03b2-glucan content in barley. Theor Appl Genet. 1985, 71 (3): 461-466.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "6608_CR24",
+     "doi-asserted-by": "publisher",
+     "first-page": "269",
+     "DOI": "10.1016/S0733-5210(86)80029-7",
+     "volume": "4",
+     "author": "RJ Henry",
+     "year": "1986",
+     "unstructured": "Henry RJ: Genetic and environmental variation in the pentosan and (1,3;1,4)-\u03b2-glucan contents of barley and their relation to malting quality. J Cereal Sci. 1986, 4: 269-277. 10.1016/S0733-5210(86)80029-7.",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "issue": "31",
+     "key": "6608_CR25",
+     "doi-asserted-by": "publisher",
+     "first-page": "217",
+     "DOI": "10.1146/annurev.ecolsys.31.1.217",
+     "volume": "2000",
+     "author": "EA Kellogg",
+     "year": "2000",
+     "unstructured": "Kellogg EA: The grasses: A Case Study in Macroevolution. Annu Rev Ecol Syst. 2000, 2000 (31): 217-238.",
+     "journal-title": "Annu Rev Ecol Syst"
+    },
+    {
+     "issue": "41",
+     "key": "6608_CR26",
+     "doi-asserted-by": "publisher",
+     "first-page": "16675",
+     "DOI": "10.1073/pnas.1311681110",
+     "volume": "110",
+     "author": "K Houston",
+     "year": "2013",
+     "unstructured": "Houston K, McKim SM, Comadran J, Bonar N, Druka I, Uzrek N, Cirillo E, Guzy-Wrobelska J, Collins N, Halpin C, Hansson M, Dockter C, Druka A, Waugh R: Variation in the interaction between alleles of HvAPETALA2 and microRNA172 determines the density of grains on the barley inflorescence. Proc Natl Acad Sci U S A. 2013, 110 (41): 16675-16680. 10.1073/pnas.1311681110.",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "key": "6608_CR27",
+     "doi-asserted-by": "publisher",
+     "first-page": "1388",
+     "DOI": "10.1038/ng.2447",
+     "volume": "44",
+     "author": "J Comadran",
+     "year": "2012",
+     "unstructured": "Comadran J, Kilian B, Russell J, Ramsay L, Stein N, Ganal MW, Shaw P, Bayer M, Thomas WT, Marshall D, Hedley P, Tondelli A, Pecchioni N, Francia E, Korzun V, Walther A, Waugh R: Natural variation in a homolog of Antirrhinum CENTRORADIALIS contributed to spring growth habit and environmental adaptation in cultivated barley. Nat Genet. 2012, 44: 1388-1392. 10.1038/ng.2447.",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "key": "6608_CR28",
+     "doi-asserted-by": "publisher",
+     "first-page": "169",
+     "DOI": "10.1038/ng.745",
+     "volume": "43",
+     "author": "L Ramsay",
+     "year": "2011",
+     "unstructured": "Ramsay L, Comadran J, Druka A, Marshall DF, Thomas WT, Macaulay M, MacKenzie K, Simpson C, Fuller J, Bonar N, Hayes PM, Lundqvist U, Franckowiak JD, Close TJ, Muehlbauer GJ, Waugh R: INTERMEDIUM-C, a modifier of lateral spikelet fertility in barley, is an ortholog of the maize domestication gene TEOSINTE BRANCHED 1. Nat. Genet. 2011, 43: 169-172. 10.1038/ng.745.",
+     "journal-title": "Nat. Genet"
+    },
+    {
+     "issue": "2",
+     "key": "6608_CR29",
+     "doi-asserted-by": "publisher",
+     "first-page": "332",
+     "DOI": "10.1016/j.jcs.2012.02.003",
+     "volume": "56",
+     "author": "AT Cory",
+     "year": "2012",
+     "unstructured": "Cory AT, Baga M, Anyia A, Rossnagel BG, Chibbar RN: Genetic markers for ClsF6 gene associated with (1,3;1,4)-\u03b2-glucan concentration in barley grain. J Cereal Sci. 2012, 56 (2): 332-339. 10.1016/j.jcs.2012.02.003.",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "6608_CR30",
+     "doi-asserted-by": "publisher",
+     "first-page": "381",
+     "DOI": "10.1093/jxb/err285",
+     "volume": "63",
+     "author": "S Taketa",
+     "year": "2012",
+     "unstructured": "Taketa S, Yuo T, Tonooka T, Tsumuraya Y, Inagaki Y, Haruyama N, Larroque O, Jobling SA: Functional characterization of barley betaglucanless mutants demonstrates a unique role for CslF6 in (1,3;1,4)-{beta}-D-glucan biosynthesis. J Exp Bot. 2012, 63: 381-392. 10.1093/jxb/err285.",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "issue": "7426",
+     "key": "6608_CR31",
+     "doi-asserted-by": "crossref",
+     "first-page": "711",
+     "DOI": "10.1038/nature11543",
+     "volume": "491",
+     "author": "IBSC",
+     "year": "2012",
+     "unstructured": "IBSC: A physical genetic and functional sequence assembly of the barley genome. Nature. 2012, 491 (7426): 711-716.",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "6608_CR32",
+     "doi-asserted-by": "publisher",
+     "first-page": "713",
+     "DOI": "10.1016/j.phytochem.2009.04.002",
+     "volume": "70",
+     "author": "MS Schober",
+     "year": "2009",
+     "unstructured": "Schober MS, Burton RA, Shirley NJ, Jacobs AK, Fincher GB: Analysis of the (1,3)-b-D-glucan synthase gene family of barley. Phytochemistry. 2009, 70: 713-720. 10.1016/j.phytochem.2009.04.002.",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "6608_CR33",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Mohammadi M, Endelman JB, Nair S, Chao S, Jones SS, Muehlbauer GJ, Ullrich SE, Baik BK, Wise ML, Smith KP: Association mapping of grain hardness, polyphenol oxidase, total phenolics, amylose content, and \u03b2-glucan in US barley breeding germplasm. Mol Breeding. doi:10.1007/s11032-014-0112-5",
+     "DOI": "10.1007/s11032-014-0112-5"
+    },
+    {
+     "key": "6608_CR34",
+     "doi-asserted-by": "publisher",
+     "first-page": "1821",
+     "DOI": "10.1104/pp.107.114694",
+     "volume": "146",
+     "author": "RA Burton",
+     "year": "2008",
+     "unstructured": "Burton RA, Jobling SA, Harvey AJ, Shirley NJ, Mather DE, Bacic A, Fincher GB: The Genetics and Transcriptional Profiles of the Cellulose Synthase-Like HvCslF Gene Family in Barley. Plant Physiol. 2008, 146: 1821-1833. 10.1104/pp.107.114694.",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "issue": "3",
+     "key": "6608_CR35",
+     "doi-asserted-by": "publisher",
+     "first-page": "647",
+     "DOI": "10.1016/j.jcs.2008.02.004",
+     "volume": "48",
+     "author": "J Li",
+     "year": "2008",
+     "unstructured": "Li J, Baga M, Rossnagel BG, Legge WG, Chibbar RN: Identification of quantitative trait loci for (1,3;1,4)-\u03b2-glucan concentration in barley grain. J Cereal Sci. 2008, 48 (3): 647-655. 10.1016/j.jcs.2008.02.004.",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "6608_CR36",
+     "doi-asserted-by": "publisher",
+     "first-page": "134",
+     "DOI": "10.3835/plantgenome2008.01.0005",
+     "volume": "2",
+     "author": "P Szucs",
+     "year": "2009",
+     "unstructured": "Szucs P, Blake VC, Bhat PR, Close TJ, Cuesta-Marcos A, Muehlbauer GJ, Ramsay LV, Waugh R, Hayes PM: An Integrated Resource for Barley Linkage Map and Malting Quality QTL Alignment. Plant Gen. 2009, 2: 134-140. 10.3835/plantgenome2008.01.0005.",
+     "journal-title": "Plant Gen"
+    },
+    {
+     "key": "6608_CR37",
+     "doi-asserted-by": "publisher",
+     "first-page": "95",
+     "DOI": "10.1038/nrg1521",
+     "volume": "6",
+     "author": "JN Hirschhorn",
+     "year": "2005",
+     "unstructured": "Hirschhorn JN, Daly MJD: Genome-wide association studies for common diseases and complex traits. Nat Rev Genet. 2005, 6: 95-108.",
+     "journal-title": "Nat Rev Genet"
+    },
+    {
+     "issue": "2",
+     "key": "6608_CR38",
+     "doi-asserted-by": "publisher",
+     "first-page": "57",
+     "DOI": "10.1016/j.tplants.2006.12.001",
+     "volume": "12",
+     "author": "I Mackay",
+     "year": "2007",
+     "unstructured": "Mackay I, Powell W: Methods for linkage disequilibrium mapping in crops. Trends Plant Sci. 2007, 12 (2): 57-63. 10.1016/j.tplants.2006.12.001.",
+     "journal-title": "Trends Plant Sci"
+    },
+    {
+     "issue": "2",
+     "key": "6608_CR39",
+     "doi-asserted-by": "publisher",
+     "first-page": "218",
+     "DOI": "10.1016/j.pbi.2008.12.007",
+     "volume": "12",
+     "author": "R Waugh",
+     "year": "2009",
+     "unstructured": "Waugh R, Jannink JL, Muehlbauer GJ, Ramsay L: The emergence of whole genome association scans in barley. Curr Opin Plant Biol. 2009, 12 (2): 218-222. 10.1016/j.pbi.2008.12.007.",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "key": "6608_CR40",
+     "doi-asserted-by": "publisher",
+     "first-page": "15",
+     "DOI": "10.1007/s11032-012-9764-1",
+     "volume": "31",
+     "author": "E Islamovic",
+     "year": "2013",
+     "unstructured": "Islamovic E, Obert DE, Oliver RE, Harrison SA, Ibrahim A, Marshall JM, Miclaus KJ Hu G, Jackson EW: Genetic dissection of grain beta-glucan and amylose content in barley (Hordeum vulgare L.). Mol Breeding. 2013, 31: 15-25. 10.1007/s11032-012-9764-1.",
+     "journal-title": "Mol Breeding"
+    },
+    {
+     "key": "6608_CR41",
+     "doi-asserted-by": "publisher",
+     "first-page": "9353",
+     "DOI": "10.1073/pnas.92.20.9353",
+     "volume": "92",
+     "author": "Y Amor",
+     "year": "1995",
+     "unstructured": "Amor Y, Haigler CH, Johnson S, Wainscott M, Delmer DP: A membrane associated form of sucrose synthase and its potential role in synthesis of cellulose and callose in plants. Proc Natl Acad Sci USA. 1995, 92: 9353-9357. 10.1073/pnas.92.20.9353.",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "6608_CR42",
+     "doi-asserted-by": "publisher",
+     "first-page": "1105",
+     "DOI": "10.1104/pp.120.4.1105",
+     "volume": "120",
+     "author": "MS Buckeridge",
+     "year": "1999",
+     "unstructured": "Buckeridge MS, Vergara CE, Carpita NC: Mechanism of synthesis of a cereal mixed-linkage (1\u20133;1\u20134)- \u00df -d-glucan: evidence for multiple sites of glucosyl transfer in the synthase complex. Plant Physiol. 1999, 120: 1105-1116. 10.1104/pp.120.4.1105.",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "issue": "2",
+     "key": "6608_CR43",
+     "doi-asserted-by": "publisher",
+     "first-page": "758",
+     "DOI": "10.1104/pp.103.032011",
+     "volume": "134",
+     "author": "BR Urbanowicz",
+     "year": "2004",
+     "unstructured": "Urbanowicz BR, Rayon C, Carpita NC: Topology of the Maize Mixed Linkage (1\u20133;1\u20134)- \u03b2 \u2013D Glucan Synthase at the Golgi Membrane. Plant Physiol. 2004, 134 (2): 758-768. 10.1104/pp.103.032011.",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "6608_CR44",
+     "doi-asserted-by": "publisher",
+     "first-page": "43",
+     "DOI": "10.1111/j.1439-0523.1996.tb00869.x",
+     "volume": "115",
+     "author": "A Oziel",
+     "year": "1996",
+     "unstructured": "Oziel A, Hayes PM, Chen FQ, Jones B: Application of quantitative trait locus mapping to the development of winter-habit malting barley. Plant Breeding. 1996, 115: 43-51. 10.1111/j.1439-0523.1996.tb00869.x.",
+     "journal-title": "Plant Breeding"
+    },
+    {
+     "key": "6608_CR45",
+     "doi-asserted-by": "publisher",
+     "first-page": "858",
+     "DOI": "10.1071/AR06203",
+     "volume": "58",
+     "author": "JH Panozzo",
+     "year": "2007",
+     "unstructured": "Panozzo JH, Eckermann PJ, Mather DE, Moody DB, Black CK, Collins HM, Barr AR, Lim P, Cullis BR: QTL analysis of malting quality traits in two barley populations. Aust J Agric Res. 2007, 58: 858-866. 10.1071/AR06203.",
+     "journal-title": "Aust J Agric Res"
+    },
+    {
+     "key": "6608_CR46",
+     "volume-title": "J Cereal Sci",
+     "author": "G Hu",
+     "year": "2014",
+     "unstructured": "Hu G, Burton C, Hong Z, Jackson E: A mutation of the cellulose-synthase-like (CslF6) gene in barley (Hordeum vulgare L.) partially affects the \u03b2 -glucan content in grains. J Cereal Sci. 2014, doi:10.1016/j.jcs.2013.12.009"
+    },
+    {
+     "issue": "3",
+     "key": "6608_CR47",
+     "first-page": "283",
+     "volume": "98",
+     "author": "I Mezaka",
+     "year": "2011",
+     "unstructured": "Mezaka I, Bleidere M, Legzdina L, Rostoks N: Whole genome association mapping identifies naked grain locus NUD as determinant of (1,3;1,4)-\u03b2-glucan content in barley. \u017demdirbyst\u0117- Agriculture. 2011, 98 (3): 283-292.",
+     "journal-title": "\u017demdirbyst\u0117- Agriculture"
+    },
+    {
+     "key": "6608_CR48",
+     "doi-asserted-by": "publisher",
+     "first-page": "582",
+     "DOI": "10.1186/1471-2164-10-582",
+     "volume": "10",
+     "author": "TJ Close",
+     "year": "2009",
+     "unstructured": "Close TJ, Bhat PR, Lonardi S, Wu Y, Rostoks N, Ramsay L, Druka A, Stein N, Svensson JT, Wanamaker S, Bozdag S, Roose ML, Moscou MJ, Chao S, Varshney RK, Szucs P, Sato K, Hayes PM, Matthews DE, Kleinhofs A, Muehlbauer GJ, DeYoung J, Marshall DF, Madishetty K, Fenton RD, Condamine P, Graner A, Waugh R: Development and implementation of high-throughput SNP genotyping in barley. BMC Genomics. 2009, 10: 582-10.1186/1471-2164-10-582.",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "issue": "6",
+     "key": "6608_CR49",
+     "doi-asserted-by": "publisher",
+     "first-page": "563",
+     "DOI": "10.1111/pbr.12086",
+     "volume": "132",
+     "author": "Y Chutimanitsakun",
+     "year": "2013",
+     "unstructured": "Chutimanitsakun Y, Cuesta-Marcos A, Chao S, Corey A, Filichkin T, Fisk S, Kolding M, Meints B, Ong Y-L, Rey JI, Ross AS, Hayes PM: Application of marker-assisted selection and genome-wide association scanning to the development of winter food barley germplasm resources. Plant Breeding. 2013, 132 (6): 563-570. 10.1111/pbr.12086.",
+     "journal-title": "Plant Breeding"
+    },
+    {
+     "key": "6608_CR50",
+     "doi-asserted-by": "publisher",
+     "first-page": "161",
+     "DOI": "10.1006/jcrs.1996.0049",
+     "volume": "24",
+     "author": "M Oscarsson",
+     "year": "1996",
+     "unstructured": "Oscarsson M, Andersson R, Salomonsson AC, Aman P: Chemical composition of barley samples focusing on dietary fiber components. J Cereal Sci. 1996, 24: 161-169. 10.1006/jcrs.1996.0049.",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "6608_CR51",
+     "doi-asserted-by": "publisher",
+     "first-page": "71",
+     "DOI": "10.1016/0003-9861(64)90157-2",
+     "volume": "106",
+     "author": "WW Luchsinger",
+     "year": "1964",
+     "unstructured": "Luchsinger WW, Chen SC: The mechanism of action of malt \u03b2-glucanases: VI. Hydrolysis of barley \u03b2-d-glucan by endo-\u03b2-glucanases from germinated barley. Arch Biochem Biophys. 1964, 106: 71-77.",
+     "journal-title": "Arch Biochem Biophys"
+    },
+    {
+     "issue": "1\u20132",
+     "key": "6608_CR52",
+     "doi-asserted-by": "publisher",
+     "first-page": "67",
+     "DOI": "10.1016/S0141-8130(97)00043-3",
+     "volume": "21",
+     "author": "M Hrmova",
+     "year": "1997",
+     "unstructured": "Hrmova M, Banik M, Harvey AJ, Garrett T, Varghese J, H\u00f8j P, Fincher GB: Polysaccharide hydrolases in germinated barley and their role in the depolymerization of plant and fungal cell walls. Int J Biol Macromol. 1997, 21 (1\u20132): 67-72.",
+     "journal-title": "Int J Biol Macromol"
+    },
+    {
+     "issue": "17",
+     "key": "6608_CR53",
+     "doi-asserted-by": "publisher",
+     "first-page": "12951",
+     "DOI": "10.1074/jbc.M611487200",
+     "volume": "282",
+     "author": "M Hrmova",
+     "year": "2007",
+     "unstructured": "Hrmova M, Farkas V, Lahnstein J, Fincher GB: A barley xyloglucan xyloglucosyl transferase covalently links xyloglucan, cellulosic substrates, and (1,3;1,4)-\u03b2-D-glucans. J Biol Chem. 2007, 282 (17): 12951-12962. 10.1074/jbc.M611487200.",
+     "journal-title": "J Biol Chem"
+    },
+    {
+     "key": "6608_CR54",
+     "doi-asserted-by": "publisher",
+     "first-page": "140",
+     "DOI": "10.1016/j.pbi.2009.01.002",
+     "volume": "12",
+     "author": "GB Fincher",
+     "year": "2009",
+     "unstructured": "Fincher GB: Exploring the evolution of (1,3;1,4)-b-D-glucans in plant cell walls: comparative genomics can help!. Curr Opin Plant Biol. 2009, 12: 140-147. 10.1016/j.pbi.2009.01.002.",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "key": "6608_CR55",
+     "doi-asserted-by": "publisher",
+     "first-page": "663",
+     "DOI": "10.1111/j.1432-1033.1982.tb05837.x",
+     "volume": "121",
+     "author": "JR Woodward",
+     "year": "1982",
+     "unstructured": "Woodward JR, Fincher GB: Purification and chemical properties of two 1,3;1,4-beta-glucan endohydrolases from germinating barley. Eur J Biochem. 1982, 121: 663-10.1111/j.1432-1033.1982.tb05837.x.",
+     "journal-title": "Eur J Biochem"
+    },
+    {
+     "key": "6608_CR56",
+     "doi-asserted-by": "publisher",
+     "first-page": "309",
+     "DOI": "10.1042/bj2800309",
+     "volume": "280",
+     "author": "B Henrissat",
+     "year": "1991",
+     "unstructured": "Henrissat B: A classification of glycosyl hydrolases based on amino acid sequence similarities. Biochem J. 1991, 280: 309-316.",
+     "journal-title": "Biochem J"
+    },
+    {
+     "key": "6608_CR57",
+     "doi-asserted-by": "publisher",
+     "first-page": "730",
+     "DOI": "10.1111/j.1365-313X.2003.02000.x",
+     "volume": "37",
+     "author": "PM Szyjanowicz",
+     "year": "2004",
+     "unstructured": "Szyjanowicz PM, McKinnon I, Taylor NG, Gardiner J, Jarvis MC, Turner SR: The irregular xylem 2 mutant is an allele of korrigan that affects the secondary cell wall of Arabidopsis thaliana. Plant J. 2004, 37: 730-740. 10.1111/j.1365-313X.2003.02000.x.",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "6608_CR58",
+     "doi-asserted-by": "publisher",
+     "first-page": "145",
+     "DOI": "10.1111/j.1467-7652.2005.00169.x",
+     "volume": "4",
+     "author": "N Farrokhi",
+     "year": "2006",
+     "unstructured": "Farrokhi N, Burton RA, Brownfield L, Hrmova M, Wilson SM, Bacic A, Fincher GB: Plant cell wall biosynthesis: genetic, biochemical and functional genomics approaches to the identification of key genes. Plant Biotechnol J. 2006, 4: 145-167. 10.1111/j.1467-7652.2005.00169.x.",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "key": "6608_CR59",
+     "doi-asserted-by": "publisher",
+     "first-page": "D233",
+     "DOI": "10.1093/nar/gkn663",
+     "volume": "37",
+     "author": "BL Cantarel",
+     "year": "2009",
+     "unstructured": "Cantarel BL, Coutinho PM, Rancurel C, Bernard T, Lombard V, Henrissat B: The Carbohydrate-Active EnZymes database (CAZy): an expert resource for glycogenomics. Nucleic Acids Res. 2009, 37: D233-D238. 10.1093/nar/gkn663.",
+     "journal-title": "Nucleic Acids Res"
+    },
+    {
+     "key": "6608_CR60",
+     "doi-asserted-by": "publisher",
+     "first-page": "103",
+     "DOI": "10.1111/j.1432-1033.1992.tb17266.x",
+     "volume": "209",
+     "author": "J Wang",
+     "year": "1992",
+     "unstructured": "Wang J, Xu P, Fincher GB: Purification, characterization and gene structure of (1\u2009\u2192\u20093)-\u03b2-glucanase isoenzyme GIII from barley (Hordeum vulgare). Eur J Biochem. 1992, 209: 103-109. 10.1111/j.1432-1033.1992.tb17266.x.",
+     "journal-title": "Eur J Biochem"
+    },
+    {
+     "key": "6608_CR61",
+     "doi-asserted-by": "publisher",
+     "first-page": "1947",
+     "DOI": "10.1105/tpc.107.051391",
+     "volume": "19",
+     "author": "MJ Baumann",
+     "year": "2007",
+     "unstructured": "Baumann MJ, Ekl\u00f6f JM, Michel G, Kallas AM, Teeri TT, Czjzek M, Brumer H: Structural evidence for the evolution of xyloglucanase activity from xyloglucan endo-transglycosylases: biological implications for cell wall metabolism. Plant Cell. 2007, 19: 1947-1963. 10.1105/tpc.107.051391.",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "6608_CR62",
+     "doi-asserted-by": "publisher",
+     "first-page": "724",
+     "DOI": "10.1038/nchembio.439",
+     "volume": "6",
+     "author": "RA Burton",
+     "year": "2010",
+     "unstructured": "Burton RA, Gidley MJ, Fincher GB: Heterogeneity in the chemistry, structure and function of plant cell walls. Nat Chem Biol. 2010, 6: 724-732. 10.1038/nchembio.439.",
+     "journal-title": "Nat Chem Biol"
+    },
+    {
+     "issue": "12\u201313",
+     "key": "6608_CR63",
+     "doi-asserted-by": "publisher",
+     "first-page": "1613",
+     "DOI": "10.1016/j.carres.2007.05.013",
+     "volume": "342",
+     "author": "M Hrmova",
+     "year": "2007",
+     "unstructured": "Hrmova M, Fincher GB: Dissecting the catalytic mechanism of a plant \u03b2-d-glucan glucohydrolase through structural biology using inhibitors and substrate analogues. Carbohydr Res. 2007, 342 (12\u201313): 1613-1623.",
+     "journal-title": "Carbohydr Res"
+    },
+    {
+     "key": "6608_CR64",
+     "first-page": "109",
+     "volume": "41",
+     "author": "BA Stone",
+     "year": "2011",
+     "unstructured": "Stone BA, Jacobs AK, Hrmova M, Burton RA, Fincher GB: The Biosynthesis of Plant Cell Wall and Related Polysaccharides by Enzymes of the GT2 and GT48 Families. Annual Plant Reviews. 2011, 41: 109-166.",
+     "journal-title": "Annual Plant Reviews"
+    },
+    {
+     "key": "6608_CR65",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/S1161-0301(98)00043-4",
+     "volume": "10",
+     "author": "NO Bertholdsson",
+     "year": "1999",
+     "unstructured": "Bertholdsson NO: Characterization of malting barley cultivars with more or less stable grain protein content under varying environmental conditions. Eur J Agron. 1999, 10: 1-8. 10.1016/S1161-0301(98)00043-4.",
+     "journal-title": "Eur J Agron"
+    },
+    {
+     "issue": "12",
+     "key": "6608_CR66",
+     "doi-asserted-by": "publisher",
+     "first-page": "1103",
+     "DOI": "10.1071/AR02194",
+     "volume": "54",
+     "author": "SJ Coventry",
+     "year": "2003",
+     "unstructured": "Coventry SJ, Barr AR, Eglinton JK, McDonald GK: The determinants and genome locations influencing grain weight and size in barley (Hordeum vulgare L.). Aust J Agr Res. 2003, 54 (12): 1103-1115. 10.1071/AR02194.",
+     "journal-title": "Aust J Agr Res"
+    },
+    {
+     "key": "6608_CR67",
+     "volume-title": "Diversity in barley",
+     "author": "PM Hayes",
+     "year": "2003",
+     "unstructured": "Hayes PM, Castro A, Marquez-Cedillo L, Corey A, Henson C, Jones BL, Kling D, Mather D, Matus I, Rossi C, Sato K, et al: Genetic diversity for quantitatively inherited agronomic and malting quality traits. Diversity in barley. Edited by: Von Bothmer R. 2003, Amsterdam: Elsevier Science Publishers"
+    },
+    {
+     "issue": "3",
+     "key": "6608_CR68",
+     "doi-asserted-by": "publisher",
+     "first-page": "305",
+     "DOI": "10.1016/j.pbi.2009.12.009",
+     "volume": "13",
+     "author": "M Pauly",
+     "year": "2010",
+     "unstructured": "Pauly M, Keegstra K: Plant cell walls as precursors for biofuels. Curr Opin Plant Biol. 2010, 13 (3): 305-312.",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "key": "6608_CR69",
+     "doi-asserted-by": "crossref",
+     "first-page": "945",
+     "DOI": "10.1093/genetics/155.2.945",
+     "volume": "155",
+     "author": "JK Pritchard",
+     "year": "2000",
+     "unstructured": "Pritchard JK, Stephens M, Donnelly P: Inference of population structure using multilocus genotype data. Genetics. 2000, 155: 945-959.",
+     "journal-title": "Genetics"
+    },
+    {
+     "key": "6608_CR70",
+     "volume-title": "qvalue: Q-value estimation for false discovery rate control",
+     "author": "A Dabney",
+     "year": "2010",
+     "unstructured": "Dabney A, Storey JD, Warnes GR: qvalue: Q-value estimation for false discovery rate control. 2010, R package version 1.38.0"
+    },
+    {
+     "key": "6608_CR71",
+     "doi-asserted-by": "publisher",
+     "first-page": "1249",
+     "DOI": "10.1105/tpc.110.082537",
+     "volume": "23",
+     "author": "KF Mayer",
+     "year": "2011",
+     "unstructured": "Mayer KF, Martis M, Hedley PE, Simkova H, Liu H, Morris JA, Steuernagel B, Taudien S, Roessner S, Gundlach H, Kubal\u00e1kov\u00e1 M, Such\u00e1nkov\u00e1 P, Murat F, Felder M, Nussbaumer T, Graner A, Salse J, Endo T, Sakai H, Tanaka T, Itoh T, Sato K, Platzer M, Matsumoto T, Scholz U, Dolezel J, Waugh R, Stein N: Unlocking the barley genome by chromosomal and comparative genomics. Plant Cell. 2011, 23: 1249-1263. 10.1105/tpc.110.082537.",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "issue": "10",
+     "key": "6608_CR72",
+     "doi-asserted-by": "publisher",
+     "first-page": "2731",
+     "DOI": "10.1093/molbev/msr121",
+     "volume": "28",
+     "author": "K Tamura",
+     "year": "2011",
+     "unstructured": "Tamura K, Peterson D, Peterson N, Stecher G, Nei M, Kumar S: MEGA5: Molecular Evolutionary Genetics Analysis Using Maximum Likelihood Evolutionary Distance and Maximum Parsimony Methods. Mol Biol Evol. 2011, 28 (10): 2731-2739. 10.1093/molbev/msr121.",
+     "journal-title": "Mol Biol Evol"
+    },
+    {
+     "key": "6608_CR73",
+     "doi-asserted-by": "publisher",
+     "first-page": "210",
+     "DOI": "10.1186/1471-2148-10-210",
+     "volume": "10",
+     "author": "A Criscuolo",
+     "year": "2010",
+     "unstructured": "Criscuolo A, Gribaldo S: BMGE (Block Mapping and Gathering with Entropy): selection of phylogenetic informative regions from multiple sequence alignments. BMC Evol Biol. 2010, 10: 210-10.1186/1471-2148-10-210.",
+     "journal-title": "BMC Evol Biol"
+    },
+    {
+     "key": "6608_CR74",
+     "doi-asserted-by": "publisher",
+     "first-page": "126",
+     "DOI": "10.1093/bioinformatics/btn575",
+     "volume": "25",
+     "author": "I Milne",
+     "year": "2008",
+     "unstructured": "Milne I, Lindner D, Bayer M, Husmeier D, McGuire G, Marshall DF, Wright F: TOPALi v2: a rich graphical interface for evolutionary analyses of multiple alignments on HPC clusters and multi-core desktops. Bioinformatics. 2008, 25: 126-127.",
+     "journal-title": "Bioinformatics"
+    }
+   ],
+   "container-title": [
+    "BMC Genomics"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1186/1471-2164-15-907.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      9,
+      2
+     ]
+    ],
+    "date-time": "2021-09-02T06:26:07Z",
+    "timestamp": 1630563967000
+   },
+   "score": 52.46459,
+   "resource": {
+    "primary": {
+     "URL": "https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-907"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      17
+     ]
+    ]
+   },
+   "references-count": 74,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2014,
+       12
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "6608"
+   ],
+   "URL": "https://doi.org/10.1186/1471-2164-15-907",
+   "ISSN": [
+    "1471-2164"
+   ],
+   "issn-type": [
+    {
+     "value": "1471-2164",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      17
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "31 March 2014",
+     "order": 1,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "24 September 2014",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "17 October 2014",
+     "order": 3,
+     "name": "first_online",
+     "label": "First Online",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    }
+   ],
+   "article-number": "907"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      11
+     ]
+    ],
+    "date-time": "2025-10-11T08:21:40Z",
+    "timestamp": 1760170900758
+   },
+   "reference-count": 24,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "1",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "BMC Genomics"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2014
+     ]
+    ]
+   },
+   "DOI": "10.1186/1471-2164-15-358",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      5,
+      12
+     ]
+    ],
+    "date-time": "2014-05-12T11:02:44Z",
+    "timestamp": 1399892564000
+   },
+   "page": "358",
+   "source": "Crossref",
+   "is-referenced-by-count": 8,
+   "title": [
+    "A new association test based on disease allele selection for case\u2013control genome-wide association studies"
+   ],
+   "prefix": "10.1186",
+   "volume": "15",
+   "author": [
+    {
+     "given": "Zhongxue",
+     "family": "Chen",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "reference": [
+    {
+     "key": "-",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/3001616"
+    },
+    {
+     "key": "-",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/3001775"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.0006-341X.1999.00883.x"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B6",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1159/000064976"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/gepi.20299"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2533494"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nature05616"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1159/000053370"
+    },
+    {
+     "key": "-",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/bimj.200390016"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/biostatistics/kxm039"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1541-0420.2008.01187.x"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/sim.2350"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/497434"
+    },
+    {
+     "key": "-",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.spl.2013.04.021"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B19",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1159/000334719"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.gene.2012.07.089"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/gepi.20615"
+    },
+    {
+     "key": "-",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/01621459.1966.10482185"
+    },
+    {
+     "key": "-",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/01621459.1985.10478127"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1541-0420.2009.01241.x"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/ana.22321"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B28",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/sim.4222"
+    },
+    {
+     "key": "10.1186/1471-2164-15-358-B29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1420-9101.2010.02226.x"
+    },
+    {
+     "key": "-",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.csda.2003.11.020"
+    }
+   ],
+   "container-title": [
+    "BMC Genomics"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2016,
+      5,
+      16
+     ]
+    ],
+    "date-time": "2016-05-16T13:20:13Z",
+    "timestamp": 1463404813000
+   },
+   "score": 45.037773,
+   "resource": {
+    "primary": {
+     "URL": "http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-358"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014
+     ]
+    ]
+   },
+   "references-count": 24,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2014
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "1471-2164-15-358"
+   ],
+   "URL": "https://doi.org/10.1186/1471-2164-15-358",
+   "ISSN": [
+    "1471-2164"
+   ],
+   "issn-type": [
+    {
+     "value": "1471-2164",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      16
+     ]
+    ],
+    "date-time": "2026-07-16T19:21:39Z",
+    "timestamp": 1784229699513,
+    "version": "3.55.0"
+   },
+   "reference-count": 89,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        12,
+        28
+       ]
+      ],
+      "date-time": "2025-12-28T00:00:00Z",
+      "timestamp": 1766880000000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2026,
+        1,
+        30
+       ]
+      ],
+      "date-time": "2026-01-30T00:00:00Z",
+      "timestamp": 1769731200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 33,
+     "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "BMC Genomics"
+   ],
+   "DOI": "10.1186/s12864-025-12354-7",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      28
+     ]
+    ],
+    "date-time": "2025-12-28T01:52:27Z",
+    "timestamp": 1766886747000
+   },
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 3,
+   "title": [
+    "Genome-wide association study (GWAS) and transcription analysis of candidate genes for rice grain eating and cooking quality (ECQ) traits"
+   ],
+   "prefix": "10.1186",
+   "volume": "27",
+   "author": [
+    {
+     "given": "Fatemeh",
+     "family": "Farzad Amirebrahimi",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Abbas",
+     "family": "Saidi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-5100-9740",
+     "authenticated-orcid": false,
+     "given": "Asadollah",
+     "family": "Ahmadikhah",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "12354_CR1",
+     "unstructured": "Food and Agriculture Organization of the United Nations (FAO).\u00a0FAOSTAT database. Rome: FAO. 2019. Retrieved from http://www.fao.org/faostat/. Accessed at 30 July 2025."
+    },
+    {
+     "issue": "4",
+     "key": "12354_CR2",
+     "doi-asserted-by": "publisher",
+     "first-page": "330",
+     "DOI": "10.1016/S1672-6308(09)60035-4",
+     "volume": "17",
+     "author": "S Rathi",
+     "year": "2010",
+     "unstructured": "Rathi S, Yadav RNS, Sarma RN. Variability in grain quality characters of upland rice of Assam, India. Rice Sci. 2010;17(4):330\u20133.",
+     "journal-title": "Rice Sci"
+    },
+    {
+     "issue": "2",
+     "key": "12354_CR3",
+     "first-page": "153",
+     "volume": "4",
+     "author": "A Sattari",
+     "year": "2015",
+     "unstructured": "Sattari A, Mahdinezhad N, Fakheri B, Noroozi M, Beheshtizadeh H. Improvement of the eating and cooking qualities of rice: a review. Int J Farming Allied Sci. 2015;4(2):153\u201360.",
+     "journal-title": "Int J Farming Allied Sci"
+    },
+    {
+     "key": "12354_CR4",
+     "first-page": "278",
+     "volume": "239",
+     "author": "J Bao",
+     "year": "2014",
+     "unstructured": "Bao J. Genes and QTLs for rice grain quality improvement. InTech-Open Sci Open Mind. 2014;239:278.",
+     "journal-title": "InTech-Open Sci Open Mind"
+    },
+    {
+     "key": "12354_CR5",
+     "doi-asserted-by": "publisher",
+     "first-page": "9",
+     "DOI": "10.1016/j.carbpol.2018.04.065",
+     "volume": "195",
+     "author": "H Li",
+     "year": "2018",
+     "unstructured": "Li H, Gilbert RG. Starch molecular structure: the basis for an improved understanding of cooked rice texture. Carbohydr Polym. 2018;195:9\u201317.",
+     "journal-title": "Carbohydr Polym"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR6",
+     "doi-asserted-by": "publisher",
+     "first-page": "165",
+     "DOI": "10.1007/s11103-004-7507-3",
+     "volume": "59",
+     "author": "M Duan",
+     "year": "2005",
+     "unstructured": "Duan M, Sun SS. Profiling the expression of genes controlling rice grain quality. Plant Mol Biol. 2005;59(1):165\u201378.",
+     "journal-title": "Plant Mol Biol"
+    },
+    {
+     "issue": "10",
+     "key": "12354_CR7",
+     "doi-asserted-by": "publisher",
+     "first-page": "2222",
+     "DOI": "10.1021/acs.jafc.6b05448",
+     "volume": "65",
+     "author": "C Zhang",
+     "year": "2017",
+     "unstructured": "Zhang C, Chen S, Ren X, Lu Y, Liu D, Cai X, et al. Molecular structure and physicochemical properties of starches from rice with different amylose contents resulting from modification of OsGBSSI activity. J Agric Food Chem. 2017;65(10):2222\u201332.",
+     "journal-title": "J Agric Food Chem"
+    },
+    {
+     "issue": "4",
+     "key": "12354_CR8",
+     "doi-asserted-by": "publisher",
+     "first-page": "463",
+     "DOI": "10.1007/s00122-007-0580-7",
+     "volume": "115",
+     "author": "LQ Wang",
+     "year": "2007",
+     "unstructured": "Wang LQ, Liu WJ, Xu Y, He YQ, Luo LJ, Xing YZ, Zhang Q. Genetic basis of 17 traits and viscosity parameters characterizing the eating and cooking quality of rice grain. Theor Appl Genet. 2007;115(4):463\u201376.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "47",
+     "key": "12354_CR9",
+     "doi-asserted-by": "publisher",
+     "first-page": "13950",
+     "DOI": "10.1021/acs.jafc.0c01471",
+     "volume": "68",
+     "author": "C Zhang",
+     "year": "2020",
+     "unstructured": "Zhang C, Yang Y, Chen Z, Chen F, Pan L, Lu Y, Liu Q. Characteristics of grain physicochemical properties and the starch structure in rice carrying a mutated ALK/SSIIa gene. J Agric Food Chem. 2020;68(47):13950\u20139.",
+     "journal-title": "J Agric Food Chem"
+    },
+    {
+     "key": "12354_CR10",
+     "unstructured": "Graham R. A Proposal for IRRI to establish a grain quality and nutrition research center. IRRI Discussion Paper Series No. 44. Los Ba\u00f1os(Philippines): International Rice Research Institute. 2002;15 p."
+    },
+    {
+     "issue": "5",
+     "key": "12354_CR11",
+     "doi-asserted-by": "publisher",
+     "first-page": "439",
+     "DOI": "10.1071/FP09258",
+     "volume": "37",
+     "author": "RP Cuevas",
+     "year": "2010",
+     "unstructured": "Cuevas RP, Daygon VD, Corpuz HM, Nora L, Reinke RF, Waters DL, Fitzgerald MA. Melting the secrets of gelatinisation temperature in rice. Funct Plant Biol. 2010;37(5):439\u201347.",
+     "journal-title": "Funct Plant Biol"
+    },
+    {
+     "key": "12354_CR12",
+     "unstructured": "Juliano BO. The chemical basis of rice grain quality. In \"Chemical Aspects of Rice Grain Quality \". International Rice Research Institute. Los Banos, Philippines. 1979. pp. 69\u201390."
+    },
+    {
+     "issue": "12",
+     "key": "12354_CR13",
+     "doi-asserted-by": "publisher",
+     "first-page": "e0168483",
+     "DOI": "10.1371/journal.pone.0168483",
+     "volume": "11",
+     "author": "Y Pang",
+     "year": "2016",
+     "unstructured": "Pang Y, Ali J, Wang X, Franje NJ, Revilleza JE, Xu J, et al. Relationship of rice grain amylose, gelatinization temperature and pasting properties for breeding better eating and cooking quality of rice varieties. PLoS One. 2016;11(12):e0168483.",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "12354_CR14",
+     "doi-asserted-by": "publisher",
+     "first-page": "92",
+     "DOI": "10.1016/j.carbpol.2015.04.035",
+     "volume": "129",
+     "author": "K Wang",
+     "year": "2015",
+     "unstructured": "Wang K, Wambugu PW, Zhang B, Wu AC, Henry RJ, Gilbert RG. The biosynthesis, structure and gelatinization properties of starches from wild and cultivated African rice species (Oryza barthii and Oryza glaberrima). Carbohydr Polym. 2015;129:92\u2013100.",
+     "journal-title": "Carbohydr Polym"
+    },
+    {
+     "key": "12354_CR15",
+     "doi-asserted-by": "publisher",
+     "first-page": "1445",
+     "DOI": "10.1007/s00122-005-1975-y",
+     "volume": "110",
+     "author": "CC Fan",
+     "year": "2005",
+     "unstructured": "Fan CC, Yu XQ, Xing YZ, Xu CG, Luo LJ, Zhang Q. The main effects, epistatic effects and environmental interactions of QTLs on the cooking and eating quality of rice in a doubled-haploid line population. Theor Appl Genet. 2005;110:1445\u201352.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "5",
+     "key": "12354_CR16",
+     "doi-asserted-by": "publisher",
+     "first-page": "889",
+     "DOI": "10.1111/jipb.13010",
+     "volume": "63",
+     "author": "C Zhang",
+     "year": "2021",
+     "unstructured": "Zhang C, Yang Y, Chen S, Liu X, Zhu J, Zhou L, Liu Q. A rare waxy allele coordinately improves rice eating and cooking quality and grain transparency. J Integr Plant Biol. 2021;63(5):889\u2013901.",
+     "journal-title": "J Integr Plant Biol"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR17",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1007/s001220200000",
+     "volume": "104",
+     "author": "T Umemoto",
+     "year": "2002",
+     "unstructured": "Umemoto T, Yano M, Satoh H, Shomura A, Nakamura Y. Mapping of a gene responsible for the difference in amylopectin structure between japonica-type and indica-type rice varieties. Theor Appl Genet. 2002;104(1):1\u20138.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "9",
+     "key": "12354_CR18",
+     "first-page": "756",
+     "volume": "53",
+     "author": "Z Gao",
+     "year": "2011",
+     "unstructured": "Gao Z, Zeng D, Cheng F, Tian Z, Guo L, Su Y, et al. ALK, the key gene for gelatinization temperature, is a modifier gene for gel consistency in rice. J Integr Plant Biol. 2011;53(9):756\u201365.",
+     "journal-title": "J Integr Plant Biol"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR19",
+     "doi-asserted-by": "publisher",
+     "first-page": "29",
+     "DOI": "10.1186/s12284-015-0064-3",
+     "volume": "8",
+     "author": "X Zhao",
+     "year": "2015",
+     "unstructured": "Zhao X, Zhou L, Ponce K, Ye G. The usefulness of known genes/QTLs for grain quality traits in an indica population of diverse breeding lines tested using association analysis. Rice. 2015;8(1):29.",
+     "journal-title": "Rice"
+    },
+    {
+     "key": "12354_CR20",
+     "doi-asserted-by": "publisher",
+     "first-page": "665745",
+     "DOI": "10.3389/fpls.2021.665745",
+     "volume": "12",
+     "author": "R Panahabadi",
+     "year": "2021",
+     "unstructured": "Panahabadi R, Ahmadikhah A, McKee LS, Ingvarsson PK, Farrokhi N. Genome-wide association mapping of mixed linkage (1, 3; 1, 4)-\u03b2-glucan and starch contents in rice whole grain. Front Plant Sci. 2021;12:665745.",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/tpg2.20174",
+     "volume": "15",
+     "author": "R Panahabadi",
+     "year": "2022",
+     "unstructured": "Panahabadi R, Ahmadikhah A, McKee LS, Ingvarsson PK, Farrokhi N. Genome-wide association study for lignocellulosic compounds and fermentable sugar in rice straw. Plant Genome. 2022;15(1): e20174.",
+     "journal-title": "Plant Genome."
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/tpg2.20224",
+     "volume": "15",
+     "author": "R Haghi",
+     "year": "2022",
+     "unstructured": "Haghi R, Ahmadikhah A, Fazeli A, Shariati V. Candidate genes for anthocyanin pigmentation in rice stem revealed by GWAS and whole-genome resequencing. Plant Genome. 2022;15(3):e20224.",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "issue": "4",
+     "key": "12354_CR23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/tpg2.20292",
+     "volume": "16",
+     "author": "R Panahabadi",
+     "year": "2023",
+     "unstructured": "Panahabadi R, Ahmadikhah A, Farrokhi N. Genetic dissection of monosaccharides contents in rice whole grain using genome-wide association study. Plant Genome. 2023;16(4): e20292.",
+     "journal-title": "Plant Genome."
+    },
+    {
+     "key": "12354_CR24",
+     "doi-asserted-by": "publisher",
+     "first-page": "1426321",
+     "DOI": "10.3389/fpls.2024.1426321",
+     "volume": "15",
+     "author": "S Kazemzadeh",
+     "year": "2024",
+     "unstructured": "Kazemzadeh S, Farrokhi N, Ahmadikhah A, Tabar Heydar K, Gilani A, Askari H, Ingvarsson PK. Genome-wide association study and genotypic variation for the major Tocopherol content in rice grain. Front Plant Sci. 2024;15:1426321.",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "key": "12354_CR25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/agg2.70146",
+     "volume": "8",
+     "author": "R Panahabadi",
+     "year": "2025",
+     "unstructured": "Panahabadi R, Ahmadikhah A, Farrokhi N, Bagheri N. Genomic dissection of yield components in rice (Oryza sativa L.) using genome-wide association study and identification of novel genetic factors for yield-related traits. Agrosystems, Geosciences & Environment. 2025;8:e70146.",
+     "journal-title": "Agrosystems, Geosciences & Environment"
+    },
+    {
+     "issue": "11",
+     "key": "12354_CR26",
+     "doi-asserted-by": "publisher",
+     "first-page": "961",
+     "DOI": "10.1038/ng.695",
+     "volume": "42",
+     "author": "X Huang",
+     "year": "2010",
+     "unstructured": "Huang X, Wei X, Sang T, Zhao Q, Feng Q, Zhao Y, Han B. Genome-wide association studies of 14 agronomic traits in rice landraces. Nat Genet. 2010;42(11):961\u20137.",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/ijms25010630",
+     "volume": "25",
+     "author": "J Jiang",
+     "year": "2024",
+     "unstructured": "Jiang J, Song S, Hu C, Jing C, Xu Q, Li X, et al. QTL detection and candidate gene identification for eating and cooking quality traits in rice (Oryza sativa L.) via a genome-wide association study. Int J Mol Sci. 2024;25(1):630.",
+     "journal-title": "Int J Mol Sci"
+    },
+    {
+     "key": "12354_CR28",
+     "first-page": "334",
+     "volume": "16",
+     "author": "BO Juliano",
+     "year": "1971",
+     "unstructured": "Juliano BO. A simplified assay for milled-rice amylose. Cereal Sci. 1971;16:334\u201360.",
+     "journal-title": "Cereal Sci"
+    },
+    {
+     "issue": "107",
+     "key": "12354_CR29",
+     "first-page": "8",
+     "volume": "28",
+     "author": "A Ramazanpour",
+     "year": "2015",
+     "unstructured": "Ramazanpour A, Pirdashti H, Abdollahi Mobarhan Sh., Bahari Saravi SH. Evaluation of qualitative traits and their relationships with yield in promising rice (Oryza sativa L.) lines. J Agron. 2015;28(107):8\u201316.",
+     "journal-title": "J Agron"
+    },
+    {
+     "key": "12354_CR30",
+     "first-page": "111",
+     "volume": "35",
+     "author": "RR Little",
+     "year": "1958",
+     "unstructured": "Little RR, Hilder GB, Dawson EH. Differential effect of dilute alkali on 25 varieties of milled white rice. Cereal Chem. 1958;35:111\u201326.",
+     "journal-title": "Cereal Chem"
+    },
+    {
+     "key": "12354_CR31",
+     "first-page": "1",
+     "volume": "1",
+     "author": "F Habibi",
+     "year": "2013",
+     "unstructured": "Habibi F. Laboratory methods for measuring qualitative characteristics of rice grains. Rice Res Inst Publication. 2013;1:1\u201327.",
+     "journal-title": "Rice Res Inst Publication"
+    },
+    {
+     "issue": "12",
+     "key": "12354_CR32",
+     "doi-asserted-by": "publisher",
+     "first-page": "1589",
+     "DOI": "10.1002/jsfa.2740241214",
+     "volume": "24",
+     "author": "GB Cagampang",
+     "year": "1973",
+     "unstructured": "Cagampang GB, Perez CM, Juliano BO. A gel consistency test for eating quality of rice. J Sci Food Agric. 1973;24(12):1589\u201394.",
+     "journal-title": "J Sci Food Agric"
+    },
+    {
+     "key": "12354_CR33",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1038/ncomms1467",
+     "volume": "2",
+     "author": "K Zhao",
+     "year": "2011",
+     "unstructured": "Zhao K, Tung W, Eizenga C, Wright H, Ali L, Price H, et al. Genome-wide association mapping reveals a rich genetic architecture of complex traits in Oryza sativa L. Nat Commun. 2011;2:1\u201310.",
+     "journal-title": "Nat Commun"
+    },
+    {
+     "issue": "2",
+     "key": "12354_CR34",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pgen.1005767",
+     "volume": "12",
+     "author": "X Liu",
+     "year": "2016",
+     "unstructured": "Liu X, Huang M, Fan B, Buckler ES, Zhang Z. Iterative usage of fixed and random effect models for powerful and efficient genome-wide association studies. PLoS Genet. 2016;12(2): e1005767.",
+     "journal-title": "PLoS Genet."
+    },
+    {
+     "issue": "4",
+     "key": "12354_CR35",
+     "doi-asserted-by": "publisher",
+     "first-page": "2223",
+     "DOI": "10.1534/genetics.107.079616",
+     "volume": "177",
+     "author": "KA Mather",
+     "year": "2007",
+     "unstructured": "Mather KA, Caicedo AL, Polato NR, Olsen KM, McCouch S, Purugganan MD. The extent of linkage disequilibrium in rice (Oryza sativa L). Genetics. 2007;177(4):2223\u201332.",
+     "journal-title": "Genetics"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/bimj.202100309",
+     "volume": "65",
+     "author": "NW Galwey",
+     "year": "2023",
+     "unstructured": "Galwey NW. A Q-Q plot aids interpretation of the false discovery rate. Biom J. 2023;65(1):2100309.",
+     "journal-title": "Biom J"
+    },
+    {
+     "issue": "19",
+     "key": "12354_CR37",
+     "doi-asserted-by": "publisher",
+     "first-page": "2633",
+     "DOI": "10.1093/bioinformatics/btm308",
+     "volume": "23",
+     "author": "PJ Bradbury",
+     "year": "2007",
+     "unstructured": "Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. TASSEL: software for association mapping of complex traits in diverse samples. Bioinformatics. 2007;23(19):2633\u20135.",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "issue": "4",
+     "key": "12354_CR38",
+     "doi-asserted-by": "publisher",
+     "first-page": "402",
+     "DOI": "10.1006/meth.2001.1262",
+     "volume": "25",
+     "author": "KJ Livak",
+     "year": "2001",
+     "unstructured": "Livak KJ, Schmittgen TD. Analysis of relative gene expression data using real-time quantitative PCR and the 2\u2013\u2206\u2206CT method. Methods. 2001;25(4):402\u20138.",
+     "journal-title": "Methods"
+    },
+    {
+     "issue": "51",
+     "key": "12354_CR39",
+     "doi-asserted-by": "publisher",
+     "first-page": "21760",
+     "DOI": "10.1073/pnas.0912396106",
+     "volume": "106",
+     "author": "Z Tian",
+     "year": "2009",
+     "unstructured": "Tian Z, Qian Q, Liu Q, Yan M, Liu X, Yan C, Li J. Allelic diversities in rice starch biosynthesis lead to a diverse array of rice eating and cooking qualities. Proc Natl Acad Sci. 2009;106(51):21760\u20135.",
+     "journal-title": "Proc Natl Acad Sci"
+    },
+    {
+     "issue": "5",
+     "key": "12354_CR40",
+     "first-page": "879",
+     "volume": "37",
+     "author": "YBW Yang Bo Wen",
+     "year": "2017",
+     "unstructured": "Yang Bo Wen YBW, Xiang XunChao XX, Xu ShunJu XS, Xu Liang XL, Wang Xi WX. Effects for interaction of Wx and SS III-2 on rice eating and cooking qualities. Acta Bot Boreali-Occident Sin. 2017;37(5):879\u201384.",
+     "journal-title": "Acta Bot Boreali-Occident Sin"
+    },
+    {
+     "key": "12354_CR41",
+     "doi-asserted-by": "publisher",
+     "first-page": "702",
+     "DOI": "10.1016/j.foodchem.2015.09.112",
+     "volume": "196",
+     "author": "H Li",
+     "year": "2016",
+     "unstructured": "Li H, Prakash S, Nicholson TM, Fitzgerald MA, Gilbert RG. The importance of amylose and amylopectin fine structure for textural properties of cooked rice grains. Food Chem. 2016;196:702\u201311.",
+     "journal-title": "Food Chem"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR42",
+     "doi-asserted-by": "publisher",
+     "first-page": "56",
+     "DOI": "10.1186/s12284-018-0245-y",
+     "volume": "11",
+     "author": "RPO Cuevas",
+     "year": "2018",
+     "unstructured": "Cuevas RPO, Domingo CJ, Sreenivasulu N. Multivariate-based classification of predicting cooking quality ideotypes in rice (Oryza sativa L.) indica germplasm. Rice. 2018;11(1):56.",
+     "journal-title": "Rice"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR43",
+     "first-page": "537",
+     "volume": "9",
+     "author": "N Jan",
+     "year": "2020",
+     "unstructured": "Jan N, Subhash CK. Studies on variability, heritability and genetic gain for quality traits in rice. J Pharmacognosy Phytochem. 2020;9(3):537\u201354.",
+     "journal-title": "J Pharmacognosy Phytochem"
+    },
+    {
+     "issue": "2",
+     "key": "12354_CR44",
+     "doi-asserted-by": "publisher",
+     "first-page": "85",
+     "DOI": "10.1016/S1672-6308(07)60013-4",
+     "volume": "14",
+     "author": "WAN Ying-xiu",
+     "year": "2007",
+     "unstructured": "Ying-xiu WAN, Qi-ming DENG, Shi-quan WANG, Ming-wei LIU, Hua-qiang ZHOU, Ping LI. Genetic polymorphism of Wx gene and its correlation with main grain quality characteristics in rice. Rice Sci. 2007;14(2):85.",
+     "journal-title": "Rice Sci"
+    },
+    {
+     "issue": "5",
+     "key": "12354_CR45",
+     "doi-asserted-by": "publisher",
+     "first-page": "1620",
+     "DOI": "10.2135/cropsci2008.11.0655",
+     "volume": "49",
+     "author": "VC Lapitan",
+     "year": "2009",
+     "unstructured": "Lapitan VC, Redo\u00f1a ED, Abe T, Brar DS. Mapping of quantitative trait loci using a doubled-haploid population from the cross of indica and Japonica cultivars of rice. Crop Sci. 2009;49(5):1620\u20138.",
+     "journal-title": "Crop Sci"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR46",
+     "doi-asserted-by": "publisher",
+     "first-page": "299",
+     "DOI": "10.20546/ijcmas.2018.703.035",
+     "volume": "7",
+     "author": "SK Singh",
+     "year": "2018",
+     "unstructured": "Singh SK, Singh M, Vennela PR, Singh DK, Kujur SN, Kumar D. Studies on genetic variability, heritability and genetic advance for yield and yield components in drought tolerant rice (Oryza sativa L.) landraces. Int J Curr Microbiol Appl Sci. 2018;7(3):299\u2013305.",
+     "journal-title": "Int J Curr Microbiol Appl Sci"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR47",
+     "first-page": "723",
+     "volume": "12",
+     "author": "T Prasad",
+     "year": "2021",
+     "unstructured": "Prasad T, Banumathy S, Sassikumar D, Ramalingam J, Ilamaran M. Study on physicochemical properties of rice landraces for amylose, gel consistency and gelatinization temperature. Electron J Plant Breed. 2021;12(3):723\u201331.",
+     "journal-title": "Electron J Plant Breed"
+    },
+    {
+     "key": "12354_CR48",
+     "unstructured": "Shi-yong SUN, Wei HAO. & Hong-xuan, L. I. N. Identification of QTLs for cooking and eating quality of rice grain. Rice Sci. 2006;13(3):161."
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR49",
+     "doi-asserted-by": "publisher",
+     "first-page": "209",
+     "DOI": "10.1270/jsbbs.53.209",
+     "volume": "53",
+     "author": "Z Li",
+     "year": "2003",
+     "unstructured": "Li Z, Wan J, Xia J, Yano M. Mapping of quantitative trait loci controlling physico-chemical properties of rice grains (Oryza sativa L). Breed Sci. 2003;53(3):209\u201315.",
+     "journal-title": "Breed Sci"
+    },
+    {
+     "key": "12354_CR50",
+     "doi-asserted-by": "publisher",
+     "first-page": "630",
+     "DOI": "10.1007/s00122-004-1668-y",
+     "volume": "109",
+     "author": "G Aluko",
+     "year": "2004",
+     "unstructured": "Aluko G, Martinez C, Tohme J, Castano C, Bergman C, Oard JH. QTL mapping of grain quality traits from the interspecific cross Oryza sativa\u00d7 O. glaberrima. Theor Appl Genet. 2004;109:630\u20139.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR51",
+     "doi-asserted-by": "publisher",
+     "first-page": "642",
+     "DOI": "10.1007/s001220051279",
+     "volume": "99",
+     "author": "YF Tan",
+     "year": "1999",
+     "unstructured": "Tan YF, Li JX, Yu SB, Xing YZ, Xu CG, Zhang Q. The three important traits for cooking and eating quality of rice grains are controlled by a single locus in an elite rice hybrid, Shanyou 63. Theor Appl Genet. 1999;99(3):642\u20138.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "12354_CR52",
+     "doi-asserted-by": "publisher",
+     "first-page": "502",
+     "DOI": "10.1007/s001220051098",
+     "volume": "98",
+     "author": "P He",
+     "year": "1999",
+     "unstructured": "He P, Li SG, Qian Q, Ma YQ, Li JZ, Wang WM, Zhu LH. Genetic analysis of rice grain quality. Theor Appl Genet. 1999;98:502\u20138.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "12354_CR53",
+     "doi-asserted-by": "publisher",
+     "first-page": "1433",
+     "DOI": "10.1007/s00122-003-1376-z",
+     "volume": "107",
+     "author": "EM Septiningsih",
+     "year": "2003",
+     "unstructured": "Septiningsih EM, Trijatmiko KR, Moeljopawiro S, McCouch SR. Identification of quantitative trait loci for grain quality in an advanced backcross population derived from the Oryza sativa variety IR64 and the wild relative O. rufipogon. Theor Appl Genet. 2003;107:1433\u201341.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "4",
+     "key": "12354_CR54",
+     "doi-asserted-by": "publisher",
+     "first-page": "115",
+     "DOI": "10.1002/star.19750270405",
+     "volume": "27",
+     "author": "BO Juliano",
+     "year": "1975",
+     "unstructured": "Juliano BO, Perdon AA. Gel and molecular properties of nonwaxy rice starch. Starch Staerke. 1975;27(4):115\u201320.",
+     "journal-title": "Starch Staerke"
+    },
+    {
+     "key": "12354_CR55",
+     "doi-asserted-by": "publisher",
+     "first-page": "564",
+     "DOI": "10.1007/s001220050452",
+     "volume": "94",
+     "author": "SE Harrington",
+     "year": "1997",
+     "unstructured": "Harrington SE, Bligh HFJ, Park WD, Jones CA, McCouch SR. Linkage mapping of starch branching enzyme III in rice (Oryza sativa L.) and prediction of location of orthologous genes in other grasses. Theor Appl Genet. 1997;94:564\u20138.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "12354_CR56",
+     "first-page": "35119",
+     "volume": "10",
+     "author": "RP Cuevas",
+     "year": "2012",
+     "unstructured": "Cuevas RP, Fitzgerald MA. Genetic diversity of rice grain quality. Genetic Divers Plants. 2012;10:35119.",
+     "journal-title": "Genetic Divers Plants"
+    },
+    {
+     "issue": "6",
+     "key": "12354_CR57",
+     "doi-asserted-by": "publisher",
+     "first-page": "661",
+     "DOI": "10.1360/03yc0099",
+     "volume": "46",
+     "author": "Z Gao",
+     "year": "2003",
+     "unstructured": "Gao Z, Zeng D, Cui X, Zhou Y, Yan M, Huang D, Qian Q. Map-based cloning of the ALK gene, which controls the gelatinization temperature of rice. Sci China Ser C: Life Sci. 2003;46(6):661\u20138.",
+     "journal-title": "Sci China Ser C: Life Sci"
+    },
+    {
+     "issue": "5",
+     "key": "12354_CR58",
+     "doi-asserted-by": "publisher",
+     "first-page": "859",
+     "DOI": "10.1007/s00122-011-1632-6",
+     "volume": "123",
+     "author": "Y Su",
+     "year": "2011",
+     "unstructured": "Su Y, Rao Y, Hu S, Yang Y, Gao Z, Zhang G, et al. Map-based cloning proves qGC-6, a major QTL for gel consistency of japonica/indica cross, responds by waxy in rice (Oryza sativa L). Theor Appl Genet. 2011;123(5):859\u201367.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR59",
+     "doi-asserted-by": "publisher",
+     "first-page": "377",
+     "DOI": "10.1111/imb.12766",
+     "volume": "31",
+     "author": "Y Huo",
+     "year": "2022",
+     "unstructured": "Huo Y, Song Z, Wang H, Zhang Z, Xiao N, Fang R, et al. GrpE is involved in mitochondrial function and is an effective target for RNAi-mediated pest and arbovirus control. Insect Molecular Biology. 2022;31(3):377\u201390.",
+     "journal-title": "Insect Molecular Biology"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR60",
+     "doi-asserted-by": "publisher",
+     "first-page": "190",
+     "DOI": "10.1104/pp.005454",
+     "volume": "130",
+     "author": "NJ Patron",
+     "year": "2002",
+     "unstructured": "Patron NJ, Smith AM, Fahy BF, Hylton CM, Naldrett MJ, Rossnagel BG, Denyer K. The altered pattern of amylose accumulation in the endosperm of low-amylose barley cultivars is attributable to a single mutant allele of granule-bound starch synthase I with a deletion in the 5\u2032-non-coding region. Plant Physiol. 2002;130(1):190\u20138.",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR61",
+     "doi-asserted-by": "publisher",
+     "first-page": "28530",
+     "DOI": "10.1038/s41598-025-14473-3",
+     "volume": "15",
+     "author": "S Kazemzadeh",
+     "year": "2025",
+     "unstructured": "Kazemzadeh S, Farrokhi N, Ahmadikhah A, Ingvarsson PK, Heydar KT. Genome-wide association mapping and transcriptional analysis uncover genetic determinants of minor tocopherols in rice seeds. Sci Rep. 2025;15(1):28530.",
+     "journal-title": "Sci Rep"
+    },
+    {
+     "issue": "9",
+     "key": "12354_CR62",
+     "doi-asserted-by": "publisher",
+     "first-page": "414",
+     "DOI": "10.1016/S1360-1385(01)02045-3",
+     "volume": "6",
+     "author": "F Micheli",
+     "year": "2001",
+     "unstructured": "Micheli F. Pectin methylesterases: cell wall enzymes with important roles in plant physiology. Trends Plant Sci. 2001;6(9):414\u20139.",
+     "journal-title": "Trends Plant Sci"
+    },
+    {
+     "key": "12354_CR63",
+     "doi-asserted-by": "publisher",
+     "first-page": "105",
+     "DOI": "10.1016/j.plaphy.2016.01.021",
+     "volume": "101",
+     "author": "HP Nguyen",
+     "year": "2016",
+     "unstructured": "Nguyen HP, Jeong HY, Kim H, Kim YC, Lee C. Molecular and biochemical characterization of rice pectin methylesterase inhibitors (OsPMEIs). Plant Physiol Biochem. 2016;101:105\u201312.",
+     "journal-title": "Plant Physiol Biochem"
+    },
+    {
+     "key": "12354_CR64",
+     "doi-asserted-by": "publisher",
+     "first-page": "195",
+     "DOI": "10.1093/oxfordjournals.jhered.a107331",
+     "volume": "55",
+     "author": "OE Nelson",
+     "year": "1964",
+     "unstructured": "Nelson OE, Ullstrup AJ. Resistance to leaf spot in maize. Genetic control of resistance to race I of helminthosporium carbonum ull. J Hered. 1964;55:195\u201399.",
+     "journal-title": "J Hered"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR65",
+     "doi-asserted-by": "publisher",
+     "first-page": "71",
+     "DOI": "10.5511/plantbiotechnology.14.71",
+     "volume": "14",
+     "author": "Y Hihara",
+     "year": "1997",
+     "unstructured": "Hihara Y, Shoda K, Liu Q, Hara C, Umeda M, Toriyama K, et al. Expressed sequence tags in developing anthers of rice (Oryza sativa L). Plant Biotechnol. 1997;14(1):71\u20135.",
+     "journal-title": "Plant Biotechnol"
+    },
+    {
+     "issue": "19",
+     "key": "12354_CR66",
+     "doi-asserted-by": "publisher",
+     "first-page": "7020",
+     "DOI": "10.1073/pnas.0502556102",
+     "volume": "102",
+     "author": "M Hayashi",
+     "year": "2005",
+     "unstructured": "Hayashi M, Takahashi H, Tamura K, Huang J, Yu LH, Kawai-Yamada M, et al. Enhanced dihydroflavonol-4-reductase activity and NAD homeostasis leading to cell death tolerance in transgenic rice. Proc Natl Acad Sci USA. 2005;102(19):7020\u20135.",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "issue": "6",
+     "key": "12354_CR67",
+     "doi-asserted-by": "publisher",
+     "first-page": "547",
+     "DOI": "10.1007/s00438-008-0386-6",
+     "volume": "280",
+     "author": "Y Fang",
+     "year": "2008",
+     "unstructured": "Fang Y, You J, Xie K, Xie W, Xiong L. Systematic sequence analysis and identification of tissue-specific or stress-responsive genes of NAC transcription factor family in rice. Mol Genet Genomics. 2008;280(6):547\u201363.",
+     "journal-title": "Mol Genet Genomics"
+    },
+    {
+     "issue": "4",
+     "key": "12354_CR68",
+     "doi-asserted-by": "publisher",
+     "first-page": "617",
+     "DOI": "10.1111/j.1365-313X.2007.03168.x",
+     "volume": "51",
+     "author": "K Nakashima",
+     "year": "2007",
+     "unstructured": "Nakashima K, Tran LSP, Van Nguyen D, Fujita M, Maruyama K, Todaka D, et al. Functional analysis of a NAC\u2010type transcription factor OsNAC6 involved in abiotic and biotic stress\u2010responsive gene expression in rice. Plant J. 2007;51(4):617\u201330.",
+     "journal-title": "Plant J"
+    },
+    {
+     "issue": "35",
+     "key": "12354_CR69",
+     "doi-asserted-by": "publisher",
+     "first-page": "12987",
+     "DOI": "10.1073/pnas.0604882103",
+     "volume": "103",
+     "author": "H Hu",
+     "year": "2006",
+     "unstructured": "Hu H, Dai M, Yao J, Xiao B, Li X, Zhang Q, et al. Overexpressing a NAM, ATAF, and CUC (NAC) transcription factor enhances drought resistance and salt tolerance in rice. Proc Natl Acad Sci USA. 2006;103(35):12987\u201392.",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "issue": "10",
+     "key": "12354_CR70",
+     "doi-asserted-by": "publisher",
+     "first-page": "656",
+     "DOI": "10.1016/j.tplants.2014.06.002",
+     "volume": "19",
+     "author": "HC Thomsen",
+     "year": "2014",
+     "unstructured": "Thomsen HC, Eriksson D, M\u00f8ller IS, Schjoerring JK. Cytosolic glutamine synthetase: a target for improvement of crop nitrogen use efficiency? Trends Plant Sci. 2014;19(10):656\u201363.",
+     "journal-title": "Trends Plant Sci"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR71",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12284-017-0143-8",
+     "volume": "10",
+     "author": "Y Yabuki",
+     "year": "2017",
+     "unstructured": "Yabuki Y, Ohashi M, Imagawa F, Ishiyama K, Beier MP, Konishi N, et al. A temporal and spatial contribution of asparaginase to asparagine catabolism during development of rice grains. Rice. 2017;10(1):3.",
+     "journal-title": "Rice"
+    },
+    {
+     "issue": "9",
+     "key": "12354_CR72",
+     "doi-asserted-by": "publisher",
+     "first-page": "2319",
+     "DOI": "10.1093/jxb/erm016",
+     "volume": "58",
+     "author": "M Tabuchi",
+     "year": "2007",
+     "unstructured": "Tabuchi M, Abiko T, Yamaya T. Assimilation of ammonium ions and reutilization of nitrogen in rice (Oryza sativa L). J Exp Bot. 2007;58(9):2319\u201327.",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR73",
+     "doi-asserted-by": "publisher",
+     "first-page": "297",
+     "DOI": "10.1023/B:PLAN.0000006936.50532.3a",
+     "volume": "53",
+     "author": "Z Hong",
+     "year": "2003",
+     "unstructured": "Hong Z, Geisler-Lee CJ, Zhang Z, Verma DPS. Phragmoplastin dynamics: multiple forms, microtubule association and their roles in cell plate formation in plants. Plant Mol Biol. 2003;53(3):297\u2013312.",
+     "journal-title": "Plant Mol Biol"
+    },
+    {
+     "issue": "2",
+     "key": "12354_CR74",
+     "doi-asserted-by": "publisher",
+     "first-page": "361",
+     "DOI": "10.1093/jxb/erm324",
+     "volume": "59",
+     "author": "DA Collings",
+     "year": "2008",
+     "unstructured": "Collings DA, Gebbie LK, Howles PA, Hurley UA, Birch RJ, Cork AH, et al. Arabidopsis dynamin-like protein DRP1A: a null mutant with widespread defects in endocytosis, cellulose synthesis, cytokinesis, and cell expansion. J Exp Bot. 2008;59(2):361\u201376.",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR75",
+     "doi-asserted-by": "publisher",
+     "first-page": "420",
+     "DOI": "10.1093/pcp/pcn019",
+     "volume": "49",
+     "author": "M Abe",
+     "year": "2008",
+     "unstructured": "Abe M, Fujiwara M, Kurotani KI, Yokoi S, Shimamoto K. Identification of dynamin as an interactor of rice GIGANTEA by tandem affinity purification (TAP). Plant Cell Physiol. 2008;49(3):420\u201332.",
+     "journal-title": "Plant Cell Physiol"
+    },
+    {
+     "issue": "2",
+     "key": "12354_CR76",
+     "doi-asserted-by": "publisher",
+     "first-page": "189",
+     "DOI": "10.1002/neu.10314",
+     "volume": "58",
+     "author": "RB Vallee",
+     "year": "2004",
+     "unstructured": "Vallee RB, Williams JC, Varma D, Barnhart LE. Dynein: an ancient motor protein involved in multiple modes of transport. J Neurobiol. 2004;58(2):189\u2013200.",
+     "journal-title": "J Neurobiol"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR77",
+     "doi-asserted-by": "publisher",
+     "first-page": "27",
+     "DOI": "10.1101/gr.9.1.27",
+     "volume": "9",
+     "author": "AF Neuwald",
+     "year": "1999",
+     "unstructured": "Neuwald AF, Aravind L, Spouge JL, Koonin EV. AAA+: a class of chaperone-like ATPases associated with the assembly, operation, and disassembly of protein complexes. Genome Res. 1999;9(1):27\u201343.",
+     "journal-title": "Genome Res"
+    },
+    {
+     "issue": "3",
+     "key": "12354_CR78",
+     "doi-asserted-by": "publisher",
+     "first-page": "835",
+     "DOI": "10.1073/pnas.0812043106",
+     "volume": "106",
+     "author": "G Xu",
+     "year": "2009",
+     "unstructured": "Xu G, Ma H, Nei M, Kong H. Evolution of F-box genes in plants: different modes of sequence divergence and their relationships with functional diversification. Proc Natl Acad Sci. 2009;106(3):835\u201340.",
+     "journal-title": "Proc Natl Acad Sci"
+    },
+    {
+     "issue": "6",
+     "key": "12354_CR79",
+     "doi-asserted-by": "publisher",
+     "first-page": "1029",
+     "DOI": "10.1111/j.1365-313X.2010.04112.x",
+     "volume": "61",
+     "author": "A Santner",
+     "year": "2010",
+     "unstructured": "Santner A, Estelle M. The ubiquitin-proteasome system regulates plant hormone signaling. Plant J. 2010;61(6):1029\u201340.",
+     "journal-title": "Plant J"
+    },
+    {
+     "issue": "15",
+     "key": "12354_CR80",
+     "doi-asserted-by": "publisher",
+     "first-page": "5559",
+     "DOI": "10.1093/jxb/ers206",
+     "volume": "63",
+     "author": "S Song",
+     "year": "2012",
+     "unstructured": "Song S, Dai X, Zhang WH. A rice F-box gene, Os Fbx352, is involved in glucose-delayed seed germination in rice. J Exp Bot. 2012;63(15):5559\u201368.",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "issue": "9",
+     "key": "12354_CR81",
+     "doi-asserted-by": "publisher",
+     "first-page": "88",
+     "DOI": "10.1007/s11032-020-01166-0",
+     "volume": "40",
+     "author": "S Okada",
+     "year": "2020",
+     "unstructured": "Okada S, Iijima K, Hori K, Yamasaki M. Genetic and epistatic effects for grain quality and yield of three grain-size QTLs identified in brewing rice (Oryza sativa L). Mol Breeding. 2020;40(9):88.",
+     "journal-title": "Mol Breeding"
+    },
+    {
+     "issue": "11",
+     "key": "12354_CR82",
+     "doi-asserted-by": "publisher",
+     "first-page": "855",
+     "DOI": "10.1038/nrg2452",
+     "volume": "9",
+     "author": "PC Phillips",
+     "year": "2008",
+     "unstructured": "Phillips PC. Epistasis - the essential role of gene interactions in the structure and evolution of genetic systems. Nat Rev Genet. 2008;9(11):855\u201367.",
+     "journal-title": "Nat Rev Genet"
+    },
+    {
+     "issue": "10",
+     "key": "12354_CR83",
+     "doi-asserted-by": "publisher",
+     "first-page": "2788",
+     "DOI": "10.1111/pbi.14405",
+     "volume": "22",
+     "author": "SL Dwivedi",
+     "year": "2024",
+     "unstructured": "Dwivedi SL, Heslop-Harrison P, Amas J, Ortiz R, Edwards D. Epistasis and pleiotropy\u2010induced variation for plant breeding. Plant Biotechnol J. 2024;22(10):2788\u2013807.",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "issue": "8",
+     "key": "12354_CR84",
+     "doi-asserted-by": "publisher",
+     "first-page": "2541",
+     "DOI": "10.1016/j.jia.2023.07.021",
+     "volume": "23",
+     "author": "X He",
+     "year": "2024",
+     "unstructured": "He X, Li Z, Guo S, Zheng X, Liu C, Liu Z, Li L. Epistasis-aware genome-wide association studies provide insights into the efficient breeding of high-yield and high-quality rice. J Integr Agric. 2024;23(8):2541\u201356.",
+     "journal-title": "J Integr Agric"
+    },
+    {
+     "issue": "1",
+     "key": "12354_CR85",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.48130/gcomm-0025-0012",
+     "volume": "2",
+     "author": "Y Zhou",
+     "year": "2025",
+     "unstructured": "Zhou Y, Zhou Z. Unlocking rice\u2019s genetic potential: big data-driven insights from population genomics. Genomics Commun. 2025;2(1): e012.",
+     "journal-title": "Genomics Commun."
+    },
+    {
+     "issue": "2",
+     "key": "12354_CR86",
+     "doi-asserted-by": "publisher",
+     "first-page": "261",
+     "DOI": "10.1007/s00122-004-1640-x",
+     "volume": "109",
+     "author": "CA McCartney",
+     "year": "2004",
+     "unstructured": "McCartney CA, Somers DJ, Fedak G, Cao W. Haplotype diversity at fusarium head blight resistance QTLs in wheat. Theor Appl Genet. 2004;109(2):261\u201371.",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "issue": "8",
+     "key": "12354_CR87",
+     "doi-asserted-by": "publisher",
+     "first-page": "1612",
+     "DOI": "10.1111/pbi.13087",
+     "volume": "17",
+     "author": "R Abbai",
+     "year": "2019",
+     "unstructured": "Abbai R, Singh VK, Nachimuthu VV, Sinha P, Selvaraj R, Vipparla AK, Kumar A. Haplotype analysis of key genes governing grain yield and quality traits across 3K RG panel reveals scope for the development of tailor-made rice with enhanced genetic gains. Plant Biotechnol J. 2019;17(8):1612\u201322.",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "key": "12354_CR88",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.scib.2025.04.030",
+     "author": "X Yu",
+     "year": "2025",
+     "unstructured": "Yu X, Xie W, Ma L, Wang A, Zhang G, Hu J, Ren D. Kunpeng, birth of giant-grain rice germplasm. Sci Bull. 2025. https://doi.org/10.1016/j.scib.2025.04.030.",
+     "journal-title": "Sci Bull"
+    },
+    {
+     "key": "12354_CR89",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.plantsci.2024.112382",
+     "volume": "352",
+     "author": "M Kordi",
+     "year": "2025",
+     "unstructured": "Kordi M, Farrokhi N, Ahmadikhah A, Ingvarsson PK, Saidi A, Jahanfar M. Genome-wide association study of rice (Oryza sativa L.) inflorescence architecture. Plant Sci. 2025;352:112382.",
+     "journal-title": "Plant Sci"
+    }
+   ],
+   "container-title": [
+    "BMC Genomics"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://link.springer.com/article/10.1186/s12864-025-12354-7",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1186/s12864-025-12354-7.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1186/s12864-025-12354-7.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      30
+     ]
+    ],
+    "date-time": "2026-01-30T15:04:23Z",
+    "timestamp": 1769785463000
+   },
+   "score": 43.98293,
+   "resource": {
+    "primary": {
+     "URL": "https://link.springer.com/10.1186/s12864-025-12354-7"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      28
+     ]
+    ]
+   },
+   "references-count": 89,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2026,
+       12
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "12354"
+   ],
+   "URL": "https://doi.org/10.1186/s12864-025-12354-7",
+   "ISSN": [
+    "1471-2164"
+   ],
+   "issn-type": [
+    {
+     "value": "1471-2164",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      28
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "15 August 2025",
+     "order": 1,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "18 November 2025",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "28 December 2025",
+     "order": 3,
+     "name": "first_online",
+     "label": "First Online",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "order": 1,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Declarations"
+     }
+    },
+    {
+     "value": "Not applicable.",
+     "order": 2,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Ethics approval and consent to participate"
+     }
+    },
+    {
+     "value": "Not applicable.",
+     "order": 3,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Consent for publication"
+     }
+    },
+    {
+     "value": "The authors declare no competing interests.",
+     "order": 4,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Competing interests"
+     }
+    }
+   ],
+   "article-number": "113"
+  }
+ ]
+}

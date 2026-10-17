@@ -1,0 +1,920 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2026-10-01T02:27:18Z",
+   "timestamp": 1790821638431,
+   "version": "4.1.0"
+  },
+  "reference-count": 5,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "6",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2016,
+       10,
+       2
+      ]
+     ],
+     "date-time": "2016-10-02T00:00:00Z",
+     "timestamp": 1475366400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 2439,
+    "URL": "http://creativecommons.org/licenses/by-nc/2.0/uk/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     3,
+     15
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Motivation: Testing for correlations between different sets of genomic features is a fundamental task in genomics research. However, searching for overlaps between features with existing web-based methods is complicated by the massive datasets that are routinely produced with current sequencing technologies. Fast and flexible tools are therefore required to ask complex questions of these data in an efficient manner.</jats:p>\n                  <jats:p>Results: This article introduces a new software suite for the comparison, manipulation and annotation of genomic features in Browser Extensible Data (BED) and General Feature Format (GFF) format. BEDTools also supports the comparison of sequence alignments in BAM format to both BED and GFF features. The tools are extremely efficient and allow the user to compare large datasets (e.g. next-generation sequencing data) with both public and custom genome annotation tracks. BEDTools can be combined with one another as well as with standard UNIX commands, thus facilitating routine genomics tasks as well as pipelines that can quickly answer intricate questions of large genomic datasets.</jats:p>\n                  <jats:p>Availability and implementation: BEDTools was written in C++. Source code and a comprehensive user manual are freely available at http://code.google.com/p/bedtools</jats:p>\n                  <jats:p>Contact: \u00a0aaronquinlan@gmail.com; imh4y@virginia.edu</jats:p>\n                  <jats:p>Supplementary information: \u00a0Supplementary data are available at Bioinformatics online.</jats:p>",
+  "DOI": "10.1093/bioinformatics/btq033",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     1,
+     28
+    ]
+   ],
+   "date-time": "2010-01-28T20:26:27Z",
+   "timestamp": 1264710387000
+  },
+  "page": "841-842",
+  "source": "Crossref",
+  "is-referenced-by-count": 28454,
+  "title": [
+   "BEDTools: a flexible suite of utilities for comparing genomic features"
+  ],
+  "prefix": "10.1093",
+  "volume": "26",
+  "author": [
+   {
+    "given": "Aaron R.",
+    "family": "Quinlan",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+     },
+     {
+      "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ira M.",
+    "family": "Hall",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+     },
+     {
+      "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2010,
+     1,
+     28
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2023012508014145200_B1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1451",
+    "DOI": "10.1101/gr.4086505",
+    "article-title": "Galaxy: a platform for interactive large-scale genome analysis",
+    "volume": "15",
+    "author": "Giardine",
+    "year": "2005",
+    "journal-title": "Genome Res."
+   },
+   {
+    "key": "2023012508014145200_B2",
+    "doi-asserted-by": "crossref",
+    "first-page": "996",
+    "DOI": "10.1101/gr.229102",
+    "article-title": "The human genome browser at UCSC",
+    "volume": "12",
+    "author": "Kent",
+    "year": "2002",
+    "journal-title": "Genome Res."
+   },
+   {
+    "key": "2023012508014145200_B3",
+    "doi-asserted-by": "crossref",
+    "first-page": "2078",
+    "DOI": "10.1093/bioinformatics/btp352",
+    "article-title": "The Sequence Alignment/Map format and SAMtools",
+    "volume": "25",
+    "author": "Li",
+    "year": "2009",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023012508014145200_B4",
+    "doi-asserted-by": "crossref",
+    "first-page": "2444",
+    "DOI": "10.1073/pnas.85.8.2444",
+    "article-title": "Improved tools for biological sequence comparison",
+    "volume": "85",
+    "author": "Pearson",
+    "year": "1988",
+    "journal-title": "Proc. Natl Acad. Sci. USA"
+   },
+   {
+    "key": "2023012508014145200_B5",
+    "author": "Smit",
+    "year": "1996",
+    "journal-title": "RepeatMasker. Open-3.0."
+   }
+  ],
+  "container-title": [
+   "Bioinformatics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/26/6/841/48854754/bioinformatics_26_6_841.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/26/6/841/48854754/bioinformatics_26_6_841.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     1,
+     25
+    ]
+   ],
+   "date-time": "2023-01-25T03:01:58Z",
+   "timestamp": 1674615718000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/bioinformatics/article/26/6/841/244688"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     1,
+     28
+    ]
+   ]
+  },
+  "references-count": 5,
+  "journal-issue": {
+   "issue": "6",
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      3,
+      15
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/bioinformatics/btq033",
+  "relation": {},
+  "ISSN": [
+   "1367-4811",
+   "1367-4803"
+  ],
+  "issn-type": [
+   {
+    "value": "1367-4811",
+    "type": "electronic"
+   },
+   {
+    "value": "1367-4803",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2010,
+     3,
+     15
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     1,
+     28
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T02:27:18Z",
+    "timestamp": 1790821638431,
+    "version": "4.1.0"
+   },
+   "reference-count": 5,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "6",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2016,
+        10,
+        2
+       ]
+      ],
+      "date-time": "2016-10-02T00:00:00Z",
+      "timestamp": 1475366400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 2439,
+     "URL": "http://creativecommons.org/licenses/by-nc/2.0/uk/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      3,
+      15
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Motivation: Testing for correlations between different sets of genomic features is a fundamental task in genomics research. However, searching for overlaps between features with existing web-based methods is complicated by the massive datasets that are routinely produced with current sequencing technologies. Fast and flexible tools are therefore required to ask complex questions of these data in an efficient manner.</jats:p>\n                  <jats:p>Results: This article introduces a new software suite for the comparison, manipulation and annotation of genomic features in Browser Extensible Data (BED) and General Feature Format (GFF) format. BEDTools also supports the comparison of sequence alignments in BAM format to both BED and GFF features. The tools are extremely efficient and allow the user to compare large datasets (e.g. next-generation sequencing data) with both public and custom genome annotation tracks. BEDTools can be combined with one another as well as with standard UNIX commands, thus facilitating routine genomics tasks as well as pipelines that can quickly answer intricate questions of large genomic datasets.</jats:p>\n                  <jats:p>Availability and implementation: BEDTools was written in C++. Source code and a comprehensive user manual are freely available at http://code.google.com/p/bedtools</jats:p>\n                  <jats:p>Contact: \u00a0aaronquinlan@gmail.com; imh4y@virginia.edu</jats:p>\n                  <jats:p>Supplementary information: \u00a0Supplementary data are available at Bioinformatics online.</jats:p>",
+   "DOI": "10.1093/bioinformatics/btq033",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      28
+     ]
+    ],
+    "date-time": "2010-01-28T20:26:27Z",
+    "timestamp": 1264710387000
+   },
+   "page": "841-842",
+   "source": "Crossref",
+   "is-referenced-by-count": 28454,
+   "title": [
+    "BEDTools: a flexible suite of utilities for comparing genomic features"
+   ],
+   "prefix": "10.1093",
+   "volume": "26",
+   "author": [
+    {
+     "given": "Aaron R.",
+     "family": "Quinlan",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+      },
+      {
+       "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ira M.",
+     "family": "Hall",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+      },
+      {
+       "name": "1 Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine and 2 Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908, USA"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      28
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2023012508014145200_B1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1451",
+     "DOI": "10.1101/gr.4086505",
+     "article-title": "Galaxy: a platform for interactive large-scale genome analysis",
+     "volume": "15",
+     "author": "Giardine",
+     "year": "2005",
+     "journal-title": "Genome Res."
+    },
+    {
+     "key": "2023012508014145200_B2",
+     "doi-asserted-by": "crossref",
+     "first-page": "996",
+     "DOI": "10.1101/gr.229102",
+     "article-title": "The human genome browser at UCSC",
+     "volume": "12",
+     "author": "Kent",
+     "year": "2002",
+     "journal-title": "Genome Res."
+    },
+    {
+     "key": "2023012508014145200_B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "2078",
+     "DOI": "10.1093/bioinformatics/btp352",
+     "article-title": "The Sequence Alignment/Map format and SAMtools",
+     "volume": "25",
+     "author": "Li",
+     "year": "2009",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023012508014145200_B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "2444",
+     "DOI": "10.1073/pnas.85.8.2444",
+     "article-title": "Improved tools for biological sequence comparison",
+     "volume": "85",
+     "author": "Pearson",
+     "year": "1988",
+     "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+     "key": "2023012508014145200_B5",
+     "author": "Smit",
+     "year": "1996",
+     "journal-title": "RepeatMasker. Open-3.0."
+    }
+   ],
+   "container-title": [
+    "Bioinformatics"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/26/6/841/48854754/bioinformatics_26_6_841.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/26/6/841/48854754/bioinformatics_26_6_841.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      25
+     ]
+    ],
+    "date-time": "2023-01-25T03:01:58Z",
+    "timestamp": 1674615718000
+   },
+   "score": 86.88768,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/bioinformatics/article/26/6/841/244688"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      28
+     ]
+    ]
+   },
+   "references-count": 5,
+   "journal-issue": {
+    "issue": "6",
+    "published-print": {
+     "date-parts": [
+      [
+       2010,
+       3,
+       15
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/bioinformatics/btq033",
+   "ISSN": [
+    "1367-4811",
+    "1367-4803"
+   ],
+   "issn-type": [
+    {
+     "value": "1367-4811",
+     "type": "electronic"
+    },
+    {
+     "value": "1367-4803",
+     "type": "print"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2010,
+      3,
+      15
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      1,
+      28
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      3
+     ]
+    ],
+    "date-time": "2023-06-03T04:26:39Z",
+    "timestamp": 1685766399339
+   },
+   "publisher": "Chan Zuckerberg Initiative (CZI)",
+   "award": "DAF2021-237738",
+   "DOI": "10.37921/188043ocnxgr",
+   "type": "grant",
+   "created": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      2
+     ]
+    ],
+    "date-time": "2023-06-02T16:53:26Z",
+    "timestamp": 1685724806000
+   },
+   "source": "Crossref",
+   "prefix": "10.37921",
+   "member": "13852",
+   "project": [
+    {
+     "project-title": [
+      {
+       "title": "Improving the analytical flexibility of bedtools",
+       "language": "en"
+      }
+     ],
+     "project-description": [
+      {
+       "description": "to improve the flexibility and utility of bedtools for large-scale genomic analyses",
+       "language": "en"
+      }
+     ],
+     "lead-investigator": [
+      {
+       "given": "Aaron",
+       "family": "Quinlan",
+       "affiliation": []
+      }
+     ],
+     "award-amount": {
+      "amount": 211600.0,
+      "currency": "USD"
+     },
+     "award-start": {
+      "date-parts": [
+       [
+        2021,
+        9,
+        1
+       ]
+      ]
+     },
+     "award-planned-end": {
+      "date-parts": [
+       [
+        2023,
+        8,
+        31
+       ]
+      ]
+     },
+     "funding": [
+      {
+       "type": "award",
+       "funder": {
+        "id": [
+         {
+          "id": "10.13039/100014989",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+         }
+        ],
+        "name": "Chan Zuckerberg Initiative Donor Advised Fund (CZI DAF)"
+       }
+      }
+     ]
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      2
+     ]
+    ],
+    "date-time": "2023-06-02T16:53:41Z",
+    "timestamp": 1685724821000
+   },
+   "score": 30.57688,
+   "resource": {
+    "primary": {
+     "URL": "https://chanzuckerberg.com/eoss/proposals/improving-the-analytical-flexibility-of-bedtools/"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      9,
+      1
+     ]
+    ]
+   },
+   "URL": "https://doi.org/10.37921/188043ocnxgr"
+  },
+  {
+   "institution": [
+    {
+     "name": "bioRxiv"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      16
+     ]
+    ],
+    "date-time": "2026-01-16T01:06:26Z",
+    "timestamp": 1768525586756,
+    "version": "3.49.0"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      12
+     ]
+    ]
+   },
+   "group-title": "Bioinformatics",
+   "reference-count": 15,
+   "publisher": "openRxiv",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        8,
+        12
+       ]
+      ],
+      "date-time": "2025-08-12T00:00:00Z",
+      "timestamp": 1754956800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100020771",
+     "name": "Young Scientists Fund of the National Natural Science Foundation of China",
+     "doi-asserted-by": "crossref",
+     "award": [
+      "No. 32300490"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "No. 32300490"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100020771",
+       "id-type": "DOI",
+       "asserted-by": "crossref"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      12
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Genome annotations are becoming increasingly comprehensive due to the discovery of diverse regulatory elements and transcript variants. However, this improvement in annotation resolution poses major challenges for efficient querying, especially across large genomes and pangenomes. Existing tools often exhibit performance bottlenecks when handling large-scale genome annotation files, particularly for region-based queries and hierarchical model extraction. Here, we present\n                  <jats:italic>GFFx</jats:italic>\n                  , a Rust-based toolkit for ultra-fast and scalable genome annotation access.\n                  <jats:italic>GFFx</jats:italic>\n                  introduces a compact, model-aware indexing system inspired by binning strategies and leverages Rust\u2019s strengths in execution speed, memory safety, and multithreading. It supports both feature- and region-based extraction with significant improvements in runtime and scalability over existing tools. Distributed via Cargo,\n                  <jats:italic>GFFx</jats:italic>\n                  provides a cross-platform command-line interface and a reusable library with a clean API, enabling seamless integration into custom pipelines. Benchmark results demonstrate that\n                  <jats:italic>GFFx</jats:italic>\n                  offers substantial speedups and makes a practical, extensible solution for genome annotation workflows.\n                </jats:p>",
+   "DOI": "10.1101/2025.08.08.669426",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      12
+     ]
+    ],
+    "date-time": "2025-08-12T21:00:11Z",
+    "timestamp": 1755032411000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "GFFx: A Rust-based suite of utilities for ultra-fast genomic feature extraction"
+   ],
+   "prefix": "10.64898",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-3065-0739",
+     "authenticated-orcid": false,
+     "given": "Baohua",
+     "family": "Chen",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Dongya",
+     "family": "Wu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Guojie",
+     "family": "Zhang",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "54368",
+   "reference": [
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41586-020-2493-4"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nature13182"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/sciadv.aaw6507"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/gkad1049"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.5",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Jeffrey M. Perkel . Why scientists are turning to Rust. Nature. 588:1852020;",
+     "DOI": "10.1038/d41586-020-03382-2"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.6",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btv573"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btae350"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12859-025-06234-w"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/gr.279095.124"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.10",
+     "unstructured": "Dale R. Gffutils: GFF and GTF file manipulation and intercon-version. Github;"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.12688/f1000research.23297.2"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.12",
+     "unstructured": "Chapman B. bcbio-gff. GitHub. v0. 6.4."
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.13",
+     "unstructured": "Dainat J. Another Gtf/Gff Analysis Toolkit (AGAT): Resolve Interoperability Issues and Accomplish More with Your Annotations. Plant and Animal Genome XXIX Conference (January 8-12, 2022). PAG;"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btq033"
+    },
+    {
+     "key": "2025081421100998000_2025.08.08.669426v1.15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pcbi.1003118"
+    }
+   ],
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.08.08.669426",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T09:20:11Z",
+    "timestamp": 1768468811000
+   },
+   "score": 29.841862,
+   "resource": {
+    "primary": {
+     "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.08.08.669426"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      12
+     ]
+    ]
+   },
+   "references-count": 15,
+   "URL": "https://doi.org/10.1101/2025.08.08.669426",
+   "published": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      12
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  }
+ ]
+}

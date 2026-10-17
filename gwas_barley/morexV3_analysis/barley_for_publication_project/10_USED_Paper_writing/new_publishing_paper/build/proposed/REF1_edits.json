@@ -1,0 +1,178 @@
+{
+ "notes": [
+  "**Item REF1 — bibliographic fixes from the References session** (approved by the user in chat, 2026-10-01; findings 1–4 of `references/bibliography_check.md`). Mechanical; no wording changed.",
+  "(1) Hrmova and Fincher 2024 → Hrmova et al. 2024 (2 places). (2) Yates et al. 2025 → 2026 (1). (3) Potapenko letters swapped to meet TAG's chronological order: Mol Biol Evol (March 2026) = 2026a, Mol Ecol (September 2026) = 2026b, in the visible text (11 places), the TODO comment anchors and the hidden source notes, so every note still names the right paper. (4) (Zhang et al. 2019; Girard et al. 2012) → (Girard et al. 2012; Zhang et al. 2019) (2 places).",
+  "The TODO comments on these citations (221, 305, 308) stay open for the audit."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "top of file (hidden note) (line 9)",
+   "why": "Hidden note on the citation letters updated to the swapped order.",
+   "old": "<!-- Citation letters (TAG rule for two papers with the same first author and year): Potapenko et al. 2026a = Mol Ecol (https://doi.org/10.1111/mec.70540), the source cited throughout; Potapenko et al. 2026b = Mol Biol Evol 43:msag051 (https://doi.org/10.1093/molbev/msag051), planned only for the environmental data sources (section 4). If 2026b is never cited, drop the letters in the References session. User rule (2026-09-29): cite the agreed source only; where sources disagree, a Word comment says which source says what. -->",
+   "new": "{-<!-- Citation letters (TAG rule for two papers with the same first author and year): Potapenko et al. 2026a = Mol Ecol (https://doi.org/10.1111/mec.70540), the source cited throughout; Potapenko et al. 2026b = Mol Biol Evol 43:msag051 (https://doi.org/10.1093/molbev/msag051), planned only for the environmental data sources (section 4). If 2026b is never cited, drop the letters in the References session. User rule (2026-09-29): cite the agreed source only; where sources disagree, a Word comment says which source says what. -->-}{+<!-- Citation letters (TAG: works with the same first author and more than two authors are ordered chronologically; letters swapped 2026-10-01, References session, review item REF1): Potapenko et al. 2026a = Mol Biol Evol 43:msag051 (https://doi.org/10.1093/molbev/msag051; published 10 March 2026), cited for the environmental data sources (section 4) and the genome-size study (Introduction); Potapenko et al. 2026b = Mol Ecol 35:e70540 (https://doi.org/10.1111/mec.70540; issue of September 2026), the source cited throughout. User rule (2026-09-29): cite the agreed source only; where sources disagree, a Word comment says which source says what. -->+}"
+  },
+  {
+   "where": "Introduction (line 47)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "tudy local adaptation (Potapenko et al. 2026a) and genome-size variation (Potapenko et al. 2026b), making it suitable for",
+   "new": "tudy local adaptation (Potapenko et al. {-2026a-}{+2026b+}) and genome-size variation (Potapenko et al. {-2026b-}{+2026a+}), making it suitable for"
+  },
+  {
+   "where": "Introduction (line 49)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": ", the sampling design (Potapenko et al. 2026a, as in the M&M) and the previous uses of the collection (2026a local adaptation; 2026b genome size), and object",
+   "new": ", the sampling design (Potapenko et al. {-2026a-}{+2026b+}, as in the M&M) and the previous uses of the collection ({-2026a-}{+2026b+} local adaptation; {-2026b-}{+2026a+} genome size), and object"
+  },
+  {
+   "where": "Plant material and genotyping (line 55)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "escribed in detail by Potapenko et al. (2026a). Briefly, the sampling ",
+   "new": "escribed in detail by Potapenko et al. ({-2026a-}{+2026b+}). Briefly, the sampling "
+  },
+  {
+   "where": "Plant material and genotyping (line 55)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": " m apart, coordinates: Potapenko et al. 2026a (Mol Ecol), Sampling Des",
+   "new": " m apart, coordinates: Potapenko et al. {-2026a-}{+2026b+} (Mol Ecol), Sampling Des"
+  },
+  {
+   "where": "Plant material and genotyping (line 57)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "verage of at least 5× (Potapenko et al. 2026a). The raw reads (Europea",
+   "new": "verage of at least 5× (Potapenko et al. {-2026a-}{+2026b+}). The raw reads (Europea"
+  },
+  {
+   "where": "Plant material and genotyping (line 57)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "mment-start id=\"202\" author=\"TODO\"}[as described by Potapenko et al. (2026a)]{.mark}[]{.comment-end id=\"202\"}. Clea",
+   "new": "mment-start id=\"202\" author=\"TODO\"}[as described by Potapenko et al. ({-2026a-}{+2026b+})]{.mark}[]{.comment-end id=\"202\"}. Clea"
+  },
+  {
+   "where": "Plant material and genotyping (line 57)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": " <!-- src: sequencing, Potapenko et al. 2026a (Mol Ecol), DNA Extracti",
+   "new": " <!-- src: sequencing, Potapenko et al. {-2026a-}{+2026b+} (Mol Ecol), DNA Extracti"
+  },
+  {
+   "where": "Common-garden experiment and phenotyping (line 63)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "mment-start id=\"206\" author=\"TODO\"}[as described by Potapenko et al. (2026a)]{.mark}[]{.comment-end id=\"206\"}. Each",
+   "new": "mment-start id=\"206\" author=\"TODO\"}[as described by Potapenko et al. ({-2026a-}{+2026b+})]{.mark}[]{.comment-end id=\"206\"}. Each"
+  },
+  {
+   "where": "Common-garden experiment and phenotyping (line 63)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "ots, soil, irrigation: Potapenko et al. 2026a (Mol Ecol), Phenotyping.",
+   "new": "ots, soil, irrigation: Potapenko et al. {-2026a-}{+2026b+} (Mol Ecol), Phenotyping."
+  },
+  {
+   "where": "Common-garden experiment and phenotyping (line 65)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "orded as described by Potapenko et al. (2026a): [TODO: flowering-time ",
+   "new": "orded as described by Potapenko et al. ({-2026a-}{+2026b+}): [TODO: flowering-time "
+  },
+  {
+   "where": "Common-garden experiment and phenotyping (line 65)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "finitions and seasons, Potapenko et al. 2026a (Mol Ecol), Phenotyping;",
+   "new": "finitions and seasons, Potapenko et al. {-2026a-}{+2026b+} (Mol Ecol), Phenotyping;"
+  },
+  {
+   "where": "Phenotypic data analysis (line 93)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "comment-end id=\"216\"} (Potapenko et al. 2026b). Two pairs of variables",
+   "new": "comment-end id=\"216\"} (Potapenko et al. {-2026b-}{+2026a+}). Two pairs of variables"
+  },
+  {
+   "where": "Genome-wide association (line 99)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "old of 0.2. Following Potapenko et al. (2026a), the first three princi",
+   "new": "old of 0.2. Following Potapenko et al. ({-2026a-}{+2026b+}), the first three princi"
+  },
+  {
+   "where": "Genome-wide association (line 99)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "st binary. 'Following Potapenko et al. (2026a)' refers to the three PC",
+   "new": "st binary. 'Following Potapenko et al. ({-2026a-}{+2026b+})' refers to the three PC"
+  },
+  {
+   "where": "Genome-wide association (line 99)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "l et al. 2007 only, as Potapenko et al. 2026a (Mol Ecol) cites it for ",
+   "new": "l et al. 2007 only, as Potapenko et al. {-2026a-}{+2026b+} (Mol Ecol) cites it for "
+  },
+  {
+   "where": "Loci and candidate genes (line 111)",
+   "why": "\"Ensembl 2026\", Nucleic Acids Res 54(D1), January 2026 issue (online November 2025): issue year, as for the other references.",
+   "old": "thor=\"TODO\"}[Ensembl Plants release 62 (Yates et al. 2025)]{.mark}[]{.comment-end ",
+   "new": "thor=\"TODO\"}[Ensembl Plants release 62 ({-Yates et al. 2025-}{+Yates et al. 2026+})]{.mark}[]{.comment-end "
+  },
+  {
+   "where": "Haplotype analysis (line 117)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "rs in this collection (Potapenko et al. 2026a), using the run with the",
+   "new": "rs in this collection (Potapenko et al. {-2026a-}{+2026b+}), using the run with the"
+  },
+  {
+   "where": "Haplotype analysis (line 117)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "ed 2026-09-29). K = 3: Potapenko et al. 2026a (Mol Ecol), Population S",
+   "new": "ed 2026-09-29). K = 3: Potapenko et al. {-2026a-}{+2026b+} (Mol Ecol), Population S"
+  },
+  {
+   "where": "Data and material availability (line 160)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "er project PRJEB79623 (Potapenko et al. 2026a); the sample alias of ea",
+   "new": "er project PRJEB79623 (Potapenko et al. {-2026a-}{+2026b+}); the sample alias of ea"
+  },
+  {
+   "where": "Data and material availability (line 160)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "03 = ENA alias 01_03); Potapenko et al. 2026a (Mol Ecol), Data Availab",
+   "new": "03 = ENA alias 01_03); Potapenko et al. {-2026a-}{+2026b+} (Mol Ecol), Data Availab"
+  },
+  {
+   "where": "Data and material availability (line 160)",
+   "why": "Potapenko letters swapped to TAG order (2026a = Mol Biol Evol, March 2026; 2026b = Mol Ecol, September 2026).",
+   "old": "eumSpontaneumEnvGrad), Potapenko et al. 2026b (Mol Biol Evol), Data av",
+   "new": "eumSpontaneumEnvGrad), Potapenko et al. {-2026b-}{+2026a+} (Mol Biol Evol), Data av"
+  },
+  {
+   "where": "Haplotype analysis and candidate gene resolution (line 254)",
+   "why": "The cited paper has four authors (Hrmova, Zimmer, Bulone, Fincher): TAG style \"et al.\".",
+   "old": "comment-start id=\"305\" author=\"TODO\"}[[(Hrmova and Fincher 2024)]]{.mark}[]{.comment-end",
+   "new": "comment-start id=\"305\" author=\"TODO\"}[[({-Hrmova and Fincher 2024-}{+Hrmova et al. 2024+})]]{.mark}[]{.comment-end"
+  },
+  {
+   "where": "A shared fiber and starch signal on chromosome 7H (line 272)",
+   "why": "Multiple citations in chronological order, as everywhere else in the text.",
+   "old": "comment-start id=\"308\" author=\"TODO\"}[[(Zhang et al. 2019; Girard et al. 2012)]]{.mark}[]{.comment-end",
+   "new": "comment-start id=\"308\" author=\"TODO\"}[[({-Zhang et al. 2019; Girard et al. 2012-}{+Girard et al. 2012; Zhang et al. 2019+})]]{.mark}[]{.comment-end"
+  },
+  {
+   "where": "From associated loci to candidate genes (line 319)",
+   "why": "The cited paper has four authors (Hrmova, Zimmer, Bulone, Fincher): TAG style \"et al.\".",
+   "old": "ses, in degrading mixed-linkage glucan (Hrmova and Fincher 2024). The phosphate transpor",
+   "new": "ses, in degrading mixed-linkage glucan ({-Hrmova and Fincher 2024-}{+Hrmova et al. 2024+}). The phosphate transpor"
+  },
+  {
+   "where": "From associated loci to candidate genes (line 319)",
+   "why": "Multiple citations in chronological order, as everywhere else in the text.",
+   "old": "lan deacetylation and cutin deposition (Zhang et al. 2019; Girard et al. 2012). Its associated SNPs <!",
+   "new": "lan deacetylation and cutin deposition ({-Zhang et al. 2019; Girard et al. 2012-}{+Girard et al. 2012; Zhang et al. 2019+}). Its associated SNPs <!"
+  },
+  {
+   "where": "From associated loci to candidate genes (line 319)",
+   "why": "Multiple citations in chronological order, as everywhere else in the text.",
+   "old": "ame references as Results Ch. 4 para 1 (Zhang et al. 2019; Girard et al. 2012), which are still to be ",
+   "new": "ame references as Results Ch. 4 para 1 ({-Zhang et al. 2019; Girard et al. 2012-}{+Girard et al. 2012; Zhang et al. 2019+}), which are still to be "
+  },
+  {
+   "where": "From associated loci to candidate genes (line 319)",
+   "why": "The cited paper has four authors (Hrmova, Zimmer, Bulone, Fincher): TAG style \"et al.\".",
+   "old": "lts Ch. 3 (Petit et al. 2016, TODO 304; Hrmova and Fincher 2024, TODO 305), still to be ",
+   "new": "lts Ch. 3 (Petit et al. 2016, TODO 304; {-Hrmova and Fincher 2024-}{+Hrmova et al. 2024+}, TODO 305), still to be "
+  }
+ ]
+}

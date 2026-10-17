@@ -1,0 +1,1060 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2026-10-01T02:50:48Z",
+   "timestamp": 1790823048993,
+   "version": "4.1.0"
+  },
+  "reference-count": 4,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "15",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2016,
+       10,
+       3
+      ]
+     ],
+     "date-time": "2016-10-03T00:00:00Z",
+     "timestamp": 1475452800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 1945,
+    "URL": "http://creativecommons.org/licenses/by-nc/2.5"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2011,
+     8,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Summary: The variant call format (VCF) is a generic format for storing DNA polymorphism data such as SNPs, insertions, deletions and structural variants, together with rich annotations. VCF is usually stored in a compressed manner and can be indexed for fast data retrieval of variants from a range of positions on the reference genome. The format was developed for the 1000 Genomes Project, and has also been adopted by other projects such as UK10K, dbSNP and the NHLBI Exome Project. VCFtools is a software suite that implements various utilities for processing VCF files, including validation, merging, comparing and also provides a general Perl API.</jats:p>\n                  <jats:p>Availability: \u00a0http://vcftools.sourceforge.net</jats:p>\n                  <jats:p>Contact: \u00a0rd@sanger.ac.uk</jats:p>",
+  "DOI": "10.1093/bioinformatics/btr330",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2011,
+     6,
+     8
+    ]
+   ],
+   "date-time": "2011-06-08T20:23:48Z",
+   "timestamp": 1307564628000
+  },
+  "page": "2156-2158",
+  "source": "Crossref",
+  "is-referenced-by-count": 16258,
+  "title": [
+   "The variant call format and VCFtools"
+  ],
+  "prefix": "10.1093",
+  "volume": "27",
+  "author": [
+   {
+    "given": "Petr",
+    "family": "Danecek",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Adam",
+    "family": "Auton",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Goncalo",
+    "family": "Abecasis",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Cornelis A.",
+    "family": "Albers",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eric",
+    "family": "Banks",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mark A.",
+    "family": "DePristo",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Robert E.",
+    "family": "Handsaker",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gerton",
+    "family": "Lunter",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gabor T.",
+    "family": "Marth",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stephen T.",
+    "family": "Sherry",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gilean",
+    "family": "McVean",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     },
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Richard",
+    "family": "Durbin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "name": "1000 Genomes Project Analysis Group",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2011,
+     6,
+     7
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2023012511525369100_B1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1061",
+    "DOI": "10.1038/nature09534",
+    "article-title": "A map of human genome variation from population-scale sequencing",
+    "volume": "467",
+    "author": "Durbin",
+    "year": "2010",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "2023012511525369100_B2",
+    "doi-asserted-by": "crossref",
+    "first-page": "2078",
+    "DOI": "10.1093/bioinformatics/btp352",
+    "article-title": "The sequence alignment/map format and SAMtools",
+    "volume": "25",
+    "author": "Li",
+    "year": "2009",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023012511525369100_B3",
+    "doi-asserted-by": "crossref",
+    "first-page": "1297",
+    "DOI": "10.1101/gr.107524.110",
+    "article-title": "The genome analysis toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
+    "volume": "20",
+    "author": "McKenna",
+    "year": "2010",
+    "journal-title": "Genome Res."
+   },
+   {
+    "key": "2023012511525369100_B4",
+    "doi-asserted-by": "crossref",
+    "first-page": "20796305",
+    "DOI": "10.1186/gb-2010-11-8-r88",
+    "article-title": "A standard variation file format for human genome sequences",
+    "volume": "11",
+    "author": "Reese",
+    "year": "2010",
+    "journal-title": "Genome Biol."
+   }
+  ],
+  "container-title": [
+   "Bioinformatics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/27/15/2156/48863483/bioinformatics_27_15_2156.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/27/15/2156/48863483/bioinformatics_27_15_2156.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     1,
+     25
+    ]
+   ],
+   "date-time": "2023-01-25T06:57:33Z",
+   "timestamp": 1674629853000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/bioinformatics/article/27/15/2156/402296"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2011,
+     6,
+     7
+    ]
+   ]
+  },
+  "references-count": 4,
+  "journal-issue": {
+   "issue": "15",
+   "published-print": {
+    "date-parts": [
+     [
+      2011,
+      8,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/bioinformatics/btr330",
+  "relation": {
+   "is-referenced-by": [
+    {
+     "id-type": "doi",
+     "id": "10.1007/s11274-025-04612-3",
+     "asserted-by": "object"
+    }
+   ]
+  },
+  "ISSN": [
+   "1367-4811",
+   "1367-4803"
+  ],
+  "issn-type": [
+   {
+    "value": "1367-4811",
+    "type": "electronic"
+   },
+   {
+    "value": "1367-4803",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2011,
+     8,
+     1
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2011,
+     6,
+     7
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T02:50:48Z",
+    "timestamp": 1790823048993,
+    "version": "4.1.0"
+   },
+   "reference-count": 4,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "15",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2016,
+        10,
+        3
+       ]
+      ],
+      "date-time": "2016-10-03T00:00:00Z",
+      "timestamp": 1475452800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 1945,
+     "URL": "http://creativecommons.org/licenses/by-nc/2.5"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2011,
+      8,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Summary: The variant call format (VCF) is a generic format for storing DNA polymorphism data such as SNPs, insertions, deletions and structural variants, together with rich annotations. VCF is usually stored in a compressed manner and can be indexed for fast data retrieval of variants from a range of positions on the reference genome. The format was developed for the 1000 Genomes Project, and has also been adopted by other projects such as UK10K, dbSNP and the NHLBI Exome Project. VCFtools is a software suite that implements various utilities for processing VCF files, including validation, merging, comparing and also provides a general Perl API.</jats:p>\n                  <jats:p>Availability: \u00a0http://vcftools.sourceforge.net</jats:p>\n                  <jats:p>Contact: \u00a0rd@sanger.ac.uk</jats:p>",
+   "DOI": "10.1093/bioinformatics/btr330",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      6,
+      8
+     ]
+    ],
+    "date-time": "2011-06-08T20:23:48Z",
+    "timestamp": 1307564628000
+   },
+   "page": "2156-2158",
+   "source": "Crossref",
+   "is-referenced-by-count": 16258,
+   "title": [
+    "The variant call format and VCFtools"
+   ],
+   "prefix": "10.1093",
+   "volume": "27",
+   "author": [
+    {
+     "given": "Petr",
+     "family": "Danecek",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Adam",
+     "family": "Auton",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Goncalo",
+     "family": "Abecasis",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Cornelis A.",
+     "family": "Albers",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Eric",
+     "family": "Banks",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Mark A.",
+     "family": "DePristo",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Robert E.",
+     "family": "Handsaker",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gerton",
+     "family": "Lunter",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gabor T.",
+     "family": "Marth",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Stephen T.",
+     "family": "Sherry",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gilean",
+     "family": "McVean",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      },
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Richard",
+     "family": "Durbin",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "1 Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Cambridge CB10 1SA, 2Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK, 3Center for Statistical Genetics, Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, 4Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA 02141, 5Department of Biology, Boston College, MA 02467, 6National Institutes of Health National Center for Biotechnology Information, MD 20894, USA and 7Department of Statistics, University of Oxford, Oxford OX1 3TG, UK"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "name": "1000 Genomes Project Analysis Group",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2011,
+      6,
+      7
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2023012511525369100_B1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1061",
+     "DOI": "10.1038/nature09534",
+     "article-title": "A map of human genome variation from population-scale sequencing",
+     "volume": "467",
+     "author": "Durbin",
+     "year": "2010",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "2023012511525369100_B2",
+     "doi-asserted-by": "crossref",
+     "first-page": "2078",
+     "DOI": "10.1093/bioinformatics/btp352",
+     "article-title": "The sequence alignment/map format and SAMtools",
+     "volume": "25",
+     "author": "Li",
+     "year": "2009",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023012511525369100_B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "1297",
+     "DOI": "10.1101/gr.107524.110",
+     "article-title": "The genome analysis toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
+     "volume": "20",
+     "author": "McKenna",
+     "year": "2010",
+     "journal-title": "Genome Res."
+    },
+    {
+     "key": "2023012511525369100_B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "20796305",
+     "DOI": "10.1186/gb-2010-11-8-r88",
+     "article-title": "A standard variation file format for human genome sequences",
+     "volume": "11",
+     "author": "Reese",
+     "year": "2010",
+     "journal-title": "Genome Biol."
+    }
+   ],
+   "container-title": [
+    "Bioinformatics"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/27/15/2156/48863483/bioinformatics_27_15_2156.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/27/15/2156/48863483/bioinformatics_27_15_2156.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      1,
+      25
+     ]
+    ],
+    "date-time": "2023-01-25T06:57:33Z",
+    "timestamp": 1674629853000
+   },
+   "score": 47.37042,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/bioinformatics/article/27/15/2156/402296"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2011,
+      6,
+      7
+     ]
+    ]
+   },
+   "references-count": 4,
+   "journal-issue": {
+    "issue": "15",
+    "published-print": {
+     "date-parts": [
+      [
+       2011,
+       8,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/bioinformatics/btr330",
+   "relation": {
+    "is-referenced-by": [
+     {
+      "id-type": "doi",
+      "id": "10.1007/s11274-025-04612-3",
+      "asserted-by": "object"
+     }
+    ]
+   },
+   "ISSN": [
+    "1367-4811",
+    "1367-4803"
+   ],
+   "issn-type": [
+    {
+     "value": "1367-4811",
+     "type": "electronic"
+    },
+    {
+     "value": "1367-4803",
+     "type": "print"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2011,
+      8,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2011,
+      6,
+      7
+     ]
+    ]
+   }
+  },
+  {
+   "institution": [
+    {
+     "name": "Institute for Social Research",
+     "acronym": [
+      "ISR"
+     ],
+     "place": [
+      "Ann Arbor"
+     ],
+     "department": [
+      "Survey Research Center"
+     ]
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      5,
+      21
+     ]
+    ],
+    "date-time": "2025-05-21T04:27:30Z",
+    "timestamp": 1747801650654,
+    "version": "3.41.0"
+   },
+   "reference-count": 0,
+   "publisher": "Institute for Social Research",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.7826/isr-um.06.res.10.18.01x",
+   "type": "report",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      5,
+      20
+     ]
+    ],
+    "date-time": "2025-05-20T14:47:46Z",
+    "timestamp": 1747752466000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Variant Call Format Data"
+   ],
+   "prefix": "10.7826",
+   "member": "4620",
+   "published-online": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   },
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      5,
+      20
+     ]
+    ],
+    "date-time": "2025-05-20T14:47:46Z",
+    "timestamp": 1747752466000
+   },
+   "score": 35.835094,
+   "resource": {
+    "primary": {
+     "URL": "https://simba.isr.umich.edu/restricted/VariantCall.aspx"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.7826/isr-um.06.res.10.18.01x",
+   "published": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   }
+  },
+  {
+   "institution": [
+    {
+     "name": "Institute for Social Research",
+     "acronym": [
+      "ISR"
+     ],
+     "department": [
+      "Survey Research Center"
+     ]
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2026-04-01T18:01:07Z",
+    "timestamp": 1775066467800,
+    "version": "3.50.1"
+   },
+   "reference-count": 0,
+   "publisher": "Institute for Social Research",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.7826/isr-um.06.res.10.18.01.2014x",
+   "type": "report",
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2026-04-01T16:12:02Z",
+    "timestamp": 1775059922000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "PSID Variant Call Format Data"
+   ],
+   "prefix": "10.7826",
+   "member": "4620",
+   "published-online": {
+    "date-parts": [
+     [
+      2026
+     ]
+    ]
+   },
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2026-04-01T16:12:03Z",
+    "timestamp": 1775059923000
+   },
+   "score": 35.124363,
+   "resource": {
+    "primary": {
+     "URL": "https://simba.isr.umich.edu/restricted/VariantCall.aspx"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2026
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.7826/isr-um.06.res.10.18.01.2014x",
+   "published": {
+    "date-parts": [
+     [
+      2026
+     ]
+    ]
+   }
+  }
+ ]
+}

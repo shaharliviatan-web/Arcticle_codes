@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item CHK3** — checklist item 5 updated after item E2."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Checklist at the top, item 5",
+   "why": "E2 applied.",
+   "old": "⬜ the two citations proposed in Results Ch. 2 ¶3 and Ch. 3 ¶1 (ESM0 Q13).",
+   "new": "{-⬜ the two citations proposed in Results Ch. 2 ¶3 and Ch. 3 ¶1 (ESM0 Q13).-}{+✅ citations added in Results Ch. 2 ¶3, Ch. 3 ¶1 (Q13) and of Online Resource 9 in Ch. 3–4 (Q10).+}"
+  }
+ ]
+}

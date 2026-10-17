@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item CHK5** — checklist item 5 points to the supplement map and the upload folder (user request: easy to know where each thing is)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Checklist at the top, item 5",
+   "why": "Where the files are.",
+   "old": "List: `supplementary/supplementary.md`.",
+   "new": "{-List: `supplementary/supplementary.md`.-}{+Map of all files: `supplementary/README.md`; **files to upload, with their captions: `supplementary/for_submission/`** (zip + `CAPTIONS.md`); list: `supplementary/supplementary.md`.+}"
+  }
+ ]
+}

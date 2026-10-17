@@ -16,17 +16,17 @@ linked Springer Nature "list of mandated data types". Fetch them if needed.
 | # | issue | action |
 |---|---|---|
 | 1 | **LLM use must be documented in Methods.** Only "AI-assisted copy editing" of human-written text is exempt; "generative editorial work and autonomous content creation" is not | user decides the wording; add an LLM-use statement to Materials and methods |
-| 2 | Old paper citations use a comma and `&`: `(Godfray et al., 2010)`, `Hübner & Kantar, 2021` | TAG: `(Godfray et al. 2010)`, `(Hübner and Kantar 2021)`, `(Abbott 1991; Barakat et al. 1995a, b)` |
-| 3 | Old reference list has full journal names and no DOIs | abbreviate journal names (ISSN LTWA; full title if unsure) and add full DOI links |
+| 2 | Old paper citations use a comma and `&`: `(Godfray et al., 2010)`, `Hübner & Kantar, 2021` | ✅ **Done 2026-10-01** (References session): all in-text citations in TAG form (REF1–REF2). TAG: `(Godfray et al. 2010)`, `(Hübner and Kantar 2021)`, `(Abbott 1991; Barakat et al. 1995a, b)` |
+| 3 | Old reference list has full journal names and no DOIs | ✅ **Done 2026-10-01**: `new_publishing_paper/05_references.md` (64 works; LTWA abbreviations, full DOI links), also in the working file (REF3) |
 | 4 | Old figures use uppercase panel letters (A, B) and "Figure 1." | panels **a, b, c**; captions **`Fig. 1`** in bold; no punctuation after the number or at the end of the caption; no titles inside figure images |
 | 5 | **Plant genetic resources:** wild barley accessions = PGR, so genotype/sequencing data deposition in a public repository is **mandatory** | ✅ **Resolved 2026-09-15.** Raw WGS reads for all 300 *H. spontaneum* accessions are public at **ENA PRJEB79623** (ERP163757; 300 NovaSeq WGS runs, public since 2026-03-27). All 290 GWAS accessions are verified present: VCF `HS0103` = ENA alias `01_03`; the 10 excluded are site 04. Published with Potapenko et al. (2026) *Mol Ecol*, https://doi.org/10.1111/mec.70540 (also used in Potapenko et al. 2026 *MBE*, https://doi.org/10.1093/molbev/msag051). Cite PRJEB79623 at the end of M&M and in Data availability. |
 | 5b | The published SNP calls are against **MorexV2**; ours are a GATK4 **re-call against MorexV3**, which is not published | Methods must describe the MorexV3 re-call (commands and filters are in the header of `/mnt/data/shahar/gwas_barley/data/inputs/morexV3_with_ids.vcf.gz`). Share the MorexV3 VCF (6.9 GB, too large for ESM) through Zenodo/Dryad, or state "available on request" |
-| 6 | QTL/association studies: genotype, phenotype and mapping data are expected as supplementary data | open: BLUPs + locus/SNP tables as Online Resources; MorexV3 genotypes via 5b |
+| 6 | QTL/association studies: genotype, phenotype and mapping data are expected as supplementary data | ✅ **Done 2026-10-01** for phenotypes and mapping: genotype BLUPs of the 290 accessions (Online Resource 1), the 36 loci and 52 significant SNPs (Online Resource 5). MorexV3 genotypes: Zenodo via 5b (open, TODO 234) |
 | 7 | Code essential to the results → download links + formatted example data | open: GitHub/Zenodo release of this project's scripts (the lab publishes under https://github.com/hubner-lab) |
 | 8 | Minimum study requirements | N = 290 > 100 ✓; 3 growing seasons = 3 environments ✓ ("locations and/or years") |
 | 9 | Declarations need real details | funding agency + grant numbers, competing interests, author contributions (initials): ask the supervisor |
 | 10 | **Guidelines contradict each other on Declarations position**: "Statements and Declarations … placed **after** the References" vs "Declarations section **before** the reference list" (Competing-interests summary) | follow the primary instruction (after References) unless a recent TAG article shows otherwise |
-| 11 | Supplementary files must be cited as "Online Resource N" | name them `ESM_1.xlsx`, `ESM_2.pdf` … in citation order |
+| 11 | Supplementary files must be cited as "Online Resource N" | ✅ **Done 2026-10-01**: 13 files `ESM_1` … `ESM_13`, numbered by first citation, title block in each, captions in the manuscript ("Supplementary Information"). Map: `new_publishing_paper/supplementary/README.md`; upload set: `supplementary/for_submission/` |
 
 ---
 
@@ -127,6 +127,13 @@ non-commercial use within 60 days of request. Restrictions go in the cover lette
 - A concise caption for each file (in the manuscript)
 - Formats: spreadsheets **.csv/.xlsx**; text/figure collections **PDF**; multiple files may be zipped
 - Published as received, with no editing
+- **How published TAG papers look** (checked 2026-10-01 on three open-access TAG GWAS papers of 2026 in PubMed Central,
+  PMC13616022, PMC13546169, PMC13219082): the article ends with a **"Supplementary Information"** section that Springer
+  builds from the uploaded files and their captions ("Below is the link to the electronic supplementary material", one
+  line per file); each also has a Key message. Their in-text style varies ("Supplementary Table S1" or "Online Resource");
+  this manuscript follows the guidelines ("Online Resource N"). **Keep one file per Online Resource** (a zip of several
+  files is allowed for upload); enter the same caption for each file in the submission system
+  (`supplementary/for_submission/CAPTIONS.md`).
 
 ## Submission logistics
 

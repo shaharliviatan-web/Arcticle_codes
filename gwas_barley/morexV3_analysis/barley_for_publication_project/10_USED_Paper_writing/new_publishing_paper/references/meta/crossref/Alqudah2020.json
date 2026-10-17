@@ -1,0 +1,3256 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     25
+    ]
+   ],
+   "date-time": "2026-09-25T22:51:30Z",
+   "timestamp": 1790376690979,
+   "version": "4.1.0"
+  },
+  "reference-count": 112,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2020-03-01T00:00:00Z",
+     "timestamp": 1583020800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       3,
+       1
+      ]
+     ],
+     "date-time": "2020-03-01T00:00:00Z",
+     "timestamp": 1583020800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       10,
+       31
+      ]
+     ],
+     "date-time": "2019-10-31T00:00:00Z",
+     "timestamp": 1572480000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Journal of Advanced Research"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2020,
+     3
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jare.2019.10.013",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     11,
+     4
+    ]
+   ],
+   "date-time": "2019-11-04T02:18:58Z",
+   "timestamp": 1572833938000
+  },
+  "page": "119-135",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 382,
+  "special_numbering": "C",
+  "title": [
+   "GWAS: Fast-forwarding gene identification and characterization in temperate Cereals: lessons from Barley \u2013 A review"
+  ],
+  "prefix": "10.1016",
+  "volume": "22",
+  "author": [
+   {
+    "given": "Ahmad M.",
+    "family": "Alqudah",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7811-728X",
+    "authenticated-orcid": false,
+    "given": "Ahmed",
+    "family": "Sallam",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "P.",
+    "family": "Stephen Baenziger",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andreas",
+    "family": "B\u00f6rner",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "issue": "7",
+    "key": "10.1016/j.jare.2019.10.013_b0005",
+    "doi-asserted-by": "crossref",
+    "first-page": "1877",
+    "DOI": "10.1105/tpc.109.068114",
+    "article-title": "What has natural variation taught us about plant development, physiology, and adaptation?",
+    "volume": "21",
+    "author": "Alonso-Blanco",
+    "year": "2009",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "499",
+    "DOI": "10.1093/oxfordjournals.molbev.a026330",
+    "article-title": "On the origin and domestication history of Barley (Hordeum vulgare)",
+    "volume": "17",
+    "author": "Badr",
+    "year": "2000",
+    "journal-title": "Mol Biol Evol"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jare.2019.10.013_b0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "845",
+    "DOI": "10.1038/nrg2207",
+    "article-title": "Which evolutionary processes influence natural genetic variation for phenotypic traits?",
+    "volume": "8",
+    "author": "Mitchell-Olds",
+    "year": "2007",
+    "journal-title": "Nat Rev Genet"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0020",
+    "doi-asserted-by": "crossref",
+    "first-page": "527",
+    "DOI": "10.1016/j.cell.2015.07.002",
+    "article-title": "Evolution of the Grain Dispersal System in Barley",
+    "volume": "162",
+    "author": "Pourkheirandish",
+    "year": "2015",
+    "journal-title": "Cell"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "1424",
+    "DOI": "10.1073/pnas.0608580104",
+    "article-title": "Six-rowed barley originated from a mutation in a homeodomain-leucine zipper I-class homeobox gene",
+    "volume": "104",
+    "author": "Komatsuda",
+    "year": "2007",
+    "journal-title": "PNAS"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "198",
+    "DOI": "10.1093/bfgp/ely014",
+    "article-title": "Role of genomics in promoting the utilization of plant genetic resources in genebanks",
+    "volume": "17",
+    "author": "Wambugu",
+    "year": "2018",
+    "journal-title": "Brief Funct Genomics."
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0035",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Langridge P. Economic and Academic Importance of Barley. In: Stein N, Muehlbauer GJ, editors. The Barley Genome. Compendium of Plant Genomes. Cham: Springer International Publishing; 2018. p. 1-10.",
+    "DOI": "10.1007/978-3-319-92528-8_1"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0040",
+    "unstructured": "FAOSTAT. The Food and Agriculture Organization of the United Nations7 [Available from: http://www.fao.org/faostat/en/."
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0045",
+    "series-title": "Genetics and Genomics of the Triticeae",
+    "first-page": "31",
+    "article-title": "Triticeae Genetic Resources in ex situ Genebank Collections",
+    "author": "Kn\u00fcpffer",
+    "year": "2009"
+   },
+   {
+    "issue": "7651",
+    "key": "10.1016/j.jare.2019.10.013_b0050",
+    "doi-asserted-by": "crossref",
+    "first-page": "427",
+    "DOI": "10.1038/nature22043",
+    "article-title": "A chromosome conformation capture ordered sequence of the barley genome",
+    "volume": "544",
+    "author": "Mascher",
+    "year": "2017",
+    "journal-title": "Nature"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jare.2019.10.013_b0055",
+    "doi-asserted-by": "crossref",
+    "first-page": "1388",
+    "DOI": "10.1038/ng.2447",
+    "article-title": "Natural variation in a homolog of Antirrhinum CENTRORADIALIS contributed to spring growth habit and environmental adaptation in cultivated barley",
+    "volume": "44",
+    "author": "Comadran",
+    "year": "2012",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0060",
+    "doi-asserted-by": "crossref",
+    "first-page": "1792",
+    "DOI": "10.3389/fpls.2017.01792",
+    "article-title": "Development and Evaluation of a Barley 50k iSelect SNP Array",
+    "volume": "8",
+    "author": "Bayer",
+    "year": "2017",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0065",
+    "doi-asserted-by": "crossref",
+    "first-page": "718",
+    "DOI": "10.1111/tpj.12319",
+    "article-title": "Anchoring and ordering NGS contig assemblies by population sequencing (POPSEQ)",
+    "volume": "76",
+    "author": "Mascher",
+    "year": "2013",
+    "journal-title": "Plant J: Cell Mol Biol"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0070",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0032253",
+    "article-title": "Development of high-density genetic maps for barley and wheat using a novel two-enzyme genotyping-by-sequencing approach",
+    "volume": "7",
+    "author": "Poland",
+    "year": "2012",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0075",
+    "doi-asserted-by": "crossref",
+    "first-page": "104",
+    "DOI": "10.1186/1471-2164-15-104",
+    "article-title": "An evaluation of genotyping by sequencing (GBS) to map the Breviaristatum-e (ari-e) locus in cultivated barley",
+    "volume": "15",
+    "author": "Liu",
+    "year": "2014",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0080",
+    "first-page": "294",
+    "article-title": "Localization of quantitative trait loci (QTL) for agronomic important characters by the use of a RFLP map in barley (Hordeum vulgare L.). TAG Theoretical and applied genetics Theoretische und angewandte",
+    "volume": "90",
+    "author": "Backes",
+    "year": "1995",
+    "journal-title": "Genetik."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0085",
+    "first-page": "575",
+    "article-title": "RFLP mapping of five major genes and eight quantitative trait loci controlling flowering time in a winter x spring barley (Hordeum vulgare L.) cross",
+    "volume": "38",
+    "author": "Laurie",
+    "year": "1995",
+    "journal-title": "Genome/National Research Council Canada = Genome/Conseil national de recherches Canada."
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.jare.2019.10.013_b0090",
+    "doi-asserted-by": "crossref",
+    "first-page": "1091",
+    "DOI": "10.1007/s00122-007-0503-7",
+    "article-title": "A high density barley microsatellite consensus map with 775 SSR loci",
+    "volume": "114",
+    "author": "Varshney",
+    "year": "2007",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0095",
+    "doi-asserted-by": "crossref",
+    "first-page": "62",
+    "DOI": "10.1016/j.jcs.2018.09.011",
+    "article-title": "Identification of a large-effect QTL associated with kernel discoloration in barley",
+    "volume": "84",
+    "author": "Romero",
+    "year": "2018",
+    "journal-title": "J Cereal Sci"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0100",
+    "first-page": "769",
+    "article-title": "Prioritization of candidate genes in QTL regions for physiological and biochemical traits underlying drought response in barley (Hordeum vulgare L.). Front",
+    "volume": "9",
+    "author": "Gudys",
+    "year": "2018",
+    "journal-title": "Plant Sci."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jare.2019.10.013_b0105",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0155938",
+    "article-title": "Quantitative trait loci for yield and yield-related traits in spring barley populations derived from crosses between european and syrian cultivars",
+    "volume": "11",
+    "author": "Mikolajczak",
+    "year": "2016",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0110",
+    "doi-asserted-by": "crossref",
+    "first-page": "1260",
+    "DOI": "10.3389/fpls.2018.01260",
+    "article-title": "QTL mapping of fusarium head blight and correlated agromorphological traits in an elite barley cultivar rasmusson",
+    "volume": "9",
+    "author": "Huang",
+    "year": "2018",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0115",
+    "doi-asserted-by": "crossref",
+    "first-page": "169",
+    "DOI": "10.1631/jzus.B0900332",
+    "article-title": "Identification of QTLs for yield and yield components of barley under different growth conditions",
+    "volume": "11",
+    "author": "Xue",
+    "year": "2010",
+    "journal-title": "J Zhejiang Univ Sci B."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0120",
+    "doi-asserted-by": "crossref",
+    "first-page": "483",
+    "DOI": "10.1007/s00122-008-0915-z",
+    "article-title": "Identification and verification of QTLs for agronomic traits using wild barley introgression lines",
+    "volume": "118",
+    "author": "Schmalenbach",
+    "year": "2009",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jare.2019.10.013_b0125",
+    "doi-asserted-by": "crossref",
+    "first-page": "2803",
+    "DOI": "10.1007/s00122-013-2173-y",
+    "article-title": "Variation at the vernalisation genes Vrn-H1 and Vrn-H2 determines growth and yield stability in barley (Hordeum vulgare) grown under dryland conditions in Syria",
+    "volume": "126",
+    "author": "Rollins",
+    "year": "2013",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0130",
+    "doi-asserted-by": "crossref",
+    "first-page": "113",
+    "DOI": "10.1186/gb-2010-11-4-113",
+    "article-title": "Complex-trait analysis in plants",
+    "volume": "11",
+    "author": "Mitchell-Olds",
+    "year": "2010",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "1786",
+    "DOI": "10.3389/fpls.2017.01786",
+    "article-title": "Accelerated generation of selfed pure line plants for gene identification and crop breeding",
+    "volume": "8",
+    "author": "Yan",
+    "year": "2017",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0140",
+    "doi-asserted-by": "crossref",
+    "first-page": "269",
+    "DOI": "10.1007/s00122-016-2807-y",
+    "article-title": "Fine mapping of a major QTL for awn length in barley using a multiparent mapping population",
+    "volume": "130",
+    "author": "Liller",
+    "year": "2017",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0145",
+    "doi-asserted-by": "crossref",
+    "first-page": "531",
+    "DOI": "10.1146/annurev-arplant-050213-035715",
+    "article-title": "Natural variations and genome-wide association studies in crop plants",
+    "volume": "65",
+    "author": "Huang",
+    "year": "2014",
+    "journal-title": "Annu Rev Plant Biol"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0150",
+    "doi-asserted-by": "crossref",
+    "first-page": "174",
+    "DOI": "10.1016/j.pbi.2009.12.004",
+    "article-title": "Association genetics in crop improvement",
+    "volume": "13",
+    "author": "Rafalski",
+    "year": "2010",
+    "journal-title": "Curr Opin Plant Biol"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0155",
+    "doi-asserted-by": "crossref",
+    "first-page": "357",
+    "DOI": "10.1146/annurev.arplant.54.031902.134907",
+    "article-title": "Buckler ESt. Structure of linkage disequilibrium in plants",
+    "volume": "54",
+    "author": "Flint-Garcia",
+    "year": "2003",
+    "journal-title": "Annu Rev Plant Biol"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0160",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Tenaillon MI, Sawkins MC, Long AD, Gaut RL, Doebley JF, Gaut BS. Patterns of DNA sequence polymorphism along chromosome 1 of maize (Zea mays ssp. mays L.). Proceedings of the National Academy of Sciences of the United States of America. 2001;98(16): pp. 9161\u20136.",
+    "DOI": "10.1073/pnas.151244298"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0165",
+    "doi-asserted-by": "crossref",
+    "first-page": "190",
+    "DOI": "10.1038/ng813",
+    "article-title": "The extent of linkage disequilibrium in Arabidopsis thaliana",
+    "volume": "30",
+    "author": "Nordborg",
+    "year": "2002",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0170",
+    "doi-asserted-by": "crossref",
+    "first-page": "805",
+    "DOI": "10.1534/genetics.106.063800",
+    "article-title": "Effects of introgression and recombination on haplotype structure and linkage disequilibrium surrounding a locus encoding Bymovirus resistance in barley",
+    "volume": "175",
+    "author": "Stracke",
+    "year": "2007",
+    "journal-title": "Genetics"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0175",
+    "doi-asserted-by": "crossref",
+    "first-page": "557",
+    "DOI": "10.1534/genetics.104.038489",
+    "article-title": "Extreme population-dependent linkage disequilibrium detected in an inbreeding plant species",
+    "volume": "172",
+    "author": "Caldwell",
+    "year": "2006",
+    "journal-title": "Hordeum vulgare. Genetics."
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jare.2019.10.013_b0180",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0113120",
+    "article-title": "Genetic dissection of photoperiod response based on GWAS of pre-anthesis phase duration in spring barley",
+    "volume": "9",
+    "author": "Alqudah",
+    "year": "2014",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jare.2019.10.013_b0185",
+    "first-page": "454",
+    "article-title": "Analysis of QTLs for yield components, agronomic traits, and disease resistance in an advanced backcross population of spring barley",
+    "volume": "49",
+    "author": "Li",
+    "year": "2006",
+    "journal-title": "Genome/National Research Council Canada = Genome/Conseil national de recherches Canada."
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0190",
+    "doi-asserted-by": "crossref",
+    "first-page": "117",
+    "DOI": "10.3389/fgene.2016.00117",
+    "article-title": "The Genetic Architecture of Barley Plant Stature",
+    "volume": "7",
+    "author": "Alqudah",
+    "year": "2016",
+    "journal-title": "Front Genet."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0195",
+    "doi-asserted-by": "crossref",
+    "first-page": "873",
+    "DOI": "10.1007/s00122-018-3053-2",
+    "article-title": "Natural variation and genetic make-up of leaf blade area in spring barley",
+    "volume": "131",
+    "author": "Alqudah",
+    "year": "2018",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0200",
+    "doi-asserted-by": "crossref",
+    "first-page": "16",
+    "DOI": "10.1186/1471-2229-12-16",
+    "article-title": "Genome-wide association studies for agronomical traits in a world wide spring barley collection",
+    "volume": "12",
+    "author": "Pasam",
+    "year": "2012",
+    "journal-title": "BMC Plant Biol"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0205",
+    "doi-asserted-by": "crossref",
+    "first-page": "405",
+    "DOI": "10.1104/pp.16.00977",
+    "article-title": "Photoperiod-H1 (Ppd-H1) Controls Leaf Size",
+    "volume": "172",
+    "author": "Digel",
+    "year": "2016",
+    "journal-title": "Plant Physiol"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0210",
+    "doi-asserted-by": "crossref",
+    "first-page": "233",
+    "DOI": "10.1007/s00122-011-1697-2",
+    "article-title": "Genome-wide association mapping of agronomic and morphologic traits in highly structured populations of barley cultivars",
+    "volume": "124",
+    "author": "Wang",
+    "year": "2012",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "issue": "Suppl 2",
+    "key": "10.1016/j.jare.2019.10.013_b0215",
+    "doi-asserted-by": "crossref",
+    "first-page": "250",
+    "DOI": "10.1186/s12870-017-1198-9",
+    "article-title": "Identification of 50 K Illumina-chip SNPs associated with resistance to spot blotch in barley",
+    "volume": "17",
+    "author": "Bykova",
+    "year": "2017",
+    "journal-title": "BMC Plant Biol"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0220",
+    "doi-asserted-by": "crossref",
+    "first-page": "289",
+    "DOI": "10.1017/S0021859611000554",
+    "article-title": "Genomic resources for improving food legume crops",
+    "volume": "150",
+    "author": "Kumar",
+    "year": "2012",
+    "journal-title": "J Agric Sci"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0225",
+    "doi-asserted-by": "crossref",
+    "first-page": "319",
+    "DOI": "10.1038/s41588-018-0266-x",
+    "article-title": "Genebank genomics highlights the diversity of a global barley collection",
+    "volume": "51",
+    "author": "Milner",
+    "year": "2019",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0230",
+    "doi-asserted-by": "crossref",
+    "first-page": "280",
+    "DOI": "10.1186/s12870-018-1435-x",
+    "article-title": "Genetic architecture of common bunt resistance in winter wheat using genome-wide association study",
+    "volume": "18",
+    "author": "Mourad",
+    "year": "2018",
+    "journal-title": "BMC Plant Biol"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0235",
+    "doi-asserted-by": "crossref",
+    "first-page": "380",
+    "DOI": "10.3389/fpls.2018.00380",
+    "article-title": "Genome-wide association study for identification and validation of novel SNP markers for Sr6 stem rust resistance gene in bread wheat",
+    "volume": "9",
+    "author": "Mourad",
+    "year": "2018",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "1098",
+    "key": "10.1016/j.jare.2019.10.013_b0240",
+    "first-page": "1098",
+    "article-title": "Identification and verification of QTL associated with frost tolerance using linkage mapping and GWAS in winter faba bean",
+    "volume": "7",
+    "author": "Sallam",
+    "year": "2016",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0245",
+    "doi-asserted-by": "crossref",
+    "first-page": "945",
+    "DOI": "10.1093/genetics/155.2.945",
+    "article-title": "Inference of population structure using multilocus genotype data",
+    "volume": "155",
+    "author": "Pritchard",
+    "year": "2000",
+    "journal-title": "Genetics"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jare.2019.10.013_b0250",
+    "doi-asserted-by": "crossref",
+    "first-page": "904",
+    "DOI": "10.1038/ng1847",
+    "article-title": "Principal components analysis corrects for stratification in genome-wide association studies",
+    "volume": "38",
+    "author": "Price",
+    "year": "2006",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0255",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1038/ng1702",
+    "article-title": "A unified mixed-model method for association mapping that accounts for multiple levels of relatedness",
+    "volume": "38",
+    "author": "Yu",
+    "year": "2006",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jare.2019.10.013_b0260",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0206682",
+    "article-title": "Genetic basis of drought tolerance during seed germination in barley",
+    "volume": "13",
+    "author": "Thabet",
+    "year": "2018",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0265",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Nagel M, Alqudah AM, Bailly M, Rajjou L, Pistrick S, Matzig G, et al. Novel loci and a role for nitric oxide for seed dormancy and pre-harvest sprouting in barley. Plant, Cell & Environment. 2018.",
+    "DOI": "10.1111/pce.13483"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0270",
+    "doi-asserted-by": "crossref",
+    "first-page": "359",
+    "DOI": "10.1007/s12686-011-9548-7",
+    "article-title": "STRUCTURE HARVESTER: a website and program for visualizing STRUCTURE output and implementing the Evanno method",
+    "volume": "4",
+    "author": "Earl",
+    "year": "2012",
+    "journal-title": "Conserv Genet Resour"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0275",
+    "article-title": "Association mapping in plant genomes. Genetic diversity in plants",
+    "author": "Soto-Cerda",
+    "year": "2012",
+    "journal-title": "InTech"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0280",
+    "doi-asserted-by": "crossref",
+    "first-page": "157",
+    "DOI": "10.1038/ng.3717",
+    "article-title": "VRS2 regulates hormone-mediated inflorescence patterning in barley",
+    "volume": "49",
+    "author": "Youssef",
+    "year": "2017",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0285",
+    "doi-asserted-by": "crossref",
+    "first-page": "290",
+    "DOI": "10.1186/s12864-015-1459-7",
+    "article-title": "Modelling the genetic architecture of flowering time control in barley through nested association mapping",
+    "volume": "16",
+    "author": "Maurer",
+    "year": "2015",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0290",
+    "doi-asserted-by": "crossref",
+    "first-page": "86",
+    "DOI": "10.1007/s11032-015-0284-7",
+    "article-title": "Multi-parent advanced generation inter-cross in barley: high-resolution quantitative trait locus mapping for flowering time as a proof of concept",
+    "volume": "35",
+    "author": "Sannemann",
+    "year": "2015",
+    "journal-title": "Mol Breed"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jare.2019.10.013_b0295",
+    "doi-asserted-by": "crossref",
+    "first-page": "1820",
+    "DOI": "10.1093/bioinformatics/btx071",
+    "article-title": "Genome-wide genetic heterogeneity discovery with categorical covariates",
+    "volume": "33",
+    "author": "Llinares-Lopez",
+    "year": "2017",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jare.2019.10.013_b0300",
+    "doi-asserted-by": "crossref",
+    "first-page": "2194",
+    "DOI": "10.1105/tpc.109.068437",
+    "article-title": "Association mapping: critical considerations shift from genotyping to experimental design",
+    "volume": "21",
+    "author": "Myles",
+    "year": "2009",
+    "journal-title": "Plant Cell"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jare.2019.10.013_b0305",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.2225/vol13-issue5-fulltext-14",
+    "article-title": "The genetic dissection of quantitative traits in crops",
+    "volume": "13",
+    "author": "Semagn",
+    "year": "2010",
+    "journal-title": "Electron J Biotechnol"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0310",
+    "doi-asserted-by": "crossref",
+    "first-page": "501",
+    "DOI": "10.1007/s10709-015-9848-z",
+    "article-title": "Association mapping for frost tolerance using multi-parent advanced generation inter-cross (MAGIC) population in faba bean (Vicia faba L.)",
+    "volume": "143",
+    "author": "Sallam",
+    "year": "2015",
+    "journal-title": "Genetica"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0315",
+    "series-title": "Linkage and Association Mapping of Seed Size And Shape In Lentil",
+    "author": "Fedoruk",
+    "year": "2013"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0320",
+    "series-title": "Developmental and Genetic Analysis of Pre-anthesis Phases in Barley (HordeumvulgareL.) [cumulative]",
+    "author": "Alqudah",
+    "year": "2015"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0325",
+    "first-page": "1",
+    "article-title": "Genome-Wide Association Studies in Plants",
+    "author": "Anderson",
+    "year": "2019",
+    "journal-title": "eLS"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0330",
+    "doi-asserted-by": "crossref",
+    "first-page": "32586",
+    "DOI": "10.1038/srep32586",
+    "article-title": "Yield-related salinity tolerance traits identified in a nested association mapping (NAM) population of wild barley",
+    "volume": "6",
+    "author": "Saade",
+    "year": "2016",
+    "journal-title": "Sci Rep"
+   },
+   {
+    "issue": "50",
+    "key": "10.1016/j.jare.2019.10.013_b0335",
+    "doi-asserted-by": "crossref",
+    "first-page": "21611",
+    "DOI": "10.1073/pnas.1010179107",
+    "article-title": "Genome-wide association mapping to candidate polymorphism resolution in the unsequenced barley genome",
+    "volume": "107",
+    "author": "Cockram",
+    "year": "2010",
+    "journal-title": "PNAS"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0340",
+    "doi-asserted-by": "crossref",
+    "first-page": "91",
+    "DOI": "10.1186/s12864-017-4395-x",
+    "article-title": "Genome-wide association analysis and QTL mapping reveal the genetic control of cadmium accumulation in maize leaf",
+    "volume": "19",
+    "author": "Zhao",
+    "year": "2018",
+    "journal-title": "BMC Genomics"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0345",
+    "doi-asserted-by": "crossref",
+    "first-page": "15971",
+    "DOI": "10.1038/s41598-017-15976-4",
+    "article-title": "GWAS, QTL mapping and gene expression analyses in Brassica napus reveal genetic control of branching morphogenesis",
+    "volume": "7",
+    "author": "He",
+    "year": "2017",
+    "journal-title": "Sci Rep"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0350",
+    "doi-asserted-by": "crossref",
+    "first-page": "2259",
+    "DOI": "10.1093/genetics/165.4.2259",
+    "article-title": "Theoretical basis of the Beavis effect",
+    "volume": "165",
+    "author": "Xu",
+    "year": "2003",
+    "journal-title": "Genetics"
+   },
+   {
+    "issue": "1\u20132",
+    "key": "10.1016/j.jare.2019.10.013_b0355",
+    "first-page": "209",
+    "article-title": "BLUP for phenotypic selection in plant breeding and variety testing",
+    "volume": "161",
+    "author": "Piepho",
+    "year": "2007",
+    "journal-title": "Euphytica"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0360",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1186/1939-8433-6-11",
+    "article-title": "Multi-parent advanced generation inter-cross (MAGIC) populations in rice: progress and potential for genetics research and breeding",
+    "volume": "6",
+    "author": "Bandillo",
+    "year": "2013",
+    "journal-title": "Rice (N Y)."
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.jare.2019.10.013_b0365",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0189446",
+    "article-title": "A donor-specific QTL, exhibiting allelic variation for leaf sheath hairiness in a nested association mapping population, is located on barley chromosome 4H",
+    "volume": "12",
+    "author": "Saade",
+    "year": "2017",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jare.2019.10.013_b0370",
+    "doi-asserted-by": "crossref",
+    "first-page": "2507",
+    "DOI": "10.1093/jxb/erw070",
+    "article-title": "Genomic dissection of plant development and its impact on thousand grain weight in barley through nested association mapping",
+    "volume": "67",
+    "author": "Maurer",
+    "year": "2016",
+    "journal-title": "J Exp Bot"
+   },
+   {
+    "issue": "16",
+    "key": "10.1016/j.jare.2019.10.013_b0375",
+    "doi-asserted-by": "crossref",
+    "first-page": "9440",
+    "DOI": "10.1073/pnas.1530509100",
+    "article-title": "Statistical significance for genomewide studies",
+    "volume": "100",
+    "author": "Storey",
+    "year": "2003",
+    "journal-title": "PNAS"
+   },
+   {
+    "issue": "19",
+    "key": "10.1016/j.jare.2019.10.013_b0380",
+    "doi-asserted-by": "crossref",
+    "first-page": "2633",
+    "DOI": "10.1093/bioinformatics/btm308",
+    "article-title": "TASSEL: software for association mapping of complex traits in diverse samples",
+    "volume": "23",
+    "author": "Bradbury",
+    "year": "2007",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "issue": "41",
+    "key": "10.1016/j.jare.2019.10.013_b0385",
+    "doi-asserted-by": "crossref",
+    "first-page": "16675",
+    "DOI": "10.1073/pnas.1311681110",
+    "article-title": "Variation in the interaction between alleles of HvAPETALA2 and microRNA172 determines the density of grains on the barley inflorescence",
+    "volume": "110",
+    "author": "Houston",
+    "year": "2013",
+    "journal-title": "PNAS"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0390",
+    "series-title": "Genome-Wide Association Studies and Genomic Prediction",
+    "first-page": "193",
+    "article-title": "Using PLINK for Genome-Wide Association Studies (GWAS) and Data Analysis",
+    "author": "Renter\u00eda",
+    "year": "2013"
+   },
+   {
+    "issue": "18",
+    "key": "10.1016/j.jare.2019.10.013_b0395",
+    "doi-asserted-by": "crossref",
+    "first-page": "2397",
+    "DOI": "10.1093/bioinformatics/bts444",
+    "article-title": "GAPIT: genome association and prediction integrated tool",
+    "volume": "28",
+    "author": "Lipka",
+    "year": "2012",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0400",
+    "doi-asserted-by": "crossref",
+    "first-page": "1313",
+    "DOI": "10.3389/fpls.2018.01313",
+    "article-title": "Identifying candidate genes for enhancing grain zn concentration in wheat",
+    "volume": "9",
+    "author": "Alomari",
+    "year": "2018",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0405",
+    "doi-asserted-by": "crossref",
+    "first-page": "169",
+    "DOI": "10.1038/ng.745",
+    "article-title": "INTERMEDIUM-C, a modifier of lateral spikelet fertility in barley, is an ortholog of the maize domestication gene TEOSINTE BRANCHED 1",
+    "volume": "43",
+    "author": "Ramsay",
+    "year": "2011",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "issue": "156",
+    "key": "10.1016/j.jare.2019.10.013_b0410",
+    "doi-asserted-by": "crossref",
+    "first-page": "156",
+    "DOI": "10.3389/fpls.2018.00156",
+    "article-title": "Mapping of HKT1;5 Gene in Barley Using GWAS Approach and Its Implication in Salt Tolerance Mechanism",
+    "volume": "9",
+    "author": "Hazzouri",
+    "year": "2018",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "5750",
+    "key": "10.1016/j.jare.2019.10.013_b0415",
+    "doi-asserted-by": "crossref",
+    "first-page": "1031",
+    "DOI": "10.1126/science.1117619",
+    "article-title": "The pseudo-response regulator Ppd-H1 provides adaptation to photoperiod in barley",
+    "volume": "310",
+    "author": "Turner",
+    "year": "2005",
+    "journal-title": "Science"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0420",
+    "doi-asserted-by": "crossref",
+    "first-page": "601",
+    "DOI": "10.1111/tpj.13590",
+    "article-title": "Leaf primordium size specifies leaf width and vein number among row-type classes in barley",
+    "volume": "91",
+    "author": "Thirulogachandar",
+    "year": "2017",
+    "journal-title": "Plant J: For Cell Mol Biol"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.jare.2019.10.013_b0425",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0204952",
+    "article-title": "GWAS analysis in spring barley (Hordeum vulgare L.) for morphological traits exposed to drought",
+    "volume": "13",
+    "author": "Jabbari",
+    "year": "2018",
+    "journal-title": "PLoS ONE"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0430",
+    "doi-asserted-by": "crossref",
+    "first-page": "171",
+    "DOI": "10.1016/j.fcr.2011.10.008",
+    "article-title": "Genome wide association analyses for drought tolerance related traits in barley (Hordeum vulgare L.)",
+    "volume": "126",
+    "author": "Varshney",
+    "year": "2012",
+    "journal-title": "Field Crops Research."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0435",
+    "doi-asserted-by": "crossref",
+    "first-page": "167",
+    "DOI": "10.1007/s00122-017-2994-1",
+    "article-title": "Association mapping of drought tolerance-related traits in barley to complement a traditional biparental QTL mapping study",
+    "volume": "131",
+    "author": "Wojcik-Jagla",
+    "year": "2018",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "issue": "946",
+    "key": "10.1016/j.jare.2019.10.013_b0440",
+    "first-page": "946",
+    "article-title": "Genome-Wide Association Study Reveals a New QTL for Salinity Tolerance in Barley (Hordeum vulgare L.). Front",
+    "volume": "7",
+    "author": "Fan",
+    "year": "2016",
+    "journal-title": "Plant Sci"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0445",
+    "doi-asserted-by": "crossref",
+    "first-page": "103",
+    "DOI": "10.2135/cropsci2017.03.0206",
+    "article-title": "TCAP FAC-WIN6 Elite Barley GWAS Panel QTL. I. Barley Stripe Rust Resistance QTL in Facultative and Winter Six-Rowed Malt Barley Breeding Programs Identified via GWAS",
+    "volume": "58",
+    "author": "Belcher",
+    "year": "2018",
+    "journal-title": "Crop Sci"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0450",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/s10681-017-2103-1",
+    "article-title": "Mining the global diversity of barley for Fusarium resistance using leaf and spike inoculations",
+    "volume": "214",
+    "author": "Bedawy",
+    "year": "2018",
+    "journal-title": "Euphytica"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jare.2019.10.013_b0455",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/s11032-018-0813-2",
+    "article-title": "Genome-wide association studies of net form of net blotch resistance at seedling and adult plant stages in spring barley collection",
+    "volume": "38",
+    "author": "Amezrou",
+    "year": "2018",
+    "journal-title": "Mol Breed"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0460",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sallam AH, Tyagi P, Brown-Guedira G, Muehlbauer GJ, Hulse A, Steffenson BJ. Genome-Wide Association Mapping of Stem Rust Resistance in Hordeum vulgare subsp. spontaneum. G3. 2017;7(10): pp 3491\u2013507.",
+    "DOI": "10.1534/g3.117.300222"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jare.2019.10.013_b0465",
+    "doi-asserted-by": "crossref",
+    "first-page": "915",
+    "DOI": "10.1007/s00122-017-2860-1",
+    "article-title": "Association mapping utilizing diverse barley lines reveals net form net blotch seedling resistance/susceptibility loci",
+    "volume": "130",
+    "author": "Richards",
+    "year": "2017",
+    "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0470",
+    "doi-asserted-by": "crossref",
+    "first-page": "6",
+    "DOI": "10.1186/s12870-015-0686-z",
+    "article-title": "Genome-wide association study on stem rust resistance in Kazakh spring barley lines",
+    "volume": "16 Suppl 1",
+    "author": "Turuspekov",
+    "year": "2016",
+    "journal-title": "BMC Plant Biology"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.jare.2019.10.013_b0475",
+    "doi-asserted-by": "crossref",
+    "first-page": "1318",
+    "DOI": "10.1111/pce.13483",
+    "article-title": "Novel loci and a role for nitric oxide for seed dormancy and preharvest sprouting in barley",
+    "volume": "42",
+    "author": "Nagel",
+    "year": "2019",
+    "journal-title": "Plant, Cell Environ"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0480",
+    "doi-asserted-by": "crossref",
+    "first-page": "191",
+    "DOI": "10.1186/s12870-017-1140-1",
+    "article-title": "Assessment of genetic diversity and yield performance in Jordanian barley (Hordeum vulgare L.) landraces grown under Rainfed conditions",
+    "volume": "17",
+    "author": "Al-Abdallat",
+    "year": "2017",
+    "journal-title": "BMC Plant Biol"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0485",
+    "article-title": "Genome-Wide Association Analysis of Grain Yield-Associated Traits in a Pan-European Barley Cultivar Collection",
+    "volume": "11",
+    "author": "Xu",
+    "year": "2018",
+    "journal-title": "Plant Genome-Us."
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0490",
+    "doi-asserted-by": "crossref",
+    "first-page": "427",
+    "DOI": "10.1038/nature22043",
+    "article-title": "A chromosome conformation capture ordered sequence of the barley genome",
+    "volume": "544",
+    "author": "Mascher",
+    "year": "2017",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0495",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Gupta PK, Priyadarshan PM. Triticale: Present Status and Future Prospects. In: Caspari EW, editor. Advances in Genetics. 21: Academic Press; 1982. p. 255-345.",
+    "DOI": "10.1016/S0065-2660(08)60300-4"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0500",
+    "doi-asserted-by": "crossref",
+    "first-page": "104",
+    "DOI": "10.3389/fpls.2018.00104",
+    "article-title": "Development and applications of a high throughput genotyping tool for polyploid crops: single nucleotide polymorphism (SNP) array",
+    "volume": "9",
+    "author": "You",
+    "year": "2018",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.jare.2019.10.013_b0505",
+    "doi-asserted-by": "crossref",
+    "first-page": "885",
+    "DOI": "10.1038/s41588-019-0381-3",
+    "article-title": "Durum wheat genome highlights past domestication signatures and future improvement targets",
+    "volume": "51",
+    "author": "Maccaferri",
+    "year": "2019",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "issue": "7705",
+    "key": "10.1016/j.jare.2019.10.013_b0510",
+    "doi-asserted-by": "crossref",
+    "first-page": "424",
+    "DOI": "10.1038/s41586-018-0108-0",
+    "article-title": "Genome sequence of the progenitor of wheat A subgenome Triticum urartu",
+    "volume": "557",
+    "author": "Ling",
+    "year": "2018",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "10.1016/j.jare.2019.10.013_b0515",
+    "unstructured": "International Wheat Genome Sequencing C, investigators IRp, Appels R, Eversole K, Feuillet C, Keller B, et al. Shifting the limits in wheat research and breeding using a fully annotated reference genome. Science. 2018; 361(6403)."
+   },
+   {
+    "issue": "7681",
+    "key": "10.1016/j.jare.2019.10.013_b0520",
+    "doi-asserted-by": "crossref",
+    "first-page": "498",
+    "DOI": "10.1038/nature24486",
+    "article-title": "Genome sequence of the progenitor of the wheat D genome Aegilops tauschii",
+    "volume": "551",
+    "author": "Luo",
+    "year": "2017",
+    "journal-title": "Nature"
+   },
+   {
+    "issue": "1660",
+    "key": "10.1016/j.jare.2019.10.013_b0525",
+    "doi-asserted-by": "crossref",
+    "first-page": "1660",
+    "DOI": "10.3389/fpls.2018.01660",
+    "article-title": "Current strategies of polyploid plant genome sequence assembly",
+    "volume": "9",
+    "author": "Kyriakidou",
+    "year": "2018",
+    "journal-title": "Front Plant Sci."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0530",
+    "doi-asserted-by": "crossref",
+    "first-page": "111",
+    "DOI": "10.1186/s13059-018-1491-4",
+    "article-title": "Linking the International Wheat Genome Sequencing Consortium bread wheat reference genome sequence to wheat genetic and phenomic data",
+    "volume": "19",
+    "author": "Alaux",
+    "year": "2018",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0535",
+    "doi-asserted-by": "crossref",
+    "first-page": "2702",
+    "DOI": "10.1038/s41598-019-38570-2",
+    "article-title": "Genome-wide association study revealed that the TaGW8 gene was associated with kernel size in Chinese bread wheat",
+    "volume": "9",
+    "author": "Yan",
+    "year": "2019",
+    "journal-title": "Sci Rep"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.jare.2019.10.013_b0540",
+    "doi-asserted-by": "crossref",
+    "first-page": "76",
+    "DOI": "10.3390/ijms20010076",
+    "article-title": "Whole-genome association mapping and genomic prediction for iron concentration in wheat grains",
+    "volume": "20",
+    "author": "Alomari",
+    "year": "2018",
+    "journal-title": "Int J Mol Sci."
+   },
+   {
+    "issue": "8",
+    "key": "10.1016/j.jare.2019.10.013_b0545",
+    "first-page": "1705",
+    "article-title": "Inheritance of grain polyphenol oxidase (PPO) activity in multiple wheat (Triticum aestivum L.) genetic backgrounds. TAG Theoretical and applied genetics Theoretische und angewandte",
+    "volume": "125",
+    "author": "Nilthong",
+    "year": "2012",
+    "journal-title": "Genetik."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.jare.2019.10.013_b0550",
+    "doi-asserted-by": "crossref",
+    "first-page": "951",
+    "DOI": "10.1007/s11032-011-9678-3",
+    "article-title": "Population structure revealed by different marker types (SSR or DArT) has an impact on the results of genome-wide association mapping in European barley cultivars",
+    "volume": "30",
+    "author": "Matthies",
+    "year": "2012",
+    "journal-title": "Mol Breed"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.jare.2019.10.013_b0555",
+    "doi-asserted-by": "crossref",
+    "first-page": "295",
+    "DOI": "10.1007/s13353-014-0214-0",
+    "article-title": "Genome-wide association studies of agronomic and quality traits in a set of German winter barley (Hordeum vulgare L.) cultivars using Diversity Arrays Technology (DArT)",
+    "volume": "55",
+    "author": "Lex",
+    "year": "2014",
+    "journal-title": "J Appl Genet."
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.jare.2019.10.013_b0560",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1371/journal.pone.0110046",
+    "article-title": "Genome-wide association mapping for kernel and malting quality traits using historical European barley records",
+    "volume": "9",
+    "author": "Matthies",
+    "year": "2014",
+    "journal-title": "PLoS ONE"
+   }
+  ],
+  "container-title": [
+   "Journal of Advanced Research"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S2090123219301778?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S2090123219301778?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     30
+    ]
+   ],
+   "date-time": "2025-10-30T20:45:58Z",
+   "timestamp": 1761857158000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2090123219301778"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     3
+    ]
+   ]
+  },
+  "references-count": 112,
+  "alternative-id": [
+   "S2090123219301778"
+  ],
+  "URL": "https://doi.org/10.1016/j.jare.2019.10.013",
+  "relation": {},
+  "ISSN": [
+   "2090-1232"
+  ],
+  "issn-type": [
+   {
+    "value": "2090-1232",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2020,
+     3
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "GWAS: Fast-forwarding gene identification and characterization in temperate Cereals: lessons from Barley \u2013 A review",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Journal of Advanced Research",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.jare.2019.10.013",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "\u00a9 2019 The Authors. Published by Elsevier B.V. on behalf of Cairo University.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      25
+     ]
+    ],
+    "date-time": "2026-09-25T22:51:30Z",
+    "timestamp": 1790376690979,
+    "version": "4.1.0"
+   },
+   "reference-count": 112,
+   "publisher": "Elsevier BV",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        3,
+        1
+       ]
+      ],
+      "date-time": "2020-03-01T00:00:00Z",
+      "timestamp": 1583020800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        3,
+        1
+       ]
+      ],
+      "date-time": "2020-03-01T00:00:00Z",
+      "timestamp": 1583020800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        10,
+        31
+       ]
+      ],
+      "date-time": "2019-10-31T00:00:00Z",
+      "timestamp": 1572480000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "elsevier.com",
+     "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Journal of Advanced Research"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      3
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.jare.2019.10.013",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2019,
+      11,
+      4
+     ]
+    ],
+    "date-time": "2019-11-04T02:18:58Z",
+    "timestamp": 1572833938000
+   },
+   "page": "119-135",
+   "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 382,
+   "special_numbering": "C",
+   "title": [
+    "GWAS: Fast-forwarding gene identification and characterization in temperate Cereals: lessons from Barley \u2013 A review"
+   ],
+   "prefix": "10.1016",
+   "volume": "22",
+   "author": [
+    {
+     "given": "Ahmad M.",
+     "family": "Alqudah",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-7811-728X",
+     "authenticated-orcid": false,
+     "given": "Ahmed",
+     "family": "Sallam",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "P.",
+     "family": "Stephen Baenziger",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Andreas",
+     "family": "B\u00f6rner",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "issue": "7",
+     "key": "10.1016/j.jare.2019.10.013_b0005",
+     "doi-asserted-by": "crossref",
+     "first-page": "1877",
+     "DOI": "10.1105/tpc.109.068114",
+     "article-title": "What has natural variation taught us about plant development, physiology, and adaptation?",
+     "volume": "21",
+     "author": "Alonso-Blanco",
+     "year": "2009",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0010",
+     "doi-asserted-by": "crossref",
+     "first-page": "499",
+     "DOI": "10.1093/oxfordjournals.molbev.a026330",
+     "article-title": "On the origin and domestication history of Barley (Hordeum vulgare)",
+     "volume": "17",
+     "author": "Badr",
+     "year": "2000",
+     "journal-title": "Mol Biol Evol"
+    },
+    {
+     "issue": "11",
+     "key": "10.1016/j.jare.2019.10.013_b0015",
+     "doi-asserted-by": "crossref",
+     "first-page": "845",
+     "DOI": "10.1038/nrg2207",
+     "article-title": "Which evolutionary processes influence natural genetic variation for phenotypic traits?",
+     "volume": "8",
+     "author": "Mitchell-Olds",
+     "year": "2007",
+     "journal-title": "Nat Rev Genet"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0020",
+     "doi-asserted-by": "crossref",
+     "first-page": "527",
+     "DOI": "10.1016/j.cell.2015.07.002",
+     "article-title": "Evolution of the Grain Dispersal System in Barley",
+     "volume": "162",
+     "author": "Pourkheirandish",
+     "year": "2015",
+     "journal-title": "Cell"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0025",
+     "doi-asserted-by": "crossref",
+     "first-page": "1424",
+     "DOI": "10.1073/pnas.0608580104",
+     "article-title": "Six-rowed barley originated from a mutation in a homeodomain-leucine zipper I-class homeobox gene",
+     "volume": "104",
+     "author": "Komatsuda",
+     "year": "2007",
+     "journal-title": "PNAS"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0030",
+     "doi-asserted-by": "crossref",
+     "first-page": "198",
+     "DOI": "10.1093/bfgp/ely014",
+     "article-title": "Role of genomics in promoting the utilization of plant genetic resources in genebanks",
+     "volume": "17",
+     "author": "Wambugu",
+     "year": "2018",
+     "journal-title": "Brief Funct Genomics."
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0035",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Langridge P. Economic and Academic Importance of Barley. In: Stein N, Muehlbauer GJ, editors. The Barley Genome. Compendium of Plant Genomes. Cham: Springer International Publishing; 2018. p. 1-10.",
+     "DOI": "10.1007/978-3-319-92528-8_1"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0040",
+     "unstructured": "FAOSTAT. The Food and Agriculture Organization of the United Nations7 [Available from: http://www.fao.org/faostat/en/."
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0045",
+     "series-title": "Genetics and Genomics of the Triticeae",
+     "first-page": "31",
+     "article-title": "Triticeae Genetic Resources in ex situ Genebank Collections",
+     "author": "Kn\u00fcpffer",
+     "year": "2009"
+    },
+    {
+     "issue": "7651",
+     "key": "10.1016/j.jare.2019.10.013_b0050",
+     "doi-asserted-by": "crossref",
+     "first-page": "427",
+     "DOI": "10.1038/nature22043",
+     "article-title": "A chromosome conformation capture ordered sequence of the barley genome",
+     "volume": "544",
+     "author": "Mascher",
+     "year": "2017",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "12",
+     "key": "10.1016/j.jare.2019.10.013_b0055",
+     "doi-asserted-by": "crossref",
+     "first-page": "1388",
+     "DOI": "10.1038/ng.2447",
+     "article-title": "Natural variation in a homolog of Antirrhinum CENTRORADIALIS contributed to spring growth habit and environmental adaptation in cultivated barley",
+     "volume": "44",
+     "author": "Comadran",
+     "year": "2012",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0060",
+     "doi-asserted-by": "crossref",
+     "first-page": "1792",
+     "DOI": "10.3389/fpls.2017.01792",
+     "article-title": "Development and Evaluation of a Barley 50k iSelect SNP Array",
+     "volume": "8",
+     "author": "Bayer",
+     "year": "2017",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0065",
+     "doi-asserted-by": "crossref",
+     "first-page": "718",
+     "DOI": "10.1111/tpj.12319",
+     "article-title": "Anchoring and ordering NGS contig assemblies by population sequencing (POPSEQ)",
+     "volume": "76",
+     "author": "Mascher",
+     "year": "2013",
+     "journal-title": "Plant J: Cell Mol Biol"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0070",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0032253",
+     "article-title": "Development of high-density genetic maps for barley and wheat using a novel two-enzyme genotyping-by-sequencing approach",
+     "volume": "7",
+     "author": "Poland",
+     "year": "2012",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0075",
+     "doi-asserted-by": "crossref",
+     "first-page": "104",
+     "DOI": "10.1186/1471-2164-15-104",
+     "article-title": "An evaluation of genotyping by sequencing (GBS) to map the Breviaristatum-e (ari-e) locus in cultivated barley",
+     "volume": "15",
+     "author": "Liu",
+     "year": "2014",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0080",
+     "first-page": "294",
+     "article-title": "Localization of quantitative trait loci (QTL) for agronomic important characters by the use of a RFLP map in barley (Hordeum vulgare L.). TAG Theoretical and applied genetics Theoretische und angewandte",
+     "volume": "90",
+     "author": "Backes",
+     "year": "1995",
+     "journal-title": "Genetik."
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0085",
+     "first-page": "575",
+     "article-title": "RFLP mapping of five major genes and eight quantitative trait loci controlling flowering time in a winter x spring barley (Hordeum vulgare L.) cross",
+     "volume": "38",
+     "author": "Laurie",
+     "year": "1995",
+     "journal-title": "Genome/National Research Council Canada = Genome/Conseil national de recherches Canada."
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/j.jare.2019.10.013_b0090",
+     "doi-asserted-by": "crossref",
+     "first-page": "1091",
+     "DOI": "10.1007/s00122-007-0503-7",
+     "article-title": "A high density barley microsatellite consensus map with 775 SSR loci",
+     "volume": "114",
+     "author": "Varshney",
+     "year": "2007",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0095",
+     "doi-asserted-by": "crossref",
+     "first-page": "62",
+     "DOI": "10.1016/j.jcs.2018.09.011",
+     "article-title": "Identification of a large-effect QTL associated with kernel discoloration in barley",
+     "volume": "84",
+     "author": "Romero",
+     "year": "2018",
+     "journal-title": "J Cereal Sci"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0100",
+     "first-page": "769",
+     "article-title": "Prioritization of candidate genes in QTL regions for physiological and biochemical traits underlying drought response in barley (Hordeum vulgare L.). Front",
+     "volume": "9",
+     "author": "Gudys",
+     "year": "2018",
+     "journal-title": "Plant Sci."
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.jare.2019.10.013_b0105",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0155938",
+     "article-title": "Quantitative trait loci for yield and yield-related traits in spring barley populations derived from crosses between european and syrian cultivars",
+     "volume": "11",
+     "author": "Mikolajczak",
+     "year": "2016",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0110",
+     "doi-asserted-by": "crossref",
+     "first-page": "1260",
+     "DOI": "10.3389/fpls.2018.01260",
+     "article-title": "QTL mapping of fusarium head blight and correlated agromorphological traits in an elite barley cultivar rasmusson",
+     "volume": "9",
+     "author": "Huang",
+     "year": "2018",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0115",
+     "doi-asserted-by": "crossref",
+     "first-page": "169",
+     "DOI": "10.1631/jzus.B0900332",
+     "article-title": "Identification of QTLs for yield and yield components of barley under different growth conditions",
+     "volume": "11",
+     "author": "Xue",
+     "year": "2010",
+     "journal-title": "J Zhejiang Univ Sci B."
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0120",
+     "doi-asserted-by": "crossref",
+     "first-page": "483",
+     "DOI": "10.1007/s00122-008-0915-z",
+     "article-title": "Identification and verification of QTLs for agronomic traits using wild barley introgression lines",
+     "volume": "118",
+     "author": "Schmalenbach",
+     "year": "2009",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "issue": "11",
+     "key": "10.1016/j.jare.2019.10.013_b0125",
+     "doi-asserted-by": "crossref",
+     "first-page": "2803",
+     "DOI": "10.1007/s00122-013-2173-y",
+     "article-title": "Variation at the vernalisation genes Vrn-H1 and Vrn-H2 determines growth and yield stability in barley (Hordeum vulgare) grown under dryland conditions in Syria",
+     "volume": "126",
+     "author": "Rollins",
+     "year": "2013",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0130",
+     "doi-asserted-by": "crossref",
+     "first-page": "113",
+     "DOI": "10.1186/gb-2010-11-4-113",
+     "article-title": "Complex-trait analysis in plants",
+     "volume": "11",
+     "author": "Mitchell-Olds",
+     "year": "2010",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0135",
+     "doi-asserted-by": "crossref",
+     "first-page": "1786",
+     "DOI": "10.3389/fpls.2017.01786",
+     "article-title": "Accelerated generation of selfed pure line plants for gene identification and crop breeding",
+     "volume": "8",
+     "author": "Yan",
+     "year": "2017",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0140",
+     "doi-asserted-by": "crossref",
+     "first-page": "269",
+     "DOI": "10.1007/s00122-016-2807-y",
+     "article-title": "Fine mapping of a major QTL for awn length in barley using a multiparent mapping population",
+     "volume": "130",
+     "author": "Liller",
+     "year": "2017",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0145",
+     "doi-asserted-by": "crossref",
+     "first-page": "531",
+     "DOI": "10.1146/annurev-arplant-050213-035715",
+     "article-title": "Natural variations and genome-wide association studies in crop plants",
+     "volume": "65",
+     "author": "Huang",
+     "year": "2014",
+     "journal-title": "Annu Rev Plant Biol"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0150",
+     "doi-asserted-by": "crossref",
+     "first-page": "174",
+     "DOI": "10.1016/j.pbi.2009.12.004",
+     "article-title": "Association genetics in crop improvement",
+     "volume": "13",
+     "author": "Rafalski",
+     "year": "2010",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0155",
+     "doi-asserted-by": "crossref",
+     "first-page": "357",
+     "DOI": "10.1146/annurev.arplant.54.031902.134907",
+     "article-title": "Buckler ESt. Structure of linkage disequilibrium in plants",
+     "volume": "54",
+     "author": "Flint-Garcia",
+     "year": "2003",
+     "journal-title": "Annu Rev Plant Biol"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0160",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Tenaillon MI, Sawkins MC, Long AD, Gaut RL, Doebley JF, Gaut BS. Patterns of DNA sequence polymorphism along chromosome 1 of maize (Zea mays ssp. mays L.). Proceedings of the National Academy of Sciences of the United States of America. 2001;98(16): pp. 9161\u20136.",
+     "DOI": "10.1073/pnas.151244298"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0165",
+     "doi-asserted-by": "crossref",
+     "first-page": "190",
+     "DOI": "10.1038/ng813",
+     "article-title": "The extent of linkage disequilibrium in Arabidopsis thaliana",
+     "volume": "30",
+     "author": "Nordborg",
+     "year": "2002",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0170",
+     "doi-asserted-by": "crossref",
+     "first-page": "805",
+     "DOI": "10.1534/genetics.106.063800",
+     "article-title": "Effects of introgression and recombination on haplotype structure and linkage disequilibrium surrounding a locus encoding Bymovirus resistance in barley",
+     "volume": "175",
+     "author": "Stracke",
+     "year": "2007",
+     "journal-title": "Genetics"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0175",
+     "doi-asserted-by": "crossref",
+     "first-page": "557",
+     "DOI": "10.1534/genetics.104.038489",
+     "article-title": "Extreme population-dependent linkage disequilibrium detected in an inbreeding plant species",
+     "volume": "172",
+     "author": "Caldwell",
+     "year": "2006",
+     "journal-title": "Hordeum vulgare. Genetics."
+    },
+    {
+     "issue": "11",
+     "key": "10.1016/j.jare.2019.10.013_b0180",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0113120",
+     "article-title": "Genetic dissection of photoperiod response based on GWAS of pre-anthesis phase duration in spring barley",
+     "volume": "9",
+     "author": "Alqudah",
+     "year": "2014",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.jare.2019.10.013_b0185",
+     "first-page": "454",
+     "article-title": "Analysis of QTLs for yield components, agronomic traits, and disease resistance in an advanced backcross population of spring barley",
+     "volume": "49",
+     "author": "Li",
+     "year": "2006",
+     "journal-title": "Genome/National Research Council Canada = Genome/Conseil national de recherches Canada."
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0190",
+     "doi-asserted-by": "crossref",
+     "first-page": "117",
+     "DOI": "10.3389/fgene.2016.00117",
+     "article-title": "The Genetic Architecture of Barley Plant Stature",
+     "volume": "7",
+     "author": "Alqudah",
+     "year": "2016",
+     "journal-title": "Front Genet."
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0195",
+     "doi-asserted-by": "crossref",
+     "first-page": "873",
+     "DOI": "10.1007/s00122-018-3053-2",
+     "article-title": "Natural variation and genetic make-up of leaf blade area in spring barley",
+     "volume": "131",
+     "author": "Alqudah",
+     "year": "2018",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0200",
+     "doi-asserted-by": "crossref",
+     "first-page": "16",
+     "DOI": "10.1186/1471-2229-12-16",
+     "article-title": "Genome-wide association studies for agronomical traits in a world wide spring barley collection",
+     "volume": "12",
+     "author": "Pasam",
+     "year": "2012",
+     "journal-title": "BMC Plant Biol"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0205",
+     "doi-asserted-by": "crossref",
+     "first-page": "405",
+     "DOI": "10.1104/pp.16.00977",
+     "article-title": "Photoperiod-H1 (Ppd-H1) Controls Leaf Size",
+     "volume": "172",
+     "author": "Digel",
+     "year": "2016",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0210",
+     "doi-asserted-by": "crossref",
+     "first-page": "233",
+     "DOI": "10.1007/s00122-011-1697-2",
+     "article-title": "Genome-wide association mapping of agronomic and morphologic traits in highly structured populations of barley cultivars",
+     "volume": "124",
+     "author": "Wang",
+     "year": "2012",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "issue": "Suppl 2",
+     "key": "10.1016/j.jare.2019.10.013_b0215",
+     "doi-asserted-by": "crossref",
+     "first-page": "250",
+     "DOI": "10.1186/s12870-017-1198-9",
+     "article-title": "Identification of 50 K Illumina-chip SNPs associated with resistance to spot blotch in barley",
+     "volume": "17",
+     "author": "Bykova",
+     "year": "2017",
+     "journal-title": "BMC Plant Biol"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0220",
+     "doi-asserted-by": "crossref",
+     "first-page": "289",
+     "DOI": "10.1017/S0021859611000554",
+     "article-title": "Genomic resources for improving food legume crops",
+     "volume": "150",
+     "author": "Kumar",
+     "year": "2012",
+     "journal-title": "J Agric Sci"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0225",
+     "doi-asserted-by": "crossref",
+     "first-page": "319",
+     "DOI": "10.1038/s41588-018-0266-x",
+     "article-title": "Genebank genomics highlights the diversity of a global barley collection",
+     "volume": "51",
+     "author": "Milner",
+     "year": "2019",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0230",
+     "doi-asserted-by": "crossref",
+     "first-page": "280",
+     "DOI": "10.1186/s12870-018-1435-x",
+     "article-title": "Genetic architecture of common bunt resistance in winter wheat using genome-wide association study",
+     "volume": "18",
+     "author": "Mourad",
+     "year": "2018",
+     "journal-title": "BMC Plant Biol"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0235",
+     "doi-asserted-by": "crossref",
+     "first-page": "380",
+     "DOI": "10.3389/fpls.2018.00380",
+     "article-title": "Genome-wide association study for identification and validation of novel SNP markers for Sr6 stem rust resistance gene in bread wheat",
+     "volume": "9",
+     "author": "Mourad",
+     "year": "2018",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "1098",
+     "key": "10.1016/j.jare.2019.10.013_b0240",
+     "first-page": "1098",
+     "article-title": "Identification and verification of QTL associated with frost tolerance using linkage mapping and GWAS in winter faba bean",
+     "volume": "7",
+     "author": "Sallam",
+     "year": "2016",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0245",
+     "doi-asserted-by": "crossref",
+     "first-page": "945",
+     "DOI": "10.1093/genetics/155.2.945",
+     "article-title": "Inference of population structure using multilocus genotype data",
+     "volume": "155",
+     "author": "Pritchard",
+     "year": "2000",
+     "journal-title": "Genetics"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/j.jare.2019.10.013_b0250",
+     "doi-asserted-by": "crossref",
+     "first-page": "904",
+     "DOI": "10.1038/ng1847",
+     "article-title": "Principal components analysis corrects for stratification in genome-wide association studies",
+     "volume": "38",
+     "author": "Price",
+     "year": "2006",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0255",
+     "doi-asserted-by": "crossref",
+     "first-page": "203",
+     "DOI": "10.1038/ng1702",
+     "article-title": "A unified mixed-model method for association mapping that accounts for multiple levels of relatedness",
+     "volume": "38",
+     "author": "Yu",
+     "year": "2006",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "11",
+     "key": "10.1016/j.jare.2019.10.013_b0260",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0206682",
+     "article-title": "Genetic basis of drought tolerance during seed germination in barley",
+     "volume": "13",
+     "author": "Thabet",
+     "year": "2018",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0265",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Nagel M, Alqudah AM, Bailly M, Rajjou L, Pistrick S, Matzig G, et al. Novel loci and a role for nitric oxide for seed dormancy and pre-harvest sprouting in barley. Plant, Cell & Environment. 2018.",
+     "DOI": "10.1111/pce.13483"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0270",
+     "doi-asserted-by": "crossref",
+     "first-page": "359",
+     "DOI": "10.1007/s12686-011-9548-7",
+     "article-title": "STRUCTURE HARVESTER: a website and program for visualizing STRUCTURE output and implementing the Evanno method",
+     "volume": "4",
+     "author": "Earl",
+     "year": "2012",
+     "journal-title": "Conserv Genet Resour"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0275",
+     "article-title": "Association mapping in plant genomes. Genetic diversity in plants",
+     "author": "Soto-Cerda",
+     "year": "2012",
+     "journal-title": "InTech"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0280",
+     "doi-asserted-by": "crossref",
+     "first-page": "157",
+     "DOI": "10.1038/ng.3717",
+     "article-title": "VRS2 regulates hormone-mediated inflorescence patterning in barley",
+     "volume": "49",
+     "author": "Youssef",
+     "year": "2017",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0285",
+     "doi-asserted-by": "crossref",
+     "first-page": "290",
+     "DOI": "10.1186/s12864-015-1459-7",
+     "article-title": "Modelling the genetic architecture of flowering time control in barley through nested association mapping",
+     "volume": "16",
+     "author": "Maurer",
+     "year": "2015",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0290",
+     "doi-asserted-by": "crossref",
+     "first-page": "86",
+     "DOI": "10.1007/s11032-015-0284-7",
+     "article-title": "Multi-parent advanced generation inter-cross in barley: high-resolution quantitative trait locus mapping for flowering time as a proof of concept",
+     "volume": "35",
+     "author": "Sannemann",
+     "year": "2015",
+     "journal-title": "Mol Breed"
+    },
+    {
+     "issue": "12",
+     "key": "10.1016/j.jare.2019.10.013_b0295",
+     "doi-asserted-by": "crossref",
+     "first-page": "1820",
+     "DOI": "10.1093/bioinformatics/btx071",
+     "article-title": "Genome-wide genetic heterogeneity discovery with categorical covariates",
+     "volume": "33",
+     "author": "Llinares-Lopez",
+     "year": "2017",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/j.jare.2019.10.013_b0300",
+     "doi-asserted-by": "crossref",
+     "first-page": "2194",
+     "DOI": "10.1105/tpc.109.068437",
+     "article-title": "Association mapping: critical considerations shift from genotyping to experimental design",
+     "volume": "21",
+     "author": "Myles",
+     "year": "2009",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.jare.2019.10.013_b0305",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.2225/vol13-issue5-fulltext-14",
+     "article-title": "The genetic dissection of quantitative traits in crops",
+     "volume": "13",
+     "author": "Semagn",
+     "year": "2010",
+     "journal-title": "Electron J Biotechnol"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0310",
+     "doi-asserted-by": "crossref",
+     "first-page": "501",
+     "DOI": "10.1007/s10709-015-9848-z",
+     "article-title": "Association mapping for frost tolerance using multi-parent advanced generation inter-cross (MAGIC) population in faba bean (Vicia faba L.)",
+     "volume": "143",
+     "author": "Sallam",
+     "year": "2015",
+     "journal-title": "Genetica"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0315",
+     "series-title": "Linkage and Association Mapping of Seed Size And Shape In Lentil",
+     "author": "Fedoruk",
+     "year": "2013"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0320",
+     "series-title": "Developmental and Genetic Analysis of Pre-anthesis Phases in Barley (HordeumvulgareL.) [cumulative]",
+     "author": "Alqudah",
+     "year": "2015"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0325",
+     "first-page": "1",
+     "article-title": "Genome-Wide Association Studies in Plants",
+     "author": "Anderson",
+     "year": "2019",
+     "journal-title": "eLS"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0330",
+     "doi-asserted-by": "crossref",
+     "first-page": "32586",
+     "DOI": "10.1038/srep32586",
+     "article-title": "Yield-related salinity tolerance traits identified in a nested association mapping (NAM) population of wild barley",
+     "volume": "6",
+     "author": "Saade",
+     "year": "2016",
+     "journal-title": "Sci Rep"
+    },
+    {
+     "issue": "50",
+     "key": "10.1016/j.jare.2019.10.013_b0335",
+     "doi-asserted-by": "crossref",
+     "first-page": "21611",
+     "DOI": "10.1073/pnas.1010179107",
+     "article-title": "Genome-wide association mapping to candidate polymorphism resolution in the unsequenced barley genome",
+     "volume": "107",
+     "author": "Cockram",
+     "year": "2010",
+     "journal-title": "PNAS"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0340",
+     "doi-asserted-by": "crossref",
+     "first-page": "91",
+     "DOI": "10.1186/s12864-017-4395-x",
+     "article-title": "Genome-wide association analysis and QTL mapping reveal the genetic control of cadmium accumulation in maize leaf",
+     "volume": "19",
+     "author": "Zhao",
+     "year": "2018",
+     "journal-title": "BMC Genomics"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0345",
+     "doi-asserted-by": "crossref",
+     "first-page": "15971",
+     "DOI": "10.1038/s41598-017-15976-4",
+     "article-title": "GWAS, QTL mapping and gene expression analyses in Brassica napus reveal genetic control of branching morphogenesis",
+     "volume": "7",
+     "author": "He",
+     "year": "2017",
+     "journal-title": "Sci Rep"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0350",
+     "doi-asserted-by": "crossref",
+     "first-page": "2259",
+     "DOI": "10.1093/genetics/165.4.2259",
+     "article-title": "Theoretical basis of the Beavis effect",
+     "volume": "165",
+     "author": "Xu",
+     "year": "2003",
+     "journal-title": "Genetics"
+    },
+    {
+     "issue": "1\u20132",
+     "key": "10.1016/j.jare.2019.10.013_b0355",
+     "first-page": "209",
+     "article-title": "BLUP for phenotypic selection in plant breeding and variety testing",
+     "volume": "161",
+     "author": "Piepho",
+     "year": "2007",
+     "journal-title": "Euphytica"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0360",
+     "doi-asserted-by": "crossref",
+     "first-page": "11",
+     "DOI": "10.1186/1939-8433-6-11",
+     "article-title": "Multi-parent advanced generation inter-cross (MAGIC) populations in rice: progress and potential for genetics research and breeding",
+     "volume": "6",
+     "author": "Bandillo",
+     "year": "2013",
+     "journal-title": "Rice (N Y)."
+    },
+    {
+     "issue": "12",
+     "key": "10.1016/j.jare.2019.10.013_b0365",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0189446",
+     "article-title": "A donor-specific QTL, exhibiting allelic variation for leaf sheath hairiness in a nested association mapping population, is located on barley chromosome 4H",
+     "volume": "12",
+     "author": "Saade",
+     "year": "2017",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/j.jare.2019.10.013_b0370",
+     "doi-asserted-by": "crossref",
+     "first-page": "2507",
+     "DOI": "10.1093/jxb/erw070",
+     "article-title": "Genomic dissection of plant development and its impact on thousand grain weight in barley through nested association mapping",
+     "volume": "67",
+     "author": "Maurer",
+     "year": "2016",
+     "journal-title": "J Exp Bot"
+    },
+    {
+     "issue": "16",
+     "key": "10.1016/j.jare.2019.10.013_b0375",
+     "doi-asserted-by": "crossref",
+     "first-page": "9440",
+     "DOI": "10.1073/pnas.1530509100",
+     "article-title": "Statistical significance for genomewide studies",
+     "volume": "100",
+     "author": "Storey",
+     "year": "2003",
+     "journal-title": "PNAS"
+    },
+    {
+     "issue": "19",
+     "key": "10.1016/j.jare.2019.10.013_b0380",
+     "doi-asserted-by": "crossref",
+     "first-page": "2633",
+     "DOI": "10.1093/bioinformatics/btm308",
+     "article-title": "TASSEL: software for association mapping of complex traits in diverse samples",
+     "volume": "23",
+     "author": "Bradbury",
+     "year": "2007",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "issue": "41",
+     "key": "10.1016/j.jare.2019.10.013_b0385",
+     "doi-asserted-by": "crossref",
+     "first-page": "16675",
+     "DOI": "10.1073/pnas.1311681110",
+     "article-title": "Variation in the interaction between alleles of HvAPETALA2 and microRNA172 determines the density of grains on the barley inflorescence",
+     "volume": "110",
+     "author": "Houston",
+     "year": "2013",
+     "journal-title": "PNAS"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0390",
+     "series-title": "Genome-Wide Association Studies and Genomic Prediction",
+     "first-page": "193",
+     "article-title": "Using PLINK for Genome-Wide Association Studies (GWAS) and Data Analysis",
+     "author": "Renter\u00eda",
+     "year": "2013"
+    },
+    {
+     "issue": "18",
+     "key": "10.1016/j.jare.2019.10.013_b0395",
+     "doi-asserted-by": "crossref",
+     "first-page": "2397",
+     "DOI": "10.1093/bioinformatics/bts444",
+     "article-title": "GAPIT: genome association and prediction integrated tool",
+     "volume": "28",
+     "author": "Lipka",
+     "year": "2012",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0400",
+     "doi-asserted-by": "crossref",
+     "first-page": "1313",
+     "DOI": "10.3389/fpls.2018.01313",
+     "article-title": "Identifying candidate genes for enhancing grain zn concentration in wheat",
+     "volume": "9",
+     "author": "Alomari",
+     "year": "2018",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0405",
+     "doi-asserted-by": "crossref",
+     "first-page": "169",
+     "DOI": "10.1038/ng.745",
+     "article-title": "INTERMEDIUM-C, a modifier of lateral spikelet fertility in barley, is an ortholog of the maize domestication gene TEOSINTE BRANCHED 1",
+     "volume": "43",
+     "author": "Ramsay",
+     "year": "2011",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "156",
+     "key": "10.1016/j.jare.2019.10.013_b0410",
+     "doi-asserted-by": "crossref",
+     "first-page": "156",
+     "DOI": "10.3389/fpls.2018.00156",
+     "article-title": "Mapping of HKT1;5 Gene in Barley Using GWAS Approach and Its Implication in Salt Tolerance Mechanism",
+     "volume": "9",
+     "author": "Hazzouri",
+     "year": "2018",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "5750",
+     "key": "10.1016/j.jare.2019.10.013_b0415",
+     "doi-asserted-by": "crossref",
+     "first-page": "1031",
+     "DOI": "10.1126/science.1117619",
+     "article-title": "The pseudo-response regulator Ppd-H1 provides adaptation to photoperiod in barley",
+     "volume": "310",
+     "author": "Turner",
+     "year": "2005",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0420",
+     "doi-asserted-by": "crossref",
+     "first-page": "601",
+     "DOI": "10.1111/tpj.13590",
+     "article-title": "Leaf primordium size specifies leaf width and vein number among row-type classes in barley",
+     "volume": "91",
+     "author": "Thirulogachandar",
+     "year": "2017",
+     "journal-title": "Plant J: For Cell Mol Biol"
+    },
+    {
+     "issue": "9",
+     "key": "10.1016/j.jare.2019.10.013_b0425",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0204952",
+     "article-title": "GWAS analysis in spring barley (Hordeum vulgare L.) for morphological traits exposed to drought",
+     "volume": "13",
+     "author": "Jabbari",
+     "year": "2018",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0430",
+     "doi-asserted-by": "crossref",
+     "first-page": "171",
+     "DOI": "10.1016/j.fcr.2011.10.008",
+     "article-title": "Genome wide association analyses for drought tolerance related traits in barley (Hordeum vulgare L.)",
+     "volume": "126",
+     "author": "Varshney",
+     "year": "2012",
+     "journal-title": "Field Crops Research."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0435",
+     "doi-asserted-by": "crossref",
+     "first-page": "167",
+     "DOI": "10.1007/s00122-017-2994-1",
+     "article-title": "Association mapping of drought tolerance-related traits in barley to complement a traditional biparental QTL mapping study",
+     "volume": "131",
+     "author": "Wojcik-Jagla",
+     "year": "2018",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "issue": "946",
+     "key": "10.1016/j.jare.2019.10.013_b0440",
+     "first-page": "946",
+     "article-title": "Genome-Wide Association Study Reveals a New QTL for Salinity Tolerance in Barley (Hordeum vulgare L.). Front",
+     "volume": "7",
+     "author": "Fan",
+     "year": "2016",
+     "journal-title": "Plant Sci"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0445",
+     "doi-asserted-by": "crossref",
+     "first-page": "103",
+     "DOI": "10.2135/cropsci2017.03.0206",
+     "article-title": "TCAP FAC-WIN6 Elite Barley GWAS Panel QTL. I. Barley Stripe Rust Resistance QTL in Facultative and Winter Six-Rowed Malt Barley Breeding Programs Identified via GWAS",
+     "volume": "58",
+     "author": "Belcher",
+     "year": "2018",
+     "journal-title": "Crop Sci"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0450",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/s10681-017-2103-1",
+     "article-title": "Mining the global diversity of barley for Fusarium resistance using leaf and spike inoculations",
+     "volume": "214",
+     "author": "Bedawy",
+     "year": "2018",
+     "journal-title": "Euphytica"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.jare.2019.10.013_b0455",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/s11032-018-0813-2",
+     "article-title": "Genome-wide association studies of net form of net blotch resistance at seedling and adult plant stages in spring barley collection",
+     "volume": "38",
+     "author": "Amezrou",
+     "year": "2018",
+     "journal-title": "Mol Breed"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0460",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Sallam AH, Tyagi P, Brown-Guedira G, Muehlbauer GJ, Hulse A, Steffenson BJ. Genome-Wide Association Mapping of Stem Rust Resistance in Hordeum vulgare subsp. spontaneum. G3. 2017;7(10): pp 3491\u2013507.",
+     "DOI": "10.1534/g3.117.300222"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.jare.2019.10.013_b0465",
+     "doi-asserted-by": "crossref",
+     "first-page": "915",
+     "DOI": "10.1007/s00122-017-2860-1",
+     "article-title": "Association mapping utilizing diverse barley lines reveals net form net blotch seedling resistance/susceptibility loci",
+     "volume": "130",
+     "author": "Richards",
+     "year": "2017",
+     "journal-title": "TAG Theoretical and applied genetics Theoretische und angewandte Genetik."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0470",
+     "doi-asserted-by": "crossref",
+     "first-page": "6",
+     "DOI": "10.1186/s12870-015-0686-z",
+     "article-title": "Genome-wide association study on stem rust resistance in Kazakh spring barley lines",
+     "volume": "16 Suppl 1",
+     "author": "Turuspekov",
+     "year": "2016",
+     "journal-title": "BMC Plant Biology"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.jare.2019.10.013_b0475",
+     "doi-asserted-by": "crossref",
+     "first-page": "1318",
+     "DOI": "10.1111/pce.13483",
+     "article-title": "Novel loci and a role for nitric oxide for seed dormancy and preharvest sprouting in barley",
+     "volume": "42",
+     "author": "Nagel",
+     "year": "2019",
+     "journal-title": "Plant, Cell Environ"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0480",
+     "doi-asserted-by": "crossref",
+     "first-page": "191",
+     "DOI": "10.1186/s12870-017-1140-1",
+     "article-title": "Assessment of genetic diversity and yield performance in Jordanian barley (Hordeum vulgare L.) landraces grown under Rainfed conditions",
+     "volume": "17",
+     "author": "Al-Abdallat",
+     "year": "2017",
+     "journal-title": "BMC Plant Biol"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0485",
+     "article-title": "Genome-Wide Association Analysis of Grain Yield-Associated Traits in a Pan-European Barley Cultivar Collection",
+     "volume": "11",
+     "author": "Xu",
+     "year": "2018",
+     "journal-title": "Plant Genome-Us."
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0490",
+     "doi-asserted-by": "crossref",
+     "first-page": "427",
+     "DOI": "10.1038/nature22043",
+     "article-title": "A chromosome conformation capture ordered sequence of the barley genome",
+     "volume": "544",
+     "author": "Mascher",
+     "year": "2017",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0495",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Gupta PK, Priyadarshan PM. Triticale: Present Status and Future Prospects. In: Caspari EW, editor. Advances in Genetics. 21: Academic Press; 1982. p. 255-345.",
+     "DOI": "10.1016/S0065-2660(08)60300-4"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0500",
+     "doi-asserted-by": "crossref",
+     "first-page": "104",
+     "DOI": "10.3389/fpls.2018.00104",
+     "article-title": "Development and applications of a high throughput genotyping tool for polyploid crops: single nucleotide polymorphism (SNP) array",
+     "volume": "9",
+     "author": "You",
+     "year": "2018",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.jare.2019.10.013_b0505",
+     "doi-asserted-by": "crossref",
+     "first-page": "885",
+     "DOI": "10.1038/s41588-019-0381-3",
+     "article-title": "Durum wheat genome highlights past domestication signatures and future improvement targets",
+     "volume": "51",
+     "author": "Maccaferri",
+     "year": "2019",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "7705",
+     "key": "10.1016/j.jare.2019.10.013_b0510",
+     "doi-asserted-by": "crossref",
+     "first-page": "424",
+     "DOI": "10.1038/s41586-018-0108-0",
+     "article-title": "Genome sequence of the progenitor of wheat A subgenome Triticum urartu",
+     "volume": "557",
+     "author": "Ling",
+     "year": "2018",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "10.1016/j.jare.2019.10.013_b0515",
+     "unstructured": "International Wheat Genome Sequencing C, investigators IRp, Appels R, Eversole K, Feuillet C, Keller B, et al. Shifting the limits in wheat research and breeding using a fully annotated reference genome. Science. 2018; 361(6403)."
+    },
+    {
+     "issue": "7681",
+     "key": "10.1016/j.jare.2019.10.013_b0520",
+     "doi-asserted-by": "crossref",
+     "first-page": "498",
+     "DOI": "10.1038/nature24486",
+     "article-title": "Genome sequence of the progenitor of the wheat D genome Aegilops tauschii",
+     "volume": "551",
+     "author": "Luo",
+     "year": "2017",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "1660",
+     "key": "10.1016/j.jare.2019.10.013_b0525",
+     "doi-asserted-by": "crossref",
+     "first-page": "1660",
+     "DOI": "10.3389/fpls.2018.01660",
+     "article-title": "Current strategies of polyploid plant genome sequence assembly",
+     "volume": "9",
+     "author": "Kyriakidou",
+     "year": "2018",
+     "journal-title": "Front Plant Sci."
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0530",
+     "doi-asserted-by": "crossref",
+     "first-page": "111",
+     "DOI": "10.1186/s13059-018-1491-4",
+     "article-title": "Linking the International Wheat Genome Sequencing Consortium bread wheat reference genome sequence to wheat genetic and phenomic data",
+     "volume": "19",
+     "author": "Alaux",
+     "year": "2018",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0535",
+     "doi-asserted-by": "crossref",
+     "first-page": "2702",
+     "DOI": "10.1038/s41598-019-38570-2",
+     "article-title": "Genome-wide association study revealed that the TaGW8 gene was associated with kernel size in Chinese bread wheat",
+     "volume": "9",
+     "author": "Yan",
+     "year": "2019",
+     "journal-title": "Sci Rep"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.jare.2019.10.013_b0540",
+     "doi-asserted-by": "crossref",
+     "first-page": "76",
+     "DOI": "10.3390/ijms20010076",
+     "article-title": "Whole-genome association mapping and genomic prediction for iron concentration in wheat grains",
+     "volume": "20",
+     "author": "Alomari",
+     "year": "2018",
+     "journal-title": "Int J Mol Sci."
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/j.jare.2019.10.013_b0545",
+     "first-page": "1705",
+     "article-title": "Inheritance of grain polyphenol oxidase (PPO) activity in multiple wheat (Triticum aestivum L.) genetic backgrounds. TAG Theoretical and applied genetics Theoretische und angewandte",
+     "volume": "125",
+     "author": "Nilthong",
+     "year": "2012",
+     "journal-title": "Genetik."
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.jare.2019.10.013_b0550",
+     "doi-asserted-by": "crossref",
+     "first-page": "951",
+     "DOI": "10.1007/s11032-011-9678-3",
+     "article-title": "Population structure revealed by different marker types (SSR or DArT) has an impact on the results of genome-wide association mapping in European barley cultivars",
+     "volume": "30",
+     "author": "Matthies",
+     "year": "2012",
+     "journal-title": "Mol Breed"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.jare.2019.10.013_b0555",
+     "doi-asserted-by": "crossref",
+     "first-page": "295",
+     "DOI": "10.1007/s13353-014-0214-0",
+     "article-title": "Genome-wide association studies of agronomic and quality traits in a set of German winter barley (Hordeum vulgare L.) cultivars using Diversity Arrays Technology (DArT)",
+     "volume": "55",
+     "author": "Lex",
+     "year": "2014",
+     "journal-title": "J Appl Genet."
+    },
+    {
+     "issue": "11",
+     "key": "10.1016/j.jare.2019.10.013_b0560",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1371/journal.pone.0110046",
+     "article-title": "Genome-wide association mapping for kernel and malting quality traits using historical European barley records",
+     "volume": "9",
+     "author": "Matthies",
+     "year": "2014",
+     "journal-title": "PLoS ONE"
+    }
+   ],
+   "container-title": [
+    "Journal of Advanced Research"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S2090123219301778?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S2090123219301778?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      30
+     ]
+    ],
+    "date-time": "2025-10-30T20:45:58Z",
+    "timestamp": 1761857158000
+   },
+   "score": 82.15993,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2090123219301778"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      3
+     ]
+    ]
+   },
+   "references-count": 112,
+   "alternative-id": [
+    "S2090123219301778"
+   ],
+   "URL": "https://doi.org/10.1016/j.jare.2019.10.013",
+   "ISSN": [
+    "2090-1232"
+   ],
+   "issn-type": [
+    {
+     "value": "2090-1232",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2020,
+      3
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Elsevier",
+     "name": "publisher",
+     "label": "This article is maintained by"
+    },
+    {
+     "value": "GWAS: Fast-forwarding gene identification and characterization in temperate Cereals: lessons from Barley \u2013 A review",
+     "name": "articletitle",
+     "label": "Article Title"
+    },
+    {
+     "value": "Journal of Advanced Research",
+     "name": "journaltitle",
+     "label": "Journal Title"
+    },
+    {
+     "value": "https://doi.org/10.1016/j.jare.2019.10.013",
+     "name": "articlelink",
+     "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+     "value": "article",
+     "name": "content_type",
+     "label": "Content Type"
+    },
+    {
+     "value": "\u00a9 2019 The Authors. Published by Elsevier B.V. on behalf of Cairo University.",
+     "name": "copyright",
+     "label": "Copyright"
+    }
+   ]
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      5,
+      14
+     ]
+    ],
+    "date-time": "2025-05-14T12:52:50Z",
+    "timestamp": 1747227170877,
+    "version": "3.40.5"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2020,
+      3,
+      23
+     ]
+    ]
+   },
+   "group-title": "oral",
+   "reference-count": 0,
+   "publisher": "Copernicus GmbH",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "abstract": "<jats:p>\n        &amp;lt;p&amp;gt;Science is a transient discipline. Research priorities change with funding, students come and go, and faculty moves on. What remains are the published and unpublished articles, as well as the data and code they depend upon. Few projects outlive their immediate use, and even projects with thousands of hours of investment grow stagnant and irrelevant, causing confusion and draining time from the following generation of researchers.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;However, a moderate investment in maintenance may save many hours of headache down the road. As a case study, I present practical lessons from the recent overhaul of ZMAP v6 to ZMAP7. ZMAP is a set of MATLAB tools driven by a graphical user interface, designed to help seismologists analyze catalog data. It debuted in 1994 as a collection of scripts written in MATLAB 4. The last official update was 7 years later, with a formal release of ZMAP v6 (in 2001). This version was the agglomeration of code written by a host of scientists and scientists-in-training as they tackled their various independent projects. In a way, ZMAP is already a success story, having survived 26 years of alternate development and stagnation, and is still in use around the world. Dozens of research papers have used ZMAP through time, with the 2001 publication having 825 google scholar citations.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;With the release of MATLAB R2014b, changes to the graphics engine had rendered ZMAP 6 largely unusable. Over the interim, not only had both the MATLAB language and toolbox changed significantly, but so had common programming practices. The ZMAP7 project started as a &amp;amp;#8220;simple&amp;amp;#8221; graphical retrofit, but has evolved to leverage modern MATLAB&amp;amp;#8217;s new capabilities and updated toolboxes. Targeting a recent version of MATLAB (R2018a) while foregoing backwards language compatibility opened up a wide array of tools for use, and also extended the expected lifetime of ZMAP. A subset of techniques employed follows:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;All changes were tracked in Git, providing snapshots and a safety net while avoiding a proliferation of folders. Code was simultaneously changed across the entire project using regular expressions. Variables were renamed according to their purpose. Unreachable files were removed to reduce the maintenance burden. Scripts and global variables were transformed to functions and classes, providing robust error checking and improving readability. Quoted scripts were extracted into functions where MATLAB itself could help evaluate their correctness. Wrapper functions allowed for global behavior changes and instrumentation. Time-consuming activities, such as determining UI placement for dialog boxes were automated.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Though irregular updates still occur, approximately 2000 hours have been devoted to the project, or one year of work by a full-time employee. This time may be amortized through both application speed-up and reliability for researchers across the globe and transparency/reproducibility provided by open-source, version-controlled code. ZMAP7 is hosted on GitHub, where the community is welcome to keep up with the latest developments. More information about Zmap7 can be accessed from the main SED page: http://www.seismo.ethz.ch/en/research-and-teaching/products-software/software/ZMAP/.&amp;lt;/p&amp;gt;\n        </jats:p>",
+   "DOI": "10.5194/egusphere-egu2020-18878",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      3,
+      10
+     ]
+    ],
+    "date-time": "2020-03-10T03:48:21Z",
+    "timestamp": 1583812101000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "From ZMAP to ZMAP7: Fast-forwarding 25 years of software evolution"
+   ],
+   "prefix": "10.5194",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-0034-8889",
+     "authenticated-orcid": false,
+     "given": "Celso",
+     "family": "Reyes",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Stefan",
+     "family": "Wiemer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "3145",
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      3,
+      23
+     ]
+    ],
+    "date-time": "2020-03-23T19:32:02Z",
+    "timestamp": 1584991922000
+   },
+   "score": 28.507345,
+   "resource": {
+    "primary": {
+     "URL": "https://meetingorganizer.copernicus.org/EGU2020/EGU2020-18878.html"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      3,
+      23
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.5194/egusphere-egu2020-18878",
+   "published": {
+    "date-parts": [
+     [
+      2020,
+      3,
+      23
+     ]
+    ]
+   },
+   "subtype": "other"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2022,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2022-04-01T19:32:34Z",
+    "timestamp": 1648841554935
+   },
+   "reference-count": 0,
+   "publisher": "Frontiers Media SA",
+   "isbn-type": [
+    {
+     "value": "9782889639632",
+     "type": "print"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.3389/978-2-88963-963-2",
+   "type": "book",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      8,
+      27
+     ]
+    ],
+    "date-time": "2020-08-27T13:37:39Z",
+    "timestamp": 1598535459000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Use of Barley and Wheat Reference Sequences: Downstream Applications in Breeding, Gene Isolation, GWAS and Evolution"
+   ],
+   "prefix": "10.3389",
+   "member": "1965",
+   "published-online": {
+    "date-parts": [
+     [
+      2020
+     ]
+    ]
+   },
+   "container-title": [
+    "Frontiers Research Topics"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      8,
+      27
+     ]
+    ],
+    "date-time": "2020-08-27T13:37:40Z",
+    "timestamp": 1598535460000
+   },
+   "score": 27.506174,
+   "resource": {
+    "primary": {
+     "URL": "https://www.frontiersin.org/research-topics/7860/use-of-barley-and-wheat-reference-sequences-downstream-applications-in-breeding-gene-isolation-gwas"
+    }
+   },
+   "editor": [
+    {
+     "given": "Dragan",
+     "family": "Perovic",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "editor",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Hikmet",
+     "family": "Budak",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "editor",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Kazuhiro",
+     "family": "Sato",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "editor",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Pierre",
+     "family": "Sourdille",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "editor",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      2020
+     ]
+    ]
+   },
+   "ISBN": [
+    "9782889639632"
+   ],
+   "references-count": 0,
+   "URL": "https://doi.org/10.3389/978-2-88963-963-2",
+   "ISSN": [
+    "1664-8714"
+   ],
+   "issn-type": [
+    {
+     "value": "1664-8714",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2020
+     ]
+    ]
+   }
+  }
+ ]
+}

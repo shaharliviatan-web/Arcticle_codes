@@ -1,0 +1,2179 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     14
+    ]
+   ],
+   "date-time": "2026-01-14T14:09:37Z",
+   "timestamp": 1768399777667,
+   "version": "3.49.0"
+  },
+  "reference-count": 40,
+  "publisher": "Elsevier BV",
+  "issue": "3",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2008-11-01T00:00:00Z",
+     "timestamp": 1225497600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2008-11-01T00:00:00Z",
+     "timestamp": 1225497600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2008-11-01T00:00:00Z",
+     "timestamp": 1225497600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-017"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2008-11-01T00:00:00Z",
+     "timestamp": 1225497600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-037"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2008-11-01T00:00:00Z",
+     "timestamp": 1225497600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-012"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2008-11-01T00:00:00Z",
+     "timestamp": 1225497600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-029"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2008,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2008-11-01T00:00:00Z",
+     "timestamp": 1225497600000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-004"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100005416",
+    "name": "Norges Forskningsr\u00e5d",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "149758/I10"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "149758/I10"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100005416",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Journal of Cereal Science"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2008,
+     11
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.jcs.2008.02.009",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2008,
+     4,
+     2
+    ]
+   ],
+   "date-time": "2008-04-02T09:31:56Z",
+   "timestamp": 1207128716000
+  },
+  "page": "670-677",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 26,
+  "title": [
+   "Influence of growth temperature on content, viscosity and relative molecular weight of water-soluble \u03b2-glucans in barley (Hordeum vulgare L.)"
+  ],
+  "prefix": "10.1016",
+  "volume": "48",
+  "author": [
+   {
+    "given": "Kirsti",
+    "family": "Anker-Nilssen",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Stefan",
+    "family": "Sahlstr\u00f8m",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Svein H.",
+    "family": "Knutsen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Ann Katrin",
+    "family": "Holtekj\u00f8len",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Anne Kjersti",
+    "family": "Uhlen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib1",
+    "first-page": "284",
+    "article-title": "Dietary fiber content of barley grown in Finland",
+    "volume": "65",
+    "author": "Aalto",
+    "year": "1988",
+    "journal-title": "Cereal Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "704",
+    "DOI": "10.1021/jf00077a016",
+    "article-title": "Analysis of total and insoluble mixed-linked (1\u21923),(1\u21924)-\u03b2-d-glucans in barley and oats",
+    "volume": "35",
+    "author": "\u00c5man",
+    "year": "1987",
+    "journal-title": "Journal of Agricultural and Food Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "45",
+    "DOI": "10.1016/S0733-5210(89)80033-5",
+    "article-title": "Content and solubility of mixed-linked (1\u21923),(1\u21924)-\u03b2-d-glucan in barley and oats during kernel development and storage",
+    "volume": "10",
+    "author": "\u00c5man",
+    "year": "1989",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "979",
+    "DOI": "10.1002/(SICI)1097-0010(19990515)79:7<979::AID-JSFA313>3.0.CO;2-L",
+    "article-title": "Chemical and physical characteristics of different barley samples",
+    "volume": "79",
+    "author": "Andersson",
+    "year": "1999",
+    "journal-title": "Journal of the Science of Food and Agriculture"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "3",
+    "DOI": "10.1016/j.anifeedsci.2006.01.014",
+    "article-title": "Interaction between barley cultivars and growth temperature on starch degradation properties measured in vitro",
+    "volume": "130",
+    "author": "Anker-Nilssen",
+    "year": "2006",
+    "journal-title": "Animal Feed Science and Technology"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib6",
+    "series-title": "Barley: Chemistry and Technology",
+    "first-page": "355",
+    "article-title": "Nonmalting uses of barley",
+    "author": "Bhatty",
+    "year": "1993"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "2287",
+    "DOI": "10.1016/S0031-9422(00)89868-4",
+    "article-title": "Ratio of \u03b2(1\u21923) to \u03b2(1\u21924) glucosidic linkages in non-endospermic hemicellulosic \u03b2-glucans from qat plant (Avena sativa) tissues at different stages of maturity",
+    "volume": "10",
+    "author": "Buchala",
+    "year": "1971",
+    "journal-title": "Phytochemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "161",
+    "DOI": "10.1016/S0733-5210(09)80137-9",
+    "article-title": "Effect of moisture stress on malting quality in Triumph barley",
+    "volume": "14",
+    "author": "Coles",
+    "year": "1991",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "116",
+    "DOI": "10.1002/j.2050-0416.1975.tb03672.x",
+    "article-title": "Morphology and chemical composition of barley endosperm cell wall",
+    "volume": "81",
+    "author": "Fincher",
+    "year": "1975",
+    "journal-title": "Journal of the Institute of Brewing"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "7",
+    "DOI": "10.1016/S0144-8617(96)00126-9",
+    "article-title": "Physical and structural properties of barley (1\u21923),(1\u21924)-\u03b2-d-glucan. Part I. Determination of molecular weight and macromolecular radius by light scattering",
+    "volume": "32",
+    "author": "Gomez",
+    "year": "1997",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "205",
+    "DOI": "10.1016/0144-8617(95)00056-D",
+    "article-title": "Solution properties of \u03b2-d-(1,3)(1,4)-glucan isolated from beer",
+    "volume": "27",
+    "author": "Grimm",
+    "year": "1995",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "41",
+    "DOI": "10.1016/S0733-5210(09)80078-7",
+    "article-title": "Water-unextractable cell wall material from wheat flour. 1. Extraction of polymers with alkali",
+    "volume": "16",
+    "author": "Gruppen",
+    "year": "1992",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "335",
+    "DOI": "10.1016/S0378-4290(03)00100-X",
+    "article-title": "Barley grain \u03b2-glucan content as affected by nitrogen and irrigation",
+    "volume": "84",
+    "author": "G\u00fcler",
+    "year": "2003",
+    "journal-title": "Field Crops Research"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "269",
+    "DOI": "10.1016/S0733-5210(86)80029-7",
+    "article-title": "Genetic and environmental variation in the pentosan and \u03b2-glucan contents of barley, and their relation to malting quality",
+    "volume": "4",
+    "author": "Henry",
+    "year": "1986",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "83",
+    "DOI": "10.1016/0377-8401(86)90015-5",
+    "article-title": "The effect of \u03b2-glucanase on the utilisation of starch and nitrogen by broiler chickens fed on barley of low- or high-viscosity",
+    "volume": "15",
+    "author": "Hesselman",
+    "year": "1986",
+    "journal-title": "Animal Feed Science and Technology"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib16",
+    "doi-asserted-by": "crossref",
+    "first-page": "348",
+    "DOI": "10.1016/j.foodchem.2004.11.022",
+    "article-title": "Contents of starch and non-starch polysaccharides in barley varieties of different origin",
+    "volume": "94",
+    "author": "Holtekj\u00f8len",
+    "year": "2006",
+    "journal-title": "Food Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "417",
+    "DOI": "10.1016/S0144-8617(99)00151-4",
+    "article-title": "Evidence of intermolecular interactions of \u03b2-glucans and arabinoxylans",
+    "volume": "41",
+    "author": "Izydorczyk",
+    "year": "2000",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "259",
+    "DOI": "10.1016/S0144-8617(97)00136-7",
+    "article-title": "Structure and physicochemical properties of barley non-starch polysaccharides - II. Alkali-extractable \u03b2-glucans and arabinoxylans",
+    "volume": "35",
+    "author": "Izydorczyk",
+    "year": "1998",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "982",
+    "DOI": "10.1021/jf991102f",
+    "article-title": "Variation in total and soluble \u03b2-glucan content in hulless barley: Effects of thermal, physical, and enzymic treatments",
+    "volume": "48",
+    "author": "Izydorczyk",
+    "year": "2000",
+    "journal-title": "Journal of Agricultural and Food Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "267",
+    "DOI": "10.1016/j.carbpol.2004.06.041",
+    "article-title": "Structural analysis of water-soluble and -insoluble \u03b2-glucans of whole-grain oats and barley",
+    "volume": "58",
+    "author": "Johansson",
+    "year": "2004",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "707",
+    "DOI": "10.1016/j.foodchem.2006.06.006",
+    "article-title": "Preparation and analysis of dietary fibre constituents in whole grain from hulled and hull-less barley",
+    "volume": "102",
+    "author": "Knutsen",
+    "year": "2007",
+    "journal-title": "Food Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib22",
+    "doi-asserted-by": "crossref",
+    "first-page": "571",
+    "DOI": "10.1094/CCHEM.1997.74.5.571",
+    "article-title": "Comparisons of \u03b2-glucan content of barley and oat",
+    "volume": "74",
+    "author": "Lee",
+    "year": "1997",
+    "journal-title": "Cereal Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib23",
+    "first-page": "153",
+    "article-title": "The mixed linked (1\u21923),(1\u21924)-\u03b2-d-glucan content of seven varieties of oat grown at three locations in the UK",
+    "volume": "36",
+    "author": "Longland",
+    "year": "1993",
+    "journal-title": "Aspects of Applied Biology"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib24",
+    "series-title": "Barley: Chemistry and Technology",
+    "first-page": "73",
+    "article-title": "Carbohydrates of the barley grain",
+    "author": "MacGregor",
+    "year": "1993"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "511",
+    "DOI": "10.1016/0076-6879(88)60160-1",
+    "article-title": "Purification of (1\u21923),(1\u21924)-\u03b2-d-glucan from barley flour",
+    "volume": "160",
+    "author": "McCleary",
+    "year": "1988",
+    "journal-title": "Methods in Enzymology"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "429",
+    "DOI": "10.4141/cjps93-062",
+    "article-title": "Oat \u03b2-glucans: An evaluation of eastern Canadian cultivars and unregistered lines",
+    "volume": "73",
+    "author": "Miller",
+    "year": "1993",
+    "journal-title": "Canadian Journal of Plant Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "37",
+    "DOI": "10.1006/jcrs.1996.0067",
+    "article-title": "Genetic and environmental variation in malting and feed quality of barley",
+    "volume": "25",
+    "author": "Molina-Cano",
+    "year": "1997",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib28",
+    "doi-asserted-by": "crossref",
+    "first-page": "371",
+    "DOI": "10.4141/cjps95-062",
+    "article-title": "Effects of environment and cultivar on total mixed-linkage \u03b2-glucan content in eastern and western Canadian barleys (Hordeum vulgare L.)",
+    "volume": "75",
+    "author": "Narasimhalu",
+    "year": "1995",
+    "journal-title": "Canadian Journal of Plant Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib29",
+    "first-page": "800",
+    "article-title": "Barley as food grain",
+    "volume": "36",
+    "author": "Newman",
+    "year": "1991",
+    "journal-title": "Cereal Foods World"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib30",
+    "doi-asserted-by": "crossref",
+    "first-page": "161",
+    "DOI": "10.1006/jcrs.1996.0049",
+    "article-title": "Chemical composition of barley samples focusing on dietary fiber components",
+    "volume": "24",
+    "author": "Oscarsson",
+    "year": "1996",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib31",
+    "doi-asserted-by": "crossref",
+    "first-page": "3",
+    "DOI": "10.1016/S0144-8617(99)00129-0",
+    "article-title": "Structural features of (1\u21923),(1\u21924)-\u03b2-d-glucan and arabinoxylan fractions isolated from rye bran",
+    "volume": "42",
+    "author": "Roubroeks",
+    "year": "2000",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "61",
+    "DOI": "10.1016/S0733-5210(88)80060-2",
+    "article-title": "Varietal and environmental variations in (1\u21923),(1\u21924)-\u03b2-glucan levels and (1\u21923),(1\u21924)-\u03b2-glucanase potential in barley: Relationships to malting quality",
+    "volume": "7",
+    "author": "Stuart",
+    "year": "1988",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib33",
+    "doi-asserted-by": "crossref",
+    "first-page": "456",
+    "DOI": "10.1094/CCHEM.1997.74.4.456",
+    "article-title": "Patterns of barley grain development in Spain and Scotland and their implications for malting quality",
+    "volume": "74",
+    "author": "Swanston",
+    "year": "1997",
+    "journal-title": "Cereal Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib34",
+    "doi-asserted-by": "crossref",
+    "first-page": "313",
+    "DOI": "10.1016/j.tifs.2003.03.001",
+    "article-title": "Relationships between solution properties of cereal \u03b2-glucans and physiological effects\u2014a review",
+    "volume": "15",
+    "author": "Wood",
+    "year": "2004",
+    "journal-title": "Trends in Food Science & Technology"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "731",
+    "DOI": "10.1079/BJN19940075",
+    "article-title": "Effect of dose and modification of viscous properties of oat gum on plasma glucose and insulin following an Oral glucose load",
+    "volume": "72",
+    "author": "Wood",
+    "year": "1994",
+    "journal-title": "British Journal of Nutrition"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "329",
+    "DOI": "10.1094/CCHEM.2003.80.3.329",
+    "article-title": "Structure of (1\u21923)(1\u21924)-\u03b2-d-glucan in waxy and nonwaxy barley",
+    "volume": "80",
+    "author": "Wood",
+    "year": "2003",
+    "journal-title": "Cereal Chemistry"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib37",
+    "doi-asserted-by": "crossref",
+    "first-page": "207",
+    "DOI": "10.1016/0144-8617(83)90019-X",
+    "article-title": "Water-soluble (1\u21923),(1\u21924)-\u03b2-d-glucans from barley (Hordeum vulgare) endosperm. II. Fine structure",
+    "volume": "3",
+    "author": "Woodward",
+    "year": "1983",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib38",
+    "doi-asserted-by": "crossref",
+    "first-page": "85",
+    "DOI": "10.1016/0144-8617(88)90013-6",
+    "article-title": "Water-soluble (1\u21923,1\u21924)-\u03b2-d-glucans from barley (Hordeum vulgare) endosperm. IV. Comparison of 40\u00b0C and 65\u00b0C soluble fractions",
+    "volume": "8",
+    "author": "Woodward",
+    "year": "1988",
+    "journal-title": "Carbohydrate Polymers"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib39",
+    "doi-asserted-by": "crossref",
+    "first-page": "295",
+    "DOI": "10.1006/jcrs.2001.0414",
+    "article-title": "Cultivar and environmental effects on (1\u21923,1\u21924)-\u03b2-d-glucan and protein content in malting barley",
+    "volume": "34",
+    "author": "Zhang",
+    "year": "2001",
+    "journal-title": "Journal of Cereal Science"
+   },
+   {
+    "key": "10.1016/j.jcs.2008.02.009_bib40",
+    "doi-asserted-by": "crossref",
+    "first-page": "251",
+    "DOI": "10.1016/S0308-8146(02)00127-9",
+    "article-title": "Analysis of \u03b2-glucan content in barley cultivars from different locations of China",
+    "volume": "79",
+    "author": "Zhang",
+    "year": "2002",
+    "journal-title": "Food Chemistry"
+   }
+  ],
+  "container-title": [
+   "Journal of Cereal Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0733521008000489?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S0733521008000489?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     9
+    ]
+   ],
+   "date-time": "2025-10-09T10:04:15Z",
+   "timestamp": 1760004255000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0733521008000489"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2008,
+     11
+    ]
+   ]
+  },
+  "references-count": 40,
+  "journal-issue": {
+   "issue": "3",
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      11
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S0733521008000489"
+  ],
+  "URL": "https://doi.org/10.1016/j.jcs.2008.02.009",
+  "relation": {},
+  "ISSN": [
+   "0733-5210"
+  ],
+  "issn-type": [
+   {
+    "value": "0733-5210",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2008,
+     11
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Influence of growth temperature on content, viscosity and relative molecular weight of water-soluble \u03b2-glucans in barley (Hordeum vulgare L.)",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Journal of Cereal Science",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.jcs.2008.02.009",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "Copyright \u00a9 2008 Elsevier Ltd. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      14
+     ]
+    ],
+    "date-time": "2026-01-14T14:09:37Z",
+    "timestamp": 1768399777667,
+    "version": "3.49.0"
+   },
+   "reference-count": 40,
+   "publisher": "Elsevier BV",
+   "issue": "3",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2008-11-01T00:00:00Z",
+      "timestamp": 1225497600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2008-11-01T00:00:00Z",
+      "timestamp": 1225497600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2008-11-01T00:00:00Z",
+      "timestamp": 1225497600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2008-11-01T00:00:00Z",
+      "timestamp": 1225497600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2008-11-01T00:00:00Z",
+      "timestamp": 1225497600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2008-11-01T00:00:00Z",
+      "timestamp": 1225497600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2008,
+        11,
+        1
+       ]
+      ],
+      "date-time": "2008-11-01T00:00:00Z",
+      "timestamp": 1225497600000
+     },
+     "content-version": "stm-asf",
+     "delay-in-days": 0,
+     "URL": "https://doi.org/10.15223/policy-004"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100005416",
+     "name": "Norges Forskningsr\u00e5d",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "149758/I10"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "149758/I10"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100005416",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "elsevier.com",
+     "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Journal of Cereal Science"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2008,
+      11
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.jcs.2008.02.009",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2008,
+      4,
+      2
+     ]
+    ],
+    "date-time": "2008-04-02T09:31:56Z",
+    "timestamp": 1207128716000
+   },
+   "page": "670-677",
+   "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 26,
+   "title": [
+    "Influence of growth temperature on content, viscosity and relative molecular weight of water-soluble \u03b2-glucans in barley (Hordeum vulgare L.)"
+   ],
+   "prefix": "10.1016",
+   "volume": "48",
+   "author": [
+    {
+     "given": "Kirsti",
+     "family": "Anker-Nilssen",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Stefan",
+     "family": "Sahlstr\u00f8m",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Svein H.",
+     "family": "Knutsen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Ann Katrin",
+     "family": "Holtekj\u00f8len",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Anne Kjersti",
+     "family": "Uhlen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib1",
+     "first-page": "284",
+     "article-title": "Dietary fiber content of barley grown in Finland",
+     "volume": "65",
+     "author": "Aalto",
+     "year": "1988",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib2",
+     "doi-asserted-by": "crossref",
+     "first-page": "704",
+     "DOI": "10.1021/jf00077a016",
+     "article-title": "Analysis of total and insoluble mixed-linked (1\u21923),(1\u21924)-\u03b2-d-glucans in barley and oats",
+     "volume": "35",
+     "author": "\u00c5man",
+     "year": "1987",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "45",
+     "DOI": "10.1016/S0733-5210(89)80033-5",
+     "article-title": "Content and solubility of mixed-linked (1\u21923),(1\u21924)-\u03b2-d-glucan in barley and oats during kernel development and storage",
+     "volume": "10",
+     "author": "\u00c5man",
+     "year": "1989",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "979",
+     "DOI": "10.1002/(SICI)1097-0010(19990515)79:7<979::AID-JSFA313>3.0.CO;2-L",
+     "article-title": "Chemical and physical characteristics of different barley samples",
+     "volume": "79",
+     "author": "Andersson",
+     "year": "1999",
+     "journal-title": "Journal of the Science of Food and Agriculture"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "3",
+     "DOI": "10.1016/j.anifeedsci.2006.01.014",
+     "article-title": "Interaction between barley cultivars and growth temperature on starch degradation properties measured in vitro",
+     "volume": "130",
+     "author": "Anker-Nilssen",
+     "year": "2006",
+     "journal-title": "Animal Feed Science and Technology"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib6",
+     "series-title": "Barley: Chemistry and Technology",
+     "first-page": "355",
+     "article-title": "Nonmalting uses of barley",
+     "author": "Bhatty",
+     "year": "1993"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib7",
+     "doi-asserted-by": "crossref",
+     "first-page": "2287",
+     "DOI": "10.1016/S0031-9422(00)89868-4",
+     "article-title": "Ratio of \u03b2(1\u21923) to \u03b2(1\u21924) glucosidic linkages in non-endospermic hemicellulosic \u03b2-glucans from qat plant (Avena sativa) tissues at different stages of maturity",
+     "volume": "10",
+     "author": "Buchala",
+     "year": "1971",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "161",
+     "DOI": "10.1016/S0733-5210(09)80137-9",
+     "article-title": "Effect of moisture stress on malting quality in Triumph barley",
+     "volume": "14",
+     "author": "Coles",
+     "year": "1991",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "116",
+     "DOI": "10.1002/j.2050-0416.1975.tb03672.x",
+     "article-title": "Morphology and chemical composition of barley endosperm cell wall",
+     "volume": "81",
+     "author": "Fincher",
+     "year": "1975",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib10",
+     "doi-asserted-by": "crossref",
+     "first-page": "7",
+     "DOI": "10.1016/S0144-8617(96)00126-9",
+     "article-title": "Physical and structural properties of barley (1\u21923),(1\u21924)-\u03b2-d-glucan. Part I. Determination of molecular weight and macromolecular radius by light scattering",
+     "volume": "32",
+     "author": "Gomez",
+     "year": "1997",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "205",
+     "DOI": "10.1016/0144-8617(95)00056-D",
+     "article-title": "Solution properties of \u03b2-d-(1,3)(1,4)-glucan isolated from beer",
+     "volume": "27",
+     "author": "Grimm",
+     "year": "1995",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "41",
+     "DOI": "10.1016/S0733-5210(09)80078-7",
+     "article-title": "Water-unextractable cell wall material from wheat flour. 1. Extraction of polymers with alkali",
+     "volume": "16",
+     "author": "Gruppen",
+     "year": "1992",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib13",
+     "doi-asserted-by": "crossref",
+     "first-page": "335",
+     "DOI": "10.1016/S0378-4290(03)00100-X",
+     "article-title": "Barley grain \u03b2-glucan content as affected by nitrogen and irrigation",
+     "volume": "84",
+     "author": "G\u00fcler",
+     "year": "2003",
+     "journal-title": "Field Crops Research"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib14",
+     "doi-asserted-by": "crossref",
+     "first-page": "269",
+     "DOI": "10.1016/S0733-5210(86)80029-7",
+     "article-title": "Genetic and environmental variation in the pentosan and \u03b2-glucan contents of barley, and their relation to malting quality",
+     "volume": "4",
+     "author": "Henry",
+     "year": "1986",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib15",
+     "doi-asserted-by": "crossref",
+     "first-page": "83",
+     "DOI": "10.1016/0377-8401(86)90015-5",
+     "article-title": "The effect of \u03b2-glucanase on the utilisation of starch and nitrogen by broiler chickens fed on barley of low- or high-viscosity",
+     "volume": "15",
+     "author": "Hesselman",
+     "year": "1986",
+     "journal-title": "Animal Feed Science and Technology"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib16",
+     "doi-asserted-by": "crossref",
+     "first-page": "348",
+     "DOI": "10.1016/j.foodchem.2004.11.022",
+     "article-title": "Contents of starch and non-starch polysaccharides in barley varieties of different origin",
+     "volume": "94",
+     "author": "Holtekj\u00f8len",
+     "year": "2006",
+     "journal-title": "Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib17",
+     "doi-asserted-by": "crossref",
+     "first-page": "417",
+     "DOI": "10.1016/S0144-8617(99)00151-4",
+     "article-title": "Evidence of intermolecular interactions of \u03b2-glucans and arabinoxylans",
+     "volume": "41",
+     "author": "Izydorczyk",
+     "year": "2000",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "259",
+     "DOI": "10.1016/S0144-8617(97)00136-7",
+     "article-title": "Structure and physicochemical properties of barley non-starch polysaccharides - II. Alkali-extractable \u03b2-glucans and arabinoxylans",
+     "volume": "35",
+     "author": "Izydorczyk",
+     "year": "1998",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib19",
+     "doi-asserted-by": "crossref",
+     "first-page": "982",
+     "DOI": "10.1021/jf991102f",
+     "article-title": "Variation in total and soluble \u03b2-glucan content in hulless barley: Effects of thermal, physical, and enzymic treatments",
+     "volume": "48",
+     "author": "Izydorczyk",
+     "year": "2000",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "267",
+     "DOI": "10.1016/j.carbpol.2004.06.041",
+     "article-title": "Structural analysis of water-soluble and -insoluble \u03b2-glucans of whole-grain oats and barley",
+     "volume": "58",
+     "author": "Johansson",
+     "year": "2004",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib21",
+     "doi-asserted-by": "crossref",
+     "first-page": "707",
+     "DOI": "10.1016/j.foodchem.2006.06.006",
+     "article-title": "Preparation and analysis of dietary fibre constituents in whole grain from hulled and hull-less barley",
+     "volume": "102",
+     "author": "Knutsen",
+     "year": "2007",
+     "journal-title": "Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib22",
+     "doi-asserted-by": "crossref",
+     "first-page": "571",
+     "DOI": "10.1094/CCHEM.1997.74.5.571",
+     "article-title": "Comparisons of \u03b2-glucan content of barley and oat",
+     "volume": "74",
+     "author": "Lee",
+     "year": "1997",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib23",
+     "first-page": "153",
+     "article-title": "The mixed linked (1\u21923),(1\u21924)-\u03b2-d-glucan content of seven varieties of oat grown at three locations in the UK",
+     "volume": "36",
+     "author": "Longland",
+     "year": "1993",
+     "journal-title": "Aspects of Applied Biology"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib24",
+     "series-title": "Barley: Chemistry and Technology",
+     "first-page": "73",
+     "article-title": "Carbohydrates of the barley grain",
+     "author": "MacGregor",
+     "year": "1993"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib25",
+     "doi-asserted-by": "crossref",
+     "first-page": "511",
+     "DOI": "10.1016/0076-6879(88)60160-1",
+     "article-title": "Purification of (1\u21923),(1\u21924)-\u03b2-d-glucan from barley flour",
+     "volume": "160",
+     "author": "McCleary",
+     "year": "1988",
+     "journal-title": "Methods in Enzymology"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "429",
+     "DOI": "10.4141/cjps93-062",
+     "article-title": "Oat \u03b2-glucans: An evaluation of eastern Canadian cultivars and unregistered lines",
+     "volume": "73",
+     "author": "Miller",
+     "year": "1993",
+     "journal-title": "Canadian Journal of Plant Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib27",
+     "doi-asserted-by": "crossref",
+     "first-page": "37",
+     "DOI": "10.1006/jcrs.1996.0067",
+     "article-title": "Genetic and environmental variation in malting and feed quality of barley",
+     "volume": "25",
+     "author": "Molina-Cano",
+     "year": "1997",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib28",
+     "doi-asserted-by": "crossref",
+     "first-page": "371",
+     "DOI": "10.4141/cjps95-062",
+     "article-title": "Effects of environment and cultivar on total mixed-linkage \u03b2-glucan content in eastern and western Canadian barleys (Hordeum vulgare L.)",
+     "volume": "75",
+     "author": "Narasimhalu",
+     "year": "1995",
+     "journal-title": "Canadian Journal of Plant Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib29",
+     "first-page": "800",
+     "article-title": "Barley as food grain",
+     "volume": "36",
+     "author": "Newman",
+     "year": "1991",
+     "journal-title": "Cereal Foods World"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib30",
+     "doi-asserted-by": "crossref",
+     "first-page": "161",
+     "DOI": "10.1006/jcrs.1996.0049",
+     "article-title": "Chemical composition of barley samples focusing on dietary fiber components",
+     "volume": "24",
+     "author": "Oscarsson",
+     "year": "1996",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib31",
+     "doi-asserted-by": "crossref",
+     "first-page": "3",
+     "DOI": "10.1016/S0144-8617(99)00129-0",
+     "article-title": "Structural features of (1\u21923),(1\u21924)-\u03b2-d-glucan and arabinoxylan fractions isolated from rye bran",
+     "volume": "42",
+     "author": "Roubroeks",
+     "year": "2000",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "61",
+     "DOI": "10.1016/S0733-5210(88)80060-2",
+     "article-title": "Varietal and environmental variations in (1\u21923),(1\u21924)-\u03b2-glucan levels and (1\u21923),(1\u21924)-\u03b2-glucanase potential in barley: Relationships to malting quality",
+     "volume": "7",
+     "author": "Stuart",
+     "year": "1988",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib33",
+     "doi-asserted-by": "crossref",
+     "first-page": "456",
+     "DOI": "10.1094/CCHEM.1997.74.4.456",
+     "article-title": "Patterns of barley grain development in Spain and Scotland and their implications for malting quality",
+     "volume": "74",
+     "author": "Swanston",
+     "year": "1997",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "313",
+     "DOI": "10.1016/j.tifs.2003.03.001",
+     "article-title": "Relationships between solution properties of cereal \u03b2-glucans and physiological effects\u2014a review",
+     "volume": "15",
+     "author": "Wood",
+     "year": "2004",
+     "journal-title": "Trends in Food Science & Technology"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib35",
+     "doi-asserted-by": "crossref",
+     "first-page": "731",
+     "DOI": "10.1079/BJN19940075",
+     "article-title": "Effect of dose and modification of viscous properties of oat gum on plasma glucose and insulin following an Oral glucose load",
+     "volume": "72",
+     "author": "Wood",
+     "year": "1994",
+     "journal-title": "British Journal of Nutrition"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "329",
+     "DOI": "10.1094/CCHEM.2003.80.3.329",
+     "article-title": "Structure of (1\u21923)(1\u21924)-\u03b2-d-glucan in waxy and nonwaxy barley",
+     "volume": "80",
+     "author": "Wood",
+     "year": "2003",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib37",
+     "doi-asserted-by": "crossref",
+     "first-page": "207",
+     "DOI": "10.1016/0144-8617(83)90019-X",
+     "article-title": "Water-soluble (1\u21923),(1\u21924)-\u03b2-d-glucans from barley (Hordeum vulgare) endosperm. II. Fine structure",
+     "volume": "3",
+     "author": "Woodward",
+     "year": "1983",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib38",
+     "doi-asserted-by": "crossref",
+     "first-page": "85",
+     "DOI": "10.1016/0144-8617(88)90013-6",
+     "article-title": "Water-soluble (1\u21923,1\u21924)-\u03b2-d-glucans from barley (Hordeum vulgare) endosperm. IV. Comparison of 40\u00b0C and 65\u00b0C soluble fractions",
+     "volume": "8",
+     "author": "Woodward",
+     "year": "1988",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib39",
+     "doi-asserted-by": "crossref",
+     "first-page": "295",
+     "DOI": "10.1006/jcrs.2001.0414",
+     "article-title": "Cultivar and environmental effects on (1\u21923,1\u21924)-\u03b2-d-glucan and protein content in malting barley",
+     "volume": "34",
+     "author": "Zhang",
+     "year": "2001",
+     "journal-title": "Journal of Cereal Science"
+    },
+    {
+     "key": "10.1016/j.jcs.2008.02.009_bib40",
+     "doi-asserted-by": "crossref",
+     "first-page": "251",
+     "DOI": "10.1016/S0308-8146(02)00127-9",
+     "article-title": "Analysis of \u03b2-glucan content in barley cultivars from different locations of China",
+     "volume": "79",
+     "author": "Zhang",
+     "year": "2002",
+     "journal-title": "Food Chemistry"
+    }
+   ],
+   "container-title": [
+    "Journal of Cereal Science"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0733521008000489?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0733521008000489?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      9
+     ]
+    ],
+    "date-time": "2025-10-09T10:04:15Z",
+    "timestamp": 1760004255000
+   },
+   "score": 87.23856,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0733521008000489"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2008,
+      11
+     ]
+    ]
+   },
+   "references-count": 40,
+   "journal-issue": {
+    "issue": "3",
+    "published-print": {
+     "date-parts": [
+      [
+       2008,
+       11
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S0733521008000489"
+   ],
+   "URL": "https://doi.org/10.1016/j.jcs.2008.02.009",
+   "ISSN": [
+    "0733-5210"
+   ],
+   "issn-type": [
+    {
+     "value": "0733-5210",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2008,
+      11
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Elsevier",
+     "name": "publisher",
+     "label": "This article is maintained by"
+    },
+    {
+     "value": "Influence of growth temperature on content, viscosity and relative molecular weight of water-soluble \u03b2-glucans in barley (Hordeum vulgare L.)",
+     "name": "articletitle",
+     "label": "Article Title"
+    },
+    {
+     "value": "Journal of Cereal Science",
+     "name": "journaltitle",
+     "label": "Journal Title"
+    },
+    {
+     "value": "https://doi.org/10.1016/j.jcs.2008.02.009",
+     "name": "articlelink",
+     "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+     "value": "article",
+     "name": "content_type",
+     "label": "Content Type"
+    },
+    {
+     "value": "Copyright \u00a9 2008 Elsevier Ltd. All rights reserved.",
+     "name": "copyright",
+     "label": "Copyright"
+    }
+   ]
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      2,
+      26
+     ]
+    ],
+    "date-time": "2026-02-26T18:13:27Z",
+    "timestamp": 1772129607891,
+    "version": "3.50.1"
+   },
+   "description": "Supplemental Information for 10.1021/acs.macromol.3c02616",
+   "reference-count": 0,
+   "publisher": "American Chemical Society (ACS)",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.1021/acs.macromol.3c02616.s001",
+   "type": "component",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      23
+     ]
+    ],
+    "date-time": "2024-02-23T12:21:17Z",
+    "timestamp": 1708690877000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Low-Viscosity Route to High-Molecular-Weight Water-Soluble Polymers: Exploiting the Salt Sensitivity of Poly(Nacryloylmorpholine)"
+   ],
+   "prefix": "10.1021",
+   "member": "316",
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      3,
+      12
+     ]
+    ],
+    "date-time": "2024-03-12T04:41:49Z",
+    "timestamp": 1710218509000
+   },
+   "score": 37.92163,
+   "resource": {
+    "primary": {
+     "URL": "https://pubs.acs.org/doi/suppl/10.1021/acs.macromol.3c02616/suppl_file/ma3c02616_si_001.pdf"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      null
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.1021/acs.macromol.3c02616.s001",
+   "relation": {
+    "is-component-of": [
+     {
+      "id-type": "doi",
+      "id": "10.1021/acs.macromol.3c02616",
+      "asserted-by": "object"
+     }
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      8
+     ]
+    ],
+    "date-time": "2026-04-08T06:06:22Z",
+    "timestamp": 1775628382877,
+    "version": "3.50.1"
+   },
+   "reference-count": 24,
+   "publisher": "Elsevier BV",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2014,
+        10,
+        1
+       ]
+      ],
+      "date-time": "2014-10-01T00:00:00Z",
+      "timestamp": 1412121600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+   ],
+   "funder": [
+    {
+     "name": "Italian Ministry of Research",
+     "award": [
+      "2010ST3AMX"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "2010ST3AMX"
+       ]
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "elsevier.com",
+     "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Food Research International"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2014,
+      10
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.foodres.2014.07.035",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      7,
+      31
+     ]
+    ],
+    "date-time": "2014-07-31T01:31:25Z",
+    "timestamp": 1406770285000
+   },
+   "page": "677-682",
+   "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 51,
+   "special_numbering": "C",
+   "title": [
+    "Effects of malting on molecular weight distribution and content of water-extractable \u03b2-glucans in barley"
+   ],
+   "prefix": "10.1016",
+   "volume": "64",
+   "author": [
+    {
+     "given": "Ombretta",
+     "family": "Marconi",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Ivan",
+     "family": "Tomasi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Laura",
+     "family": "Dionisio",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Giuseppe",
+     "family": "Perretti",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Paolo",
+     "family": "Fantozzi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0005",
+     "doi-asserted-by": "crossref",
+     "first-page": "202",
+     "DOI": "10.1080/10408398.2010.499806",
+     "article-title": "Beta glucan: A valuable functional ingredient in foods",
+     "volume": "52",
+     "author": "Ahmad",
+     "year": "2012",
+     "journal-title": "Critical Reviews in Food Science and Nutrition"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0010",
+     "doi-asserted-by": "crossref",
+     "first-page": "2004",
+     "DOI": "10.1021/jf801280f",
+     "article-title": "Content and molecular-weight distribution of dietary fiber components in whole-grain rye flour and bread",
+     "volume": "57",
+     "author": "Andersson",
+     "year": "2009",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0015",
+     "doi-asserted-by": "crossref",
+     "first-page": "81",
+     "DOI": "10.1002/j.2050-0416.1981.tb03991.x",
+     "article-title": "The development of \u03b2-glucan solubilase during barley germination",
+     "volume": "87",
+     "author": "Bamforth",
+     "year": "1980",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0020",
+     "doi-asserted-by": "crossref",
+     "first-page": "334",
+     "DOI": "10.1002/j.2050-0416.1979.tb03937.x",
+     "article-title": "Role for carboxypeptidase in the solubilization of barley \u03b2-glucan",
+     "volume": "85",
+     "author": "Bamforth",
+     "year": "1979",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.foodres.2014.07.035_bb0025",
+     "doi-asserted-by": "crossref",
+     "first-page": "476",
+     "DOI": "10.1094/CCHEM.1997.74.4.476",
+     "article-title": "Molecular weight distribution and (1\u21923) (1\u21924)-\u03b2-d-glucan content of consecutive extracts of various oat and barley cultivars",
+     "volume": "74",
+     "author": "Beer",
+     "year": "1997",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.foodres.2014.07.035_bb0030",
+     "first-page": "73",
+     "article-title": "Extraction and enrichment of (1\u21923) (1\u21924)-\u03b2-d-glucan from barley and oat brans",
+     "volume": "70",
+     "author": "Bhatty",
+     "year": "1993",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0035",
+     "doi-asserted-by": "crossref",
+     "first-page": "302",
+     "DOI": "10.1016/S0008-6215(99)00036-1",
+     "article-title": "Rheological studies of barley (1\u21923) (1\u21924)-\u03b2-glucan in concentrated solution: Mechanistic and kinetic investigation of the gel formation",
+     "volume": "315",
+     "author": "B\u00f6hm",
+     "year": "1999",
+     "journal-title": "Carbohydrate Research"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0040",
+     "doi-asserted-by": "crossref",
+     "first-page": "439",
+     "DOI": "10.1016/S0144-8617(03)00003-1",
+     "article-title": "Rheological and molecular properties of water soluble (1\u21923) (1\u21924)-\u03b2-d-glucans from high-\u03b2-glucan and traditional oat lines",
+     "volume": "52",
+     "author": "Colleoni-Sirghie",
+     "year": "2003",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0045",
+     "series-title": "Analytica-EBC",
+     "author": "European Brewery Convention",
+     "year": "2007"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0050",
+     "doi-asserted-by": "crossref",
+     "first-page": "279",
+     "DOI": "10.1002/j.2050-0416.1977.tb03809.x",
+     "article-title": "The mode of binding of \u03b2-glucans and pentosans in barley endosperm cell walls",
+     "volume": "83",
+     "author": "Forrest",
+     "year": "1976",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0055",
+     "doi-asserted-by": "crossref",
+     "first-page": "348",
+     "DOI": "10.1016/j.foodchem.2004.11.022",
+     "article-title": "Contents of starch and non-starch polysaccharides in barley varieties of different origin",
+     "volume": "94",
+     "author": "Holtekj\u00f8len",
+     "year": "2006",
+     "journal-title": "Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0060",
+     "doi-asserted-by": "crossref",
+     "first-page": "982",
+     "DOI": "10.1021/jf991102f",
+     "article-title": "Variation in total and soluble \u03b2-glucan content in hulless barley: Effects of thermal, physical, and enzymic treatments",
+     "volume": "48",
+     "author": "Izydorczyk",
+     "year": "2000",
+     "journal-title": "Journal of Agricultural and Food Chemistry"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0065",
+     "doi-asserted-by": "crossref",
+     "first-page": "104",
+     "DOI": "10.1002/j.2050-0416.2004.tb00189.x",
+     "article-title": "Effects of \u03b2-glucans and environmental factors on the viscosities of wort and beer",
+     "volume": "110",
+     "author": "Jin",
+     "year": "2004",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.foodres.2014.07.035_bb0070",
+     "doi-asserted-by": "crossref",
+     "first-page": "196",
+     "DOI": "10.1002/j.2050-0416.2007.tb00276.x",
+     "article-title": "Time course for the development of enzymes in barley",
+     "volume": "13",
+     "author": "Kuntz",
+     "year": "2007",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0075",
+     "series-title": "Technology brewing and malting",
+     "author": "Kunze",
+     "year": "2004"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0080",
+     "doi-asserted-by": "crossref",
+     "first-page": "693",
+     "DOI": "10.1016/S0268-005X(03)00036-5",
+     "article-title": "Molecular size effects on rheological properties of oat \u03b2-glucans in solution and gels",
+     "volume": "17",
+     "author": "Lazaridou",
+     "year": "2003",
+     "journal-title": "Food Hydrocolloids"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.foodres.2014.07.035_bb0085",
+     "doi-asserted-by": "crossref",
+     "first-page": "67",
+     "DOI": "10.1094/ASBCJ-2009-0226-01",
+     "article-title": "Variations in solubility of barley beta-glucan during malting and impact on levels of beta-glucan in wort and beer",
+     "volume": "67",
+     "author": "Lee",
+     "year": "2009",
+     "journal-title": "Journal of the American Society of Brewing Chemists"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0090",
+     "doi-asserted-by": "crossref",
+     "first-page": "285",
+     "DOI": "10.1002/j.2050-0416.1985.tb04345.x",
+     "article-title": "Enzymic quantification of (1\u21923) (1\u21924)-\u03b2-d-glucan in barley and malt",
+     "volume": "91",
+     "author": "McCleary",
+     "year": "1985",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0095",
+     "doi-asserted-by": "crossref",
+     "first-page": "87",
+     "DOI": "10.1002/j.2050-0416.1987.tb04481.x",
+     "article-title": "Assay of malt \u03b2-glucanase using Azo Barley Glucan: An improved precipitant",
+     "volume": "93",
+     "author": "McCleary",
+     "year": "1987",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0100",
+     "series-title": "Light scattering, size exclusion chromatography and asymmetric flow field flow fractionation. Powerful tools for the characterization of polymers, proteins and nanoparticles",
+     "author": "Podzimek",
+     "year": "2011"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0105",
+     "doi-asserted-by": "crossref",
+     "first-page": "236",
+     "DOI": "10.1002/j.2050-0416.2003.tb00164.x",
+     "article-title": "Effects of \u03b2-glucan, shearing and environmental factors on the turbidity of wort and beer",
+     "volume": "109",
+     "author": "Speers",
+     "year": "2003",
+     "journal-title": "Journal of the Institute of Brewing"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0110",
+     "doi-asserted-by": "crossref",
+     "first-page": "425",
+     "DOI": "10.1016/j.carbpol.2003.11.004",
+     "article-title": "Structural characteristics and rheological properties of partially hydrolyzed oat \u03b2-glucan: The effects of molecular weight and hydrolysis method",
+     "volume": "55",
+     "author": "Tosh",
+     "year": "2004",
+     "journal-title": "Carbohydrate Polymers"
+    },
+    {
+     "key": "10.1016/j.foodres.2014.07.035_bb0115",
+     "doi-asserted-by": "crossref",
+     "first-page": "223",
+     "DOI": "10.1016/j.foodchem.2003.08.020",
+     "article-title": "The changes of \u03b2-glucan content and \u03b2-glucanase activity in barley before and after malting and their relationships to malt qualities",
+     "volume": "86",
+     "author": "Wang",
+     "year": "2004",
+     "journal-title": "Food Chemistry"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.foodres.2014.07.035_bb0120",
+     "first-page": "31",
+     "article-title": "Molecular characterization of cereal \u03b2-d-glucans. Structural analysis of oat \u03b2-d-glucan and rapid structural evaluation of \u03b2-d-glucan from different sources by high-performance liquid chromatography of oligosaccharides released by lichenase",
+     "volume": "68",
+     "author": "Wood",
+     "year": "1991",
+     "journal-title": "Cereal Chemistry"
+    }
+   ],
+   "container-title": [
+    "Food Research International"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0963996914005122?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S0963996914005122?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      20
+     ]
+    ],
+    "date-time": "2018-07-20T11:59:11Z",
+    "timestamp": 1532087951000
+   },
+   "score": 37.733536,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0963996914005122"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      10
+     ]
+    ]
+   },
+   "references-count": 24,
+   "alternative-id": [
+    "S0963996914005122"
+   ],
+   "URL": "https://doi.org/10.1016/j.foodres.2014.07.035",
+   "ISSN": [
+    "0963-9969"
+   ],
+   "issn-type": [
+    {
+     "value": "0963-9969",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      10
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Elsevier",
+     "name": "publisher",
+     "label": "This article is maintained by"
+    },
+    {
+     "value": "Effects of malting on molecular weight distribution and content of water-extractable \u03b2-glucans in barley",
+     "name": "articletitle",
+     "label": "Article Title"
+    },
+    {
+     "value": "Food Research International",
+     "name": "journaltitle",
+     "label": "Journal Title"
+    },
+    {
+     "value": "https://doi.org/10.1016/j.foodres.2014.07.035",
+     "name": "articlelink",
+     "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+     "value": "article",
+     "name": "content_type",
+     "label": "Content Type"
+    },
+    {
+     "value": "Copyright \u00a9 2014 Elsevier Ltd. All rights reserved.",
+     "name": "copyright",
+     "label": "Copyright"
+    }
+   ]
+  }
+ ]
+}

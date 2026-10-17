@@ -1,0 +1,20 @@
+{
+ "notes": [
+  "**Item CMT2** — the user's two Word replies, written in the review copy sent to S. Hübner (`build/manuscript_for_review_2026-10-01_v2.docx`, as sent; checked 2026-10-17: its text and its 14 TODO comments are identical to the working file), are carried into the working file word for word. Pandoc cannot write reply threads, so each reply is a separate comment with `parent=\"<id>\"`, on the same text as its TODO (user request, 2026-10-17). No visible change to the manuscript text."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Discussion §2 ¶1 (TODO 401 anchor)",
+   "why": "User's reply to TODO 401 (Friedman and Atsmon 1988), 2026-10-01 16:15.",
+   "old": "author=\"TODO\"}[(Friedman and Atsmon 1988)]{.mark}[]{.comment-end id=\"401\"}",
+   "new": "author=\"TODO\"}{+[I have no access to this paper. Sariel - maybe u have?]{.comment-start id=\"429\" author=\"שחר לויתן\" date=\"2026-10-01T16:15:00Z\" parent=\"401\"}+}[(Friedman and Atsmon 1988)]{.mark}{+[]{.comment-end id=\"429\"}+}[]{.comment-end id=\"401\"}"
+  },
+  {
+   "where": "Discussion §2 ¶3 (TODO 402 anchor)",
+   "why": "User's reply to TODO 402 (how protein was measured), 2026-10-01 16:16.",
+   "old": "{.comment-start id=\"402\" author=\"TODO\"}unresolved in this panel[]{.comment-end id=\"402\"}",
+   "new": "{.comment-start id=\"402\" author=\"TODO\"}{+[Sariel - we talked about this a little. We don’t know how protein was measured in the study. Like -  all protein from the grain was measured or just from the embryonate  or ?? etc… if u think we can develop it tell me.]{.comment-start id=\"430\" author=\"שחר לויתן\" date=\"2026-10-01T16:16:00Z\" parent=\"402\"}+}unresolved in this panel{+[]{.comment-end id=\"430\"}+}[]{.comment-end id=\"402\"}"
+  }
+ ]
+}

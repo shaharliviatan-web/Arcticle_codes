@@ -1,0 +1,14 @@
+{
+ "notes": [
+  "**Item REF6:** submission checklist item 4 reworded so that it reads as a list of references still to address (user request, 2026-10-01)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Submission checklist, item 4",
+   "why": "User request: state that these are references needing attention; make it understandable.",
+   "old": "4. **References:** open Word comments 102, 401 (Friedman and Atsmon 1988: no PDF); 257, 501 (Holland et al. 2003: no PDF); 502 (Keeling et al. 1993: pages); 104, 428 (partly supported claims kept); 216 (source of the soil variables).",
+   "new": "{-4. **References:** open Word comments 102, 401 (Friedman and Atsmon 1988: no PDF); 257, 501 (Holland et al. 2003: no PDF); 502 (Keeling et al. 1993: pages); 104, 428 (partly supported claims kept); 216 (source of the soil variables).-}{+4. **References that still need attention** (each marked by a Word comment): Friedman and Atsmon 1988 and Holland et al. 2003 could not be checked, because no PDF was available (comments 102, 401, 257, 501); the page numbers of Keeling et al. 1993 need confirming (502); two citations only partly support their sentences, which were kept as written (104, 428); and the source of the soil variables is not described in the cited paper (216).+}"
+  }
+ ]
+}

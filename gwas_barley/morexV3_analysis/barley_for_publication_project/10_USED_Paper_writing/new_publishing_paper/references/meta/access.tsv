@@ -1,0 +1,42 @@
+key	tier	doi	pmcid	epmc_oa	oa_status	file	how	title_check	tried
+Alqudah2020	B	10.1016/j.jare.2019.10.013	PMC6961222	Y	gold	Alqudah2020.xml	Europe PMC full-text XML	8/8	Europe PMC PDF: http 403 | OA PDF (Journal of Advanced Research): http 403
+AnkerNilssen2008	A	10.1016/j.jcs.2008.02.009		N	closed				
+Badr2000	B	10.1093/oxfordjournals.molbev.a026330		N	bronze				OA PDF (Molecular Biology and Evolution): http 403
+Beljkas2010	A	10.1007/s00769-010-0677-6			closed				
+Bogard2010	A	10.1093/jxb/erq238		N	bronze				OA PDF (Journal of Experimental Botany): http 403
+Burton2008	A	10.1104/pp.107.114694		N	hybrid				OA PDF (PLANT PHYSIOLOGY): http 403
+Corke1989	A	10.1007/bf00023307			closed				
+Dempewolf2017	B	10.2135/cropsci2016.10.0885		N	hybrid				OA PDF (Crop Science): http 403
+Farag2022	B	10.1080/10408398.2020.1835817		N	closed				
+Friedman1988	A	10.1021/jf00084a010		N	closed				
+GBD2020	B	10.1016/S0140-6736(20)30752-2	PMC7566194	Y	hybrid	GBD2020.pdf	OA PDF (ENLIGHTEN (Jurnal Bimbingan dan Konselin)	8/8	Europe PMC PDF: http 403 | OA PDF (edoc (University of Basel)): not a pdf (text/html; charset=utf-8)
+GarciaGimenez2019	A	10.1038/s41598-019-53798-8	PMC6872655	Y	gold	GarciaGimenez2019.pdf	OA PDF (Scientific Reports)	8/8	Europe PMC PDF: http 403
+Geng2021	A	10.1007/s11032-020-01199-5	PMC10236047	N	green				Europe PMC PDF: http 403 | OA PDF (PubMed Central): not a pdf (text/html; charset=utf-8) | Europe PMC full-text XML: http 500
+Girard2012	A	10.1105/tpc.112.101055		N	bronze				OA PDF (The Plant Cell): http 403
+Godfray2010	B	10.1126/science.1185383		N	closed				
+Guo2008	A	10.1111/j.1469-8137.2007.02331.x		N	closed				
+Harlan1966	B	10.1126/science.153.3740.1074		N	closed				
+Holland2003	A	10.1002/9780470650202.ch2			closed				
+Houston2014	A	10.1186/1471-2164-15-907	PMC4213503	Y	gold	Houston2014.pdf	OA PDF (Discovery Research Portal (University of)	8/8	Europe PMC PDF: http 403 | OA PDF (BMC Genomics): not a pdf (text/html; charset=utf-8)
+Hrmova2024	A	10.1093/plphys/kiad415	PMC10762513	Y	hybrid	Hrmova2024.xml	Europe PMC full-text XML	5/5	Europe PMC PDF: http 403 | OA PDF (PLANT PHYSIOLOGY): http 403 | OA PDF (PubMed Central): not a pdf (text/html; charset=utf-8)
+Huang2023	B	10.1073/pnas.2205783119	PMC10083583	Y	hybrid	Huang2023.xml	Europe PMC full-text XML	5/5	Europe PMC PDF: http 403 | OA PDF (HAL (Le Centre pour la Communication Sci): not a pdf (text/html; charset=utf-8) | OA PDF (PubMed Central): not a pdf (text/html; charset=utf-8)
+HubnerKantar2021	B	10.3389/fpls.2021.626565	PMC7873362	Y	gold	HubnerKantar2021.pdf	OA PDF (Frontiers in Plant Science)	4/4	Europe PMC PDF: http 403
+Hubner2009	B	10.1111/j.1365-294X.2009.04106.x		N	closed				
+Hubner2013	B	10.1111/jeb.12043		N	closed				
+Irigoyen2011	A	10.1104/pp.111.181925		N	hybrid				
+Jayakodi2024	C	10.1038/s41586-024-08187-1	PMC11655362	Y	hybrid	Jayakodi2024.pdf	OA PDF (Nature)	5/5	Europe PMC PDF: http 403
+Konig2023	C	10.1093/gigascience/giad025	PMC10120423	Y	gold	Konig2023.xml	Europe PMC full-text XML	6/6	Europe PMC PDF: http 403 | OA PDF (GigaScience): http 403 | OA PDF (PubMed Central): not a pdf (text/html; charset=utf-8)
+Lim2020	A	10.1093/jxb/erz407	PMC6913740	Y	hybrid	Lim2020.xml	Europe PMC full-text XML	8/8	Europe PMC PDF: http 403 | OA PDF (Journal of Experimental Botany): http 403
+Ma2021	A	10.1038/s41588-021-00855-6		N	closed				
+Marsh2023	A	10.1093/bioinformatics/btad518	PMC10471896	Y	gold	Marsh2023.xml	Europe PMC full-text XML	8/8	Europe PMC PDF: http 403 | OA PDF (Bioinformatics): http 403 | OA PDF (PubMed Central): not a pdf (text/html; charset=utf-8)
+Nevo2010	B	10.1111/j.1365-3040.2009.02107.x		N	bronze				OA PDF (Plant Cell & Environment): http 403
+Petit2016	A	10.1104/pp.16.00409		N	hybrid				
+PotapenkoMolEcol2026	A	10.1111/mec.70540				PotapenkoMolEcol2026.pdf	local copy (reference_sources/)	8/8	
+PotapenkoMBE2026	A	10.1093/molbev/msag051				PotapenkoMBE2026.pdf	local copy (reference_sources/)	8/8	
+Savin1996	A	10.1071/PP9960201			closed				
+Shu2014	A	10.3389/fpls.2014.00197	PMC4030205	Y	gold	Shu2014.pdf	OA PDF (Frontiers in Plant Science)	8/8	Europe PMC PDF: http 403
+Simmonds1995	A	10.1002/jsfa.2740670306		N	closed				
+Tomczak2014	A						no DOI: manual		
+Yang2010	A	10.1073/pnas.0914149107	PMC2900678	N	green				Europe PMC PDF: http 403 | Europe PMC full-text XML: http 500
+Zhang2019	A	10.1105/tpc.18.00894		N	green				
+Xu2018	A	10.1007/s11032-018-0828-8		N	closed				

@@ -1,0 +1,1957 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     27
+    ]
+   ],
+   "date-time": "2026-09-27T23:59:44Z",
+   "timestamp": 1790553584537,
+   "version": "4.1.0"
+  },
+  "reference-count": 0,
+  "publisher": "Oxford University Press (OUP)",
+  "funder": [
+   {
+    "DOI": "10.13039/501100001665",
+    "name": "Agence Nationale de la Recherche (L' Agence Nationale de la Recherche)",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "ANR-13-BSV7-0012"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "ANR-13-BSV7-0012"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001665",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "US Departement of Agriculture",
+    "award": [
+     "2015-06803"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2015-06803"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "US National Science Foundation",
+    "award": [
+     "IOS-1339287"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "IOS-1339287"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Plant Physiol."
+  ],
+  "DOI": "10.1104/pp.16.00409",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2016,
+     4,
+     19
+    ]
+   ],
+   "date-time": "2016-04-19T23:25:05Z",
+   "timestamp": 1461108305000
+  },
+  "page": "pp.00409.2016",
+  "source": "Crossref",
+  "is-referenced-by-count": 54,
+  "title": [
+   "The glycerol-3-phosphate acyltransferase GPAT6 from tomato plays a central role in fruit cutin biosynthesis"
+  ],
+  "prefix": "10.1093",
+  "author": [
+   {
+    "given": "Johann",
+    "family": "Petit",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C\u00e9cile",
+    "family": "Bres",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jean-Philippe",
+    "family": "Mauxion",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Fabienne",
+    "family": "Wong Jun Tai",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Laetitia B.B.",
+    "family": "Martin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eric A",
+    "family": "Fich",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J\u00e9r\u00f4me",
+    "family": "Joub\u00e8s",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jocelyn K.C.",
+    "family": "Rose",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Fr\u00e9d\u00e9ric",
+    "family": "Domergue",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Christophe",
+    "family": "Rothan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2016,
+     4,
+     19
+    ]
+   ]
+  },
+  "container-title": [
+   "Plant Physiology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     2,
+     17
+    ]
+   ],
+   "date-time": "2021-02-17T08:58:06Z",
+   "timestamp": 1613552286000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/plphys/article/171/2/894-913/6115299"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     4,
+     19
+    ]
+   ]
+  },
+  "references-count": 0,
+  "alternative-id": [
+   "10.1104/pp.16.00409"
+  ],
+  "URL": "https://doi.org/10.1104/pp.16.00409",
+  "relation": {},
+  "ISSN": [
+   "0032-0889",
+   "1532-2548"
+  ],
+  "issn-type": [
+   {
+    "value": "0032-0889",
+    "type": "print"
+   },
+   {
+    "value": "1532-2548",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     4,
+     19
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      27
+     ]
+    ],
+    "date-time": "2026-09-27T23:59:44Z",
+    "timestamp": 1790553584537,
+    "version": "4.1.0"
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "funder": [
+    {
+     "DOI": "10.13039/501100001665",
+     "name": "Agence Nationale de la Recherche (L' Agence Nationale de la Recherche)",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "ANR-13-BSV7-0012"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "ANR-13-BSV7-0012"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001665",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "name": "US Departement of Agriculture",
+     "award": [
+      "2015-06803"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "2015-06803"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "US National Science Foundation",
+     "award": [
+      "IOS-1339287"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "IOS-1339287"
+       ]
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Plant Physiol."
+   ],
+   "DOI": "10.1104/pp.16.00409",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2016,
+      4,
+      19
+     ]
+    ],
+    "date-time": "2016-04-19T23:25:05Z",
+    "timestamp": 1461108305000
+   },
+   "page": "pp.00409.2016",
+   "source": "Crossref",
+   "is-referenced-by-count": 54,
+   "title": [
+    "The glycerol-3-phosphate acyltransferase GPAT6 from tomato plays a central role in fruit cutin biosynthesis"
+   ],
+   "prefix": "10.1093",
+   "author": [
+    {
+     "given": "Johann",
+     "family": "Petit",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "C\u00e9cile",
+     "family": "Bres",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jean-Philippe",
+     "family": "Mauxion",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Fabienne",
+     "family": "Wong Jun Tai",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Laetitia B.B.",
+     "family": "Martin",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Eric A",
+     "family": "Fich",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "J\u00e9r\u00f4me",
+     "family": "Joub\u00e8s",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jocelyn K.C.",
+     "family": "Rose",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Fr\u00e9d\u00e9ric",
+     "family": "Domergue",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Christophe",
+     "family": "Rothan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2016,
+      4,
+      19
+     ]
+    ]
+   },
+   "container-title": [
+    "Plant Physiology"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      2,
+      17
+     ]
+    ],
+    "date-time": "2021-02-17T08:58:06Z",
+    "timestamp": 1613552286000
+   },
+   "score": 87.95691,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/plphys/article/171/2/894-913/6115299"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2016,
+      4,
+      19
+     ]
+    ]
+   },
+   "references-count": 0,
+   "alternative-id": [
+    "10.1104/pp.16.00409"
+   ],
+   "URL": "https://doi.org/10.1104/pp.16.00409",
+   "ISSN": [
+    "0032-0889",
+    "1532-2548"
+   ],
+   "issn-type": [
+    {
+     "value": "0032-0889",
+     "type": "print"
+    },
+    {
+     "value": "1532-2548",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2016,
+      4,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      2,
+      6
+     ]
+    ],
+    "date-time": "2026-02-06T21:32:40Z",
+    "timestamp": 1770413560176,
+    "version": "3.49.0"
+   },
+   "reference-count": 42,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2010,
+        7,
+        25
+       ]
+      ],
+      "date-time": "2010-07-25T00:00:00Z",
+      "timestamp": 1280016000000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "http://www.springer.com/tdm"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Planta"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      9
+     ]
+    ]
+   },
+   "DOI": "10.1007/s00425-010-1232-8",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2010,
+      7,
+      24
+     ]
+    ],
+    "date-time": "2010-07-24T01:07:10Z",
+    "timestamp": 1279933630000
+   },
+   "page": "987-997",
+   "source": "Crossref",
+   "is-referenced-by-count": 20,
+   "title": [
+    "Cloning and molecular characterization of a glycerol-3-phosphate O-acyltransferase (GPAT) gene from Echium (Boraginaceae) involved in the biosynthesis of cutin polyesters"
+   ],
+   "prefix": "10.1007",
+   "volume": "232",
+   "author": [
+    {
+     "given": "Aurora",
+     "family": "Ma\u00f1as-Fern\u00e1ndez",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Yonghua",
+     "family": "Li-Beisson",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Diego L\u00f3pez",
+     "family": "Alonso",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Federico",
+     "family": "Garc\u00eda-Maroto",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2010,
+      7,
+      25
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "1232_CR1",
+     "doi-asserted-by": "crossref",
+     "first-page": "7611",
+     "DOI": "10.1128/jb.179.24.7611-7616.1997",
+     "volume": "179",
+     "author": "K Athenstaedt",
+     "year": "1997",
+     "unstructured": "Athenstaedt K, Daum G (1997) Biosynthesis of phosphatidic acid in lipid particles and endoplasmic reticulum of Saccharomyces cerevisiae. J Bacteriol 179:7611\u20137616",
+     "journal-title": "J Bacteriol"
+    },
+    {
+     "key": "1232_CR2",
+     "first-page": "217",
+     "volume": "67",
+     "author": "M Bafor",
+     "year": "1990",
+     "unstructured": "Bafor M, Stobart AK, Stymne S (1990) Properties of the glycerol acylating enzymes in microsomal preparations from the developing seeds of safflower (Carthamus tinctorius) and turnip rape (Brassica campestris) and their ability to assemble cocoa-butter type fats. J Am Chem Soc 67:217\u2013225",
+     "journal-title": "J Am Chem Soc"
+    },
+    {
+     "key": "1232_CR3",
+     "doi-asserted-by": "crossref",
+     "first-page": "351",
+     "DOI": "10.1105/tpc.106.048033",
+     "volume": "19",
+     "author": "F Beisson",
+     "year": "2007",
+     "unstructured": "Beisson F, Li Y, Bonaventure G, Pollard M, Ohlrogge JB (2007) The acyltransferase GPAT5 is required for the synthesis of suberin in seed coat and root of Arabidopsis. Plant Cell 19:351\u2013368",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "1232_CR4",
+     "doi-asserted-by": "crossref",
+     "first-page": "8711",
+     "DOI": "10.1093/nar/12.22.8711",
+     "volume": "12",
+     "author": "M Bevan",
+     "year": "1984",
+     "unstructured": "Bevan M (1984) Binary Agrobacterium vectors for plant transformation. Nucleic Acids Res 12:8711\u20138721",
+     "journal-title": "Nucleic Acids Res"
+    },
+    {
+     "key": "1232_CR5",
+     "doi-asserted-by": "crossref",
+     "first-page": "920",
+     "DOI": "10.1111/j.1365-313X.2004.02258.x",
+     "volume": "40",
+     "author": "G Bonaventure",
+     "year": "2004",
+     "unstructured": "Bonaventure G, Beisson F, Ohlrogge J, Pollard M (2004) Analysis of the aliphatic monomer composition of polyesters associated with Arabidopsis epidermis: occurrence of octadeca-cis-6, cis-9-diene-1, 18-dioate as the major component. Plant J 40:920\u2013930",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "1232_CR6",
+     "doi-asserted-by": "crossref",
+     "first-page": "248",
+     "DOI": "10.1016/0003-2697(76)90527-3",
+     "volume": "72",
+     "author": "MM Bradford",
+     "year": "1976",
+     "unstructured": "Bradford MM (1976) A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 72:248\u2013254",
+     "journal-title": "Anal Biochem"
+    },
+    {
+     "key": "1232_CR7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1003",
+     "DOI": "10.1016/j.jmb.2006.06.049",
+     "volume": "361",
+     "author": "AM Burroughs",
+     "year": "2006",
+     "unstructured": "Burroughs AM, Allen KN, Dunaway-Mariano D, Aravind L (2006) Evolutionary genomics of the HAD superfamily: understanding the structural adaptations and catalytic diversity in a superfamily of phosphoesterases and allied enzymes. J Mol Biol 361:1003\u20131034",
+     "journal-title": "J Mol Biol"
+    },
+    {
+     "key": "1232_CR8",
+     "doi-asserted-by": "crossref",
+     "first-page": "113",
+     "DOI": "10.1007/BF02670468",
+     "volume": "11",
+     "author": "S Chang",
+     "year": "1993",
+     "unstructured": "Chang S, Puryear J, Cairney J (1993) A simple and efficient method for isolating RNA from pine trees. Plant Mol Biol Rep 11:113\u2013116",
+     "journal-title": "Plant Mol Biol Rep"
+    },
+    {
+     "key": "1232_CR9",
+     "first-page": "18",
+     "volume": "13",
+     "author": "R Elble",
+     "year": "1992",
+     "unstructured": "Elble R (1992) A simple and efficient procedure for transformation of yeasts. BioTechniques 13:18\u201320",
+     "journal-title": "BioTechniques"
+    },
+    {
+     "key": "1232_CR10",
+     "doi-asserted-by": "crossref",
+     "first-page": "252",
+     "DOI": "10.1016/j.pbi.2007.04.004",
+     "volume": "10",
+     "author": "R Franke",
+     "year": "2007",
+     "unstructured": "Franke R, Schreiber L (2007) Suberin\u2014a biopolyester forming apoplastic plant interfaces. Curr Opin Plant Biol 10:252\u2013259",
+     "journal-title": "Curr Opin Plant Biol"
+    },
+    {
+     "key": "1232_CR11",
+     "doi-asserted-by": "crossref",
+     "first-page": "2643",
+     "DOI": "10.1016/j.phytochem.2005.09.027",
+     "volume": "66",
+     "author": "R Franke",
+     "year": "2005",
+     "unstructured": "Franke R, Briesen I, Wojciechowski T, Faust A, Yephremov A, Nawrath C, Schreiber L (2005) Apoplastic polyesters in Arabidopsis surface tissues\u2014a typical suberin and a particular cutin. Phytochemistry 66:2643\u20132658",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "1232_CR12",
+     "doi-asserted-by": "crossref",
+     "first-page": "417",
+     "DOI": "10.1007/s1145-002-0910-6",
+     "volume": "37",
+     "author": "F Garc\u00eda-Maroto",
+     "year": "2002",
+     "unstructured": "Garc\u00eda-Maroto F, Garrido-C\u00e1rdenas JA, Rodriguez-Ruiz J, Vilches-Ferr\u00f3n M, Adams AC, Polaina J, L\u00f3pez-Alonso D (2002) Cloning and molecular characterization of the \u03946-desaturase from two Echium plant species: production of \u03b3-linolenic acid by heterologous expression in yeast and tobacco. Lipids 37:417\u2013426",
+     "journal-title": "Lipids"
+    },
+    {
+     "key": "1232_CR13",
+     "doi-asserted-by": "crossref",
+     "first-page": "45",
+     "DOI": "10.1002/(SICI)1099-1565(200001/02)11:1<45::AID-PCA481>3.0.CO;2-8",
+     "volume": "11",
+     "author": "J Gra\u00e7a",
+     "year": "2000",
+     "unstructured": "Gra\u00e7a J, Pereira H (2000) Methanolysis of bark suberins: analysis of glycerol and acid monomers. Phytochem Anal 11:45\u201351",
+     "journal-title": "Phytochem Anal"
+    },
+    {
+     "key": "1232_CR14",
+     "doi-asserted-by": "crossref",
+     "first-page": "205",
+     "DOI": "10.1016/S0031-9422(02)00212-1",
+     "volume": "61",
+     "author": "J Gra\u00e7a",
+     "year": "2002",
+     "unstructured": "Gra\u00e7a J, Schreiber L, Rodrigues J, Pereira H (2002) Glycerol and glyceryl esters of omega-hydroxyacids in cutins. Phytochemistry 61:205\u2013215",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "1232_CR15",
+     "first-page": "1",
+     "volume": "49",
+     "author": "F Guerineau",
+     "year": "1995",
+     "unstructured": "Guerineau F (1995) Tools for expressing foreign genes in plants. Methods Mol Biol 49:1\u201332",
+     "journal-title": "Methods Mol Biol"
+    },
+    {
+     "key": "1232_CR16",
+     "doi-asserted-by": "crossref",
+     "first-page": "719",
+     "DOI": "10.1104/pp.104.2.719",
+     "volume": "104",
+     "author": "S Hoffmann-Benning",
+     "year": "1994",
+     "unstructured": "Hoffmann-Benning S, Kende H (1994) Cuticle biosynthesis in rapidly growing internodes of deepwater rice. Plant Physiol 104:719\u2013723",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "1232_CR17",
+     "doi-asserted-by": "crossref",
+     "first-page": "1229",
+     "DOI": "10.1126/science.227.4691.1229",
+     "volume": "227",
+     "author": "RB Horsch",
+     "year": "1985",
+     "unstructured": "Horsch RB, Fry JE, Hoffmann NL, Eichholtz D, Rogers SG, Fraley RT (1985) A simple and general-method for transferring genes into plants. Science 227:1229\u20131231",
+     "journal-title": "Science"
+    },
+    {
+     "key": "1232_CR18",
+     "first-page": "1",
+     "volume": "71",
+     "author": "PE Kolattukudy",
+     "year": "2001",
+     "unstructured": "Kolattukudy PE (2001) Polyesters in higher plants. Adv Biochem Eng Biotechnol 71:1\u201349",
+     "journal-title": "Adv Biochem Eng Biotechnol"
+    },
+    {
+     "key": "1232_CR19",
+     "doi-asserted-by": "crossref",
+     "first-page": "51",
+     "DOI": "10.1016/S0163-7827(02)00045-0",
+     "volume": "42",
+     "author": "L Kunst",
+     "year": "2003",
+     "unstructured": "Kunst L, Samuels AL (2003) Biosynthesis and secretion of plant cuticular wax. Prog Lipid Res 42:51\u201380",
+     "journal-title": "Prog Lipid Res"
+    },
+    {
+     "key": "1232_CR20",
+     "first-page": "270",
+     "volume-title": "Plant lipids\u2014biology, utilisation and manipulation",
+     "author": "L Kunst",
+     "year": "2004",
+     "unstructured": "Kunst L, Samuels AL, Jetter R (2004) The plant cuticle: formation and structure of epidermal surfaces. In: Murphy DJ (ed) Plant lipids\u2014biology, utilisation and manipulation. Blackwell Publishing, Oxford, pp 270\u2013302"
+    },
+    {
+     "key": "1232_CR21",
+     "doi-asserted-by": "crossref",
+     "first-page": "5764",
+     "DOI": "10.1021/bi982805d",
+     "volume": "38",
+     "author": "TM Lewin",
+     "year": "1999",
+     "unstructured": "Lewin TM, Wang P, Coleman RA (1999) Analysis of amino acid motifs diagnostic for the sn-glycerol-3-phosphate acyltransferase reaction. Biochemistry 38:5764\u20135771",
+     "journal-title": "Biochemistry"
+    },
+    {
+     "key": "1232_CR22",
+     "doi-asserted-by": "crossref",
+     "first-page": "685",
+     "DOI": "10.1016/j.biochi.2009.03.016",
+     "volume": "91",
+     "author": "Y Li",
+     "year": "2009",
+     "unstructured": "Li Y, Beisson F (2009) The biosynthesis of cutin and suberin as an alternative source of enzymes for the production of bio-based chemicals and materials. Biochimie 91:685\u2013691",
+     "journal-title": "Biochimie"
+    },
+    {
+     "key": "1232_CR23",
+     "doi-asserted-by": "crossref",
+     "first-page": "18339",
+     "DOI": "10.1073/pnas.0706984104",
+     "volume": "104",
+     "author": "Y Li",
+     "year": "2007",
+     "unstructured": "Li Y, Beisson F, Koo AJ, Molina I, Pollard M, Ohlrogge J (2007a) Identification of acyltransferases required for cutin biosynthesis and production of cutin with suberin-like monomers. Proc Natl Acad Sci USA 104:18339\u201318344",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "1232_CR24",
+     "doi-asserted-by": "crossref",
+     "first-page": "1267",
+     "DOI": "10.1104/pp.107.099432",
+     "volume": "144",
+     "author": "Y Li",
+     "year": "2007",
+     "unstructured": "Li Y, Beisson F, Ohlrogge J, Pollard M (2007b) Monoacylglycerols are components of root waxes and can be produced in the aerial cuticle by ectopic expression of a suberin-associated acyltransferase. Plant Physiol 144:1267\u20131277",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "1232_CR25",
+     "doi-asserted-by": "crossref",
+     "first-page": "22008",
+     "DOI": "10.1073/pnas.0909090106",
+     "volume": "106",
+     "author": "Y Li-Beisson",
+     "year": "2009",
+     "unstructured": "Li-Beisson Y, Pollard M, Sauveplane V, Pinot F, Ohlrogge J, Beisson F (2009) Nanoridges that characterize the surface morphology of flowers require the synthesis of cutin polyester. Proc Natl Acad Sci USA 106:22008\u201322013",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "1232_CR26",
+     "volume-title": "The Arabidopsis book",
+     "author": "Y Li-Beisson",
+     "year": "2010",
+     "unstructured": "Li-Beisson Y, Shorrosh B, Beisson F, Andersson M, Arondel V, Bates P, Baud S, Bird D, DeBono A, Durrett T, Franke R, Graham I, Katayama K, Kelly A, Larson T, Markham J, Miquel M, Molina I, Nishida I, Rowland O, Samuels L, Schmid K, Wada H, Welti R, Xu C, Zallot R, Ohlrogge J (2010) Acyl lipid metabolism. In: Last R (ed) The Arabidopsis book. American Society of Plant Biologists, Rockville. doi: 10.1199/tab.0133"
+    },
+    {
+     "key": "1232_CR27",
+     "doi-asserted-by": "crossref",
+     "first-page": "402",
+     "DOI": "10.1006/meth.2001.1262",
+     "volume": "25",
+     "author": "KJ Livak",
+     "year": "2001",
+     "unstructured": "Livak KJ, Schmittgen TD (2001) Analysis of relative gene expression data using real-time quantitative PCR and the 2 T \u2212\u2206\u2206C Method. Methods 25:402\u2013408",
+     "journal-title": "Methods"
+    },
+    {
+     "key": "1232_CR28",
+     "doi-asserted-by": "crossref",
+     "first-page": "555",
+     "DOI": "10.1007/s11745-009-3303-9",
+     "volume": "44",
+     "author": "A Ma\u00f1as-Fern\u00e1ndez",
+     "year": "2009",
+     "unstructured": "Ma\u00f1as-Fern\u00e1ndez A, Vilches-Ferr\u00f3n M, Garrido-C\u00e1rdenas JA, Belarbi EH, Alonso DL, Garc\u00eda-Maroto F (2009) Cloning and molecular characterization of the acyl CoA:diacylglycerol acyltransferase 1 (DGAT1) gene from Echium. Lipids 44:555\u2013568",
+     "journal-title": "Lipids"
+    },
+    {
+     "key": "1232_CR29",
+     "doi-asserted-by": "crossref",
+     "first-page": "1137",
+     "DOI": "10.1104/pp.119.3.1137",
+     "volume": "119",
+     "author": "L Moire",
+     "year": "1999",
+     "unstructured": "Moire L, Schmutz A, Buchala A, Yan B, Stark RE, Ryser U (1999) Glycerol is a suberin monomer. New experimental evidence for an old hypothesis. Plant Physiol 119:1137\u20131146",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "1232_CR30",
+     "doi-asserted-by": "crossref",
+     "first-page": "2597",
+     "DOI": "10.1016/j.phytochem.2006.09.011",
+     "volume": "67",
+     "author": "I Molina",
+     "year": "2006",
+     "unstructured": "Molina I, Bonaventure G, Ohlrogge J, Pollard M (2006) The lipid polyester composition of Arabidopsis thaliana and Brassica napus seeds. Phytochemistry 67:2597\u20132610",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "1232_CR31",
+     "volume-title": "The Arabidopsis book",
+     "author": "C Nawrath",
+     "year": "2002",
+     "unstructured": "Nawrath C (2002) The biopolymers cutin and suberin. In: Somerville C, Meyerowitz EM (eds) The Arabidopsis book. American Society of Plant Biologists, Rockville. doi: 10.1199/tab.0021"
+    },
+    {
+     "key": "1232_CR32",
+     "doi-asserted-by": "crossref",
+     "first-page": "236",
+     "DOI": "10.1016/j.tplants.2008.03.003",
+     "volume": "13",
+     "author": "M Pollard",
+     "year": "2008",
+     "unstructured": "Pollard M, Beisson F, Li Y, Ohlrogge JB (2008) Building lipid barriers: biosynthesis of cutin and suberin. Trends Plant Sci 13:236\u2013246",
+     "journal-title": "Trends Plant Sci"
+    },
+    {
+     "key": "1232_CR33",
+     "doi-asserted-by": "crossref",
+     "first-page": "689",
+     "DOI": "10.1023/A:1008812904017",
+     "volume": "12",
+     "author": "J Rodriguez-Ruiz",
+     "year": "1998",
+     "unstructured": "Rodriguez-Ruiz J, Belarbi EH, Sanchez JLG, Alonso DL (1998) Rapid simultaneous lipid extraction and transesterification for fatty acid analyses. Biotechnol Tech 12:689\u2013691",
+     "journal-title": "Biotechnol Tech"
+    },
+    {
+     "key": "1232_CR34",
+     "doi-asserted-by": "crossref",
+     "first-page": "367",
+     "DOI": "10.1007/BF00161174",
+     "volume": "35",
+     "author": "A Rzhetsky",
+     "year": "1992",
+     "unstructured": "Rzhetsky A, Nei M (1992) Statistical properties of the ordinary least-squares, generalized least-squares, and minimum-evolution methods of phylogenetic inference. J Mol Evol 35:367\u2013375",
+     "journal-title": "J Mol Evol"
+    },
+    {
+     "key": "1232_CR35",
+     "doi-asserted-by": "crossref",
+     "first-page": "566",
+     "DOI": "10.1021/jf00123a037",
+     "volume": "32",
+     "author": "RF Severson",
+     "year": "1984",
+     "unstructured": "Severson RF, Arrendale RF, Chortyk OT, Johnson AW, Jackson DM, Gwynn GR, Chaplin JF, Stephenson MG (1984) Quantitation of the major cuticular components from green leaf of different tobacco types. J Agric Food Chem 32:566\u2013570",
+     "journal-title": "J Agric Food Chem"
+    },
+    {
+     "key": "1232_CR36",
+     "doi-asserted-by": "crossref",
+     "first-page": "1596",
+     "DOI": "10.1093/molbev/msm092",
+     "volume": "24",
+     "author": "K Tamura",
+     "year": "2007",
+     "unstructured": "Tamura K, Dudley J, Nei M, Kumar S (2007) MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0. Mol Biol Evol 24:1596\u20131599",
+     "journal-title": "Mol Biol Evol"
+    },
+    {
+     "key": "1232_CR37",
+     "first-page": "4",
+     "volume": "4",
+     "author": "B Taylor",
+     "year": "1982",
+     "unstructured": "Taylor B, Powel A (1982) Isolation of plant DNA and RNA. Focus 4:4\u20136",
+     "journal-title": "Focus"
+    },
+    {
+     "key": "1232_CR38",
+     "first-page": "711",
+     "volume": "32",
+     "author": "MA Viougeas",
+     "year": "1994",
+     "unstructured": "Viougeas MA, Chamel A (1994) Radiolabelling studies of isolated leaf cuticles after in vivo incorporation of [14C]acetate precursor in ivy plants. Plant Physiol Biochem 32:711\u2013716",
+     "journal-title": "Plant Physiol Biochem"
+    },
+    {
+     "key": "1232_CR39",
+     "doi-asserted-by": "crossref",
+     "first-page": "12040",
+     "DOI": "10.1073/pnas.0914149107",
+     "volume": "107",
+     "author": "W Yang",
+     "year": "2010",
+     "unstructured": "Yang W, Pollard M, Li-Beisson Y, Beisson F, Feig M, Ohlrogge J (2010) A distinct type of glycerol-3-phosphate acyltransferase with sn-2 preference and phosphatase activity producing 2-monoacylglycerol. Proc Natl Acad Sci USA 107:12040\u201312045",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "1232_CR40",
+     "doi-asserted-by": "crossref",
+     "first-page": "41710",
+     "DOI": "10.1074/jbc.M104749200",
+     "volume": "276",
+     "author": "Z Zheng",
+     "year": "2001",
+     "unstructured": "Zheng Z, Zou J (2001) The initial step of the glycerolipid pathway: identification of glycerol 3-phosphate/dihydroxyacetone phosphate dual substrate acyltransferases in Saccharomyces cerevisiae. J Biol Chem 276:41710\u201341716",
+     "journal-title": "J Biol Chem"
+    },
+    {
+     "key": "1232_CR41",
+     "doi-asserted-by": "crossref",
+     "first-page": "1872",
+     "DOI": "10.1105/tpc.012427",
+     "volume": "15",
+     "author": "Z Zheng",
+     "year": "2003",
+     "unstructured": "Zheng Z, Xia Q, Dauk M, Shen W, Selvaraj G, Zou J (2003) Arabidopsis AtGPAT1, a member of the membrane-bound glycerol-3-phosphate acyltransferase gene family, is essential for tapetum differentiation and male fertility. Plant Cell 15:1872\u20131887",
+     "journal-title": "Plant Cell"
+    },
+    {
+     "key": "1232_CR42",
+     "doi-asserted-by": "crossref",
+     "first-page": "2026",
+     "DOI": "10.1128/jb.173.6.2026-2034.1991",
+     "volume": "173",
+     "author": "E Zinser",
+     "year": "1991",
+     "unstructured": "Zinser E, Sperka-Gottlieb CD, Fasch EV, Kohlwein SD, Paltauf F, Daum G (1991) Phospholipid synthesis and lipid composition of subcellular membranes in the unicellular eukaryote Saccharomyces cerevisiae. J Bacteriol 173:2026\u20132034",
+     "journal-title": "J Bacteriol"
+    }
+   ],
+   "container-title": [
+    "Planta"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s00425-010-1232-8.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/article/10.1007/s00425-010-1232-8/fulltext.html",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "http://link.springer.com/content/pdf/10.1007/s00425-010-1232-8",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      5,
+      28
+     ]
+    ],
+    "date-time": "2019-05-28T21:12:20Z",
+    "timestamp": 1559077940000
+   },
+   "score": 42.13566,
+   "resource": {
+    "primary": {
+     "URL": "http://link.springer.com/10.1007/s00425-010-1232-8"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2010,
+      7,
+      25
+     ]
+    ]
+   },
+   "references-count": 42,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2010,
+       9
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "1232"
+   ],
+   "URL": "https://doi.org/10.1007/s00425-010-1232-8",
+   "ISSN": [
+    "0032-0935",
+    "1432-2048"
+   ],
+   "issn-type": [
+    {
+     "value": "0032-0935",
+     "type": "print"
+    },
+    {
+     "value": "1432-2048",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2010,
+      7,
+      25
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      26
+     ]
+    ],
+    "date-time": "2026-09-26T16:45:09Z",
+    "timestamp": 1790441109501,
+    "version": "4.1.0"
+   },
+   "reference-count": 43,
+   "publisher": "Elsevier BV",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2012,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2012-01-01T00:00:00Z",
+      "timestamp": 1325376000000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2015,
+        3,
+        27
+       ]
+      ],
+      "date-time": "2015-03-27T00:00:00Z",
+      "timestamp": 1427414400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 1181,
+     "URL": "https://www.elsevier.com/open-access/userlicense/1.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Molecular Plant"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2012,
+      1
+     ]
+    ]
+   },
+   "DOI": "10.1093/mp/ssr057",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2011,
+      7,
+      12
+     ]
+    ],
+    "date-time": "2011-07-12T02:32:58Z",
+    "timestamp": 1310437978000
+   },
+   "page": "131-142",
+   "source": "Crossref",
+   "is-referenced-by-count": 85,
+   "title": [
+    "Glycerol-3-Phosphate Acyltransferase 6 (GPAT6) Is Important for Tapetum Development in Arabidopsis and Plays Multiple Roles in Plant Fertility"
+   ],
+   "prefix": "10.1016",
+   "volume": "5",
+   "author": [
+    {
+     "given": "Xiao-Chuan",
+     "family": "Li",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jun",
+     "family": "Zhu",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jun",
+     "family": "Yang",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Guo-Rui",
+     "family": "Zhang",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Wei-Feng",
+     "family": "Xing",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sen",
+     "family": "Zhang",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Zhong-Nan",
+     "family": "Yang",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1093/mp/ssr057_bib1",
+     "doi-asserted-by": "crossref",
+     "first-page": "117",
+     "DOI": "10.3109/10520296909063335",
+     "article-title": "Differential staining of aborted and nonaborted pollen",
+     "volume": "44",
+     "author": "Alexander",
+     "year": "1969",
+     "journal-title": "Stain Technol"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib2",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1199/tab.0127",
+     "article-title": "Flower development",
+     "author": "Alvarez-Buylla",
+     "year": "2010",
+     "journal-title": "The Arabidopsis Book"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "1355",
+     "DOI": "10.1007/s00018-006-6016-8",
+     "article-title": "The life cycle of neutral lipids: synthesis, storage and degradation",
+     "volume": "63",
+     "author": "Athenstaedt",
+     "year": "2006",
+     "journal-title": "Cell. Mol. Life Sci."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "351",
+     "DOI": "10.1105/tpc.106.048033",
+     "article-title": "The acyltransferase GPAT5 is required for the synthesis of suberin in seed coat and root of Arabidopsis",
+     "volume": "19",
+     "author": "Beisson",
+     "year": "2007",
+     "journal-title": "Plant Cell."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "381",
+     "DOI": "10.1016/j.plipres.2008.04.001",
+     "article-title": "A role for lipid trafficking in chloroplast biogenesis",
+     "volume": "47",
+     "author": "Benning",
+     "year": "2008",
+     "journal-title": "Progress Lipid Res."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib6",
+     "doi-asserted-by": "crossref",
+     "first-page": "570",
+     "DOI": "10.1111/j.1365-313X.2007.03248.x",
+     "article-title": "Temperature as a determinant factor for increased and reproducible in vitro pollen germination in Arabidopsis thaliana",
+     "volume": "52",
+     "author": "Boavida",
+     "year": "2007",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib7",
+     "doi-asserted-by": "crossref",
+     "first-page": "25",
+     "DOI": "10.1042/bj2350025",
+     "article-title": "Fluxes through the prokaryotic and eukaryotic pathways of lipid synthesis in the 16:3 plant Arabidopsis thaliana",
+     "volume": "235",
+     "author": "Browse",
+     "year": "1986",
+     "journal-title": "Biochem. J."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "3285",
+     "DOI": "10.1105/tpc.104.027078",
+     "article-title": "The vegetative vacuole proteome of Arabidopsis thaliana reveals predicted and unexpected proteins",
+     "volume": "16",
+     "author": "Carter",
+     "year": "2004",
+     "journal-title": "Plant Cell."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "76",
+     "DOI": "10.1111/j.1469-8137.2009.02833.x",
+     "article-title": "A cyclic nucleotide-gated channel is necessary for optimum fertility in high-calcium environments",
+     "volume": "183",
+     "author": "Chaiwongsar",
+     "year": "2009",
+     "journal-title": "New Phytol"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib10",
+     "doi-asserted-by": "crossref",
+     "first-page": "134",
+     "DOI": "10.1016/S0163-7827(03)00051-1",
+     "article-title": "Enzymes of triacylglycerol synthesis and their regulation",
+     "volume": "43",
+     "author": "Coleman",
+     "year": "2004",
+     "journal-title": "Prog. Lipid Res."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "2027",
+     "DOI": "10.1016/0031-9422(88)80090-6",
+     "article-title": "Lipid metabolism during germination of tobacco pollen",
+     "volume": "27",
+     "author": "Dorne",
+     "year": "1988",
+     "journal-title": "Phytochemistry"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "84",
+     "DOI": "10.1105/tpc.015800",
+     "article-title": "Pollen and stigma structure and function: the role of diversity in pollination",
+     "volume": "16",
+     "author": "Edlund",
+     "year": "2004",
+     "journal-title": "Plant Cell."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib13",
+     "doi-asserted-by": "crossref",
+     "first-page": "188",
+     "DOI": "10.1007/s004970050191",
+     "article-title": "MS32-regulated timing callose degradation during microsporogenesis in Arabidopsis is associated with the accumulation of stacked rough ER in tapetal cells",
+     "volume": "12",
+     "author": "Fei",
+     "year": "1999",
+     "journal-title": "Sex. Plant Reprod"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib14",
+     "first-page": "867",
+     "article-title": "Arabidopsis thaliana GPAT8 and GPAT9 are localized to the ER and possess distinct ER retrieval signals: functional divergence of the dilysine ER retrieval motif in plant cells. Plant Physiol",
+     "volume": "47",
+     "author": "Gidda",
+     "year": "2009",
+     "journal-title": "Biochem"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib15",
+     "doi-asserted-by": "crossref",
+     "first-page": "2079",
+     "DOI": "10.1194/jlr.R800013-JLR200",
+     "article-title": "Thematic review series: glycerolipids: mammalian glycerol-3-phosphate acyltransferases: new genes for an old activity",
+     "volume": "49",
+     "author": "Gimeno",
+     "year": "2008",
+     "journal-title": "J. Lipid Res."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib16",
+     "doi-asserted-by": "crossref",
+     "first-page": "5",
+     "DOI": "10.1098/rstb.1995.0131",
+     "article-title": "A novel cell-ablation strategy for studying plant development. Philos. Trans. R. Soc. London B",
+     "volume": "350",
+     "author": "Goldberg",
+     "year": "1995",
+     "journal-title": "Biol. Sci."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib17",
+     "doi-asserted-by": "crossref",
+     "first-page": "852",
+     "DOI": "10.1104/pp.108.118026",
+     "article-title": "RUPTURED POLLEN GRAIN1, a member of the MtN3/saliva gene family, is crucial for exine pattern formation and cell integrity of microspores in Arabidopsis",
+     "volume": "147",
+     "author": "Guan",
+     "year": "2008",
+     "journal-title": "Plant Physiol"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "588",
+     "DOI": "10.1007/s004250050597",
+     "article-title": "Composition and role of tapetal lipid bodies in the biogenesis of the pollen coat of Brassica napus",
+     "volume": "208",
+     "author": "Hernandez-Pinzon",
+     "year": "1999",
+     "journal-title": "Planta"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib19",
+     "doi-asserted-by": "crossref",
+     "first-page": "4143",
+     "DOI": "10.1073/pnas.85.12.4143",
+     "article-title": "Altered regulation of lipid biosynthesis in a mutant Arabidopsis deficient in chloroplast glycerol-3-phosphate acyltransferase activity",
+     "volume": "85",
+     "author": "Kunst",
+     "year": "1988",
+     "journal-title": "Proc. Natl Acad. Sci. U S A"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "173",
+     "DOI": "10.1105/tpc.109.070326",
+     "article-title": "Cytochrome P450 family member CYP704B2 catalyzes the {omega}-hydroxylation of fatty acids and is required for anther cutin biosynthesis and pollen exine formation in rice",
+     "volume": "22",
+     "author": "Li",
+     "year": "2010",
+     "journal-title": "Plant Cell."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib21",
+     "doi-asserted-by": "crossref",
+     "first-page": "675",
+     "DOI": "10.1093/mp/ssn031",
+     "article-title": "A mitochondrial magnesium transporter functions in Arabidopsis pollen development",
+     "volume": "1",
+     "author": "Li",
+     "year": "2008",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib22",
+     "doi-asserted-by": "crossref",
+     "first-page": "18339",
+     "DOI": "10.1073/pnas.0706984104",
+     "article-title": "Identification of acyltransferases required for cutin synthesis and production of cutin with suberin-like monomers",
+     "volume": "104",
+     "author": "Li",
+     "year": "2007",
+     "journal-title": "Proc. Natl Acad. Sci. U S A"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib23",
+     "doi-asserted-by": "crossref",
+     "first-page": "22008",
+     "DOI": "10.1073/pnas.0909090106",
+     "article-title": "Nanoridges that characterize the surface morphology of flowers require the synthesis of cutin polyester",
+     "volume": "106",
+     "author": "Li-Beisson",
+     "year": "2009",
+     "journal-title": "Proc. Natl Acad. Sci. U S A"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib24",
+     "doi-asserted-by": "crossref",
+     "first-page": "457",
+     "DOI": "10.1046/j.1365-313X.1995.08030457.x",
+     "article-title": "Efficient isolation and mapping of Arabidopsis thaliana T-DNA insert junctions by thermal asymmetric interlaced PCR",
+     "volume": "8",
+     "author": "Liu",
+     "year": "1995",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib25",
+     "doi-asserted-by": "crossref",
+     "first-page": "393",
+     "DOI": "10.1146/annurev.arplant.55.031903.141717",
+     "article-title": "Molecular genetic analyses of microsporogenesis and microgametogenesis in flowering plants",
+     "volume": "56",
+     "author": "Ma",
+     "year": "2005",
+     "journal-title": "Annu. Rev. Plant Biol."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "583",
+     "DOI": "10.1007/BF00014542",
+     "article-title": "Extracellular targeting of the vacuolar tobacco proteins AP24, chitinase and b-1,3-glucanase in transgenic plants",
+     "volume": "21",
+     "author": "Melchers",
+     "year": "1993",
+     "journal-title": "Plant Mol. Biol."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib27",
+     "doi-asserted-by": "crossref",
+     "first-page": "10",
+     "DOI": "10.1016/S0005-2760(97)00115-X",
+     "article-title": "Glycerol-3-phosphate acyltransferase in plants",
+     "volume": "1348",
+     "author": "Murata",
+     "year": "1997",
+     "journal-title": "Biochim. Biophys. Acta"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib28",
+     "doi-asserted-by": "crossref",
+     "first-page": "7",
+     "DOI": "10.1007/BF01272749",
+     "article-title": "Ultrastructure of microsporogenesis and microgametogenesis in Arabidopsis thaliana (L.) Heynh. ecotype Wassilewskija (Brassicaceae)",
+     "volume": "185",
+     "author": "Owen",
+     "year": "1995",
+     "journal-title": "Protoplasma"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib29",
+     "doi-asserted-by": "crossref",
+     "first-page": "65",
+     "DOI": "10.1007/s004970050122",
+     "article-title": "Biogenesis and function of the lipidic structures of pollen grains",
+     "volume": "11",
+     "author": "Piffanelli",
+     "year": "1998",
+     "journal-title": "Sex. Plant Reprod"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib30",
+     "doi-asserted-by": "crossref",
+     "first-page": "236",
+     "DOI": "10.1016/j.tplants.2008.03.003",
+     "article-title": "Building lipid barriers: biosynthesis of cutin and suberin",
+     "volume": "13",
+     "author": "Pollard",
+     "year": "2008",
+     "journal-title": "Trends Plant Sci."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib31",
+     "doi-asserted-by": "crossref",
+     "first-page": "941",
+     "DOI": "10.1016/S0168-9452(03)00218-8",
+     "article-title": "Obtaining and analysis of flanking sequences from T-DNA transformants in Arabidopsis",
+     "volume": "165",
+     "author": "Qin",
+     "year": "2003",
+     "journal-title": "Plant Sci."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "507",
+     "DOI": "10.1007/BF02261778",
+     "article-title": "A light microscopic atlas of meiosis in Arabidopsis thaliana",
+     "volume": "4",
+     "author": "Ross",
+     "year": "1996",
+     "journal-title": "Chromosome Res."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib33",
+     "doi-asserted-by": "crossref",
+     "first-page": "297",
+     "DOI": "10.1007/s004970050158",
+     "article-title": "Anther developmental defects in Arabidopsis thaliana male-sterile mutants",
+     "volume": "11",
+     "author": "Sanders",
+     "year": "1999",
+     "journal-title": "Sex Plant Reprod"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "46",
+     "DOI": "10.1105/tpc.017012",
+     "article-title": "Stamen structure and function",
+     "volume": "16",
+     "author": "Scott",
+     "year": "2004",
+     "journal-title": "Plant Cell."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib35",
+     "doi-asserted-by": "crossref",
+     "first-page": "169",
+     "DOI": "10.1016/0012-1606(73)90347-3",
+     "article-title": "Regulation of \u03b2-1, 3 glucanase activity in developing anthers of Lilium microsporocytes",
+     "volume": "34",
+     "author": "Stieglitz",
+     "year": "1973",
+     "journal-title": "Dev. Biol."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib37",
+     "doi-asserted-by": "crossref",
+     "first-page": "112",
+     "DOI": "10.1038/nrm2330",
+     "article-title": "Membrane lipids: where they are and how they behave",
+     "volume": "9",
+     "author": "van Meer",
+     "year": "2008",
+     "journal-title": "Nat. Rev. Mol. Cell Biol."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib38",
+     "doi-asserted-by": "crossref",
+     "first-page": "667",
+     "DOI": "10.1093/mp/ssn027",
+     "article-title": "Microscopy and bioinformatic analyses of lipid metabolism implicate a sporophytic signaling network supporting pollen development in Arabidopsis",
+     "volume": "1",
+     "author": "Wang",
+     "year": "2008",
+     "journal-title": "Mol. Plant"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib39",
+     "doi-asserted-by": "crossref",
+     "first-page": "173",
+     "DOI": "10.1007/s00497-005-0010-4",
+     "article-title": "Reduction in vacuolar volume in the tapetal cells coincides with conclusion of the tetrad stage in Arabidopsis thaliana",
+     "volume": "18",
+     "author": "Wu",
+     "year": "2005",
+     "journal-title": "Sex Plant Reprod"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib40",
+     "doi-asserted-by": "crossref",
+     "first-page": "296",
+     "DOI": "10.1111/j.1365-313X.2006.02790.x",
+     "article-title": "Phosphatidylglycerol biosynthesis in chloroplasts of Arabidopsis mutants deficient in acyl-ACP glycerol-3-phosphate acyltransferase",
+     "volume": "47",
+     "author": "Xu",
+     "year": "2006",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib41",
+     "doi-asserted-by": "crossref",
+     "first-page": "12040",
+     "DOI": "10.1073/pnas.0914149107",
+     "article-title": "A distinct type of glycerol-3-phosphate acyltransferase with sn-2 preference and phosphatase activity producing 2-monoacylglycerol",
+     "volume": "107",
+     "author": "Yang",
+     "year": "2010",
+     "journal-title": "Proc. Natl Acad. Sci. U S A"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib42",
+     "doi-asserted-by": "crossref",
+     "first-page": "528",
+     "DOI": "10.1111/j.1365-313X.2007.03254.x",
+     "article-title": "Transcription factor AtMYB103 is required for anther development by regulating tapetum development, callose dissolution and exine formation in Arabidopsis",
+     "volume": "52",
+     "author": "Zhang",
+     "year": "2007",
+     "journal-title": "Plant J"
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib43",
+     "doi-asserted-by": "crossref",
+     "first-page": "1872",
+     "DOI": "10.1105/tpc.012427",
+     "article-title": "Arabidopsis AtGPAT1, a member of the membrane-bound glycerol-3-phosphate acyltransferase gene family, is essential for tapetum differentiation and male fertility",
+     "volume": "15",
+     "author": "Zheng",
+     "year": "2003",
+     "journal-title": "Plant Cell."
+    },
+    {
+     "key": "10.1093/mp/ssr057_bib44",
+     "doi-asserted-by": "crossref",
+     "first-page": "266",
+     "DOI": "10.1111/j.1365-313X.2008.03500.x",
+     "article-title": "Defective in Tapetal development and function 1 is essential for anther development and tapetal function for microspore maturation in Arabidopsis",
+     "volume": "55",
+     "author": "Zhu",
+     "year": "2008",
+     "journal-title": "Plant J"
+    }
+   ],
+   "container-title": [
+    "Molecular Plant"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S1674205214606523?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S1674205214606523?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2019,
+      6,
+      12
+     ]
+    ],
+    "date-time": "2019-06-12T22:26:19Z",
+    "timestamp": 1560378379000
+   },
+   "score": 40.20527,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1674205214606523"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2012,
+      1
+     ]
+    ]
+   },
+   "references-count": 43,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2012,
+       1
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "S1674205214606523"
+   ],
+   "URL": "https://doi.org/10.1093/mp/ssr057",
+   "ISSN": [
+    "1674-2052"
+   ],
+   "issn-type": [
+    {
+     "value": "1674-2052",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2012,
+      1
+     ]
+    ]
+   }
+  }
+ ]
+}

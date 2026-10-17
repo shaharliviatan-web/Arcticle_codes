@@ -1,0 +1,2406 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     1
+    ]
+   ],
+   "date-time": "2026-06-01T22:10:34Z",
+   "timestamp": 1780351834967,
+   "version": "3.54.1"
+  },
+  "reference-count": 52,
+  "publisher": "Oxford University Press (OUP)",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2023,
+       4,
+       21
+      ]
+     ],
+     "date-time": "2023-04-21T00:00:00Z",
+     "timestamp": 1682035200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 114,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001664",
+    "name": "Leibniz-Gemeinschaft",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/501100001664",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "name": "Pakt f\u00fcr Forschung und Innovation",
+    "award": [
+     "SAW-2015-IPK-1"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "SAW-2015-IPK-1"
+      ]
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100006603",
+    "name": "Bundesministerium f\u00fcr Bildung und Frauen",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "031A536A"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "031A536A"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100006603",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100006603",
+    "name": "Bundesministerium f\u00fcr Bildung und Frauen",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "031B0884A"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "031B0884A"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100006603",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001659",
+    "name": "Deutsche Forschungsgemeinschaft",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "491250510"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "491250510"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001659",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     28
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>The sequencing of whole genomes is becoming increasingly affordable. In this context, large-scale sequencing projects are generating ever larger datasets of species-specific genomic diversity. As a consequence, more and more genomic data need to be made easily accessible and analyzable to the scientific community.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Findings</jats:title>\n                    <jats:p>We present DivBrowse, a web application for interactive visualization and exploratory analysis of genomic diversity data stored in Variant Call Format (VCF) files of any size. By seamlessly combining BLAST as an entry point together with interactive data analysis features such as principal component analysis in one graphical user interface, DivBrowse provides a novel and unique set of exploratory data analysis capabilities for genomic biodiversity datasets. The capability to integrate DivBrowse into existing web applications supports interoperability between different web applications. Built-in interactive computation of principal component analysis allows users to perform ad hoc analysis of the population structure based on specific genetic elements such as genes and exons. Data interoperability is supported by the ability to export genomic diversity data in VCF and General Feature Format 3 files.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>DivBrowse offers a novel approach for interactive visualization and analysis of genomic diversity data and optionally also gene annotation data by including features like interactive calculation of variant frequencies and principal component analysis. The use of established standard file formats for data input supports interoperability and seamless deployment of application instances based on the data output of established bioinformatics pipelines.</jats:p>\n                  </jats:sec>",
+  "DOI": "10.1093/gigascience/giad025",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2023,
+     4,
+     21
+    ]
+   ],
+   "date-time": "2023-04-21T09:38:43Z",
+   "timestamp": 1682069923000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 5,
+  "title": [
+   "DivBrowse\u2014interactive visualization and exploratory data analysis of variant call matrices"
+  ],
+  "prefix": "10.1093",
+  "volume": "12",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-8948-6793",
+    "authenticated-orcid": false,
+    "given": "Patrick",
+    "family": "K\u00f6nig",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+      "place": [
+       "Germany"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-2177-8781",
+    "authenticated-orcid": false,
+    "given": "Sebastian",
+    "family": "Beier",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+      "place": [
+       "Germany"
+      ]
+     },
+     {
+      "name": "Institute of Bio- and Geosciences, IBG-4, Forschungszentrum J\u00fclich GmbH , 52425 J\u00fclich ,",
+      "place": [
+       "Germany"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6373-6013",
+    "authenticated-orcid": false,
+    "given": "Martin",
+    "family": "Mascher",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Genebank, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+      "place": [
+       "Germany"
+      ]
+     },
+     {
+      "name": "German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig , 04103 Leipzig ,",
+      "place": [
+       "Germany"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3011-8731",
+    "authenticated-orcid": false,
+    "given": "Nils",
+    "family": "Stein",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Genebank, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+      "place": [
+       "Germany"
+      ]
+     },
+     {
+      "name": "Center for Integrated Breeding Research, Georg-August University , 37075 G\u00f6ttingen ,",
+      "place": [
+       "Germany"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4316-078X",
+    "authenticated-orcid": false,
+    "given": "Matthias",
+    "family": "Lange",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+      "place": [
+       "Germany"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6113-3518",
+    "authenticated-orcid": false,
+    "given": "Uwe",
+    "family": "Scholz",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+      "place": [
+       "Germany"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     4,
+     21
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2024111706293529600_bib1",
+    "doi-asserted-by": "crossref",
+    "first-page": "470",
+    "DOI": "10.3390/jpm5040470",
+    "article-title": "Assessing the costs and cost-effectiveness of genomic sequencing",
+    "volume": "5",
+    "author": "Christensen",
+    "year": "2015",
+    "journal-title": "J Pers Med"
+   },
+   {
+    "key": "2024111706293529600_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "855",
+    "DOI": "10.1007/s10198-021-01293-1",
+    "article-title": "Whole exome sequencing in molecular diagnostics of cancer decreases over time: evidence from a cost analysis in the French setting",
+    "volume": "22",
+    "author": "Bayle",
+    "year": "2021",
+    "journal-title": "Eur J Health Econ"
+   },
+   {
+    "key": "2024111706293529600_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "29",
+    "DOI": "10.1186/1746-4811-9-29",
+    "article-title": "The advantages and limitations of trait analysis with GWAS: a review",
+    "volume": "9",
+    "author": "Korte",
+    "year": "2013",
+    "journal-title": "Plant Methods"
+   },
+   {
+    "key": "2024111706293529600_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "e1002195",
+    "DOI": "10.1371/journal.pbio.1002195",
+    "article-title": "Big data: astronomical or genomical?",
+    "volume": "13",
+    "author": "Stephens",
+    "year": "2015",
+    "journal-title": "PLOS Biol"
+   },
+   {
+    "key": "2024111706293529600_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "giz054",
+    "DOI": "10.1093/gigascience/giz054",
+    "article-title": "Software engineering for scientific big data analysis",
+    "volume": "8",
+    "author": "Gr\u00fcning",
+    "year": "2019",
+    "journal-title": "Gigascience"
+   },
+   {
+    "key": "2024111706293529600_bib6",
+    "article-title": "JBrowse 2: a modular genome browser with views of synteny and structural variation",
+    "author": "Diesh",
+    "year": "2022",
+    "journal-title": "Biorxiv"
+   },
+   {
+    "issue": "1",
+    "key": "2024111706293529600_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1093/bioinformatics/btac830",
+    "article-title": "igv.js: an embeddable JavaScript implementation of the Integrative Genomics Viewer (IGV)",
+    "volume": "39",
+    "author": "Robinson",
+    "year": "2023",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2024111706293529600_bib8",
+    "doi-asserted-by": "crossref",
+    "first-page": "giaa060",
+    "DOI": "10.1093/gigascience/giaa060",
+    "article-title": "SnpHub: an easy-to-set-up web server framework for exploring large-scale genomic variation data in the post-genomic era with applications in wheat",
+    "volume": "9",
+    "author": "Wang",
+    "year": "2020",
+    "journal-title": "Gigascience"
+   },
+   {
+    "key": "2024111706293529600_bib9",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1093/database/bay037",
+    "article-title": "SNPversity: a web-based tool for visualizing diversity",
+    "volume": "2018",
+    "author": "Schott",
+    "year": "2018",
+    "journal-title": "Database"
+   },
+   {
+    "key": "2024111706293529600_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "3133",
+    "DOI": "10.1093/bioinformatics/btq580",
+    "article-title": "Flapjack\u2013graphical genotype visualization",
+    "volume": "26",
+    "author": "Milne",
+    "year": "2010",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2024111706293529600_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "319",
+    "DOI": "10.1038/s41588-018-0266-x",
+    "article-title": "Genebank genomics highlights the diversity of a global barley collection",
+    "volume": "51",
+    "author": "Milner",
+    "year": "2019",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "key": "2024111706293529600_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "2156",
+    "DOI": "10.1093/bioinformatics/btr330",
+    "article-title": "The variant call format and vcftools",
+    "volume": "27",
+    "author": "Danecek",
+    "year": "2011",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2024111706293529600_bib13",
+    "article-title": "Generic feature format version 3 (GFF3)",
+    "author": "Stein"
+   },
+   {
+    "key": "2024111706293529600_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.3389/fpls.2020.00701",
+    "article-title": "BRIDGE\u2014a visual analytics web tool for Barley Genebank Genomics",
+    "volume": "11",
+    "author": "K\u00f6nig",
+    "year": "2020",
+    "journal-title": "Front Plant Sci"
+   },
+   {
+    "key": "2024111706293529600_bib15",
+    "article-title": "Variant matrices for a global barley diversity panel. e!DAL\u2014Plant Genomics and Phenomics Research data Repository (PGP)",
+    "author": "Mascher",
+    "year": "2018"
+   },
+   {
+    "issue": "284",
+    "key": "2024111706293529600_bib16",
+    "first-page": "1",
+    "article-title": "TRITEX: chromosome-scale sequence assembly of Triticeae genomes with open-source tools",
+    "volume": "20",
+    "author": "Monat",
+    "year": "2019",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2024111706293529600_bib17",
+    "article-title": "DivBrowse project website",
+    "author": "K\u00f6nig",
+    "year": "2023"
+   },
+   {
+    "key": "2024111706293529600_bib18",
+    "doi-asserted-by": "crossref",
+    "first-page": "366",
+    "DOI": "10.1080/08982110903188276",
+    "article-title": "Principles of exploratory data analysis in problem solving: what can we learn from a well-known case?",
+    "volume": "21",
+    "author": "de\u00a0Mast",
+    "year": "2009",
+    "journal-title": "Qual Eng"
+   },
+   {
+    "key": "2024111706293529600_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.4161/fly.19695",
+    "article-title": "A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: sNPs in the genome of Drosophila melanogaster strain w 1118\u202f; iso-2; iso-3",
+    "volume": "6",
+    "author": "Cingolani",
+    "year": "2012",
+    "journal-title": "Fly (Austin)"
+   },
+   {
+    "key": "2024111706293529600_bib20",
+    "article-title": "Zarr-Python",
+    "volume-title": "Zenodo",
+    "author": "Miles",
+    "year": "2022"
+   },
+   {
+    "key": "2024111706293529600_bib21",
+    "doi-asserted-by": "crossref",
+    "first-page": "1496",
+    "DOI": "10.1038/s41592-021-01326-w",
+    "article-title": "OME-NGFF: a next-generation file format for expanding bioimaging data-access strategies",
+    "volume": "18",
+    "author": "Moore",
+    "year": "2021",
+    "journal-title": "Nat Methods"
+   },
+   {
+    "key": "2024111706293529600_bib22",
+    "volume-title": "cggh/scikit-allel: v1.3.3",
+    "author": "Miles",
+    "year": "2021"
+   },
+   {
+    "key": "2024111706293529600_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "718",
+    "DOI": "10.1093/bioinformatics/btq671",
+    "article-title": "Tabix: fast retrieval of sequence features from generic TAB-delimited files",
+    "volume": "27",
+    "author": "Li",
+    "year": "2011",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2024111706293529600_bib24",
+    "article-title": "d\u00f6t Net I: YAMLTM Specification index",
+    "author": "Ben-Kiki",
+    "year": "2009"
+   },
+   {
+    "key": "2024111706293529600_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "403",
+    "DOI": "10.1016/S0022-2836(05)80360-2",
+    "article-title": "Basic local alignment search tool",
+    "volume": "215",
+    "author": "Altschul",
+    "year": "1990",
+    "journal-title": "J Mol Biol"
+   },
+   {
+    "key": "2024111706293529600_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "1685",
+    "DOI": "10.1093/bioinformatics/btt199",
+    "article-title": "BioBlend: automating pipeline analyses within Galaxy and CloudMan",
+    "volume": "29",
+    "author": "Sloggett",
+    "year": "2013",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2024111706293529600_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "39",
+    "DOI": "10.1186/s13742-015-0080-7",
+    "article-title": "NCBI BLAST+ integrated into Galaxy",
+    "volume": "4",
+    "author": "Cock",
+    "year": "2015",
+    "journal-title": "Gigascience"
+   },
+   {
+    "key": "2024111706293529600_bib28",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.7312/nei-92038",
+    "volume-title": "Molecular Evolutionary Genetics",
+    "author": "Nei",
+    "year": "1987"
+   },
+   {
+    "key": "2024111706293529600_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "3045",
+    "DOI": "10.1093/bioinformatics/btp536",
+    "article-title": "QuickGO: a web-based tool for gene ontology searching",
+    "volume": "25",
+    "author": "Binns",
+    "year": "2009",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2024111706293529600_bib30",
+    "article-title": "Svelte",
+    "volume-title": "GitHub",
+    "author": "Harris",
+    "year": "2022"
+   },
+   {
+    "key": "2024111706293529600_bib31",
+    "article-title": "Python Software Foundation: python Package Index\u2014PyPI",
+    "year": "2023"
+   },
+   {
+    "key": "2024111706293529600_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "1076",
+    "DOI": "10.1038/s41588-019-0443-6",
+    "article-title": "Genebank genomics bridges the gap between the conservation of crop diversity and plant breeding",
+    "volume": "51",
+    "author": "Mascher",
+    "year": "2019",
+    "journal-title": "Nat Genet"
+   },
+   {
+    "issue": "160018",
+    "key": "2024111706293529600_bib33",
+    "first-page": "1",
+    "article-title": "The FAIR Guiding Principles for scientific data management and stewardship",
+    "volume": "3",
+    "author": "Wilkinson",
+    "year": "2016",
+    "journal-title": "Sci Data"
+   },
+   {
+    "key": "2024111706293529600_bib34",
+    "doi-asserted-by": "crossref",
+    "first-page": "231",
+    "DOI": "10.12688/f1000research.109080.2",
+    "article-title": "Recommendations for the formatting of Variant Call Format (VCF) files to make plant genotyping data FAIR",
+    "volume": "11",
+    "author": "Beier",
+    "year": "2022",
+    "journal-title": "F1000Res"
+   },
+   {
+    "key": "2024111706293529600_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "D1500",
+    "DOI": "10.1093/nar/gkab1046",
+    "article-title": "BioSamples database: fAIRer samples metadata to accelerate research data management",
+    "volume": "50",
+    "author": "Courtot",
+    "year": "2022",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2024111706293529600_bib36",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1371/journal.pone.0132180",
+    "article-title": "The Use of Non-Variant Sites to Improve the Clinical Assessment of Whole-Genome Sequence Data",
+    "volume": "10",
+    "author": "Ferrarini",
+    "year": "2015",
+    "journal-title": "PLoS One"
+   },
+   {
+    "issue": "24",
+    "key": "2024111706293529600_bib37",
+    "first-page": "1",
+    "article-title": "Application programming interfaces for knowledge transfer and generation in the life sciences and healthcare",
+    "volume": "3",
+    "author": "Woody",
+    "year": "2020",
+    "journal-title": "npj Digit Med"
+   },
+   {
+    "issue": "20",
+    "key": "2024111706293529600_bib38",
+    "doi-asserted-by": "crossref",
+    "first-page": "4147",
+    "DOI": "10.1093/bioinformatics/btz190",
+    "article-title": "BrAPI\u2014an application programming interface for plant breeding applications",
+    "volume": "35",
+    "author": "Selby",
+    "year": "2019",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2024111706293529600_bib39",
+    "article-title": "Improved structural variant support by d-cameron \u00b7 pull request #465 \u00b7 samtools/hts-specs",
+    "author": "Cameron",
+    "year": "2019"
+   },
+   {
+    "issue": "661",
+    "key": "2024111706293529600_bib40",
+    "first-page": "1",
+    "article-title": "Shifting the limits in wheat research and breeding using a fully annotated reference genome",
+    "volume": "361",
+    "author": "The International Wheat Genome Sequencing Consortium (IWGSC)",
+    "year": "2018",
+    "journal-title": "Science"
+   },
+   {
+    "key": "2024111706293529600_bib41",
+    "doi-asserted-by": "crossref",
+    "first-page": "R86",
+    "DOI": "10.1186/gb-2010-11-8-r86",
+    "article-title": "Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences",
+    "volume": "11",
+    "author": "Goecks",
+    "year": "2010",
+    "journal-title": "Genome Biol"
+   },
+   {
+    "key": "2024111706293529600_bib42",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1371/journal.pcbi.1004947",
+    "article-title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
+    "volume": "12",
+    "author": "Perez-Riverol",
+    "year": "2016",
+    "journal-title": "PLoS Comput Biol"
+   },
+   {
+    "key": "2024111706293529600_bib43",
+    "doi-asserted-by": "crossref",
+    "first-page": "742",
+    "DOI": "10.12688/f1000research.15140.2",
+    "article-title": "Recommendations for the packaging and containerizing of bioinformatics software",
+    "volume": "7",
+    "author": "Gruening",
+    "year": "2019",
+    "journal-title": "F1000Res"
+   },
+   {
+    "key": "2024111706293529600_bib44",
+    "doi-asserted-by": "crossref",
+    "first-page": "giz051",
+    "DOI": "10.1093/gigascience/giz051",
+    "article-title": "Gigwa v2\u2014Extended and improved genotype investigator",
+    "volume": "8",
+    "author": "Semp\u00e9r\u00e9",
+    "year": "2019",
+    "journal-title": "Gigascience"
+   },
+   {
+    "key": "2024111706293529600_bib45",
+    "doi-asserted-by": "crossref",
+    "first-page": "1538",
+    "DOI": "10.1002/csc2.20248",
+    "article-title": "From bits to bites: advancement of the Germinate platform to support prebreeding informatics for crop wild relatives",
+    "volume": "61",
+    "author": "Raubach",
+    "year": "2021",
+    "journal-title": "Crop Sci"
+   },
+   {
+    "key": "2024111706293529600_bib46",
+    "doi-asserted-by": "crossref",
+    "first-page": "D988",
+    "DOI": "10.1093/nar/gkab1049",
+    "article-title": "Ensembl 2022",
+    "volume": "50",
+    "author": "Cunningham",
+    "year": "2022",
+    "journal-title": "Nucleic Acids Res"
+   },
+   {
+    "key": "2024111706293529600_bib47",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1093/database/baac034",
+    "article-title": "GrainGenes: a data-rich repository for small grains genetics and genomics",
+    "volume": "2022",
+    "author": "Yao",
+    "year": "2022",
+    "journal-title": "Database"
+   },
+   {
+    "key": "2024111706293529600_bib48",
+    "doi-asserted-by": "crossref",
+    "first-page": "227",
+    "DOI": "10.1146/annurev-biochem-060815-014607",
+    "article-title": "CRISPR/Cas9 in genome editing and beyond",
+    "volume": "85",
+    "author": "Wang",
+    "year": "2016",
+    "journal-title": "Annu Rev Biochem"
+   },
+   {
+    "key": "2024111706293529600_bib49",
+    "doi-asserted-by": "crossref",
+    "first-page": "505",
+    "DOI": "10.1146/annurev-biophys-062215-010822",
+    "article-title": "CRISPR\u2013Cas9 structures and mechanisms",
+    "volume": "46",
+    "author": "Jiang",
+    "year": "2017",
+    "journal-title": "Annu Rev Biophys"
+   },
+   {
+    "key": "2024111706293529600_bib50",
+    "doi-asserted-by": "crossref",
+    "unstructured": "K\u00f6nig P, Beier S, Mascher M, et al. \u00a0Supporting data for \u201cDivBrowse\u2014Interactive Visualization and Exploratory Data Analysis of Variant Call Matrices.\u201d \u00a0GigaScience Database. 2023. 10.5524/102358.",
+    "DOI": "10.1101/2022.09.22.509016"
+   },
+   {
+    "key": "2024111706293529600_bib51"
+   },
+   {
+    "key": "2024111706293529600_bib52"
+   }
+  ],
+  "container-title": [
+   "GigaScience"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giad025/60704556/giad025.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giad025/60704556/giad025.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     11,
+     17
+    ]
+   ],
+   "date-time": "2024-11-17T01:30:08Z",
+   "timestamp": 1731807008000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad025/7135628"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     28
+    ]
+   ]
+  },
+  "references-count": 52,
+  "URL": "https://doi.org/10.1093/gigascience/giad025",
+  "relation": {
+   "has-preprint": [
+    {
+     "id-type": "doi",
+     "id": "10.1101/2022.09.22.509016",
+     "asserted-by": "object"
+    }
+   ]
+  },
+  "ISSN": [
+   "2047-217X"
+  ],
+  "issn-type": [
+   {
+    "value": "2047-217X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2022,
+     12,
+     28
+    ]
+   ]
+  },
+  "article-number": "giad025"
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      30
+     ]
+    ],
+    "date-time": "2025-07-30T12:01:52Z",
+    "timestamp": 1753876912798,
+    "version": "3.41.2"
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2023,
+        5,
+        1
+       ]
+      ],
+      "date-time": "2023-05-01T00:00:00Z",
+      "timestamp": 1682899200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 124,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      28
+     ]
+    ]
+   },
+   "DOI": "10.1093/gigascience/giad037",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      1
+     ]
+    ],
+    "date-time": "2023-05-01T07:56:43Z",
+    "timestamp": 1682927803000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "<b>Correction to:</b> DivBrowse\u2014interactive visualization and exploratory data analysis of variant call matrices"
+   ],
+   "prefix": "10.1093",
+   "volume": "12",
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      1
+     ]
+    ]
+   },
+   "container-title": [
+    "GigaScience"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giad037/50149544/giad037.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giad037/50149544/giad037.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      1
+     ]
+    ],
+    "date-time": "2023-05-01T07:56:44Z",
+    "timestamp": 1682927804000
+   },
+   "score": 77.86921,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad037/7147441"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      28
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.1093/gigascience/giad037",
+   "ISSN": [
+    "2047-217X"
+   ],
+   "issn-type": [
+    {
+     "type": "electronic",
+     "value": "2047-217X"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2023
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      28
+     ]
+    ]
+   },
+   "article-number": "giad037"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2026-06-01T22:10:34Z",
+    "timestamp": 1780351834967,
+    "version": "3.54.1"
+   },
+   "reference-count": 52,
+   "publisher": "Oxford University Press (OUP)",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2023,
+        4,
+        21
+       ]
+      ],
+      "date-time": "2023-04-21T00:00:00Z",
+      "timestamp": 1682035200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 114,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100001664",
+     "name": "Leibniz-Gemeinschaft",
+     "doi-asserted-by": "publisher",
+     "id": [
+      {
+       "id": "10.13039/501100001664",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "name": "Pakt f\u00fcr Forschung und Innovation",
+     "award": [
+      "SAW-2015-IPK-1"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "SAW-2015-IPK-1"
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100006603",
+     "name": "Bundesministerium f\u00fcr Bildung und Frauen",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "031A536A"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "031A536A"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100006603",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100006603",
+     "name": "Bundesministerium f\u00fcr Bildung und Frauen",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "031B0884A"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "031B0884A"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100006603",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100001659",
+     "name": "Deutsche Forschungsgemeinschaft",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "491250510"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "491250510"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001659",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      28
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>The sequencing of whole genomes is becoming increasingly affordable. In this context, large-scale sequencing projects are generating ever larger datasets of species-specific genomic diversity. As a consequence, more and more genomic data need to be made easily accessible and analyzable to the scientific community.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Findings</jats:title>\n                    <jats:p>We present DivBrowse, a web application for interactive visualization and exploratory analysis of genomic diversity data stored in Variant Call Format (VCF) files of any size. By seamlessly combining BLAST as an entry point together with interactive data analysis features such as principal component analysis in one graphical user interface, DivBrowse provides a novel and unique set of exploratory data analysis capabilities for genomic biodiversity datasets. The capability to integrate DivBrowse into existing web applications supports interoperability between different web applications. Built-in interactive computation of principal component analysis allows users to perform ad hoc analysis of the population structure based on specific genetic elements such as genes and exons. Data interoperability is supported by the ability to export genomic diversity data in VCF and General Feature Format 3 files.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>DivBrowse offers a novel approach for interactive visualization and analysis of genomic diversity data and optionally also gene annotation data by including features like interactive calculation of variant frequencies and principal component analysis. The use of established standard file formats for data input supports interoperability and seamless deployment of application instances based on the data output of established bioinformatics pipelines.</jats:p>\n                  </jats:sec>",
+   "DOI": "10.1093/gigascience/giad025",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      21
+     ]
+    ],
+    "date-time": "2023-04-21T09:38:43Z",
+    "timestamp": 1682069923000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 5,
+   "title": [
+    "DivBrowse\u2014interactive visualization and exploratory data analysis of variant call matrices"
+   ],
+   "prefix": "10.1093",
+   "volume": "12",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-8948-6793",
+     "authenticated-orcid": false,
+     "given": "Patrick",
+     "family": "K\u00f6nig",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+       "place": [
+        "Germany"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-2177-8781",
+     "authenticated-orcid": false,
+     "given": "Sebastian",
+     "family": "Beier",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+       "place": [
+        "Germany"
+       ]
+      },
+      {
+       "name": "Institute of Bio- and Geosciences, IBG-4, Forschungszentrum J\u00fclich GmbH , 52425 J\u00fclich ,",
+       "place": [
+        "Germany"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6373-6013",
+     "authenticated-orcid": false,
+     "given": "Martin",
+     "family": "Mascher",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Genebank, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+       "place": [
+        "Germany"
+       ]
+      },
+      {
+       "name": "German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig , 04103 Leipzig ,",
+       "place": [
+        "Germany"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3011-8731",
+     "authenticated-orcid": false,
+     "given": "Nils",
+     "family": "Stein",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Genebank, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+       "place": [
+        "Germany"
+       ]
+      },
+      {
+       "name": "Center for Integrated Breeding Research, Georg-August University , 37075 G\u00f6ttingen ,",
+       "place": [
+        "Germany"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-4316-078X",
+     "authenticated-orcid": false,
+     "given": "Matthias",
+     "family": "Lange",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+       "place": [
+        "Germany"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6113-3518",
+     "authenticated-orcid": false,
+     "given": "Uwe",
+     "family": "Scholz",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Breeding Research, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben , 06466 Seeland ,",
+       "place": [
+        "Germany"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      21
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2024111706293529600_bib1",
+     "doi-asserted-by": "crossref",
+     "first-page": "470",
+     "DOI": "10.3390/jpm5040470",
+     "article-title": "Assessing the costs and cost-effectiveness of genomic sequencing",
+     "volume": "5",
+     "author": "Christensen",
+     "year": "2015",
+     "journal-title": "J Pers Med"
+    },
+    {
+     "key": "2024111706293529600_bib2",
+     "doi-asserted-by": "crossref",
+     "first-page": "855",
+     "DOI": "10.1007/s10198-021-01293-1",
+     "article-title": "Whole exome sequencing in molecular diagnostics of cancer decreases over time: evidence from a cost analysis in the French setting",
+     "volume": "22",
+     "author": "Bayle",
+     "year": "2021",
+     "journal-title": "Eur J Health Econ"
+    },
+    {
+     "key": "2024111706293529600_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "29",
+     "DOI": "10.1186/1746-4811-9-29",
+     "article-title": "The advantages and limitations of trait analysis with GWAS: a review",
+     "volume": "9",
+     "author": "Korte",
+     "year": "2013",
+     "journal-title": "Plant Methods"
+    },
+    {
+     "key": "2024111706293529600_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "e1002195",
+     "DOI": "10.1371/journal.pbio.1002195",
+     "article-title": "Big data: astronomical or genomical?",
+     "volume": "13",
+     "author": "Stephens",
+     "year": "2015",
+     "journal-title": "PLOS Biol"
+    },
+    {
+     "key": "2024111706293529600_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "giz054",
+     "DOI": "10.1093/gigascience/giz054",
+     "article-title": "Software engineering for scientific big data analysis",
+     "volume": "8",
+     "author": "Gr\u00fcning",
+     "year": "2019",
+     "journal-title": "Gigascience"
+    },
+    {
+     "key": "2024111706293529600_bib6",
+     "article-title": "JBrowse 2: a modular genome browser with views of synteny and structural variation",
+     "author": "Diesh",
+     "year": "2022",
+     "journal-title": "Biorxiv"
+    },
+    {
+     "issue": "1",
+     "key": "2024111706293529600_bib7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1093/bioinformatics/btac830",
+     "article-title": "igv.js: an embeddable JavaScript implementation of the Integrative Genomics Viewer (IGV)",
+     "volume": "39",
+     "author": "Robinson",
+     "year": "2023",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2024111706293529600_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "giaa060",
+     "DOI": "10.1093/gigascience/giaa060",
+     "article-title": "SnpHub: an easy-to-set-up web server framework for exploring large-scale genomic variation data in the post-genomic era with applications in wheat",
+     "volume": "9",
+     "author": "Wang",
+     "year": "2020",
+     "journal-title": "Gigascience"
+    },
+    {
+     "key": "2024111706293529600_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1093/database/bay037",
+     "article-title": "SNPversity: a web-based tool for visualizing diversity",
+     "volume": "2018",
+     "author": "Schott",
+     "year": "2018",
+     "journal-title": "Database"
+    },
+    {
+     "key": "2024111706293529600_bib10",
+     "doi-asserted-by": "crossref",
+     "first-page": "3133",
+     "DOI": "10.1093/bioinformatics/btq580",
+     "article-title": "Flapjack\u2013graphical genotype visualization",
+     "volume": "26",
+     "author": "Milne",
+     "year": "2010",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2024111706293529600_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "319",
+     "DOI": "10.1038/s41588-018-0266-x",
+     "article-title": "Genebank genomics highlights the diversity of a global barley collection",
+     "volume": "51",
+     "author": "Milner",
+     "year": "2019",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "key": "2024111706293529600_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "2156",
+     "DOI": "10.1093/bioinformatics/btr330",
+     "article-title": "The variant call format and vcftools",
+     "volume": "27",
+     "author": "Danecek",
+     "year": "2011",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2024111706293529600_bib13",
+     "article-title": "Generic feature format version 3 (GFF3)",
+     "author": "Stein"
+    },
+    {
+     "key": "2024111706293529600_bib14",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.3389/fpls.2020.00701",
+     "article-title": "BRIDGE\u2014a visual analytics web tool for Barley Genebank Genomics",
+     "volume": "11",
+     "author": "K\u00f6nig",
+     "year": "2020",
+     "journal-title": "Front Plant Sci"
+    },
+    {
+     "key": "2024111706293529600_bib15",
+     "article-title": "Variant matrices for a global barley diversity panel. e!DAL\u2014Plant Genomics and Phenomics Research data Repository (PGP)",
+     "author": "Mascher",
+     "year": "2018"
+    },
+    {
+     "issue": "284",
+     "key": "2024111706293529600_bib16",
+     "first-page": "1",
+     "article-title": "TRITEX: chromosome-scale sequence assembly of Triticeae genomes with open-source tools",
+     "volume": "20",
+     "author": "Monat",
+     "year": "2019",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "2024111706293529600_bib17",
+     "article-title": "DivBrowse project website",
+     "author": "K\u00f6nig",
+     "year": "2023"
+    },
+    {
+     "key": "2024111706293529600_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "366",
+     "DOI": "10.1080/08982110903188276",
+     "article-title": "Principles of exploratory data analysis in problem solving: what can we learn from a well-known case?",
+     "volume": "21",
+     "author": "de\u00a0Mast",
+     "year": "2009",
+     "journal-title": "Qual Eng"
+    },
+    {
+     "key": "2024111706293529600_bib19",
+     "doi-asserted-by": "crossref",
+     "first-page": "80",
+     "DOI": "10.4161/fly.19695",
+     "article-title": "A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: sNPs in the genome of Drosophila melanogaster strain w 1118\u202f; iso-2; iso-3",
+     "volume": "6",
+     "author": "Cingolani",
+     "year": "2012",
+     "journal-title": "Fly (Austin)"
+    },
+    {
+     "key": "2024111706293529600_bib20",
+     "article-title": "Zarr-Python",
+     "volume-title": "Zenodo",
+     "author": "Miles",
+     "year": "2022"
+    },
+    {
+     "key": "2024111706293529600_bib21",
+     "doi-asserted-by": "crossref",
+     "first-page": "1496",
+     "DOI": "10.1038/s41592-021-01326-w",
+     "article-title": "OME-NGFF: a next-generation file format for expanding bioimaging data-access strategies",
+     "volume": "18",
+     "author": "Moore",
+     "year": "2021",
+     "journal-title": "Nat Methods"
+    },
+    {
+     "key": "2024111706293529600_bib22",
+     "volume-title": "cggh/scikit-allel: v1.3.3",
+     "author": "Miles",
+     "year": "2021"
+    },
+    {
+     "key": "2024111706293529600_bib23",
+     "doi-asserted-by": "crossref",
+     "first-page": "718",
+     "DOI": "10.1093/bioinformatics/btq671",
+     "article-title": "Tabix: fast retrieval of sequence features from generic TAB-delimited files",
+     "volume": "27",
+     "author": "Li",
+     "year": "2011",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2024111706293529600_bib24",
+     "article-title": "d\u00f6t Net I: YAMLTM Specification index",
+     "author": "Ben-Kiki",
+     "year": "2009"
+    },
+    {
+     "key": "2024111706293529600_bib25",
+     "doi-asserted-by": "crossref",
+     "first-page": "403",
+     "DOI": "10.1016/S0022-2836(05)80360-2",
+     "article-title": "Basic local alignment search tool",
+     "volume": "215",
+     "author": "Altschul",
+     "year": "1990",
+     "journal-title": "J Mol Biol"
+    },
+    {
+     "key": "2024111706293529600_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "1685",
+     "DOI": "10.1093/bioinformatics/btt199",
+     "article-title": "BioBlend: automating pipeline analyses within Galaxy and CloudMan",
+     "volume": "29",
+     "author": "Sloggett",
+     "year": "2013",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2024111706293529600_bib27",
+     "doi-asserted-by": "crossref",
+     "first-page": "39",
+     "DOI": "10.1186/s13742-015-0080-7",
+     "article-title": "NCBI BLAST+ integrated into Galaxy",
+     "volume": "4",
+     "author": "Cock",
+     "year": "2015",
+     "journal-title": "Gigascience"
+    },
+    {
+     "key": "2024111706293529600_bib28",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.7312/nei-92038",
+     "volume-title": "Molecular Evolutionary Genetics",
+     "author": "Nei",
+     "year": "1987"
+    },
+    {
+     "key": "2024111706293529600_bib29",
+     "doi-asserted-by": "crossref",
+     "first-page": "3045",
+     "DOI": "10.1093/bioinformatics/btp536",
+     "article-title": "QuickGO: a web-based tool for gene ontology searching",
+     "volume": "25",
+     "author": "Binns",
+     "year": "2009",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2024111706293529600_bib30",
+     "article-title": "Svelte",
+     "volume-title": "GitHub",
+     "author": "Harris",
+     "year": "2022"
+    },
+    {
+     "key": "2024111706293529600_bib31",
+     "article-title": "Python Software Foundation: python Package Index\u2014PyPI",
+     "year": "2023"
+    },
+    {
+     "key": "2024111706293529600_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "1076",
+     "DOI": "10.1038/s41588-019-0443-6",
+     "article-title": "Genebank genomics bridges the gap between the conservation of crop diversity and plant breeding",
+     "volume": "51",
+     "author": "Mascher",
+     "year": "2019",
+     "journal-title": "Nat Genet"
+    },
+    {
+     "issue": "160018",
+     "key": "2024111706293529600_bib33",
+     "first-page": "1",
+     "article-title": "The FAIR Guiding Principles for scientific data management and stewardship",
+     "volume": "3",
+     "author": "Wilkinson",
+     "year": "2016",
+     "journal-title": "Sci Data"
+    },
+    {
+     "key": "2024111706293529600_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "231",
+     "DOI": "10.12688/f1000research.109080.2",
+     "article-title": "Recommendations for the formatting of Variant Call Format (VCF) files to make plant genotyping data FAIR",
+     "volume": "11",
+     "author": "Beier",
+     "year": "2022",
+     "journal-title": "F1000Res"
+    },
+    {
+     "key": "2024111706293529600_bib35",
+     "doi-asserted-by": "crossref",
+     "first-page": "D1500",
+     "DOI": "10.1093/nar/gkab1046",
+     "article-title": "BioSamples database: fAIRer samples metadata to accelerate research data management",
+     "volume": "50",
+     "author": "Courtot",
+     "year": "2022",
+     "journal-title": "Nucleic Acids Res"
+    },
+    {
+     "key": "2024111706293529600_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1371/journal.pone.0132180",
+     "article-title": "The Use of Non-Variant Sites to Improve the Clinical Assessment of Whole-Genome Sequence Data",
+     "volume": "10",
+     "author": "Ferrarini",
+     "year": "2015",
+     "journal-title": "PLoS One"
+    },
+    {
+     "issue": "24",
+     "key": "2024111706293529600_bib37",
+     "first-page": "1",
+     "article-title": "Application programming interfaces for knowledge transfer and generation in the life sciences and healthcare",
+     "volume": "3",
+     "author": "Woody",
+     "year": "2020",
+     "journal-title": "npj Digit Med"
+    },
+    {
+     "issue": "20",
+     "key": "2024111706293529600_bib38",
+     "doi-asserted-by": "crossref",
+     "first-page": "4147",
+     "DOI": "10.1093/bioinformatics/btz190",
+     "article-title": "BrAPI\u2014an application programming interface for plant breeding applications",
+     "volume": "35",
+     "author": "Selby",
+     "year": "2019",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2024111706293529600_bib39",
+     "article-title": "Improved structural variant support by d-cameron \u00b7 pull request #465 \u00b7 samtools/hts-specs",
+     "author": "Cameron",
+     "year": "2019"
+    },
+    {
+     "issue": "661",
+     "key": "2024111706293529600_bib40",
+     "first-page": "1",
+     "article-title": "Shifting the limits in wheat research and breeding using a fully annotated reference genome",
+     "volume": "361",
+     "author": "The International Wheat Genome Sequencing Consortium (IWGSC)",
+     "year": "2018",
+     "journal-title": "Science"
+    },
+    {
+     "key": "2024111706293529600_bib41",
+     "doi-asserted-by": "crossref",
+     "first-page": "R86",
+     "DOI": "10.1186/gb-2010-11-8-r86",
+     "article-title": "Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences",
+     "volume": "11",
+     "author": "Goecks",
+     "year": "2010",
+     "journal-title": "Genome Biol"
+    },
+    {
+     "key": "2024111706293529600_bib42",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1371/journal.pcbi.1004947",
+     "article-title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
+     "volume": "12",
+     "author": "Perez-Riverol",
+     "year": "2016",
+     "journal-title": "PLoS Comput Biol"
+    },
+    {
+     "key": "2024111706293529600_bib43",
+     "doi-asserted-by": "crossref",
+     "first-page": "742",
+     "DOI": "10.12688/f1000research.15140.2",
+     "article-title": "Recommendations for the packaging and containerizing of bioinformatics software",
+     "volume": "7",
+     "author": "Gruening",
+     "year": "2019",
+     "journal-title": "F1000Res"
+    },
+    {
+     "key": "2024111706293529600_bib44",
+     "doi-asserted-by": "crossref",
+     "first-page": "giz051",
+     "DOI": "10.1093/gigascience/giz051",
+     "article-title": "Gigwa v2\u2014Extended and improved genotype investigator",
+     "volume": "8",
+     "author": "Semp\u00e9r\u00e9",
+     "year": "2019",
+     "journal-title": "Gigascience"
+    },
+    {
+     "key": "2024111706293529600_bib45",
+     "doi-asserted-by": "crossref",
+     "first-page": "1538",
+     "DOI": "10.1002/csc2.20248",
+     "article-title": "From bits to bites: advancement of the Germinate platform to support prebreeding informatics for crop wild relatives",
+     "volume": "61",
+     "author": "Raubach",
+     "year": "2021",
+     "journal-title": "Crop Sci"
+    },
+    {
+     "key": "2024111706293529600_bib46",
+     "doi-asserted-by": "crossref",
+     "first-page": "D988",
+     "DOI": "10.1093/nar/gkab1049",
+     "article-title": "Ensembl 2022",
+     "volume": "50",
+     "author": "Cunningham",
+     "year": "2022",
+     "journal-title": "Nucleic Acids Res"
+    },
+    {
+     "key": "2024111706293529600_bib47",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1093/database/baac034",
+     "article-title": "GrainGenes: a data-rich repository for small grains genetics and genomics",
+     "volume": "2022",
+     "author": "Yao",
+     "year": "2022",
+     "journal-title": "Database"
+    },
+    {
+     "key": "2024111706293529600_bib48",
+     "doi-asserted-by": "crossref",
+     "first-page": "227",
+     "DOI": "10.1146/annurev-biochem-060815-014607",
+     "article-title": "CRISPR/Cas9 in genome editing and beyond",
+     "volume": "85",
+     "author": "Wang",
+     "year": "2016",
+     "journal-title": "Annu Rev Biochem"
+    },
+    {
+     "key": "2024111706293529600_bib49",
+     "doi-asserted-by": "crossref",
+     "first-page": "505",
+     "DOI": "10.1146/annurev-biophys-062215-010822",
+     "article-title": "CRISPR\u2013Cas9 structures and mechanisms",
+     "volume": "46",
+     "author": "Jiang",
+     "year": "2017",
+     "journal-title": "Annu Rev Biophys"
+    },
+    {
+     "key": "2024111706293529600_bib50",
+     "doi-asserted-by": "crossref",
+     "unstructured": "K\u00f6nig P, Beier S, Mascher M, et al. \u00a0Supporting data for \u201cDivBrowse\u2014Interactive Visualization and Exploratory Data Analysis of Variant Call Matrices.\u201d \u00a0GigaScience Database. 2023. 10.5524/102358.",
+     "DOI": "10.1101/2022.09.22.509016"
+    },
+    {
+     "key": "2024111706293529600_bib51"
+    },
+    {
+     "key": "2024111706293529600_bib52"
+    }
+   ],
+   "container-title": [
+    "GigaScience"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giad025/60704556/giad025.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giad025/60704556/giad025.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      11,
+      17
+     ]
+    ],
+    "date-time": "2024-11-17T01:30:08Z",
+    "timestamp": 1731807008000
+   },
+   "score": 69.85884,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad025/7135628"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      28
+     ]
+    ]
+   },
+   "references-count": 52,
+   "URL": "https://doi.org/10.1093/gigascience/giad025",
+   "relation": {
+    "has-preprint": [
+     {
+      "id-type": "doi",
+      "id": "10.1101/2022.09.22.509016",
+      "asserted-by": "object"
+     }
+    ]
+   },
+   "ISSN": [
+    "2047-217X"
+   ],
+   "issn-type": [
+    {
+     "value": "2047-217X",
+     "type": "electronic"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2023
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      28
+     ]
+    ]
+   },
+   "article-number": "giad025"
+  },
+  {
+   "institution": [
+    {
+     "name": "bioRxiv"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T19:00:53Z",
+    "timestamp": 1768503653620,
+    "version": "3.49.0"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2022,
+      9,
+      23
+     ]
+    ]
+   },
+   "group-title": "Bioinformatics",
+   "reference-count": 50,
+   "publisher": "openRxiv",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      27
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>The sequencing of whole genomes is becoming increasingly affordable. In this context large-scale sequencing projects are generating ever larger datasets of species-specific genomic diversity. As a consequence, more and more genomic data needs to be made easily accessible and analyzable to the scientific community.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Findings</jats:title>\n                  <jats:p>We present DivBrowse, a web application for interactive visualization and exploratory analysis of genomic diversity data stored in Variant Call Format (VCF) files of any size. By seamlessly combining BLAST as an entry point together with interactive data analysis features such as principal component analysis in one graphical user interface, DivBrowse provides a novel and unique set of exploratory data analysis capabilities for genomic biodiversity datasets. The capability to integrate DivBrowse into existing web applications supports interoperability between different web applications. Built-in interactive computation of principal component analysis allows users to perform ad-hoc analysis of the population structure based on specific genetic elements such as genes and exons. Data interoperability is supported by the ability to export genomic diversity data in VCF and General Feature Format (GFF3) files.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>DivBrowse offers a novel approach for interactive visualization and analysis of genomic diversity data and optionally also gene annotation data by including features like interactive calculation of variant frequencies and principal component analysis. The use of established standard file formats for data input supports interoperability and seamless deployment of application instances based on the data output of established bioinformatics pipelines.</jats:p>\n                </jats:sec>",
+   "DOI": "10.1101/2022.09.22.509016",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2022,
+      9,
+      23
+     ]
+    ],
+    "date-time": "2022-09-23T17:45:23Z",
+    "timestamp": 1663955123000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 2,
+   "title": [
+    "DivBrowse \u2013 interactive visualization and exploratory data analysis of variant call matrices"
+   ],
+   "prefix": "10.64898",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-8948-6793",
+     "authenticated-orcid": false,
+     "given": "Patrick",
+     "family": "K\u00f6nig",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-2177-8781",
+     "authenticated-orcid": false,
+     "given": "Sebastian",
+     "family": "Beier",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6373-6013",
+     "authenticated-orcid": false,
+     "given": "Martin",
+     "family": "Mascher",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3011-8731",
+     "authenticated-orcid": false,
+     "given": "Nils",
+     "family": "Stein",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-4316-078X",
+     "authenticated-orcid": false,
+     "given": "Matthias",
+     "family": "Lange",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6113-3518",
+     "authenticated-orcid": false,
+     "given": "Uwe",
+     "family": "Scholz",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "54368",
+   "reference": [
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/jpm5040470"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10198-021-01293-1"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1746-4811-9-29"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pbio.1002195"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/gigascience/giz054"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.6",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Diesh C , Stevens GJ , Xie P , Martinez TD , Hershberg EA , Leung A , Guo E , Dider S , Zhang J , Bridge C , Hogue G. JBrowse 2: A modular genome browser with views of synteny and structural variation. BioRxiv 2022. https://doi.org/10.1101/2022.07.28.501447.",
+     "DOI": "10.1101/2022.07.28.501447"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btac830"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/gigascience/giaa060"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/database/bay037"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btq580"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41588-018-0266-x"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btr330"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.13",
+     "unstructured": "Stein L : Generic Feature Format Version 3 (GFF3). https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md (2020). Accessed 2022 May 18."
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2020.00701"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.15",
+     "unstructured": "Mascher M. Variant matrices for a global barley diversity panel. e!DAL - Plant Genomics and Phenomics Research Data Repository (PGP). 2018. http://dx.doi.org/10.5447/IPK/2018/9."
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13059-019-1899-5"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.17",
+     "unstructured": "K\u00f6nig P : DivBrowse project website. https://divbrowse.ipk-gatersleben.de/ (2023). Accessed 2023 Feb 2."
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/08982110903188276"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.19",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.4161/fly.19695"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.5281/ZENODO.6419641"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41592-021-01326-w"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.5281/ZENODO.4759368"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btq671"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.24",
+     "unstructured": "Ben-Kiki O , Evans C , d\u00f6t Net I : YAML\u2122 Specification Index. https://yaml.org/spec/ (2009). Accessed 2022 Jul 1."
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0022-2836(05)80360-2"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.26",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btt199"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13742-015-0080-7"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.28",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Nei M. Molecular Evolutionary Genetics. Columbia University Press; 1987.",
+     "DOI": "10.7312/nei-92038"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btp536"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.30",
+     "unstructured": "Harris R : Svelte. Github. https://github.com/sveltejs/svelte (2022). Accessed 2022 May 18."
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.31",
+     "unstructured": "Python Software Foundation: Python Package Index - PyPI. https://pypi.org/ (2023). Accessed 2023 Mar 15."
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.32",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41588-019-0443-6"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.33",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/sdata.2016.18"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.34",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.12688/f1000research.109080.2"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.35",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/gkab1046"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0132180"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41746-020-0235-5"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.38",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btz190"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.39",
+     "unstructured": "Cameron D : Improved Structural Variant Support by d-cameron \u00b7 Pull Request #465 \u00b7 samtools/hts-specs. https://github.com/samtools/hts-specs/pull/465 (2019). Accessed 2022 Jul 8."
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.40",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.aar7191"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.41",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/gb-2010-11-8-r86"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.42",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pcbi.1004947"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.43",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.12688/f1000research.15140.2"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.44",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/gigascience/giz051"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.45",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/csc2.20248"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.46",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/gkab1049"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.47",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/database/baac034"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.48",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev-biochem-060815-014607"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.49",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev-biophys-062215-010822"
+    },
+    {
+     "key": "2023032914102180000_2022.09.22.509016v2.50",
+     "doi-asserted-by": "crossref",
+     "unstructured": "K\u00f6nig P ; Beier S ; Mascher M ; Stein N ; Lange M ; Scholz U. Supporting data for \u201cDivBrowse \u2013 interactive visualization and exploratory data analysis of variant call matrices\u201d GigaScience Database 2023. http://dx.doi.org/10.5524/102358",
+     "DOI": "10.1101/2022.09.22.509016"
+    }
+   ],
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.09.22.509016",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T03:39:06Z",
+    "timestamp": 1768448346000
+   },
+   "score": 73.668434,
+   "resource": {
+    "primary": {
+     "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.09.22.509016"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      9,
+      23
+     ]
+    ]
+   },
+   "references-count": 50,
+   "URL": "https://doi.org/10.1101/2022.09.22.509016",
+   "relation": {
+    "is-preprint-of": [
+     {
+      "id-type": "doi",
+      "id": "10.1093/gigascience/giad025",
+      "asserted-by": "subject"
+     }
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2022,
+      9,
+      23
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  }
+ ]
+}

@@ -1,0 +1,2481 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T02:27:46Z",
+   "timestamp": 1790735266628,
+   "version": "4.1.0"
+  },
+  "reference-count": 96,
+  "publisher": "Informa UK Limited",
+  "issue": "4",
+  "content-domain": {
+   "domain": [
+    "www.tandfonline.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Critical Reviews in Food Science and Nutrition"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2022,
+     2,
+     1
+    ]
+   ]
+  },
+  "DOI": "10.1080/10408398.2020.1835817",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2020,
+     10,
+     23
+    ]
+   ],
+   "date-time": "2020-10-23T08:28:11Z",
+   "timestamp": 1603441691000
+  },
+  "page": "1092-1104",
+  "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+  "source": "Crossref",
+  "is-referenced-by-count": 110,
+  "title": [
+   "Nutritional value of barley cereal and better opportunities for its processing as a value-added food: a comprehensive review"
+  ],
+  "prefix": "10.1080",
+  "volume": "62",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-5139-1863",
+    "authenticated-orcid": false,
+    "given": "Mohamed A.",
+    "family": "Farag",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Pharmacognosy Department, College of Pharmacy, Cairo University, Cairo, Egypt"
+     },
+     {
+      "name": "Chemistry Department, School of Sciences & Engineering, The American University in Cairo, Cairo, Egypt"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3311-770X",
+    "authenticated-orcid": false,
+    "given": "Jianbo",
+    "family": "Xiao",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "International Research Center for Food Nutrition and Safety, Jiangsu University, Zhenjiang, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0234-7492",
+    "authenticated-orcid": false,
+    "given": "Hosssam M.",
+    "family": "Abdallah",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Pharmacognosy Department, College of Pharmacy, Cairo University, Cairo, Egypt"
+     },
+     {
+      "name": "Department of Natural Products and Alternative Medicine, Faculty of Pharmacy, King Abdulaziz University, Jeddah, Saudi Arabia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "301",
+  "published-online": {
+   "date-parts": [
+    [
+     2020,
+     10,
+     23
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "CIT0001",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s42729-019-00090-3"
+   },
+   {
+    "issue": "1",
+    "key": "CIT208216",
+    "first-page": "23",
+    "volume": "51",
+    "author": "Ames N.",
+    "year": "2006",
+    "journal-title": "Cereal Foods World"
+   },
+   {
+    "key": "CIT0002",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1533/9781845693886.2.261"
+   },
+   {
+    "key": "CIT0003",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/star.201300106"
+   },
+   {
+    "key": "CIT0004",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/10942912.2018.1528454"
+   },
+   {
+    "key": "CIT0005",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/fsn3.1026"
+   },
+   {
+    "key": "CIT0006",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcs.2008.02.002"
+   },
+   {
+    "key": "CIT0007",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s12550-012-0123-1"
+   },
+   {
+    "key": "CIT0008",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1574-6941.2011.01074.x"
+   },
+   {
+    "key": "CIT0009",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1094/CCHEM-04-16-0099-R"
+   },
+   {
+    "key": "CIT0010",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3945/jn.110.122226"
+   },
+   {
+    "key": "CIT0011",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11104-007-9466-3"
+   },
+   {
+    "key": "CIT0012",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodchem.2014.03.074"
+   },
+   {
+    "key": "CIT0013",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.11648/j.ijfsb.20190402.11"
+   },
+   {
+    "key": "CIT0014",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/star.201900206"
+   },
+   {
+    "key": "CIT0015",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1201/9780203904220"
+   },
+   {
+    "key": "CIT0016",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pone.0018829"
+   },
+   {
+    "key": "CIT0017",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcs.2017.03.030"
+   },
+   {
+    "key": "CIT0018",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodres.2017.09.088"
+   },
+   {
+    "key": "CIT0019",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/cche.10189"
+   },
+   {
+    "key": "CIT0020",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1515/ntrev-2015-0060"
+   },
+   {
+    "key": "CIT0021",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodchem.2015.04.028"
+   },
+   {
+    "key": "CIT0022",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1079/BJN2003976"
+   },
+   {
+    "key": "CIT0023",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jn/132.12.3704"
+   },
+   {
+    "key": "CIT0024",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.bcdf.2014.09.003"
+   },
+   {
+    "key": "CIT0025",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1094/CC-83-0424"
+   },
+   {
+    "key": "CIT0026",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodres.2010.02.004"
+   },
+   {
+    "key": "CIT0027",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/star.201000099"
+   },
+   {
+    "key": "CIT0028",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jnutbio.2007.02.009"
+   },
+   {
+    "key": "CIT0029",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2337/db08-1637"
+   },
+   {
+    "key": "CIT0030",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13007-018-0329-0"
+   },
+   {
+    "key": "CIT0031",
+    "volume-title": "Potato productivity, nutrient uptake and use efficiency as influenced by organic and inorganic amendments in Arbegona district, Southern Ethiopia",
+    "author": "Girma T.",
+    "year": "2017"
+   },
+   {
+    "key": "CIT0032",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodchem.2009.10.020"
+   },
+   {
+    "key": "CIT0033",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ijbiomac.2020.01.245"
+   },
+   {
+    "key": "CIT0034",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/fermentation6010021"
+   },
+   {
+    "key": "CIT0035",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcs.2018.03.008"
+   },
+   {
+    "key": "CIT0036",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1533/9781845693886"
+   },
+   {
+    "key": "CIT0037",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jxb/erw503"
+   },
+   {
+    "key": "CIT0038",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.6026/97320630016314"
+   },
+   {
+    "key": "CIT0039",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/S0007114510000553"
+   },
+   {
+    "key": "CIT0040",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3382/japr.2012-00557"
+   },
+   {
+    "issue": "5",
+    "key": "CIT0041",
+    "first-page": "1980",
+    "volume": "24",
+    "author": "Jing L.",
+    "year": "2017",
+    "journal-title": "International Food Research Journal"
+   },
+   {
+    "key": "CIT0042",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1201/9781420043853-c14"
+   },
+   {
+    "key": "CIT0043",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3136/fstr.7.297"
+   },
+   {
+    "key": "CIT0044",
+    "first-page": "1",
+    "volume": "22",
+    "author": "Kumar P.",
+    "year": "2011",
+    "journal-title": "Life Sciences and Medicine Research"
+   },
+   {
+    "key": "CIT0045",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1556/CRC.35.2007.2.136"
+   },
+   {
+    "key": "CIT0046",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodchem.2019.05.045"
+   },
+   {
+    "key": "CIT0047",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcs.2007.05.003"
+   },
+   {
+    "key": "CIT0048",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.lwt.2019.05.086"
+   },
+   {
+    "key": "CIT0049",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/03601230601125644"
+   },
+   {
+    "key": "CIT0050",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1021/jf304651b"
+   },
+   {
+    "key": "CIT0051",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcs.2016.11.004"
+   },
+   {
+    "key": "CIT0052",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.7904/2068-4738-VIII(16)-39"
+   },
+   {
+    "key": "CIT0053",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1081/PLN-120016500"
+   },
+   {
+    "key": "CIT0054",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1021/acs.jafc.8b02240"
+   },
+   {
+    "key": "CIT0055",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3945/an.115.009753"
+   },
+   {
+    "key": "CIT0056",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodchem.2007.07.043"
+   },
+   {
+    "issue": "1",
+    "key": "CIT0057",
+    "first-page": "42",
+    "volume": "71",
+    "author": "Peterson D. M.",
+    "year": "1994",
+    "journal-title": "Cereal Chemistry"
+   },
+   {
+    "key": "CIT0058",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.22616/foodbalt.2017.039"
+   },
+   {
+    "key": "CIT0059",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.109.2.347"
+   },
+   {
+    "key": "CIT0060",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1094/CFW-51-0008"
+   },
+   {
+    "key": "CIT0061",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ijbiomac.2019.12.088"
+   },
+   {
+    "key": "CIT0062",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1021/jf060974w"
+   },
+   {
+    "key": "CIT0063",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1094/CC-83-0385"
+   },
+   {
+    "key": "CIT0064",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.18832/kp2019.65.134"
+   },
+   {
+    "key": "CIT0065",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1021/bk-1997-0662.ch017"
+   },
+   {
+    "key": "CIT0066",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodhyd.2016.12.033"
+   },
+   {
+    "key": "CIT0067",
+    "unstructured": "Sampson, G. O. 2013. Beta-glucan content in tropical maize genotypes: Extractability, structural analysis, rheology and function. PhD diss., Kwame Nkrumah University of Science and Technology."
+   },
+   {
+    "key": "CIT0068",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodchem.2018.11.057"
+   },
+   {
+    "key": "CIT0069",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jn/118.4.469"
+   },
+   {
+    "key": "CIT0070",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/mnfr.200900099"
+   },
+   {
+    "key": "CIT0071",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1039/c9fo03009c"
+   },
+   {
+    "key": "CIT0072",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1039/c9fo01429b"
+   },
+   {
+    "key": "CIT0073",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.11648/j.jfns.20190706.12"
+   },
+   {
+    "key": "CIT0074",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/87559129.2016.1175009"
+   },
+   {
+    "key": "CIT0075",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/ijfs.13266"
+   },
+   {
+    "key": "CIT0076",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3109/09637486.2012.687366"
+   },
+   {
+    "key": "CIT0077",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.tifs.2012.10.005"
+   },
+   {
+    "key": "CIT0078",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.carbpol.2012.09.040"
+   },
+   {
+    "issue": "15",
+    "key": "CIT0079",
+    "first-page": "147",
+    "volume": "35",
+    "author": "Tan Y.-W. W.",
+    "year": "2014",
+    "journal-title": "Shipin Gongye Keji"
+   },
+   {
+    "key": "CIT0080",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/mnfr.201701023"
+   },
+   {
+    "key": "CIT0081",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/jsfa.3346"
+   },
+   {
+    "key": "CIT0082",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ecoenv.2019.109751"
+   },
+   {
+    "key": "CIT0083",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/ejcn.2013.25"
+   },
+   {
+    "key": "CIT0084",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/ijfs.14526"
+   },
+   {
+    "key": "CIT0085",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cervis.2011.09.001"
+   },
+   {
+    "key": "CIT0086",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/S0308-8146(01)00318-1"
+   },
+   {
+    "key": "CIT0087",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1439-0396.2007.00703.x"
+   },
+   {
+    "key": "CIT0088",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.nut.2015.08.006"
+   },
+   {
+    "key": "CIT0089",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1094/CCHEM-06-10-0097"
+   },
+   {
+    "key": "CIT0090",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-981-13-6167-8"
+   },
+   {
+    "key": "CIT0091",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.foodchem.2019.125979"
+   },
+   {
+    "key": "CIT0092",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/mnfr.201500187"
+   },
+   {
+    "key": "CIT0093",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-01279-2_1"
+   },
+   {
+    "key": "CIT0094",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/1541-4337.12265"
+   },
+   {
+    "key": "CIT0095",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.carbpol.2016.10.045"
+   }
+  ],
+  "container-title": [
+   "Critical Reviews in Food Science and Nutrition"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.tandfonline.com/doi/pdf/10.1080/10408398.2020.1835817",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     8,
+     18
+    ]
+   ],
+   "date-time": "2022-08-18T13:58:21Z",
+   "timestamp": 1660831101000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/10408398.2020.1835817"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     10,
+     23
+    ]
+   ]
+  },
+  "references-count": 96,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2022,
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1080/10408398.2020.1835817"
+  ],
+  "URL": "https://doi.org/10.1080/10408398.2020.1835817",
+  "relation": {},
+  "ISSN": [
+   "1040-8398",
+   "1549-7852"
+  ],
+  "issn-type": [
+   {
+    "value": "1040-8398",
+    "type": "print"
+   },
+   {
+    "value": "1549-7852",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2020,
+     10,
+     23
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+    "order": 1,
+    "name": "peerreview_statement",
+    "label": "Peer Review Statement"
+   },
+   {
+    "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=bfsn20",
+    "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=bfsn20",
+    "order": 2,
+    "name": "aims_and_scope_url",
+    "label": "Aim & Scope"
+   },
+   {
+    "value": "2020-10-23",
+    "order": 3,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2026-09-30T02:27:46Z",
+    "timestamp": 1790735266628,
+    "version": "4.1.0"
+   },
+   "reference-count": 96,
+   "publisher": "Informa UK Limited",
+   "issue": "4",
+   "content-domain": {
+    "domain": [
+     "www.tandfonline.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Critical Reviews in Food Science and Nutrition"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2022,
+      2,
+      1
+     ]
+    ]
+   },
+   "DOI": "10.1080/10408398.2020.1835817",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      10,
+      23
+     ]
+    ],
+    "date-time": "2020-10-23T08:28:11Z",
+    "timestamp": 1603441691000
+   },
+   "page": "1092-1104",
+   "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+   "source": "Crossref",
+   "is-referenced-by-count": 110,
+   "title": [
+    "Nutritional value of barley cereal and better opportunities for its processing as a value-added food: a comprehensive review"
+   ],
+   "prefix": "10.1080",
+   "volume": "62",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-5139-1863",
+     "authenticated-orcid": false,
+     "given": "Mohamed A.",
+     "family": "Farag",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Pharmacognosy Department, College of Pharmacy, Cairo University, Cairo, Egypt"
+      },
+      {
+       "name": "Chemistry Department, School of Sciences & Engineering, The American University in Cairo, Cairo, Egypt"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3311-770X",
+     "authenticated-orcid": false,
+     "given": "Jianbo",
+     "family": "Xiao",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "International Research Center for Food Nutrition and Safety, Jiangsu University, Zhenjiang, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-0234-7492",
+     "authenticated-orcid": false,
+     "given": "Hosssam M.",
+     "family": "Abdallah",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Pharmacognosy Department, College of Pharmacy, Cairo University, Cairo, Egypt"
+      },
+      {
+       "name": "Department of Natural Products and Alternative Medicine, Faculty of Pharmacy, King Abdulaziz University, Jeddah, Saudi Arabia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "301",
+   "published-online": {
+    "date-parts": [
+     [
+      2020,
+      10,
+      23
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "CIT0001",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s42729-019-00090-3"
+    },
+    {
+     "issue": "1",
+     "key": "CIT208216",
+     "first-page": "23",
+     "volume": "51",
+     "author": "Ames N.",
+     "year": "2006",
+     "journal-title": "Cereal Foods World"
+    },
+    {
+     "key": "CIT0002",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1533/9781845693886.2.261"
+    },
+    {
+     "key": "CIT0003",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/star.201300106"
+    },
+    {
+     "key": "CIT0004",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/10942912.2018.1528454"
+    },
+    {
+     "key": "CIT0005",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/fsn3.1026"
+    },
+    {
+     "key": "CIT0006",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2008.02.002"
+    },
+    {
+     "key": "CIT0007",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s12550-012-0123-1"
+    },
+    {
+     "key": "CIT0008",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1574-6941.2011.01074.x"
+    },
+    {
+     "key": "CIT0009",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CCHEM-04-16-0099-R"
+    },
+    {
+     "key": "CIT0010",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3945/jn.110.122226"
+    },
+    {
+     "key": "CIT0011",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s11104-007-9466-3"
+    },
+    {
+     "key": "CIT0012",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2014.03.074"
+    },
+    {
+     "key": "CIT0013",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.11648/j.ijfsb.20190402.11"
+    },
+    {
+     "key": "CIT0014",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/star.201900206"
+    },
+    {
+     "key": "CIT0015",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1201/9780203904220"
+    },
+    {
+     "key": "CIT0016",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0018829"
+    },
+    {
+     "key": "CIT0017",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2017.03.030"
+    },
+    {
+     "key": "CIT0018",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodres.2017.09.088"
+    },
+    {
+     "key": "CIT0019",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/cche.10189"
+    },
+    {
+     "key": "CIT0020",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1515/ntrev-2015-0060"
+    },
+    {
+     "key": "CIT0021",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2015.04.028"
+    },
+    {
+     "key": "CIT0022",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1079/BJN2003976"
+    },
+    {
+     "key": "CIT0023",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jn/132.12.3704"
+    },
+    {
+     "key": "CIT0024",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bcdf.2014.09.003"
+    },
+    {
+     "key": "CIT0025",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CC-83-0424"
+    },
+    {
+     "key": "CIT0026",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodres.2010.02.004"
+    },
+    {
+     "key": "CIT0027",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/star.201000099"
+    },
+    {
+     "key": "CIT0028",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jnutbio.2007.02.009"
+    },
+    {
+     "key": "CIT0029",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2337/db08-1637"
+    },
+    {
+     "key": "CIT0030",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13007-018-0329-0"
+    },
+    {
+     "key": "CIT0031",
+     "volume-title": "Potato productivity, nutrient uptake and use efficiency as influenced by organic and inorganic amendments in Arbegona district, Southern Ethiopia",
+     "author": "Girma T.",
+     "year": "2017"
+    },
+    {
+     "key": "CIT0032",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2009.10.020"
+    },
+    {
+     "key": "CIT0033",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijbiomac.2020.01.245"
+    },
+    {
+     "key": "CIT0034",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/fermentation6010021"
+    },
+    {
+     "key": "CIT0035",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2018.03.008"
+    },
+    {
+     "key": "CIT0036",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1533/9781845693886"
+    },
+    {
+     "key": "CIT0037",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erw503"
+    },
+    {
+     "key": "CIT0038",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.6026/97320630016314"
+    },
+    {
+     "key": "CIT0039",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0007114510000553"
+    },
+    {
+     "key": "CIT0040",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3382/japr.2012-00557"
+    },
+    {
+     "issue": "5",
+     "key": "CIT0041",
+     "first-page": "1980",
+     "volume": "24",
+     "author": "Jing L.",
+     "year": "2017",
+     "journal-title": "International Food Research Journal"
+    },
+    {
+     "key": "CIT0042",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1201/9781420043853-c14"
+    },
+    {
+     "key": "CIT0043",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3136/fstr.7.297"
+    },
+    {
+     "key": "CIT0044",
+     "first-page": "1",
+     "volume": "22",
+     "author": "Kumar P.",
+     "year": "2011",
+     "journal-title": "Life Sciences and Medicine Research"
+    },
+    {
+     "key": "CIT0045",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1556/CRC.35.2007.2.136"
+    },
+    {
+     "key": "CIT0046",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2019.05.045"
+    },
+    {
+     "key": "CIT0047",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2007.05.003"
+    },
+    {
+     "key": "CIT0048",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.lwt.2019.05.086"
+    },
+    {
+     "key": "CIT0049",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/03601230601125644"
+    },
+    {
+     "key": "CIT0050",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf304651b"
+    },
+    {
+     "key": "CIT0051",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2016.11.004"
+    },
+    {
+     "key": "CIT0052",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.7904/2068-4738-VIII(16)-39"
+    },
+    {
+     "key": "CIT0053",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1081/PLN-120016500"
+    },
+    {
+     "key": "CIT0054",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acs.jafc.8b02240"
+    },
+    {
+     "key": "CIT0055",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3945/an.115.009753"
+    },
+    {
+     "key": "CIT0056",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2007.07.043"
+    },
+    {
+     "issue": "1",
+     "key": "CIT0057",
+     "first-page": "42",
+     "volume": "71",
+     "author": "Peterson D. M.",
+     "year": "1994",
+     "journal-title": "Cereal Chemistry"
+    },
+    {
+     "key": "CIT0058",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.22616/foodbalt.2017.039"
+    },
+    {
+     "key": "CIT0059",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.109.2.347"
+    },
+    {
+     "key": "CIT0060",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CFW-51-0008"
+    },
+    {
+     "key": "CIT0061",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijbiomac.2019.12.088"
+    },
+    {
+     "key": "CIT0062",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf060974w"
+    },
+    {
+     "key": "CIT0063",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CC-83-0385"
+    },
+    {
+     "key": "CIT0064",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.18832/kp2019.65.134"
+    },
+    {
+     "key": "CIT0065",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/bk-1997-0662.ch017"
+    },
+    {
+     "key": "CIT0066",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodhyd.2016.12.033"
+    },
+    {
+     "key": "CIT0067",
+     "unstructured": "Sampson, G. O. 2013. Beta-glucan content in tropical maize genotypes: Extractability, structural analysis, rheology and function. PhD diss., Kwame Nkrumah University of Science and Technology."
+    },
+    {
+     "key": "CIT0068",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2018.11.057"
+    },
+    {
+     "key": "CIT0069",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jn/118.4.469"
+    },
+    {
+     "key": "CIT0070",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/mnfr.200900099"
+    },
+    {
+     "key": "CIT0071",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1039/c9fo03009c"
+    },
+    {
+     "key": "CIT0072",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1039/c9fo01429b"
+    },
+    {
+     "key": "CIT0073",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.11648/j.jfns.20190706.12"
+    },
+    {
+     "key": "CIT0074",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/87559129.2016.1175009"
+    },
+    {
+     "key": "CIT0075",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/ijfs.13266"
+    },
+    {
+     "key": "CIT0076",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3109/09637486.2012.687366"
+    },
+    {
+     "key": "CIT0077",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tifs.2012.10.005"
+    },
+    {
+     "key": "CIT0078",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.carbpol.2012.09.040"
+    },
+    {
+     "issue": "15",
+     "key": "CIT0079",
+     "first-page": "147",
+     "volume": "35",
+     "author": "Tan Y.-W. W.",
+     "year": "2014",
+     "journal-title": "Shipin Gongye Keji"
+    },
+    {
+     "key": "CIT0080",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/mnfr.201701023"
+    },
+    {
+     "key": "CIT0081",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.3346"
+    },
+    {
+     "key": "CIT0082",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ecoenv.2019.109751"
+    },
+    {
+     "key": "CIT0083",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/ejcn.2013.25"
+    },
+    {
+     "key": "CIT0084",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/ijfs.14526"
+    },
+    {
+     "key": "CIT0085",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.cervis.2011.09.001"
+    },
+    {
+     "key": "CIT0086",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0308-8146(01)00318-1"
+    },
+    {
+     "key": "CIT0087",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1439-0396.2007.00703.x"
+    },
+    {
+     "key": "CIT0088",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.nut.2015.08.006"
+    },
+    {
+     "key": "CIT0089",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CCHEM-06-10-0097"
+    },
+    {
+     "key": "CIT0090",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-981-13-6167-8"
+    },
+    {
+     "key": "CIT0091",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2019.125979"
+    },
+    {
+     "key": "CIT0092",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/mnfr.201500187"
+    },
+    {
+     "key": "CIT0093",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/978-3-642-01279-2_1"
+    },
+    {
+     "key": "CIT0094",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1541-4337.12265"
+    },
+    {
+     "key": "CIT0095",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.carbpol.2016.10.045"
+    }
+   ],
+   "container-title": [
+    "Critical Reviews in Food Science and Nutrition"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.tandfonline.com/doi/pdf/10.1080/10408398.2020.1835817",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      8,
+      18
+     ]
+    ],
+    "date-time": "2022-08-18T13:58:21Z",
+    "timestamp": 1660831101000
+   },
+   "score": 72.30614,
+   "resource": {
+    "primary": {
+     "URL": "https://www.tandfonline.com/doi/full/10.1080/10408398.2020.1835817"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      10,
+      23
+     ]
+    ]
+   },
+   "references-count": 96,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2022,
+       2,
+       1
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1080/10408398.2020.1835817"
+   ],
+   "URL": "https://doi.org/10.1080/10408398.2020.1835817",
+   "ISSN": [
+    "1040-8398",
+    "1549-7852"
+   ],
+   "issn-type": [
+    {
+     "value": "1040-8398",
+     "type": "print"
+    },
+    {
+     "value": "1549-7852",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2020,
+      10,
+      23
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+     "order": 1,
+     "name": "peerreview_statement",
+     "label": "Peer Review Statement"
+    },
+    {
+     "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=bfsn20",
+     "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=bfsn20",
+     "order": 2,
+     "name": "aims_and_scope_url",
+     "label": "Aim & Scope"
+    },
+    {
+     "value": "2020-10-23",
+     "order": 3,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      5,
+      6
+     ]
+    ],
+    "date-time": "2026-05-06T02:48:57Z",
+    "timestamp": 1778035737814,
+    "version": "3.51.4"
+   },
+   "reference-count": 120,
+   "publisher": "Informa UK Limited",
+   "issue": "7",
+   "content-domain": {
+    "domain": [
+     "www.tandfonline.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Food Reviews International"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      25
+     ]
+    ]
+   },
+   "DOI": "10.1080/87559129.2021.2023817",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      10
+     ]
+    ],
+    "date-time": "2022-01-10T23:18:36Z",
+    "timestamp": 1641856716000
+   },
+   "page": "4288-4311",
+   "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+   "source": "Crossref",
+   "is-referenced-by-count": 16,
+   "title": [
+    "How Does Rye Compare to other Cereals? A Comprehensive Review of its Potential Nutritional Value and Better Opportunities for its Processing as a Food-Based Cereal"
+   ],
+   "prefix": "10.1080",
+   "volume": "39",
+   "author": [
+    {
+     "given": "Amira",
+     "family": "El-Mahis",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Applied Research Center of Medicinal Plants, National Organization of Drug Control and Research, Egypt"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Mostafa H.",
+     "family": "Baky",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Pharmacognosy Department, College of Pharmacy, Egyptian Russian University, Badr City, Egypt"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Mohamed A.",
+     "family": "Farag",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Pharmacognosy Department, College of Pharmacy, Cairo University, Egypt"
+      },
+      {
+       "name": "Chemistry Department, School of Sciences & Engineering, the American University in Cairo, Egypt"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "301",
+   "published-online": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      10
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "cit0001",
+     "volume-title": "In: Bakery Products: Science and Technology",
+     "author": "Liukkonen K. H.",
+     "year": "2007"
+    },
+    {
+     "key": "cit0002",
+     "first-page": "46",
+     "volume-title": "3rd Baltic Conference on Food Science and Technology FOODBALT-2008 Conference Proceedings. Jelgava, LLU, 2008, 171 Pages",
+     "author": "Rakcejeva T.",
+     "year": "2008"
+    },
+    {
+     "key": "cit0003",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1750-3841.2008.01008.x"
+    },
+    {
+     "key": "cit0004",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.17951/c.2017.72.1.37-45"
+    },
+    {
+     "key": "cit0005",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1201/b15553"
+    },
+    {
+     "issue": "2",
+     "key": "cit0006",
+     "first-page": "37",
+     "volume": "10",
+     "author": "Kowieska A.",
+     "year": "2011",
+     "journal-title": "Acta Sci. Pol. Zootechnica"
+    },
+    {
+     "issue": "1",
+     "key": "cit0007",
+     "first-page": "124",
+     "volume": "9",
+     "author": "Kan A",
+     "year": "2015",
+     "journal-title": "Rec. Nat. Prod. (Rec Nat Prod)"
+    },
+    {
+     "key": "cit0008",
+     "volume-title": "Rye; Bakery Products Science and Technology, Second Edition",
+     "author": "Poutanen K.",
+     "year": "2014"
+    },
+    {
+     "key": "cit0009",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf0307191"
+    },
+    {
+     "key": "cit0010",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tifs.2018.06.018"
+    },
+    {
+     "key": "cit0011",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/oxfordjournals.aob.a086005"
+    },
+    {
+     "key": "cit0012",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3402/fnr.v53i0.1912"
+    },
+    {
+     "key": "cit0013",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1533/9780857098924.220"
+    },
+    {
+     "key": "cit0014",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/10408398.2020.1835817"
+    },
+    {
+     "key": "cit0015",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1071/AN13386"
+    },
+    {
+     "key": "cit0016",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.13080/z-a.2016.103.035"
+    },
+    {
+     "key": "cit0017",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B0-12-227055-X/01032-4"
+    },
+    {
+     "issue": "5",
+     "key": "cit0018",
+     "first-page": "2403",
+     "volume": "9",
+     "author": "Ml P.",
+     "year": "2018",
+     "journal-title": "Res. J. Pharm. Biol. Chem. Sci."
+    },
+    {
+     "key": "cit0019",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10886-013-0235-x"
+    },
+    {
+     "key": "cit0020",
+     "first-page": "1",
+     "volume": "5",
+     "author": "J\u00fcrgens H. U.",
+     "year": "2012",
+     "journal-title": "J Agric Sci."
+    },
+    {
+     "key": "cit0021",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/10408398.2011.629352"
+    },
+    {
+     "key": "cit0022",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2134/agronj1997.00021962008900010011x"
+    },
+    {
+     "key": "cit0023",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1155/2016/6463826"
+    },
+    {
+     "key": "cit0024",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0168-1923(00)00125-8"
+    },
+    {
+     "key": "cit0025",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijfoodmicro.2010.03.038"
+    },
+    {
+     "issue": "35",
+     "key": "cit0026",
+     "first-page": "1",
+     "volume": "10",
+     "author": "Klikocka H.;.",
+     "year": "2020",
+     "journal-title": "Agronomy"
+    },
+    {
+     "key": "cit0027",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-12-375083-9.00047-7"
+    },
+    {
+     "key": "cit0028",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-12-384947-2.00661-9"
+    },
+    {
+     "key": "cit0029",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/star.19910430902"
+    },
+    {
+     "key": "cit0030",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1533/9781845693886.2.233"
+    },
+    {
+     "key": "cit0031",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0733-5210(03)00068-7"
+    },
+    {
+     "key": "cit0032",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/jcrs.1998.0214"
+    },
+    {
+     "key": "cit0033",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-08-100719-8.00007-3"
+    },
+    {
+     "key": "cit0034",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.carres.2011.09.024"
+    },
+    {
+     "key": "cit0035",
+     "first-page": "579",
+     "volume-title": "Starch (Third Edition)",
+     "author": "Autio K.",
+     "year": "2009"
+    },
+    {
+     "key": "cit0036",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-012595340-5/50005-5"
+    },
+    {
+     "key": "cit0037",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1533/9781845692278.3.228"
+    },
+    {
+     "key": "cit0038",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.17221/6605-CJFS"
+    },
+    {
+     "key": "cit0039",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2005.04.039"
+    },
+    {
+     "key": "cit0040",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-08-100529-3.00008-6"
+    },
+    {
+     "key": "cit0041",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CCHEM.2003.80.1.102"
+    },
+    {
+     "key": "cit0042",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1533/9780857095695.1.77"
+    },
+    {
+     "key": "cit0043",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1079/PNS2005461"
+    },
+    {
+     "key": "cit0044",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0172819"
+    },
+    {
+     "key": "cit0045",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2016.11.010"
+    },
+    {
+     "key": "cit0046",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-012373739-7.50013-7"
+    },
+    {
+     "key": "cit0047",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodres.2012.03.014"
+    },
+    {
+     "issue": "4",
+     "key": "cit0048",
+     "first-page": "212",
+     "volume": "23",
+     "author": "Afzal S.",
+     "year": "2013",
+     "journal-title": "Pak. J. Food Sci."
+    },
+    {
+     "key": "cit0049",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf801065r"
+    },
+    {
+     "key": "cit0050",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s13197-019-04050-8"
+    },
+    {
+     "key": "cit0051",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-1-891127-81-6.50006-7"
+    },
+    {
+     "key": "cit0052",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1094/CCHEM.2003.80.2.168"
+    },
+    {
+     "key": "cit0053",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-08-102162-0.00002-2"
+    },
+    {
+     "key": "cit0054",
+     "first-page": "2011",
+     "author": "Zs S.",
+     "journal-title": "Chemistry"
+    },
+    {
+     "key": "cit0055",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/1097-0010(200006)80:8<1211::AID-JSFA627>3.0.CO;2-0"
+    },
+    {
+     "key": "cit0056",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2012.09.007"
+    },
+    {
+     "key": "cit0057",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10517-013-2016-5"
+    },
+    {
+     "key": "cit0058",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.11118/actaun201058050377"
+    },
+    {
+     "key": "cit0059",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.855"
+    },
+    {
+     "key": "cit0060",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/ajo.12425"
+    },
+    {
+     "issue": "4",
+     "key": "cit0061",
+     "first-page": "487",
+     "volume": "10",
+     "author": "Winiarska-Mieczan A.",
+     "year": "2011",
+     "journal-title": "Acta Sci. Pol. Technol. Aliment."
+    },
+    {
+     "key": "cit0062",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/molecules24152787"
+    },
+    {
+     "key": "cit0063",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1155/2019/2793973"
+    },
+    {
+     "key": "cit0064",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2017.09.009"
+    },
+    {
+     "key": "cit0065",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2007.06.018"
+    },
+    {
+     "key": "cit0066",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/pca.2408"
+    },
+    {
+     "key": "cit0067",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-1-891127-81-6.50007-9"
+    },
+    {
+     "key": "cit0068",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2007.01.002"
+    },
+    {
+     "key": "cit0069",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2012.03.009"
+    },
+    {
+     "key": "cit0070",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12263-019-0651-9"
+    },
+    {
+     "key": "cit0071",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-12-803620-4.00016-5"
+    },
+    {
+     "key": "cit0072",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2009.01.007"
+    },
+    {
+     "key": "cit0073",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/foods2010053"
+    },
+    {
+     "key": "cit0074",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1533/9781845695484.2.430"
+    },
+    {
+     "issue": "1",
+     "key": "cit0075",
+     "first-page": "54",
+     "volume": "20",
+     "author": "Nadeem M.",
+     "year": "2010",
+     "journal-title": "Pak. J. Food Sci."
+    },
+    {
+     "key": "cit0076",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2006.08.003"
+    },
+    {
+     "key": "cit0077",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-12-815270-6.00014-1"
+    },
+    {
+     "key": "cit0078",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/ajcn/78.1.168"
+    },
+    {
+     "issue": "6",
+     "key": "cit0079",
+     "first-page": "1554",
+     "volume": "6",
+     "author": "Nissar J.",
+     "year": "2017",
+     "journal-title": "J. Pharmacogn. Phytochem."
+    },
+    {
+     "key": "cit0080",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-08-102162-0.00011-3"
+    },
+    {
+     "key": "cit0081",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/10408398.2011.610906"
+    },
+    {
+     "key": "cit0082",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/foods9070925"
+    },
+    {
+     "key": "cit0083",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-7020-3422-0.00017-1"
+    },
+    {
+     "key": "cit0084",
+     "doi-asserted-by": "crossref",
+     "first-page": "1844",
+     "DOI": "10.1016/B0-12-227055-X/00346-1",
+     "volume-title": "Encyclopedia of Food Sciences and Nutrition (Second Edition)",
+     "author": "Zitterman A",
+     "year": "2003"
+    },
+    {
+     "key": "cit0085",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0023-6438(03)00057-4"
+    },
+    {
+     "key": "cit0086",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-1-891127-81-6.50002-X"
+    },
+    {
+     "key": "cit0087",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/19440049.2010.506600"
+    },
+    {
+     "key": "cit0088",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf010376b"
+    },
+    {
+     "key": "cit0089",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.profoo.2011.09.173"
+    },
+    {
+     "key": "cit0090",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/molecules24050982"
+    },
+    {
+     "key": "cit0091",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/food.19830270524"
+    },
+    {
+     "key": "cit0092",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.fbio.2017.07.001"
+    },
+    {
+     "key": "cit0093",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13568-019-0925-z"
+    },
+    {
+     "key": "cit0094",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-2672.2002.01607.x"
+    },
+    {
+     "key": "cit0095",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1017/S0007114509992248"
+    },
+    {
+     "key": "cit0096",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-1-78242-382-9.00007-4"
+    },
+    {
+     "key": "cit0097",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.3475"
+    },
+    {
+     "key": "cit0098",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2007.08.012"
+    },
+    {
+     "issue": "3",
+     "key": "cit0099",
+     "first-page": "149",
+     "volume": "49",
+     "author": "Horszwald A.",
+     "journal-title": "Journal of Food and Nutrition Research"
+    },
+    {
+     "key": "cit0100",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2013.02.001"
+    },
+    {
+     "key": "cit0101",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00217-004-1122-z"
+    },
+    {
+     "issue": "4",
+     "key": "cit0102",
+     "first-page": "103",
+     "volume": "6",
+     "author": "Gumul D.",
+     "year": "2007",
+     "journal-title": "Acta Sci. Pol., Technol. Aliment"
+    },
+    {
+     "key": "cit0103",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jsfa.2229"
+    },
+    {
+     "key": "cit0104",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2013.05.006"
+    },
+    {
+     "key": "cit0105",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10068-014-0112-6"
+    },
+    {
+     "key": "cit0106",
+     "first-page": "31",
+     "volume": "51",
+     "author": "Sathya G.",
+     "year": "2008",
+     "journal-title": "Can. Biosyst. Eng./Le G\u00e9nie Desbiosyst\u00e8mes Au Can."
+    },
+    {
+     "key": "cit0107",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1541-4337.12414"
+    },
+    {
+     "key": "cit0108",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1079/PNS2002218"
+    },
+    {
+     "issue": "1",
+     "key": "cit0109",
+     "volume": "7",
+     "author": "Ko\u0142odziejczyk P.",
+     "year": "2004",
+     "journal-title": "Electron. J. Pol. Agric. Univ."
+    },
+    {
+     "key": "cit0110",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.foodchem.2012.05.058"
+    },
+    {
+     "key": "cit0111",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/j.2050-0416.2001.tb00075.x"
+    },
+    {
+     "key": "cit0112",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0733-5210(87)80005-X"
+    },
+    {
+     "key": "cit0113",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf010023c"
+    },
+    {
+     "key": "cit0114",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcs.2006.10.002"
+    },
+    {
+     "key": "cit0115",
+     "unstructured": "Technologijos, V. G. V. Process for Biological Decontamination of Soil Contaminated with Oil or Petrochemicals. 2009."
+    },
+    {
+     "key": "cit0116",
+     "unstructured": "Zehle, R. K. R. Baked Rye Product. 2006."
+    },
+    {
+     "key": "cit0117",
+     "unstructured": "Johansen, L. H. Dough Composition Comprising Rye Flour, Gluten and Optionally a Gluten Strengthener, and Baked Products Prepared from Said Dough Composition. 2009."
+    },
+    {
+     "key": "cit0118",
+     "unstructured": "Lihui, Y. D. X. H. L. Secale Cereale EST (Expressed Sequence Tag) Sequence Based Specific Molecular Markers of Secale Cereale 1R and 6R Chromosomes and Application Thereof. 2011."
+    },
+    {
+     "key": "cit0119",
+     "unstructured": "Yitani, S. E. M. Pharmaceutical Formulations Based on Centeno Extract (Secale Cereale) for the Treatment of Skin Diseases and Disorders. 2007."
+    },
+    {
+     "key": "cit0120",
+     "unstructured": "Saal, G. P. D. W. Microsatellite Markers Derived from the Genome of Rye, Useful for Genetic Mapping as Markers of Monogenic or Polygenic Traits. 1998."
+    }
+   ],
+   "container-title": [
+    "Food Reviews International"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.tandfonline.com/doi/pdf/10.1080/87559129.2021.2023817",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      27
+     ]
+    ],
+    "date-time": "2023-08-27T06:52:02Z",
+    "timestamp": 1693119122000
+   },
+   "score": 54.876526,
+   "resource": {
+    "primary": {
+     "URL": "https://www.tandfonline.com/doi/full/10.1080/87559129.2021.2023817"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      10
+     ]
+    ]
+   },
+   "references-count": 120,
+   "journal-issue": {
+    "issue": "7",
+    "published-print": {
+     "date-parts": [
+      [
+       2023,
+       8,
+       25
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1080/87559129.2021.2023817"
+   ],
+   "URL": "https://doi.org/10.1080/87559129.2021.2023817",
+   "ISSN": [
+    "8755-9129",
+    "1525-6103"
+   ],
+   "issn-type": [
+    {
+     "value": "8755-9129",
+     "type": "print"
+    },
+    {
+     "value": "1525-6103",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      10
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+     "order": 1,
+     "name": "peerreview_statement",
+     "label": "Peer Review Statement"
+    },
+    {
+     "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=lfri20",
+     "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=lfri20",
+     "order": 2,
+     "name": "aims_and_scope_url",
+     "label": "Aim & Scope"
+    },
+    {
+     "value": "2022-01-10",
+     "order": 3,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      24
+     ]
+    ],
+    "date-time": "2026-01-24T10:14:09Z",
+    "timestamp": 1769249649715,
+    "version": "3.49.0"
+   },
+   "publisher-location": "New York",
+   "edition-number": "1",
+   "reference-count": 0,
+   "publisher": "CRC Press",
+   "isbn-type": [
+    {
+     "value": "9781003242192",
+     "type": "electronic"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      14
+     ]
+    ]
+   },
+   "DOI": "10.1201/9781003242192-2",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      14
+     ]
+    ],
+    "date-time": "2023-08-14T18:19:07Z",
+    "timestamp": 1692037147000
+   },
+   "page": "3-15",
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "Cereals as Value-Added Food Components"
+   ],
+   "prefix": "10.1201",
+   "author": [
+    {
+     "given": "Fatma",
+     "family": "Boukid",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "B.N.",
+     "family": "Dar",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "301",
+   "container-title": [
+    "Cereal Processing Technologies"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      14
+     ]
+    ],
+    "date-time": "2023-08-14T18:19:14Z",
+    "timestamp": 1692037154000
+   },
+   "score": 50.00674,
+   "resource": {
+    "primary": {
+     "URL": "https://www.taylorfrancis.com/books/9781003242192/chapters/10.1201/9781003242192-2"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      14
+     ]
+    ]
+   },
+   "ISBN": [
+    "9781003242192"
+   ],
+   "references-count": 0,
+   "URL": "https://doi.org/10.1201/9781003242192-2",
+   "published": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      14
+     ]
+    ]
+   }
+  }
+ ]
+}

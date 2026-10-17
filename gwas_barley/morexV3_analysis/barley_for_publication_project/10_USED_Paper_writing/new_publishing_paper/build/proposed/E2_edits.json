@@ -1,0 +1,46 @@
+{
+ "notes": [
+  "**Item E2 — citations only** (ESM0 Q10 and Q13, approved 2026-10-01). No wording changes: only \"Online Resource(s) …\" added and the supmat comments updated.",
+  "**M&M:** Online Resource 9 is already cited where it belongs, at the 7H paragraph (the GDSL marker group; it replaced the grid). Citing it earlier in the M&M (e.g. the crosshap paragraph) would make it the 7th file and renumber 7–9, so the M&M is left as it is.",
+  "New supmat comment ID 339 (Results); next free 340."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Results Ch. 2 ¶3 (lead-SNP MAF)",
+   "why": "ESM0 Q13 (approved): cite Online Resource 5; citation only; supmat → ✅.",
+   "old": "[supmat: not resolved ❌ — your comments 314/315 (table of the SNPs and MAF) → Online Resource 5 (ESM_5.xlsx, sheet of the 52 significant SNPs): file not built; citation proposed here (ESM0 Q13)]{.comment-start id=\"331\" author=\"supmat\"}(median MAF = 0.068)[]{.comment-end id=\"331\"}",
+   "new": "{-[supmat: not resolved ❌ — your comments 314/315 (table of the SNPs and MAF) → Online Resource 5 (ESM_5.xlsx, sheet of the 52 significant SNPs): file not built; citation proposed here (ESM0 Q13)]-}{+[supmat: resolved ✅ — Online Resource 5 (ESM_5.xlsx, sheet Significant SNPs: MAF, effect and P of the 52 SNPs); answers your comments 314/315]+}{.comment-start id=\"331\" author=\"supmat\"}(median MAF = 0.068{+; Online Resource 5+})[]{.comment-end id=\"331\"}"
+  },
+  {
+   "where": "Results Ch. 3 ¶1 (30 of 55 genes tested)",
+   "why": "ESM0 Q13 (approved): cite Online Resource 6 at the end of the sentence; citation only; supmat → ✅.",
+   "old": "[supmat: not resolved ❌ — your comment 317 (table of the genes) → Online Resource 6 (ESM_6.xlsx): table built, title block and number not set; citation proposed here (ESM0 Q13)]{.comment-start id=\"333\" author=\"supmat\"}30 could be tested and 23 were significant[]{.comment-end id=\"333\"}, distributed over 12 of the 36 loci.",
+   "new": "{-[supmat: not resolved ❌ — your comment 317 (table of the genes) → Online Resource 6 (ESM_6.xlsx): table built, title block and number not set; citation proposed here (ESM0 Q13)]-}{+[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx: testable, reason not testable, haplotype test of all 55 genes); answers your comment 317]+}{.comment-start id=\"333\" author=\"supmat\"}30 could be tested and 23 were significant{-[]{.comment-end id=\"333\"}-}, distributed over 12 of the 36 loci{+ (Online Resource 6)[]{.comment-end id=\"333\"}+}."
+  },
+  {
+   "where": "Results Ch. 3 · GPAT6",
+   "why": "ESM0 Q10 (approved): add Online Resource 9 (crosshap plot); citation only.",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]{.comment-start id=\"335\" author=\"supmat\"}Online Resource 6[]{.comment-end id=\"335\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]-}{+[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page a: crosshap plot of GPAT6)]+}{.comment-start id=\"335\" author=\"supmat\"}Online Resource{+s+} 6{+, 9+}[]{.comment-end id=\"335\"}"
+  },
+  {
+   "where": "Results Ch. 3 · GH17",
+   "why": "ESM0 Q10 (approved): add Online Resource 9 (crosshap plot); citation only.",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]{.comment-start id=\"336\" author=\"supmat\"}Online Resource 6[]{.comment-end id=\"336\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]-}{+[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page b: crosshap plot of GH17)]+}{.comment-start id=\"336\" author=\"supmat\"}Online Resource{+s+} 6{+, 9+}[]{.comment-end id=\"336\"}"
+  },
+  {
+   "where": "Results Ch. 3 · PHT4;3",
+   "why": "ESM0 Q10 (approved): add Online Resource 9 (crosshap plot); citation only.",
+   "old": "[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]{.comment-start id=\"337\" author=\"supmat\"}Online Resource 6[]{.comment-end id=\"337\"}",
+   "new": "{-[supmat: resolved ✅ — Online Resource 6 (ESM_6.xlsx)]-}{+[supmat: resolved ✅ — Online Resources 6 (ESM_6.xlsx) and 9 (ESM_9.pdf, page c: crosshap plot of PHT4;3)]+}{.comment-start id=\"337\" author=\"supmat\"}Online Resource{+s+} 6{+, 9+}[]{.comment-end id=\"337\"}"
+  },
+  {
+   "where": "Results Ch. 4 ¶3 (GDSL haplotypes)",
+   "why": "ESM0 Q10 (approved): cite Online Resource 9; citation only; new supmat comment 339 (✅).",
+   "old": "with the same grouping for both traits (Fig. 4).",
+   "new": "with the same grouping for both traits (Fig. 4{+; [supmat: resolved ✅ — Online Resource 9 (ESM_9.pdf, pages d and e: crosshap plots of the GDSL gene for fiber and starch)]{.comment-start id=\"339\" author=\"supmat\"}Online Resource 9[]{.comment-end id=\"339\"}+})."
+  }
+ ]
+}

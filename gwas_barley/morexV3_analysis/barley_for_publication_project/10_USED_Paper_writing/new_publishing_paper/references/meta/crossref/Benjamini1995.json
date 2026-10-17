@@ -1,0 +1,1893 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     1
+    ]
+   ],
+   "date-time": "2026-10-01T03:25:06Z",
+   "timestamp": 1790825106022,
+   "version": "4.1.0"
+  },
+  "reference-count": 14,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "1",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1995,
+       1,
+       1
+      ]
+     ],
+     "date-time": "1995-01-01T00:00:00Z",
+     "timestamp": 788918400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     1995,
+     1,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>SUMMARY</jats:title>\n                  <jats:p>The common approach to the multiplicity problem calls for controlling the familywise error rate (FWER). This approach, though, has faults, and we point out a few. A different approach to problems of multiple significance testing is presented. It calls for controlling the expected proportion of falsely rejected hypotheses \u2014 the false discovery rate. This error rate is equivalent to the FWER when all hypotheses are true but is smaller otherwise. Therefore, in problems where the control of the false discovery rate rather than that of the FWER is desired, there is potential for a gain in power. A simple sequential Bonferronitype procedure is proved to control the false discovery rate for independent test statistics, and a simulation study shows that the gain in power is substantial. The use of the new procedure and the appropriateness of the criterion are illustrated with examples.</jats:p>",
+  "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     7
+    ]
+   ],
+   "date-time": "2018-12-07T01:30:39Z",
+   "timestamp": 1544146239000
+  },
+  "page": "289-300",
+  "source": "Crossref",
+  "is-referenced-by-count": 95560,
+  "title": [
+   "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+  ],
+  "prefix": "10.1093",
+  "volume": "57",
+  "author": [
+   {
+    "given": "Yoav",
+    "family": "Benjamini",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Tel Aviv University , Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yosef",
+    "family": "Hochberg",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Tel Aviv University , Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     5
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2024090922052288200_rssb02031-cit-0001",
+    "doi-asserted-by": "crossref",
+    "first-page": "1450",
+    "DOI": "10.1056/NEJM198512053132305",
+    "article-title": "Comparing the means of several groups",
+    "volume": "311",
+    "author": "Godfrey",
+    "year": "1985",
+    "journal-title": "New Engl. J. Med."
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0002",
+    "doi-asserted-by": "crossref",
+    "first-page": "800",
+    "DOI": "10.1093/biomet/75.4.800",
+    "article-title": "A sharper Bonferroni procedure for multiple tests of significance",
+    "volume": "75",
+    "author": "Hochberg",
+    "year": "1988",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0003",
+    "doi-asserted-by": "crossref",
+    "first-page": "811",
+    "DOI": "10.1002/sim.4780090710",
+    "article-title": "More powerful procedures for multiple significance testing",
+    "volume": "9",
+    "author": "Hochberg",
+    "year": "1990",
+    "journal-title": "Statist. Med."
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0004",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1002/9780470316672",
+    "volume-title": "Multiple Comparison Procedures.",
+    "author": "Hochberg",
+    "year": "1987"
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0005",
+    "first-page": "65",
+    "article-title": "A simple sequentially rejective multiple test procedure",
+    "volume": "6",
+    "author": "Holm",
+    "year": "1979",
+    "journal-title": "Scand. J. Statist."
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0006",
+    "doi-asserted-by": "crossref",
+    "first-page": "383",
+    "DOI": "10.1093/biomet/75.2.383",
+    "article-title": "A stagewise rejective multiple test procedure based on a modified Bonferroni test",
+    "volume": "75",
+    "author": "Hommel",
+    "year": "1988",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0007",
+    "doi-asserted-by": "crossref",
+    "first-page": "885",
+    "DOI": "10.1016/0735-1097(92)90265-O",
+    "article-title": "Improved thrombolysis in acute myocardial infarction front-loaded administration of Alteplase: results of the rt-PA-APSAC patency study (TAPS)",
+    "volume": "19",
+    "author": "Neuhaus",
+    "year": "1992",
+    "journal-title": "J. Am. Coll. Card."
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0008",
+    "first-page": "381",
+    "article-title": "Statistical problems in reporting of clinical trials",
+    "volume": "84",
+    "author": "Pocock",
+    "year": "1987",
+    "journal-title": "J. Am. Statist. Ass."
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0009",
+    "doi-asserted-by": "crossref",
+    "first-page": "663",
+    "DOI": "10.1093/biomet/77.3.663",
+    "article-title": "A sequentially rejective test procedure based on a modified Bonferroni inequality",
+    "volume": "77",
+    "author": "Rom",
+    "year": "1990",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "174",
+    "DOI": "10.1080/00031305.1990.10475712",
+    "article-title": "Multiple comparison procedures: the practical solution",
+    "volume": "44",
+    "author": "Saville",
+    "year": "1990",
+    "journal-title": "Am. Statistn"
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0011",
+    "doi-asserted-by": "crossref",
+    "first-page": "751",
+    "DOI": "10.1093/biomet/73.3.751",
+    "article-title": "An improved Bonferroni procedure for multiple tests of significance",
+    "volume": "73",
+    "author": "Simes",
+    "year": "1986",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0012",
+    "doi-asserted-by": "crossref",
+    "first-page": "545",
+    "DOI": "10.1016/0002-9343(87)90768-6",
+    "article-title": "Impact of multiple comparisons in randomized clinical trials",
+    "volume": "83",
+    "author": "Smith",
+    "year": "1987",
+    "journal-title": "Am. J. Med."
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0013",
+    "first-page": "608",
+    "article-title": "Statistical \u201cdiscoveries\u201d and effect size estimation",
+    "volume": "84",
+    "author": "Sori\u00e7",
+    "year": "1989",
+    "journal-title": "J. Am. Statist. Ass."
+   },
+   {
+    "key": "2024090922052288200_rssb02031-cit-0014",
+    "doi-asserted-by": "crossref",
+    "first-page": "398",
+    "DOI": "10.1214/aoms/1177692621",
+    "article-title": "On the optimality of some multiple comparison procedure",
+    "volume": "43",
+    "author": "Spj\u00f8tvoll",
+    "year": "1972",
+    "journal-title": "Ann. Math. Statist."
+   }
+  ],
+  "container-title": [
+   "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.2517-6161.1995.tb02031.x",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/57/1/289/49173396/jrsssb_57_1_289.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/jrsssb/article-pdf/57/1/289/49173396/jrsssb_57_1_289.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     9,
+     9
+    ]
+   ],
+   "date-time": "2024-09-09T18:39:10Z",
+   "timestamp": 1725907150000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/jrsssb/article/57/1/289/7035855"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1995,
+     1,
+     1
+    ]
+   ]
+  },
+  "references-count": 14,
+  "journal-issue": {
+   "issue": "1",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      12,
+      5
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1995,
+      1,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+  "relation": {},
+  "ISSN": [
+   "1369-7412",
+   "1467-9868"
+  ],
+  "issn-type": [
+   {
+    "value": "1369-7412",
+    "type": "print"
+   },
+   {
+    "value": "1467-9868",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     1995,
+     1
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     1995,
+     1,
+     1
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2026-10-01T03:25:06Z",
+    "timestamp": 1790825106022,
+    "version": "4.1.0"
+   },
+   "reference-count": 14,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        1995,
+        1,
+        1
+       ]
+      ],
+      "date-time": "1995-01-01T00:00:00Z",
+      "timestamp": 788918400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      1995,
+      1,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:title>SUMMARY</jats:title>\n                  <jats:p>The common approach to the multiplicity problem calls for controlling the familywise error rate (FWER). This approach, though, has faults, and we point out a few. A different approach to problems of multiple significance testing is presented. It calls for controlling the expected proportion of falsely rejected hypotheses \u2014 the false discovery rate. This error rate is equivalent to the FWER when all hypotheses are true but is smaller otherwise. Therefore, in problems where the control of the false discovery rate rather than that of the FWER is desired, there is potential for a gain in power. A simple sequential Bonferronitype procedure is proved to control the false discovery rate for independent test statistics, and a simulation study shows that the gain in power is substantial. The use of the new procedure and the appropriateness of the criterion are illustrated with examples.</jats:p>",
+   "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2018,
+      12,
+      7
+     ]
+    ],
+    "date-time": "2018-12-07T01:30:39Z",
+    "timestamp": 1544146239000
+   },
+   "page": "289-300",
+   "source": "Crossref",
+   "is-referenced-by-count": 95560,
+   "title": [
+    "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+   ],
+   "prefix": "10.1093",
+   "volume": "57",
+   "author": [
+    {
+     "given": "Yoav",
+     "family": "Benjamini",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Tel Aviv University , Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yosef",
+     "family": "Hochberg",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Tel Aviv University , Israel"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      12,
+      5
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2024090922052288200_rssb02031-cit-0001",
+     "doi-asserted-by": "crossref",
+     "first-page": "1450",
+     "DOI": "10.1056/NEJM198512053132305",
+     "article-title": "Comparing the means of several groups",
+     "volume": "311",
+     "author": "Godfrey",
+     "year": "1985",
+     "journal-title": "New Engl. J. Med."
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0002",
+     "doi-asserted-by": "crossref",
+     "first-page": "800",
+     "DOI": "10.1093/biomet/75.4.800",
+     "article-title": "A sharper Bonferroni procedure for multiple tests of significance",
+     "volume": "75",
+     "author": "Hochberg",
+     "year": "1988",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0003",
+     "doi-asserted-by": "crossref",
+     "first-page": "811",
+     "DOI": "10.1002/sim.4780090710",
+     "article-title": "More powerful procedures for multiple significance testing",
+     "volume": "9",
+     "author": "Hochberg",
+     "year": "1990",
+     "journal-title": "Statist. Med."
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0004",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1002/9780470316672",
+     "volume-title": "Multiple Comparison Procedures.",
+     "author": "Hochberg",
+     "year": "1987"
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0005",
+     "first-page": "65",
+     "article-title": "A simple sequentially rejective multiple test procedure",
+     "volume": "6",
+     "author": "Holm",
+     "year": "1979",
+     "journal-title": "Scand. J. Statist."
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0006",
+     "doi-asserted-by": "crossref",
+     "first-page": "383",
+     "DOI": "10.1093/biomet/75.2.383",
+     "article-title": "A stagewise rejective multiple test procedure based on a modified Bonferroni test",
+     "volume": "75",
+     "author": "Hommel",
+     "year": "1988",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0007",
+     "doi-asserted-by": "crossref",
+     "first-page": "885",
+     "DOI": "10.1016/0735-1097(92)90265-O",
+     "article-title": "Improved thrombolysis in acute myocardial infarction front-loaded administration of Alteplase: results of the rt-PA-APSAC patency study (TAPS)",
+     "volume": "19",
+     "author": "Neuhaus",
+     "year": "1992",
+     "journal-title": "J. Am. Coll. Card."
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0008",
+     "first-page": "381",
+     "article-title": "Statistical problems in reporting of clinical trials",
+     "volume": "84",
+     "author": "Pocock",
+     "year": "1987",
+     "journal-title": "J. Am. Statist. Ass."
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0009",
+     "doi-asserted-by": "crossref",
+     "first-page": "663",
+     "DOI": "10.1093/biomet/77.3.663",
+     "article-title": "A sequentially rejective test procedure based on a modified Bonferroni inequality",
+     "volume": "77",
+     "author": "Rom",
+     "year": "1990",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0010",
+     "doi-asserted-by": "crossref",
+     "first-page": "174",
+     "DOI": "10.1080/00031305.1990.10475712",
+     "article-title": "Multiple comparison procedures: the practical solution",
+     "volume": "44",
+     "author": "Saville",
+     "year": "1990",
+     "journal-title": "Am. Statistn"
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0011",
+     "doi-asserted-by": "crossref",
+     "first-page": "751",
+     "DOI": "10.1093/biomet/73.3.751",
+     "article-title": "An improved Bonferroni procedure for multiple tests of significance",
+     "volume": "73",
+     "author": "Simes",
+     "year": "1986",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0012",
+     "doi-asserted-by": "crossref",
+     "first-page": "545",
+     "DOI": "10.1016/0002-9343(87)90768-6",
+     "article-title": "Impact of multiple comparisons in randomized clinical trials",
+     "volume": "83",
+     "author": "Smith",
+     "year": "1987",
+     "journal-title": "Am. J. Med."
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0013",
+     "first-page": "608",
+     "article-title": "Statistical \u201cdiscoveries\u201d and effect size estimation",
+     "volume": "84",
+     "author": "Sori\u00e7",
+     "year": "1989",
+     "journal-title": "J. Am. Statist. Ass."
+    },
+    {
+     "key": "2024090922052288200_rssb02031-cit-0014",
+     "doi-asserted-by": "crossref",
+     "first-page": "398",
+     "DOI": "10.1214/aoms/1177692621",
+     "article-title": "On the optimality of some multiple comparison procedure",
+     "volume": "43",
+     "author": "Spj\u00f8tvoll",
+     "year": "1972",
+     "journal-title": "Ann. Math. Statist."
+    }
+   ],
+   "container-title": [
+    "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.2517-6161.1995.tb02031.x",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://academic.oup.com/jrsssb/article-pdf/57/1/289/49173396/jrsssb_57_1_289.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/jrsssb/article-pdf/57/1/289/49173396/jrsssb_57_1_289.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      9,
+      9
+     ]
+    ],
+    "date-time": "2024-09-09T18:39:10Z",
+    "timestamp": 1725907150000
+   },
+   "score": 53.383476,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/jrsssb/article/57/1/289/7035855"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      1995,
+      1,
+      1
+     ]
+    ]
+   },
+   "references-count": 14,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2018,
+       12,
+       5
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       1995,
+       1,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+   "ISSN": [
+    "1369-7412",
+    "1467-9868"
+   ],
+   "issn-type": [
+    {
+     "value": "1369-7412",
+     "type": "print"
+    },
+    {
+     "value": "1467-9868",
+     "type": "electronic"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      1995,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      1995,
+      1,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "institution": [
+    {
+     "name": "Research Square"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      4,
+      1
+     ]
+    ],
+    "date-time": "2026-04-01T20:05:45Z",
+    "timestamp": 1775073945829,
+    "version": "3.50.1"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      17
+     ]
+    ]
+   },
+   "group-title": "In Review",
+   "reference-count": 55,
+   "publisher": "Research Square Platform LLC",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2024,
+        1,
+        17
+       ]
+      ],
+      "date-time": "2024-01-17T00:00:00Z",
+      "timestamp": 1705449600000
+     },
+     "content-version": "unspecified",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      14
+     ]
+    ]
+   },
+   "abstract": "<title>Abstract</title>\n        <p>Modern bioinformatics studies often involve numerous simultaneous statistical tests, increasing the risk of false discoveries. To control the false discovery rate (FDR), these studies typically employ a statistical method called the Benjamini\u2013Hochberg (BH) method. Often, the BH approach tends to be overly conservative and overlooks valuable biological insights associated with data structures, particularly those of groups. Group structures can manifest when closely located genomic coordinates are functionally active and closely related because of co-regulation. Recent statistical advancements have led to the development of updated BH methods tailored for datasets featuring pre-existing group structures. These methods can improve the statistical power and potentially enhance scientific discoveries. In this study, we elucidated the advantages of contemporary group-aware BH methods using a previously published microRNA (miRNA) dataset. For this dataset, group-aware BH methods identified a larger set of miRNAs with significantly deregulated expression (p-value\u2009&lt;\u20090.05) than the traditional BH method. These new findings are supported by existing literature on miRNAs and a related 2017 study. Our results underscore the potential of specialized BH methods for controlling the FDR in high throughput omics studies with pre-defined group structures.</p>",
+   "DOI": "10.21203/rs.3.rs-3861673/v1",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      17
+     ]
+    ],
+    "date-time": "2024-01-17T05:18:55Z",
+    "timestamp": 1705468735000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 3,
+   "title": [
+    "False discovery rate control: Moving beyond the Benjamini\u2013Hochberg method"
+   ],
+   "prefix": "10.21203",
+   "author": [
+    {
+     "given": "Salil",
+     "family": "Koner",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Duke University"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Navonil",
+     "family": "Sarkar",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Medical College of Wisconsin"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Nilanjana",
+     "family": "Laha",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Texas A&M University"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "8761",
+   "reference": [
+    {
+     "key": "ref1",
+     "doi-asserted-by": "crossref",
+     "first-page": "71",
+     "DOI": "10.1214/ss/1056397487",
+     "article-title": "Multiple hypothesis testing in microarray experiments",
+     "volume": "18",
+     "author": "Dudoit S",
+     "year": "2003",
+     "unstructured": "Dudoit, S., Shaffer, J. P. & Boldrick, J. C. Multiple hypothesis testing in microarray experiments. Stat. Sci. 18, 71\u2013103 (2003).",
+     "journal-title": "Stat. Sci."
+    },
+    {
+     "key": "ref2",
+     "doi-asserted-by": "crossref",
+     "first-page": "1946",
+     "DOI": "10.1002/sim.6082",
+     "article-title": "Multiple hypothesis testing in genomics",
+     "volume": "33",
+     "author": "Goeman JJ",
+     "year": "2014",
+     "unstructured": "Goeman, J. J. & Solari, A. Multiple hypothesis testing in genomics. Stat. Med. 33, 1946\u20131978 (2014).",
+     "journal-title": "Stat. Med."
+    },
+    {
+     "key": "ref3",
+     "author": "Sesia M",
+     "year": "2021",
+     "unstructured": "Sesia, M., Bates, S., Candes, E., Marchini, J. & Sabatti, C. False discovery rate control in` genome-wide association studies with population structure. Proc. Natl. Acad. Sci. U.S.A. 118, e2105841118 (2021)."
+    },
+    {
+     "key": "ref4",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0245824",
+     "DOI": "10.1371/journal.pone.0245824",
+     "article-title": "Multipletesting.com: A tool for life science researchers\u02dd for multiple hypothesis testing correction",
+     "volume": "16",
+     "author": "Menyhart O",
+     "year": "2021",
+     "unstructured": "Menyhart, O., Weltz, B. & Gyorffy, B. Multipletesting.com: A tool for life science researchers\u02dd for multiple hypothesis testing correction. PLoS One 16, e0245824 (2021).",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "ref5",
+     "doi-asserted-by": "crossref",
+     "first-page": "289",
+     "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+     "article-title": "Controlling the false discovery rate: a practical and powerful approach to multiple testing",
+     "volume": "57",
+     "author": "Benjamini Y",
+     "year": "1995",
+     "unstructured": "Benjamini, Y. & Hochberg, Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J. R. Stat. Soc. Methodol. 57, 289\u2013300 (1995).",
+     "journal-title": "J. R. Stat. Soc. Methodol."
+    },
+    {
+     "key": "ref6",
+     "first-page": "1",
+     "article-title": "A practical guide to methods controlling false discoveries in computational biology",
+     "volume": "118",
+     "author": "Korthauer K",
+     "year": "2019",
+     "unstructured": "Korthauer, K., et al. A practical guide to methods controlling false discoveries in computational biology. Genome Biol. 118, 1\u201321 (2019).",
+     "journal-title": "Genome Biol."
+    },
+    {
+     "key": "ref7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1165",
+     "DOI": "10.1214/aos/1013699998",
+     "article-title": "The control of the false discovery rate in multiple testing under dependency",
+     "volume": "29",
+     "author": "Benjamini Y",
+     "year": "2001",
+     "unstructured": "Benjamini, Y. & Yekutieli, D. The control of the false discovery rate in multiple testing under dependency. Ann. Stat. 29, 1165\u20131188 (2001).",
+     "journal-title": "Ann. Stat."
+    },
+    {
+     "key": "ref8",
+     "doi-asserted-by": "crossref",
+     "first-page": "1215",
+     "DOI": "10.1198/jasa.2010.tm09329",
+     "article-title": "False discovery rate control with groups",
+     "volume": "105",
+     "author": "Hu JX",
+     "year": "2010",
+     "unstructured": "Hu, J. X., Zhao, H. & Zhou, H. H. False discovery rate control with groups. J. Am. Stat. Assoc. 105, 1215\u20131227 (2010).",
+     "journal-title": "J. Am. Stat. Assoc."
+    },
+    {
+     "key": "ref9",
+     "doi-asserted-by": "crossref",
+     "first-page": "45",
+     "DOI": "10.1111/rssb.12298",
+     "article-title": "Multiple testing with the structure-adaptive Benjamini\u2013Hochberg algorithm",
+     "volume": "81",
+     "author": "Li A",
+     "year": "2019",
+     "unstructured": "Li, A. & Barber, R. F. Multiple testing with the structure-adaptive Benjamini\u2013Hochberg algorithm. J. R. Stat. Soc. Methodol. 81, 45\u201374 (2019).",
+     "journal-title": "J. R. Stat. Soc. Methodol."
+    },
+    {
+     "key": "ref10",
+     "doi-asserted-by": "crossref",
+     "first-page": "509",
+     "DOI": "10.1093/biomet/93.3.509",
+     "article-title": "False discovery control with p-value weighting",
+     "volume": "93",
+     "author": "Genovese CR",
+     "year": "2006",
+     "unstructured": "Genovese, C. R., Roeder, K. & Wasserman, L. False discovery control with p-value weighting. Biometrika 93, 509\u2013524 (2006).",
+     "journal-title": "Biometrika"
+    },
+    {
+     "key": "ref11",
+     "doi-asserted-by": "crossref",
+     "first-page": "81",
+     "DOI": "10.1016/j.ygeno.2006.07.013",
+     "article-title": "New insights into\u00b4 gene positional clustering and its properties supported by large-scale analysis of various differentiation pathways",
+     "volume": "89",
+     "author": "Koutna I",
+     "year": "2007",
+     "unstructured": "Koutna, I., et al. New insights into\u00b4 gene positional clustering and its properties supported by large-scale analysis of various differentiation pathways. Genomics 89, 81\u201388 (2007).",
+     "journal-title": "Genomics"
+    },
+    {
+     "key": "ref12",
+     "doi-asserted-by": "crossref",
+     "first-page": "1522",
+     "DOI": "10.1101/gr.156539.113",
+     "article-title": "Functional DNA methylation differences between tissues, cell types, and across individuals discovered using the M&M algorithm",
+     "volume": "23",
+     "author": "Zhang B",
+     "year": "2013",
+     "unstructured": "Zhang, B., et al. Functional DNA methylation differences between tissues, cell types, and across individuals discovered using the M&M algorithm. Genome Res. 23 1522\u20131540 (2013).",
+     "journal-title": "Genome Res."
+    },
+    {
+     "key": "ref13",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0128009",
+     "DOI": "10.1371/journal.pone.0128009",
+     "article-title": "Whole-transcriptome analysis of differentially expressed genes in the vegetative buds, floral buds and buds of chrysanthemum morifolium",
+     "volume": "10",
+     "author": "Liu H",
+     "year": "2015",
+     "unstructured": "Liu, H., et al. Whole-transcriptome analysis of differentially expressed genes in the vegetative buds, floral buds and buds of chrysanthemum morifolium. PLoS One 10, e0128009 (2015).",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "ref14",
+     "doi-asserted-by": "crossref",
+     "first-page": "197",
+     "DOI": "10.1214/07-AOAS141",
+     "article-title": "Simultaneous inference: When should hypothesis testing problems be combined?",
+     "volume": "2",
+     "author": "Efron B",
+     "year": "2008",
+     "unstructured": "Efron, B. Simultaneous inference: When should hypothesis testing problems be combined? Ann. Appl. Stat. 2, 197\u2013223 (2008).",
+     "journal-title": "Ann. Appl. Stat."
+    },
+    {
+     "key": "ref15",
+     "doi-asserted-by": "crossref",
+     "first-page": "1272",
+     "DOI": "10.1198/016214507000000941",
+     "article-title": "False discovery rates for spatial signals",
+     "volume": "102",
+     "author": "Benjamini Y",
+     "year": "2007",
+     "unstructured": "Benjamini, Y. & Heller, R. False discovery rates for spatial signals. J. Am. Stat. Assoc. 102, 1272\u20131281 (2007).",
+     "journal-title": "J. Am. Stat. Assoc."
+    },
+    {
+     "key": "ref16",
+     "doi-asserted-by": "crossref",
+     "first-page": "e104839",
+     "DOI": "10.1371/journal.pone.0104839",
+     "article-title": "A quest for mirna bio-marker: a track back approach from gingivo buccal cancer to two different types of precancers",
+     "volume": "9",
+     "author": "Sarkar N",
+     "year": "2014",
+     "unstructured": "De Sarkar, N., et al. A quest for mirna bio-marker: a track back approach from gingivo buccal cancer to two different types of precancers. PloS One 9, e104839 (2014).",
+     "journal-title": "PloS One"
+    },
+    {
+     "key": "ref17",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0183606",
+     "DOI": "10.1371/journal.pone.0183606",
+     "article-title": "Analysis of the whole transcriptome from gingivo-buccal squamous cell carcinoma reveals deregulated immune landscape and suggests targets for immunotherapy",
+     "volume": "12",
+     "author": "Singh R",
+     "year": "2017",
+     "unstructured": "Singh, R., et al. Analysis of the whole transcriptome from gingivo-buccal squamous cell carcinoma reveals deregulated immune landscape and suggests targets for immunotherapy. PloS One 12, e0183606 (2017).",
+     "journal-title": "PloS One"
+    },
+    {
+     "key": "ref18",
+     "doi-asserted-by": "crossref",
+     "first-page": "1294",
+     "DOI": "10.1093/ije/dyz032",
+     "article-title": "Accounting for missing data in statistical analyses: multiple imputation is not always the answer",
+     "volume": "48",
+     "author": "Hughes RA",
+     "year": "2019",
+     "unstructured": "Hughes, R. A., Heron, J., Sterne, J. A. C. & Tilling, K. Accounting for missing data in statistical analyses: multiple imputation is not always the answer. Int. J. Epidemiol. 48, 1294\u20131304 (2019).",
+     "journal-title": "Int. J. Epidemiol."
+    },
+    {
+     "key": "ref19",
+     "article-title": "Missing data imputation: focusing on single imputation",
+     "volume": "4",
+     "author": "Zhang Z",
+     "year": "2016",
+     "unstructured": "Zhang, Z. Missing data imputation: focusing on single imputation. Ann. Transl. Med. 4 (2016).",
+     "journal-title": "Ann. Transl. Med."
+    },
+    {
+     "key": "ref20",
+     "doi-asserted-by": "crossref",
+     "first-page": "6043",
+     "DOI": "10.1214/22-EJS2080",
+     "article-title": "Local false discovery rate based methods for multiple testing of one-way classified hypotheses",
+     "volume": "16",
+     "author": "Sarkar SK",
+     "year": "2022",
+     "unstructured": "Sarkar, S. K. & Zhao, Z. Local false discovery rate based methods for multiple testing of one-way classified hypotheses. Electron. J. Stat. 16, 6043\u20136085 (2022).",
+     "journal-title": "Electron. J. Stat."
+    },
+    {
+     "key": "ref21",
+     "doi-asserted-by": "crossref",
+     "first-page": "343",
+     "DOI": "10.3892/or.2017.5702",
+     "article-title": "mir-1247-5p functions as a tumor suppressor in human hepatocellular carcinoma by targeting wnt3",
+     "volume": "38",
+     "author": "Chu Y",
+     "year": "2017",
+     "unstructured": "Chu, Y., et al. mir-1247-5p functions as a tumor suppressor in human hepatocellular carcinoma by targeting wnt3. Oncol. Rep. 38, 343\u2013351 (2017).",
+     "journal-title": "Oncol. Rep."
+    },
+    {
+     "key": "ref22",
+     "doi-asserted-by": "crossref",
+     "first-page": "20170213",
+     "DOI": "10.1098/rsif.2017.0213",
+     "article-title": "The coefficient of determination R2 and intra-class correlation coefficient from generalized linear mixed-effects models revisited and expanded",
+     "volume": "14",
+     "author": "Nakagawa S",
+     "year": "2017",
+     "unstructured": "Nakagawa, S., Johnson, P. C. & Schielzeth, H. The coefficient of determination R2 and intra-class correlation coefficient from generalized linear mixed-effects models revisited and expanded. J. R. Soc. Interface 14, 20170213 (2017).",
+     "journal-title": "J. R. Soc. Interface"
+    },
+    {
+     "key": "ref23",
+     "volume-title": "Variance Components",
+     "author": "Searle SR",
+     "year": "2009",
+     "unstructured": "Searle, S. R., Casella, G. & McCulloch, C. E. Variance Components. (John Wiley & Sons, 2009)."
+    },
+    {
+     "key": "ref24",
+     "volume-title": "Introduction to Linear Regression Analysis",
+     "author": "Montgomery DC",
+     "year": "2021",
+     "unstructured": "Montgomery, D. C., Peck, E. A. & Vining, G. G. Introduction to Linear Regression Analysis. (John Wiley & Sons, 2021)."
+    },
+    {
+     "key": "ref25",
+     "author": "Troiano G",
+     "year": "2016",
+     "unstructured": "Troiano, G., et al. Circulating miRNAs from blood, plasma or serum as promising clinical biomarkers in oral squamous cell carcinoma: A systematic review of current findings. Oral Oncology 63, 30\u201337 (2016).26. Seti\u00e9n-Olarra, A., et al. Genomewide miRNA profiling of oral lichenoid disorders and oral squamous cell carcinoma. Oral Dis. 22, 754\u2013760 (2016)."
+    },
+    {
+     "key": "ref26",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1097/MD.0000000000014922",
+     "article-title": "miRNAs expression of oral squamous cell carcinoma patients: Validation of two putative biomarkers",
+     "volume": "98",
+     "author": "Chamorro Petronacci CM",
+     "year": "2019",
+     "unstructured": "Chamorro Petronacci, C. M., et al. miRNAs expression of oral squamous cell carcinoma patients: Validation of two putative biomarkers. Medicine 98 (2019).",
+     "journal-title": "Medicine"
+    },
+    {
+     "key": "ref27",
+     "doi-asserted-by": "crossref",
+     "first-page": "371",
+     "DOI": "10.5732/cjc.30.0371",
+     "article-title": "Apoptosis and the target genes of microrna-21",
+     "volume": "30",
+     "author": "Buscaglia LEB",
+     "year": "2011",
+     "unstructured": "Buscaglia, L. E. B. & Li, Y. Apoptosis and the target genes of microrna-21. Chin. J. Cancer 30, 371\u2013380 (2011).",
+     "journal-title": "Chin. J. Cancer"
+    },
+    {
+     "key": "ref28",
+     "doi-asserted-by": "crossref",
+     "first-page": "3396",
+     "DOI": "10.3390/ijerph19063396",
+     "article-title": "Microrna-21 expression as a prognostic biomarker in oral cancer: Systematic review and meta-analysis",
+     "volume": "19",
+     "author": "Dioguardi M",
+     "year": "2022",
+     "unstructured": "Dioguardi, M., et al. Microrna-21 expression as a prognostic biomarker in oral cancer: Systematic review and meta-analysis. Int. J. Environ. Res. Public Health 19, 3396 (2022).",
+     "journal-title": "Int. J. Environ. Res. Public Health"
+    },
+    {
+     "key": "ref29",
+     "doi-asserted-by": "crossref",
+     "first-page": "759",
+     "DOI": "10.1177/0022034518762090",
+     "article-title": "Predictive prognostic value of tissue-based microRNA expression in oral squamous cell carcinoma: a systematic review and meta-analysis",
+     "volume": "97",
+     "author": "Troiano G",
+     "year": "2018",
+     "unstructured": "Troiano, G., et al. Predictive prognostic value of tissue-based microRNA expression in oral squamous cell carcinoma: a systematic review and meta-analysis. J. Dent. Res. 97, 759\u2013766 (2018).",
+     "journal-title": "J. Dent. Res."
+    },
+    {
+     "key": "ref30",
+     "author": "McQueen C",
+     "year": "2017",
+     "unstructured": "McQueen, C. Comprehensive Toxicology (Elsevier, 2017)."
+    },
+    {
+     "key": "ref31",
+     "doi-asserted-by": "crossref",
+     "first-page": "646",
+     "DOI": "10.1016/j.cell.2011.02.013",
+     "article-title": "Hallmarks of cancer: the next generation",
+     "volume": "144",
+     "author": "Hanahan D",
+     "year": "2011",
+     "unstructured": "Hanahan, D. & Weinberg, R. A. Hallmarks of cancer: the next generation. Cell 144, 646\u2013674 (2011).",
+     "journal-title": "Cell"
+    },
+    {
+     "key": "ref32",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1186/s40364-021-00272-1",
+     "article-title": "mir-21: a non-specific biomarker of all maladies",
+     "volume": "9",
+     "author": "Jenike AE",
+     "year": "2021",
+     "unstructured": "Jenike, A. E. & Halushka, M. K. mir-21: a non-specific biomarker of all maladies. Biomarker Res. 9, 1\u20137. (2021).",
+     "journal-title": "Biomarker Res."
+    },
+    {
+     "key": "ref33",
+     "doi-asserted-by": "crossref",
+     "first-page": "1535",
+     "DOI": "10.3390/cells8121535",
+     "article-title": "Regulation of oncogenic targets by mir-99a-3p (passenger strand of mir-99a-duplex) in head and neck squamous cell carcinoma",
+     "volume": "8",
+     "author": "Okada R",
+     "year": "2019",
+     "unstructured": "Okada, R., et al. Regulation of oncogenic targets by mir-99a-3p (passenger strand of mir-99a-duplex) in head and neck squamous cell carcinoma. Cells 8, 1535 (2019).",
+     "journal-title": "Cells"
+    },
+    {
+     "key": "ref34",
+     "first-page": "1759",
+     "article-title": "Potential tumor-suppressive role of microrna-99a-3p in sunitinib-resistant renal cell carcinoma cells through the regulation of rrm2",
+     "volume": "54",
+     "author": "Osako Y",
+     "year": "2019",
+     "unstructured": "Osako, Y., et al. Potential tumor-suppressive role of microrna-99a-3p in sunitinib-resistant renal cell carcinoma cells through the regulation of rrm2. Int. J. Oncol. 54, 1759\u20131770 (2019).",
+     "journal-title": "Int. J. Oncol."
+    },
+    {
+     "key": "ref35",
+     "doi-asserted-by": "crossref",
+     "first-page": "114",
+     "DOI": "10.1016/j.semcdb.2021.05.020",
+     "article-title": "Microrna-1: Diverse role of a small player in multiple cancers",
+     "volume": "124",
+     "author": "Khan P",
+     "year": "2022",
+     "unstructured": "Khan, P., et al. Microrna-1: Diverse role of a small player in multiple cancers. Semin. Cell Dev. Biol. 124, 114\u2013126 (2022).",
+     "journal-title": "Semin. Cell Dev. Biol."
+    },
+    {
+     "key": "ref36",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1042/BSR20200392",
+     "article-title": "Mir-486-3p inhibits the proliferation, migration and invasion of retinoblastoma cells by targeting ecm1",
+     "volume": "40",
+     "author": "Yang H",
+     "year": "2020",
+     "unstructured": "Yang, H., et al. Mir-486-3p inhibits the proliferation, migration and invasion of retinoblastoma cells by targeting ecm1. Biosci. Rep. 40 (2020).",
+     "journal-title": "Biosci. Rep"
+    },
+    {
+     "key": "ref37",
+     "doi-asserted-by": "crossref",
+     "first-page": "110903",
+     "DOI": "10.1016/j.biopha.2020.110903",
+     "article-title": "mir-1: A comprehensive review of its role in normal development and diverse disorders",
+     "volume": "132",
+     "author": "Safa A",
+     "year": "2020",
+     "unstructured": "Safa, A., et al. mir-1: A comprehensive review of its role in normal development and diverse disorders. Biomed. Pharmacother. 132, 110903 (2020).",
+     "journal-title": "Biomed. Pharmacother."
+    },
+    {
+     "key": "ref38",
+     "doi-asserted-by": "crossref",
+     "first-page": "589",
+     "DOI": "10.1007/s10555-006-9032-0",
+     "article-title": "Regulatory roles of runx2 in metastatic tumor and cancer cell interactions with bone",
+     "volume": "25",
+     "author": "Pratap J",
+     "year": "2006",
+     "unstructured": "Pratap, J., et al. Regulatory roles of runx2 in metastatic tumor and cancer cell interactions with bone. Cancer Metastasis Rev. 25, 589\u2013600 (2006).",
+     "journal-title": "Cancer Metastasis Rev."
+    },
+    {
+     "key": "ref39",
+     "doi-asserted-by": "crossref",
+     "first-page": "20969",
+     "DOI": "10.3390/ijms160920969",
+     "article-title": "Role of runx2 in breast carcinogenesis",
+     "volume": "16",
+     "author": "Wysokinski D",
+     "year": "2015",
+     "unstructured": "Wysokinski, D., Blasiak, J. & Pawlowska, E. Role of runx2 in breast carcinogenesis. Int. J. Mol. Sci. 16, 20969\u201320993 (2015).",
+     "journal-title": "Int. J. Mol. Sci."
+    },
+    {
+     "key": "ref40",
+     "doi-asserted-by": "crossref",
+     "first-page": "3938",
+     "DOI": "10.1158/0008-5472.CAN-17-3801",
+     "article-title": "Epigenetic regulation of CXCL12 plays a critical role in mediating tumor progression and the immune response in osteosarcomaos fate determined by epigenetic regulation of cxcl12",
+     "volume": "78",
+     "author": "Li B",
+     "year": "2018",
+     "unstructured": "Li, B., et al. Epigenetic regulation of CXCL12 plays a critical role in mediating tumor progression and the immune response in osteosarcomaos fate determined by epigenetic regulation of cxcl12. Cancer Res. 78, 3938\u20133953 (2018).",
+     "journal-title": "Cancer Res."
+    },
+    {
+     "key": "ref41",
+     "doi-asserted-by": "crossref",
+     "first-page": "2011",
+     "DOI": "10.1007/s10620-017-4611-1",
+     "article-title": "Znf281 promotes growth and invasion of pancreatic cancer cells by activating wnt/\u03b2-catenin signaling",
+     "volume": "62",
+     "author": "Qian Y",
+     "year": "2017",
+     "unstructured": "Qian, Y., Li, J. & Xia, S. Znf281 promotes growth and invasion of pancreatic cancer cells by activating wnt/\u03b2-catenin signaling. Dig. Dis. Sci. 62, 2011\u20132020 (2017).",
+     "journal-title": "Dig. Dis. Sci."
+    },
+    {
+     "key": "ref42",
+     "doi-asserted-by": "crossref",
+     "first-page": "11",
+     "DOI": "10.1016/j.ncrna.2020.01.001",
+     "article-title": "Microrna-486-5p and microrna-486-3p: Multifaceted pleiotropic mediators in oncological and non-oncological conditions",
+     "volume": "5",
+     "author": "ElKhouly AM",
+     "year": "2020",
+     "unstructured": "ElKhouly, A. M., Youness, R. & Gad, M. Microrna-486-5p and microrna-486-3p: Multifaceted pleiotropic mediators in oncological and non-oncological conditions. Non-coding RNA Res. 5, 11\u201321 (2020).",
+     "journal-title": "Non-coding RNA Res."
+    },
+    {
+     "key": "ref43",
+     "doi-asserted-by": "crossref",
+     "first-page": "6788",
+     "DOI": "10.12659/MSM.918682",
+     "article-title": "Kiaa1199, a target of micorna-486-5p, promotes papillary thyroid cancer invasion by influencing epithelial-mesenchymal transition (emt)",
+     "volume": "25",
+     "author": "Jiao X",
+     "year": "2019",
+     "unstructured": "Jiao, X., et al. Kiaa1199, a target of micorna-486-5p, promotes papillary thyroid cancer invasion by influencing epithelial-mesenchymal transition (emt). Med. Sci. Monit. Basic Res. 25, 6788\u20136796 (2019).",
+     "journal-title": "Med. Sci. Monit. Basic Res."
+    },
+    {
+     "key": "ref44",
+     "author": "Haynes W",
+     "year": "2013",
+     "unstructured": "Haynes, W. Benjamini\u2013Hochberg Method (Springer New York, 2013)."
+    },
+    {
+     "key": "ref45",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1186/s13059-020-1926-6",
+     "article-title": "Eleven grand challenges in single-cell data science",
+     "volume": "21",
+     "author": "L\u00e4hnemann D",
+     "year": "2020",
+     "unstructured": "L\u00e4hnemann, D., et al. Eleven grand challenges in single-cell data science. Genome Biol. 21, 1\u201335 (2020).",
+     "journal-title": "Genome Biol."
+    },
+    {
+     "key": "ref46",
+     "author": "Gao LL",
+     "year": "2012",
+     "unstructured": "Gao, L. L., Bien, J. & Witten, D. Selective inference for hierarchical clustering. arXiv Preprint arXiv:2012.02936 (2020)."
+    },
+    {
+     "key": "ref47",
+     "doi-asserted-by": "crossref",
+     "first-page": "454",
+     "DOI": "10.1111/mec.13513",
+     "article-title": "Controlling false discoveries in genome scans for selection",
+     "volume": "25",
+     "author": "Francois O",
+     "year": "2016",
+     "unstructured": "Francois, O., Martins, H., Caye, K., and Schoville, S. D. (2016). Controlling false discoveries in genome scans for selection. Mol Ecol. 25, 454\u2013469",
+     "journal-title": "Mol Ecol."
+    },
+    {
+     "key": "ref48",
+     "doi-asserted-by": "crossref",
+     "first-page": "1235",
+     "DOI": "10.1158/1541-7786.MCR-18-1101",
+     "article-title": "Whole-genome and transcriptional analysis of treatment-emergent small-cell neuroendocrine prostate cancer demonstrates intraclass heterogeneity",
+     "volume": "17",
+     "author": "Aggarwal RR",
+     "year": "2019",
+     "unstructured": "Aggarwal, R. R., et al. Whole-genome and transcriptional analysis of treatment-emergent small-cell neuroendocrine prostate cancer demonstrates intraclass heterogeneity. Mol. Cancer Res. 17, 1235\u20131240 (2019).",
+     "journal-title": "Mol. Cancer Res"
+    },
+    {
+     "key": "ref49",
+     "first-page": "IJE20",
+     "article-title": "Treatment-emergent neuroendocrine prostate cancer: molecularly driven clinical guidelines",
+     "volume": "6",
+     "author": "Clermont PL",
+     "year": "2019",
+     "unstructured": "Clermont, P. L., Ci, X., Pandha, H., Wang, Y. & Crea, F. Treatment-emergent neuroendocrine prostate cancer: molecularly driven clinical guidelines. Int. J. Endocrinol. 6, IJE20. (2019).",
+     "journal-title": "Int. J. Endocrinol."
+    },
+    {
+     "key": "ref50",
+     "doi-asserted-by": "crossref",
+     "first-page": "e17167",
+     "DOI": "10.1371/journal.pone.0017167",
+     "article-title": "Systematic evaluation of three microRNA profiling platforms: Microarray, beads array, and quantitative real-time PCR array",
+     "volume": "6",
+     "author": "Wang B",
+     "year": "2011",
+     "unstructured": "Wang B, et al. Systematic evaluation of three microRNA profiling platforms: Microarray, beads array, and quantitative real-time PCR array. PLoS One 6 e17167 (2011).",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "ref51",
+     "volume-title": "SAS/STAT\u00ae 9.2 User\u2019s Guide",
+     "author": "SAS Institute Inc",
+     "year": "2008",
+     "unstructured": "SAS Institute Inc. SAS/STAT\u00ae 9.2 User\u2019s Guide. (SAS Institute Inc., 2008)."
+    },
+    {
+     "key": "ref52",
+     "doi-asserted-by": "publisher",
+     "first-page": "E1388",
+     "DOI": "10.1210/jc.2011-0345",
+     "article-title": "MiR-1 Is a tumor suppressor in thyroid carcinogenesis targeting CCND2, CXCR4, and SDF-1\u0152\u00b1",
+     "volume": "96",
+     "author": "Leone V",
+     "year": "2011",
+     "unstructured": "Leone, V., et al. MiR-1 Is a tumor suppressor in thyroid carcinogenesis targeting CCND2, CXCR4, and SDF-1\u0152\u00b1. J. Clin. Endocrinol. Metab. 96, E1388\u2013E1398 (2011). doi:10.1210/jc.2011-0345",
+     "journal-title": "J. Clin. Endocrinol. Metab."
+    },
+    {
+     "key": "ref53",
+     "doi-asserted-by": "crossref",
+     "first-page": "29",
+     "DOI": "10.18632/oncotarget.213",
+     "article-title": "mir-1 as a tumor suppressive microRNA targeting tagln2 in head and neck squamous cell carcinoma",
+     "volume": "2",
+     "author": "Nohata N",
+     "year": "2011",
+     "unstructured": "Nohata, N., et al. mir-1 as a tumor suppressive microRNA targeting tagln2 in head and neck squamous cell carcinoma. Oncotarget 2, 29 (2011).",
+     "journal-title": "Oncotarget"
+    },
+    {
+     "key": "ref54",
+     "doi-asserted-by": "crossref",
+     "first-page": "870",
+     "DOI": "10.1006/nimg.2001.1037",
+     "article-title": "Thresholding of statistical maps in functional neuroimaging using the false discovery rate",
+     "volume": "15",
+     "author": "Genovese CR",
+     "year": "2002",
+     "unstructured": "Genovese, C. R., Lazar, N. A. & Nichols, T. Thresholding of statistical maps in functional neuroimaging using the false discovery rate. Neuroimage 15, 870\u2013878 (2002).",
+     "journal-title": "Neuroimage"
+    },
+    {
+     "key": "ref55",
+     "doi-asserted-by": "crossref",
+     "first-page": "491",
+     "DOI": "10.1093/biomet/93.3.491",
+     "article-title": "Adaptive linear step-up procedures that control the false discovery rate",
+     "volume": "93",
+     "author": "Benjamini Y",
+     "year": "2006",
+     "unstructured": "Benjamini, Y., Krieger, A. M. & Yekutieli, D. Adaptive linear step-up procedures that control the false discovery rate. Biometrika 93, 491\u2013507 (2006).",
+     "journal-title": "Biometrika"
+    }
+   ],
+   "link": [
+    {
+     "URL": "https://www.researchsquare.com/article/rs-3861673/v1",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://www.researchsquare.com/article/rs-3861673/v1.html",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      2
+     ]
+    ],
+    "date-time": "2024-06-02T20:09:19Z",
+    "timestamp": 1717358959000
+   },
+   "score": 50.710056,
+   "resource": {
+    "primary": {
+     "URL": "https://www.researchsquare.com/article/rs-3861673/v1"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      17
+     ]
+    ]
+   },
+   "references-count": 55,
+   "URL": "https://doi.org/10.21203/rs.3.rs-3861673/v1",
+   "published": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      17
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      29
+     ]
+    ],
+    "date-time": "2026-09-29T06:05:46Z",
+    "timestamp": 1790661946165,
+    "version": "4.1.0"
+   },
+   "reference-count": 14,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        12,
+        31
+       ]
+      ],
+      "date-time": "2021-12-31T00:00:00Z",
+      "timestamp": 1640908800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2022,
+      11,
+      29
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Summary</jats:title><jats:p>We consider the knockoff-based multiple testing set-up of Barber &amp; Cand\u00e8s (2015). for variable selection in multiple regression. The method of Benjamini &amp; Hochberg (1995) and an adaptive version of it are adjusted to this set-up, transforming them to valid $p$-value-based, false discovery rate-controlling methods that do not rely on specifying the correlation structure of the explanatory variables. Simulations and real data applications show that the proposed methods are powerful competitors of the false discovery rate-controlling method of Barber &amp; Cand\u00e8s (2015).</jats:p>",
+   "DOI": "10.1093/biomet/asab066",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      12,
+      28
+     ]
+    ],
+    "date-time": "2021-12-28T20:18:41Z",
+    "timestamp": 1640722721000
+   },
+   "page": "1149-1155",
+   "source": "Crossref",
+   "is-referenced-by-count": 15,
+   "title": [
+    "Adjusting the Benjamini\u2013Hochberg method for controlling the false discovery rate in knockoff-assisted variable selection"
+   ],
+   "prefix": "10.1093",
+   "volume": "109",
+   "author": [
+    {
+     "given": "Sanat K",
+     "family": "Sarkar",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Statistical Science, Temple University , 1810 Liacouras Walk, Philadelphia, Pennsylvania 19122, U.S.A"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Cheng Yong",
+     "family": "Tang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Statistical Science, Temple University , 1810 Liacouras Walk, Philadelphia, Pennsylvania 19122, U.S.A"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      12,
+      31
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2022112918000064500_B1",
+     "doi-asserted-by": "crossref",
+     "first-page": "2055",
+     "DOI": "10.1214/15-AOS1337",
+     "article-title": "Controlling the false discovery rate via knockoffs",
+     "volume": "43",
+     "author": "Barber,",
+     "year": "2015",
+     "journal-title": "Ann. Statist."
+    },
+    {
+     "key": "2022112918000064500_B2",
+     "doi-asserted-by": "crossref",
+     "first-page": "289",
+     "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+     "article-title": "Controlling the false discovery rate: A practical and powerful approach to multiple testing",
+     "volume": "57",
+     "author": "Benjamini,",
+     "year": "1995",
+     "journal-title": "J. R. Statist. Soc. B"
+    },
+    {
+     "key": "2022112918000064500_B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "1165",
+     "DOI": "10.1214/aos/1013699998",
+     "article-title": "The control of the false discovery rate in multiple testing under dependency",
+     "volume": "29",
+     "author": "Benjamini,",
+     "year": "2001",
+     "journal-title": "Ann. Statist."
+    },
+    {
+     "key": "2022112918000064500_B4",
+     "first-page": "2837",
+     "article-title": "Adaptive false discovery rate control under independence and dependence",
+     "volume": "10",
+     "author": "Blanchard,",
+     "year": "2009",
+     "journal-title": "J. Mach. Learn. Res."
+    },
+    {
+     "key": "2022112918000064500_B5",
+     "doi-asserted-by": "crossref",
+     "first-page": "1019",
+     "DOI": "10.1080/01621459.2012.720478",
+     "article-title": "Estimating false discovery proportion under arbitrary covariance dependence",
+     "volume": "107",
+     "author": "Fan,",
+     "year": "2012",
+     "journal-title": "J. Am. Statist. Assoc."
+    },
+    {
+     "key": "2022112918000064500_B6",
+     "article-title": "Conditional calibration for false discovery rate control under dependence",
+     "author": "Fithian,",
+     "year": "2020"
+    },
+    {
+     "key": "2022112918000064500_B7",
+     "doi-asserted-by": "crossref",
+     "first-page": "960",
+     "DOI": "10.1214/16-EJS1129",
+     "article-title": "Familywise error rate control via knockoffs",
+     "volume": "10",
+     "author": "Janson,",
+     "year": "2016",
+     "journal-title": "Electron. J. Statist."
+    },
+    {
+     "key": "2022112918000064500_B8",
+     "volume-title": "Testing Statistical Hypotheses",
+     "author": "Lehmann,",
+     "year": "2005",
+     "edition": "3rd ed"
+    },
+    {
+     "key": "2022112918000064500_B9",
+     "doi-asserted-by": "crossref",
+     "first-page": "456",
+     "DOI": "10.1086/431601",
+     "article-title": "HIV-1 Protease and reverse-transcriptase mutations: Correlations with antiretroviral therapy in subtype B isolates and implications for drug-resistance surveillance",
+     "volume": "192",
+     "author": "Rhee,",
+     "year": "2005",
+     "journal-title": "J. Inf. Dis."
+    },
+    {
+     "key": "2022112918000064500_B10",
+     "doi-asserted-by": "crossref",
+     "first-page": "17355",
+     "DOI": "10.1073/pnas.0607274103",
+     "article-title": "Genotypic predictors of human immunodeficiency virus type 1 drug resistance",
+     "volume": "103",
+     "author": "Rhee,",
+     "year": "2006",
+     "journal-title": "Proc. Nat. Acad. Sci."
+    },
+    {
+     "key": "2022112918000064500_B11",
+     "doi-asserted-by": "crossref",
+     "first-page": "239",
+     "DOI": "10.1214/aos/1015362192",
+     "article-title": "Some results on false discovery rate in stepwise multiple testing procedures",
+     "volume": "30",
+     "author": "Sarkar,",
+     "year": "2002",
+     "journal-title": "Ann. Statist."
+    },
+    {
+     "key": "2022112918000064500_B12",
+     "doi-asserted-by": "crossref",
+     "first-page": "2405",
+     "DOI": "10.1214/009053607000000398",
+     "article-title": "Stepup procedures controlling generalized FWER and generalized FDR",
+     "volume": "35",
+     "author": "Sarkar,",
+     "year": "2007",
+     "journal-title": "Ann. Statist."
+    },
+    {
+     "key": "2022112918000064500_B13",
+     "first-page": "135",
+     "article-title": "On methods controlling the false discovery rate",
+     "volume": "70",
+     "author": "Sarkar,",
+     "year": "2008",
+     "journal-title": "Sankhy\u00e3"
+    },
+    {
+     "key": "2022112918000064500_B14",
+     "doi-asserted-by": "crossref",
+     "first-page": "187",
+     "DOI": "10.1111/j.1467-9868.2004.00439.x",
+     "article-title": "Strong control, conservative point estimation and simultaneous conservative consistency of false discovery rates: A unified approach",
+     "volume": "66",
+     "author": "Storey,",
+     "year": "2004",
+     "journal-title": "J. R. Statist. Soc. B"
+    }
+   ],
+   "container-title": [
+    "Biometrika"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/biomet/advance-article-pdf/doi/10.1093/biomet/asab066/42869863/asab066.pdf",
+     "content-type": "application/pdf",
+     "content-version": "am",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/biomet/article-pdf/109/4/1149/47415773/asab066.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/biomet/article-pdf/109/4/1149/47415773/asab066.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      9,
+      15
+     ]
+    ],
+    "date-time": "2024-09-15T08:41:17Z",
+    "timestamp": 1726389677000
+   },
+   "score": 49.416122,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/biomet/article/109/4/1149/6491231"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      12,
+      31
+     ]
+    ]
+   },
+   "references-count": 14,
+   "journal-issue": {
+    "issue": "4",
+    "published-online": {
+     "date-parts": [
+      [
+       2021,
+       12,
+       31
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2022,
+       11,
+       29
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/biomet/asab066",
+   "ISSN": [
+    "0006-3444",
+    "1464-3510"
+   ],
+   "issn-type": [
+    {
+     "value": "0006-3444",
+     "type": "print"
+    },
+    {
+     "value": "1464-3510",
+     "type": "electronic"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2022,
+      12,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      12,
+      31
+     ]
+    ]
+   }
+  }
+ ]
+}

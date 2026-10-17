@@ -1,0 +1,1875 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     29
+    ]
+   ],
+   "date-time": "2026-09-29T18:12:07Z",
+   "timestamp": 1790705527888,
+   "version": "4.1.0"
+  },
+  "reference-count": 99,
+  "publisher": "National Academy of Sciences",
+  "issue": "14",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2023,
+       3,
+       27
+      ]
+     ],
+     "date-time": "2023-03-27T00:00:00Z",
+     "timestamp": 1679875200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "www.pnas.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Proc. Natl. Acad. Sci. U.S.A."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2023,
+     4,
+     4
+    ]
+   ]
+  },
+  "abstract": "<jats:p>Crop wild relatives represent valuable sources of alleles for crop improvement, including adaptation to climate change and emerging diseases. However, introgressions from wild relatives might have deleterious effects on desirable traits, including yield, due to linkage drag. Here, we analyzed the genomic and phenotypic impacts of wild introgressions in inbred lines of cultivated sunflower to estimate the impacts of linkage drag. First, we generated reference sequences for seven cultivated and one wild sunflower genotype, as well as improved assemblies for two additional cultivars. Next, relying on previously generated sequences from wild donor species, we identified introgressions in the cultivated reference sequences, as well as the sequence and structural variants they contain. We then used a ridge-regression best linear unbiased prediction (BLUP) model to test the effects of the introgressions on phenotypic traits in the cultivated sunflower association mapping population. We found that introgression has introduced substantial sequence and structural variation into the cultivated sunflower gene pool, including &gt;3,000 new genes. While introgressions reduced genetic load at protein-coding sequences, they mostly had negative impacts on yield and quality traits. Introgressions found at high frequency in the cultivated gene pool had larger effects than low-frequency introgressions, suggesting that the former likely were targeted by artificial selection. Also, introgressions from more distantly related species were more likely to be maladaptive than those from the wild progenitor of cultivated sunflower. Thus, breeding efforts should focus, as far as possible, on closely related and fully compatible wild relatives.</jats:p>",
+  "DOI": "10.1073/pnas.2205783119",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2023,
+     3,
+     27
+    ]
+   ],
+   "date-time": "2023-03-27T15:21:56Z",
+   "timestamp": 1679930516000
+  },
+  "update-policy": "https://doi.org/10.1073/pnas.cm10313",
+  "source": "Crossref",
+  "is-referenced-by-count": 65,
+  "title": [
+   "The genomics of linkage drag in inbred lines of sunflower"
+  ],
+  "prefix": "10.1073",
+  "volume": "120",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-0378-5988",
+    "authenticated-orcid": false,
+    "given": "Kaichi",
+    "family": "Huang",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Botany, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Biodiversity Research Centre, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1844-1464",
+    "authenticated-orcid": false,
+    "given": "Mojtaba",
+    "family": "Jahani",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Botany, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Biodiversity Research Centre, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5695-4557",
+    "authenticated-orcid": false,
+    "given": "J\u00e9r\u00f4me",
+    "family": "Gouzy",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alexandra",
+    "family": "Legendre",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S\u00e9bastien",
+    "family": "Carrere",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0741-4225",
+    "authenticated-orcid": false,
+    "given": "Jos\u00e9 Miguel",
+    "family": "L\u00e1zaro-Guevara",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Botany, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Biodiversity Research Centre, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5598-0235",
+    "authenticated-orcid": false,
+    "given": "Eric Gerardo",
+    "family": "Gonz\u00e1lez Segovia",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Botany, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Biodiversity Research Centre, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6227-4096",
+    "authenticated-orcid": false,
+    "given": "Marco",
+    "family": "Todesco",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Botany, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Biodiversity Research Centre, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6720-6861",
+    "authenticated-orcid": false,
+    "given": "Baptiste",
+    "family": "Mayjonade",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3361-4730",
+    "authenticated-orcid": false,
+    "given": "Nathalie",
+    "family": "Rodde",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre National de Ressources G\u00e9nomiques V\u00e9g\u00e9tales (CNRGV), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4985-8940",
+    "authenticated-orcid": false,
+    "given": "St\u00e9phane",
+    "family": "Cauet",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre National de Ressources G\u00e9nomiques V\u00e9g\u00e9tales (CNRGV), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2020-7423",
+    "authenticated-orcid": false,
+    "given": "Isabelle",
+    "family": "Dufau",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre National de Ressources G\u00e9nomiques V\u00e9g\u00e9tales (CNRGV), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S. Evan",
+    "family": "Staton",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Botany, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Biodiversity Research Centre, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Research and Development Department, NRGene Canada Inc., Saskatoon, SK S7N 3R3, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6123-9272",
+    "authenticated-orcid": false,
+    "given": "Nicolas",
+    "family": "Pouilly",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marie-Claude",
+    "family": "Boniface",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Camille",
+    "family": "Tapy",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Brigitte",
+    "family": "Mangin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alexandra",
+    "family": "Duhnen",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9300-2763",
+    "authenticated-orcid": false,
+    "given": "V\u00e9ronique",
+    "family": "Gautier",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Gentyane Genomic Platform, Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Clermont Ferrand, 63000 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3376-347X",
+    "authenticated-orcid": false,
+    "given": "Charles",
+    "family": "Poncet",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Gentyane Genomic Platform, Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Clermont Ferrand, 63000 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C\u00e9cile",
+    "family": "Donnadieu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Plateforme G\u00e9nome et Transcriptome (GeT-PlaGe), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tali",
+    "family": "Mandel",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIGAL Galilee Research Institute, Tel-Hai Academic College, Upper Galilee, 11016 Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3660-4634",
+    "authenticated-orcid": false,
+    "given": "Sariel",
+    "family": "H\u00fcbner",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "MIGAL Galilee Research Institute, Tel-Hai Academic College, Upper Galilee, 11016 Israel"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1412-5539",
+    "authenticated-orcid": false,
+    "given": "John M.",
+    "family": "Burke",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Plant Biology, University of Georgia, Athens, GA 30602"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sonia",
+    "family": "Vautrin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre National de Ressources G\u00e9nomiques V\u00e9g\u00e9tales (CNRGV), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7608-9537",
+    "authenticated-orcid": false,
+    "given": "Arnaud",
+    "family": "Bellec",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre National de Ressources G\u00e9nomiques V\u00e9g\u00e9tales (CNRGV), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4019-5215",
+    "authenticated-orcid": false,
+    "given": "Gregory L.",
+    "family": "Owens",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Biology, University of Victoria, Victoria, BC V8W 2Y2, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5651-1446",
+    "authenticated-orcid": false,
+    "given": "Nicolas",
+    "family": "Langlade",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "St\u00e9phane",
+    "family": "Mu\u00f1os",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratoire des Interactions Plantes-Microbes-Environnement, Centre national de la recherche scientifique (CNRS), Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), Universit\u00e9 de Toulouse, Castanet-Tolosan, F-31326 France"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-2712-2417",
+    "authenticated-orcid": false,
+    "given": "Loren H.",
+    "family": "Rieseberg",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Botany, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     },
+     {
+      "name": "Biodiversity Research Centre, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "341",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     3,
+     27
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_3_5_1_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/nature01019"
+   },
+   {
+    "key": "e_1_3_5_2_2",
+    "first-page": "339",
+    "article-title": "Guns, germs, and steel: The fates of human societies",
+    "volume": "386",
+    "author": "Diamond J.",
+    "year": "1997",
+    "unstructured": "J. Diamond, C. Renfrew, Guns, germs, and steel: The fates of human societies. Nature 386, 339\u2013339 (1997).",
+    "journal-title": "Nature"
+   },
+   {
+    "key": "e_1_3_5_3_2",
+    "volume-title": "The Origin of Species by Means of Natural Selection, or, The Preservation of Favoured Races in the Struggle for Life",
+    "author": "Darwin C.",
+    "year": "1859",
+    "unstructured": "C. Darwin, The Origin of Species by Means of Natural Selection, or, The Preservation of Favoured Races in the Struggle for Life (John Murray, London, ed. 6, 1859)."
+   },
+   {
+    "key": "e_1_3_5_4_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/4444260"
+   },
+   {
+    "key": "e_1_3_5_5_2",
+    "volume-title": "Crop Evolution, Adaptation and Yield",
+    "author": "Evans L. T.",
+    "year": "1993",
+    "unstructured": "L. T. Evans, Crop Evolution, Adaptation and Yield (Cambridge University Press, New York, 1993)."
+   },
+   {
+    "key": "e_1_3_5_6_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-002-1127-6"
+   },
+   {
+    "key": "e_1_3_5_7_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/nph.17733"
+   },
+   {
+    "key": "e_1_3_5_8_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jhered/esx069"
+   },
+   {
+    "key": "e_1_3_5_9_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1146/annurev.py.23.090185.002355"
+   },
+   {
+    "key": "e_1_3_5_10_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-294X.2011.05301.x"
+   },
+   {
+    "key": "e_1_3_5_11_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.188.4188.618"
+   },
+   {
+    "key": "e_1_3_5_12_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.277.5329.1063"
+   },
+   {
+    "key": "e_1_3_5_13_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/499023a"
+   },
+   {
+    "key": "e_1_3_5_14_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1515/9781400858118"
+   },
+   {
+    "key": "e_1_3_5_15_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/35103590"
+   },
+   {
+    "key": "e_1_3_5_16_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2021.626565"
+   },
+   {
+    "key": "e_1_3_5_17_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2016.10.0885"
+   },
+   {
+    "key": "e_1_3_5_18_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pbio.0020245"
+   },
+   {
+    "key": "e_1_3_5_19_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10681-007-9363-0"
+   },
+   {
+    "key": "e_1_3_5_20_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3732/ajb.1400116"
+   },
+   {
+    "key": "e_1_3_5_21_2",
+    "volume-title": "Crop Wild Relatives: A Valuable Resource for Crop Development",
+    "author": "PwC",
+    "year": "2013",
+    "unstructured": "PwC, Crop Wild Relatives: A Valuable Resource for Crop Development (PricewaterhouseCoopers, London, 2013)."
+   },
+   {
+    "key": "e_1_3_5_22_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1534/genetics.104.029546"
+   },
+   {
+    "key": "e_1_3_5_23_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2021.699761"
+   },
+   {
+    "key": "e_1_3_5_24_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-021-03810-5"
+   },
+   {
+    "key": "e_1_3_5_25_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/pce.12888"
+   },
+   {
+    "key": "e_1_3_5_26_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/1218252"
+   },
+   {
+    "key": "e_1_3_5_27_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/BF00305828"
+   },
+   {
+    "key": "e_1_3_5_28_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-003-1422-x"
+   },
+   {
+    "key": "e_1_3_5_29_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.1413864112"
+   },
+   {
+    "key": "e_1_3_5_30_2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "T. Brazier S. Gl\u00e9min Diversity and determinants of recombination landscapes in flowering plants. bioRxiv [Preprint] (2022). https://www.biorxiv.org/content/10.1101/2022.03.10.483889v1 (Accessed 9 June 2022).",
+    "DOI": "10.1101/2022.03.10.483889"
+   },
+   {
+    "key": "e_1_3_5_31_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/molbev/msac101"
+   },
+   {
+    "key": "e_1_3_5_32_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41477-019-0556-z"
+   },
+   {
+    "key": "e_1_3_5_33_2",
+    "first-page": "1",
+    "article-title": "The North American sunflowers (Helianthus)",
+    "volume": "22",
+    "author": "Heiser C. B.",
+    "year": "1969",
+    "unstructured": "C. B. Heiser, D. M. Smith, S. B. Clevenger, W. C. Martin, The North American sunflowers (Helianthus). Mem. Torrey Bot. Club 22, 1\u2013218 (1969).",
+    "journal-title": "Mem. Torrey Bot. Club"
+   },
+   {
+    "key": "e_1_3_5_34_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2307/2419126"
+   },
+   {
+    "key": "e_1_3_5_35_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2015.00841"
+   },
+   {
+    "key": "e_1_3_5_36_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci1983.0011183X002300050046x"
+   },
+   {
+    "key": "e_1_3_5_37_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-017-1346-4"
+   },
+   {
+    "key": "e_1_3_5_38_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41477-019-0397-9"
+   },
+   {
+    "key": "e_1_3_5_39_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/eva.12603"
+   },
+   {
+    "key": "e_1_3_5_40_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41477-018-0329-0"
+   },
+   {
+    "key": "e_1_3_5_41_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2135/cropsci2016.10.0856"
+   },
+   {
+    "key": "e_1_3_5_42_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/nph.13255"
+   },
+   {
+    "key": "e_1_3_5_43_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/nature22380"
+   },
+   {
+    "key": "e_1_3_5_44_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41586-020-2467-6"
+   },
+   {
+    "key": "e_1_3_5_45_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-011-1619-3"
+   },
+   {
+    "key": "e_1_3_5_46_2",
+    "first-page": "1",
+    "article-title": "Gene banks for wild and cultivated sunflower genetic resources",
+    "volume": "27",
+    "author": "Terzi\u0107 S.",
+    "year": "2020",
+    "unstructured": "S. Terzi\u0107 , Gene banks for wild and cultivated sunflower genetic resources. OCL Oilseeds Fats Crops Lipids 27, 1\u201314 (2020).",
+    "journal-title": "OCL Oilseeds Fats Crops Lipids"
+   },
+   {
+    "key": "e_1_3_5_47_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1365-313X.2012.05072.x"
+   },
+   {
+    "key": "e_1_3_5_48_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s001220051228"
+   },
+   {
+    "key": "e_1_3_5_49_2",
+    "first-page": "1",
+    "article-title": "Changes in sunflower breeding over the last fifty years",
+    "volume": "23",
+    "author": "Vear F.",
+    "year": "2016",
+    "unstructured": "F. Vear, Changes in sunflower breeding over the last fifty years. OCL Oilseeds Fats Crops Lipids 23, 1\u20138 (2016).",
+    "journal-title": "OCL Oilseeds Fats Crops Lipids"
+   },
+   {
+    "key": "e_1_3_5_50_2",
+    "first-page": "99",
+    "article-title": "Une sterilite male cytoplasmique chez le tournesol",
+    "volume": "19",
+    "author": "Leclercq P.",
+    "year": "1969",
+    "unstructured": "P. Leclercq, Une sterilite male cytoplasmique chez le tournesol. Ann. Amelior. Plant. 19, 99\u2013106 (1969).",
+    "journal-title": "Ann. Amelior. Plant."
+   },
+   {
+    "key": "e_1_3_5_51_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/molbev/msv106"
+   },
+   {
+    "key": "e_1_3_5_52_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jare.2022.04.008"
+   },
+   {
+    "key": "e_1_3_5_53_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pgen.1003378"
+   },
+   {
+    "key": "e_1_3_5_54_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s12870-015-0458-9"
+   },
+   {
+    "key": "e_1_3_5_55_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2015.00167"
+   },
+   {
+    "key": "e_1_3_5_56_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jplph.2020.153351"
+   },
+   {
+    "key": "e_1_3_5_57_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.cub.2019.05.053"
+   },
+   {
+    "key": "e_1_3_5_58_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.aat1577"
+   },
+   {
+    "key": "e_1_3_5_59_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1104/pp.20.00873"
+   },
+   {
+    "key": "e_1_3_5_60_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bfgp/elq001"
+   },
+   {
+    "key": "e_1_3_5_61_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1146/annurev-arplant-080720-105454"
+   },
+   {
+    "key": "e_1_3_5_62_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41477-020-0733-0"
+   },
+   {
+    "key": "e_1_3_5_63_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3835/plantgenome2018.09.0069"
+   },
+   {
+    "key": "e_1_3_5_64_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-020-02224-8"
+   },
+   {
+    "key": "e_1_3_5_65_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/j.1537-2197.1985.tb08374.x"
+   },
+   {
+    "key": "e_1_3_5_66_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1469-8137.2005.01433.x"
+   },
+   {
+    "key": "e_1_3_5_67_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.abg5289"
+   },
+   {
+    "key": "e_1_3_5_68_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/molbev/msn187"
+   },
+   {
+    "key": "e_1_3_5_69_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3732/ajb.1600113"
+   },
+   {
+    "key": "e_1_3_5_70_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2020.00252"
+   },
+   {
+    "key": "e_1_3_5_71_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3389/fpls.2019.00525"
+   },
+   {
+    "key": "e_1_3_5_72_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.biori.2019.07.001"
+   },
+   {
+    "key": "e_1_3_5_73_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00122-021-03985-x"
+   },
+   {
+    "key": "e_1_3_5_74_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1101/gr.193474.115"
+   },
+   {
+    "key": "e_1_3_5_75_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41588-018-0110-3"
+   },
+   {
+    "key": "e_1_3_5_76_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1101/gr.215087.116"
+   },
+   {
+    "key": "e_1_3_5_77_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-014-0573-1"
+   },
+   {
+    "key": "e_1_3_5_78_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-1-4939-9173-0_6"
+   },
+   {
+    "key": "e_1_3_5_79_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/molbev/msab199"
+   },
+   {
+    "key": "e_1_3_5_80_2",
+    "unstructured": "J. M. L\u00e1zaro-Guevara Code for \u201cThe genomics of linkage drag in inbred lines of sunflower.\u201d GitHub. https://github.com/megahitokiri/Sunflower_annotation_Snakemake. Deposited 3 January 2022."
+   },
+   {
+    "key": "e_1_3_5_81_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-019-1905-y"
+   },
+   {
+    "key": "e_1_3_5_82_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1371/journal.pcbi.1005944"
+   },
+   {
+    "key": "e_1_3_5_83_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13059-019-1911-0"
+   },
+   {
+    "key": "e_1_3_5_84_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41467-019-12884-1"
+   },
+   {
+    "key": "e_1_3_5_85_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bioinformatics/btv421"
+   },
+   {
+    "key": "e_1_3_5_86_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bioinformatics/bti310"
+   },
+   {
+    "key": "e_1_3_5_87_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/genetics/155.2.945"
+   },
+   {
+    "key": "e_1_3_5_88_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/genetics/164.4.1567"
+   },
+   {
+    "key": "e_1_3_5_89_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/bioinformatics/btr330"
+   },
+   {
+    "key": "e_1_3_5_90_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.4161/fly.19695"
+   },
+   {
+    "key": "e_1_3_5_91_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1353/hub.2012.a493568"
+   },
+   {
+    "key": "e_1_3_5_92_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/ng.548"
+   },
+   {
+    "key": "e_1_3_5_93_2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3835/plantgenome2011.08.0024"
+   },
+   {
+    "key": "e_1_3_5_94_2",
+    "unstructured": "K. Huang\u00a0. Data from \u201cThe genomics of linkage drag in inbred lines of sunflower.\u201d Sunflower\u00a0Genome\u00a0Database. https://sunflowergenome.org/assembly-data. Deposited 3\u00a0July 2020."
+   },
+   {
+    "key": "e_1_3_5_95_2",
+    "unstructured": "K. Huang\u00a0. Data from \u201cThe genomics of linkage drag in inbred lines of sunflower.\u201d INRA Sunflower Bioinformatics Resources. https://www.heliagene.org/HanXRQr2.0-SUNRISE. Deposited 13 July 2020."
+   },
+   {
+    "key": "e_1_3_5_96_2",
+    "unstructured": "K. Huang\u00a0. Data from \u201cThe genomics of linkage drag in inbred lines of sunflower.\u201d National Center for Biotechnology Information. https://www.ncbi.nlm.nih.gov/nuccore/MNCJ02000000. Deposited 13 July 2020."
+   },
+   {
+    "key": "e_1_3_5_97_2",
+    "unstructured": "K. Huang . Data from \u201cThe genomics of linkage drag in inbred lines of sunflower.\u201d National Center for Biotechnology Information. https://www.ncbi.nlm.nih.gov/bioproject/PRJNA345532. Deposited 9 September 2022."
+   },
+   {
+    "key": "e_1_3_5_98_2",
+    "unstructured": "K. Huang Code for \u201cThe genomics of linkage drag in inbred lines of sunflower.\u201d GitHub. https://github.com/hkchi/Linkage-drag. Deposited 30 August\u00a02022."
+   },
+   {
+    "key": "e_1_3_5_99_2",
+    "unstructured": "M. Jahani Code for \u201cThe genomics of linkage drag in inbred lines of sunflower.\u201d GitHub. https://github.com/m-jahani/LINKAGE_DRAG. Deposited 19 April 2022."
+   }
+  ],
+  "container-title": [
+   "Proceedings of the National Academy of Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://pnas.org/doi/pdf/10.1073/pnas.2205783119",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2023,
+     11,
+     8
+    ]
+   ],
+   "date-time": "2023-11-08T20:01:30Z",
+   "timestamp": 1699473690000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://pnas.org/doi/10.1073/pnas.2205783119"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     3,
+     27
+    ]
+   ]
+  },
+  "references-count": 99,
+  "journal-issue": {
+   "issue": "14",
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      4
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1073/pnas.2205783119"
+  ],
+  "URL": "https://doi.org/10.1073/pnas.2205783119",
+  "relation": {},
+  "ISSN": [
+   "0027-8424",
+   "1091-6490"
+  ],
+  "issn-type": [
+   {
+    "value": "0027-8424",
+    "type": "print"
+   },
+   {
+    "value": "1091-6490",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2023,
+     3,
+     27
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2022-06-09",
+    "order": 0,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2022-09-18",
+    "order": 1,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   },
+   {
+    "value": "2023-03-27",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ],
+  "article-number": "e2205783119"
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      10
+     ]
+    ],
+    "date-time": "2025-07-10T09:10:10Z",
+    "timestamp": 1752138610481,
+    "version": "3.41.2"
+   },
+   "reference-count": 9,
+   "publisher": "Indian Society of Oilseeds Research",
+   "issue": "Specialissue",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "J. Oilseeds. Res."
+   ],
+   "abstract": "<jats:p>The experiment was conducted at Oilseeds Research Centre, Dr. PDKV, Akola during Kharif 2020-2021, to study the Genetic Variability studies in Sunflower Inbred Lines. The experiment consisted of 24 sunflower inbred lines were evaluated with three checks (DRSF 108, DRSF 113 and Phule Bhaskar) respectively and was laid out in Randomized Block Design. The study illustrated, the existence of wide ranges of variations for most of the characters among the sunflower inbred lines. Analysis of variation indicated that the mean squares of the genotypes were highly significant for all the characters taken under study. The range of variation, as well as genotypic and phenotypic coefficient of variations were high for seed yield/plant, plant height and test weight indicating the scope of improvement through simple selection procedure for obtaining high yield. Broad-sense heritability estimate was maximum for plant height (98.5), while that for seed yield g/plant (97.4) and head diameter (95.6). Hence, higher heritability estimates for these traits indicated that environmental factors did not greatly affect phenotypic variation of these characters.</jats:p>",
+   "DOI": "10.56739/4m0fv851",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      26
+     ]
+    ],
+    "date-time": "2024-02-26T00:21:08Z",
+    "timestamp": 1708906868000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Genetic variability and heritability studies in sunflower inbred lines"
+   ],
+   "prefix": "10.56739",
+   "volume": "40",
+   "author": [
+    {
+     "family": "S J GAHUKAR",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "family": "SANGITA U FATAK",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "36019",
+   "published-online": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      14
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "1124044",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Browning SJ, Riordan TP, Johnson RK, Johnson-Cicalese J (1994). Heritability estimates of turf-type characteristics in buffalo grass. Hort Science29:204\u2013205.",
+     "DOI": "10.21273/HORTSCI.29.3.204"
+    },
+    {
+     "key": "1124045",
+     "unstructured": "Burton GW (1952).Quantitative inheritance in grasses. In: Proceedings of the 6th international grasslands congress, vol 1, pp 227\u2013283."
+    },
+    {
+     "key": "1124046",
+     "unstructured": "Fourth Advance estimates of Maharashtra State for the year 2021-2022."
+    },
+    {
+     "key": "1124047",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Hanson GH, Robinson HF, Comstock RE (1956). Biometrical studies of yield in segregating populations of Korean Lespedeza. Agron J48:267\u2013282.",
+     "DOI": "10.2134/agronj1956.00021962004800060008x"
+    },
+    {
+     "key": "1124048",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Milatovic D, Nikolic D, Durovic D (2010) Variability, heritability and correlation of some factors affecting productivity in peach. HorticSci (Prague) 27(3):79\u201387.",
+     "DOI": "10.17221/63/2009-HORTSCI"
+    },
+    {
+     "key": "1124049",
+     "unstructured": "Oilseeds Scenario, IIOR, Hyderabad. 2019."
+    },
+    {
+     "key": "1124050",
+     "unstructured": "Patil BR, Rudraradhya M, Vijayakumar CHM, BasappaH,Virupakshappa K (1996) .Genetic variability in sunflower. J Oilseeds Res13:157\u2013161."
+    },
+    {
+     "key": "1124051",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Sujatha HL, Chikkadevaiah, Nandini R (2002).Genetic variability study in sunflower inbreds.Helia25(37):93\u2013100.",
+     "DOI": "10.2298/HEL0237093S"
+    },
+    {
+     "key": "1124052",
+     "unstructured": "Virupakshappa, K. and Sindagi, S.S., 1988. Characterization, evaluation and utilization of sunflower germplasm accessions, a catalogue; Project co-ordinating unit (sunflower), Univ. Agric. Sci., Bangalore, p. 33."
+    }
+   ],
+   "container-title": [
+    "Journal of Oilseeds Research"
+   ],
+   "link": [
+    {
+     "URL": "https://epubs.icar.org.in/index.php/JOR/article/download/146085/61318",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://epubs.icar.org.in/index.php/JOR/article/download/146085/61318",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      10
+     ]
+    ],
+    "date-time": "2025-07-10T08:52:54Z",
+    "timestamp": 1752137574000
+   },
+   "score": 36.892555,
+   "resource": {
+    "primary": {
+     "URL": "https://epubs.icar.org.in/index.php/JOR/article/view/146085"
+    }
+   },
+   "subtitle": [
+    "Genetic variability and heritability studies in sunflower inbred lines"
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      14
+     ]
+    ]
+   },
+   "references-count": 9,
+   "journal-issue": {
+    "issue": "Specialissue",
+    "published-online": {
+     "date-parts": [
+      [
+       2023,
+       12,
+       14
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.56739/4m0fv851",
+   "ISSN": [
+    "0970-2776"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "0970-2776"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      11
+     ]
+    ],
+    "date-time": "2025-07-11T00:03:58Z",
+    "timestamp": 1752192238988,
+    "version": "3.41.2"
+   },
+   "reference-count": 9,
+   "publisher": "Indian Society of Oilseeds Research",
+   "issue": "Specialissue",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "J. Oilseeds. Res."
+   ],
+   "abstract": "<jats:p>Sunflower (Helianthus annuus L.) is one of the important oilseed crops after Groundnut, RapeseedMustard and Soybean. Sunflower is an important crop for production of healthy edible oil for cardiac problems due to which sunflower oil has great demand in commence. Breeding programme aim at development of cultivars with high yield and yield components. A wide range of variation has been reported for seed yield, seed number and other important components of yield. The experiment was conducted at Oilseeds Research Centre, Dr. PDKV, Akola during Kharif 2020-2021, to study the Genetic Variability studies in Sunflower Inbred Lines. The experiment consisted of 24 sunflower inbred lines were evaluated with three checks (DRSF 108, DRSF 113 and Phule Bhaskar) respectively and was laid out in Randomized Block Design. In this study illustrated that, the existence of wide ranges of variations for most of the characters among the sunflower inbred lines, Diversity among morphological traits can influence on heterosis and be reliable marker for prediction hybrid potential. The genus sunflower has a very high variability, in wild ecotypes as well in breeding genotypes. Sunflower genotypes differ in plant architecture, types of branching, flower colour and morphology, number and size of heads, seed size and color and many other traits. Analysis of variation indicated that the mean squares of the genotypes were highly significant for all the characters taken under study. The range of variation, as well as genotypic and phenotypic coefficient of variations were high for seed yield per plant, plant height and test weight indicating the scope of improvement through simple selection procedure for obtaining high yield.Broad-sense heritability estimate was maximum for plant height (98.5), while that for seed yield g per plant (97.4) and head diameter (95.6). Hence, higher heritability estimates for these traits indicated that environmental factors did not greatly affect phenotypic variation of these characters.</jats:p>",
+   "DOI": "10.56739/3r76kt98",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      26
+     ]
+    ],
+    "date-time": "2024-02-26T00:16:19Z",
+    "timestamp": 1708906579000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Genetic variability and heritability studies in sunflower inbred lines"
+   ],
+   "prefix": "10.56739",
+   "volume": "40",
+   "author": [
+    {
+     "family": "S J GAHUKAR",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "family": "SANGITA U FATAK",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "36019",
+   "published-online": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      14
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "1127644",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Browning SJ, Riordan TP, Johnson RK, Johnson-Cicalese J (1994). Heritability estimates of turf-type characteristics in buffalo grass. Hort Science 29:204\u2013205.",
+     "DOI": "10.21273/HORTSCI.29.3.204"
+    },
+    {
+     "key": "1127645",
+     "unstructured": "Burton GW (1952).Quantitative inheritance in grasses. In: Proceedings of the 6th international grasslands congress, vol 1, pp 227\u2013283."
+    },
+    {
+     "key": "1127646",
+     "unstructured": "Fourth Advance estimates of Maharashtra State for the year 2021-2022."
+    },
+    {
+     "key": "1127647",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Hanson GH, Robinson HF, Comstock RE (1956). Biometrical studies of yield in segregating populations of Korean Lespedeza. Agron J 48:267\u2013 282.",
+     "DOI": "10.2134/agronj1956.00021962004800060008x"
+    },
+    {
+     "key": "1127648",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Milatovic D, Nikolic D, Durovic D (2010) Variability, heritability and correlation of some factors affecting productivity in peach. HorticSci (Prague) 27(3):79\u201387.",
+     "DOI": "10.17221/63/2009-HORTSCI"
+    },
+    {
+     "key": "1127649",
+     "unstructured": "Oilseeds Scenario, IIOR, Hyderabad. 2019."
+    },
+    {
+     "key": "1127650",
+     "unstructured": "Patil BR, Rudraradhya M, Vijayakumar CHM, BasappaH,Virupakshappa K (1996) .Genetic variability in sunflower. J Oilseeds Res 13:157\u2013161."
+    },
+    {
+     "key": "1127651",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Sujatha HL, Chikkadevaiah, Nandini R (2002).Genetic variability study in sunflower inbreds.Helia 25(37):93\u2013 100.",
+     "DOI": "10.2298/HEL0237093S"
+    },
+    {
+     "key": "1127652",
+     "unstructured": "Virupakshappa, K. and Sindagi, S.S., 1988. Characterization, evaluation and utilization of sunflower germplasm accessions, a catalogue; Project co-ordinating unit (sunflower), Univ. Agric. Sci., Bangalore, p. 33."
+    }
+   ],
+   "container-title": [
+    "Journal of Oilseeds Research"
+   ],
+   "link": [
+    {
+     "URL": "https://epubs.icar.org.in/index.php/JOR/article/download/146247/61360",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://epubs.icar.org.in/index.php/JOR/article/download/146247/61360",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      10
+     ]
+    ],
+    "date-time": "2025-07-10T09:27:25Z",
+    "timestamp": 1752139645000
+   },
+   "score": 36.79483,
+   "resource": {
+    "primary": {
+     "URL": "https://epubs.icar.org.in/index.php/JOR/article/view/146247"
+    }
+   },
+   "subtitle": [
+    "Genetic variability and heritability studies in sunflower inbred lines"
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      14
+     ]
+    ]
+   },
+   "references-count": 9,
+   "journal-issue": {
+    "issue": "Specialissue",
+    "published-online": {
+     "date-parts": [
+      [
+       2023,
+       12,
+       14
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.56739/3r76kt98",
+   "ISSN": [
+    "0970-2776"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "0970-2776"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2023,
+      12,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2023,
+      10,
+      19
+     ]
+    ],
+    "date-time": "2023-10-19T05:31:09Z",
+    "timestamp": 1697693469799
+   },
+   "reference-count": 10,
+   "publisher": "National Library of Serbia",
+   "issue": "46",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Helia"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2007
+     ]
+    ]
+   },
+   "DOI": "10.2298/hel0746025h",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2007,
+      11,
+      20
+     ]
+    ],
+    "date-time": "2007-11-20T11:25:50Z",
+    "timestamp": 1195557950000
+   },
+   "page": "25-36",
+   "source": "Crossref",
+   "is-referenced-by-count": 9,
+   "title": [
+    "Integration of TRAP markers onto a sunflower SSR marker linkage map constructed from 92 recombinant inbred lines"
+   ],
+   "prefix": "10.2298",
+   "volume": "30",
+   "author": [
+    {
+     "given": "Hu",
+     "family": "J.",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Yue",
+     "family": "B.",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Vick",
+     "family": "B.A.",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "1078",
+   "reference": [
+    {
+     "key": "1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00220877"
+    },
+    {
+     "key": "2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1139/gen-44-2-213"
+    },
+    {
+     "key": "3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF00222925"
+    },
+    {
+     "key": "4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220051228"
+    },
+    {
+     "key": "5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10577-006-1051-8"
+    },
+    {
+     "key": "6",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02772804"
+    },
+    {
+     "key": "7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s001220050703"
+    },
+    {
+     "key": "8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0888-7543(87)90010-3"
+    },
+    {
+     "key": "9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1467-7652.2003.00016.x"
+    },
+    {
+     "key": "10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-002-0989-y"
+    }
+   ],
+   "container-title": [
+    "Helia"
+   ],
+   "language": "en",
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      4
+     ]
+    ],
+    "date-time": "2021-03-04T06:50:40Z",
+    "timestamp": 1614840640000
+   },
+   "score": 33.762566,
+   "resource": {
+    "primary": {
+     "URL": "https://www.degruyter.com/document/doi/10.2298/hel0746025h/html"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2007
+     ]
+    ]
+   },
+   "references-count": 10,
+   "journal-issue": {
+    "issue": "46",
+    "published-print": {
+     "date-parts": [
+      [
+       2007
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.2298/hel0746025h",
+   "ISSN": [
+    "1018-1806"
+   ],
+   "issn-type": [
+    {
+     "value": "1018-1806",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2007
+     ]
+    ]
+   }
+  }
+ ]
+}

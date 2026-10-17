@@ -1,0 +1,1518 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     18
+    ]
+   ],
+   "date-time": "2026-09-18T11:55:19Z",
+   "timestamp": 1789732519360,
+   "version": "4.0.1"
+  },
+  "reference-count": 13,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "8",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2023,
+       8,
+       22
+      ]
+     ],
+     "date-time": "2023-08-22T00:00:00Z",
+     "timestamp": 1692662400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 21,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2023,
+     8,
+     1
+    ]
+   ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Summary</jats:title><jats:p>Genome-wide association studies (GWAS) excels at harnessing dense genomic variant datasets to identify candidate regions responsible for producing a given phenotype. However, GWAS and traditional fine-mapping methods do not provide insight into the complex local landscape of linkage that contains and has been shaped by the causal variant(s). Here, we present crosshap, an R package that performs robust density-based clustering of variants based on their linkage profiles to capture haplotype structures in a local genomic region of interest. Following this, crosshap is equipped with visualization tools for choosing optimal clustering parameters (\u025b) before producing an intuitive figure that provides an overview of the complex relationships between linked variants, haplotype combinations, phenotype, and metadata traits.</jats:p></jats:sec><jats:sec><jats:title>Availability and implementation</jats:title><jats:p>The crosshap package is freely available under the MIT license and can be downloaded directly from CRAN with R &amp;gt;4.0.0. The development version is available on GitHub alongside issue support (https://github.com/jacobimarsh/crosshap). Tutorial vignettes and documentation are available (https://jacobimarsh.github.io/crosshap/).</jats:p></jats:sec>",
+  "DOI": "10.1093/bioinformatics/btad518",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2023,
+     8,
+     22
+    ]
+   ],
+   "date-time": "2023-08-22T16:06:24Z",
+   "timestamp": 1692720384000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 16,
+  "title": [
+   "crosshap: R package for local haplotype visualization for trait association analysis"
+  ],
+  "prefix": "10.1093",
+  "volume": "39",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-3734-2023",
+    "authenticated-orcid": false,
+    "given": "Jacob I",
+    "family": "Marsh",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+     },
+     {
+      "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2159-0380",
+    "authenticated-orcid": false,
+    "given": "Jakob",
+    "family": "Petereit",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+     },
+     {
+      "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6301-2269",
+    "authenticated-orcid": false,
+    "given": "Brady A",
+    "family": "Johnston",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Molecular Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8530-3067",
+    "authenticated-orcid": false,
+    "given": "Philipp E",
+    "family": "Bayer",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+     },
+     {
+      "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Cassandria G",
+    "family": "Tay Fernandez",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+     },
+     {
+      "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hawlader A",
+    "family": "Al-Mamun",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+     },
+     {
+      "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5391-5824",
+    "authenticated-orcid": false,
+    "given": "Jacqueline",
+    "family": "Batley",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+     },
+     {
+      "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7599-6760",
+    "authenticated-orcid": false,
+    "given": "David",
+    "family": "Edwards",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+     },
+     {
+      "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     8,
+     22
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "2023090105170584200_btad518-B1",
+    "doi-asserted-by": "crossref",
+    "first-page": "189",
+    "DOI": "10.1139/gen-2019-0141",
+    "article-title": "Time for a paradigm shift in the use of plant genetic resources",
+    "volume": "63",
+    "author": "Belzile",
+    "year": "2020",
+    "journal-title": "Genome"
+   },
+   {
+    "key": "2023090105170584200_btad518-B2",
+    "first-page": "226",
+    "author": "Ester",
+    "year": "1996"
+   },
+   {
+    "key": "2023090105170584200_btad518-B3",
+    "doi-asserted-by": "crossref",
+    "first-page": "231",
+    "DOI": "10.1002/widm.30",
+    "article-title": "Density-based clustering",
+    "volume": "1",
+    "author": "Kriegel",
+    "year": "2011",
+    "journal-title": "WIREs Data Mining Knowl Discov"
+   },
+   {
+    "key": "2023090105170584200_btad518-B4",
+    "doi-asserted-by": "crossref",
+    "first-page": "1983",
+    "DOI": "10.1109/TVCG.2014.2346248",
+    "article-title": "UpSet: visualization of intersecting sets",
+    "volume": "20",
+    "author": "Lex",
+    "year": "2014",
+    "journal-title": "IEEE Trans Vis Comput Graph"
+   },
+   {
+    "key": "2023090105170584200_btad518-B5",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1007/s11032-023-01366-4",
+    "article-title": "CandiHap: a haplotype analysis toolkit for natural variation study",
+    "volume": "43",
+    "author": "Li",
+    "year": "2023",
+    "journal-title": "Mol Breeding"
+   },
+   {
+    "key": "2023090105170584200_btad518-B6",
+    "doi-asserted-by": "crossref",
+    "first-page": "1443",
+    "DOI": "10.1007/s00122-022-04045-8",
+    "article-title": "Haplotype mapping uncovers unexplored variation in wild and domesticated soybean at the major protein locus cqProt-003",
+    "volume": "135",
+    "author": "Marsh",
+    "year": "2022",
+    "journal-title": "Theor Appl Genet"
+   },
+   {
+    "key": "2023090105170584200_btad518-B7",
+    "doi-asserted-by": "crossref",
+    "first-page": "152",
+    "DOI": "10.1079/9781789247848.0007",
+    "volume-title": "Next-Generation Sequencing and Agriculture",
+    "author": "Marsh",
+    "year": "2022"
+   },
+   {
+    "key": "2023090105170584200_btad518-B8",
+    "doi-asserted-by": "crossref",
+    "first-page": "2336",
+    "DOI": "10.1093/bioinformatics/btq419",
+    "article-title": "LocusZoom: regional visualization of genome-wide association scan results",
+    "volume": "26",
+    "author": "Pruim",
+    "year": "2010",
+    "journal-title": "Bioinformatics"
+   },
+   {
+    "key": "2023090105170584200_btad518-B9",
+    "doi-asserted-by": "crossref",
+    "first-page": "491",
+    "DOI": "10.1038/s41576-018-0016-z",
+    "article-title": "From genome-wide associations to candidate causal variants by statistical fine-mapping",
+    "volume": "19",
+    "author": "Schaid",
+    "year": "2018",
+    "journal-title": "Nat Rev Genet"
+   },
+   {
+    "key": "2023090105170584200_btad518-B10",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.3835/plantgenome2018.08.0061",
+    "article-title": "A systematic gene-centric approach to define haplotypes and identify alleles on the basis of dense single nucleotide polymorphism datasets",
+    "volume": "12",
+    "author": "Tardivel",
+    "year": "2019",
+    "journal-title": "Plant Genome"
+   },
+   {
+    "key": "2023090105170584200_btad518-B11",
+    "doi-asserted-by": "crossref",
+    "first-page": "14",
+    "DOI": "10.1111/pbi.13215",
+    "article-title": "Towards a deeper haplotype mining of complex traits in rice with RFGB v2.0",
+    "volume": "18",
+    "author": "Wang",
+    "year": "2019",
+    "journal-title": "Plant Biotechnol J"
+   },
+   {
+    "key": "2023090105170584200_btad518-B12",
+    "doi-asserted-by": "crossref",
+    "first-page": "e1010437",
+    "DOI": "10.1371/journal.pgen.1010437",
+    "article-title": "Prioritized candidate causal haplotype blocks in plant genome-wide association studies",
+    "volume": "18",
+    "author": "Wu",
+    "year": "2022",
+    "journal-title": "PLoS Genet"
+   },
+   {
+    "key": "2023090105170584200_btad518-B13",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1093/gigascience/giy083",
+    "article-title": "Clustering trees: a visualization for evaluating clusterings at multiple resolutions",
+    "volume": "7",
+    "author": "Zappia",
+    "year": "2018",
+    "journal-title": "Gigascience"
+   }
+  ],
+  "container-title": [
+   "Bioinformatics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad518/51218874/btad518.pdf",
+    "content-type": "application/pdf",
+    "content-version": "am",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/39/8/btad518/51321119/btad518.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://academic.oup.com/bioinformatics/article-pdf/39/8/btad518/51321119/btad518.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     10,
+     26
+    ]
+   ],
+   "date-time": "2024-10-26T15:41:05Z",
+   "timestamp": 1729957265000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btad518/7247532"
+   }
+  },
+  "subtitle": [],
+  "editor": [
+   {
+    "given": "Russell",
+    "family": "Schwartz",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "editor"
+     }
+    ]
+   }
+  ],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     8,
+     1
+    ]
+   ]
+  },
+  "references-count": 13,
+  "journal-issue": {
+   "issue": "8",
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/bioinformatics/btad518",
+  "relation": {},
+  "ISSN": [
+   "1367-4811"
+  ],
+  "issn-type": [
+   {
+    "value": "1367-4811",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2023,
+     8,
+     1
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2023,
+     8,
+     1
+    ]
+   ]
+  },
+  "article-number": "btad518"
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      18
+     ]
+    ],
+    "date-time": "2026-09-18T11:55:19Z",
+    "timestamp": 1789732519360,
+    "version": "4.0.1"
+   },
+   "reference-count": 13,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "8",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2023,
+        8,
+        22
+       ]
+      ],
+      "date-time": "2023-08-22T00:00:00Z",
+      "timestamp": 1692662400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 21,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Summary</jats:title><jats:p>Genome-wide association studies (GWAS) excels at harnessing dense genomic variant datasets to identify candidate regions responsible for producing a given phenotype. However, GWAS and traditional fine-mapping methods do not provide insight into the complex local landscape of linkage that contains and has been shaped by the causal variant(s). Here, we present crosshap, an R package that performs robust density-based clustering of variants based on their linkage profiles to capture haplotype structures in a local genomic region of interest. Following this, crosshap is equipped with visualization tools for choosing optimal clustering parameters (\u025b) before producing an intuitive figure that provides an overview of the complex relationships between linked variants, haplotype combinations, phenotype, and metadata traits.</jats:p></jats:sec><jats:sec><jats:title>Availability and implementation</jats:title><jats:p>The crosshap package is freely available under the MIT license and can be downloaded directly from CRAN with R &amp;gt;4.0.0. The development version is available on GitHub alongside issue support (https://github.com/jacobimarsh/crosshap). Tutorial vignettes and documentation are available (https://jacobimarsh.github.io/crosshap/).</jats:p></jats:sec>",
+   "DOI": "10.1093/bioinformatics/btad518",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      22
+     ]
+    ],
+    "date-time": "2023-08-22T16:06:24Z",
+    "timestamp": 1692720384000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 16,
+   "title": [
+    "crosshap: R package for local haplotype visualization for trait association analysis"
+   ],
+   "prefix": "10.1093",
+   "volume": "39",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-3734-2023",
+     "authenticated-orcid": false,
+     "given": "Jacob I",
+     "family": "Marsh",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+      },
+      {
+       "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2159-0380",
+     "authenticated-orcid": false,
+     "given": "Jakob",
+     "family": "Petereit",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+      },
+      {
+       "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6301-2269",
+     "authenticated-orcid": false,
+     "given": "Brady A",
+     "family": "Johnston",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Molecular Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-8530-3067",
+     "authenticated-orcid": false,
+     "given": "Philipp E",
+     "family": "Bayer",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+      },
+      {
+       "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Cassandria G",
+     "family": "Tay Fernandez",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+      },
+      {
+       "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Hawlader A",
+     "family": "Al-Mamun",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+      },
+      {
+       "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5391-5824",
+     "authenticated-orcid": false,
+     "given": "Jacqueline",
+     "family": "Batley",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+      },
+      {
+       "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7599-6760",
+     "authenticated-orcid": false,
+     "given": "David",
+     "family": "Edwards",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Centre for Applied Bioinformatics, University of Western Australia, Perth WA, 6009, Australia"
+      },
+      {
+       "name": "School of Biological Sciences, University of Western Australia, Perth WA, 6009, Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      22
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "2023090105170584200_btad518-B1",
+     "doi-asserted-by": "crossref",
+     "first-page": "189",
+     "DOI": "10.1139/gen-2019-0141",
+     "article-title": "Time for a paradigm shift in the use of plant genetic resources",
+     "volume": "63",
+     "author": "Belzile",
+     "year": "2020",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "2023090105170584200_btad518-B2",
+     "first-page": "226",
+     "author": "Ester",
+     "year": "1996"
+    },
+    {
+     "key": "2023090105170584200_btad518-B3",
+     "doi-asserted-by": "crossref",
+     "first-page": "231",
+     "DOI": "10.1002/widm.30",
+     "article-title": "Density-based clustering",
+     "volume": "1",
+     "author": "Kriegel",
+     "year": "2011",
+     "journal-title": "WIREs Data Mining Knowl Discov"
+    },
+    {
+     "key": "2023090105170584200_btad518-B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "1983",
+     "DOI": "10.1109/TVCG.2014.2346248",
+     "article-title": "UpSet: visualization of intersecting sets",
+     "volume": "20",
+     "author": "Lex",
+     "year": "2014",
+     "journal-title": "IEEE Trans Vis Comput Graph"
+    },
+    {
+     "key": "2023090105170584200_btad518-B5",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1007/s11032-023-01366-4",
+     "article-title": "CandiHap: a haplotype analysis toolkit for natural variation study",
+     "volume": "43",
+     "author": "Li",
+     "year": "2023",
+     "journal-title": "Mol Breeding"
+    },
+    {
+     "key": "2023090105170584200_btad518-B6",
+     "doi-asserted-by": "crossref",
+     "first-page": "1443",
+     "DOI": "10.1007/s00122-022-04045-8",
+     "article-title": "Haplotype mapping uncovers unexplored variation in wild and domesticated soybean at the major protein locus cqProt-003",
+     "volume": "135",
+     "author": "Marsh",
+     "year": "2022",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "2023090105170584200_btad518-B7",
+     "doi-asserted-by": "crossref",
+     "first-page": "152",
+     "DOI": "10.1079/9781789247848.0007",
+     "volume-title": "Next-Generation Sequencing and Agriculture",
+     "author": "Marsh",
+     "year": "2022"
+    },
+    {
+     "key": "2023090105170584200_btad518-B8",
+     "doi-asserted-by": "crossref",
+     "first-page": "2336",
+     "DOI": "10.1093/bioinformatics/btq419",
+     "article-title": "LocusZoom: regional visualization of genome-wide association scan results",
+     "volume": "26",
+     "author": "Pruim",
+     "year": "2010",
+     "journal-title": "Bioinformatics"
+    },
+    {
+     "key": "2023090105170584200_btad518-B9",
+     "doi-asserted-by": "crossref",
+     "first-page": "491",
+     "DOI": "10.1038/s41576-018-0016-z",
+     "article-title": "From genome-wide associations to candidate causal variants by statistical fine-mapping",
+     "volume": "19",
+     "author": "Schaid",
+     "year": "2018",
+     "journal-title": "Nat Rev Genet"
+    },
+    {
+     "key": "2023090105170584200_btad518-B10",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.3835/plantgenome2018.08.0061",
+     "article-title": "A systematic gene-centric approach to define haplotypes and identify alleles on the basis of dense single nucleotide polymorphism datasets",
+     "volume": "12",
+     "author": "Tardivel",
+     "year": "2019",
+     "journal-title": "Plant Genome"
+    },
+    {
+     "key": "2023090105170584200_btad518-B11",
+     "doi-asserted-by": "crossref",
+     "first-page": "14",
+     "DOI": "10.1111/pbi.13215",
+     "article-title": "Towards a deeper haplotype mining of complex traits in rice with RFGB v2.0",
+     "volume": "18",
+     "author": "Wang",
+     "year": "2019",
+     "journal-title": "Plant Biotechnol J"
+    },
+    {
+     "key": "2023090105170584200_btad518-B12",
+     "doi-asserted-by": "crossref",
+     "first-page": "e1010437",
+     "DOI": "10.1371/journal.pgen.1010437",
+     "article-title": "Prioritized candidate causal haplotype blocks in plant genome-wide association studies",
+     "volume": "18",
+     "author": "Wu",
+     "year": "2022",
+     "journal-title": "PLoS Genet"
+    },
+    {
+     "key": "2023090105170584200_btad518-B13",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1093/gigascience/giy083",
+     "article-title": "Clustering trees: a visualization for evaluating clusterings at multiple resolutions",
+     "volume": "7",
+     "author": "Zappia",
+     "year": "2018",
+     "journal-title": "Gigascience"
+    }
+   ],
+   "container-title": [
+    "Bioinformatics"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad518/51218874/btad518.pdf",
+     "content-type": "application/pdf",
+     "content-version": "am",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/39/8/btad518/51321119/btad518.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://academic.oup.com/bioinformatics/article-pdf/39/8/btad518/51321119/btad518.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      26
+     ]
+    ],
+    "date-time": "2024-10-26T15:41:05Z",
+    "timestamp": 1729957265000
+   },
+   "score": 65.89055,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btad518/7247532"
+    }
+   },
+   "editor": [
+    {
+     "given": "Russell",
+     "family": "Schwartz",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "editor"
+      }
+     ]
+    }
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      1
+     ]
+    ]
+   },
+   "references-count": 13,
+   "journal-issue": {
+    "issue": "8",
+    "published-print": {
+     "date-parts": [
+      [
+       2023,
+       8,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/bioinformatics/btad518",
+   "ISSN": [
+    "1367-4811"
+   ],
+   "issn-type": [
+    {
+     "value": "1367-4811",
+     "type": "electronic"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      1
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2023,
+      8,
+      1
+     ]
+    ]
+   },
+   "article-number": "btad518"
+  },
+  {
+   "institution": [
+    {
+     "name": "bioRxiv"
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T19:50:59Z",
+    "timestamp": 1768506659173,
+    "version": "3.49.0"
+   },
+   "posted": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      8
+     ]
+    ]
+   },
+   "group-title": "Bioinformatics",
+   "reference-count": 21,
+   "publisher": "openRxiv",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      8
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Summary</jats:title>\n                  <jats:p>GWAS excels at harnessing dense genomic variant datasets to identify candidate regions responsible for producing a given phenotype. However, GWAS and traditional fine-mapping methods do not provide insight into the complex local landscape of linkage that contains and has been shaped by the causal variant(s). Here, we present \u2018crosshap\u2019, an R package that performs robust density-based clustering of variants based on their linkage profiles to capture haplotype structures in a local genomic region of interest. Following this, \u2018crosshap\u2019 is equipped with visualization tools for choosing optimal clustering parameters (\u03b5) before producing an intuitive figure that provides an overview of the complex relationships between linked variants, haplotype combinations, phenotypic traits and metadata.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    The \u2018crosshap\u2019 package is freely available under the MIT license and can be downloaded directly from CRAN with R&gt;4.0.0. The development version is available on GitHub alongside issue support (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/jacobimarsh/crosshap\">https://github.com/jacobimarsh/crosshap</jats:ext-link>\n                    ). Tutorial vignettes and documentation are available (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://jacobimarsh.github.io/crosshap/\">https://jacobimarsh.github.io/crosshap/</jats:ext-link>\n                    ).\n                  </jats:p>\n                </jats:sec>",
+   "DOI": "10.1101/2023.05.07.539781",
+   "type": "posted-content",
+   "created": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      8
+     ]
+    ],
+    "date-time": "2023-05-08T19:55:14Z",
+    "timestamp": 1683575714000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Local haplotype visualization for trait association analysis with crosshap"
+   ],
+   "prefix": "10.64898",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-3734-2023",
+     "authenticated-orcid": false,
+     "given": "Jacob I.",
+     "family": "Marsh",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2159-0380",
+     "authenticated-orcid": false,
+     "given": "Jakob",
+     "family": "Petereit",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6301-2269",
+     "authenticated-orcid": false,
+     "given": "Brady A.",
+     "family": "Johnston",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-8530-3067",
+     "authenticated-orcid": false,
+     "given": "Philipp E.",
+     "family": "Bayer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-8518-1618",
+     "authenticated-orcid": false,
+     "given": "Cassandria G. Tay",
+     "family": "Fernandez",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2453-0914",
+     "authenticated-orcid": false,
+     "given": "Hawlader A.",
+     "family": "Al-Mamun",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5391-5824",
+     "authenticated-orcid": false,
+     "given": "Jacqueline",
+     "family": "Batley",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7599-6760",
+     "authenticated-orcid": false,
+     "given": "David",
+     "family": "Edwards",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "54368",
+   "reference": [
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.1",
+     "doi-asserted-by": "crossref",
+     "first-page": "189",
+     "DOI": "10.1139/gen-2019-0141",
+     "article-title": "Time for a paradigm shift in the use of plant genetic resources",
+     "volume": "63",
+     "year": "2020",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.2",
+     "unstructured": "Ester M , Kriegel H-P , Sander J , Xu X (1996) A density-based algorithm for discovering clusters in large spatial databases with noise. In Proceedings of the 2nd ACM International Conference on Knowledge Discovery and Data Mining (KDD), pp 226\u2013231"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.3",
+     "doi-asserted-by": "crossref",
+     "first-page": "231",
+     "DOI": "10.1002/widm.30",
+     "article-title": "Density-based clustering",
+     "volume": "1",
+     "year": "2011",
+     "journal-title": "WIREs Data Mining and Knowledge Discovery"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1109/TVCG.2014.2346248"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.5",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Li X , Shi Z , Gao J , Wang X , Guo K (2023) CandiHap: a haplotype analysis toolkit for natural variation study. Molecular Breeding 43",
+     "DOI": "10.1007/s11032-023-01366-4"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.6",
+     "doi-asserted-by": "crossref",
+     "first-page": "1443",
+     "DOI": "10.1007/s00122-022-04045-8",
+     "article-title": "Haplotype mapping uncovers unexplored variation in wild and domesticated soybean at the major protein locus cqProt-003",
+     "volume": "135",
+     "year": "2022",
+     "journal-title": "Theor Appl Genet"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.7",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Marsh JI , Petereit J , Monahan G , Edwards D , Bayer PE (2022) Recombination, linkage and haplotypes: dissecting patterns for inheritance for genetic gain, Vol 12. CABI Biotechnology, Oxfordshire, UK",
+     "DOI": "10.1079/9781789247848.0007"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btq419"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41576-018-0016-z"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.10",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Tardivel A , Torkamaneh D , Lemay MA , Belzile F , O\u2019Donoughue LS (2019) A systematic gene-centric approach to define haplotypes and identify alleles on the basis of dense single nucleotide polymorphism datasets. Plant Genome 12",
+     "DOI": "10.3835/plantgenome2018.08.0061"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.11",
+     "first-page": "14",
+     "article-title": "Towards a deeper haplotype mining of complex traits in rice with RFGB v2.0",
+     "volume": "18",
+     "year": "2019",
+     "journal-title": "Plant Biotechnology Journal"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.12",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Wu X , Jiang W , Fragoso C , Huang J , Zhou G , Zhao H , Dellaporta S (2022) Prioritized candidate causal haplotype blocks in plant genome-wide association studies. PLoS Genet 18",
+     "DOI": "10.1371/journal.pgen.1010437"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.13",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Zappia L , Oshlack A (2018) Clustering trees: a visualization for evaluating clusterings at multiple resolutions. Gigascience 7",
+     "DOI": "10.1093/gigascience/giy083"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.14",
+     "unstructured": "Ester M , Kriegel H-P , Sander J , Xu X (1996) A density-based algorithm for discovering clusters in large spatial databases with noise. In Proceedings of the 2nd ACM International Conference on Knowledge Discovery and Data Mining (KDD), pp 226\u2013231"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.15",
+     "doi-asserted-by": "crossref",
+     "first-page": "393",
+     "DOI": "10.1093/bib/bbz170",
+     "article-title": "Deep learning-based clustering approaches for bioinformatics",
+     "volume": "22",
+     "year": "2021",
+     "journal-title": "Brief Bioinform"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.16",
+     "first-page": "231",
+     "article-title": "Density-based clustering",
+     "volume": "1",
+     "year": "2011",
+     "journal-title": "Wiley Interdiscip Rev: Data Min Knowl Discov"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.17",
+     "doi-asserted-by": "crossref",
+     "unstructured": "McInnes L , Healy J , Astels S (2017) hdbscan: Hierarchical density based clustering. J Open Source Softw 2",
+     "DOI": "10.21105/joss.00205"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.18",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Rokach L , Maimon O (2005) Clustering Methods. In Data Mining and Knowledge Discovery Handbook, pp 321\u2013352",
+     "DOI": "10.1007/0-387-25465-X_15"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.19",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1145/3068335",
+     "article-title": "DBSCAN Revisited, Revisited",
+     "volume": "42",
+     "year": "2017",
+     "journal-title": "ACM Transactions on Database Systems"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/bioinformatics/btl406"
+    },
+    {
+     "key": "2023051000150533000_2023.05.07.539781v1.21",
+     "doi-asserted-by": "crossref",
+     "first-page": "739",
+     "DOI": "10.1109/TKDE.2013.25",
+     "article-title": "The Role of Hubness in Clustering High-Dimensional Data",
+     "volume": "26",
+     "year": "2014",
+     "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+    }
+   ],
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.07.539781",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      15
+     ]
+    ],
+    "date-time": "2026-01-15T04:37:52Z",
+    "timestamp": 1768451872000
+   },
+   "score": 63.10294,
+   "resource": {
+    "primary": {
+     "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.05.07.539781"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      8
+     ]
+    ]
+   },
+   "references-count": 21,
+   "URL": "https://doi.org/10.1101/2023.05.07.539781",
+   "published": {
+    "date-parts": [
+     [
+      2023,
+      5,
+      8
+     ]
+    ]
+   },
+   "subtype": "preprint"
+  },
+  {
+   "institution": [
+    {
+     "name": "Comprehensive R Archive Network",
+     "acronym": [
+      "CRAN"
+     ]
+    }
+   ],
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      5,
+      14
+     ]
+    ],
+    "date-time": "2025-05-14T10:01:58Z",
+    "timestamp": 1747216918049,
+    "version": "3.40.5"
+   },
+   "description": "A local haplotyping visualization toolbox to capture major patterns  of co-inheritance between clusters of linked variants, whilst connecting findings  to phenotypic and demographic traits across individuals. 'crosshap' enables users  to explore and understand genomic variation across a trait-associated region.  For an example of successful local haplotype analysis, see Marsh et al. (2022)  <doi:10.1007/s00122-022-04045-8>.",
+   "reference-count": 1,
+   "publisher": "The R Foundation",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "content-updated": {
+    "date-parts": [
+     [
+      2024,
+      3,
+      31
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      12
+     ]
+    ]
+   },
+   "DOI": "10.32614/cran.package.crosshap",
+   "type": "dataset",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      13
+     ]
+    ],
+    "date-time": "2024-06-13T06:34:46Z",
+    "timestamp": 1718260486000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "crosshap: Local Haplotype Clustering and Visualization"
+   ],
+   "prefix": "10.32614",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-3734-2023",
+     "authenticated-orcid": true,
+     "given": "Jacob",
+     "family": "Marsh",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6301-2269",
+     "authenticated-orcid": true,
+     "given": "Brady",
+     "family": "Johnston",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2159-0380",
+     "authenticated-orcid": true,
+     "given": "Jakob",
+     "family": "Petereit",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "17266",
+   "content-created": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      12
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "ref1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00122-022-04045-8"
+    }
+   ],
+   "container-title": [
+    "CRAN: Contributed Packages"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      13
+     ]
+    ],
+    "date-time": "2024-06-13T06:46:43Z",
+    "timestamp": 1718261203000
+   },
+   "score": 61.153408,
+   "resource": {
+    "primary": {
+     "URL": "https://CRAN.R-project.org/package=crosshap"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      12
+     ]
+    ]
+   },
+   "references-count": 1,
+   "URL": "https://doi.org/10.32614/cran.package.crosshap",
+   "published": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      12
+     ]
+    ]
+   }
+  }
+ ]
+}

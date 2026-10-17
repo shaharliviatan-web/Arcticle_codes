@@ -1,0 +1,2280 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T06:00:35Z",
+   "timestamp": 1790748035000,
+   "version": "4.1.0"
+  },
+  "reference-count": 55,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "4",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2000,
+     4,
+     1
+    ]
+   ]
+  },
+  "DOI": "10.1093/oxfordjournals.molbev.a026330",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2012,
+     4,
+     19
+    ]
+   ],
+   "date-time": "2012-04-19T05:36:26Z",
+   "timestamp": 1334813786000
+  },
+  "page": "499-510",
+  "source": "Crossref",
+  "is-referenced-by-count": 529,
+  "title": [
+   "On the Origin and Domestication History of Barley (Hordeum vulgare)"
+  ],
+  "prefix": "10.1093",
+  "volume": "17",
+  "author": [
+   {
+    "given": "A.",
+    "family": "Badr",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "K.",
+    "family": "M",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "R.",
+    "family": "Sch",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "H. El",
+    "family": "Rabey",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S.",
+    "family": "Effgen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "H. H.",
+    "family": "Ibrahim",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C.",
+    "family": "Pozzi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "W.",
+    "family": "Rohde",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "F.",
+    "family": "Salamini",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2000,
+     4
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ABERG1",
+    "unstructured": "\u00c5berg, E. 1938. Hordeum agriocrithon nova sp., a wild six-rowed barley. Ann. R. Agric. Col. Swed. 6:159\u2013216."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ABERG2",
+    "unstructured": "\u2014\u2014\u2014. 1940. The taxonomy and phylogeny of Hordeum L. sect. Cerealia Ands. with special reference to Tibetan barleys. Symbolae Bot. Uppsala 4:1\u2013156."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ALLARD",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Allard, R. W. 1988. Genetic changes associated with the evolution of adaptedness in cultivated plants and their wild progenitors. J. Hered. 79:225\u2013238.",
+    "DOI": "10.1093/oxfordjournals.jhered.a110503"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BEKELE",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bekele, E. 1983. A differential rate of regional distribution of barley flavonoid patterns in Ethiopia, and a view on the center of origin of barley. Hereditas 98:269\u2013280.",
+    "DOI": "10.1111/j.1601-5223.1983.tb00605.x"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BOTHMER1",
+    "unstructured": "Bothmer, R. von, and N. Jacobsen. 1985. Origin, taxonomy, and related species. Pp. 19\u201356 in D. C. Rasmusson, ed. Barley. American Society of Agronomists, Madison, Wis."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BOTHMER2",
+    "unstructured": "Bothmer, R. von, N. Jacobsen, C. Baden, R. B. Jorgensen, and I. Linde-Laursen. 1995. An ecogeographical study of the genus Hordeum. 2nd edition. International Plant Genetic Resources Institute, FAO, Rome."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BROWN",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Brown, A. H. D., E. Nevo, D. Zohary, and O. Dagan. 1978. Genetic variation in natural populations of wild barley (Hordeum spontaneum). Genetica 49:97\u2013108.",
+    "DOI": "10.1007/BF00120555"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-CASTIGLIONI",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Castiglioni, P., C. Pozzi, M. Heun, K. J. M\u00fcller, W. Rohde, and F. Salamini. 1998. An AFLP-based procedure for the efficient mapping of mutants and DNA probes in barley. Genetics 149:2039\u20132056.",
+    "DOI": "10.1093/genetics/149.4.2039"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-CHALMERS",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Chalmers, K. J., R. Waugh, J. Watters, B. P. Forster, E. Nevo, R. J. Abbott, and W. Powell. 1992. Grain isozyme and ribosomal DNA variability in Hordeum spontaneum populations from Israel. Theor. Appl. Genet. 84:313\u2013322.",
+    "DOI": "10.1007/BF00229489"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-CORKE",
+    "unstructured": "Corke, H., and D. Atsmon. 1990. Wild barley (H. spontaneum Koch) and its potential utilization in barley protein improvement. Isr. J. Bot. 39:271\u2013286."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-DAWSON",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Dawson, I. K., K. J. Chalmers, R. Waugh, and W. Powell. 1993. Detection and analysis of genetic variation in Hordeum spontaneum populations from Israel using RAPD markers. Mol. Ecol. 2:151\u2013159.",
+    "DOI": "10.1111/j.1365-294X.1993.tb00104.x"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-DIAMOND",
+    "unstructured": "Diamond, J. 1998. Guns, germs and steel. Vintage, London."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-DICE",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Dice, L. R. 1945. Measures of the amount of ecologic association between species. Ecology 26:297\u2013302.",
+    "DOI": "10.2307/1932409"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FELSENSTEIN1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Felsenstein, J. 1981. Evolutionary trees from gene frequencies and quantitative characters: finding maximum likelihood estimates. Evolution 35:1229\u20131242.",
+    "DOI": "10.1111/j.1558-5646.1981.tb04991.x"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FELSENSTEIN2",
+    "unstructured": "\u2014\u2014\u2014. 1989. PHYLIP\u2014phylogeny inference package (version 3.2). Cladistics 5:164\u2013166."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FITCH",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Fitch, W. M., and E. Margoliash. 1967. Construction of phylogenetic trees. Science 155:279\u2013284.",
+    "DOI": "10.1126/science.155.3760.279"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FROST",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Fr\u00f6st, S., G. Holm, and S. Asker. 1975. Flavonoid patterns and the phylogeny of barley. Hereditas 79:133\u2013142.",
+    "DOI": "10.1111/j.1601-5223.1975.tb01469.x"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-GILES1",
+    "unstructured": "Giles, B. E., and L. P. Lefkovitch. 1984 Differential germination in Hordeum spontaneum from Iran and Morocco. Z. Pflanzenzucht. 92:234\u2013238."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-GILES2",
+    "unstructured": "\u2014\u2014\u2014. 1985. Agronomic differences in Hordeum spontaneum from Iran and Morocco. Z. Pflanzenzucht. 94:25\u201340."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HARLAN1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Harlan, H. V. 1931. The origin of hooded barley. J. Hered. 22:265\u2013272.",
+    "DOI": "10.1093/oxfordjournals.jhered.a103496"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HARLAN2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Harlan, J. R., and D. Zohary. 1966. Distribution of wild wheats and barley. Science 153:1074\u20131080.",
+    "DOI": "10.1126/science.153.3740.1074"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HELBAEK",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Helbaek, H. 1959. Domestication of food plants in the Old World. Science 130:365\u2013372.",
+    "DOI": "10.1126/science.130.3372.365"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HEUN",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Heun, M., R. Sch\u00e4fer-Pregl, D. Klawan, R. Castagna, M. Accerbi, B. Borghi, and F. Salamini. 1997. Site of einkorn wheat domestication identified by DNA fingerprinting. Science 278:1312\u20131314.",
+    "DOI": "10.1126/science.278.5341.1312"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HILLMAN",
+    "unstructured": "Hillman, G. C. 1975. The plant remains from Abu Hureyra: a preliminary report. Proc. Prehistoric Soc. 41:70\u201373."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-JANA",
+    "unstructured": "Jana, S., M. I. Pietrzak, J. P. Srivastava, B. C. Holwerda, and K. M. Thai. 1987. Genetic diversity in wild barley (Hordeum spontaneum) populations of the Fertile Crescent. Barley Genet. 5:63\u201373."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-KAMM",
+    "unstructured": "Kamm, A. 1977. The range of brittle types of Cerealia barleys in Israel. Pamphlet No. . Agricultural Research Organization, Volcani Center, Bet-Dagan, Israel."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-KOBYLJANSKIJ",
+    "unstructured": "Kobyljanskij, V. D. 1967. Biological features of wild species of barley with a view to their utilization in breeding. Armen. Biol. J. 20:41\u201351."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-MARGUSH",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Margush, T., and F. R. McMorris. 1981. Consensus n-trees. Bull. Math. Biol. 43:239\u2013244.",
+    "DOI": "10.1016/S0092-8240(81)90019-7"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-MOLINA-CANO",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Molina-Cano, J. L., P. Fra Mon, G. Salcedo, C. Aragoncillo, F. Roca De Togores, and F. Garcia-Olmedo. 1987. Morocco as a possible domestication center for barley: biochemical and agromorphological evidence. Theor. Appl. Genet. 73:531\u2013536.",
+    "DOI": "10.1007/BF00289190"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-MULLER",
+    "doi-asserted-by": "crossref",
+    "unstructured": "M\u00fcller, K. J., N. Romano, O. Gerstner, F. Garcia-Maroto, C. Pozzi, F. Salamini, and W. Rohde. 1995. The barley Hooded mutation caused by a duplication in a homeobox gene intron. Nature 374:727\u2013730.",
+    "DOI": "10.1038/374727a0"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEI",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Nei, M. 1972 Genetic distance between populations. Am. Nat. 106:283\u2013292.",
+    "DOI": "10.1086/282771"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NESBITT",
+    "unstructured": "Nesbitt, M., and D. Samuel. 1996. From staple crop to extinction? The archaelogy and history of the hulled wheats. Pp. 41\u2013100 in S. Padulosi, K. Hammer, and J. Heller, eds. Hulled wheats (Proceedings of the First International Workshop on Hulled Wheats). International Plant Genetics Resources Institute, Rome, Italy."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO1",
+    "unstructured": "Nevo, E. 1992. Origin, evolution, population genetics and resources for breeding of wild barley, Hordeum spontaneum, in the Fertile Crescent. Pp. 19\u201343 in P. R. Shewry, ed. Barley: genetics, biochemistry, molecular biology and biotechnology. C.A.B. International, The Alden Press, Oxford."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO2",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Nevo, E., A. Beiles, D. Kaplan, N. Starch, and D. Zohary. 1986a. Genetic diversity and environmental associations of wild barley, Hordeum spontaneum (Poaceae), in Iran. Plant Syst. Evol. 153:141\u2013164.",
+    "DOI": "10.1007/BF00983683"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO3",
+    "unstructured": "Nevo, E., D. Zohary, A. Beiles, D. Kaplan, and N. Starch. 1986b. Genetic diversity and environmental associations of wild barley, Hordeum spontaneum in Turkey. Genetica 68:203\u2013213."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO4",
+    "unstructured": "Nevo, E., D. Zohary, A. H. D. Brown, and M. Harber. 1979. Genetic diversity and environmental associations of wild barley, Hordeum spontaneum, in Israel. Evolution 33:815\u2013833."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-PAKNIYET",
+    "unstructured": "Pakniyet, H., W. Powell, E. Baird, L. L. Handley, D. Robinson, C. M. Scrimgeour, E. Nevo, C. A. Hackett, P. D. S. Caligari, and B. P. Forster. 1997. AFLP variation in wild barley (Hordeum spontaneum C. Koch) with reference to salt tolerance and associated ecogeography. Genome 40:332\u2013341."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ROHLF",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Rohlf, F. J. 1982. Consensus indices for comparing classifications. Math. Biosci. 59:131\u2013144.",
+    "DOI": "10.1016/0025-5564(82)90112-2"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SAITOU",
+    "unstructured": "Saitou, N., and M. Nei. 1987. The neighbor-joining method: a new method for reconstructing phylogenetic trees. Mol. Biol. Evol. 4:406\u2013425."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SAS",
+    "unstructured": "SAS Institute Inc. 1989. SAS/STAT users guide. Version 6, Vol. 1, 4th edition. SAS Institute Inc., Cary, N.C."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SCHUT",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Schut, J. W., X. Qi, and P. Stam. 1997. Association between relationship measures based on AFLP markers, pedigree data and morphological traits in barley. Theor. Appl. Genet. 95:1161\u20131168.",
+    "DOI": "10.1007/s001220050677"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SHAO",
+    "unstructured": "Shao, Q. 1987. Unity of genetic population for wild barley and cultivated barley in Himalaya area. Barley Genet. 5:35\u201341."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SNOW",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Snow, L., and T. Brody. 1984. Genetic variation of Hordeum spontaneum in Israel, ecogeographical races detected by trait measurements. Plant Syst. Evol. 145:15\u201328.",
+    "DOI": "10.1007/BF00984028"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SOKAL",
+    "unstructured": "Sokal, R. R., and C. D. Michener. 1958. A statistical method for evaluating systematic relationships. Univ. Kans. Sci. Bull. 28:1409\u20131438."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-STAUDT",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Staudt, G. 1961. The origin of cultivated barleys: a discussion. Econ. Bot. 205\u2013212.",
+    "DOI": "10.1007/BF02862158"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-TAKAHASHI",
+    "unstructured": "Takahashi, R. 1964. Further studies on the phylogenetic differentiation of cultivated barley. Pp. 19\u201326 in S. Broekhuizen, ed. Barley genetics I. Proceedings First International Barley Genetics Symposium, Wageningen, the Netherlands."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-VANZEIST",
+    "unstructured": "van Zeist, W., and J. A. H. Bakker-Heeres. 1985. Archaeobotanical studies in the Levant 4. Bronze Age sites on the north Syrian Euphrates. Palaeohistoria 27:247\u2013316."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-WRIGHT",
+    "unstructured": "Wright, S. 1978. Evolution of the genetics of population, Vol. . Variability within and among natural populations. University of Chicago Press, Chicago."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-XU",
+    "unstructured": "Xu, T. 1987. Origin and phylogeny of cultivated barley in China. Barley Genet. 5:91\u201395."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-YANG",
+    "unstructured": "Yang, J. L., and C. Yen. 1985. Distribution of weedrace barley in China and the center of origin of cultivated barley. Sver. Utsadesforen. Tidskr. 95:71\u201378."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZABEAU",
+    "unstructured": "Zabeau, M., and P. Vos. 1993. Selective restriction fragment amplification: a general method for DNA fingerprinting. European patent application number 92402629.7; publication number 0534858 Al."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zohary, D. 1959. Is Hordeum agriocrithon the ancestor of six-rowed cultivated barley? Evolution 13:279\u2013280.",
+    "DOI": "10.1111/j.1558-5646.1959.tb03012.x"
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY2",
+    "unstructured": "\u2014\u2014\u2014. 1960. Studies on the origin of cultivated barley. Bull. Res. Counc. Isr. 9D:21\u201342."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY3",
+    "unstructured": "\u2014\u2014\u2014. 1969. The progenitors of wheat and barley in relation to domestication and agriculture dispersal in the old world. Pp. 47\u201366 in P. J. Ucko and G. W. Dimbley, eds. The domestication and exploitation of plants and animals. Duckworth, London."
+   },
+   {
+    "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY4",
+    "unstructured": "Zohary, D., and M. Hopf. 1993. Domestication of plants in the Old World. The origin and spread of cultivated plants in West Asia, Europe and the Nile Valley. Clarendon Press, Oxford, England."
+   }
+  ],
+  "container-title": [
+   "Molecular Biology and Evolution"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "http://academic.oup.com/mbe/article-pdf/17/4/499/23445305/mbev_17_04_0499.pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     13
+    ]
+   ],
+   "date-time": "2022-01-13T08:04:37Z",
+   "timestamp": 1642061077000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://academic.oup.com/mbe/article/17/4/499/1127626"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2000,
+     4,
+     1
+    ]
+   ]
+  },
+  "references-count": 55,
+  "journal-issue": {
+   "issue": "4",
+   "published-online": {
+    "date-parts": [
+     [
+      2000,
+      4
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2000,
+      4,
+      1
+     ]
+    ]
+   }
+  },
+  "URL": "https://doi.org/10.1093/oxfordjournals.molbev.a026330",
+  "relation": {},
+  "ISSN": [
+   "1537-1719",
+   "0737-4038"
+  ],
+  "issn-type": [
+   {
+    "value": "1537-1719",
+    "type": "electronic"
+   },
+   {
+    "value": "0737-4038",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published-other": {
+   "date-parts": [
+    [
+     2000,
+     4
+    ]
+   ]
+  },
+  "published": {
+   "date-parts": [
+    [
+     2000,
+     4,
+     1
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      30
+     ]
+    ],
+    "date-time": "2026-09-30T06:00:35Z",
+    "timestamp": 1790748035000,
+    "version": "4.1.0"
+   },
+   "reference-count": 55,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "4",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2000,
+      4,
+      1
+     ]
+    ]
+   },
+   "DOI": "10.1093/oxfordjournals.molbev.a026330",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2012,
+      4,
+      19
+     ]
+    ],
+    "date-time": "2012-04-19T05:36:26Z",
+    "timestamp": 1334813786000
+   },
+   "page": "499-510",
+   "source": "Crossref",
+   "is-referenced-by-count": 529,
+   "title": [
+    "On the Origin and Domestication History of Barley (Hordeum vulgare)"
+   ],
+   "prefix": "10.1093",
+   "volume": "17",
+   "author": [
+    {
+     "given": "A.",
+     "family": "Badr",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "K.",
+     "family": "M",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "R.",
+     "family": "Sch",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "H. El",
+     "family": "Rabey",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "S.",
+     "family": "Effgen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "H. H.",
+     "family": "Ibrahim",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "C.",
+     "family": "Pozzi",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "W.",
+     "family": "Rohde",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "F.",
+     "family": "Salamini",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2000,
+      4
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ABERG1",
+     "unstructured": "\u00c5berg, E. 1938. Hordeum agriocrithon nova sp., a wild six-rowed barley. Ann. R. Agric. Col. Swed. 6:159\u2013216."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ABERG2",
+     "unstructured": "\u2014\u2014\u2014. 1940. The taxonomy and phylogeny of Hordeum L. sect. Cerealia Ands. with special reference to Tibetan barleys. Symbolae Bot. Uppsala 4:1\u2013156."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ALLARD",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Allard, R. W. 1988. Genetic changes associated with the evolution of adaptedness in cultivated plants and their wild progenitors. J. Hered. 79:225\u2013238.",
+     "DOI": "10.1093/oxfordjournals.jhered.a110503"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BEKELE",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Bekele, E. 1983. A differential rate of regional distribution of barley flavonoid patterns in Ethiopia, and a view on the center of origin of barley. Hereditas 98:269\u2013280.",
+     "DOI": "10.1111/j.1601-5223.1983.tb00605.x"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BOTHMER1",
+     "unstructured": "Bothmer, R. von, and N. Jacobsen. 1985. Origin, taxonomy, and related species. Pp. 19\u201356 in D. C. Rasmusson, ed. Barley. American Society of Agronomists, Madison, Wis."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BOTHMER2",
+     "unstructured": "Bothmer, R. von, N. Jacobsen, C. Baden, R. B. Jorgensen, and I. Linde-Laursen. 1995. An ecogeographical study of the genus Hordeum. 2nd edition. International Plant Genetic Resources Institute, FAO, Rome."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-BROWN",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Brown, A. H. D., E. Nevo, D. Zohary, and O. Dagan. 1978. Genetic variation in natural populations of wild barley (Hordeum spontaneum). Genetica 49:97\u2013108.",
+     "DOI": "10.1007/BF00120555"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-CASTIGLIONI",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Castiglioni, P., C. Pozzi, M. Heun, K. J. M\u00fcller, W. Rohde, and F. Salamini. 1998. An AFLP-based procedure for the efficient mapping of mutants and DNA probes in barley. Genetics 149:2039\u20132056.",
+     "DOI": "10.1093/genetics/149.4.2039"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-CHALMERS",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Chalmers, K. J., R. Waugh, J. Watters, B. P. Forster, E. Nevo, R. J. Abbott, and W. Powell. 1992. Grain isozyme and ribosomal DNA variability in Hordeum spontaneum populations from Israel. Theor. Appl. Genet. 84:313\u2013322.",
+     "DOI": "10.1007/BF00229489"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-CORKE",
+     "unstructured": "Corke, H., and D. Atsmon. 1990. Wild barley (H. spontaneum Koch) and its potential utilization in barley protein improvement. Isr. J. Bot. 39:271\u2013286."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-DAWSON",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Dawson, I. K., K. J. Chalmers, R. Waugh, and W. Powell. 1993. Detection and analysis of genetic variation in Hordeum spontaneum populations from Israel using RAPD markers. Mol. Ecol. 2:151\u2013159.",
+     "DOI": "10.1111/j.1365-294X.1993.tb00104.x"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-DIAMOND",
+     "unstructured": "Diamond, J. 1998. Guns, germs and steel. Vintage, London."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-DICE",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Dice, L. R. 1945. Measures of the amount of ecologic association between species. Ecology 26:297\u2013302.",
+     "DOI": "10.2307/1932409"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FELSENSTEIN1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Felsenstein, J. 1981. Evolutionary trees from gene frequencies and quantitative characters: finding maximum likelihood estimates. Evolution 35:1229\u20131242.",
+     "DOI": "10.1111/j.1558-5646.1981.tb04991.x"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FELSENSTEIN2",
+     "unstructured": "\u2014\u2014\u2014. 1989. PHYLIP\u2014phylogeny inference package (version 3.2). Cladistics 5:164\u2013166."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FITCH",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Fitch, W. M., and E. Margoliash. 1967. Construction of phylogenetic trees. Science 155:279\u2013284.",
+     "DOI": "10.1126/science.155.3760.279"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-FROST",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Fr\u00f6st, S., G. Holm, and S. Asker. 1975. Flavonoid patterns and the phylogeny of barley. Hereditas 79:133\u2013142.",
+     "DOI": "10.1111/j.1601-5223.1975.tb01469.x"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-GILES1",
+     "unstructured": "Giles, B. E., and L. P. Lefkovitch. 1984 Differential germination in Hordeum spontaneum from Iran and Morocco. Z. Pflanzenzucht. 92:234\u2013238."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-GILES2",
+     "unstructured": "\u2014\u2014\u2014. 1985. Agronomic differences in Hordeum spontaneum from Iran and Morocco. Z. Pflanzenzucht. 94:25\u201340."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HARLAN1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Harlan, H. V. 1931. The origin of hooded barley. J. Hered. 22:265\u2013272.",
+     "DOI": "10.1093/oxfordjournals.jhered.a103496"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HARLAN2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Harlan, J. R., and D. Zohary. 1966. Distribution of wild wheats and barley. Science 153:1074\u20131080.",
+     "DOI": "10.1126/science.153.3740.1074"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HELBAEK",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Helbaek, H. 1959. Domestication of food plants in the Old World. Science 130:365\u2013372.",
+     "DOI": "10.1126/science.130.3372.365"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HEUN",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Heun, M., R. Sch\u00e4fer-Pregl, D. Klawan, R. Castagna, M. Accerbi, B. Borghi, and F. Salamini. 1997. Site of einkorn wheat domestication identified by DNA fingerprinting. Science 278:1312\u20131314.",
+     "DOI": "10.1126/science.278.5341.1312"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-HILLMAN",
+     "unstructured": "Hillman, G. C. 1975. The plant remains from Abu Hureyra: a preliminary report. Proc. Prehistoric Soc. 41:70\u201373."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-JANA",
+     "unstructured": "Jana, S., M. I. Pietrzak, J. P. Srivastava, B. C. Holwerda, and K. M. Thai. 1987. Genetic diversity in wild barley (Hordeum spontaneum) populations of the Fertile Crescent. Barley Genet. 5:63\u201373."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-KAMM",
+     "unstructured": "Kamm, A. 1977. The range of brittle types of Cerealia barleys in Israel. Pamphlet No. . Agricultural Research Organization, Volcani Center, Bet-Dagan, Israel."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-KOBYLJANSKIJ",
+     "unstructured": "Kobyljanskij, V. D. 1967. Biological features of wild species of barley with a view to their utilization in breeding. Armen. Biol. J. 20:41\u201351."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-MARGUSH",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Margush, T., and F. R. McMorris. 1981. Consensus n-trees. Bull. Math. Biol. 43:239\u2013244.",
+     "DOI": "10.1016/S0092-8240(81)90019-7"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-MOLINA-CANO",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Molina-Cano, J. L., P. Fra Mon, G. Salcedo, C. Aragoncillo, F. Roca De Togores, and F. Garcia-Olmedo. 1987. Morocco as a possible domestication center for barley: biochemical and agromorphological evidence. Theor. Appl. Genet. 73:531\u2013536.",
+     "DOI": "10.1007/BF00289190"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-MULLER",
+     "doi-asserted-by": "crossref",
+     "unstructured": "M\u00fcller, K. J., N. Romano, O. Gerstner, F. Garcia-Maroto, C. Pozzi, F. Salamini, and W. Rohde. 1995. The barley Hooded mutation caused by a duplication in a homeobox gene intron. Nature 374:727\u2013730.",
+     "DOI": "10.1038/374727a0"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEI",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Nei, M. 1972 Genetic distance between populations. Am. Nat. 106:283\u2013292.",
+     "DOI": "10.1086/282771"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NESBITT",
+     "unstructured": "Nesbitt, M., and D. Samuel. 1996. From staple crop to extinction? The archaelogy and history of the hulled wheats. Pp. 41\u2013100 in S. Padulosi, K. Hammer, and J. Heller, eds. Hulled wheats (Proceedings of the First International Workshop on Hulled Wheats). International Plant Genetics Resources Institute, Rome, Italy."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO1",
+     "unstructured": "Nevo, E. 1992. Origin, evolution, population genetics and resources for breeding of wild barley, Hordeum spontaneum, in the Fertile Crescent. Pp. 19\u201343 in P. R. Shewry, ed. Barley: genetics, biochemistry, molecular biology and biotechnology. C.A.B. International, The Alden Press, Oxford."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Nevo, E., A. Beiles, D. Kaplan, N. Starch, and D. Zohary. 1986a. Genetic diversity and environmental associations of wild barley, Hordeum spontaneum (Poaceae), in Iran. Plant Syst. Evol. 153:141\u2013164.",
+     "DOI": "10.1007/BF00983683"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO3",
+     "unstructured": "Nevo, E., D. Zohary, A. Beiles, D. Kaplan, and N. Starch. 1986b. Genetic diversity and environmental associations of wild barley, Hordeum spontaneum in Turkey. Genetica 68:203\u2013213."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-NEVO4",
+     "unstructured": "Nevo, E., D. Zohary, A. H. D. Brown, and M. Harber. 1979. Genetic diversity and environmental associations of wild barley, Hordeum spontaneum, in Israel. Evolution 33:815\u2013833."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-PAKNIYET",
+     "unstructured": "Pakniyet, H., W. Powell, E. Baird, L. L. Handley, D. Robinson, C. M. Scrimgeour, E. Nevo, C. A. Hackett, P. D. S. Caligari, and B. P. Forster. 1997. AFLP variation in wild barley (Hordeum spontaneum C. Koch) with reference to salt tolerance and associated ecogeography. Genome 40:332\u2013341."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ROHLF",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Rohlf, F. J. 1982. Consensus indices for comparing classifications. Math. Biosci. 59:131\u2013144.",
+     "DOI": "10.1016/0025-5564(82)90112-2"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SAITOU",
+     "unstructured": "Saitou, N., and M. Nei. 1987. The neighbor-joining method: a new method for reconstructing phylogenetic trees. Mol. Biol. Evol. 4:406\u2013425."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SAS",
+     "unstructured": "SAS Institute Inc. 1989. SAS/STAT users guide. Version 6, Vol. 1, 4th edition. SAS Institute Inc., Cary, N.C."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SCHUT",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Schut, J. W., X. Qi, and P. Stam. 1997. Association between relationship measures based on AFLP markers, pedigree data and morphological traits in barley. Theor. Appl. Genet. 95:1161\u20131168.",
+     "DOI": "10.1007/s001220050677"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SHAO",
+     "unstructured": "Shao, Q. 1987. Unity of genetic population for wild barley and cultivated barley in Himalaya area. Barley Genet. 5:35\u201341."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SNOW",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Snow, L., and T. Brody. 1984. Genetic variation of Hordeum spontaneum in Israel, ecogeographical races detected by trait measurements. Plant Syst. Evol. 145:15\u201328.",
+     "DOI": "10.1007/BF00984028"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-SOKAL",
+     "unstructured": "Sokal, R. R., and C. D. Michener. 1958. A statistical method for evaluating systematic relationships. Univ. Kans. Sci. Bull. 28:1409\u20131438."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-STAUDT",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Staudt, G. 1961. The origin of cultivated barleys: a discussion. Econ. Bot. 205\u2013212.",
+     "DOI": "10.1007/BF02862158"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-TAKAHASHI",
+     "unstructured": "Takahashi, R. 1964. Further studies on the phylogenetic differentiation of cultivated barley. Pp. 19\u201326 in S. Broekhuizen, ed. Barley genetics I. Proceedings First International Barley Genetics Symposium, Wageningen, the Netherlands."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-VANZEIST",
+     "unstructured": "van Zeist, W., and J. A. H. Bakker-Heeres. 1985. Archaeobotanical studies in the Levant 4. Bronze Age sites on the north Syrian Euphrates. Palaeohistoria 27:247\u2013316."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-WRIGHT",
+     "unstructured": "Wright, S. 1978. Evolution of the genetics of population, Vol. . Variability within and among natural populations. University of Chicago Press, Chicago."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-XU",
+     "unstructured": "Xu, T. 1987. Origin and phylogeny of cultivated barley in China. Barley Genet. 5:91\u201395."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-YANG",
+     "unstructured": "Yang, J. L., and C. Yen. 1985. Distribution of weedrace barley in China and the center of origin of cultivated barley. Sver. Utsadesforen. Tidskr. 95:71\u201378."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZABEAU",
+     "unstructured": "Zabeau, M., and P. Vos. 1993. Selective restriction fragment amplification: a general method for DNA fingerprinting. European patent application number 92402629.7; publication number 0534858 Al."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Zohary, D. 1959. Is Hordeum agriocrithon the ancestor of six-rowed cultivated barley? Evolution 13:279\u2013280.",
+     "DOI": "10.1111/j.1558-5646.1959.tb03012.x"
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY2",
+     "unstructured": "\u2014\u2014\u2014. 1960. Studies on the origin of cultivated barley. Bull. Res. Counc. Isr. 9D:21\u201342."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY3",
+     "unstructured": "\u2014\u2014\u2014. 1969. The progenitors of wheat and barley in relation to domestication and agriculture dispersal in the old world. Pp. 47\u201366 in P. J. Ucko and G. W. Dimbley, eds. The domestication and exploitation of plants and animals. Duckworth, London."
+    },
+    {
+     "key": "key\n\t\t\t\t20180112083303_MBEV-17-03-10-ZOHARY4",
+     "unstructured": "Zohary, D., and M. Hopf. 1993. Domestication of plants in the Old World. The origin and spread of cultivated plants in West Asia, Europe and the Nile Valley. Clarendon Press, Oxford, England."
+    }
+   ],
+   "container-title": [
+    "Molecular Biology and Evolution"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://academic.oup.com/mbe/article-pdf/17/4/499/23445305/mbev_17_04_0499.pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      13
+     ]
+    ],
+    "date-time": "2022-01-13T08:04:37Z",
+    "timestamp": 1642061077000
+   },
+   "score": 57.055763,
+   "resource": {
+    "primary": {
+     "URL": "http://academic.oup.com/mbe/article/17/4/499/1127626"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2000,
+      4,
+      1
+     ]
+    ]
+   },
+   "references-count": 55,
+   "journal-issue": {
+    "issue": "4",
+    "published-online": {
+     "date-parts": [
+      [
+       2000,
+       4
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2000,
+       4,
+       1
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1093/oxfordjournals.molbev.a026330",
+   "ISSN": [
+    "1537-1719",
+    "0737-4038"
+   ],
+   "issn-type": [
+    {
+     "value": "1537-1719",
+     "type": "electronic"
+    },
+    {
+     "value": "0737-4038",
+     "type": "print"
+    }
+   ],
+   "published-other": {
+    "date-parts": [
+     [
+      2000,
+      4
+     ]
+    ]
+   },
+   "published": {
+    "date-parts": [
+     [
+      2000,
+      4,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      2,
+      14
+     ]
+    ],
+    "date-time": "2026-02-14T00:22:44Z",
+    "timestamp": 1771028564466,
+    "version": "3.50.1"
+   },
+   "reference-count": 97,
+   "publisher": "Elsevier",
+   "isbn-type": [
+    {
+     "value": "9780444505859",
+     "type": "print"
+    }
+   ],
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2003,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2003-01-01T00:00:00Z",
+      "timestamp": 1041379200000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2003,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2003-01-01T00:00:00Z",
+      "timestamp": 1041379200000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2003
+     ]
+    ]
+   },
+   "DOI": "10.1016/s0168-7972(03)80004-x",
+   "type": "book-chapter",
+   "created": {
+    "date-parts": [
+     [
+      2007,
+      9,
+      7
+     ]
+    ],
+    "date-time": "2007-09-07T20:28:44Z",
+    "timestamp": 1189196924000
+   },
+   "page": "9-27",
+   "source": "Crossref",
+   "is-referenced-by-count": 77,
+   "title": [
+    "The domestication of cultivated barley"
+   ],
+   "prefix": "10.1016",
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib1",
+     "first-page": "159",
+     "article-title": "Hordeum agriocrithon nova sp., a wild six-rowed barley",
+     "volume": "6",
+     "author": "berg",
+     "year": "1938",
+     "journal-title": "Ann. Agric. Coll. Sweden"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib2",
+     "first-page": "1",
+     "article-title": "The taxonomy and phylogeny of Hordeum L. sect. Cerealia Ands. With special reference to Thibetan barleys",
+     "volume": "4",
+     "author": "berg",
+     "year": "1940",
+     "journal-title": "Symbolae Bot. Upsaliensis"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib3",
+     "first-page": "40",
+     "article-title": "On the territorial distribution of chromosomal interchanges in wild barley, Hordeum vulgare ssp. spontaneum",
+     "volume": "29",
+     "author": "Ahokas",
+     "year": "1999",
+     "journal-title": "Barley Genet. Newsl."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib4",
+     "doi-asserted-by": "crossref",
+     "first-page": "73",
+     "DOI": "10.1007/BF00124634",
+     "article-title": "Geographic variation of \u03b1-amylase, \u03b2-amylase, \u03b2-glucanase, pullulanase and chitinase activity in germinating Hordeum spontaneum barley from Israel and Jordan",
+     "volume": "82",
+     "author": "Ahokas",
+     "year": "1990",
+     "journal-title": "Genetica"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib5",
+     "doi-asserted-by": "crossref",
+     "first-page": "57",
+     "DOI": "10.1111/j.1601-5223.1990.tb00137.x",
+     "article-title": "Hybridization between landrace varieties of Ethiopian barley (Hordeum vulgare spp. vulgare) and the progenitor of barley (H. vulgare ssp. spontaneum)",
+     "volume": "112",
+     "author": "Asfaw",
+     "year": "1990",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib6",
+     "series-title": "Barley Genetics I. Proc. 1st Int. Barley Genet. Symp.",
+     "first-page": "1",
+     "article-title": "Origin and phylogeny of barley",
+     "author": "Baktheyev",
+     "year": "1963"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib7",
+     "series-title": "Essays on Crop Plant Evolution",
+     "first-page": "70",
+     "article-title": "The comparative phylogeny of the temperate cereals",
+     "author": "Bell",
+     "year": "1965"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "13",
+     "DOI": "10.1023/A:1011299021969",
+     "article-title": "RAPD data do not support a second centre of barley domestication in Morocco",
+     "volume": "48",
+     "author": "Blattner",
+     "year": "2001",
+     "journal-title": "Genet. Res. Crop Evol."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "219",
+     "DOI": "10.1111/j.1601-5223.1983.tb00895.x",
+     "article-title": "Interspecific hybridization with cultivated barley",
+     "volume": "99",
+     "author": "Bothmer",
+     "year": "1983",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib10",
+     "article-title": "An ecogeographical study of the genus Hordeum",
+     "volume": "7",
+     "author": "Bothmer",
+     "year": "1995"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib11",
+     "first-page": "17",
+     "article-title": "Does wild, six-rowed barley, Hordeum agriocrithon really exist?",
+     "volume": "77",
+     "author": "Bothmer",
+     "year": "1990",
+     "journal-title": "Plant Genet. Res. Newsl."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib12",
+     "doi-asserted-by": "crossref",
+     "first-page": "49",
+     "DOI": "10.1038/hdy.1978.63",
+     "article-title": "Outcrossing rates and heterozygosity in natural populations of Hordeum spontaneum Koch in Isreal",
+     "volume": "41",
+     "author": "Brown",
+     "year": "1978",
+     "journal-title": "Heredity"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib13",
+     "author": "De Candolle",
+     "year": "1959"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib14",
+     "series-title": "Gene Manipulation in Plant Taxonomy",
+     "first-page": "209",
+     "article-title": "The genome system of classification as a guide to hybridization with perennial triticeae",
+     "author": "Dewey",
+     "year": "1984"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib15",
+     "series-title": "Barley Genetics VIII. Proc. 8th Int. Barley Genet. Symp.",
+     "first-page": "32",
+     "article-title": "Domestication history of barley and phylogenetic relationships in the genus Hordeum",
+     "author": "El Rabey",
+     "year": "2000"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib16",
+     "author": "Evans",
+     "year": "1993"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib17",
+     "first-page": "53",
+     "article-title": "The progenitor of barley (Hordeum vulgare ssp. Spontaneum)\u2014its importance as a gene source",
+     "volume": "95",
+     "author": "Giles",
+     "year": "1985",
+     "journal-title": "J. Swedish Seed Assoc."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib18",
+     "doi-asserted-by": "crossref",
+     "first-page": "231",
+     "DOI": "10.1111/j.1601-5223.1988.tb00307.x",
+     "article-title": "Resistance to powdery mildew in wild species of barley",
+     "volume": "108",
+     "author": "Gustafsson",
+     "year": "1988",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib19",
+     "series-title": "Barley: Origin, Botany, Culture, Winterhardiness, Genetics, Utilization",
+     "article-title": "On the origins of barley",
+     "volume": "338",
+     "author": "Harlan",
+     "year": "1968"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "468",
+     "DOI": "10.1126/science.174.4008.468",
+     "article-title": "Agricultural origins: centers and noncenters",
+     "volume": "174",
+     "author": "Harlan",
+     "year": "1971",
+     "journal-title": "Science"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib21",
+     "author": "Harlan",
+     "year": "1992"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib23",
+     "series-title": "Evolution of Crop Plants",
+     "first-page": "140",
+     "article-title": "Barley",
+     "author": "Harlan",
+     "year": "1995"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib24",
+     "doi-asserted-by": "crossref",
+     "first-page": "509",
+     "DOI": "10.2307/1218252",
+     "article-title": "Toward a rational classification of cultivated plants",
+     "volume": "20",
+     "author": "Harlan",
+     "year": "1971",
+     "journal-title": "Taxon"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib25",
+     "doi-asserted-by": "crossref",
+     "first-page": "186",
+     "DOI": "10.2307/4199684",
+     "article-title": "Ecological effects of irrigation in ancient Mesopotamia",
+     "volume": "22",
+     "author": "Helbaek",
+     "year": "1960",
+     "journal-title": "Iraq"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib26",
+     "first-page": "383",
+     "article-title": "Plant collecting, dry-farming, and irrigation agriculture in prehistoric Deh, Luran",
+     "volume": "1",
+     "author": "Helbaek",
+     "year": "1969",
+     "journal-title": "Mem. Mus. Anthrop. Univ. Michigan"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib27",
+     "first-page": "89",
+     "article-title": "Studies on the disease resistance of barley varieties II",
+     "volume": "40",
+     "author": "Hiura",
+     "year": "1952",
+     "journal-title": "Nogaku Kenkyu"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib28",
+     "first-page": "145",
+     "article-title": "Studies on the disease resistance of barley varieties V",
+     "volume": "41",
+     "author": "Hiura",
+     "year": "1954",
+     "journal-title": "Nogaku Kenkyu"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib29",
+     "first-page": "1",
+     "article-title": "Beitr\u00e4ge zur Kenntnis der pr\u00e4historischen Nutzpflanzen in Schweden",
+     "volume": "47",
+     "author": "Hjelmqvist",
+     "year": "1979",
+     "journal-title": "Opera Bot."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib30",
+     "series-title": "The indigenous origin of Chinese agriculture",
+     "first-page": "418",
+     "author": "Ho",
+     "year": "1977"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib31",
+     "author": "Hunter",
+     "year": "1952"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "613",
+     "DOI": "10.1007/BF00262554",
+     "article-title": "Estimation of recombination parameters between a quantitative trait locus (QTL) and two marker gene loci",
+     "volume": "78",
+     "author": "Jensen",
+     "year": "1989",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib33",
+     "series-title": "Barley: Genetics, Biochemistry, Molecular Biology and Biotechnology",
+     "first-page": "441",
+     "article-title": "Sources and genetics of resistance to fungal pathogens",
+     "author": "J\u00f8rgensen",
+     "year": "1992"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib34",
+     "doi-asserted-by": "crossref",
+     "first-page": "612",
+     "DOI": "10.1007/s001220050458",
+     "article-title": "Effects of loci on chromosomes 2(2H) and 7(5H) on developmental patterns in barley (Hordeum vulgare L.) under different photoperiod regimes",
+     "volume": "94",
+     "author": "Karsai",
+     "year": "1997",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib35",
+     "doi-asserted-by": "crossref",
+     "first-page": "874",
+     "DOI": "10.1038/225874a0",
+     "article-title": "High frequency of haploid production in barley (Hordeum vulgare L.)",
+     "volume": "225",
+     "author": "Kasha",
+     "year": "1970",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "193",
+     "DOI": "10.1626/jcs.2.193",
+     "article-title": "On the glutinous vs. non-glutinous characters and their inheritance in barley",
+     "volume": "2",
+     "author": "Kashiwada",
+     "year": "1930",
+     "journal-title": "Proc. Crop Sci. Soc. Japan"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib37",
+     "doi-asserted-by": "crossref",
+     "first-page": "161",
+     "DOI": "10.1016/0034-6667(92)90054-K",
+     "article-title": "Grain and fruit diet 19,000 years old at Ohalo II, Sea of Galilee, Israel",
+     "volume": "73",
+     "author": "Kislev",
+     "year": "1992",
+     "journal-title": "Rev. Paleobot. Palynol."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib38",
+     "doi-asserted-by": "crossref",
+     "first-page": "973",
+     "DOI": "10.1139/g99-025",
+     "article-title": "Phylogeny in the genus Hordeum based on nucleotide sequences closely linked to the vrs1 locus (row number of spikelets)",
+     "volume": "42",
+     "author": "Komatsuda",
+     "year": "1999",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib39",
+     "author": "Ladizinsky",
+     "year": "1999"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib40",
+     "doi-asserted-by": "crossref",
+     "first-page": "575",
+     "DOI": "10.1139/g95-074",
+     "article-title": "RFLP mapping of five major genes and eight quantitative trait loci controlling flowering time in a winter x spring barley (Hordeum vulgare L.) cross",
+     "volume": "38",
+     "author": "Laurie",
+     "year": "1995",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib41",
+     "first-page": "94",
+     "article-title": "Identification of resistance genes to powdery mildew isolated from Hordeum vulgare ssp. spontaneum and land races of barley",
+     "volume": "108",
+     "author": "Lehmann",
+     "year": "1998",
+     "journal-title": "J. Swedish Seed Assoc."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib42",
+     "doi-asserted-by": "crossref",
+     "first-page": "1602",
+     "DOI": "10.1126/science.288.5471.1602",
+     "article-title": "The cradle of agriculture",
+     "volume": "288",
+     "author": "Lev-Yadun",
+     "year": "2000",
+     "journal-title": "Science"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib43",
+     "doi-asserted-by": "crossref",
+     "first-page": "425",
+     "DOI": "10.1002/j.1522-239X.1984.tb00022.x",
+     "article-title": "Conspectus of the Triticeae",
+     "volume": "95",
+     "author": "L\u00f6ve",
+     "year": "1984",
+     "journal-title": "Feddes Repert."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib44",
+     "first-page": "22",
+     "article-title": "New and revised descriptions of barley genes",
+     "volume": "26",
+     "author": "Lundqvist",
+     "year": "1996",
+     "journal-title": "Barley Genet. Newsl."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib45",
+     "first-page": "71",
+     "article-title": "Varietal variation and effects of some major genes on salt tolerance in barley seedlings",
+     "volume": "3",
+     "author": "Mano",
+     "year": "1995",
+     "journal-title": "Bull. Res. Inst. Bioresources, Okayama Univ."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib46",
+     "doi-asserted-by": "crossref",
+     "first-page": "137",
+     "DOI": "10.1023/A:1018302910661",
+     "article-title": "Genetic resources of salt tolerance in wild Hordeum species",
+     "volume": "103",
+     "author": "Mano",
+     "year": "1998",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib47",
+     "doi-asserted-by": "crossref",
+     "first-page": "646",
+     "DOI": "10.1139/g96-082",
+     "article-title": "The use of RAPD markers in Hordeum phylogeny",
+     "volume": "39",
+     "author": "Marillia",
+     "year": "1996",
+     "journal-title": "Genome"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib48",
+     "doi-asserted-by": "crossref",
+     "first-page": "427",
+     "DOI": "10.2134/agronj1942.00021962003400050003x",
+     "article-title": "Color inheritance in barley",
+     "volume": "34",
+     "author": "Mayler",
+     "year": "1942",
+     "journal-title": "J. Am. Soc. Agr."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib49",
+     "doi-asserted-by": "crossref",
+     "first-page": "913",
+     "DOI": "10.1007/s001220051150",
+     "article-title": "Further evidence supporting Morocco as a centre of origin of barley",
+     "volume": "98",
+     "author": "Molina-Cano",
+     "year": "1999",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib50",
+     "doi-asserted-by": "crossref",
+     "first-page": "221",
+     "DOI": "10.1017/S0014479700018226",
+     "article-title": "Differential response of wheat and barley genotypes to substrate-induced salinity under North Indian conditions",
+     "volume": "26",
+     "author": "Nair",
+     "year": "1990",
+     "journal-title": "Experimental Agric."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib51",
+     "series-title": "Barley: Genetics, Biochemistry, Molecular Biology and Biotechnology",
+     "first-page": "19",
+     "article-title": "Origin, evolution, population genetics and resources for breeding of wild barley Hordeum spontaneum in the Fertile Crescent",
+     "author": "Nevo",
+     "year": "1992"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib52",
+     "doi-asserted-by": "crossref",
+     "first-page": "355",
+     "DOI": "10.1111/j.1095-8312.1986.tb01742.x",
+     "article-title": "Genetic resources of wild barley in the Near East: structure, evolution and application in breeding",
+     "volume": "27",
+     "author": "Nevo",
+     "year": "1986",
+     "journal-title": "Biol. J. Linn. Soc."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib53",
+     "doi-asserted-by": "crossref",
+     "first-page": "338",
+     "DOI": "10.1111/j.1439-0523.1993.tb00599.x",
+     "article-title": "Genetic resources for salt tolerance in the wild progenitors of wheat (Triticum dicoccoides) and barley (Hordeum spontaneum) in Israel",
+     "volume": "110",
+     "author": "Nevo",
+     "year": "1993",
+     "journal-title": "Plant Breed."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib54",
+     "first-page": "65",
+     "article-title": "Beitr\u00e4ge zur Kenntnis der wildwachsenden Gersten im Zusammenhang mit der Frage \u00fcber den Ursprung von Hordeum vulgare L. und Hordeum distichon L. (Versuch einer Monographie der Gattung Hordeum)",
+     "volume": "5",
+     "author": "Nevski",
+     "year": "1941",
+     "journal-title": "Trudy Bot. Inst. Akad. Nauk SSSR, ser. 1"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib55",
+     "first-page": "411",
+     "article-title": "Studies on the disease resistance in barley I",
+     "volume": "9",
+     "author": "Nishikado",
+     "year": "1951",
+     "journal-title": "Ber. Ohara Inst. landw. Forsch."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib56",
+     "first-page": "153",
+     "article-title": "The influence of genotype and environment on chromosome elimination in crosses between Hordeum vulgare x H. bulbosum",
+     "volume": "34",
+     "author": "Pickering",
+     "year": "1984",
+     "journal-title": "Plant Sci."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib57",
+     "series-title": "Barley Genetics VIII. Proc. 8th Int. Barley Genet. Symp.",
+     "first-page": "223",
+     "article-title": "Do the wild relatives of cultivated barley have a place in barley improvement?",
+     "author": "Pickering",
+     "year": "2000"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib58",
+     "doi-asserted-by": "crossref",
+     "first-page": "471",
+     "DOI": "10.1046/j.1469-8137.2000.00670.x",
+     "article-title": "Growth characteristics in Hordeum spontaneum populations from different habitats",
+     "volume": "146",
+     "author": "van Rijn",
+     "year": "2000",
+     "journal-title": "New Phytol."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib59",
+     "first-page": "91",
+     "article-title": "Sources of resistance to net blotch in barley germplasm",
+     "volume": "2",
+     "author": "Sato",
+     "year": "1994",
+     "journal-title": "Bull. Res. Inst. Bioresources, Okayama Univ."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib60",
+     "series-title": "Barley Genetics VIII. Proc. 8th Int. Barley Genet. Symp.",
+     "first-page": "93",
+     "article-title": "Genetic variation of DNA markers linked to the vrs1 locus in two-rowed barley from Iran",
+     "author": "Sayed-Tabatabaei",
+     "year": "2000"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib61",
+     "doi-asserted-by": "crossref",
+     "first-page": "48",
+     "DOI": "10.1007/BF00225726",
+     "article-title": "RFLP-mapping of three new loci for resistance genes to powdery mildew (Erysiphe graminis f. sp. hordei) in barley",
+     "volume": "93",
+     "author": "Sch\u00f6nfeld",
+     "year": "1996",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib62",
+     "series-title": "Barley Genetics V. Proc. 5th Int. Barley Genet. Symp.",
+     "first-page": "915",
+     "article-title": "History of barley breeding in Japan",
+     "author": "Seko",
+     "year": "1987"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib63",
+     "author": "Smith",
+     "year": "1995"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib64",
+     "doi-asserted-by": "crossref",
+     "first-page": "193",
+     "DOI": "10.1023/A:1008654612941",
+     "article-title": "Genetic differentiation and geographical distribution of barley germplasm based on RAPD markers",
+     "volume": "46",
+     "author": "Strelchenko",
+     "year": "1999",
+     "journal-title": "Genet. Res. Crop Evol."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib65",
+     "doi-asserted-by": "crossref",
+     "first-page": "119",
+     "DOI": "10.1111/j.1601-5223.1987.tb00244.x",
+     "article-title": "Interspecific hybridization with Hordeum bulbosum and development of hybrids and haploids",
+     "volume": "106",
+     "author": "Subrahmanyam",
+     "year": "1987",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib66",
+     "doi-asserted-by": "crossref",
+     "first-page": "801",
+     "DOI": "10.1007/BF00224500",
+     "article-title": "Phylogenetic analysis of the genus Hordeum using repetitive DNA sequences",
+     "volume": "89",
+     "author": "Svitashev",
+     "year": "1994",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib67",
+     "first-page": "383",
+     "article-title": "Studies on the classification and the geographical distribution of the Japanese barley varieties II. Correlative inheritance of some quantitative characters with the ear type",
+     "volume": "9",
+     "author": "Takahashi",
+     "year": "1951",
+     "journal-title": "Ber. Ohara Inst. landw. Forsch."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib68",
+     "first-page": "227",
+     "article-title": "The origin and evolution of cultivated barley",
+     "volume": "7",
+     "author": "Takahashi",
+     "year": "1955"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib69",
+     "series-title": "Barley Genetics I. Proc. 1st Int. Barley Genet. Symp.",
+     "first-page": "19",
+     "article-title": "Further studies on the phylogenetic differentiation of cultivated barley",
+     "author": "Takahashi",
+     "year": "1963"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib70",
+     "series-title": "Barley Genetics V. Proc. 5th Int. Barley Genet. Symp.",
+     "first-page": "7",
+     "article-title": "Genetic features of east Asian barleys",
+     "author": "Takahashi",
+     "year": "1987"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib71",
+     "first-page": "99",
+     "article-title": "Linkage study of two complementary genes for brittle rachis in barley",
+     "volume": "12",
+     "author": "Takahashi",
+     "year": "1964",
+     "journal-title": "Ber. Ohara Inst. landw. Biol., Okayama Univ."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib72",
+     "series-title": "Barley Genetics V. Proc. 5th int. Barley Genet. Symp.",
+     "first-page": "139",
+     "article-title": "Studies on chlorotic plants of barley by dominant complementary genes and geographical distribution of the genes concerned",
+     "author": "Takahashi",
+     "year": "1987"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib73",
+     "first-page": "85",
+     "article-title": "A study of cultivated barleys from Nepal, Himalaya and North India with special reference to their phylogenetic differentiation",
+     "volume": "14",
+     "author": "Takahashi",
+     "year": "1968",
+     "journal-title": "Ber. Ohara Inst. landw. Biol., Okayama Univ."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib74",
+     "first-page": "1",
+     "article-title": "Characteristics of the wild and cultivated barleys from Afghanistan and its neighboring regions",
+     "volume": "12",
+     "author": "Takahashi",
+     "year": "1963",
+     "journal-title": "Ber. Ohara Inst. landw. Biol., Okayama Univ."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib75",
+     "series-title": "Barley Genetics II. Proc. 2nd Int. Barley Genet. Symp.",
+     "first-page": "51",
+     "article-title": "Genetic approach to the origin of two wild forms of barley, lagunculiforme Bacht. and proskowetzii Nabelek (Hordeum spontaneum C. Koch emend. Bacht)",
+     "author": "Takahashi",
+     "year": "1970"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib76",
+     "first-page": "81",
+     "article-title": "Studies on the classification and the geographic distribution of barley varieties, VIII",
+     "volume": "38",
+     "author": "Takahashi",
+     "year": "1949",
+     "journal-title": "Nogaku Kenkyu"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib77",
+     "first-page": "25",
+     "article-title": "Studies on the classification and the geographic distribution of barley varieties, XII",
+     "volume": "39",
+     "author": "Takahashi",
+     "year": "1950",
+     "journal-title": "Nogaku Kenkyu"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib78",
+     "first-page": "245",
+     "article-title": "Genetic studies of spring and winter habit of growth in barley",
+     "volume": "10",
+     "author": "Takahashi",
+     "year": "1956",
+     "journal-title": "Ber. Ohara Inst. landw. Biol., Okayama Univ."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib79",
+     "series-title": "Studies on the Bulk Method of Plant Breeding",
+     "first-page": "44",
+     "article-title": "Genetic studies on heading date in barley",
+     "author": "Takahashi",
+     "year": "1958"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib80",
+     "author": "Takahashi",
+     "year": "1983",
+     "journal-title": "Catalogue of Barley Germplasm Preserved in Okayama University"
+    },
+    {
+     "issue": "Suppl. 1",
+     "key": "10.1016/S0168-7972(03)80004-X_bib81",
+     "first-page": "174",
+     "article-title": "Varietal variation of flooding tolerance in barley seedlings, and its diallel analysis",
+     "volume": "39",
+     "author": "Takeda",
+     "year": "1989",
+     "journal-title": "Jap. J. Breeding"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib82",
+     "series-title": "Pre-harvest Sprouting in Cereals 1995",
+     "first-page": "205",
+     "article-title": "Varietal variation and inheritance of seed dormancy in barley",
+     "author": "Takeda",
+     "year": "1995"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib83",
+     "doi-asserted-by": "crossref",
+     "first-page": "297",
+     "DOI": "10.1007/BF00022285",
+     "article-title": "Inheritance of sensitivity to the insecticide diazinon in barley and the geographical distribution of sensitive varieties",
+     "volume": "89",
+     "author": "Takeda",
+     "year": "1996",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib84",
+     "doi-asserted-by": "crossref",
+     "first-page": "217",
+     "DOI": "10.1007/BF00023861",
+     "article-title": "Inheritance and geographical distribution of phenol reaction-less varieties of barley",
+     "volume": "90",
+     "author": "Takeda",
+     "year": "1996",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib85",
+     "series-title": "Barley Genetics V. Proc. 5th Int. Barley Genet. Symp.",
+     "first-page": "735",
+     "article-title": "Tolerance to pre-germination flooding in the world collection of barley varieties",
+     "author": "Takeda",
+     "year": "1987"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib86",
+     "first-page": "195",
+     "article-title": "Character expression and inheritance of \u2018Irregulare\u2019 spike in barley",
+     "volume": "61",
+     "author": "Takeda",
+     "year": "1987",
+     "journal-title": "Nogaku Kenkyu"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib88",
+     "doi-asserted-by": "crossref",
+     "first-page": "185",
+     "DOI": "10.1111/j.1601-5223.1999.00185.x",
+     "article-title": "Detection of Hordeum marinum genome in three polyploid Hordeum species and cytotypes by genomic in situ hybridization",
+     "volume": "130",
+     "author": "Takeda",
+     "year": "1999",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib89",
+     "doi-asserted-by": "crossref",
+     "first-page": "77",
+     "DOI": "10.1111/j.1601-5223.1999.00077.x",
+     "article-title": "A nucleotide sequence linked to the vrs1 locus for studies of differentiation in cultivated barley (Hordeum vulgare L.)",
+     "volume": "130",
+     "author": "Tanno",
+     "year": "1999",
+     "journal-title": "Hereditas"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib90",
+     "doi-asserted-by": "crossref",
+     "first-page": "54",
+     "DOI": "10.1007/s001220200006",
+     "article-title": "A DNA marker closely linked to the vrs1 locus (row type gene) indicates multiple origins of six-rowed cultivated barley (Hordeum vulgare L.)",
+     "volume": "104",
+     "author": "Tanno",
+     "year": "2002",
+     "journal-title": "Theor. Appl. Genet."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib91",
+     "first-page": "1",
+     "article-title": "Studies on the origin of cultivated plants",
+     "volume": "16",
+     "author": "Vavilov",
+     "year": "1926",
+     "journal-title": "Bull. Appl. Bot., Genet. Plant Breeding USSR"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib93",
+     "first-page": "57",
+     "article-title": "Linkage and pleiotropic effects on agronomic characters of the genes for spring growth habit",
+     "volume": "12",
+     "author": "Yasuda",
+     "year": "1969",
+     "journal-title": "Barley Newsl."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib94",
+     "first-page": "26",
+     "article-title": "Differentiation and geographical distribution of spring genes in barley",
+     "volume": "46",
+     "author": "Yasuda",
+     "year": "1992",
+     "journal-title": "Iden"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib95",
+     "doi-asserted-by": "crossref",
+     "first-page": "77",
+     "DOI": "10.1007/BF00029644",
+     "article-title": "Genetic constitution for spring growth habit and some other characters in barley cultivars in the Mediterranean coastal regions",
+     "volume": "70",
+     "author": "Yasuda",
+     "year": "1993",
+     "journal-title": "Euphytica"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib96",
+     "first-page": "64",
+     "article-title": "Screening of the world barley collection for resistance to barley yellow mosaic virus",
+     "volume": "28",
+     "author": "Yasuda",
+     "year": "1997",
+     "journal-title": "Barley Genet. Newsl."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib97",
+     "author": "Zohary",
+     "year": "1993"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib22",
+     "author": "Harlan",
+     "year": "1992"
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib87",
+     "unstructured": "Takeda, K., H. Yoshino, K. Kato, K. Sato, H. Tsujimoto and H. Tsuyuzaki, 2000. Genetic assay and study of crop germplasm in and around China (II). A report of Grant-in-Aid for Scientific Research, Monbusho, Japan, pp. 37\u201371."
+    },
+    {
+     "key": "10.1016/S0168-7972(03)80004-X_bib92",
+     "first-page": "21",
+     "article-title": "Inheritance of a melanin-like pigmentation in the glumes and caryopses in barley",
+     "volume": "63",
+     "author": "Woodward",
+     "year": "1941",
+     "journal-title": "J. Agr. Research"
+    }
+   ],
+   "container-title": [
+    "Developments in Plant Genetics and Breeding",
+    "Diversity in Barley - Hordeum vulgare"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S016879720380004X?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S016879720380004X?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      9,
+      29
+     ]
+    ],
+    "date-time": "2025-09-29T19:02:20Z",
+    "timestamp": 1759172540000
+   },
+   "score": 46.11824,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S016879720380004X"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2003
+     ]
+    ]
+   },
+   "ISBN": [
+    "9780444505859"
+   ],
+   "references-count": 97,
+   "URL": "https://doi.org/10.1016/s0168-7972(03)80004-x",
+   "ISSN": [
+    "0168-7972"
+   ],
+   "issn-type": [
+    {
+     "value": "0168-7972",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2003
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      12,
+      22
+     ]
+    ],
+    "date-time": "2024-12-22T05:02:14Z",
+    "timestamp": 1734843734305,
+    "version": "3.32.0"
+   },
+   "description": "This datasheet on Hordeum vulgare covers Identity, Overview, Associated Diseases, Pests or Pathogens, Distribution, Hosts/Species Affected, Biology & Ecology, Uses, Management, Genetics and Breeding, Economics, Further Information.",
+   "reference-count": 15,
+   "publisher": "CABI Publishing",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      16
+     ]
+    ]
+   },
+   "DOI": "10.1079/cabicompendium.27662",
+   "type": "dataset",
+   "created": {
+    "date-parts": [
+     [
+      2022,
+      11,
+      17
+     ]
+    ],
+    "date-time": "2022-11-17T01:36:14Z",
+    "timestamp": 1668648974000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Hordeum vulgare (barley)"
+   ],
+   "prefix": "10.1079",
+   "author": [
+    {
+     "name": "CABI",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "242",
+   "reference": [
+    {
+     "key": "e_1_3_1_2_1",
+     "unstructured": "Aktas H Kinaci E Yildirim AF Sayin L Kural A Ekiz H 2000. Konya yoresinde hububatta sorun olan kok ve kok bogazi curuklugu etmenlerinin hububatta verim komponentlerine etkileri ve mucadelesi uzerinde arastirmalar. [Determination of the effects of root and foot rot pathogens on yield components in cereals which are problems in Konya province and solutions.] Orta Anadolu'da hububat tariminin sorunlari ve cozum yollari Sempozyumu Konya Turkey 8-11 Haziran 1999 392-403."
+    },
+    {
+     "key": "e_1_3_1_3_1",
+     "unstructured": "Babadoost M 1995. Incidence of seed-borne fungal diseases of barley in East Azerbaijan and Ardebil Provinces. Iranian Journal of Plant Pathology 31(1/4):31-32(En) 77-87(Pe); 14 ref."
+    },
+    {
+     "key": "e_1_3_1_4_1",
+     "unstructured": "Baden C 1998. Taxonomy and phylogeny in some perennial genera of the Triticeae. Acta Universitatis Agriculturae Sueciae-Agraria 125."
+    },
+    {
+     "key": "e_1_3_1_5_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Bowden WM 1959. The taxonomy and nomenclature of the wheats barleys and ryes and their wild relatives. Canadian Journal of Botany 37:657-684.",
+     "DOI": "10.1139/b59-053"
+    },
+    {
+     "key": "e_1_3_1_6_1",
+     "unstructured": "Duffus CM Cochrane MP 1992. Grain structure and composition. In: Shewry PR (Ed.) Barley: genetics. biochemistry molecular biology and biotechnology. Wallingford UK: CAB International 291-318."
+    },
+    {
+     "key": "e_1_3_1_7_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Jacobsen N Bothmer Rvon 1992. Supraspecific groups in the genus Hordeum. Hereditas (Landskrona) 116(1-2):21-24",
+     "DOI": "10.1111/j.1601-5223.1992.tb00199.x"
+    },
+    {
+     "key": "e_1_3_1_8_1",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Jefferies SP Barr AR Hunt C Wheeler RD 2000. Agronomic and breeding value of genes for resistance to leaf scald (Rhynchosporium secalis) in barley (Hordeum vulgare). Australian Journal of Agricultural Research 51(8):955-960; 24 ref.",
+     "DOI": "10.1071/AR00038"
+    },
+    {
+     "key": "e_1_3_1_9_1",
+     "unstructured": "Lisowicz F 2000. Wystepowanie i znaczenie gospodarcze niezmiarki paskowanej na zbozach uprawianych na Podkarpaciu. [Occurrence and economic importance of the gout fly on cereals in the Podkarpacie region.] Ochrona Roslin 44:12-12."
+    },
+    {
+     "key": "e_1_3_1_10_1",
+     "unstructured": "Mathre DE ed. 1982. Compendium of barley diseases. Compendium of barley diseases. American Phytopathological Society St. Paul Minnesota USA v + 78 pp."
+    },
+    {
+     "key": "e_1_3_1_11_1",
+     "unstructured": "Nevo E 1992. Origin evolution population genetics and resources for breeding of wild barley Hordeum spontaneum in the Fertile Crescent. In: Shewry PR Ed. Barley: genetics biochemistry molecular biology and biotechnology. Wallingford UK: CAB International 19-44."
+    },
+    {
+     "key": "e_1_3_1_12_1",
+     "unstructured": "Poehlman JM 1985. Adaptation and distribution. In: Rasmusson DC Ed. Barley. American Society of Agronomy 2-18."
+    },
+    {
+     "key": "e_1_3_1_13_1",
+     "unstructured": "Surkus J Metspalu L 2000. Pests on spring barley and their control measures in Lithuania. In: Mitt S ed. Proceedings of the International Conference: Development of environmentally friendly plant protection in the Baltic Region Tartu Estonia September 28-29 2000. Transactions of the Estonian Agricultural University Agronomy No. 209 194-196."
+    },
+    {
+     "key": "e_1_3_1_14_1",
+     "unstructured": "Hassannejad S. Ghisvandi B. 2013. Grasses distribution in wheat fields of Tabriz-Iran and recorded Sclerochloa woronowii (Hack.) Tzvelev as a new weed species for flora of Iran.Technical Journal of Engineering and Applied Sciences 3(22) 3119-3124. http://tjeas.com/wp-content/uploads/2013/10/3119-3124.pdf"
+    },
+    {
+     "key": "e_1_3_1_15_1",
+     "unstructured": "Hassannejad S. Ghafarbi S. P. Abbasvand E. Ghisvandi B. 2014. Quantifying the effects of altitude and soil texture on weed species distribution in wheat fields of Tabriz Iran.Journal of Biodiversity and Environmental Sciences (JBES) 5(1) 590-596. http://www.innspub.net/wp-content/uploads/2014/07/JBES-Vol5No1-p590-596.pdf"
+    },
+    {
+     "key": "e_1_3_1_16_1",
+     "unstructured": "Goerke K. Sch\u00f6nhammer A. Schulte M. Gerowitt B. 2007. Weeds in oilseed rape in Germany - status and assessment of changes. In: European Weed Research Society 14th EWRS Symposium Hamar Norway 17-21 June 2007 [European Weed Research Society 14th EWRS Symposium Hamar Norway 17-21 June 2007.] [ed. by Fl\u00f8istad E.]. Doorwerth Netherlands: European Weed Research Society. 198. http://www.ewrs-symposium2007.com"
+    }
+   ],
+   "container-title": [
+    "CABI Compendium"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      12,
+      21
+     ]
+    ],
+    "date-time": "2024-12-21T04:14:17Z",
+    "timestamp": 1734754457000
+   },
+   "score": 41.23985,
+   "resource": {
+    "primary": {
+     "URL": "http://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.27662"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      16
+     ]
+    ]
+   },
+   "references-count": 15,
+   "URL": "https://doi.org/10.1079/cabicompendium.27662",
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      11,
+      16
+     ]
+    ]
+   }
+  }
+ ]
+}

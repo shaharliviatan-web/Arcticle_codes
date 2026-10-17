@@ -1,0 +1,1921 @@
+{
+ "by_doi": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     27
+    ]
+   ],
+   "date-time": "2026-09-27T12:32:22Z",
+   "timestamp": 1790512342301,
+   "version": "4.1.0"
+  },
+  "reference-count": 0,
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "5",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2020,
+       5,
+       1
+      ]
+     ],
+     "date-time": "2020-05-01T00:00:00Z",
+     "timestamp": 1588291200000
+    },
+    "content-version": "vor",
+    "delay-in-days": 410,
+    "URL": "http://aspb.org/publications/aspb-journals/open-articles"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "31530051"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "31530051"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "31571247"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "31571247"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100001809",
+    "name": "National Natural Science Foundation of China",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "91735303"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "91735303"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100001809",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/501100004739",
+    "name": "Youth Innovation Promotion Association, Chinese Academy of Sciences",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "2016094"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2016094"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100004739",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000001",
+    "name": "U.S. National Science Foundation",
+    "doi-asserted-by": "crossref",
+    "award": [
+     "NSF/OIA-1833040"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "NSF/OIA-1833040"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000001",
+      "id-type": "DOI",
+      "asserted-by": "crossref"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000001",
+    "name": "U.S. National Science Foundation",
+    "doi-asserted-by": "crossref",
+    "award": [
+     "NSF/DMR-1644779"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "NSF/DMR-1644779"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000001",
+      "id-type": "DOI",
+      "asserted-by": "crossref"
+     }
+    ]
+   },
+   {
+    "name": "State Key Laboratory of Plant Genomics"
+   },
+   {
+    "name": "State of Florida"
+   },
+   {
+    "DOI": "10.13039/100000001",
+    "name": "U.S. National Institutes of Health",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "NIH-S10-OD018519"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "NIH-S10-OD018519"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000001",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   },
+   {
+    "DOI": "10.13039/100000001",
+    "name": "U.S. National Institutes of Health",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "NSF-CHE-1229170"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "NSF-CHE-1229170"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/100000001",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "plantcell.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Plant Cell"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2019,
+     5
+    ]
+   ]
+  },
+  "DOI": "10.1105/tpc.18.00894",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     3,
+     18
+    ]
+   ],
+   "date-time": "2019-03-18T21:45:19Z",
+   "timestamp": 1552945519000
+  },
+  "page": "1113-1126",
+  "update-policy": "https://doi.org/10.1105/tpc.16.cmpolicy",
+  "source": "Crossref",
+  "is-referenced-by-count": 76,
+  "title": [
+   "Arabinosyl Deacetylase Modulates the Arabinoxylan Acetylation Profile and Secondary Wall Formation"
+  ],
+  "prefix": "10.1093",
+  "volume": "31",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-0580-5743",
+    "authenticated-orcid": false,
+    "given": "Lanjun",
+    "family": "Zhang",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3743-9546",
+    "authenticated-orcid": false,
+    "given": "Chengxu",
+    "family": "Gao",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     },
+     {
+      "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3570-9787",
+    "authenticated-orcid": false,
+    "given": "Frederic",
+    "family": "Mentink-Vigier",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "National High Magnetic Field Laboratory, Tallahassee, Florida 32310"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5971-7116",
+    "authenticated-orcid": false,
+    "given": "Lu",
+    "family": "Tang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     },
+     {
+      "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4560-9058",
+    "authenticated-orcid": false,
+    "given": "Dongmei",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9841-6084",
+    "authenticated-orcid": false,
+    "given": "Shaogan",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5753-0692",
+    "authenticated-orcid": false,
+    "given": "Shaoxue",
+    "family": "Cao",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     },
+     {
+      "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9052-6185",
+    "authenticated-orcid": false,
+    "given": "Zuopeng",
+    "family": "Xu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0202-0817",
+    "authenticated-orcid": false,
+    "given": "Xiangling",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1801-924X",
+    "authenticated-orcid": false,
+    "given": "Tuo",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Chemistry, Louisiana State University, Baton Rouge, Louisiana 70803"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6644-610X",
+    "authenticated-orcid": false,
+    "given": "Yihua",
+    "family": "Zhou",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     },
+     {
+      "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3239-7263",
+    "authenticated-orcid": false,
+    "given": "Baocai",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "286",
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     3,
+     18
+    ]
+   ]
+  },
+  "container-title": [
+   "The Plant Cell"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://syndication.highwire.org/content/doi/10.1105/tpc.18.00894",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "syndication"
+   },
+   {
+    "URL": "https://syndication.highwire.org/content/doi/10.1105/tpc.18.00894",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     2,
+     13
+    ]
+   ],
+   "date-time": "2021-02-13T02:15:59Z",
+   "timestamp": 1613182559000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://academic.oup.com/plcell/article/31/5/1113-1126/5985604"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     3,
+     18
+    ]
+   ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+   "issue": "5",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      5,
+      13
+     ]
+    ]
+   },
+   "published-print": {
+    "date-parts": [
+     [
+      2019,
+      5
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "10.1105/tpc.18.00894"
+  ],
+  "URL": "https://doi.org/10.1105/tpc.18.00894",
+  "relation": {},
+  "ISSN": [
+   "1040-4651",
+   "1532-298X"
+  ],
+  "issn-type": [
+   {
+    "value": "1040-4651",
+    "type": "print"
+   },
+   {
+    "value": "1532-298X",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     3,
+     18
+    ]
+   ]
+  }
+ },
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      27
+     ]
+    ],
+    "date-time": "2026-09-27T12:32:22Z",
+    "timestamp": 1790512342301,
+    "version": "4.1.0"
+   },
+   "reference-count": 0,
+   "publisher": "Oxford University Press (OUP)",
+   "issue": "5",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        1
+       ]
+      ],
+      "date-time": "2020-05-01T00:00:00Z",
+      "timestamp": 1588291200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 410,
+     "URL": "http://aspb.org/publications/aspb-journals/open-articles"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100001809",
+     "name": "National Natural Science Foundation of China",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "31530051"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "31530051"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001809",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100001809",
+     "name": "National Natural Science Foundation of China",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "31571247"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "31571247"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001809",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100001809",
+     "name": "National Natural Science Foundation of China",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "91735303"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "91735303"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001809",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100004739",
+     "name": "Youth Innovation Promotion Association, Chinese Academy of Sciences",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "2016094"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "2016094"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100004739",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100000001",
+     "name": "U.S. National Science Foundation",
+     "doi-asserted-by": "crossref",
+     "award": [
+      "NSF/OIA-1833040"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "NSF/OIA-1833040"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000001",
+       "id-type": "DOI",
+       "asserted-by": "crossref"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100000001",
+     "name": "U.S. National Science Foundation",
+     "doi-asserted-by": "crossref",
+     "award": [
+      "NSF/DMR-1644779"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "NSF/DMR-1644779"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000001",
+       "id-type": "DOI",
+       "asserted-by": "crossref"
+      }
+     ]
+    },
+    {
+     "name": "State Key Laboratory of Plant Genomics"
+    },
+    {
+     "name": "State of Florida"
+    },
+    {
+     "DOI": "10.13039/100000001",
+     "name": "U.S. National Institutes of Health",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "NIH-S10-OD018519"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "NIH-S10-OD018519"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000001",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100000001",
+     "name": "U.S. National Institutes of Health",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "NSF-CHE-1229170"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "NSF-CHE-1229170"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000001",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "plantcell.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Plant Cell"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2019,
+      5
+     ]
+    ]
+   },
+   "DOI": "10.1105/tpc.18.00894",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      18
+     ]
+    ],
+    "date-time": "2019-03-18T21:45:19Z",
+    "timestamp": 1552945519000
+   },
+   "page": "1113-1126",
+   "update-policy": "https://doi.org/10.1105/tpc.16.cmpolicy",
+   "source": "Crossref",
+   "is-referenced-by-count": 76,
+   "title": [
+    "Arabinosyl Deacetylase Modulates the Arabinoxylan Acetylation Profile and Secondary Wall Formation"
+   ],
+   "prefix": "10.1093",
+   "volume": "31",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-0580-5743",
+     "authenticated-orcid": false,
+     "given": "Lanjun",
+     "family": "Zhang",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-3743-9546",
+     "authenticated-orcid": false,
+     "given": "Chengxu",
+     "family": "Gao",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      },
+      {
+       "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-3570-9787",
+     "authenticated-orcid": false,
+     "given": "Frederic",
+     "family": "Mentink-Vigier",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "National High Magnetic Field Laboratory, Tallahassee, Florida 32310"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5971-7116",
+     "authenticated-orcid": false,
+     "given": "Lu",
+     "family": "Tang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      },
+      {
+       "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-4560-9058",
+     "authenticated-orcid": false,
+     "given": "Dongmei",
+     "family": "Zhang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-9841-6084",
+     "authenticated-orcid": false,
+     "given": "Shaogan",
+     "family": "Wang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-5753-0692",
+     "authenticated-orcid": false,
+     "given": "Shaoxue",
+     "family": "Cao",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      },
+      {
+       "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-9052-6185",
+     "authenticated-orcid": false,
+     "given": "Zuopeng",
+     "family": "Xu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0202-0817",
+     "authenticated-orcid": false,
+     "given": "Xiangling",
+     "family": "Liu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-1801-924X",
+     "authenticated-orcid": false,
+     "given": "Tuo",
+     "family": "Wang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Chemistry, Louisiana State University, Baton Rouge, Louisiana 70803"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6644-610X",
+     "authenticated-orcid": false,
+     "given": "Yihua",
+     "family": "Zhou",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      },
+      {
+       "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-3239-7263",
+     "authenticated-orcid": false,
+     "given": "Baocai",
+     "family": "Zhang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, The Innovative Academy of Seed Design, Chinese Academy of Sciences, Beijing 100101, China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "286",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      18
+     ]
+    ]
+   },
+   "container-title": [
+    "The Plant Cell"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1105/tpc.18.00894",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://syndication.highwire.org/content/doi/10.1105/tpc.18.00894",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      2,
+      13
+     ]
+    ],
+    "date-time": "2021-02-13T02:15:59Z",
+    "timestamp": 1613182559000
+   },
+   "score": 71.28319,
+   "resource": {
+    "primary": {
+     "URL": "https://academic.oup.com/plcell/article/31/5/1113-1126/5985604"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      18
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "5",
+    "published-online": {
+     "date-parts": [
+      [
+       2019,
+       5,
+       13
+      ]
+     ]
+    },
+    "published-print": {
+     "date-parts": [
+      [
+       2019,
+       5
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1105/tpc.18.00894"
+   ],
+   "URL": "https://doi.org/10.1105/tpc.18.00894",
+   "ISSN": [
+    "1040-4651",
+    "1532-298X"
+   ],
+   "issn-type": [
+    {
+     "value": "1040-4651",
+     "type": "print"
+    },
+    {
+     "value": "1532-298X",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2019,
+      3,
+      18
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      2,
+      26
+     ]
+    ],
+    "date-time": "2026-02-26T16:58:13Z",
+    "timestamp": 1772125093980,
+    "version": "3.50.1"
+   },
+   "description": "Supplemental Information for 10.1021/acs.biomac.5c00391",
+   "reference-count": 0,
+   "publisher": "American Chemical Society (ACS)",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "DOI": "10.1021/acs.biomac.5c00391.s001",
+   "type": "component",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      21
+     ]
+    ],
+    "date-time": "2025-08-21T10:10:25Z",
+    "timestamp": 1755771025000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Quantifying Chemically Modified Acetylation Induced Changes in the Plant Secondary Cell Wall Structure and Dynamics"
+   ],
+   "prefix": "10.1021",
+   "member": "316",
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      9,
+      8
+     ]
+    ],
+    "date-time": "2025-09-08T07:44:43Z",
+    "timestamp": 1757317483000
+   },
+   "score": 28.047338,
+   "resource": {
+    "primary": {
+     "URL": "https://pubs.acs.org/doi/suppl/10.1021/acs.biomac.5c00391/suppl_file/bm5c00391_si_001.pdf"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      null
+     ]
+    ]
+   },
+   "references-count": 0,
+   "URL": "https://doi.org/10.1021/acs.biomac.5c00391.s001",
+   "relation": {
+    "is-component-of": [
+     {
+      "id-type": "doi",
+      "id": "10.1021/acs.biomac.5c00391",
+      "asserted-by": "object"
+     }
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      29
+     ]
+    ],
+    "date-time": "2026-06-29T17:28:40Z",
+    "timestamp": 1782754120830,
+    "version": "3.54.5"
+   },
+   "reference-count": 59,
+   "publisher": "Wiley",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2024,
+        11,
+        25
+       ]
+      ],
+      "date-time": "2024-11-25T00:00:00Z",
+      "timestamp": 1732492800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100001809",
+     "name": "National Natural Science Foundation of China",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "31871667"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "31871667"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001809",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "The Plant Journal"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2025,
+      1
+     ]
+    ]
+   },
+   "abstract": "<jats:title>SUMMARY</jats:title><jats:p>TBL family proteins containing the domain of unknown function mainly act as xylan O\u2010acetyltransferases, but the specific molecular mechanism of their functions remains unclear in plants (especially in cotton) so far. In this study, we characterized the TBL family proteins containing the conserved GDS and DxxH motifs in cotton (<jats:italic>Gossypium hirsutum</jats:italic>). Among them, GhTBL3 is highly expressed in fibers at the stage of secondary cell wall (SCW) formation and mainly functions as O\u2010acetyltransferase to maintain acetylation of xylan in fiber SCW development. Overexpression of <jats:italic>GhTBL3</jats:italic> in cotton promoted fiber SCW formation, resulting in increased fiber cell wall thickness. In contrast, suppression of <jats:italic>GhTBL3</jats:italic> expression in cotton impaired fiber SCW synthesis, leading to the decreased fiber cell wall thickness, compared with wild type (WT). Furthermore, two fiber SCW\u2010related transcription factors GhMYBL1 and GhKNL1 were found to directly bind to the promoter of <jats:italic>GhTBL3</jats:italic> in cotton. GhMYBL1 enhanced the transcription activity of <jats:italic>GhTBL3</jats:italic>, whereas GhKNL1 inhibited the expression of <jats:italic>GhTBL3</jats:italic> in fibers. The acetylation level of xylan was remarkably decreased in fibers of <jats:italic>GhMYBL1</jats:italic> RNAi transgenic cotton, but the acetylation level of xylan was significantly increased in fibers of <jats:italic>GhKNL1</jats:italic> RNAi cotton, relative to WT. Given together, the above results suggested that GhTBL3 may be under the dual control of GhMYBL1 and GhKNL1 to maintain the suitable acetylation level of xylan required for fiber SCW formation in cotton. Thus, our data provide an effective clue for potentially improving fiber quality by genetic manipulation of GhTBL3 in cotton breeding.</jats:p>",
+   "DOI": "10.1111/tpj.17167",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      11,
+      25
+     ]
+    ],
+    "date-time": "2024-11-25T14:59:25Z",
+    "timestamp": 1732546765000
+   },
+   "update-policy": "https://doi.org/10.1002/crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 3,
+   "title": [
+    "GhTBL3 is required for fiber secondary cell wall (<scp>SCW</scp>) formation via maintaining acetylation of xylan in cotton"
+   ],
+   "prefix": "10.1111",
+   "volume": "121",
+   "author": [
+    {
+     "given": "Yao",
+     "family": "Wang",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      },
+      {
+       "name": "Maize Research Institute Sichuan Agricultural University  Wenjiang 611130 Sichuan China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Dan",
+     "family": "Zou",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Chang\u2010Hao",
+     "family": "Cheng",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jie",
+     "family": "Zhang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jing\u2010Bo",
+     "family": "Zhang",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yong",
+     "family": "Zheng",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yang",
+     "family": "Li",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6513-921X",
+     "authenticated-orcid": false,
+     "given": "Xue\u2010Bao",
+     "family": "Li",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences Central China Normal University  Wuhan 430079 China"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2024,
+      11,
+      25
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_8_2_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0022-2836(05)80360-2"
+    },
+    {
+     "key": "e_1_2_8_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.110.153320"
+    },
+    {
+     "key": "e_1_2_8_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.4161/psb.5.8.12414"
+    },
+    {
+     "key": "e_1_2_8_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/tpj.12575"
+    },
+    {
+     "key": "e_1_2_8_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/ac303529v"
+    },
+    {
+     "key": "e_1_2_8_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jf800806h"
+    },
+    {
+     "key": "e_1_2_8_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0008-6215(02)00529-3"
+    },
+    {
+     "key": "e_1_2_8_9_1",
+     "article-title": "Coimmunoprecipitation (Co\u2010IP) of nuclear proteins and chromatin immunoprecipitation (ChIP) from Arabidopsis",
+     "volume": "2008",
+     "author": "Fill B.K.",
+     "year": "2008",
+     "journal-title": "CSH Protocols"
+    },
+    {
+     "key": "e_1_2_8_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/nar/gkv397"
+    },
+    {
+     "key": "e_1_2_8_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.16.01618"
+    },
+    {
+     "key": "e_1_2_8_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-005-1481-0"
+    },
+    {
+     "key": "e_1_2_8_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.111.091728"
+    },
+    {
+     "key": "e_1_2_8_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2012.00012"
+    },
+    {
+     "key": "e_1_2_8_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/eru182"
+    },
+    {
+     "key": "e_1_2_8_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jo971176v"
+    },
+    {
+     "key": "e_1_2_8_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41477-017-0030-8"
+    },
+    {
+     "key": "e_1_2_8_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpls.2012.00104"
+    },
+    {
+     "key": "e_1_2_8_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.113.116970"
+    },
+    {
+     "key": "e_1_2_8_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1746-4811-1-13"
+    },
+    {
+     "key": "e_1_2_8_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pcy238"
+    },
+    {
+     "key": "e_1_2_8_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.carbpol.2019.115315"
+    },
+    {
+     "key": "e_1_2_8_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.carres.2005.04.015"
+    },
+    {
+     "key": "e_1_2_8_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/gr.092759.109"
+    },
+    {
+     "key": "e_1_2_8_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/jxb/erv533"
+    },
+    {
+     "key": "e_1_2_8_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.110.155309"
+    },
+    {
+     "key": "e_1_2_8_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pcr075"
+    },
+    {
+     "key": "e_1_2_8_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/nph.12309"
+    },
+    {
+     "key": "e_1_2_8_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.005538"
+    },
+    {
+     "key": "e_1_2_8_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/nph.16301"
+    },
+    {
+     "key": "e_1_2_8_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pbi.2015.05.018"
+    },
+    {
+     "key": "e_1_2_8_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.110.168989"
+    },
+    {
+     "key": "e_1_2_8_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pbi.2009.12.009"
+    },
+    {
+     "key": "e_1_2_8_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/pbi.12393"
+    },
+    {
+     "key": "e_1_2_8_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/nph.14489"
+    },
+    {
+     "key": "e_1_2_8_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1046/j.1365-313x.2000.00774.x"
+    },
+    {
+     "key": "e_1_2_8_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.114.256479"
+    },
+    {
+     "key": "e_1_2_8_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.4238/2011.October.27.1"
+    },
+    {
+     "key": "e_1_2_8_39_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00709-021-01672-8"
+    },
+    {
+     "key": "e_1_2_8_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1102765"
+    },
+    {
+     "key": "e_1_2_8_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/ppl.12317"
+    },
+    {
+     "key": "e_1_2_8_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0008-6215(01)00327-5"
+    },
+    {
+     "key": "e_1_2_8_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0003-2697(69)80009-6"
+    },
+    {
+     "key": "e_1_2_8_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/tpj.12643"
+    },
+    {
+     "key": "e_1_2_8_45_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/jipb.13192"
+    },
+    {
+     "key": "e_1_2_8_46_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/plcell/koad214"
+    },
+    {
+     "key": "e_1_2_8_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-313X.2006.02994.x"
+    },
+    {
+     "key": "e_1_2_8_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/mp/sst014"
+    },
+    {
+     "key": "e_1_2_8_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.106.046391"
+    },
+    {
+     "key": "e_1_2_8_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pct070"
+    },
+    {
+     "key": "e_1_2_8_51_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/pcp/pcv172"
+    },
+    {
+     "key": "e_1_2_8_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nplants.2017.17"
+    },
+    {
+     "key": "e_1_2_8_53_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/nph.14864"
+    },
+    {
+     "key": "e_1_2_8_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.18.00894"
+    },
+    {
+     "key": "e_1_2_8_55_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nbt.3207"
+    },
+    {
+     "key": "e_1_2_8_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-018-2882-1"
+    },
+    {
+     "key": "e_1_2_8_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00425-018-2972-0"
+    },
+    {
+     "key": "e_1_2_8_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/nph.15988"
+    },
+    {
+     "key": "e_1_2_8_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1105/tpc.105.035501"
+    },
+    {
+     "key": "e_1_2_8_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1104/pp.114.243808"
+    }
+   ],
+   "container-title": [
+    "The Plant Journal"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.17167",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      1,
+      27
+     ]
+    ],
+    "date-time": "2025-01-27T04:42:26Z",
+    "timestamp": 1737952946000
+   },
+   "score": 27.051361,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1111/tpj.17167"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2024,
+      11,
+      25
+     ]
+    ]
+   },
+   "references-count": 59,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2025,
+       1
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1111/tpj.17167"
+   ],
+   "URL": "https://doi.org/10.1111/tpj.17167",
+   "archive": [
+    "Portico"
+   ],
+   "ISSN": [
+    "0960-7412",
+    "1365-313X"
+   ],
+   "issn-type": [
+    {
+     "value": "0960-7412",
+     "type": "print"
+    },
+    {
+     "value": "1365-313X",
+     "type": "electronic"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2024,
+      11,
+      25
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "2024-04-01",
+     "order": 0,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2024-11-13",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2024-11-25",
+     "order": 3,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ],
+   "article-number": "e17167"
+  }
+ ]
+}

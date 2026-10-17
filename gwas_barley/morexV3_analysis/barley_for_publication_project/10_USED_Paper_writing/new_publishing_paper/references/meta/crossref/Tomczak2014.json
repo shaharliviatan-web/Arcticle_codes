@@ -1,0 +1,1067 @@
+{
+ "by_doi": null,
+ "search": [
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      17
+     ]
+    ],
+    "date-time": "2026-07-17T15:30:20Z",
+    "timestamp": 1784302220867,
+    "version": "3.55.0"
+   },
+   "reference-count": 0,
+   "publisher": "China Science Publishing & Media Ltd.",
+   "issue": "4",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Acta Psychologica Sinica"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2016
+     ]
+    ]
+   },
+   "DOI": "10.3724/sp.j.1041.2016.00435",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2017,
+      1,
+      12
+     ]
+    ],
+    "date-time": "2017-01-12T10:19:14Z",
+    "timestamp": 1484216354000
+   },
+   "page": "435",
+   "source": "Crossref",
+   "is-referenced-by-count": 29,
+   "title": [
+    "Characteristics of an effect size and appropriateness of mediation effect size measures revisited"
+   ],
+   "prefix": "10.3724",
+   "volume": "48",
+   "author": [
+    {
+     "given": "Zhonglin",
+     "family": "WEN",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Xitao",
+     "family": "FAN",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Baojuan",
+     "family": "YE",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Yushuai",
+     "family": "CHEN",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "2026",
+   "container-title": [
+    "Acta Psychologica Sinica"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://journal.psych.ac.cn/xlxb/CN/article/downloadArticleFile.do?attachType=PDF&id=3319",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      3,
+      8
+     ]
+    ],
+    "date-time": "2022-03-08T07:55:17Z",
+    "timestamp": 1646726117000
+   },
+   "score": 41.192234,
+   "resource": {
+    "primary": {
+     "URL": "http://journal.psych.ac.cn/xlxb/CN/10.3724/SP.J.1041.2016.00435"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2016
+     ]
+    ]
+   },
+   "references-count": 0,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2016
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.3724/sp.j.1041.2016.00435",
+   "ISSN": [
+    "0439-755X"
+   ],
+   "issn-type": [
+    {
+     "value": "0439-755X",
+     "type": "print"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2016
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2024,
+      9,
+      8
+     ]
+    ],
+    "date-time": "2024-09-08T10:46:44Z",
+    "timestamp": 1725792404192
+   },
+   "edition-number": "1",
+   "reference-count": 84,
+   "publisher": "Wiley",
+   "isbn-type": [
+    {
+     "type": "electronic",
+     "value": "9781118445112"
+    }
+   ],
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2014,
+        9,
+        29
+       ]
+      ],
+      "date-time": "2014-09-29T00:00:00Z",
+      "timestamp": 1411948800000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>A variety of measures of effect magnitude are described. Many of the measures can be classified as either measures of effect size (typically, standardized mean differences) or measures of strength of association. There also is a large group of statistics that do not fit into either category. Measures of effect magnitude are used for a variety of purposes: (a) to estimate the sample size required to achieve an acceptable power, (b) to integrate the results of empirical research studies in meta\u2010analyses, (c) to supplement the information provided by null hypothesis significance tests, and (d) to determine whether research results are practically significant.</jats:p>",
+   "DOI": "10.1002/9781118445112.stat06242",
+   "type": "other",
+   "created": {
+    "date-parts": [
+     [
+      2014,
+      9,
+      29
+     ]
+    ],
+    "date-time": "2014-09-29T20:51:55Z",
+    "timestamp": 1412023915000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "Effect Size Measures"
+   ],
+   "prefix": "10.1002",
+   "author": [
+    {
+     "given": "Roger E.",
+     "family": "Kirk",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2014,
+      9,
+      29
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "volume-title": "Publication Manual of the American Psychological Association",
+     "year": "2001",
+     "author": "American Psychological Association",
+     "key": "e_1_2_7_2_1"
+    },
+    {
+     "key": "e_1_2_7_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/h0020412"
+    },
+    {
+     "key": "e_1_2_7_4_1",
+     "first-page": "159",
+     "article-title": "Statistical analysis and the illusion of objectivity",
+     "volume": "76",
+     "author": "Berger J. O.",
+     "year": "1988",
+     "journal-title": "American Scientist"
+    },
+    {
+     "key": "e_1_2_7_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/01621459.1938.10502329"
+    },
+    {
+     "key": "e_1_2_7_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.8.4.406"
+    },
+    {
+     "key": "e_1_2_7_7_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/001316447503500304"
+    },
+    {
+     "key": "e_1_2_7_8_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.17763/haer.48.3.t490261645281841"
+    },
+    {
+     "key": "e_1_2_7_9_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/00220973.1993.10806591"
+    },
+    {
+     "key": "e_1_2_7_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.2044-8317.1982.tb00654.x"
+    },
+    {
+     "key": "e_1_2_7_11_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.114.3.494"
+    },
+    {
+     "volume-title": "Statistical Power Analysis for the Behavioral Sciences",
+     "year": "1969",
+     "author": "Cohen J.",
+     "key": "e_1_2_7_12_1"
+    },
+    {
+     "volume-title": "Statistical Power Analysis for the Behavioral Sciences",
+     "year": "1988",
+     "author": "Cohen J.",
+     "key": "e_1_2_7_13_1"
+    },
+    {
+     "key": "e_1_2_7_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0003-066X.45.12.1304"
+    },
+    {
+     "key": "e_1_2_7_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.112.1.155"
+    },
+    {
+     "key": "e_1_2_7_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0003-066X.49.12.997"
+    },
+    {
+     "key": "e_1_2_7_17_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/014616728281026"
+    },
+    {
+     "volume-title": "Mathematical Methods of Statistics",
+     "year": "1946",
+     "author": "Cram\u00e9r H.",
+     "key": "e_1_2_7_18_1"
+    },
+    {
+     "key": "e_1_2_7_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/0013164401614002"
+    },
+    {
+     "key": "e_1_2_7_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-9280.1993.tb00588.x"
+    },
+    {
+     "key": "e_1_2_7_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-9574.1977.tb00752.x"
+    },
+    {
+     "key": "e_1_2_7_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.116.3.509"
+    },
+    {
+     "key": "e_1_2_7_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/0959354398083002"
+    },
+    {
+     "key": "e_1_2_7_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/0959354395051004"
+    },
+    {
+     "key": "e_1_2_7_25_1",
+     "first-page": "1",
+     "article-title": "On the \u201cprobable error\u201d of a coefficient of correlation deduced from a small sample",
+     "volume": "1",
+     "author": "Fisher R. A.",
+     "year": "1921",
+     "journal-title": "Metron"
+    },
+    {
+     "key": "e_1_2_7_26_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.1.4.379"
+    },
+    {
+     "key": "e_1_2_7_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/h0026258"
+    },
+    {
+     "key": "e_1_2_7_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.8.4.419"
+    },
+    {
+     "key": "e_1_2_7_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1174772"
+    },
+    {
+     "key": "e_1_2_7_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/2281536"
+    },
+    {
+     "key": "e_1_2_7_31_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/h0038813"
+    },
+    {
+     "key": "e_1_2_7_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0021-9010.79.2.314"
+    },
+    {
+     "key": "e_1_2_7_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.6.2.135"
+    },
+    {
+     "key": "e_1_2_7_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/13240-000"
+    },
+    {
+     "volume-title": "ANOVA: An Analysis of Variance Primer",
+     "year": "1994",
+     "author": "Harris R. J.",
+     "key": "e_1_2_7_35_1"
+    },
+    {
+     "volume-title": "Statistics for Psychologists",
+     "year": "1963",
+     "author": "Hays W. L.",
+     "key": "e_1_2_7_36_1"
+    },
+    {
+     "key": "e_1_2_7_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3102/10769986006002107"
+    },
+    {
+     "volume-title": "Statistical Methods for Meta\u2010Analysis",
+     "year": "1985",
+     "author": "Hedges L. V.",
+     "key": "e_1_2_7_38_1"
+    },
+    {
+     "key": "e_1_2_7_39_1",
+     "first-page": "1",
+     "article-title": "The parameters of cross\u2010validation",
+     "volume": "16",
+     "author": "Herzberg P. A.",
+     "year": "1969",
+     "journal-title": "Psychometrika Monograph Supplement"
+    },
+    {
+     "key": "e_1_2_7_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-9280.1997.tb00534.x"
+    },
+    {
+     "key": "e_1_2_7_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.5.4.411"
+    },
+    {
+     "key": "e_1_2_7_42_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "433",
+     "DOI": "10.1146/annurev.ps.46.020195.002245",
+     "article-title": "Data analysis: continuing issues in the everyday analysis of psychological data",
+     "volume": "46",
+     "author": "Judd C. M.",
+     "year": "1995",
+     "journal-title": "Annual Reviews of Psychology"
+    },
+    {
+     "key": "e_1_2_7_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.21.9.554"
+    },
+    {
+     "volume-title": "Rank Correlation Methods",
+     "year": "1963",
+     "author": "Kendall M. G.",
+     "key": "e_1_2_7_44_1"
+    },
+    {
+     "key": "e_1_2_7_45_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0022-006X.67.3.285"
+    },
+    {
+     "volume-title": "Experimental Design: Procedures for the Behavioral Sciences",
+     "year": "1995",
+     "author": "Kirk R. E.",
+     "key": "e_1_2_7_46_1"
+    },
+    {
+     "key": "e_1_2_7_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/0013164496056005002"
+    },
+    {
+     "key": "e_1_2_7_48_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/00131640121971185"
+    },
+    {
+     "key": "e_1_2_7_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/9780470756973.ch5"
+    },
+    {
+     "key": "e_1_2_7_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1164919"
+    },
+    {
+     "key": "e_1_2_7_51_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "736",
+     "DOI": "10.1080/01621459.1985.10478177",
+     "article-title": "Robust estimators of scale: finite sample performance in long\u2010tailed symmetric distributions",
+     "volume": "80",
+     "author": "Lax D. A.",
+     "year": "1985",
+     "journal-title": "Journal of the American Statistical Association"
+    },
+    {
+     "key": "e_1_2_7_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/01621459.1993.10476404"
+    },
+    {
+     "key": "e_1_2_7_53_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/h0037681"
+    },
+    {
+     "volume-title": "Efficiency of Prediction When a Regression Equation From One Sample is Used in a New Sample",
+     "year": "1950",
+     "author": "Lord F. M.",
+     "key": "e_1_2_7_54_1"
+    },
+    {
+     "key": "e_1_2_7_55_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.111.2.361"
+    },
+    {
+     "key": "e_1_2_7_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1086/288135"
+    },
+    {
+     "key": "e_1_2_7_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.92.3.766"
+    },
+    {
+     "key": "e_1_2_7_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/ceps.2000.1040"
+    },
+    {
+     "key": "e_1_2_7_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.8.4.434"
+    },
+    {
+     "key": "e_1_2_7_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/001316448304300310"
+    },
+    {
+     "key": "e_1_2_7_61_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.112.1.160"
+    },
+    {
+     "key": "e_1_2_7_62_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0022-0663.74.2.166"
+    },
+    {
+     "key": "e_1_2_7_63_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.106.2.332"
+    },
+    {
+     "key": "e_1_2_7_64_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-9280.1994.tb00281.x"
+    },
+    {
+     "key": "e_1_2_7_65_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.8.4.492"
+    },
+    {
+     "key": "e_1_2_7_66_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0003-066X.44.10.1276"
+    },
+    {
+     "key": "e_1_2_7_67_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/1467-9280.00287"
+    },
+    {
+     "key": "e_1_2_7_68_1",
+     "first-page": "175",
+     "volume-title": "What if There Were no Significance Tests?",
+     "author": "Rossi J. S.",
+     "year": "1997"
+    },
+    {
+     "key": "e_1_2_7_69_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/h0042040"
+    },
+    {
+     "key": "e_1_2_7_70_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/1082-989X.8.4.448"
+    },
+    {
+     "key": "e_1_2_7_71_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/BF02291467"
+    },
+    {
+     "key": "e_1_2_7_72_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "115",
+     "DOI": "10.1037/1082-989X.1.2.115",
+     "article-title": "Statistical significance testing and cumulative knowledge in psychology: implications for the training of researchers",
+     "volume": "1",
+     "author": "Schmidt F. L.",
+     "year": "1996",
+     "journal-title": "Psychological Methods"
+    },
+    {
+     "key": "e_1_2_7_73_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.105.2.309"
+    },
+    {
+     "key": "e_1_2_7_74_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/00220973.1993.10806592"
+    },
+    {
+     "key": "e_1_2_7_75_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/00223980.1995.9914982"
+    },
+    {
+     "key": "e_1_2_7_76_1",
+     "first-page": "126",
+     "article-title": "The power function of the analysis of variance tests with tables and illustrations of their use",
+     "volume": "2",
+     "author": "Tang P. C.",
+     "year": "1938",
+     "journal-title": "Statistics Research Memorandum"
+    },
+    {
+     "volume-title": "An Examination of the Statistical Properties of a Multivariate Measure of Strength of Association",
+     "year": "1973",
+     "author": "Tatsuoka M. M.",
+     "key": "e_1_2_7_77_1"
+    },
+    {
+     "key": "e_1_2_7_78_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0003-066X.53.7.799"
+    },
+    {
+     "key": "e_1_2_7_79_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "64",
+     "DOI": "10.1002/j.1556-6678.2002.tb00167.x",
+     "article-title": "\u201cStatistical,\u201d \u201cpractical,\u201d and \u201cclinical\u201d: how many kinds of significance do counselors need to consider?",
+     "volume": "80",
+     "author": "Thompson B.",
+     "year": "2002",
+     "journal-title": "Journal of Counseling and Development"
+    },
+    {
+     "key": "e_1_2_7_80_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1214/ss/1177011945"
+    },
+    {
+     "key": "e_1_2_7_81_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1214/aoms/1177732951"
+    },
+    {
+     "key": "e_1_2_7_82_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/106480469800600407"
+    },
+    {
+     "volume-title": "Statistics for the Social Sciences",
+     "year": "1996",
+     "author": "Wilcox R. R.",
+     "key": "e_1_2_7_83_1"
+    },
+    {
+     "volume-title": "Introduction to Robust Estimation and Hypothesis Testing",
+     "year": "1997",
+     "author": "Wilcox R. R.",
+     "key": "e_1_2_7_84_1"
+    },
+    {
+     "key": "e_1_2_7_85_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1348/000711099158982"
+    }
+   ],
+   "container-title": [
+    "Wiley StatsRef: Statistics Reference Online"
+   ],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118445112.stat06242",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/9781118445112.stat06242",
+     "content-type": "application/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118445112.stat06242",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      3
+     ]
+    ],
+    "date-time": "2024-06-03T05:22:30Z",
+    "timestamp": 1717392150000
+   },
+   "score": 40.074493,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781118445112.stat06242"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2014,
+      9,
+      29
+     ]
+    ]
+   },
+   "ISBN": [
+    "9781118445112"
+   ],
+   "references-count": 84,
+   "alternative-id": [
+    "10.1002/9781118445112.stat06242",
+    "10.1002/9781118445112"
+   ],
+   "URL": "https://doi.org/10.1002/9781118445112.stat06242",
+   "archive": [
+    "Portico"
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2014,
+      9,
+      29
+     ]
+    ]
+   }
+  },
+  {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      5,
+      14
+     ]
+    ],
+    "date-time": "2025-05-14T05:39:34Z",
+    "timestamp": 1747201174399,
+    "version": "3.40.5"
+   },
+   "reference-count": 22,
+   "publisher": "Anadolu Universitesi Bilim ve Teknoloji Dergisi-A: Uygulamali Bilimler ve Muhendislik",
+   "issue": "1",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "accepted": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      23
+     ]
+    ]
+   },
+   "abstract": "<jats:p xml:lang=\"en\">It is very important that the results of the statistical analysis are understandable. Therefore, while reporting the results of statistical analysis, some effect size measures should be given along with the P-value. In this study, some effect size measure Eta-Squared, Epsilon Squared and Omega-Squared were compared in terms of their performance (bias) in simple and multiple linear regression models. Results of simulation runs showed that the Epsilon and Omega-Squared estimates were quite unbiased when compared to Eta-Squared. Thus, it could be concluded that reporting Epsilon or Omega Squared is more appropriate to evaluate the practical significance along with P-values in simple and multiple linear regression models.</jats:p>",
+   "DOI": "10.18038/estubtda.864226",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      26
+     ]
+    ],
+    "date-time": "2021-03-26T16:49:37Z",
+    "timestamp": 1616777377000
+   },
+   "page": "77-84",
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "COMPARISON OF SOME EFFECT SIZE MEASURES IN SIMPLE AND MULTIPLE LINEAR REGRESSION MODELS"
+   ],
+   "prefix": "10.18038",
+   "volume": "22",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-2899-2246",
+     "authenticated-orcid": true,
+     "given": "Soner",
+     "family": "Y\u0130\u011e\u0130T",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "\u00c7ANAKKALE ONSEK\u0130Z MART \u00dcN\u0130VERS\u0130TES\u0130, Z\u0130RAAT FAK\u00dcLTES\u0130, ZOOTEKN\u0130 B\u00d6L\u00dcM\u00dc, B\u0130YOMETR\u0130 VE GENET\u0130K ANAB\u0130L\u0130M DALI"
+      }
+     ],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "7396",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      26
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "ref1",
+     "unstructured": "[1]\tZar JH. Biostatistical Analysis. 5th ed. New Jersey, USA: Pearson, 2014."
+    },
+    {
+     "key": "ref2",
+     "unstructured": "[2]\tCohen J, Cohen P, West SG, Aiken LS. Applied Multiple Regression/Correlation Analysis for The Behavioral Sciences. 3rd ed. New Jersey, USA: Lawrence Erlbaum, 2003."
+    },
+    {
+     "key": "ref3",
+     "unstructured": "[3]\tDraper NR, Smith H. Applied Regression Analysis. 3rd ed. New York, USA: John Wiley & Sons, 2014."
+    },
+    {
+     "key": "ref4",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[4]\tGlass GV, Hakstian, AR. Measures of association in comparative experiments: Their development and interpretation. Am Educ Res J 1969; 6: 403\u2013414.",
+     "DOI": "10.3102/00028312006003403"
+    },
+    {
+     "key": "ref5",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[5]\tCohen J. Things I have learned (so far).  Am Psychol 1990; 45: 1304\u20131312.",
+     "DOI": "10.1037/0003-066X.45.12.1304"
+    },
+    {
+     "key": "ref6",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[6]\tKlein DF. Beyond Significance Testing: Reforming Data Analysis Methods in Behavioral Research. Am J Psychiat 2005; 162: 643-a-644.",
+     "DOI": "10.1176/appi.ajp.162.3.643-a"
+    },
+    {
+     "key": "ref7",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[7]\tSullivan GM, Richard F. Using Effect Size-or why the P value is not enough. J Grad Med Educ 2012; 4: 279-282.",
+     "DOI": "10.4300/JGME-D-12-00156.1"
+    },
+    {
+     "key": "ref8",
+     "unstructured": "[8]\tHays W. Statistics for Psychologists. 1st ed., New York, USA: Rinehart Winston, 1963."
+    },
+    {
+     "key": "ref9",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[9]\tThompson B. Editorial policies regarding statistical significance testing: Three suggested reforms. Educ Researcher 1996; 25: 26-30.",
+     "DOI": "10.3102/0013189X025002026"
+    },
+    {
+     "key": "ref10",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[10]\tKelley TL. An unbiased correlation ratio measure. Proc Natl Acad Sci USA 1935; 21: 554\u2013 559.",
+     "DOI": "10.1073/pnas.21.9.554"
+    },
+    {
+     "key": "ref11",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[11]\tMaxwell SE, Camp CJ, Arvey RD. Measures of strength of association: A comparative examination. J Appl Psychol 1981; 6: 525\u2013534.",
+     "DOI": "10.1037/0021-9010.66.5.525"
+    },
+    {
+     "key": "ref12",
+     "unstructured": "[12]\tKeppel G. Design and Analysis: A Researcher\u2019s Handbook. 1st ed. New Jersey, USA: Prentice Hall, 1982."
+    },
+    {
+     "key": "ref13",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[13]\tOlejnik S, Algina J. Measures of effect size for comparative studies: Applications, interpretations, and limitations. Contemp Educ Psychol 2000; 25: 241\u2013286.",
+     "DOI": "10.1006/ceps.2000.1040"
+    },
+    {
+     "key": "ref14",
+     "unstructured": "[14]\tGrissom R, Kim J. Effect Sizes for Research: A Broad practical approach. New Jersey, USA: Lawrence Erlbaum, 2005."
+    },
+    {
+     "key": "ref15",
+     "unstructured": "[15]\tCore R, Team R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. 2018."
+    },
+    {
+     "key": "ref16",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[16]\tKeselman HJ. A Monte carlo investigation of three estimates of treatment magnitude: Epsilon squared, eta squared, and omega squared. Can Psychol Rev 1975; 16: 44\u201348.",
+     "DOI": "10.1037/h0081789"
+    },
+    {
+     "key": "ref17",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[17]\tCarroll RM, Nordholm LA. Sampling characteristics of Kelley\u2019s epsilon and Hays\u2019 omega. Educ Psychol Meas 1975; 35: 541\u2013554.",
+     "DOI": "10.1177/001316447503500304"
+    },
+    {
+     "key": "ref18",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[18]\tOkada K. Is omega squared less biased? A comparison of three major effect size indices in one-way ANOVA. Behaviormetrika 2013; 40: 129\u2013147.",
+     "DOI": "10.2333/bhmk.40.129"
+    },
+    {
+     "key": "ref19",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[19]\tSkidmore ST, Thompson B. Bias and precision of some classical ANOVA effect sizes when assumptions are violated. Behav Res Methods 2012; 45: 536\u2013546.",
+     "DOI": "10.3758/s13428-012-0257-2"
+    },
+    {
+     "key": "ref20",
+     "unstructured": "[20]\tYigit S, Mendes M. Which effect size measure is appropriate for one-way and two-way ANOVA models? A Monte Carlo simulation study. Revstat-Stat J 2018; 16: 295-313."
+    },
+    {
+     "key": "ref21",
+     "doi-asserted-by": "crossref",
+     "unstructured": "[21]\tSchneider A, Hommel G, Blettner M. Linear regression analysis: part 14 of a series on evaluation of scientific publications. Dtsch Arztebl Int 2010; 107: 776-882.",
+     "DOI": "10.3238/arztebl.2010.0776"
+    },
+    {
+     "key": "ref22",
+     "unstructured": "[22]\tDoulah MSU. Robust coefficients of determination: A measure of goodness of fit. Int J Eng Res 2013; 4: 1715-1717."
+    }
+   ],
+   "container-title": [
+    "Eski\u015fehir Technical University Journal of Science and Technology A - Applied Sciences and Engineering"
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      23
+     ]
+    ],
+    "date-time": "2023-06-23T13:04:22Z",
+    "timestamp": 1687525462000
+   },
+   "score": 39.082893,
+   "resource": {
+    "primary": {
+     "URL": "http://dergipark.org.tr/en/doi/10.18038/estubtda.864226"
+    }
+   },
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      26
+     ]
+    ]
+   },
+   "references-count": 22,
+   "journal-issue": {
+    "issue": "1",
+    "published-online": {
+     "date-parts": [
+      [
+       2021,
+       3,
+       26
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.18038/estubtda.864226",
+   "ISSN": [
+    "2667-4211"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2667-4211"
+    }
+   ],
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      26
+     ]
+    ]
+   }
+  }
+ ]
+}
