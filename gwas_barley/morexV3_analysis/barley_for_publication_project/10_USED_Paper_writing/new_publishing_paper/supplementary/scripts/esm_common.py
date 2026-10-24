@@ -15,6 +15,14 @@ AUTHOR NAMES, AFFILIATION AND E-MAIL ARE PLACEHOLDERS until the title page is se
 item CHK1). Set them below and rebuild all files (bash build_all.sh).
 
 Created 2026-10-01 (supplementary-material session; build/proposed/ESM0_QUESTIONS.md).
+
+RENUMBERED 2026-10-17 (S. Hübner's comment; user decision): the 13 "Online Resources" became two running series,
+Supplementary Tables S1-S22 and Supplementary Figures S1-S5, each numbered by first citation in the manuscript, one
+number per table or figure (as in Potapenko et al. 2026a, Mol Biol Evol). Two files: ESM_1.xlsx (the tables, one sheet
+each; build_ESM_tables.py) and ESM_2.pdf (the figures, each with its legend; build_ESM_pdf.py). The content builders
+(build_ESM_xlsx.py) still group the tables as before; those workbooks are intermediate (../parts/part_N.xlsx, N = the
+former Online Resource number) and are never published. SUPP_TABLES / SUPP_FIGURES below are the one map from the
+former grouping to the new numbers.
 """
 import pathlib, re
 from openpyxl import Workbook
@@ -80,7 +88,8 @@ def about_sheet(wb, n, caption, sheets, definitions, notes=()):
     ws.title = "About"
     title = CellRichText([TextBlock(InlineFont(b=True, i=it), p) for p, it in TITLE_PARTS])
     ws.append([title]); ws.append([JOURNAL]); ws.append([AUTHORS]); ws.append([CORR_LINE]); ws.append([])
-    ws.append([f"Online Resource {n}" if isinstance(n, int) else str(n)]); ws.cell(ws.max_row, 1).font = Font(bold=True, size=12)
+    ws.append([f"Part {n} (intermediate workbook; published as Supplementary Tables in ESM_1.xlsx)" if isinstance(n, int) else str(n)])
+    ws.cell(ws.max_row, 1).font = Font(bold=True, size=12)
     ws.append([caption]); ws.cell(ws.max_row, 1).alignment = WRAP_TOP
     ws.row_dimensions[ws.max_row].height = max(30, 15 * (len(caption) // 120 + 1))
     ws.append([])
@@ -134,10 +143,106 @@ def new_workbook():
 
 
 def save(wb, n):
+    """an intermediate workbook (one former Online Resource): ../parts/part_N.xlsx, read by build_ESM_tables.py"""
     check_no_screen_categories(wb)
-    out = SUPP / f"ESM_{n}.xlsx"
+    PARTS.mkdir(exist_ok=True)
+    out = PARTS / f"part_{n}.xlsx"
     wb.save(out)
     return out
+
+
+# ---- the supplementary numbering (2026-10-17) -------------------------------------------------------------------
+PARTS = SUPP / "parts"                       # intermediate workbooks, never published
+TABLES_FILE = SUPP / "ESM_1.xlsx"            # Supplementary Tables S1-S22
+FIGURES_FILE = SUPP / "ESM_2.pdf"            # Supplementary Figures S1-S5
+# Table S1, S2, ... in the order of first citation: (part = former Online Resource, sheet of that part, caption).
+# Captions are taken from the former Online Resource captions and sheet descriptions (*italic* marks gene names).
+SUPP_TABLES = [
+    (1, "Sites", "Sampling sites: the 30 sites with their ecological region, coordinates and ten environmental variables"),
+    (2, "NIR calibration", "Near-infrared (NIR) calibration: for the 30 calibration accessions (one per sampling site), the "
+        "laboratory values, the NIR predictions of the same grain with the manufacturer's calibration for cultivated barley, "
+        "and the NIR values of the same accessions in the 2019–20 season"),
+    (2, "Calibration correlations", "Validation of the NIR calibration: Pearson correlations among the laboratory values, "
+        "the NIR predictions and the 2019–20 NIR values of the 30 calibration accessions (Table S2)"),
+    (2, "Blocks 2019–20", "Pearson correlations between the blocks of the 2019–20 season for the four nutritional traits, "
+        "from the raw NIR values of the accessions grown in both blocks of each pair; block 4 correlated poorly with the "
+        "other blocks for β-glucan and was excluded from the analyses"),
+    (1, "Accessions", "The 290 analyzed accessions: identifiers in the European Nucleotide Archive (project PRJEB79623), "
+        "site, ecological region and the genotype BLUPs of the ten traits"),
+    (3, "Variance components", "Variance components and broad-sense heritability (H²) of the four nutritional and four "
+        "morphological and phenological traits, from a linear mixed model with genotype, season-by-block and "
+        "genotype-by-season random effects fitted to the values centered within season (290 accessions). For each "
+        "component, its variance and its percentage of the total phenotypic variance"),
+    (1, "Environment correlations", "Pearson correlations among the ten environmental variables across the 29 sites of "
+        "the analyzed accessions"),
+    (5, "Loci", "The 36 loci of the genome-wide association analysis of the four nutritional traits (EMMAX; 290 "
+        "accessions; MorexV3 coordinates): position, span, lead SNP and its statistics, and the number of candidate genes"),
+    (5, "Significant SNPs", "The 52 SNPs that exceeded the genome-wide threshold (Bonferroni, α = 0.10; "
+        "−log10(P) = 6.0454), with their locus, allele frequencies and effects"),
+    (6, "Candidate genes", "The 55 candidate genes of the 36 loci, one row per gene: locus and position, whether the "
+        "gene's haplotypes could be tested and why not, the Kruskal–Wallis test of the trait BLUPs among haplotype groups, "
+        "the functional annotation of the 23 genes with significant haplotype associations, and the three genes carried "
+        "forward. Empty cells: step not applied to the gene"),
+    (7, "Summary", "Choice of the crosshap clustering radius (ε), summary: for five values of ε (MGmin = 2), the number "
+        "of the 55 candidate genes whose haplotypes could be tested, the proportion of accessions assigned to haplotype "
+        "groups and the number of groups. The analysis used ε = 0.6. Phenotypes were not used"),
+    (7, "Per gene", "Choice of the crosshap clustering radius (ε), per gene: the same quantities for each of the 55 "
+        "candidate genes at each of the five values of ε (MGmin = 2; Table S11)"),
+    (8, "Canonical genes", "The ten canonical (1,3;1,4)-β-glucan synthase and endohydrolase genes located on the MorexV3 "
+        "genome from their reference protein sequences, and the distance of each to the nearest β-glucan lead SNP on the "
+        "same chromosome"),
+    (10, "Site accounting", "Comparison with elite cultivars: per gene, the SNP sites of the wild and elite MorexV3 call "
+        "sets in the gene window (gene ± 1 kb), the sites compared and the sites excluded"),
+    (10, "Excluded sites", "Comparison with elite cultivars: every SNP site excluded from the comparison, with the reason"),
+    (10, "Screen", "Call-rate screen of the 136 spring elite lines of the barley pangenome panel, by pooled call rate "
+        "over the compared sites of *GPAT6*, *GH17* and *PHT4;3*"),
+    (10, "Cultivars", "The five spring malting cultivars compared with the wild haplotype groups, and their call rates at "
+        "the four presented genes"),
+    (11, "Lead SNPs – tests", "Geographic origin of the carriers of the lead-SNP alleles of the 36 loci: carriers per "
+        "ecological region, and the site-permutation tests of desert enrichment and of the distribution over the six regions"),
+    (11, "Lead SNPs – by region", "Minor- and major-allele carriers and missing calls of each lead SNP, per ecological region"),
+    (11, "Haplotype groups – tests", "Geographic origin of the haplotype groups of the four presented genes: members per "
+        "ecological region, and the site-permutation tests of desert enrichment and of the distribution over the six regions"),
+    (11, "Haplotype groups – by region", "Members of each haplotype group of the four presented genes per ecological "
+        "region, and the unassigned accessions"),
+    (11, "Carriers vs site-mates", "Comparison of the minor-allele carriers of each lead SNP with the major-allele "
+        "carriers of their own site"),
+]
+# Fig. S1, S2, ... in the order of first citation: (key in build_ESM_pdf.FIGS, short title for the contents lists)
+SUPP_FIGURES = [
+    ("ld", "Decay of linkage disequilibrium with physical distance across the genome (**a**) and per chromosome (**b**)"),
+    ("crosshap", "crosshap haplotype plots of *GPAT6*, *GH17*, *PHT4;3* and the GDSL esterase/lipase gene"),
+    ("origin", "Geographic origin of the accessions carrying the lead-SNP alleles and the haplotypes of the four "
+               "candidate genes"),
+    ("enrichment", "Desert enrichment of the lead-SNP alleles and the haplotypes of the four candidate genes"),
+    ("sites", "Genotype BLUPs of the four nutritional traits across the 29 sampling sites, by ecological region"),
+]
+N_TABLES, N_FIGURES = len(SUPP_TABLES), len(SUPP_FIGURES)
+
+
+def table_no(part, sheet):
+    """the Table S number of a sheet of an intermediate workbook"""
+    k = [i for i, (p, s, _) in enumerate(SUPP_TABLES, 1) if (p, s) == (part, sheet)]
+    assert len(k) == 1, (part, sheet)
+    return k[0]
+
+
+def fig_no(key):
+    return [k for k, _ in SUPP_FIGURES].index(key) + 1
+
+
+def sheet_refs_to_tables(text, part):
+    """'sheet “Loci”' in a description of part 5 -> 'Table S8'"""
+    return re.sub(r"sheet “([^”]+)”", lambda m: f"Table S{table_no(part, m.group(1))}", text)
+
+
+def check_supp_refs(text, where):
+    """no 'Online Resource' left; every Table S / Fig. S reference exists"""
+    assert "Online Resource" not in text, (where, "Online Resource")
+    for k in re.findall(r"Tables? S(\d+)", text) + re.findall(r"Tables? S\d+–S(\d+)", text):
+        assert 1 <= int(k) <= N_TABLES, (where, f"Table S{k}")
+    for k in re.findall(r"Figs?\. S(\d+)", text):
+        assert 1 <= int(k) <= N_FIGURES, (where, f"Fig. S{k}")
 
 
 TRAIT_LABEL = {"betaglucan": "β-glucan", "fiber": "Fiber", "starch": "Starch", "protein": "Protein"}

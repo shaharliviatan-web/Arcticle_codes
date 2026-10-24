@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""build_ESM_xlsx.py -- builds the spreadsheet Online Resources of the TAG manuscript, ESM_1.xlsx ... ESM_11.xlsx
-(numbering = order of first citation in the manuscript; final list approved by the user 2026-10-01, ESM0 Q1).
+"""build_ESM_xlsx.py -- builds the content of the Supplementary Tables of the TAG manuscript, as intermediate workbooks
+../parts/part_N.xlsx (N = the former Online Resource number, 2026-10-01 to 2026-10-17; "ESM N" below). Since 2026-10-17
+(S. Hübner's comment, user decision) the published file is ESM_1.xlsx, one sheet per table (Tables S1-S22), assembled by
+build_ESM_tables.py from these parts with the map in esm_common.py (SUPP_TABLES); cross-references in the descriptions
+name the new Table S numbers.
 
 NOTHING IS RE-COMPUTED. Every value is copied from a read-only project output; joins use gene_id / lead_SNP, never
 locus_id alone (10_USED_Paper_writing/CLAUDE.md, hard rule 3). Column renaming, unit conversion of call rates from
@@ -319,7 +322,7 @@ def esm2():
         ("NIR calibration", "The 30 calibration accessions: laboratory values and NIR predictions (%)."),
         ("Calibration correlations", "Pearson correlations between the laboratory values and the NIR predictions."),
         ("Blocks 2019–20", "Pearson r and number of accessions for each pair of blocks and each trait.")], {
-        "NIR calibration": [("Accession, Site", "Calibration accession (one chosen at random per sampling site; ID as in Online Resource 1) and its site. "
+        "NIR calibration": [("Accession, Site", "Calibration accession (one chosen at random per sampling site; ID as in Table S5) and its site. "
                              "Site 04 is included: the calibration used all 30 sites."),
                             ("laboratory", "Protein: Kjeldahl, nitrogen × 6.25, mean of three subsamples of about 200 mg. Starch and β-glucan: "
                              "Megazyme Total Starch and Mixed-Linkage β-Glucan kits, mean of four subsamples (two for the starch of one accession)."),
@@ -440,7 +443,7 @@ def esm5():
            "and effects (EMMAX; 290 accessions; MorexV3 coordinates)")
     about_sheet(wb, 5, cap, [("Loci", "One row per locus: position, span, lead SNP and its statistics, and the number of candidate genes."),
                              ("Significant SNPs", "One row per genome-wide significant SNP, with its locus.")], {
-        "Loci": [("Locus", "Locus ID (trait and number); the same IDs are used in Online Resources 6 and 11."),
+        "Loci": [("Locus", "Locus ID (trait and number); the same IDs are used in Tables S10, S18, S19 and S22."),
                  ("Lead SNP", "Chromosome:position (MorexV3) of the most significant SNP of the locus."),
                  ("Locus start, Locus end", "First and last member SNP: the interval searched for candidate genes."),
                  ("Span (kb)", "Locus end − locus start; 0 for the four loci that consist of the lead SNP alone."),
@@ -456,7 +459,7 @@ def esm5():
                  ("Largest gap between member SNPs (kb)", "Largest distance between consecutive member SNPs of the locus (at most 50 kb)."),
                  ("Clump span / members before the gap rule", "Extent and size of the LD clump before it was cut at the first gap of more "
                   "than 50 kb on each side of the lead SNP; members removed by the gap rule = the difference."),
-                 ("Candidate genes", "High-confidence MorexV3 genes overlapping the locus interval (Online Resource 6).")],
+                 ("Candidate genes", "High-confidence MorexV3 genes overlapping the locus interval (Table S10).")],
         "Significant SNPs": [("Locus", "Locus that contains the SNP (sheet “Loci”)."),
                              ("Minor / major allele, MAF", "As in sheet “Loci”."),
                              ("β (%)", "Effect of the minor allele, in % of grain."),
@@ -489,7 +492,7 @@ def esm6():
            "Haplotype groups", "Kruskal–Wallis P", "BH q", "η²", "Difference (SD)", "Identity (%)", "Coverage (%)",
            "nr identity (%)", "nr coverage (%)"}
     rows = [[(float(v) if (h in num and v != "") else (v if v != "" else None)) for h, v in zip(H, r)] for r in G.values.tolist()]
-    defs = [("Trait, Locus, Lead SNP", "Trait of the locus, locus ID and its lead SNP (Online Resource 5)."),
+    defs = [("Trait, Locus, Lead SNP", "Trait of the locus, locus ID and its lead SNP (Table S8)."),
             ("Gene ID", "MorexV3 high-confidence gene (Ensembl Plants release 62)."),
             ("Distance to lead SNP (bp)", "From the lead SNP to the nearest edge of the gene; negative when the gene lies at "
                                           "lower coordinates than the lead SNP. No lead SNP lies inside a gene."),
@@ -627,7 +630,7 @@ def esm8():
         ("Reciprocal best hit", "Y if the MorexV3 protein's best hit among the reference proteins is the query."),
         ("tBLASTn and BLASTP positions agree", "Y if the best tBLASTn hit in the MorexV3 genome (e-value ≤ 10⁻¹⁰) lies at the same gene."),
         ("Nearest β-glucan lead SNP, β-glucan locus, Distance", "Distance from the nearest edge of the gene to the nearest β-glucan "
-         "lead SNP on the same chromosome (Online Resource 5).")]})
+         "lead SNP on the same chromosome (Table S8).")]})
     table_sheet(wb, "Canonical genes", H, rows, fmt={"Start (bp)": "#,##0", "End (bp)": "#,##0", "Identity (%)": "0.00",
                 "Query coverage (%)": "0.0", "E-value": "0.0E+00", "Distance (bp)": "#,##0", "Distance (Mb)": "0.0"},
                 widths={"Enzyme": 34, "Reference protein": 26, "MorexV3 gene": 27, "Note": 30}, freeze="B2")
@@ -802,8 +805,9 @@ def esm11():
                               ("P regions, q regions", "Site-permutation test of the distribution of the minor-allele carriers over the six regions "
                                "(chi-square statistic, upper tail); Benjamini–Hochberg q within trait.")],
         "Lead SNPs – by region": [("Share of all minor- / major-allele carriers (%)", "Of the carriers of that allele, the percentage from the region.")],
-        "Haplotype groups – tests": [("Haplotype groups", "Groups as in Fig. 3 (GPAT6, GH17, PHT4;3; crosshap ε = 0.6, MGmin = 2) and Fig. 4 "
-                                      "(GDSL gene; ε = 0.9, MGmin = 3). Unassigned accessions excluded."),
+        # 2026-10-17 (item MRG4): Figs. 3 and 4 of the manuscript combined into Fig. 3 (row 4 = the GDSL gene)
+        "Haplotype groups – tests": [("Haplotype groups", "Groups as in Fig. 3 (GPAT6, GH17, PHT4;3: crosshap ε = 0.6, MGmin = 2; "
+                                      "GDSL gene: ε = 0.9, MGmin = 3). Unassigned accessions excluded."),
                                      ("Mean fiber / starch BLUP (%)", "Mean genotype BLUP of the group members."),
                                      ("Group members / other groups from desert (%)", "Desert share of the group and of the other assigned accessions of the same gene."),
                                      ("P desert, q desert", "As for the lead SNPs, group vs the other groups of its gene; Benjamini–Hochberg q within gene."),

@@ -1,22 +1,30 @@
 #!/usr/bin/env python3
-r"""build_ESM_pdf.py -- builds the figure Online Resources of the TAG manuscript as PDF: ESM_4.pdf (LD decay),
-ESM_9.pdf (crosshap plots of the four presented genes), ESM_12.pdf (carrier-origin figures), ESM_13.pdf (site figure).
+r"""build_ESM_pdf.py -- ESM_2.pdf, the Supplementary Figures S1-S5 of the TAG manuscript (one file; numbered by first
+citation; S. Hübner's comment, user decision 2026-10-17). Until 2026-10-17 it built four separate figure Online Resources
+(ESM_4, ESM_9, ESM_12, ESM_13); the figures, their sources and their legends are unchanged, only the numbering and the
+assembly into one file.
 
-Each PDF: page 1 = TAG title block (article title, journal, authors, corresponding author's affiliation and e-mail),
-"Online Resource N" and the full legend; then one page per figure with a header line, the figure and a short
-identification line. THE FIGURES ARE USED AS PRODUCED by their analysis steps (vector PDF pages are embedded unchanged;
-the two PNG figures of step 11 at their native 600 dpi, size 174 mm); nothing is redrawn.
+Page 1 = TAG title block (article title, journal, authors, corresponding author's affiliation and e-mail),
+"Supplementary Figures" and the list of figures; then each figure on its own page(s): header "Fig. Sk" (and the panel
+letter), the figure, a short identification line for multi-panel figures, and on the figure's first page its full legend.
+THE FIGURES ARE USED AS PRODUCED by their analysis steps (vector PDF pages are embedded unchanged; the two PNG figures of
+step 11 at their native 600 dpi, size 174 mm); nothing is redrawn. The map key -> Fig. S number is SUPP_FIGURES in
+esm_common.py; figs() below holds the legends and panels and is also read by package_for_review.py (Word copy).
 
-  ESM 4   02_USED_LD_decay_V2_wholegenome/results/figure_ld_decay_genomewide.pdf (a), figure_ld_decay_perchromosome.pdf (b)
-          (both from the same PLINK run as the GWAS SNP set: 7,110,996 SNPs, 290 accessions; checked 2026-10-01)
-  ESM 9   page 5 (the full crosshap plot; page 6 is the violin) of the combined crosshap PDFs at the settings used:
-          04_.../loci_LDspan_eps06_V4/CombinedPDF/<trait>/<gene>/CrosshapTree+Violin__<gene>__MGmin2__Eps0p6.pdf
-          (GPAT6, GH17 fiber; PHT4;3 starch) and 03_01_7H_.../results/figures/crosshap/
-          CrosshapTree+Violin__7HG0729030__{fiber,starch}__MGmin3_eps0.9.pdf (GDSL: both pages, user ESM0 Q10a,
-          2026-10-01; the haplotypes are the same, the phenotype panels differ)
-  ESM 12  11_USED_.../results/figures/Fig_carrier_origin.png, Fig_desert_enrichment.png (600 dpi; captions from
-          results/CAPTIONS.md, Figs. S1-S2)
-  ESM 13  08_USED_creating_figures/Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf (former Fig. 2a)
+  Fig. S1 (key "ld", former ESM 4)  02_USED_LD_decay_V2_wholegenome/results/figure_ld_decay_genomewide.pdf (a),
+          figure_ld_decay_perchromosome.pdf (b) (both from the same PLINK run as the GWAS SNP set: 7,110,996 SNPs,
+          290 accessions; checked 2026-10-01)
+  Fig. S2 (key "crosshap", former ESM 9)  page 5 (the full crosshap plot; page 6 is the violin) of the combined
+          crosshap PDFs at the settings used: 04_.../loci_LDspan_eps06_V4/CombinedPDF/<trait>/<gene>/
+          CrosshapTree+Violin__<gene>__MGmin2__Eps0p6.pdf (GPAT6, GH17 fiber; PHT4;3 starch) and 03_01_7H_.../results/
+          figures/crosshap/CrosshapTree+Violin__7HG0729030__{fiber,starch}__MGmin3_eps0.9.pdf (GDSL: both traits, user
+          ESM0 Q10a, 2026-10-01; the haplotypes are the same, the phenotype panels differ)
+  Figs. S3, S4 (keys "origin", "enrichment", former ESM 12)  11_USED_.../results/figures/Fig_carrier_origin.png,
+          Fig_desert_enrichment.png (600 dpi; legends from results/CAPTIONS.md, step 11's draft "Figs. S1-S2")
+  Fig. S5 (key "sites", former ESM 13)  08_USED_creating_figures/Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf (former Fig. 2a)
+
+The page helpers title_page / figure_page / compile_pages / finish are also used by build_ESM_extra.py (the unnumbered
+supplement), unchanged.
 
 Method: each page is a small LaTeX document (pdflatex, Helvetica = URW Nimbus Sans, Arial metrics; Greek letters
 and math symbols mapped with \DeclareUnicodeCharacter; lualatex cannot be used: luaotfload is not installed), the pages are joined with
@@ -24,10 +32,11 @@ pdfunite, and a final Ghostscript pass embeds every font (the crosshap PDFs refe
 keeps images lossless (Flate, no downsampling) and writes the document title. Intermediate files go to a temporary
 folder under /mnt/data/shahar/.tmp; the .tex sources are kept in scripts/tex/ for review.
 
-Run: python3 build_ESM_pdf.py [4 9 12 13]   (pdflatex, pdfunite, gs). Created 2026-10-01.
+Run: python3 build_ESM_pdf.py   (pdflatex, pdfunite, gs). Created 2026-10-01; one file of Supplementary Figures since 2026-10-17.
 """
 import os, re, shutil, subprocess, sys, tempfile, pathlib
-from esm_common import ROOT, SUPP, TITLE_PARTS, TITLE_PLAIN, JOURNAL, AUTHORS, CORR_LINE, check_title
+from esm_common import (ROOT, SUPP, TITLE_PARTS, TITLE_PLAIN, JOURNAL, AUTHORS, CORR_LINE, check_title, FIGURES_FILE,
+                        SUPP_FIGURES, N_FIGURES, N_TABLES, check_supp_refs, fig_no)
 
 POPPLER = "/mnt/data/shahar/gwas_barley/tools/miniconda3/bin"
 TEXDIR = pathlib.Path(__file__).resolve().parent / "tex"
@@ -134,87 +143,135 @@ def finish(n, pdfs, work, doc_title, out=None):
     return out
 
 
-# ---------------------------------------------------------------------------------------------------------------
-def esm4(work):
+# ---- the Supplementary Figures (one file, ESM_2.pdf; 2026-10-17) ----------------------------------------------
+def _cap(n):
+    cap = (ROOT / "11_USED_check_low_maf_geographic_distribution_minor_allele/results/CAPTIONS.md").read_text(encoding="utf-8")
+    text = re.search(r"\*\*Fig\. S%d\*\* (.+?)\n" % n, cap).group(1)       # step 11's own draft numbering (S1, S2)
+    # its cross-references use that draft numbering too ("labels as in Fig. S1"): map them to the manuscript's numbers
+    draft = {"1": fig_no("origin"), "2": fig_no("enrichment")}
+    return re.sub(r"Fig\. S([12])\b", lambda m: f"Fig. S{draft[m.group(1)]}", text)
+
+
+def _crosshap_genes():
+    return [("a", "fiber", "HORVU.MOREX.r3.3HG0301300", "GPAT6", CH / "fiber/HORVU.MOREX.r3.3HG0301300/CrosshapTree+Violin__HORVU.MOREX.r3.3HG0301300__MGmin2__Eps0p6.pdf", "ε = 0.6, MGmin = 2"),
+            ("b", "fiber", "HORVU.MOREX.r3.5HG0487060", "GH17", CH / "fiber/HORVU.MOREX.r3.5HG0487060/CrosshapTree+Violin__HORVU.MOREX.r3.5HG0487060__MGmin2__Eps0p6.pdf", "ε = 0.6, MGmin = 2"),
+            ("c", "starch", "HORVU.MOREX.r3.3HG0301710", "PHT4;3", CH / "starch/HORVU.MOREX.r3.3HG0301710/CrosshapTree+Violin__HORVU.MOREX.r3.3HG0301710__MGmin2__Eps0p6.pdf", "ε = 0.6, MGmin = 2"),
+            ("d", "fiber", "HORVU.MOREX.r3.7HG0729030", "GDSL esterase/lipase", CH7 / "CrosshapTree+Violin__7HG0729030__fiber__MGmin3_eps0.9.pdf", "ε = 0.9, MGmin = 3"),
+            ("e", "starch", "HORVU.MOREX.r3.7HG0729030", "GDSL esterase/lipase", CH7 / "CrosshapTree+Violin__7HG0729030__starch__MGmin3_eps0.9.pdf", "ε = 0.9, MGmin = 3")]
+
+
+def figs():
+    """the five figures: key -> legend paragraphs and panels (letter, graphic, paper, LaTeX options, identification line;
+    'opts_legend' = options for the first page, which also carries the legend). Read by the Word builder of the review
+    package (package_for_review.py) as well, so both show the same figures and legends."""
     s = (LD / "ld_decay_summary_for_results_chapter.txt").read_text()
     assert "r^2 = 0.20  ->  188.0 kb" in s and "Samples used                          : 290" in s, "LD summary changed"
-    legend = ["Decay of linkage disequilibrium (LD) with physical distance in the 290 wild barley accessions: **a** across "
-              "the genome; **b** per chromosome. The r² of every pair of the 7,110,996 SNPs within 2.5 Mb (pairs with "
-              "r² ≥ 0.001) was computed in PLINK v1.90, averaged in 1-kb distance bins (gray points) and smoothed with a "
-              "LOESS curve (span 0.10) weighted by the number of pairs per bin (red line). Dashed line, r² = 0.2; dotted "
-              "line in **a**, the distance at which the smoothed genome-wide r² falls to 0.2 (about 188 kb)"]
-    docs = [title_page(4, legend, ["Page 2: a, genome-wide", "Page 3: b, per chromosome"]),
-            figure_page(4, "a", (LD / "figure_ld_decay_genomewide.pdf", None), "a  Genome-wide LD decay",
-                        "a4paper", "width=174mm"),
-            figure_page(4, "b", (LD / "figure_ld_decay_perchromosome.pdf", None), "b  LD decay per chromosome",
-                        "a4paper,landscape", "width=260mm")]
-    return finish(4, compile_pages(4, docs, work), work, f"{TITLE_PLAIN} - Online Resource 4")
-
-
-def esm9(work):
-    genes = [("a", "fiber", "HORVU.MOREX.r3.3HG0301300", "GPAT6", CH / "fiber/HORVU.MOREX.r3.3HG0301300/CrosshapTree+Violin__HORVU.MOREX.r3.3HG0301300__MGmin2__Eps0p6.pdf", "ε = 0.6, MGmin = 2"),
-             ("b", "fiber", "HORVU.MOREX.r3.5HG0487060", "GH17", CH / "fiber/HORVU.MOREX.r3.5HG0487060/CrosshapTree+Violin__HORVU.MOREX.r3.5HG0487060__MGmin2__Eps0p6.pdf", "ε = 0.6, MGmin = 2"),
-             ("c", "starch", "HORVU.MOREX.r3.3HG0301710", "PHT4;3", CH / "starch/HORVU.MOREX.r3.3HG0301710/CrosshapTree+Violin__HORVU.MOREX.r3.3HG0301710__MGmin2__Eps0p6.pdf", "ε = 0.6, MGmin = 2"),
-             ("d", "fiber", "HORVU.MOREX.r3.7HG0729030", "GDSL esterase/lipase", CH7 / "CrosshapTree+Violin__7HG0729030__fiber__MGmin3_eps0.9.pdf", "ε = 0.9, MGmin = 3"),
-             ("e", "starch", "HORVU.MOREX.r3.7HG0729030", "GDSL esterase/lipase", CH7 / "CrosshapTree+Violin__7HG0729030__starch__MGmin3_eps0.9.pdf", "ε = 0.9, MGmin = 3")]
+    genes = _crosshap_genes()
     for *_, f, _s in genes:
         info = subprocess.run([f"{POPPLER}/pdfinfo", str(f)], capture_output=True, text=True).stdout
         assert "Pages:           6" in info, f"{f}: expected 6 pages (page 5 = crosshap plot, page 6 = violin)"
-    legend = ["Haplotypes of the four presented genes, as plotted by crosshap v1.4.0 at the settings used in the analysis "
-              "(SNPs within the gene ± 1 kb): **a** *GPAT6* (HORVU.MOREX.r3.3HG0301300), fiber; **b** *GH17* "
-              "(HORVU.MOREX.r3.5HG0487060), fiber; **c** *PHT4;3* (HORVU.MOREX.r3.3HG0301710), starch (ε = 0.6, "
-              "MGmin = 2); the GDSL esterase/lipase gene HORVU.MOREX.r3.7HG0729030, **d** fiber and **e** starch (ε = 0.9, "
-              "MGmin = 3; the same haplotypes for both traits)",
-              "In each plot: top, the number of accessions in each haplotype group (A, B, …); center, the marker-group "
-              "(MG) alleles that define each haplotype (open circle, reference allele; filled circle, alternate allele); "
-              "left, the genotype counts of the SNPs of each marker group (reference, missing, heterozygous, alternate); "
-              "right, the absolute difference in the trait between alternate- and reference-allele carriers at each SNP "
-              "of the marker group (Pheno association), shaded by alternate-allele frequency; bottom, the genotype BLUPs "
-              "of the trait (% of grain) in each haplotype group. Tables: for each marker group, its number of SNPs "
-              "(nSNP), phenotypic difference (phenodiff), mean r² (meanR2) and alternate-allele frequency (AltAF); for "
-              "each haplotype group, its mean BLUP (Pheno) and number of accessions (nTotal). Accessions not assigned to "
-              "a haplotype group are not shown. The haplotype groups are those of Figs. 3 and 4; their tests are in "
-              "Online Resource 6 and Fig. 4"]
-    pages = [f"Page {i + 2}: {g[0]}, {g[3]} ({g[1]})" for i, g in enumerate(genes)]
     name = lambda g: g[3] if g[3] == "GDSL esterase/lipase" else f"*{g[3]}*"
-    docs = [title_page(9, legend, pages)] + [
-        figure_page(9, g[0], (g[4], 5), f"{g[0]}  {name(g)} ({g[2]}), {g[1]}; {g[5]}", "a4paper,landscape",
-                    "height=168mm,width=\\linewidth,keepaspectratio") for g in genes]
-    return finish(9, compile_pages(9, docs, work), work, f"{TITLE_PLAIN} - Online Resource 9")
+    tables_behind = " The tables behind the figure, and the details of the tests, are in Tables S18–S22"
+    return {
+        "ld": dict(legend=[
+            "Decay of linkage disequilibrium (LD) with physical distance in the 290 wild barley accessions: **a** across "
+            "the genome; **b** per chromosome. The r² of every pair of the 7,110,996 SNPs within 2.5 Mb (pairs with "
+            "r² ≥ 0.001) was computed in PLINK v1.90, averaged in 1-kb distance bins (gray points) and smoothed with a "
+            "LOESS curve (span 0.10) weighted by the number of pairs per bin (red line). Dashed line, r² = 0.2; dotted "
+            "line in **a**, the distance at which the smoothed genome-wide r² falls to 0.2 (about 188 kb)"],
+            panels=[dict(letter="a", graphic=(LD / "figure_ld_decay_genomewide.pdf", None), paper="a4paper",
+                         opts="width=174mm", opts_legend="width=174mm,height=200mm,keepaspectratio", ident="a  Genome-wide LD decay"),
+                    dict(letter="b", graphic=(LD / "figure_ld_decay_perchromosome.pdf", None), paper="a4paper,landscape",
+                         opts="width=260mm", ident="b  LD decay per chromosome")]),
+        "crosshap": dict(legend=[
+            "Haplotypes of the four presented genes, as plotted by crosshap v1.4.0 at the settings used in the analysis "
+            "(SNPs within the gene ± 1 kb): **a** *GPAT6* (HORVU.MOREX.r3.3HG0301300), fiber; **b** *GH17* "
+            "(HORVU.MOREX.r3.5HG0487060), fiber; **c** *PHT4;3* (HORVU.MOREX.r3.3HG0301710), starch (ε = 0.6, "
+            "MGmin = 2); the GDSL esterase/lipase gene HORVU.MOREX.r3.7HG0729030, **d** fiber and **e** starch (ε = 0.9, "
+            "MGmin = 3; the same haplotypes for both traits)",
+            "In each plot: top, the number of accessions in each haplotype group (A, B, …); center, the marker-group "
+            "(MG) alleles that define each haplotype (open circle, reference allele; filled circle, alternate allele); "
+            "left, the genotype counts of the SNPs of each marker group (reference, missing, heterozygous, alternate); "
+            "right, the absolute difference in the trait between alternate- and reference-allele carriers at each SNP "
+            "of the marker group (Pheno association), shaded by alternate-allele frequency; bottom, the genotype BLUPs "
+            "of the trait (% of grain) in each haplotype group. Tables: for each marker group, its number of SNPs "
+            "(nSNP), phenotypic difference (phenodiff), mean r² (meanR2) and alternate-allele frequency (AltAF); for "
+            "each haplotype group, its mean BLUP (Pheno) and number of accessions (nTotal). Accessions not assigned to "
+            "a haplotype group are not shown. The haplotype groups are those of Fig. 3; their tests are in Fig. 3 and "
+            "Table S10"],
+            panels=[dict(letter=g[0], graphic=(g[4], 5), paper="a4paper,landscape",
+                         opts="height=168mm,width=\\linewidth,keepaspectratio",
+                         opts_legend="height=112mm,width=\\linewidth,keepaspectratio",
+                         ident=f"{g[0]}  {name(g)} ({g[2]}), {g[1]}; {g[5]}") for g in genes]),
+        "origin": dict(legend=[_cap(1) + "." + tables_behind],
+                       panels=[dict(letter="", graphic=(OR / "Fig_carrier_origin.png", None), paper="a4paper",
+                                    opts="width=174mm,height=226mm,keepaspectratio",
+                                    opts_legend="width=174mm,height=205mm,keepaspectratio", ident="")]),
+        "enrichment": dict(legend=[_cap(2) + "." + tables_behind],
+                           panels=[dict(letter="", graphic=(OR / "Fig_desert_enrichment.png", None), paper="a4paper",
+                                        opts="width=174mm", opts_legend="width=174mm,height=200mm,keepaspectratio", ident="")]),
+        "sites": dict(legend=[
+            "Genotype BLUPs of the four nutritional traits (centered; % of grain) of the 290 accessions across the 29 "
+            "sampling sites, ordered and colored by ecological region (HZ1, HZ2 and HZ3, the North–Coast, "
+            "North–Desert and Coast–Desert intermediate zones). Boxes, median and interquartile range; whiskers, "
+            "1.5 × the interquartile range; points, accessions (ten per site). Sites are numbered as in Table S1 "
+            "(every fifth site labeled; site 4 was not analyzed)"],
+            panels=[dict(letter="", graphic=(SITE, None), paper="a4paper", opts="width=174mm",
+                         opts_legend="width=174mm,height=200mm,keepaspectratio", ident="")]),
+    }
 
 
-def esm12(work):
-    cap = (ROOT / "11_USED_check_low_maf_geographic_distribution_minor_allele/results/CAPTIONS.md").read_text(encoding="utf-8")
-    s1 = re.search(r"\*\*Fig\. S1\*\* (.+?)\n", cap).group(1)
-    s2 = re.search(r"\*\*Fig\. S2\*\* (.+?)\n", cap).group(1)
-    md2plain = lambda s: re.sub(r"\*\*(.+?)\*\*", r"**\1**", s)
-    legend = ["Geographic origin of the carriers of the lead-SNP alleles of the 36 loci and of the haplotype groups of "
-              "the four presented genes (Fig. S1), and their enrichment in desert sites (Fig. S2). The tables behind both "
-              "figures, and the details of the tests, are in Online Resource 11"]
-    docs = [title_page(12, legend, ["Page 2: Fig. S1, carrier origin", "Page 3: Fig. S2, desert enrichment"]),
-            figure_page(12, "Fig. S1", (OR / "Fig_carrier_origin.png", None), "**Fig. S1** " + md2plain(s1),
-                        "a4paper", "width=174mm,height=226mm,keepaspectratio"),
-            figure_page(12, "Fig. S2", (OR / "Fig_desert_enrichment.png", None), "**Fig. S2** " + md2plain(s2),
-                        "a4paper", "width=174mm")]
-    return finish(12, compile_pages(12, docs, work), work, f"{TITLE_PLAIN} - Online Resource 12")
+def fig_page(k, pnl, legend=None):
+    """one page of Fig. Sk: header (Fig. Sk, panel letter), the graphic, its identification line, and on the figure's
+    first page the legend"""
+    path, page = pnl["graphic"]
+    opt = (f"page={page}," if page else "") + (pnl.get("opts_legend") or pnl["opts"] if legend else pnl["opts"])
+    body = (r"{\small\textbf{Fig. S%d}\hfill %s}\par\vspace{2mm}" % (k, tex(pnl["letter"])) + "\n"
+            + r"\begin{center}\includegraphics[%s]{%s}\end{center}" % (opt, str(path)) + "\n")
+    if pnl["ident"]:
+        body += r"\vspace{-2mm}{\small %s\par}" % tex(pnl["ident"]) + "\n"
+    if legend:
+        paras = [r"\textbf{Fig. S%d} " % k + tex(legend[0])] + [tex(x) for x in legend[1:]]
+        body += r"\vspace{1mm}{\small " + "\n\n".join(paras) + r"\par}" + "\n"
+    return PRE % (pnl["paper"] + ",margin=10mm") + body + r"\end{document}" + "\n"
 
 
-def esm13(work):
-    legend = ["Genotype BLUPs of the four nutritional traits (centered; % of grain) of the 290 accessions across the 29 "
-              "sampling sites, ordered and colored by ecological region (HZ1, HZ2 and HZ3, the North–Coast, "
-              "North–Desert and Coast–Desert intermediate zones). Boxes, median and interquartile range; whiskers, "
-              "1.5 × the interquartile range; points, accessions (ten per site). Sites are numbered as in Online "
-              "Resource 1 (every fifth site labeled; site 4 was not analyzed)"]
-    docs = [title_page(13, legend, ["Page 2: the figure"]),
-            figure_page(13, "", (SITE, None), "Genotype BLUPs by sampling site and ecological region", "a4paper", "width=174mm")]
-    return finish(13, compile_pages(13, docs, work), work, f"{TITLE_PLAIN} - Online Resource 13")
+def figures_title_page(entries):
+    title = "".join(r"\textit{%s}" % tex(p) if it else tex(p) for p, it in TITLE_PARTS)
+    body = (r"{\large\bfseries %s\par}\vspace{3mm}" % title + "\n" + tex(JOURNAL) + r"\par" + "\n" + tex(AUTHORS)
+            + r"\par" + "\n" + tex(CORR_LINE) + r"\par\vspace{10mm}" + "\n"
+            + r"{\large\bfseries Supplementary Figures\par}\vspace{3mm}" + "\n"
+            + tex(f"Supplementary Figures S1–S{N_FIGURES} of the manuscript, numbered in the order in which they are first "
+                  f"cited, each with its legend. The tables (Tables S1–S{N_TABLES}) are in the accompanying file of "
+                  f"Supplementary Tables.") + r"\par\vspace{4mm}" + "\n"
+            + r"{\small " + "\n\n".join(r"\textbf{Fig. S%d} %s" % (k, tex(t) + r"\hfill " + tex(pg)) for k, t, pg in entries)
+            + r"\par}" + "\n")
+    return PRE % "a4paper,margin=20mm" + body + r"\end{document}" + "\n"
+
+
+def build_figures(work):
+    spec = figs()
+    assert set(spec) == {k for k, _ in SUPP_FIGURES}, "FIGS and esm_common.SUPP_FIGURES disagree"
+    pages, entries, page = [], [], 2
+    for k, (key, title) in enumerate(SUPP_FIGURES, 1):
+        f = spec[key]
+        n = len(f["panels"])
+        entries.append((k, title, f"page {page}" if n == 1 else f"pages {page}–{page + n - 1}"))
+        pages += [fig_page(k, pnl, f["legend"] if j == 0 else None) for j, pnl in enumerate(f["panels"])]
+        page += n
+    for old in TEXDIR.glob("ESM_[0-9]*_p*.tex"):             # the former per-Online-Resource page sources
+        old.unlink()
+    docs = [figures_title_page(entries)] + pages
+    out = finish(2, compile_pages(2, docs, work), work, f"{TITLE_PLAIN} - Supplementary Figures", out=FIGURES_FILE)
+    text = subprocess.run([f"{POPPLER}/pdftotext", str(out), "-"], capture_output=True, text=True).stdout
+    check_supp_refs(text, out.name)
+    for k in range(1, N_FIGURES + 1):
+        assert f"Fig. S{k}" in text, f"Fig. S{k} missing from {out.name}"
+    return out
 
 
 if __name__ == "__main__":
     check_title()
-    only = set(sys.argv[1:])
-    for n, f in [(4, esm4), (9, esm9), (12, esm12), (13, esm13)]:
-        if not only or str(n) in only:
-            work = pathlib.Path(tempfile.mkdtemp(prefix=f"esm{n}_", dir="/mnt/data/shahar/.tmp"))
-            f(work)
-            shutil.rmtree(work)
+    work = pathlib.Path(tempfile.mkdtemp(prefix="esm_figs_", dir="/mnt/data/shahar/.tmp"))
+    build_figures(work)
+    shutil.rmtree(work)

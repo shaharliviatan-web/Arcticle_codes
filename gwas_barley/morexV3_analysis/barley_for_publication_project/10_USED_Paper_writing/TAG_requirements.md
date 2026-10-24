@@ -21,12 +21,12 @@ linked Springer Nature "list of mandated data types". Fetch them if needed.
 | 4 | Old figures use uppercase panel letters (A, B) and "Figure 1." | panels **a, b, c**; captions **`Fig. 1`** in bold; no punctuation after the number or at the end of the caption; no titles inside figure images |
 | 5 | **Plant genetic resources:** wild barley accessions = PGR, so genotype/sequencing data deposition in a public repository is **mandatory** | ✅ **Resolved 2026-09-15.** Raw WGS reads for all 300 *H. spontaneum* accessions are public at **ENA PRJEB79623** (ERP163757; 300 NovaSeq WGS runs, public since 2026-03-27). All 290 GWAS accessions are verified present: VCF `HS0103` = ENA alias `01_03`; the 10 excluded are site 04. Published with Potapenko et al. (2026) *Mol Ecol*, https://doi.org/10.1111/mec.70540 (also used in Potapenko et al. 2026 *MBE*, https://doi.org/10.1093/molbev/msag051). Cite PRJEB79623 at the end of M&M and in Data availability. |
 | 5b | The published SNP calls are against **MorexV2**; ours are a GATK4 **re-call against MorexV3**, which is not published | Methods must describe the MorexV3 re-call (commands and filters are in the header of `/mnt/data/shahar/gwas_barley/data/inputs/morexV3_with_ids.vcf.gz`). Share the MorexV3 VCF (6.9 GB, too large for ESM) through Zenodo/Dryad, or state "available on request" |
-| 6 | QTL/association studies: genotype, phenotype and mapping data are expected as supplementary data | ✅ **Done 2026-10-01** for phenotypes and mapping: genotype BLUPs of the 290 accessions (Online Resource 1), the 36 loci and 52 significant SNPs (Online Resource 5). MorexV3 genotypes: Zenodo via 5b (open, TODO 234) |
+| 6 | QTL/association studies: genotype, phenotype and mapping data are expected as supplementary data | ✅ **Done 2026-10-01** for phenotypes and mapping: genotype BLUPs of the 290 accessions (Table S5), the 36 loci and 52 significant SNPs (Tables S8, S9; numbers since 2026-10-17). MorexV3 genotypes: Zenodo via 5b (open, TODO 234) |
 | 7 | Code essential to the results → download links + formatted example data | open: GitHub/Zenodo release of this project's scripts (the lab publishes under https://github.com/hubner-lab) |
 | 8 | Minimum study requirements | N = 290 > 100 ✓; 3 growing seasons = 3 environments ✓ ("locations and/or years") |
 | 9 | Declarations need real details | funding agency + grant numbers, competing interests, author contributions (initials): ask the supervisor |
 | 10 | **Guidelines contradict each other on Declarations position**: "Statements and Declarations … placed **after** the References" vs "Declarations section **before** the reference list" (Competing-interests summary) | follow the primary instruction (after References) unless a recent TAG article shows otherwise |
-| 11 | Supplementary files must be cited as "Online Resource N" | ✅ **Done 2026-10-01**: 13 files `ESM_1` … `ESM_13`, numbered by first citation, title block in each, captions in the manuscript ("Supplementary Information"). Map: `new_publishing_paper/supplementary/README.md`; upload set: `supplementary/for_submission/` |
+| 11 | Supplementary files: the guidelines say "Online Resource N" | ✅ **2026-10-17 (S. Hübner; user decision):** two files, `ESM_1.xlsx` = Supplementary Tables S1–S22 and `ESM_2.pdf` = Supplementary Figures S1–S5, cited "Table S1", "Fig. S1", as published TAG papers do (see "Supplementary Information (ESM)" below); title block in both files, one caption per file in the manuscript. Map: `new_publishing_paper/supplementary/README.md`; upload set: `supplementary/for_submission/`. (2026-10-01 to 2026-10-17: 13 Online Resources `ESM_1` … `ESM_13`.) |
 
 ---
 
@@ -131,7 +131,8 @@ non-commercial use within 60 days of request. Restrictions go in the cover lette
   PMC13616022, PMC13546169, PMC13219082): the article ends with a **"Supplementary Information"** section that Springer
   builds from the uploaded files and their captions ("Below is the link to the electronic supplementary material", one
   line per file); each also has a Key message. Their in-text style varies ("Supplementary Table S1" or "Online Resource");
-  this manuscript follows the guidelines ("Online Resource N"). **Keep one file per Online Resource** (a zip of several
+  this manuscript first followed the guidelines ("Online Resource N"); since 2026-10-17 it uses "Table S1" / "Fig. S1" in two files
+  (S. Hübner's request; the style of published TAG papers). **Earlier rule, superseded: keep one file per Online Resource** (a zip of several
   files is allowed for upload); enter the same caption for each file in the submission system
   (`supplementary/for_submission/CAPTIONS.md`).
 

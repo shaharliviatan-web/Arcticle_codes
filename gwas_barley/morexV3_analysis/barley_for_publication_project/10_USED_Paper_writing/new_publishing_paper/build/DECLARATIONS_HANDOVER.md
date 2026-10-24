@@ -18,3 +18,5 @@ sample alias of each accession is listed in Online Resource 1."
 *2026-10-01 (supplementary session, item E1): "Online Resource N" above → **Online Resource 1** (`supplementary/ESM_1.xlsx`: sites, accessions with their ENA sample alias and sample/run accessions, and the genotype BLUPs of the ten traits).*
 
 *2026-10-01 (References session, item REF1): Potapenko letters swapped to TAG's chronological order; the Mol Ecol paper is now **Potapenko et al. 2026b** (2026a = Mol Biol Evol). The quoted M&M sentence above is updated.*
+
+*2026-10-17 (supplementary renumbering, item SUPP2): the supplement is now Supplementary Tables S1–S22 (ESM_1.xlsx) and Figures S1–S5 (ESM_2.pdf). "Online Resource 1" above → **Table S5** for the genotype BLUPs and the ENA sample aliases (the accessions table; the sampling sites are Table S1). The M&M sentence now reads "…the sample alias of each accession is listed in Table S5."*

@@ -7,9 +7,10 @@ manuscript. Figure specs: `10_USED_Paper_writing/TAG_requirements.md`.
 |---|---|---|---|
 | **Fig. 1 — variance partition, reaction norms, trait correlations, environment** | **rebuilt 2026-09-30** (old Fig. 1a, b + old 2b/2c merged as c + old 2d as d); layout and caption approved by the user | `make_figure_1.R` | `Figure_1/Fig1.png` (docx build), `Figure_1/Fig1.tif` (submission) |
 | **Fig. 2 — GWAS Manhattan + QQ** (was Fig. 3) | approved 2026-09-22; re-rendered 2026-09-27 (true 9 pt); renumbered 2026-09-30 (pixel-identical) | `make_figure_2.R` | `Figure_2/Fig2.png`, `Figure_2/Fig2.tif` |
-| **Fig. 3 — haplotype structure + elite cultivars** (was Fig. 4) | approved 2026-09-23; re-rendered 2026-09-24 (true 9 pt, ties → REF); renumbered 2026-09-30 (pixel-identical) | `make_figure_3.R` | `Figure_3/Fig3.png`, `Figure_3/Fig3.tif` |
-| **Fig. 4 — GDSL esterase at the shared 7H signal** (Results ch. 4; was Fig. 5) | approved 2026-09-24; renumbered 2026-09-30 (pixel-identical) | `make_figure_4.R` | `Figure_4/Fig4.png`, `Figure_4/Fig4.tif` |
-| **Online Resource (ESM number open) — site BLUPs by region** (old Fig. 2a) | built 2026-09-30 | `make_figure_ESM_site_BLUPs.R` | `Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf` (the ESM file) + `.png` (preview) |
+| **Fig. 3 — haplotype structure of the four candidate genes + elite cultivars** (Results ch. 3; **combined 2026-10-17** from the former Fig. 3, three genes, and Fig. 4, the 7H GDSL gene) | **approved 2026-10-17**; the former Figs. 3 and 4 were approved 2026-09-23 / 09-24 | `make_figure_3.R` | `Figure_3/Fig3.png`, `Figure_3/Fig3.tif` |
+| **Fig. S5 — site BLUPs by region** (old Fig. 2a; Supplementary Figures, `ESM_2.pdf`, since 2026-10-17; was Online Resource 13) | built 2026-09-30 | `make_figure_ESM_site_BLUPs.R` | `Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf` (embedded in ESM_2.pdf) + `.png` (preview) |
+
+**Combined 2026-10-17** (S. Hübner's recommendation; user decisions): Results ch. 3 and ch. 4 were merged into one chapter, and the former Fig. 3 (three genes) and Fig. 4 (the 7H GDSL gene) into one Fig. 3, drawn by `make_figure_3.R`. `make_figure_4.R` and `Figure_4/` were deleted the same day (user request; the script and `Fig4.tif` remain in git). The manuscript has three figures since then. See the Fig. 3 section.
 
 **Renumbered 2026-09-30** (S. Hübner's comments on the figures; user decisions; hand-over
 `10_USED_Paper_writing/new_publishing_paper/build/STRUCTURE_CHANGES_2026-10.md`). Old Fig. 2 was dissolved:
@@ -69,7 +70,7 @@ equal `star_fn(p)` in all three sources; 32 trait × environment tests.
 
 **Output:** `Figure_1/Fig1.png` + `Fig1.tif` (LZW, converted from the PNG), 600 dpi, RGB, true 9 pt.
 
-## Online Resource — `make_figure_ESM_site_BLUPs.R` (old Fig. 2a, built 2026-09-30)
+## Fig. S5 (supplementary) — `make_figure_ESM_site_BLUPs.R` (old Fig. 2a, built 2026-09-30)
 
 ```bash
 Rscript make_figure_ESM_site_BLUPs.R   # seconds
@@ -203,108 +204,93 @@ enlarged/open-circle leads, and a palette including a grey that blended into the
 
 ---
 
-## Fig. 3 — `make_figure_3.R` (approved 2026-09-23 as Fig. 4; renumbered 2026-09-30)
+## Fig. 3 — `make_figure_3.R` (combined and approved 2026-10-17)
 
 ```bash
 Rscript make_figure_3.R        # seconds
 ```
 
-**Layout.** One row per gene, violins left (70 mm) and the aligned genotype barcodes right (104 mm):
-**a**/**d** GPAT6 (fiber), **b**/**e** GH17 (fiber), **c**/**f** PHT4;3 (starch) — the three genes
-carried forward by step 06, in the order Results ch. 3 discusses them. Panel letters run down the
-violin column (a–c) and then down the barcode column (d–f). One genotype legend, under the barcode
-column and centred on the tiles.
+Results ch. 3 (merged with the former ch. 4 on 2026-10-17): the haplotype structure of the four candidate genes,
+with the five elite cultivars drawn as aligned genotype barcodes. One row per gene, in the order of the text:
+
+| row | gene | violins (left, 86 mm) | barcode (right, 88 mm) | source analysis |
+|---|---|---|---|---|
+| 1 | GPAT6 `3HG0301300` | **a** fiber | **f** | step 04 run `loci_LDspan_eps06_V4` + step 07 |
+| 2 | GH17 `5HG0487060` | **b** fiber | **g** | same |
+| 3 | PHT4;3 `3HG0301710` | **c** starch | **h** | same |
+| 4 | GDSL `7HG0729030` | **d** fiber, **e** starch (two half-width panels, 43 mm each) | **i** | `03_01_7H_branch_Starch_Fiber_shared_signal_explore/` (crosshap MGmin = 3, ε = 0.9, gene ± 1 kb) |
 
 **Violins.** Trait BLUP by wild haplotype group, boxplot inside, group letter and *n* below. Densities
 are computed **untrimmed** (`cut = 2`) and the y-range is taken from the drawn shapes, so no violin is
-cut off flat at the extreme observations. Above each panel: the BH *q* and η² of step 04, and the
-Wilcoxon-vs-largest-group brackets of step 07 (Holm-corrected within the gene, `****` ≤ 1e-4 … `ns`).
+cut off flat at the extreme observations. Brackets: Wilcoxon of each group against the largest, Holm-corrected
+within the gene (`****` ≤ 1e-4 … `ns`; step 07 for rows 1–3, the 7H branch for row 4). Above each panel, the
+gene-level statistic: the **BH *q*** and η² of step 04 (a–c), the **raw Kruskal–Wallis *P*** and η² for the GDSL
+gene (d, e; a single pre-specified test outside the step-04 BH family). The GDSL panels print the gene and trait on
+one line and the statistic on the line below (the two do not fit side by side in 43 mm at 9 pt); the other panels
+keep both on one line.
 
-**Barcodes.** One row per wild haplotype group (per-SNP majority consensus over the group's members,
-ties drawn as missing), a white gap, then one row per elite cultivar in order of release. Columns are
-SNPs in genomic order. **Only the `shared_sites` version is drawn** (decided in
-`10_USED_Paper_writing/new_publishing_paper/build/BLUEPRINT.md`): a column exists only where both call
-sets have a record with identical REF and ALT, so nothing is assumed anywhere in the figure. Elite
-lines are **not assigned to a haplotype group** — crosshap never saw them; the rows are aligned and
-the comparison is left to the reader. Colours are step 07's, themselves inherited from step 04's
-heatmaps: Reference `#FFFACD`, Alternate `#2F4F4F`, Heterozygous `#C46210`, Missing `grey70`. The
-legend lists only the states actually drawn.
+**Barcodes.** One row per wild haplotype group (per-SNP majority consensus over the group's members, ties → REF,
+step 07's rule), a white gap, then one row per elite cultivar in order of release. Columns are SNPs in genomic
+order. **Only the `shared_sites` version is drawn** (decided in
+`10_USED_Paper_writing/new_publishing_paper/build/BLUEPRINT.md`): a column exists only where both call sets have a
+record with identical REF and ALT, so nothing is assumed anywhere in the figure. Elite lines are **not assigned to
+a haplotype group**: crosshap never saw them; the rows are aligned and the comparison is left to the reader. The
+GDSL fiber and starch groupings are identical (the same 212 | 34 accessions; the script stops if not), so row 4 has
+one barcode. Under it, **red triangles** mark the **three genome-wide significant SNPs** (7H:573,606,306,
+573,606,460, 573,606,491), with their key ("Genome-wide significant SNP") directly under that barcode; the fourth
+haplotype-defining SNP (7H:573,606,282; −log10P 2.35 / 3.13) is not marked. Colours are step 07's, inherited from
+step 04's heatmaps: Reference `#FFFACD`, Alternate `#2F4F4F`, Heterozygous `#C46210`, Missing `grey70`. One
+genotype legend, under the barcode column, listing only the states drawn; its right end is aligned with the tiles
+(in the 88-mm column it would otherwise end 0.5 mm from the page edge).
 
-**TAG spec.** 174 × 187.7 mm (limit 234); Liberation Sans (Arial-metric) at a **true 9 pt** for all lettering;
-lines 0.75 pt; RGB; 600 dpi. No title inside the image — the gene names are panel labels, and the
-windows, SNP counts and colour definitions belong to the caption. The TIFF (LZW) is converted from
-the PNG, so the two are pixel-identical.
+**TAG spec.** **174 × 234.0 mm, the TAG maximum** (5,527 px at 600 dpi); four equal rows of ~56 mm (the former
+Fig. 3 had ~60 mm) and a legend row; columns **86 | 88 mm** (the former figures had 70 | 104: each GDSL half panel
+needs 43 mm for its *P* label, 39.3 mm at 9 pt, and the genotype legend, 85.4 mm, must fit under the barcodes);
+Liberation Sans (Arial-metric) at a **true 9 pt**; lines 0.75 pt; RGB; TIFF (LZW) converted from the PNG, so the
+two are pixel-identical. No title inside the image: the gene names are panel labels, and the windows, SNP counts and
+colour definitions belong to the caption.
 
-**Built-in checks** (the script stops if any fails): no shared position is allele-swapped or has a
-differing REF (re-asserted from `Table_allele_concordance.tsv`, so a stale matrix cannot produce a
-silently inverted figure); the group count and group sizes match step 04's `gene_results.tsv`; the
-group means are recomputed from the individuals; the wild consensus contains only REF/ALT/missing;
-the elite rows are the five configured cultivars in release order. Last run: GPAT6 3 groups / 43
-shared SNPs / q 5.26e-06 / η² 0.208, GH17 5 / 33 / 7.47e-05 / 0.222, PHT4;3 4 / 12 / 3.83e-04 / 0.078 (last run 2026-09-24).
-
-**Fixed 2026-09-24 (user decisions).**
-- **Text size.** `layout()` with three or more rows silently sets `par(cex = 0.66)` and nothing reset
-  it, so the version approved 2026-09-23 as "11 pt" measured **~7.3 pt** on the page, below TAG's
-  8 pt minimum; the margin arithmetic (`LINE_IN`) was wrong for the same reason. `par(cex = 1)` is now
-  set after every `layout()` call and `PT = 9`: a true 9 pt (TAG 8–12), ~25% larger than the approved look.
-- **Consequences of the larger text, fixed in the drawing only (no statistic changed):** brackets are
-  stacked one text line apart in inches above the violins (step 07's `y.position` now sets only their
-  order; its data-unit spacing let the stars sit on the next bracket); y-axis ticks stop at the top of
-  the data; every `(n=..)` label is drawn (`gap.axis = -1`; R had dropped two touching labels in
-  panel b); the legend is drawn by `hlegend()` with per-item widths (R 4.1's `legend()` gives every
-  item the widest label's width and no longer fitted), centred on the whole barcode column.
-- **Consensus ties → REF** (step 07's `consensus_row()`, see its README): turns the two grey GH17 wild
-  cells in panel e (group A `5H:462,728,332`, group E `5H:462,729,123`) into REF.
-- **Applied to the Manhattan figure (then Fig. 3, now Fig. 2) on 2026-09-27** (user decision: match at a true 9 pt). See the Fig. 2 section.
+**Built-in checks** (the script stops if any fails). Rows 1–3: no shared position is allele-swapped or has a
+differing REF (re-asserted from step 07's `Table_allele_concordance.tsv`, so a stale matrix cannot produce a
+silently inverted figure); group count and sizes match step 04's `gene_results.tsv`; group means recomputed from the
+individuals; wild consensus REF/ALT/missing only; elite rows are the five configured cultivars in release order.
+Row 4 (taken over unchanged from the former `make_figure_4.R`): no shared position swapped or with a differing REF;
+shared-site count equals `Table_site_overlap.tsv`; elite states re-derived from the VCF equal
+`Table_elite_genotypes_wide__*.tsv`; group count and sizes equal `mgmin3_gene_results.tsv`; fiber and starch
+groupings identical; the three significant SNPs are shared sites and members of the haplotype-defining marker group.
+**Last run 2026-10-17:** GPAT6 3 groups / 43 shared SNPs / q 5.26e-06 / η² 0.208; GH17 5 / 33 / 7.47e-05 / 0.222;
+PHT4;3 4 / 12 / 3.83e-04 / 0.078; GDSL 2 groups (212 | 34) / 22 shared SNPs (triangles at columns 20–22) / fiber
+*P* 2.09e-03, η² 0.035 / starch *P* 1.07e-03, η² 0.040. Every value equals the former Figs. 3 and 4.
 
 **Inputs** (read-only): `07_USED_elite_lines_compariosn_to_wild_lines/intermediates/matrices/<gene>__shared_sites.rds`,
-`07_.../results/tables/{Table_pairwise_group_tests,Table_allele_concordance}.tsv`,
-`07_.../config/elite_lines.tsv`,
-`04_USED_haplotype_analysis_crosshap/04_runs/loci_LDspan_eps06_V4/Stats/gene_results.tsv`.
+`07_.../results/tables/{Table_pairwise_group_tests,Table_allele_concordance}.tsv`, `07_.../config/elite_lines.tsv`
+(the five cultivars, all four genes); `04_USED_haplotype_analysis_crosshap/04_runs/loci_LDspan_eps06_V4/Stats/gene_results.tsv`;
+`03_01_7H_branch_Starch_Fiber_shared_signal_explore/`: `Cache/<trait>/HORVU.MOREX.r3.7HG0729030/MGmin_3/eps_0.9/HapObject.rds`,
+`results/tables/{mgmin3_gene_results,pairwise_group_tests,Table_site_overlap,Table_allele_concordance,Table_elite_genotypes_wide__HORVU.MOREX.r3.7HG0729030}.tsv`,
+`work/raw/<trait>/HORVU.MOREX.r3.7HG0729030.vcf.gz`, `work/elite/7HG0729030.elite.vcf.gz`,
+`archive_v1_MGmin2_eps0.6/results/tables/signal_snps.tsv` (genome-wide significance per SNP).
 
-**Differs from the step-07 working figures** (`07_.../results/figures/shared_sites/`), which remain the
-analysis-review versions: those are one file per gene at 11 × 8.5 in with a title and a subtitle inside
-the image, and they also exist in the `filled_marked` and `filled_silent` variants.
+**Differs from the working figures** of step 07 (`07_.../results/figures/shared_sites/`) and of the 7H branch, which
+remain the analysis-review versions: one file per gene, with titles inside the image.
 
-**A stacked layout was drawn first and rejected** (2026-09-22/23): violins above the barcodes, one
-full-width panel per gene, as in the mini paper's Fig. 4. At 174 mm it reached 226 mm of the 234 mm
-limit and still left the violins cramped. `draw_stacked()` is kept in the script so it can be
-regenerated, but it is no longer rendered.
+### History
 
----
-
-## Fig. 4 — `make_figure_4.R` (approved 2026-09-24 as Fig. 5; renumbered 2026-09-30)
-
-```bash
-Rscript make_figure_4.R        # seconds
-```
-
-Results ch. 4: the GDSL esterase/lipase `HORVU.MOREX.r3.7HG0729030` at the shared 7H
-fiber/starch signal. Source analysis:
-`03_01_7H_branch_Starch_Fiber_shared_signal_explore/` (the branch root since 2026-09-24; it was the subfolder `REPLACEMENT_ANALYSIS_MGmin3_eps0.9`)
-(crosshap MGmin = 3, ε = 0.9, gene ± 1 kb). Built on `make_figure_3.R` (then `make_figure_4.R`): same drawing code, palette,
-true 9 pt lettering, line widths, row height, 70 | 104 mm columns, shared-sites barcodes, step 07's
-consensus rule (ties → REF; this gene has none).
-
-**Differences from Fig. 3 (then Fig. 4; user decisions 2026-09-24).**
-- **Layout:** violins **a** fiber and **b** starch stacked on the left, **one** barcode **c** spanning
-  both rows on the right. The two traits give identical groups (the same 212 | 34 accessions; the
-  script stops if not), so their barcodes would be identical.
-- **Statistic:** raw Kruskal–Wallis *P* with η² above each violin (single pre-specified gene, outside
-  the step-04 BH family), not a BH *q*. Brackets: Wilcoxon A vs B, Holm (one comparison).
-- **Red triangles** under the **three genome-wide significant SNPs** (7H:573,606,306, 573,606,460,
-  573,606,491), legend entry "Genome-wide significant SNP". The fourth haplotype-defining SNP
-  (7H:573,606,282; −log10P 2.35 / 3.13) is not marked.
-- **Legend on two lines** (genotype states; the triangle): one line does not fit 104 mm at 9 pt. It sits
-  **inside column c, directly under the barcode** (moved 2026-09-24, user request), the two centred as
-  one block; there is no separate legend row.
-
-**TAG spec.** 174 × 119.4 mm; true 9 pt; lines 0.75 pt; RGB; 600 dpi; TIFF (LZW) converted from the PNG.
-
-**Built-in checks** (the script stops if any fails): no shared position swapped or with a differing
-REF; shared-site count equals `Table_site_overlap.tsv`; elite states re-derived from the VCF equal
-`Table_elite_genotypes_wide__*.tsv`; group count and sizes equal `mgmin3_gene_results.tsv`; fiber and
-starch groupings identical; wild consensus REF/ALT/missing only; the three significant SNPs are shared
-sites and members of the haplotype-defining marker group. Last run 2026-09-24: 2 groups (212 | 34),
-22 shared SNPs, triangles at columns 20–22, fiber *P* 2.09e-03 / η² 0.035, starch *P* 1.07e-03 / η² 0.040.
-
+- **2026-09-22/23 — former Fig. 3 (then Fig. 4), three genes.** A stacked layout (violins above the barcodes, as in
+  the mini paper's Fig. 4) was drawn first and rejected: at 174 mm it reached 226 mm of the 234 mm limit and left the
+  violins cramped. The side-by-side layout was chosen (violins 70 mm | barcodes 104 mm); violins untrimmed; legend
+  under the barcode column; barcode panels with their own letters. `draw_stacked()` was kept until 2026-10-17, when it
+  was removed (it cannot draw four genes; it is in git).
+- **2026-09-24 — fixes (user decisions).** *Text size:* `layout()` with three or more rows silently sets
+  `par(cex = 0.66)`, so the version approved 2026-09-23 as "11 pt" measured ~7.3 pt on the page, below TAG's 8 pt
+  minimum; `par(cex = 1)` is set after every `layout()` call and `PT = 9` (a true 9 pt). *Consequences, drawing
+  only:* brackets stacked one text line apart in inches; y ticks stop at the top of the data; every `(n=..)` label
+  drawn (`gap.axis = -1`); legend drawn by `hlegend()` with per-item widths. *Consensus ties → REF* (step 07): two GH17
+  wild cells turned from missing to REF. Applied to the Manhattan figure (Fig. 2) on 2026-09-27.
+- **2026-09-24 — former Fig. 4 (then Fig. 5), the GDSL gene** (`make_figure_4.R`, built on the Fig. 3 code): violins
+  a fiber and b starch stacked, one barcode c spanning both rows; raw Kruskal–Wallis *P* instead of *q*; red triangles
+  under the three significant SNPs; legend on two lines inside the barcode column. 174 × 119.4 mm.
+- **2026-09-30 — renumbered** (S. Hübner's comments): Figs. 4, 5 → 3, 4 (pixel-identical).
+- **2026-10-17 — combined** into this figure (S. Hübner's recommendation; user decisions: pipeline order, one row per
+  gene, the two GDSL violins side by side). Drawn first as `Figure_3/Fig3_combined_DRAFT.*`, approved by the user,
+  re-rendered as `Fig3.*` (pixel-identical to the approved draft). The former `Fig3.*`, `Figure_4/Fig4.*` and
+  `make_figure_4.R` were deleted the same day (user request).

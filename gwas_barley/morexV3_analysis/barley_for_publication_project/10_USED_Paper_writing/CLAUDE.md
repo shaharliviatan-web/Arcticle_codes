@@ -48,8 +48,9 @@ Wild-barley grain-quality GWAS paper for **Theoretical and Applied Genetics (TAG
 | **Reference sources** | `reference_sources/<source>/`: original (pdf/docx) and readable `.md` side by side | read only |
 | **Journal (TAG)** | `TAG_requirements.md` (the rules); `journal_TAG/` (saved guideline pages, 2026-09-15) | read |
 | **New manuscript** | `new_publishing_paper/` | write |
-| **Supplementary material (Online Resources, TAG ESM)** | `new_publishing_paper/supplementary/`: **map in `supplementary/README.md`**; the 13 files `ESM_1.xlsx` … `ESM_13.pdf`; **download / upload copies in `supplementary/for_submission/`** (zip + `CAPTIONS.md`); not cited in the text: `supplementary/unreferenced/`; rebuild: `bash supplementary/scripts/build_all.sh` | write |
+| **Supplementary material (TAG ESM)** | `new_publishing_paper/supplementary/`: **map in `supplementary/README.md`**. **Since 2026-10-17 two files** (S. Hübner; user decision): `ESM_1.xlsx` = **Supplementary Tables S1–S22** (one sheet per table) and `ESM_2.pdf` = **Supplementary Figures S1–S5** (each with its legend), each table and figure numbered by first citation, cited "Table S5", "Fig. S2d, e"; **upload copies in `supplementary/for_submission/`** (zip + `CAPTIONS.md`); review copy for S. Hübner in `supplementary/for_review_Hubner/` (`Supplementary_Tables.xlsx`, `Supplementary_Figures.docx`); not cited in the text: `supplementary/unreferenced/`; rebuild: `bash supplementary/scripts/build_all.sh` (checks the citation order in the manuscript) | write |
 | **Checks written for the supplement** | `../12_USED_adittional_checks_for_supplementary/` (README there: 01 block-4 correlations, 02 raw-phenotype checks) | write on request |
+| **Review copy as sent to S. Hübner** (2026-10-01) | `../1300_CHECK_FILES/`: the docx sent (= `build/manuscript_for_review_2026-10-01_v2.docx` + the user's 2 replies, now comments 429–430), its PDF, `markups.pdf` (printed comment list). Checked 2026-10-17 (item CMT2): text, 14 TODO comments and figures identical to the working file of that date. **It predates the Fig. 3/4 merge**: map his comments with the panel key below (Manuscript layout, merge note) | read |
 | **NIR calibration files** (N. Pintel, uploaded by the user 2026-10-01) | `section_materials/02_materials_methods/NIR_calibration_files/NIR.zip` (README there); the files used are copied to `new_publishing_paper/supplementary/sources/NIR_calibration/` | read |
 | **References workspace** | `new_publishing_paper/references/` (README there; References session) | References session |
 
@@ -213,8 +214,8 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | Fiber/starch 7H trade-off direction | `04_.../07_fiber_starch_tradeoff_direction` (on V1) | none | **OLD-ONLY**, not re-run |
 | Elite lines vs wild haplotypes | none | `07_USED_elite_lines_compariosn_to_wild_lines` | **NEW** |
 | v2 ↔ v3 pruning comparison | none | `01_.../scripts/05_comparison_v2_v3` | **NEW** (methods justification) |
-| Checks for the supplementary material | none | `12_USED_adittional_checks_for_supplementary` (**renamed 2026-10-01** from `12_USED_adittional_checks`; README there) | **NEW**: 01 block-4 inter-block correlations of 2019–20 (backs M&M §4 ¶1, Online Resource 2); 02 raw-phenotype checks (boxplots, correlations, distributions; supplement only, not cited) |
-| Assembled figures | `06_USED_figures` | `08_USED_creating_figures` (renamed from `08_USED_figures**NOT_UPDATED**` 2026-09-22) | all rebuilt to TAG spec. **Renumbered 2026-09-30** (S. Hübner's comments): Fig. 1 = old Fig. 1 + old 2b/2c (one heatmap) + old 2d (`make_figure_1.R`); Figs. 2–4 = old Figs. 3–5 (`make_figure_2.R`–`make_figure_4.R`, pixel-identical); old 2a → Online Resource (`make_figure_ESM_site_BLUPs.R`, PDF). See `08_USED_creating_figures/README.md` |
+| Checks for the supplementary material | none | `12_USED_adittional_checks_for_supplementary` (**renamed 2026-10-01** from `12_USED_adittional_checks`; README there) | **NEW**: 01 block-4 inter-block correlations of 2019–20 (backs M&M §4 ¶1, Table S4); 02 raw-phenotype checks (boxplots, correlations, distributions; supplement only, not cited) |
+| Assembled figures | `06_USED_figures` | `08_USED_creating_figures` (renamed from `08_USED_figures**NOT_UPDATED**` 2026-09-22) | all rebuilt to TAG spec. **Renumbered 2026-09-30** (S. Hübner's comments): Fig. 1 = old Fig. 1 + old 2b/2c (one heatmap) + old 2d (`make_figure_1.R`); Figs. 2–4 = old Figs. 3–5 (`make_figure_2.R`–`make_figure_4.R`, pixel-identical); old 2a → Online Resource (`make_figure_ESM_site_BLUPs.R`, PDF). **Combined 2026-10-17** (S. Hübner's recommendation): Figs. 3 and 4 → one Fig. 3 (`make_figure_3.R`; `make_figure_4.R` and `Figure_4/` deleted); **3 figures** since. See `08_USED_creating_figures/README.md` |
 
 ## What changed: key differences to carry into Methods, Results and Discussion
 
@@ -234,7 +235,7 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | 7H shared fiber/starch locus | 3 dual-trait genes (`7HG0729020/090/100`), inverse haplotype direction; central to the Discussion "carbon-allocation" argument | both loci still exist (`fiber_L17` 7H:573606306; `starch_L05` 7H:573606460, now significant) **but those genes are not in the new step-03 candidates or V4 significant genes**. Do not reuse that evidence; the trade-off argument must stand on the 00_THIN phenotype/ecology results or be re-analysed |
 | LD decay | set the ±200 kb gene window | descriptive context only; gene window no longer depends on it |
 | Elite lines | not in the paper | new Results subsection (step 07) |
-| Figures and tables | Figs. 1–4 + Table 1 (H²) | **4 figures, no tables** (S. Hübner, 2026-09-30): Fig. 1 variance, reaction norms, trait correlations (one heatmap), environment; Fig. 2 Manhattan + QQ; Fig. 3 haplotypes + elite cultivars; Fig. 4 the 7H GDSL gene. Table 1 → variance-components Online Resource; Table 2 → all-candidate-genes Online Resource; old Fig. 2a → site-figure Online Resource |
+| Figures and tables | Figs. 1–4 + Table 1 (H²) | **3 figures, no tables** (S. Hübner, 2026-09-30; Figs. 3 and 4 combined 2026-10-17, items FIG3C, MRG1–MRG4): Fig. 1 variance, reaction norms, trait correlations (one heatmap), environment; Fig. 2 Manhattan + QQ; Fig. 3 haplotypes + elite cultivars of the four candidate genes (row 4 = the 7H GDSL gene; Results ch. 3 and ch. 4 merged into one chapter). Table 1 → variance-components Online Resource; Table 2 → all-candidate-genes Online Resource; old Fig. 2a → site-figure Online Resource |
 
 ## Where the numbers come from (read these, in this order, per section)
 
@@ -248,23 +249,24 @@ selection; new `07` has no old counterpart; new `08` holds the old figures.
 | Haplotypes | `04_.../04_runs/loci_LDspan_eps06_V4/Stats/results_chapter_numbers.txt`, `Significant_genes/significant_genes.tsv` |
 | Annotation | `05_.../08_USED_annotation_master/results/tables/Table_significant_genes_paper.tsv` |
 | Final 3 genes | `06_USED_genes_selected_to_present/README.md`, `TRAIT_CANDIDACY.md` |
-| **Online Resources (supplementary), numbered and built 2026-10-01**: `new_publishing_paper/supplementary/ESM_1.xlsx` … `ESM_13.pdf`, rebuilt by `supplementary/scripts/build_all.sh` (README there: content, sources, checks; final list also in `supplementary/supplementary.md`). 1 sites + accessions (ENA, BLUPs) + environment; 2 block correlations 2019–20 (NIR calibration sheet pending); 3 variance components; 4 LD decay; 5 loci + significant SNPs; 6 candidate genes; 7 ε choice; 8 canonical β-glucan genes; 9 crosshap plots of the 4 presented genes; 10 elite cultivars; 11–12 carrier origin (tables, figures); 13 site figure. Each file carries the TAG title block (author names, affiliation, e-mail = placeholders in `esm_common.py`). Not cited in the text: `supplementary/unreferenced/`. **History, 2026-09-30** (they replace Tables 1 and 2; no tables in the main text) | `new_publishing_paper/supplementary/tables/ESM_variance_components.xlsx` (8 traits: V~G~, V~E~, V~G×E~, V~R~ with %, total, H²; from 00_THIN `Variance_components_GxE.csv`, `H2_GxE.csv`) and `ESM_candidate_genes.xlsx` (all 55 genes, one row each, testability, haplotype test, annotation, carried forward), built by `new_publishing_paper/supplementary/scripts/` (README there). The former **Table 2** source, `06_USED_genes_selected_to_present/results/tables/Table_2_genes_carried_forward.tsv` (`06_.../scripts/01_make_table2_paper.R`), is kept: the gene ESM reads it for "carried forward" and checks its three rows cell by cell. **The relevance-screen categories (strong / plausible / unlikely / no annotation) must not appear in any supplementary file** (user, 2026-09-30) |
+| **Supplementary Tables S1–S22 and Figures S1–S5 (2026-10-17)**: `new_publishing_paper/supplementary/ESM_1.xlsx` (tables) and `ESM_2.pdf` (figures), rebuilt by `supplementary/scripts/build_all.sh` (README there). Map of the numbers: `SUPP_TABLES` / `SUPP_FIGURES` in `supplementary/scripts/esm_common.py`. **Former Online Resource → new** (notes written before 2026-10-17 use the old numbers): OR1 sites / accessions / env. correlations → Tables S1 / S5 / S7; OR2 NIR calibration / calibration correlations / blocks 2019–20 → S2 / S3 / S4; OR3 → S6; OR4 → Fig. S1; OR5 loci / significant SNPs → S8 / S9; OR6 → S10; OR7 → S11, S12; OR8 → S13; OR9 → Fig. S2 (a–c the three genes, d, e GDSL); OR10 site accounting / excluded sites / screen / cultivars → S14–S17; OR11 → S18–S22; OR12 → Figs. S3, S4; OR13 → Fig. S5. **History, 2026-09-30** (they replace Tables 1 and 2; no tables in the main text) | `new_publishing_paper/supplementary/tables/ESM_variance_components.xlsx` (8 traits: V~G~, V~E~, V~G×E~, V~R~ with %, total, H²; from 00_THIN `Variance_components_GxE.csv`, `H2_GxE.csv`) and `ESM_candidate_genes.xlsx` (all 55 genes, one row each, testability, haplotype test, annotation, carried forward), built by `new_publishing_paper/supplementary/scripts/` (README there). The former **Table 2** source, `06_USED_genes_selected_to_present/results/tables/Table_2_genes_carried_forward.tsv` (`06_.../scripts/01_make_table2_paper.R`), is kept: the gene ESM reads it for "carried forward" and checks its three rows cell by cell. **The relevance-screen categories (strong / plausible / unlikely / no annotation) must not appear in any supplementary file** (user, 2026-09-30) |
 | Elite lines | `07_.../results/tables/results_chapter_numbers.txt` + README |
 
 ## Figure sources (new)
 
 Renumbered 2026-09-30 (S. Hübner's comments; hand-over `new_publishing_paper/build/STRUCTURE_CHANGES_2026-10.md`):
 old Fig. 2 was dissolved and old Figs. 3–5 are now Figs. 2–4. Hidden notes written before that date use the old numbers.
+**Combined 2026-10-17** (S. Hübner's recommendation; user decision): Results ch. 3 and ch. 4 are merged into one chapter, and
+Figs. 3 and 4 into one Fig. 3 (four genes). Notes written before that date name the 7H GDSL figure "Fig. 4".
 
 | content | files |
 |---|---|
 | **Fig. 1** variance partitioning, reaction norms, trait-correlation heatmap (lower triangle + morphological traits), site means × environment; **rebuilt 2026-09-30**, layout and caption approved | `08_USED_creating_figures/Figure_1/Fig1.png` (docx) / `Fig1.tif` (submission), `make_figure_1.R`. Inputs: `00_THIN_.../outputs/subsection_1/tables/` (+ `C2_trait_environment_correlations/tables/`) |
-| **Online Resource 13: site BLUPs by region** (old Fig. 2a) | `08_USED_creating_figures/Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf`, `make_figure_ESM_site_BLUPs.R`; assembled with its title page into `supplementary/ESM_13.pdf` |
+| **Fig. S5 (Supplementary Figures): site BLUPs by region** (old Fig. 2a; Online Resource 13 until 2026-10-17) | `08_USED_creating_figures/Figure_ESM_site_BLUPs/ESM_site_BLUPs.pdf`, `make_figure_ESM_site_BLUPs.R`; embedded in `supplementary/ESM_2.pdf` |
 | Phenotype / ecology, step-00 working versions | `00_THIN_.../outputs/subsection_1/png/`, `C2_*/figures/` |
 | **Fig. 2** Manhattan (loci painted) + QQ, **approved 2026-09-22** (as Fig. 3) | `08_USED_creating_figures/Figure_2/Fig2.png` (docx) / `Fig2.tif` (submission), `make_figure_2.R`. Step-01 working versions: `01_.../02_loci_FINAL/figures/manhattan_*__loci_r05.png`, `04_diagnostics/qq/` |
 | LD decay | `02_.../results/figure_ld_decay_{genomewide,perchromosome}.png` |
-| **Fig. 3** Haplotype violins + elite barcodes, **approved 2026-09-23** (as Fig. 4) | `08_USED_creating_figures/Figure_3/Fig3.png` (docx) / `Fig3.tif` (submission), `make_figure_3.R`. Working versions: `07_.../results/figures/shared_sites/`, `04_.../04_runs/loci_LDspan_eps06_V4/Significant_genes/{by_trait,CombinedPDF,Heatmaps}`, `06_.../{fiber,starch}/*.pdf` |
-| **Fig. 4** GDSL esterase/lipase at the shared 7H signal, **approved 2026-09-24** (as Fig. 5) | `08_USED_creating_figures/Figure_4/Fig4.png` (docx) / `Fig4.tif` (submission), `make_figure_4.R`; analysis `03_01_7H_branch_Starch_Fiber_shared_signal_explore/` |
+| **Fig. 3** Haplotype violins + elite barcodes of the **four candidate genes**: a–c / f–h *GPAT6*, *GH17*, *PHT4;3* (*q*); d, e / i the 7H GDSL gene, fiber and starch (*P*). **Combined and approved 2026-10-17** (from the former Fig. 3, approved 2026-09-23, and Fig. 4, approved 2026-09-24); 174 × 234 mm | `08_USED_creating_figures/Figure_3/Fig3.png` (docx) / `Fig3.tif` (submission), `make_figure_3.R`. Analyses: steps 04 + 07 (rows 1–3), `03_01_7H_branch_Starch_Fiber_shared_signal_explore/` (row 4). Working versions: `07_.../results/figures/shared_sites/`, `04_.../04_runs/loci_LDspan_eps06_V4/Significant_genes/{by_trait,CombinedPDF,Heatmaps}`, `06_.../{fiber,starch}/*.pdf` |
 | Elite vs wild | `07_.../results/figures/{shared_sites,filled_marked,filled_silent}/` |
 
 ## Statements the READMEs require in the manuscript
@@ -282,9 +284,9 @@ Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grai
 Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley_reading_copy.md  <- same text without comments / hidden notes (generated)
 05_references.md  06_statements_declarations.md   (05 built 2026-10-01 and copied into the working file, item REF3; 06 not written yet)
 build/           review cycle (proposed/<ID>_edits.json + review_tool.py), review log, hand-overs, blueprints
-supplementary/   the 13 Online Resources ESM_1 … ESM_13, for_submission/ (download/upload), scripts/; map: supplementary/README.md
+supplementary/   ESM_1.xlsx (Tables S1–S22), ESM_2.pdf (Figs. S1–S5), for_submission/ (upload), for_review_Hubner/, scripts/; map: supplementary/README.md
 references/      citation audit and bibliography (References session; README there)
-figures/ tables/ empty: the figures are built in ../../08_USED_creating_figures/, the tables are Online Resources
+figures/ tables/ empty: the figures are built in ../../08_USED_creating_figures/, the tables are Supplementary Tables (ESM_1.xlsx)
 ```
 **The whole manuscript text is one file (user decisions 2026-09-30 and 2026-10-01): `Genome-wide_association_and_haplotype_analysis_identify_candidate_genes_for_grain_nutritional_quality_in_wild_barley.md` is the working file. Edit only that file.** Since 2026-10-01 (item AB1) it opens with the title, Key message, Abstract, Keywords and Introduction, and it was **renamed after the title** (it was `Methods_Results_Discussion_Conclusions.md`; older notes and logs use that name). The M&M + R + D + C part It was built by concatenating the
 approved M&M (`02_materials_methods.md`, written 2026-09-29/30 from `build/MM_BLUEPRINT.md`) and the R+D+C working file
@@ -343,6 +345,17 @@ figure paths were re-rooted from `build/` to `new_publishing_paper/` (verified).
   supplement (`supplementary/for_submission/ESM_all_Online_Resources.zip`). **When it comes back with his comments:** convert it
   with `--track-changes=all` (Tools, "docx → md") into `build/`, never over the working file; then carry his comments and
   edits into the working file through `build/proposed/` items, keeping his comments with their author until resolved.
+- **Results ch. 3 + ch. 4 merged, 2026-10-17** (S. Hübner's recommendation; items CMT2, FIG3C, MRG1–MRG5, TYPO1; log at the end
+  of the review file). One chapter, *Haplotype analysis and candidate gene resolution*: overview → *GPAT6*, *GH17*, *PHT4;3* →
+  the three 7H GDSL paragraphs → one elite-cultivar paragraph (four genes) → **Fig. 3**, which combines the former Figs. 3 and 4
+  (`08_USED_creating_figures/make_figure_3.R`; 174 × 234 mm; `make_figure_4.R` and `Figure_4/` deleted). **3 figures** since.
+  **Panel key, old → new:** Fig. 3a–c → 3a–c; Fig. 3d–f → **3f–h**; Fig. 4a, b → **3d, e**; Fig. 4c → **3i**. Citations updated in
+  the Results, M&M, Discussion, open-items list and Online Resources 9 and 11 (supplement and `for_review_Hubner/` rebuilt).
+  Proofreading pass (TYPO1): no misspelling found; user rules for such passes: **do not edit Word comments or markup**, and
+  **propose only changes that TAG requires** (the TAG guidelines set no rule on number style or US/British spelling).
+- **Supplement renumbered, 2026-10-17** (S. Hübner's comment; item SUPP2): **Supplementary Tables S1–S22** (`supplementary/ESM_1.xlsx`) and
+  **Supplementary Figures S1–S5** (`ESM_2.pdf`), by first citation; text cites "Table S10; Fig. S2a; Fig. 3a". Former → new map: "Where the numbers
+  come from" (supplementary row) and `supplementary/supplementary.md`. Hidden notes written before 2026-10-17 use the Online Resource numbers.
 - **`build/DECLARATIONS_HANDOVER.md`:** text moved out of the M&M for the Declarations session (the Zenodo VCF /
   BLUP Online Resource / GitHub code sentence of the Data availability statement), word for word.
 - **Superseded, kept for the record:** `build/UPDATED_Results_Discussion_Conclusions.md` (top note says so; never edit
@@ -365,7 +378,7 @@ copy after every `apply`. It matches the exact old text, not line numbers, so th
 
 File order follows TAG (declarations after references); formatting rules are in `TAG_requirements.md`.
 - **Figures:** in the md, link the source output directly (relative path). TAG wants figures embedded in the text, so the docx build embeds them. For submission, export `figures/Fig1.eps|tif` (Arial 8–12 pt, 84 or 174 mm wide, panels a/b/c).
-- **Tables:** **none in the main text since 2026-09-30** (S. Hübner; user decision). Tables go to the Online Resources as `.xlsx`; since 2026-10-01 the numbered files are `supplementary/ESM_1.xlsx` … `ESM_13.pdf` (built by `supplementary/scripts/build_all.sh`; `supplementary/tables/` holds intermediate checked tables), cited as "Online Resource N" and captioned in the last section of the working file, "Supplementary Information" (item CAP1). In TAG an Online Resource is a supplementary file (ESM); nothing is uploaded elsewhere.
+- **Tables:** **none in the main text since 2026-09-30** (S. Hübner; user decision). Since 2026-10-17 the supplementary tables are **Tables S1–S22** in one workbook, `supplementary/ESM_1.xlsx`, and the supplementary figures **Figs. S1–S5** in `supplementary/ESM_2.pdf` (built by `supplementary/scripts/build_all.sh`; `supplementary/tables/` and `supplementary/parts/` hold intermediate tables), cited "Table S5", "Fig. S2d, e" (combined with main figures as separate items: "Fig. 1d; Fig. S5"), and the two files captioned in the last section of the working file, "Supplementary Information" (one caption per file, as TAG requires). In TAG supplementary files are ESM; nothing is uploaded elsewhere. (2026-10-01 to 2026-10-17: 13 Online Resources ESM_1 … ESM_13.)
 - **References:** TAG author-year style, `(Godfray et al. 2010)` with no comma; multiple citations in chronological order;
   Potapenko et al. **2026a = *Mol Biol Evol***, **2026b = *Mol Ecol***. The old paper's citations and reference list do **not** follow
   TAG (commas, `&`, full journal names, no DOIs). Reuse its content, not its format. **The list** (64 works, 2026-10-01) is
@@ -379,6 +392,7 @@ File order follows TAG (declarations after references); formatting rules are in 
 ## Tools
 
 Pandoc 3.11 (not on PATH): `/mnt/data/shahar/gwas_barley/tools/pandoc-3.11/bin/pandoc`
+Spell check: pyspellchecker 0.9.1 in `/mnt/data/shahar/gwas_barley/tools/pylib` (`sys.path.insert(0, …)`; installed 2026-10-17).
 ```bash
 P=/mnt/data/shahar/gwas_barley/tools/pandoc-3.11/bin/pandoc
 # md → docx (all sections, in order; styles from a Word template if present). Run from new_publishing_paper/,
@@ -396,7 +410,7 @@ grep -n 'TODO:' new_publishing_paper/Genome-wide_association_and_haplotype_analy
 ```
 Word conversions leave `[..]{dir="rtl"}` spans (Hebrew keyboard artefacts). Strip them.
 
-Supplement (Online Resources): `bash new_publishing_paper/supplementary/scripts/build_all.sh` rebuilds all 13 files, the
+Supplement: `bash new_publishing_paper/supplementary/scripts/build_all.sh` rebuilds ESM_1.xlsx (Tables S1–S22) and ESM_2.pdf (Figs. S1–S5), the unnumbered supplement, `supplementary/for_submission/` and `supplementary/for_review_Hubner/` (about 1 min; every builder checks the numbers the manuscript cites, and `build_ESM_tables.py` checks that the text cites Tables S1–S22 and Figs. S1–S5 in first-citation order with no "Online Resource" left).
 unnumbered supplement and `supplementary/for_submission/` (about 15 s; every builder checks the numbers the manuscript cites).
 Raw-phenotype checks: `bash ../12_USED_adittional_checks_for_supplementary/02_raw_phenotype_checks/scripts/run_all.sh`.
 

@@ -1,0 +1,254 @@
+{
+ "notes": [
+  "Applied directly at the user's request (no proposal file)."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "open items 1",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "also go into the title block of every Online Resource file, where they are placeholders now",
+   "new": "also go into the title block of both supplementary files, where they are placeholders now"
+  },
+  {
+   "where": "open items 3",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "names Online Resource 1 for the genotype BLUPs",
+   "new": "names Table S5 for the genotype BLUPs"
+  },
+  {
+   "where": "open items 5",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "5. **Online Resources (supplementary): done.** The 13 files are built, numbered in the order they are first cited, cited in the text, and captioned in the last section (\"Supplementary Information\"). Left to do: put the author names, affiliation and e-mail into the files (item 1); at submission, upload the 13 files and enter each one's caption in the submission system; and decide whether the extra, uncited supplement of raw-phenotype checks should join the supplement (it would then need a number and a citation in the text).",
+   "new": "5. **Supplementary material: done.** Two files, Supplementary Tables S1–S22 (ESM_1.xlsx) and Supplementary Figures S1–S5 (ESM_2.pdf); each table and figure is numbered in the order it is first cited and cited in the text, and the two files are captioned in the last section (\"Supplementary Information\"). Left to do: put the author names, affiliation and e-mail into the files (item 1); at submission, upload the two files and enter each one's caption in the submission system; and decide whether the extra, uncited supplement of raw-phenotype checks should join the supplement (its tables and figures would then need numbers and citations in the text)."
+  },
+  {
+   "where": "M&M plant material",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "to represent its climate and soil (Online Resource 1).",
+   "new": "to represent its climate and soil (Table S1)."
+  },
+  {
+   "where": "M&M NIR",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "of the NIR predictions with the laboratory values (Online Resource 2).",
+   "new": "of the NIR predictions with the laboratory values (Tables S2, S3)."
+  },
+  {
+   "where": "M&M block 4",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "among blocks 1–3; Online Resource 2).",
+   "new": "among blocks 1–3; Table S4)."
+  },
+  {
+   "where": "M&M BLUPs",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "were used as the phenotypes in all downstream analyses (Online Resource 1).",
+   "new": "were used as the phenotypes in all downstream analyses (Table S5)."
+  },
+  {
+   "where": "M&M variance",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "grain weight and spike length (Fig. 1a; Online Resource 3).",
+   "new": "grain weight and spike length (Fig. 1a; Table S6)."
+  },
+  {
+   "where": "M&M env",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "and elevation and silt were removed (Online Resource 1).",
+   "new": "and elevation and silt were removed (Table S7)."
+  },
+  {
+   "where": "M&M LD decay",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "by the number of pairs per bin (Online Resource 4).",
+   "new": "by the number of pairs per bin (Fig. S1)."
+  },
+  {
+   "where": "M&M loci",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "giving 36 non-overlapping loci (Online Resource 5).",
+   "new": "giving 36 non-overlapping loci (Tables S8, S9)."
+  },
+  {
+   "where": "M&M genes",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "was taken as a candidate gene (Online Resource 6).",
+   "new": "was taken as a candidate gene (Table S10)."
+  },
+  {
+   "where": "M&M epsilon",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "assigned to haplotype groups (Online Resource 7).",
+   "new": "assigned to haplotype groups (Tables S11, S12)."
+  },
+  {
+   "where": "M&M untestable",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "and are listed with the reason (Online Resource 6).",
+   "new": "and are listed with the reason (Table S10)."
+  },
+  {
+   "where": "M&M annotation",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "in the order Swiss-Prot, InterPro and nr (Online Resource 6).",
+   "new": "in the order Swiss-Prot, InterPro and nr (Table S10)."
+  },
+  {
+   "where": "M&M canonical",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "measured from the nearest edge of the gene (Online Resource 8).",
+   "new": "measured from the nearest edge of the gene (Table S13)."
+  },
+  {
+   "where": "M&M 7H crosshap",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "included in the marker group that defined the haplotypes (Online Resource 9).",
+   "new": "included in the marker group that defined the haplotypes (Fig. S2d, e)."
+  },
+  {
+   "where": "M&M elite sites",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "reference and alternate alleles in both call sets were compared (Online Resource 10).",
+   "new": "reference and alternate alleles in both call sets were compared (Tables S14, S15)."
+  },
+  {
+   "where": "M&M elite names",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "Their names were verified in their EBI BioSamples records (Online Resource 10).",
+   "new": "Their names were verified in their EBI BioSamples records (Tables S16, S17)."
+  },
+  {
+   "where": "M&M carrier origin",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "*P* values were corrected by the Benjamini–Hochberg procedure (Online Resources 11, 12).",
+   "new": "*P* values were corrected by the Benjamini–Hochberg procedure (Tables S18–S22; Figs. S3, S4)."
+  },
+  {
+   "where": "M&M data availability (TODO 234 anchor text)",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "the sample alias of each accession is listed in Online Resource 1.",
+   "new": "the sample alias of each accession is listed in Table S5."
+  },
+  {
+   "where": "Results ch.1 H2",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "showed that starch had the highest broad-sense heritability (H² = 0.474; Online Resource 3)",
+   "new": "showed that starch had the highest broad-sense heritability (H² = 0.474; Table S6)"
+  },
+  {
+   "where": "Results ch.1 sites",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "showed a matching descriptive pattern (Online Resource 13):",
+   "new": "showed a matching descriptive pattern (Fig. S5):"
+  },
+  {
+   "where": "Results ch.2 loci",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "in linkage disequilibrium with it (Fig. 2; Online Resource 5).",
+   "new": "in linkage disequilibrium with it (Fig. 2; Tables S8, S9)."
+  },
+  {
+   "where": "Results ch.2 H2",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "starch, the most heritable nutritional trait (H² = 0.474; Online Resource 3),",
+   "new": "starch, the most heritable nutritional trait (H² = 0.474; Table S6),"
+  },
+  {
+   "where": "Results ch.2 MAF",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "(median MAF = 0.068; Online Resource 5).",
+   "new": "(median MAF = 0.068; Table S8)."
+  },
+  {
+   "where": "Results ch.3 tested",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "distributed over 12 of the 36 loci (Online Resource 6).",
+   "new": "distributed over 12 of the 36 loci (Table S10)."
+  },
+  {
+   "where": "Results ch.3 three genes",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "and none for β-glucan (Online Resource 6).",
+   "new": "and none for β-glucan (Table S10)."
+  },
+  {
+   "where": "Results GPAT6",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "η² = 0.208; Online Resources 6, 9; Fig. 3a)",
+   "new": "η² = 0.208; Table S10; Fig. S2a; Fig. 3a)"
+  },
+  {
+   "where": "Results GH17",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "η² = 0.222; Online Resources 6, 9; Fig. 3b)",
+   "new": "η² = 0.222; Table S10; Fig. S2b; Fig. 3b)"
+  },
+  {
+   "where": "Results PHT4;3",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "η² = 0.078; Online Resources 6, 9; Fig. 3c)",
+   "new": "η² = 0.078; Table S10; Fig. S2c; Fig. 3c)"
+  },
+  {
+   "where": "Results GDSL",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "with the same grouping for both traits (Fig. 3d, e, i; Online Resource 9).",
+   "new": "with the same grouping for both traits (Fig. 3d, e, i; Fig. S2d, e)."
+  },
+  {
+   "where": "Results elite",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "with the haplotype groups of the four genes (Fig. 3f–i; Online Resource 10).",
+   "new": "with the haplotype groups of the four genes (Fig. 3f–i; Tables S14–S17)."
+  },
+  {
+   "where": "Discussion §1",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "precipitation at the sites of origin (Fig. 1d; Online Resource 13),",
+   "new": "precipitation at the sites of origin (Fig. 1d; Fig. S5),"
+  },
+  {
+   "where": "Discussion §2",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "along the north-to-desert gradient (Fig. 1c, d; Online Resource 13),",
+   "new": "along the north-to-desert gradient (Fig. 1c, d; Fig. S5),"
+  },
+  {
+   "where": "Discussion §3",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "low-starch, fiber- and β-glucan-rich grain (Online Resources 11, 12).",
+   "new": "low-starch, fiber- and β-glucan-rich grain (Tables S18, S19; Figs. S3, S4)."
+  },
+  {
+   "where": "Discussion §3 HvGlb1",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "lay 83.5 Mb from any β-glucan lead SNP (Online Resource 8),",
+   "new": "lay 83.5 Mb from any β-glucan lead SNP (Table S13),"
+  },
+  {
+   "where": "Discussion §5",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "populations rather than from a single site (Online Resources 11, 12).",
+   "new": "populations rather than from a single site (Table S20; Figs. S3, S4)."
+  },
+  {
+   "where": "Word comment 234",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "and the ENA identifiers of every accession are in Online Resource 1.",
+   "new": "and the ENA identifiers of every accession are in Table S5."
+  },
+  {
+   "where": "Word comment 402",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "0.56 against the 2019-20 values of the same accessions; Online Resource 2)",
+   "new": "0.56 against the 2019-20 values of the same accessions; Table S3)"
+  },
+  {
+   "where": "Supplementary Information",
+   "why": "Supplementary renumbering (S. Hübner; user decision 2026-10-17)",
+   "old": "**Online Resource 1** Sampling sites (ecological region, coordinates and environmental variables), the 290 accessions (European Nucleotide Archive identifiers, site and genotype BLUPs of the ten traits) and the correlations among the environmental variables\n\n**Online Resource 2** Validation of the near-infrared calibration against laboratory values, and Pearson correlations between the blocks of the 2019–20 season for the four nutritional traits\n\n**Online Resource 3** Variance components and broad-sense heritability of the four nutritional and four morphological and phenological traits\n\n**Online Resource 4** Decay of linkage disequilibrium with physical distance across the genome (**a**) and per chromosome (**b**)\n\n**Online Resource 5** The 36 loci of the genome-wide association analysis and the 52 genome-wide significant SNPs\n\n**Online Resource 6** The 55 candidate genes: position, haplotype tests, functional annotation and the three genes carried forward\n\n**Online Resource 7** Number of testable genes and proportion of accessions assigned to haplotype groups at five values of the crosshap clustering radius (ε)\n\n**Online Resource 8** The ten canonical (1,3;1,4)-β-glucan synthase and endohydrolase genes located on MorexV3, and their distances to the β-glucan lead SNPs\n\n**Online Resource 9** crosshap haplotype plots of *GPAT6*, *GH17*, *PHT4;3* and the GDSL esterase/lipase gene\n\n**Online Resource 10** Elite cultivars: selection and call rates, and the SNP sites compared between the wild and elite call sets\n\n**Online Resource 11** Geographic origin of the carriers of the lead-SNP alleles and of the haplotype groups of the four presented genes: tests of desert enrichment and regional distribution, and comparison with site-mates\n\n**Online Resource 12** Geographic origin (Fig. S1) and desert enrichment (Fig. S2) of the lead-SNP allele carriers and haplotype groups\n\n**Online Resource 13** Genotype BLUPs of the four nutritional traits across the 29 sampling sites, by ecological region",
+   "new": "**Supplementary Tables S1–S22** (file ESM_1.xlsx) Sampling sites and accessions; near-infrared calibration and block correlations; variance components; loci and genome-wide significant SNPs; candidate genes; choice of the crosshap clustering radius; canonical β-glucan genes; comparison with elite cultivars; and geographic origin of allele and haplotype carriers. One sheet per table, each with its caption and column definitions\n\n**Supplementary Figures S1–S5** (file ESM_2.pdf) Decay of linkage disequilibrium; crosshap haplotype plots of the four presented genes; geographic origin and desert enrichment of allele and haplotype carriers; and genotype BLUPs across the sampling sites. Each figure with its legend\n\n<!-- SUPP2 2026-10-17 (S. Hübner: TAG papers name the supplement \"Supplementary\", figures and tables in two running series; user decision): the 13 Online Resources became Tables S1-S22 and Figs. S1-S5, numbered by first citation, in two files with one caption each (TAG: a concise caption per file). Map, former -> new: OR1 sites/accessions/env. correlations -> Tables S1/S5/S7; OR2 NIR calibration/calibration correlations/blocks 2019-20 -> S2/S3/S4; OR3 -> S6; OR4 -> Fig. S1; OR5 loci/significant SNPs -> S8/S9; OR6 -> S10; OR7 summary/per gene -> S11/S12; OR8 -> S13; OR9 -> Fig. S2 (a GPAT6, b GH17, c PHT4;3, d, e GDSL fiber, starch); OR10 site accounting/excluded sites/screen/cultivars -> S14/S15/S16/S17; OR11 lead-SNP tests/by region/haplotype-group tests/by region/carriers vs site-mates -> S18-S22; OR12 carrier origin/desert enrichment -> Figs. S3/S4; OR13 -> Fig. S5. Hidden notes written before this date use the Online Resource numbers. Built by supplementary/scripts/build_all.sh. -->"
+  }
+ ]
+}

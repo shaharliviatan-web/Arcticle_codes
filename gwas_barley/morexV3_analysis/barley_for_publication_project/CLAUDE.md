@@ -8,6 +8,6 @@
 
 * Manuscript writing (TAG paper): before any writing task, read 10_USED_Paper_writing/CLAUDE.md — it has the old→new project map, sources of truth for numbers/figures, and writing rules.
 
-* Supplementary material of the TAG paper (Online Resources): the map is 10_USED_Paper_writing/new_publishing_paper/supplementary/README.md — the 13 files ESM_1–ESM_13, the download/upload copies in supplementary/for_submission/, and the rebuild command (supplementary/scripts/build_all.sh). Checks written for the supplement: 12_USED_adittional_checks_for_supplementary/ (README there).
+* Supplementary material of the TAG paper: the map is 10_USED_Paper_writing/new_publishing_paper/supplementary/README.md — two files since 2026-10-17, ESM_1.xlsx (Supplementary Tables S1–S22) and ESM_2.pdf (Supplementary Figures S1–S5), the upload copies in supplementary/for_submission/, the review copy for S. Hübner in supplementary/for_review_Hubner/, and the rebuild command (supplementary/scripts/build_all.sh). Checks written for the supplement: 12_USED_adittional_checks_for_supplementary/ (README there).
 
 * References of the TAG paper: the citation audit and bibliography are in 10_USED_Paper_writing/new_publishing_paper/references/ (README there: every claim–citation pair with its verdict, quote and page); the reference list is new_publishing_paper/05_references.md, built by references/scripts/05_build_reference_list.py and copied into the manuscript's "References" section.

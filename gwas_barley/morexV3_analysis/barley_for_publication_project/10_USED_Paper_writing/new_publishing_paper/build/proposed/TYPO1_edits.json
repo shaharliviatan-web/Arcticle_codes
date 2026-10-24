@@ -1,0 +1,29 @@
+{
+ "notes": [
+  "**Applied 2026-10-17 as decided by the user:** changes 1 and 2 only (the open-items line; protein–starch with the article). Not applied: changes 3–5 (inside Word comments; user: do not touch comments or markup) and change 6 (numerals in a series: not a TAG requirement; the TAG guidelines set no rule on number style or US/British spelling, only correct grammar, spelling and punctuation). The reading-copy generator fix (Q4) was approved.",
+  "**Item TYPO1 — typos, spelling and spacing** (user request 2026-10-17: a proofreading pass over the whole manuscript). Checks run: a spell check of all visible text and of every Word comment (pyspellchecker; every flagged word reviewed by hand: the rest are names, gene and tool names, Latin and technical terms, all correct); double spaces, spaces before punctuation, repeated words, unbalanced brackets, hyphens in number ranges, British spellings; and a full read for wrong-but-real words and grammar. **No misspelled word was found in the manuscript text.** What was found is below (changes 1–6).",
+  "**Changes 3–5 are inside Word comments.** The preview hides comment text, so for these three the exact before → after is given in the *Why* line; the paragraph shown has no visible change.",
+  "**Double spaces.** In the main file, the only real double spaces are the two in your reply to Sariel (change 5). The other double spaces you see in the reading copy are where a hidden note or Word comment was removed by the reading-copy generator; Word and the markdown preview never show them. **Proposed together with this item (Q4):** one line added to `build/make_reading_copy.py` so that it collapses those leftover runs of spaces into one; the main file is not affected.",
+  "**Noticed, not changed (tell me if you want an item for them):** (a) three abbreviations are defined twice: SNP and GWAS in the Introduction and again in the Materials and methods, MAF in the Materials and methods and again in the Results (TAG: define at first mention, then use consistently); (b) Sariel's Results ch. 1 sentences use the serial comma (\"clay, precipitation, and organic carbon\"), the rest of the text does not."
+ ],
+ "questions": [
+  "Change 2 is in Sariel's sentence: besides the en dash (\"protein–starch\", as in \"starch–fiber\" elsewhere), it adds the missing article (\"and **a** significant negative correlation was obtained\"). Approve both, or only the dash?",
+  "Change 6 is optional style: in a series that includes a number above nine, Springer style uses numerals throughout (\"2, 11 and 18 loci\" instead of \"two, 11 and 18 loci\"). Approve or discard?",
+  "Your reply to Sariel (comment on \"unresolved in this panel\") says \"…or just from the **embryonate** or ??\". Did you mean \"embryo\"? Change 5 fixes only the two double spaces; say if you want \"embryo\" too.",
+  "Approve the one-line change to `build/make_reading_copy.py` (collapse the double spaces left where hidden notes are removed; reading copy only)?"
+ ],
+ "edits": [
+  {
+   "where": "Open-items list, item 9 (figure accessibility)",
+   "why": "US spelling, as in the rest of the text (\"colored\", \"gray\"); and the manuscript has had three figures since the merge, so the color-only figures are now Figs. 2 and 3.",
+   "old": "TAG recommends patterns or symbols in addition to colour, but Figs. 2–4 tell loci and haplotype groups apart by colour alone.",
+   "new": "TAG recommends patterns or symbols in addition to {-colour-}{+color+}, but Figs. 2{-–4-}{+ and 3+} tell loci and haplotype groups apart by {-colour-}{+color+} alone."
+  },
+  {
+   "where": "Results ch. 1 ¶2 (trait correlations)",
+   "why": "En dash for a pair of traits (as \"starch–fiber\", \"fiber–starch\" elsewhere) and the missing article (Q1).",
+   "old": "Protein was poorly correlated with other traits, and significant negative correlation was obtained only for protein-starch",
+   "new": "Protein was poorly correlated with other traits, and {+a +}significant negative correlation was obtained only for {-protein-starch-}{+protein–starch+}"
+  }
+ ]
+}

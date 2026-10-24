@@ -1,0 +1,20 @@
+{
+ "notes": [
+  "**Item MRG2 — one elite-cultivar paragraph for the four genes** (user decision 2026-10-17). The elite paragraph now covers the four genes: \"three\" → \"four\", and the panels → *Fig. 3f–i*. The 7H paragraph's last sentence (the cultivars at the GDSL gene) moves to the end of this paragraph, in the wording you approved on 2026-09-28, with two small changes: \"the five elite malting cultivars\" → \"the five cultivars\" (already introduced in the first sentence), and \"of the GDSL esterase/lipase gene\" added (the gene is no longer the subject of the paragraph). The *GPAT6*, *GH17* and *PHT4;3* sentences are unchanged. Order follows the text: *GPAT6*, then *GH17* and *PHT4;3*, then the GDSL gene."
+ ],
+ "questions": [],
+ "edits": [
+  {
+   "where": "Results, 7H GDSL paragraph 3 (last sentence)",
+   "why": "The elite comparison of the GDSL gene joins the single elite-cultivar paragraph below.",
+   "old": " At the four SNPs that defined the haplotypes, the five elite malting cultivars carried the alleles of the low-fiber, high-starch haplotype A at every called site, and none carried those of the high-fiber, low-starch haplotype B (Fig. 3i).",
+   "new": "{- At the four SNPs that defined the haplotypes, the five elite malting cultivars carried the alleles of the low-fiber, high-starch haplotype A at every called site, and none carried those of the high-fiber, low-starch haplotype B (Fig. 3i).-}{@→ moved to the end of the elite-cultivar paragraph (change 2)@}"
+  },
+  {
+   "where": "Results, elite-cultivar paragraph",
+   "why": "One elite comparison for the four genes: count and panels updated; the GDSL sentence added at the end.",
+   "old": "To ask which of these haplotypes are present in cultivated barley, we compared five European spring malting cultivars released between 2012 and 2018 with the wild haplotype groups at the same three genes (Fig. 3d–f; Online Resource 10). At *GPAT6*, the five cultivars matched the two low-fiber haplotype groups at 95–98% and 88–91% of called sites but the high-fiber group at only 39–45%, so the high-fiber wild haplotype is essentially absent from these lines. The cultivars, like the two low-fiber groups, carried the reference (Morex) allele at only 12–14% of these sites, against 65% in the high-fiber group. At *GH17* and *PHT4;3*, by contrast, all five cultivars carried the reference allele at every called site.",
+   "new": "To ask which of these haplotypes are present in cultivated barley, we compared five European spring malting cultivars released between 2012 and 2018 with the wild haplotype groups at the same {-three-}{+four+} genes (Fig. 3{-d–f-}{+f–i+}; Online Resource 10). At *GPAT6*, the five cultivars matched the two low-fiber haplotype groups at 95–98% and 88–91% of called sites but the high-fiber group at only 39–45%, so the high-fiber wild haplotype is essentially absent from these lines. The cultivars, like the two low-fiber groups, carried the reference (Morex) allele at only 12–14% of these sites, against 65% in the high-fiber group. At *GH17* and *PHT4;3*, by contrast, all five cultivars carried the reference allele at every called site.{+ At the four SNPs that defined the haplotypes of the GDSL esterase/lipase gene, the five cultivars carried the alleles of the low-fiber, high-starch haplotype A at every called site, and none carried those of the high-fiber, low-starch haplotype B (Fig. 3i). <!-- MRG2 2026-10-17 (user decision: one elite paragraph for the four genes): \"three\" -> \"four\" genes, panels 3d-f -> 3f-i (combined figure); the GDSL sentence moved here from the end of the 7H paragraph (MRG1), worded as the user approved it on 2026-09-28 except \"the five elite malting cultivars\" -> \"the five cultivars\" (introduced in the first sentence) and \"of the GDSL esterase/lipase gene\" (the gene is no longer the subject of the paragraph). Its source note stays at the end of the 7H paragraph above. -->+}"
+  }
+ ]
+}

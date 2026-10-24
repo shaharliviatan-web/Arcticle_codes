@@ -5,8 +5,10 @@ Haplotype analysis of **`HORVU.MOREX.r3.7HG0729030`** — the GDSL esterase at t
 comparison and paper table set.
 
 **This is the analysis Results Chapter 4 is built on** (adopted and approved by the user
-2026-09-24), and it draws **Fig. 4** (`08_USED_creating_figures/make_figure_4.R`; Fig. 5 / `make_figure_5.R` until
-2026-09-30, when old Fig. 2 was dissolved and Figs. 3–5 became 2–4). It replaced
+2026-09-24), and it draws **row 4 of Fig. 3** (panels d, e and i: the GDSL gene; `08_USED_creating_figures/make_figure_3.R`)
+since 2026-10-17, when Results ch. 3 and ch. 4 and their figures were combined (user decision). Before that it drew its own
+Fig. 4 (`make_figure_4.R`, deleted 2026-10-17; Fig. 5 / `make_figure_5.R` until 2026-09-30, when old Fig. 2 was dissolved
+and Figs. 3–5 became 2–4). It replaced
 the first version of this branch (MGmin = 2, ε = 0.6), under which the gene is **null**.
 
 **Folder history (2026-09-24, user decision).**
@@ -219,9 +221,10 @@ Holm-corrected** (one comparison here, A vs B; `**` for both traits). Values in
 crosshap marker group **MG1** — the GWAS signal SNPs. Step 07 draws no marker-group
 annotation; these were added on request and are explained in the figure caption.
 
-Figures exist for **ε 0.9 only** (ε 0.6 removed 2026-09-24). The manuscript figure is **Fig. 4**
-(Fig. 5 until 2026-09-30), built from this folder by `08_USED_creating_figures/make_figure_4.R` (TAG layout; triangles
-under the three genome-wide significant SNPs only).
+Figures exist for **ε 0.9 only** (ε 0.6 removed 2026-09-24). In the manuscript this gene is **row 4 of Fig. 3**
+(panels d, e, i; since 2026-10-17), drawn from this folder by `08_USED_creating_figures/make_figure_3.R` (TAG layout; triangles
+under the three genome-wide significant SNPs only). It was Fig. 4 from 2026-09-30 to 2026-10-17 (`make_figure_4.R`, deleted)
+and Fig. 5 before that.
 
 ## 5. Layout
 

@@ -1,8 +1,44 @@
-# Supplementary (Online Resources)
+# Supplementary material
 
-**Where everything is: `README.md` in this folder** (folder map, download folder, rebuild command). This file is the list.
+**Where everything is: `README.md` in this folder** (folder map, upload folder, rebuild command). This file is the list.
 
-## Final numbering (2026-10-01) — BUILT
+## Current numbering (2026-10-17) — BUILT
+
+S. Hübner's comment on the review copy: TAG papers call the supplement "Supplementary" and number figures and tables in two running series (Fig. S1…, Table S1…), cited that way in the text. User decision 2026-10-17: two files, **`ESM_1.xlsx` = Supplementary Tables S1–S22** (one sheet per table) and **`ESM_2.pdf` = Supplementary Figures S1–S5** (each with its legend); one number per table or figure, numbered by first citation (checked by `scripts/build_ESM_tables.py` on every build). The content is unchanged (the 22 tables checked cell by cell against the former Online Resource sheets); only the numbering and the assembly changed. Manuscript item SUPP2.
+
+| new | from | caption (start) |
+|---|---|---|
+| Table S1 | part 1 (former Online Resource 1), sheet “Sites” | Sampling sites: the 30 sites with their ecological region, coordinates and ten environmental variables |
+| Table S2 | part 2 (former Online Resource 2), sheet “NIR calibration” | Near-infrared (NIR) calibration: for the 30 calibration accessions (one per sampling site), the laboratory values, the NIR predictions of the same gra… |
+| Table S3 | part 2 (former Online Resource 2), sheet “Calibration correlations” | Validation of the NIR calibration: Pearson correlations among the laboratory values, the NIR predictions and the 2019–20 NIR values of the 30 calibrat… |
+| Table S4 | part 2 (former Online Resource 2), sheet “Blocks 2019–20” | Pearson correlations between the blocks of the 2019–20 season for the four nutritional traits, from the raw NIR values of the accessions grown in both… |
+| Table S5 | part 1 (former Online Resource 1), sheet “Accessions” | The 290 analyzed accessions: identifiers in the European Nucleotide Archive (project PRJEB79623), site, ecological region and the genotype BLUPs of th… |
+| Table S6 | part 3 (former Online Resource 3), sheet “Variance components” | Variance components and broad-sense heritability (H²) of the four nutritional and four morphological and phenological traits, from a linear mixed mode… |
+| Table S7 | part 1 (former Online Resource 1), sheet “Environment correlations” | Pearson correlations among the ten environmental variables across the 29 sites of the analyzed accessions |
+| Table S8 | part 5 (former Online Resource 5), sheet “Loci” | The 36 loci of the genome-wide association analysis of the four nutritional traits (EMMAX; 290 accessions; MorexV3 coordinates): position, span, lead … |
+| Table S9 | part 5 (former Online Resource 5), sheet “Significant SNPs” | The 52 SNPs that exceeded the genome-wide threshold (Bonferroni, α = 0.10; −log10(P) = 6.0454), with their locus, allele frequencies and effects |
+| Table S10 | part 6 (former Online Resource 6), sheet “Candidate genes” | The 55 candidate genes of the 36 loci, one row per gene: locus and position, whether the gene's haplotypes could be tested and why not, the Kruskal–Wa… |
+| Table S11 | part 7 (former Online Resource 7), sheet “Summary” | Choice of the crosshap clustering radius (ε), summary: for five values of ε (MGmin = 2), the number of the 55 candidate genes whose haplotypes could b… |
+| Table S12 | part 7 (former Online Resource 7), sheet “Per gene” | Choice of the crosshap clustering radius (ε), per gene: the same quantities for each of the 55 candidate genes at each of the five values of ε (MGmin … |
+| Table S13 | part 8 (former Online Resource 8), sheet “Canonical genes” | The ten canonical (1,3;1,4)-β-glucan synthase and endohydrolase genes located on the MorexV3 genome from their reference protein sequences, and the di… |
+| Table S14 | part 10 (former Online Resource 10), sheet “Site accounting” | Comparison with elite cultivars: per gene, the SNP sites of the wild and elite MorexV3 call sets in the gene window (gene ± 1 kb), the sites compared … |
+| Table S15 | part 10 (former Online Resource 10), sheet “Excluded sites” | Comparison with elite cultivars: every SNP site excluded from the comparison, with the reason |
+| Table S16 | part 10 (former Online Resource 10), sheet “Screen” | Call-rate screen of the 136 spring elite lines of the barley pangenome panel, by pooled call rate over the compared sites of GPAT6, GH17 and PHT4;3… |
+| Table S17 | part 10 (former Online Resource 10), sheet “Cultivars” | The five spring malting cultivars compared with the wild haplotype groups, and their call rates at the four presented genes |
+| Table S18 | part 11 (former Online Resource 11), sheet “Lead SNPs – tests” | Geographic origin of the carriers of the lead-SNP alleles of the 36 loci: carriers per ecological region, and the site-permutation tests of desert enr… |
+| Table S19 | part 11 (former Online Resource 11), sheet “Lead SNPs – by region” | Minor- and major-allele carriers and missing calls of each lead SNP, per ecological region |
+| Table S20 | part 11 (former Online Resource 11), sheet “Haplotype groups – tests” | Geographic origin of the haplotype groups of the four presented genes: members per ecological region, and the site-permutation tests of desert enrichm… |
+| Table S21 | part 11 (former Online Resource 11), sheet “Haplotype groups – by region” | Members of each haplotype group of the four presented genes per ecological region, and the unassigned accessions |
+| Table S22 | part 11 (former Online Resource 11), sheet “Carriers vs site-mates” | Comparison of the minor-allele carriers of each lead SNP with the major-allele carriers of their own site |
+| Fig. S1 | former Online Resource 4 | Decay of linkage disequilibrium with physical distance across the genome (a) and per chromosome (b) |
+| Fig. S2 | former Online Resource 9 | crosshap haplotype plots of GPAT6, GH17, PHT4;3 and the GDSL esterase/lipase gene |
+| Fig. S3 | former Online Resource 12 | Geographic origin of the accessions carrying the lead-SNP alleles and the haplotypes of the four candidate genes |
+| Fig. S4 | former Online Resource 12 | Desert enrichment of the lead-SNP alleles and the haplotypes of the four candidate genes |
+| Fig. S5 | former Online Resource 13 | Genotype BLUPs of the four nutritional traits across the 29 sampling sites, by ecological region |
+
+**Upload:** `for_submission/` (`ESM_1.xlsx`, `ESM_2.pdf`, `ESM_all_supplementary.zip`, `CAPTIONS.md`). **Review copy for S. Hübner:** `for_review_Hubner/` (`Supplementary_Tables.xlsx`, `Supplementary_Figures.docx`, plus the two uncited raw-phenotype files and a zip).
+
+## Former numbering (2026-10-01 to 2026-10-17; superseded by the table above, kept for the record)
 
 Numbered by first citation in the manuscript (checked: 1 → 13 in reading order). Files in this folder, built by
 `scripts/build_all.sh` (README there: sources, checks, layout). Questions and answers: `../build/proposed/ESM0_QUESTIONS.md`;

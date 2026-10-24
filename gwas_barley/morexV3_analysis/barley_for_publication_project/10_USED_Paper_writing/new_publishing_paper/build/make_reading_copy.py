@@ -12,6 +12,7 @@ t = re.sub(r"\[[^\[\]]*\]\{\.comment-start[^}]*\}", "", t)                    # 
 t = re.sub(r"\[\]\{\.comment-end[^}]*\}", "", t)                              # comment ends
 t = re.sub(r"\[\[([^\[\]]*)\]\]\{\.mark\}", r"[\1]", t)                       # placeholders keep brackets
 t = re.sub(r"\[([^\[\]]*)\]\{\.mark\}", r"\1", t)                             # anchored text
+t = re.sub(r"(?<=\S)[ \t]{2,}(?=\S)", " ", t)                                # runs of spaces left where notes were removed (2026-10-17, item TYPO1)
 t = re.sub(r"[ \t]+\n", "\n", t); t = re.sub(r"\n{3,}", "\n\n", t).strip() + "\n"
 hdr = f"*Reading copy of `{src}`, comments and hidden notes removed. Do not edit; regenerated from the original.*\n\n"
 open(dst, "w", encoding="utf-8").write(hdr + t)

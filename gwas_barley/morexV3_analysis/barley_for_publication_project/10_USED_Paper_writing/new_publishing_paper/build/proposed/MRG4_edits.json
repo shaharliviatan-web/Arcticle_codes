@@ -1,0 +1,48 @@
+{
+ "notes": [
+  "**Item MRG4 — figure citations outside the merged chapter** (user decision 2026-10-17: the M&M, the Discussion and the open-items list follow the combined Fig. 3). Panel key of the combined figure: violins **a** *GPAT6*, **b** *GH17*, **c** *PHT4;3*, **d** GDSL fiber, **e** GDSL starch; barcodes **f** *GPAT6*, **g** *GH17*, **h** *PHT4;3*, **i** GDSL. Six changes in the manuscript (below); only figure numbers and panel letters change, plus \"four figures\" → \"three\" in the open-items list.",
+  "**Also in this item: two Online Resource files cite the old Fig. 4** (found by searching the built files and their builders). On your approval I change the two builder scripts and rebuild the supplement (`bash supplementary/scripts/build_all.sh`, which also refreshes `supplementary/for_submission/`):<br>• **Online Resource 9** (PDF legend, `build_ESM_pdf.py`): \"The haplotype groups are those of ~~Figs. 3 and 4; their tests are in Online Resource 6 and Fig. 4~~ **Fig. 3; their tests are in Fig. 3 and Online Resource 6**\".<br>• **Online Resource 11** (xlsx, sheet \"About\", `build_ESM_xlsx.py`): \"Groups as in Fig. 3 (GPAT6, GH17, PHT4;3~~;~~**:** crosshap ε = 0.6, MGmin = 2~~) and Fig. 4 (~~**; **GDSL gene~~;~~**:** ε = 0.9, MGmin = 3).\"<br>No number and no other text in the supplement changes."
+ ],
+ "questions": [
+  "Change 2 makes the M&M haplotype-test citation more specific, \"Fig. 3\" → \"Fig. 3a–c\", because the combined figure now also shows the GDSL gene, which the next M&M paragraph describes separately (with its own citation, change 3). Keep \"Fig. 3a–c\", or leave it as \"Fig. 3\"?",
+  "The review package sent to S. Hübner on 2026-10-04 (`supplementary/for_review_Hubner/`) also says \"Fig. 4\" in the same two places. I suggest leaving it as it is, a record of what he received. Agree, or should I rebuild it too?"
+ ],
+ "edits": [
+  {
+   "where": "Open-items list, item 8 (Final Word file)",
+   "why": "The manuscript now has three figures.",
+   "old": "The four figures are embedded in the text and are also uploaded as separate TIFF files, Fig1 to Fig4 (600 dpi, 174 mm wide).",
+   "new": "The {-four-}{+three+} figures are embedded in the text and are also uploaded as separate TIFF files, Fig1 to Fig{-4-}{+3+} (600 dpi, 174 mm wide)."
+  },
+  {
+   "where": "M&M, Haplotype analysis ¶3",
+   "why": "Panels a–c are the genes tested in this pipeline; the GDSL gene (d, e) is cited in the 7H paragraph (change 3).",
+   "old": "with Holm correction within each gene (Holm 1979; Fig. 3).",
+   "new": "with Holm correction within each gene (Holm 1979; Fig. 3{+a–c+})."
+  },
+  {
+   "where": "M&M, Functional annotation and choice of candidate genes ¶4 (7H gene)",
+   "why": "The GDSL gene's violins are now Fig. 3d (fiber) and 3e (starch).",
+   "old": "its two haplotype groups were also compared by a two-sided Wilcoxon rank-sum test (Fig. 4).",
+   "new": "its two haplotype groups were also compared by a two-sided Wilcoxon rank-sum test (Fig. {-4-}{+3d, e+})."
+  },
+  {
+   "where": "M&M, Comparison with elite cultivars ¶2",
+   "why": "Barcodes of the three genes are now Fig. 3f–h; the 7H gene's barcode is Fig. 3i.",
+   "old": "with ties resolved to the reference allele (Fig. 3d–f). The cultivars were compared with these consensus genotypes only; they were not included in the haplotype analysis or assigned to haplotype groups. For the 7H gene (Fig. 4c),",
+   "new": "with ties resolved to the reference allele (Fig. 3{-d–f-}{+f–h+}). The cultivars were compared with these consensus genotypes only; they were not included in the haplotype analysis or assigned to haplotype groups. For the 7H gene (Fig. {-4c-}{+3i+}),"
+  },
+  {
+   "where": "M&M, Geographic origin of allele and haplotype carriers",
+   "why": "The four presented genes are all in Fig. 3.",
+   "old": "as was each haplotype group of the four presented genes (Figs. 3, 4) with the other groups of its gene",
+   "new": "as was each haplotype group of the four presented genes ({-Figs. 3, 4-}{+Fig. 3+}) with the other groups of its gene"
+  },
+  {
+   "where": "Discussion, Wild alleles for cultivated barley",
+   "why": "Barcodes: PHT4;3 is now Fig. 3h (was 3f), GH17 is Fig. 3g (was 3e).",
+   "old": "at the shared sites (Fig. 3f), most likely because both carry the reference allele, whereas at *GH17* they matched none of the wild groups (Fig. 3e).",
+   "new": "at the shared sites (Fig. 3{-f-}{+h+}), most likely because both carry the reference allele, whereas at *GH17* they matched none of the wild groups (Fig. 3{-e-}{+g+})."
+  }
+ ]
+}

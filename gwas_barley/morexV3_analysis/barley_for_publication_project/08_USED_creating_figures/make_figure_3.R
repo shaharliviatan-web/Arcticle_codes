@@ -1,42 +1,55 @@
 #!/usr/bin/env Rscript
 # make_figure_3.R — Fig. 3 of the TAG manuscript (Results ch. 3): haplotype structure of the
-# three candidate genes carried forward, with the elite cultivars drawn as aligned barcodes.
+# four candidate genes, with the elite cultivars drawn as aligned barcodes.
 #
-# Panels: a GPAT6 (fiber), b GH17 (fiber), c PHT4;3 (starch) — the three tier-1 genes of
-# 06_USED_genes_selected_to_present, in the order they are discussed in the text.
+# COMBINED 2026-10-17 (S. Hübner's recommendation; user decision): Results ch. 3 and ch. 4 are merged
+# into one chapter, and old Fig. 3 (three genes) and old Fig. 4 (the 7H GDSL gene,
+# make_figure_4.R) into this one figure. Both scripts already shared the drawing code; this one
+# keeps Fig. 3's code and data checks and takes over Fig. 4's data loading and checks unchanged.
+# Nothing is recomputed: every value is read from the same step-04, step-07 and 7H-branch outputs.
+# APPROVED 2026-10-17 by the user (drawn first as Figure_3/Fig3_combined_DRAFT.*, then renamed): it
+# replaces the former Fig3.{png,tif}; the former Figure_4/Fig4.* and make_figure_4.R were deleted
+# the same day (user request; the script and Fig4.tif remain in git).
 #
-# Each panel has two parts:
-#   * violins of the trait BLUP by wild haplotype group (boxplot inside, group n below),
-#     with the Wilcoxon-vs-largest-group brackets of step 07 (Holm-corrected within the gene)
-#     and a q + eta-squared label from step 04;
-#   * aligned genotype barcodes: one row per wild haplotype group (per-SNP majority consensus),
-#     a white gap, then one row per elite cultivar. Columns are SNPs in genomic order.
+# Panels, in the order of the text (pipeline order, user decision 2026-10-17):
+#   violins  a GPAT6 (fiber)   b GH17 (fiber)   c PHT4;3 (starch)   d GDSL (fiber)   e GDSL (starch)
+#   barcodes f GPAT6           g GH17           h PHT4;3            i GDSL
+# One row per gene, violins left and the aligned barcodes right. The GDSL row holds two half-width
+# violins, fiber and starch side by side, and one barcode: the two traits give identical
+# haplotype groups (the same 212 | 34 accessions; asserted below), so their barcodes are identical.
+#
+# Each violin panel: trait BLUP by wild haplotype group (boxplot inside, group n below), the
+# Wilcoxon-vs-largest-group brackets (Holm-corrected within the gene), and above the panel the
+# gene-level statistic exactly as in the two former figures: the Benjamini-Hochberg q (step 04)
+# for GPAT6, GH17 and PHT4;3; the raw Kruskal-Wallis P for the GDSL gene (a single pre-specified
+# test outside the step-04 BH family, as in the former Fig. 4).
+# Each barcode panel: one row per wild haplotype group (per-SNP majority consensus, ties -> REF),
+# a white gap, then one row per elite cultivar; columns are SNPs in genomic order. The GDSL
+# barcode keeps the former Fig. 4's red triangles under the three genome-wide significant SNPs
+# (fiber lead 7H:573,606,306; starch lead 7H:573,606,460; starch 7H:573,606,491), with their key
+# directly under that barcode; the genotype legend sits under the barcode column.
 #
 # Only the `shared_sites` version is drawn (decided in build/BLUEPRINT.md): a column appears
 # only where the wild and the elite call sets both have a record with identical REF and ALT,
 # so no genotype is assumed anywhere in the figure. Elite lines are NOT assigned to a haplotype
 # group — crosshap never saw them; the barcodes are aligned and the comparison left to the reader.
 #
-# LAYOUT — side by side, chosen by the user 2026-09-23: one row per gene, violins left
-# (a, b, c) and the aligned barcodes right (d, e, f). A stacked alternative (violins above
-# the barcodes, as in the mini paper's Fig. 4) was drawn on 2026-09-22 and rejected: at
-# 174 mm it reached 226 mm of the 234 mm height limit, which left the violins cramped.
-# `draw_stacked()` is kept so it can be regenerated, but it is no longer rendered.
+# LAYOUT (2026-10-17). TAG maximum: 174 mm x 234 mm; the figure uses the full height (rows of
+# ~56 mm; the former Fig. 3 had ~60 mm). Text stays at a true 9 pt. Column split 86 | 88 mm (was
+# 70 | 104): each GDSL half panel must hold its two-line header (the P label is 39.3 mm at 9 pt),
+# and the genotype legend (85.4 mm at 9 pt) must fit under the barcode column. The GDSL panels
+# print the gene and trait on one line and the statistic on the line below; the other panels keep
+# both on one line.
 #
-# Changes requested on the first side-by-side draft (2026-09-23):
-#   1. violins are drawn untrimmed, so no violin is cut off at the extreme observations;
-#   2. lettering raised from 9 pt to 11 pt (TAG allows 8-12) — the 9 pt draft was unreadable
-#      at print size;
-#   3. the genotype legend moved from the centre of the figure to under the barcode column;
-#   4. the barcode panels carry their own panel letters d, e, f.
-#
-# Fixed 2026-09-24 (user decision) — TRUE TEXT SIZE. layout() with three or more rows silently
-# sets par(cex = 0.66), and nothing reset it, so every label was drawn at 0.66 x PT: the version
-# approved 2026-09-23 as "11 pt" measured ~7.3 pt on the page, below TAG's 8 pt minimum. It also
-# made the margin arithmetic (LINE_IN, in lines of PT) wrong. par(cex = 1) is now set after each
-# layout() call, and PT is 9: a true 9 pt, inside TAG's 8-12 pt, ~25% larger than the approved look.
-# Same date: the barcode consensus now resolves 50/50 ties to REF (step 07, user decision), which
-# turns two GH17 cells in panel e from missing to REF.
+# History of the former Fig. 3 (kept; the first two items still describe this code):
+#   2026-09-23 side-by-side layout chosen by the user (a stacked alternative was rejected: at
+#     174 mm it reached 226 mm of the 234 mm limit and left the violins cramped; its draw_stacked()
+#     was removed on 2026-10-17 — it cannot draw four genes, and it is in git);
+#   2026-09-23 violins untrimmed; legend under the barcode column; barcode panels carry letters;
+#   2026-09-24 TRUE TEXT SIZE: layout() with three or more rows silently sets par(cex = 0.66);
+#     par(cex = 1) is set after each layout() call, and PT is 9 (a true 9 pt, TAG range 8-12);
+#     the barcode consensus resolves 50/50 ties to REF (step 07, user decision).
+#   2026-09-30 renumbered from Fig. 4 to Fig. 3 (S. Hübner's comments; pixel-identical).
 #
 # TAG figure spec (10_USED_Paper_writing/TAG_requirements.md): 174 mm wide (full page width),
 # height <= 234 mm, Arial-metric sans (Liberation Sans) at a true 9 pt at final size (TAG range 8-12),
@@ -44,35 +57,43 @@
 # panel labels, and the windows, SNP counts and colour definitions belong to the caption.
 #
 # Inputs (read-only):
-#   07_USED_elite_lines_compariosn_to_wild_lines/
+#   07_USED_elite_lines_compariosn_to_wild_lines/                  (GPAT6, GH17, PHT4;3)
 #     intermediates/matrices/<gene_id>__shared_sites.rds   consensus, elite, group_stats, indfile
 #     results/tables/Table_pairwise_group_tests.tsv        bracket statistics
 #     results/tables/Table_allele_concordance.tsv          REF/ALT check, re-asserted here
-#     config/elite_lines.tsv                               the five cultivars, in display order
+#     config/elite_lines.tsv                               the five cultivars, in display order (all four genes)
 #   04_USED_haplotype_analysis_crosshap/04_runs/loci_LDspan_eps06_V4/Stats/gene_results.tsv
 #                                                          q, eta2, n_groups cross-check
+#   03_01_7H_branch_Starch_Fiber_shared_signal_explore/ = B       (GDSL gene; crosshap MGmin 3, eps 0.9)
+#     B/Cache/<trait>/<gene>/MGmin_3/eps_0.9/HapObject.rds    groups, phenotypes, marker groups
+#     B/results/tables/mgmin3_gene_results.tsv                KW P, eta2, group sizes (cross-check)
+#     B/results/tables/pairwise_group_tests.tsv               bracket statistics (Wilcoxon, Holm)
+#     B/results/tables/Table_site_overlap.tsv                 shared-site count (cross-check)
+#     B/results/tables/Table_allele_concordance.tsv           REF/ALT check, re-asserted here
+#     B/results/tables/Table_elite_genotypes_wide__<gene>.tsv elite states (cross-check)
+#     B/work/raw/<trait>/<gene>.vcf.gz                        wild raw genotypes, gene +/- 1 kb
+#     B/work/elite/7HG0729030.elite.vcf.gz                    elite genotypes (DivBrowse, MorexV3)
+#     B/archive_v1_MGmin2_eps0.6/results/tables/signal_snps.tsv  genome-wide significance per SNP
 # Output: Figure_3/Fig3.{png,tif}  (png for the docx build, tif for submission)
 #
-# Created 2026-09-22. Run: Rscript make_figure_3.R   (seconds)
-#
-# RENUMBERED 2026-09-30 (S. Hübner's comments on the figures; user decision): old Fig. 2 was dissolved,
-# so this figure is now Fig. 3 (it was Fig. 4) and this script was make_figure_4.R, writing
-# Figure_4/Fig4.*. Only the output folder, file names, log tags and this header changed; the
-# re-rendered image is pixel-identical to the approved Fig4 (checked 2026-09-30). Hand-over:
-# 10_USED_Paper_writing/new_publishing_paper/build/STRUCTURE_CHANGES_2026-10.md
+# Created 2026-09-22 (as make_figure_4.R; renumbered 2026-09-30); combined 2026-10-17.
+# Run: Rscript make_figure_3.R   (seconds)
 
 Sys.setenv(TMPDIR = "/mnt/data/shahar/.tmp")
-suppressPackageStartupMessages(library(data.table))
+suppressPackageStartupMessages({ library(data.table); library(vcfR) })
 
 ROOT   <- "/mnt/data/shahar/gwas_barley/morexV3_analysis/barley_for_publication_project"
 STEP07 <- file.path(ROOT, "07_USED_elite_lines_compariosn_to_wild_lines")
 STEP04 <- file.path(ROOT, "04_USED_haplotype_analysis_crosshap", "04_runs", "loci_LDspan_eps06_V4")
+BRANCH <- file.path(ROOT, "03_01_7H_branch_Starch_Fiber_shared_signal_explore")   # the GDSL analysis
+ARCH   <- file.path(BRANCH, "archive_v1_MGmin2_eps0.6")   # its archived first version (MGmin-independent tables)
 OUT    <- file.path(ROOT, "08_USED_creating_figures", "Figure_3")
 dir.create(OUT, showWarnings = FALSE, recursive = TRUE)
+OUT_NAME <- "Fig3"                                        # the draft "Fig3_combined_DRAFT" was approved 2026-10-17
 
 VERSION <- "shared_sites"
 
-# Panel order = the order the genes are discussed in Results ch. 3.
+# Rows 1-3 = the three genes carried forward from the step-04 run, in the order of the text.
 GENES <- list(
   list(id = "HORVU.MOREX.r3.3HG0301300", short = "GPAT6",  trait = "fiber",
        label = "GPAT6",  trait_lab = "fiber"),
@@ -80,6 +101,13 @@ GENES <- list(
        label = "GH17",   trait_lab = "fiber"),
   list(id = "HORVU.MOREX.r3.3HG0301710", short = "PHT4-3", trait = "starch",
        label = "PHT4;3", trait_lab = "starch")
+)
+# Row 4 = the GDSL gene at the shared 7H signal, both traits.
+GDSL_ID <- "HORVU.MOREX.r3.7HG0729030"
+MGMIN <- 3; EPS <- 0.9
+GDSL_TRAITS <- list(
+  list(trait = "fiber",  label = "GDSL", trait_lab = "fiber"),
+  list(trait = "starch", label = "GDSL", trait_lab = "starch")
 )
 
 # ── Style ─────────────────────────────────────────────────────────────────────
@@ -100,11 +128,14 @@ GT_LAB <- c("0" = "Reference", "1" = "Alternate", "2" = "Heterozygous",
             "3" = "No elite record", "4" = "Third allele")
 COL_MISS <- "grey70"
 TILE_H   <- 0.72                             # white gap between barcode rows, as in step 07
+SIG_COL  <- "red"                            # significance triangles (former Fig. 4)
+SIG_PCH  <- 17
+TRI_ROWS <- 0.8                              # height of the triangle row, in barcode rows
 
 # Haplotype-group fills: the CVD-validated categorical palette used for the Manhattan plots (Fig. 2).
 HAP_COL <- c("#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4")
 
-# ── Data ──────────────────────────────────────────────────────────────────────
+# ── Data: GPAT6, GH17, PHT4;3 (steps 04 and 07) ───────────────────────────────
 PW    <- fread(file.path(STEP07, "results", "tables", "Table_pairwise_group_tests.tsv"))
 CONC  <- fread(file.path(STEP07, "results", "tables", "Table_allele_concordance.tsv"))
 G04   <- fread(file.path(STEP04, "Stats", "gene_results.tsv"))
@@ -135,25 +166,123 @@ for (g in GENES) {
             !any(m$consensus %in% c(CODE_HET, CODE_NORECORD, CODE_TRI)))  # wild: REF/ALT/NA only
 
   br <- PW[gene_id == g$id][order(match(group2, m$group_stats$hap))]
-  P[[g$short]] <- c(g, list(m = m, br = br,
-                            q = s04$fdr_q, eta2 = s04$eta_squared,
+  P[[g$short]] <- c(g, list(m = m, br = br, stat = "q", sval = s04$fdr_q, eta2 = s04$eta_squared,
+                            sig_col = NULL,
                             ref_grp = m$group_stats$hap[which.max(m$group_stats$n)]))
   cat(sprintf("[fig3] %-7s %2d groups | %3d shared SNPs | q %.2e | eta2 %.3f | %d elite rows\n",
               g$short, nrow(m$group_stats), m$n_shared, s04$fdr_q, s04$eta_squared, nrow(m$elite)))
 }
 
+# ── Data: the GDSL gene (7H branch; loading and checks as in the former make_figure_4.R) ──
+tab7 <- function(f) fread(file.path(BRANCH, "results", "tables", f))
+GR7    <- tab7("mgmin3_gene_results.tsv")[MGmin == MGMIN & epsilon == EPS]
+PW7    <- tab7("pairwise_group_tests.tsv")[eps == EPS]
+OVL7   <- tab7("Table_site_overlap.tsv")
+CONC7  <- tab7("Table_allele_concordance.tsv")
+EWIDE7 <- tab7(paste0("Table_elite_genotypes_wide__", GDSL_ID, ".tsv"))
+SIGT7  <- fread(file.path(ARCH, "results", "tables", "signal_snps.tsv"))
+
+stopifnot(!any(CONC7$status %in% c("swapped", "ref_differs")))   # REF/ALT mean the same base
+
+gt_code <- function(gt) {                    # step 07's coding
+  out <- rep(NA_real_, length(gt))
+  out[gt %in% c("0/0", "0|0")] <- CODE_REF
+  out[gt %in% c("1/1", "1|1")] <- CODE_ALT
+  out[gt %in% c("0/1", "1/0", "0|1", "1|0")] <- CODE_HET
+  out
+}
+read_gt <- function(path) {
+  v   <- suppressMessages(read.vcfR(path, verbose = FALSE))
+  fix <- as.data.frame(getFIX(v), stringsAsFactors = FALSE)
+  gt  <- extract.gt(v, element = "GT", as.numeric = FALSE)
+  key <- paste(sub("^chr", "", fix$CHROM), fix$POS, fix$REF, fix$ALT, sep = ":")
+  m   <- apply(gt, 2, gt_code); m <- matrix(as.numeric(m), nrow = nrow(gt), dimnames = list(key, colnames(gt)))
+  t(m)                                        # rows = samples, cols = sites
+}
+consensus_row <- function(m) apply(m, 2, function(x) {   # step 07's rule (ties -> REF, 2026-09-24)
+  x <- x[!is.na(x)]; if (!length(x)) return(NA_real_)
+  tb <- table(x); top <- names(tb)[tb == max(tb)]
+  if (length(top) > 1) return(if (as.character(CODE_REF) %in% top) CODE_REF else NA_real_)
+  as.numeric(top)
+})
+
+W7 <- read_gt(file.path(BRANCH, "work", "raw", "fiber", paste0(GDSL_ID, ".vcf.gz")))
+stopifnot(identical(W7, read_gt(file.path(BRANCH, "work", "raw", "starch", paste0(GDSL_ID, ".vcf.gz")))))
+E7 <- read_gt(file.path(BRANCH, "work", "elite", "7HG0729030.elite.vcf.gz"))
+stopifnot(all(ELITE$sample_id %in% rownames(E7)))
+E7 <- E7[ELITE$sample_id, , drop = FALSE]; rownames(E7) <- ELITE$line_name
+
+shared7 <- intersect(colnames(W7), colnames(E7))
+spos7   <- as.integer(sub("^[^:]+:([0-9]+):.*", "\\1", shared7))
+shared7 <- shared7[order(spos7)]; spos7 <- sort(spos7)
+stopifnot(length(shared7) == OVL7$n_shared)
+EL7 <- E7[, shared7, drop = FALSE]
+
+# elite states re-derived from the VCF must equal the published table
+st <- function(x) unname(ifelse(is.na(x), "Missing", GT_LAB[as.character(x)]))
+stopifnot(identical(EWIDE7$site_key, shared7),
+          all(vapply(ELITE$line_name, function(l) identical(st(EL7[l, ]), EWIDE7[[l]]), logical(1))))
+
+# Haplotype groups per trait, and the check that justifies ONE barcode for both traits
+G7 <- list(); groups7 <- list()
+for (tt in GDSL_TRAITS) {
+  ho  <- readRDS(file.path(BRANCH, "Cache", tt$trait, GDSL_ID, paste0("MGmin_", MGMIN),
+                           paste0("eps_", EPS), "HapObject.rds"))
+  hh  <- ho$HapObject[[paste0("Haplotypes_MGmin", MGMIN, "_E", EPS)]]
+  ind <- as.data.table(hh$Indfile)[, .(Ind = as.character(Ind), hap = as.character(hap), Pheno = as.numeric(Pheno))]
+  ind <- ind[hap != "0" & !is.na(Pheno)]
+  gs  <- ind[, .(n = .N, mean_pheno = mean(Pheno)), by = hap][order(hap)]
+  g   <- GR7[trait == tt$trait]
+  stopifnot(nrow(g) == 1L, g$haplotype_groups == nrow(gs),
+            identical(as.integer(gs$n), as.integer(strsplit(g$group_sizes, "|", fixed = TRUE)[[1]])))
+  vf  <- as.data.frame(hh$Varfile)
+  br  <- PW7[trait == tt$trait][, .(group1 = g1, group2 = g2, y.position = y, p.adj.signif = sym)]
+  G7[[tt$trait]] <- c(tt, list(m = list(group_stats = as.data.frame(gs), indfile = as.data.frame(ind)),
+                               br = br, stat = "P", sval = g$kw_p_raw, eta2 = g$eta_squared,
+                               mg = vf$ID[vf$MGs != "0"]))
+  groups7[[tt$trait]] <- setNames(ind$hap, ind$Ind)[order(ind$Ind)]
+  cat(sprintf("[fig3] GDSL %-6s %d groups (%s) | KW P %.2e | eta2 %.3f\n", tt$trait, nrow(gs),
+              paste(gs$n, collapse = "|"), g$kw_p_raw, g$eta_squared))
+}
+stopifnot(identical(groups7$fiber, groups7$starch))          # same accessions, same groups
+
+gs7   <- G7$fiber$m$group_stats
+cons7 <- t(vapply(gs7$hap, function(h) {
+  ids <- names(groups7$fiber)[groups7$fiber == h]
+  stopifnot(all(ids %in% rownames(W7)))
+  consensus_row(W7[ids, shared7, drop = FALSE])
+}, numeric(length(shared7))))
+rownames(cons7) <- gs7$hap
+stopifnot(!any(cons7 %in% CODE_HET))                          # wild consensus: REF/ALT/NA only
+
+# Genome-wide significant SNPs (either trait) — the triangles
+sig_pos <- SIGT7[sig_fiber == TRUE | sig_starch == TRUE, pos]
+stopifnot(length(sig_pos) == 3L, all(sig_pos %in% spos7),
+          all(paste0("7H:", sig_pos) %in% G7$fiber$mg))       # all three are in the defining group
+# one barcode for both traits: the consensus and elite matrices go with the fiber entry
+G7$fiber$m$consensus <- cons7; G7$fiber$m$elite <- EL7
+G7$fiber$sig_col <- match(sig_pos, spos7)
+cat(sprintf("[fig3] GDSL   %d shared SNPs | significant SNP columns: %s | %d elite rows\n",
+            length(shared7), paste(G7$fiber$sig_col, collapse = ", "), nrow(EL7)))
+
+# Barcode entries, one per row: the three genes, then the GDSL gene
+BARS <- c(P, list(GDSL = G7$fiber))
+
 # States actually drawn anywhere in the figure — the legend lists only these (step 07 convention).
-drawn <- sort(unique(unlist(lapply(P, function(p) c(as.vector(p$m$consensus), as.vector(p$m$elite))))))
+drawn <- sort(unique(unlist(lapply(BARS, function(p) c(as.vector(p$m$consensus), as.vector(p$m$elite))))))
 drawn <- drawn[!is.na(drawn)]
-has_missing <- any(vapply(P, function(p) anyNA(p$m$consensus) || anyNA(p$m$elite), logical(1)))
+has_missing <- any(vapply(BARS, function(p) anyNA(p$m$consensus) || anyNA(p$m$elite), logical(1)))
 
 # ── Drawing helpers ───────────────────────────────────────────────────────────
 mm2in <- function(mm) mm / 25.4
 
-# Scientific q in the journal's style: 5.3 x 10^-6
-q_expr <- function(q, eta2) {
-  e <- floor(log10(q)); mant <- q / 10^e
-  bquote(italic(q) == .(sprintf("%.1f", mant)) %*% 10^.(e) * "," ~~ italic(eta)^2 == .(sprintf("%.3f", eta2)))
+# Gene-level statistic in the journal's style: q = 5.3 x 10^-6 (step 04) or P = 2.1 x 10^-3 (GDSL)
+stat_expr <- function(p) {
+  e <- floor(log10(p$sval)); mant <- p$sval / 10^e
+  if (p$stat == "q")
+    bquote(italic(q) == .(sprintf("%.1f", mant)) %*% 10^.(e) * "," ~~ italic(eta)^2 == .(sprintf("%.3f", p$eta2)))
+  else
+    bquote(italic(P) == .(sprintf("%.1f", mant)) %*% 10^.(e) * "," ~~ italic(eta)^2 == .(sprintf("%.3f", p$eta2)))
 }
 
 violin_panel <- function(p, ylab, cex_ax = 1) {
@@ -220,14 +349,16 @@ violin_panel <- function(p, ylab, cex_ax = 1) {
   box(bty = "l", lwd = LWD)
 }
 
+# Barcode; with sig_col (GDSL), one extra row at the bottom carries the significance triangles.
 barcode_panel <- function(p, cex_ax = 1) {
   cons <- p$m$consensus; el <- p$m$elite
   n_c <- ncol(cons); rows <- nrow(cons) + 1L + nrow(el)     # + one blank separator row
   mat  <- rbind(cons, rep(NA_real_, n_c), el)
   labs <- c(paste("Group", rownames(cons)), "", rownames(el))
   blank <- nrow(cons) + 1L
+  extra <- if (length(p$sig_col)) TRI_ROWS else 0
 
-  plot(NA, xlim = c(0.5, n_c + 0.5), ylim = c(rows + 0.5, 0.5), xaxs = "i", yaxs = "i",
+  plot(NA, xlim = c(0.5, n_c + 0.5), ylim = c(rows + 0.5 + extra, 0.5), xaxs = "i", yaxs = "i",
        axes = FALSE, xlab = "", ylab = "")
   for (r in seq_len(rows)) {
     if (r == blank) next
@@ -239,21 +370,29 @@ barcode_panel <- function(p, cex_ax = 1) {
            col = col, border = "white", lwd = 0.25)
     }
   }
+  if (extra) points(p$sig_col, rep(rows + 0.5 + extra / 2, length(p$sig_col)),
+                    pch = SIG_PCH, col = SIG_COL, cex = 0.9)
   axis(2, at = seq_len(rows)[-blank], labels = labs[-blank], tick = FALSE,
        line = -0.15, las = 1, cex.axis = cex_ax)
 }
 
 # `name = TRUE` prints the gene and trait after the letter; the barcode panel of the same
 # row carries the letter alone, since the row header already names the gene.
-panel_label <- function(p, letter, name = TRUE, stats = TRUE,
+# `two_line = TRUE` (the half-width GDSL panels): the statistic goes on its own line under the
+# name, left-aligned with it, since the two do not fit side by side in 43 mm at 9 pt.
+panel_label <- function(p, letter, name = TRUE, stats = TRUE, two_line = FALSE,
                         dy_in = 0.06, dx_in = 0, cex = 1) {
-  ytxt <- grconvertY(grconvertY(1, "npc", "inches") + dy_in, "inches", "user")
+  yin  <- grconvertY(1, "npc", "inches") + dy_in
+  ytxt <- grconvertY(yin + if (two_line) 1.1 * LINE_IN else 0, "inches", "user")
   xl   <- grconvertX(grconvertX(0, "nfc", "inches") + dx_in, "inches", "user")
   lab  <- if (name) bquote(bold(.(letter)) ~~ .(p$label) ~ "(" * .(p$trait_lab) * ")")
           else      bquote(bold(.(letter)))
   text(xl, ytxt, lab, adj = c(0, 0), xpd = NA, cex = cex)
-  if (stats) text(grconvertX(grconvertX(1, "nfc", "inches") - 0.10, "inches", "user"),
-                  ytxt, q_expr(p$q, p$eta2), adj = c(1, 0), xpd = NA, cex = cex)
+  if (stats && two_line)
+    text(xl, grconvertY(yin, "inches", "user"), stat_expr(p), adj = c(0, 0), xpd = NA, cex = cex)
+  else if (stats)
+    text(grconvertX(grconvertX(1, "nfc", "inches") - 0.10, "inches", "user"),
+         ytxt, stat_expr(p), adj = c(1, 0), xpd = NA, cex = cex)
 }
 
 # The legend sits under the barcode column rather than under the whole figure, so it reads
@@ -267,7 +406,10 @@ hlegend <- function(labs, fill = rep(NA, length(labs)), pch = rep(NA, length(lab
   key  <- 0.75 * ch; gap <- 0.35 * ch; sep <- 1.1 * ch
   tw   <- strwidth(labs, units = "inches", cex = cex)
   wid  <- key + gap + tw
-  pin  <- par("pin"); x_in <- (pin[1] - (sum(wid) + sep * (length(labs) - 1))) / 2
+  pin  <- par("pin"); tot <- sum(wid) + sep * (length(labs) - 1)
+  # centred, but never closer to the right page edge than the barcode tiles end (0.6 lines):
+  # in the 88-mm column the 85.4-mm row would otherwise end 0.5 mm from the edge (2026-10-17)
+  x_in <- min((pin[1] - tot) / 2, pin[1] - tot - 0.6 * LINE_IN)
   ux <- function(i) i / pin[1]; uy <- function(i) i / pin[2]
   for (j in seq_along(labs)) {
     if (!is.na(fill[j])) rect(ux(x_in), y - uy(key / 2), ux(x_in + key), y + uy(key / 2),
@@ -278,7 +420,25 @@ hlegend <- function(labs, fill = rep(NA, length(labs)), pch = rep(NA, length(lab
   }
 }
 
-draw_legend <- function(cex = 1, pos = "center", mar = c(0, 0, 0, 0)) {
+# The triangle key, drawn inside the GDSL barcode cell directly under its barcode (as in the
+# former Fig. 4): same keys and sizes as hlegend(), positioned in device inches.
+hlegend_dev <- function(labs, xc_in, y_in, fill = rep(NA, length(labs)), pch = rep(NA, length(labs)),
+                        pcol = rep(NA, length(labs)), cex = 1) {
+  ch  <- par("cin")[2] * par("cex") * cex
+  key <- 0.75 * ch; gap <- 0.35 * ch; sep <- 1.1 * ch
+  wid <- key + gap + strwidth(labs, units = "inches", cex = cex)
+  x   <- xc_in - (sum(wid) + sep * (length(labs) - 1)) / 2
+  ux <- function(i) grconvertX(i, "inches", "user"); uy <- function(i) grconvertY(i, "inches", "user")
+  for (j in seq_along(labs)) {
+    if (!is.na(fill[j])) rect(ux(x), uy(y_in - key / 2), ux(x + key), uy(y_in + key / 2),
+                              col = fill[j], border = "black", lwd = LWD, xpd = NA)
+    if (!is.na(pch[j]))  points(ux(x + key / 2), uy(y_in), pch = pch[j], col = pcol[j], cex = 0.9, xpd = NA)
+    text(ux(x + key + gap), uy(y_in), labs[j], adj = c(0, 0.5), cex = cex, xpd = NA)
+    x <- x + wid[j] + sep
+  }
+}
+
+draw_legend <- function(cex = 1, mar = c(0, 0, 0, 0)) {
   par(mar = mar); plot.new(); plot.window(c(0, 1), c(0, 1), xaxs = "i", yaxs = "i")
   keys <- as.character(drawn); labs <- unname(GT_LAB[keys]); cols <- unname(GT_COL[keys])
   if (has_missing) { labs <- c(labs, "Missing"); cols <- c(cols, COL_MISS) }
@@ -287,56 +447,60 @@ draw_legend <- function(cex = 1, pos = "center", mar = c(0, 0, 0, 0)) {
 
 ylab_of <- function(p) paste(if (p$trait == "fiber") "Fiber" else "Starch", "BLUP")
 
-# ── Layout 1: stacked — one full-width panel per gene ─────────────────────────
-draw_stacked <- function() {
-  # per gene: violin (plot 1.00 in) over barcode (0.115 in per row)
-  bar_in <- vapply(P, function(p) (nrow(p$m$consensus) + 1L + nrow(p$m$elite)) * 0.115, numeric(1))
-  VIO_IN <- 1.00
-  M_TOP <- 1.5; M_VIO_BOT <- 2.1; M_BAR_TOP <- 0.3; M_BAR_BOT <- 1.0
-  M_LEFT <- 5.0; M_RIGHT <- 0.6
-  h <- as.vector(rbind(VIO_IN + (M_TOP + M_VIO_BOT) * LINE_IN,
-                       bar_in + (M_BAR_TOP + M_BAR_BOT) * LINE_IN))
-  layout(matrix(1:7, ncol = 1), heights = c(h, 0.24))
-  par(cex = 1)                                         # undo layout()'s automatic 0.66 shrink
-  par(family = FONT, las = 1, mgp = c(1.7, 0.4, 0), tcl = -0.22,
-      cex.axis = 1, cex.lab = 1, lwd = LWD, xpd = FALSE)
-  for (i in seq_along(P)) {
-    p <- P[[i]]
-    par(mar = c(M_VIO_BOT, M_LEFT, M_TOP, M_RIGHT))
-    violin_panel(p, ylab_of(p))
-    panel_label(p, letters[i])
-    par(mar = c(M_BAR_BOT, M_LEFT, M_BAR_TOP, M_RIGHT))
-    barcode_panel(p)
-  }
-  draw_legend()
-}
+# ── Layout: one row per gene — violins left, barcodes right ───────────────────
+H_IN       <- floor(H_MAX / 25.4 * DPI) / DPI   # the full TAG height, whole pixels at 600 dpi (<= 234 mm)
+LEG_IN     <- 0.34                               # genotype legend row, as the former Fig. 3
+ROW_IN     <- (H_IN - LEG_IN) / 4                # four equal gene rows
+COL_MM     <- c(43, 43, 88)                      # violin column 86 mm (two 43-mm halves in the GDSL row) | barcodes 88 mm
+BAR_ROW_IN <- 0.175                              # barcode row pitch, as the former Figs. 3 and 4
+KEY_IN     <- 0.24                               # triangle key under the GDSL barcode
 
-# ── Layout 2: side by side — violins left, barcodes right ─────────────────────
-ROW_IN_SBS <- 2.35     # row height, inches — also used to size the canvas
-LEG_IN_SBS <- 0.34
-
-draw_sidebyside <- function() {
-  M_TOP <- 1.5; M_BOT <- 2.6
-  # panel 7 is left empty so the legend (panel 8) sits under the barcode column only
-  layout(rbind(matrix(1:6, ncol = 2, byrow = TRUE), c(7, 8)),
-         widths = c(70, 104), heights = c(rep(ROW_IN_SBS, 3), LEG_IN_SBS))
-  par(cex = 1)                                         # undo layout()'s automatic 0.66 shrink
+draw_combined <- function() {
+  M_TOP <- 1.5; M_TOP2 <- 2.6; M_BOT <- 2.6      # M_TOP2: the two-line headers of the GDSL panels
+  layout(rbind(c(1, 1, 2),
+               c(3, 3, 4),
+               c(5, 5, 6),
+               c(7, 8, 9),
+               c(10, 10, 11)),                   # panel 10 empty: the legend sits under the barcode column only
+         widths = COL_MM, heights = c(rep(ROW_IN, 4), LEG_IN))
+  par(cex = 1)                                   # undo layout()'s automatic 0.66 shrink
   par(family = FONT, las = 1, mgp = c(2.0, 0.45, 0), tcl = -0.25,
       cex.axis = 1, cex.lab = 1, lwd = LWD, xpd = FALSE)
+
+  # rows 1-3: GPAT6, GH17, PHT4;3 — violins a-c, barcodes f-h
   for (i in seq_along(P)) {
     p <- P[[i]]
     par(mar = c(M_BOT, 3.8, M_TOP, 0.6))
     violin_panel(p, ylab_of(p))
-    panel_label(p, letters[i])                       # a, b, c — violins
+    panel_label(p, letters[i])
     # barcode centred vertically in the row, so it does not stretch with the number of groups
     nr  <- nrow(p$m$consensus) + 1L + nrow(p$m$elite)
-    pad <- (ROW_IN_SBS - (M_TOP + M_BOT) * LINE_IN - nr * 0.175) / 2 / LINE_IN
+    pad <- (ROW_IN - (M_TOP + M_BOT) * LINE_IN - nr * BAR_ROW_IN) / 2 / LINE_IN
     par(mar = c(M_BOT + pad, 5.2, M_TOP + pad, 0.6))
     barcode_panel(p)
-    panel_label(p, letters[i + 3L], name = FALSE, stats = FALSE, dx_in = 0.30)  # d, e, f
+    panel_label(p, letters[i + 5L], name = FALSE, stats = FALSE, dx_in = 0.30)
   }
-  par(mar = c(0, 0, 0, 0)); plot.new()               # spacer under the violin column
-  draw_legend(mar = c(0, 0, 0, 0))                    # centred on the whole barcode column
+
+  # row 4: GDSL — violins d (fiber) and e (starch) side by side, barcode i
+  for (j in seq_along(G7)) {
+    p <- G7[[j]]
+    par(mar = c(M_BOT, 3.8, M_TOP2, 0.6))
+    violin_panel(p, ylab_of(p))
+    panel_label(p, letters[3L + j], two_line = TRUE)
+  }
+  p     <- G7$fiber
+  nr    <- nrow(p$m$consensus) + 1L + nrow(p$m$elite) + TRI_ROWS
+  bar_h <- nr * BAR_ROW_IN
+  free  <- ROW_IN - (M_TOP + M_BOT) * LINE_IN - bar_h - KEY_IN   # barcode + key centred like rows 1-3
+  par(mai = c(M_BOT * LINE_IN + free / 2 + KEY_IN, 5.2 * LINE_IN, M_TOP * LINE_IN + free / 2, 0.6 * LINE_IN))
+  barcode_panel(p)
+  panel_label(p, "i", name = FALSE, stats = FALSE, dx_in = 0.30)
+  xc  <- mm2in(COL_MM[1] + COL_MM[2] + COL_MM[3] / 2)            # centre of the barcode column
+  bot <- grconvertY(0, "npc", "inches")                          # bottom of the barcode plot region
+  hlegend_dev("Genome-wide significant SNP", xc, bot - KEY_IN / 2 - 0.02, pch = SIG_PCH, pcol = SIG_COL)
+
+  par(mar = c(0, 0, 0, 0)); plot.new()           # spacer under the violin column
+  draw_legend(mar = c(0, 0, 0, 0))                # centred on the whole barcode column
 }
 
 # ── Render ────────────────────────────────────────────────────────────────────
@@ -351,4 +515,4 @@ render <- function(name, fun, h_in) {
   cat(sprintf("[fig3] OK -> %s.{png,tif}  (%.0f x %.1f mm, %d dpi)\n", name, W_MM, h_in * 25.4, DPI))
 }
 
-render("Fig3", draw_sidebyside, 3 * ROW_IN_SBS + LEG_IN_SBS)
+render(OUT_NAME, draw_combined, H_IN)
