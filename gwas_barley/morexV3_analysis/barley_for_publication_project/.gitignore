@@ -3,3 +3,12 @@
 10_USED_Paper_writing/new_publishing_paper/references/incoming/
 10_USED_Paper_writing/new_publishing_paper/references/text/
 10_USED_Paper_writing/new_publishing_paper/references/pdfs/
+
+# 10_USED_Paper_writing: push own PDF/DOCX/ZIP/PNG files (supplement ESM_2.pdf, review docx, old mini paper).
+# Added 2026-10-24. Overrides the repo-root *.pdf/*.docx/*.zip/*.png rules for this folder only.
+# Article folders stay out: references/{incoming,text,pdfs} above, and reference_sources/ + journal_TAG/
+# (repo-root .gitignore directory rules, which these negations cannot re-include).
+!10_USED_Paper_writing/**/*.pdf
+!10_USED_Paper_writing/**/*.docx
+!10_USED_Paper_writing/**/*.zip
+!10_USED_Paper_writing/**/*.png
